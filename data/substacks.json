@@ -1,0 +1,88 @@
+{
+  "substacks": [
+    {
+      "id": "newyorksimply",
+      "name": "New York Simply",
+      "url": "https://newyorksimply.substack.com",
+      "description": "A newsletter about New York City life and culture"
+    },
+    {
+      "id": "thewire.educators",
+      "name": "The Wire NYC",
+      "url": "https://thewire.educators.nyc",
+      "description": "Education news and insights from NYC"
+    },
+    {
+      "id": "coolstuffnyc",
+      "name": "Cool Stuff NYC",
+      "url": "https://coolstuffnyc.substack.com",
+      "description": "Discovering the coolest things happening in NYC"
+    },
+    {
+      "id": "nycfoodfaves",
+      "name": "NYC Food Faves",
+      "url": "https://nycfoodfaves.substack.com",
+      "description": "Food and restaurant recommendations in NYC"
+    },
+    {
+      "id": "arthagnyc",
+      "name": "Art Hag NYC",
+      "url": "https://arthagnyc.substack.com",
+      "description": "Art scene and gallery coverage in NYC"
+    },
+    {
+      "id": "nycstreetstylegirl",
+      "name": "NYC Street Style",
+      "url": "https://nycstreetstylegirl.substack.com",
+      "description": "Fashion and street style in NYC"
+    },
+    {
+      "id": "wheelsofnyc",
+      "name": "Wheels of NYC",
+      "url": "https://wheelsofnyc.substack.com",
+      "description": "NYC transportation and mobility news"
+    },
+    {
+      "id": "nycornowhere",
+      "name": "NYC or Nowhere",
+      "url": "https://nycornowhere.substack.com",
+      "description": "Stories and perspectives on NYC life"
+    },
+    {
+      "id": "newyorkonearth",
+      "name": "New York on Earth",
+      "url": "https://newyorkonearth.substack.com/",
+      "description": "A weekly newsletter covering NYC climate news, politics, events, ways to take action and everything in-between."
+    },
+    {
+      "id": "theneighborhoods",
+      "name": "The Neighborhoods",
+      "url": "https://theneighborhoods.substack.com/",
+      "description": "This weekly newsletter is a not-so-deep dive into every neighborhood in NYC."
+    },
+    {
+      "id": "newyorkcartoons",
+      "name": "New York Cartoons",
+      "url": "https://www.newyorkcartoons.com/",
+      "description": "Illustrated stories about city life from a New Yorker Cartoonist & Comedian"
+    },
+    {
+      "id": "newyorkabundance",
+      "name": "Friends of New York City Abundance",
+      "url": "https://newyorkabundance.substack.com/",
+      "description": "A newsletter about New York City life and culture"
+    },
+    {
+      "id": "nycminute",
+      "name": "New York Minute",
+      "url": "https://nycminute.substack.com/",
+      "description": "A newsletter about New York City life and culture"
+    },
+    {
+      "id": "nycpolitics101",
+      "name": "NYC Politics 101",
+      "url": "https://nycpolitics101.substack.com/",
+      "description": "A newsletter about New York City politics"
+    }
+  ]
+} 

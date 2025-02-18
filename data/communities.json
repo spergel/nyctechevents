@@ -1,0 +1,1066 @@
+{
+  "communities": [
+    {
+      "id": "com_gary",
+      "name": "Gary's Guide NYC",
+      "type": "Tech Community",
+      "organizationType": "community",
+      "description": "NYC's go-to resource for tech events, jobs, and networking opportunities",
+      "founded": "2004",
+      "size": "0",
+      "category": ["Tech", "Business", "Networking"],
+      "contact": {
+        "email": "info@garysguide.com",
+        "social": {
+          "twitter": "@garysguide",
+          "facebook": "GarysGuide",
+          "linkedin": "garysguide"
+        }
+      },
+      "website": "https://www.garysguide.com",
+      "meetingLocationIds": [],
+      "image": "garys-guide.jpg",
+      "tags": ["tech events", "startup", "networking", "jobs"],
+      "membershipType": "Open",
+      "membershipFee": "Free"
+    },
+    {
+      "id": "com_fractal",
+      "name": "Fractal Tech",
+      "type": "Tech Community",
+      "description": "A vibrant tech community in NYC focused on innovation, learning, and collaboration",
+      "founded": "2023",
+      "size": "0",
+      "category": ["Tech", "Education", "Innovation"],
+      "contact": {
+        "email": "community@fractal.tech",
+        "phone": "+1 (718) 555-0123",
+        "social": {
+          "instagram": "@fractaltech",
+          "twitter": "@fractaltech",
+          "discord": "discord.gg/PNWh6Xd26X"
+        }
+      },
+      "website": "https://fractal.tech",
+      "meetingLocationIds": ["loc_fractal", "loc_fabrik"],
+      "image": "fractal-community.jpg",
+      "tags": ["tech", "startup", "innovation", "education"],
+      "membershipType": "Open",
+      "membershipFee": "Free"
+    },
+    {
+      "id": "com_sugary",
+      "name": "Sugary NYC",
+      "type": "Cultural Community",
+      "description": "A creative community celebrating art, culture, and connection in New York City",
+      "founded": "2023",
+      "size": "0",
+      "category": ["Arts", "Culture", "Social"],
+      "contact": {
+        "email": "hello@sugary.nyc",
+        "phone": "+1 (212) 555-0123",
+        "social": {
+          "instagram": "@sugarynyc",
+          "twitter": "@sugarynyc",
+          "facebook": "SugaryNYC"
+        }
+      },
+      "website": "https://sugary.nyc",
+      "meetingLocationIds": ["loc_fabrik"],
+      "image": "sugary-community.jpg",
+      "tags": ["arts", "culture", "community", "creativity"],
+      "membershipType": "Open",
+      "membershipFee": "Free"
+    },
+    {
+      "id": "com_techbio",
+      "name": "TechBio Transformers",
+      "type": "BioTech Community",
+      "description": "A vibrant community at the intersection of technology and biotechnology in NYC, fostering innovation and collaboration in healthcare and life sciences",
+      "founded": "2024",
+      "size": "0",
+      "category": ["BioTech", "Tech", "Science", "Healthcare"],
+      "contact": {
+        "email": "community@techbiotransformers.com",
+        "social": {
+          "twitter": "@techbiotransform",
+          "linkedin": "techbio-transformers"
+        }
+      },
+      "website": "https://lu.ma/calendar/cal-0CU5Cs0WlroPpih?tag=nyc",
+      "meetingLocationIds": ["loc_alexandria", "loc_jlabs", "loc_nyu_langone", "loc_cornell", "loc_rockefeller"],
+      "image": "techbio-community.jpg",
+      "tags": ["biotech", "healthcare", "innovation", "science", "technology"],
+      "membershipType": "Open",
+      "membershipFee": "Free"
+    },
+    {
+      "id": "com_57",
+      "name": "57",
+      "type": "Creative Community",
+      "description": "A community that comes together to celebrate creativity across art and entrepreneurship",
+      "founded": "2023",
+      "size": "0",
+      "category": ["Art", "Entrepreneurship", "Community"],
+      "contact": {
+        "email": "hello@fiftyseven.nyc",
+        "social": {
+          "instagram": "@fiftyseven.nyc",
+          "twitter": "@fiftyseven_nyc"
+        }
+      },
+      "website": "https://www.fiftyseven.nyc",
+      "meetingLocationIds": ["loc_nyc"],
+      "image": "57-community.jpg",
+      "tags": ["art", "entrepreneurship", "creativity", "nyc"],
+      "membershipType": "Open",
+      "membershipFee": "Free"
+    },
+    {
+      "id": "com_interference",
+      "name": "Interference Archive",
+      "type": "Cultural Archive",
+      "description": "A volunteer-run archive exploring the relationship between cultural production and social movements, featuring exhibitions, workshops, talks, and screenings focused on social justice and activism.",
+      "founded": "2011",
+      "size": "0",
+      "category": ["Arts", "Culture", "Activism", "Education"],
+      "contact": {
+        "email": "info@interferencearchive.org",
+        "social": {
+          "instagram": "@interferenceArchive",
+          "facebook": "interferencearchive",
+          "twitter": "@InterferenceArch"
+        }
+      },
+      "website": "https://interferencearchive.org",
+      "meetingLocationIds": ["loc_interference"],
+      "image": "interference-archive.jpg",
+      "tags": ["archive", "social movements", "activism", "cultural production", "education"],
+      "membershipType": "Open",
+      "membershipFee": "Free"
+    },
+    {
+      "id": "com_boshis",
+      "name": "Boshi's Place",
+      "type": "Cultural Community",
+      "description": "A community-driven cafe and event space in Bushwick that brings together artists, musicians, and creatives for performances, exhibitions, and cultural gatherings.",
+      "founded": "2022",
+      "size": "0",
+      "category": ["Arts", "Music", "Culture", "Food"],
+      "contact": {
+        "email": "hello@boshis.place",
+        "social": {
+          "instagram": "@boshisplace"
+        }
+      },
+      "website": "https://boshis.place",
+      "meetingLocationIds": ["loc_boshis"],
+      "image": "boshis-community.jpg",
+      "tags": ["cafe", "art", "music", "community", "events"],
+      "membershipType": "Open",
+      "membershipFee": "Free"
+    },
+    {
+      "id": "com_brooklyn_spark",
+      "name": "Brooklyn Spark",
+      "type": "Cultural Community",
+      "description": "A dynamic community space fostering creativity, connection, and cultural exchange through events, workshops, and collaborative projects.",
+      "founded": "2023",
+      "size": "0",
+      "category": ["Arts", "Culture", "Education"],
+      "contact": {
+        "email": "info@brooklynspark.com",
+        "social": {
+          "instagram": "@brooklynspark"
+        }
+      },
+      "website": "https://brooklynspark.com",
+      "meetingLocationIds": ["loc_brooklyn_spark"],
+      "image": "brooklyn-spark-community.jpg",
+      "tags": ["arts", "culture", "community", "workshops"],
+      "membershipType": "Open",
+      "membershipFee": "Free"
+    },
+    {
+      "id": "com_new_women_space",
+      "name": "New Women Space",
+      "type": "Community Organization",
+      "description": "A community-centered organization providing space and programming for women, non-binary, and marginalized genders to gather, learn, and create together.",
+      "founded": "2016",
+      "size": "0",
+      "category": ["Community", "Education", "Activism", "Arts"],
+      "contact": {
+        "email": "hello@newwomenspace.com",
+        "social": {
+          "instagram": "@newwomenspace",
+          "facebook": "NewWomenSpace"
+        }
+      },
+      "website": "https://www.newwomenspace.com",
+      "meetingLocationIds": ["loc_new_women_space"],
+      "image": "new-women-space-community.jpg",
+      "tags": ["women", "non-binary", "community", "education", "events"],
+      "membershipType": "Open",
+      "membershipFee": {
+        "amount": 10,
+        "frequency": "monthly",
+        "details": "Sliding scale available"
+      }
+    },
+    {
+      "id": "com_pioneer_works",
+      "name": "Pioneer Works",
+      "type": "Cultural Institution",
+      "organizationType": "venue_community",
+      "description": "A cultural center that builds community through the arts and sciences to create an open and inspired world, offering residencies, exhibitions, performances, and educational programs.",
+      "founded": "2012",
+      "size": "0",
+      "category": ["Arts", "Science", "Technology", "Education", "Music"],
+      "contact": {
+        "email": "info@pioneerworks.org",
+        "social": {
+          "instagram": "@pioneerworks",
+          "twitter": "@pioneerworks",
+          "facebook": "pioneerworks"
+        }
+      },
+      "website": "https://pioneerworks.org",
+      "meetingLocationIds": ["loc_pioneer_works"],
+      "image": "pioneer-works-community.jpg",
+      "tags": ["art", "science", "education", "technology", "music"],
+      "membershipType": "Open",
+      "membershipFee": {
+        "amount": 10,
+        "frequency": "monthly",
+        "details": "Various membership levels available"
+      }
+    },
+    {
+      "id": "com_principles",
+      "name": "Principles",
+      "type": "Community Space",
+      "description": "A Brooklyn-based community space fostering connection and creativity through events, workshops, and gatherings.",
+      "founded": "2022",
+      "size": "0",
+      "category": ["Community", "Arts", "Culture"],
+      "contact": {
+        "email": "hello@principlesbk.nyc",
+        "social": {
+          "instagram": "@principlesbk"
+        }
+      },
+      "website": "https://principlesbk.nyc",
+      "meetingLocationIds": ["loc_principles"],
+      "image": "principles-community.jpg",
+      "tags": ["community", "events", "workshops", "brooklyn"],
+      "membershipType": "Open",
+      "membershipFee": "Free"
+    },
+    {
+      "id": "com_reccreate",
+      "name": "Reccreate Collective",
+      "type": "Community Collective",
+      "description": "A collective focused on building community through recreation, creativity, and collaborative activities.",
+      "founded": "2023",
+      "size": "0",
+      "category": ["Recreation", "Arts", "Community", "Wellness"],
+      "contact": {
+        "email": "hello@reccreatecollective.com",
+        "social": {
+          "instagram": "@reccreatecollective"
+        }
+      },
+      "website": "https://www.reccreatecollective.com",
+      "meetingLocationIds": ["loc_reccreate"],
+      "image": "reccreate-community.jpg",
+      "tags": ["recreation", "community", "wellness", "creativity"],
+      "membershipType": "Open",
+      "membershipFee": "Free"
+    },
+    {
+      "id": "com_telos",
+      "name": "Telos",
+      "type": "Tech & Arts Community",
+      "description": "A community space and collective in Bushwick focused on technology, art, and cultural exchange, hosting workshops, performances, and community gatherings.",
+      "founded": "2023",
+      "size": "0",
+      "category": ["Tech", "Arts", "Culture", "Education"],
+      "contact": {
+        "email": "hello@telos.haus",
+        "social": {
+          "instagram": "@telos.haus"
+        }
+      },
+      "website": "https://telos.haus",
+      "meetingLocationIds": ["loc_telos"],
+      "image": "telos-community.jpg",
+      "tags": ["tech", "art", "community", "workshops", "events", "co-working"],
+      "membershipType": "Open",
+      "membershipFee": "Free"
+    },
+    {
+      "id": "com_third_space",
+      "name": "Third Space",
+      "type": "Community Collective",
+      "description": "A community-driven collective creating spaces for connection, creativity, and cultural exchange in Brooklyn.",
+      "founded": "2023",
+      "size": "0",
+      "category": ["Community", "Arts", "Culture"],
+      "contact": {
+        "social": {
+          "instagram": "@thirdspacenyc"
+        }
+      },
+      "website": "https://linktr.ee/thirdspacenyc",
+      "meetingLocationIds": ["loc_third_space"],
+      "image": "third-space-community.jpg",
+      "tags": ["community", "arts", "culture", "events"],
+      "membershipType": "Open",
+      "membershipFee": "Free"
+    },
+    {
+      "id": "com_woodbine",
+      "name": "Woodbine",
+      "type": "Community Organization",
+      "description": "An experimental space for developing autonomy through community organizing, education, and mutual aid, featuring a library, garden, and community kitchen.",
+      "founded": "2014",
+      "size": "0",
+      "category": ["Community", "Education", "Activism", "Sustainability"],
+      "contact": {
+        "email": "info@woodbine.nyc",
+        "social": {
+          "instagram": "@woodbine_nyc"
+        }
+      },
+      "website": "https://www.woodbine.nyc",
+      "meetingLocationIds": ["loc_woodbine"],
+      "image": "woodbine-community.jpg",
+      "tags": ["community", "education", "mutual aid", "sustainability"],
+      "membershipType": "Open",
+      "membershipFee": "Free"
+    },
+    {
+      "id": "com_wonderville",
+      "name": "Wonderville",
+      "type": "Gaming & Arts Community",
+      "organizationType": "venue_community",
+      "description": "A community space celebrating indie games, digital art, and electronic music through their arcade, bar, and event venue.",
+      "founded": "2019",
+      "size": "0",
+      "category": ["Games", "Arts", "Music", "Technology"],
+      "contact": {
+        "email": "hello@wonderville.nyc",
+        "social": {
+          "instagram": "@wondervillenyc",
+          "twitter": "@wondervillenyc"
+        }
+      },
+      "website": "https://www.wonderville.nyc",
+      "meetingLocationIds": ["loc_wonderville"],
+      "image": "wonderville-community.jpg",
+      "tags": ["arcade", "games", "music", "digital art", "events"],
+      "membershipType": "Open",
+      "membershipFee": "Free"
+    },
+    {
+      "id": "com_sovereign",
+      "name": "Sovereign",
+      "type": "Community Space",
+      "description": "A community space dedicated to fostering creativity, connection, and cultural exchange through events and gatherings.",
+      "founded": "2023",
+      "size": "0",
+      "category": ["Community", "Arts", "Culture"],
+      "contact": {
+        "social": {
+          "instagram": "@sovereign.house"
+        }
+      },
+      "website": "https://www.sovereign.house",
+      "meetingLocationIds": ["loc_sovereign"],
+      "image": "sovereign-community.jpg",
+      "tags": ["community", "arts", "culture", "events"],
+      "membershipType": "Open",
+      "membershipFee": "Free"
+    },
+    {
+      "id": "com_explorers_club",
+      "name": "The Explorers Club",
+      "type": "Professional Society",
+      "description": "A prestigious international professional society dedicated to scientific exploration, research, and the advancement of field science since 1904.",
+      "founded": "1904",
+      "size": "0",
+      "category": ["Science", "Research", "Education", "Exploration"],
+      "contact": {
+        "email": "membership@explorers.org",
+        "social": {
+          "instagram": "@explorersclub",
+          "twitter": "@ExplorersClub",
+          "facebook": "TheExplorersClub"
+        }
+      },
+      "website": "https://www.explorers.org",
+      "meetingLocationIds": [],
+      "image": "explorers-club-community.jpg",
+      "tags": ["exploration", "science", "research", "education"],
+      "membershipType": "Application Required",
+      "membershipFee": {
+        "amount": 250,
+        "frequency": "yearly",
+        "details": "Various membership levels available"
+      }
+    },
+    {
+      "id": "com_maxwell",
+      "name": "Maxwell Social",
+      "type": "Social Club",
+      "description": "A modern social club and cultural space hosting diverse programming including performances, art shows, and community gatherings.",
+      "founded": "2022",
+      "size": "0",
+      "category": ["Arts", "Culture", "Nightlife", "Community"],
+      "contact": {
+        "email": "info@maxwellsocial.com",
+        "social": {
+          "instagram": "@maxwell.social"
+        }
+      },
+      "website": "https://www.maxwellsocial.com",
+      "meetingLocationIds": ["loc_maxwell"],
+      "image": "maxwell-social-community.jpg",
+      "tags": ["social club", "events", "arts", "nightlife"],
+      "membershipType": "Application Required",
+      "membershipFee": {
+        "amount": 100,
+        "frequency": "monthly",
+        "details": "Various membership tiers available"
+      }
+    },
+    {
+      "id": "com_index",
+      "name": "Index Space",
+      "type": "Arts & Cultural Space",
+      "description": "A contemporary art space and cultural hub in Greenpoint that brings together artists and community members through exhibitions, performances, and events.",
+      "founded": "2021",
+      "size": "0",
+      "category": ["Arts", "Culture", "Performance", "Community"],
+      "contact": {
+        "email": "info@index-space.org",
+        "social": {
+          "instagram": "@indexspace.nyc"
+        }
+      },
+      "website": "https://www.index-space.org",
+      "meetingLocationIds": ["loc_index"],
+      "image": "index-space-community.jpg",
+      "tags": ["art", "culture", "exhibitions", "performance", "community"],
+      "membershipType": "Open",
+      "membershipFee": "Free"
+    },
+    {
+      "id": "com_fabrik_ny",
+      "name": "Fabrik NY",
+      "type": "Creative Community",
+      "description": "A creative community space fostering collaboration, innovation, and connection through curated events and gatherings in Manhattan.",
+      "founded": "2022",
+      "size": "0",
+      "category": ["Creative", "Professional", "Community"],
+      "contact": {
+        "email": "hello@joinfabrik.com",
+        "social": {
+          "instagram": "@joinfabrik"
+        }
+      },
+      "website": "https://www.joinfabrik.com",
+      "meetingLocationIds": ["loc_fabrik_ny"],
+      "image": "fabrik-ny-community.jpg",
+      "tags": ["creative", "community", "events", "collaboration", "co-working"],
+      "membershipType": "Application Required",
+      "membershipFee": {
+        "amount": 249,
+        "frequency": "monthly",
+        "details": "Various membership tiers available"
+      }
+    },
+    {
+      "id": "com_hello_cx",
+      "name": "Hello CX",
+      "type": "Community Platform",
+      "description": "A community platform connecting people through curated experiences and meaningful gatherings across New York City.",
+      "founded": "2023",
+      "size": "0",
+      "category": ["Community", "Social", "Culture"],
+      "contact": {
+        "email": "hello@hello.cx",
+        "social": {
+          "instagram": "@hello.cx"
+        }
+      },
+      "website": "https://hello.cx",
+      "meetingLocationIds": [],
+      "image": "hello-cx-community.jpg",
+      "tags": ["community", "events", "experiences", "social"],
+      "membershipType": "Open",
+      "membershipFee": "Free"
+    },
+    {
+      "id": "com_desci",
+      "name": "DeSci NYC",
+      "type": "Scientific Community",
+      "description": "A community dedicated to advancing decentralized science initiatives, fostering innovation and collaboration in scientific research and technology.",
+      "founded": "2022",
+      "size": "0",
+      "category": ["Science", "Technology", "Research", "Web3"],
+      "contact": {
+        "email": "info@desci.nyc",
+        "social": {
+          "twitter": "@desci_nyc"
+        }
+      },
+      "website": "https://www.desci.nyc",
+      "meetingLocationIds": ["loc_desci"],
+      "image": "desci-nyc-community.jpg",
+      "tags": ["science", "blockchain", "research", "technology"],
+      "membershipType": "Open",
+      "membershipFee": "Free"
+    },
+    {
+      "id": "com_socratica",
+      "name": "Socratica NYC",
+      "type": "Learning Community",
+      "description": "A community fostering intellectual discourse and collaborative learning through structured discussions, workshops, and knowledge sharing.",
+      "founded": "2023",
+      "size": "0",
+      "category": ["Education", "Philosophy", "Community"],
+      "contact": {
+        "social": {
+          "twitter": "@socraticanyc"
+        }
+      },
+      "website": "https://socratica-nyc.notion.site/Socratica-NYC-Info-Page-5f387d55f1794450ad77a9a8af7bde8f?pvs=4",
+      "meetingLocationIds": ["loc_socratica"],
+      "image": "socratica-nyc-community.jpg",
+      "tags": ["learning", "philosophy", "discussion", "education"],
+      "membershipType": "Open",
+      "membershipFee": "Free"
+    },
+    {
+      "id": "com_ea_nyc",
+      "name": "Effective Altruism NYC",
+      "type": "Impact Community",
+      "description": "A community dedicated to using evidence and reason to figure out how to benefit others as much as possible, and taking action on that basis.",
+      "founded": "2014",
+      "size": "0",
+      "category": ["Impact", "Philosophy", "Community"],
+      "contact": {
+        "email": "nyc@effectivealtruism.org",
+        "social": {
+          "facebook": "EffectiveAltruismNYC"
+        }
+      },
+      "website": "https://www.effectivealtruism.nyc",
+      "meetingLocationIds": [],
+      "image": "ea-nyc-community.jpg",
+      "tags": ["effective altruism", "impact", "philosophy", "community"],
+      "membershipType": "Open",
+      "membershipFee": "Free"
+    },
+    {
+      "id": "com_freegan",
+      "name": "Freegan NYC",
+      "type": "Sustainability Community",
+      "description": "A community promoting sustainable living, waste reduction, and alternative economic strategies through education and direct action.",
+      "founded": "2003",
+      "size": "0",
+      "category": ["Sustainability", "Activism", "Education"],
+      "contact": {
+        "email": "info@freegan.info",
+        "social": {
+          "facebook": "FreeganInfo"
+        }
+      },
+      "website": "https://freegan.info",
+      "meetingLocationIds": [],
+      "image": "freegan-nyc-community.jpg",
+      "tags": ["sustainability", "activism", "waste reduction", "community"],
+      "membershipType": "Open",
+      "membershipFee": "Free"
+    },
+    {
+      "id": "com_quiet_reading",
+      "name": "Quiet Reading",
+      "type": "Reading Community",
+      "description": "A community that organizes quiet reading sessions in various locations across New York City, creating spaces for focused reading and contemplation.",
+      "founded": "2023",
+      "size": "0",
+      "category": ["Reading", "Wellness", "Community"],
+      "contact": {
+        "social": {
+          "instagram": "@quietreading"
+        }
+      },
+      "website": "https://quietreading.org",
+      "image": "quiet-reading-community.jpg",
+      "tags": ["reading", "quiet", "mindfulness", "community"],
+      "membershipType": "Open",
+      "membershipFee": "Free"
+    },
+    {
+      "id": "com_empire_skate",
+      "name": "Empire Skate",
+      "type": "Skate Community",
+      "description": "A community organization fostering skateboarding culture through education, events, and community building in New York City.",
+      "founded": "2018",
+      "size": "0",
+      "category": ["Sports", "Education", "Youth", "Community"],
+      "contact": {
+        "email": "info@empireskate.org",
+        "social": {
+          "instagram": "@empireskate"
+        }
+      },
+      "website": "https://empireskate.org",
+      "image": "empire-skate-community.jpg",
+      "tags": ["skateboarding", "youth", "education", "community"],
+      "membershipType": "Open",
+      "membershipFee": "Free"
+    },
+    {
+      "id": "com_hash_nyc",
+      "name": "Hash NYC",
+      "type": "Running Community",
+      "description": "A vibrant running community that combines fitness with social events, organizing regular runs and gatherings across New York City.",
+      "founded": "2015",
+      "size": "0",
+      "category": ["Sports", "Social", "Fitness"],
+      "contact": {
+        "email": "run@hashnyc.com",
+        "social": {
+          "instagram": "@hashnyc"
+        }
+      },
+      "website": "https://hashnyc.com",
+      "image": "hash-nyc-community.jpg",
+      "tags": ["running", "social", "fitness", "community"],
+      "membershipType": "Open",
+      "membershipFee": "Free"
+    },
+    {
+      "id": "com_pickup_ultimate",
+      "name": "NYC Pickup Ultimate",
+      "type": "Sports Community",
+      "description": "An inclusive community organizing pickup ultimate frisbee games across New York City, welcoming players of all skill levels.",
+      "founded": "2010",
+      "size": "0",
+      "category": ["Sports", "Recreation", "Community"],
+      "contact": {
+        "social": {
+          "instagram": "@nycultimate"
+        }
+      },
+      "website": "https://pickupultimate.com/map/city/nyc",
+      "meetingLocationIds": ["loc_pickup_ultimate"],
+      "image": "pickup-ultimate-community.jpg",
+      "tags": ["ultimate frisbee", "sports", "recreation", "community"],
+      "membershipType": "Open",
+      "membershipFee": "Free"
+    },
+    {
+      "id": "com_bushwick_chess",
+      "name": "Bushwick Chess",
+      "type": "Chess Community",
+      "description": "A community bringing together chess enthusiasts of all skill levels for regular games, tournaments, and learning sessions in Bushwick.",
+      "founded": "2022",
+      "size": "0",
+      "category": ["Games", "Education", "Community"],
+      "contact": {
+        "email": "play@bushwickchess.org",
+        "social": {
+          "instagram": "@bushwickchess"
+        }
+      },
+      "website": "https://bushwickchess.org",
+      "meetingLocationIds": ["loc_bushwick_chess"],
+      "image": "bushwick-chess-community.jpg",
+      "tags": ["chess", "games", "education"],
+      "membershipType": "Open",
+      "membershipFee": "Free"
+    },
+    {
+      "id": "com_sacred_harp",
+      "name": "NYC Sacred Harp",
+      "type": "Music Community",
+      "description": "A community preserving and practicing the tradition of Sacred Harp singing through regular gatherings and workshops.",
+      "founded": "1995",
+      "size": "0",
+      "category": ["Music", "Culture", "Community"],
+      "contact": {
+        "email": "info@nycsacredharp.com",
+        "social": {
+          "instagram": "@nycsacredharp"
+        }
+      },
+      "website": "https://www.nycsacredharp.com",
+      "meetingLocationIds": [],
+      "image": "sacred-harp-community.jpg",
+      "tags": ["music", "culture", "community"],
+      "membershipType": "Open",
+      "membershipFee": "Free"
+    },
+    {
+      "id": "com_drawing_room",
+      "name": "NYC Drawing Room",
+      "type": "Arts Community",
+      "description": "A community space dedicated to the practice and appreciation of drawing, offering regular sessions, workshops, and exhibitions.",
+      "founded": "2021",
+      "size": "0",
+      "category": ["Arts", "Education", "Community"],
+      "contact": {
+        "email": "hello@nycdrawingroom.com",
+        "social": {
+          "instagram": "@nycdrawingroom"
+        }
+      },
+      "website": "https://www.nycdrawingroom.com",
+      "meetingLocationIds": [],
+      "image": "drawing-room-community.jpg",
+      "tags": ["arts", "education", "community"],
+      "membershipType": "Open",
+      "membershipFee": "Free"
+    },
+    {
+      "id": "com_ecstatic_dance",
+      "name": "Ecstatic Dance NYC",
+      "type": "Dance Community",
+      "description": "A community celebrating free-form dance and movement as a path to joy, connection, and self-expression.",
+      "founded": "2015",
+      "size": "0",
+      "category": ["Dance", "Wellness", "Movement", "Community"],
+      "contact": {
+        "email": "info@ecstaticdancenyc.com",
+        "social": {
+          "instagram": "@ecstaticdancenyc"
+        }
+      },
+      "website": "https://www.eventbrite.com/o/ecstatic-dance-nyc-33937979455",
+      "meetingLocationIds": [],
+      "image": "ecstatic-dance-community.jpg",
+      "tags": ["dance", "movement", "wellness", "community"],
+      "membershipType": "Open",
+      "membershipFee": "Free"
+    },
+    {
+      "id": "com_nvc",
+      "name": "NYC NVC",
+      "type": "Learning Community",
+      "description": "A community dedicated to practicing and sharing Nonviolent Communication (NVC) through workshops, practice groups, and events.",
+      "founded": "2010",
+      "size": "0",
+      "category": ["Education", "Communication", "Personal Development"],
+      "contact": {
+        "email": "info@nycnvc.org",
+        "social": {
+          "instagram": "@nycnvc"
+        }
+      },
+      "website": "https://www.nycnvc.org",
+      "meetingLocationIds": [],
+      "image": "nyc-nvc-community.jpg",
+      "tags": ["communication", "education", "personal development"],
+      "membershipType": "Open",
+      "membershipFee": "Free"
+    },
+    {
+      "id": "com_shadow_traffic",
+      "name": "Shadow Traffic",
+      "type": "Arts Community",
+      "description": "A community platform exploring the intersection of art, technology, and culture through events and digital experiences.",
+      "founded": "2023",
+      "size": "0",
+      "category": ["Arts", "Technology", "Culture"],
+      "contact": {
+        "social": {
+          "instagram": "@shadowtraffic"
+        }
+      },
+      "website": "https://shadowtraffic.org",
+      "meetingLocationIds": [],
+      "image": "shadow-traffic-community.jpg",
+      "tags": ["arts", "technology", "culture", "digital"],
+      "membershipType": "Open",
+      "membershipFee": "Free"
+    },
+    {
+      "id": "com_bps",
+      "name": "Brooklyn Psychedelic Society",
+      "type": "Nonprofit Organization",
+      "description": "501(c)(3) nonprofit dedicated to making community-based psychedelic healing accessible through education, events, and peer support. Founded in 2015 with over 7,000 members.",
+      "founded": "2015",
+      "size": "0",
+      "category": ["Mental Health", "Psychedelics", "Community Support"],
+      "contact": {
+        "email": "hello@bps.community",
+        "social": {
+          "facebook": "https://www.facebook.com/BrooklynPsychedelicSociety",
+          "instagram": "@brooklynpsychedelicsociety",
+          "youtube": "https://www.youtube.com/@BrooklynPsychedelicSociety",
+          "linkedin": "https://www.linkedin.com/company/brooklyn-psychedelic-society"
+        }
+      },
+      "website": "https://www.bps.community",
+      "meetingLocationIds": ["loc_bps_hq"],
+      "image": "bps-logo.png",
+      "tags": [
+        "psychedelic integration",
+        "community healing",
+        "peer support",
+        "educational workshops",
+        "monthly events",
+        "nonprofit",
+        "mental health"
+      ],
+      "membershipType": "Tiered",
+      "membershipFee": {
+        "monthly": [10, 20, 50],
+        "annual": [100, 200, 500],
+        "slidingScale": true
+      },
+      "features": {
+        "discounts": "30% off events",
+        "exclusiveEvents": true,
+        "supportOptions": ["Community Supporter", "Sustaining", "Impact Partner"]
+      }
+    },
+    {
+      "id": "com_creative_mornings",
+      "name": "Creative Mornings NYC",
+      "type": "Creative Community",
+      "description": "A global community celebrating creative culture through free monthly breakfast events featuring local speakers.",
+      "founded": "2008",
+      "size": "0",
+      "category": ["Creative", "Professional", "Education"],
+      "contact": {
+        "social": {
+          "instagram": "@creativemornings",
+          "twitter": "@creativemorning"
+        }
+      },
+      "website": "https://creativemornings.com/cities/nyc",
+      "meetingLocationIds": [],
+      "image": "creative-mornings-community.jpg",
+      "tags": ["creative", "events", "education", "professional development"],
+      "membershipType": "Open",
+      "membershipFee": "Free"
+    },
+    {
+      "id": "com_call_to_gather",
+      "name": "Call to Gather",
+      "type": "Community Platform",
+      "description": "A platform facilitating meaningful gatherings and connections through curated experiences and community-led events.",
+      "founded": "2023",
+      "size": "0",
+      "category": ["Community", "Events", "Social"],
+      "contact": {
+        "social": {
+          "instagram": "@calltogather"
+        }
+      },
+      "website": "https://calltogather.com",
+      "meetingLocationIds": [],
+      "image": "call-to-gather-community.jpg",
+      "tags": ["community", "events", "social", "gatherings"],
+      "membershipType": "Open",
+      "membershipFee": "Free"
+    },
+    {
+      "id": "com_trivia_league",
+      "name": "NYC Trivia League",
+      "type": "Trivia League",
+      "description": "Organizes weekly pub trivia events at venues across New York City, featuring both in-person and virtual competitions with seasonal championships.",
+      "founded": "Unknown",
+      "size": "0",
+      "category": ["Entertainment", "Games", "Social"],
+      "website": "https://nyctrivialeague.com",
+      "meetingLocationIds": [],
+      "image": "nyc-trivia-league-logo.jpg",
+      "tags": [
+        "trivia", 
+        "pub games",
+        "weekly events",
+        "team competitions",
+        "virtual events",
+        "bar trivia",
+        "social gaming"
+      ],
+      "membershipType": "Open",
+      "membershipFee": "Free"
+    },
+    {
+      "id": "com_olios",
+      "name": "Olios",
+      "type": "Learning Community",
+      "description": "A community focused on lifelong learning through engaging lectures and discussions on various topics.",
+      "founded": "2023",
+      "size": "0",
+      "category": ["Education", "Learning", "Community"],
+      "contact": {
+        "social": {
+          "instagram": "@oliosnyc"
+        }
+      },
+      "website": "https://www.olio.rsvp/",
+      "meetingLocationIds": [],
+      "image": "olios-community.jpg",
+      "tags": ["education", "lectures", "learning", "community"],
+      "membershipType": "Open",
+      "membershipFee": "Free"
+    },
+    {
+      "id": "com_reading_rhythms",
+      "name": "Reading Rhythms Manhattan",
+      "type": "Reading Community",
+      "description": "A community that brings together book lovers for shared reading experiences and literary discussions in Manhattan.",
+      "founded": "2023",
+      "size": "0",
+      "category": ["Reading", "Literature", "Community"],
+      "website": "https://readingrhythms.co/",
+      "meetingLocationIds": [],
+      "image": "reading-rhythms-community.jpg",
+      "tags": ["reading", "books", "literature", "community"],
+      "membershipType": "Open",
+      "membershipFee": "Free"
+    },
+    {
+      "id": "com_walk_club",
+      "name": "Walk Club",
+      "type": "Wellness Community",
+      "description": "A community that organizes group walks around NYC, promoting physical activity, mental wellness, and social connection.",
+      "founded": "2023",
+      "size": "0",
+      "category": ["Wellness", "Fitness", "Social"],
+      "website": "https://lu.ma/walkclub",
+      "meetingLocationIds": [],
+      "image": "walk-club-community.jpg",
+      "tags": ["walking", "wellness", "fitness", "community"],
+      "membershipType": "Open",
+      "membershipFee": "Free"
+    },
+    {
+      "id": "com_nyc_backgammon",
+      "name": "NYC Backgammon Club",
+      "type": "Gaming Community",
+      "description": "A community bringing together backgammon enthusiasts of all skill levels for regular games and tournaments.",
+      "founded": "2023",
+      "size": "0",
+      "category": ["Games", "Social", "Community"],
+      "website": "https://www.nycbackgammon.club/",
+      "meetingLocationIds": [],
+      "image": "nyc-backgammon-community.jpg",
+      "tags": ["backgammon", "games", "social", "community"],
+      "membershipType": "Open",
+      "membershipFee": "Free"
+    },
+    {
+      "id": "com_ny_hardware",
+      "name": "NY Hardware Meetup",
+      "type": "Tech Community",
+      "description": "A community for hardware enthusiasts, makers, and entrepreneurs to share knowledge and collaborate on physical technology projects.",
+      "founded": "2023",
+      "size": "0",
+      "category": ["Tech", "Hardware", "Innovation"],
+      "website": "https://linktr.ee/nyhardware",
+      "meetingLocationIds": [],
+      "image": "ny-hardware-community.jpg",
+      "tags": ["hardware", "technology", "makers", "innovation"],
+      "membershipType": "Open",
+      "membershipFee": "Free"
+    },
+    {
+      "id": "com_la_creme_stem",
+      "name": "La Creme de la STEM",
+      "type": "Professional Community",
+      "description": "A community supporting and connecting professionals in Science, Technology, Engineering, and Mathematics fields.",
+      "founded": "2023",
+      "size": "0",
+      "category": ["STEM", "Professional", "Networking"],
+      "website": "https://www.lacremedelastem.com/",
+      "meetingLocationIds": [],
+      "image": "la-creme-stem-community.jpg",
+      "tags": ["stem", "professional", "networking", "science"],
+      "membershipType": "Open",
+      "membershipFee": "Free"
+    },
+    {
+      "id": "com_south_park_commons",
+      "name": "South Park Commons Events",
+      "type": "Tech Community",
+      "description": "A learning community of technologists, tinkerers, and domain experts sharing knowledge and exploring new ideas.",
+      "founded": "2023",
+      "size": "0",
+      "category": ["Tech", "Innovation", "Learning"],
+      "website": "https://www.southparkcommons.com/",
+      "meetingLocationIds": [],
+      "image": "south-park-commons-community.jpg",
+      "tags": ["technology", "innovation", "learning", "community"],
+      "membershipType": "Open",
+      "membershipFee": "Free"
+    },
+    {
+      "id": "com_verci",
+      "name": "Verci",
+      "type": "Tech Community",
+      "description": "A community focused on exploring and discussing emerging technologies and their impact on society.",
+      "founded": "2023",
+      "size": "0",
+      "category": ["Tech", "Innovation", "Society"],
+      "website": "https://www.verci.com/",
+      "meetingLocationIds": [],
+      "image": "verci-community.jpg",
+      "tags": ["technology", "innovation", "society", "community"],
+      "membershipType": "Open",
+      "membershipFee": "Free"
+    },
+    {
+      "id": "com_nyc_parks",
+      "name": "NYC Parks",
+      "type": "Government Organization",
+      "description": "The New York City Department of Parks & Recreation is the steward of more than 30,000 acres of land — 14 percent of New York City — including more than 5,000 individual properties ranging from Coney Island Beach and Central Park to community gardens and Greenstreets.",
+      "founded": "1934",
+      "size": "0",
+      "category": ["Parks", "Recreation", "Community", "Education", "Nature"],
+      "contact": {
+        "email": "accessibility@parks.nyc.gov",
+        "phone": "212-NEW-YORK",
+        "social": {
+          "instagram": "@nycparks",
+          "twitter": "@NYCParks",
+          "facebook": "nycparks"
+        }
+      },
+      "website": "https://www.nycgovparks.org",
+      "meetingLocationIds": [],
+      "image": "nyc-parks-logo.jpg",
+      "tags": ["parks", "recreation", "nature", "community", "events", "education"],
+      "membershipType": "Open",
+      "membershipFee": "Free"
+    },
+    {
+      "id": "com_raid",
+      "name": "RAID NYC",
+      "type": "Tech Community",
+      "description": "A recurring meetup in New York City featuring talks across disciplines (Research, AI, Design), bringing together professionals and enthusiasts to share knowledge and insights.",
+      "founded": "2024",
+      "size": "0",
+      "category": ["Tech", "Research", "AI", "Design"],
+      "contact": {
+        "social": {
+          "website": "https://raid.nyc"
+        }
+      },
+      "website": "https://raid.nyc",
+      "meetingLocationIds": [],
+      "image": "raid-nyc-community.jpg",
+      "tags": ["research", "ai", "design", "tech talks", "meetup"],
+      "membershipType": "Open",
+      "membershipFee": "Free"
+    }
+  ]
+} 
