@@ -68,80 +68,33 @@ const getTimeOfDay = (date: Date): string => {
   return 'evening'; // Default to evening for any edge cases
 };
 
-// Function to parse search query into phrases and words
-const parseSearchQuery = (query: string): { phrases: string[], words: string[] } => {
-  const phrases: string[] = [];
-  const words: string[] = [];
-  
-  // Extract quoted phrases
-  const phraseRegex = /"([^"]+)"/g;
-  let match;
-  let remainingQuery = query;
-  
-  while ((match = phraseRegex.exec(query)) !== null) {
-    const phrase = match[1].trim().toLowerCase();
-    if (phrase.length >= 2) {
-      phrases.push(phrase);
-    }
-    // Remove the phrase from remaining query
-    remainingQuery = remainingQuery.replace(match[0], '');
-  }
-  
-  // Process remaining unquoted words
-  const remainingWords = remainingQuery
-    .toLowerCase()
-    .trim()
-    .split(/\s+/)
-    .filter(word => word.length >= 2 && !word.includes('"'));
-  
-  words.push(...remainingWords);
-  
-  return { phrases, words };
+// Function to normalize text for searching
+const normalizeText = (text: string): string => {
+  return text?.toLowerCase().trim() || '';
 };
+  
+// Function to check if an event matches the search query
+const eventMatchesSearch = (event: Event, searchQuery: string): boolean => {
+  if (!searchQuery.trim()) return true;
+  
+  const normalizedQuery = normalizeText(searchQuery);
+  const searchTerms = normalizedQuery.split(/\s+/).filter(term => term.length >= 2);
+  
+  if (searchTerms.length === 0) return true;
 
-// Function to calculate search score for an event
-const getSearchScore = (event: Event, searchTerms: { phrases: string[], words: string[] }): number => {
-  let score = 0;
-  const name = event.name.toLowerCase();
-  const type = event.type.toLowerCase();
-  const description = event.description?.toLowerCase() || '';
-  const venueName = event.venue?.name?.toLowerCase() || '';
-  const venueAddress = event.venue?.address?.toLowerCase() || '';
+  const eventText = normalizeText([
+    event.name,
+    event.type,
+    event.description,
+    event.venue?.name,
+    event.venue?.address,
+    event.organizer?.name,
+    event.categories?.map(cat => cat.name).join(' '),
+    event.categories?.flatMap(cat => cat.subcategories || []).join(' ')
+  ].filter(Boolean).join(' '));
 
-  // Score exact phrases (highest priority)
-  for (const phrase of searchTerms.phrases) {
-    // Exact phrase matches in name
-    if (name === phrase) score += 200;
-    if (name.includes(phrase)) score += 150;
-    
-    // Phrase matches in other fields
-    if (type.includes(phrase)) score += 50;
-    if (venueName.includes(phrase)) score += 40;
-    if (description.includes(phrase)) score += 30;
-    if (venueAddress.includes(phrase)) score += 20;
-  }
-
-  // Score individual words
-  for (const word of searchTerms.words) {
-    // Exact matches in name
-    if (name === word) score += 100;
-    if (name.startsWith(word + ' ') || name.includes(' ' + word + ' ') || name.endsWith(' ' + word)) score += 50;
-    if (name.includes(word)) score += 25;
-
-    // Type matches
-    if (type === word) score += 30;
-    if (type.includes(word)) score += 15;
-
-    // Venue name matches
-    if (venueName === word) score += 20;
-    if (venueName.includes(word)) score += 10;
-
-    // Description and address matches
-    if (description.includes(word)) score += 5;
-    if (venueAddress.includes(word)) score += 5;
-  }
-
-  return score;
+  // All search terms must be present for a match
+  return searchTerms.every(term => eventText.includes(term));
 };
 
 export default function Events() {
@@ -180,32 +133,9 @@ export default function Events() {
     try {
       let result = [...baseEvents];
 
-      // Apply search filter if query exists
+      // Apply search filter
       if (searchQuery.trim()) {
-        const { phrases, words } = parseSearchQuery(searchQuery);
-        result = result.filter(event => {
-          const textToSearch = [
-            event.name,
-            event.type,
-            event.description,
-            event.venue?.name,
-            event.venue?.address
-          ].filter(Boolean).join(' ').toLowerCase();
-
-          // Check phrases first
-          if (phrases.length > 0) {
-            const hasPhrase = phrases.some(phrase => textToSearch.includes(phrase));
-            if (!hasPhrase) return false;
-          }
-
-          // Then check individual words
-          if (words.length > 0) {
-            const hasWord = words.some(word => textToSearch.includes(word));
-            if (!hasWord) return false;
-          }
-
-          return true;
-        });
+        result = result.filter(event => eventMatchesSearch(event, searchQuery));
       }
 
       // Apply time of day filter
@@ -251,18 +181,8 @@ export default function Events() {
         );
       }
 
-      // Sort by search relevance if there's a search query
-      if (searchQuery.trim()) {
-        result.sort((a, b) => {
-          const scoreA = getSearchScore(a, parseSearchQuery(searchQuery));
-          const scoreB = getSearchScore(b, parseSearchQuery(searchQuery));
-          if (scoreA !== scoreB) return scoreB - scoreA;
-          return new Date(a.startDate).getTime() - new Date(b.startDate).getTime();
-        });
-      } else {
-        // Otherwise sort by date
+      // Sort by date
         result.sort((a, b) => new Date(a.startDate).getTime() - new Date(b.startDate).getTime());
-      }
 
       return result;
     } finally {
@@ -407,12 +327,23 @@ export default function Events() {
                   <input
                     type="text"
                     value={searchQuery}
-                    onChange={(e) => setSearchQuery(e.target.value)}
-                    placeholder="Search events, locations, communities..."
+                    onChange={(e) => {
+                      const newQuery = e.target.value;
+                      setSearchQuery(newQuery);
+                      // Reset to first page when search changes
+                      setPage(1);
+                      setDisplayedEvents([]);
+                    }}
+                    placeholder="Search events by name, type, location..."
                     className="search-input"
                   />
                   <div className="search-icon">⌕</div>
                 </div>
+                {searchQuery.trim() && (
+                  <div className="search-results-count">
+                    Found {filteredEvents.length} matching events
+                  </div>
+                )}
               </div>
 
               {/* Date Range Filter */}
@@ -507,13 +438,11 @@ export default function Events() {
 
         .events-grid {
           display: grid;
-          grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-          gap: 1rem;
-          padding: 1rem;
+          grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+          gap: 0;
+          padding: 0;
           overflow-y: auto;
           max-height: calc(100vh - 100px);
-          scrollbar-width: thin;
-          scrollbar-color: var(--nyc-orange) rgba(0, 56, 117, 0.3);
         }
 
         .event-card {
@@ -521,17 +450,22 @@ export default function Events() {
           flex-direction: column;
           padding: 1rem;
           background: rgba(0, 56, 117, 0.3);
-          border: 1px solid transparent;
+          border: 1px solid rgba(0, 56, 117, 0.3);
           text-decoration: none;
           color: var(--nyc-white);
           transition: all 0.2s ease;
+          height: 180px;
+          margin: 0;
+          border-right: none;
+          border-bottom: none;
         }
 
-        .event-card:hover {
-          border-color: var(--nyc-orange);
-          background: rgba(0, 56, 117, 0.5);
-          transform: translateY(-2px);
-          box-shadow: 0 4px 12px rgba(255, 107, 28, 0.2);
+        .event-card:last-child {
+          border-right: 1px solid rgba(0, 56, 117, 0.3);
+        }
+
+        .events-grid > *:nth-last-child(-n+3) {
+          border-bottom: 1px solid rgba(0, 56, 117, 0.3);
         }
 
         .event-header {
@@ -556,12 +490,16 @@ export default function Events() {
           font-family: var(--font-display);
           font-size: 1.1rem;
           margin-bottom: 0.5rem;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
         }
 
         .event-categories {
           display: flex;
           flex-wrap: wrap;
           gap: 0.5rem;
+          margin-bottom: auto;
         }
 
         .category-tag {
@@ -664,60 +602,26 @@ export default function Events() {
           }
 
           .events-grid {
-            max-height: calc(100vh - 400px);
+            gap: 0;
+            padding: 0;
           }
 
-          .filters-content {
-            height: auto;
-            max-height: 300px;
+          .event-card {
+            border-right: 1px solid rgba(0, 56, 117, 0.3);
           }
         }
 
         @media (max-width: 768px) {
-          .events-grid {
-            grid-template-columns: 1fr;
-            padding: 0.5rem;
-          }
-
           .event-card {
+            height: 160px;
             padding: 0.75rem;
-          }
-
-          .event-name {
-            font-size: 1rem;
-          }
-
-          .search-input {
-            padding: 0.6rem;
-            font-size: 0.85rem;
-          }
-
-          .search-icon {
-            right: 0.6rem;
-            font-size: 1rem;
           }
         }
 
         @media (max-width: 480px) {
-          .events-grid {
-            gap: 0.5rem;
-          }
-
           .event-card {
+            height: 140px;
             padding: 0.5rem;
-          }
-
-          .event-header {
-            flex-direction: column;
-            gap: 0.25rem;
-          }
-
-          .event-name {
-            font-size: 0.95rem;
-          }
-
-          .category-tag {
-            font-size: 0.65rem;
           }
         }
 
@@ -834,6 +738,14 @@ export default function Events() {
           0% { transform: scale(1); opacity: 0.5; }
           50% { transform: scale(1.2); opacity: 1; }
           100% { transform: scale(1); opacity: 0.5; }
+        }
+
+        .search-results-count {
+          margin-top: 0.5rem;
+          font-size: 0.8rem;
+          color: var(--terminal-color);
+          font-family: var(--font-mono);
+          opacity: 0.8;
         }
       `}</style>
     </main>

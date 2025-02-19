@@ -12,6 +12,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@next/font": "^14.2.15",
     "@types/mapbox-gl": "^3.4.1",
     "clsx": "^2.1.0",
     "leaflet": "^1.9.4",

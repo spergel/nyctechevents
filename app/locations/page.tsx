@@ -122,7 +122,9 @@ export default function Locations() {
       <style jsx>{`
         .locations-page {
           width: 100%;
-          height: 100%;
+          height: 100vh;
+          display: flex;
+          flex-direction: column;
         }
 
         .locations-layout {
@@ -131,6 +133,7 @@ export default function Locations() {
           gap: 0;
           height: 100%;
           padding: 0;
+          flex: 1;
         }
 
         .locations-grid {
@@ -139,7 +142,13 @@ export default function Locations() {
           gap: 0;
           padding: 0;
           overflow-y: auto;
-          max-height: calc(100vh - 100px);
+          height: 100%;
+        }
+
+        .main-section {
+          height: 100%;
+          display: flex;
+          flex-direction: column;
         }
 
         .side-section {

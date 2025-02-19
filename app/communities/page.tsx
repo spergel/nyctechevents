@@ -1,10 +1,10 @@
 'use client';
 import React, { useState, useEffect } from 'react';
-import communities from '../../data/communities.json';
-import { Panel } from '../components/ui/Panel';
-import { HolographicDisplay } from '../components/ui/HolographicDisplay';
-import { FilterButton } from '../components/ui/FilterButton';
-import Loading from '../loading';
+import communities from '@/public/data/communities.json';
+import { Panel } from '@/app/components/ui/Panel';
+import { HolographicDisplay } from '@/app/components/ui/HolographicDisplay';
+import { FilterButton } from '@/app/components/ui/FilterButton';
+import Loading from '@/app/loading';
 
 export default function Communities() {
   const [isLoading, setIsLoading] = useState(true);
@@ -21,8 +21,6 @@ export default function Communities() {
       return () => window.removeEventListener('load', handleLoad);
     }
   }, []);
-
- 
 
   const communityTypes = Array.from(new Set(communities.communities.map(c => c.type)));
 
@@ -41,28 +39,8 @@ export default function Communities() {
   return (
     <main className="communities-page">
       <div className="communities-layout">
-        <div className="filters-section">
-          <Panel title="COMMUNITY TYPES" systemId="TYPE-001" variant="secondary">
-            <div className="filters-content">
-              <div className="type-list">
-                {communityTypes.map((type) => (
-                  <FilterButton
-                    key={type}
-                    label={type}
-                    count={communities.communities.filter(c => c.type === type).length}
-                    isActive={selectedTypes.includes(type)}
-                    onClick={() => toggleType(type)}
-                  />
-                ))}
-              </div>
-            </div>
-          </Panel>
-        </div>
-
         <div className="main-section">
           <Panel title="NYC COMMUNITIES DIRECTORY" systemId="COM-001">
-              
-
             <div className="communities-grid">
               {filteredCommunities.map((community) => (
                 <a key={community.id} href={`/communities/${community.id}`} className="community-card">
@@ -92,6 +70,24 @@ export default function Communities() {
             </div>
           </Panel>
         </div>
+
+        <div className="filters-section">
+          <Panel title="COMMUNITY TYPES" systemId="TYPE-001" variant="secondary">
+            <div className="filters-content">
+              <div className="type-list">
+                {communityTypes.map((type) => (
+                  <FilterButton
+                    key={type}
+                    label={type}
+                    count={communities.communities.filter(c => c.type === type).length}
+                    isActive={selectedTypes.includes(type)}
+                    onClick={() => toggleType(type)}
+                  />
+                ))}
+              </div>
+            </div>
+          </Panel>
+        </div>
       </div>
 
       <style jsx>{`
@@ -102,10 +98,10 @@ export default function Communities() {
 
         .communities-layout {
           display: grid;
-          grid-template-columns: 1fr 300px;
-          gap: 0;
+          grid-template-columns: 1fr 280px;
+          gap: 1rem;
           height: 100%;
-          padding: 0;
+          padding: 1rem;
         }
 
         .main-section {
@@ -115,57 +111,30 @@ export default function Communities() {
           flex-direction: column;
         }
 
-        .stats-section {
-          height: 150px;
-          margin-bottom: 1rem;
-        }
-
-        .stats-grid {
-          display: grid;
-          grid-template-columns: repeat(4, 1fr);
-          gap: 1rem;
-          padding: 1rem;
-          height: 100%;
-          align-items: center;
-        }
-
-        .stat-item {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          gap: 0.5rem;
-          position: relative;
-        }
-
-        .stat-value {
-          font-family: var(--font-display);
-          font-size: 2rem;
-          font-weight: bold;
-        }
-
-        .stat-label {
-          font-family: var(--font-mono);
-          font-size: 0.8rem;
-          color: var(--terminal-color);
-          opacity: 0.8;
-        }
-
-        .stat-line {
-          position: absolute;
-          bottom: -1rem;
-          left: 25%;
-          right: 25%;
-          height: 2px;
-          opacity: 0.5;
-        }
-
         .communities-grid {
           display: grid;
-          grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+          grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
           gap: 0;
           padding: 0;
           overflow-y: auto;
           max-height: calc(100vh - 100px);
+        }
+
+        .filters-section {
+          height: 100%;
+          min-width: 280px;
+        }
+
+        .filters-content {
+          height: calc(100vh - 100px);
+          overflow-y: auto;
+          padding: 1rem;
+        }
+
+        .type-list {
+          display: flex;
+          flex-direction: column;
+          gap: 0.75rem;
         }
 
         .community-card {
@@ -173,12 +142,22 @@ export default function Communities() {
           flex-direction: column;
           padding: 1rem;
           background: rgba(0, 56, 117, 0.3);
-          border: 1px solid transparent;
+          border: 1px solid rgba(0, 56, 117, 0.3);
           text-decoration: none;
           color: var(--nyc-white);
           transition: all 0.2s ease;
-          margin-bottom: -1px;
-          margin-right: -1px;
+          height: 180px;
+          margin: 0;
+          border-right: none;
+          border-bottom: none;
+        }
+
+        .community-card:last-child {
+          border-right: 1px solid rgba(0, 56, 117, 0.3);
+        }
+
+        .communities-grid > *:nth-last-child(-n+3) {
+          border-bottom: 1px solid rgba(0, 56, 117, 0.3);
         }
 
         .card-header {
@@ -223,13 +202,16 @@ export default function Communities() {
           font-size: 1.1rem;
           margin-bottom: 0.5rem;
           color: var(--nyc-white);
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
         }
 
         .community-categories {
           display: flex;
           flex-wrap: wrap;
           gap: 0.5rem;
-          margin-bottom: 1rem;
+          margin-bottom: auto;
         }
 
         .category-tag {
@@ -243,7 +225,7 @@ export default function Communities() {
 
         .card-footer {
           margin-top: auto;
-          padding-top: 1rem;
+          padding-top: 0.5rem;
         }
 
         .footer-line {
@@ -279,18 +261,6 @@ export default function Communities() {
           opacity: 1;
         }
 
-        .filters-content {
-          height: calc(100vh - 100px);
-          overflow-y: auto;
-          padding: 1rem;
-        }
-
-        .type-list {
-          display: flex;
-          flex-direction: column;
-          gap: 0.75rem;
-        }
-
         @keyframes pulse {
           0%, 100% { opacity: 1; }
           50% { opacity: 0.5; }
@@ -300,56 +270,29 @@ export default function Communities() {
           .communities-layout {
             grid-template-columns: 1fr;
             grid-template-rows: auto 1fr;
-            gap: 1rem;
-            padding: 1rem;
           }
 
           .communities-grid {
-            gap: 1rem;
-            padding: 1rem;
+            gap: 0;
+            padding: 0;
           }
 
           .community-card {
-            margin-bottom: 0;
-            margin-right: 0;
+            border-right: 1px solid rgba(0, 56, 117, 0.3);
           }
         }
 
         @media (max-width: 768px) {
-          .communities-grid {
-            grid-template-columns: 1fr;
-            padding: 0.5rem;
-          }
-
-          .stats-grid {
-            grid-template-columns: repeat(2, 1fr);
-          }
-
           .community-card {
+            height: 160px;
             padding: 0.75rem;
           }
         }
 
         @media (max-width: 480px) {
-          .communities-grid {
-            gap: 0.5rem;
-          }
-
           .community-card {
+            height: 140px;
             padding: 0.5rem;
-          }
-
-          .card-header {
-            flex-direction: column;
-            gap: 0.25rem;
-          }
-
-          .community-name {
-            font-size: 0.95rem;
-          }
-
-          .category-tag {
-            font-size: 0.65rem;
           }
         }
       `}</style>

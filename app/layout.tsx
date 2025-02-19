@@ -1,6 +1,5 @@
 import './globals.css'
 import type { Metadata } from 'next'
-import { NavigationArray } from './components/ui/NavigationArray'
 import { MainframeHeader } from './components/ui/MainframeHeader'
 export const metadata: Metadata = {
   title: 'NYC Events & Communities',

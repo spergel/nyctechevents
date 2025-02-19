@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import mapboxgl from 'mapbox-gl';
 
 interface Location {
@@ -26,66 +26,114 @@ const MapComponent = ({ locations, selectedTypes, onLocationClick }: MapComponen
   const mapContainer = useRef<HTMLDivElement>(null);
   const markersRef = useRef<HTMLDivElement[]>([]);
   const cssLoaded = useRef(false);
+  const [mapError, setMapError] = useState<string | null>(null);
 
   useEffect(() => {
     if (typeof window === 'undefined') return;
 
     const initMap = async () => {
-      // Set your Mapbox access token
-      mapboxgl.accessToken = 'pk.eyJ1IjoianNwZXJkZXYiLCJhIjoiY2xzcnVvNW9qMGVrYTJrbzVuczY2aGR6eiJ9.oQHJEKyh3vhGGmPtTgmqIQ';
+      const token = process.env.NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN;
       
-      // Add Mapbox CSS only once
-      if (!cssLoaded.current) {
-        const link = document.createElement('link');
-        link.rel = 'stylesheet';
-        link.href = 'https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css';
-        document.head.appendChild(link);
-        cssLoaded.current = true;
+      // Debug token loading
+      console.log('Token exists:', !!token);
+      console.log('Token prefix:', token?.substring(0, 3));
+      
+      if (!token) {
+        setMapError('Mapbox access token is missing');
+        console.error('Mapbox access token is missing');
+        return;
       }
 
-      // Wait for the container to be available
-      if (!mapContainer.current) return;
+      // Validate token format (should be pk.* for public token)
+      if (!token.startsWith('pk.')) {
+        setMapError('Invalid Mapbox access token format');
+        console.error('Mapbox token should start with "pk." for public tokens');
+        return;
+      }
 
-      // Only initialize map if it hasn't been initialized yet
-      if (!mapRef.current) {
-        // Calculate initial bounds from locations
-        const bounds = new mapboxgl.LngLatBounds();
-        locations.forEach(location => {
-          bounds.extend([location.coordinates.lng, location.coordinates.lat]);
-        });
+      // Set your Mapbox access token from environment variable
+      mapboxgl.accessToken = token;
+      
+      try {
+        // Remove the token validation fetch as it might be causing CORS issues
+        // Instead, we'll let mapboxgl handle the token validation
 
-        // Add different padding for longitude and latitude
-        const lngPadding = 0.3; // 30% padding for longitude (left-right)
-        const latPadding = 0.1; // 10% padding for latitude (up-down)
-        const ne = bounds.getNorthEast();
-        const sw = bounds.getSouthWest();
-        const maxBounds = new mapboxgl.LngLatBounds(
-          [sw.lng - lngPadding, sw.lat - latPadding],
-          [ne.lng + lngPadding, ne.lat + latPadding]
-        );
+        // Add Mapbox CSS only once
+        if (!cssLoaded.current) {
+          const link = document.createElement('link');
+          link.rel = 'stylesheet';
+          link.href = 'https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css';
+          document.head.appendChild(link);
+          cssLoaded.current = true;
+        }
 
-        mapRef.current = new mapboxgl.Map({
-          container: mapContainer.current,
-          style: 'mapbox://styles/jsperdev/clsrvhg8u01dy01p41yyo4cys',
-          center: [-74.0060, 40.7128], // NYC coordinates
-          zoom: 11,
-          attributionControl: false,
-          preserveDrawingBuffer: true,
-          maxBounds: maxBounds,
-          minZoom: 9 // Prevent zooming out too far
-        });
+        // Wait for the container to be available
+        if (!mapContainer.current) {
+          setMapError('Map container not found');
+          return;
+        }
 
-        const map = mapRef.current;
+        // Only initialize map if it hasn't been initialized yet
+        if (!mapRef.current) {
+          try {
+            // Calculate initial bounds from locations
+            const bounds = new mapboxgl.LngLatBounds();
+            
+            if (locations.length === 0) {
+              // Default to NYC bounds if no locations
+              bounds.extend([-74.0060, 40.7128]);
+            } else {
+              locations.forEach(location => {
+                bounds.extend([location.coordinates.lng, location.coordinates.lat]);
+              });
+            }
 
-        // Add zoom controls
-        map.addControl(new mapboxgl.NavigationControl({
-          showCompass: false
-        }), 'top-right');
+            // Add different padding for longitude and latitude
+            const lngPadding = 0.3; // 30% padding for longitude (left-right)
+            const latPadding = 0.1; // 10% padding for latitude (up-down)
+            const ne = bounds.getNorthEast();
+            const sw = bounds.getSouthWest();
+            const maxBounds = new mapboxgl.LngLatBounds(
+              [sw.lng - lngPadding, sw.lat - latPadding],
+              [ne.lng + lngPadding, ne.lat + latPadding]
+            );
 
-        // Wait for map to load before adding markers
-        map.on('load', () => {
-          updateMarkers();
-        });
+            mapRef.current = new mapboxgl.Map({
+              container: mapContainer.current,
+              style: 'mapbox://styles/mapbox/dark-v11',  // Using default Mapbox dark style
+              center: [-74.0060, 40.7128], // NYC coordinates
+              zoom: 11,
+              attributionControl: false,
+              preserveDrawingBuffer: true,
+              maxBounds: maxBounds,
+              minZoom: 9 // Prevent zooming out too far
+            });
+
+            const map = mapRef.current;
+
+            // Add error handling for map load
+            map.on('error', (e) => {
+              console.error('Mapbox GL error:', e);
+              setMapError(`Map error: ${e.error?.message || 'Unknown error'}`);
+            });
+
+            // Add zoom controls
+            map.addControl(new mapboxgl.NavigationControl({
+              showCompass: false
+            }), 'top-right');
+
+            // Wait for map to load before adding markers
+            map.on('load', () => {
+              updateMarkers();
+            });
+          } catch (mapError) {
+            console.error('Map initialization error:', mapError);
+            setMapError(`Map initialization failed: ${mapError instanceof Error ? mapError.message : 'Unknown error'}`);
+          }
+        }
+      } catch (error) {
+        setMapError('Error initializing map');
+        console.error('Error initializing map', error);
       }
     };
 
@@ -173,9 +221,17 @@ const MapComponent = ({ locations, selectedTypes, onLocationClick }: MapComponen
 
   return (
     <div className="cyber-map-container">
-      <div ref={mapContainer} className="map" />
-      <div className="scan-overlay" />
-      <div className="grid-overlay" />
+      {mapError ? (
+        <div className="map-error">
+          <p>{mapError}</p>
+        </div>
+      ) : (
+        <>
+          <div ref={mapContainer} className="map" />
+          <div className="scan-overlay" />
+          <div className="grid-overlay" />
+        </>
+      )}
       
       <style jsx>{`
         .cyber-map-container {
@@ -186,6 +242,23 @@ const MapComponent = ({ locations, selectedTypes, onLocationClick }: MapComponen
           border-radius: 4px;
           overflow: hidden;
           background: var(--panel-bg);
+          border: 1px solid var(--nyc-orange);
+          box-shadow: 0 0 10px rgba(255, 128, 0, 0.2),
+                     inset 0 0 10px rgba(255, 128, 0, 0.1);
+        }
+
+        .map-error {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          color: var(--nyc-orange);
+          text-align: center;
+          font-family: var(--font-mono);
+          padding: 1rem;
+          background: rgba(0, 0, 0, 0.8);
+          border: 1px solid var(--nyc-orange);
+          border-radius: 4px;
         }
 
         .map {
