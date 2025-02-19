@@ -1,0 +1,1082 @@
+2025-02-15 12:36:57,369 - INFO - 
+Processing calendar_events.json
+2025-02-15 13:03:16,008 - INFO - 
+Processing calendar_events.json
+2025-02-15 13:11:50,050 - INFO - 
+Processing calendar_events.json
+2025-02-15 13:13:22,388 - INFO - 
+Processing call_to_gather_events.json
+2025-02-15 13:13:25,485 - INFO - 
+Processing events.json
+2025-02-15 13:13:38,273 - INFO - 
+Processing luma_sources.json
+2025-02-15 13:13:38,274 - WARNING - Unexpected data format in scrapers/data\luma_sources.json
+2025-02-15 13:13:38,275 - INFO - 
+Processing nycgov_events.json
+2025-02-15 13:13:40,540 - INFO - 
+Processing nycgov_kids_and_family_events.json
+2025-02-15 13:14:13,356 - INFO - 
+Processing nycgov_street_and_neighborhood_events.json
+2025-02-15 13:14:38,527 - INFO - 
+Processing nycparks_events.json
+2025-02-15 13:14:45,796 - INFO - 
+Processing yu_and_me_events.json
+2025-02-15 13:14:48,796 - INFO - Saved 1088 categorized events to data/categorized_events.json
+2025-02-15 13:14:48,798 - INFO - 
+=== Categorization Summary ===
+2025-02-15 13:14:48,798 - INFO - Total Events Processed: 1088
+2025-02-15 13:14:48,798 - INFO - Total Sources: 9
+2025-02-15 13:14:48,798 - INFO - Total Categories Used: 8
+2025-02-15 13:14:48,798 - INFO - 
+=== Top Categories ===
+2025-02-15 13:14:48,799 - INFO - 
+Food & Drink (food_drink):
+2025-02-15 13:14:48,799 - INFO -   Total Events: 707
+2025-02-15 13:14:48,799 - INFO -   Average Confidence: 0.79
+2025-02-15 13:14:48,799 - INFO -   Top Sources: {'nycgov_street_and_neighborhood_events': 240, 'calendar_events': 204, 'nycgov_kids_and_family_events': 126}
+2025-02-15 13:14:48,799 - INFO - 
+Arts & Culture (arts_culture):
+2025-02-15 13:14:48,799 - INFO -   Total Events: 577
+2025-02-15 13:14:48,800 - INFO -   Average Confidence: 0.79
+2025-02-15 13:14:48,800 - INFO -   Top Sources: {'nycgov_street_and_neighborhood_events': 196, 'calendar_events': 190, 'nycgov_kids_and_family_events': 125}
+2025-02-15 13:14:48,800 - INFO -   Top Subcategories:
+2025-02-15 13:14:48,800 - INFO -     - music: 79
+2025-02-15 13:14:48,800 - INFO -     - film: 22
+2025-02-15 13:14:48,801 - INFO -     - galleries: 7
+2025-02-15 13:14:48,801 - INFO -     - dance: 5
+2025-02-15 13:14:48,801 - INFO -     - theater: 1
+2025-02-15 13:14:48,801 - INFO - 
+Family & Youth (family_youth):
+2025-02-15 13:14:48,801 - INFO -   Total Events: 547
+2025-02-15 13:14:48,801 - INFO -   Average Confidence: 0.79
+2025-02-15 13:14:48,802 - INFO -   Top Sources: {'calendar_events': 266, 'nycgov_kids_and_family_events': 126, 'events': 45}
+2025-02-15 13:14:48,802 - INFO -   Top Subcategories:
+2025-02-15 13:14:48,802 - INFO -     - family_events: 138
+2025-02-15 13:14:48,802 - INFO - 
+Community & Neighborhood (community_neighborhood):
+2025-02-15 13:14:48,802 - INFO -   Total Events: 473
+2025-02-15 13:14:48,803 - INFO -   Average Confidence: 0.84
+2025-02-15 13:14:48,803 - INFO -   Top Sources: {'nycgov_street_and_neighborhood_events': 240, 'calendar_events': 181, 'events': 44}
+2025-02-15 13:14:48,803 - INFO - 
+Wellness & Fitness (wellness_fitness):
+2025-02-15 13:14:48,803 - INFO -   Total Events: 464
+2025-02-15 13:14:48,803 - INFO -   Average Confidence: 0.82
+2025-02-15 13:14:48,803 - INFO -   Top Sources: {'calendar_events': 406, 'nycparks_events': 35, 'call_to_gather_events': 13}
+2025-02-15 13:14:48,804 - INFO -   Top Subcategories:
+2025-02-15 13:14:48,804 - INFO -     - yoga: 26
+2025-02-15 13:14:48,804 - INFO - 
+Learning & Workshops (learning_workshops):
+2025-02-15 13:14:48,804 - INFO -   Total Events: 238
+2025-02-15 13:14:48,804 - INFO -   Average Confidence: 0.84
+2025-02-15 13:14:48,804 - INFO -   Top Sources: {'events': 121, 'calendar_events': 101, 'call_to_gather_events': 7}
+2025-02-15 13:14:48,805 - INFO -   Top Subcategories:
+2025-02-15 13:14:48,805 - INFO -     - talks: 2
+2025-02-15 13:14:48,805 - INFO -     - workshops: 1
+2025-02-15 13:14:48,805 - INFO - 
+Parks & Outdoors (parks_outdoors):
+2025-02-15 13:14:48,806 - INFO -   Total Events: 195
+2025-02-15 13:14:48,806 - INFO -   Average Confidence: 0.82
+2025-02-15 13:14:48,806 - INFO -   Top Sources: {'calendar_events': 149, 'events': 28, 'nycparks_events': 15}
+2025-02-15 13:14:48,806 - INFO -   Top Subcategories:
+2025-02-15 13:14:48,807 - INFO -     - waterfront: 47
+2025-02-15 13:14:48,807 - INFO -     - gardens: 1
+2025-02-15 13:14:48,807 - INFO - 
+Nightlife & Social (nightlife_social):
+2025-02-15 13:14:48,807 - INFO -   Total Events: 63
+2025-02-15 13:14:48,808 - INFO -   Average Confidence: 0.77
+2025-02-15 13:14:48,808 - INFO -   Top Sources: {'events': 51, 'nycparks_events': 9, 'nycgov_events': 3}
+2025-02-15 13:14:48,808 - INFO - 
+=== Source Statistics ===
+2025-02-15 13:14:48,808 - INFO - 
+calendar_events:
+2025-02-15 13:14:48,808 - INFO -   Total Events: 499
+2025-02-15 13:14:48,809 - INFO -   Categorized Events: 499 (100.0%)
+2025-02-15 13:14:48,809 - INFO -   Top Categories:
+2025-02-15 13:14:48,809 - INFO -     - Wellness & Fitness: 406
+2025-02-15 13:14:48,809 - INFO -     - Family & Youth: 266
+2025-02-15 13:14:48,809 - INFO -     - Food & Drink: 204
+2025-02-15 13:14:48,809 - INFO - 
+nycgov_street_and_neighborhood_events:
+2025-02-15 13:14:48,810 - INFO -   Total Events: 240
+2025-02-15 13:14:48,810 - INFO -   Categorized Events: 240 (100.0%)
+2025-02-15 13:14:48,811 - INFO -   Top Categories:
+2025-02-15 13:14:48,811 - INFO -     - Community & Neighborhood: 240
+2025-02-15 13:14:48,811 - INFO -     - Food & Drink: 240
+2025-02-15 13:14:48,811 - INFO -     - Arts & Culture: 196
+2025-02-15 13:14:48,811 - INFO - 
+events:
+2025-02-15 13:14:48,811 - INFO -   Total Events: 129
+2025-02-15 13:14:48,811 - INFO -   Categorized Events: 129 (100.0%)
+2025-02-15 13:14:48,811 - INFO -   Top Categories:
+2025-02-15 13:14:48,811 - INFO -     - Learning & Workshops: 121
+2025-02-15 13:14:48,812 - INFO -     - Food & Drink: 85
+2025-02-15 13:14:48,812 - INFO -     - Nightlife & Social: 51
+2025-02-15 13:14:48,812 - INFO - 
+nycgov_kids_and_family_events:
+2025-02-15 13:14:48,812 - INFO -   Total Events: 126
+2025-02-15 13:14:48,812 - INFO -   Categorized Events: 126 (100.0%)
+2025-02-15 13:14:48,812 - INFO -   Top Categories:
+2025-02-15 13:14:48,812 - INFO -     - Family & Youth: 126
+2025-02-15 13:14:48,812 - INFO -     - Food & Drink: 126
+2025-02-15 13:14:48,813 - INFO -     - Arts & Culture: 125
+2025-02-15 13:14:48,813 - INFO - 
+nycparks_events:
+2025-02-15 13:14:48,813 - INFO -   Total Events: 50
+2025-02-15 13:14:48,813 - INFO -   Categorized Events: 50 (100.0%)
+2025-02-15 13:14:48,813 - INFO -   Top Categories:
+2025-02-15 13:14:48,814 - INFO -     - Family & Youth: 37
+2025-02-15 13:14:48,814 - INFO -     - Wellness & Fitness: 35
+2025-02-15 13:14:48,814 - INFO -     - Food & Drink: 27
+2025-02-15 13:14:48,814 - INFO - 
+call_to_gather_events:
+2025-02-15 13:14:48,814 - INFO -   Total Events: 20
+2025-02-15 13:14:48,814 - INFO -   Categorized Events: 20 (100.0%)
+2025-02-15 13:14:48,815 - INFO -   Top Categories:
+2025-02-15 13:14:48,815 - INFO -     - Arts & Culture: 19
+2025-02-15 13:14:48,815 - INFO -     - Family & Youth: 14
+2025-02-15 13:14:48,815 - INFO -     - Wellness & Fitness: 13
+2025-02-15 13:14:48,815 - INFO - 
+nycgov_events:
+2025-02-15 13:14:48,815 - INFO -   Total Events: 12
+2025-02-15 13:14:48,816 - INFO -   Categorized Events: 12 (100.0%)
+2025-02-15 13:14:48,816 - INFO -   Top Categories:
+2025-02-15 13:14:48,816 - INFO -     - Family & Youth: 12
+2025-02-15 13:14:48,816 - INFO -     - Arts & Culture: 12
+2025-02-15 13:14:48,816 - INFO -     - Food & Drink: 9
+2025-02-15 13:14:48,816 - INFO - 
+yu_and_me_events:
+2025-02-15 13:14:48,817 - INFO -   Total Events: 12
+2025-02-15 13:14:48,817 - INFO -   Categorized Events: 12 (100.0%)
+2025-02-15 13:14:48,817 - INFO -   Top Categories:
+2025-02-15 13:14:48,817 - INFO -     - Food & Drink: 11
+2025-02-15 13:14:48,817 - INFO -     - Arts & Culture: 8
+2025-02-15 13:14:48,817 - INFO -     - Learning & Workshops: 7
+2025-02-15 13:14:48,818 - INFO - 
+luma_sources:
+2025-02-15 13:14:48,818 - INFO -   Total Events: 0
+2025-02-15 13:52:36,598 - INFO - 
+Processing calendar_events.json
+2025-02-15 13:54:15,231 - INFO - 
+Processing call_to_gather_events.json
+2025-02-15 13:54:21,115 - INFO - 
+Processing events.json
+2025-02-15 13:54:31,572 - INFO - 
+Processing luma_sources.json
+2025-02-15 13:54:31,573 - WARNING - Unexpected data format in scrapers/data\luma_sources.json
+2025-02-15 13:54:31,573 - INFO - 
+Processing nycgov_events.json
+2025-02-15 13:54:35,864 - INFO - 
+Processing nycgov_kids_and_family_events.json
+2025-02-15 13:55:05,653 - INFO - 
+Processing nycgov_street_and_neighborhood_events.json
+2025-02-15 13:55:31,288 - INFO - 
+Processing nycparks_events.json
+2025-02-15 13:55:42,814 - INFO - 
+Processing yu_and_me_events.json
+2025-02-15 13:55:46,299 - INFO - Saved 1088 categorized events to data/categorized_events.json
+2025-02-15 13:55:46,301 - INFO - 
+=== Categorization Summary ===
+2025-02-15 13:55:46,301 - INFO - Total Events Processed: 1088
+2025-02-15 13:55:46,301 - INFO - Total Sources: 9
+2025-02-15 13:55:46,301 - INFO - Total Categories Used: 8
+2025-02-15 13:55:46,301 - INFO - 
+=== Top Categories ===
+2025-02-15 13:55:46,302 - INFO - 
+Family & Youth (family_youth):
+2025-02-15 13:55:46,302 - INFO -   Total Events: 720
+2025-02-15 13:55:46,302 - INFO -   Average Confidence: 0.73
+2025-02-15 13:55:46,302 - INFO -   Top Sources: {'calendar_events': 268, 'nycgov_street_and_neighborhood_events': 210, 'nycgov_kids_and_family_events': 121}
+2025-02-15 13:55:46,303 - INFO -   Top Subcategories:
+2025-02-15 13:55:46,303 - INFO -     - family_events: 133
+2025-02-15 13:55:46,303 - INFO - 
+Arts & Culture (arts_culture):
+2025-02-15 13:55:46,303 - INFO -   Total Events: 674
+2025-02-15 13:55:46,304 - INFO -   Average Confidence: 0.74
+2025-02-15 13:55:46,304 - INFO -   Top Sources: {'calendar_events': 261, 'nycgov_street_and_neighborhood_events': 240, 'nycgov_kids_and_family_events': 108}
+2025-02-15 13:55:46,304 - INFO -   Top Subcategories:
+2025-02-15 13:55:46,304 - INFO -     - music: 125
+2025-02-15 13:55:46,305 - INFO -     - film: 22
+2025-02-15 13:55:46,305 - INFO -     - galleries: 7
+2025-02-15 13:55:46,305 - INFO -     - dance: 5
+2025-02-15 13:55:46,305 - INFO -     - theater: 1
+2025-02-15 13:55:46,306 - INFO - 
+Wellness & Fitness (wellness_fitness):
+2025-02-15 13:55:46,306 - INFO -   Total Events: 511
+2025-02-15 13:55:46,306 - INFO -   Average Confidence: 0.81
+2025-02-15 13:55:46,306 - INFO -   Top Sources: {'calendar_events': 409, 'nycparks_events': 39, 'events': 20}
+2025-02-15 13:55:46,306 - INFO -   Top Subcategories:
+2025-02-15 13:55:46,307 - INFO -     - skating: 161
+2025-02-15 13:55:46,307 - INFO -     - yoga: 26
+2025-02-15 13:55:46,307 - INFO - 
+Food & Drink (food_drink):
+2025-02-15 13:55:46,307 - INFO -   Total Events: 470
+2025-02-15 13:55:46,307 - INFO -   Average Confidence: 0.74
+2025-02-15 13:55:46,308 - INFO -   Top Sources: {'calendar_events': 239, 'nycgov_kids_and_family_events': 107, 'events': 78}
+2025-02-15 13:55:46,308 - INFO - 
+Community & Neighborhood (community_neighborhood):
+2025-02-15 13:55:46,308 - INFO -   Total Events: 402
+2025-02-15 13:55:46,308 - INFO -   Average Confidence: 0.82
+2025-02-15 13:55:46,308 - INFO -   Top Sources: {'nycgov_street_and_neighborhood_events': 240, 'calendar_events': 112, 'events': 45}
+2025-02-15 13:55:46,309 - INFO - 
+Learning & Workshops (learning_workshops):
+2025-02-15 13:55:46,309 - INFO -   Total Events: 315
+2025-02-15 13:55:46,309 - INFO -   Average Confidence: 0.82
+2025-02-15 13:55:46,309 - INFO -   Top Sources: {'calendar_events': 162, 'events': 116, 'nycgov_kids_and_family_events': 22}
+2025-02-15 13:55:46,310 - INFO -   Top Subcategories:
+2025-02-15 13:55:46,310 - INFO -     - talks: 2
+2025-02-15 13:55:46,310 - INFO -     - workshops: 1
+2025-02-15 13:55:46,310 - INFO - 
+Parks & Outdoors (parks_outdoors):
+2025-02-15 13:55:46,310 - INFO -   Total Events: 111
+2025-02-15 13:55:46,310 - INFO -   Average Confidence: 0.81
+2025-02-15 13:55:46,311 - INFO -   Top Sources: {'calendar_events': 40, 'nycgov_street_and_neighborhood_events': 30, 'events': 27}
+2025-02-15 13:55:46,311 - INFO -   Top Subcategories:
+2025-02-15 13:55:46,311 - INFO -     - gardens: 16
+2025-02-15 13:55:46,311 - INFO -     - waterfront: 1
+2025-02-15 13:55:46,311 - INFO - 
+Nightlife & Social (nightlife_social):
+2025-02-15 13:55:46,311 - INFO -   Total Events: 60
+2025-02-15 13:55:46,311 - INFO -   Average Confidence: 0.73
+2025-02-15 13:55:46,311 - INFO -   Top Sources: {'events': 50, 'calendar_events': 6, 'nycparks_events': 4}
+2025-02-15 13:55:46,313 - INFO - 
+=== Source Statistics ===
+2025-02-15 13:55:46,313 - INFO - 
+calendar_events:
+2025-02-15 13:55:46,313 - INFO -   Total Events: 499
+2025-02-15 13:55:46,313 - INFO -   Categorized Events: 499 (100.0%)
+2025-02-15 13:55:46,313 - INFO -   Top Categories:
+2025-02-15 13:55:46,314 - INFO -     - Wellness & Fitness: 409
+2025-02-15 13:55:46,314 - INFO -     - Family & Youth: 268
+2025-02-15 13:55:46,314 - INFO -     - Arts & Culture: 261
+2025-02-15 13:55:46,314 - INFO - 
+nycgov_street_and_neighborhood_events:
+2025-02-15 13:55:46,314 - INFO -   Total Events: 240
+2025-02-15 13:55:46,314 - INFO -   Categorized Events: 240 (100.0%)
+2025-02-15 13:55:46,315 - INFO -   Top Categories:
+2025-02-15 13:55:46,315 - INFO -     - Community & Neighborhood: 240
+2025-02-15 13:55:46,315 - INFO -     - Arts & Culture: 240
+2025-02-15 13:55:46,317 - INFO -     - Family & Youth: 210
+2025-02-15 13:55:46,317 - INFO - 
+events:
+2025-02-15 13:55:46,317 - INFO -   Total Events: 129
+2025-02-15 13:55:46,317 - INFO -   Categorized Events: 129 (100.0%)
+2025-02-15 13:55:46,318 - INFO -   Top Categories:
+2025-02-15 13:55:46,318 - INFO -     - Learning & Workshops: 116
+2025-02-15 13:55:46,318 - INFO -     - Food & Drink: 78
+2025-02-15 13:55:46,319 - INFO -     - Nightlife & Social: 50
+2025-02-15 13:55:46,319 - INFO - 
+nycgov_kids_and_family_events:
+2025-02-15 13:55:46,319 - INFO -   Total Events: 126
+2025-02-15 13:55:46,319 - INFO -   Categorized Events: 126 (100.0%)
+2025-02-15 13:55:46,320 - INFO -   Top Categories:
+2025-02-15 13:55:46,320 - INFO -     - Family & Youth: 121
+2025-02-15 13:55:46,320 - INFO -     - Arts & Culture: 108
+2025-02-15 13:55:46,320 - INFO -     - Food & Drink: 107
+2025-02-15 13:55:46,321 - INFO - 
+nycparks_events:
+2025-02-15 13:55:46,321 - INFO -   Total Events: 50
+2025-02-15 13:55:46,322 - INFO -   Categorized Events: 50 (100.0%)
+2025-02-15 13:55:46,322 - INFO -   Top Categories:
+2025-02-15 13:55:46,322 - INFO -     - Family & Youth: 45
+2025-02-15 13:55:46,324 - INFO -     - Wellness & Fitness: 39
+2025-02-15 13:55:46,324 - INFO -     - Arts & Culture: 24
+2025-02-15 13:55:46,324 - INFO - 
+call_to_gather_events:
+2025-02-15 13:55:46,324 - INFO -   Total Events: 20
+2025-02-15 13:55:46,324 - INFO -   Categorized Events: 20 (100.0%)
+2025-02-15 13:55:46,325 - INFO -   Top Categories:
+2025-02-15 13:55:46,325 - INFO -     - Family & Youth: 19
+2025-02-15 13:55:46,325 - INFO -     - Wellness & Fitness: 18
+2025-02-15 13:55:46,325 - INFO -     - Arts & Culture: 17
+2025-02-15 13:55:46,325 - INFO - 
+nycgov_events:
+2025-02-15 13:55:46,326 - INFO -   Total Events: 12
+2025-02-15 13:55:46,326 - INFO -   Categorized Events: 12 (100.0%)
+2025-02-15 13:55:46,326 - INFO -   Top Categories:
+2025-02-15 13:55:46,326 - INFO -     - Family & Youth: 12
+2025-02-15 13:55:46,327 - INFO -     - Food & Drink: 12
+2025-02-15 13:55:46,327 - INFO -     - Arts & Culture: 7
+2025-02-15 13:55:46,327 - INFO - 
+yu_and_me_events:
+2025-02-15 13:55:46,328 - INFO -   Total Events: 12
+2025-02-15 13:55:46,328 - INFO -   Categorized Events: 12 (100.0%)
+2025-02-15 13:55:46,328 - INFO -   Top Categories:
+2025-02-15 13:55:46,328 - INFO -     - Food & Drink: 10
+2025-02-15 13:55:46,328 - INFO -     - Learning & Workshops: 9
+2025-02-15 13:55:46,328 - INFO -     - Arts & Culture: 8
+2025-02-15 13:55:46,329 - INFO - 
+luma_sources:
+2025-02-15 13:55:46,329 - INFO -   Total Events: 0
+2025-02-15 14:10:14,107 - INFO - 
+Processing calendar_events.json
+2025-02-15 14:45:18,279 - INFO - 
+Processing calendar_events.json
+2025-02-15 14:46:45,856 - INFO - 
+Processing call_to_gather_events.json
+2025-02-15 14:46:49,110 - INFO - 
+Processing events.json
+2025-02-15 14:46:58,227 - INFO - 
+Processing luma_sources.json
+2025-02-15 14:46:58,228 - WARNING - Unexpected data format in scrapers/data\luma_sources.json
+2025-02-15 14:46:58,228 - INFO - 
+Processing nycgov_events.json
+2025-02-15 14:47:00,423 - INFO - 
+Processing nycgov_kids_and_family_events.json
+2025-02-15 14:47:28,854 - INFO - 
+Processing nycgov_street_and_neighborhood_events.json
+2025-02-15 14:47:48,667 - INFO - 
+Processing nycparks_events.json
+2025-02-15 14:47:56,906 - INFO - 
+Processing yu_and_me_events.json
+2025-02-15 14:47:59,896 - INFO - Saved 1088 categorized events to data/categorized_events.json
+2025-02-15 14:47:59,897 - INFO - 
+=== Categorization Summary ===
+2025-02-15 14:47:59,897 - INFO - Total Events Processed: 1088
+2025-02-15 14:47:59,898 - INFO - Total Sources: 9
+2025-02-15 14:47:59,898 - INFO - Total Categories Used: 8
+2025-02-15 14:47:59,898 - INFO - 
+=== Top Categories ===
+2025-02-15 14:47:59,898 - INFO - 
+Family & Youth (family_youth):
+2025-02-15 14:47:59,898 - INFO -   Total Events: 720
+2025-02-15 14:47:59,899 - INFO -   Average Confidence: 0.73
+2025-02-15 14:47:59,899 - INFO -   Top Sources: {'calendar_events': 268, 'nycgov_street_and_neighborhood_events': 210, 'nycgov_kids_and_family_events': 121}
+2025-02-15 14:47:59,899 - INFO -   Top Subcategories:
+2025-02-15 14:47:59,899 - INFO -     - family_events: 133
+2025-02-15 14:47:59,899 - INFO - 
+Arts & Culture (arts_culture):
+2025-02-15 14:47:59,899 - INFO -   Total Events: 674
+2025-02-15 14:47:59,900 - INFO -   Average Confidence: 0.74
+2025-02-15 14:47:59,900 - INFO -   Top Sources: {'calendar_events': 261, 'nycgov_street_and_neighborhood_events': 240, 'nycgov_kids_and_family_events': 108}
+2025-02-15 14:47:59,900 - INFO -   Top Subcategories:
+2025-02-15 14:47:59,900 - INFO -     - music: 125
+2025-02-15 14:47:59,900 - INFO -     - film: 22
+2025-02-15 14:47:59,900 - INFO -     - galleries: 7
+2025-02-15 14:47:59,900 - INFO -     - dance: 5
+2025-02-15 14:47:59,901 - INFO -     - theater: 1
+2025-02-15 14:47:59,901 - INFO - 
+Wellness & Fitness (wellness_fitness):
+2025-02-15 14:47:59,901 - INFO -   Total Events: 511
+2025-02-15 14:47:59,901 - INFO -   Average Confidence: 0.81
+2025-02-15 14:47:59,901 - INFO -   Top Sources: {'calendar_events': 409, 'nycparks_events': 39, 'events': 20}
+2025-02-15 14:47:59,902 - INFO -   Top Subcategories:
+2025-02-15 14:47:59,902 - INFO -     - skating: 161
+2025-02-15 14:47:59,902 - INFO -     - yoga: 26
+2025-02-15 14:47:59,902 - INFO - 
+Food & Drink (food_drink):
+2025-02-15 14:47:59,902 - INFO -   Total Events: 470
+2025-02-15 14:47:59,903 - INFO -   Average Confidence: 0.74
+2025-02-15 14:47:59,903 - INFO -   Top Sources: {'calendar_events': 239, 'nycgov_kids_and_family_events': 107, 'events': 78}
+2025-02-15 14:47:59,903 - INFO - 
+Community & Neighborhood (community_neighborhood):
+2025-02-15 14:47:59,903 - INFO -   Total Events: 402
+2025-02-15 14:47:59,903 - INFO -   Average Confidence: 0.82
+2025-02-15 14:47:59,903 - INFO -   Top Sources: {'nycgov_street_and_neighborhood_events': 240, 'calendar_events': 112, 'events': 45}
+2025-02-15 14:47:59,904 - INFO - 
+Learning & Workshops (learning_workshops):
+2025-02-15 14:47:59,904 - INFO -   Total Events: 315
+2025-02-15 14:47:59,904 - INFO -   Average Confidence: 0.82
+2025-02-15 14:47:59,904 - INFO -   Top Sources: {'calendar_events': 162, 'events': 116, 'nycgov_kids_and_family_events': 22}
+2025-02-15 14:47:59,904 - INFO -   Top Subcategories:
+2025-02-15 14:47:59,904 - INFO -     - talks: 2
+2025-02-15 14:47:59,905 - INFO -     - workshops: 1
+2025-02-15 14:47:59,905 - INFO - 
+Parks & Outdoors (parks_outdoors):
+2025-02-15 14:47:59,906 - INFO -   Total Events: 111
+2025-02-15 14:47:59,906 - INFO -   Average Confidence: 0.81
+2025-02-15 14:47:59,906 - INFO -   Top Sources: {'calendar_events': 40, 'nycgov_street_and_neighborhood_events': 30, 'events': 27}
+2025-02-15 14:47:59,906 - INFO -   Top Subcategories:
+2025-02-15 14:47:59,907 - INFO -     - gardens: 16
+2025-02-15 14:47:59,907 - INFO -     - waterfront: 1
+2025-02-15 14:47:59,907 - INFO - 
+Nightlife & Social (nightlife_social):
+2025-02-15 14:47:59,907 - INFO -   Total Events: 60
+2025-02-15 14:47:59,907 - INFO -   Average Confidence: 0.73
+2025-02-15 14:47:59,908 - INFO -   Top Sources: {'events': 50, 'calendar_events': 6, 'nycparks_events': 4}
+2025-02-15 14:47:59,908 - INFO - 
+=== Source Statistics ===
+2025-02-15 14:47:59,908 - INFO - 
+calendar_events:
+2025-02-15 14:47:59,908 - INFO -   Total Events: 499
+2025-02-15 14:47:59,908 - INFO -   Categorized Events: 499 (100.0%)
+2025-02-15 14:47:59,908 - INFO -   Top Categories:
+2025-02-15 14:47:59,909 - INFO -     - Wellness & Fitness: 409
+2025-02-15 14:47:59,909 - INFO -     - Family & Youth: 268
+2025-02-15 14:47:59,909 - INFO -     - Arts & Culture: 261
+2025-02-15 14:47:59,909 - INFO - 
+nycgov_street_and_neighborhood_events:
+2025-02-15 14:47:59,909 - INFO -   Total Events: 240
+2025-02-15 14:47:59,909 - INFO -   Categorized Events: 240 (100.0%)
+2025-02-15 14:47:59,910 - INFO -   Top Categories:
+2025-02-15 14:47:59,910 - INFO -     - Community & Neighborhood: 240
+2025-02-15 14:47:59,910 - INFO -     - Arts & Culture: 240
+2025-02-15 14:47:59,910 - INFO -     - Family & Youth: 210
+2025-02-15 14:47:59,910 - INFO - 
+events:
+2025-02-15 14:47:59,910 - INFO -   Total Events: 129
+2025-02-15 14:47:59,911 - INFO -   Categorized Events: 129 (100.0%)
+2025-02-15 14:47:59,911 - INFO -   Top Categories:
+2025-02-15 14:47:59,911 - INFO -     - Learning & Workshops: 116
+2025-02-15 14:47:59,911 - INFO -     - Food & Drink: 78
+2025-02-15 14:47:59,911 - INFO -     - Nightlife & Social: 50
+2025-02-15 14:47:59,912 - INFO - 
+nycgov_kids_and_family_events:
+2025-02-15 14:47:59,912 - INFO -   Total Events: 126
+2025-02-15 14:47:59,912 - INFO -   Categorized Events: 126 (100.0%)
+2025-02-15 14:47:59,912 - INFO -   Top Categories:
+2025-02-15 14:47:59,912 - INFO -     - Family & Youth: 121
+2025-02-15 14:47:59,912 - INFO -     - Arts & Culture: 108
+2025-02-15 14:47:59,913 - INFO -     - Food & Drink: 107
+2025-02-15 14:47:59,913 - INFO - 
+nycparks_events:
+2025-02-15 14:47:59,913 - INFO -   Total Events: 50
+2025-02-15 14:47:59,913 - INFO -   Categorized Events: 50 (100.0%)
+2025-02-15 14:47:59,914 - INFO -   Top Categories:
+2025-02-15 14:47:59,914 - INFO -     - Family & Youth: 45
+2025-02-15 14:47:59,914 - INFO -     - Wellness & Fitness: 39
+2025-02-15 14:47:59,914 - INFO -     - Arts & Culture: 24
+2025-02-15 14:47:59,914 - INFO - 
+call_to_gather_events:
+2025-02-15 14:47:59,914 - INFO -   Total Events: 20
+2025-02-15 14:47:59,915 - INFO -   Categorized Events: 20 (100.0%)
+2025-02-15 14:47:59,915 - INFO -   Top Categories:
+2025-02-15 14:47:59,915 - INFO -     - Family & Youth: 19
+2025-02-15 14:47:59,915 - INFO -     - Wellness & Fitness: 18
+2025-02-15 14:47:59,915 - INFO -     - Arts & Culture: 17
+2025-02-15 14:47:59,915 - INFO - 
+nycgov_events:
+2025-02-15 14:47:59,916 - INFO -   Total Events: 12
+2025-02-15 14:47:59,916 - INFO -   Categorized Events: 12 (100.0%)
+2025-02-15 14:47:59,916 - INFO -   Top Categories:
+2025-02-15 14:47:59,916 - INFO -     - Family & Youth: 12
+2025-02-15 14:47:59,916 - INFO -     - Food & Drink: 12
+2025-02-15 14:47:59,917 - INFO -     - Arts & Culture: 7
+2025-02-15 14:47:59,917 - INFO - 
+yu_and_me_events:
+2025-02-15 14:47:59,917 - INFO -   Total Events: 12
+2025-02-15 14:47:59,917 - INFO -   Categorized Events: 12 (100.0%)
+2025-02-15 14:47:59,917 - INFO -   Top Categories:
+2025-02-15 14:47:59,918 - INFO -     - Food & Drink: 10
+2025-02-15 14:47:59,918 - INFO -     - Learning & Workshops: 9
+2025-02-15 14:47:59,918 - INFO -     - Arts & Culture: 8
+2025-02-15 14:47:59,918 - INFO - 
+luma_sources:
+2025-02-15 14:47:59,918 - INFO -   Total Events: 0
+2025-02-16 17:25:15,120 - INFO - 
+Processing calendar_events.json
+2025-02-16 17:27:05,926 - INFO - 
+Processing call_to_gather_events.json
+2025-02-16 17:27:10,105 - INFO - 
+Processing events.json
+2025-02-16 17:27:21,026 - INFO - 
+Processing google_calendar_events.json
+2025-02-16 18:29:46,089 - INFO - 
+Processing 57_events.json
+2025-02-16 18:29:49,104 - INFO - 
+Processing call_to_gather_events.json
+2025-02-16 18:29:54,105 - INFO - 
+Processing events.json
+2025-02-16 18:29:54,107 - INFO - 
+Processing gary_events.json
+2025-02-16 18:29:54,971 - INFO - 
+Processing google_calendar_events.json
+2025-02-16 18:31:52,538 - INFO - 
+Processing ics_calendar_events.json
+2025-02-16 18:31:57,332 - INFO - 
+Processing interference_events.json
+2025-02-16 18:31:59,022 - INFO - 
+Processing nycgov_kids_and_family_events.json
+2025-02-16 18:32:41,210 - INFO - 
+Processing nycgov_street_and_neighborhood_events.json
+2025-02-16 18:33:19,417 - INFO - 
+Processing nycparks_events.json
+2025-02-16 18:33:33,574 - INFO - 
+Processing pioneer_works_events.json
+2025-02-16 18:33:35,643 - INFO - 
+Processing reccreate_events.json
+2025-02-16 18:33:38,112 - INFO - 
+Processing wonderville_events.json
+2025-02-16 18:34:00,412 - INFO - 
+Processing yu_and_me_events.json
+2025-02-16 18:34:00,573 - INFO - Saved 1151 categorized events to data/categorized_events.json
+2025-02-16 18:34:00,575 - INFO - 
+=== Categorization Summary ===
+2025-02-16 18:34:00,576 - INFO - Total Events Processed: 1151
+2025-02-16 18:34:00,576 - INFO - Total Sources: 14
+2025-02-16 18:34:00,576 - INFO - Total Categories Used: 8
+2025-02-16 18:34:00,577 - INFO - 
+=== Top Categories ===
+2025-02-16 18:34:00,577 - INFO - 
+Family & Youth (family_youth):
+2025-02-16 18:34:00,577 - INFO -   Total Events: 723
+2025-02-16 18:34:00,577 - INFO -   Average Confidence: 0.74
+2025-02-16 18:34:00,578 - INFO -   Top Sources: {'nycgov_street_and_neighborhood_events': 211, 'google_calendar_events': 209, 'nycgov_kids_and_family_events': 118}
+2025-02-16 18:34:00,578 - INFO -   Top Subcategories:
+2025-02-16 18:34:00,578 - INFO -     - family_events: 118
+2025-02-16 18:34:00,578 - INFO - 
+Arts & Culture (arts_culture):
+2025-02-16 18:34:00,579 - INFO -   Total Events: 674
+2025-02-16 18:34:00,579 - INFO -   Average Confidence: 0.73
+2025-02-16 18:34:00,579 - INFO -   Top Sources: {'nycgov_street_and_neighborhood_events': 240, 'google_calendar_events': 206, 'nycgov_kids_and_family_events': 107}
+2025-02-16 18:34:00,579 - INFO -   Top Subcategories:
+2025-02-16 18:34:00,580 - INFO -     - music: 151
+2025-02-16 18:34:00,580 - INFO -     - film: 21
+2025-02-16 18:34:00,580 - INFO -     - dance: 9
+2025-02-16 18:34:00,580 - INFO -     - galleries: 7
+2025-02-16 18:34:00,581 - INFO -     - theater: 1
+2025-02-16 18:34:00,581 - INFO - 
+Food & Drink (food_drink):
+2025-02-16 18:34:00,581 - INFO -   Total Events: 499
+2025-02-16 18:34:00,581 - INFO -   Average Confidence: 0.74
+2025-02-16 18:34:00,581 - INFO -   Top Sources: {'google_calendar_events': 230, 'nycgov_kids_and_family_events': 104, 'wonderville_events': 92}
+2025-02-16 18:34:00,581 - INFO - 
+Community & Neighborhood (community_neighborhood):
+2025-02-16 18:34:00,581 - INFO -   Total Events: 474
+2025-02-16 18:34:00,582 - INFO -   Average Confidence: 0.81
+2025-02-16 18:34:00,582 - INFO -   Top Sources: {'nycgov_street_and_neighborhood_events': 240, 'google_calendar_events': 229, 'wonderville_events': 3}
+2025-02-16 18:34:00,582 - INFO - 
+Wellness & Fitness (wellness_fitness):
+2025-02-16 18:34:00,583 - INFO -   Total Events: 398
+2025-02-16 18:34:00,583 - INFO -   Average Confidence: 0.81
+2025-02-16 18:34:00,583 - INFO -   Top Sources: {'google_calendar_events': 278, 'nycparks_events': 44, 'call_to_gather_events': 18}
+2025-02-16 18:34:00,584 - INFO -   Top Subcategories:
+2025-02-16 18:34:00,584 - INFO -     - skating: 155
+2025-02-16 18:34:00,584 - INFO -     - yoga: 30
+2025-02-16 18:34:00,585 - INFO -     - mental_health: 2
+2025-02-16 18:34:00,585 - INFO - 
+Learning & Workshops (learning_workshops):
+2025-02-16 18:34:00,585 - INFO -   Total Events: 349
+2025-02-16 18:34:00,585 - INFO -   Average Confidence: 0.82
+2025-02-16 18:34:00,586 - INFO -   Top Sources: {'google_calendar_events': 212, 'wonderville_events': 49, 'ics_calendar_events': 33}
+2025-02-16 18:34:00,586 - INFO -   Top Subcategories:
+2025-02-16 18:34:00,586 - INFO -     - classes: 1
+2025-02-16 18:34:00,586 - INFO - 
+Parks & Outdoors (parks_outdoors):
+2025-02-16 18:34:00,587 - INFO -   Total Events: 276
+2025-02-16 18:34:00,587 - INFO -   Average Confidence: 0.82
+2025-02-16 18:34:00,588 - INFO -   Top Sources: {'google_calendar_events': 229, 'nycgov_street_and_neighborhood_events': 29, 'wonderville_events': 7}
+2025-02-16 18:34:00,588 - INFO -   Top Subcategories:
+2025-02-16 18:34:00,588 - INFO -     - gardens: 15
+2025-02-16 18:34:00,588 - INFO - 
+Nightlife & Social (nightlife_social):
+2025-02-16 18:34:00,589 - INFO -   Total Events: 56
+2025-02-16 18:34:00,589 - INFO -   Average Confidence: 0.75
+2025-02-16 18:34:00,590 - INFO -   Top Sources: {'wonderville_events': 48, 'gary_events': 2, 'nycparks_events': 2}
+2025-02-16 18:34:00,590 - INFO - 
+=== Source Statistics ===
+2025-02-16 18:34:00,590 - INFO - 
+google_calendar_events:
+2025-02-16 18:34:00,590 - INFO -   Total Events: 531
+2025-02-16 18:34:00,591 - INFO -   Categorized Events: 531 (100.0%)
+2025-02-16 18:34:00,591 - INFO -   Top Categories:
+2025-02-16 18:34:00,591 - INFO -     - Wellness & Fitness: 278
+2025-02-16 18:34:00,591 - INFO -     - Food & Drink: 230
+2025-02-16 18:34:00,592 - INFO -     - Community & Neighborhood: 229
+2025-02-16 18:34:00,592 - INFO - 
+nycgov_street_and_neighborhood_events:
+2025-02-16 18:34:00,592 - INFO -   Total Events: 240
+2025-02-16 18:34:00,592 - INFO -   Categorized Events: 240 (100.0%)
+2025-02-16 18:34:00,593 - INFO -   Top Categories:
+2025-02-16 18:34:00,593 - INFO -     - Community & Neighborhood: 240
+2025-02-16 18:34:00,594 - INFO -     - Arts & Culture: 240
+2025-02-16 18:34:00,594 - INFO -     - Family & Youth: 211
+2025-02-16 18:34:00,594 - INFO - 
+nycgov_kids_and_family_events:
+2025-02-16 18:34:00,594 - INFO -   Total Events: 123
+2025-02-16 18:34:00,595 - INFO -   Categorized Events: 123 (100.0%)
+2025-02-16 18:34:00,595 - INFO -   Top Categories:
+2025-02-16 18:34:00,595 - INFO -     - Family & Youth: 118
+2025-02-16 18:34:00,595 - INFO -     - Arts & Culture: 107
+2025-02-16 18:34:00,596 - INFO -     - Food & Drink: 104
+2025-02-16 18:34:00,596 - INFO - 
+wonderville_events:
+2025-02-16 18:34:00,596 - INFO -   Total Events: 97
+2025-02-16 18:34:00,596 - INFO -   Categorized Events: 97 (100.0%)
+2025-02-16 18:34:00,597 - INFO -   Top Categories:
+2025-02-16 18:34:00,597 - INFO -     - Food & Drink: 92
+2025-02-16 18:34:00,597 - INFO -     - Family & Youth: 61
+2025-02-16 18:34:00,597 - INFO -     - Learning & Workshops: 49
+2025-02-16 18:34:00,598 - INFO - 
+nycparks_events:
+2025-02-16 18:34:00,598 - INFO -   Total Events: 50
+2025-02-16 18:34:00,598 - INFO -   Categorized Events: 50 (100.0%)
+2025-02-16 18:34:00,598 - INFO -   Top Categories:
+2025-02-16 18:34:00,598 - INFO -     - Family & Youth: 49
+2025-02-16 18:34:00,599 - INFO -     - Wellness & Fitness: 44
+2025-02-16 18:34:00,599 - INFO -     - Arts & Culture: 29
+2025-02-16 18:34:00,599 - INFO - 
+ics_calendar_events:
+2025-02-16 18:34:00,599 - INFO -   Total Events: 34
+2025-02-16 18:34:00,600 - INFO -   Categorized Events: 34 (100.0%)
+2025-02-16 18:34:00,600 - INFO -   Top Categories:
+2025-02-16 18:34:00,600 - INFO -     - Learning & Workshops: 33
+2025-02-16 18:34:00,601 - INFO -     - Food & Drink: 24
+2025-02-16 18:34:00,601 - INFO -     - Family & Youth: 15
+2025-02-16 18:34:00,601 - INFO - 
+reccreate_events:
+2025-02-16 18:34:00,601 - INFO -   Total Events: 21
+2025-02-16 18:34:00,602 - INFO -   Categorized Events: 21 (100.0%)
+2025-02-16 18:34:00,602 - INFO -   Top Categories:
+2025-02-16 18:34:00,602 - INFO -     - Family & Youth: 21
+2025-02-16 18:34:00,602 - INFO -     - Arts & Culture: 21
+2025-02-16 18:34:00,603 - INFO -     - Wellness & Fitness: 12
+2025-02-16 18:34:00,603 - INFO - 
+call_to_gather_events:
+2025-02-16 18:34:00,603 - INFO -   Total Events: 20
+2025-02-16 18:34:00,603 - INFO -   Categorized Events: 20 (100.0%)
+2025-02-16 18:34:00,604 - INFO -   Top Categories:
+2025-02-16 18:34:00,604 - INFO -     - Family & Youth: 19
+2025-02-16 18:34:00,604 - INFO -     - Wellness & Fitness: 18
+2025-02-16 18:34:00,604 - INFO -     - Arts & Culture: 17
+2025-02-16 18:34:00,604 - INFO - 
+pioneer_works_events:
+2025-02-16 18:34:00,605 - INFO -   Total Events: 12
+2025-02-16 18:34:00,605 - INFO -   Categorized Events: 11 (91.7%)
+2025-02-16 18:34:00,605 - INFO -   Top Categories:
+2025-02-16 18:34:00,605 - INFO -     - Arts & Culture: 10
+2025-02-16 18:34:00,606 - INFO -     - Learning & Workshops: 8
+2025-02-16 18:34:00,606 - INFO -     - Family & Youth: 7
+2025-02-16 18:34:00,606 - INFO - 
+57_events:
+2025-02-16 18:34:00,606 - INFO -   Total Events: 11
+2025-02-16 18:34:00,607 - INFO -   Categorized Events: 11 (100.0%)
+2025-02-16 18:34:00,607 - INFO -   Top Categories:
+2025-02-16 18:34:00,607 - INFO -     - Learning & Workshops: 8
+2025-02-16 18:34:00,607 - INFO -     - Wellness & Fitness: 7
+2025-02-16 18:34:00,608 - INFO -     - Food & Drink: 7
+2025-02-16 18:34:00,608 - INFO - 
+gary_events:
+2025-02-16 18:34:00,608 - INFO -   Total Events: 6
+2025-02-16 18:34:00,608 - INFO -   Categorized Events: 6 (100.0%)
+2025-02-16 18:34:00,609 - INFO -   Top Categories:
+2025-02-16 18:34:00,609 - INFO -     - Food & Drink: 6
+2025-02-16 18:34:00,609 - INFO -     - Learning & Workshops: 5
+2025-02-16 18:34:00,609 - INFO -     - Family & Youth: 4
+2025-02-16 18:34:00,610 - INFO - 
+interference_events:
+2025-02-16 18:34:00,610 - INFO -   Total Events: 6
+2025-02-16 18:34:00,610 - INFO -   Categorized Events: 6 (100.0%)
+2025-02-16 18:34:00,610 - INFO -   Top Categories:
+2025-02-16 18:34:00,611 - INFO -     - Arts & Culture: 5
+2025-02-16 18:34:00,611 - INFO -     - Family & Youth: 4
+2025-02-16 18:34:00,611 - INFO -     - Wellness & Fitness: 4
+2025-02-16 18:34:00,611 - INFO - 
+events:
+2025-02-16 18:34:00,611 - INFO -   Total Events: 0
+2025-02-18 17:17:37,731 - WARNING - Could not load auxiliary data: [Errno 2] No such file or directory: 'data/communities.json'
+2025-02-18 17:17:39,436 - INFO - 
+Processing 57_events.json
+2025-02-18 17:17:41,847 - INFO - 
+Processing call_to_gather_events.json
+2025-02-18 17:17:45,175 - INFO - 
+Processing events.json
+2025-02-18 17:17:45,176 - INFO - 
+Processing gary_events.json
+2025-02-18 17:17:45,553 - INFO - 
+Processing google_calendar_events.json
+2025-02-18 17:19:17,001 - INFO - 
+Processing ics_calendar_events.json
+2025-02-18 17:19:22,620 - INFO - 
+Processing interference_events.json
+2025-02-18 17:19:23,883 - INFO - 
+Processing nycgov_kids_and_family_events.json
+2025-02-18 17:19:53,956 - INFO - 
+Processing nycgov_street_and_neighborhood_events.json
+2025-02-18 17:20:21,299 - INFO - 
+Processing nycparks_events.json
+2025-02-18 17:20:29,952 - INFO - 
+Processing pioneer_works_events.json
+2025-02-18 17:20:31,262 - INFO - 
+Processing reccreate_events.json
+2025-02-18 17:20:33,016 - INFO - 
+Processing substackposts.json
+2025-02-18 17:20:33,025 - WARNING - Unexpected data format in scrapers/data\substackposts.json
+2025-02-18 17:20:33,025 - INFO - 
+Processing wonderville_events.json
+2025-02-18 17:20:52,195 - INFO - 
+Processing yu_and_me_events.json
+2025-02-18 17:20:52,341 - INFO - Saved 1190 categorized events to data/categorized_events.json
+2025-02-18 17:20:52,341 - INFO - 
+=== Categorization Summary ===
+2025-02-18 17:20:52,341 - INFO - Total Events Processed: 1190
+2025-02-18 17:20:52,341 - INFO - Total Sources: 15
+2025-02-18 17:20:52,349 - INFO - Total Categories Used: 8
+2025-02-18 17:20:52,349 - INFO - 
+=== Top Categories ===
+2025-02-18 17:20:52,349 - INFO - 
+Family & Youth (family_youth):
+2025-02-18 17:20:52,349 - INFO -   Total Events: 742
+2025-02-18 17:20:52,349 - INFO -   Average Confidence: 0.74
+2025-02-18 17:20:52,349 - INFO -   Top Sources: {'google_calendar_events': 223, 'nycgov_street_and_neighborhood_events': 211, 'nycgov_kids_and_family_events': 118}
+2025-02-18 17:20:52,349 - INFO -   Top Subcategories:
+2025-02-18 17:20:52,349 - INFO -     - family_events: 118
+2025-02-18 17:20:52,349 - INFO - 
+Arts & Culture (arts_culture):
+2025-02-18 17:20:52,349 - INFO -   Total Events: 710
+2025-02-18 17:20:52,349 - INFO -   Average Confidence: 0.73
+2025-02-18 17:20:52,349 - INFO -   Top Sources: {'nycgov_street_and_neighborhood_events': 240, 'google_calendar_events': 219, 'nycgov_kids_and_family_events': 122}
+2025-02-18 17:20:52,349 - INFO -   Top Subcategories:
+2025-02-18 17:20:52,349 - INFO -     - music: 152
+2025-02-18 17:20:52,349 - INFO -     - film: 21
+2025-02-18 17:20:52,349 - INFO -     - dance: 9
+2025-02-18 17:20:52,349 - INFO -     - galleries: 7
+2025-02-18 17:20:52,349 - INFO -     - theater: 1
+2025-02-18 17:20:52,349 - INFO - 
+Food & Drink (food_drink):
+2025-02-18 17:20:52,349 - INFO -   Total Events: 517
+2025-02-18 17:20:52,353 - INFO -   Average Confidence: 0.74
+2025-02-18 17:20:52,353 - INFO -   Top Sources: {'google_calendar_events': 239, 'nycgov_kids_and_family_events': 105, 'wonderville_events': 92}
+2025-02-18 17:20:52,353 - INFO - 
+Community & Neighborhood (community_neighborhood):
+2025-02-18 17:20:52,353 - INFO -   Total Events: 478
+2025-02-18 17:20:52,353 - INFO -   Average Confidence: 0.81
+2025-02-18 17:20:52,353 - INFO -   Top Sources: {'nycgov_street_and_neighborhood_events': 240, 'google_calendar_events': 233, 'wonderville_events': 3}
+2025-02-18 17:20:52,353 - INFO - 
+Wellness & Fitness (wellness_fitness):
+2025-02-18 17:20:52,353 - INFO -   Total Events: 393
+2025-02-18 17:20:52,353 - INFO -   Average Confidence: 0.73
+2025-02-18 17:20:52,353 - INFO -   Top Sources: {'google_calendar_events': 288, 'nycparks_events': 44, 'call_to_gather_events': 18}
+2025-02-18 17:20:52,353 - INFO -   Top Subcategories:
+2025-02-18 17:20:52,353 - INFO -     - skating: 138
+2025-02-18 17:20:52,353 - INFO -     - yoga: 32
+2025-02-18 17:20:52,353 - INFO -     - mental_health: 2
+2025-02-18 17:20:52,353 - INFO - 
+Learning & Workshops (learning_workshops):
+2025-02-18 17:20:52,353 - INFO -   Total Events: 384
+2025-02-18 17:20:52,357 - INFO -   Average Confidence: 0.82
+2025-02-18 17:20:52,357 - INFO -   Top Sources: {'google_calendar_events': 230, 'ics_calendar_events': 49, 'wonderville_events': 49}
+2025-02-18 17:20:52,357 - INFO -   Top Subcategories:
+2025-02-18 17:20:52,357 - INFO -     - classes: 1
+2025-02-18 17:20:52,357 - INFO - 
+Parks & Outdoors (parks_outdoors):
+2025-02-18 17:20:52,357 - INFO -   Total Events: 282
+2025-02-18 17:20:52,357 - INFO -   Average Confidence: 0.82
+2025-02-18 17:20:52,357 - INFO -   Top Sources: {'google_calendar_events': 229, 'nycgov_street_and_neighborhood_events': 29, 'ics_calendar_events': 11}
+2025-02-18 17:20:52,357 - INFO -   Top Subcategories:
+2025-02-18 17:20:52,357 - INFO -     - gardens: 15
+2025-02-18 17:20:52,357 - INFO - 
+Nightlife & Social (nightlife_social):
+2025-02-18 17:20:52,357 - INFO -   Total Events: 63
+2025-02-18 17:20:52,357 - INFO -   Average Confidence: 0.75
+2025-02-18 17:20:52,357 - INFO -   Top Sources: {'wonderville_events': 53, 'gary_events': 2, 'nycparks_events': 2}
+2025-02-18 17:20:52,357 - INFO - 
+=== Source Statistics ===
+2025-02-18 17:20:52,357 - INFO - 
+google_calendar_events:
+2025-02-18 17:20:52,357 - INFO -   Total Events: 554
+2025-02-18 17:20:52,357 - INFO -   Categorized Events: 554 (100.0%)
+2025-02-18 17:20:52,357 - INFO -   Top Categories:
+2025-02-18 17:20:52,357 - INFO -     - Wellness & Fitness: 288
+2025-02-18 17:20:52,357 - INFO -     - Food & Drink: 239
+2025-02-18 17:20:52,357 - INFO -     - Community & Neighborhood: 233
+2025-02-18 17:20:52,357 - INFO - 
+nycgov_street_and_neighborhood_events:
+2025-02-18 17:20:52,357 - INFO -   Total Events: 240
+2025-02-18 17:20:52,357 - INFO -   Categorized Events: 240 (100.0%)
+2025-02-18 17:20:52,357 - INFO -   Top Categories:
+2025-02-18 17:20:52,357 - INFO -     - Community & Neighborhood: 240
+2025-02-18 17:20:52,357 - INFO -     - Arts & Culture: 240
+2025-02-18 17:20:52,357 - INFO -     - Family & Youth: 211
+2025-02-18 17:20:52,357 - INFO - 
+nycgov_kids_and_family_events:
+2025-02-18 17:20:52,357 - INFO -   Total Events: 123
+2025-02-18 17:20:52,357 - INFO -   Categorized Events: 123 (100.0%)
+2025-02-18 17:20:52,357 - INFO -   Top Categories:
+2025-02-18 17:20:52,357 - INFO -     - Arts & Culture: 122
+2025-02-18 17:20:52,357 - INFO -     - Family & Youth: 118
+2025-02-18 17:20:52,357 - INFO -     - Food & Drink: 105
+2025-02-18 17:20:52,357 - INFO - 
+wonderville_events:
+2025-02-18 17:20:52,357 - INFO -   Total Events: 97
+2025-02-18 17:20:52,365 - INFO -   Categorized Events: 97 (100.0%)
+2025-02-18 17:20:52,365 - INFO -   Top Categories:
+2025-02-18 17:20:52,365 - INFO -     - Food & Drink: 92
+2025-02-18 17:20:52,365 - INFO -     - Family & Youth: 61
+2025-02-18 17:20:52,365 - INFO -     - Nightlife & Social: 53
+2025-02-18 17:20:52,365 - INFO - 
+ics_calendar_events:
+2025-02-18 17:20:52,365 - INFO -   Total Events: 50
+2025-02-18 17:20:52,365 - INFO -   Categorized Events: 50 (100.0%)
+2025-02-18 17:20:52,365 - INFO -   Top Categories:
+2025-02-18 17:20:52,365 - INFO -     - Learning & Workshops: 49
+2025-02-18 17:20:52,365 - INFO -     - Food & Drink: 32
+2025-02-18 17:20:52,365 - INFO -     - Arts & Culture: 21
+2025-02-18 17:20:52,365 - INFO - 
+nycparks_events:
+2025-02-18 17:20:52,365 - INFO -   Total Events: 50
+2025-02-18 17:20:52,365 - INFO -   Categorized Events: 50 (100.0%)
+2025-02-18 17:20:52,365 - INFO -   Top Categories:
+2025-02-18 17:20:52,365 - INFO -     - Family & Youth: 49
+2025-02-18 17:20:52,365 - INFO -     - Wellness & Fitness: 44
+2025-02-18 17:20:52,365 - INFO -     - Arts & Culture: 29
+2025-02-18 17:20:52,365 - INFO - 
+reccreate_events:
+2025-02-18 17:20:52,365 - INFO -   Total Events: 21
+2025-02-18 17:20:52,370 - INFO -   Categorized Events: 21 (100.0%)
+2025-02-18 17:20:52,370 - INFO -   Top Categories:
+2025-02-18 17:20:52,370 - INFO -     - Family & Youth: 21
+2025-02-18 17:20:52,370 - INFO -     - Arts & Culture: 21
+2025-02-18 17:20:52,370 - INFO -     - Wellness & Fitness: 12
+2025-02-18 17:20:52,370 - INFO - 
+call_to_gather_events:
+2025-02-18 17:20:52,370 - INFO -   Total Events: 20
+2025-02-18 17:20:52,370 - INFO -   Categorized Events: 20 (100.0%)
+2025-02-18 17:20:52,370 - INFO -   Top Categories:
+2025-02-18 17:20:52,370 - INFO -     - Family & Youth: 19
+2025-02-18 17:20:52,370 - INFO -     - Wellness & Fitness: 18
+2025-02-18 17:20:52,370 - INFO -     - Arts & Culture: 17
+2025-02-18 17:20:52,370 - INFO - 
+pioneer_works_events:
+2025-02-18 17:20:52,370 - INFO -   Total Events: 12
+2025-02-18 17:20:52,373 - INFO -   Categorized Events: 12 (100.0%)
+2025-02-18 17:20:52,373 - INFO -   Top Categories:
+2025-02-18 17:20:52,373 - INFO -     - Arts & Culture: 11
+2025-02-18 17:20:52,373 - INFO -     - Learning & Workshops: 9
+2025-02-18 17:20:52,373 - INFO -     - Family & Youth: 7
+2025-02-18 17:20:52,373 - INFO - 
+57_events:
+2025-02-18 17:20:52,373 - INFO -   Total Events: 11
+2025-02-18 17:20:52,373 - INFO -   Categorized Events: 11 (100.0%)
+2025-02-18 17:20:52,373 - INFO -   Top Categories:
+2025-02-18 17:20:52,373 - INFO -     - Learning & Workshops: 8
+2025-02-18 17:20:52,373 - INFO -     - Food & Drink: 7
+2025-02-18 17:20:52,373 - INFO -     - Wellness & Fitness: 6
+2025-02-18 17:20:52,373 - INFO - 
+gary_events:
+2025-02-18 17:20:52,373 - INFO -   Total Events: 6
+2025-02-18 17:20:52,373 - INFO -   Categorized Events: 6 (100.0%)
+2025-02-18 17:20:52,373 - INFO -   Top Categories:
+2025-02-18 17:20:52,373 - INFO -     - Food & Drink: 6
+2025-02-18 17:20:52,373 - INFO -     - Learning & Workshops: 5
+2025-02-18 17:20:52,373 - INFO -     - Family & Youth: 4
+2025-02-18 17:20:52,373 - INFO - 
+interference_events:
+2025-02-18 17:20:52,373 - INFO -   Total Events: 6
+2025-02-18 17:20:52,373 - INFO -   Categorized Events: 6 (100.0%)
+2025-02-18 17:20:52,373 - INFO -   Top Categories:
+2025-02-18 17:20:52,373 - INFO -     - Arts & Culture: 5
+2025-02-18 17:20:52,373 - INFO -     - Family & Youth: 4
+2025-02-18 17:20:52,373 - INFO -     - Wellness & Fitness: 4
+2025-02-18 17:20:52,373 - INFO - 
+events:
+2025-02-18 17:20:52,373 - INFO -   Total Events: 0
+2025-02-18 17:23:55,535 - WARNING - Could not load auxiliary data: [Errno 2] No such file or directory: 'data/communities.json'
+2025-02-18 17:24:19,475 - WARNING - Could not load auxiliary data: [Errno 2] No such file or directory: '../../data/communities.json'
+2025-02-18 17:24:37,188 - WARNING - Could not load auxiliary data: [Errno 2] No such file or directory: 'data/locations.json'
+2025-02-18 17:27:21,417 - INFO - 
+Processing 57_events.json
+2025-02-18 17:27:21,417 - INFO - 
+Processing call_to_gather_events.json
+2025-02-18 17:27:21,417 - INFO - 
+Processing events.json
+2025-02-18 17:27:21,417 - INFO - 
+Processing gary_events.json
+2025-02-18 17:27:21,417 - INFO - 
+Processing google_calendar_events.json
+2025-02-18 17:27:21,433 - INFO - 
+Processing ics_calendar_events.json
+2025-02-18 17:27:21,433 - INFO - 
+Processing interference_events.json
+2025-02-18 17:27:21,433 - INFO - 
+Processing nycgov_kids_and_family_events.json
+2025-02-18 17:27:21,433 - INFO - 
+Processing nycgov_street_and_neighborhood_events.json
+2025-02-18 17:27:21,441 - INFO - 
+Processing nycparks_events.json
+2025-02-18 17:27:21,441 - INFO - 
+Processing pioneer_works_events.json
+2025-02-18 17:27:21,441 - INFO - 
+Processing reccreate_events.json
+2025-02-18 17:27:21,441 - INFO - 
+Processing substackposts.json
+2025-02-18 17:27:21,448 - WARNING - Unexpected data format in scrapers/data\substackposts.json
+2025-02-18 17:27:21,448 - INFO - 
+Processing wonderville_events.json
+2025-02-18 17:27:21,449 - INFO - 
+Processing yu_and_me_events.json
+2025-02-18 17:27:21,457 - INFO - 
+Generated 153 new locations
+2025-02-18 17:27:21,457 - INFO - Updated locations saved to data/locations.json
+2025-02-18 17:31:04,406 - INFO - 
+Processing 57_events.json
+2025-02-18 17:31:04,407 - INFO - 
+Processing call_to_gather_events.json
+2025-02-18 17:31:04,408 - INFO - 
+Processing events.json
+2025-02-18 17:31:04,408 - INFO - 
+Processing gary_events.json
+2025-02-18 17:31:04,409 - INFO - 
+Processing google_calendar_events.json
+2025-02-18 17:31:04,428 - INFO - 
+Processing ics_calendar_events.json
+2025-02-18 17:31:04,430 - INFO - 
+Processing interference_events.json
+2025-02-18 17:31:04,431 - INFO - 
+Processing nycgov_kids_and_family_events.json
+2025-02-18 17:31:04,434 - INFO - 
+Processing nycgov_street_and_neighborhood_events.json
+2025-02-18 17:31:04,437 - INFO - 
+Processing nycparks_events.json
+2025-02-18 17:31:04,439 - INFO - 
+Processing pioneer_works_events.json
+2025-02-18 17:31:04,440 - INFO - 
+Processing reccreate_events.json
+2025-02-18 17:31:04,440 - INFO - 
+Processing substackposts.json
+2025-02-18 17:31:04,443 - WARNING - Unexpected data format in scrapers/data\substackposts.json
+2025-02-18 17:31:04,443 - INFO - 
+Processing wonderville_events.json
+2025-02-18 17:31:04,445 - INFO - 
+Processing yu_and_me_events.json
+2025-02-18 17:31:04,447 - WARNING - No address found for location: New York City
+2025-02-18 17:31:07,885 - ERROR - Geocoding error for PLNT Burger, 1147 Broadway, New York, NY 10001, USA: 403 Client Error: Forbidden for url: https://nominatim.openstreetmap.org/search?format=json&q=PLNT%20Burger,%201147%20Broadway,%20New%20York,%20NY%2010001,%20USA
+2025-02-18 17:31:07,885 - WARNING - Could not geocode location: 
+2025-02-18 17:31:10,081 - ERROR - Geocoding error for In-Person Event (Midtown); register for location details: 403 Client Error: Forbidden for url: https://nominatim.openstreetmap.org/search?format=json&q=In-Person%20Event%20(Midtown);%20register%20for%20location%20details
+2025-02-18 17:31:10,083 - WARNING - Could not geocode location: 
+2025-02-18 17:31:13,006 - ERROR - Geocoding error for Worldwide!: 403 Client Error: Forbidden for url: https://nominatim.openstreetmap.org/search?format=json&q=Worldwide!
+2025-02-18 17:31:13,013 - WARNING - Could not geocode location: 
+2025-02-18 17:31:16,083 - ERROR - Geocoding error for General William Tecumseh Sherman Monument, 764 Doris C Freedman Pl, New York, NY 10019, USA: 403 Client Error: Forbidden for url: https://nominatim.openstreetmap.org/search?format=json&q=General%20William%20Tecumseh%20Sherman%20Monument,%20764%20Doris%20C%20Freedman%20Pl,%20New%20York,%20NY%2010019,%20USA
+2025-02-18 17:31:16,091 - WARNING - Could not geocode location: 
+2025-02-18 17:31:19,053 - ERROR - Geocoding error for Union Square, New York, NY 10003, USA: 403 Client Error: Forbidden for url: https://nominatim.openstreetmap.org/search?format=json&q=Union%20Square,%20New%20York,%20NY%2010003,%20USA
+2025-02-18 17:31:19,053 - WARNING - Could not geocode location: 
+2025-02-18 17:31:22,325 - ERROR - Geocoding error for Son Cubano Restaurant on the Hudson, 40-4 Riverwalk Pl, West New York, NJ 07093, USA: 403 Client Error: Forbidden for url: https://nominatim.openstreetmap.org/search?format=json&q=Son%20Cubano%20Restaurant%20on%20the%20Hudson,%2040-4%20Riverwalk%20Pl,%20West%20New%20York,%20NJ%2007093,%20USA
+2025-02-18 17:31:22,326 - WARNING - Could not geocode location: 
+2025-02-18 17:31:24,992 - ERROR - Geocoding error for Miami Beach, FL, USA: 403 Client Error: Forbidden for url: https://nominatim.openstreetmap.org/search?format=json&q=Miami%20Beach,%20FL,%20USA
+2025-02-18 17:31:24,993 - WARNING - Could not geocode location: 
+2025-02-18 17:31:27,969 - ERROR - Geocoding error for Houston, TX, USA: 403 Client Error: Forbidden for url: https://nominatim.openstreetmap.org/search?format=json&q=Houston,%20TX,%20USA
+2025-02-18 17:31:27,970 - WARNING - Could not geocode location: 
+2025-02-18 17:31:31,342 - ERROR - Geocoding error for Warner LeRoy Place, Warner LeRoy Pl, New York, NY, USA: 403 Client Error: Forbidden for url: https://nominatim.openstreetmap.org/search?format=json&q=Warner%20LeRoy%20Place,%20Warner%20LeRoy%20Pl,%20New%20York,%20NY,%20USA
+2025-02-18 17:31:31,343 - WARNING - Could not geocode location: 
+2025-02-18 17:31:34,105 - ERROR - Geocoding error for 198 Perimeter Rd, Greenville, SC 29605, USA: 403 Client Error: Forbidden for url: https://nominatim.openstreetmap.org/search?format=json&q=198%20Perimeter%20Rd,%20Greenville,%20SC%2029605,%20USA
+2025-02-18 17:31:34,107 - WARNING - Could not geocode location: 
+2025-02-18 17:32:01,920 - INFO - 
+Processing 57_events.json
+2025-02-18 17:32:01,927 - INFO - 
+Processing call_to_gather_events.json
+2025-02-18 17:32:01,927 - INFO - 
+Processing events.json
+2025-02-18 17:32:01,927 - INFO - 
+Processing gary_events.json
+2025-02-18 17:32:01,927 - INFO - 
+Processing google_calendar_events.json
+2025-02-18 17:32:01,941 - INFO - 
+Processing ics_calendar_events.json
+2025-02-18 17:32:01,945 - INFO - 
+Processing interference_events.json
+2025-02-18 17:32:01,945 - INFO - 
+Processing nycgov_kids_and_family_events.json
+2025-02-18 17:32:01,945 - INFO - 
+Processing nycgov_street_and_neighborhood_events.json
+2025-02-18 17:32:01,945 - INFO - 
+Processing nycparks_events.json
+2025-02-18 17:32:01,953 - INFO - 
+Processing pioneer_works_events.json
+2025-02-18 17:32:01,953 - INFO - 
+Processing reccreate_events.json
+2025-02-18 17:32:01,953 - INFO - 
+Processing substackposts.json
+2025-02-18 17:32:01,953 - WARNING - Unexpected data format in scrapers/data\substackposts.json
+2025-02-18 17:32:01,953 - INFO - 
+Processing wonderville_events.json
+2025-02-18 17:32:01,953 - INFO - 
+Processing yu_and_me_events.json
+2025-02-18 17:32:01,961 - WARNING - No address found for location: New York City
+2025-02-18 17:32:03,399 - WARNING - Could not geocode location: 
+2025-02-18 17:32:04,314 - WARNING - Could not geocode location: 
+2025-02-18 17:32:05,243 - INFO - Geocoded location:  - Lat: -33.8938107, Lng: 151.2621478
+2025-02-18 17:32:07,183 - WARNING - Could not geocode location: 
+2025-02-18 17:32:07,903 - INFO - Geocoded location:  - Lat: 40.7360717, Lng: -73.9901888
+2025-02-18 17:32:09,745 - WARNING - Could not geocode location: 
+2025-02-18 17:32:10,558 - INFO - Geocoded location:  - Lat: 25.7929198, Lng: -80.1353006
+2025-02-18 17:32:11,579 - INFO - Geocoded location:  - Lat: 29.7589382, Lng: -95.3676974
+2025-02-18 17:32:13,019 - WARNING - Could not geocode location: 
+2025-02-18 17:32:15,067 - INFO - Geocoded location:  - Lat: 34.76065975147031, Lng: -82.36225924371769
+2025-02-18 17:32:15,887 - INFO - Geocoded location:  - Lat: 47.6038321, Lng: -122.330062
+2025-02-18 17:32:18,857 - WARNING - Could not geocode location: 
+2025-02-18 17:32:19,472 - INFO - Geocoded location:  - Lat: 46.7729322, Lng: -92.1251218
+2025-02-18 17:32:20,582 - WARNING - Could not geocode location: 
+2025-02-18 17:32:23,053 - WARNING - Could not geocode location: 
+2025-02-18 17:32:24,589 - WARNING - Could not geocode location: 
+2025-02-18 17:32:25,428 - INFO - Geocoded location:  - Lat: 40.7727846, Lng: -73.9144932
+2025-02-18 17:32:27,668 - INFO - Geocoded location:  - Lat: 40.72776705, Lng: -74.00087478501757
+2025-02-18 17:32:28,438 - WARNING - Could not geocode location: 
+2025-02-18 17:32:29,609 - WARNING - Could not geocode location: 
+2025-02-18 17:32:31,145 - WARNING - Could not geocode location: 
+2025-02-18 17:32:31,767 - WARNING - Could not geocode location: 
+2025-02-18 17:32:32,786 - WARNING - Could not geocode location: 
+2025-02-18 17:32:34,569 - WARNING - Could not geocode location: 
+2025-02-18 17:32:35,546 - INFO - Geocoded location:  - Lat: -20.25213925, Lng: 57.587224515430165
+2025-02-18 17:32:39,851 - INFO - Geocoded location:  - Lat: 40.71274175, Lng: -74.01065111699435
+2025-02-18 17:32:40,443 - WARNING - Could not geocode location: 
+2025-02-18 17:32:41,690 - WARNING - Could not geocode location: 
+2025-02-18 17:32:42,726 - WARNING - Could not geocode location: 
+2025-02-18 17:32:44,257 - WARNING - Could not geocode location: 
+2025-02-18 17:32:44,976 - WARNING - Could not geocode location: 
+2025-02-18 17:32:48,046 - WARNING - Could not geocode location: 
+2025-02-18 17:32:49,623 - WARNING - Could not geocode location: 
+2025-02-18 17:32:50,574 - WARNING - Could not geocode location: 
+2025-02-18 17:32:51,522 - WARNING - Could not geocode location: 
+2025-02-18 17:32:55,226 - INFO - Geocoded location:  - Lat: 40.700987850000004, Lng: -74.01165071158765
+2025-02-18 17:32:55,847 - WARNING - Could not geocode location: 
+2025-02-18 17:32:57,159 - INFO - Geocoded location:  - Lat: 40.71896535, Lng: -73.99497385342738
+2025-02-18 17:32:59,802 - INFO - Geocoded location:  - Lat: 40.7209735, Lng: -73.9880154
+2025-02-18 17:33:01,555 - INFO - Geocoded location:  - Lat: 40.744924600000004, Lng: -73.98859595269975
+2025-02-18 17:33:02,703 - INFO - Geocoded location:  - Lat: 40.7500481, Lng: -73.9847324
+2025-02-18 17:33:03,508 - WARNING - Could not geocode location: 
+2025-02-18 17:33:04,322 - WARNING - Could not geocode location: 
+2025-02-18 17:33:05,449 - WARNING - Could not geocode location: 
+2025-02-18 17:33:07,215 - WARNING - Could not geocode location: 
+2025-02-18 17:33:07,798 - WARNING - Could not geocode location: 
+2025-02-18 17:33:08,755 - WARNING - Could not geocode location: 
+2025-02-18 17:33:09,953 - WARNING - Could not geocode location: 
+2025-02-18 17:33:10,873 - WARNING - Could not geocode location: 
+2025-02-18 17:33:11,900 - WARNING - Could not geocode location: 
+2025-02-18 17:33:12,925 - WARNING - Could not geocode location: 
+2025-02-18 17:33:14,157 - WARNING - Could not geocode location: 
+2025-02-18 17:33:15,182 - WARNING - Could not geocode location: 
+2025-02-18 17:33:16,199 - WARNING - Could not geocode location: Online Event
+2025-02-18 17:33:17,429 - INFO - Geocoded location: Ringolevio, 490 Humboldt St, Brooklyn, NY 11222, USA - Lat: 40.7190611, Lng: -73.9433506
+2025-02-18 17:33:18,454 - WARNING - Could not geocode location: Online Event
+2025-02-18 17:33:19,414 - WARNING - Could not geocode location: Online Event
+2025-02-18 17:33:21,015 - WARNING - Could not geocode location: McCarren Parkhouse, 855 Lorimer St, Brooklyn, NY 11222, USA
+2025-02-18 17:33:21,883 - WARNING - Could not geocode location: Online Event
+2025-02-18 17:33:23,585 - WARNING - Could not geocode location: Fabrik NYC, 12-16 Vestry St 4th Floor, New York, NY 10013, USA
+2025-02-18 17:33:26,340 - WARNING - Could not geocode location: Farm.One, 625 Bergen St, Brooklyn, NY 11238, USA
+2025-02-18 17:33:28,085 - WARNING - Could not geocode location: recess grove, 327 Grand St, Brooklyn, NY 11211, USA
+2025-02-18 17:33:29,933 - WARNING - Could not geocode location: Online Event
+2025-02-18 17:33:32,209 - WARNING - Could not geocode location: Online Event
+2025-02-18 17:33:33,420 - WARNING - Could not geocode location: Online Event
+2025-02-18 17:33:34,839 - WARNING - Could not geocode location: Online Event
+2025-02-18 17:33:40,981 - WARNING - Could not geocode location: Little Honey, 487 7th Ave, Brooklyn, NY 11215, USA
+2025-02-18 17:33:44,796 - WARNING - Could not geocode location: Online Event
+2025-02-18 17:33:47,229 - INFO - Geocoded location: 27 E 10th St, Brooklyn, NY 11218, USA - Lat: 40.647812200000004, Lng: -73.97031600737975
+2025-02-18 17:33:51,108 - WARNING - Could not geocode location: Calcutta Kitchens, 448 Broadway, Kingston, NY 12401, USA
+2025-02-18 17:33:53,552 - WARNING - Could not geocode location: Online Event
+2025-02-18 17:34:01,874 - WARNING - Could not geocode location: frog, 79 5th Ave, New York, NY 10003, USA
+2025-02-18 17:34:02,999 - WARNING - Could not geocode location: Makelab | 3D Manufacturing Services, 325 Gold St, Brooklyn, NY 11201, USA
+2025-02-18 17:34:04,127 - WARNING - Could not geocode location: Online Event
+2025-02-18 17:34:05,457 - INFO - Geocoded location: Hekate Café & Elixir Lounge, 167 Avenue B, New York, NY 10009, USA - Lat: 40.7271351, Lng: -73.9795427
+2025-02-18 17:34:06,433 - WARNING - Could not geocode location: Reforesters Laboratory, 147 Metropolitan Ave, Brooklyn, NY 11249, USA
+2025-02-18 17:34:07,512 - INFO - Geocoded location: One Pace Plaza, New York, NY 10038, USA - Lat: 40.711105, Lng: -74.00461340754549
+2025-02-18 17:34:09,747 - INFO - Geocoded location: 525 Greenwich St, New York, NY 10013, USA - Lat: 40.726386399999996, Lng: -74.00872532974589
+2025-02-18 17:34:10,485 - WARNING - Could not geocode location: Online Event
+2025-02-18 17:34:12,213 - WARNING - Could not geocode location: Chief, 13 E 19th St, New York, NY 10003, USA
+2025-02-18 17:34:13,297 - INFO - Geocoded location: Bryant Park - Lat: 40.75375085, Lng: -73.98354279430387
+2025-02-18 17:34:14,616 - INFO - Geocoded location: 2900 Southern Blvd - Lat: 40.862243050000004, Lng: -73.87715409529777
+2025-02-18 17:34:15,597 - WARNING - Could not geocode location: All NYC Public Schools
+2025-02-18 17:34:16,520 - INFO - Geocoded location: Citywide - Lat: -37.7994743, Lng: 144.9384903
+2025-02-18 17:34:17,601 - WARNING - Could not geocode location: Entrance - Lafayette Avenue and Morrison Avenue
+2025-02-18 17:34:18,886 - WARNING - Could not geocode location: 1527 Jesup Avenue Gymnasium (Part A)
+2025-02-18 17:34:19,789 - WARNING - Could not geocode location: Venues in Brooklyn and Manhattan
+2025-02-18 17:34:21,222 - INFO - Geocoded location: Public Schools - Lat: 41.8821707, Lng: -87.6286808
+2025-02-18 17:34:22,456 - WARNING - Could not geocode location: The parade marches north on Fifth Avenue, from 49th Street to 57th Street.
+2025-02-18 17:34:24,608 - INFO - Geocoded location: 545 W 30th Street - Lat: 40.75328125, Lng: -74.00267106782556
+2025-02-18 17:34:25,739 - INFO - Geocoded location: NYC Public Schools - Lat: 40.6138825, Lng: -73.9313061
+2025-02-18 17:34:29,200 - WARNING - Could not geocode location: 2 AVENUE between EAST   32 STREET and EAST   33 STREET  Manhattan
+2025-02-18 17:34:30,654 - WARNING - Could not geocode location: 4 STREET between 5 AVENUE and DEAD END  Brooklyn
+2025-02-18 17:34:32,087 - WARNING - Could not geocode location: WEST HOUSTON STREET between THOMPSON STREET and MACDOUGAL STREET  Manhattan
+2025-02-18 17:34:35,455 - WARNING - Could not geocode location: EAST   70 STREET between 1 AVENUE and 2 AVENUE  Manhattan
+2025-02-18 17:34:37,813 - WARNING - Could not geocode location: EAST  125 STREET between PARK AVENUE and MADISON AVENUE  Manhattan
+2025-02-18 17:34:38,943 - WARNING - Could not geocode location: EAST GUN HILL ROAD between DEKALB AVENUE and ROCHAMBEAU AVENUE  Bronx
+2025-02-18 17:34:41,709 - WARNING - Could not geocode location: EAST   82 STREET between 1 AVENUE and YORK AVENUE  Manhattan
+2025-02-18 17:34:44,268 - WARNING - Could not geocode location: WEST   97 STREET between COLUMBUS AVENUE and AMSTERDAM AVENUE  Manhattan

@@ -1,11 +1,11 @@
 'use client';
 import React, { useState, useEffect } from 'react';
-import locations from '../../data/locations.json';
-import { Panel } from '../components/ui/Panel';
-import { CyberMap } from '../components/ui/CyberMap';
-import Loading from '../loading';
-import { ConsoleModule } from '../components/ui/ConsoleModule';
-import { CompactFilterButton } from '../components/ui/CompactFilterButton';
+import locations from '@/public/data/locations.json';
+import { Panel } from '@/app/components/ui/Panel';
+import { CyberMap } from '@/app/components/ui/CyberMap';
+import Loading from '@/app/loading';
+import { ConsoleModule } from '@/app/components/ui/ConsoleModule';
+import { CompactFilterButton } from '@/app/components/ui/CompactFilterButton';
 
 export default function Locations() {
   const [isLoading, setIsLoading] = useState(true);

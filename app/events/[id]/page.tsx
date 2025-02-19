@@ -1,11 +1,11 @@
 'use client';
 import React, { use } from 'react';
-import events from '../../../data/events.json';
-import communities from '../../../data/communities.json';
-import { DetailSection } from '../../components/ui/DetailSection';
-import { MetaInfo } from '../../components/ui/MetaInfo';
-import { Panel } from '../../components/ui/Panel';
-import { CyberLink } from '../../components/ui/CyberLink';
+import events from '@/public/data/events.json';
+import communities from '@/public/data/communities.json';
+import { DetailSection } from '@/app/components/ui/DetailSection';
+import { MetaInfo } from '@/app/components/ui/MetaInfo';
+import { Panel } from '@/app/components/ui/Panel';
+import { CyberLink } from '@/app/components/ui/CyberLink';
 
 // Function to clean description text
 const cleanDescription = (text: string | undefined): string => {

@@ -1,9 +1,9 @@
 'use client';
 import React, { useState, useEffect, useRef, useCallback, useMemo } from 'react';
-import events from '../../data/events.json';
-import { Panel } from '../components/ui/Panel';
-import Loading from '../loading';
-import { FilterButton } from '../components/ui/FilterButton';
+import events from '@/public/data/events.json';
+import { Panel } from '@/app/components/ui/Panel';
+import Loading from '@/app/loading';
+import { FilterButton } from '@/app/components/ui/FilterButton';
 
 interface Category {
   name: string;

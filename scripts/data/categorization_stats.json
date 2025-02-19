@@ -1,0 +1,326 @@
+{
+  "summary": {
+    "total_events": 1190,
+    "total_sources": 15,
+    "total_categories": 8
+  },
+  "categories": {
+    "wellness_fitness": {
+      "name": "Wellness & Fitness",
+      "total": 393,
+      "sources": {
+        "57_events": 6,
+        "call_to_gather_events": 18,
+        "google_calendar_events": 288,
+        "ics_calendar_events": 16,
+        "interference_events": 4,
+        "nycgov_kids_and_family_events": 1,
+        "nycparks_events": 44,
+        "reccreate_events": 12,
+        "wonderville_events": 4
+      },
+      "avg_confidence": 0.7291480627375402,
+      "subcategories": {
+        "skating": 138,
+        "yoga": 32,
+        "mental_health": 2
+      }
+    },
+    "food_drink": {
+      "name": "Food & Drink",
+      "total": 517,
+      "sources": {
+        "57_events": 7,
+        "call_to_gather_events": 2,
+        "gary_events": 6,
+        "google_calendar_events": 239,
+        "ics_calendar_events": 32,
+        "interference_events": 2,
+        "nycgov_kids_and_family_events": 105,
+        "nycparks_events": 19,
+        "pioneer_works_events": 6,
+        "reccreate_events": 7,
+        "wonderville_events": 92
+      },
+      "avg_confidence": 0.740051012089912,
+      "subcategories": {}
+    },
+    "arts_culture": {
+      "name": "Arts & Culture",
+      "total": 710,
+      "sources": {
+        "57_events": 3,
+        "call_to_gather_events": 17,
+        "google_calendar_events": 219,
+        "ics_calendar_events": 21,
+        "interference_events": 5,
+        "nycgov_kids_and_family_events": 122,
+        "nycgov_street_and_neighborhood_events": 240,
+        "nycparks_events": 29,
+        "pioneer_works_events": 11,
+        "reccreate_events": 21,
+        "wonderville_events": 22
+      },
+      "avg_confidence": 0.7338625658565844,
+      "subcategories": {
+        "music": 152,
+        "film": 21,
+        "dance": 9,
+        "galleries": 7,
+        "theater": 1
+      }
+    },
+    "family_youth": {
+      "name": "Family & Youth",
+      "total": 742,
+      "sources": {
+        "57_events": 6,
+        "call_to_gather_events": 19,
+        "gary_events": 4,
+        "google_calendar_events": 223,
+        "ics_calendar_events": 19,
+        "interference_events": 4,
+        "nycgov_kids_and_family_events": 118,
+        "nycgov_street_and_neighborhood_events": 211,
+        "nycparks_events": 49,
+        "pioneer_works_events": 7,
+        "reccreate_events": 21,
+        "wonderville_events": 61
+      },
+      "avg_confidence": 0.7392971208796025,
+      "subcategories": {
+        "family_events": 118
+      }
+    },
+    "learning_workshops": {
+      "name": "Learning & Workshops",
+      "total": 384,
+      "sources": {
+        "57_events": 8,
+        "call_to_gather_events": 3,
+        "gary_events": 5,
+        "google_calendar_events": 230,
+        "ics_calendar_events": 49,
+        "interference_events": 3,
+        "nycgov_kids_and_family_events": 22,
+        "nycparks_events": 4,
+        "pioneer_works_events": 9,
+        "reccreate_events": 2,
+        "wonderville_events": 49
+      },
+      "avg_confidence": 0.8191428898523251,
+      "subcategories": {
+        "classes": 1
+      }
+    },
+    "parks_outdoors": {
+      "name": "Parks & Outdoors",
+      "total": 282,
+      "sources": {
+        "57_events": 2,
+        "call_to_gather_events": 1,
+        "google_calendar_events": 229,
+        "ics_calendar_events": 11,
+        "nycgov_street_and_neighborhood_events": 29,
+        "nycparks_events": 3,
+        "wonderville_events": 7
+      },
+      "avg_confidence": 0.8227067361486718,
+      "subcategories": {
+        "gardens": 15
+      }
+    },
+    "nightlife_social": {
+      "name": "Nightlife & Social",
+      "total": 63,
+      "sources": {
+        "57_events": 1,
+        "gary_events": 2,
+        "google_calendar_events": 1,
+        "ics_calendar_events": 1,
+        "nycgov_kids_and_family_events": 1,
+        "nycparks_events": 2,
+        "pioneer_works_events": 2,
+        "wonderville_events": 53
+      },
+      "avg_confidence": 0.7457910932245708,
+      "subcategories": {}
+    },
+    "community_neighborhood": {
+      "name": "Community & Neighborhood",
+      "total": 478,
+      "sources": {
+        "gary_events": 1,
+        "google_calendar_events": 233,
+        "ics_calendar_events": 1,
+        "nycgov_street_and_neighborhood_events": 240,
+        "wonderville_events": 3
+      },
+      "avg_confidence": 0.8146790584011556,
+      "subcategories": {}
+    }
+  },
+  "sources": {
+    "57_events": {
+      "total": 11,
+      "categorized": 11,
+      "categories": {
+        "wellness_fitness": 6,
+        "food_drink": 7,
+        "arts_culture": 3,
+        "family_youth": 6,
+        "learning_workshops": 8,
+        "parks_outdoors": 2,
+        "nightlife_social": 1
+      }
+    },
+    "call_to_gather_events": {
+      "total": 20,
+      "categorized": 20,
+      "categories": {
+        "arts_culture": 17,
+        "family_youth": 19,
+        "wellness_fitness": 18,
+        "food_drink": 2,
+        "learning_workshops": 3,
+        "parks_outdoors": 1
+      }
+    },
+    "events": {
+      "total": 0,
+      "categorized": 0,
+      "categories": {}
+    },
+    "gary_events": {
+      "total": 6,
+      "categorized": 6,
+      "categories": {
+        "learning_workshops": 5,
+        "food_drink": 6,
+        "nightlife_social": 2,
+        "family_youth": 4,
+        "community_neighborhood": 1
+      }
+    },
+    "google_calendar_events": {
+      "total": 554,
+      "categorized": 554,
+      "categories": {
+        "learning_workshops": 230,
+        "community_neighborhood": 233,
+        "parks_outdoors": 229,
+        "food_drink": 239,
+        "family_youth": 223,
+        "wellness_fitness": 288,
+        "arts_culture": 219,
+        "nightlife_social": 1
+      }
+    },
+    "ics_calendar_events": {
+      "total": 50,
+      "categorized": 50,
+      "categories": {
+        "learning_workshops": 49,
+        "food_drink": 32,
+        "family_youth": 19,
+        "wellness_fitness": 16,
+        "arts_culture": 21,
+        "community_neighborhood": 1,
+        "parks_outdoors": 11,
+        "nightlife_social": 1
+      }
+    },
+    "interference_events": {
+      "total": 6,
+      "categorized": 6,
+      "categories": {
+        "learning_workshops": 3,
+        "arts_culture": 5,
+        "family_youth": 4,
+        "wellness_fitness": 4,
+        "food_drink": 2
+      }
+    },
+    "nycgov_kids_and_family_events": {
+      "total": 123,
+      "categorized": 123,
+      "categories": {
+        "family_youth": 118,
+        "food_drink": 105,
+        "arts_culture": 122,
+        "wellness_fitness": 1,
+        "nightlife_social": 1,
+        "learning_workshops": 22
+      }
+    },
+    "nycgov_street_and_neighborhood_events": {
+      "total": 240,
+      "categorized": 240,
+      "categories": {
+        "community_neighborhood": 240,
+        "family_youth": 211,
+        "arts_culture": 240,
+        "parks_outdoors": 29
+      }
+    },
+    "nycparks_events": {
+      "total": 50,
+      "categorized": 50,
+      "categories": {
+        "family_youth": 49,
+        "wellness_fitness": 44,
+        "arts_culture": 29,
+        "nightlife_social": 2,
+        "food_drink": 19,
+        "parks_outdoors": 3,
+        "learning_workshops": 4
+      }
+    },
+    "pioneer_works_events": {
+      "total": 12,
+      "categorized": 12,
+      "categories": {
+        "learning_workshops": 9,
+        "arts_culture": 11,
+        "family_youth": 7,
+        "nightlife_social": 2,
+        "food_drink": 6
+      }
+    },
+    "reccreate_events": {
+      "total": 21,
+      "categorized": 21,
+      "categories": {
+        "family_youth": 21,
+        "arts_culture": 21,
+        "learning_workshops": 2,
+        "food_drink": 7,
+        "wellness_fitness": 12
+      }
+    },
+    "substackposts": {
+      "total": 0,
+      "categorized": 0,
+      "categories": {}
+    },
+    "wonderville_events": {
+      "total": 97,
+      "categorized": 97,
+      "categories": {
+        "learning_workshops": 49,
+        "family_youth": 61,
+        "wellness_fitness": 4,
+        "food_drink": 92,
+        "arts_culture": 22,
+        "parks_outdoors": 7,
+        "nightlife_social": 53,
+        "community_neighborhood": 3
+      }
+    },
+    "yu_and_me_events": {
+      "total": 0,
+      "categorized": 0,
+      "categories": {}
+    }
+  }
+}

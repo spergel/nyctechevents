@@ -1,0 +1,8 @@
+2025-02-16 17:54:06,463 - INFO - Found 18 event links
+2025-02-16 17:54:07,898 - INFO - Processed event: Volunteer Orientation
+2025-02-16 17:54:08,612 - INFO - Processed event: Education Reading Group
+2025-02-16 17:54:09,300 - INFO - Processed event: Intro to Self-Defense Workshop
+2025-02-16 17:54:10,125 - INFO - Processed event: A Skill-Share Workshop Series: Patches
+2025-02-16 17:54:11,154 - INFO - Processed event: Cultural workers for Palestine in NYC
+2025-02-16 17:54:11,893 - INFO - Processed event: Audio Working Group – February meeting
+2025-02-16 17:54:11,894 - INFO - Saved 6 events to ./data/interference_events.json

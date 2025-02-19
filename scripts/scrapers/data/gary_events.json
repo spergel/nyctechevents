@@ -1,0 +1,208 @@
+{
+  "events": [
+    {
+      "id": "evt_gary_d1058b11",
+      "name": "SXSW 2025\nEvents & Parties!",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_gary",
+      "description": "",
+      "startDate": "2025-02-16T17:50:07.352223-05:00",
+      "endDate": "2025-02-16T19:20:07.352223-05:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 25.0,
+        "type": "Fixed",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "gary-event.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "http://gary.to/3lq8i8y",
+        "speakers": [],
+        "venue": {
+          "name": "",
+          "address": "",
+          "type": "Other"
+        },
+        "featured": false
+      }
+    },
+    {
+      "id": "evt_gary_e964f262",
+      "name": "DeSciNYC - The Science Of Supplements",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_gary",
+      "description": "\n\n\n\n\n\n\n\n\n\n\n\n",
+      "startDate": "2025-02-16T17:50:08.916198-05:00",
+      "endDate": "2025-02-16T19:20:08.916198-05:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "gary-event.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "http://gary.to/84saq7e",
+        "speakers": [],
+        "venue": {
+          "name": "",
+          "address": "",
+          "type": "Other"
+        },
+        "featured": false
+      }
+    },
+    {
+      "id": "evt_gary_8f60b246",
+      "name": "Founders & VCs Masterclass",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_gary",
+      "description": "\n\n\n\n\n\n\n",
+      "startDate": "2025-02-16T17:50:10.026430-05:00",
+      "endDate": "2025-02-16T19:20:10.026430-05:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "gary-event.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "http://gary.to/84saq7e",
+        "speakers": [],
+        "venue": {
+          "name": "",
+          "address": "",
+          "type": "Other"
+        },
+        "featured": false
+      }
+    },
+    {
+      "id": "evt_gary_40e46c95",
+      "name": "SGN Global Leaders Series - CFO & Finance Exec Masterclass",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_gary",
+      "description": "\n\n\n\n\n\n\n\n\n",
+      "startDate": "2025-02-16T17:50:11.336115-05:00",
+      "endDate": "2025-02-16T19:20:11.336115-05:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "gary-event.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "http://gary.to/84saq7e",
+        "speakers": [],
+        "venue": {
+          "name": "",
+          "address": "",
+          "type": "Other"
+        },
+        "featured": false
+      }
+    },
+    {
+      "id": "evt_gary_13db8608",
+      "name": "NYU Female Founders Forum",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_gary",
+      "description": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+      "startDate": "2025-02-16T17:50:12.453737-05:00",
+      "endDate": "2025-02-16T19:20:12.453737-05:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 50.0,
+        "type": "Fixed",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "gary-event.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "http://gary.to/84saq7e",
+        "speakers": [],
+        "venue": {
+          "name": "",
+          "address": "",
+          "type": "Other"
+        },
+        "featured": false
+      }
+    },
+    {
+      "id": "evt_gary_1702e85d",
+      "name": "Data Science Salon - Applying AI & ML To Finance & Tech",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_gary",
+      "description": "\n\n",
+      "startDate": "2025-02-16T17:50:13.772946-05:00",
+      "endDate": "2025-02-16T19:20:13.772946-05:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 475.0,
+        "type": "Fixed",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "gary-event.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "http://gary.to/84saq7e",
+        "speakers": [],
+        "venue": {
+          "name": "",
+          "address": "",
+          "type": "Other"
+        },
+        "featured": false
+      }
+    }
+  ]
+}

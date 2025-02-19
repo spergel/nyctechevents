@@ -1,12 +1,12 @@
 'use client';
 import React, { useState, useEffect } from 'react';
-import events from '../data/events.json';
-import locations from '../data/locations.json';
-import { ConsoleLayout } from './components/ui/ConsoleLayout';
-import { ConsoleModule } from './components/ui/ConsoleModule';
-import { CyberLink } from './components/ui/CyberLink';
-import { HolographicDisplay } from './components/ui/HolographicDisplay';
-import Loading from './loading';
+import events from '@/public/data/events.json';
+import locations from '@/public/data/locations.json';
+import { ConsoleLayout } from '@/app/components/ui/ConsoleLayout';
+import { ConsoleModule } from '@/app/components/ui/ConsoleModule';
+import { CyberLink } from '@/app/components/ui/CyberLink';
+import { HolographicDisplay } from '@/app/components/ui/HolographicDisplay';
+import Loading from '@/app/loading';
 
 export default function Home() {
   const [isLoading, setIsLoading] = useState(true);

@@ -1,0 +1,2138 @@
+{
+  "events": [
+    {
+      "id": "evt_wonderville_7f5a0b44",
+      "name": "Stream Big Book Launch",
+      "type": "Gaming Event",
+      "locationId": "loc_wonderville",
+      "communityId": "com_wonderville",
+      "description": "Nathan Grayson, author of Stream Big: The Triumphs And Turmoils Of Twitch And The Stars Behind The Screen, is joined by Aftermath's Gita Jackson and Chris Person and Polygon's Simone de Rochefort for a discussion of the Amazon-owned livestreaming platform's place in modern gaming culture and beyond.\nHow did a website dedicated to watching people play video games grow into a force that has attracted attention from mainstream stars and politicians? What kind of work actually goes into being a popular Twitch streamer? Is it really as simple as sitting down in front of a camera and playing your favorite game? (No, absolutely not.) And how does one even begin to cover that as a journalist and write a book that encapsulates it all, especially when the world of livestreaming never stops, not even for a moment?\nCome for answers to all of these questions and stay for never-before-told stories about your favorite/least favorite streamers.\nrsvp",
+      "startDate": "2025-02-16T19:00:00+00:00",
+      "endDate": "2025-02-16T22:00:00+00:00",
+      "image": "",
+      "organizer": {
+        "name": "Wonderville",
+        "instagram": "@wondervillenyc",
+        "email": "hello@wonderville.nyc"
+      },
+      "venue": {
+        "name": "Wonderville",
+        "address": "Wonderville 1186 Broadway Brooklyn, NY, 11221 United States",
+        "type": "Arcade Venue"
+      },
+      "featured": false
+    },
+    {
+      "id": "evt_wonderville_95982f99",
+      "name": "Deck 2 Deck",
+      "type": "Gaming Event",
+      "locationId": "loc_wonderville",
+      "communityId": "com_wonderville",
+      "description": "Berlin\u2019s Finest lands in New York on Feb 16th!\nJoin us as we bring the Big Apple to life with a juicy plate of Currywurst. Get ready for a sweet Sunday filled with delicious funk, disco & boogie beats straight from Germany\u2019s capital. Only Vinyl allowed!\nLineup\nCarl Hang is a Berlin-based artist who has been making waves in the music scene with his dynamic blend of Disco, Boogie and Ghetto Tech Music.\nLink:\nhttps://soundcloud.com/deck2deck-records/carl-hang-humboldthain-club-230224\nDJ Business, head of operations and bass aficionado, convinces with mind-boggling breaks and bassy bootyshakers. Truly a feast for your hips.\nLink:\nhttps://soundcloud.com/emotionalvoyagerecords/mixed-feelings-017-dj-business\nWall Ra's critically acclaimed playstyle runs right through an audience. Based in Rap, Funk, and Disco, his sets redefine the mainstream perception of dance music and leave audiences screaming for more.\nLink:\nhttps://soundcloud.com/wallra187/sets/for-the-listeners\nThe dancefloor heat will be served by none other than the three masterminds of Deck 2 Deck so come and join us for that extra dose of Funk!\nrsvp",
+      "startDate": "2025-02-17T02:00:00+00:00",
+      "endDate": null,
+      "image": "",
+      "organizer": {
+        "name": "Wonderville",
+        "instagram": "@wondervillenyc",
+        "email": "hello@wonderville.nyc"
+      },
+      "venue": {
+        "name": "Wonderville",
+        "address": "Wonderville 1186 Broadway Brooklyn, NY, 11221 United States",
+        "type": "Arcade Venue"
+      },
+      "featured": false
+    },
+    {
+      "id": "evt_wonderville_ecc1a418",
+      "name": "Dopamine Allstars / Sewing Machines/ Alex P",
+      "type": "Gaming Event",
+      "locationId": "loc_wonderville",
+      "communityId": "com_wonderville",
+      "description": "A showcase of emerging Brooklyn electronic music artists. Intense, ruminative music that will move you and make you move.\nDopamine Allstars -\ndopamineallstars.bandcamp.com\n/\nhttps://www.instagram.com/dopamineallstars/\nAlex P. -\nalexperloff.bandcamp.com\n/\nhttps://www.instagram.com/alex.perloff/\nSewing Machines -\nhttps://sewingmachines.bandcamp.com/album/when-i-come-around\n/\nhttps://www.instagram.com/sewingmachinesmusic/\nRSVP",
+      "startDate": "2025-02-18T00:30:00+00:00",
+      "endDate": "2025-02-18T04:00:00+00:00",
+      "image": "",
+      "organizer": {
+        "name": "Wonderville",
+        "instagram": "@wondervillenyc",
+        "email": "hello@wonderville.nyc"
+      },
+      "venue": {
+        "name": "Wonderville",
+        "address": "Wonderville 1186 Broadway Brooklyn, NY, 11221 United States",
+        "type": "Arcade Venue"
+      },
+      "featured": false
+    },
+    {
+      "id": "evt_wonderville_c864d5fa",
+      "name": "SPELLHACK!! Launch Party",
+      "type": "Gaming Event",
+      "locationId": "loc_wonderville",
+      "communityId": "com_wonderville",
+      "description": "FREE!\n2/18 at 8PM\nSPELLHACK!! is a real-time survival deckbuilder, created by a solo developer in Brooklyn! The launch party is celebrating the 1.0 release, and will include a playable challenge build to win Steam keys, some fun special challenges, and vertefeuilles DJing live! Come check it out!\nCheck out SPELLHACK!! on Steam:\nhttps://store.steampowered.com/app/2889780/SPELLHACK\nvertefeuilles on Instagram:\nhttps://www.instagram.com/vertefeuilles\nRSVP",
+      "startDate": "2025-02-19T01:00:00+00:00",
+      "endDate": null,
+      "image": "",
+      "organizer": {
+        "name": "Wonderville",
+        "instagram": "@wondervillenyc",
+        "email": "hello@wonderville.nyc"
+      },
+      "venue": {
+        "name": "Wonderville",
+        "address": "Wonderville 1186 Broadway Brooklyn, NY, 11221 United States",
+        "type": "Arcade Venue"
+      },
+      "featured": false
+    },
+    {
+      "id": "evt_wonderville_add1ac43",
+      "name": "Killer Queen Open Hive Night",
+      "type": "Gaming Event",
+      "locationId": "loc_wonderville",
+      "communityId": "com_wonderville",
+      "description": "Every Wednesday is Killer Queen Freeplay Night! Come learn how to play the popular 10-player arcade game from some of NYC\u2019s best players!\nEach week there is a tournament. Sign ups are at 8pm, tournament commences at 8:30pm. Make new friends, learn to play Killer Queen!",
+      "startDate": "2025-02-20T01:00:00+00:00",
+      "endDate": null,
+      "image": "",
+      "organizer": {
+        "name": "Wonderville",
+        "instagram": "@wondervillenyc",
+        "email": "hello@wonderville.nyc"
+      },
+      "venue": {
+        "name": "Wonderville",
+        "address": "Wonderville 1186 Broadway Brooklyn, NY, 11221 United States",
+        "type": "Arcade Venue"
+      },
+      "featured": false
+    },
+    {
+      "id": "evt_wonderville_29c7084c",
+      "name": "WordHack feat.  Constant Dullaart, Blake Andrews and Leonardo Flores",
+      "type": "Gaming Event",
+      "locationId": "loc_wonderville",
+      "communityId": "com_wonderville",
+      "description": "What is your event description? Please include all performers and relevant links (social media handles, music goes here). We will use this on our website and WithFriends ticketing site. Try to be as descriptive as possible! This is what will draw people in to your event!*\nThis month we will be featuring:\nCONSTANT DULLAART (\nhttps://www.constantdullaart.com/\n)\nBLAKE ANDREWS (\nhttps://pbjabcusa.com/\n)\nLEONARDO FLORES (\nhttps://leonardoflores.net/\n)\nWe also have our OPEN PROJECTOR (like an open mic for digital work) where anyone can sign up to share a piece for 5 minutes at the start of the show.\nThe open projector signup sheet will go out at 6:45 the day of the show.\nHost & Curator: TODD ANDERSON (\nhttp://toddwords.com\n)\nTickets - $15 The event will be livestreamed at\nhttps://twitch.tv/wondervillenyc\nJoin the WordHack Email List:\nhttps://forms.gle/FvgEZ2LS29We4XsX8\nGet a digital copy of the WordHack Anthology:\nhttps://toddwords.itch.io/wordhack-anthology\nTickets",
+      "startDate": "2025-02-21T00:00:00+00:00",
+      "endDate": "2025-02-21T03:00:00+00:00",
+      "image": "",
+      "organizer": {
+        "name": "Wonderville",
+        "instagram": "@wondervillenyc",
+        "email": "hello@wonderville.nyc"
+      },
+      "venue": {
+        "name": "Wonderville",
+        "address": "Wonderville 1186 Broadway Brooklyn, NY, 11221 United States",
+        "type": "Arcade Venue"
+      },
+      "featured": false
+    },
+    {
+      "id": "evt_wonderville_44f06963",
+      "name": "Choose Your Character",
+      "type": "Gaming Event",
+      "locationId": "loc_wonderville",
+      "communityId": "com_wonderville",
+      "description": "DJs Rocky Billop, Melania and C^2, come together to bring a night of arcade techno fun!\nRocky Billop\nhas used their background as a live musician/producer to bring hardcore jump style vibes to their sets, utilizing crowd control in the best way possible\nDJ\nC^2\n(\nSoundcloud link\n) is looking to bring hypnotic techno on the lower end, and Gabber, industrial, tek\ufffc\ufffc on the higher end.\nMelania\nplays freak style, hard groove, sex style techno ,and hypnotic\nrsvp",
+      "startDate": "2025-02-22T02:00:00+00:00",
+      "endDate": null,
+      "image": "",
+      "organizer": {
+        "name": "Wonderville",
+        "instagram": "@wondervillenyc",
+        "email": "hello@wonderville.nyc"
+      },
+      "venue": {
+        "name": "Wonderville",
+        "address": "Wonderville 1186 Broadway Brooklyn, NY, 11221 United States",
+        "type": "Arcade Venue"
+      },
+      "featured": false
+    },
+    {
+      "id": "evt_wonderville_3472fe9b",
+      "name": "Intro to Self-Defense Workshop",
+      "type": "Gaming Event",
+      "locationId": "loc_wonderville",
+      "communityId": "com_wonderville",
+      "description": "Join us for a free intro self-defense workshop at Wonderville!\nWe\u2019ll be covering the basics: stretching, conditioning, technique, and theory, with the hope that participants will leave with some super useful foundations that they can add to their self-defense toolkits.\nMix that in with movement and pad-hitting and you\u2019ll have an accessible and confidence-boosting good time for all. This workshop is great for beginners, meant to share some simple-to-pick-up techniques that you can practice on your own or with friends!\nrsvp",
+      "startDate": "2025-02-22T19:00:00+00:00",
+      "endDate": "2025-02-22T21:00:00+00:00",
+      "image": "",
+      "organizer": {
+        "name": "Wonderville",
+        "instagram": "@wondervillenyc",
+        "email": "hello@wonderville.nyc"
+      },
+      "venue": {
+        "name": "Wonderville",
+        "address": "Wonderville 1186 Broadway Brooklyn, NY, 11221 United States",
+        "type": "Arcade Venue"
+      },
+      "featured": false
+    },
+    {
+      "id": "evt_wonderville_b9a90ac8",
+      "name": "The Donut Lounge",
+      "type": "Gaming Event",
+      "locationId": "loc_wonderville",
+      "communityId": "com_wonderville",
+      "description": "The Donut Lounge returns home to Wonderville for a fully immersive evening of banging lofi beats, visual eye candy, free donuts/designer video games, and all your friends (current and future). Outrageously chill vibes all around with a sweet raffle for some Donut Lounge related goodies.\nrsvp",
+      "startDate": "2025-02-23T00:00:00+00:00",
+      "endDate": null,
+      "image": "",
+      "organizer": {
+        "name": "Wonderville",
+        "instagram": "@wondervillenyc",
+        "email": "hello@wonderville.nyc"
+      },
+      "venue": {
+        "name": "Wonderville",
+        "address": "Wonderville 1186 Broadway Brooklyn, NY, 11221 United States",
+        "type": "Arcade Venue"
+      },
+      "featured": false
+    },
+    {
+      "id": "evt_wonderville_de138d22",
+      "name": "MindSwap: Doubles Edition",
+      "type": "Gaming Event",
+      "locationId": "loc_wonderville",
+      "communityId": "com_wonderville",
+      "description": "MINDSWAP, a chaotic condensed variety show / presentation party. This time our theme is Doubles, Couplets, Pairs, performances / presentations will be no longer than 7 minutes and can be presented in duets (or by lonesome if the theme is reached adequately). If you are interested in swapping your mind, feel free to fill out the form\nhere\n!\n---\nMindSwap is hosted by Destruction Junket, a Brooklyn-based art collective focused on artistic growth and workshopping in-progress work to our community.\nYou can find more on our\nwebsite\nor\ninstagram\nrsvp",
+      "startDate": "2025-02-23T19:00:00+00:00",
+      "endDate": "2025-02-23T22:00:00+00:00",
+      "image": "",
+      "organizer": {
+        "name": "Wonderville",
+        "instagram": "@wondervillenyc",
+        "email": "hello@wonderville.nyc"
+      },
+      "venue": {
+        "name": "Wonderville",
+        "address": "Wonderville 1186 Broadway Brooklyn, NY, 11221 United States",
+        "type": "Arcade Venue"
+      },
+      "featured": false
+    },
+    {
+      "id": "evt_wonderville_47a1020d",
+      "name": "Disasterpiece Movie Night",
+      "type": "Gaming Event",
+      "locationId": "loc_wonderville",
+      "communityId": "com_wonderville",
+      "description": "From the wondrous to the weird,\nDisasterpiece\nunearths bad movies for a watch party complete with drinking games, trivia, pizza, and a couple surprises.",
+      "startDate": "2025-02-24T01:00:00+00:00",
+      "endDate": "2025-02-24T04:59:00+00:00",
+      "image": "",
+      "organizer": {
+        "name": "Wonderville",
+        "instagram": "@wondervillenyc",
+        "email": "hello@wonderville.nyc"
+      },
+      "venue": {
+        "name": "Wonderville",
+        "address": "Wonderville 1186 Broadway Brooklyn, NY, 11221 United States",
+        "type": "Arcade Venue"
+      },
+      "featured": false
+    },
+    {
+      "id": "evt_wonderville_cead0a12",
+      "name": "Open VCR Night",
+      "type": "Gaming Event",
+      "locationId": "loc_wonderville",
+      "communityId": "com_wonderville",
+      "description": "THE RULES:\n1. BYO VHS, or use one of ours\n2. Anyone may eject at any time\n3. If you eject, you must INSERT TAPE\nTHE ANTICIPATED:\n90s Disney, workout videos, softcore, student films, local interest, choir recitals, insensitive cringe: anything may play. Anything may be ejected.\nLive commentary in the Twitch stream by FORT90.\nLive commentary in the room by you.\nADDENDA:\n1. Fast-forwarding & rewinding is cautiously permitted, as is booing.\n2. Livestreamed to\ntwitch.tv/wondervillenyc.\nTwitch chat is powerless.\n4. Ends 10:00PM.\nWatch on Twitch",
+      "startDate": "2025-02-25T00:00:00+00:00",
+      "endDate": "2025-02-25T03:00:00+00:00",
+      "image": "",
+      "organizer": {
+        "name": "Wonderville",
+        "instagram": "@wondervillenyc",
+        "email": "hello@wonderville.nyc"
+      },
+      "venue": {
+        "name": "Wonderville",
+        "address": "Wonderville 1186 Broadway Brooklyn, NY, 11221 United States",
+        "type": "Arcade Venue"
+      },
+      "featured": false
+    },
+    {
+      "id": "evt_wonderville_89e19f85",
+      "name": "Wonderville's Last Tuesday of the month PLAYTEST",
+      "type": "Gaming Event",
+      "locationId": "loc_wonderville",
+      "communityId": "com_wonderville",
+      "description": "Playtest Night is EVERY last Tuesday of EVERY month at Wonderville!\nCome to Wonderville to playtest in production games!\nIf you're a developer, bring your game! No signups required.\nrsvp",
+      "startDate": "2025-02-26T00:00:00+00:00",
+      "endDate": "2025-02-26T03:00:00+00:00",
+      "image": "",
+      "organizer": {
+        "name": "Wonderville",
+        "instagram": "@wondervillenyc",
+        "email": "hello@wonderville.nyc"
+      },
+      "venue": {
+        "name": "Wonderville",
+        "address": "Wonderville 1186 Broadway Brooklyn, NY, 11221 United States",
+        "type": "Arcade Venue"
+      },
+      "featured": false
+    },
+    {
+      "id": "evt_wonderville_add1ac43",
+      "name": "Killer Queen Open Hive Night",
+      "type": "Gaming Event",
+      "locationId": "loc_wonderville",
+      "communityId": "com_wonderville",
+      "description": "Every Wednesday is Killer Queen Freeplay Night! Come learn how to play the popular 10-player arcade game from some of NYC\u2019s best players!\nEach week there is a tournament. Sign ups are at 8pm, tournament commences at 8:30pm. Make new friends, learn to play Killer Queen!",
+      "startDate": "2025-02-27T01:00:00+00:00",
+      "endDate": null,
+      "image": "",
+      "organizer": {
+        "name": "Wonderville",
+        "instagram": "@wondervillenyc",
+        "email": "hello@wonderville.nyc"
+      },
+      "venue": {
+        "name": "Wonderville",
+        "address": "Wonderville 1186 Broadway Brooklyn, NY, 11221 United States",
+        "type": "Arcade Venue"
+      },
+      "featured": false
+    },
+    {
+      "id": "evt_wonderville_1243d005",
+      "name": "Brooklyn Experimental Electronic Music Group February Artist Showcase",
+      "type": "Gaming Event",
+      "locationId": "loc_wonderville",
+      "communityId": "com_wonderville",
+      "description": "Join the local electronic music community for our showcase featuring an eclectic mix of New York City artists working in a variety of styles.\nThis month's performers: FELD, Bri Dominique, Messica Arson, redgreenblue, and Violet Throw. Organized by Metamyther #electronicmusic #brooklynmusic #brooklynlivemusic #nyclivemusic #techno #modularsynthesizer #eurorack\nrsvp",
+      "startDate": "2025-02-28T00:00:00+00:00",
+      "endDate": "2025-02-28T04:00:00+00:00",
+      "image": "",
+      "organizer": {
+        "name": "Wonderville",
+        "instagram": "@wondervillenyc",
+        "email": "hello@wonderville.nyc"
+      },
+      "venue": {
+        "name": "Wonderville",
+        "address": "Wonderville 1186 Broadway Brooklyn, NY, 11221 United States",
+        "type": "Arcade Venue"
+      },
+      "featured": false
+    },
+    {
+      "id": "evt_wonderville_a72fe0ae",
+      "name": "Soul Train Nyc",
+      "type": "Gaming Event",
+      "locationId": "loc_wonderville",
+      "communityId": "com_wonderville",
+      "description": "Get ready to boogie and strut your stuff at\nSoulTrain NYC\n, a disco party dedicated to groovin' on the timeless energy of disco and house music. It's not just a dance floor, it's a time machine, where the soul shines bright like a sequined jumpsuit under a disco ball! \ud83c\udfb7\ud83d\udcbf\ud83c\udf1f\nrsvp",
+      "startDate": "2025-03-02T02:00:00+00:00",
+      "endDate": null,
+      "image": "",
+      "organizer": {
+        "name": "Wonderville",
+        "instagram": "@wondervillenyc",
+        "email": "hello@wonderville.nyc"
+      },
+      "venue": {
+        "name": "Wonderville",
+        "address": "Wonderville 1186 Broadway Brooklyn, NY, 11221 United States",
+        "type": "Arcade Venue"
+      },
+      "featured": false
+    },
+    {
+      "id": "evt_wonderville_d49772a4",
+      "name": "PARSONS DT POP-UP ARCADE",
+      "type": "Gaming Event",
+      "locationId": "loc_wonderville",
+      "communityId": "com_wonderville",
+      "description": "Positioning as work-in-progress, students at Parsons MFA and BFA DT have come together to demo and test their latest playful creations. Please join us to celebrate the work and share your honest feedback with us!\nRSVP",
+      "startDate": "2025-03-03T00:00:00+00:00",
+      "endDate": "2025-03-03T03:00:00+00:00",
+      "image": "",
+      "organizer": {
+        "name": "Wonderville",
+        "instagram": "@wondervillenyc",
+        "email": "hello@wonderville.nyc"
+      },
+      "venue": {
+        "name": "Wonderville",
+        "address": "Wonderville 1186 Broadway Brooklyn, NY, 11221 United States",
+        "type": "Arcade Venue"
+      },
+      "featured": false
+    },
+    {
+      "id": "evt_wonderville_7ee056a6",
+      "name": "Indie Music Night with Harbour Haunts, Yesterday and the Undoing, danieljmorrow and Sophia Stewart",
+      "type": "Gaming Event",
+      "locationId": "loc_wonderville",
+      "communityId": "com_wonderville",
+      "description": "4 Brooklyn based indie artists performing original\u00a0songs\nHarbour Haunts - @harbourhaunts\nharbourhaunts.bandcamp.com\ndanieljmorrow - @danieljmorrow\ndanieljmorrow.bandcamp.com\nYesterday and the Undoing - @andtheundoing\nyesterdayandtheundoing.bandcamp.com\nSophia Stewart- @sophiastewartmusic\nRSVP",
+      "startDate": "2025-03-04T01:00:00+00:00",
+      "endDate": "2025-03-04T04:30:00+00:00",
+      "image": "",
+      "organizer": {
+        "name": "Wonderville",
+        "instagram": "@wondervillenyc",
+        "email": "hello@wonderville.nyc"
+      },
+      "venue": {
+        "name": "Wonderville",
+        "address": "Wonderville 1186 Broadway Brooklyn, NY, 11221 United States",
+        "type": "Arcade Venue"
+      },
+      "featured": false
+    },
+    {
+      "id": "evt_wonderville_102847d5",
+      "name": "CyberHeart",
+      "type": "Gaming Event",
+      "locationId": "loc_wonderville",
+      "communityId": "com_wonderville",
+      "description": "For the Lovers The H2H Club (@theh2hclub) brings CyberHeart to Wonderville (@wondervillenyc)\u2014an Afro-Futuristic night where deep house meets culture, connection, and community. A space to move with intention, love out loud, and let the music heal\u2014this night is more than just sound; it\u2019s energy, rhythm, and pure vibes. Come as you are. Dance it out. Feel everything.\nRSVP",
+      "startDate": "2025-03-05T02:00:00+00:00",
+      "endDate": null,
+      "image": "",
+      "organizer": {
+        "name": "Wonderville",
+        "instagram": "@wondervillenyc",
+        "email": "hello@wonderville.nyc"
+      },
+      "venue": {
+        "name": "Wonderville",
+        "address": "Wonderville 1186 Broadway Brooklyn, NY, 11221 United States",
+        "type": "Arcade Venue"
+      },
+      "featured": false
+    },
+    {
+      "id": "evt_wonderville_add1ac43",
+      "name": "Killer Queen Open Hive Night",
+      "type": "Gaming Event",
+      "locationId": "loc_wonderville",
+      "communityId": "com_wonderville",
+      "description": "Every Wednesday is Killer Queen Freeplay Night! Come learn how to play the popular 10-player arcade game from some of NYC\u2019s best players!\nEach week there is a tournament. Sign ups are at 8pm, tournament commences at 8:30pm. Make new friends, learn to play Killer Queen!",
+      "startDate": "2025-03-06T01:00:00+00:00",
+      "endDate": null,
+      "image": "",
+      "organizer": {
+        "name": "Wonderville",
+        "instagram": "@wondervillenyc",
+        "email": "hello@wonderville.nyc"
+      },
+      "venue": {
+        "name": "Wonderville",
+        "address": "Wonderville 1186 Broadway Brooklyn, NY, 11221 United States",
+        "type": "Arcade Venue"
+      },
+      "featured": false
+    },
+    {
+      "id": "evt_wonderville_7c121ce1",
+      "name": "Monthly 2 Hr GameJam Club: Mario Builder 64",
+      "type": "Gaming Event",
+      "locationId": "loc_wonderville",
+      "communityId": "com_wonderville",
+      "description": "This month we are using Mario Builder 64 to make Mario 64 levels in under 2 hours.\nBring a computer and come out!\nGood for beginners and experts.\n1:00 PM Doors\n1:30 PM Workshop\n2:00 PM Game Jam Starts!\n4:00 PM Jam Ends, Presentations Start!\n5:00 PM\nThe arcade opens for regular use. This event will be streamed online, so people across the world can participate. This event is free to attend but donations are welcome and help pay for your instructor!\nRSVP",
+      "startDate": "2025-03-08T18:30:00+00:00",
+      "endDate": "2025-03-08T22:00:00+00:00",
+      "image": "",
+      "organizer": {
+        "name": "Wonderville",
+        "instagram": "@wondervillenyc",
+        "email": "hello@wonderville.nyc"
+      },
+      "venue": {
+        "name": "Wonderville",
+        "address": "Wonderville 1186 Broadway Brooklyn, NY, 11221 United States",
+        "type": "Arcade Venue"
+      },
+      "featured": false
+    },
+    {
+      "id": "evt_wonderville_2cba2198",
+      "name": "Smash Bash",
+      "type": "Gaming Event",
+      "locationId": "loc_wonderville",
+      "communityId": "com_wonderville",
+      "description": "Lovers, fighters, smashers, come all! Tonight is the night to prove yourself in both the arena and on the dance floor. Join\n@dj.fat.frog\nand friends as they spin heart-pounding house, garage, and dance music from and inspired by the beloved Super Smash Bros. series. The night wouldn't be complete without a fierce single elimination Smash tournament, with prizes to boot ;)",
+      "startDate": "2025-03-09T02:00:00+00:00",
+      "endDate": null,
+      "image": "",
+      "organizer": {
+        "name": "Wonderville",
+        "instagram": "@wondervillenyc",
+        "email": "hello@wonderville.nyc"
+      },
+      "venue": {
+        "name": "Wonderville",
+        "address": "Wonderville 1186 Broadway Brooklyn, NY, 11221 United States",
+        "type": "Arcade Venue"
+      },
+      "featured": false
+    },
+    {
+      "id": "evt_wonderville_f361da67",
+      "name": "Pick Your Poison: Death Becomes Her and The Substance Double Feature",
+      "type": "Gaming Event",
+      "locationId": "loc_wonderville",
+      "communityId": "com_wonderville",
+      "description": "What would you do for eternal youth and beauty? Would you rather drink The Potion or try The Substance? @yourwkndlvr and @aurualanimal are hosting a Double Birthday/Double Feature to help you decide. We'll begin with a shot of the cult classic Death Becomes Her at 2:30, and there will be a brief intermission followed by one hell of a chaser, The Substance, at 5 PM. Bottoms up!\nRSVP",
+      "startDate": "2025-03-09T18:00:00+00:00",
+      "endDate": "2025-03-09T23:30:00+00:00",
+      "image": "",
+      "organizer": {
+        "name": "Wonderville",
+        "instagram": "@wondervillenyc",
+        "email": "hello@wonderville.nyc"
+      },
+      "venue": {
+        "name": "Wonderville",
+        "address": "Wonderville 1186 Broadway Brooklyn, NY, 11221 United States",
+        "type": "Arcade Venue"
+      },
+      "featured": false
+    },
+    {
+      "id": "evt_wonderville_f2b56556",
+      "name": "Robot Karaoke",
+      "type": "Gaming Event",
+      "locationId": "loc_wonderville",
+      "communityId": "com_wonderville",
+      "description": "Join us for karaoke night on impossible mode as we replace the lyrics to any SONG with words from any TEXT, then try to sing the results on the spot.  It all happens live, so each song has never been heard before and will never be heard again.\nOur songwriting system, THE WEIRD ALGORITHM, matches each line syllable-for-syllable, so you can sing along if you know the original tune.\nRequest any of the 100+ songs and 50+ texts in the catalog. Sign up to sing as an individual or a group...or sit back and watch the karaoke carnage.\nPast combos include:\nYELP REVIEWS OF PSYCHICS to the tune of TOTAL ECLIPSE OF THE HEART\nCRAIGSLIST VEHICLE ADS to the tune of TAKE ME HOME COUNTRY ROADS\nNEGATIVE REVIEWS OF PROFESSORS to the tune of VAMPIRE\nBERNIE SANDERS EMAIL SUBJECT LINES to the tune of DON'T STOP BELIEVIN'\nHosted by Jamie Brew and Jenn Schiffer, two tech entrepreneurs on a mission to make karaoke harder and worse.\nFree admission\nSuggested donation - $10\nrsvp",
+      "startDate": "2025-03-10T23:00:00+00:00",
+      "endDate": "2025-03-11T01:00:00+00:00",
+      "image": "",
+      "organizer": {
+        "name": "Wonderville",
+        "instagram": "@wondervillenyc",
+        "email": "hello@wonderville.nyc"
+      },
+      "venue": {
+        "name": "Wonderville",
+        "address": "Wonderville 1186 Broadway Brooklyn, NY, 11221 United States",
+        "type": "Arcade Venue"
+      },
+      "featured": false
+    },
+    {
+      "id": "evt_wonderville_3afdb3e6",
+      "name": "Saoirse Dream: The Simulacrum Tour",
+      "type": "Gaming Event",
+      "locationId": "loc_wonderville",
+      "communityId": "com_wonderville",
+      "description": "The Simulacrum Tour (A Short Rest) *\u0a48\u2729\u2027\u208a\u02daConstructing selfhood from spellcraft and song, high sorceress saoirse dream embarks on the Simulacrum Tour (\u2229\uff40-\u00b4)\u2283\u2501\u2606\uff9f.*\uff65\uff61\uff9fAided by her trusted companion can of bliss (as well as local heros Musa, Nebita, and St1cks), the arch mage seeks to vanquish the forces of evil with nothing but her wit, her sword, and a Big Muff pedal!Weary from her travels, saoirse will be hosting a DJ-only evening at Wonderville. Come, celebrate the release of the new album! Imbibe strange elixirs! Enjoy the company of our party! Heed her call!\nSaoirse Dream\nCan of Bliss\nMusa\nNebita\nSt1cks\nrsvp",
+      "startDate": "2025-03-12T00:00:00+00:00",
+      "endDate": null,
+      "image": "",
+      "organizer": {
+        "name": "Wonderville",
+        "instagram": "@wondervillenyc",
+        "email": "hello@wonderville.nyc"
+      },
+      "venue": {
+        "name": "Wonderville",
+        "address": "Wonderville 1186 Broadway Brooklyn, NY, 11221 United States",
+        "type": "Arcade Venue"
+      },
+      "featured": false
+    },
+    {
+      "id": "evt_wonderville_add1ac43",
+      "name": "Killer Queen Open Hive Night",
+      "type": "Gaming Event",
+      "locationId": "loc_wonderville",
+      "communityId": "com_wonderville",
+      "description": "Every Wednesday is Killer Queen Freeplay Night! Come learn how to play the popular 10-player arcade game from some of NYC\u2019s best players!\nEach week there is a tournament. Sign ups are at 8pm, tournament commences at 8:30pm. Make new friends, learn to play Killer Queen!",
+      "startDate": "2025-03-13T00:00:00+00:00",
+      "endDate": null,
+      "image": "",
+      "organizer": {
+        "name": "Wonderville",
+        "instagram": "@wondervillenyc",
+        "email": "hello@wonderville.nyc"
+      },
+      "venue": {
+        "name": "Wonderville",
+        "address": "Wonderville 1186 Broadway Brooklyn, NY, 11221 United States",
+        "type": "Arcade Venue"
+      },
+      "featured": false
+    },
+    {
+      "id": "evt_wonderville_9da071a7",
+      "name": "ONE DAY ONLY: Self-Help, PotCell, Golder on 3.13",
+      "type": "Gaming Event",
+      "locationId": "loc_wonderville",
+      "communityId": "com_wonderville",
+      "description": "Self-help is a group with a singular brand of indie pop rock. Their explosive energy and infectious grooves bring audiences to life with a performance that is highly engaging and a sound that\u2019s hard to pin down.\nhttps://open.spotify.com/album/63IbJHpttefy5jEDzuLj3D?si=Bx-dHDcCRz68NRru6HFhmw\nPowerhouse of The Cell began as a marketing experiment conducted by Keywrb Lab Group in the early 1990s. The goal was to create the illusion of a grassroots environmental movement through false flag TV and radio hijackings with music and visual art. While this project was ultimately defunded, there has recently been some documentation of the experiment resurfacing.\nhttps://open.spotify.com/album/7aR08Te6AyMA65H8rBMvNl?si=r203_ZqqREiG2yI2TVnTEA\nGolder is a noise pop artist who combines deep indie roots with explosive contemporary production. He\u2019s based in NYC and plays live with Taj Searles and Jesse Zalk. He recently released his new EP, I\u2019m So Shallow When I Think of Death, which harnesses the glistening chaos he explored in his earlier work and playfully tackles themes of consumerism and mortality.\nhttps://open.spotify.com/album/11e3DbtUTbAv7IlhpveoEn?si=shJV7944TQu_DZn1EhHVJw\nrsvp",
+      "startDate": "2025-03-14T00:00:00+00:00",
+      "endDate": "2025-03-14T03:30:00+00:00",
+      "image": "",
+      "organizer": {
+        "name": "Wonderville",
+        "instagram": "@wondervillenyc",
+        "email": "hello@wonderville.nyc"
+      },
+      "venue": {
+        "name": "Wonderville",
+        "address": "Wonderville 1186 Broadway Brooklyn, NY, 11221 United States",
+        "type": "Arcade Venue"
+      },
+      "featured": false
+    },
+    {
+      "id": "evt_wonderville_1a161149",
+      "name": "Don/ Consumer/ MWIAA/ Trip Villian",
+      "type": "Gaming Event",
+      "locationId": "loc_wonderville",
+      "communityId": "com_wonderville",
+      "description": "For Mad Folx Only:\nA night full of some of the greatest, oddest, \u201cin your face\u201d punk/metal that east coast diy scene has to offer.\nDon Pardo\nTrip Villian\nPowerwasher\nMy Wife is an Angel\nConsumer Culture\nrsvp",
+      "startDate": "2025-03-15T00:00:00+00:00",
+      "endDate": null,
+      "image": "",
+      "organizer": {
+        "name": "Wonderville",
+        "instagram": "@wondervillenyc",
+        "email": "hello@wonderville.nyc"
+      },
+      "venue": {
+        "name": "Wonderville",
+        "address": "Wonderville 1186 Broadway Brooklyn, NY, 11221 United States",
+        "type": "Arcade Venue"
+      },
+      "featured": false
+    },
+    {
+      "id": "evt_wonderville_094287fa",
+      "name": "AnimeNEXT 2009: The Found Footage Documentary - 1st Public Screening!",
+      "type": "Gaming Event",
+      "locationId": "loc_wonderville",
+      "communityId": "com_wonderville",
+      "description": "The anime con experience of yesteryear packed into a hot wild 80 minutes.\nAnimeNEXT 2009: The Found Footage documentary aims to simply evoke the magic of the anime convention golden years via a preserved three day convention experience, nothing more nothing less.\nComprised entirely of old digi-cam footage from an era before everything was manicured for social media & the cell phone camera, the documentary throws you right into the con, forcing all to bask in awe of these bygone, earnest weebs; Heart filled to brim the power of friendship and anime, lacking any and all shame. Most people who've seen the film have laughed, many have cried, a few dubbed it incomprehensible, and one called it absolute dreck!\nThis is the first time the film will be screened to the public, will it bring you down memory lane or drive you to madness? In anime convention tradition, the documentary screening will be paired with a couple of classic anime con panels so get there early!: Anime Burger Time by Evan Minto (Azuki.co, Ani-Gamers) The Great Gundam Gebate, featuring a panel of Newtype Level Gundam Nerds. We encourage old cosplay and kigurumi's to this totally free event!\nHope you join us Sunday, March 16th from 2PM to 5PM!\nRSVP",
+      "startDate": "2025-03-16T18:00:00+00:00",
+      "endDate": "2025-03-16T21:00:00+00:00",
+      "image": "",
+      "organizer": {
+        "name": "Wonderville",
+        "instagram": "@wondervillenyc",
+        "email": "hello@wonderville.nyc"
+      },
+      "venue": {
+        "name": "Wonderville",
+        "address": "Wonderville 1186 Broadway Brooklyn, NY, 11221 United States",
+        "type": "Arcade Venue"
+      },
+      "featured": false
+    },
+    {
+      "id": "evt_wonderville_47a1020d",
+      "name": "Disasterpiece Movie Night",
+      "type": "Gaming Event",
+      "locationId": "loc_wonderville",
+      "communityId": "com_wonderville",
+      "description": "From the wondrous to the weird,\nDisasterpiece\nunearths bad movies for a watch party complete with drinking games, trivia, pizza, and a couple surprises.",
+      "startDate": "2025-03-17T00:00:00+00:00",
+      "endDate": "2025-03-17T03:59:00+00:00",
+      "image": "",
+      "organizer": {
+        "name": "Wonderville",
+        "instagram": "@wondervillenyc",
+        "email": "hello@wonderville.nyc"
+      },
+      "venue": {
+        "name": "Wonderville",
+        "address": "Wonderville 1186 Broadway Brooklyn, NY, 11221 United States",
+        "type": "Arcade Venue"
+      },
+      "featured": false
+    },
+    {
+      "id": "evt_wonderville_b80d194e",
+      "name": "Anti St-Paddy's day",
+      "type": "Gaming Event",
+      "locationId": "loc_wonderville",
+      "communityId": "com_wonderville",
+      "description": "Hey hey!! Celebrating anti- St. Paddy's day March 18th.\nFeaturing\nd3aded,\nloluxmusic\n&\ncopper__cross\n.\nShowtime: 8pm. Free show (QR codes will be up for suggested donations) Enjoy the games, and I'm looking forward to seeing you all \ud83c\udf82\ud83c\udf89\n#indie #hardrock #alternativerock #posthardcore #indierock #alternative\nrsvp",
+      "startDate": "2025-03-19T00:00:00+00:00",
+      "endDate": "2025-03-19T03:00:00+00:00",
+      "image": "",
+      "organizer": {
+        "name": "Wonderville",
+        "instagram": "@wondervillenyc",
+        "email": "hello@wonderville.nyc"
+      },
+      "venue": {
+        "name": "Wonderville",
+        "address": "Wonderville 1186 Broadway Brooklyn, NY, 11221 United States",
+        "type": "Arcade Venue"
+      },
+      "featured": false
+    },
+    {
+      "id": "evt_wonderville_add1ac43",
+      "name": "Killer Queen Open Hive Night",
+      "type": "Gaming Event",
+      "locationId": "loc_wonderville",
+      "communityId": "com_wonderville",
+      "description": "Every Wednesday is Killer Queen Freeplay Night! Come learn how to play the popular 10-player arcade game from some of NYC\u2019s best players!\nEach week there is a tournament. Sign ups are at 8pm, tournament commences at 8:30pm. Make new friends, learn to play Killer Queen!",
+      "startDate": "2025-03-20T00:00:00+00:00",
+      "endDate": null,
+      "image": "",
+      "organizer": {
+        "name": "Wonderville",
+        "instagram": "@wondervillenyc",
+        "email": "hello@wonderville.nyc"
+      },
+      "venue": {
+        "name": "Wonderville",
+        "address": "Wonderville 1186 Broadway Brooklyn, NY, 11221 United States",
+        "type": "Arcade Venue"
+      },
+      "featured": false
+    },
+    {
+      "id": "evt_wonderville_89e19f85",
+      "name": "Wonderville's Last Tuesday of the month PLAYTEST",
+      "type": "Gaming Event",
+      "locationId": "loc_wonderville",
+      "communityId": "com_wonderville",
+      "description": "Playtest Night is EVERY last Tuesday of EVERY month at Wonderville!\nCome to Wonderville to playtest in production games!\nIf you're a developer, bring your game! No signups required.\nrsvp",
+      "startDate": "2025-03-25T23:00:00+00:00",
+      "endDate": "2025-03-26T02:00:00+00:00",
+      "image": "",
+      "organizer": {
+        "name": "Wonderville",
+        "instagram": "@wondervillenyc",
+        "email": "hello@wonderville.nyc"
+      },
+      "venue": {
+        "name": "Wonderville",
+        "address": "Wonderville 1186 Broadway Brooklyn, NY, 11221 United States",
+        "type": "Arcade Venue"
+      },
+      "featured": false
+    },
+    {
+      "id": "evt_wonderville_add1ac43",
+      "name": "Killer Queen Open Hive Night",
+      "type": "Gaming Event",
+      "locationId": "loc_wonderville",
+      "communityId": "com_wonderville",
+      "description": "Every Wednesday is Killer Queen Freeplay Night! Come learn how to play the popular 10-player arcade game from some of NYC\u2019s best players!\nEach week there is a tournament. Sign ups are at 8pm, tournament commences at 8:30pm. Make new friends, learn to play Killer Queen!",
+      "startDate": "2025-03-27T00:00:00+00:00",
+      "endDate": null,
+      "image": "",
+      "organizer": {
+        "name": "Wonderville",
+        "instagram": "@wondervillenyc",
+        "email": "hello@wonderville.nyc"
+      },
+      "venue": {
+        "name": "Wonderville",
+        "address": "Wonderville 1186 Broadway Brooklyn, NY, 11221 United States",
+        "type": "Arcade Venue"
+      },
+      "featured": false
+    },
+    {
+      "id": "evt_wonderville_e31d8d86",
+      "name": "Brooklyn Experimental Electronic Music Group",
+      "type": "Gaming Event",
+      "locationId": "loc_wonderville",
+      "communityId": "com_wonderville",
+      "description": "Join the local electronic music community for our showcase featuring an eclectic mix of New York City artists working in a variety of styles.\nOrganized by Metamyther #electronicmusic #brooklynmusic #brooklynlivemusic #nyclivemusic #techno #modularsynthesizer #eurorack",
+      "startDate": "2025-03-27T23:00:00+00:00",
+      "endDate": "2025-03-28T03:00:00+00:00",
+      "image": "",
+      "organizer": {
+        "name": "Wonderville",
+        "instagram": "@wondervillenyc",
+        "email": "hello@wonderville.nyc"
+      },
+      "venue": {
+        "name": "Wonderville",
+        "address": "Wonderville 1186 Broadway Brooklyn, NY, 11221 United States",
+        "type": "Arcade Venue"
+      },
+      "featured": false
+    },
+    {
+      "id": "evt_wonderville_aaa6176d",
+      "name": "GLHF! VGM and Digital Fusion Party",
+      "type": "Gaming Event",
+      "locationId": "loc_wonderville",
+      "communityId": "com_wonderville",
+      "description": "A wild night of video game music, math rock, digital fusion and beyond. Join four new voices on the cutting edge of a new scene in Brooklyn.\nGLHF - GLHF (Good Luck Have Fun) is a raucous party band specializing in fast-paced and layered synth-rock, jazz fusion, and hyperpop remixes of video game music, often mashed with music from anime and pop/internet culture. Led by Joe Etzine and featuring VGM giants including Dom Palombi, Khrys Williams, and others who have frequented the mainstages of Magfest and PAX East, GLHF is currently playing shows across the East Coast.\nVisit\nhttps://linktr.ee/jetzine\nfor clips and social media.\nMaxo - Max Coburn, often under the name \u2018Maxo\u2019 is a musician and sound designer from Brooklyn, New York who specializes in digitally produced music, channelling a wide array of style and influence from Jazz, to Digital Fusion, to various types of dance music and beyond.\nVisit\nhttp://maxo.audio\nRedddaz - is the spirit of Brooklyn in one man. This melting pot of American, Afro-Caribbean, and Afro-Latino cultures is not only the foundation of his music, but also his plane ticket to the rest of the world. Understanding that music ties us all together, this songwriter and producer seeks to bring a little piece of Brooklyn on his travels around the globe.\nVisit\nhttp://www.redddaz.com\nTeal Jay - Fronted by Tyler Lee Jones, Teal Jay is a Brooklyn-based math rock project centered around their overhand guitar technique. They're influenced by artists in the NY/NJ indie emo/math punk and adjacent scenes (Invalids, Use Big Words, The Best of the Worst) as well as early 2000's J-rock/J-punk (STANE PUNKS, Sambomaster, AKFG).\nVisit\nlinktr.ee/tylerleejones\nBuy Tickets",
+      "startDate": "2025-04-05T23:00:00+00:00",
+      "endDate": null,
+      "image": "",
+      "organizer": {
+        "name": "Wonderville",
+        "instagram": "@wondervillenyc",
+        "email": "hello@wonderville.nyc"
+      },
+      "venue": {
+        "name": "Wonderville",
+        "address": "Wonderville 1186 Broadway Brooklyn, NY, 11221 United States",
+        "type": "Arcade Venue"
+      },
+      "featured": false
+    },
+    {
+      "id": "evt_wonderville_4580744d",
+      "name": "Free + Won't Hide Release Show",
+      "type": "Gaming Event",
+      "locationId": "loc_wonderville",
+      "communityId": "com_wonderville",
+      "description": "Join us for Aksido's (\nhttps://www.instagram.com/aks1do\n) Release Show on Tuesday, April 8th!\nLineup:\nAksido (\nhttps://www.instagram.com/aks1do\n)\nBug Crush (\nhttps://www.instagram.com/bugcrush.mp3\n)\nReya Flowers (\nhttps://www.instagram.com/reya.flowers/\n)\nTim Panick (\nhttps://www.instagram.com/reacheereach/\n)\nEgo Stravinsky (\nhttps://www.instagram.com/egostravinsky/\n)\nTuesday 4/8\nDoors: 7\nMusic: 7:30pm - 21+ - $10 suggested donation\nRSVP",
+      "startDate": "2025-04-08T23:30:00+00:00",
+      "endDate": "2025-04-09T03:30:00+00:00",
+      "image": "",
+      "organizer": {
+        "name": "Wonderville",
+        "instagram": "@wondervillenyc",
+        "email": "hello@wonderville.nyc"
+      },
+      "venue": {
+        "name": "Wonderville",
+        "address": "Wonderville 1186 Broadway Brooklyn, NY, 11221 United States",
+        "type": "Arcade Venue"
+      },
+      "featured": false
+    },
+    {
+      "id": "evt_wonderville_b2e99f13",
+      "name": "Monthly 2 Hr GameJam Club: Bitsy",
+      "type": "Gaming Event",
+      "locationId": "loc_wonderville",
+      "communityId": "com_wonderville",
+      "description": "This month we are using Bitsy to make adventure games in under 2 hours. Bring a computer and come out! Good for beginners and experts.\nBring a computer and come out!\nGood for beginners and experts.\n1:00 PM Doors\n1:30 PM Workshop\n2:00 PM Game Jam Starts!\n4:00 PM Jam Ends, Presentations Start!\n5:00 PM\nThe arcade opens for regular use. This event will be streamed online, so people across the world can participate. This event is free to attend but donations are welcome and help pay for your instructor!\nRSVP",
+      "startDate": "2025-04-12T17:00:00+00:00",
+      "endDate": "2025-04-12T21:00:00+00:00",
+      "image": "",
+      "organizer": {
+        "name": "Wonderville",
+        "instagram": "@wondervillenyc",
+        "email": "hello@wonderville.nyc"
+      },
+      "venue": {
+        "name": "Wonderville",
+        "address": "Wonderville 1186 Broadway Brooklyn, NY, 11221 United States",
+        "type": "Arcade Venue"
+      },
+      "featured": false
+    },
+    {
+      "id": "evt_wonderville_2cba2198",
+      "name": "Smash Bash",
+      "type": "Gaming Event",
+      "locationId": "loc_wonderville",
+      "communityId": "com_wonderville",
+      "description": "Lovers, fighters, smashers, come all! Tonight is the night to prove yourself in both the arena and on the dance floor. Join\n@dj.fat.frog\nand friends as they spin heart-pounding house, garage, and dance music from and inspired by the beloved Super Smash Bros. series. The night wouldn't be complete without a fierce single elimination Smash tournament, with prizes to boot ;)",
+      "startDate": "2025-04-13T01:00:00+00:00",
+      "endDate": null,
+      "image": "",
+      "organizer": {
+        "name": "Wonderville",
+        "instagram": "@wondervillenyc",
+        "email": "hello@wonderville.nyc"
+      },
+      "venue": {
+        "name": "Wonderville",
+        "address": "Wonderville 1186 Broadway Brooklyn, NY, 11221 United States",
+        "type": "Arcade Venue"
+      },
+      "featured": false
+    },
+    {
+      "id": "evt_wonderville_47a1020d",
+      "name": "Disasterpiece Movie Night",
+      "type": "Gaming Event",
+      "locationId": "loc_wonderville",
+      "communityId": "com_wonderville",
+      "description": "From the wondrous to the weird,\nDisasterpiece\nunearths bad movies for a watch party complete with drinking games, trivia, pizza, and a couple surprises.",
+      "startDate": "2025-04-21T00:00:00+00:00",
+      "endDate": "2025-04-21T03:59:00+00:00",
+      "image": "",
+      "organizer": {
+        "name": "Wonderville",
+        "instagram": "@wondervillenyc",
+        "email": "hello@wonderville.nyc"
+      },
+      "venue": {
+        "name": "Wonderville",
+        "address": "Wonderville 1186 Broadway Brooklyn, NY, 11221 United States",
+        "type": "Arcade Venue"
+      },
+      "featured": false
+    },
+    {
+      "id": "evt_wonderville_e31d8d86",
+      "name": "Brooklyn Experimental Electronic Music Group",
+      "type": "Gaming Event",
+      "locationId": "loc_wonderville",
+      "communityId": "com_wonderville",
+      "description": "Join the local electronic music community for our showcase featuring an eclectic mix of New York City artists working in a variety of styles.\nOrganized by Metamyther #electronicmusic #brooklynmusic #brooklynlivemusic #nyclivemusic #techno #modularsynthesizer #eurorack",
+      "startDate": "2025-04-24T23:00:00+00:00",
+      "endDate": "2025-04-25T03:00:00+00:00",
+      "image": "",
+      "organizer": {
+        "name": "Wonderville",
+        "instagram": "@wondervillenyc",
+        "email": "hello@wonderville.nyc"
+      },
+      "venue": {
+        "name": "Wonderville",
+        "address": "Wonderville 1186 Broadway Brooklyn, NY, 11221 United States",
+        "type": "Arcade Venue"
+      },
+      "featured": false
+    },
+    {
+      "id": "evt_wonderville_cead0a12",
+      "name": "Open VCR Night",
+      "type": "Gaming Event",
+      "locationId": "loc_wonderville",
+      "communityId": "com_wonderville",
+      "description": "THE RULES:\n1. BYO VHS, or use one of ours\n2. Anyone may eject at any time\n3. If you eject, you must INSERT TAPE\nTHE ANTICIPATED:\n90s Disney, workout videos, softcore, student films, local interest, choir recitals, insensitive cringe: anything may play. Anything may be ejected.\nLive commentary in the Twitch stream by FORT90.\nLive commentary in the room by you.\nADDENDA:\n1. Fast-forwarding & rewinding is cautiously permitted, as is booing.\n2. Livestreamed to\ntwitch.tv/wondervillenyc.\nTwitch chat is powerless.\n4. Ends 10:00PM.\nWatch on Twitch",
+      "startDate": "2025-04-28T23:00:00+00:00",
+      "endDate": "2025-04-29T02:00:00+00:00",
+      "image": "",
+      "organizer": {
+        "name": "Wonderville",
+        "instagram": "@wondervillenyc",
+        "email": "hello@wonderville.nyc"
+      },
+      "venue": {
+        "name": "Wonderville",
+        "address": "Wonderville 1186 Broadway Brooklyn, NY, 11221 United States",
+        "type": "Arcade Venue"
+      },
+      "featured": false
+    },
+    {
+      "id": "evt_wonderville_89e19f85",
+      "name": "Wonderville's Last Tuesday of the month PLAYTEST",
+      "type": "Gaming Event",
+      "locationId": "loc_wonderville",
+      "communityId": "com_wonderville",
+      "description": "Playtest Night is EVERY last Tuesday of EVERY month at Wonderville!\nCome to Wonderville to playtest in production games!\nIf you're a developer, bring your game! No signups required.\nrsvp",
+      "startDate": "2025-04-29T23:00:00+00:00",
+      "endDate": "2025-04-30T02:00:00+00:00",
+      "image": "",
+      "organizer": {
+        "name": "Wonderville",
+        "instagram": "@wondervillenyc",
+        "email": "hello@wonderville.nyc"
+      },
+      "venue": {
+        "name": "Wonderville",
+        "address": "Wonderville 1186 Broadway Brooklyn, NY, 11221 United States",
+        "type": "Arcade Venue"
+      },
+      "featured": false
+    },
+    {
+      "id": "evt_wonderville_ac9fce3f",
+      "name": "Monthly 2 Hr GameJam Club: Flat Games",
+      "type": "Gaming Event",
+      "locationId": "loc_wonderville",
+      "communityId": "com_wonderville",
+      "description": "This month we are using GameMaker to make \"flat games\" in under 2 hours. Bring a computer and come out! Good for beginners and experts.\nBring a computer and come out!\nGood for beginners and experts.\n1:00 PM Doors\n1:30 PM Workshop\n2:00 PM Game Jam Starts!\n4:00 PM Jam Ends, Presentations Start!\n5:00 PM\nThe arcade opens for regular use. This event will be streamed online, so people across the world can participate. This event is free to attend but donations are welcome and help pay for your instructor!",
+      "startDate": "2025-05-10T17:00:00+00:00",
+      "endDate": "2025-05-10T21:00:00+00:00",
+      "image": "",
+      "organizer": {
+        "name": "Wonderville",
+        "instagram": "@wondervillenyc",
+        "email": "hello@wonderville.nyc"
+      },
+      "venue": {
+        "name": "Wonderville",
+        "address": "Wonderville 1186 Broadway Brooklyn, NY, 11221 United States",
+        "type": "Arcade Venue"
+      },
+      "featured": false
+    },
+    {
+      "id": "evt_wonderville_2cba2198",
+      "name": "Smash Bash",
+      "type": "Gaming Event",
+      "locationId": "loc_wonderville",
+      "communityId": "com_wonderville",
+      "description": "Lovers, fighters, smashers, come all! Tonight is the night to prove yourself in both the arena and on the dance floor. Join\n@dj.fat.frog\nand friends as they spin heart-pounding house, garage, and dance music from and inspired by the beloved Super Smash Bros. series. The night wouldn't be complete without a fierce single elimination Smash tournament, with prizes to boot ;)",
+      "startDate": "2025-05-11T01:00:00+00:00",
+      "endDate": null,
+      "image": "",
+      "organizer": {
+        "name": "Wonderville",
+        "instagram": "@wondervillenyc",
+        "email": "hello@wonderville.nyc"
+      },
+      "venue": {
+        "name": "Wonderville",
+        "address": "Wonderville 1186 Broadway Brooklyn, NY, 11221 United States",
+        "type": "Arcade Venue"
+      },
+      "featured": false
+    },
+    {
+      "id": "evt_wonderville_6e9cad95",
+      "name": "Wonderville Karaoke",
+      "type": "Gaming Event",
+      "locationId": "loc_wonderville",
+      "communityId": "com_wonderville",
+      "description": "You got the music in you? Come down to Wonderville, on the second Sunday of every month, to share a song with the gentle hum of DIY arcade games as your backup singers. Or simply be entertained by the vocal stylings of randos off the street. Either way, don't forget to tip your bartender!",
+      "startDate": "2025-05-12T00:00:00+00:00",
+      "endDate": "2025-05-12T03:00:00+00:00",
+      "image": "",
+      "organizer": {
+        "name": "Wonderville",
+        "instagram": "@wondervillenyc",
+        "email": "hello@wonderville.nyc"
+      },
+      "venue": {
+        "name": "Wonderville",
+        "address": "Wonderville 1186 Broadway Brooklyn, NY, 11221 United States",
+        "type": "Arcade Venue"
+      },
+      "featured": false
+    },
+    {
+      "id": "evt_wonderville_f2b56556",
+      "name": "Robot Karaoke",
+      "type": "Gaming Event",
+      "locationId": "loc_wonderville",
+      "communityId": "com_wonderville",
+      "description": "Join us for karaoke night on impossible mode as we replace the lyrics to any SONG with words from any TEXT, then try to sing the results on the spot.  It all happens live, so each song has never been heard before and will never be heard again.\nOur songwriting system, THE WEIRD ALGORITHM, matches each line syllable-for-syllable, so you can sing along if you know the original tune.\nRequest any of the 100+ songs and 50+ texts in the catalog. Sign up to sing as an individual or a group...or sit back and watch the karaoke carnage.\nPast combos include:\nYELP REVIEWS OF PSYCHICS to the tune of TOTAL ECLIPSE OF THE HEART\nCRAIGSLIST VEHICLE ADS to the tune of TAKE ME HOME COUNTRY ROADS\nNEGATIVE REVIEWS OF PROFESSORS to the tune of VAMPIRE\nBERNIE SANDERS EMAIL SUBJECT LINES to the tune of DON'T STOP BELIEVIN'\nHosted by Jamie Brew and Jenn Schiffer, two tech entrepreneurs on a mission to make karaoke harder and worse.\nFree admission\nSuggested donation - $10\nrsvp",
+      "startDate": "2025-05-12T23:00:00+00:00",
+      "endDate": "2025-05-13T01:00:00+00:00",
+      "image": "",
+      "organizer": {
+        "name": "Wonderville",
+        "instagram": "@wondervillenyc",
+        "email": "hello@wonderville.nyc"
+      },
+      "venue": {
+        "name": "Wonderville",
+        "address": "Wonderville 1186 Broadway Brooklyn, NY, 11221 United States",
+        "type": "Arcade Venue"
+      },
+      "featured": false
+    },
+    {
+      "id": "evt_wonderville_e31d8d86",
+      "name": "Brooklyn Experimental Electronic Music Group",
+      "type": "Gaming Event",
+      "locationId": "loc_wonderville",
+      "communityId": "com_wonderville",
+      "description": "Join the local electronic music community for our showcase featuring an eclectic mix of New York City artists working in a variety of styles.\nOrganized by Metamyther #electronicmusic #brooklynmusic #brooklynlivemusic #nyclivemusic #techno #modularsynthesizer #eurorack",
+      "startDate": "2025-05-29T23:00:00+00:00",
+      "endDate": "2025-05-30T03:00:00+00:00",
+      "image": "",
+      "organizer": {
+        "name": "Wonderville",
+        "instagram": "@wondervillenyc",
+        "email": "hello@wonderville.nyc"
+      },
+      "venue": {
+        "name": "Wonderville",
+        "address": "Wonderville 1186 Broadway Brooklyn, NY, 11221 United States",
+        "type": "Arcade Venue"
+      },
+      "featured": false
+    },
+    {
+      "id": "evt_wonderville_e59852cf",
+      "name": "Monthly 2 Hr GameJam Club: Inform 7",
+      "type": "Gaming Event",
+      "locationId": "loc_wonderville",
+      "communityId": "com_wonderville",
+      "description": "This month we are using Inform 7 to make text adventures in under 2 hours. Bring a computer and come out! Good for beginners and experts.\nBring a computer and come out!\nGood for beginners and experts.\n1:00 PM Doors\n1:30 PM Workshop\n2:00 PM Game Jam Starts!\n4:00 PM Jam Ends, Presentations Start!\n5:00 PM\nThe arcade opens for regular use. This event will be streamed online, so people across the world can participate. This event is free to attend but donations are welcome and help pay for your instructor!\nRSVP",
+      "startDate": "2025-06-14T17:00:00+00:00",
+      "endDate": "2025-06-14T21:00:00+00:00",
+      "image": "",
+      "organizer": {
+        "name": "Wonderville",
+        "instagram": "@wondervillenyc",
+        "email": "hello@wonderville.nyc"
+      },
+      "venue": {
+        "name": "Wonderville",
+        "address": "Wonderville 1186 Broadway Brooklyn, NY, 11221 United States",
+        "type": "Arcade Venue"
+      },
+      "featured": false
+    },
+    {
+      "id": "evt_wonderville_2cba2198",
+      "name": "Smash Bash",
+      "type": "Gaming Event",
+      "locationId": "loc_wonderville",
+      "communityId": "com_wonderville",
+      "description": "Lovers, fighters, smashers, come all! Tonight is the night to prove yourself in both the arena and on the dance floor. Join\n@dj.fat.frog\nand friends as they spin heart-pounding house, garage, and dance music from and inspired by the beloved Super Smash Bros. series. The night wouldn't be complete without a fierce single elimination Smash tournament, with prizes to boot ;)",
+      "startDate": "2025-06-15T01:00:00+00:00",
+      "endDate": null,
+      "image": "",
+      "organizer": {
+        "name": "Wonderville",
+        "instagram": "@wondervillenyc",
+        "email": "hello@wonderville.nyc"
+      },
+      "venue": {
+        "name": "Wonderville",
+        "address": "Wonderville 1186 Broadway Brooklyn, NY, 11221 United States",
+        "type": "Arcade Venue"
+      },
+      "featured": false
+    },
+    {
+      "id": "evt_wonderville_e31d8d86",
+      "name": "Brooklyn Experimental Electronic Music Group",
+      "type": "Gaming Event",
+      "locationId": "loc_wonderville",
+      "communityId": "com_wonderville",
+      "description": "Join the local electronic music community for our showcase featuring an eclectic mix of New York City artists working in a variety of styles.\nOrganized by Metamyther #electronicmusic #brooklynmusic #brooklynlivemusic #nyclivemusic #techno #modularsynthesizer #eurorack",
+      "startDate": "2025-06-26T23:00:00+00:00",
+      "endDate": "2025-06-27T03:00:00+00:00",
+      "image": "",
+      "organizer": {
+        "name": "Wonderville",
+        "instagram": "@wondervillenyc",
+        "email": "hello@wonderville.nyc"
+      },
+      "venue": {
+        "name": "Wonderville",
+        "address": "Wonderville 1186 Broadway Brooklyn, NY, 11221 United States",
+        "type": "Arcade Venue"
+      },
+      "featured": false
+    },
+    {
+      "id": "evt_wonderville_cead0a12",
+      "name": "Open VCR Night",
+      "type": "Gaming Event",
+      "locationId": "loc_wonderville",
+      "communityId": "com_wonderville",
+      "description": "THE RULES:\n1. BYO VHS, or use one of ours\n2. Anyone may eject at any time\n3. If you eject, you must INSERT TAPE\nTHE ANTICIPATED:\n90s Disney, workout videos, softcore, student films, local interest, choir recitals, insensitive cringe: anything may play. Anything may be ejected.\nLive commentary in the Twitch stream by FORT90.\nLive commentary in the room by you.\nADDENDA:\n1. Fast-forwarding & rewinding is cautiously permitted, as is booing.\n2. Livestreamed to\ntwitch.tv/wondervillenyc.\nTwitch chat is powerless.\n4. Ends 10:00PM.\nWatch on Twitch",
+      "startDate": "2025-06-30T23:00:00+00:00",
+      "endDate": "2025-07-01T02:00:00+00:00",
+      "image": "",
+      "organizer": {
+        "name": "Wonderville",
+        "instagram": "@wondervillenyc",
+        "email": "hello@wonderville.nyc"
+      },
+      "venue": {
+        "name": "Wonderville",
+        "address": "Wonderville 1186 Broadway Brooklyn, NY, 11221 United States",
+        "type": "Arcade Venue"
+      },
+      "featured": false
+    },
+    {
+      "id": "evt_wonderville_9f442d40",
+      "name": "Monthly 2 Hr GameJam Club: OHRRPGCE",
+      "type": "Gaming Event",
+      "locationId": "loc_wonderville",
+      "communityId": "com_wonderville",
+      "description": "This month we are using OHRRPGCE to make RPGs in under 2 hours. Bring a computer and come out! Good for beginners and experts.\nBring a computer and come out!\nGood for beginners and experts.\n1:00 PM Doors\n1:30 PM Workshop\n2:00 PM Game Jam Starts!\n4:00 PM Jam Ends, Presentations Start!\n5:00 PM\nThe arcade opens for regular use. This event will be streamed online, so people across the world can participate. This event is free to attend but donations are welcome and help pay for your instructor!\nRSVP",
+      "startDate": "2025-07-12T17:00:00+00:00",
+      "endDate": "2025-07-12T21:00:00+00:00",
+      "image": "",
+      "organizer": {
+        "name": "Wonderville",
+        "instagram": "@wondervillenyc",
+        "email": "hello@wonderville.nyc"
+      },
+      "venue": {
+        "name": "Wonderville",
+        "address": "Wonderville 1186 Broadway Brooklyn, NY, 11221 United States",
+        "type": "Arcade Venue"
+      },
+      "featured": false
+    },
+    {
+      "id": "evt_wonderville_f2b56556",
+      "name": "Robot Karaoke",
+      "type": "Gaming Event",
+      "locationId": "loc_wonderville",
+      "communityId": "com_wonderville",
+      "description": "Join us for karaoke night on impossible mode as we replace the lyrics to any SONG with words from any TEXT, then try to sing the results on the spot.  It all happens live, so each song has never been heard before and will never be heard again.\nOur songwriting system, THE WEIRD ALGORITHM, matches each line syllable-for-syllable, so you can sing along if you know the original tune.\nRequest any of the 100+ songs and 50+ texts in the catalog. Sign up to sing as an individual or a group...or sit back and watch the karaoke carnage.\nPast combos include:\nYELP REVIEWS OF PSYCHICS to the tune of TOTAL ECLIPSE OF THE HEART\nCRAIGSLIST VEHICLE ADS to the tune of TAKE ME HOME COUNTRY ROADS\nNEGATIVE REVIEWS OF PROFESSORS to the tune of VAMPIRE\nBERNIE SANDERS EMAIL SUBJECT LINES to the tune of DON'T STOP BELIEVIN'\nHosted by Jamie Brew and Jenn Schiffer, two tech entrepreneurs on a mission to make karaoke harder and worse.\nFree admission\nSuggested donation - $10\nrsvp",
+      "startDate": "2025-07-14T23:00:00+00:00",
+      "endDate": "2025-07-15T01:00:00+00:00",
+      "image": "",
+      "organizer": {
+        "name": "Wonderville",
+        "instagram": "@wondervillenyc",
+        "email": "hello@wonderville.nyc"
+      },
+      "venue": {
+        "name": "Wonderville",
+        "address": "Wonderville 1186 Broadway Brooklyn, NY, 11221 United States",
+        "type": "Arcade Venue"
+      },
+      "featured": false
+    },
+    {
+      "id": "evt_wonderville_e31d8d86",
+      "name": "Brooklyn Experimental Electronic Music Group",
+      "type": "Gaming Event",
+      "locationId": "loc_wonderville",
+      "communityId": "com_wonderville",
+      "description": "Join the local electronic music community for our showcase featuring an eclectic mix of New York City artists working in a variety of styles.\nOrganized by Metamyther #electronicmusic #brooklynmusic #brooklynlivemusic #nyclivemusic #techno #modularsynthesizer #eurorack",
+      "startDate": "2025-07-31T23:00:00+00:00",
+      "endDate": "2025-08-01T03:00:00+00:00",
+      "image": "",
+      "organizer": {
+        "name": "Wonderville",
+        "instagram": "@wondervillenyc",
+        "email": "hello@wonderville.nyc"
+      },
+      "venue": {
+        "name": "Wonderville",
+        "address": "Wonderville 1186 Broadway Brooklyn, NY, 11221 United States",
+        "type": "Arcade Venue"
+      },
+      "featured": false
+    },
+    {
+      "id": "evt_wonderville_73dffd54",
+      "name": "Monthly 2 Hr GameJam Club: M.U.G.E.N",
+      "type": "Gaming Event",
+      "locationId": "loc_wonderville",
+      "communityId": "com_wonderville",
+      "description": "This month we are using M.U.G.E.N to make fighting game characters in under 2 hours. Bring a computer and come out! Good for beginners and experts.\nBring a computer and come out!\nGood for beginners and experts.\n1:00 PM Doors\n1:30 PM Workshop\n2:00 PM Game Jam Starts!\n4:00 PM Jam Ends, Presentations Start!\n5:00 PM\nThe arcade opens for regular use. This event will be streamed online, so people across the world can participate. This event is free to attend but donations are welcome and help pay for your instructor!\nRSVP",
+      "startDate": "2025-08-09T17:00:00+00:00",
+      "endDate": "2025-08-09T21:00:00+00:00",
+      "image": "",
+      "organizer": {
+        "name": "Wonderville",
+        "instagram": "@wondervillenyc",
+        "email": "hello@wonderville.nyc"
+      },
+      "venue": {
+        "name": "Wonderville",
+        "address": "Wonderville 1186 Broadway Brooklyn, NY, 11221 United States",
+        "type": "Arcade Venue"
+      },
+      "featured": false
+    },
+    {
+      "id": "evt_wonderville_cead0a12",
+      "name": "Open VCR Night",
+      "type": "Gaming Event",
+      "locationId": "loc_wonderville",
+      "communityId": "com_wonderville",
+      "description": "THE RULES:\n1. BYO VHS, or use one of ours\n2. Anyone may eject at any time\n3. If you eject, you must INSERT TAPE\nTHE ANTICIPATED:\n90s Disney, workout videos, softcore, student films, local interest, choir recitals, insensitive cringe: anything may play. Anything may be ejected.\nLive commentary in the Twitch stream by FORT90.\nLive commentary in the room by you.\nADDENDA:\n1. Fast-forwarding & rewinding is cautiously permitted, as is booing.\n2. Livestreamed to\ntwitch.tv/wondervillenyc.\nTwitch chat is powerless.\n4. Ends 10:00PM.\nWatch on Twitch",
+      "startDate": "2025-08-25T23:00:00+00:00",
+      "endDate": "2025-08-26T02:00:00+00:00",
+      "image": "",
+      "organizer": {
+        "name": "Wonderville",
+        "instagram": "@wondervillenyc",
+        "email": "hello@wonderville.nyc"
+      },
+      "venue": {
+        "name": "Wonderville",
+        "address": "Wonderville 1186 Broadway Brooklyn, NY, 11221 United States",
+        "type": "Arcade Venue"
+      },
+      "featured": false
+    },
+    {
+      "id": "evt_wonderville_e31d8d86",
+      "name": "Brooklyn Experimental Electronic Music Group",
+      "type": "Gaming Event",
+      "locationId": "loc_wonderville",
+      "communityId": "com_wonderville",
+      "description": "Join the local electronic music community for our showcase featuring an eclectic mix of New York City artists working in a variety of styles.\nOrganized by Metamyther #electronicmusic #brooklynmusic #brooklynlivemusic #nyclivemusic #techno #modularsynthesizer #eurorack",
+      "startDate": "2025-08-28T23:00:00+00:00",
+      "endDate": "2025-08-29T03:00:00+00:00",
+      "image": "",
+      "organizer": {
+        "name": "Wonderville",
+        "instagram": "@wondervillenyc",
+        "email": "hello@wonderville.nyc"
+      },
+      "venue": {
+        "name": "Wonderville",
+        "address": "Wonderville 1186 Broadway Brooklyn, NY, 11221 United States",
+        "type": "Arcade Venue"
+      },
+      "featured": false
+    },
+    {
+      "id": "evt_wonderville_2b78c7c8",
+      "name": "Monthly 2 Hr GameJam Club: ZZT",
+      "type": "Gaming Event",
+      "locationId": "loc_wonderville",
+      "communityId": "com_wonderville",
+      "description": "This month we are using ZZT to make action adventure games in under 2 hours. Bring a computer and come out! Good for beginners and experts.\nBring a computer and come out!\nGood for beginners and experts.\n1:00 PM Doors\n1:30 PM Workshop\n2:00 PM Game Jam Starts!\n4:00 PM Jam Ends, Presentations Start!\n5:00 PM\nThe arcade opens for regular use. This event will be streamed online, so people across the world can participate. This event is free to attend but donations are welcome and help pay for your instructor!\nRSVP",
+      "startDate": "2025-09-13T17:00:00+00:00",
+      "endDate": "2025-09-13T21:00:00+00:00",
+      "image": "",
+      "organizer": {
+        "name": "Wonderville",
+        "instagram": "@wondervillenyc",
+        "email": "hello@wonderville.nyc"
+      },
+      "venue": {
+        "name": "Wonderville",
+        "address": "Wonderville 1186 Broadway Brooklyn, NY, 11221 United States",
+        "type": "Arcade Venue"
+      },
+      "featured": false
+    },
+    {
+      "id": "evt_wonderville_f2b56556",
+      "name": "Robot Karaoke",
+      "type": "Gaming Event",
+      "locationId": "loc_wonderville",
+      "communityId": "com_wonderville",
+      "description": "Join us for karaoke night on impossible mode as we replace the lyrics to any SONG with words from any TEXT, then try to sing the results on the spot.  It all happens live, so each song has never been heard before and will never be heard again.\nOur songwriting system, THE WEIRD ALGORITHM, matches each line syllable-for-syllable, so you can sing along if you know the original tune.\nRequest any of the 100+ songs and 50+ texts in the catalog. Sign up to sing as an individual or a group...or sit back and watch the karaoke carnage.\nPast combos include:\nYELP REVIEWS OF PSYCHICS to the tune of TOTAL ECLIPSE OF THE HEART\nCRAIGSLIST VEHICLE ADS to the tune of TAKE ME HOME COUNTRY ROADS\nNEGATIVE REVIEWS OF PROFESSORS to the tune of VAMPIRE\nBERNIE SANDERS EMAIL SUBJECT LINES to the tune of DON'T STOP BELIEVIN'\nHosted by Jamie Brew and Jenn Schiffer, two tech entrepreneurs on a mission to make karaoke harder and worse.\nFree admission\nSuggested donation - $10\nrsvp",
+      "startDate": "2025-09-15T23:00:00+00:00",
+      "endDate": "2025-09-16T01:00:00+00:00",
+      "image": "",
+      "organizer": {
+        "name": "Wonderville",
+        "instagram": "@wondervillenyc",
+        "email": "hello@wonderville.nyc"
+      },
+      "venue": {
+        "name": "Wonderville",
+        "address": "Wonderville 1186 Broadway Brooklyn, NY, 11221 United States",
+        "type": "Arcade Venue"
+      },
+      "featured": false
+    },
+    {
+      "id": "evt_wonderville_e31d8d86",
+      "name": "Brooklyn Experimental Electronic Music Group",
+      "type": "Gaming Event",
+      "locationId": "loc_wonderville",
+      "communityId": "com_wonderville",
+      "description": "Join the local electronic music community for our showcase featuring an eclectic mix of New York City artists working in a variety of styles.\nOrganized by Metamyther #electronicmusic #brooklynmusic #brooklynlivemusic #nyclivemusic #techno #modularsynthesizer #eurorack",
+      "startDate": "2025-09-25T23:00:00+00:00",
+      "endDate": "2025-09-26T03:00:00+00:00",
+      "image": "",
+      "organizer": {
+        "name": "Wonderville",
+        "instagram": "@wondervillenyc",
+        "email": "hello@wonderville.nyc"
+      },
+      "venue": {
+        "name": "Wonderville",
+        "address": "Wonderville 1186 Broadway Brooklyn, NY, 11221 United States",
+        "type": "Arcade Venue"
+      },
+      "featured": false
+    },
+    {
+      "id": "evt_wonderville_d1581996",
+      "name": "Monthly 2 Hr GameJam Club: Doom Builder 2",
+      "type": "Gaming Event",
+      "locationId": "loc_wonderville",
+      "communityId": "com_wonderville",
+      "description": "This month we are using Doom Builder 2 to make Doom levels in under 2 hours. Bring a computer and come out! Good for beginners and experts.\nBring a computer and come out!\nGood for beginners and experts.\n1:00 PM Doors\n1:30 PM Workshop\n2:00 PM Game Jam Starts!\n4:00 PM Jam Ends, Presentations Start!\n5:00 PM\nThe arcade opens for regular use. This event will be streamed online, so people across the world can participate. This event is free to attend but donations are welcome and help pay for your instructor!\nRSVP",
+      "startDate": "2025-10-11T17:00:00+00:00",
+      "endDate": "2025-10-11T21:00:00+00:00",
+      "image": "",
+      "organizer": {
+        "name": "Wonderville",
+        "instagram": "@wondervillenyc",
+        "email": "hello@wonderville.nyc"
+      },
+      "venue": {
+        "name": "Wonderville",
+        "address": "Wonderville 1186 Broadway Brooklyn, NY, 11221 United States",
+        "type": "Arcade Venue"
+      },
+      "featured": false
+    },
+    {
+      "id": "evt_wonderville_e31d8d86",
+      "name": "Brooklyn Experimental Electronic Music Group",
+      "type": "Gaming Event",
+      "locationId": "loc_wonderville",
+      "communityId": "com_wonderville",
+      "description": "Join the local electronic music community for our showcase featuring an eclectic mix of New York City artists working in a variety of styles.\nOrganized by Metamyther #electronicmusic #brooklynmusic #brooklynlivemusic #nyclivemusic #techno #modularsynthesizer #eurorack",
+      "startDate": "2025-10-23T23:00:00+00:00",
+      "endDate": "2025-10-24T03:00:00+00:00",
+      "image": "",
+      "organizer": {
+        "name": "Wonderville",
+        "instagram": "@wondervillenyc",
+        "email": "hello@wonderville.nyc"
+      },
+      "venue": {
+        "name": "Wonderville",
+        "address": "Wonderville 1186 Broadway Brooklyn, NY, 11221 United States",
+        "type": "Arcade Venue"
+      },
+      "featured": false
+    },
+    {
+      "id": "evt_wonderville_cead0a12",
+      "name": "Open VCR Night",
+      "type": "Gaming Event",
+      "locationId": "loc_wonderville",
+      "communityId": "com_wonderville",
+      "description": "THE RULES:\n1. BYO VHS, or use one of ours\n2. Anyone may eject at any time\n3. If you eject, you must INSERT TAPE\nTHE ANTICIPATED:\n90s Disney, workout videos, softcore, student films, local interest, choir recitals, insensitive cringe: anything may play. Anything may be ejected.\nLive commentary in the Twitch stream by FORT90.\nLive commentary in the room by you.\nADDENDA:\n1. Fast-forwarding & rewinding is cautiously permitted, as is booing.\n2. Livestreamed to\ntwitch.tv/wondervillenyc.\nTwitch chat is powerless.\n4. Ends 10:00PM.\nWatch on Twitch",
+      "startDate": "2025-10-27T23:00:00+00:00",
+      "endDate": "2025-10-28T02:00:00+00:00",
+      "image": "",
+      "organizer": {
+        "name": "Wonderville",
+        "instagram": "@wondervillenyc",
+        "email": "hello@wonderville.nyc"
+      },
+      "venue": {
+        "name": "Wonderville",
+        "address": "Wonderville 1186 Broadway Brooklyn, NY, 11221 United States",
+        "type": "Arcade Venue"
+      },
+      "featured": false
+    },
+    {
+      "id": "evt_wonderville_8e7674f6",
+      "name": "Monthly 2 Hr GameJam Club: M\u00f4si",
+      "type": "Gaming Event",
+      "locationId": "loc_wonderville",
+      "communityId": "com_wonderville",
+      "description": "This month we are using M\u00f4si to make adventure games in under 2 hours. Bring a computer and come out! Good for beginners and experts.\nBring a computer and come out!\nGood for beginners and experts.\n1:00 PM Doors\n1:30 PM Workshop\n2:00 PM Game Jam Starts!\n4:00 PM Jam Ends, Presentations Start!\n5:00 PM\nThe arcade opens for regular use. This event will be streamed online, so people across the world can participate. This event is free to attend but donations are welcome and help pay for your instructor!\nRSVP",
+      "startDate": "2025-11-08T18:00:00+00:00",
+      "endDate": "2025-11-08T22:00:00+00:00",
+      "image": "",
+      "organizer": {
+        "name": "Wonderville",
+        "instagram": "@wondervillenyc",
+        "email": "hello@wonderville.nyc"
+      },
+      "venue": {
+        "name": "Wonderville",
+        "address": "Wonderville 1186 Broadway Brooklyn, NY, 11221 United States",
+        "type": "Arcade Venue"
+      },
+      "featured": false
+    },
+    {
+      "id": "evt_wonderville_f2b56556",
+      "name": "Robot Karaoke",
+      "type": "Gaming Event",
+      "locationId": "loc_wonderville",
+      "communityId": "com_wonderville",
+      "description": "Join us for karaoke night on impossible mode as we replace the lyrics to any SONG with words from any TEXT, then try to sing the results on the spot.  It all happens live, so each song has never been heard before and will never be heard again.\nOur songwriting system, THE WEIRD ALGORITHM, matches each line syllable-for-syllable, so you can sing along if you know the original tune.\nRequest any of the 100+ songs and 50+ texts in the catalog. Sign up to sing as an individual or a group...or sit back and watch the karaoke carnage.\nPast combos include:\nYELP REVIEWS OF PSYCHICS to the tune of TOTAL ECLIPSE OF THE HEART\nCRAIGSLIST VEHICLE ADS to the tune of TAKE ME HOME COUNTRY ROADS\nNEGATIVE REVIEWS OF PROFESSORS to the tune of VAMPIRE\nBERNIE SANDERS EMAIL SUBJECT LINES to the tune of DON'T STOP BELIEVIN'\nHosted by Jamie Brew and Jenn Schiffer, two tech entrepreneurs on a mission to make karaoke harder and worse.\nFree admission\nSuggested donation - $10\nrsvp",
+      "startDate": "2025-11-11T00:00:00+00:00",
+      "endDate": "2025-11-11T02:00:00+00:00",
+      "image": "",
+      "organizer": {
+        "name": "Wonderville",
+        "instagram": "@wondervillenyc",
+        "email": "hello@wonderville.nyc"
+      },
+      "venue": {
+        "name": "Wonderville",
+        "address": "Wonderville 1186 Broadway Brooklyn, NY, 11221 United States",
+        "type": "Arcade Venue"
+      },
+      "featured": false
+    },
+    {
+      "id": "evt_wonderville_eaedb9eb",
+      "name": "Monthly 2 Hr GameJam Club: Sword of Moonlight",
+      "type": "Gaming Event",
+      "locationId": "loc_wonderville",
+      "communityId": "com_wonderville",
+      "description": "This month we are using Sword of Moonlight to make King's Field levels in under 2 hours. Bring a computer and come out! Good for beginners and experts.\nBring a computer and come out!\nGood for beginners and experts.\n1:00 PM Doors\n1:30 PM Workshop\n2:00 PM Game Jam Starts!\n4:00 PM Jam Ends, Presentations Start!\n5:00 PM\nThe arcade opens for regular use. This event will be streamed online, so people across the world can participate. This event is free to attend but donations are welcome and help pay for your instructor!\nRSVP",
+      "startDate": "2025-12-13T18:00:00+00:00",
+      "endDate": "2025-12-13T22:00:00+00:00",
+      "image": "",
+      "organizer": {
+        "name": "Wonderville",
+        "instagram": "@wondervillenyc",
+        "email": "hello@wonderville.nyc"
+      },
+      "venue": {
+        "name": "Wonderville",
+        "address": "Wonderville 1186 Broadway Brooklyn, NY, 11221 United States",
+        "type": "Arcade Venue"
+      },
+      "featured": false
+    },
+    {
+      "id": "evt_wonderville_b9634bdf",
+      "name": "Love Death Code",
+      "type": "Gaming Event",
+      "locationId": "loc_wonderville",
+      "communityId": "com_wonderville",
+      "description": "On Saturday February 15th, join @livecodenyc for Love Death Code: our HALLOWEEN ON VALENTINES tradition. Feel equal parts \u2764\ufe0f love \u2764\ufe0f and \ud83d\udc80 terror \ud83d\udc80 at the intersection of \ud83d\ude31 art \ud83d\ude31 and \ud83d\udcbb technology \ud83d\udcbb! Come for the performances, stay for the \ud83d\udc7b COSTUME CONTEST \ud83d\udc7b~ Our categories are loveliest, deathliest, and most computer.\nLivecode.NYC\nis a New York City-based artist collective devoted to the real-time programming technique called livecoding, and exploring its potential as a methodology of artistic expressions. This leaderless collective has no formal membership or hierarchy; anyone is welcome to join, attend, and host events. Our members include artists, engineers, actors, designers, educators, musicians, game developers, and writers. We view live coding as a process-driven practice and not specific to a particular medium or language. This event will have individuals live coding music and visuals through programs like tidal cycles, hydra, unreal engine, and custom made technologies.\n\ud83c\udf39 with sets by \ud83c\udf39\n& laelu {@laelume}\nvoyde {@voydescreamsback} & Xenon Chameleon {@xenon_chameleon}\nswan\n{I@swan.tr\nombone} & emptyflash {@emptyflash}\nLOFI-SCIFI\n{@lo.fi.sci.fi\n} & Switch Angel {@_switch_angel}\n\u00d8hh {@Olgaakop} & jeffistyping {@jeffistyping}\nJPEGSTRIPES {@jpegstripes} & Jeff Wave {@Vaporwave.obj}\nVarsity Star\n{@varsity.star\n}\nMolly Million & MrSynAckSter {@mrsynackster}\nQuantum Connor\n{@Quantum.co\nnnor} & Nicolai {@nickolaslai}\nBuy Tickets",
+      "startDate": "2025-02-16T00:00:00+00:00",
+      "endDate": null,
+      "image": "",
+      "organizer": {
+        "name": "Wonderville",
+        "instagram": "@wondervillenyc",
+        "email": "hello@wonderville.nyc"
+      },
+      "venue": {
+        "name": "Wonderville",
+        "address": "Wonderville 1186 Broadway Brooklyn, NY, 11221 United States",
+        "type": "Arcade Venue"
+      },
+      "featured": false
+    },
+    {
+      "id": "evt_wonderville_3b0353ec",
+      "name": "Beyblade X Tournament",
+      "type": "Gaming Event",
+      "locationId": "loc_wonderville",
+      "communityId": "com_wonderville",
+      "description": "\ud83d\udd25 Let it Rip!\nThe Ultimate Beyblade X Tournament is Here! \ud83d\udd25 Get ready to spin, clash, and dominate in the Beyblade X Tournament, where the best Bladers will battle for glory!\nWhether you're a seasoned competitor or a rising star, this is your chance to prove your skills in the ultimate high-speed showdown. \ud83c\udfc6 Tournament Highlights: Intense Battles: Face off against top Bladers in high-speed, high-energy matches.\nOfficial Beyblade X Format: Experience the fast-paced action of the latest Beyblade X system. Prizes & Glory: Compete for exclusive Beyblade X prizes and the title of Champion! Community & Fun: Meet fellow Bladers, trade tips, and enjoy an electrifying atmosphere. \ud83d\udcc5\nThink you have what it takes to be the ultimate Blader? Grab your Beys, fine-tune your launch, and Let it Rip! \ud83d\ude80 #BeybladeX #LetItRip #BeybladeTournament\nRSVP",
+      "startDate": "2025-02-15T19:00:00+00:00",
+      "endDate": "2025-02-15T22:00:00+00:00",
+      "image": "",
+      "organizer": {
+        "name": "Wonderville",
+        "instagram": "@wondervillenyc",
+        "email": "hello@wonderville.nyc"
+      },
+      "venue": {
+        "name": "Wonderville",
+        "address": "Wonderville 1186 Broadway Brooklyn, NY, 11221 United States",
+        "type": "Arcade Venue"
+      },
+      "featured": false
+    },
+    {
+      "id": "evt_wonderville_afc74e61",
+      "name": "WEEB ADJACENT COSPLAY RAVE (1 YEAR ANNIVERSARY)",
+      "type": "Gaming Event",
+      "locationId": "loc_wonderville",
+      "communityId": "com_wonderville",
+      "description": "IT\u2019S A WEEB ADJACENTIVERSARY!! \ud83c\udf82\ud83c\udf82\ud83c\udf82\ud83c\udf82\nCome celebrate 1 year of your favorite anime dance party at our first ever COSPLAY RAVE!! Join your fellow weebs while dressed as your favorite mahou shojo, VTuber oshi, Mihoyo femboy, Konata Lucky Star, or anyone in between and get down to the best chronically online DJs the algorithm has to offer. Expect anime songs, hyperpop, hard dance, techno, gabber, jungle, dnb, and more!!\n$10 for entry and dancing all night!!\n21+ entry,\nFRI 2/14\n9PM - LATE!!\nPeep your DJs:\ngupi\nhttps://www.gupi.info\nhttps://www.instagram.com/gupimusic\nhttps://soundcloud.com/gupimusic\nMaxo\nhttps://www.instagram.com/maxotunes\nhttps://soundcloud.com/maxo\nhttps://bsky.app/profile/maxo.bsky.social\nRabbit Crime\nhttps://www.instagram.com/rabbitcrime\nhttps://soundcloud.com/rabbitcrime\nrkana\nhttps://beacons.ai/rkana\nhttps://www.instagram.com/rkanaxo\nMagic Circuit\nhttps://instagram.com/magic_circuit\nhttps://linktr.ee/magic_circuit\nDJ Nice Gold\nhttps://www.instagram.com/_nicegold\nBUBUCORE69\nhttps://www.instagram.com/bubucore69\nhttps://linktr.ee/bubucore69\nFollow WEEB ADJACENT!\nhttps://www.instagram.com/weeb.adjacent\nBuy Tickets",
+      "startDate": "2025-02-15T02:00:00+00:00",
+      "endDate": null,
+      "image": "",
+      "organizer": {
+        "name": "Wonderville",
+        "instagram": "@wondervillenyc",
+        "email": "hello@wonderville.nyc"
+      },
+      "venue": {
+        "name": "Wonderville",
+        "address": "Wonderville 1186 Broadway Brooklyn, NY, 11221 United States",
+        "type": "Arcade Venue"
+      },
+      "featured": false
+    },
+    {
+      "id": "evt_wonderville_7dbc1ba6",
+      "name": "THIS IS NOT AN ALBUM RELEASE SHOW",
+      "type": "Gaming Event",
+      "locationId": "loc_wonderville",
+      "communityId": "com_wonderville",
+      "description": "Celebrating miles cooke's new album \"ceci n'est pas un portrait\"\nmiles cooke\nSKECH185\nDuncecap\nS!lence\nrsvp",
+      "startDate": "2025-02-14T00:30:00+00:00",
+      "endDate": "2025-02-14T04:00:00+00:00",
+      "image": "",
+      "organizer": {
+        "name": "Wonderville",
+        "instagram": "@wondervillenyc",
+        "email": "hello@wonderville.nyc"
+      },
+      "venue": {
+        "name": "Wonderville",
+        "address": "Wonderville 1186 Broadway Brooklyn, NY, 11221 United States",
+        "type": "Arcade Venue"
+      },
+      "featured": false
+    },
+    {
+      "id": "evt_wonderville_add1ac43",
+      "name": "Killer Queen Open Hive Night",
+      "type": "Gaming Event",
+      "locationId": "loc_wonderville",
+      "communityId": "com_wonderville",
+      "description": "Every Wednesday is Killer Queen Freeplay Night! Come learn how to play the popular 10-player arcade game from some of NYC\u2019s best players!\nEach week there is a tournament. Sign ups are at 8pm, tournament commences at 8:30pm. Make new friends, learn to play Killer Queen!",
+      "startDate": "2025-02-13T01:00:00+00:00",
+      "endDate": null,
+      "image": "",
+      "organizer": {
+        "name": "Wonderville",
+        "instagram": "@wondervillenyc",
+        "email": "hello@wonderville.nyc"
+      },
+      "venue": {
+        "name": "Wonderville",
+        "address": "Wonderville 1186 Broadway Brooklyn, NY, 11221 United States",
+        "type": "Arcade Venue"
+      },
+      "featured": false
+    },
+    {
+      "id": "evt_wonderville_0d09253e",
+      "name": "Play Scrapeboard",
+      "type": "Gaming Event",
+      "locationId": "loc_wonderville",
+      "communityId": "com_wonderville",
+      "description": "Whether you want more Scrapeboard, missed out on playing at MAGFest, or are just looking to vibe  at Wonderville's indie arcade and bar \u2014\nCOME PLAY SCRAPEBOARD NEXT TUESDAY\nNIGHT!\nTwo Scrapeboard systems will be set up to play in both solo and vs. mode, starting at\n7pm\n. Warm up and try out the new levels for a while, and then join the\ncasual, beginner-friendly tournament\nlater in the evening. If you haven't played before, this is a great time to try.\nThere are\ntwo new levels\nmade recently for MAGFest, featuring Tony Hawk's newest aces: Simon and Silver.\nWe'll also have keychain charms of the original three bosses for sale!\nScrapeboard Website\nRSVP",
+      "startDate": "2025-02-12T00:00:00+00:00",
+      "endDate": "2025-02-12T04:00:00+00:00",
+      "image": "",
+      "organizer": {
+        "name": "Wonderville",
+        "instagram": "@wondervillenyc",
+        "email": "hello@wonderville.nyc"
+      },
+      "venue": {
+        "name": "Wonderville",
+        "address": "Wonderville 1186 Broadway Brooklyn, NY, 11221 United States",
+        "type": "Arcade Venue"
+      },
+      "featured": false
+    },
+    {
+      "id": "evt_wonderville_25d17ad0",
+      "name": "{LIVESTREAM} FORT90 FILM CLUB presents: \"IT'S COMPLICATED'",
+      "type": "Gaming Event",
+      "locationId": "loc_wonderville",
+      "communityId": "com_wonderville",
+      "description": "Live, from Twitch dot TV forward slash __________, it's the FORT90 FILM CLUB! And it's February, and love is once again in the air, or at least it's supposed to be. But it like so many things, especially these days, is needlessly complicated. For example, I will be showing a movie that helped me fall in love with Hong Kong cinema way back in the day, but nowadays, I find my memories of such strong sentimentality kinda embarrassing to be honest! Said film is party of the line-up, goes without saying of course.\nWatch on Twitch",
+      "startDate": "2025-02-11T01:00:00+00:00",
+      "endDate": null,
+      "image": "",
+      "organizer": {
+        "name": "Wonderville",
+        "instagram": "@wondervillenyc",
+        "email": "hello@wonderville.nyc"
+      },
+      "venue": {
+        "name": "Wonderville",
+        "address": "Wonderville 1186 Broadway Brooklyn, NY, 11221 United States",
+        "type": "Arcade Venue"
+      },
+      "featured": false
+    },
+    {
+      "id": "evt_wonderville_db222a0f",
+      "name": "Despite Everything Its Still a Drag Show: an undertale drag tribute",
+      "type": "Gaming Event",
+      "locationId": "loc_wonderville",
+      "communityId": "com_wonderville",
+      "description": "*our reports showed a massive anomaly in the space-time continuum. timelines jumping left and right, stopping and starting\u2026\nDespite Everything, It\u2019s Still a Drag Show\nMountain Hause are so excited to take you back into the underworld for the Undertale Drag Show of ur dreams!\nRaffles! Prizes! Butterscotch Pie! \ud83e\udd67\n\ud83c\udf1f I\u2019M SO EXCITED TO SEE WHAT THE SURFACE IS LIKE! LET\u2019S GO ON AN ADVENTURE TOGETHER!\ud83c\udf1f\nHosted By Mt.Aloofa \ud83e\uddb4\ud83c\udf0b\ud83e\uddb4\n\ud83d\udc9b@mx.soursoursour\n\ud83d\udc9b@Kravenstrange\n\ud83d\udc9b@Zanaxdrag\n\ud83d\udc9b@Espi_o_najj\n\ud83d\udc9b@Itz.om3n\n\ud83d\udc9b@New_times_roman_\n\u23f0: doors at 7, shows at 8\n\ud83d\udccd: @wondervillenyc\n\ud83c\udf9f\ufe0f: free! $10 suggested donation. make sure to tip your performers\nrsvp",
+      "startDate": "2025-02-11T01:00:00+00:00",
+      "endDate": "2025-02-11T04:00:00+00:00",
+      "image": "",
+      "organizer": {
+        "name": "Wonderville",
+        "instagram": "@wondervillenyc",
+        "email": "hello@wonderville.nyc"
+      },
+      "venue": {
+        "name": "Wonderville",
+        "address": "Wonderville 1186 Broadway Brooklyn, NY, 11221 United States",
+        "type": "Arcade Venue"
+      },
+      "featured": false
+    },
+    {
+      "id": "evt_wonderville_6e9cad95",
+      "name": "Wonderville Karaoke",
+      "type": "Gaming Event",
+      "locationId": "loc_wonderville",
+      "communityId": "com_wonderville",
+      "description": "You got the music in you? Come down to Wonderville, on the second Sunday of every month, to share a song with the gentle hum of DIY arcade games as your backup singers. Or simply be entertained by the vocal stylings of randos off the street. Either way, don't forget to tip your bartender!\nrsvp",
+      "startDate": "2025-02-10T01:00:00+00:00",
+      "endDate": "2025-02-10T04:00:00+00:00",
+      "image": "",
+      "organizer": {
+        "name": "Wonderville",
+        "instagram": "@wondervillenyc",
+        "email": "hello@wonderville.nyc"
+      },
+      "venue": {
+        "name": "Wonderville",
+        "address": "Wonderville 1186 Broadway Brooklyn, NY, 11221 United States",
+        "type": "Arcade Venue"
+      },
+      "featured": false
+    },
+    {
+      "id": "evt_wonderville_2b0c963e",
+      "name": "Waldo's Rescue Pen Adoption Event",
+      "type": "Gaming Event",
+      "locationId": "loc_wonderville",
+      "communityId": "com_wonderville",
+      "description": "Join us on  Sunday February 9th as we host our third adoption event with\nWaldo\u2019s Rescue Pen\n!\nCome pet some sweet dogs that are up for adoption, learn how to foster (!!!)\n2pm - 5pm\nrsvp",
+      "startDate": "2025-02-09T19:00:00+00:00",
+      "endDate": "2025-02-09T22:00:00+00:00",
+      "image": "",
+      "organizer": {
+        "name": "Wonderville",
+        "instagram": "@wondervillenyc",
+        "email": "hello@wonderville.nyc"
+      },
+      "venue": {
+        "name": "Wonderville",
+        "address": "Wonderville 1186 Broadway Brooklyn, NY, 11221 United States",
+        "type": "Arcade Venue"
+      },
+      "featured": false
+    },
+    {
+      "id": "evt_wonderville_d923dbbb",
+      "name": "Below Deck",
+      "type": "Gaming Event",
+      "locationId": "loc_wonderville",
+      "communityId": "com_wonderville",
+      "description": "Nine artists, nine presentations, all info dumping. Join @defragment.mp3 for our second Below Deck party at Wonderville! BYOGS: Bring your own Google Slides. In between presentations, enjoy a mix by @cmdjazmine, and afterwards join us for the after party with DJ sets by @miss_benji, @petal.tmp, @her_she_kiss.m4a, and @cmdjazmine.\nrsvp",
+      "startDate": "2025-02-09T01:00:00+00:00",
+      "endDate": null,
+      "image": "",
+      "organizer": {
+        "name": "Wonderville",
+        "instagram": "@wondervillenyc",
+        "email": "hello@wonderville.nyc"
+      },
+      "venue": {
+        "name": "Wonderville",
+        "address": "Wonderville 1186 Broadway Brooklyn, NY, 11221 United States",
+        "type": "Arcade Venue"
+      },
+      "featured": false
+    },
+    {
+      "id": "evt_wonderville_1a23481a",
+      "name": "Monthly 2 Hr GameJam Club: Ren'Py",
+      "type": "Gaming Event",
+      "locationId": "loc_wonderville",
+      "communityId": "com_wonderville",
+      "description": "This month we are using Ren'Py to make dating sims in under 2 hours. Bring a computer and come out! Good for beginners and experts.\n1:00 PM Doors\n1:30 PM Workshop\n2:00 PM Game Jam Starts!\n4:00 PM Jam Ends, Presentations Start!\n5:00 PM The arcade opens for regular use.\nThis event will be streamed online, so people across the world can participate.\nThis event is free to attend but donations are welcome and help pay for your instructor!\nrsvp",
+      "startDate": "2025-02-08T18:00:00+00:00",
+      "endDate": "2025-02-08T22:00:00+00:00",
+      "image": "",
+      "organizer": {
+        "name": "Wonderville",
+        "instagram": "@wondervillenyc",
+        "email": "hello@wonderville.nyc"
+      },
+      "venue": {
+        "name": "Wonderville",
+        "address": "Wonderville 1186 Broadway Brooklyn, NY, 11221 United States",
+        "type": "Arcade Venue"
+      },
+      "featured": false
+    },
+    {
+      "id": "evt_wonderville_b9d69e72",
+      "name": "Tackycardia: 2 Year Anniversary",
+      "type": "Gaming Event",
+      "locationId": "loc_wonderville",
+      "communityId": "com_wonderville",
+      "description": "Well well well another year of Tackycardia in the books. Massive appreciation to everyone who has supported us over these last couple of years whether it\u2019s artists we\u2019ve booked, VJs, flyer designers, staff at Wonderville, or y\u2019all who just serially show up and dance/game. We very much weren\u2019t expecting for things to last this long when we started this little experiment out but here we are heading into year 3 of 150+ bpm fuckery!\nHere\u2019s what we\u2019ve got for ya for our anniversary. Tackycardia alum DJ Allegation will be returning following appearances at Silo and Bossa Nova Civic Club. In addition, New England legend Jack McDevitt (also of Disco Ball Murder Kit) will be making the trek into NYC to treat us with some fresh sounds. Arpanette comes through following appearances at Eris and Caf\u00e9 Kitsun\u00e9. Boj joins us following appearances at Happyfun Hideaway and the Cuff Complex while Tailz who heads Blast NYC comes following appearances at Eris, Trans Pecos and Hart Bar. The card will be rounded out by Tackycardia residents Cryostatik who recently put out 2 new tunes in Mess \u2018Em Up and Solace as well as Alex Viper who is fresh off of December appearances at Tropical Dreams festival and Garage Sale in Massachusetts in addition to the Stuck on Earth reunion event in NYC. As usual not all of our lineup is known for their high BPM antics so we\u2019re just as excited as y\u2019all are to see what fantastic sets come out. Getting DJs and audiences alike a tad out of their comfort zones is one of our favorite things about doing these events and we are gonna keep it up :) Make sure to follow our instagram @tackcyardia_nyc as we\u2019ll be posting a bit more about our artists in the lead up to the event!\nWe look forward to celebrating the occasion with y\u2019all. As usual it\u2019s a 150+ genrefluid affair with free entry and free to play arcade games. Donations are welcome to further support our events and can be made via cash in the tip bucket on the stage or via venmo through our QR code that you\u2019ll see posted around the venue. Here\u2019s to another year!\nrsvp",
+      "startDate": "2025-02-08T01:00:00+00:00",
+      "endDate": null,
+      "image": "",
+      "organizer": {
+        "name": "Wonderville",
+        "instagram": "@wondervillenyc",
+        "email": "hello@wonderville.nyc"
+      },
+      "venue": {
+        "name": "Wonderville",
+        "address": "Wonderville 1186 Broadway Brooklyn, NY, 11221 United States",
+        "type": "Arcade Venue"
+      },
+      "featured": false
+    },
+    {
+      "id": "evt_wonderville_d2b3f04b",
+      "name": "SeeToAct.org Yearly Fundraiser",
+      "type": "Gaming Event",
+      "locationId": "loc_wonderville",
+      "communityId": "com_wonderville",
+      "description": "SeeToAct.org\nis a non-profit organization that teaches storytelling and filmmaking vocations to incarcerated teenagers to provide them with life skills to pursue a career in film without having to attend a university. Various artists will be donating their time for the annual fundraiser which will include performances, film presentations, and a raffle, consisting of a live painting from the show & various pieces of other prizes. The show is $10 and all the proceeds go directly to SeeToAct. 21+\nIt starts at 07:00p and goes until 12:00a-12:30ish.\nThe lineup is as follows, but order is subject to change for the event:\nSHARKSWIMMER\nSpecial Guest\nAR Immortal\nVVanentina\nMetic\nIsaac Saywer\nBrook Laialoha\nKing John Ill\nA.Sarr\nConfident Baby\nScenario\nPlease join us for a very special evening and support underserved youth in need.\nbuy tickets",
+      "startDate": "2025-02-07T00:00:00+00:00",
+      "endDate": null,
+      "image": "",
+      "organizer": {
+        "name": "Wonderville",
+        "instagram": "@wondervillenyc",
+        "email": "hello@wonderville.nyc"
+      },
+      "venue": {
+        "name": "Wonderville",
+        "address": "Wonderville 1186 Broadway Brooklyn, NY, 11221 United States",
+        "type": "Arcade Venue"
+      },
+      "featured": false
+    },
+    {
+      "id": "evt_wonderville_add1ac43",
+      "name": "Killer Queen Open Hive Night",
+      "type": "Gaming Event",
+      "locationId": "loc_wonderville",
+      "communityId": "com_wonderville",
+      "description": "Every Wednesday is Killer Queen Freeplay Night! Come learn how to play the popular 10-player arcade game from some of NYC\u2019s best players!\nEach week there is a tournament. Sign ups are at 8pm, tournament commences at 8:30pm. Make new friends, learn to play Killer Queen!",
+      "startDate": "2025-02-06T01:00:00+00:00",
+      "endDate": null,
+      "image": "",
+      "organizer": {
+        "name": "Wonderville",
+        "instagram": "@wondervillenyc",
+        "email": "hello@wonderville.nyc"
+      },
+      "venue": {
+        "name": "Wonderville",
+        "address": "Wonderville 1186 Broadway Brooklyn, NY, 11221 United States",
+        "type": "Arcade Venue"
+      },
+      "featured": false
+    },
+    {
+      "id": "evt_wonderville_28455cc7",
+      "name": "High Score Night",
+      "type": "Gaming Event",
+      "locationId": "loc_wonderville",
+      "communityId": "com_wonderville",
+      "description": "Join us on Tuesday February 4th for High Score Night! We\u2019re picking some of our most popular arcade games and giving everyone four hours to try to get the highest score of the night! There will be prizes and exclusive merch for each game, so come out and see if you can claim the top slot!\nGames featured:\nHoverburger\nTrapped In Here With Me\nBlack Emperor\nBumpy Grumpy\nUnidentified Feline Obliterators\nZombeez\n+musical guests TBA\nRSVP",
+      "startDate": "2025-02-05T00:00:00+00:00",
+      "endDate": "2025-02-05T04:00:00+00:00",
+      "image": "",
+      "organizer": {
+        "name": "Wonderville",
+        "instagram": "@wondervillenyc",
+        "email": "hello@wonderville.nyc"
+      },
+      "venue": {
+        "name": "Wonderville",
+        "address": "Wonderville 1186 Broadway Brooklyn, NY, 11221 United States",
+        "type": "Arcade Venue"
+      },
+      "featured": false
+    },
+    {
+      "id": "evt_wonderville_90e38e84",
+      "name": "{livestream} FORT90 TV",
+      "type": "Gaming Event",
+      "locationId": "loc_wonderville",
+      "communityId": "com_wonderville",
+      "description": "Live, from Twitch dot TV forward slash Wonderville NYC, it's FORT90 TV! And this Monday is another eight to sometimes NINE HOUR LONG (?!?!?) re-broadcast of nearly lost transmissions from across the globe.\nWatch on Twitch",
+      "startDate": "2025-02-04T01:00:00+00:00",
+      "endDate": null,
+      "image": "",
+      "organizer": {
+        "name": "Wonderville",
+        "instagram": "@wondervillenyc",
+        "email": "hello@wonderville.nyc"
+      },
+      "venue": {
+        "name": "Wonderville",
+        "address": "Wonderville 1186 Broadway Brooklyn, NY, 11221 United States",
+        "type": "Arcade Venue"
+      },
+      "featured": false
+    },
+    {
+      "id": "evt_wonderville_609ed8f7",
+      "name": "Connor Evans and Friends",
+      "type": "Gaming Event",
+      "locationId": "loc_wonderville",
+      "communityId": "com_wonderville",
+      "description": "Full evening of experimental and modular synthesis. With everything from dark ambient to heavy beats, this show will stretch your expectations of electronic music. Vibe out or dance to unique performances from 3 Brooklyn based acts. Featuring music from\nTeddy Ryles\n,\nNate Sherman\n, and\nConnor Evans\n.\nrsvp",
+      "startDate": "2025-02-04T00:30:00+00:00",
+      "endDate": "2025-02-04T04:00:00+00:00",
+      "image": "",
+      "organizer": {
+        "name": "Wonderville",
+        "instagram": "@wondervillenyc",
+        "email": "hello@wonderville.nyc"
+      },
+      "venue": {
+        "name": "Wonderville",
+        "address": "Wonderville 1186 Broadway Brooklyn, NY, 11221 United States",
+        "type": "Arcade Venue"
+      },
+      "featured": false
+    },
+    {
+      "id": "evt_wonderville_e137f390",
+      "name": "AMAQUU Release Party with Ras, Jay Cinema, LIlith, Different Plants and Religion of Dogs",
+      "type": "Gaming Event",
+      "locationId": "loc_wonderville",
+      "communityId": "com_wonderville",
+      "description": "This is an album release party for AMAQUU a new album from AMAQU (\nAman\nand\nGuuumaqu\n) it is a rap album and more.\nWe will also be playing with Aman's brother\nRas\nour first album is\nhere\nRas spotify page\nGuuumaqu spotify page\nAman spotify\nLilith\nwill be Djing for herself and a set for\nJay Cinema\npart of the label EveryDejaVu a rap act-\n\"Lilith spotify\nJay Cinema spotify\nDifferent plants\nis a hardcore act who have played with the Dallas Cowboys and MGNA Crrrta\nhttps://www.youtube.com/watch?app=desktop&v=0IpGTRxqhAE\nReligion of Dogs is a new band lead by\npon0p0no\nrsvp",
+      "startDate": "2025-02-03T00:30:00+00:00",
+      "endDate": null,
+      "image": "",
+      "organizer": {
+        "name": "Wonderville",
+        "instagram": "@wondervillenyc",
+        "email": "hello@wonderville.nyc"
+      },
+      "venue": {
+        "name": "Wonderville",
+        "address": "Wonderville 1186 Broadway Brooklyn, NY, 11221 United States",
+        "type": "Arcade Venue"
+      },
+      "featured": false
+    },
+    {
+      "id": "evt_wonderville_15e9db4b",
+      "name": "City Soul: Drum & Bass",
+      "type": "Gaming Event",
+      "locationId": "loc_wonderville",
+      "communityId": "com_wonderville",
+      "description": "Drum & Bass lovers, it's that time again! This February 1st, City Soul returns to Wonderville to give you even more of what you love. Experience the best of D&B, Jungle, and complimentary arcade games at the top Indie arcade venue in town. You love to see it and we love to bring it. Free with RSVP as always!\n@idkdjeh\n@jessnellrob\n@rhetlaw\n@vangeogh\n@ultradnb\n@hyzer.ig\n@andrewblcklst\nrsvp",
+      "startDate": "2025-02-02T01:00:00+00:00",
+      "endDate": null,
+      "image": "",
+      "organizer": {
+        "name": "Wonderville",
+        "instagram": "@wondervillenyc",
+        "email": "hello@wonderville.nyc"
+      },
+      "venue": {
+        "name": "Wonderville",
+        "address": "Wonderville 1186 Broadway Brooklyn, NY, 11221 United States",
+        "type": "Arcade Venue"
+      },
+      "featured": false
+    },
+    {
+      "id": "evt_wonderville_454cffcb",
+      "name": "KQ Wonderville Monthly BYOT (Bring Your Own Team)!",
+      "type": "Gaming Event",
+      "locationId": "loc_wonderville",
+      "communityId": "com_wonderville",
+      "description": "Watch some of the best Killer Queen players bring teams and face off in a tournament of the popular and fast-paced ten player strategy arcade platformer \ud83d\udc1d\ud83d\udc51\u2694\ufe0f while enjoying good company and, if you like, a dish to share to enjoy some good food! Or just bring yourself and your excitement for cheering on your favorite teams!\nSign Up Here",
+      "startDate": "2025-02-01T19:00:00+00:00",
+      "endDate": "2025-02-01T23:00:00+00:00",
+      "image": "",
+      "organizer": {
+        "name": "Wonderville",
+        "instagram": "@wondervillenyc",
+        "email": "hello@wonderville.nyc"
+      },
+      "venue": {
+        "name": "Wonderville",
+        "address": "Wonderville 1186 Broadway Brooklyn, NY, 11221 United States",
+        "type": "Arcade Venue"
+      },
+      "featured": false
+    },
+    {
+      "id": "evt_wonderville_9d916502",
+      "name": "glomag Release Party",
+      "type": "Gaming Event",
+      "locationId": "loc_wonderville",
+      "communityId": "com_wonderville",
+      "description": "To mark the new 8bitpeoples release of glomag's \"No Clearance In Niche\", Wonderville presents music by 3 of NYC Chiptune's finest.\nExile Faker\nand\nhedonismbit\njoin\nglomag\nwith visuals by\ndiy destruction\n. Doors at 8pm.\nrsvp",
+      "startDate": "2025-02-01T01:00:00+00:00",
+      "endDate": null,
+      "image": "",
+      "organizer": {
+        "name": "Wonderville",
+        "instagram": "@wondervillenyc",
+        "email": "hello@wonderville.nyc"
+      },
+      "venue": {
+        "name": "Wonderville",
+        "address": "Wonderville 1186 Broadway Brooklyn, NY, 11221 United States",
+        "type": "Arcade Venue"
+      },
+      "featured": false
+    },
+    {
+      "id": "evt_wonderville_4cfad064",
+      "name": "The Sounds of Tomorrow Today",
+      "type": "Gaming Event",
+      "locationId": "loc_wonderville",
+      "communityId": "com_wonderville",
+      "description": "New music and sounds from your favorites in\nJoan La Perish\nand\nTiers La Familia\nwith a collab set from\nSmiling Beth\nand\nAnnihil\n. Beautiful noises on Thursday January 30th at Brooklyn's own\nWonderville\n!\nrsvp",
+      "startDate": "2025-01-31T00:30:00+00:00",
+      "endDate": "2025-01-31T03:45:00+00:00",
+      "image": "",
+      "organizer": {
+        "name": "Wonderville",
+        "instagram": "@wondervillenyc",
+        "email": "hello@wonderville.nyc"
+      },
+      "venue": {
+        "name": "Wonderville",
+        "address": "Wonderville 1186 Broadway Brooklyn, NY, 11221 United States",
+        "type": "Arcade Venue"
+      },
+      "featured": false
+    },
+    {
+      "id": "evt_wonderville_add1ac43",
+      "name": "Killer Queen Open Hive Night",
+      "type": "Gaming Event",
+      "locationId": "loc_wonderville",
+      "communityId": "com_wonderville",
+      "description": "Every Wednesday is Killer Queen Freeplay Night! Come learn how to play the popular 10-player arcade game from some of NYC\u2019s best players!\nEach week there is a tournament. Sign ups are at 8pm, tournament commences at 8:30pm. Make new friends, learn to play Killer Queen!",
+      "startDate": "2025-01-30T01:00:00+00:00",
+      "endDate": null,
+      "image": "",
+      "organizer": {
+        "name": "Wonderville",
+        "instagram": "@wondervillenyc",
+        "email": "hello@wonderville.nyc"
+      },
+      "venue": {
+        "name": "Wonderville",
+        "address": "Wonderville 1186 Broadway Brooklyn, NY, 11221 United States",
+        "type": "Arcade Venue"
+      },
+      "featured": false
+    },
+    {
+      "id": "evt_wonderville_89e19f85",
+      "name": "Wonderville's Last Tuesday of the month PLAYTEST",
+      "type": "Gaming Event",
+      "locationId": "loc_wonderville",
+      "communityId": "com_wonderville",
+      "description": "Playtest Night is EVERY last Tuesday of EVERY month at Wonderville!\nCome to Wonderville to playtest in production games!\nIf you're a developer, bring your game! No signups required.\nrsvp",
+      "startDate": "2025-01-29T00:00:00+00:00",
+      "endDate": "2025-01-29T03:00:00+00:00",
+      "image": "",
+      "organizer": {
+        "name": "Wonderville",
+        "instagram": "@wondervillenyc",
+        "email": "hello@wonderville.nyc"
+      },
+      "venue": {
+        "name": "Wonderville",
+        "address": "Wonderville 1186 Broadway Brooklyn, NY, 11221 United States",
+        "type": "Arcade Venue"
+      },
+      "featured": false
+    },
+    {
+      "id": "evt_wonderville_0b1cc82a",
+      "name": "{livestream} FORT90 FILM CLUB presents: \"DESPERATE MEASURES\" (part 2)",
+      "type": "Gaming Event",
+      "locationId": "loc_wonderville",
+      "communityId": "com_wonderville",
+      "description": "Live, from Twitch dot TV forward slash __________, it's the FORT90 FILM CLUB! The first edition for the year 2025, which is already shaping up to be the absolute worst year in our collective lifetimes. So with that in mind, what should we do about it? How about a bunch of movies featuring totally desperate times and the totally desperate measures that some decided to undertake?\nWatch on Twitch",
+      "startDate": "2025-01-28T01:00:00+00:00",
+      "endDate": null,
+      "image": "",
+      "organizer": {
+        "name": "Wonderville",
+        "instagram": "@wondervillenyc",
+        "email": "hello@wonderville.nyc"
+      },
+      "venue": {
+        "name": "Wonderville",
+        "address": "Wonderville 1186 Broadway Brooklyn, NY, 11221 United States",
+        "type": "Arcade Venue"
+      },
+      "featured": false
+    },
+    {
+      "id": "evt_wonderville_e011c8d3",
+      "name": "Fggt Band x Good Cry x Nedezuga",
+      "type": "Gaming Event",
+      "locationId": "loc_wonderville",
+      "communityId": "com_wonderville",
+      "description": "Not one but TWO single releases. Come celebrate a whole year of your punk rock and rock rock pals playing live music.\nfggt band (single release)\nhttps://www.instagram.com/f69band\nhttps://pefband.bandcamp.com\nhttps://lnk.bio/faggotband\nGood Cry (single release)\nhttps://www.instagram.com/goodcryband_bk\nNedezuga (debut show)\nhttps://www.instagram.com/nedezuga\nrsvp",
+      "startDate": "2025-01-28T01:00:00+00:00",
+      "endDate": "2025-01-28T04:39:00+00:00",
+      "image": "",
+      "organizer": {
+        "name": "Wonderville",
+        "instagram": "@wondervillenyc",
+        "email": "hello@wonderville.nyc"
+      },
+      "venue": {
+        "name": "Wonderville",
+        "address": "Wonderville 1186 Broadway Brooklyn, NY, 11221 United States",
+        "type": "Arcade Venue"
+      },
+      "featured": false
+    },
+    {
+      "id": "evt_wonderville_b076c202",
+      "name": "Rhythm Playground",
+      "type": "Gaming Event",
+      "locationId": "loc_wonderville",
+      "communityId": "com_wonderville",
+      "description": "Rhythm playground a night full of eclectic dance jams. Everything from house, disco, funk, soul, acid and techno. Featuring DJ Lostcat, moe.BPM and Neon God.\nrsvp",
+      "startDate": "2025-01-27T02:00:00+00:00",
+      "endDate": null,
+      "image": "",
+      "organizer": {
+        "name": "Wonderville",
+        "instagram": "@wondervillenyc",
+        "email": "hello@wonderville.nyc"
+      },
+      "venue": {
+        "name": "Wonderville",
+        "address": "Wonderville 1186 Broadway Brooklyn, NY, 11221 United States",
+        "type": "Arcade Venue"
+      },
+      "featured": false
+    },
+    {
+      "id": "evt_wonderville_dd7bcfbd",
+      "name": "Welcome to Club: ???",
+      "type": "Gaming Event",
+      "locationId": "loc_wonderville",
+      "communityId": "com_wonderville",
+      "description": "Hosted at the wacky arcade @wondervillenyc, Club: ??? is an open format party housed at the wacky arcade where anything goes. The series will showcase some of the city\u2019s most creative and dynamic musicians and center experimentation, exploration, and whimsy in an unconventional setting outside of a classic club or music venue. At any given event, there may be DJ sets, beat sets, rappers, live instruments, and more.\nFor the first edition, curator @\nkweku.nyc\nwill be joined by @cjf2002_ @pizzaqueenhaley @1ateshia, all DJs who like to go all over the place with their sets, pulling from a wide variety of genres and leaving crowds guessing what\u2019s next.\u00a0Release your expectations, and come dance with us.\nrsvp",
+      "startDate": "2025-01-26T02:00:00+00:00",
+      "endDate": null,
+      "image": "",
+      "organizer": {
+        "name": "Wonderville",
+        "instagram": "@wondervillenyc",
+        "email": "hello@wonderville.nyc"
+      },
+      "venue": {
+        "name": "Wonderville",
+        "address": "Wonderville 1186 Broadway Brooklyn, NY, 11221 United States",
+        "type": "Arcade Venue"
+      },
+      "featured": false
+    },
+    {
+      "id": "evt_wonderville_549b83b3",
+      "name": "TeddyBeats and Friends",
+      "type": "Gaming Event",
+      "locationId": "loc_wonderville",
+      "communityId": "com_wonderville",
+      "description": "Armada Music producer and DJ Teddy Beats is bringing his chill deep house sound, regularly featured on SiriusXM, to New York City for the first time at Wonderville in Brooklyn on January 24th, along side supporting DJs Etomo and Diego James. Connect with the artists and vibe out to their music below.\nTeddy Beats:\nMusic:\nhttps://open.spotify.com/artist/38aAEKHAmZwECZgFuUfdCB?si=QaBq3eHeTdKEahiZ4oNdNw\nInstagram:\nhttps://www.instagram.com/teddybeatsmusic\nEtomo:\nMusic:\nhttps://on.soundcloud.com/S1vNHNzAP9u1iPhC6\nIG:\nhttps://www.instagram.com/etomorecords\nDiego James:\nMusic:\nhttps://on.soundcloud.com/DB1Nj5wmFkRgHnqr9\nIG:\nhttps://www.instagram.com/diego_james_official\nrsvp",
+      "startDate": "2025-01-25T02:00:00+00:00",
+      "endDate": null,
+      "image": "",
+      "organizer": {
+        "name": "Wonderville",
+        "instagram": "@wondervillenyc",
+        "email": "hello@wonderville.nyc"
+      },
+      "venue": {
+        "name": "Wonderville",
+        "address": "Wonderville 1186 Broadway Brooklyn, NY, 11221 United States",
+        "type": "Arcade Venue"
+      },
+      "featured": false
+    }
+  ]
+}

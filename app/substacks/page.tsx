@@ -1,8 +1,8 @@
 'use client';
 import React, { useState } from 'react';
-import substacks from '@/data/substacks.json';
-import substackPosts from '@/data/substackposts.json';
-import { Panel } from '../components/ui/Panel';
+import substacks from '@/public/data/substacks.json';
+import substackPosts from '@/public/data/substackposts.json';
+import { Panel } from '@/app/components/ui/Panel';
 
 interface Substack {
   id: string;

@@ -1,0 +1,433 @@
+{
+  "events": [
+    {
+      "id": "evt_com_57_1c974a47",
+      "name": "Soulful Stillness \u2014 La Fleur Caf\u00e9",
+      "type": "Community",
+      "locationId": "loc_nyc",
+      "communityId": "com_57",
+      "description": "Take a moment to pause, breathe, and recharge at this Black woman-led meditation experience. Through sound bowls, guided breathing exercises, and a supportive community, this session will help you find balance and reconnect with yourself. Join us for an evening of deep-rooted healing and soulful reflection. February 18th | 6-8 PM. This event is donation-based. Donations of $25+ come with any drink on the menu\n\nhttps://www.lafleurcafenyc.com/events-back-end/soulful-stillness",
+      "startDate": "2025-02-18T23:00:00.000Z",
+      "endDate": null,
+      "category": [
+        "Community",
+        "Social"
+      ],
+      "price": {
+        "amount": 25.0,
+        "type": "Fixed",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "http://static1.squarespace.com/static/619d2c27f975a80e2874eaf3/655545f38d7d6b73fd310964/67ad47fbef995b5b3caa0e14/1739478045553/IMG_2926.png?format=1500w",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.lafleurcafenyc.com/events-back-end/soulful-stillness",
+        "organizer": {
+          "name": "Dee C.",
+          "instagram": "lafleurnyc",
+          "email": "lafleurcafenyc@gmail.com"
+        },
+        "venue": {
+          "name": "New York City",
+          "address": "",
+          "type": "Offline"
+        },
+        "featured": false
+      }
+    },
+    {
+      "id": "evt_com_57_1e89bdac",
+      "name": "\n\t\t\t\tPsychedelics for Climate Action (PSYCA) - Miami Launch Tickets, Wed, Feb 19, 2025 at 6:00 PM | Eventbrite\n\t\t\t ",
+      "type": "Community",
+      "locationId": "loc_nyc",
+      "communityId": "com_57",
+      "description": "Psychedelics for Climate Action (PSYCA) launches in Miami! Love Burners, join us for a unique evening of mycelial networking, inspiring lightning talks by Miami\u2019s psychedelic-climate leaders, and an Earth celebration to close the night.\nhttps://www.eventbrite.com/e/psychedelics-for-climate-action-psyca-miami-launch-tickets-1221379421729?aff=oddtdtcreator",
+      "startDate": "2025-02-19T23:00:00.000Z",
+      "endDate": null,
+      "category": [
+        "Community",
+        "Social"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "https://cdn.evbuc.com/images/958704693/173509943719/1/logo.20250212-030648",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.eventbrite.com/e/psychedelics-for-climate-action-psyca-miami-launch-tickets-1221379421729?aff=oddtdtcreator",
+        "organizer": {
+          "name": "Marissa Feinberg",
+          "instagram": "marissafeinberg",
+          "email": "marissa@triplebottomwhy.com"
+        },
+        "venue": {
+          "name": "New York City",
+          "address": "",
+          "type": "Offline"
+        },
+        "featured": false
+      }
+    },
+    {
+      "id": "evt_com_57_02f163a8",
+      "name": "\n\t\t\t\tPsychedelics for Climate Action (PSYCA) - Miami Launch Tickets, Wed, Feb 19, 2025 at 6:00 PM | Eventbrite\n\t\t\t ",
+      "type": "Community",
+      "locationId": "loc_nyc",
+      "communityId": "com_57",
+      "description": "In Miami for Love Burn? Come to our first Psychedelics for Climate Action event there! As our climate crisis escalates, it will be meaningful to grow our mycelial network and bring together people at this intersection wherever we can, spotlighting local psychedelic-climate orgs and leaders, and encouraging people to take climate action by supporting theirs. https://www.eventbrite.com/e/1221379421729?aff=oddtdtcreator",
+      "startDate": "2025-02-19T23:00:00.000Z",
+      "endDate": null,
+      "category": [
+        "Community",
+        "Social"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "https://cdn.evbuc.com/images/945997033/173509943719/1/logo.20250127-213423",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.eventbrite.com/e/1221379421729?aff=oddtdtcreator",
+        "organizer": {
+          "name": "Marissa Feinberg",
+          "instagram": "marissafeinberg",
+          "email": "marissa@triplebottomwhy.com"
+        },
+        "venue": {
+          "name": "New York City",
+          "address": "",
+          "type": "Offline"
+        },
+        "featured": false
+      }
+    },
+    {
+      "id": "evt_com_57_1c6500c1",
+      "name": "Posh",
+      "type": "Community",
+      "locationId": "loc_nyc",
+      "communityId": "com_57",
+      "description": "Community, we have an experiential performance art showcase  coming up and it will be incredible.Pull up xoxoxo https://posh.vip/f/1d759?t=petra&fbclid=PAZXh0bgNhZW0CMTEAAaadNzaDLeg4YuVJSyRSfVn5wp6qfl68EWeNLDxSpb12_V218nTGxZ_GnRA_aem_D7hUbcg4TS3p_2z-DWGMOg\n\n",
+      "startDate": "2025-02-20T00:00:00.000Z",
+      "endDate": null,
+      "category": [
+        "Community",
+        "Social"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "https://posh.vip/cdn-cgi/image/fit=scale-down,width=640,format=auto,quality=50/https://posh-images-alts-production.s3.amazonaws.com/679991a77520f28cca68253d/1400x2504.webp",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://posh.vip/f/1d759?t=petra&fbclid=PAZXh0bgNhZW0CMTEAAaadNzaDLeg4YuVJSyRSfVn5wp6qfl68EWeNLDxSpb12_V218nTGxZ_GnRA_aem_D7hUbcg4TS3p_2z-DWGMOg",
+        "organizer": {
+          "name": "Petra Zanki",
+          "instagram": "petra_dances",
+          "email": "emanuellaanya@gmail.com"
+        },
+        "venue": {
+          "name": "New York City",
+          "address": "",
+          "type": "Offline"
+        },
+        "featured": false
+      }
+    },
+    {
+      "id": "evt_com_57_5737d730",
+      "name": "RSVP to Music Producer/Artist \u2026 | Partiful",
+      "type": "Community",
+      "locationId": "loc_nyc",
+      "communityId": "com_57",
+      "description": "Hey everyone - running it back with another musician meet up at the same studio as last month\u2019s. Event will be on February 19th from 7-10 pm at 148 India Street, with full RSVP details here: https://partiful.com/e/LOOzAAreO3I1L22P2oBi?\n\nWe had about 20 people turn up at the last one and it was a great time - hope to see some of you there\ud83d\ude42",
+      "startDate": "2025-02-20T00:00:00.000Z",
+      "endDate": null,
+      "category": [
+        "Community",
+        "Social"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "https://partiful.imgix.net/user/unknown/DbY8iufrhpV8viXntO60m?w=1000&h=1000&fit=clip",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://partiful.com/e/LOOzAAreO3I1L22P2oBi",
+        "organizer": {
+          "name": "Max Ley",
+          "instagram": "maxx_leyy",
+          "email": "maxley1996@gmail.com"
+        },
+        "venue": {
+          "name": "New York City",
+          "address": "",
+          "type": "Offline"
+        },
+        "featured": false
+      }
+    },
+    {
+      "id": "evt_com_57_eb417430",
+      "name": "RSVP to Intro to Coffee Cuppin\u2026 | Partiful",
+      "type": "Community",
+      "locationId": "loc_nyc",
+      "communityId": "com_57",
+      "description": "Hey, coffee lovers! We're hosting an Intro to Coffee Cupping & Aeropress workshop at our co-living community on Saturday, 2/22 from 12-3p. To make this workshop accessible, we're asking for $15 to cover costs for the coffee beans, cupping bowls and cupping spoons (the latter two of which you get to keep). We only have 10 spots left, so please RSVP if you want to come! https://partiful.com/e/B4X5sv6npwEdG2PJLUYk",
+      "startDate": "2025-02-22T17:00:00.000Z",
+      "endDate": null,
+      "category": [
+        "Community",
+        "Social"
+      ],
+      "price": {
+        "amount": 15.0,
+        "type": "Fixed",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "https://partiful.imgix.net/user/0JDxczHFdOOSU0BqALPFYmddmBZ2/T4nv_dzawlG9kaQRErG38?w=1000&h=1000&fit=clip",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://partiful.com/e/B4X5sv6npwEdG2PJLUYk",
+        "organizer": {
+          "name": "Lizzie Renck",
+          "instagram": "_lizzstagram_",
+          "email": "lizrenck@gmail.com"
+        },
+        "venue": {
+          "name": "New York City",
+          "address": "",
+          "type": "Offline"
+        },
+        "featured": false
+      }
+    },
+    {
+      "id": "evt_com_57_eef4c67f",
+      "name": "Resonance Gathering: February 2025",
+      "type": "Community",
+      "locationId": "loc_nyc",
+      "communityId": "com_57",
+      "description": "Katya Stepanov is hosting the first Resonance event of the year on 2/23 at entheosita in Bushwick.  The community forming around it is largely made of of adjacent groups, hope to see some familiar faces there!\n\n\u2728Resonance returns on Feb 23! \u2728 We can\u2019t wait to be back together again \ud83d\udc95\n\nResonance weaves together breath-work, movement, dance, song, food, story and art into a 6+ hour micro-festival. \ud83e\ude87\n\n\ud83d\udcab This month\u2019s gathering will honor the energy of reconnection, and includes several special elements \u2014 an Inheritance Project workshop on breaking inherited cycles of conflict and creating connection, and a new venue with an infrared sauna and a jacuzzi!\n\nJoin us on February 23rd from 4 - 11 pm at Entheosita (Address revealed to ticket holders)\n\nRSVP \ud83d\udd17 at https://catalystexperiences.ticketspice.com/resonance-gathering-february-2025\n\nRECONNECTION JOURNEY:\n\ud83e\udead Host & SPASIBA DJ Set (@katyasportal)\n\ud83d\udcab Connection Games (@nasimehbe)\n\ud83d\udcac Inheritance Project (@inheritanceproject)\n\ud83d\udca8 Breath Connection (@breath_connection)\n\u2615\ufe0f Cacao & Live Music (@iamserenagrace_ )\n\ud83e\udea9 MARJAN DJ Set (@marjanriazi)\n\ud83c\udfb6 Sound Healing (@katyaslife)\n\ud83e\udd57 Nourishment(@chauhaus.nyc)\n\ud83d\udd25 Sauna & Jacuzzi (@apollonthefire)",
+      "startDate": "2025-02-23T21:00:00.000Z",
+      "endDate": null,
+      "category": [
+        "Community",
+        "Social"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "https://cdn.uploads.webconnex.com/131320/resonance%20is%20our%20%20ancestral%20nature..png?1739162757258",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://catalystexperiences.ticketspice.com/resonance-gathering-february-2025",
+        "organizer": {
+          "name": "Dave Bour",
+          "instagram": "thebouridentity",
+          "email": "dfbour@gmail.com"
+        },
+        "venue": {
+          "name": "New York City",
+          "address": "",
+          "type": "Offline"
+        },
+        "featured": false
+      }
+    },
+    {
+      "id": "evt_com_57_6cd28512",
+      "name": "The cabbage Salon: The Self...and Other Drgs \u00b7 Luma",
+      "type": "Community",
+      "locationId": "loc_nyc",
+      "communityId": "com_57",
+      "description": "https://lu.ma/43m8iiy5\n\n\u200bThe cabbage Salon is a space for curious minds, deep discussions, and unexpected connections. Each gathering brings people together to engage with big ideas\u2014guided by a speaker, and shaped by the thoughts, experiences, and perspectives of everyone in the room.\n\n\u200bNo academic background required\u2014just a willingness to think, share, and listen.\n\n\u200bThis salon is inspired by the texts of Johann Gottlieb Fichte, Thomas Nagel, Max Horkheimer, Theodor W. Adorno, and Robert Nozick.*\n\n\u200bThe Self\u2026\n\n\u200bWe take for granted that each of us has a self\u2014an \u201cI.\u201d The \u201cI\u201d in \u201cI see the tree\u201d or \u201cI like this band.\u201d But if we take a closer look, the \u201cI\u201d, that we are, becomes strangely elusive: If we try to focus on our pure \u201cI\u201d\u2014stripped of any thought beyond the self-aware \u201cI\u201d\u2014it slips from our grasp. The closer we try to get to it, the further it moves away. Trippy! What can we learn from philosophy about the nature of the self?\n\n\u200b...and Other Drgs**\n\n\u200bWhat are we seeking when we take mind-altering substances? The list of possible answers is long: self-improvement, self-destruction, self-purification... Do we seek liberation, community, chaos, or the unknown? None of the above? And what if there were a drg\u2014inexpensive, free from side effects\u2014that simply made us happier? Should we take it? Why\u2014or why not? \n\n\u200bPresented By:\n\n\u200bGeorg Spoo, PhD. is an Assistant Professor of Philosophy, who practiced his Postdoc at Columbia University. His academic research focus is on epistemology, social and political philosophy, and existentialism. He currently consults with companies to incorporate philosophical ideas into the practical business world. Teams have benefitted from Georg\u2019s discussions on the philosophy of decision-making so they\u2019re equipped to make better ones. At the heart of Georg\u2019s beliefs is that everyone should live in peace, and no one should have to suffer inequality.\n\n\u200bHow We Do Things:\n\n\u200b\ud83d\udd39 Warm-Up: We start with a short icebreaker to get minds moving and ideas flowing.\n\ud83d\udd39 Talk & Discussion: Our guest speaker introduces the theme, sharing insights and questions to consider.\n\ud83d\udd39 Group Conversations: Attendees break into small groups to explore the topic, bringing their own ideas and experiences into the mix.\n\ud83d\udd39 More Talk, More Conversation: Our speaker presents a second round of thoughts, deepening the discussion before another round of open dialogue.\n\ud83d\udd39 Final Thoughts & Closing: We wrap up with reflections, takeaways, and an open floor for last thoughts.\n\n\u200bThis is not a lecture\u2014it\u2019s a conversation. Bring your point of view, your questions, and your curiosity. Get weird, get controversial, get real, baby. \n\n\u200bCome for the ideas, stay for the drinks, lovers, and friends. \ud83c\udf77\n\n\u200b*If you'd like to dig deeper on these texts, it is absolutely not required and you won't feel lost if you haven't. But we've put them together for you here, anyways.\n\n\u200b**idk what the rules of the Internet are these days please don't clown us for censoring\n\n\u200b***Seating is limited, so first come first serve. But standing is good for you, someone said somewhere once.\n\n\u200b****If cost is an issue, please reach out @cabbagehousekids, everyone is welcome!",
+      "startDate": "2025-03-06T00:00:00.000Z",
+      "endDate": null,
+      "category": [
+        "Community",
+        "Social"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "https://social-images.lu.ma/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=419/api/event-one?calendar_avatar=https%3A%2F%2Fimages.lumacdn.com%2Fcalendars%2F71%2Fba6cf1fe-8396-4e9a-9b59-7be6f9153a9c.jpg&calendar_name=cabbage%20house&color0=%23448cbd&color1=%23181f28&color2=%232463a6&color3=%231a3a6d&host_avatar=https%3A%2F%2Fimages.lumacdn.com%2Favatars%2Ftv%2Ff7a439dc-8b8a-4a4f-9882-4277d1eb9670.jpg&host_name=Jenita%20Richards&img=https%3A%2F%2Fimages.lumacdn.com%2Fevent-covers%2Fq9%2F3db36286-fa6a-455f-b51a-f33ad7170ea4.png&name=The%20cabbage%20Salon%3A%20The%20Self...and%20Other%20Drgs",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/43m8iiy5",
+        "organizer": {
+          "name": "Jenita Richards",
+          "instagram": "asparaguys",
+          "email": "jenita.richards@gmail.com"
+        },
+        "venue": {
+          "name": "New York City",
+          "address": "",
+          "type": "Offline"
+        },
+        "featured": false
+      }
+    },
+    {
+      "id": "evt_com_57_261d53f2",
+      "name": "RSVP to Community Breath & Sou\u2026 | Partiful",
+      "type": "Community",
+      "locationId": "loc_nyc",
+      "communityId": "com_57",
+      "description": "Dear Friends,\n\nJoin us for a special enhanced spring breath and sound ceremony on March 8th, 2025. Together, we\u2019ll honor love in all its forms\u2014self-love, love for others, and the love that connects us all. In this season of renewal, we\u2019ll breathe, reflect, and celebrate new beginnings.\n\nBring a journal, an open heart, and your willingness to explore and embrace the season's magic. Come ready to release, show compassion, and express gratitude as we welcome fresh energy and growth.\n\nLet\u2019s create connection and nurture new beginnings\u2014together.\n\nLocation: Brooklyn (Details closer to date)\nDonation: $560-$1111\nRSVP below - spots are limited \ud83e\udef6\ud83c\udffb\nhttps://partiful.com/e/1NhGP57dFYdlOrqf8S6i\n\n\nWith love,\nHannah & Aniko",
+      "startDate": "2025-03-08T15:00:00.000Z",
+      "endDate": null,
+      "category": [
+        "Community",
+        "Social"
+      ],
+      "price": {
+        "amount": 560.0,
+        "type": "Fixed",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "https://partiful.imgix.net/user/B8vvZ3rrDnNkOIwwiOk4NaNme2y2/9c3_zeMJvm9IRmVnsnQsg?w=1000&h=1000&fit=clip",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://partiful.com/e/1NhGP57dFYdlOrqf8S6i",
+        "organizer": {
+          "name": "Hannah Cohen",
+          "instagram": "feelings__felt",
+          "email": "hannahc91@gmail.com"
+        },
+        "venue": {
+          "name": "New York City",
+          "address": "",
+          "type": "Offline"
+        },
+        "featured": false
+      }
+    },
+    {
+      "id": "evt_com_57_5ef17fb3",
+      "name": "Posh",
+      "type": "Community",
+      "locationId": "loc_nyc",
+      "communityId": "com_57",
+      "description": "https://posh.vip/f/1c50a?a=541events\n\ud83c\udf40\ud83c\udf7b Come say hi, have a few drinks & make a few friends. Let's have some fun!",
+      "startDate": "2025-03-15T16:00:00.000Z",
+      "endDate": null,
+      "category": [
+        "Community",
+        "Social"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "https://posh.vip/cdn-cgi/image/fit=scale-down,width=640,format=auto,quality=50/https://posh-images-alts-production.s3.amazonaws.com/6786eaca3026b87071676870/1400x1400.webp",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://posh.vip/f/1c50a?a=541events",
+        "organizer": {
+          "name": "Ron M.",
+          "instagram": "why_ron",
+          "email": "ronicemc@gmail.com"
+        },
+        "venue": {
+          "name": "New York City",
+          "address": "",
+          "type": "Offline"
+        },
+        "featured": false
+      }
+    },
+    {
+      "id": "evt_com_57_54aa00c6",
+      "name": "An Ode to Joy & Yoga with Francesca and Kiki",
+      "type": "Community",
+      "locationId": "loc_nyc",
+      "communityId": "com_57",
+      "description": "Winter Wellness Retreat in Puerto Escondido, Oaxaca, MX w/ Francesca Valarezo & Kiki Roshe \n\nMARCH 19-24,2025\n\n\u2728 2 Daily Yoga Sessions: Katonah Flow in the morning & Restorative Yoga + Sound Meditation at sunset \n\u27285 night accommodation in Eco-chic Barbarenas Resort \n\u2728 Local Culture: Immerse yourself in Oaxaca\u2019s rich traditions, mezcal, chocolate & food \n\u2728 Nature Connection: laid back surf town vibes \ud83c\udfc4\u200d\u2642\ufe0f \n\u2728 Cacao Ceremony \ud83c\udf6b \n\u2728Airport Transfer Included \nDeadline to submit your deposit is Dec 10th/ payment plan available. Please reach out to me with questions. @spiritualrebelyogi on IG \n\nhttps://www.tourhero.com/en/epic-adventures/mexico/an-ode-to-joy-and-yoga-with-francesca-and-kiki-661242",
+      "startDate": "2025-03-19T19:46:00.000Z",
+      "endDate": null,
+      "category": [
+        "Community",
+        "Social"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "https://assets.tourhero.com/yhnc0km4td9v4vbvc32ortqdwyni",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.tourhero.com/en/epic-adventures/mexico/an-ode-to-joy-and-yoga-with-francesca-and-kiki-661242",
+        "organizer": {
+          "name": "Francesca Valarezo",
+          "instagram": "spiritualrebelyogi",
+          "email": "francescavalarezo@gmail.com"
+        },
+        "venue": {
+          "name": "New York City",
+          "address": "",
+          "type": "Offline"
+        },
+        "featured": false
+      }
+    }
+  ]
+}

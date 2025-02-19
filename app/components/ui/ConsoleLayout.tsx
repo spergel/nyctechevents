@@ -4,10 +4,10 @@ import { Panel } from './Panel';
 import { CyberMap } from './CyberMap';
 import { ConsoleModule } from './ConsoleModule';
 import { HolographicDisplay } from './HolographicDisplay';
-import substackPosts from '@/data/substackposts.json';
-import communities from '@/data/communities.json';
-import locations from '@/data/locations.json';
-import events from '@/data/events.json';
+import substackPosts from '@/public/data/substackposts.json';
+import communities from '@/public/data/communities.json';
+import locations from '@/public/data/locations.json';
+import events from '@/public/data/events.json';
 
 interface Community {
   id: string;

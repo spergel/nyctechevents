@@ -1,0 +1,504 @@
+{
+  "events": [
+    {
+      "id": "evt_gather_14b71b0f",
+      "name": "Modern\nKintsugi NY",
+      "type": "Art Workshop",
+      "locationId": "loc_gather_nyc",
+      "communityId": "com_call_to_gather",
+      "description": "The art of Kintsugi embodies new beauty made through imperfections. It\u2019s an artistry of mending broken pieces, symbolically representing how brokenness in our lives can transform to places of beauty and power. Instead of hiding chipped and broken parts,when imperfections are pronounced with the gold, symbolizing the light, you behold something that\u2019s more beautiful. It\u2019s an art form of mending to make new. In this Gather, we\u2019ll have an open time to share personal discovery with each other as we apply Kintsugi to a piece we\u2019ve each brought with us. We\u2019ll share a time of personal reflection and beholding through working with our hands.",
+      "startDate": "2025-02-28T19:09:00-05:00",
+      "price": {
+        "amount": 85.0,
+        "currency": "USD",
+        "type": "Fixed",
+        "details": ""
+      },
+      "image": "https://calltogather.com/media/pages/gatherings/kintsugi/0b08f66289-1703099317/img_0060-1408x.jpg",
+      "venue": {
+        "name": "Soho",
+        "address": "Soho, NYC",
+        "type": "Studio"
+      },
+      "metadata": {
+        "source_url": "https://calltogather.com/gatherings/kintsugi",
+        "featured": false
+      }
+    },
+    {
+      "id": "evt_gather_83db2166",
+      "name": "Suminagashi\nPaper Marbling",
+      "type": "Art Workshop",
+      "locationId": "loc_gather_nyc",
+      "communityId": "com_call_to_gather",
+      "description": "Making marbled paper using ink, water, breath, and paper can connect us to the nature of life, art, and creative practice. In this Gather experience, explore the nature of Suminagashi, the meditative paper marbling process. You\u2019ll learn the history of the process, learn how this marbling style connects to nature and play, be guided through the materials and steps, and meditate on the shape and form of ink as you make marbled paper design. Discover the mesmerizing, mindful creative practice of Suminagashi and relax into the flow.",
+      "startDate": "2025-02-28T19:09:00-05:00",
+      "price": {
+        "amount": 85.0,
+        "currency": "USD",
+        "type": "Fixed",
+        "details": ""
+      },
+      "image": "https://calltogather.com/media/pages/gatherings/suminagashi/dd7b594d22-1723829164/suminagashi-workshop-teaching-1408x.jpg",
+      "venue": {
+        "name": "Soho",
+        "address": "Soho, NYC",
+        "type": "Studio"
+      },
+      "metadata": {
+        "source_url": "https://calltogather.com/gatherings/suminagashi",
+        "featured": false
+      }
+    },
+    {
+      "id": "evt_gather_dcc79d85",
+      "name": "Tea\nFormulation",
+      "type": "Art Workshop",
+      "locationId": "loc_gather_wa",
+      "communityId": "com_call_to_gather",
+      "description": "There are many kinds of herbalism. But there\u2019s greater healing potency when there\u2019s thoughtfulness and care that goes into making unique blends for yourself and for others. This is caring for your health in a slower but more natural way. In this Gather, we\u2019ll experience the intimacy of herbs through herbal tea formulation. We\u2019ll explore the importance and beauty of knowing the whole constitution of a person, plant, and conditions. We\u2019ll smell each herb and come to understand the broad strokes of the world of herbs. We\u2019ll learn to thoughtfully compose custom blends for a uniquely designed human.",
+      "startDate": "2025-03-21T14:04:00-04:00",
+      "price": {
+        "amount": 95.0,
+        "currency": "USD",
+        "type": "Fixed",
+        "details": ""
+      },
+      "image": "https://calltogather.com/media/pages/gatherings/herbal-formulation/c462bbf2f3-1712730111/herbal2-1408x.png",
+      "venue": {
+        "name": "TBA",
+        "address": "TBA",
+        "type": "Studio"
+      },
+      "metadata": {
+        "source_url": "https://calltogather.com/gatherings/herbal-formulation",
+        "featured": false
+      }
+    },
+    {
+      "id": "evt_gather_2390033a",
+      "name": "Ikebana",
+      "type": "Art Workshop",
+      "locationId": "loc_gather_wa",
+      "communityId": "com_call_to_gather",
+      "description": "Flowers bring the beauty of the natural world inside. And Ikebana\u2014the traditional Japanese art of flower arranging\u2014allows us to play with movement, texture, and shape in order to create botanical sculptures. In this Gather, we\u2019ll use farm fresh flowers, dried foliage, minimal ingredients, and simple mechanics to create two Ikebana designs. One design will be in a provided Ikebana vessel, and the other will be done in a vessel we\u2019ve each brought with us. We\u2019ll learn to attach flower frogs and explore different design approaches. We\u2019ll then celebrate each others\u2019 art pieces while enjoying light snacks and conversation.",
+      "startDate": "2025-03-21T19:09:00-04:00",
+      "price": {
+        "amount": 95.0,
+        "currency": "USD",
+        "type": "Fixed",
+        "details": ""
+      },
+      "image": "https://calltogather.com/media/pages/gatherings/ikebana/3b9d12c20b-1736871641/screenshot-2024-11-22-at-1.42.25pm-1408x.png",
+      "venue": {
+        "name": "Bremerton",
+        "address": "Bremerton, WA",
+        "type": "Studio"
+      },
+      "metadata": {
+        "source_url": "https://calltogather.com/gatherings/ikebana",
+        "featured": false
+      }
+    },
+    {
+      "id": "evt_gather_4968212b",
+      "name": "Playful\nMark Making",
+      "type": "Art Workshop",
+      "locationId": "loc_gather_nyc",
+      "communityId": "com_call_to_gather",
+      "description": "When a wash of ink spreads across the paper in an unanticipated way, we can become the creator of an exquisitely made mark. This kind of encounter can often happen when we approach a sketchbook with an attitude of play\u2014with a new tool or a new way of moving the hand across the surface of the paper. In this Gather, we\u2019ll explore how we make marks on a surface\u2014like stamping with ink, drawing with a comb, and painting on yupo paper. We will experiment with these tools to create our own unique and unexpected textures. This can open up a new vocabulary of textures to apply to our creative practices across any medium.",
+      "startDate": "2025-03-21T19:09:00-04:00",
+      "price": {
+        "amount": 85.0,
+        "currency": "USD",
+        "type": "Fixed",
+        "details": ""
+      },
+      "image": "https://calltogather.com/media/pages/gatherings/illustration/0eaf61a014-1712730111/mark-making-1408x.png",
+      "venue": {
+        "name": "Soho",
+        "address": "Soho, NYC",
+        "type": "Studio"
+      },
+      "metadata": {
+        "source_url": "https://calltogather.com/gatherings/illustration",
+        "featured": false
+      }
+    },
+    {
+      "id": "evt_gather_0b737d79",
+      "name": "Architectural\nWalk",
+      "type": "Art Workshop",
+      "locationId": "loc_gather_wa",
+      "communityId": "com_call_to_gather",
+      "description": "HARLEM EDITION: Come cultivate the art of the city walk. Most New Yorkers pass places all the time without any knowledge of their context: either historical or modern. The walks will be designed for New Yorkers to see New York through the eyes of an architect: seeking to understand the big picture while appreciating the details. In this curated route, we will focus on the historic architecture of Harlem. As a neighborhood, Harlem is part physical, part mythical. The famed renaissance that transpired a hundred years ago has indelibly shaped the neighborhood\u2019s identity as a Mecca culture and placemaking in New York City. We will be cultivating the art of city walking, not as tourists, but as architecture-aficionados, learning to appreciate the details of Harlem\u2019s most distinct buildings and brownstones.",
+      "startDate": null,
+      "price": {
+        "amount": 0.0,
+        "currency": "USD",
+        "type": "Unknown",
+        "details": "Check event page for details"
+      },
+      "image": "https://calltogather.com/media/pages/gatherings/architectural-walk/ccc6509a5b-1725294827/p4220844-1408x.jpg",
+      "venue": {
+        "name": "TBA",
+        "address": "TBA",
+        "type": "Studio"
+      },
+      "metadata": {
+        "source_url": "https://calltogather.com/gatherings/architectural-walk",
+        "featured": false
+      }
+    },
+    {
+      "id": "evt_gather_8637298e",
+      "name": "Art\nCollecting",
+      "type": "Art Workshop",
+      "locationId": "loc_gather_wa",
+      "communityId": "com_call_to_gather",
+      "description": "We all encounter art throughout our lives, but becoming a patron of the arts can be intimidating. Where do we even begin? And why should we? In this Gather, we\u2019ll learn about the world of art and art collecting\u2014in an approachable way. What are galleries and how do they work? How can we develop our own relationship with art and artists? How can we start to budget, collect, and understand art as an investment? What is the ecosystem of the art world (including the artist, the gallery, the collector, the advisor, and the auction house), and how do we relate to it? We\u2019ll end our time together with an exhibition tour of a \u201837x21x21\u2019 a project exchange with artists from Vienna and New York.",
+      "startDate": null,
+      "price": {
+        "amount": 0.0,
+        "currency": "USD",
+        "type": "Unknown",
+        "details": "Check event page for details"
+      },
+      "image": "https://calltogather.com/media/pages/gatherings/art-collecting/8f0e98797a-1712730112/screen-shot-2024-03-07-at-10.14.16-am-1408x.png",
+      "venue": {
+        "name": "TBA",
+        "address": "TBA",
+        "type": "Studio"
+      },
+      "metadata": {
+        "source_url": "https://calltogather.com/gatherings/art-collecting",
+        "featured": false
+      }
+    },
+    {
+      "id": "evt_gather_82cfbf69",
+      "name": "Art to\nExhibition",
+      "type": "Art Workshop",
+      "locationId": "loc_gather_wa",
+      "communityId": "com_call_to_gather",
+      "description": "Both young and experienced creatives alike are often overwhelmed when navigating the nuances of the fine art scene. The art world can leave people hurt and directionless. But art galleries often look for a specific approach and a punch list of deliverables, even more than they look for the quality of work. In this Gather, we\u2019ll discuss practical ways for conquering creative chaos, developing professionalism, starting and maintaining relationships with galleries, and presenting yourself and your work for potential exhibitions. We\u2019ll give insider info on how galleries think and real talk about art pricing. We\u2019ll explore how you can prepare a foundation for presenting yourself and your work to the world.",
+      "startDate": null,
+      "price": {
+        "amount": 0.0,
+        "currency": "USD",
+        "type": "Unknown",
+        "details": "Check event page for details"
+      },
+      "image": "https://calltogather.com/media/pages/gatherings/art-to-exhibition/43b4d488fb-1716829166/art-to-exhibition-1408x.png",
+      "venue": {
+        "name": "TBA",
+        "address": "TBA",
+        "type": "Studio"
+      },
+      "metadata": {
+        "source_url": "https://calltogather.com/gatherings/art-to-exhibition",
+        "featured": false
+      }
+    },
+    {
+      "id": "evt_gather_096f29a9",
+      "name": "Avatar\nPainting",
+      "type": "Art Workshop",
+      "locationId": "loc_gather_wa",
+      "communityId": "com_call_to_gather",
+      "description": "We all long to be seen and recognized. And there\u2019s always an occasion to celebrate the people (and pets) in your life. In this Gather, we\u2019ll create a lil\u2019 piece of art that represents you or someone you love. We\u2019ll look at how you can capture a person\u2019s essence\u2014just with a hairline and well-plotted eyes. We\u2019ll ask what beauty you see in this person that you want to bring forth. And then we\u2019ll sketch, paint, and podge a personalized wooden figure. After all, who wood-n\u2019t want a selfie?",
+      "startDate": null,
+      "price": {
+        "amount": 0.0,
+        "currency": "USD",
+        "type": "Unknown",
+        "details": "Check event page for details"
+      },
+      "image": "https://calltogather.com/media/pages/gatherings/avatar-painting/54ebc447ed-1712730112/toppers-1408x.png",
+      "venue": {
+        "name": "TBA",
+        "address": "TBA",
+        "type": "Studio"
+      },
+      "metadata": {
+        "source_url": "https://calltogather.com/gatherings/avatar-painting",
+        "featured": false
+      }
+    },
+    {
+      "id": "evt_gather_95472224",
+      "name": "Meditational\nCalligraphy",
+      "type": "Art Workshop",
+      "locationId": "loc_gather_wa",
+      "communityId": "com_call_to_gather",
+      "description": "Writing a letter by hand can create a deeper connection to the text, to the reader, and to oneself. In this Gather, we will cover the basic letter and the art of calligraphy. We will explore our own unique handwriting, finding the art within our personal marks. We will get comfortable using the calligraphy pen, and with can pens. We\u2019ll explore how it can become a part of mindful practices and expressions.",
+      "startDate": null,
+      "price": {
+        "amount": 0.0,
+        "currency": "USD",
+        "type": "Unknown",
+        "details": "Check event page for details"
+      },
+      "image": "https://calltogather.com/media/pages/gatherings/calligraphy/479a018088-1703099666/3e787413-83c9-40bf-9565-ea338b5dafe9-1-1408x.jpg",
+      "venue": {
+        "name": "TBA",
+        "address": "TBA",
+        "type": "Studio"
+      },
+      "metadata": {
+        "source_url": "https://calltogather.com/gatherings/calligraphy",
+        "featured": false
+      }
+    },
+    {
+      "id": "evt_gather_769df301",
+      "name": "Contemplative\nBookbinding",
+      "type": "Art Workshop",
+      "locationId": "loc_gather_wa",
+      "communityId": "com_call_to_gather",
+      "description": "Books are objects made for both intimate and collective spaces, to both be shared and to be enjoyed in solitude. They are vessels for our hearts, our stories, our voices. They store our memories, histories, and ideas. And so, how they are made is an important creative interplay with who we are and how we share and care for our thoughts. In this Gather, we\u2019ll craft our own handmade notebooks through the Pamphlet Stitch Bookbinding process. With simple materials like cardstock, needle, and thread, we\u2019ll use historical techniques and the presence of our current minds and bodies to create a space for our thoughts and dreams to roam.",
+      "startDate": null,
+      "price": {
+        "amount": 0.0,
+        "currency": "USD",
+        "type": "Unknown",
+        "details": "Check event page for details"
+      },
+      "image": "https://calltogather.com/media/pages/gatherings/contemplative-bookbinding/66020df51f-1716834098/book-1-1408x.png",
+      "venue": {
+        "name": "TBA",
+        "address": "TBA",
+        "type": "Studio"
+      },
+      "metadata": {
+        "source_url": "https://calltogather.com/gatherings/contemplative-bookbinding",
+        "featured": false
+      }
+    },
+    {
+      "id": "evt_gather_643133f5",
+      "name": "Wreath\nDesign",
+      "type": "Art Workshop",
+      "locationId": "loc_gather_wa",
+      "communityId": "com_call_to_gather",
+      "description": "12/13/2024 Holiday Edition: This December join Gather at the Manette Flower Co. Studio for an evening of festive fun and holiday wreath-making! We will play with a variety of textures, wintry foliage, ribbon, pinecones, and more. Light snacks and hot drinks will be provided. Each Gather participant will leave with a beautiful wreath to grace their front door.",
+      "startDate": null,
+      "price": {
+        "amount": 0.0,
+        "currency": "USD",
+        "type": "Unknown",
+        "details": "Check event page for details"
+      },
+      "image": "https://calltogather.com/media/pages/gatherings/floral/21ca45ca78-1729788399/screenshot-2024-10-24-at-12.46.24pm-1408x.png",
+      "venue": {
+        "name": "TBA",
+        "address": "TBA",
+        "type": "Studio"
+      },
+      "metadata": {
+        "source_url": "https://calltogather.com/gatherings/floral",
+        "featured": false
+      }
+    },
+    {
+      "id": "evt_gather_338c70d2",
+      "name": "Floral\nDesign",
+      "type": "Art Workshop",
+      "locationId": "loc_gather_wa",
+      "communityId": "com_call_to_gather",
+      "description": "In many cultures the exchange of flowers is a form of communication and an expression of our bond to each other and to nature. But floral symbolism is also very personal. In this Gather, we\u2019ll explore our relationship to flowers, learning the feelings of different colors, textures, and forms of floral composition. We\u2019ll spend time free-drawing with our whole bodies to get comfortable with natural flow. We\u2019ll shake and tap the flowers to get a sense of how each flower moves, listening to their organic nature and to how they want to be. We\u2019ll learn to construct our own bouquets connected to specific themes, occasions, or emotions that we want to express.",
+      "startDate": null,
+      "price": {
+        "amount": 0.0,
+        "currency": "USD",
+        "type": "Unknown",
+        "details": "Check event page for details"
+      },
+      "image": "https://calltogather.com/media/pages/gatherings/floral-design/05f78dffd7-1683559442/floral-home-1408x.png",
+      "venue": {
+        "name": "TBA",
+        "address": "TBA",
+        "type": "Studio"
+      },
+      "metadata": {
+        "source_url": "https://calltogather.com/gatherings/floral-design",
+        "featured": false
+      }
+    },
+    {
+      "id": "evt_gather_f3980811",
+      "name": "Acting Tools for\nEveryday",
+      "type": "Art Workshop",
+      "locationId": "loc_gather_wa",
+      "communityId": "com_call_to_gather",
+      "description": "When acting, one must get out of the way for something new to arise. An actor strips away pretense and puts the self aside to honor the character and scene. This expression is why we watch actors. But the tools of acting can be used broadly in order to communicate more effectively. In this Gather, we\u2019ll explore techniques that unlock the spoken and written word. We\u2019ll discover the power of our own voices. We\u2019ll practice the public interpretation of a text we\u2019ve each brought with us, strengthening our intuition with them. We\u2019ll explore tone, beats, and emotional nuances\u2014and we\u2019ll grow in awareness of how we communicate in daily life.",
+      "startDate": null,
+      "price": {
+        "amount": 0.0,
+        "currency": "USD",
+        "type": "Unknown",
+        "details": "Check event page for details"
+      },
+      "image": "https://calltogather.com/media/pages/gatherings/incarnational-acting/db30ebc02b-1712730110/homepg-acting-16-1408x.png",
+      "venue": {
+        "name": "TBA",
+        "address": "TBA",
+        "type": "Studio"
+      },
+      "metadata": {
+        "source_url": "https://calltogather.com/gatherings/incarnational-acting",
+        "featured": false
+      }
+    },
+    {
+      "id": "evt_gather_839d2f6a",
+      "name": "Interpretative\nDreams",
+      "type": "Art Workshop",
+      "locationId": "loc_gather_wa",
+      "communityId": "com_call_to_gather",
+      "description": "However dreams come to us\u2014whether it\u2019s divine communication or merely neurons firing for subconscious thought\u2014there are moments in time when dreams are irrefutably important. In this Gather, we\u2019ll explore the art of dream interpretation. We\u2019ll process through writing and visuals, paying attention to the words, symbols, and prominent emotions of a specific dream. We\u2019ll get comfortable engaging with our dreams, entering a multi-layered conversation with them to record and understand what they may be communicating.",
+      "startDate": null,
+      "price": {
+        "amount": 0.0,
+        "currency": "USD",
+        "type": "Unknown",
+        "details": "Check event page for details"
+      },
+      "image": "https://calltogather.com/media/pages/gatherings/interpretive-dreams/de6170af8e-1712730110/dreams-1408x.png",
+      "venue": {
+        "name": "TBA",
+        "address": "TBA",
+        "type": "Studio"
+      },
+      "metadata": {
+        "source_url": "https://calltogather.com/gatherings/interpretive-dreams",
+        "featured": false
+      }
+    },
+    {
+      "id": "evt_gather_e23a933c",
+      "name": "Modern\nKintsugi, MD",
+      "type": "Art Workshop",
+      "locationId": "loc_gather_wa",
+      "communityId": "com_call_to_gather",
+      "description": "The art of Kintsugi embodies new beauty made through imperfections. It\u2019s an artistry of mending broken pieces, symbolically representing how brokenness in our lives can transform to places of beauty and power. Instead of hiding chipped and broken parts, when imperfections are pronounced with the gold, symbolizing the light, you behold something that\u2019s more beautiful. It\u2019s an art form of mending to make new. In this Gather, we\u2019ll have an open time to share personal discovery with each other as we apply Kintsugi to a piece we\u2019ve each brought with us. We\u2019ll share a time of personal reflection and beholding through working with our hands.",
+      "startDate": null,
+      "price": {
+        "amount": 0.0,
+        "currency": "USD",
+        "type": "Unknown",
+        "details": "Check event page for details"
+      },
+      "image": "https://calltogather.com/media/pages/gatherings/kintsugi-md/c94272d7b4-1726083691/session-images-21-1408x.png",
+      "venue": {
+        "name": "TBA",
+        "address": "TBA",
+        "type": "Studio"
+      },
+      "metadata": {
+        "source_url": "https://calltogather.com/gatherings/kintsugi-md",
+        "featured": false
+      }
+    },
+    {
+      "id": "evt_gather_89aa63b8",
+      "name": "Expressive\nPoetics",
+      "type": "Art Workshop",
+      "locationId": "loc_gather_wa",
+      "communityId": "com_call_to_gather",
+      "description": "In a poem, we don\u2019t need to have the answers or know all the pieces of a story. In fact, a poem can help us say things we didn\u2019t have words for, can help us uncover things we didn\u2019t know or acknowledge within ourselves. For this Gather, we\u2019ll explore the world within. Through a guided writing time, we\u2019ll explore seven different movements of the mind\u2014different mental approaches to the same item or event. This gets us out of our usual patterns of thinking and remembering, and also gets us out of the anxiety of \u201cwhat am I going to write?\u201d We\u2019ll then craft a poem from the phrases we\u2019ve unearthed. We\u2019ll learn how to approach writing in a less direct and less pressured manner, and how to find the poetry that\u2019s already there\u2014in our own voices, in our own minds.",
+      "startDate": null,
+      "price": {
+        "amount": 0.0,
+        "currency": "USD",
+        "type": "Unknown",
+        "details": "Check event page for details"
+      },
+      "image": "https://calltogather.com/media/pages/gatherings/poetry/890f0dc253-1712730112/poetry-19-1408x.png",
+      "venue": {
+        "name": "TBA",
+        "address": "TBA",
+        "type": "Studio"
+      },
+      "metadata": {
+        "source_url": "https://calltogather.com/gatherings/poetry",
+        "featured": false
+      }
+    },
+    {
+      "id": "evt_gather_eefd30c2",
+      "name": "Power\nof Scent",
+      "type": "Art Workshop",
+      "locationId": "loc_gather_wa",
+      "communityId": "com_call_to_gather",
+      "description": "We\u2019re constantly surrounded by smell. A scent can instantly transport us elsewhere\u2014to another place, another time, a strong emotion, a memory. And yet, scent is rarely celebrated in the sensory world. In this Gather, we\u2019ll examine the science of scents, of how they\u2019re constructed and layered. We\u2019ll learn how to test scents to find one that jives with our body chemistry. We\u2019ll explore how to use scent as a tool for self-expression, mood, and wardrobing, as we consider how we present ourselves through scent.",
+      "startDate": null,
+      "price": {
+        "amount": 0.0,
+        "currency": "USD",
+        "type": "Unknown",
+        "details": "Check event page for details"
+      },
+      "image": "https://calltogather.com/media/pages/gatherings/power-of-scent/4d4c714c96-1712730111/kelly-sikkema-raaoq1zzgnc-unsplash-1408x.jpg",
+      "venue": {
+        "name": "TBA",
+        "address": "TBA",
+        "type": "Studio"
+      },
+      "metadata": {
+        "source_url": "https://calltogather.com/gatherings/power-of-scent",
+        "featured": false
+      }
+    },
+    {
+      "id": "evt_gather_cfe1fc84",
+      "name": "Unearthing\nYour Book",
+      "type": "Art Workshop",
+      "locationId": "loc_gather_wa",
+      "communityId": "com_call_to_gather",
+      "description": "Writing a book starts with a single idea. But clarifying writing goals and navigating the road to publishing can be an overwhelming, confusing, and often discouraging process. In this Gather, we\u2019ll demystify the publishing process and answer some key questions about publishing houses, about the difference between self-publishing and traditional publishing, and about how to take the next step toward putting words into the world. Perhaps your idea for a book is freshly thought, or perhaps it\u2019s fully baked. Or perhaps you\u2019re simply curious about what it might take to publish a book. We\u2019ll spend time asking clarifying questions about our individual book ideas, and we\u2019ll each walk away with the bones of a book proposal.",
+      "startDate": null,
+      "price": {
+        "amount": 0.0,
+        "currency": "USD",
+        "type": "Unknown",
+        "details": "Check event page for details"
+      },
+      "image": "https://calltogather.com/media/pages/gatherings/unearth-your-book/16ad4815af-1712730112/homepg-book-10-1408x.png",
+      "venue": {
+        "name": "TBA",
+        "address": "TBA",
+        "type": "Studio"
+      },
+      "metadata": {
+        "source_url": "https://calltogather.com/gatherings/unearth-your-book",
+        "featured": false
+      }
+    },
+    {
+      "id": "evt_gather_36058204",
+      "name": "Joyful\nWater + Color",
+      "type": "Art Workshop",
+      "locationId": "loc_gather_wa",
+      "communityId": "com_call_to_gather",
+      "description": "Water is something every child loves playing with. And when we paint with watercolor, we slow down\u2014we layer water and colors to reveal what\u2019s going on around us, outside of us, or even inside of us. In this Gather, we\u2019re going to play with water and we\u2019re going to add a little bit of color, giving and taking to see what can be revealed. We\u2019ll learn about materials, color itself, and techniques such as wet-on-dry, wet-on-wet, layering, and feathering. We\u2019ll see how time itself is an important tool in this process. And we\u2019ll practice how to create a full scene, layering water and color to create dimension and depth.",
+      "startDate": null,
+      "price": {
+        "amount": 0.0,
+        "currency": "USD",
+        "type": "Unknown",
+        "details": "Check event page for details"
+      },
+      "image": "https://calltogather.com/media/pages/gatherings/watercolor/2a5be37356-1712730111/homepg-carousel-watercolor-18-1408x.png",
+      "venue": {
+        "name": "TBA",
+        "address": "TBA",
+        "type": "Studio"
+      },
+      "metadata": {
+        "source_url": "https://calltogather.com/gatherings/watercolor",
+        "featured": false
+      }
+    }
+  ]
+}
