@@ -1,6 +1,6 @@
 'use client';
 import React from 'react';
-import substackPosts from '@/data/substackposts.json';
+import substackPosts from '@/public/data/substackposts.json';
 
 interface SubstackPost {
   id: string;

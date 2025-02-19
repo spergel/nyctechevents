@@ -9,6 +9,17 @@ import { MetaInfo } from '@/app/components/ui/MetaInfo';
 import { CyberMap } from '@/app/components/ui/CyberMap';
 import { CyberLink } from '@/app/components/ui/CyberLink';
 
+type Community = {
+  id: string;
+  name: string;
+  type: string;
+  meetingLocationIds: string[];
+  description?: string;
+  founded?: string;
+  organizationType?: string;
+  website?: string;
+};
+
 export default function Organization(props: { params: Promise<{ id: string }> }) {
   const params = use(props.params);
   const community = communities.communities.find(c => c.id === params.id);
@@ -23,8 +34,8 @@ export default function Organization(props: { params: Promise<{ id: string }> })
     .sort((a, b) => new Date(a.startDate).getTime() - new Date(b.startDate).getTime())
     .slice(0, 5);
 
-  const hostedCommunities = communities.communities.filter(c => 
-    c.meetingLocationIds?.includes(location?.id || '')
+  const hostedCommunities = (communities.communities as Community[]).filter(c => 
+    c.meetingLocationIds && location?.id && c.meetingLocationIds.includes(location.id)
   );
 
   if (!community || !location) {
@@ -75,7 +86,7 @@ export default function Organization(props: { params: Promise<{ id: string }> })
               <DetailSection title="Upcoming Events">
                 <div className="events-list">
                   {upcomingEvents.map(event => (
-                    <CyberLink key={event.id} href={`/events/${event.id}`} variant="event">
+                    <CyberLink key={event.id} href={`/events/${event.id}`} variant="default">
                       <div className="event-date">{new Date(event.startDate).toLocaleDateString()}</div>
                       <div className="event-name">{event.name}</div>
                       <div className="event-type">{event.type}</div>
