@@ -67,8 +67,7 @@ GOOGLE_CALENDARS = {
     }
 }
 
-API_KEY = "AIzaSyDeuWJ8-vsa4R7i0MKtx4Ojxqhf3Ud9Igs"
-
+API_KEY = os.getenv("GOOGLE_API_KEY")
 LOCATIONS = load_locations()
 COMMUNITIES = load_communities()
 
