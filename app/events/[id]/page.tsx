@@ -8,7 +8,7 @@ import { Panel } from '@/app/components/ui/Panel';
 import { CyberLink } from '@/app/components/ui/CyberLink';
 
 // Function to clean description text
-const cleanDescription = (text: string | undefined): string => {
+const cleanDescription = (text: string | undefined | null): string => {
   if (!text) return '';
   
   // Remove emoji sequences (both Unicode and shortcode formats)
@@ -21,7 +21,9 @@ const cleanDescription = (text: string | undefined): string => {
 
 export default function Event(props: { params: Promise<{ id: string }> }) {
   const params = use(props.params);
-  const event = events.events.find(e => e.id === params.id);
+  // Decode the URL parameter to handle special characters
+  const decodedId = decodeURIComponent(params.id);
+  const event = events.events.find(e => e.id === decodedId);
   const community = event?.communityId ? 
     communities.communities.find(c => c.id === event.communityId) : null;
 
@@ -30,7 +32,7 @@ export default function Event(props: { params: Promise<{ id: string }> }) {
       <main>
        
         <MetaInfo data={{
-          'ERROR': `Event with ID "${params.id}" not found in database`,
+          'ERROR': `Event with ID "${decodedId}" not found in database`,
           'MESSAGE': 'Please check the ID and try again...'
         }} />
       </main>
@@ -93,32 +95,7 @@ export default function Event(props: { params: Promise<{ id: string }> }) {
       </Panel>
 
       <style jsx>{`
-        .detail-page {
-          width: 100%;
-          min-height: 100%;
-        }
-
-        p {
-          color: var(--nyc-white);
-          line-height: 1.6;
-          margin-bottom: 1rem;
-        }
-
-        @media (max-width: 768px) {
-          .detail-page {
-            padding: 0;
-          }
-
-          p {
-            font-size: 0.95rem;
-          }
-        }
-
-        @media (max-width: 480px) {
-          p {
-            font-size: 0.9rem;
-          }
-        }
+        /* All styles have been moved to globals.css */
       `}</style>
     </main>
   );

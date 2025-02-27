@@ -5,11 +5,32 @@ import { Panel } from '@/app/components/ui/Panel';
 import { CyberMap } from '@/app/components/ui/CyberMap';
 import Loading from '@/app/loading';
 import { ConsoleModule } from '@/app/components/ui/ConsoleModule';
+import { FilterDialog } from '@/app/components/ui/FilterDialog';
+import { FilterToggleButton } from '@/app/components/ui/FilterToggleButton';
 import { CompactFilterButton } from '@/app/components/ui/CompactFilterButton';
+import { saveFilterState, loadFilterState } from '@/app/utils/filterState';
+import { PageNav } from '@/app/components/ui/PageNav';
 
 export default function Locations() {
   const [isLoading, setIsLoading] = useState(true);
   const [selectedTypes, setSelectedTypes] = useState<string[]>([]);
+  const [isFilterDialogOpen, setIsFilterDialogOpen] = useState(false);
+  const [isMapVisible, setIsMapVisible] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
+
+  // Check if we're on mobile
+  useEffect(() => {
+    const checkMobile = () => {
+      setIsMobile(window.innerWidth <= 1024);
+    };
+    
+    checkMobile();
+    window.addEventListener('resize', checkMobile);
+    
+    return () => {
+      window.removeEventListener('resize', checkMobile);
+    };
+  }, []);
 
   useEffect(() => {
     if (document.readyState === 'complete') {
@@ -23,12 +44,33 @@ export default function Locations() {
     }
   }, []);
 
+  // Load saved filter state on mount
+  useEffect(() => {
+    const savedState = loadFilterState('locations');
+    if (savedState) {
+      setSelectedTypes(savedState.selectedTypes || []);
+    }
+  }, []);
+
+  // Save filter state when it changes
+  useEffect(() => {
+    saveFilterState('locations', {
+      selectedTypes
+    });
+  }, [selectedTypes]);
+
   const locationStats = [
     { label: 'TOTAL', value: locations.locations.length, color: 'var(--terminal-color)' },
     { label: 'ACCESSIBLE', value: locations.locations.filter(l => l.accessibility).length / locations.locations.length * 100, color: 'var(--nyc-orange)' },
   ];
 
-  const locationTypes = Array.from(new Set(locations.locations.map(l => l.type)));
+  // Get unique location types with counts
+  const locationTypes = Array.from(new Set(locations.locations.map(l => l.type)))
+    .map(type => ({
+      id: type,
+      name: type,
+      count: locations.locations.filter(l => l.type === type).length
+    }));
 
   const filteredLocations = locations.locations.filter(location =>
     selectedTypes.length === 0 || selectedTypes.includes(location.type)
@@ -40,29 +82,66 @@ export default function Locations() {
     );
   };
 
-  // Generate random points for the radar visualization
-  const radarPoints = filteredLocations.slice(0, 5).map((_, index) => ({
-    x: 20 + (index * 15),
-    y: 30 + (index * 12),
-  }));
+  const clearAllFilters = () => {
+    setSelectedTypes([]);
+  };
+
+  // Prepare filter groups for the FilterDialog
+  const filterGroups = [
+    {
+      title: 'LOCATION TYPES',
+      options: locationTypes,
+      selectedIds: selectedTypes,
+      onToggle: toggleType
+    }
+  ];
 
   if (isLoading) {
     return <Loading />;
   }
 
   return (
-    <main className="locations-page">
+    <main className="page-layout">
+      <PageNav 
+        title="NYC LOCATIONS" 
+        systemId="LOC-001" 
+        showBackButton={false}
+      />
+
+      {/* Filter Toggle Button (Mobile Only) */}
+      {isMobile && (
+        <FilterToggleButton 
+          isActive={isFilterDialogOpen}
+          onClick={() => setIsFilterDialogOpen(!isFilterDialogOpen)}
+          resultCount={filteredLocations.length}
+        />
+      )}
+
+      {/* Filter Dialog (Mobile Only) */}
+      {isMobile && (
+        <FilterDialog
+          title="LOCATION FILTERS"
+          systemId="LOC-FIL-001"
+          isOpen={isFilterDialogOpen}
+          onClose={() => setIsFilterDialogOpen(false)}
+          filterGroups={filterGroups}
+          resultCount={filteredLocations.length}
+          onClearAll={clearAllFilters}
+        />
+      )}
+
       <div className="locations-layout">
-        <div className="main-section">
-          <Panel title="NYC LOCATIONS DIRECTORY" systemId="LOC-001">
-            <div className="locations-grid">
+        {/* Left Column - Location List */}
+        <div className="locations-list">
+          <Panel title="NYC LOCATIONS" systemId="LOC-001">
+            <div className="items-grid">
               {filteredLocations.map((location) => (
-                <a key={location.id} href={`/locations/${location.id}`} className="location-card">
-                  <div className="location-header">
+                <a key={location.id} href={`/locations/${location.id}`} className="item-card">
+                  <div className="card-header">
                     <span className="location-type">{location.type}</span>
                     <span className="location-capacity">CAP: {location.capacity || 'N/A'}</span>
                   </div>
-                  <div className="location-name">{location.name}</div>
+                  <h3 className="location-name">{location.name}</h3>
                   <div className="location-address">{location.address}</div>
                   <div className="location-features">
                     {location.accessibility && (
@@ -78,26 +157,10 @@ export default function Locations() {
           </Panel>
         </div>
 
-        <div className="side-section">
-          <div className="filters-container">
-            <ConsoleModule variant="secondary">
-              <div className="filters-content">
-                <div className="type-list">
-                  {locationTypes.map((type) => (
-                    <CompactFilterButton
-                      key={type}
-                      label={type}
-                      count={locations.locations.filter(l => l.type === type).length}
-                      isActive={selectedTypes.includes(type)}
-                      onClick={() => toggleType(type)}
-                    />
-                  ))}
-                </div>
-              </div>
-            </ConsoleModule>
-          </div>
-
-          <div className="map-container">
+        {/* Right Column - Map and Filters */}
+        <div className="map-and-filters">
+          {/* Map Section */}
+          <div className="map-section">
             <ConsoleModule 
               variant="secondary"
               footerStats={{
@@ -116,193 +179,174 @@ export default function Locations() {
               </div>
             </ConsoleModule>
           </div>
+
+          {/* Filters Section */}
+          <div className="filters-section">
+            <div className="filter-list">
+              {locationTypes.map(type => (
+                <CompactFilterButton
+                  key={type.id}
+                  label={type.name}
+                  count={type.count}
+                  isActive={selectedTypes.includes(type.id)}
+                  onClick={() => toggleType(type.id)}
+                />
+              ))}
+              {selectedTypes.length > 0 && (
+                <CompactFilterButton
+                  label="CLEAR ALL"
+                  isActive={false}
+                  onClick={clearAllFilters}
+                />
+              )}
+            </div>
+          </div>
         </div>
       </div>
 
       <style jsx>{`
-        .locations-page {
-          width: 100%;
-          height: 100vh;
+        .page-layout {
           display: flex;
           flex-direction: column;
+          height: 100vh;
+          overflow: hidden;
         }
 
         .locations-layout {
           display: grid;
-          grid-template-columns: 300px 1fr;
-          gap: 0;
-          height: 100%;
-          padding: 0;
+          grid-template-columns: 320px 1fr;
+          gap: 1rem;
+          padding: 1rem;
           flex: 1;
+          min-height: 0; /* Important for nested scrolling */
         }
 
-        .locations-grid {
-          display: flex;
-          flex-direction: column;
-          gap: 0;
-          padding: 0;
-          overflow-y: auto;
-          height: 100%;
-        }
-
-        .main-section {
-          height: 100%;
-          display: flex;
-          flex-direction: column;
-        }
-
-        .side-section {
-          display: flex;
-          flex-direction: column;
-          gap: 0;
-          height: 100%;
-        }
-
-        .filters-container {
-          height: auto;
-          min-height: 80px;
-          max-height: 120px;
-          margin-bottom: -1px;
-        }
-
-        .filters-content {
-          padding: 0.5rem;
-          height: 100%;
-          overflow-y: auto;
-        }
-
-        .map-container {
-          flex: 1;
-          min-height: 0;
-          display: flex;
-          flex-direction: column;
-        }
-
-        .map-content {
-          flex: 1;
-          min-height: 0;
-          background: rgba(0, 20, 40, 0.3);
-          border-radius: 4px;
+        .locations-list {
+          min-height: 0; /* Important for nested scrolling */
           overflow: hidden;
         }
 
-        .location-card {
+        .items-grid {
           display: flex;
           flex-direction: column;
+          gap: 1rem;
+          padding: 1rem;
+          height: 100%;
+          overflow-y: auto;
+        }
+
+        .item-card {
+          display: flex;
+          flex-direction: column;
+          gap: 0.5rem;
           padding: 1rem;
           background: rgba(0, 56, 117, 0.3);
-          border: 1px solid transparent;
+          border: 1px solid var(--nyc-orange);
           text-decoration: none;
-          color: var(--nyc-white);
           transition: all 0.2s ease;
-          margin-bottom: -1px;
+          flex-shrink: 0; /* Prevent cards from shrinking */
         }
 
-        .location-card:hover {
-          border-color: var(--nyc-orange);
+        .item-card:hover {
+          transform: translateY(-2px);
           background: rgba(0, 56, 117, 0.5);
-          transform: translateX(4px);
-          box-shadow: 0 4px 12px rgba(255, 107, 28, 0.2);
+          border-color: var(--terminal-color);
         }
 
-        .location-header {
+        .card-header {
           display: flex;
           justify-content: space-between;
-          margin-bottom: 0.5rem;
+          align-items: center;
         }
 
         .location-type {
-          color: var(--terminal-color);
-          font-family: var(--font-mono);
+          color: var(--nyc-orange);
           font-size: 0.8rem;
+          text-transform: uppercase;
         }
 
         .location-capacity {
-          color: var(--nyc-orange);
-          font-family: var(--font-mono);
+          color: var(--terminal-color);
           font-size: 0.8rem;
         }
 
         .location-name {
-          font-family: var(--font-display);
+          color: var(--nyc-white);
           font-size: 1.1rem;
-          margin-bottom: 0.5rem;
-          line-height: 1.2;
+          margin: 0;
+          font-weight: bold;
         }
 
         .location-address {
-          font-family: var(--font-mono);
-          font-size: 0.8rem;
-          color: rgba(255, 255, 255, 0.7);
-          margin-bottom: 0.5rem;
-          line-height: 1.2;
+          color: var(--nyc-white);
+          opacity: 0.8;
+          font-size: 0.9rem;
         }
 
         .location-features {
           display: flex;
-          flex-wrap: wrap;
           gap: 0.5rem;
-          margin-top: auto;
+          flex-wrap: wrap;
         }
 
         .feature-tag {
           font-size: 0.7rem;
-          padding: 0.2rem 0.5rem;
+          padding: 0.25rem 0.5rem;
           background: rgba(0, 255, 255, 0.1);
           border: 1px solid var(--terminal-color);
           color: var(--terminal-color);
-          font-family: var(--font-mono);
-          white-space: nowrap;
+        }
+
+        .map-and-filters {
+          display: grid;
+          grid-template-columns: 1fr auto;
+          gap: 1rem;
+          height: 100%;
+          min-height: 0; /* Important for nested scrolling */
+        }
+
+        .map-section {
+          height: 100%;
+          min-height: 0;
+        }
+
+        .filters-section {
+          width: 200px;
+          background: var(--panel-bg);
+          border: 1px solid var(--nyc-orange);
+          padding: 0.75rem;
+          border-radius: 4px;
+        }
+
+        .filter-list {
+          display: flex;
+          flex-direction: column;
+          gap: 0.25rem;
         }
 
         @media (max-width: 1024px) {
           .locations-layout {
             grid-template-columns: 1fr;
-            grid-template-rows: auto 1fr;
-            gap: 1rem;
-            padding: 1rem;
+            overflow-y: auto;
           }
 
-          .locations-grid {
-            gap: 1rem;
-            padding: 1rem;
+          .items-grid {
+            max-height: none;
+            overflow: visible;
           }
 
-          .location-card {
-            margin-bottom: 0;
-          }
-        }
-
-        @media (max-width: 768px) {
-          .locations-grid {
-            padding: 0.5rem;
+          .map-section {
+            height: 300px;
           }
 
-          .location-card {
-            padding: 0.75rem;
+          .filters-section {
+            width: 100%;
           }
-        }
 
-        @media (max-width: 480px) {
-          .locations-layout {
-            padding: 0.5rem;
+          .filter-list {
+            flex-direction: row;
+            flex-wrap: wrap;
             gap: 0.5rem;
-          }
-
-          .location-card {
-            padding: 0.5rem;
-          }
-
-          .location-name {
-            font-size: 1rem;
-          }
-
-          .location-address {
-            font-size: 0.75rem;
-          }
-
-          .map-container {
-            min-height: 250px;
           }
         }
       `}</style>

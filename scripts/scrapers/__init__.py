@@ -7,7 +7,7 @@ from .luma_scrapers import (
     LumaAPIScraper,
     run_all_scrapers
 )
-
+from .base_scraper import BaseScraper
 # Import all scraper functions
 from .call_to_gather_scraper import scrape_call_to_gather
 from .fiftyseven_scraper import scrape_fiftyseven_events

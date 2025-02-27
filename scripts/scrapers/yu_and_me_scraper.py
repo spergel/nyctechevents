@@ -6,9 +6,10 @@ import pytz
 from bs4 import BeautifulSoup
 import requests
 import logging
-from typing import Dict, List
+from typing import Dict, List, Optional
 
 from base_scraper import BaseScraper
+from models import Event, EventMetadata, EventStatus, EventCategory, Price, Organizer, Venue
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -20,14 +21,28 @@ class YuAndMeScraper(BaseScraper):
         self.events_url = f"{self.base_url}/events"
         self.community_id = "com_yu_and_me"
         self.location_id = "loc_yu_and_me"
+        
+        # Standard metadata for Yu and Me Books
+        self.default_organizer = Organizer(
+            name="Yu and Me Books",
+            email="info@yuandmebooks.com",
+            instagram="@yuandmebooks",
+            website=self.base_url
+        )
+        
+        self.default_venue = Venue(
+            name="Yu and Me Books",
+            address="44 Mulberry St, New York, NY 10013",
+            type="Bookstore"
+        )
     
     def generate_event_id(self, title: str, date_str: str) -> str:
         """Generate a unique event ID"""
         combined = f"{title}_{date_str}"
         return f"evt_{self.source_name}_{hashlib.md5(combined.encode()).hexdigest()[:8]}"
     
-    def parse_datetime(self, date_str: str) -> str:
-        """Parse Yu and Me's datetime format to ISO format"""
+    def parse_datetime(self, date_str: str) -> Optional[datetime]:
+        """Parse Yu and Me's datetime format to datetime object"""
         try:
             et = pytz.timezone('America/New_York')
             # Handle formats: "February 11, 2025 at 7:00PM" or "February 12 at 7:00PM"
@@ -35,7 +50,7 @@ class YuAndMeScraper(BaseScraper):
             if "2025" not in clean_str:  # Add year if missing
                 clean_str = clean_str.replace(",", ", 2025,")
             dt = datetime.strptime(clean_str, "%B %d, %Y %I:%M%p")
-            return et.localize(dt).astimezone(pytz.utc).isoformat()
+            return et.localize(dt).astimezone(pytz.utc)
         except Exception as e:
             self.logger.error(f"Error parsing datetime: {e}")
             return None
@@ -43,71 +58,34 @@ class YuAndMeScraper(BaseScraper):
     def scrape_event_page(self, url: str) -> Dict:
         """Scrape individual event page"""
         try:
-            response = requests.get(url)
+            response = self.session.get(url)
+            response.raise_for_status()
             soup = BeautifulSoup(response.text, 'html.parser')
             
             # Extract price information
             price_element = soup.select_one(".price-item--last")
-            price_cents = 0
+            price_amount = 0.0
             if price_element and "$" in price_element.text:
                 price_str = price_element.text.split("$")[1].split(" ")[0]
-                price_cents = int(float(price_str) * 100)
+                price_amount = float(price_str)
+            
+            description = soup.select_one(".product__description")
+            description_text = description.get_text(separator="\n", strip=True) if description else ""
             
             return {
-                "price_cents": price_cents,
-                "description": soup.select_one(".product__description").get_text(separator="\n", strip=True)
+                "price_amount": price_amount,
+                "description": description_text
             }
         except Exception as e:
             self.logger.error(f"Error scraping event page: {e}")
-            return {"price_cents": 0, "description": ""}
+            return {"price_amount": 0.0, "description": ""}
     
-    def format_event(self, raw_event: Dict) -> Dict:
-        """Format raw event data into standard format"""
-        event = {
-            "id": raw_event["id"],
-            "name": raw_event["name"],
-            "type": "Book Event",
-            "locationId": self.location_id,
-            "communityId": self.community_id,
-            "description": raw_event.get("description", ""),
-            "startDate": raw_event["startDate"],
-            "endDate": raw_event["startDate"],  # Yu and Me events are single-date
-            "category": "Literature",
-            "price": {
-                "amount": raw_event.get("price_cents", 0) / 100,
-                "type": "Free" if raw_event.get("price_cents", 0) == 0 else "Fixed",
-                "currency": "USD",
-                "details": ""
-            },
-            "registrationRequired": True,
-            "tags": ["books", "literature", "author event"],
-            "image": "",
-            "status": "upcoming",
-            "metadata": {
-                "source_url": raw_event.get("source_url", ""),
-                "organizer": {
-                    "name": "Yu and Me Books",
-                    "instagram": "@yuandmebooks",
-                    "email": "info@yuandmebooks.com"
-                },
-                "venue": {
-                    "name": "Yu and Me Books",
-                    "address": "44 Mulberry St, New York, NY 10013",
-                    "type": "Bookstore"
-                },
-                "featured": False
-            }
-        }
-        return event
-    
-    def scrape_events(self) -> List[Dict]:
+    def scrape_events(self) -> List[Event]:
         """Scrape Yu and Me Books events"""
         events = []
         
         try:
-            response = requests.get(self.events_url, headers={
-                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
-            }, timeout=10)
+            response = self.session.get(self.events_url, timeout=10)
             response.raise_for_status()
             
             soup = BeautifulSoup(response.text, 'html.parser')
@@ -136,22 +114,45 @@ class YuAndMeScraper(BaseScraper):
                     # Get additional details from event page
                     page_details = self.scrape_event_page(event_url)
                     
-                    # Create raw event data
-                    raw_event = {
-                        "id": self.generate_event_id(title, date_str),
-                        "name": title,
-                        "startDate": self.parse_datetime(date_str),
-                        "source_url": event_url,
-                        **page_details
-                    }
-                    
-                    # Format event and add to list if valid
-                    if raw_event["startDate"]:
-                        formatted_event = self.format_event(raw_event)
-                        events.append(formatted_event)
-                        self.logger.info(f"Added event: {formatted_event['name']}")
-                    else:
+                    # Parse datetime
+                    start_date = self.parse_datetime(date_str)
+                    if not start_date:
                         self.logger.warning(f"Skipping event due to invalid date: {title}")
+                        continue
+                    
+                    # Create price object
+                    price = Price(
+                        amount=page_details["price_amount"],
+                        type="Free" if page_details["price_amount"] == 0 else "Fixed"
+                    )
+                    
+                    # Create metadata
+                    metadata = EventMetadata(
+                        source_url=event_url,
+                        source_name=self.source_name,
+                        organizer=self.default_organizer,
+                        venue=self.default_venue
+                    )
+                    
+                    # Create event object
+                    event = Event(
+                        id=self.generate_event_id(title, date_str),
+                        name=title,
+                        type="Book Event",
+                        location_id=self.location_id,
+                        community_id=self.community_id,
+                        description=page_details["description"],
+                        start_date=start_date,
+                        end_date=start_date,  # Yu and Me events are single-date
+                        category=EventCategory.LITERATURE,
+                        price=price,
+                        registration_required=True,
+                        tags=["books", "literature", "author event"],
+                        metadata=metadata
+                    )
+                    
+                    events.append(event)
+                    self.logger.info(f"Added event: {event.name}")
                 
                 except Exception as e:
                     self.logger.error(f"Error processing event: {str(e)}")

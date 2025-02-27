@@ -4,12 +4,18 @@ import events from '@/public/data/events.json';
 import { Panel } from '@/app/components/ui/Panel';
 import Loading from '@/app/loading';
 import { FilterButton } from '@/app/components/ui/FilterButton';
+import { FilterDialog } from '@/app/components/ui/FilterDialog';
+import { FilterToggleButton } from '@/app/components/ui/FilterToggleButton';
+import { CompactFilterButton } from '@/app/components/ui/CompactFilterButton';
+import { saveFilterState, loadFilterState } from '@/app/utils/filterState';
+import { PageNav } from '@/app/components/ui/PageNav';
+import { CyberDatePicker } from '@/app/components/ui/CyberDatePicker';
 
 interface Category {
-  name: string;
   id: string;
+  name: string;
   confidence: number;
-  subcategories: string[];
+  subcategories?: string[];
 }
 
 interface Event {
@@ -29,6 +35,25 @@ interface Event {
     instagram?: string;
     email?: string;
   };
+}
+
+interface CategoryGroup {
+  id: string;
+  name: string;
+  count: number;
+  subcategories?: {
+    id: string;
+    name: string;
+    count: number;
+  }[];
+}
+
+interface CategoryData {
+  id: string;
+  name: string;
+  count: number;
+  isAcademic?: boolean;
+  parent?: string;
 }
 
 // Time of day ranges
@@ -74,7 +99,7 @@ const normalizeText = (text: string): string => {
 };
   
 // Function to check if an event matches the search query
-const eventMatchesSearch = (event: Event, searchQuery: string): boolean => {
+const eventMatchesSearch = (event: any, searchQuery: string): boolean => {
   if (!searchQuery.trim()) return true;
   
   const normalizedQuery = normalizeText(searchQuery);
@@ -84,302 +109,320 @@ const eventMatchesSearch = (event: Event, searchQuery: string): boolean => {
 
   const eventText = normalizeText([
     event.name,
-    event.type,
     event.description,
     event.venue?.name,
     event.venue?.address,
     event.organizer?.name,
-    event.categories?.map(cat => cat.name).join(' '),
-    event.categories?.flatMap(cat => cat.subcategories || []).join(' ')
+    ...(event.categories?.map((cat: Category) => [cat.name, ...(cat.subcategories || [])]).flat() || [])
   ].filter(Boolean).join(' '));
 
   // All search terms must be present for a match
   return searchTerms.every(term => eventText.includes(term));
 };
 
-export default function Events() {
-  // Core states
-  const [isLoading, setIsLoading] = useState(true);
-  const [isFilteringLoading, setIsFilteringLoading] = useState(false);
-  const [displayedEvents, setDisplayedEvents] = useState<Event[]>([]);
-  const [page, setPage] = useState(1);
-  const [isLoadingMore, setIsLoadingMore] = useState(false);
-  
-  // Filter states
-  const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
-  const [selectedTimes, setSelectedTimes] = useState<string[]>([]);
-  const [dateRange, setDateRange] = useState<string>('all');
-  const [searchQuery, setSearchQuery] = useState<string>('');
-  
-  const eventsGridRef = useRef<HTMLDivElement>(null);
-  const EVENTS_PER_PAGE = 50;
+const ITEMS_PER_PAGE = 10;
 
-  // Memoized base events that are current or future
-  const baseEvents = useMemo(() => {
-    const today = new Date();
-    today.setHours(0, 0, 0, 0);
+export default function Events() {
+  const [isLoading, setIsLoading] = useState(true);
+  const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
+  const [startDate, setStartDate] = useState<Date | null>(null);
+  const [endDate, setEndDate] = useState<Date | null>(null);
+  const [searchQuery, setSearchQuery] = useState('');
+  const [isFilterDialogOpen, setIsFilterDialogOpen] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
+  const [visibleItems, setVisibleItems] = useState(ITEMS_PER_PAGE);
+  const [hasMore, setHasMore] = useState(true);
+  
+  const observerTarget = useRef<HTMLDivElement>(null);
+
+  // Check if we're on mobile
+  useEffect(() => {
+    const checkMobile = () => {
+      setIsMobile(window.innerWidth <= 1024);
+    };
     
-    return events.events.filter(event => {
-      const eventDate = new Date(event.startDate);
-      eventDate.setHours(0, 0, 0, 0);
-      return eventDate >= today;
-    });
+    checkMobile();
+    window.addEventListener('resize', checkMobile);
+    
+    return () => {
+      window.removeEventListener('resize', checkMobile);
+    };
   }, []);
 
-  // Memoized filtered and sorted events
-  const filteredEvents = useMemo(() => {
-    setIsFilteringLoading(true);
+  // Load saved filter state
+  useEffect(() => {
+    const savedState = loadFilterState('events');
+    if (savedState) {
+      setSelectedCategories(savedState.selectedCategories || []);
+      setStartDate(savedState.startDate ? new Date(savedState.startDate) : null);
+      setEndDate(savedState.endDate ? new Date(savedState.endDate) : null);
+      setSearchQuery(savedState.searchQuery || '');
+    }
+    setIsLoading(false);
+  }, []);
+
+  // Save filter state when it changes
+  useEffect(() => {
+    saveFilterState('events', {
+      selectedCategories,
+      startDate,
+      endDate,
+      searchQuery
+    });
+  }, [selectedCategories, startDate, endDate, searchQuery]);
+
+  // Get categories and their subcategories
+  const categoryGroups = useMemo(() => {
+    const categoryMap = new Map<string, CategoryData>();
     
-    try {
-      let result = [...baseEvents];
+    // First pass: collect all categories and their counts
+    events.events.forEach(event => {
+      // Handle structured categories
+      if (Array.isArray(event.categories)) {
+        event.categories.forEach(category => {
+          // Handle main category
+          if (!categoryMap.has(category.name)) {
+            categoryMap.set(category.name, {
+              id: category.id,
+              name: category.name,
+              count: 0
+            });
+          }
+          categoryMap.get(category.name)!.count++;
 
-      // Apply search filter
-      if (searchQuery.trim()) {
-        result = result.filter(event => eventMatchesSearch(event, searchQuery));
-      }
-
-      // Apply time of day filter
-      if (selectedTimes.length > 0) {
-        result = result.filter(event => {
-          const eventTime = getTimeOfDay(new Date(event.startDate));
-          return selectedTimes.includes(eventTime);
-        });
-      }
-
-      // Apply date range filter
-      if (dateRange !== 'all') {
-        const today = new Date();
-        today.setHours(0, 0, 0, 0);
-        
-        result = result.filter(event => {
-          const eventDate = new Date(event.startDate);
-          eventDate.setHours(0, 0, 0, 0);
-
-          switch (dateRange) {
-            case 'today':
-              return eventDate.getTime() === today.getTime();
-            case 'week': {
-              const weekFromNow = new Date(today);
-              weekFromNow.setDate(today.getDate() + 7);
-              return eventDate >= today && eventDate <= weekFromNow;
-            }
-            case 'month': {
-              const monthFromNow = new Date(today);
-              monthFromNow.setMonth(today.getMonth() + 1);
-              return eventDate >= today && eventDate <= monthFromNow;
-            }
-            default:
-              return true;
+          // Handle subcategories
+          if (category.id === 'academic' && Array.isArray(category.subcategories)) {
+            category.subcategories.forEach(sub => {
+              const subName = sub.replace(/_/g, ' ');
+              const subId = `academic:${sub}`;
+              if (!categoryMap.has(subId)) {
+                categoryMap.set(subId, {
+                  id: subId,
+                  name: subName,
+                  count: 0,
+                  isAcademic: true,
+                  parent: 'Academic'
+                });
+              }
+              categoryMap.get(subId)!.count++;
+            });
           }
         });
       }
+    });
 
-      // Apply category filter
-      if (selectedCategories.length > 0) {
-        result = result.filter(event =>
-          event.categories?.some((cat: Category) => selectedCategories.includes(cat.id))
-        );
+    // Group categories
+    const mainCategories: CategoryGroup[] = [];
+    const academicSubcategories: CategoryGroup['subcategories'] = [];
+
+    categoryMap.forEach((cat) => {
+      if (cat.isAcademic) {
+        academicSubcategories.push({
+          id: cat.id,
+          name: cat.name,
+          count: cat.count
+        });
+      } else {
+        mainCategories.push({
+          id: cat.id,
+          name: cat.name,
+          count: cat.count,
+          subcategories: cat.name === 'Academic' ? academicSubcategories : undefined
+        });
       }
+    });
 
-      // Sort by date
-        result.sort((a, b) => new Date(a.startDate).getTime() - new Date(b.startDate).getTime());
-
-      return result;
-    } finally {
-      setIsFilteringLoading(false);
-    }
-  }, [baseEvents, searchQuery, selectedTimes, dateRange, selectedCategories]);
-
-  // Effect to handle pagination
-  useEffect(() => {
-    const start = 0;
-    const end = page * EVENTS_PER_PAGE;
-    setDisplayedEvents(filteredEvents.slice(start, end));
-    setIsLoadingMore(false);
-  }, [page, filteredEvents]);
-
-  // Reset pagination when filters change
-  useEffect(() => {
-    setPage(1);
-  }, [searchQuery, selectedCategories, selectedTimes, dateRange]);
-
-  // Function to handle infinite scroll
-  const handleScroll = useCallback(() => {
-    if (!eventsGridRef.current || isLoadingMore) return;
-
-    const grid = eventsGridRef.current;
-    const buffer = 100; // pixels from bottom to trigger load
-    
-    if (grid.scrollHeight - grid.scrollTop - grid.clientHeight < buffer) {
-      if (displayedEvents.length < filteredEvents.length) {
-        setIsLoadingMore(true);
-        setPage(prev => prev + 1);
-      }
-    }
-  }, [displayedEvents.length, filteredEvents.length, isLoadingMore]);
-
-  // Add scroll event listener
-  useEffect(() => {
-    const grid = eventsGridRef.current;
-    if (!grid) return;
-
-    grid.addEventListener('scroll', handleScroll);
-    return () => grid.removeEventListener('scroll', handleScroll);
-  }, [handleScroll]);
-
-  useEffect(() => {
-    if (document.readyState === 'complete') {
-      setIsLoading(false);
-    } else {
-      const handleLoad = () => {
-        setIsLoading(false);
-      };
-      window.addEventListener('load', handleLoad);
-      return () => window.removeEventListener('load', handleLoad);
-    }
+    return mainCategories
+      .sort((a, b) => b.count - a.count)
+      .map(cat => ({
+        ...cat,
+        subcategories: cat.subcategories?.sort((a, b) => b.count - a.count)
+      }));
   }, []);
 
-  // Get unique categories from the filtered events
-  const allCategories = Array.from(new Set(
-    filteredEvents.flatMap(event => 
-      event.categories?.map((cat: Category) => cat.id) || []
-    )
-  ));
+  // Filter events
+  const filteredEvents = useMemo(() => {
+    return events.events
+      .filter(event => {
+        if (selectedCategories.length > 0) {
+          const hasSelectedCategory = selectedCategories.some(selected => {
+            // Check if it's an academic subcategory
+            if (selected.startsWith('academic:')) {
+              const subcategory = selected.split(':')[1];
+              return event.categories?.some(cat => 
+                cat.id === 'academic' && 
+                cat.subcategories?.includes(subcategory)
+              );
+            }
+            
+            // Check regular categories
+            return event.categories?.some(cat => cat.id === selected);
+          });
+          
+          if (!hasSelectedCategory) return false;
+        }
 
-  const toggleCategory = (categoryId: string) => {
-    setSelectedCategories(prev => 
-      prev.includes(categoryId) ? prev.filter(c => c !== categoryId) : [...prev, categoryId]
+        if (startDate && new Date(event.startDate) < startDate) {
+          return false;
+        }
+
+        if (endDate && new Date(event.startDate) > endDate) {
+          return false;
+        }
+
+        return eventMatchesSearch(event, searchQuery);
+      })
+      .sort((a, b) => new Date(a.startDate).getTime() - new Date(b.startDate).getTime());
+  }, [selectedCategories, startDate, endDate, searchQuery]);
+
+  // Infinite scroll observer
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (entries[0].isIntersecting && hasMore) {
+          setVisibleItems(prev => {
+            const next = prev + ITEMS_PER_PAGE;
+            setHasMore(next < filteredEvents.length);
+            return next;
+          });
+        }
+      },
+      { threshold: 1.0 }
     );
+
+    if (observerTarget.current) {
+      observer.observe(observerTarget.current);
+    }
+
+    return () => observer.disconnect();
+  }, [filteredEvents.length, hasMore]);
+
+  const clearAllFilters = () => {
+    setSelectedCategories([]);
+    setStartDate(null);
+    setEndDate(null);
+    setSearchQuery('');
   };
 
-  const toggleTime = (timeId: string) => {
-    setSelectedTimes(prev =>
-      prev.includes(timeId) ? prev.filter(t => t !== timeId) : [...prev, timeId]
-    );
-  };
-
-  const loadMore = () => {
-    setPage(prev => prev + 1);
-  };
+  // Reset visible items when filters change
+  useEffect(() => {
+    setVisibleItems(ITEMS_PER_PAGE);
+    setHasMore(true);
+  }, [selectedCategories, startDate, endDate, searchQuery]);
 
   if (isLoading) {
     return <Loading />;
   }
 
   return (
-    <main className="events-page">
+    <main className="page-layout">
+      <PageNav 
+        title="NYC EVENTS" 
+        systemId="EVT-001" 
+        showBackButton={false}
+      />
+
+      {/* Filter Toggle Button (Mobile Only) */}
+      {isMobile && (
+        <FilterToggleButton 
+          isActive={isFilterDialogOpen}
+          onClick={() => setIsFilterDialogOpen(!isFilterDialogOpen)}
+          resultCount={filteredEvents.length}
+        />
+      )}
+
       <div className="events-layout">
-        <div className="main-section">
-          <Panel title="NYC EVENTS DIRECTORY" systemId="EVT-001">
-            <div className="events-grid" ref={eventsGridRef}>
-              {isFilteringLoading ? (
-                <div className="filtering-loading">
-                  <div className="loading-spinner"></div>
-                  <div className="loading-text">Filtering events...</div>
-                </div>
-              ) : displayedEvents.length === 0 ? (
-                <div className="no-events">
-                  <div className="no-events-icon">⚠</div>
-                  <div className="no-events-text">No events found matching your filters</div>
-                </div>
-              ) : (
-                <>
-                  {displayedEvents.map((event) => (
-                    <a key={event.id} href={`/events/${event.id}`} className="event-card">
-                      <div className="event-header">
-                        <span className="event-date">{new Date(event.startDate).toLocaleDateString()}</span>
-                        <span className="event-type">{event.type}</span>
-                      </div>
-                      <div className="event-name">{event.name}</div>
-                      <div className="event-categories">
-                        {event.categories?.map((cat: Category, i: number) => (
-                          <span key={i} className="category-tag">
-                            {cat.name}
-                            {cat.subcategories?.length > 0 && (
-                              <span className="subcategory-tag">
-                                {cat.subcategories[0].replace(/_/g, ' ')}
-                              </span>
-                            )}
-                          </span>
-                        ))}
-                      </div>
-                    </a>
-                  ))}
-                  {isLoadingMore && (
-                    <div className="loading-more">
-                      <div className="loading-spinner"></div>
-                      <div className="loading-text">Loading more events...</div>
+        {/* Left Column - Event List */}
+        <div className="events-list">
+          <Panel title="NYC EVENTS" systemId="EVT-001">
+            <div className="items-grid">
+              {filteredEvents.slice(0, visibleItems).map((event) => (
+                <a key={event.id} href={`/events/${event.id}`} className="item-card">
+                  <div className="card-header">
+                    <span className="event-date">
+                      {new Date(event.startDate).toLocaleDateString()}
+                    </span>
+                  </div>
+                  <h3 className="event-name">{event.name}</h3>
+                  {event.venue && (
+                    <div className="event-venue">
+                      <span className="venue-icon">◎</span>
+                      {event.venue.name}
+                      {event.venue.address && (
+                        <>
+                          <span className="venue-separator">•</span>
+                          {event.venue.address}
+                        </>
+                      )}
                     </div>
                   )}
-                </>
-              )}
+                  {event.organizer && (
+                    <div className="event-organizer">
+                      <span className="organizer-icon">⌬</span>
+                      {event.organizer.name}
+                      {event.organizer.instagram && (
+                        <a 
+                          href={`https://instagram.com/${event.organizer.instagram.replace('@', '')}`}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="social-link"
+                        >
+                          {event.organizer.instagram}
+                        </a>
+                      )}
+                    </div>
+                  )}
+                  <div className="event-categories">
+                    {event.categories?.map((category, i) => (
+                      <span key={i} className="category-tag">{category.name}</span>
+                    ))}
+                  </div>
+                  {event.description && (
+                    <div className="event-description">
+                      {event.description.length > 200 
+                        ? `${event.description.slice(0, 200)}...`
+                        : event.description
+                      }
+                    </div>
+                  )}
+                </a>
+              ))}
+              {hasMore && <div ref={observerTarget} className="loading-trigger" />}
             </div>
           </Panel>
         </div>
 
+        {/* Right Column - Filters */}
         <div className="filters-section">
-          <Panel title="FILTERS" systemId="FIL-001" variant="secondary">
+          <Panel title="FILTERS" systemId="EVT-FIL-001" variant="secondary">
             <div className="filters-content">
-              {/* Search Bar */}
+              {/* Search Input */}
               <div className="filter-group">
-                <h3 className="filter-title">SEARCH</h3>
-                <div className="search-container">
-                  <input
-                    type="text"
-                    value={searchQuery}
-                    onChange={(e) => {
-                      const newQuery = e.target.value;
-                      setSearchQuery(newQuery);
-                      // Reset to first page when search changes
-                      setPage(1);
-                      setDisplayedEvents([]);
-                    }}
-                    placeholder="Search events by name, type, location..."
-                    className="search-input"
-                  />
-                  <div className="search-icon">⌕</div>
-                </div>
-                {searchQuery.trim() && (
-                  <div className="search-results-count">
-                    Found {filteredEvents.length} matching events
-                  </div>
-                )}
+                <input
+                  type="text"
+                  placeholder="Search events..."
+                  value={searchQuery}
+                  onChange={(e) => setSearchQuery(e.target.value)}
+                  className="search-input"
+                />
               </div>
 
-              {/* Date Range Filter */}
+              {/* Date Range Filters */}
               <div className="filter-group">
                 <h3 className="filter-title">DATE RANGE</h3>
-                <div className="filter-options">
-                  {dateRanges.map(range => (
-                    <FilterButton
-                      key={range.id}
-                      label={range.name}
-                      isActive={dateRange === range.id}
-                      onClick={() => setDateRange(range.id)}
-                    />
-                  ))}
-                </div>
-              </div>
-
-              {/* Time of Day Filter */}
-              <div className="filter-group">
-                <h3 className="filter-title">TIME OF DAY</h3>
-                <div className="filter-options">
-                  {Object.entries(timeRanges).map(([timeId, range]) => {
-                    const count = filteredEvents.filter(event => 
-                      getTimeOfDay(new Date(event.startDate)) === timeId
-                    ).length;
-
-                    return (
-                      <FilterButton
-                        key={timeId}
-                        label={range.label}
-                        count={count}
-                        isActive={selectedTimes.includes(timeId)}
-                        onClick={() => toggleTime(timeId)}
-                      />
-                    );
-                  })}
+                <div className="date-filters">
+                  <CyberDatePicker
+                    selectedDate={startDate}
+                    onChange={setStartDate}
+                    label="Start Date"
+                    placeholder="FROM"
+                  />
+                  <CyberDatePicker
+                    selectedDate={endDate}
+                    onChange={setEndDate}
+                    label="End Date"
+                    placeholder="TO"
+                  />
                 </div>
               </div>
 
@@ -387,365 +430,302 @@ export default function Events() {
               <div className="filter-group">
                 <h3 className="filter-title">CATEGORIES</h3>
                 <div className="filter-options">
-                  {allCategories.map(categoryId => {
-                    const categoryInfo = filteredEvents.find(
-                      event => event.categories?.find((cat: Category) => cat.id === categoryId)
-                    )?.categories?.find((cat: Category) => cat.id === categoryId);
-                    
-                    if (!categoryInfo) return null;
-
-                    const count = filteredEvents.filter(event =>
-                      event.categories?.some((cat: Category) => cat.id === categoryId)
-                    ).length;
-
-                    return (
-                      <FilterButton
-                        key={categoryId}
-                        label={categoryInfo.name}
-                        count={count}
-                        isActive={selectedCategories.includes(categoryId)}
-                        onClick={() => toggleCategory(categoryId)}
+                  {categoryGroups.map(category => (
+                    <div key={category.id} className="category-group">
+                      <CompactFilterButton
+                        label={category.name}
+                        count={category.count}
+                        isActive={selectedCategories.includes(category.id)}
+                        onClick={() => {
+                          setSelectedCategories(prev => {
+                            // If deselecting, remove both category and its subcategories
+                            if (prev.includes(category.id)) {
+                              return prev.filter(c => 
+                                !c.startsWith(`${category.id}:`) && c !== category.id
+                              );
+                            }
+                            // If selecting, just add the category
+                            return [...prev, category.id];
+                          });
+                        }}
                       />
-                    );
-                  })}
+                      
+                      {/* Show subcategories if parent is selected */}
+                      {selectedCategories.includes(category.id) && category.subcategories && (
+                        <div className="subcategories">
+                          {category.subcategories.map(sub => (
+                            <CompactFilterButton
+                              key={sub.id}
+                              label={sub.name}
+                              count={sub.count}
+                              isActive={selectedCategories.includes(sub.id)}
+                              onClick={() => {
+                                setSelectedCategories(prev => {
+                                  return prev.includes(sub.id)
+                                    ? prev.filter(c => c !== sub.id)
+                                    : [...prev, sub.id];
+                                });
+                              }}
+                            />
+                          ))}
+                        </div>
+                      )}
+                    </div>
+                  ))}
                 </div>
               </div>
+
+              {/* Clear Filters Button */}
+              {(selectedCategories.length > 0 || 
+                startDate || 
+                endDate || 
+                searchQuery) && (
+                <button 
+                  className="clear-filters-button"
+                  onClick={clearAllFilters}
+                >
+                  CLEAR ALL FILTERS
+                </button>
+              )}
             </div>
           </Panel>
         </div>
       </div>
 
       <style jsx>{`
-        .events-page {
-          width: 100%;
-          height: 100%;
+        .page-layout {
+          display: flex;
+          flex-direction: column;
+          height: 100vh;
+          overflow: hidden;
         }
 
         .events-layout {
           display: grid;
-          grid-template-columns: 1fr 300px;
+          grid-template-columns: 1fr 320px;
           gap: 1rem;
-          height: 100%;
           padding: 1rem;
+          flex: 1;
+          min-height: 0;
         }
 
-        .main-section {
-          height: 100%;
+        .events-list {
+          min-height: 0;
           overflow: hidden;
-          display: flex;
-          flex-direction: column;
         }
 
-        .events-grid {
-          display: grid;
-          grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-          gap: 0;
-          padding: 0;
+        .items-grid {
+          display: flex;
+          flex-direction: column;
+          gap: 1rem;
+          padding: 1rem;
+          height: 100%;
           overflow-y: auto;
-          max-height: calc(100vh - 100px);
         }
 
-        .event-card {
+        .item-card {
           display: flex;
           flex-direction: column;
+          gap: 0.5rem;
           padding: 1rem;
           background: rgba(0, 56, 117, 0.3);
-          border: 1px solid rgba(0, 56, 117, 0.3);
+          border: 1px solid var(--nyc-orange);
           text-decoration: none;
-          color: var(--nyc-white);
           transition: all 0.2s ease;
-          height: 180px;
-          margin: 0;
-          border-right: none;
-          border-bottom: none;
+          flex-shrink: 0;
         }
 
-        .event-card:last-child {
-          border-right: 1px solid rgba(0, 56, 117, 0.3);
+        .item-card:hover {
+          transform: translateY(-2px);
+          background: rgba(0, 56, 117, 0.5);
+          border-color: var(--terminal-color);
         }
 
-        .events-grid > *:nth-last-child(-n+3) {
-          border-bottom: 1px solid rgba(0, 56, 117, 0.3);
-        }
-
-        .event-header {
+        .card-header {
           display: flex;
           justify-content: space-between;
-          margin-bottom: 0.5rem;
+          align-items: center;
         }
 
         .event-date {
-          color: var(--nyc-orange);
-          font-family: var(--font-mono);
-          font-size: 0.8rem;
-        }
-
-        .event-type {
           color: var(--terminal-color);
-          font-family: var(--font-mono);
           font-size: 0.8rem;
         }
 
         .event-name {
-          font-family: var(--font-display);
+          color: var(--nyc-white);
           font-size: 1.1rem;
-          margin-bottom: 0.5rem;
-          white-space: nowrap;
-          overflow: hidden;
-          text-overflow: ellipsis;
+          margin: 0;
+          font-weight: bold;
+        }
+
+        .event-venue,
+        .event-organizer {
+          display: flex;
+          align-items: center;
+          gap: 0.5rem;
+          color: var(--nyc-white);
+          opacity: 0.8;
+          font-size: 0.9rem;
+        }
+
+        .venue-icon,
+        .organizer-icon {
+          color: var(--terminal-color);
+          font-size: 0.8rem;
+        }
+
+        .venue-separator {
+          margin: 0 0.5rem;
+          color: var(--terminal-color);
+        }
+
+        .social-link {
+          color: var(--nyc-orange);
+          text-decoration: none;
+          margin-left: 0.5rem;
+          transition: all 0.2s ease;
+        }
+
+        .social-link:hover {
+          color: var(--terminal-color);
         }
 
         .event-categories {
           display: flex;
-          flex-wrap: wrap;
           gap: 0.5rem;
-          margin-bottom: auto;
+          flex-wrap: wrap;
         }
 
         .category-tag {
           font-size: 0.7rem;
-          padding: 0.2rem 0.5rem;
+          padding: 0.25rem 0.5rem;
           background: rgba(0, 255, 255, 0.1);
           border: 1px solid var(--terminal-color);
           color: var(--terminal-color);
-          font-family: var(--font-mono);
-          display: flex;
-          align-items: center;
-          gap: 0.5rem;
         }
 
-        .subcategory-tag {
-          font-size: 0.65rem;
-          padding: 0.1rem 0.4rem;
-          background: rgba(0, 56, 117, 0.5);
-          border-left: 1px solid var(--terminal-color);
-          text-transform: capitalize;
+        .filters-section {
+          min-height: 0;
+          overflow: auto;
         }
 
         .filters-content {
-          height: calc(100vh - 100px);
-          overflow-y: auto;
-          padding: 1rem;
+          display: flex;
+          flex-direction: column;
+          gap: 1.5rem;
         }
 
         .filter-group {
-          margin-bottom: 2rem;
-          border-bottom: 1px solid rgba(0, 56, 117, 0.3);
-          padding-bottom: 1rem;
-        }
-
-        .filter-group:last-child {
-          border-bottom: none;
-        }
-
-        .filter-title {
-          font-family: var(--font-mono);
-          color: var(--nyc-orange);
-          font-size: 0.9rem;
-          margin-bottom: 1rem;
-        }
-
-        .filter-options {
           display: flex;
           flex-direction: column;
           gap: 0.75rem;
         }
 
-        .search-container {
-          position: relative;
-          width: 100%;
+        .filter-title {
+          color: var(--terminal-color);
+          font-size: 0.8rem;
+          margin: 0;
+          font-family: var(--font-mono);
+        }
+
+        .filter-options {
+          display: flex;
+          flex-direction: column;
+          gap: 0.25rem;
         }
 
         .search-input {
           width: 100%;
-          padding: 0.75rem;
-          padding-right: 2.5rem;
+          padding: 0.5rem 1rem;
           background: rgba(0, 56, 117, 0.3);
           border: 1px solid var(--nyc-orange);
           color: var(--nyc-white);
           font-family: var(--font-mono);
           font-size: 0.9rem;
-          transition: all 0.2s ease;
-          clip-path: polygon(0 0, 100% 0, 95% 100%, 0 100%);
         }
 
         .search-input::placeholder {
-          color: rgba(255, 255, 255, 0.5);
-        }
-
-        .search-input:focus {
-          outline: none;
-          background: rgba(0, 56, 117, 0.5);
-          border-color: var(--terminal-color);
-          box-shadow: 0 0 15px rgba(255, 107, 28, 0.2);
-        }
-
-        .search-icon {
-          position: absolute;
-          right: 0.75rem;
-          top: 50%;
-          transform: translateY(-50%);
-          color: var(--nyc-orange);
-          font-size: 1.2rem;
-          pointer-events: none;
-          opacity: 0.8;
-        }
-
-        .search-container:focus-within .search-icon {
           color: var(--terminal-color);
+          opacity: 0.5;
+        }
+
+        .date-filters {
+          display: flex;
+          flex-direction: column;
+          gap: 0.5rem;
+        }
+
+        .clear-filters-button {
+          width: 100%;
+          padding: 0.5rem;
+          background: rgba(0, 56, 117, 0.3);
+          border: 1px solid var(--terminal-color);
+          color: var(--terminal-color);
+          font-family: var(--font-mono);
+          font-size: 0.8rem;
+          cursor: pointer;
+          transition: all 0.2s ease;
+          margin-top: 0.5rem;
+        }
+
+        .clear-filters-button:hover {
+          background: rgba(0, 56, 117, 0.5);
+          border-color: var(--nyc-orange);
+          color: var(--nyc-orange);
+        }
+
+        .loading-trigger {
+          height: 20px;
+        }
+
+        .category-group {
+          display: flex;
+          flex-direction: column;
+          gap: 0.25rem;
+          width: 100%;
+        }
+
+        .subcategories {
+          margin-left: 1rem;
+          display: flex;
+          flex-direction: column;
+          gap: 0.25rem;
+        }
+
+        .event-description {
+          margin-top: 0.5rem;
+          color: var(--nyc-white);
+          opacity: 0.7;
+          font-size: 0.9rem;
+          line-height: 1.4;
         }
 
         @media (max-width: 1024px) {
           .events-layout {
             grid-template-columns: 1fr;
-            grid-template-rows: auto 1fr;
           }
 
-          .events-grid {
-            gap: 0;
-            padding: 0;
+          .filters-section {
+            order: -1;
           }
 
-          .event-card {
-            border-right: 1px solid rgba(0, 56, 117, 0.3);
+          .filter-options {
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 0.5rem;
           }
-        }
 
-        @media (max-width: 768px) {
-          .event-card {
-            height: 160px;
-            padding: 0.75rem;
+          .date-filters {
+            flex-direction: row;
+            gap: 1rem;
           }
-        }
 
-        @media (max-width: 480px) {
-          .event-card {
-            height: 140px;
-            padding: 0.5rem;
+          .subcategories {
+            margin-left: 0;
+            flex-direction: row;
+            flex-wrap: wrap;
           }
-        }
-
-        .load-more-container {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          gap: 1rem;
-          padding: 2rem;
-          border-top: 1px solid rgba(255, 107, 28, 0.2);
-        }
-
-        .load-more-button {
-          background: rgba(0, 56, 117, 0.3);
-          border: 1px solid var(--nyc-orange);
-          color: var(--nyc-white);
-          padding: 0.75rem 2rem;
-          font-family: var(--font-display);
-          font-size: 1rem;
-          cursor: pointer;
-          transition: all 0.2s ease;
-          clip-path: polygon(10px 0, 100% 0, calc(100% - 10px) 100%, 0 100%);
-        }
-
-        .load-more-button:hover {
-          background: rgba(0, 56, 117, 0.5);
-          transform: translateY(-2px);
-          box-shadow: 0 4px 12px rgba(255, 107, 28, 0.2);
-        }
-
-        .events-count {
-          color: var(--nyc-orange);
-          font-family: var(--font-mono);
-          font-size: 0.9rem;
-          opacity: 0.8;
-        }
-
-        @media (max-width: 768px) {
-          .load-more-button {
-            width: 100%;
-            padding: 0.6rem 1rem;
-            font-size: 0.9rem;
-          }
-        }
-
-        .loading-more {
-          grid-column: 1 / -1;
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          gap: 0.5rem;
-          padding: 2rem;
-          color: var(--nyc-orange);
-          font-family: var(--font-mono);
-          font-size: 0.9rem;
-        }
-
-        .loading-spinner {
-          width: 24px;
-          height: 24px;
-          border: 2px solid var(--nyc-orange);
-          border-top-color: transparent;
-          border-radius: 50%;
-          animation: spin 1s linear infinite;
-        }
-
-        .loading-text {
-          opacity: 0.8;
-        }
-
-        @keyframes spin {
-          to { transform: rotate(360deg); }
-        }
-
-        .events-grid::-webkit-scrollbar {
-          width: 8px;
-        }
-
-        .events-grid::-webkit-scrollbar-track {
-          background: rgba(0, 56, 117, 0.3);
-        }
-
-        .events-grid::-webkit-scrollbar-thumb {
-          background-color: var(--nyc-orange);
-          border-radius: 4px;
-        }
-
-        .filtering-loading,
-        .no-events {
-          grid-column: 1 / -1;
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          justify-content: center;
-          gap: 1rem;
-          padding: 4rem 2rem;
-          color: var(--nyc-orange);
-          font-family: var(--font-mono);
-          text-align: center;
-        }
-
-        .no-events-icon {
-          font-size: 2rem;
-          color: var(--nyc-orange);
-          animation: pulse 2s infinite;
-        }
-
-        .no-events-text {
-          font-size: 1.1rem;
-          opacity: 0.8;
-        }
-
-        @keyframes pulse {
-          0% { transform: scale(1); opacity: 0.5; }
-          50% { transform: scale(1.2); opacity: 1; }
-          100% { transform: scale(1); opacity: 0.5; }
-        }
-
-        .search-results-count {
-          margin-top: 0.5rem;
-          font-size: 0.8rem;
-          color: var(--terminal-color);
-          font-family: var(--font-mono);
-          opacity: 0.8;
         }
       `}</style>
     </main>

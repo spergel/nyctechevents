@@ -86,7 +86,7 @@ export default function Organization(props: { params: Promise<{ id: string }> })
               <DetailSection title="Upcoming Events">
                 <div className="events-list">
                   {upcomingEvents.map(event => (
-                    <CyberLink key={event.id} href={`/events/${event.id}`} variant="default">
+                    <CyberLink key={event.id} href={`/events/${encodeURIComponent(event.id)}`} variant="default">
                       <div className="event-date">{new Date(event.startDate).toLocaleDateString()}</div>
                       <div className="event-name">{event.name}</div>
                       <div className="event-type">{event.type}</div>

@@ -49,10 +49,17 @@ interface SubstackPost {
   url: string;
 }
 
-interface Event {
+interface ImportedEvent {
   id: string;
-  title: string;
-  // Add other fields as needed
+  name: string;
+  type: string;
+  locationId?: string;
+  communityId?: string;
+  description: string | null;
+  startDate: string;
+  endDate?: string | null;
+  category?: string[];
+  metadata?: any;
 }
 
 interface LocationsData {
@@ -73,7 +80,7 @@ interface SubstackPostsData {
 }
 
 interface EventsData {
-  events: Event[];
+  events: ImportedEvent[];
 }
 
 interface ConsoleLayoutProps {
@@ -202,7 +209,7 @@ export function ConsoleLayout({ children, locations }: ConsoleLayoutProps) {
               </div>
               <div className="status-item">
                 <span className="status-label">EVENTS:</span>
-                <span className="status-value">{(events as EventsData).events.length}</span>
+                <span className="status-value">{events.events.length}</span>
               </div>
               <div className="status-item">
                 <span className="status-label">STACKS:</span>

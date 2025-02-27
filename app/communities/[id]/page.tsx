@@ -86,7 +86,7 @@ export default function Community(props: { params: Promise<{ id: string }> }) {
           <DetailSection title="Upcoming Events">
             <div className="events-grid">
               {communityEvents.map(event => (
-                <CyberLink key={event.id} href={`/events/${event.id}`} variant="default">
+                <CyberLink key={event.id} href={`/events/${encodeURIComponent(event.id)}`} variant="default">
                   <div className="event-info">
                     <div className="event-header">
                       <span className="event-date">[{new Date(event.startDate).toLocaleDateString()}]</span>
@@ -94,7 +94,7 @@ export default function Community(props: { params: Promise<{ id: string }> }) {
                     </div>
                     <div className="event-meta">
                       {event.type}
-                      {event.category?.length > 0 && ` • ${event.category.join(' • ')}`}
+                      {Array.isArray(event.category) && event.category.length > 0 && ` • ${event.category.join(' • ')}`}
                     </div>
                   </div>
                 </CyberLink>
@@ -105,45 +105,7 @@ export default function Community(props: { params: Promise<{ id: string }> }) {
       </Panel>
 
       <style jsx>{`
-        p {
-          color: var(--nyc-white);
-          line-height: 1.6;
-          margin-bottom: 1rem;
-        }
-
-        .locations-grid, .events-grid {
-          display: grid;
-          grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-          gap: 1rem;
-          margin-top: 1rem;
-        }
-
-        .location-info, .event-info {
-          padding: 0.5rem;
-        }
-
-        .location-header, .event-header {
-          display: flex;
-          gap: 0.5rem;
-          margin-bottom: 0.25rem;
-        }
-
-        .location-type, .event-date {
-          color: var(--terminal-color);
-          font-family: var(--font-mono);
-          font-size: 0.9rem;
-        }
-
-        .location-name, .event-name {
-          color: var(--nyc-white);
-          font-family: 'Eurostile', sans-serif;
-        }
-
-        .location-address, .event-meta {
-          color: var(--nyc-orange);
-          font-size: 0.9rem;
-          opacity: 0.8;
-        }
+        /* All styles have been moved to globals.css */
       `}</style>
     </main>
   );
