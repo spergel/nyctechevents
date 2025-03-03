@@ -21,8 +21,8 @@ export function EventDetailDialog({
 }: EventDetailDialogProps) {
   if (!event) return null;
 
-  const community = getCommunityData(event.communityId);
-  const location = getLocationData(event.locationId);
+  const community = event.communityId ? getCommunityData(event.communityId) : undefined;
+  const location = event.locationId ? getLocationData(event.locationId) : undefined;
   const venue = event.metadata?.venue;
   const associatedCommunities = event.metadata?.associated_communities || [];
   const associatedCommunityData = associatedCommunities

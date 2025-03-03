@@ -8,31 +8,12 @@ import substackPosts from '@/public/data/substackposts.json';
 import communities from '@/public/data/communities.json';
 import locations from '@/public/data/locations.json';
 import events from '@/public/data/events.json';
+import { Location } from '@/app/utils/dataHelpers';
 
 interface Community {
   id: string;
   name: string;
   // Add other fields as needed
-}
-
-interface Location {
-  id: string;
-  name: string;
-  type: string;
-  address: string;
-  coordinates: {
-    lat: number;
-    lng: number;
-  };
-  description: string;
-  amenities: string[];
-  capacity: string;
-  accessibility: boolean;
-  website: string;
-  images: string[];
-  hours: {
-    [key: string]: string;
-  };
 }
 
 interface Substack {

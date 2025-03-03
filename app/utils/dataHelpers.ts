@@ -10,22 +10,24 @@ export interface Community {
   organizationType?: string;
   description: string;
   founded: string;
-  size: string | number;
-  category: string | string[];
+  size: string;
+  category: string[];
   contact?: {
     email?: string;
     phone?: string;
     social?: {
-      [key: string]: string;
+      [key: string]: string | undefined;
     };
   };
   website?: string;
+  meetingLocationIds?: string[];
   image?: string;
   tags?: string[];
-  membershipType?: string;
-  membershipFee?: string | {
-    amount: number;
-    frequency: string;
+  membershipType: string;
+  membershipFee: string | {
+    amount?: number;
+    frequency?: string;
+    details?: string;
   };
 }
 
@@ -58,11 +60,13 @@ export interface Location {
   };
 }
 
-export function getCommunityData(communityId: string): Community | undefined {
+export function getCommunityData(communityId: string | undefined): Community | undefined {
+  if (!communityId) return undefined;
   return communities.communities.find(c => c.id === communityId);
 }
 
-export function getLocationData(locationId: string): Location | undefined {
+export function getLocationData(locationId: string | undefined): Location | undefined {
+  if (!locationId) return undefined;
   return locations.locations.find(l => l.id === locationId);
 }
 
