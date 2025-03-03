@@ -1,6 +1,8 @@
 'use client';
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
+import { IoClose } from 'react-icons/io5';
 import { useRouter } from 'next/navigation';
+import { IoArrowBackOutline } from 'react-icons/io5';
 
 interface DetailDialogProps {
   title: string;
@@ -20,237 +22,210 @@ export function DetailDialog({
   backUrl
 }: DetailDialogProps) {
   const router = useRouter();
-  const [isMobile, setIsMobile] = useState(false);
-  const [isClosing, setIsClosing] = useState(false);
 
-  // Check if we're on mobile
-  useEffect(() => {
-    const checkMobile = () => {
-      setIsMobile(window.innerWidth <= 1024);
-    };
-    
-    checkMobile();
-    window.addEventListener('resize', checkMobile);
-    
-    return () => {
-      window.removeEventListener('resize', checkMobile);
-    };
-  }, []);
-
-  // Handle body scroll locking when dialog is open
-  useEffect(() => {
-    if (isOpen) {
-      document.body.style.overflow = 'hidden';
-    } else {
-      document.body.style.overflow = '';
-    }
-    
-    return () => {
-      document.body.style.overflow = '';
-    };
-  }, [isOpen]);
-
-  // Handle ESC key to close
+  // Close dialog on escape key
   useEffect(() => {
     const handleEsc = (e: KeyboardEvent) => {
-      if (e.key === 'Escape' && isOpen) {
-        handleClose();
+      if (e.key === 'Escape') {
+        onClose();
       }
     };
-    
-    window.addEventListener('keydown', handleEsc);
-    
+
+    if (isOpen) {
+      window.addEventListener('keydown', handleEsc);
+    }
+
     return () => {
       window.removeEventListener('keydown', handleEsc);
     };
-  }, [isOpen]);
+  }, [isOpen, onClose]);
+
+  // Close dialog when clicking backdrop
+  const handleBackdropClick = (e: React.MouseEvent) => {
+    if (e.target === e.currentTarget) {
+      onClose();
+    }
+  };
 
   const handleClose = () => {
-    setIsClosing(true);
-    setTimeout(() => {
+    if (backUrl) {
+      router.push(backUrl);
+    } else {
       onClose();
-      setIsClosing(false);
-      if (backUrl) {
-        router.push(backUrl);
-      }
-    }, 300);
+    }
   };
 
   if (!isOpen) return null;
 
   return (
-    <div className={`detail-dialog ${isClosing ? 'closing' : ''}`}>
-      <div className="dialog-overlay" onClick={handleClose}></div>
-      
-      <div className={`dialog-container ${isMobile ? 'mobile' : 'desktop'}`}>
+    <div className="dialog-backdrop" onClick={handleBackdropClick}>
+      <div className="dialog" onClick={e => e.stopPropagation()}>
         <div className="dialog-header">
           <div className="header-content">
+            {backUrl && (
+              <button className="back-button" onClick={handleClose} aria-label="Go back">
+                <IoArrowBackOutline />
+                <span className="back-text">BACK</span>
+              </button>
+            )}
+            <div className="system-id">{systemId}</div>
             <h2 className="dialog-title">{title}</h2>
-            <span className="system-id">{systemId}</span>
           </div>
-          <button 
-            className="close-button"
-            onClick={handleClose}
-            aria-label="Close details"
-          >
-            <span className="close-icon">×</span>
+          <button className="close-button" onClick={onClose}>
+            <IoClose />
+            <span className="close-text">CLOSE</span>
           </button>
         </div>
-        
         <div className="dialog-content">
-          {children}
-        </div>
-        
-        <div className="dialog-footer">
-          <button 
-            className="back-button"
-            onClick={handleClose}
-          >
-            BACK TO LIST
-          </button>
+          <div className="content-wrapper">
+            {children}
+          </div>
         </div>
       </div>
 
       <style jsx>{`
-        .detail-dialog {
+        .dialog-backdrop {
           position: fixed;
           top: 0;
           left: 0;
-          width: 100%;
-          height: 100%;
-          z-index: 1000;
+          right: 0;
+          bottom: 0;
+          background: rgba(0, 0, 0, 0.8);
           display: flex;
           align-items: center;
           justify-content: center;
-          animation: fadeIn 0.3s ease;
+          z-index: 1000;
+          backdrop-filter: blur(6px);
+          animation: fadeIn 0.2s ease-out;
         }
 
-        .detail-dialog.closing {
-          animation: fadeOut 0.3s ease;
+        .dialog {
+          width: 90%;
+          max-width: 900px;
+          max-height: 90vh;
+          background: #001639;
+          border: 1px solid var(--nyc-orange);
+          display: flex;
+          flex-direction: column;
+          position: relative;
+          animation: slideUp 0.3s ease-out;
+          overflow: hidden;
         }
 
-        .dialog-overlay {
+        .dialog::before {
+          content: '';
           position: absolute;
           top: 0;
           left: 0;
           width: 100%;
           height: 100%;
-          background: rgba(0, 20, 40, 0.8);
-          backdrop-filter: blur(4px);
-        }
-
-        .dialog-container {
-          position: relative;
-          background: var(--panel-bg);
-          border: 1px solid var(--nyc-orange);
-          box-shadow: var(--border-glow);
-          display: flex;
-          flex-direction: column;
-          max-height: 90vh;
-          width: 90%;
-          max-width: 1200px;
-          animation: slideIn 0.3s ease;
-          z-index: 1;
-        }
-
-        .dialog-container.closing {
-          animation: slideOut 0.3s ease;
-        }
-
-        .dialog-container.mobile {
-          width: 100%;
-          height: 100%;
-          max-height: 100vh;
-          max-width: 100%;
-          border: none;
-          border-top: 1px solid var(--nyc-orange);
+          background-image: 
+            linear-gradient(var(--grid-color) 1px, transparent 1px),
+            linear-gradient(90deg, var(--grid-color) 1px, transparent 1px);
+          background-size: 20px 20px;
+          opacity: 0.1;
+          pointer-events: none;
         }
 
         .dialog-header {
-          background: linear-gradient(90deg, var(--nyc-blue), var(--background));
-          padding: 1rem;
-          border-bottom: 1px solid var(--nyc-orange);
+          background: #00275f;
+          color: var(--nyc-white);
+          padding: 0.75rem 1rem;
           display: flex;
           justify-content: space-between;
           align-items: center;
+          border-bottom: 1px solid var(--nyc-orange);
+          position: relative;
+        }
+
+        .dialog-header::after {
+          content: '';
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 2px;
+          background: var(--nyc-orange);
         }
 
         .header-content {
           display: flex;
-          align-items: center;
-          gap: 1rem;
-        }
-
-        .dialog-title {
-          color: var(--nyc-orange);
-          font-family: var(--font-display);
-          font-size: 1.2rem;
-          margin: 0;
+          flex-direction: column;
+          justify-content: center;
+          position: relative;
         }
 
         .system-id {
-          color: var(--terminal-color);
           font-family: var(--font-mono);
           font-size: 0.8rem;
-          opacity: 0.8;
+          color: var(--terminal-color);
+          letter-spacing: 0.1em;
+          display: flex;
+          align-items: center;
+        }
+
+        .system-id::before {
+          content: '>';
+          color: var(--nyc-orange);
+          margin-right: 0.5rem;
+        }
+
+        .dialog-title {
+          font-family: var(--font-display);
+          font-size: 1.5rem;
+          margin: 0;
+          color: var(--nyc-white);
+          letter-spacing: 0.05em;
         }
 
         .close-button {
-          background: none;
-          border: none;
+          background: rgba(0, 20, 40, 0.5);
+          border: 1px solid var(--nyc-orange);
           color: var(--nyc-orange);
-          font-size: 1.5rem;
+          font-size: 1.2rem;
           cursor: pointer;
+          padding: 0.4rem 0.6rem;
           display: flex;
           align-items: center;
-          justify-content: center;
-          width: 32px;
-          height: 32px;
+          gap: 0.5rem;
+        }
+
+        .close-text {
+          font-size: 0.8rem;
+          font-family: var(--font-mono);
+          letter-spacing: 0.1em;
+        }
+
+        .close-button:hover {
+          color: var(--nyc-white);
+          border-color: var(--nyc-orange);
         }
 
         .dialog-content {
           flex: 1;
           overflow-y: auto;
-          padding: 1.5rem;
+          padding: 0;
+        }
+
+        .content-wrapper {
+          flex: 1;
+          overflow-y: auto;
+          max-height: calc(90vh - 70px);
           scrollbar-width: thin;
-          scrollbar-color: var(--nyc-orange) var(--panel-bg);
+          scrollbar-color: var(--terminal-color) rgba(0, 20, 40, 0.3);
         }
 
-        .dialog-content::-webkit-scrollbar {
-          width: 6px;
+        .content-wrapper::-webkit-scrollbar {
+          width: 8px;
         }
 
-        .dialog-content::-webkit-scrollbar-track {
-          background: var(--panel-bg);
+        .content-wrapper::-webkit-scrollbar-track {
+          background: rgba(0, 20, 40, 0.3);
         }
 
-        .dialog-content::-webkit-scrollbar-thumb {
-          background: var(--nyc-orange);
-          border-radius: 3px;
-        }
-
-        .dialog-footer {
-          padding: 1rem;
-          border-top: 1px solid rgba(0, 56, 117, 0.5);
-          display: flex;
-          justify-content: flex-end;
-        }
-
-        .back-button {
-          background: rgba(0, 56, 117, 0.3);
-          border: 1px solid var(--terminal-color);
-          color: var(--terminal-color);
-          padding: 0.5rem 1rem;
-          font-family: var(--font-mono);
-          font-size: 0.9rem;
-          cursor: pointer;
-          transition: all 0.2s ease;
-        }
-
-        .back-button:hover {
-          background: rgba(0, 56, 117, 0.5);
-          border-color: var(--nyc-orange);
-          color: var(--nyc-orange);
+        .content-wrapper::-webkit-scrollbar-thumb {
+          background: var(--terminal-color);
+          border-radius: 4px;
         }
 
         @keyframes fadeIn {
@@ -258,51 +233,44 @@ export function DetailDialog({
           to { opacity: 1; }
         }
 
-        @keyframes fadeOut {
-          from { opacity: 1; }
-          to { opacity: 0; }
-        }
-
-        @keyframes slideIn {
+        @keyframes slideUp {
           from { transform: translateY(20px); opacity: 0; }
           to { transform: translateY(0); opacity: 1; }
         }
 
-        @keyframes slideOut {
-          from { transform: translateY(0); opacity: 1; }
-          to { transform: translateY(20px); opacity: 0; }
-        }
-
         @media (max-width: 768px) {
-          .dialog-header {
-            padding: 0.75rem;
+          .dialog {
+            width: 95%;
+            max-height: 95vh;
           }
-
-          .dialog-title {
-            font-size: 1.1rem;
-          }
-
-          .dialog-content {
-            padding: 1rem;
+          
+          .close-text {
+            display: none;
           }
         }
 
-        @media (max-width: 480px) {
-          .dialog-header {
-            padding: 0.5rem 0.75rem;
-          }
-
-          .dialog-title {
-            font-size: 1rem;
-          }
-
-          .dialog-content {
-            padding: 0.75rem;
-          }
-
-          .dialog-footer {
-            padding: 0.75rem;
-          }
+        .back-button {
+          position: absolute;
+          top: 0;
+          left: -40px;
+          display: flex;
+          align-items: center;
+          background: none;
+          border: none;
+          color: var(--nyc-green);
+          cursor: pointer;
+          font-family: var(--font-mono);
+          font-size: 0.8rem;
+          padding: 0.25rem 0.5rem;
+          transition: color 0.2s;
+        }
+        
+        .back-button:hover {
+          color: var(--nyc-orange);
+        }
+        
+        .back-text {
+          margin-left: 0.25rem;
         }
       `}</style>
     </div>

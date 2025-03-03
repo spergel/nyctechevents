@@ -1,0 +1,1887 @@
+{
+  "events": [
+    {
+      "id": "evt_com_nyc_gatherings_c6077d4b",
+      "name": "Galentines Day - Co-founder Match with FemBuild & La Creme de la STEM™",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_nyc_gatherings",
+      "description": "Get up-to-date information at: https://lu.ma/3hp7huo2\n\nAddress:\nCheck event page for more details.\n\nHosted by Marion - La Creme de la STEM ™, Christine Hong & Laura Hamilton",
+      "startDate": "2025-02-18T18:00:00-05:00",
+      "endDate": "2025-02-18T20:00:00-05:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "fractal-community.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "",
+        "speakers": [
+          "Marion - La Creme de la STEM ™, Christine Hong",
+          "Laura Hamilton"
+        ],
+        "venue": {
+          "name": "Online Event",
+          "address": "https://lu.ma/e/evt-7YCtvaTzqBLuerL",
+          "type": "Online"
+        },
+        "featured": false,
+        "social_links": []
+      }
+    },
+    {
+      "id": "evt_com_nyc_gatherings_d2e175cd",
+      "name": "StoryTell x Journaling Classes 2/18: Self-Love",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_nyc_gatherings",
+      "description": "Get up-to-date information at: https://lu.ma/y1n3z3yw\n\nAddress:\nRingolevio\nKings County, New York\nUnited States\n\nHosted by StoryTell & Emily Chertow",
+      "startDate": "2025-02-18T18:30:00-05:00",
+      "endDate": "2025-02-18T21:00:00-05:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "fractal-community.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "",
+        "speakers": [
+          "StoryTell",
+          "Emily Chertow"
+        ],
+        "venue": {
+          "name": "Ringolevio, 490 Humboldt St, Brooklyn, NY 11222, USA",
+          "address": "Ringolevio, 490 Humboldt St, Brooklyn, NY 11222, USA",
+          "type": "Offline"
+        },
+        "featured": false,
+        "social_links": []
+      }
+    },
+    {
+      "id": "evt_com_nyc_gatherings_577c6599",
+      "name": "(2/19) Ambition: The Good, the Bad, and the Ugly: A Salon",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_nyc_gatherings",
+      "description": "Get up-to-date information at: https://lu.ma/7g4wyw1y\n\nAddress:\nCheck event page for more details.\n\nHosted by Samanee Mahbub & Adam Delehanty",
+      "startDate": "2025-02-19T19:00:00-05:00",
+      "endDate": "2025-02-19T21:30:00-05:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "fractal-community.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "",
+        "speakers": [
+          "Samanee Mahbub",
+          "Adam Delehanty"
+        ],
+        "venue": {
+          "name": "Online Event",
+          "address": "https://lu.ma/e/evt-1HGYRzduwY7Q3MY",
+          "type": "Online"
+        },
+        "featured": false,
+        "social_links": []
+      }
+    },
+    {
+      "id": "evt_com_nyc_gatherings_cb3070f4",
+      "name": "+1 Matchbox Party",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_nyc_gatherings",
+      "description": "Find more information on https://lu.ma/nycgatherings",
+      "startDate": "2025-02-20T19:00:00-05:00",
+      "endDate": "2025-02-20T22:00:00-05:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "fractal-community.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "",
+        "speakers": [],
+        "venue": {
+          "name": "Online Event",
+          "address": "https://www.rexengine.com/e/cm5n7ia6o0004lt8203wgkmqr",
+          "type": "Online"
+        },
+        "featured": false,
+        "social_links": []
+      }
+    },
+    {
+      "id": "evt_com_nyc_gatherings_4050622d",
+      "name": "Jazz & Journaling Workshop: an intimate Friday night w/ LIVE music",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_nyc_gatherings",
+      "description": "Get up-to-date information at: https://lu.ma/50epmtp1\n\nAddress:\nMcCarren Parkhouse\nKings County, New York\nUnited States\n\nHosted by Emily Chertow",
+      "startDate": "2025-02-21T18:30:00-05:00",
+      "endDate": "2025-02-21T20:00:00-05:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "fractal-community.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "",
+        "speakers": [
+          "Emily Chertow"
+        ],
+        "venue": {
+          "name": "McCarren Parkhouse, 855 Lorimer St, Brooklyn, NY 11222, USA",
+          "address": "McCarren Parkhouse, 855 Lorimer St, Brooklyn, NY 11222, USA",
+          "type": "Offline"
+        },
+        "featured": false,
+        "social_links": []
+      }
+    },
+    {
+      "id": "evt_com_nyc_gatherings_0238302a",
+      "name": "Product Leader Breakfast NYC",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_nyc_gatherings",
+      "description": "Get up-to-date information at: https://lu.ma/gllql7s9\n\nAddress:\nCheck event page for more details.\n\nHosted by jori bell",
+      "startDate": "2025-02-24T09:00:00-05:00",
+      "endDate": "2025-02-24T10:30:00-05:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "fractal-community.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "",
+        "speakers": [
+          "jori bell"
+        ],
+        "venue": {
+          "name": "Online Event",
+          "address": "https://lu.ma/e/evt-H86bB2THF7jz5Rq",
+          "type": "Online"
+        },
+        "featured": false,
+        "social_links": []
+      }
+    },
+    {
+      "id": "evt_com_nyc_gatherings_673e9b15",
+      "name": "Fabrik's Built By Builder Series: Ruthie Berber",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_nyc_gatherings",
+      "description": "Get up-to-date information at: https://lu.ma/dsmhcc4x\n\nAddress:\nFabrik NYC\nNew York, New York\nUnited States\n\nHosted by Derek Kastner- Fabrik Community Director & Ruthie Berber",
+      "startDate": "2025-02-25T10:00:00-05:00",
+      "endDate": "2025-02-25T12:00:00-05:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "fractal-community.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "",
+        "speakers": [
+          "Derek Kastner- Fabrik Community Director",
+          "Ruthie Berber"
+        ],
+        "venue": {
+          "name": "Fabrik NYC, 12-16 Vestry St 4th Floor, New York, NY 10013, USA",
+          "address": "Fabrik NYC, 12-16 Vestry St 4th Floor, New York, NY 10013, USA",
+          "type": "Offline"
+        },
+        "featured": false,
+        "social_links": []
+      }
+    },
+    {
+      "id": "evt_com_nyc_gatherings_0ce669df",
+      "name": "Reading Rhythms Prospect Heights Chapter: February 25th",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_nyc_gatherings",
+      "description": "Get up-to-date information at: https://lu.ma/f8rd2hvz\n\nAddress:\nFarm.One\nKings County, New York\nUnited States\n\nHosted by Leita Williams & Ashley Artrip",
+      "startDate": "2025-02-25T18:45:00-05:00",
+      "endDate": "2025-02-25T21:15:00-05:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "fractal-community.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "",
+        "speakers": [
+          "Leita Williams",
+          "Ashley Artrip"
+        ],
+        "venue": {
+          "name": "Farm.One, 625 Bergen St, Brooklyn, NY 11238, USA",
+          "address": "Farm.One, 625 Bergen St, Brooklyn, NY 11238, USA",
+          "type": "Offline"
+        },
+        "featured": false,
+        "social_links": []
+      }
+    },
+    {
+      "id": "evt_com_nyc_gatherings_e42ab269",
+      "name": "Love & Connection: A Mindfulness Journaling Workshop",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_nyc_gatherings",
+      "description": "Get up-to-date information at: https://lu.ma/ud5ii80h\n\nAddress:\nrecess grove\nKings County, New York\nUnited States\n\nHosted by Emily Chertow",
+      "startDate": "2025-02-26T19:30:00-05:00",
+      "endDate": "2025-02-26T21:00:00-05:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "fractal-community.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "",
+        "speakers": [
+          "Emily Chertow"
+        ],
+        "venue": {
+          "name": "recess grove, 327 Grand St, Brooklyn, NY 11211, USA",
+          "address": "recess grove, 327 Grand St, Brooklyn, NY 11211, USA",
+          "type": "Offline"
+        },
+        "featured": false,
+        "social_links": []
+      }
+    },
+    {
+      "id": "evt_com_nyc_gatherings_89e9e230",
+      "name": "Community Builder Night at Fabrik with Led by Community and Tightknit",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_nyc_gatherings",
+      "description": "Get up-to-date information at: https://lu.ma/community-builder-night\n\nAddress:\nCheck event page for more details.\n\nHosted by Derek Kastner- Fabrik Community Director, Ruthie Berber & Zach Hawtof",
+      "startDate": "2025-02-27T18:00:00-05:00",
+      "endDate": "2025-02-27T20:30:00-05:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "fractal-community.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "",
+        "speakers": [
+          "Derek Kastner- Fabrik Community Director, Ruthie Berber",
+          "Zach Hawtof"
+        ],
+        "venue": {
+          "name": "Online Event",
+          "address": "https://lu.ma/e/evt-BQ2fpasj2uSCeOa",
+          "type": "Online"
+        },
+        "featured": false,
+        "social_links": []
+      }
+    },
+    {
+      "id": "evt_com_nyc_gatherings_ce4c7550",
+      "name": "The You Blueprint: Pilates & Personal Branding",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_nyc_gatherings",
+      "description": "Get up-to-date information at: https://lu.ma/27euqntm\n\nAddress:\nFabrik NYC\nNew York, New York\nUnited States\n\nHosted by Giselle Heintz & Derek Kastner- Fabrik Community Director",
+      "startDate": "2025-03-04T19:30:00-05:00",
+      "endDate": "2025-03-04T21:00:00-05:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "fractal-community.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "",
+        "speakers": [
+          "Giselle Heintz",
+          "Derek Kastner- Fabrik Community Director"
+        ],
+        "venue": {
+          "name": "Fabrik NYC, 12-16 Vestry St 4th Floor, New York, NY 10013, USA",
+          "address": "Fabrik NYC, 12-16 Vestry St 4th Floor, New York, NY 10013, USA",
+          "type": "Offline"
+        },
+        "featured": false,
+        "social_links": []
+      }
+    },
+    {
+      "id": "evt_com_nyc_gatherings_88ed4521",
+      "name": "Amore in Motion: A Heart-Opening Pilates & Cacao Experience",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_nyc_gatherings",
+      "description": "Get up-to-date information at: https://lu.ma/u6avng4n\n\nAddress:\nFabrik NYC\nNew York, New York\nUnited States\n\nHosted by Giselle Heintz & Derek Kastner- Fabrik Community Director",
+      "startDate": "2025-03-12T19:30:00-04:00",
+      "endDate": "2025-03-12T21:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "fractal-community.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "",
+        "speakers": [
+          "Giselle Heintz",
+          "Derek Kastner- Fabrik Community Director"
+        ],
+        "venue": {
+          "name": "Fabrik NYC, 12-16 Vestry St 4th Floor, New York, NY 10013, USA",
+          "address": "Fabrik NYC, 12-16 Vestry St 4th Floor, New York, NY 10013, USA",
+          "type": "Offline"
+        },
+        "featured": false,
+        "social_links": []
+      }
+    },
+    {
+      "id": "evt_com_nyc_gatherings_d158118a",
+      "name": "Core to Coast:  A Mediterranean Pilates Retreat",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_nyc_gatherings",
+      "description": "Get up-to-date information at: https://lu.ma/xr8f5b5r\n\nAddress:\nFabrik NYC\nNew York, New York\nUnited States\n\nHosted by Giselle Heintz & Derek Kastner- Fabrik Community Director",
+      "startDate": "2025-03-23T13:00:00-04:00",
+      "endDate": "2025-03-23T15:30:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "fractal-community.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "",
+        "speakers": [
+          "Giselle Heintz",
+          "Derek Kastner- Fabrik Community Director"
+        ],
+        "venue": {
+          "name": "Fabrik NYC, 12-16 Vestry St 4th Floor, New York, NY 10013, USA",
+          "address": "Fabrik NYC, 12-16 Vestry St 4th Floor, New York, NY 10013, USA",
+          "type": "Offline"
+        },
+        "featured": false,
+        "social_links": []
+      }
+    },
+    {
+      "id": "evt_com_otwc_1d8a7a85",
+      "name": "OTWC Season 5: Part VII",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_otwc",
+      "description": "Get up-to-date information at: https://lu.ma/r2czmmka\n\nAddress:\nCheck event page for more details.\n\nHosted by James Quiambao & saumya",
+      "startDate": "2025-02-23T10:00:00-05:00",
+      "endDate": "2025-02-23T12:30:00-05:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "fractal-community.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "",
+        "speakers": [
+          "James Quiambao",
+          "saumya"
+        ],
+        "venue": {
+          "name": "Online Event",
+          "address": "https://lu.ma/e/evt-TocT6rCGcTtsQLz",
+          "type": "Online"
+        },
+        "featured": false,
+        "social_links": []
+      }
+    },
+    {
+      "id": "evt_com_otwc_060c8d5c",
+      "name": "OTWC x Orange Cat - Writer’s Cafe (Season 5: Part VIII)",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_otwc",
+      "description": "Get up-to-date information at: https://lu.ma/ol7cex52\n\nAddress:\nCheck event page for more details.\n\nHosted by James Quiambao & Orange Cat NYC",
+      "startDate": "2025-03-02T10:00:00-05:00",
+      "endDate": "2025-03-02T12:30:00-05:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "fractal-community.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "",
+        "speakers": [
+          "James Quiambao",
+          "Orange Cat NYC"
+        ],
+        "venue": {
+          "name": "Online Event",
+          "address": "https://lu.ma/e/evt-GsjXTcrpMgL6iH8",
+          "type": "Online"
+        },
+        "featured": false,
+        "social_links": []
+      }
+    },
+    {
+      "id": "evt_com_otwc_3f00c9ad",
+      "name": "OTWC Season 5: Part IX",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_otwc",
+      "description": "Get up-to-date information at: https://lu.ma/lye8ag3g\n\nAddress:\nCheck event page for more details.\n\nHosted by James Quiambao",
+      "startDate": "2025-03-09T10:00:00-04:00",
+      "endDate": "2025-03-09T12:30:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "fractal-community.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "",
+        "speakers": [
+          "James Quiambao"
+        ],
+        "venue": {
+          "name": "Online Event",
+          "address": "https://lu.ma/e/evt-Wn4PhccXcIJmdfj",
+          "type": "Online"
+        },
+        "featured": false,
+        "social_links": []
+      }
+    },
+    {
+      "id": "evt_com_olios_2da6641e",
+      "name": "Rough Draft: Community Co-Working",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_olios",
+      "description": "Get up-to-date information at: https://lu.ma/x9ibfd67\n\nAddress:\nLittle Honey\nKings County, New York\nUnited States\n\nHosted by Think Olio & Craft & Release",
+      "startDate": "2025-02-19T18:00:00-05:00",
+      "endDate": "2025-02-19T21:00:00-05:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "fractal-community.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "",
+        "speakers": [
+          "Think Olio",
+          "Craft",
+          "Release"
+        ],
+        "venue": {
+          "name": "Little Honey, 487 7th Ave, Brooklyn, NY 11215, USA",
+          "address": "Little Honey, 487 7th Ave, Brooklyn, NY 11215, USA",
+          "type": "Offline"
+        },
+        "featured": false,
+        "social_links": []
+      }
+    },
+    {
+      "id": "evt_com_olios_0bd43ea3",
+      "name": "Olio Astoria: The Inner Youngster",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_olios",
+      "description": "Get up-to-date information at: https://lu.ma/4relpvdb\n\nAddress:\nCheck event page for more details.\n\nHosted by Think Olio",
+      "startDate": "2025-02-20T19:30:00-05:00",
+      "endDate": "2025-02-20T21:00:00-05:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "fractal-community.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "",
+        "speakers": [
+          "Think Olio"
+        ],
+        "venue": {
+          "name": "Online Event",
+          "address": "https://lu.ma/e/evt-Y3fQhIb7ivlyLiV",
+          "type": "Online"
+        },
+        "featured": false,
+        "social_links": []
+      }
+    },
+    {
+      "id": "evt_com_olios_2fb6157c",
+      "name": "Textures of Sound: Music & Nostalgia Night",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_olios",
+      "description": "Get up-to-date information at: https://lu.ma/wnoc7ae9\n\nAddress:\nLittle Honey\nKings County, New York\nUnited States\n\nHosted by Think Olio",
+      "startDate": "2025-02-21T20:00:00-05:00",
+      "endDate": "2025-02-21T22:00:00-05:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "fractal-community.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "",
+        "speakers": [
+          "Think Olio"
+        ],
+        "venue": {
+          "name": "Little Honey, 487 7th Ave, Brooklyn, NY 11215, USA",
+          "address": "Little Honey, 487 7th Ave, Brooklyn, NY 11215, USA",
+          "type": "Offline"
+        },
+        "featured": false,
+        "social_links": []
+      }
+    },
+    {
+      "id": "evt_com_olios_2c910474",
+      "name": "Surreal Playground: Re-Writing Reality",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_olios",
+      "description": "Get up-to-date information at: https://lu.ma/gmbcg17d\n\nAddress:\nLittle Honey\nKings County, New York\nUnited States\n\nHosted by Think Olio",
+      "startDate": "2025-03-04T19:00:00-05:00",
+      "endDate": "2025-03-25T21:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "fractal-community.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "",
+        "speakers": [
+          "Think Olio"
+        ],
+        "venue": {
+          "name": "Little Honey, 487 7th Ave, Brooklyn, NY 11215, USA",
+          "address": "Little Honey, 487 7th Ave, Brooklyn, NY 11215, USA",
+          "type": "Offline"
+        },
+        "featured": false,
+        "social_links": []
+      }
+    },
+    {
+      "id": "evt_com_olios_0f4123b3",
+      "name": "Olio Circles: Creating Utopia, Reclaiming our Agency",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_olios",
+      "description": "Get up-to-date information at: https://lu.ma/y8bmyunn\n\nAddress:\n27 E 10th St\nKings County, New York\nUnited States\n\nHosted by Think Olio",
+      "startDate": "2025-03-17T19:00:00-04:00",
+      "endDate": "2025-03-17T21:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "fractal-community.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "",
+        "speakers": [
+          "Think Olio"
+        ],
+        "venue": {
+          "name": "27 E 10th St, Brooklyn, NY 11218, USA",
+          "address": "27 E 10th St, Brooklyn, NY 11218, USA",
+          "type": "Offline"
+        },
+        "featured": false,
+        "social_links": []
+      }
+    },
+    {
+      "id": "evt_com_olios_9a4ec831",
+      "name": "Olio Circles: Radical Aliveness",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_olios",
+      "description": "Get up-to-date information at: https://lu.ma/4swssa42\n\nAddress:\n27 E 10th St\nKings County, New York\nUnited States\n\nHosted by Think Olio",
+      "startDate": "2025-03-23T16:00:00-04:00",
+      "endDate": "2025-03-23T18:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "fractal-community.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "",
+        "speakers": [
+          "Think Olio"
+        ],
+        "venue": {
+          "name": "27 E 10th St, Brooklyn, NY 11218, USA",
+          "address": "27 E 10th St, Brooklyn, NY 11218, USA",
+          "type": "Offline"
+        },
+        "featured": false,
+        "social_links": []
+      }
+    },
+    {
+      "id": "evt_com_olios_e95479a9",
+      "name": "Poetry in Everyday Life: Uniting Pleasure with Truth",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_olios",
+      "description": "Get up-to-date information at: https://lu.ma/knzrufdg\n\nAddress:\nCalcutta Kitchens\nArrive at 6:30pm to order delicious Indian food.\nKingston, New York\nUnited States\n\nHosted by Think Olio, Benjamin Goodman & Mara Estes",
+      "startDate": "2025-04-01T19:00:00-04:00",
+      "endDate": "2025-04-01T21:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "fractal-community.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "",
+        "speakers": [
+          "Think Olio, Benjamin Goodman",
+          "Mara Estes"
+        ],
+        "venue": {
+          "name": "Calcutta Kitchens, 448 Broadway, Kingston, NY 12401, USA",
+          "address": "Calcutta Kitchens, 448 Broadway, Kingston, NY 12401, USA",
+          "type": "Offline"
+        },
+        "featured": false,
+        "social_links": []
+      }
+    },
+    {
+      "id": "evt_com_walk_club_d196492a",
+      "name": "Sunday Morning Walk Club w LSC & Beny Yogurt & Brooklyn Walk Club",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_walk_club",
+      "description": "Get up-to-date information at: https://lu.ma/6tw4faut\n\nAddress:\nMcCarren Parkhouse\nKings County, New York\nUnited States\n\nHosted by Caite Opfer & 3 others",
+      "startDate": "2025-02-23T10:00:00-05:00",
+      "endDate": "2025-02-23T12:00:00-05:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "fractal-community.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "",
+        "speakers": [
+          "Caite Opfer",
+          "3 others"
+        ],
+        "venue": {
+          "name": "McCarren Parkhouse, 855 Lorimer St, Brooklyn, NY 11222, USA",
+          "address": "McCarren Parkhouse, 855 Lorimer St, Brooklyn, NY 11222, USA",
+          "type": "Offline"
+        },
+        "featured": false,
+        "social_links": []
+      }
+    },
+    {
+      "id": "evt_com_ny_hardware_44857225",
+      "name": "103rd NY Hardware Meetup // MedTech",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_ny_hardware",
+      "description": "Get up-to-date information at: https://lu.ma/qu5bhnxj\n\nAddress:\nCheck event page for more details.\n\nHosted by Christina Perla & 6 others",
+      "startDate": "2025-02-26T18:30:00-05:00",
+      "endDate": "2025-02-26T21:30:00-05:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "fractal-community.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "",
+        "speakers": [
+          "Christina Perla",
+          "6 others"
+        ],
+        "venue": {
+          "name": "Online Event",
+          "address": "https://lu.ma/e/evt-IISuNBF9D3j7iDW",
+          "type": "Online"
+        },
+        "featured": false,
+        "social_links": []
+      }
+    },
+    {
+      "id": "evt_com_ny_hardware_db5cccbe",
+      "name": "104th NY Hardware Meetup // Climate Tech & Supply Chain",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_ny_hardware",
+      "description": "Get up-to-date information at: https://lu.ma/mbu4l4ac\n\nAddress:\nfrog\nNew York, New York\nUnited States\n\nHosted by Christina Perla, Paul Vizzio & Anthony Dzaba",
+      "startDate": "2025-03-20T18:30:00-04:00",
+      "endDate": "2025-03-20T21:30:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "fractal-community.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "",
+        "speakers": [
+          "Christina Perla, Paul Vizzio",
+          "Anthony Dzaba"
+        ],
+        "venue": {
+          "name": "frog, 79 5th Ave, New York, NY 10003, USA",
+          "address": "frog, 79 5th Ave, New York, NY 10003, USA",
+          "type": "Offline"
+        },
+        "featured": false,
+        "social_links": []
+      }
+    },
+    {
+      "id": "evt_com_ny_hardware_619c6334",
+      "name": "Deep Tech Week Happy Hour @ Makelab | NY Hardware Meetup",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_ny_hardware",
+      "description": "Get up-to-date information at: https://lu.ma/hj4wfh8n\n\nAddress:\nMakelab | 3D Manufacturing Services\nKings County, New York\nUnited States\n\nHosted by Christina Perla",
+      "startDate": "2025-04-02T18:30:00-04:00",
+      "endDate": "2025-04-02T21:30:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "fractal-community.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "",
+        "speakers": [
+          "Christina Perla"
+        ],
+        "venue": {
+          "name": "Makelab | 3D Manufacturing Services, 325 Gold St, Brooklyn, NY 11201, USA",
+          "address": "Makelab | 3D Manufacturing Services, 325 Gold St, Brooklyn, NY 11201, USA",
+          "type": "Offline"
+        },
+        "featured": false,
+        "social_links": []
+      }
+    },
+    {
+      "id": "evt_com_la_creme_stem_c6077d4b",
+      "name": "Galentines Day - Co-founder Match with FemBuild & La Creme de la STEM™",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_la_creme_stem",
+      "description": "Get up-to-date information at: https://lu.ma/3hp7huo2\n\nAddress:\nCheck event page for more details.\n\nHosted by Marion - La Creme de la STEM ™, Christine Hong & Laura Hamilton",
+      "startDate": "2025-02-18T18:00:00-05:00",
+      "endDate": "2025-02-18T20:00:00-05:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "fractal-community.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "",
+        "speakers": [
+          "Marion - La Creme de la STEM ™, Christine Hong",
+          "Laura Hamilton"
+        ],
+        "venue": {
+          "name": "Online Event",
+          "address": "https://lu.ma/e/evt-7YCtvaTzqBLuerL",
+          "type": "Online"
+        },
+        "featured": false,
+        "social_links": []
+      }
+    },
+    {
+      "id": "evt_com_la_creme_stem_6dc044ee",
+      "name": "La Creme de la STEM™ Meet and Greet",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_la_creme_stem",
+      "description": "Get up-to-date information at: https://lu.ma/zyiuvkol\n\nAddress:\nCheck event page for more details.\n\nHosted by Marion - La Creme de la STEM ™",
+      "startDate": "2025-05-12T18:00:00-04:00",
+      "endDate": "2025-05-12T20:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "fractal-community.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "",
+        "speakers": [
+          "Marion - La Creme de la STEM ™"
+        ],
+        "venue": {
+          "name": "Online Event",
+          "address": "https://lu.ma/e/evt-RyMqZ5fnBw4d8zR",
+          "type": "Online"
+        },
+        "featured": false,
+        "social_links": []
+      }
+    },
+    {
+      "id": "evt_com_third_place_nyc_7694630e",
+      "name": "Rethinking Alcohol & Mental Health: A Fireside Chat With Kendall Bierman",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_third_place_nyc",
+      "description": "Get up-to-date information at: https://lu.ma/mmzls9ti\n\nAddress:\nFabrik NYC\nPlease ensure to arrive before 7pm to guarantee entry!\nNew York, New York\nUnited States\n\nHosted by Third Place Bar",
+      "startDate": "2025-02-24T18:30:00-05:00",
+      "endDate": "2025-02-24T20:30:00-05:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "fractal-community.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "",
+        "speakers": [
+          "Third Place Bar"
+        ],
+        "venue": {
+          "name": "Fabrik NYC, 12-16 Vestry St 4th Floor, New York, NY 10013, USA",
+          "address": "Fabrik NYC, 12-16 Vestry St 4th Floor, New York, NY 10013, USA",
+          "type": "Offline"
+        },
+        "featured": false,
+        "social_links": []
+      }
+    },
+    {
+      "id": "evt_com_third_place_nyc_80bb5aca",
+      "name": "Saint Patrick’s Day AF 🍀",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_third_place_nyc",
+      "description": "Get up-to-date information at: https://lu.ma/ylk4ky6s\n\nAddress:\nHekate Café & Elixir Lounge\nStop by any time!\nNew York, New York\nUnited States\n\nHosted by Third Place Bar",
+      "startDate": "2025-03-17T18:00:00-04:00",
+      "endDate": "2025-03-17T21:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "fractal-community.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "",
+        "speakers": [
+          "Third Place Bar"
+        ],
+        "venue": {
+          "name": "Hekate Café & Elixir Lounge, 167 Avenue B, New York, NY 10009, USA",
+          "address": "Hekate Café & Elixir Lounge, 167 Avenue B, New York, NY 10009, USA",
+          "type": "Offline"
+        },
+        "featured": false,
+        "social_links": []
+      }
+    },
+    {
+      "id": "evt_com_third_place_nyc_3588edc5",
+      "name": "Third Place Bar x Shanti House Mindful Friday Night Social",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_third_place_nyc",
+      "description": "Get up-to-date information at: https://lu.ma/yxbmpe6w\n\nAddress:\nFabrik NYC\nNew York, New York\nUnited States\n\nHosted by Third Place Bar & Louisa Li",
+      "startDate": "2025-03-28T18:30:00-04:00",
+      "endDate": "2025-03-28T21:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "fractal-community.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "",
+        "speakers": [
+          "Third Place Bar",
+          "Louisa Li"
+        ],
+        "venue": {
+          "name": "Fabrik NYC, 12-16 Vestry St 4th Floor, New York, NY 10013, USA",
+          "address": "Fabrik NYC, 12-16 Vestry St 4th Floor, New York, NY 10013, USA",
+          "type": "Offline"
+        },
+        "featured": false,
+        "social_links": []
+      }
+    },
+    {
+      "id": "evt_com_reforester_0e5839aa",
+      "name": "Breath of Transformation",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_reforester",
+      "description": "Get up-to-date information at: https://lu.ma/60pk9tv1\n\nAddress:\nReforesters Laboratory\nKings County, New York\nUnited States\n\nHosted by Reforesters Laboratory & Hannah Cohen",
+      "startDate": "2025-02-18T18:30:00-05:00",
+      "endDate": "2025-02-18T20:00:00-05:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "fractal-community.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "",
+        "speakers": [
+          "Reforesters Laboratory",
+          "Hannah Cohen"
+        ],
+        "venue": {
+          "name": "Reforesters Laboratory, 147 Metropolitan Ave, Brooklyn, NY 11249, USA",
+          "address": "Reforesters Laboratory, 147 Metropolitan Ave, Brooklyn, NY 11249, USA",
+          "type": "Offline"
+        },
+        "featured": false,
+        "social_links": []
+      }
+    },
+    {
+      "id": "evt_com_reforester_1a6798a0",
+      "name": "The Blueprint",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_reforester",
+      "description": "Get up-to-date information at: https://lu.ma/k8a8pox5\n\nAddress:\nReforesters Laboratory\nKings County, New York\nUnited States\n\nHosted by Reforesters Laboratory & Tiffany Chu",
+      "startDate": "2025-02-21T17:00:00-05:00",
+      "endDate": "2025-02-21T18:00:00-05:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "fractal-community.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "",
+        "speakers": [
+          "Reforesters Laboratory",
+          "Tiffany Chu"
+        ],
+        "venue": {
+          "name": "Reforesters Laboratory, 147 Metropolitan Ave, Brooklyn, NY 11249, USA",
+          "address": "Reforesters Laboratory, 147 Metropolitan Ave, Brooklyn, NY 11249, USA",
+          "type": "Offline"
+        },
+        "featured": false,
+        "social_links": []
+      }
+    },
+    {
+      "id": "evt_com_reforester_adb1754a",
+      "name": "Hatha Yoga + Mindfulness Meditation",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_reforester",
+      "description": "Get up-to-date information at: https://lu.ma/vlesycus\n\nAddress:\nReforesters Laboratory\nKings County, New York\nUnited States\n\nHosted by Reforesters Laboratory & Demetrius Napolitano",
+      "startDate": "2025-02-22T13:30:00-05:00",
+      "endDate": "2025-02-22T14:30:00-05:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "fractal-community.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "",
+        "speakers": [
+          "Reforesters Laboratory",
+          "Demetrius Napolitano"
+        ],
+        "venue": {
+          "name": "Reforesters Laboratory, 147 Metropolitan Ave, Brooklyn, NY 11249, USA",
+          "address": "Reforesters Laboratory, 147 Metropolitan Ave, Brooklyn, NY 11249, USA",
+          "type": "Offline"
+        },
+        "featured": false,
+        "social_links": []
+      }
+    },
+    {
+      "id": "evt_com_reforester_6d8454a1",
+      "name": "The Blueprint",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_reforester",
+      "description": "Get up-to-date information at: https://lu.ma/wdkejjcw\n\nAddress:\nReforesters Laboratory\nKings County, New York\nUnited States\n\nHosted by Reforesters Laboratory & Tiffany Chu",
+      "startDate": "2025-02-23T11:30:00-05:00",
+      "endDate": "2025-02-23T12:30:00-05:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "fractal-community.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "",
+        "speakers": [
+          "Reforesters Laboratory",
+          "Tiffany Chu"
+        ],
+        "venue": {
+          "name": "Reforesters Laboratory, 147 Metropolitan Ave, Brooklyn, NY 11249, USA",
+          "address": "Reforesters Laboratory, 147 Metropolitan Ave, Brooklyn, NY 11249, USA",
+          "type": "Offline"
+        },
+        "featured": false,
+        "social_links": []
+      }
+    },
+    {
+      "id": "evt_com_reforester_cd2df2c6",
+      "name": "Varispeed_2",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_reforester",
+      "description": "Get up-to-date information at: https://lu.ma/6q03w9ax\n\nAddress:\nReforesters Laboratory\nKings County, New York\nUnited States\n\nHosted by Reforesters Laboratory & Maxi Glenn",
+      "startDate": "2025-02-23T17:00:00-05:00",
+      "endDate": "2025-02-23T19:00:00-05:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "fractal-community.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "",
+        "speakers": [
+          "Reforesters Laboratory",
+          "Maxi Glenn"
+        ],
+        "venue": {
+          "name": "Reforesters Laboratory, 147 Metropolitan Ave, Brooklyn, NY 11249, USA",
+          "address": "Reforesters Laboratory, 147 Metropolitan Ave, Brooklyn, NY 11249, USA",
+          "type": "Offline"
+        },
+        "featured": false,
+        "social_links": []
+      }
+    },
+    {
+      "id": "evt_com_reforester_c51e00dc",
+      "name": "Open Tones [Dream State Drumming]",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_reforester",
+      "description": "Get up-to-date information at: https://lu.ma/4exvk2pv\n\nAddress:\nReforesters Laboratory\nKings County, New York\nUnited States\n\nHosted by Reforesters Laboratory & David Nuss",
+      "startDate": "2025-02-24T17:30:00-05:00",
+      "endDate": "2025-02-24T18:30:00-05:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "fractal-community.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "",
+        "speakers": [
+          "Reforesters Laboratory",
+          "David Nuss"
+        ],
+        "venue": {
+          "name": "Reforesters Laboratory, 147 Metropolitan Ave, Brooklyn, NY 11249, USA",
+          "address": "Reforesters Laboratory, 147 Metropolitan Ave, Brooklyn, NY 11249, USA",
+          "type": "Offline"
+        },
+        "featured": false,
+        "social_links": []
+      }
+    },
+    {
+      "id": "evt_com_reforester_da97982a",
+      "name": "Somatic Exploration",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_reforester",
+      "description": "Get up-to-date information at: https://lu.ma/r82yp5q2\n\nAddress:\nReforesters Laboratory\nKings County, New York\nUnited States\n\nHosted by Reforesters Laboratory & kia islam",
+      "startDate": "2025-02-25T17:00:00-05:00",
+      "endDate": "2025-02-25T18:00:00-05:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "fractal-community.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "",
+        "speakers": [
+          "Reforesters Laboratory",
+          "kia islam"
+        ],
+        "venue": {
+          "name": "Reforesters Laboratory, 147 Metropolitan Ave, Brooklyn, NY 11249, USA",
+          "address": "Reforesters Laboratory, 147 Metropolitan Ave, Brooklyn, NY 11249, USA",
+          "type": "Offline"
+        },
+        "featured": false,
+        "social_links": []
+      }
+    },
+    {
+      "id": "evt_com_reforester_e6e65429",
+      "name": "Sivananda Yoga & Sound Bath",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_reforester",
+      "description": "Get up-to-date information at: https://lu.ma/csk4o9iq\n\nAddress:\nReforesters Laboratory\nKings County, New York\nUnited States\n\nHosted by Reforesters Laboratory & Don Batalla",
+      "startDate": "2025-02-26T17:00:00-05:00",
+      "endDate": "2025-02-26T18:00:00-05:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "fractal-community.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "",
+        "speakers": [
+          "Reforesters Laboratory",
+          "Don Batalla"
+        ],
+        "venue": {
+          "name": "Reforesters Laboratory, 147 Metropolitan Ave, Brooklyn, NY 11249, USA",
+          "address": "Reforesters Laboratory, 147 Metropolitan Ave, Brooklyn, NY 11249, USA",
+          "type": "Offline"
+        },
+        "featured": false,
+        "social_links": []
+      }
+    },
+    {
+      "id": "evt_com_reforester_8ca5ecc6",
+      "name": "An Altar of Sound",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_reforester",
+      "description": "Get up-to-date information at: https://lu.ma/hq0ud9qr\n\nAddress:\nReforesters Laboratory\nKings County, New York\nUnited States\n\nHosted by Reforesters Laboratory & Iris",
+      "startDate": "2025-02-26T19:00:00-05:00",
+      "endDate": "2025-02-26T20:00:00-05:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "fractal-community.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "",
+        "speakers": [
+          "Reforesters Laboratory",
+          "Iris"
+        ],
+        "venue": {
+          "name": "Reforesters Laboratory, 147 Metropolitan Ave, Brooklyn, NY 11249, USA",
+          "address": "Reforesters Laboratory, 147 Metropolitan Ave, Brooklyn, NY 11249, USA",
+          "type": "Offline"
+        },
+        "featured": false,
+        "social_links": []
+      }
+    },
+    {
+      "id": "evt_com_reforester_0c46e37b",
+      "name": "Mindful Morning Journaling Workshop",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_reforester",
+      "description": "Get up-to-date information at: https://lu.ma/xk7ahkjm\n\nAddress:\nReforesters Laboratory\nKings County, New York\nUnited States\n\nHosted by Reforesters Laboratory & Emily Chertow",
+      "startDate": "2025-02-27T08:30:00-05:00",
+      "endDate": "2025-02-27T09:30:00-05:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "fractal-community.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "",
+        "speakers": [
+          "Reforesters Laboratory",
+          "Emily Chertow"
+        ],
+        "venue": {
+          "name": "Reforesters Laboratory, 147 Metropolitan Ave, Brooklyn, NY 11249, USA",
+          "address": "Reforesters Laboratory, 147 Metropolitan Ave, Brooklyn, NY 11249, USA",
+          "type": "Offline"
+        },
+        "featured": false,
+        "social_links": []
+      }
+    },
+    {
+      "id": "evt_com_reforester_e98ceb37",
+      "name": "Aquarius New Moon Workshop",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_reforester",
+      "description": "Get up-to-date information at: https://lu.ma/1kdilbw1\n\nAddress:\nReforesters Laboratory\nKings County, New York\nUnited States\n\nHosted by Reforesters Laboratory & Nadia Gilbert",
+      "startDate": "2025-02-27T18:00:00-05:00",
+      "endDate": "2025-02-27T19:30:00-05:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "fractal-community.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "",
+        "speakers": [
+          "Reforesters Laboratory",
+          "Nadia Gilbert"
+        ],
+        "venue": {
+          "name": "Reforesters Laboratory, 147 Metropolitan Ave, Brooklyn, NY 11249, USA",
+          "address": "Reforesters Laboratory, 147 Metropolitan Ave, Brooklyn, NY 11249, USA",
+          "type": "Offline"
+        },
+        "featured": false,
+        "social_links": []
+      }
+    },
+    {
+      "id": "evt_com_reforester_b3438063",
+      "name": "Breathwork Experience",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_reforester",
+      "description": "Get up-to-date information at: https://lu.ma/ed5toq0b\n\nAddress:\nReforesters Laboratory\nKings County, New York\nUnited States\n\nHosted by Reforesters Laboratory & Katia Repina",
+      "startDate": "2025-03-01T10:00:00-05:00",
+      "endDate": "2025-03-01T11:00:00-05:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "fractal-community.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "",
+        "speakers": [
+          "Reforesters Laboratory",
+          "Katia Repina"
+        ],
+        "venue": {
+          "name": "Reforesters Laboratory, 147 Metropolitan Ave, Brooklyn, NY 11249, USA",
+          "address": "Reforesters Laboratory, 147 Metropolitan Ave, Brooklyn, NY 11249, USA",
+          "type": "Offline"
+        },
+        "featured": false,
+        "social_links": []
+      }
+    },
+    {
+      "id": "evt_com_reforester_94d901e9",
+      "name": "Sound + Silence: A Passage Into Perception",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_reforester",
+      "description": "Get up-to-date information at: https://lu.ma/cciqyzir\n\nAddress:\nReforesters Laboratory\nKings County, New York\nUnited States\n\nHosted by Reforesters Laboratory & Mike Alicea",
+      "startDate": "2025-03-02T14:30:00-05:00",
+      "endDate": "2025-03-02T15:30:00-05:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "fractal-community.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "",
+        "speakers": [
+          "Reforesters Laboratory",
+          "Mike Alicea"
+        ],
+        "venue": {
+          "name": "Reforesters Laboratory, 147 Metropolitan Ave, Brooklyn, NY 11249, USA",
+          "address": "Reforesters Laboratory, 147 Metropolitan Ave, Brooklyn, NY 11249, USA",
+          "type": "Offline"
+        },
+        "featured": false,
+        "social_links": []
+      }
+    },
+    {
+      "id": "evt_com_reforester_280605a6",
+      "name": "Harmonic Resonance: A Guided Soundscape Journey",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_reforester",
+      "description": "Get up-to-date information at: https://lu.ma/7ojf8byc\n\nAddress:\nReforesters Laboratory\nKings County, New York\nUnited States\n\nHosted by Reforesters Laboratory & Yuj",
+      "startDate": "2025-03-06T18:00:00-05:00",
+      "endDate": "2025-03-06T19:30:00-05:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "fractal-community.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "",
+        "speakers": [
+          "Reforesters Laboratory",
+          "Yuj"
+        ],
+        "venue": {
+          "name": "Reforesters Laboratory, 147 Metropolitan Ave, Brooklyn, NY 11249, USA",
+          "address": "Reforesters Laboratory, 147 Metropolitan Ave, Brooklyn, NY 11249, USA",
+          "type": "Offline"
+        },
+        "featured": false,
+        "social_links": []
+      }
+    },
+    {
+      "id": "evt_com_genZtea_c37467d5",
+      "name": "Personal Branding 101 for Founders",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_genZtea",
+      "description": "Get up-to-date information at: https://lu.ma/tpgb59b1\n\nAddress:\nOne Pace Plaza\n4th floor; Room W407A\nNew York, New York\nUnited States\n\nHosted by Natalie Neptune & 4 others",
+      "startDate": "2025-02-18T18:00:00-05:00",
+      "endDate": "2025-02-18T19:30:00-05:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "fractal-community.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "",
+        "speakers": [
+          "Natalie Neptune",
+          "4 others"
+        ],
+        "venue": {
+          "name": "One Pace Plaza, New York, NY 10038, USA",
+          "address": "One Pace Plaza, New York, NY 10038, USA",
+          "type": "Offline"
+        },
+        "featured": false,
+        "social_links": []
+      }
+    },
+    {
+      "id": "evt_com_genZtea_97cf772f",
+      "name": "Gen Z Cafe CoWorking",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_genZtea",
+      "description": "Get up-to-date information at: https://lu.ma/2te7tjxx\n\nAddress:\n525 Greenwich St\nFelix Roasting Co.; Inside of Hotel Hugo\nNew York, New York\nUnited States\n\nHosted by Natalie Neptune",
+      "startDate": "2025-02-24T13:00:00-05:00",
+      "endDate": "2025-02-24T14:00:00-05:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "fractal-community.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "",
+        "speakers": [
+          "Natalie Neptune"
+        ],
+        "venue": {
+          "name": "525 Greenwich St, New York, NY 10013, USA",
+          "address": "525 Greenwich St, New York, NY 10013, USA",
+          "type": "Offline"
+        },
+        "featured": false,
+        "social_links": []
+      }
+    },
+    {
+      "id": "evt_com_genZtea_5b32cdc4",
+      "name": "Gen Z NYC Founder & Creator Mixer",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_genZtea",
+      "description": "Get up-to-date information at: https://lu.ma/x58kfr7r\n\nAddress:\nCheck event page for more details.\n\nHosted by Natalie Neptune",
+      "startDate": "2025-03-13T18:00:00-04:00",
+      "endDate": "2025-03-13T19:30:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "fractal-community.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "",
+        "speakers": [
+          "Natalie Neptune"
+        ],
+        "venue": {
+          "name": "Online Event",
+          "address": "https://lu.ma/e/evt-m6y3CqKlHmWVXLc",
+          "type": "Online"
+        },
+        "featured": false,
+        "social_links": []
+      }
+    },
+    {
+      "id": "evt_com_genZtea_a7461692",
+      "name": "GenZtea x Boss Me In: Gen Z Founder Match at Chief",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_genZtea",
+      "description": "Get up-to-date information at: https://lu.ma/o6movhkg\n\nAddress:\nChief\nNew York, New York\nUnited States\n\nHosted by Natalie Neptune & Mai Moore",
+      "startDate": "2025-04-10T18:00:00-04:00",
+      "endDate": "2025-04-10T19:30:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "fractal-community.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "",
+        "speakers": [
+          "Natalie Neptune",
+          "Mai Moore"
+        ],
+        "venue": {
+          "name": "Chief, 13 E 19th St, New York, NY 10003, USA",
+          "address": "Chief, 13 E 19th St, New York, NY 10003, USA",
+          "type": "Offline"
+        },
+        "featured": false,
+        "social_links": []
+      }
+    }
+  ]
+}

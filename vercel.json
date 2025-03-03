@@ -1,0 +1,12 @@
+{
+  "crons": [{
+    "path": "/api/categorize-events",
+    "schedule": "0 */12 * * *"
+  }],
+  "functions": {
+    "api/categorize-events.py": {
+      "memory": 3008,
+      "maxDuration": 300
+    }
+  }
+} 

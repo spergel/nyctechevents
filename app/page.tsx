@@ -1,15 +1,78 @@
 'use client';
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef, useMemo } from 'react';
 import events from '@/public/data/events.json';
 import locations from '@/public/data/locations.json';
 import { ConsoleLayout } from '@/app/components/ui/ConsoleLayout';
-import { ConsoleModule } from '@/app/components/ui/ConsoleModule';
 import { CyberLink } from '@/app/components/ui/CyberLink';
 import { HolographicDisplay } from '@/app/components/ui/HolographicDisplay';
 import Loading from '@/app/loading';
+import { Panel } from '@/app/components/ui/Panel';
+import { DetailDialog } from '@/app/components/ui/DetailDialog';
+import { FilterDialog } from '@/app/components/ui/FilterDialog';
+import { FilterToggleButton } from '@/app/components/ui/FilterToggleButton';
+import { LocationDetailDialog } from '@/app/components/ui/LocationDetailDialog';
+import { EventDetailDialog } from '@/app/components/ui/EventDetailDialog';
+import { Event } from '@/app/types/event';
+import { Location } from '@/app/utils/dataHelpers';
+
+// Local interface for the events from the JSON file
+interface PageEvent {
+  id: string;
+  name: string;
+  startDate: string;
+  type: string;
+  description?: string;
+  venue?: {
+    name: string;
+    address: string;
+  };
+  categories?: string[];
+}
+
+// Convert PageEvent to Event type for EventDetailDialog
+const convertToEvent = (pageEvent: PageEvent): Event => {
+  return {
+    id: pageEvent.id,
+    name: pageEvent.name,
+    type: pageEvent.type,
+    startDate: pageEvent.startDate,
+    description: pageEvent.description || '',
+    locationId: '',
+    communityId: '',
+    category: pageEvent.categories || [],
+    price: {
+      amount: 0,
+      type: 'free',
+      currency: 'USD',
+      details: ''
+    },
+    capacity: 0,
+    registrationRequired: false,
+    tags: [],
+    image: '',
+    status: 'active',
+    metadata: {
+      source_url: '',
+      venue: pageEvent.venue ? {
+        ...pageEvent.venue,
+        type: 'venue'
+      } : undefined,
+      featured: false
+    },
+    categories: [],
+    source: ''
+  };
+};
 
 export default function Home() {
   const [isLoading, setIsLoading] = useState(true);
+  const [visibleEvents, setVisibleEvents] = useState(10);
+  const [isMobile, setIsMobile] = useState(false);
+  const [isFilterDialogOpen, setIsFilterDialogOpen] = useState(false);
+  const [selectedEvent, setSelectedEvent] = useState<PageEvent | null>(null);
+  const [selectedLocation, setSelectedLocation] = useState<Location | null>(null);
+  const [selectedTypes, setSelectedTypes] = useState<string[]>([]);
+  const observerTarget = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     // Check if the document is already loaded
@@ -27,61 +90,96 @@ export default function Home() {
     }
   }, []);
 
-  // Get the next 10 upcoming events
-  const upcomingEvents = [...events.events]
-    .filter(event => new Date(event.startDate) > new Date())
-    .sort((a, b) => new Date(a.startDate).getTime() - new Date(b.startDate).getTime())
-    .slice(0, 10);
+  // Check if we're on mobile
+  useEffect(() => {
+    const checkMobile = () => {
+      setIsMobile(window.innerWidth <= 1024);
+    };
+    
+    checkMobile();
+    window.addEventListener('resize', checkMobile);
+    
+    return () => {
+      window.removeEventListener('resize', checkMobile);
+    };
+  }, []);
 
-  // Mock community news data
-  const communityNews = [
+  // Get all upcoming events
+  const upcomingEvents = useMemo(() => {
+    return [...((events?.events || []) as unknown as PageEvent[])]
+      .filter(event => new Date(event.startDate) > new Date())
+      .sort((a, b) => new Date(a.startDate).getTime() - new Date(b.startDate).getTime());
+  }, []);
+
+  // Infinite scroll observer
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (entries[0].isIntersecting && visibleEvents < upcomingEvents.length) {
+          setVisibleEvents(prev => Math.min(prev + 10, upcomingEvents.length));
+        }
+      },
+      { threshold: 0.1 }
+    );
+
+    if (observerTarget.current) {
+      observer.observe(observerTarget.current);
+    }
+
+    return () => observer.disconnect();
+  }, [visibleEvents, upcomingEvents.length]);
+
+  const handleEventClick = (event: PageEvent) => {
+    setSelectedEvent(event);
+  };
+
+  const handleLocationClick = (location: Location) => {
+    setSelectedLocation(location);
+  };
+
+  // Get unique event types with counts
+  const eventTypes = useMemo(() => {
+    const types = new Map<string, number>();
+    if (events?.events) {
+      (events.events as unknown as PageEvent[]).forEach((event) => {
+        if (event.type) {
+          types.set(event.type, (types.get(event.type) || 0) + 1);
+        }
+      });
+    }
+    return Array.from(types.entries()).map(([type, count]) => ({
+      id: type,
+      name: type,
+      count
+    }));
+  }, []);
+
+  // Filter groups for mobile dialog
+  const filterGroups = [
     {
-      id: 'news-1',
-      title: 'New Tech Hub Opening',
-      community: 'NYC Tech Alliance',
-      date: '2024-02-20',
-      link: '/communities/tech-alliance'
-    },
-    {
-      id: 'news-2',
-      title: 'Community Art Exhibition',
-      community: 'Brooklyn Artists Collective',
-      date: '2024-02-22',
-      link: '/communities/brooklyn-artists'
-    },
-    {
-      id: 'news-3',
-      title: 'Sustainability Workshop Series',
-      community: 'Green NYC Initiative',
-      date: '2024-02-25',
-      link: '/communities/green-nyc'
+      title: 'EVENT TYPES',
+      options: eventTypes,
+      selectedIds: selectedTypes,
+      onToggle: (id: string) => {
+        setSelectedTypes(prev => 
+          prev.includes(id) ? prev.filter(t => t !== id) : [...prev, id]
+        );
+      }
     }
   ];
 
-    // Mock Substack posts
-    const substackPosts = [
-        {
-            id: 'post-1',
-            title: 'The Future of NYC Transit',
-            author: 'John Doe',
-            date: '2024-03-01',
-            link: '#'
-        },
-        {
-            id: 'post-2',
-            title: 'Exploring Green Spaces in the City',
-            author: 'Jane Smith',
-            date: '2024-02-28',
-            link: '#'
-        },
-        {
-            id: 'post-3',
-            title: 'NYC\'s Tech Scene Boom',
-            author: 'Tech Guru',
-            date: '2024-02-26',
-            link: '#'
-        }
-    ];
+  // Filter events based on selected types
+  const filteredEvents = useMemo(() => {
+    return upcomingEvents.filter(event => 
+      selectedTypes.length === 0 || selectedTypes.includes(event.type)
+    );
+  }, [upcomingEvents, selectedTypes]);
+
+  // For the LocationDetailDialog which expects an AppEvent
+  const handleAppEventSelect = (event: Event) => {
+    // Use the EventDetailDialog instead of navigating to the event page
+    setSelectedEvent(event as unknown as PageEvent);
+  };
 
   if (isLoading) {
     return <Loading />;
@@ -89,73 +187,353 @@ export default function Home() {
 
   return (
     <div className="console-page">
-      <ConsoleLayout
-        locations={locations.locations}
-      >
-        <ConsoleModule 
-          systemId="NYC-001" 
-          variant="monitor"
-        >
-          <HolographicDisplay>
-            <img src="/nyc_skyline.gif" alt="NYC Skyline" className="skyline-display" />
-          </HolographicDisplay>
-        </ConsoleModule>
 
-        <ConsoleModule 
-          systemId="DIR-001"
-          variant="primary"
-        >
-          <div className="directory-links">
-            <CyberLink href="/events" variant="directory">Events</CyberLink>
-            <CyberLink href="/locations" variant="directory">Locations</CyberLink>
-            <CyberLink href="/communities" variant="directory">Communities</CyberLink>
-          </div>
-        </ConsoleModule>
+      {/* Mobile Filter Toggle */}
+      {isMobile && (
+        <FilterToggleButton 
+          isActive={isFilterDialogOpen}
+          onClick={() => setIsFilterDialogOpen(!isFilterDialogOpen)}
+          resultCount={filteredEvents.length}
+        />
+      )}
 
-        <ConsoleModule 
-          systemId="NEWS-001" 
-          variant="monitor"
-        >
-          <div className="news-feed">
-            {communityNews.map((news) => (
-              <a
-                key={news.id}
-                href={news.link}
-                className="news-item"
-              >
-                <div className="news-date">{new Date(news.date).toLocaleDateString()}</div>
-                <div className="news-title">{news.title}</div>
-                <div className="news-community">{news.community}</div>
-              </a>
-            ))}
-          </div>
-        </ConsoleModule>
+      {/* Mobile Filter Dialog */}
+      {isMobile && (
+        <FilterDialog
+          title="EVENT FILTERS"
+          systemId="EVT-FIL-001"
+          isOpen={isFilterDialogOpen}
+          onClose={() => setIsFilterDialogOpen(false)}
+          filterGroups={filterGroups}
+          resultCount={filteredEvents.length}
+          onClearAll={() => setSelectedTypes([])}
+        />
+      )}
 
-        <ConsoleModule 
+      {/* Mobile Events List */}
+      {isMobile && (
+        <Panel 
           systemId="DATA-003" 
           variant="secondary"
         >
-          {upcomingEvents.map(event => (
-            <a key={event.id} href={`/events/${event.id}`} className="data-event">
-              <span className="event-date">{new Date(event.startDate).toLocaleDateString()}</span>
-              <span className="event-name">{event.name}</span>
-            </a>
-          ))}
-        </ConsoleModule>
+          <div className="data-feed">
+            {filteredEvents.slice(0, visibleEvents).map(event => (
+              <a
+                key={event.id}
+                href={`/events/${event.id}`}
+                className="data-event"
+                onClick={(e) => {
+                  e.preventDefault();
+                  handleEventClick(event);
+                }}
+              >
+                <span className="event-date">{new Date(event.startDate).toLocaleDateString()}</span>
+                <span className="event-name">{event.name}</span>
+              </a>
+            ))}
+            {filteredEvents.length === 0 && (
+              <div className="no-data">No events match your filters</div>
+            )}
+            {visibleEvents < filteredEvents.length && (
+              <div ref={observerTarget} className="loading-trigger">
+                <a href="/events" className="go-to-events-link">Go to events</a>
+              </div>
+            )}
+          </div>
+        </Panel>
+      )}
 
-        <ConsoleModule 
-          systemId="INFO-001" 
-          variant="secondary"
+      {/* Desktop Layout */}
+      {!isMobile && (
+        <ConsoleLayout
+          locations={(locations?.locations || []) as unknown as Location[]}
+          onLocationClick={handleLocationClick}
         >
-          {substackPosts.map(post => (
-            <a key={post.id} href={post.link} className="info-post">
-              <span className="post-date">{new Date(post.date).toLocaleDateString()}</span>
-              <span className="post-title">{post.title}</span>
-              <span className="post-author">By {post.author}</span>
-            </a>
-          ))}
-        </ConsoleModule>
-      </ConsoleLayout>
+          <Panel 
+            systemId="NYC-001" 
+            variant="monitor"
+          >
+            <HolographicDisplay>
+              <img src="/nyc_skyline.gif" alt="NYC Skyline" className="skyline-display" />
+            </HolographicDisplay>
+          </Panel>
+
+          <Panel 
+            systemId="DIR-001"
+            variant="primary"
+          >
+            <div className="directory-links">
+              <CyberLink href="/events" variant="directory">Events</CyberLink>
+              <CyberLink href="/locations" variant="directory">Locations</CyberLink>
+            </div>
+          </Panel>
+
+          <Panel 
+            systemId="DATA-003" 
+            variant="secondary"
+          >
+            <div className="data-feed">
+              {filteredEvents.slice(0, visibleEvents).map(event => (
+                <a
+                  key={event.id}
+                  href={`/events/${event.id}`}
+                  className="data-event"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    handleEventClick(event);
+                  }}
+                >
+                  <span className="event-date">{new Date(event.startDate).toLocaleDateString()}</span>
+                  <span className="event-name">{event.name}</span>
+                </a>
+              ))}
+              {filteredEvents.length === 0 && (
+                <div className="no-data">No events match your filters</div>
+              )}
+              {visibleEvents < filteredEvents.length && (
+                <div ref={observerTarget} className="loading-trigger">
+                  <a href="/events" className="go-to-events-link">Go to events</a>
+                </div>
+              )}
+            </div>
+          </Panel>
+        </ConsoleLayout>
+      )}
+
+      {/* Event Detail Dialog */}
+      {selectedEvent && (
+        <EventDetailDialog
+          event={convertToEvent(selectedEvent)}
+          isOpen={!!selectedEvent}
+          onClose={() => setSelectedEvent(null)}
+          onLocationClick={(locationId) => {
+            const location = locations?.locations.find(loc => loc.id === locationId);
+            if (location) {
+              handleLocationClick(location as Location);
+            }
+          }}
+        />
+      )}
+
+      {/* Location Detail Dialog */}
+      <LocationDetailDialog
+        location={selectedLocation}
+        isOpen={!!selectedLocation}
+        onClose={() => setSelectedLocation(null)}
+        onEventSelect={handleAppEventSelect}
+      />
+
+      <style jsx>{`
+        .console-page {
+          width: 100%;
+          height: 100vh;
+          overflow: hidden;
+          display: flex;
+          flex-direction: column;
+        }
+
+        .page-header {
+          padding: 1rem;
+          background: rgba(0, 20, 40, 0.3);
+          border-bottom: 1px solid var(--nyc-orange);
+        }
+
+        .back-button {
+          background: rgba(0, 56, 117, 0.3);
+          border: 1px solid var(--terminal-color);
+          color: var(--terminal-color);
+          font-family: var(--font-mono);
+          padding: 0.5rem 1rem;
+          cursor: pointer;
+          transition: all 0.2s ease;
+          font-size: 0.9rem;
+        }
+
+        .back-button:hover {
+          background: rgba(0, 56, 117, 0.5);
+          border-color: var(--nyc-orange);
+          color: var(--nyc-orange);
+        }
+
+        .data-feed, .info-feed {
+          display: flex;
+          flex-direction: column;
+          gap: 0.5rem;
+          padding: 0.5rem;
+          max-height: 100%;
+          overflow-y: auto;
+        }
+
+        .no-data {
+          color: var(--terminal-color);
+          font-family: var(--font-mono);
+          font-size: 0.9rem;
+          text-align: center;
+          padding: 1rem;
+          opacity: 0.7;
+        }
+
+        .loading-trigger {
+          padding: 1rem;
+          text-align: center;
+          color: var(--terminal-color);
+          font-family: var(--font-mono);
+          font-size: 0.8rem;
+          opacity: 0.7;
+        }
+
+        /* Detail Dialog Styles */
+        .event-detail,
+        .location-detail {
+          display: flex;
+          flex-direction: column;
+          gap: 1.5rem;
+        }
+
+        .detail-header {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding-bottom: 1rem;
+          border-bottom: 1px solid var(--terminal-color);
+        }
+
+        .detail-date,
+        .detail-type,
+        .detail-capacity {
+          font-family: var(--font-mono);
+          font-size: 0.9rem;
+          color: var(--nyc-orange);
+          padding: 0.25rem 0.5rem;
+          background: rgba(0, 56, 117, 0.3);
+          border: 1px solid var(--terminal-color);
+        }
+
+        .detail-description {
+          color: var(--nyc-white);
+          line-height: 1.6;
+          font-size: 0.95rem;
+        }
+
+        .detail-venue,
+        .detail-categories,
+        .detail-amenities,
+        .detail-hours {
+          display: flex;
+          flex-direction: column;
+          gap: 0.75rem;
+        }
+
+        h4 {
+          color: var(--terminal-color);
+          font-family: var(--font-mono);
+          font-size: 0.8rem;
+          margin: 0;
+          text-transform: uppercase;
+        }
+
+        .venue-name {
+          color: var(--nyc-white);
+          font-size: 1.1rem;
+          font-weight: bold;
+        }
+
+        .venue-address {
+          color: var(--nyc-white);
+          opacity: 0.8;
+        }
+
+        .categories-list,
+        .amenities-list {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 0.5rem;
+        }
+
+        .category-tag,
+        .amenity-tag {
+          font-size: 0.8rem;
+          padding: 0.25rem 0.5rem;
+          background: rgba(0, 255, 255, 0.1);
+          border: 1px solid var(--terminal-color);
+          color: var(--terminal-color);
+        }
+
+        .hours-list {
+          display: grid;
+          gap: 0.5rem;
+        }
+
+        .hours-item {
+          display: flex;
+          justify-content: space-between;
+          padding: 0.5rem;
+          background: rgba(0, 56, 117, 0.3);
+          border: 1px solid var(--terminal-color);
+        }
+
+        .day {
+          color: var(--terminal-color);
+          text-transform: uppercase;
+          font-size: 0.8rem;
+        }
+
+        .hours {
+          color: var(--nyc-white);
+          font-size: 0.8rem;
+        }
+
+        .go-to-events-link {
+          color: var(--orange);
+          text-decoration: none;
+          font-weight: 500;
+          display: block;
+          text-align: center;
+          padding: 8px;
+          transition: color 0.2s;
+        }
+
+        .go-to-events-link:hover {
+          color: var(--orange-hover);
+          text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+          .console-page {
+            padding-bottom: 0;
+          }
+
+          .page-header {
+            display: none;
+          }
+
+          .data-feed {
+            padding: 0.75rem;
+          }
+
+          .data-event {
+            padding: 0.75rem;
+            background: rgba(0, 56, 117, 0.3);
+            border: 1px solid var(--nyc-orange);
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+            text-decoration: none;
+            transition: all 0.2s ease;
+          }
+
+          .event-date {
+            color: var(--terminal-color);
+            font-size: 0.8rem;
+          }
+
+          .event-name {
+            color: var(--nyc-white);
+            font-size: 1rem;
+            font-weight: bold;
+          }
+        }
+      `}</style>
     </div>
   );
 }

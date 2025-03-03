@@ -2,7 +2,6 @@
 import React from 'react';
 import { Panel } from '../components/ui/Panel';
 import { SectionTitle } from '../components/ui/SectionTitle';
-import { ConsoleModule } from '../components/ui/ConsoleModule';
 import { CyberButton } from '../components/ui/CyberButton';
 import { DataGrid } from '../components/ui/DataGrid';
 import { DataStream } from '../components/ui/DataStream';
@@ -78,14 +77,14 @@ export default function TestPage() {
             <DataStream lines={8} />
           </Panel>
 
-          <ConsoleModule title="QUICK ACTIONS" variant="secondary">
+          <Panel title="QUICK ACTIONS" variant="secondary">
             <div className="button-grid">
               <CyberButton label="INITIALIZE" onClick={() => alert('System Initialized')} />
               <CyberButton label="SCAN" onClick={() => alert('Scan Complete')} variant="secondary" />
               <CyberButton label="DEPLOY" onClick={() => alert('Deployment Started')} />
               <CyberButton label="RESET" onClick={() => alert('System Reset')} variant="secondary" />
             </div>
-          </ConsoleModule>
+          </Panel>
         </div>
 
         {/* Right Column */}
@@ -100,7 +99,7 @@ export default function TestPage() {
             <DataGrid data={gridData} />
           </Panel>
 
-          <ConsoleModule title="SYSTEM METRICS" variant="secondary">
+          <Panel title="SYSTEM METRICS" variant="secondary">
             <div className="metrics-grid">
               <div className="metric">
                 <div className="metric-label">UPTIME</div>
@@ -115,7 +114,7 @@ export default function TestPage() {
                 <div className="metric-value">42%</div>
               </div>
             </div>
-          </ConsoleModule>
+          </Panel>
         </div>
       </div>
 

@@ -4,22 +4,24 @@ import asyncio
 import logging
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
-from typing import List, Dict, Any
+from typing import List, Dict, Any, Optional
 import xml.etree.ElementTree as ET
 from email.utils import parsedate_to_datetime
 from urllib.parse import urlparse
+import logging
+
+from models import SubstackPost
 
 # Setup logging
 log_path = Path("logs")
 log_path.mkdir(parents=True, exist_ok=True)
 logging.basicConfig(
-    filename=log_path / "substack_scraper.log",
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s'
 )
-
 class SubstackScraper:
     def __init__(self):
+        self.source_name = "substack"
         self.six_months_ago = datetime.now(timezone.utc) - timedelta(days=180)
         self.output_dir = Path("data")
         self.output_dir.mkdir(parents=True, exist_ok=True)
@@ -29,24 +31,18 @@ class SubstackScraper:
     def load_substack_data(self) -> List[Dict]:
         """Loads Substack data from data/substacks.json."""
         try:
-            with open("../../data/substacks.json", 'r', encoding='utf-8') as f:
+            with open("data/substacks.json", 'r', encoding='utf-8') as f:
                 data = json.load(f)
                 if 'substacks' in data and isinstance(data['substacks'], list):
                     return data['substacks']
                 else:
                     logging.error("The 'substacks' key is missing or not a list in substacks.json.")
                     return []
-        except FileNotFoundError:
-            logging.error("File data/substacks.json not found.")
-            return []
-        except json.JSONDecodeError:
-            logging.error("Error decoding JSON from data/substacks.json.")
-            return []
         except Exception as e:
             logging.error(f"Error loading Substack data: {str(e)}")
             return []
 
-    def get_feed_url(self, publication_data: Dict) -> str:
+    def get_feed_url(self, publication_data: Dict[str, str]) -> str:
         """Construct the appropriate feed URL based on the publication URL."""
         url = publication_data['url'].rstrip('/')
         parsed_url = urlparse(url)
@@ -94,7 +90,12 @@ class SubstackScraper:
         except Exception:
             return text
 
-    async def fetch_publication_posts(self, session: aiohttp.ClientSession, publication_data: Dict) -> List[Dict[Any, Any]]:
+    def generate_post_id(self, publication_id: str, post_guid: str) -> str:
+        """Generate a unique ID for a post."""
+        return f"post_{publication_id}_{post_guid}"
+
+    async def fetch_publication_posts(self, session: aiohttp.ClientSession, publication_data: Dict[str, str]) -> List[SubstackPost]:
+        """Fetch and parse posts from a single publication."""
         try:
             publication_id = publication_data['id']
             publication_name = publication_data['name']
@@ -123,28 +124,34 @@ class SubstackScraper:
                                     continue
                             else:
                                 continue
-
+                            
+                            # Get description and clean it
                             description = item.find("description").text if item.find("description") is not None else ""
                             clean_description = self.clean_html(description)
                             
-                            post = {
-                                "id": f"post_{publication_id}_{item.find('guid').text.split('/')[-1]}" if item.find("guid") is not None else "",
-                                "title": item.find("title").text if item.find("title") is not None else "",
-                                "subtitle": "",  # RSS doesn't include subtitle
-                                "publication": publication_id,  # Changed to match frontend expectation
-                                "url": item.find("link").text if item.find("link") is not None else "",
-                                "post_date": post_date.isoformat(),
-                                "description": clean_description,
-                                "cover_image": self.extract_cover_image(description),
-                                "excerpt": clean_description[:200] + "..." if len(clean_description) > 200 else clean_description,
-                                "type": "substack",
-                                "metadata": {
+                            # Create post
+                            post = SubstackPost(
+                                id=self.generate_post_id(
+                                    publication_id,
+                                    item.find('guid').text.split('/')[-1] if item.find("guid") is not None else ""
+                                ),
+                                title=item.find("title").text if item.find("title") is not None else "",
+                                subtitle="",  # Substack RSS doesn't include subtitles
+                                publication=publication_id,
+                                url=item.find("link").text if item.find("link") is not None else "",
+                                post_date=post_date,
+                                description=clean_description,
+                                cover_image=self.extract_cover_image(description),
+                                excerpt=clean_description[:200] + "..." if len(clean_description) > 200 else clean_description,
+                                metadata={
                                     "source": publication_data['url'],
                                     "description": publication_data.get('description', ''),
-                                    "publication_name": publication_name  # Moved to metadata
+                                    "publication_name": publication_name
                                 }
-                            }
+                            )
+                            
                             posts.append(post)
+                            
                         except Exception as e:
                             logging.warning(f"Error processing post from {publication_name}: {str(e)}")
                             continue
@@ -158,41 +165,62 @@ class SubstackScraper:
             logging.error(f"Error fetching posts from {publication_name}: {str(e)}")
             return []
 
-    async def scrape(self):
+    async def scrape_posts(self) -> List[SubstackPost]:
+        """Scrape posts from all Substack publications."""
+        logging.info("Starting substack scraper...")
+        
+        async def run_scraper():
+            try:
+                timeout = aiohttp.ClientTimeout(total=30)  # 30 seconds timeout
+                async with aiohttp.ClientSession(timeout=timeout) as session:
+                    tasks = []
+                    for publication in self.substack_data:
+                        tasks.append(self.fetch_publication_posts(session, publication))
+                    results = await asyncio.gather(*tasks, return_exceptions=True)
+                    
+                    all_posts = []
+                    for posts in results:
+                        if isinstance(posts, list):
+                            all_posts.extend(posts)
+                    return all_posts
+            except Exception as e:
+                logging.error(f"Error in scraper: {str(e)}")
+                return []
+
         try:
-            timeout = aiohttp.ClientTimeout(total=30)  # 30 seconds timeout
-            async with aiohttp.ClientSession(timeout=timeout) as session:
-                tasks = [self.fetch_publication_posts(session, pub) for pub in self.substack_data]
-                results = await asyncio.gather(*tasks, return_exceptions=True)
-                
-                # Filter out exceptions and flatten the list of posts
-                all_posts = []
-                for result in results:
-                    if isinstance(result, list):
-                        all_posts.extend(result)
-                    else:
-                        logging.error(f"Error in result: {str(result)}")
-                
-                # Sort by post date
-                all_posts.sort(key=lambda x: x.get("post_date", ""), reverse=True)
-                
-                # Save to JSON file
-                with open(self.output_file, 'w', encoding='utf-8') as f:
-                    json.dump({
-                        "last_updated": datetime.now(timezone.utc).isoformat(),
-                        "total_posts": len(all_posts),
-                        "posts": all_posts
-                    }, f, indent=2, ensure_ascii=False)
-                
-                logging.info(f"Successfully saved {len(all_posts)} posts to {self.output_file}")
-                return all_posts
+            posts = await run_scraper()
+            
+            # Save posts to file
+            posts_data = [
+                {
+                    "id": post.id,
+                    "title": post.title,
+                    "subtitle": post.subtitle,
+                    "publication": post.publication,
+                    "url": post.url,
+                    "post_date": post.post_date.isoformat(),
+                    "description": post.description,
+                    "cover_image": post.cover_image,
+                    "excerpt": post.excerpt,
+                    "type": post.type,
+                    "metadata": post.metadata
+                }
+                for post in posts
+            ]
+            
+            with open(self.output_file, 'w', encoding='utf-8') as f:
+                json.dump({"posts": posts_data}, f, indent=2, ensure_ascii=False)
+            
+            logging.info(f"Successfully saved {len(posts)} posts to {self.output_file}")
+            return posts
+            
         except Exception as e:
-            logging.error(f"Error in scrape process: {str(e)}")
+            logging.error(f"Error running scraper: {str(e)}")
             return []
 
-async def main():
+def main():
     scraper = SubstackScraper()
-    await scraper.scrape()
+    scraper.run()
 
 if __name__ == "__main__":
-    asyncio.run(main())
+    main()

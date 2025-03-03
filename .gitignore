@@ -14,7 +14,6 @@ package-lock.json
 
 # production
 /build
-/scripts/
 # misc
 .DS_Store
 *.pem
@@ -23,7 +22,6 @@ package-lock.json
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-/scripts/.
 # local env files
 .env*.local
 TODO.md

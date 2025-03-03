@@ -1,205 +1,231 @@
-2025-02-16 17:53:55,376 - INFO - Found 9 upcoming events
-2025-02-16 17:53:55,718 - INFO - Found 0 upcoming events
-2025-02-16 17:53:56,343 - INFO - Found 3 upcoming events
-2025-02-16 17:53:56,878 - INFO - Found 0 upcoming events
-2025-02-16 17:53:57,372 - INFO - Found 7 upcoming events
-2025-02-16 17:53:57,978 - INFO - Found 1 upcoming events
-2025-02-16 17:53:58,496 - INFO - Found 3 upcoming events
-2025-02-16 17:53:59,083 - INFO - Found 2 upcoming events
-2025-02-16 17:53:59,612 - INFO - Found 0 upcoming events
-2025-02-16 17:54:00,222 - INFO - Found 2 upcoming events
-2025-02-16 17:54:00,665 - INFO - Found 4 upcoming events
-2025-02-16 17:54:01,150 - INFO - Found 3 upcoming events
-2025-02-16 17:54:51,278 - INFO - Requesting URL: https://api.lu.ma/search/get-results?query=usr-lQlACh921EGmZvq
-2025-02-16 17:54:51,750 - INFO - Response status: 200
-2025-02-16 17:54:51,750 - INFO - Found 0 raw events
-2025-02-16 17:54:51,750 - INFO - Successfully converted 0/0 events
-2025-02-16 17:54:51,751 - INFO - Requesting URL: https://api.lu.ma/search/get-results?query=nycgatherings
-2025-02-16 17:54:52,352 - INFO - Response status: 200
-2025-02-16 17:54:52,353 - INFO - Found 0 raw events
-2025-02-16 17:54:52,353 - INFO - Successfully converted 0/0 events
-2025-02-16 17:54:52,354 - INFO - Requesting URL: https://api.lu.ma/search/get-results?query=maximumnewyork
-2025-02-16 17:54:53,061 - INFO - Response status: 200
-2025-02-16 17:54:53,061 - INFO - Found 0 raw events
-2025-02-16 17:54:53,061 - INFO - Successfully converted 0/0 events
-2025-02-16 17:54:53,062 - INFO - Requesting URL: https://api.lu.ma/search/get-results?query=otwc
-2025-02-16 17:54:53,574 - INFO - Response status: 200
-2025-02-16 17:54:53,575 - INFO - Found 0 raw events
-2025-02-16 17:54:53,575 - INFO - Successfully converted 0/0 events
-2025-02-16 17:54:53,576 - INFO - Requesting URL: https://api.lu.ma/search/get-results?query=climatecafe
-2025-02-16 17:54:54,082 - INFO - Response status: 200
-2025-02-16 17:54:54,082 - INFO - Found 0 raw events
-2025-02-16 17:54:54,082 - INFO - Successfully converted 0/0 events
-2025-02-16 17:54:54,083 - INFO - Requesting URL: https://api.lu.ma/search/get-results?query=derprojectfair
-2025-02-16 17:54:54,461 - INFO - Response status: 200
-2025-02-16 17:54:54,461 - INFO - Found 0 raw events
-2025-02-16 17:54:54,461 - INFO - Successfully converted 0/0 events
-2025-02-16 17:54:54,462 - INFO - Requesting URL: https://api.lu.ma/search/get-results?query=olios
-2025-02-16 17:54:54,997 - INFO - Response status: 200
-2025-02-16 17:54:54,997 - INFO - Found 0 raw events
-2025-02-16 17:54:54,998 - INFO - Successfully converted 0/0 events
-2025-02-16 17:54:54,998 - INFO - Requesting URL: https://api.lu.ma/search/get-results?query=readingrhythms-manhattan
-2025-02-16 17:54:55,218 - INFO - Response status: 200
-2025-02-16 17:54:55,218 - INFO - Found 0 raw events
-2025-02-16 17:54:55,218 - INFO - Successfully converted 0/0 events
-2025-02-16 17:54:55,219 - INFO - Requesting URL: https://api.lu.ma/search/get-results?query=walkclub
-2025-02-16 17:54:55,707 - INFO - Response status: 200
-2025-02-16 17:54:55,707 - INFO - Found 0 raw events
-2025-02-16 17:54:55,707 - INFO - Successfully converted 0/0 events
-2025-02-16 17:54:55,708 - INFO - Requesting URL: https://api.lu.ma/search/get-results?query=nycbackgammonclub
-2025-02-16 17:54:56,129 - INFO - Response status: 200
-2025-02-16 17:54:56,129 - INFO - Found 0 raw events
-2025-02-16 17:54:56,129 - INFO - Successfully converted 0/0 events
-2025-02-16 17:54:56,130 - INFO - Requesting URL: https://api.lu.ma/search/get-results?query=ny-hardware-meetup
-2025-02-16 17:54:56,307 - INFO - Response status: 200
-2025-02-16 17:54:56,307 - INFO - Found 0 raw events
-2025-02-16 17:54:56,308 - INFO - Successfully converted 0/0 events
-2025-02-16 17:54:56,308 - INFO - Requesting URL: https://api.lu.ma/search/get-results?query=lacremedelastem
-2025-02-16 17:54:56,888 - INFO - Response status: 200
-2025-02-16 17:54:56,889 - INFO - Found 0 raw events
-2025-02-16 17:54:56,889 - INFO - Successfully converted 0/0 events
-2025-02-16 17:54:56,890 - INFO - Requesting URL: https://api.lu.ma/search/get-results?query=southparkcommons-events
-2025-02-16 17:54:57,363 - INFO - Response status: 200
-2025-02-16 17:54:57,364 - INFO - Found 0 raw events
-2025-02-16 17:54:57,364 - INFO - Successfully converted 0/0 events
-2025-02-16 17:54:57,365 - INFO - Requesting URL: https://api.lu.ma/search/get-results?query=verci
-2025-02-16 17:54:57,818 - INFO - Response status: 200
-2025-02-16 17:54:57,819 - INFO - Found 0 raw events
-2025-02-16 17:54:57,819 - INFO - Successfully converted 0/0 events
-2025-02-16 17:54:57,819 - INFO - Requesting URL: https://api.lu.ma/search/get-results?query=nyc
-2025-02-16 17:54:58,486 - INFO - Response status: 200
-2025-02-16 17:54:58,487 - INFO - Found 2 raw events
-2025-02-16 17:54:58,577 - INFO - Successfully converted 2/2 events
-2025-02-16 18:14:22,597 - INFO - Requesting URL: https://api.lu.ma/ics/get?entity=calendar&id=True
-2025-02-16 18:14:23,117 - ERROR - HTTP Error: 404 - {"message":"Could not find data.","code":null}
-2025-02-16 18:14:23,117 - INFO - Requesting URL: https://api.lu.ma/ics/get?entity=calendar&id=True
-2025-02-16 18:14:23,481 - ERROR - HTTP Error: 404 - {"message":"Could not find data.","code":null}
-2025-02-16 18:14:23,482 - INFO - Requesting URL: https://api.lu.ma/ics/get?entity=calendar&id=True
-2025-02-16 18:14:23,978 - ERROR - HTTP Error: 404 - {"message":"Could not find data.","code":null}
-2025-02-16 18:14:23,979 - INFO - Requesting URL: https://api.lu.ma/ics/get?entity=calendar&id=True
-2025-02-16 18:14:24,141 - ERROR - HTTP Error: 404 - {"message":"Could not find data.","code":null}
-2025-02-16 18:14:24,142 - INFO - Requesting URL: https://api.lu.ma/ics/get?entity=calendar&id=True
-2025-02-16 18:14:24,613 - ERROR - HTTP Error: 404 - {"message":"Could not find data.","code":null}
-2025-02-16 18:14:24,614 - INFO - Requesting URL: https://api.lu.ma/ics/get?entity=calendar&id=True
-2025-02-16 18:14:25,043 - ERROR - HTTP Error: 404 - {"message":"Could not find data.","code":null}
-2025-02-16 18:14:25,044 - INFO - Requesting URL: https://api.lu.ma/ics/get?entity=calendar&id=True
-2025-02-16 18:14:25,209 - ERROR - HTTP Error: 404 - {"message":"Could not find data.","code":null}
-2025-02-16 18:14:25,210 - INFO - Requesting URL: https://api.lu.ma/ics/get?entity=calendar&id=True
-2025-02-16 18:14:25,625 - ERROR - HTTP Error: 404 - {"message":"Could not find data.","code":null}
-2025-02-16 18:14:25,625 - INFO - Requesting URL: https://api.lu.ma/ics/get?entity=calendar&id=True
-2025-02-16 18:14:25,986 - ERROR - HTTP Error: 404 - {"message":"Could not find data.","code":null}
-2025-02-16 18:14:25,986 - INFO - Requesting URL: https://api.lu.ma/ics/get?entity=calendar&id=True
-2025-02-16 18:14:26,363 - ERROR - HTTP Error: 404 - {"message":"Could not find data.","code":null}
-2025-02-16 18:14:26,364 - INFO - Requesting URL: https://api.lu.ma/ics/get?entity=calendar&id=True
-2025-02-16 18:14:26,736 - ERROR - HTTP Error: 404 - {"message":"Could not find data.","code":null}
-2025-02-16 18:14:26,738 - INFO - Requesting URL: https://api.lu.ma/ics/get?entity=calendar&id=True
-2025-02-16 18:14:26,887 - ERROR - HTTP Error: 404 - {"message":"Could not find data.","code":null}
-2025-02-16 18:14:26,887 - INFO - Requesting URL: https://api.lu.ma/ics/get?entity=calendar&id=True
-2025-02-16 18:14:27,284 - ERROR - HTTP Error: 404 - {"message":"Could not find data.","code":null}
-2025-02-16 18:16:58,300 - INFO - Found 9 upcoming events
-2025-02-16 18:16:59,168 - INFO - Found 0 upcoming events
-2025-02-16 18:16:59,870 - INFO - Found 3 upcoming events
-2025-02-16 18:17:00,467 - INFO - Found 0 upcoming events
-2025-02-16 18:17:01,339 - INFO - Found 7 upcoming events
-2025-02-16 18:17:01,930 - INFO - Found 1 upcoming events
-2025-02-16 18:17:02,390 - INFO - Found 3 upcoming events
-2025-02-16 18:17:02,828 - INFO - Found 2 upcoming events
-2025-02-16 18:17:03,455 - INFO - Found 0 upcoming events
-2025-02-16 18:17:03,941 - INFO - Found 2 upcoming events
-2025-02-16 18:17:04,439 - INFO - Found 4 upcoming events
-2025-02-16 18:17:04,940 - INFO - Found 3 upcoming events
-2025-02-16 18:17:08,928 - INFO - Found 9 upcoming events
-2025-02-16 18:17:09,535 - INFO - Found 0 upcoming events
-2025-02-16 18:17:10,082 - INFO - Found 3 upcoming events
-2025-02-16 18:17:10,612 - INFO - Found 0 upcoming events
-2025-02-16 18:17:11,308 - INFO - Found 7 upcoming events
-2025-02-16 18:17:12,623 - INFO - Found 1 upcoming events
-2025-02-16 18:17:14,134 - INFO - Found 3 upcoming events
-2025-02-16 18:17:14,669 - INFO - Found 2 upcoming events
-2025-02-16 18:17:15,259 - INFO - Found 0 upcoming events
-2025-02-16 18:17:15,507 - INFO - Found 2 upcoming events
-2025-02-16 18:17:16,508 - INFO - Found 4 upcoming events
-2025-02-16 18:17:16,884 - INFO - Found 3 upcoming events
-2025-02-16 18:17:44,383 - INFO - Requesting URL: https://api.nyc.gov/calendar/search with page 1 for category: Kids and Family
-2025-02-16 18:17:46,270 - INFO - Successfully scraped 12 Kids and Family events from page 1
-2025-02-16 18:17:46,772 - INFO - Requesting URL: https://api.nyc.gov/calendar/search with page 2 for category: Kids and Family
-2025-02-16 18:17:47,432 - INFO - Successfully scraped 12 Kids and Family events from page 2
-2025-02-16 18:17:47,934 - INFO - Requesting URL: https://api.nyc.gov/calendar/search with page 3 for category: Kids and Family
-2025-02-16 18:17:48,147 - INFO - Successfully scraped 12 Kids and Family events from page 3
-2025-02-16 18:17:48,648 - INFO - Requesting URL: https://api.nyc.gov/calendar/search with page 4 for category: Kids and Family
-2025-02-16 18:17:48,870 - INFO - Successfully scraped 12 Kids and Family events from page 4
-2025-02-16 18:17:49,370 - INFO - Requesting URL: https://api.nyc.gov/calendar/search with page 5 for category: Kids and Family
-2025-02-16 18:17:49,589 - INFO - Successfully scraped 12 Kids and Family events from page 5
-2025-02-16 18:17:50,090 - INFO - Requesting URL: https://api.nyc.gov/calendar/search with page 6 for category: Kids and Family
-2025-02-16 18:17:50,321 - INFO - Successfully scraped 12 Kids and Family events from page 6
-2025-02-16 18:17:50,822 - INFO - Requesting URL: https://api.nyc.gov/calendar/search with page 7 for category: Kids and Family
-2025-02-16 18:17:51,044 - INFO - Successfully scraped 12 Kids and Family events from page 7
-2025-02-16 18:17:51,546 - INFO - Requesting URL: https://api.nyc.gov/calendar/search with page 8 for category: Kids and Family
-2025-02-16 18:17:51,778 - INFO - Successfully scraped 12 Kids and Family events from page 8
-2025-02-16 18:17:52,280 - INFO - Requesting URL: https://api.nyc.gov/calendar/search with page 9 for category: Kids and Family
-2025-02-16 18:17:52,513 - INFO - Successfully scraped 12 Kids and Family events from page 9
-2025-02-16 18:17:53,015 - INFO - Requesting URL: https://api.nyc.gov/calendar/search with page 10 for category: Kids and Family
-2025-02-16 18:17:53,225 - INFO - Successfully scraped 12 Kids and Family events from page 10
-2025-02-16 18:17:53,727 - INFO - Requesting URL: https://api.nyc.gov/calendar/search with page 11 for category: Kids and Family
-2025-02-16 18:17:53,912 - INFO - Successfully scraped 3 Kids and Family events from page 11
-2025-02-16 18:17:54,414 - INFO - Requesting URL: https://api.nyc.gov/calendar/search with page 12 for category: Kids and Family
-2025-02-16 18:17:54,620 - INFO - No events found for Kids and Family on page 12
-2025-02-16 18:17:54,621 - INFO - Empty page 12 for Kids and Family (empty pages: 1)
-2025-02-16 18:17:54,621 - INFO - No more events indicated for Kids and Family
-2025-02-16 18:17:54,621 - INFO - Completed scraping 123 Kids and Family events from 12 pages
-2025-02-16 18:17:54,621 - INFO - Requesting URL: https://api.nyc.gov/calendar/search with page 1 for category: Street and Neighborhood
-2025-02-16 18:17:54,895 - INFO - Successfully scraped 12 Street and Neighborhood events from page 1
-2025-02-16 18:17:55,397 - INFO - Requesting URL: https://api.nyc.gov/calendar/search with page 2 for category: Street and Neighborhood
-2025-02-16 18:17:55,631 - INFO - Successfully scraped 12 Street and Neighborhood events from page 2
-2025-02-16 18:17:56,132 - INFO - Requesting URL: https://api.nyc.gov/calendar/search with page 3 for category: Street and Neighborhood
-2025-02-16 18:17:56,412 - INFO - Successfully scraped 12 Street and Neighborhood events from page 3
-2025-02-16 18:17:56,913 - INFO - Requesting URL: https://api.nyc.gov/calendar/search with page 4 for category: Street and Neighborhood
-2025-02-16 18:17:57,142 - INFO - Successfully scraped 12 Street and Neighborhood events from page 4
-2025-02-16 18:17:57,644 - INFO - Requesting URL: https://api.nyc.gov/calendar/search with page 5 for category: Street and Neighborhood
-2025-02-16 18:17:57,868 - INFO - Successfully scraped 12 Street and Neighborhood events from page 5
-2025-02-16 18:17:58,369 - INFO - Requesting URL: https://api.nyc.gov/calendar/search with page 6 for category: Street and Neighborhood
-2025-02-16 18:17:58,584 - INFO - Successfully scraped 12 Street and Neighborhood events from page 6
-2025-02-16 18:17:59,085 - INFO - Requesting URL: https://api.nyc.gov/calendar/search with page 7 for category: Street and Neighborhood
-2025-02-16 18:17:59,382 - INFO - Successfully scraped 12 Street and Neighborhood events from page 7
-2025-02-16 18:17:59,883 - INFO - Requesting URL: https://api.nyc.gov/calendar/search with page 8 for category: Street and Neighborhood
-2025-02-16 18:18:00,693 - INFO - Successfully scraped 12 Street and Neighborhood events from page 8
-2025-02-16 18:18:01,194 - INFO - Requesting URL: https://api.nyc.gov/calendar/search with page 9 for category: Street and Neighborhood
-2025-02-16 18:18:01,970 - INFO - Successfully scraped 12 Street and Neighborhood events from page 9
-2025-02-16 18:18:02,472 - INFO - Requesting URL: https://api.nyc.gov/calendar/search with page 10 for category: Street and Neighborhood
-2025-02-16 18:18:02,983 - INFO - Successfully scraped 12 Street and Neighborhood events from page 10
-2025-02-16 18:18:03,484 - INFO - Requesting URL: https://api.nyc.gov/calendar/search with page 11 for category: Street and Neighborhood
-2025-02-16 18:18:03,775 - INFO - Successfully scraped 12 Street and Neighborhood events from page 11
-2025-02-16 18:18:04,277 - INFO - Requesting URL: https://api.nyc.gov/calendar/search with page 12 for category: Street and Neighborhood
-2025-02-16 18:18:04,562 - INFO - Successfully scraped 12 Street and Neighborhood events from page 12
-2025-02-16 18:18:05,063 - INFO - Requesting URL: https://api.nyc.gov/calendar/search with page 13 for category: Street and Neighborhood
-2025-02-16 18:18:05,443 - INFO - Successfully scraped 12 Street and Neighborhood events from page 13
-2025-02-16 18:18:05,944 - INFO - Requesting URL: https://api.nyc.gov/calendar/search with page 14 for category: Street and Neighborhood
-2025-02-16 18:18:06,307 - INFO - Successfully scraped 12 Street and Neighborhood events from page 14
-2025-02-16 18:18:06,808 - INFO - Requesting URL: https://api.nyc.gov/calendar/search with page 15 for category: Street and Neighborhood
-2025-02-16 18:18:07,209 - INFO - Successfully scraped 12 Street and Neighborhood events from page 15
-2025-02-16 18:18:07,711 - INFO - Requesting URL: https://api.nyc.gov/calendar/search with page 16 for category: Street and Neighborhood
-2025-02-16 18:18:07,999 - INFO - Successfully scraped 12 Street and Neighborhood events from page 16
-2025-02-16 18:18:08,501 - INFO - Requesting URL: https://api.nyc.gov/calendar/search with page 17 for category: Street and Neighborhood
-2025-02-16 18:18:08,884 - INFO - Successfully scraped 12 Street and Neighborhood events from page 17
-2025-02-16 18:18:09,385 - INFO - Requesting URL: https://api.nyc.gov/calendar/search with page 18 for category: Street and Neighborhood
-2025-02-16 18:18:09,736 - INFO - Successfully scraped 12 Street and Neighborhood events from page 18
-2025-02-16 18:18:10,237 - INFO - Requesting URL: https://api.nyc.gov/calendar/search with page 19 for category: Street and Neighborhood
-2025-02-16 18:18:10,466 - INFO - Successfully scraped 12 Street and Neighborhood events from page 19
-2025-02-16 18:18:10,968 - INFO - Requesting URL: https://api.nyc.gov/calendar/search with page 20 for category: Street and Neighborhood
-2025-02-16 18:18:11,230 - INFO - Successfully scraped 12 Street and Neighborhood events from page 20
-2025-02-16 18:18:11,733 - INFO - Completed scraping 240 Street and Neighborhood events from 21 pages
-2025-02-16 18:18:11,733 - INFO - Completed scraping 363 total events
-2025-02-16 18:20:12,958 - INFO - Requesting URL: https://www.nycgovparks.org/events
-2025-02-16 18:20:31,884 - INFO - Successfully scraped 50 events
-2025-02-18 17:11:09,617 - INFO - Found 13 upcoming events
-2025-02-18 17:11:13,192 - INFO - Found 0 upcoming events
-2025-02-18 17:11:14,611 - INFO - Found 3 upcoming events
-2025-02-18 17:11:15,732 - INFO - Found 0 upcoming events
-2025-02-18 17:11:17,376 - INFO - Found 7 upcoming events
-2025-02-18 17:11:18,308 - INFO - Found 1 upcoming events
-2025-02-18 17:11:19,007 - INFO - Found 3 upcoming events
-2025-02-18 17:11:20,114 - INFO - Found 2 upcoming events
-2025-02-18 17:11:20,769 - INFO - Found 0 upcoming events
-2025-02-18 17:11:21,769 - INFO - Found 3 upcoming events
-2025-02-18 17:11:22,601 - INFO - Found 14 upcoming events
-2025-02-18 17:11:23,301 - INFO - Found 4 upcoming events
+2025-03-02 17:54:52,202 - INFO - Loading locations from C:\Users\jsper\dev\Github\nycevents\public/data\locations.json
+2025-03-02 17:54:52,203 - INFO - Loading communities from C:\Users\jsper\dev\Github\nycevents\public/data\communities.json
+2025-03-02 17:54:52,204 - INFO - Starting RAID NYC scraper
+2025-03-02 17:54:52,204 - INFO - Fetching events from https://api.lu.ma/v1/public/calendar/raid
+2025-03-02 17:54:52,669 - ERROR - Error scraping events: 404 Client Error: Not Found for url: https://api.lu.ma/v1/public/calendar/raid
+2025-03-02 17:54:52,669 - INFO - Finished RAID NYC scraper
+2025-03-03 09:41:00,663 - INFO - Found 0 upcoming events
+2025-03-03 09:41:01,405 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-Wn4PhccXcIJmdfj
+2025-03-03 09:41:02,279 - INFO - Found 1 upcoming events
+2025-03-03 09:41:04,173 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-Wn4PhccXcIJmdfj
+2025-03-03 09:41:05,455 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-KBzKfEQ6zQtMHJS
+2025-03-03 09:41:06,359 - INFO - Found 1 upcoming events
+2025-03-03 09:41:06,360 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-KBzKfEQ6zQtMHJS
+2025-03-03 09:41:08,457 - INFO - Fetching details from Luma event URL: https://lu.ma/mbu4l4ac
+2025-03-03 09:41:09,127 - INFO - Fetching details from Luma event URL: https://lu.ma/hj4wfh8n
+2025-03-03 09:41:09,564 - INFO - Found 2 upcoming events
+2025-03-03 09:41:10,047 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-KaRsWnUBaO7m5Ck
+2025-03-03 09:41:10,659 - INFO - Fetching details from Luma event URL: https://lu.ma/e1fwkxvt
+2025-03-03 09:41:11,050 - INFO - Found 2 upcoming events
+2025-03-03 09:41:11,050 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-KaRsWnUBaO7m5Ck
+2025-03-03 09:41:12,079 - INFO - Fetching details from Luma event URL: https://lu.ma/thirdplacebarnyc
+2025-03-03 09:41:12,463 - INFO - Fetching details from Luma event URL: https://lu.ma/ylk4ky6s
+2025-03-03 09:41:12,755 - INFO - Fetching details from Luma event URL: https://lu.ma/yxbmpe6w
+2025-03-03 09:41:13,158 - INFO - Found 3 upcoming events
+2025-03-03 09:41:13,648 - INFO - Fetching details from Luma event URL: https://lu.ma/x58kfr7r
+2025-03-03 09:41:14,058 - INFO - Fetching details from Luma event URL: https://lu.ma/mux5n3fp
+2025-03-03 09:41:14,403 - INFO - Fetching details from Luma event URL: https://lu.ma/o6movhkg
+2025-03-03 09:41:14,779 - INFO - Found 3 upcoming events
+2025-03-03 09:41:15,373 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-oIvDaa63ZqUjhh1
+2025-03-03 09:41:15,928 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-FjTPXSgqSm8jr7V
+2025-03-03 09:41:16,377 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-v8lhdyVVBBC8LvB
+2025-03-03 09:41:16,948 - INFO - Found 3 upcoming events
+2025-03-03 09:41:16,949 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-oIvDaa63ZqUjhh1
+2025-03-03 09:41:17,632 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-FjTPXSgqSm8jr7V
+2025-03-03 09:41:18,358 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-v8lhdyVVBBC8LvB
+2025-03-03 09:50:17,285 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-03 09:50:18,021 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-03 09:50:18,641 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/r3p252x2
+2025-03-03 09:50:18,641 - INFO - Fetching details from Luma event URL: https://lu.ma/r3p252x2
+2025-03-03 09:50:19,157 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/gxs2mzhq
+2025-03-03 09:50:19,157 - INFO - Fetching details from Luma event URL: https://lu.ma/gxs2mzhq
+2025-03-03 09:50:19,792 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/j7ivki67
+2025-03-03 09:50:19,793 - INFO - Fetching details from Luma event URL: https://lu.ma/j7ivki67
+2025-03-03 09:50:20,395 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/7g3v557t
+2025-03-03 09:50:20,396 - INFO - Fetching details from Luma event URL: https://lu.ma/7g3v557t
+2025-03-03 09:50:20,976 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/nyc-tech
+2025-03-03 09:50:20,976 - INFO - Fetching details from Luma event URL: https://lu.ma/nyc-tech
+2025-03-03 09:50:21,638 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/nyc-tech
+2025-03-03 09:50:21,638 - INFO - Fetching details from Luma event URL: https://lu.ma/nyc-tech
+2025-03-03 09:50:22,215 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/u6rdfq50
+2025-03-03 09:50:22,216 - INFO - Fetching details from Luma event URL: https://lu.ma/u6rdfq50
+2025-03-03 09:50:22,527 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-03 09:50:22,995 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-03 09:50:23,588 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-03 09:50:24,214 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/spc-satya-nadella
+2025-03-03 09:50:24,214 - INFO - Fetching details from Luma event URL: https://lu.ma/spc-satya-nadella
+2025-03-03 09:50:24,610 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/bilt-rewards-spc
+2025-03-03 09:50:24,611 - INFO - Fetching details from Luma event URL: https://lu.ma/bilt-rewards-spc
+2025-03-03 09:50:24,974 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-03 09:50:25,531 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/qwiqx8hg
+2025-03-03 09:50:25,531 - INFO - Fetching details from Luma event URL: https://lu.ma/qwiqx8hg
+2025-03-03 09:50:25,862 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/verci
+2025-03-03 09:50:25,863 - INFO - Fetching details from Luma event URL: https://lu.ma/verci
+2025-03-03 09:50:26,244 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/verci
+2025-03-03 09:50:26,244 - INFO - Fetching details from Luma event URL: https://lu.ma/verci
+2025-03-03 09:50:26,546 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/verci
+2025-03-03 09:50:26,546 - INFO - Fetching details from Luma event URL: https://lu.ma/verci
+2025-03-03 09:50:26,868 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-03 09:50:27,249 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/j7ivki67
+2025-03-03 09:50:27,249 - INFO - Fetching details from Luma event URL: https://lu.ma/j7ivki67
+2025-03-03 09:52:24,877 - INFO - Found 0 upcoming events
+2025-03-03 09:52:25,111 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-Wn4PhccXcIJmdfj
+2025-03-03 09:52:26,472 - INFO - Found 1 upcoming events
+2025-03-03 09:52:26,523 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-Wn4PhccXcIJmdfj
+2025-03-03 09:52:27,529 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-KBzKfEQ6zQtMHJS
+2025-03-03 09:52:28,123 - INFO - Found 1 upcoming events
+2025-03-03 09:52:28,123 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-KBzKfEQ6zQtMHJS
+2025-03-03 09:52:29,136 - INFO - Fetching details from Luma event URL: https://lu.ma/mbu4l4ac
+2025-03-03 09:52:29,672 - INFO - Fetching details from Luma event URL: https://lu.ma/hj4wfh8n
+2025-03-03 09:52:30,124 - INFO - Found 2 upcoming events
+2025-03-03 09:52:30,345 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-KaRsWnUBaO7m5Ck
+2025-03-03 09:52:30,911 - INFO - Fetching details from Luma event URL: https://lu.ma/e1fwkxvt
+2025-03-03 09:52:31,293 - INFO - Found 2 upcoming events
+2025-03-03 09:52:31,293 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-KaRsWnUBaO7m5Ck
+2025-03-03 09:52:32,513 - INFO - Fetching details from Luma event URL: https://lu.ma/thirdplacebarnyc
+2025-03-03 09:52:32,860 - INFO - Fetching details from Luma event URL: https://lu.ma/ylk4ky6s
+2025-03-03 09:52:33,220 - INFO - Fetching details from Luma event URL: https://lu.ma/yxbmpe6w
+2025-03-03 09:52:33,601 - INFO - Found 3 upcoming events
+2025-03-03 09:52:34,066 - INFO - Fetching details from Luma event URL: https://lu.ma/x58kfr7r
+2025-03-03 09:52:34,573 - INFO - Fetching details from Luma event URL: https://lu.ma/mux5n3fp
+2025-03-03 09:52:35,012 - INFO - Fetching details from Luma event URL: https://lu.ma/o6movhkg
+2025-03-03 09:52:35,974 - INFO - Found 3 upcoming events
+2025-03-03 09:52:36,178 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-oIvDaa63ZqUjhh1
+2025-03-03 09:52:36,777 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-FjTPXSgqSm8jr7V
+2025-03-03 09:52:37,278 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-v8lhdyVVBBC8LvB
+2025-03-03 09:52:37,888 - INFO - Found 3 upcoming events
+2025-03-03 09:52:37,889 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-oIvDaa63ZqUjhh1
+2025-03-03 09:52:38,414 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-FjTPXSgqSm8jr7V
+2025-03-03 09:52:39,424 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-v8lhdyVVBBC8LvB
+2025-03-03 09:52:46,440 - INFO - Found 0 upcoming events
+2025-03-03 09:52:47,105 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-Wn4PhccXcIJmdfj
+2025-03-03 09:52:47,577 - INFO - Found 1 upcoming events
+2025-03-03 09:52:47,632 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-Wn4PhccXcIJmdfj
+2025-03-03 09:52:48,621 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-KBzKfEQ6zQtMHJS
+2025-03-03 09:52:49,162 - INFO - Found 1 upcoming events
+2025-03-03 09:52:49,162 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-KBzKfEQ6zQtMHJS
+2025-03-03 09:52:50,377 - INFO - Fetching details from Luma event URL: https://lu.ma/mbu4l4ac
+2025-03-03 09:52:51,000 - INFO - Fetching details from Luma event URL: https://lu.ma/hj4wfh8n
+2025-03-03 09:52:51,406 - INFO - Found 2 upcoming events
+2025-03-03 09:52:51,853 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-KaRsWnUBaO7m5Ck
+2025-03-03 09:52:52,388 - INFO - Fetching details from Luma event URL: https://lu.ma/e1fwkxvt
+2025-03-03 09:52:53,219 - INFO - Found 2 upcoming events
+2025-03-03 09:52:53,219 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-KaRsWnUBaO7m5Ck
+2025-03-03 09:52:56,264 - INFO - Fetching details from Luma event URL: https://lu.ma/thirdplacebarnyc
+2025-03-03 09:52:56,682 - INFO - Fetching details from Luma event URL: https://lu.ma/ylk4ky6s
+2025-03-03 09:52:57,059 - INFO - Fetching details from Luma event URL: https://lu.ma/yxbmpe6w
+2025-03-03 09:52:57,456 - INFO - Found 3 upcoming events
+2025-03-03 09:52:57,660 - INFO - Fetching details from Luma event URL: https://lu.ma/x58kfr7r
+2025-03-03 09:52:58,134 - INFO - Fetching details from Luma event URL: https://lu.ma/mux5n3fp
+2025-03-03 09:52:58,493 - INFO - Fetching details from Luma event URL: https://lu.ma/o6movhkg
+2025-03-03 09:52:58,892 - INFO - Found 3 upcoming events
+2025-03-03 09:52:59,070 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-oIvDaa63ZqUjhh1
+2025-03-03 09:52:59,630 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-FjTPXSgqSm8jr7V
+2025-03-03 09:53:00,142 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-v8lhdyVVBBC8LvB
+2025-03-03 09:53:00,643 - INFO - Found 3 upcoming events
+2025-03-03 09:53:00,643 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-oIvDaa63ZqUjhh1
+2025-03-03 09:53:01,153 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-FjTPXSgqSm8jr7V
+2025-03-03 09:53:01,575 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-v8lhdyVVBBC8LvB
+2025-03-03 10:19:30,770 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-03 10:19:31,242 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-03 10:19:31,674 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/r3p252x2
+2025-03-03 10:19:31,676 - INFO - Fetching details from Luma event URL: https://lu.ma/r3p252x2
+2025-03-03 10:19:32,077 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/gxs2mzhq
+2025-03-03 10:19:32,077 - INFO - Fetching details from Luma event URL: https://lu.ma/gxs2mzhq
+2025-03-03 10:19:32,820 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/j7ivki67
+2025-03-03 10:19:32,820 - INFO - Fetching details from Luma event URL: https://lu.ma/j7ivki67
+2025-03-03 10:19:33,169 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/7g3v557t
+2025-03-03 10:19:33,169 - INFO - Fetching details from Luma event URL: https://lu.ma/7g3v557t
+2025-03-03 10:19:33,552 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/nyc-tech
+2025-03-03 10:19:33,552 - INFO - Fetching details from Luma event URL: https://lu.ma/nyc-tech
+2025-03-03 10:19:34,191 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/nyc-tech
+2025-03-03 10:19:34,192 - INFO - Fetching details from Luma event URL: https://lu.ma/nyc-tech
+2025-03-03 10:19:34,659 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/u6rdfq50
+2025-03-03 10:19:34,660 - INFO - Fetching details from Luma event URL: https://lu.ma/u6rdfq50
+2025-03-03 10:19:34,921 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-03 10:19:35,403 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-03 10:19:36,107 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-03 10:19:36,592 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/spc-satya-nadella
+2025-03-03 10:19:36,592 - INFO - Fetching details from Luma event URL: https://lu.ma/spc-satya-nadella
+2025-03-03 10:19:36,990 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/bilt-rewards-spc
+2025-03-03 10:19:36,990 - INFO - Fetching details from Luma event URL: https://lu.ma/bilt-rewards-spc
+2025-03-03 10:19:38,034 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-03 10:19:38,560 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/qwiqx8hg
+2025-03-03 10:19:38,560 - INFO - Fetching details from Luma event URL: https://lu.ma/qwiqx8hg
+2025-03-03 10:19:38,883 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/verci
+2025-03-03 10:19:38,883 - INFO - Fetching details from Luma event URL: https://lu.ma/verci
+2025-03-03 10:19:39,316 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/verci
+2025-03-03 10:19:39,316 - INFO - Fetching details from Luma event URL: https://lu.ma/verci
+2025-03-03 10:19:39,830 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/verci
+2025-03-03 10:19:39,830 - INFO - Fetching details from Luma event URL: https://lu.ma/verci
+2025-03-03 10:19:40,365 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-03 10:19:40,812 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/j7ivki67
+2025-03-03 10:19:40,812 - INFO - Fetching details from Luma event URL: https://lu.ma/j7ivki67
+2025-03-03 12:38:23,725 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-03 12:38:24,231 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-03 12:38:24,636 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/r3p252x2
+2025-03-03 12:38:24,637 - INFO - Fetching details from Luma event URL: https://lu.ma/r3p252x2
+2025-03-03 12:38:25,337 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/gxs2mzhq
+2025-03-03 12:38:25,337 - INFO - Fetching details from Luma event URL: https://lu.ma/gxs2mzhq
+2025-03-03 12:38:25,851 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/j7ivki67
+2025-03-03 12:38:25,852 - INFO - Fetching details from Luma event URL: https://lu.ma/j7ivki67
+2025-03-03 12:38:26,668 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/7g3v557t
+2025-03-03 12:38:26,668 - INFO - Fetching details from Luma event URL: https://lu.ma/7g3v557t
+2025-03-03 12:38:27,060 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/nyc-tech
+2025-03-03 12:38:27,061 - INFO - Fetching details from Luma event URL: https://lu.ma/nyc-tech
+2025-03-03 12:38:27,647 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/nyc-tech
+2025-03-03 12:38:27,647 - INFO - Fetching details from Luma event URL: https://lu.ma/nyc-tech
+2025-03-03 12:38:28,175 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/u6rdfq50
+2025-03-03 12:38:28,175 - INFO - Fetching details from Luma event URL: https://lu.ma/u6rdfq50
+2025-03-03 12:38:28,446 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-03 12:38:28,910 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-03 12:38:29,485 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-03 12:38:29,888 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/spc-satya-nadella
+2025-03-03 12:38:29,889 - INFO - Fetching details from Luma event URL: https://lu.ma/spc-satya-nadella
+2025-03-03 12:38:30,268 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/bilt-rewards-spc
+2025-03-03 12:38:30,268 - INFO - Fetching details from Luma event URL: https://lu.ma/bilt-rewards-spc
+2025-03-03 12:38:30,741 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-03 12:38:31,221 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/qwiqx8hg
+2025-03-03 12:38:31,222 - INFO - Fetching details from Luma event URL: https://lu.ma/qwiqx8hg
+2025-03-03 12:38:31,563 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/verci
+2025-03-03 12:38:31,563 - INFO - Fetching details from Luma event URL: https://lu.ma/verci
+2025-03-03 12:38:31,921 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/verci
+2025-03-03 12:38:31,921 - INFO - Fetching details from Luma event URL: https://lu.ma/verci
+2025-03-03 12:38:32,875 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/verci
+2025-03-03 12:38:32,876 - INFO - Fetching details from Luma event URL: https://lu.ma/verci
+2025-03-03 12:38:34,059 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-03 12:38:34,555 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/j7ivki67
+2025-03-03 12:38:34,556 - INFO - Fetching details from Luma event URL: https://lu.ma/j7ivki67
+2025-03-03 12:38:38,542 - INFO - Found 0 upcoming events
+2025-03-03 12:38:38,943 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-Wn4PhccXcIJmdfj
+2025-03-03 12:38:39,508 - INFO - Found 1 upcoming events
+2025-03-03 12:38:39,560 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-Wn4PhccXcIJmdfj
+2025-03-03 12:38:40,478 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-KBzKfEQ6zQtMHJS
+2025-03-03 12:38:41,205 - INFO - Found 1 upcoming events
+2025-03-03 12:38:41,206 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-KBzKfEQ6zQtMHJS
+2025-03-03 12:38:42,220 - INFO - Fetching details from Luma event URL: https://lu.ma/mbu4l4ac
+2025-03-03 12:38:42,717 - INFO - Fetching details from Luma event URL: https://lu.ma/hj4wfh8n
+2025-03-03 12:38:43,196 - INFO - Found 2 upcoming events
+2025-03-03 12:38:43,653 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-KaRsWnUBaO7m5Ck
+2025-03-03 12:38:44,325 - INFO - Fetching details from Luma event URL: https://lu.ma/e1fwkxvt
+2025-03-03 12:38:44,973 - INFO - Found 2 upcoming events
+2025-03-03 12:38:44,973 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-KaRsWnUBaO7m5Ck
+2025-03-03 12:38:45,986 - INFO - Fetching details from Luma event URL: https://lu.ma/thirdplacebarnyc
+2025-03-03 12:38:46,407 - INFO - Fetching details from Luma event URL: https://lu.ma/ylk4ky6s
+2025-03-03 12:38:46,961 - INFO - Fetching details from Luma event URL: https://lu.ma/yxbmpe6w
+2025-03-03 12:38:47,595 - INFO - Found 3 upcoming events
+2025-03-03 12:38:48,208 - INFO - Fetching details from Luma event URL: https://lu.ma/x58kfr7r
+2025-03-03 12:38:48,903 - INFO - Fetching details from Luma event URL: https://lu.ma/mux5n3fp
+2025-03-03 12:38:49,478 - INFO - Fetching details from Luma event URL: https://lu.ma/o6movhkg
+2025-03-03 12:38:50,031 - INFO - Found 3 upcoming events
+2025-03-03 12:38:50,245 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-oIvDaa63ZqUjhh1
+2025-03-03 12:38:50,886 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-FjTPXSgqSm8jr7V
+2025-03-03 12:38:51,364 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-v8lhdyVVBBC8LvB
+2025-03-03 12:38:51,880 - INFO - Found 3 upcoming events
+2025-03-03 12:38:51,881 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-oIvDaa63ZqUjhh1
+2025-03-03 12:38:52,387 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-FjTPXSgqSm8jr7V
+2025-03-03 12:38:52,904 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-v8lhdyVVBBC8LvB
+2025-03-03 13:41:39,845 - INFO - Fetching Fabrik gatherings from https://www.joinfabrik.com/gatherings
+2025-03-03 13:41:40,183 - INFO - Found 0 potential event links
+2025-03-03 13:43:55,790 - INFO - Fetching Fabrik gatherings from https://www.joinfabrik.com/gatherings
+2025-03-03 13:43:55,991 - INFO - Found 0 potential event links

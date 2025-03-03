@@ -1,14 +1,31 @@
 import os
 import json
-from typing import Dict, List
+import re
+import requests
+import logging
+from typing import Dict, List, Optional
 from googleapiclient.discovery import build
 from datetime import datetime, UTC
+from calendar_configs import GOOGLE_CALENDARS
+from dotenv import load_dotenv
+from bs4 import BeautifulSoup
 
+# Import the get_luma_event_details function from ics_calendar_scraper
+from ics_calendar_scraper import get_luma_event_details
+
+# Load environment variables from .env.local
+load_dotenv(dotenv_path='../../.env.local')
+
+# Configure logging
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s',
+)
 
 # Load locations data
 def load_locations() -> Dict:
     try:
-        with open('../../data/locations.json', 'r', encoding='utf-8') as f:
+        with open('../../public/data/locations.json', 'r', encoding='utf-8') as f:
             return {loc['id']: loc for loc in json.load(f).get('locations', [])}
     except Exception as e:
         print(f"Error loading locations: {e}")
@@ -17,55 +34,13 @@ def load_locations() -> Dict:
 # Load communities data
 def load_communities() -> Dict:
     try:
-        with open('../../data/communities.json', 'r', encoding='utf-8') as f:
+        with open('../../public/data/communities.json', 'r', encoding='utf-8') as f:
             return {com['id']: com for com in json.load(f).get('communities', [])}
     except Exception as e:
         print(f"Error loading communities: {e}")
         return {}
 
 # Google Calendar Sources
-GOOGLE_CALENDARS = {
-    "shop": {
-        "id": "c_714ebf50b82d53ce38c86b95bc756c94cc7eacc6d4564ee46e27c99db8884728@group.calendar.google.com",
-        "community_id": "com_principles"
-    },
-    "woodbine": {
-        "id": "9c5aaff9d94fab9457557c6ed81534ff828c51de7a76c0c06d15878dee0e42ec@group.calendar.google.com",
-        "community_id": "com_woodbine",
-    },
-    "explorers_club": {
-        "id": "crk94q56n8o7fkj12h8880valiieinss@import.calendar.google.com",
-        "community_id": "com_explorers_club"
-    },
-    "effective_altruism_nyc": {
-        "id": "hbvetqf5h1pd0of0vn6uvphqts@group.calendar.google.com",
-        "community_id": "com_effective_altruism_nyc"
-    },
-    "empire_skate": {
-        "id": "i446n1u4c38ptol8a1v96foqug@group.calendar.google.com",
-        "community_id": "com_empire_skate"
-    },
-    "climate_cafe": {
-        "id": "1290diunt6bv9u92h532r0g9ro4j8g0s@import.calendar.google.com",
-        "community_id": "com_climate_cafe"
-    },
-    "reading_rhythms_manhattan": {
-        "id": "ilotg4jh39u6ie4fhifbsi2i0nkse67@import.calendar.google.com",
-        "community_id": "com_reading_rhythms"
-    },
-    "nyc_backgammon": {
-        "id": "iidj8joom64a6vm36cd6nqce55i0lko5@import.calendar.google.com",
-        "community_id": "com_nyc_backgammon"
-    },
-    "south_park_commons": {
-        "id": "bfptu3ajdae5cc2k16cvs1amenbft762@import.calendar.google.com",
-        "community_id": "com_south_park_commons"
-    },
-    "verci": {
-        "id": "pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com",
-        "community_id": "com_verci"
-    }
-}
 
 API_KEY = os.getenv("GOOGLE_API_KEY")
 LOCATIONS = load_locations()
@@ -122,15 +97,54 @@ def get_location_id(event_location: str, community_id: str) -> str:
     
     return ""
 
+def extract_luma_url(text: str) -> Optional[str]:
+    """Extract Luma event URL from text if present"""
+    if not text:
+        return None
+        
+    # Look for common patterns in Google Calendar description
+    patterns = [
+        r'(?:Get up-to-date information at:|More info:|RSVP:|Register:)\s*(https?://lu\.ma/\S+)',
+        r'(https?://lu\.ma/\S+)'
+    ]
+    
+    for pattern in patterns:
+        match = re.search(pattern, text)
+        if match:
+            return match.group(1).strip()
+            
+    return None
+
 def format_google_event(event: Dict, community_id: str) -> Dict:
     """Format a Google Calendar event into our standard event format."""
     start = event.get('start', {}).get('dateTime', event.get('start', {}).get('date'))
     end = event.get('end', {}).get('dateTime', event.get('end', {}).get('date'))
     
     event_id = f"evt_{community_id}_{event['id'][:8]}"
+    description = event.get('description', '')
+    
+    # Try to extract Luma event URL from description
+    luma_url = extract_luma_url(description)
+    luma_details = None
+    
+    # If we found a Luma URL, fetch additional details
+    if luma_url:
+        logging.info(f"Found Luma URL in Google Calendar event: {luma_url}")
+        luma_details = get_luma_event_details(luma_url)
     
     # Get location from event
     event_location = event.get('location', '')
+    
+    # If Luma details have better location info, use it
+    if luma_details and 'location_details' in luma_details:
+        loc_details = luma_details['location_details']
+        if loc_details.get('venue_name') or loc_details.get('address'):
+            if loc_details.get('venue_name') and loc_details.get('address'):
+                event_location = f"{loc_details['venue_name']}\n{loc_details['address']}"
+            elif loc_details.get('venue_name'):
+                event_location = loc_details['venue_name']
+            elif loc_details.get('address'):
+                event_location = loc_details['address']
     
     # Get location ID using the updated function
     location_id = get_location_id(event_location, community_id)
@@ -144,9 +158,12 @@ def format_google_event(event: Dict, community_id: str) -> Dict:
         location = LOCATIONS[location_id]
         venue_name = location.get('name', '')
         venue_address = location.get('address', event_location)
-        
+    
+    # If Luma details have location type info, use it
+    if luma_details and 'location_details' in luma_details:
+        venue_type = luma_details['location_details'].get('type', venue_type)
+    
     # Determine if registration is required based on event data
-    description = event.get('description', '')
     registration_required = any(keyword in description.lower() 
                               for keyword in ['register', 'rsvp', 'ticket', 'sign up'])
     
@@ -158,31 +175,78 @@ def format_google_event(event: Dict, community_id: str) -> Dict:
         "details": ""
     }
     
-    # Look for price information in description
-    if '$' in description:
+    # Use Luma price info if available
+    if luma_details and 'price_info' in luma_details:
+        price_info = luma_details['price_info']
+    # Otherwise, look for price information in description
+    elif '$' in description:
         price_info["type"] = "Paid"
         price_info["details"] = "See event description for pricing details"
     
+    # Use Luma categories if available, otherwise default
+    categories = ["Tech"]
+    if luma_details and 'categories' in luma_details and luma_details['categories']:
+        categories = luma_details['categories']
+    
+    # Get event image from Luma if available
+    image = ""
+    if luma_details and 'image_url' in luma_details:
+        image_url = luma_details['image_url']
+        if image_url:
+            # Generate a filename from the URL
+            import hashlib
+            image_hash = hashlib.md5(image_url.encode()).hexdigest()[:8]
+            image = f"luma-event-{image_hash}.jpg"
+    
+    # Use Luma full description if available and more detailed
+    enhanced_description = description
+    if luma_details and 'full_description' in luma_details:
+        luma_desc = luma_details['full_description']
+        # Always use the Luma description when available
+        enhanced_description = luma_desc
+    
+    # Get speakers from Luma details if available
+    speakers = []
+    if luma_details and 'speakers' in luma_details:
+        speakers = luma_details['speakers']
+    
+    # Extract capacity info if available
+    capacity = None
+    if luma_details and 'actual_capacity' in luma_details:
+        capacity = luma_details['actual_capacity']
+    
+    # Get social links if available
+    social_links = []
+    if luma_details and 'social_links' in luma_details:
+        social_links = luma_details['social_links']
+    
+    # Use Luma title if available and different
+    event_title = event.get('summary', '')
+    if luma_details and 'title' in luma_details and luma_details['title']:
+        # Only use Luma title if it's different and not empty
+        if luma_details['title'] != event_title:
+            event_title = luma_details['title']
+    
     return {
         "id": event_id,
-        "name": event.get('summary', ''),
-        "type": "",
+        "name": event_title,
+        "type": categories[0] if categories else "Tech",
         "locationId": location_id,
         "communityId": community_id,
-        "description": description,
+        "description": enhanced_description,
         "startDate": start,
         "endDate": end,
-        "category": "",
+        "category": categories,
         "price": price_info,
-        "capacity": None,
+        "capacity": capacity,
         "registrationRequired": registration_required,
         "tags": "",
-        "image": "",
+        "image": image,
         "status": "upcoming",
         "metadata": {
-            "source_url": event.get('htmlLink', ''),
+            "source_url": luma_url if luma_url else event.get('htmlLink', ''),
             "organizer": {
-                "name":  event.get('organizer', {}).get('displayName', ''),
+                "name": event.get('organizer', {}).get('displayName', ''),
                 "instagram": "",
                 "email": event.get('organizer', {}).get('email', '')
             },
@@ -191,7 +255,10 @@ def format_google_event(event: Dict, community_id: str) -> Dict:
                 "address": venue_address,
                 "type": venue_type
             },
-            "featured": False
+            "speakers": speakers,
+            "social_links": social_links,
+            "featured": False,
+            "luma_source": True if luma_url else False
         }
     }
 

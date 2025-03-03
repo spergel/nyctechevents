@@ -1,9 +1,9 @@
 'use client';
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Panel } from './Panel';
 import { CyberMap } from './CyberMap';
-import { ConsoleModule } from './ConsoleModule';
 import { HolographicDisplay } from './HolographicDisplay';
+import { DetailDialog } from './DetailDialog';
 import substackPosts from '@/public/data/substackposts.json';
 import communities from '@/public/data/communities.json';
 import locations from '@/public/data/locations.json';
@@ -86,9 +86,12 @@ interface EventsData {
 interface ConsoleLayoutProps {
   children: React.ReactNode;
   locations: Location[];
+  onLocationClick?: (location: Location) => void;
 }
 
-export function ConsoleLayout({ children, locations }: ConsoleLayoutProps) {
+export function ConsoleLayout({ children, locations, onLocationClick }: ConsoleLayoutProps) {
+  const [selectedEvent, setSelectedEvent] = useState<ImportedEvent | null>(null);
+
   const formatDate = (dateString: string) => {
     const date = new Date(dateString);
     // Use fixed formatting that doesn't depend on locale
@@ -109,7 +112,7 @@ export function ConsoleLayout({ children, locations }: ConsoleLayoutProps) {
             <h3>COMMUNITY NEWS</h3>
             <span className="system-id">NEWS-001</span>
           </div>
-          <ConsoleModule 
+          <Panel 
             variant="primary"
             footerStats={{
               left: "FEED: ACTIVE",
@@ -123,24 +126,24 @@ export function ConsoleLayout({ children, locations }: ConsoleLayoutProps) {
                 </HolographicDisplay>
               </div>
               <div className="news-feed">
-                {latestPosts.map((post) => (
-                  <a
-                    key={post.id}
-                    href={post.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
+                {events.events.slice(0, 10).map((event) => (
+                  <div
+                    key={event.id}
                     className="news-item"
+                    onClick={() => setSelectedEvent(event)}
+                    role="button"
+                    tabIndex={0}
                   >
-                    <div className="news-date">{formatDate(post.post_date)}</div>
+                    <div className="news-date">{formatDate(event.startDate)}</div>
                     <div className="news-content">
-                      <h4>{post.title}</h4>
-                      <div className="news-source">{post.publication}</div>
+                      <h4>{event.name}</h4>
+                      <div className="news-source">{event.type}</div>
                     </div>
-                  </a>
+                  </div>
                 ))}
               </div>
             </div>
-          </ConsoleModule>
+          </Panel>
         </div>
 
         <div className="left-bottom mobile-main">
@@ -148,7 +151,7 @@ export function ConsoleLayout({ children, locations }: ConsoleLayoutProps) {
             <h3>NYC DIRECTORY</h3>
             <span className="system-id">NYC-001</span>
           </div>
-          <ConsoleModule 
+          <Panel 
             variant="primary"
             footerStats={{
               left: "SIGNAL: OK",
@@ -160,7 +163,7 @@ export function ConsoleLayout({ children, locations }: ConsoleLayoutProps) {
               <div className="glow-effect"></div>
             </div>
             {React.Children.toArray(children).find(child => (child as any)?.props?.systemId === 'NYC-001')}
-          </ConsoleModule>
+          </Panel>
         </div>
       </div>
 
@@ -170,7 +173,7 @@ export function ConsoleLayout({ children, locations }: ConsoleLayoutProps) {
             <h3>LOCATION SCAN</h3>
             <span className="system-id">SCAN-004</span>
           </div>
-          <ConsoleModule 
+          <Panel 
             variant="secondary"
             footerStats={{
               left: "SCAN: ACTIVE",
@@ -181,17 +184,17 @@ export function ConsoleLayout({ children, locations }: ConsoleLayoutProps) {
               <CyberMap
                 locations={locations}
                 selectedTypes={[]}
-                onLocationClick={() => {}}
+                onLocationClick={onLocationClick}
               />
             </div>
-          </ConsoleModule>
+          </Panel>
         </div>
         <div className="system-status-container">
           <div className="section-header">
             <h3>SYSTEM STATUS</h3>
             <span className="system-id">SYS-001</span>
           </div>
-          <ConsoleModule 
+          <Panel 
             variant="monitor"
             footerStats={{
               left: "MONITORING: ACTIVE",
@@ -220,7 +223,7 @@ export function ConsoleLayout({ children, locations }: ConsoleLayoutProps) {
                 <span className="status-value">{formatDate(substackPosts.last_updated)}</span>
               </div>
             </div>
-          </ConsoleModule>
+          </Panel>
         </div>
       </div>
 
@@ -230,7 +233,7 @@ export function ConsoleLayout({ children, locations }: ConsoleLayoutProps) {
             <h3>QUICK ACCESS</h3>
             <span className="system-id">DIR-001</span>
           </div>
-          <ConsoleModule 
+          <Panel 
             variant="primary"
             footerStats={{
               left: "LINKS: 3",
@@ -238,14 +241,14 @@ export function ConsoleLayout({ children, locations }: ConsoleLayoutProps) {
             }}
           >
             {React.Children.toArray(children).find(child => (child as any)?.props?.systemId === 'DIR-001')}
-          </ConsoleModule>
+          </Panel>
         </div>
         <div className="right-data">
           <div className="section-header">
             <h3>DATA FEED</h3>
             <span className="system-id">DATA-003</span>
           </div>
-          <ConsoleModule 
+          <Panel 
             variant="primary"
             footerStats={{
               left: "ENTRIES: 24",
@@ -253,9 +256,56 @@ export function ConsoleLayout({ children, locations }: ConsoleLayoutProps) {
             }}
           >
             {React.Children.toArray(children).find(child => (child as any)?.props?.systemId === 'DATA-003')}
-          </ConsoleModule>
+          </Panel>
         </div>
       </div>
+
+      {/* Event Detail Dialog */}
+      <DetailDialog
+        title={selectedEvent?.name || ''}
+        systemId="EVT-DTL-002"
+        isOpen={!!selectedEvent}
+        onClose={() => setSelectedEvent(null)}
+      >
+        {selectedEvent && (
+          <div className="event-detail">
+            <div className="detail-section">
+              <h3>DATE & TIME</h3>
+              <p>{new Date(selectedEvent.startDate).toLocaleString()}</p>
+              {selectedEvent.endDate && (
+                <p>Until: {new Date(selectedEvent.endDate).toLocaleString()}</p>
+              )}
+            </div>
+
+            {selectedEvent.description && (
+              <div className="detail-section">
+                <h3>DESCRIPTION</h3>
+                <p className="event-description">{selectedEvent.description}</p>
+              </div>
+            )}
+
+            {selectedEvent.category && (
+              <div className="detail-section">
+                <h3>CATEGORIES</h3>
+                <div className="detail-categories">
+                  {selectedEvent.category.map((cat, i) => (
+                    <span key={i} className="category-tag">{cat}</span>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {selectedEvent.metadata && (
+              <div className="detail-section">
+                <h3>ADDITIONAL INFO</h3>
+                <pre className="metadata">
+                  {JSON.stringify(selectedEvent.metadata, null, 2)}
+                </pre>
+              </div>
+            )}
+          </div>
+        )}
+      </DetailDialog>
 
       <style jsx>{`
         .console-layout {
@@ -456,6 +506,7 @@ export function ConsoleLayout({ children, locations }: ConsoleLayoutProps) {
         }
 
         .news-item {
+          cursor: pointer;
           display: grid;
           grid-template-columns: 80px 1fr;
           gap: 1rem;
@@ -584,6 +635,10 @@ export function ConsoleLayout({ children, locations }: ConsoleLayoutProps) {
           :global(.console-module-content) {
             background: rgba(0, 20, 40, 0.8);
           }
+
+          .map-container {
+            height: 300px;
+          }
         }
 
         @media (max-width: 480px) {
@@ -593,6 +648,10 @@ export function ConsoleLayout({ children, locations }: ConsoleLayoutProps) {
 
           .system-id {
             font-size: 0.7rem;
+          }
+
+          .map-container {
+            height: 250px;
           }
         }
 
@@ -648,6 +707,57 @@ export function ConsoleLayout({ children, locations }: ConsoleLayoutProps) {
           50% {
             opacity: 0.6;
           }
+        }
+
+        .event-detail {
+          display: flex;
+          flex-direction: column;
+          gap: 2rem;
+        }
+
+        .detail-section {
+          display: flex;
+          flex-direction: column;
+          gap: 0.5rem;
+        }
+
+        .detail-section h3 {
+          color: var(--terminal-color);
+          font-family: var(--font-mono);
+          font-size: 0.9rem;
+          margin: 0;
+        }
+
+        .detail-section p {
+          color: var(--nyc-white);
+          font-size: 1rem;
+          margin: 0;
+          line-height: 1.5;
+        }
+
+        .detail-categories {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 0.5rem;
+        }
+
+        .category-tag {
+          font-size: 0.8rem;
+          padding: 0.25rem 0.5rem;
+          background: rgba(0, 255, 255, 0.1);
+          border: 1px solid var(--terminal-color);
+          color: var(--terminal-color);
+        }
+
+        .metadata {
+          font-family: var(--font-mono);
+          font-size: 0.8rem;
+          color: var(--nyc-white);
+          background: rgba(0, 20, 40, 0.3);
+          padding: 1rem;
+          border: 1px solid var(--nyc-orange);
+          white-space: pre-wrap;
+          overflow-x: auto;
         }
       `}</style>
     </div>

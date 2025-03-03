@@ -1,1082 +1,1146 @@
-2025-02-15 12:36:57,369 - INFO - 
-Processing calendar_events.json
-2025-02-15 13:03:16,008 - INFO - 
-Processing calendar_events.json
-2025-02-15 13:11:50,050 - INFO - 
-Processing calendar_events.json
-2025-02-15 13:13:22,388 - INFO - 
-Processing call_to_gather_events.json
-2025-02-15 13:13:25,485 - INFO - 
-Processing events.json
-2025-02-15 13:13:38,273 - INFO - 
-Processing luma_sources.json
-2025-02-15 13:13:38,274 - WARNING - Unexpected data format in scrapers/data\luma_sources.json
-2025-02-15 13:13:38,275 - INFO - 
-Processing nycgov_events.json
-2025-02-15 13:13:40,540 - INFO - 
-Processing nycgov_kids_and_family_events.json
-2025-02-15 13:14:13,356 - INFO - 
-Processing nycgov_street_and_neighborhood_events.json
-2025-02-15 13:14:38,527 - INFO - 
-Processing nycparks_events.json
-2025-02-15 13:14:45,796 - INFO - 
-Processing yu_and_me_events.json
-2025-02-15 13:14:48,796 - INFO - Saved 1088 categorized events to data/categorized_events.json
-2025-02-15 13:14:48,798 - INFO - 
+2025-03-02 17:53:11,613 - INFO - 
+Processing categorization_stats.json
+2025-03-02 17:53:11,627 - WARNING - Unexpected data format in data\categorization_stats.json
+2025-03-02 17:53:11,627 - INFO - 
+Processing categorized_events.json
+2025-03-02 17:53:11,632 - INFO - Saved 0 categorized events to data\categorized_events.json
+2025-03-02 17:53:11,633 - INFO - 
 === Categorization Summary ===
-2025-02-15 13:14:48,798 - INFO - Total Events Processed: 1088
-2025-02-15 13:14:48,798 - INFO - Total Sources: 9
-2025-02-15 13:14:48,798 - INFO - Total Categories Used: 8
-2025-02-15 13:14:48,798 - INFO - 
+2025-03-02 17:53:11,633 - INFO - Total Events Processed: 0
+2025-03-02 17:53:11,633 - INFO - Total Sources: 2
+2025-03-02 17:53:11,634 - INFO - Total Categories Used: 0
+2025-03-02 17:53:11,634 - INFO - 
 === Top Categories ===
-2025-02-15 13:14:48,799 - INFO - 
-Food & Drink (food_drink):
-2025-02-15 13:14:48,799 - INFO -   Total Events: 707
-2025-02-15 13:14:48,799 - INFO -   Average Confidence: 0.79
-2025-02-15 13:14:48,799 - INFO -   Top Sources: {'nycgov_street_and_neighborhood_events': 240, 'calendar_events': 204, 'nycgov_kids_and_family_events': 126}
-2025-02-15 13:14:48,799 - INFO - 
-Arts & Culture (arts_culture):
-2025-02-15 13:14:48,799 - INFO -   Total Events: 577
-2025-02-15 13:14:48,800 - INFO -   Average Confidence: 0.79
-2025-02-15 13:14:48,800 - INFO -   Top Sources: {'nycgov_street_and_neighborhood_events': 196, 'calendar_events': 190, 'nycgov_kids_and_family_events': 125}
-2025-02-15 13:14:48,800 - INFO -   Top Subcategories:
-2025-02-15 13:14:48,800 - INFO -     - music: 79
-2025-02-15 13:14:48,800 - INFO -     - film: 22
-2025-02-15 13:14:48,801 - INFO -     - galleries: 7
-2025-02-15 13:14:48,801 - INFO -     - dance: 5
-2025-02-15 13:14:48,801 - INFO -     - theater: 1
-2025-02-15 13:14:48,801 - INFO - 
-Family & Youth (family_youth):
-2025-02-15 13:14:48,801 - INFO -   Total Events: 547
-2025-02-15 13:14:48,801 - INFO -   Average Confidence: 0.79
-2025-02-15 13:14:48,802 - INFO -   Top Sources: {'calendar_events': 266, 'nycgov_kids_and_family_events': 126, 'events': 45}
-2025-02-15 13:14:48,802 - INFO -   Top Subcategories:
-2025-02-15 13:14:48,802 - INFO -     - family_events: 138
-2025-02-15 13:14:48,802 - INFO - 
-Community & Neighborhood (community_neighborhood):
-2025-02-15 13:14:48,802 - INFO -   Total Events: 473
-2025-02-15 13:14:48,803 - INFO -   Average Confidence: 0.84
-2025-02-15 13:14:48,803 - INFO -   Top Sources: {'nycgov_street_and_neighborhood_events': 240, 'calendar_events': 181, 'events': 44}
-2025-02-15 13:14:48,803 - INFO - 
-Wellness & Fitness (wellness_fitness):
-2025-02-15 13:14:48,803 - INFO -   Total Events: 464
-2025-02-15 13:14:48,803 - INFO -   Average Confidence: 0.82
-2025-02-15 13:14:48,803 - INFO -   Top Sources: {'calendar_events': 406, 'nycparks_events': 35, 'call_to_gather_events': 13}
-2025-02-15 13:14:48,804 - INFO -   Top Subcategories:
-2025-02-15 13:14:48,804 - INFO -     - yoga: 26
-2025-02-15 13:14:48,804 - INFO - 
-Learning & Workshops (learning_workshops):
-2025-02-15 13:14:48,804 - INFO -   Total Events: 238
-2025-02-15 13:14:48,804 - INFO -   Average Confidence: 0.84
-2025-02-15 13:14:48,804 - INFO -   Top Sources: {'events': 121, 'calendar_events': 101, 'call_to_gather_events': 7}
-2025-02-15 13:14:48,805 - INFO -   Top Subcategories:
-2025-02-15 13:14:48,805 - INFO -     - talks: 2
-2025-02-15 13:14:48,805 - INFO -     - workshops: 1
-2025-02-15 13:14:48,805 - INFO - 
-Parks & Outdoors (parks_outdoors):
-2025-02-15 13:14:48,806 - INFO -   Total Events: 195
-2025-02-15 13:14:48,806 - INFO -   Average Confidence: 0.82
-2025-02-15 13:14:48,806 - INFO -   Top Sources: {'calendar_events': 149, 'events': 28, 'nycparks_events': 15}
-2025-02-15 13:14:48,806 - INFO -   Top Subcategories:
-2025-02-15 13:14:48,807 - INFO -     - waterfront: 47
-2025-02-15 13:14:48,807 - INFO -     - gardens: 1
-2025-02-15 13:14:48,807 - INFO - 
-Nightlife & Social (nightlife_social):
-2025-02-15 13:14:48,807 - INFO -   Total Events: 63
-2025-02-15 13:14:48,808 - INFO -   Average Confidence: 0.77
-2025-02-15 13:14:48,808 - INFO -   Top Sources: {'events': 51, 'nycparks_events': 9, 'nycgov_events': 3}
-2025-02-15 13:14:48,808 - INFO - 
+2025-03-02 17:53:11,635 - INFO - 
 === Source Statistics ===
-2025-02-15 13:14:48,808 - INFO - 
-calendar_events:
-2025-02-15 13:14:48,808 - INFO -   Total Events: 499
-2025-02-15 13:14:48,809 - INFO -   Categorized Events: 499 (100.0%)
-2025-02-15 13:14:48,809 - INFO -   Top Categories:
-2025-02-15 13:14:48,809 - INFO -     - Wellness & Fitness: 406
-2025-02-15 13:14:48,809 - INFO -     - Family & Youth: 266
-2025-02-15 13:14:48,809 - INFO -     - Food & Drink: 204
-2025-02-15 13:14:48,809 - INFO - 
-nycgov_street_and_neighborhood_events:
-2025-02-15 13:14:48,810 - INFO -   Total Events: 240
-2025-02-15 13:14:48,810 - INFO -   Categorized Events: 240 (100.0%)
-2025-02-15 13:14:48,811 - INFO -   Top Categories:
-2025-02-15 13:14:48,811 - INFO -     - Community & Neighborhood: 240
-2025-02-15 13:14:48,811 - INFO -     - Food & Drink: 240
-2025-02-15 13:14:48,811 - INFO -     - Arts & Culture: 196
-2025-02-15 13:14:48,811 - INFO - 
-events:
-2025-02-15 13:14:48,811 - INFO -   Total Events: 129
-2025-02-15 13:14:48,811 - INFO -   Categorized Events: 129 (100.0%)
-2025-02-15 13:14:48,811 - INFO -   Top Categories:
-2025-02-15 13:14:48,811 - INFO -     - Learning & Workshops: 121
-2025-02-15 13:14:48,812 - INFO -     - Food & Drink: 85
-2025-02-15 13:14:48,812 - INFO -     - Nightlife & Social: 51
-2025-02-15 13:14:48,812 - INFO - 
-nycgov_kids_and_family_events:
-2025-02-15 13:14:48,812 - INFO -   Total Events: 126
-2025-02-15 13:14:48,812 - INFO -   Categorized Events: 126 (100.0%)
-2025-02-15 13:14:48,812 - INFO -   Top Categories:
-2025-02-15 13:14:48,812 - INFO -     - Family & Youth: 126
-2025-02-15 13:14:48,812 - INFO -     - Food & Drink: 126
-2025-02-15 13:14:48,813 - INFO -     - Arts & Culture: 125
-2025-02-15 13:14:48,813 - INFO - 
-nycparks_events:
-2025-02-15 13:14:48,813 - INFO -   Total Events: 50
-2025-02-15 13:14:48,813 - INFO -   Categorized Events: 50 (100.0%)
-2025-02-15 13:14:48,813 - INFO -   Top Categories:
-2025-02-15 13:14:48,814 - INFO -     - Family & Youth: 37
-2025-02-15 13:14:48,814 - INFO -     - Wellness & Fitness: 35
-2025-02-15 13:14:48,814 - INFO -     - Food & Drink: 27
-2025-02-15 13:14:48,814 - INFO - 
-call_to_gather_events:
-2025-02-15 13:14:48,814 - INFO -   Total Events: 20
-2025-02-15 13:14:48,814 - INFO -   Categorized Events: 20 (100.0%)
-2025-02-15 13:14:48,815 - INFO -   Top Categories:
-2025-02-15 13:14:48,815 - INFO -     - Arts & Culture: 19
-2025-02-15 13:14:48,815 - INFO -     - Family & Youth: 14
-2025-02-15 13:14:48,815 - INFO -     - Wellness & Fitness: 13
-2025-02-15 13:14:48,815 - INFO - 
-nycgov_events:
-2025-02-15 13:14:48,815 - INFO -   Total Events: 12
-2025-02-15 13:14:48,816 - INFO -   Categorized Events: 12 (100.0%)
-2025-02-15 13:14:48,816 - INFO -   Top Categories:
-2025-02-15 13:14:48,816 - INFO -     - Family & Youth: 12
-2025-02-15 13:14:48,816 - INFO -     - Arts & Culture: 12
-2025-02-15 13:14:48,816 - INFO -     - Food & Drink: 9
-2025-02-15 13:14:48,816 - INFO - 
-yu_and_me_events:
-2025-02-15 13:14:48,817 - INFO -   Total Events: 12
-2025-02-15 13:14:48,817 - INFO -   Categorized Events: 12 (100.0%)
-2025-02-15 13:14:48,817 - INFO -   Top Categories:
-2025-02-15 13:14:48,817 - INFO -     - Food & Drink: 11
-2025-02-15 13:14:48,817 - INFO -     - Arts & Culture: 8
-2025-02-15 13:14:48,817 - INFO -     - Learning & Workshops: 7
-2025-02-15 13:14:48,818 - INFO - 
-luma_sources:
-2025-02-15 13:14:48,818 - INFO -   Total Events: 0
-2025-02-15 13:52:36,598 - INFO - 
-Processing calendar_events.json
-2025-02-15 13:54:15,231 - INFO - 
-Processing call_to_gather_events.json
-2025-02-15 13:54:21,115 - INFO - 
-Processing events.json
-2025-02-15 13:54:31,572 - INFO - 
-Processing luma_sources.json
-2025-02-15 13:54:31,573 - WARNING - Unexpected data format in scrapers/data\luma_sources.json
-2025-02-15 13:54:31,573 - INFO - 
-Processing nycgov_events.json
-2025-02-15 13:54:35,864 - INFO - 
-Processing nycgov_kids_and_family_events.json
-2025-02-15 13:55:05,653 - INFO - 
-Processing nycgov_street_and_neighborhood_events.json
-2025-02-15 13:55:31,288 - INFO - 
-Processing nycparks_events.json
-2025-02-15 13:55:42,814 - INFO - 
-Processing yu_and_me_events.json
-2025-02-15 13:55:46,299 - INFO - Saved 1088 categorized events to data/categorized_events.json
-2025-02-15 13:55:46,301 - INFO - 
+2025-03-02 17:53:11,635 - INFO - 
+categorization_stats:
+2025-03-02 17:53:11,635 - INFO -   Total Events: 0
+2025-03-02 17:54:40,846 - INFO - 
+Processing categorization_stats.json
+2025-03-02 17:54:40,848 - WARNING - Unexpected data format in data\categorization_stats.json
+2025-03-02 17:54:40,849 - INFO - 
+Processing categorized_events.json
+2025-03-02 17:54:40,853 - INFO - Saved 0 categorized events to data\categorized_events.json
+2025-03-02 17:54:40,854 - INFO - 
 === Categorization Summary ===
-2025-02-15 13:55:46,301 - INFO - Total Events Processed: 1088
-2025-02-15 13:55:46,301 - INFO - Total Sources: 9
-2025-02-15 13:55:46,301 - INFO - Total Categories Used: 8
-2025-02-15 13:55:46,301 - INFO - 
+2025-03-02 17:54:40,854 - INFO - Total Events Processed: 0
+2025-03-02 17:54:40,854 - INFO - Total Sources: 2
+2025-03-02 17:54:40,854 - INFO - Total Categories Used: 0
+2025-03-02 17:54:40,854 - INFO - 
 === Top Categories ===
-2025-02-15 13:55:46,302 - INFO - 
-Family & Youth (family_youth):
-2025-02-15 13:55:46,302 - INFO -   Total Events: 720
-2025-02-15 13:55:46,302 - INFO -   Average Confidence: 0.73
-2025-02-15 13:55:46,302 - INFO -   Top Sources: {'calendar_events': 268, 'nycgov_street_and_neighborhood_events': 210, 'nycgov_kids_and_family_events': 121}
-2025-02-15 13:55:46,303 - INFO -   Top Subcategories:
-2025-02-15 13:55:46,303 - INFO -     - family_events: 133
-2025-02-15 13:55:46,303 - INFO - 
-Arts & Culture (arts_culture):
-2025-02-15 13:55:46,303 - INFO -   Total Events: 674
-2025-02-15 13:55:46,304 - INFO -   Average Confidence: 0.74
-2025-02-15 13:55:46,304 - INFO -   Top Sources: {'calendar_events': 261, 'nycgov_street_and_neighborhood_events': 240, 'nycgov_kids_and_family_events': 108}
-2025-02-15 13:55:46,304 - INFO -   Top Subcategories:
-2025-02-15 13:55:46,304 - INFO -     - music: 125
-2025-02-15 13:55:46,305 - INFO -     - film: 22
-2025-02-15 13:55:46,305 - INFO -     - galleries: 7
-2025-02-15 13:55:46,305 - INFO -     - dance: 5
-2025-02-15 13:55:46,305 - INFO -     - theater: 1
-2025-02-15 13:55:46,306 - INFO - 
-Wellness & Fitness (wellness_fitness):
-2025-02-15 13:55:46,306 - INFO -   Total Events: 511
-2025-02-15 13:55:46,306 - INFO -   Average Confidence: 0.81
-2025-02-15 13:55:46,306 - INFO -   Top Sources: {'calendar_events': 409, 'nycparks_events': 39, 'events': 20}
-2025-02-15 13:55:46,306 - INFO -   Top Subcategories:
-2025-02-15 13:55:46,307 - INFO -     - skating: 161
-2025-02-15 13:55:46,307 - INFO -     - yoga: 26
-2025-02-15 13:55:46,307 - INFO - 
-Food & Drink (food_drink):
-2025-02-15 13:55:46,307 - INFO -   Total Events: 470
-2025-02-15 13:55:46,307 - INFO -   Average Confidence: 0.74
-2025-02-15 13:55:46,308 - INFO -   Top Sources: {'calendar_events': 239, 'nycgov_kids_and_family_events': 107, 'events': 78}
-2025-02-15 13:55:46,308 - INFO - 
-Community & Neighborhood (community_neighborhood):
-2025-02-15 13:55:46,308 - INFO -   Total Events: 402
-2025-02-15 13:55:46,308 - INFO -   Average Confidence: 0.82
-2025-02-15 13:55:46,308 - INFO -   Top Sources: {'nycgov_street_and_neighborhood_events': 240, 'calendar_events': 112, 'events': 45}
-2025-02-15 13:55:46,309 - INFO - 
-Learning & Workshops (learning_workshops):
-2025-02-15 13:55:46,309 - INFO -   Total Events: 315
-2025-02-15 13:55:46,309 - INFO -   Average Confidence: 0.82
-2025-02-15 13:55:46,309 - INFO -   Top Sources: {'calendar_events': 162, 'events': 116, 'nycgov_kids_and_family_events': 22}
-2025-02-15 13:55:46,310 - INFO -   Top Subcategories:
-2025-02-15 13:55:46,310 - INFO -     - talks: 2
-2025-02-15 13:55:46,310 - INFO -     - workshops: 1
-2025-02-15 13:55:46,310 - INFO - 
-Parks & Outdoors (parks_outdoors):
-2025-02-15 13:55:46,310 - INFO -   Total Events: 111
-2025-02-15 13:55:46,310 - INFO -   Average Confidence: 0.81
-2025-02-15 13:55:46,311 - INFO -   Top Sources: {'calendar_events': 40, 'nycgov_street_and_neighborhood_events': 30, 'events': 27}
-2025-02-15 13:55:46,311 - INFO -   Top Subcategories:
-2025-02-15 13:55:46,311 - INFO -     - gardens: 16
-2025-02-15 13:55:46,311 - INFO -     - waterfront: 1
-2025-02-15 13:55:46,311 - INFO - 
-Nightlife & Social (nightlife_social):
-2025-02-15 13:55:46,311 - INFO -   Total Events: 60
-2025-02-15 13:55:46,311 - INFO -   Average Confidence: 0.73
-2025-02-15 13:55:46,311 - INFO -   Top Sources: {'events': 50, 'calendar_events': 6, 'nycparks_events': 4}
-2025-02-15 13:55:46,313 - INFO - 
+2025-03-02 17:54:40,854 - INFO - 
 === Source Statistics ===
-2025-02-15 13:55:46,313 - INFO - 
-calendar_events:
-2025-02-15 13:55:46,313 - INFO -   Total Events: 499
-2025-02-15 13:55:46,313 - INFO -   Categorized Events: 499 (100.0%)
-2025-02-15 13:55:46,313 - INFO -   Top Categories:
-2025-02-15 13:55:46,314 - INFO -     - Wellness & Fitness: 409
-2025-02-15 13:55:46,314 - INFO -     - Family & Youth: 268
-2025-02-15 13:55:46,314 - INFO -     - Arts & Culture: 261
-2025-02-15 13:55:46,314 - INFO - 
-nycgov_street_and_neighborhood_events:
-2025-02-15 13:55:46,314 - INFO -   Total Events: 240
-2025-02-15 13:55:46,314 - INFO -   Categorized Events: 240 (100.0%)
-2025-02-15 13:55:46,315 - INFO -   Top Categories:
-2025-02-15 13:55:46,315 - INFO -     - Community & Neighborhood: 240
-2025-02-15 13:55:46,315 - INFO -     - Arts & Culture: 240
-2025-02-15 13:55:46,317 - INFO -     - Family & Youth: 210
-2025-02-15 13:55:46,317 - INFO - 
-events:
-2025-02-15 13:55:46,317 - INFO -   Total Events: 129
-2025-02-15 13:55:46,317 - INFO -   Categorized Events: 129 (100.0%)
-2025-02-15 13:55:46,318 - INFO -   Top Categories:
-2025-02-15 13:55:46,318 - INFO -     - Learning & Workshops: 116
-2025-02-15 13:55:46,318 - INFO -     - Food & Drink: 78
-2025-02-15 13:55:46,319 - INFO -     - Nightlife & Social: 50
-2025-02-15 13:55:46,319 - INFO - 
-nycgov_kids_and_family_events:
-2025-02-15 13:55:46,319 - INFO -   Total Events: 126
-2025-02-15 13:55:46,319 - INFO -   Categorized Events: 126 (100.0%)
-2025-02-15 13:55:46,320 - INFO -   Top Categories:
-2025-02-15 13:55:46,320 - INFO -     - Family & Youth: 121
-2025-02-15 13:55:46,320 - INFO -     - Arts & Culture: 108
-2025-02-15 13:55:46,320 - INFO -     - Food & Drink: 107
-2025-02-15 13:55:46,321 - INFO - 
-nycparks_events:
-2025-02-15 13:55:46,321 - INFO -   Total Events: 50
-2025-02-15 13:55:46,322 - INFO -   Categorized Events: 50 (100.0%)
-2025-02-15 13:55:46,322 - INFO -   Top Categories:
-2025-02-15 13:55:46,322 - INFO -     - Family & Youth: 45
-2025-02-15 13:55:46,324 - INFO -     - Wellness & Fitness: 39
-2025-02-15 13:55:46,324 - INFO -     - Arts & Culture: 24
-2025-02-15 13:55:46,324 - INFO - 
-call_to_gather_events:
-2025-02-15 13:55:46,324 - INFO -   Total Events: 20
-2025-02-15 13:55:46,324 - INFO -   Categorized Events: 20 (100.0%)
-2025-02-15 13:55:46,325 - INFO -   Top Categories:
-2025-02-15 13:55:46,325 - INFO -     - Family & Youth: 19
-2025-02-15 13:55:46,325 - INFO -     - Wellness & Fitness: 18
-2025-02-15 13:55:46,325 - INFO -     - Arts & Culture: 17
-2025-02-15 13:55:46,325 - INFO - 
-nycgov_events:
-2025-02-15 13:55:46,326 - INFO -   Total Events: 12
-2025-02-15 13:55:46,326 - INFO -   Categorized Events: 12 (100.0%)
-2025-02-15 13:55:46,326 - INFO -   Top Categories:
-2025-02-15 13:55:46,326 - INFO -     - Family & Youth: 12
-2025-02-15 13:55:46,327 - INFO -     - Food & Drink: 12
-2025-02-15 13:55:46,327 - INFO -     - Arts & Culture: 7
-2025-02-15 13:55:46,327 - INFO - 
-yu_and_me_events:
-2025-02-15 13:55:46,328 - INFO -   Total Events: 12
-2025-02-15 13:55:46,328 - INFO -   Categorized Events: 12 (100.0%)
-2025-02-15 13:55:46,328 - INFO -   Top Categories:
-2025-02-15 13:55:46,328 - INFO -     - Food & Drink: 10
-2025-02-15 13:55:46,328 - INFO -     - Learning & Workshops: 9
-2025-02-15 13:55:46,328 - INFO -     - Arts & Culture: 8
-2025-02-15 13:55:46,329 - INFO - 
-luma_sources:
-2025-02-15 13:55:46,329 - INFO -   Total Events: 0
-2025-02-15 14:10:14,107 - INFO - 
-Processing calendar_events.json
-2025-02-15 14:45:18,279 - INFO - 
-Processing calendar_events.json
-2025-02-15 14:46:45,856 - INFO - 
-Processing call_to_gather_events.json
-2025-02-15 14:46:49,110 - INFO - 
-Processing events.json
-2025-02-15 14:46:58,227 - INFO - 
-Processing luma_sources.json
-2025-02-15 14:46:58,228 - WARNING - Unexpected data format in scrapers/data\luma_sources.json
-2025-02-15 14:46:58,228 - INFO - 
-Processing nycgov_events.json
-2025-02-15 14:47:00,423 - INFO - 
-Processing nycgov_kids_and_family_events.json
-2025-02-15 14:47:28,854 - INFO - 
-Processing nycgov_street_and_neighborhood_events.json
-2025-02-15 14:47:48,667 - INFO - 
-Processing nycparks_events.json
-2025-02-15 14:47:56,906 - INFO - 
-Processing yu_and_me_events.json
-2025-02-15 14:47:59,896 - INFO - Saved 1088 categorized events to data/categorized_events.json
-2025-02-15 14:47:59,897 - INFO - 
+2025-03-02 17:54:40,855 - INFO - 
+categorization_stats:
+2025-03-02 17:54:40,855 - INFO -   Total Events: 0
+2025-03-02 17:57:40,545 - INFO - Loaded 23 communities and 9 locations
+2025-03-02 17:57:41,411 - INFO - 
+Processing categorization_stats.json
+2025-03-02 17:57:41,414 - WARNING - Unexpected data format in data\categorization_stats.json
+2025-03-02 17:57:41,415 - INFO - 
+Processing categorized_events.json
+2025-03-02 17:57:41,419 - INFO - Saved 0 categorized events to data\categorized_events.json
+2025-03-02 17:57:41,420 - INFO - 
 === Categorization Summary ===
-2025-02-15 14:47:59,897 - INFO - Total Events Processed: 1088
-2025-02-15 14:47:59,898 - INFO - Total Sources: 9
-2025-02-15 14:47:59,898 - INFO - Total Categories Used: 8
-2025-02-15 14:47:59,898 - INFO - 
+2025-03-02 17:57:41,420 - INFO - Total Events Processed: 0
+2025-03-02 17:57:41,420 - INFO - Total Sources: 2
+2025-03-02 17:57:41,421 - INFO - Total Categories Used: 0
+2025-03-02 17:57:41,421 - INFO - 
 === Top Categories ===
-2025-02-15 14:47:59,898 - INFO - 
-Family & Youth (family_youth):
-2025-02-15 14:47:59,898 - INFO -   Total Events: 720
-2025-02-15 14:47:59,899 - INFO -   Average Confidence: 0.73
-2025-02-15 14:47:59,899 - INFO -   Top Sources: {'calendar_events': 268, 'nycgov_street_and_neighborhood_events': 210, 'nycgov_kids_and_family_events': 121}
-2025-02-15 14:47:59,899 - INFO -   Top Subcategories:
-2025-02-15 14:47:59,899 - INFO -     - family_events: 133
-2025-02-15 14:47:59,899 - INFO - 
-Arts & Culture (arts_culture):
-2025-02-15 14:47:59,899 - INFO -   Total Events: 674
-2025-02-15 14:47:59,900 - INFO -   Average Confidence: 0.74
-2025-02-15 14:47:59,900 - INFO -   Top Sources: {'calendar_events': 261, 'nycgov_street_and_neighborhood_events': 240, 'nycgov_kids_and_family_events': 108}
-2025-02-15 14:47:59,900 - INFO -   Top Subcategories:
-2025-02-15 14:47:59,900 - INFO -     - music: 125
-2025-02-15 14:47:59,900 - INFO -     - film: 22
-2025-02-15 14:47:59,900 - INFO -     - galleries: 7
-2025-02-15 14:47:59,900 - INFO -     - dance: 5
-2025-02-15 14:47:59,901 - INFO -     - theater: 1
-2025-02-15 14:47:59,901 - INFO - 
-Wellness & Fitness (wellness_fitness):
-2025-02-15 14:47:59,901 - INFO -   Total Events: 511
-2025-02-15 14:47:59,901 - INFO -   Average Confidence: 0.81
-2025-02-15 14:47:59,901 - INFO -   Top Sources: {'calendar_events': 409, 'nycparks_events': 39, 'events': 20}
-2025-02-15 14:47:59,902 - INFO -   Top Subcategories:
-2025-02-15 14:47:59,902 - INFO -     - skating: 161
-2025-02-15 14:47:59,902 - INFO -     - yoga: 26
-2025-02-15 14:47:59,902 - INFO - 
-Food & Drink (food_drink):
-2025-02-15 14:47:59,902 - INFO -   Total Events: 470
-2025-02-15 14:47:59,903 - INFO -   Average Confidence: 0.74
-2025-02-15 14:47:59,903 - INFO -   Top Sources: {'calendar_events': 239, 'nycgov_kids_and_family_events': 107, 'events': 78}
-2025-02-15 14:47:59,903 - INFO - 
-Community & Neighborhood (community_neighborhood):
-2025-02-15 14:47:59,903 - INFO -   Total Events: 402
-2025-02-15 14:47:59,903 - INFO -   Average Confidence: 0.82
-2025-02-15 14:47:59,903 - INFO -   Top Sources: {'nycgov_street_and_neighborhood_events': 240, 'calendar_events': 112, 'events': 45}
-2025-02-15 14:47:59,904 - INFO - 
-Learning & Workshops (learning_workshops):
-2025-02-15 14:47:59,904 - INFO -   Total Events: 315
-2025-02-15 14:47:59,904 - INFO -   Average Confidence: 0.82
-2025-02-15 14:47:59,904 - INFO -   Top Sources: {'calendar_events': 162, 'events': 116, 'nycgov_kids_and_family_events': 22}
-2025-02-15 14:47:59,904 - INFO -   Top Subcategories:
-2025-02-15 14:47:59,904 - INFO -     - talks: 2
-2025-02-15 14:47:59,905 - INFO -     - workshops: 1
-2025-02-15 14:47:59,905 - INFO - 
-Parks & Outdoors (parks_outdoors):
-2025-02-15 14:47:59,906 - INFO -   Total Events: 111
-2025-02-15 14:47:59,906 - INFO -   Average Confidence: 0.81
-2025-02-15 14:47:59,906 - INFO -   Top Sources: {'calendar_events': 40, 'nycgov_street_and_neighborhood_events': 30, 'events': 27}
-2025-02-15 14:47:59,906 - INFO -   Top Subcategories:
-2025-02-15 14:47:59,907 - INFO -     - gardens: 16
-2025-02-15 14:47:59,907 - INFO -     - waterfront: 1
-2025-02-15 14:47:59,907 - INFO - 
-Nightlife & Social (nightlife_social):
-2025-02-15 14:47:59,907 - INFO -   Total Events: 60
-2025-02-15 14:47:59,907 - INFO -   Average Confidence: 0.73
-2025-02-15 14:47:59,908 - INFO -   Top Sources: {'events': 50, 'calendar_events': 6, 'nycparks_events': 4}
-2025-02-15 14:47:59,908 - INFO - 
+2025-03-02 17:57:41,421 - INFO - 
 === Source Statistics ===
-2025-02-15 14:47:59,908 - INFO - 
-calendar_events:
-2025-02-15 14:47:59,908 - INFO -   Total Events: 499
-2025-02-15 14:47:59,908 - INFO -   Categorized Events: 499 (100.0%)
-2025-02-15 14:47:59,908 - INFO -   Top Categories:
-2025-02-15 14:47:59,909 - INFO -     - Wellness & Fitness: 409
-2025-02-15 14:47:59,909 - INFO -     - Family & Youth: 268
-2025-02-15 14:47:59,909 - INFO -     - Arts & Culture: 261
-2025-02-15 14:47:59,909 - INFO - 
-nycgov_street_and_neighborhood_events:
-2025-02-15 14:47:59,909 - INFO -   Total Events: 240
-2025-02-15 14:47:59,909 - INFO -   Categorized Events: 240 (100.0%)
-2025-02-15 14:47:59,910 - INFO -   Top Categories:
-2025-02-15 14:47:59,910 - INFO -     - Community & Neighborhood: 240
-2025-02-15 14:47:59,910 - INFO -     - Arts & Culture: 240
-2025-02-15 14:47:59,910 - INFO -     - Family & Youth: 210
-2025-02-15 14:47:59,910 - INFO - 
-events:
-2025-02-15 14:47:59,910 - INFO -   Total Events: 129
-2025-02-15 14:47:59,911 - INFO -   Categorized Events: 129 (100.0%)
-2025-02-15 14:47:59,911 - INFO -   Top Categories:
-2025-02-15 14:47:59,911 - INFO -     - Learning & Workshops: 116
-2025-02-15 14:47:59,911 - INFO -     - Food & Drink: 78
-2025-02-15 14:47:59,911 - INFO -     - Nightlife & Social: 50
-2025-02-15 14:47:59,912 - INFO - 
-nycgov_kids_and_family_events:
-2025-02-15 14:47:59,912 - INFO -   Total Events: 126
-2025-02-15 14:47:59,912 - INFO -   Categorized Events: 126 (100.0%)
-2025-02-15 14:47:59,912 - INFO -   Top Categories:
-2025-02-15 14:47:59,912 - INFO -     - Family & Youth: 121
-2025-02-15 14:47:59,912 - INFO -     - Arts & Culture: 108
-2025-02-15 14:47:59,913 - INFO -     - Food & Drink: 107
-2025-02-15 14:47:59,913 - INFO - 
-nycparks_events:
-2025-02-15 14:47:59,913 - INFO -   Total Events: 50
-2025-02-15 14:47:59,913 - INFO -   Categorized Events: 50 (100.0%)
-2025-02-15 14:47:59,914 - INFO -   Top Categories:
-2025-02-15 14:47:59,914 - INFO -     - Family & Youth: 45
-2025-02-15 14:47:59,914 - INFO -     - Wellness & Fitness: 39
-2025-02-15 14:47:59,914 - INFO -     - Arts & Culture: 24
-2025-02-15 14:47:59,914 - INFO - 
-call_to_gather_events:
-2025-02-15 14:47:59,914 - INFO -   Total Events: 20
-2025-02-15 14:47:59,915 - INFO -   Categorized Events: 20 (100.0%)
-2025-02-15 14:47:59,915 - INFO -   Top Categories:
-2025-02-15 14:47:59,915 - INFO -     - Family & Youth: 19
-2025-02-15 14:47:59,915 - INFO -     - Wellness & Fitness: 18
-2025-02-15 14:47:59,915 - INFO -     - Arts & Culture: 17
-2025-02-15 14:47:59,915 - INFO - 
-nycgov_events:
-2025-02-15 14:47:59,916 - INFO -   Total Events: 12
-2025-02-15 14:47:59,916 - INFO -   Categorized Events: 12 (100.0%)
-2025-02-15 14:47:59,916 - INFO -   Top Categories:
-2025-02-15 14:47:59,916 - INFO -     - Family & Youth: 12
-2025-02-15 14:47:59,916 - INFO -     - Food & Drink: 12
-2025-02-15 14:47:59,917 - INFO -     - Arts & Culture: 7
-2025-02-15 14:47:59,917 - INFO - 
-yu_and_me_events:
-2025-02-15 14:47:59,917 - INFO -   Total Events: 12
-2025-02-15 14:47:59,917 - INFO -   Categorized Events: 12 (100.0%)
-2025-02-15 14:47:59,917 - INFO -   Top Categories:
-2025-02-15 14:47:59,918 - INFO -     - Food & Drink: 10
-2025-02-15 14:47:59,918 - INFO -     - Learning & Workshops: 9
-2025-02-15 14:47:59,918 - INFO -     - Arts & Culture: 8
-2025-02-15 14:47:59,918 - INFO - 
-luma_sources:
-2025-02-15 14:47:59,918 - INFO -   Total Events: 0
-2025-02-16 17:25:15,120 - INFO - 
-Processing calendar_events.json
-2025-02-16 17:27:05,926 - INFO - 
-Processing call_to_gather_events.json
-2025-02-16 17:27:10,105 - INFO - 
-Processing events.json
-2025-02-16 17:27:21,026 - INFO - 
-Processing google_calendar_events.json
-2025-02-16 18:29:46,089 - INFO - 
-Processing 57_events.json
-2025-02-16 18:29:49,104 - INFO - 
-Processing call_to_gather_events.json
-2025-02-16 18:29:54,105 - INFO - 
-Processing events.json
-2025-02-16 18:29:54,107 - INFO - 
+2025-03-02 17:57:41,422 - INFO - 
+categorization_stats:
+2025-03-02 17:57:41,422 - INFO -   Total Events: 0
+2025-03-02 17:58:17,099 - WARNING - Could not load auxiliary data: [Errno 2] No such file or directory: '../data/communities.json'
+2025-03-02 17:58:17,839 - INFO - 
 Processing gary_events.json
-2025-02-16 18:29:54,971 - INFO - 
+2025-03-02 17:58:17,841 - INFO - 
 Processing google_calendar_events.json
-2025-02-16 18:31:52,538 - INFO - 
+2025-03-02 17:58:17,873 - INFO - 
 Processing ics_calendar_events.json
-2025-02-16 18:31:57,332 - INFO - 
+2025-03-02 17:58:17,887 - INFO - 
 Processing interference_events.json
-2025-02-16 18:31:59,022 - INFO - 
-Processing nycgov_kids_and_family_events.json
-2025-02-16 18:32:41,210 - INFO - 
-Processing nycgov_street_and_neighborhood_events.json
-2025-02-16 18:33:19,417 - INFO - 
-Processing nycparks_events.json
-2025-02-16 18:33:33,574 - INFO - 
+2025-03-02 17:58:17,899 - INFO - 
 Processing pioneer_works_events.json
-2025-02-16 18:33:35,643 - INFO - 
-Processing reccreate_events.json
-2025-02-16 18:33:38,112 - INFO - 
-Processing wonderville_events.json
-2025-02-16 18:34:00,412 - INFO - 
-Processing yu_and_me_events.json
-2025-02-16 18:34:00,573 - INFO - Saved 1151 categorized events to data/categorized_events.json
-2025-02-16 18:34:00,575 - INFO - 
+2025-03-02 17:58:41,397 - WARNING - Could not load auxiliary data: [Errno 2] No such file or directory: '../../public/data/communities.json'
+2025-03-02 17:58:42,181 - INFO - 
+Processing gary_events.json
+2025-03-02 17:58:42,182 - INFO - 
+Processing google_calendar_events.json
+2025-03-02 17:58:42,191 - INFO - 
+Processing ics_calendar_events.json
+2025-03-02 17:58:42,192 - INFO - 
+Processing interference_events.json
+2025-03-02 17:58:42,194 - INFO - 
+Processing pioneer_works_events.json
+2025-03-02 17:59:03,290 - INFO - 
+Processing gary_events.json
+2025-03-02 17:59:03,292 - INFO - 
+Processing google_calendar_events.json
+2025-03-02 17:59:03,297 - INFO - 
+Processing ics_calendar_events.json
+2025-03-02 17:59:03,298 - INFO - 
+Processing interference_events.json
+2025-03-02 17:59:03,298 - INFO - 
+Processing pioneer_works_events.json
+2025-03-02 18:00:17,589 - INFO - Saved 419 categorized events to data/categorized_events.json
+2025-03-02 18:00:17,591 - INFO - 
 === Categorization Summary ===
-2025-02-16 18:34:00,576 - INFO - Total Events Processed: 1151
-2025-02-16 18:34:00,576 - INFO - Total Sources: 14
-2025-02-16 18:34:00,576 - INFO - Total Categories Used: 8
-2025-02-16 18:34:00,577 - INFO - 
+2025-03-02 18:00:17,591 - INFO - Total Events Processed: 419
+2025-03-02 18:00:17,591 - INFO - Total Sources: 5
+2025-03-02 18:00:17,591 - INFO - Total Categories Used: 8
+2025-03-02 18:00:17,591 - INFO - 
 === Top Categories ===
-2025-02-16 18:34:00,577 - INFO - 
-Family & Youth (family_youth):
-2025-02-16 18:34:00,577 - INFO -   Total Events: 723
-2025-02-16 18:34:00,577 - INFO -   Average Confidence: 0.74
-2025-02-16 18:34:00,578 - INFO -   Top Sources: {'nycgov_street_and_neighborhood_events': 211, 'google_calendar_events': 209, 'nycgov_kids_and_family_events': 118}
-2025-02-16 18:34:00,578 - INFO -   Top Subcategories:
-2025-02-16 18:34:00,578 - INFO -     - family_events: 118
-2025-02-16 18:34:00,578 - INFO - 
-Arts & Culture (arts_culture):
-2025-02-16 18:34:00,579 - INFO -   Total Events: 674
-2025-02-16 18:34:00,579 - INFO -   Average Confidence: 0.73
-2025-02-16 18:34:00,579 - INFO -   Top Sources: {'nycgov_street_and_neighborhood_events': 240, 'google_calendar_events': 206, 'nycgov_kids_and_family_events': 107}
-2025-02-16 18:34:00,579 - INFO -   Top Subcategories:
-2025-02-16 18:34:00,580 - INFO -     - music: 151
-2025-02-16 18:34:00,580 - INFO -     - film: 21
-2025-02-16 18:34:00,580 - INFO -     - dance: 9
-2025-02-16 18:34:00,580 - INFO -     - galleries: 7
-2025-02-16 18:34:00,581 - INFO -     - theater: 1
-2025-02-16 18:34:00,581 - INFO - 
-Food & Drink (food_drink):
-2025-02-16 18:34:00,581 - INFO -   Total Events: 499
-2025-02-16 18:34:00,581 - INFO -   Average Confidence: 0.74
-2025-02-16 18:34:00,581 - INFO -   Top Sources: {'google_calendar_events': 230, 'nycgov_kids_and_family_events': 104, 'wonderville_events': 92}
-2025-02-16 18:34:00,581 - INFO - 
-Community & Neighborhood (community_neighborhood):
-2025-02-16 18:34:00,581 - INFO -   Total Events: 474
-2025-02-16 18:34:00,582 - INFO -   Average Confidence: 0.81
-2025-02-16 18:34:00,582 - INFO -   Top Sources: {'nycgov_street_and_neighborhood_events': 240, 'google_calendar_events': 229, 'wonderville_events': 3}
-2025-02-16 18:34:00,582 - INFO - 
-Wellness & Fitness (wellness_fitness):
-2025-02-16 18:34:00,583 - INFO -   Total Events: 398
-2025-02-16 18:34:00,583 - INFO -   Average Confidence: 0.81
-2025-02-16 18:34:00,583 - INFO -   Top Sources: {'google_calendar_events': 278, 'nycparks_events': 44, 'call_to_gather_events': 18}
-2025-02-16 18:34:00,584 - INFO -   Top Subcategories:
-2025-02-16 18:34:00,584 - INFO -     - skating: 155
-2025-02-16 18:34:00,584 - INFO -     - yoga: 30
-2025-02-16 18:34:00,585 - INFO -     - mental_health: 2
-2025-02-16 18:34:00,585 - INFO - 
+2025-03-02 18:00:17,591 - INFO - 
 Learning & Workshops (learning_workshops):
-2025-02-16 18:34:00,585 - INFO -   Total Events: 349
-2025-02-16 18:34:00,585 - INFO -   Average Confidence: 0.82
-2025-02-16 18:34:00,586 - INFO -   Top Sources: {'google_calendar_events': 212, 'wonderville_events': 49, 'ics_calendar_events': 33}
-2025-02-16 18:34:00,586 - INFO -   Top Subcategories:
-2025-02-16 18:34:00,586 - INFO -     - classes: 1
-2025-02-16 18:34:00,586 - INFO - 
-Parks & Outdoors (parks_outdoors):
-2025-02-16 18:34:00,587 - INFO -   Total Events: 276
-2025-02-16 18:34:00,587 - INFO -   Average Confidence: 0.82
-2025-02-16 18:34:00,588 - INFO -   Top Sources: {'google_calendar_events': 229, 'nycgov_street_and_neighborhood_events': 29, 'wonderville_events': 7}
-2025-02-16 18:34:00,588 - INFO -   Top Subcategories:
-2025-02-16 18:34:00,588 - INFO -     - gardens: 15
-2025-02-16 18:34:00,588 - INFO - 
+2025-03-02 18:00:17,594 - INFO -   Total Events: 352
+2025-03-02 18:00:17,594 - INFO -   Average Confidence: 0.89
+2025-03-02 18:00:17,594 - INFO -   Top Sources: {'pioneer_works_events': 352}
+2025-03-02 18:00:17,594 - INFO -   Top Subcategories:
+2025-03-02 18:00:17,594 - INFO -     - classes: 14
+2025-03-02 18:00:17,594 - INFO -     - talks: 2
+2025-03-02 18:00:17,594 - INFO -     - workshops: 2
+2025-03-02 18:00:17,594 - INFO - 
+Community & Neighborhood (community_neighborhood):
+2025-03-02 18:00:17,594 - INFO -   Total Events: 247
+2025-03-02 18:00:17,596 - INFO -   Average Confidence: 0.90
+2025-03-02 18:00:17,596 - INFO -   Top Sources: {'pioneer_works_events': 247}
+2025-03-02 18:00:17,596 - INFO -   Top Subcategories:
+2025-03-02 18:00:17,596 - INFO -     - volunteer: 1
+2025-03-02 18:00:17,596 - INFO - 
+Family & Youth (family_youth):
+2025-03-02 18:00:17,596 - INFO -   Total Events: 240
+2025-03-02 18:00:17,596 - INFO -   Average Confidence: 0.82
+2025-03-02 18:00:17,596 - INFO -   Top Sources: {'pioneer_works_events': 240}
+2025-03-02 18:00:17,596 - INFO - 
+Food & Drink (food_drink):
+2025-03-02 18:00:17,596 - INFO -   Total Events: 124
+2025-03-02 18:00:17,598 - INFO -   Average Confidence: 0.81
+2025-03-02 18:00:17,598 - INFO -   Top Sources: {'pioneer_works_events': 124}
+2025-03-02 18:00:17,598 - INFO - 
+Arts & Culture (arts_culture):
+2025-03-02 18:00:17,598 - INFO -   Total Events: 82
+2025-03-02 18:00:17,599 - INFO -   Average Confidence: 0.84
+2025-03-02 18:00:17,599 - INFO -   Top Sources: {'pioneer_works_events': 82}
+2025-03-02 18:00:17,599 - INFO -   Top Subcategories:
+2025-03-02 18:00:17,599 - INFO -     - music: 17
+2025-03-02 18:00:17,599 - INFO -     - film: 1
+2025-03-02 18:00:17,599 - INFO -     - theater: 1
+2025-03-02 18:00:17,599 - INFO -     - dance: 1
+2025-03-02 18:00:17,601 - INFO - 
 Nightlife & Social (nightlife_social):
-2025-02-16 18:34:00,589 - INFO -   Total Events: 56
-2025-02-16 18:34:00,589 - INFO -   Average Confidence: 0.75
-2025-02-16 18:34:00,590 - INFO -   Top Sources: {'wonderville_events': 48, 'gary_events': 2, 'nycparks_events': 2}
-2025-02-16 18:34:00,590 - INFO - 
+2025-03-02 18:00:17,601 - INFO -   Total Events: 68
+2025-03-02 18:00:17,601 - INFO -   Average Confidence: 0.83
+2025-03-02 18:00:17,601 - INFO -   Top Sources: {'pioneer_works_events': 68}
+2025-03-02 18:00:17,601 - INFO - 
+Parks & Outdoors (parks_outdoors):
+2025-03-02 18:00:17,601 - INFO -   Total Events: 52
+2025-03-02 18:00:17,601 - INFO -   Average Confidence: 0.80
+2025-03-02 18:00:17,601 - INFO -   Top Sources: {'pioneer_works_events': 52}
+2025-03-02 18:00:17,602 - INFO - 
+Wellness & Fitness (wellness_fitness):
+2025-03-02 18:00:17,602 - INFO -   Total Events: 26
+2025-03-02 18:00:17,602 - INFO -   Average Confidence: 0.77
+2025-03-02 18:00:17,602 - INFO -   Top Sources: {'pioneer_works_events': 26}
+2025-03-02 18:00:17,602 - INFO -   Top Subcategories:
+2025-03-02 18:00:17,602 - INFO -     - yoga: 5
+2025-03-02 18:00:17,602 - INFO -     - mental_health: 1
+2025-03-02 18:00:17,604 - INFO - 
 === Source Statistics ===
-2025-02-16 18:34:00,590 - INFO - 
+2025-03-02 18:00:17,604 - INFO - 
 google_calendar_events:
-2025-02-16 18:34:00,590 - INFO -   Total Events: 531
-2025-02-16 18:34:00,591 - INFO -   Categorized Events: 531 (100.0%)
-2025-02-16 18:34:00,591 - INFO -   Top Categories:
-2025-02-16 18:34:00,591 - INFO -     - Wellness & Fitness: 278
-2025-02-16 18:34:00,591 - INFO -     - Food & Drink: 230
-2025-02-16 18:34:00,592 - INFO -     - Community & Neighborhood: 229
-2025-02-16 18:34:00,592 - INFO - 
-nycgov_street_and_neighborhood_events:
-2025-02-16 18:34:00,592 - INFO -   Total Events: 240
-2025-02-16 18:34:00,592 - INFO -   Categorized Events: 240 (100.0%)
-2025-02-16 18:34:00,593 - INFO -   Top Categories:
-2025-02-16 18:34:00,593 - INFO -     - Community & Neighborhood: 240
-2025-02-16 18:34:00,594 - INFO -     - Arts & Culture: 240
-2025-02-16 18:34:00,594 - INFO -     - Family & Youth: 211
-2025-02-16 18:34:00,594 - INFO - 
-nycgov_kids_and_family_events:
-2025-02-16 18:34:00,594 - INFO -   Total Events: 123
-2025-02-16 18:34:00,595 - INFO -   Categorized Events: 123 (100.0%)
-2025-02-16 18:34:00,595 - INFO -   Top Categories:
-2025-02-16 18:34:00,595 - INFO -     - Family & Youth: 118
-2025-02-16 18:34:00,595 - INFO -     - Arts & Culture: 107
-2025-02-16 18:34:00,596 - INFO -     - Food & Drink: 104
-2025-02-16 18:34:00,596 - INFO - 
-wonderville_events:
-2025-02-16 18:34:00,596 - INFO -   Total Events: 97
-2025-02-16 18:34:00,596 - INFO -   Categorized Events: 97 (100.0%)
-2025-02-16 18:34:00,597 - INFO -   Top Categories:
-2025-02-16 18:34:00,597 - INFO -     - Food & Drink: 92
-2025-02-16 18:34:00,597 - INFO -     - Family & Youth: 61
-2025-02-16 18:34:00,597 - INFO -     - Learning & Workshops: 49
-2025-02-16 18:34:00,598 - INFO - 
-nycparks_events:
-2025-02-16 18:34:00,598 - INFO -   Total Events: 50
-2025-02-16 18:34:00,598 - INFO -   Categorized Events: 50 (100.0%)
-2025-02-16 18:34:00,598 - INFO -   Top Categories:
-2025-02-16 18:34:00,598 - INFO -     - Family & Youth: 49
-2025-02-16 18:34:00,599 - INFO -     - Wellness & Fitness: 44
-2025-02-16 18:34:00,599 - INFO -     - Arts & Culture: 29
-2025-02-16 18:34:00,599 - INFO - 
-ics_calendar_events:
-2025-02-16 18:34:00,599 - INFO -   Total Events: 34
-2025-02-16 18:34:00,600 - INFO -   Categorized Events: 34 (100.0%)
-2025-02-16 18:34:00,600 - INFO -   Top Categories:
-2025-02-16 18:34:00,600 - INFO -     - Learning & Workshops: 33
-2025-02-16 18:34:00,601 - INFO -     - Food & Drink: 24
-2025-02-16 18:34:00,601 - INFO -     - Family & Youth: 15
-2025-02-16 18:34:00,601 - INFO - 
-reccreate_events:
-2025-02-16 18:34:00,601 - INFO -   Total Events: 21
-2025-02-16 18:34:00,602 - INFO -   Categorized Events: 21 (100.0%)
-2025-02-16 18:34:00,602 - INFO -   Top Categories:
-2025-02-16 18:34:00,602 - INFO -     - Family & Youth: 21
-2025-02-16 18:34:00,602 - INFO -     - Arts & Culture: 21
-2025-02-16 18:34:00,603 - INFO -     - Wellness & Fitness: 12
-2025-02-16 18:34:00,603 - INFO - 
-call_to_gather_events:
-2025-02-16 18:34:00,603 - INFO -   Total Events: 20
-2025-02-16 18:34:00,603 - INFO -   Categorized Events: 20 (100.0%)
-2025-02-16 18:34:00,604 - INFO -   Top Categories:
-2025-02-16 18:34:00,604 - INFO -     - Family & Youth: 19
-2025-02-16 18:34:00,604 - INFO -     - Wellness & Fitness: 18
-2025-02-16 18:34:00,604 - INFO -     - Arts & Culture: 17
-2025-02-16 18:34:00,604 - INFO - 
-pioneer_works_events:
-2025-02-16 18:34:00,605 - INFO -   Total Events: 12
-2025-02-16 18:34:00,605 - INFO -   Categorized Events: 11 (91.7%)
-2025-02-16 18:34:00,605 - INFO -   Top Categories:
-2025-02-16 18:34:00,605 - INFO -     - Arts & Culture: 10
-2025-02-16 18:34:00,606 - INFO -     - Learning & Workshops: 8
-2025-02-16 18:34:00,606 - INFO -     - Family & Youth: 7
-2025-02-16 18:34:00,606 - INFO - 
-57_events:
-2025-02-16 18:34:00,606 - INFO -   Total Events: 11
-2025-02-16 18:34:00,607 - INFO -   Categorized Events: 11 (100.0%)
-2025-02-16 18:34:00,607 - INFO -   Top Categories:
-2025-02-16 18:34:00,607 - INFO -     - Learning & Workshops: 8
-2025-02-16 18:34:00,607 - INFO -     - Wellness & Fitness: 7
-2025-02-16 18:34:00,608 - INFO -     - Food & Drink: 7
-2025-02-16 18:34:00,608 - INFO - 
+2025-03-02 18:00:17,604 - INFO -   Total Events: 305
+2025-03-02 18:00:17,604 - INFO -   Categorized Events: 0 (0.0%)
+2025-03-02 18:00:17,604 - INFO - 
 gary_events:
-2025-02-16 18:34:00,608 - INFO -   Total Events: 6
-2025-02-16 18:34:00,608 - INFO -   Categorized Events: 6 (100.0%)
-2025-02-16 18:34:00,609 - INFO -   Top Categories:
-2025-02-16 18:34:00,609 - INFO -     - Food & Drink: 6
-2025-02-16 18:34:00,609 - INFO -     - Learning & Workshops: 5
-2025-02-16 18:34:00,609 - INFO -     - Family & Youth: 4
-2025-02-16 18:34:00,610 - INFO - 
+2025-03-02 18:00:17,604 - INFO -   Total Events: 48
+2025-03-02 18:00:17,604 - INFO -   Categorized Events: 0 (0.0%)
+2025-03-02 18:00:17,604 - INFO - 
+ics_calendar_events:
+2025-03-02 18:00:17,606 - INFO -   Total Events: 42
+2025-03-02 18:00:17,606 - INFO -   Categorized Events: 0 (0.0%)
+2025-03-02 18:00:17,606 - INFO - 
+pioneer_works_events:
+2025-03-02 18:00:17,606 - INFO -   Total Events: 16
+2025-03-02 18:00:17,606 - INFO -   Categorized Events: 419 (2618.8%)
+2025-03-02 18:00:17,606 - INFO -   Top Categories:
+2025-03-02 18:00:17,606 - INFO -     - Learning & Workshops: 352
+2025-03-02 18:00:17,606 - INFO -     - Community & Neighborhood: 247
+2025-03-02 18:00:17,606 - INFO -     - Family & Youth: 240
+2025-03-02 18:00:17,606 - INFO - 
 interference_events:
-2025-02-16 18:34:00,610 - INFO -   Total Events: 6
-2025-02-16 18:34:00,610 - INFO -   Categorized Events: 6 (100.0%)
-2025-02-16 18:34:00,610 - INFO -   Top Categories:
-2025-02-16 18:34:00,611 - INFO -     - Arts & Culture: 5
-2025-02-16 18:34:00,611 - INFO -     - Family & Youth: 4
-2025-02-16 18:34:00,611 - INFO -     - Wellness & Fitness: 4
-2025-02-16 18:34:00,611 - INFO - 
-events:
-2025-02-16 18:34:00,611 - INFO -   Total Events: 0
-2025-02-18 17:17:37,731 - WARNING - Could not load auxiliary data: [Errno 2] No such file or directory: 'data/communities.json'
-2025-02-18 17:17:39,436 - INFO - 
-Processing 57_events.json
-2025-02-18 17:17:41,847 - INFO - 
-Processing call_to_gather_events.json
-2025-02-18 17:17:45,175 - INFO - 
-Processing events.json
-2025-02-18 17:17:45,176 - INFO - 
+2025-03-02 18:00:17,608 - INFO -   Total Events: 8
+2025-03-02 18:00:17,608 - INFO -   Categorized Events: 0 (0.0%)
+2025-03-02 18:05:00,412 - INFO - 
 Processing gary_events.json
-2025-02-18 17:17:45,553 - INFO - 
+2025-03-02 18:05:00,414 - INFO - 
 Processing google_calendar_events.json
-2025-02-18 17:19:17,001 - INFO - 
+2025-03-02 18:05:00,419 - INFO - 
 Processing ics_calendar_events.json
-2025-02-18 17:19:22,620 - INFO - 
+2025-03-02 18:05:00,421 - INFO - 
 Processing interference_events.json
-2025-02-18 17:19:23,883 - INFO - 
-Processing nycgov_kids_and_family_events.json
-2025-02-18 17:19:53,956 - INFO - 
-Processing nycgov_street_and_neighborhood_events.json
-2025-02-18 17:20:21,299 - INFO - 
-Processing nycparks_events.json
-2025-02-18 17:20:29,952 - INFO - 
+2025-03-02 18:05:00,422 - INFO - 
 Processing pioneer_works_events.json
-2025-02-18 17:20:31,262 - INFO - 
-Processing reccreate_events.json
-2025-02-18 17:20:33,016 - INFO - 
-Processing substackposts.json
-2025-02-18 17:20:33,025 - WARNING - Unexpected data format in scrapers/data\substackposts.json
-2025-02-18 17:20:33,025 - INFO - 
-Processing wonderville_events.json
-2025-02-18 17:20:52,195 - INFO - 
-Processing yu_and_me_events.json
-2025-02-18 17:20:52,341 - INFO - Saved 1190 categorized events to data/categorized_events.json
-2025-02-18 17:20:52,341 - INFO - 
+2025-03-02 18:06:19,100 - INFO - Saved 419 categorized events to data/categorized_events.json
+2025-03-02 18:06:19,101 - INFO - 
 === Categorization Summary ===
-2025-02-18 17:20:52,341 - INFO - Total Events Processed: 1190
-2025-02-18 17:20:52,341 - INFO - Total Sources: 15
-2025-02-18 17:20:52,349 - INFO - Total Categories Used: 8
-2025-02-18 17:20:52,349 - INFO - 
+2025-03-02 18:06:19,102 - INFO - Total Events Processed: 419
+2025-03-02 18:06:19,102 - INFO - Total Sources: 5
+2025-03-02 18:06:19,102 - INFO - Total Categories Used: 8
+2025-03-02 18:06:19,102 - INFO - 
 === Top Categories ===
-2025-02-18 17:20:52,349 - INFO - 
-Family & Youth (family_youth):
-2025-02-18 17:20:52,349 - INFO -   Total Events: 742
-2025-02-18 17:20:52,349 - INFO -   Average Confidence: 0.74
-2025-02-18 17:20:52,349 - INFO -   Top Sources: {'google_calendar_events': 223, 'nycgov_street_and_neighborhood_events': 211, 'nycgov_kids_and_family_events': 118}
-2025-02-18 17:20:52,349 - INFO -   Top Subcategories:
-2025-02-18 17:20:52,349 - INFO -     - family_events: 118
-2025-02-18 17:20:52,349 - INFO - 
-Arts & Culture (arts_culture):
-2025-02-18 17:20:52,349 - INFO -   Total Events: 710
-2025-02-18 17:20:52,349 - INFO -   Average Confidence: 0.73
-2025-02-18 17:20:52,349 - INFO -   Top Sources: {'nycgov_street_and_neighborhood_events': 240, 'google_calendar_events': 219, 'nycgov_kids_and_family_events': 122}
-2025-02-18 17:20:52,349 - INFO -   Top Subcategories:
-2025-02-18 17:20:52,349 - INFO -     - music: 152
-2025-02-18 17:20:52,349 - INFO -     - film: 21
-2025-02-18 17:20:52,349 - INFO -     - dance: 9
-2025-02-18 17:20:52,349 - INFO -     - galleries: 7
-2025-02-18 17:20:52,349 - INFO -     - theater: 1
-2025-02-18 17:20:52,349 - INFO - 
-Food & Drink (food_drink):
-2025-02-18 17:20:52,349 - INFO -   Total Events: 517
-2025-02-18 17:20:52,353 - INFO -   Average Confidence: 0.74
-2025-02-18 17:20:52,353 - INFO -   Top Sources: {'google_calendar_events': 239, 'nycgov_kids_and_family_events': 105, 'wonderville_events': 92}
-2025-02-18 17:20:52,353 - INFO - 
-Community & Neighborhood (community_neighborhood):
-2025-02-18 17:20:52,353 - INFO -   Total Events: 478
-2025-02-18 17:20:52,353 - INFO -   Average Confidence: 0.81
-2025-02-18 17:20:52,353 - INFO -   Top Sources: {'nycgov_street_and_neighborhood_events': 240, 'google_calendar_events': 233, 'wonderville_events': 3}
-2025-02-18 17:20:52,353 - INFO - 
-Wellness & Fitness (wellness_fitness):
-2025-02-18 17:20:52,353 - INFO -   Total Events: 393
-2025-02-18 17:20:52,353 - INFO -   Average Confidence: 0.73
-2025-02-18 17:20:52,353 - INFO -   Top Sources: {'google_calendar_events': 288, 'nycparks_events': 44, 'call_to_gather_events': 18}
-2025-02-18 17:20:52,353 - INFO -   Top Subcategories:
-2025-02-18 17:20:52,353 - INFO -     - skating: 138
-2025-02-18 17:20:52,353 - INFO -     - yoga: 32
-2025-02-18 17:20:52,353 - INFO -     - mental_health: 2
-2025-02-18 17:20:52,353 - INFO - 
-Learning & Workshops (learning_workshops):
-2025-02-18 17:20:52,353 - INFO -   Total Events: 384
-2025-02-18 17:20:52,357 - INFO -   Average Confidence: 0.82
-2025-02-18 17:20:52,357 - INFO -   Top Sources: {'google_calendar_events': 230, 'ics_calendar_events': 49, 'wonderville_events': 49}
-2025-02-18 17:20:52,357 - INFO -   Top Subcategories:
-2025-02-18 17:20:52,357 - INFO -     - classes: 1
-2025-02-18 17:20:52,357 - INFO - 
-Parks & Outdoors (parks_outdoors):
-2025-02-18 17:20:52,357 - INFO -   Total Events: 282
-2025-02-18 17:20:52,357 - INFO -   Average Confidence: 0.82
-2025-02-18 17:20:52,357 - INFO -   Top Sources: {'google_calendar_events': 229, 'nycgov_street_and_neighborhood_events': 29, 'ics_calendar_events': 11}
-2025-02-18 17:20:52,357 - INFO -   Top Subcategories:
-2025-02-18 17:20:52,357 - INFO -     - gardens: 15
-2025-02-18 17:20:52,357 - INFO - 
-Nightlife & Social (nightlife_social):
-2025-02-18 17:20:52,357 - INFO -   Total Events: 63
-2025-02-18 17:20:52,357 - INFO -   Average Confidence: 0.75
-2025-02-18 17:20:52,357 - INFO -   Top Sources: {'wonderville_events': 53, 'gary_events': 2, 'nycparks_events': 2}
-2025-02-18 17:20:52,357 - INFO - 
+2025-03-02 18:06:19,103 - INFO - 
+Networking & Social (networking_social):
+2025-03-02 18:06:19,103 - INFO -   Total Events: 343
+2025-03-02 18:06:19,103 - INFO -   Average Confidence: 0.85
+2025-03-02 18:06:19,104 - INFO -   Top Sources: {'pioneer_works_events': 343}
+2025-03-02 18:06:19,104 - INFO - 
+Workshops & Training (workshops_training):
+2025-03-02 18:06:19,104 - INFO -   Total Events: 199
+2025-03-02 18:06:19,104 - INFO -   Average Confidence: 0.83
+2025-03-02 18:06:19,105 - INFO -   Top Sources: {'pioneer_works_events': 199}
+2025-03-02 18:06:19,105 - INFO - 
+Hackathons & Competitions (hackathons_competitions):
+2025-03-02 18:06:19,105 - INFO -   Total Events: 198
+2025-03-02 18:06:19,105 - INFO -   Average Confidence: 0.79
+2025-03-02 18:06:19,105 - INFO -   Top Sources: {'pioneer_works_events': 198}
+2025-03-02 18:06:19,106 - INFO - 
+Tech Talks & Conferences (tech_talks):
+2025-03-02 18:06:19,106 - INFO -   Total Events: 136
+2025-03-02 18:06:19,106 - INFO -   Average Confidence: 0.76
+2025-03-02 18:06:19,106 - INFO -   Top Sources: {'pioneer_works_events': 136}
+2025-03-02 18:06:19,106 - INFO -   Top Subcategories:
+2025-03-02 18:06:19,107 - INFO -     - meetups: 1
+2025-03-02 18:06:19,107 - INFO -     - workshops: 1
+2025-03-02 18:06:19,107 - INFO - 
+Coworking & Workspace (coworking_workspace):
+2025-03-02 18:06:19,107 - INFO -   Total Events: 103
+2025-03-02 18:06:19,108 - INFO -   Average Confidence: 0.77
+2025-03-02 18:06:19,108 - INFO -   Top Sources: {'pioneer_works_events': 103}
+2025-03-02 18:06:19,108 - INFO - 
+Startup & Entrepreneurship (startup_entrepreneurship):
+2025-03-02 18:06:19,108 - INFO -   Total Events: 56
+2025-03-02 18:06:19,108 - INFO -   Average Confidence: 0.83
+2025-03-02 18:06:19,109 - INFO -   Top Sources: {'pioneer_works_events': 56}
+2025-03-02 18:06:19,109 - INFO -   Top Subcategories:
+2025-03-02 18:06:19,109 - INFO -     - startup_pitch: 1
+2025-03-02 18:06:19,109 - INFO - 
+Tech Innovation & Research (tech_innovation):
+2025-03-02 18:06:19,109 - INFO -   Total Events: 23
+2025-03-02 18:06:19,109 - INFO -   Average Confidence: 0.85
+2025-03-02 18:06:19,110 - INFO -   Top Sources: {'pioneer_works_events': 23}
+2025-03-02 18:06:19,110 - INFO - 
+Special Interest Tech (special_interest):
+2025-03-02 18:06:19,110 - INFO -   Total Events: 1
+2025-03-02 18:06:19,110 - INFO -   Average Confidence: 0.77
+2025-03-02 18:06:19,110 - INFO -   Top Sources: {'pioneer_works_events': 1}
+2025-03-02 18:06:19,110 - INFO -   Top Subcategories:
+2025-03-02 18:06:19,110 - INFO -     - cybersecurity: 1
+2025-03-02 18:06:19,112 - INFO - 
 === Source Statistics ===
-2025-02-18 17:20:52,357 - INFO - 
+2025-03-02 18:06:19,112 - INFO - 
 google_calendar_events:
-2025-02-18 17:20:52,357 - INFO -   Total Events: 554
-2025-02-18 17:20:52,357 - INFO -   Categorized Events: 554 (100.0%)
-2025-02-18 17:20:52,357 - INFO -   Top Categories:
-2025-02-18 17:20:52,357 - INFO -     - Wellness & Fitness: 288
-2025-02-18 17:20:52,357 - INFO -     - Food & Drink: 239
-2025-02-18 17:20:52,357 - INFO -     - Community & Neighborhood: 233
-2025-02-18 17:20:52,357 - INFO - 
-nycgov_street_and_neighborhood_events:
-2025-02-18 17:20:52,357 - INFO -   Total Events: 240
-2025-02-18 17:20:52,357 - INFO -   Categorized Events: 240 (100.0%)
-2025-02-18 17:20:52,357 - INFO -   Top Categories:
-2025-02-18 17:20:52,357 - INFO -     - Community & Neighborhood: 240
-2025-02-18 17:20:52,357 - INFO -     - Arts & Culture: 240
-2025-02-18 17:20:52,357 - INFO -     - Family & Youth: 211
-2025-02-18 17:20:52,357 - INFO - 
-nycgov_kids_and_family_events:
-2025-02-18 17:20:52,357 - INFO -   Total Events: 123
-2025-02-18 17:20:52,357 - INFO -   Categorized Events: 123 (100.0%)
-2025-02-18 17:20:52,357 - INFO -   Top Categories:
-2025-02-18 17:20:52,357 - INFO -     - Arts & Culture: 122
-2025-02-18 17:20:52,357 - INFO -     - Family & Youth: 118
-2025-02-18 17:20:52,357 - INFO -     - Food & Drink: 105
-2025-02-18 17:20:52,357 - INFO - 
-wonderville_events:
-2025-02-18 17:20:52,357 - INFO -   Total Events: 97
-2025-02-18 17:20:52,365 - INFO -   Categorized Events: 97 (100.0%)
-2025-02-18 17:20:52,365 - INFO -   Top Categories:
-2025-02-18 17:20:52,365 - INFO -     - Food & Drink: 92
-2025-02-18 17:20:52,365 - INFO -     - Family & Youth: 61
-2025-02-18 17:20:52,365 - INFO -     - Nightlife & Social: 53
-2025-02-18 17:20:52,365 - INFO - 
-ics_calendar_events:
-2025-02-18 17:20:52,365 - INFO -   Total Events: 50
-2025-02-18 17:20:52,365 - INFO -   Categorized Events: 50 (100.0%)
-2025-02-18 17:20:52,365 - INFO -   Top Categories:
-2025-02-18 17:20:52,365 - INFO -     - Learning & Workshops: 49
-2025-02-18 17:20:52,365 - INFO -     - Food & Drink: 32
-2025-02-18 17:20:52,365 - INFO -     - Arts & Culture: 21
-2025-02-18 17:20:52,365 - INFO - 
-nycparks_events:
-2025-02-18 17:20:52,365 - INFO -   Total Events: 50
-2025-02-18 17:20:52,365 - INFO -   Categorized Events: 50 (100.0%)
-2025-02-18 17:20:52,365 - INFO -   Top Categories:
-2025-02-18 17:20:52,365 - INFO -     - Family & Youth: 49
-2025-02-18 17:20:52,365 - INFO -     - Wellness & Fitness: 44
-2025-02-18 17:20:52,365 - INFO -     - Arts & Culture: 29
-2025-02-18 17:20:52,365 - INFO - 
-reccreate_events:
-2025-02-18 17:20:52,365 - INFO -   Total Events: 21
-2025-02-18 17:20:52,370 - INFO -   Categorized Events: 21 (100.0%)
-2025-02-18 17:20:52,370 - INFO -   Top Categories:
-2025-02-18 17:20:52,370 - INFO -     - Family & Youth: 21
-2025-02-18 17:20:52,370 - INFO -     - Arts & Culture: 21
-2025-02-18 17:20:52,370 - INFO -     - Wellness & Fitness: 12
-2025-02-18 17:20:52,370 - INFO - 
-call_to_gather_events:
-2025-02-18 17:20:52,370 - INFO -   Total Events: 20
-2025-02-18 17:20:52,370 - INFO -   Categorized Events: 20 (100.0%)
-2025-02-18 17:20:52,370 - INFO -   Top Categories:
-2025-02-18 17:20:52,370 - INFO -     - Family & Youth: 19
-2025-02-18 17:20:52,370 - INFO -     - Wellness & Fitness: 18
-2025-02-18 17:20:52,370 - INFO -     - Arts & Culture: 17
-2025-02-18 17:20:52,370 - INFO - 
-pioneer_works_events:
-2025-02-18 17:20:52,370 - INFO -   Total Events: 12
-2025-02-18 17:20:52,373 - INFO -   Categorized Events: 12 (100.0%)
-2025-02-18 17:20:52,373 - INFO -   Top Categories:
-2025-02-18 17:20:52,373 - INFO -     - Arts & Culture: 11
-2025-02-18 17:20:52,373 - INFO -     - Learning & Workshops: 9
-2025-02-18 17:20:52,373 - INFO -     - Family & Youth: 7
-2025-02-18 17:20:52,373 - INFO - 
-57_events:
-2025-02-18 17:20:52,373 - INFO -   Total Events: 11
-2025-02-18 17:20:52,373 - INFO -   Categorized Events: 11 (100.0%)
-2025-02-18 17:20:52,373 - INFO -   Top Categories:
-2025-02-18 17:20:52,373 - INFO -     - Learning & Workshops: 8
-2025-02-18 17:20:52,373 - INFO -     - Food & Drink: 7
-2025-02-18 17:20:52,373 - INFO -     - Wellness & Fitness: 6
-2025-02-18 17:20:52,373 - INFO - 
+2025-03-02 18:06:19,112 - INFO -   Total Events: 305
+2025-03-02 18:06:19,112 - INFO -   Categorized Events: 0 (0.0%)
+2025-03-02 18:06:19,112 - INFO - 
 gary_events:
-2025-02-18 17:20:52,373 - INFO -   Total Events: 6
-2025-02-18 17:20:52,373 - INFO -   Categorized Events: 6 (100.0%)
-2025-02-18 17:20:52,373 - INFO -   Top Categories:
-2025-02-18 17:20:52,373 - INFO -     - Food & Drink: 6
-2025-02-18 17:20:52,373 - INFO -     - Learning & Workshops: 5
-2025-02-18 17:20:52,373 - INFO -     - Family & Youth: 4
-2025-02-18 17:20:52,373 - INFO - 
+2025-03-02 18:06:19,112 - INFO -   Total Events: 48
+2025-03-02 18:06:19,112 - INFO -   Categorized Events: 0 (0.0%)
+2025-03-02 18:06:19,113 - INFO - 
+ics_calendar_events:
+2025-03-02 18:06:19,113 - INFO -   Total Events: 42
+2025-03-02 18:06:19,113 - INFO -   Categorized Events: 0 (0.0%)
+2025-03-02 18:06:19,113 - INFO - 
+pioneer_works_events:
+2025-03-02 18:06:19,113 - INFO -   Total Events: 16
+2025-03-02 18:06:19,114 - INFO -   Categorized Events: 353 (2206.2%)
+2025-03-02 18:06:19,114 - INFO -   Top Categories:
+2025-03-02 18:06:19,114 - INFO -     - Networking & Social: 343
+2025-03-02 18:06:19,114 - INFO -     - Workshops & Training: 199
+2025-03-02 18:06:19,115 - INFO -     - Hackathons & Competitions: 198
+2025-03-02 18:06:19,115 - INFO - 
 interference_events:
-2025-02-18 17:20:52,373 - INFO -   Total Events: 6
-2025-02-18 17:20:52,373 - INFO -   Categorized Events: 6 (100.0%)
-2025-02-18 17:20:52,373 - INFO -   Top Categories:
-2025-02-18 17:20:52,373 - INFO -     - Arts & Culture: 5
-2025-02-18 17:20:52,373 - INFO -     - Family & Youth: 4
-2025-02-18 17:20:52,373 - INFO -     - Wellness & Fitness: 4
-2025-02-18 17:20:52,373 - INFO - 
-events:
-2025-02-18 17:20:52,373 - INFO -   Total Events: 0
-2025-02-18 17:23:55,535 - WARNING - Could not load auxiliary data: [Errno 2] No such file or directory: 'data/communities.json'
-2025-02-18 17:24:19,475 - WARNING - Could not load auxiliary data: [Errno 2] No such file or directory: '../../data/communities.json'
-2025-02-18 17:24:37,188 - WARNING - Could not load auxiliary data: [Errno 2] No such file or directory: 'data/locations.json'
-2025-02-18 17:27:21,417 - INFO - 
-Processing 57_events.json
-2025-02-18 17:27:21,417 - INFO - 
-Processing call_to_gather_events.json
-2025-02-18 17:27:21,417 - INFO - 
-Processing events.json
-2025-02-18 17:27:21,417 - INFO - 
+2025-03-02 18:06:19,115 - INFO -   Total Events: 8
+2025-03-02 18:06:19,115 - INFO -   Categorized Events: 0 (0.0%)
+2025-03-02 18:30:35,674 - INFO - 
 Processing gary_events.json
-2025-02-18 17:27:21,417 - INFO - 
+2025-03-02 18:30:35,676 - INFO - 
 Processing google_calendar_events.json
-2025-02-18 17:27:21,433 - INFO - 
+2025-03-02 18:30:35,687 - INFO - 
 Processing ics_calendar_events.json
-2025-02-18 17:27:21,433 - INFO - 
+2025-03-02 18:30:35,689 - INFO - 
 Processing interference_events.json
-2025-02-18 17:27:21,433 - INFO - 
-Processing nycgov_kids_and_family_events.json
-2025-02-18 17:27:21,433 - INFO - 
-Processing nycgov_street_and_neighborhood_events.json
-2025-02-18 17:27:21,441 - INFO - 
-Processing nycparks_events.json
-2025-02-18 17:27:21,441 - INFO - 
+2025-03-02 18:30:35,690 - INFO - 
 Processing pioneer_works_events.json
-2025-02-18 17:27:21,441 - INFO - 
-Processing reccreate_events.json
-2025-02-18 17:27:21,441 - INFO - 
-Processing substackposts.json
-2025-02-18 17:27:21,448 - WARNING - Unexpected data format in scrapers/data\substackposts.json
-2025-02-18 17:27:21,448 - INFO - 
-Processing wonderville_events.json
-2025-02-18 17:27:21,449 - INFO - 
-Processing yu_and_me_events.json
-2025-02-18 17:27:21,457 - INFO - 
-Generated 153 new locations
-2025-02-18 17:27:21,457 - INFO - Updated locations saved to data/locations.json
-2025-02-18 17:31:04,406 - INFO - 
-Processing 57_events.json
-2025-02-18 17:31:04,407 - INFO - 
-Processing call_to_gather_events.json
-2025-02-18 17:31:04,408 - INFO - 
-Processing events.json
-2025-02-18 17:31:04,408 - INFO - 
+2025-03-02 18:31:48,442 - INFO - Saved 419 categorized events to data/categorized_events.json
+2025-03-02 18:31:48,444 - INFO - 
+=== Categorization Summary ===
+2025-03-02 18:31:48,444 - INFO - Total Events Processed: 419
+2025-03-02 18:31:48,444 - INFO - Total Sources: 5
+2025-03-02 18:31:48,444 - INFO - Total Categories Used: 8
+2025-03-02 18:31:48,444 - INFO - 
+=== Top Categories ===
+2025-03-02 18:31:48,446 - INFO - 
+Networking & Social (networking_social):
+2025-03-02 18:31:48,446 - INFO -   Total Events: 343
+2025-03-02 18:31:48,446 - INFO -   Average Confidence: 0.85
+2025-03-02 18:31:48,446 - INFO -   Top Sources: {'pioneer_works_events': 343}
+2025-03-02 18:31:48,446 - INFO - 
+Workshops & Training (workshops_training):
+2025-03-02 18:31:48,446 - INFO -   Total Events: 199
+2025-03-02 18:31:48,447 - INFO -   Average Confidence: 0.83
+2025-03-02 18:31:48,447 - INFO -   Top Sources: {'pioneer_works_events': 199}
+2025-03-02 18:31:48,447 - INFO - 
+Hackathons & Competitions (hackathons_competitions):
+2025-03-02 18:31:48,447 - INFO -   Total Events: 198
+2025-03-02 18:31:48,447 - INFO -   Average Confidence: 0.79
+2025-03-02 18:31:48,448 - INFO -   Top Sources: {'pioneer_works_events': 198}
+2025-03-02 18:31:48,448 - INFO - 
+Tech Talks & Conferences (tech_talks):
+2025-03-02 18:31:48,448 - INFO -   Total Events: 136
+2025-03-02 18:31:48,448 - INFO -   Average Confidence: 0.76
+2025-03-02 18:31:48,448 - INFO -   Top Sources: {'pioneer_works_events': 136}
+2025-03-02 18:31:48,449 - INFO -   Top Subcategories:
+2025-03-02 18:31:48,449 - INFO -     - meetups: 1
+2025-03-02 18:31:48,449 - INFO -     - workshops: 1
+2025-03-02 18:31:48,449 - INFO - 
+Coworking & Workspace (coworking_workspace):
+2025-03-02 18:31:48,449 - INFO -   Total Events: 103
+2025-03-02 18:31:48,450 - INFO -   Average Confidence: 0.77
+2025-03-02 18:31:48,450 - INFO -   Top Sources: {'pioneer_works_events': 103}
+2025-03-02 18:31:48,450 - INFO - 
+Startup & Entrepreneurship (startup_entrepreneurship):
+2025-03-02 18:31:48,450 - INFO -   Total Events: 56
+2025-03-02 18:31:48,450 - INFO -   Average Confidence: 0.83
+2025-03-02 18:31:48,451 - INFO -   Top Sources: {'pioneer_works_events': 56}
+2025-03-02 18:31:48,451 - INFO -   Top Subcategories:
+2025-03-02 18:31:48,451 - INFO -     - startup_pitch: 1
+2025-03-02 18:31:48,451 - INFO - 
+Tech Innovation & Research (tech_innovation):
+2025-03-02 18:31:48,451 - INFO -   Total Events: 23
+2025-03-02 18:31:48,452 - INFO -   Average Confidence: 0.85
+2025-03-02 18:31:48,452 - INFO -   Top Sources: {'pioneer_works_events': 23}
+2025-03-02 18:31:48,452 - INFO - 
+Special Interest Tech (special_interest):
+2025-03-02 18:31:48,452 - INFO -   Total Events: 1
+2025-03-02 18:31:48,452 - INFO -   Average Confidence: 0.77
+2025-03-02 18:31:48,454 - INFO -   Top Sources: {'pioneer_works_events': 1}
+2025-03-02 18:31:48,454 - INFO -   Top Subcategories:
+2025-03-02 18:31:48,454 - INFO -     - cybersecurity: 1
+2025-03-02 18:31:48,454 - INFO - 
+=== Source Statistics ===
+2025-03-02 18:31:48,455 - INFO - 
+google_calendar_events:
+2025-03-02 18:31:48,455 - INFO -   Total Events: 305
+2025-03-02 18:31:48,455 - INFO -   Categorized Events: 0 (0.0%)
+2025-03-02 18:31:48,455 - INFO - 
+gary_events:
+2025-03-02 18:31:48,455 - INFO -   Total Events: 48
+2025-03-02 18:31:48,455 - INFO -   Categorized Events: 0 (0.0%)
+2025-03-02 18:31:48,456 - INFO - 
+ics_calendar_events:
+2025-03-02 18:31:48,456 - INFO -   Total Events: 42
+2025-03-02 18:31:48,456 - INFO -   Categorized Events: 0 (0.0%)
+2025-03-02 18:31:48,456 - INFO - 
+pioneer_works_events:
+2025-03-02 18:31:48,456 - INFO -   Total Events: 16
+2025-03-02 18:31:48,456 - INFO -   Categorized Events: 353 (2206.2%)
+2025-03-02 18:31:48,457 - INFO -   Top Categories:
+2025-03-02 18:31:48,457 - INFO -     - Networking & Social: 343
+2025-03-02 18:31:48,457 - INFO -     - Workshops & Training: 199
+2025-03-02 18:31:48,457 - INFO -     - Hackathons & Competitions: 198
+2025-03-02 18:31:48,458 - INFO - 
+interference_events:
+2025-03-02 18:31:48,458 - INFO -   Total Events: 8
+2025-03-02 18:31:48,458 - INFO -   Categorized Events: 0 (0.0%)
+2025-03-03 10:41:39,382 - ERROR - Error running pioneer_works_scraper: No module named 'pioneer_works_scraper'
+2025-03-03 10:41:39,383 - INFO - Collected 0 events from pioneer_works_scraper
+2025-03-03 10:41:39,384 - ERROR - Error running garys_guide_scraper: No module named 'garys_guide_scraper'
+2025-03-03 10:41:39,384 - INFO - Collected 0 events from garys_guide_scraper
+2025-03-03 10:41:39,385 - ERROR - Error running interference_scraper: No module named 'interference_scraper'
+2025-03-03 10:41:39,385 - INFO - Collected 0 events from interference_scraper
+2025-03-03 10:41:39,386 - ERROR - Error running google_calendar_scraper: No module named 'google_calendar_scraper'
+2025-03-03 10:41:39,386 - INFO - Collected 0 events from google_calendar_scraper
+2025-03-03 10:41:39,387 - ERROR - Error running ics_calendar_scraper: No module named 'ics_calendar_scraper'
+2025-03-03 10:41:39,387 - INFO - Collected 0 events from ics_calendar_scraper
+2025-03-03 10:41:39,388 - INFO - 
+Processed 0 events
+2025-03-03 10:41:39,388 - INFO - Saved to data/all_events.json
+2025-03-03 10:41:39,389 - INFO - 
+Category Statistics:
+2025-03-03 10:49:05,948 - INFO - 
 Processing gary_events.json
-2025-02-18 17:31:04,409 - INFO - 
+2025-03-03 10:49:05,955 - INFO - 
 Processing google_calendar_events.json
-2025-02-18 17:31:04,428 - INFO - 
+2025-03-03 10:49:05,962 - INFO - 
 Processing ics_calendar_events.json
-2025-02-18 17:31:04,430 - INFO - 
+2025-03-03 10:49:05,964 - INFO - 
 Processing interference_events.json
-2025-02-18 17:31:04,431 - INFO - 
-Processing nycgov_kids_and_family_events.json
-2025-02-18 17:31:04,434 - INFO - 
-Processing nycgov_street_and_neighborhood_events.json
-2025-02-18 17:31:04,437 - INFO - 
-Processing nycparks_events.json
-2025-02-18 17:31:04,439 - INFO - 
+2025-03-03 10:49:05,977 - INFO - 
 Processing pioneer_works_events.json
-2025-02-18 17:31:04,440 - INFO - 
-Processing reccreate_events.json
-2025-02-18 17:31:04,440 - INFO - 
-Processing substackposts.json
-2025-02-18 17:31:04,443 - WARNING - Unexpected data format in scrapers/data\substackposts.json
-2025-02-18 17:31:04,443 - INFO - 
-Processing wonderville_events.json
-2025-02-18 17:31:04,445 - INFO - 
-Processing yu_and_me_events.json
-2025-02-18 17:31:04,447 - WARNING - No address found for location: New York City
-2025-02-18 17:31:07,885 - ERROR - Geocoding error for PLNT Burger, 1147 Broadway, New York, NY 10001, USA: 403 Client Error: Forbidden for url: https://nominatim.openstreetmap.org/search?format=json&q=PLNT%20Burger,%201147%20Broadway,%20New%20York,%20NY%2010001,%20USA
-2025-02-18 17:31:07,885 - WARNING - Could not geocode location: 
-2025-02-18 17:31:10,081 - ERROR - Geocoding error for In-Person Event (Midtown); register for location details: 403 Client Error: Forbidden for url: https://nominatim.openstreetmap.org/search?format=json&q=In-Person%20Event%20(Midtown);%20register%20for%20location%20details
-2025-02-18 17:31:10,083 - WARNING - Could not geocode location: 
-2025-02-18 17:31:13,006 - ERROR - Geocoding error for Worldwide!: 403 Client Error: Forbidden for url: https://nominatim.openstreetmap.org/search?format=json&q=Worldwide!
-2025-02-18 17:31:13,013 - WARNING - Could not geocode location: 
-2025-02-18 17:31:16,083 - ERROR - Geocoding error for General William Tecumseh Sherman Monument, 764 Doris C Freedman Pl, New York, NY 10019, USA: 403 Client Error: Forbidden for url: https://nominatim.openstreetmap.org/search?format=json&q=General%20William%20Tecumseh%20Sherman%20Monument,%20764%20Doris%20C%20Freedman%20Pl,%20New%20York,%20NY%2010019,%20USA
-2025-02-18 17:31:16,091 - WARNING - Could not geocode location: 
-2025-02-18 17:31:19,053 - ERROR - Geocoding error for Union Square, New York, NY 10003, USA: 403 Client Error: Forbidden for url: https://nominatim.openstreetmap.org/search?format=json&q=Union%20Square,%20New%20York,%20NY%2010003,%20USA
-2025-02-18 17:31:19,053 - WARNING - Could not geocode location: 
-2025-02-18 17:31:22,325 - ERROR - Geocoding error for Son Cubano Restaurant on the Hudson, 40-4 Riverwalk Pl, West New York, NJ 07093, USA: 403 Client Error: Forbidden for url: https://nominatim.openstreetmap.org/search?format=json&q=Son%20Cubano%20Restaurant%20on%20the%20Hudson,%2040-4%20Riverwalk%20Pl,%20West%20New%20York,%20NJ%2007093,%20USA
-2025-02-18 17:31:22,326 - WARNING - Could not geocode location: 
-2025-02-18 17:31:24,992 - ERROR - Geocoding error for Miami Beach, FL, USA: 403 Client Error: Forbidden for url: https://nominatim.openstreetmap.org/search?format=json&q=Miami%20Beach,%20FL,%20USA
-2025-02-18 17:31:24,993 - WARNING - Could not geocode location: 
-2025-02-18 17:31:27,969 - ERROR - Geocoding error for Houston, TX, USA: 403 Client Error: Forbidden for url: https://nominatim.openstreetmap.org/search?format=json&q=Houston,%20TX,%20USA
-2025-02-18 17:31:27,970 - WARNING - Could not geocode location: 
-2025-02-18 17:31:31,342 - ERROR - Geocoding error for Warner LeRoy Place, Warner LeRoy Pl, New York, NY, USA: 403 Client Error: Forbidden for url: https://nominatim.openstreetmap.org/search?format=json&q=Warner%20LeRoy%20Place,%20Warner%20LeRoy%20Pl,%20New%20York,%20NY,%20USA
-2025-02-18 17:31:31,343 - WARNING - Could not geocode location: 
-2025-02-18 17:31:34,105 - ERROR - Geocoding error for 198 Perimeter Rd, Greenville, SC 29605, USA: 403 Client Error: Forbidden for url: https://nominatim.openstreetmap.org/search?format=json&q=198%20Perimeter%20Rd,%20Greenville,%20SC%2029605,%20USA
-2025-02-18 17:31:34,107 - WARNING - Could not geocode location: 
-2025-02-18 17:32:01,920 - INFO - 
-Processing 57_events.json
-2025-02-18 17:32:01,927 - INFO - 
-Processing call_to_gather_events.json
-2025-02-18 17:32:01,927 - INFO - 
-Processing events.json
-2025-02-18 17:32:01,927 - INFO - 
+2025-03-03 10:50:51,181 - INFO - Deduplicating events...
+2025-03-03 10:50:51,182 - INFO - Merging 2 duplicate events with URL: https://lu.ma/j7ivki67
+2025-03-03 10:50:51,182 - INFO - Merging 2 duplicate events with URL: https://lu.ma/nyc-tech
+2025-03-03 10:50:51,183 - INFO - Merging 3 duplicate events with URL: https://lu.ma/verci
+2025-03-03 10:50:51,183 - INFO - Deduplication complete. Reduced from 459 to 455 events.
+2025-03-03 10:50:51,183 - WARNING - Could not load existing locations: [Errno 2] No such file or directory: 'public/data/locations.json'
+2025-03-03 10:50:51,187 - ERROR - Error saving to public/data/events.json: [Errno 2] No such file or directory: 'public/data/events.json'
+2025-03-03 10:54:35,800 - INFO - 
 Processing gary_events.json
-2025-02-18 17:32:01,927 - INFO - 
+2025-03-03 10:54:35,806 - INFO - 
 Processing google_calendar_events.json
-2025-02-18 17:32:01,941 - INFO - 
+2025-03-03 10:54:35,818 - INFO - 
 Processing ics_calendar_events.json
-2025-02-18 17:32:01,945 - INFO - 
+2025-03-03 10:54:35,821 - INFO - 
 Processing interference_events.json
-2025-02-18 17:32:01,945 - INFO - 
-Processing nycgov_kids_and_family_events.json
-2025-02-18 17:32:01,945 - INFO - 
-Processing nycgov_street_and_neighborhood_events.json
-2025-02-18 17:32:01,945 - INFO - 
-Processing nycparks_events.json
-2025-02-18 17:32:01,953 - INFO - 
+2025-03-03 10:54:35,822 - INFO - 
 Processing pioneer_works_events.json
-2025-02-18 17:32:01,953 - INFO - 
-Processing reccreate_events.json
-2025-02-18 17:32:01,953 - INFO - 
-Processing substackposts.json
-2025-02-18 17:32:01,953 - WARNING - Unexpected data format in scrapers/data\substackposts.json
-2025-02-18 17:32:01,953 - INFO - 
-Processing wonderville_events.json
-2025-02-18 17:32:01,953 - INFO - 
-Processing yu_and_me_events.json
-2025-02-18 17:32:01,961 - WARNING - No address found for location: New York City
-2025-02-18 17:32:03,399 - WARNING - Could not geocode location: 
-2025-02-18 17:32:04,314 - WARNING - Could not geocode location: 
-2025-02-18 17:32:05,243 - INFO - Geocoded location:  - Lat: -33.8938107, Lng: 151.2621478
-2025-02-18 17:32:07,183 - WARNING - Could not geocode location: 
-2025-02-18 17:32:07,903 - INFO - Geocoded location:  - Lat: 40.7360717, Lng: -73.9901888
-2025-02-18 17:32:09,745 - WARNING - Could not geocode location: 
-2025-02-18 17:32:10,558 - INFO - Geocoded location:  - Lat: 25.7929198, Lng: -80.1353006
-2025-02-18 17:32:11,579 - INFO - Geocoded location:  - Lat: 29.7589382, Lng: -95.3676974
-2025-02-18 17:32:13,019 - WARNING - Could not geocode location: 
-2025-02-18 17:32:15,067 - INFO - Geocoded location:  - Lat: 34.76065975147031, Lng: -82.36225924371769
-2025-02-18 17:32:15,887 - INFO - Geocoded location:  - Lat: 47.6038321, Lng: -122.330062
-2025-02-18 17:32:18,857 - WARNING - Could not geocode location: 
-2025-02-18 17:32:19,472 - INFO - Geocoded location:  - Lat: 46.7729322, Lng: -92.1251218
-2025-02-18 17:32:20,582 - WARNING - Could not geocode location: 
-2025-02-18 17:32:23,053 - WARNING - Could not geocode location: 
-2025-02-18 17:32:24,589 - WARNING - Could not geocode location: 
-2025-02-18 17:32:25,428 - INFO - Geocoded location:  - Lat: 40.7727846, Lng: -73.9144932
-2025-02-18 17:32:27,668 - INFO - Geocoded location:  - Lat: 40.72776705, Lng: -74.00087478501757
-2025-02-18 17:32:28,438 - WARNING - Could not geocode location: 
-2025-02-18 17:32:29,609 - WARNING - Could not geocode location: 
-2025-02-18 17:32:31,145 - WARNING - Could not geocode location: 
-2025-02-18 17:32:31,767 - WARNING - Could not geocode location: 
-2025-02-18 17:32:32,786 - WARNING - Could not geocode location: 
-2025-02-18 17:32:34,569 - WARNING - Could not geocode location: 
-2025-02-18 17:32:35,546 - INFO - Geocoded location:  - Lat: -20.25213925, Lng: 57.587224515430165
-2025-02-18 17:32:39,851 - INFO - Geocoded location:  - Lat: 40.71274175, Lng: -74.01065111699435
-2025-02-18 17:32:40,443 - WARNING - Could not geocode location: 
-2025-02-18 17:32:41,690 - WARNING - Could not geocode location: 
-2025-02-18 17:32:42,726 - WARNING - Could not geocode location: 
-2025-02-18 17:32:44,257 - WARNING - Could not geocode location: 
-2025-02-18 17:32:44,976 - WARNING - Could not geocode location: 
-2025-02-18 17:32:48,046 - WARNING - Could not geocode location: 
-2025-02-18 17:32:49,623 - WARNING - Could not geocode location: 
-2025-02-18 17:32:50,574 - WARNING - Could not geocode location: 
-2025-02-18 17:32:51,522 - WARNING - Could not geocode location: 
-2025-02-18 17:32:55,226 - INFO - Geocoded location:  - Lat: 40.700987850000004, Lng: -74.01165071158765
-2025-02-18 17:32:55,847 - WARNING - Could not geocode location: 
-2025-02-18 17:32:57,159 - INFO - Geocoded location:  - Lat: 40.71896535, Lng: -73.99497385342738
-2025-02-18 17:32:59,802 - INFO - Geocoded location:  - Lat: 40.7209735, Lng: -73.9880154
-2025-02-18 17:33:01,555 - INFO - Geocoded location:  - Lat: 40.744924600000004, Lng: -73.98859595269975
-2025-02-18 17:33:02,703 - INFO - Geocoded location:  - Lat: 40.7500481, Lng: -73.9847324
-2025-02-18 17:33:03,508 - WARNING - Could not geocode location: 
-2025-02-18 17:33:04,322 - WARNING - Could not geocode location: 
-2025-02-18 17:33:05,449 - WARNING - Could not geocode location: 
-2025-02-18 17:33:07,215 - WARNING - Could not geocode location: 
-2025-02-18 17:33:07,798 - WARNING - Could not geocode location: 
-2025-02-18 17:33:08,755 - WARNING - Could not geocode location: 
-2025-02-18 17:33:09,953 - WARNING - Could not geocode location: 
-2025-02-18 17:33:10,873 - WARNING - Could not geocode location: 
-2025-02-18 17:33:11,900 - WARNING - Could not geocode location: 
-2025-02-18 17:33:12,925 - WARNING - Could not geocode location: 
-2025-02-18 17:33:14,157 - WARNING - Could not geocode location: 
-2025-02-18 17:33:15,182 - WARNING - Could not geocode location: 
-2025-02-18 17:33:16,199 - WARNING - Could not geocode location: Online Event
-2025-02-18 17:33:17,429 - INFO - Geocoded location: Ringolevio, 490 Humboldt St, Brooklyn, NY 11222, USA - Lat: 40.7190611, Lng: -73.9433506
-2025-02-18 17:33:18,454 - WARNING - Could not geocode location: Online Event
-2025-02-18 17:33:19,414 - WARNING - Could not geocode location: Online Event
-2025-02-18 17:33:21,015 - WARNING - Could not geocode location: McCarren Parkhouse, 855 Lorimer St, Brooklyn, NY 11222, USA
-2025-02-18 17:33:21,883 - WARNING - Could not geocode location: Online Event
-2025-02-18 17:33:23,585 - WARNING - Could not geocode location: Fabrik NYC, 12-16 Vestry St 4th Floor, New York, NY 10013, USA
-2025-02-18 17:33:26,340 - WARNING - Could not geocode location: Farm.One, 625 Bergen St, Brooklyn, NY 11238, USA
-2025-02-18 17:33:28,085 - WARNING - Could not geocode location: recess grove, 327 Grand St, Brooklyn, NY 11211, USA
-2025-02-18 17:33:29,933 - WARNING - Could not geocode location: Online Event
-2025-02-18 17:33:32,209 - WARNING - Could not geocode location: Online Event
-2025-02-18 17:33:33,420 - WARNING - Could not geocode location: Online Event
-2025-02-18 17:33:34,839 - WARNING - Could not geocode location: Online Event
-2025-02-18 17:33:40,981 - WARNING - Could not geocode location: Little Honey, 487 7th Ave, Brooklyn, NY 11215, USA
-2025-02-18 17:33:44,796 - WARNING - Could not geocode location: Online Event
-2025-02-18 17:33:47,229 - INFO - Geocoded location: 27 E 10th St, Brooklyn, NY 11218, USA - Lat: 40.647812200000004, Lng: -73.97031600737975
-2025-02-18 17:33:51,108 - WARNING - Could not geocode location: Calcutta Kitchens, 448 Broadway, Kingston, NY 12401, USA
-2025-02-18 17:33:53,552 - WARNING - Could not geocode location: Online Event
-2025-02-18 17:34:01,874 - WARNING - Could not geocode location: frog, 79 5th Ave, New York, NY 10003, USA
-2025-02-18 17:34:02,999 - WARNING - Could not geocode location: Makelab | 3D Manufacturing Services, 325 Gold St, Brooklyn, NY 11201, USA
-2025-02-18 17:34:04,127 - WARNING - Could not geocode location: Online Event
-2025-02-18 17:34:05,457 - INFO - Geocoded location: Hekate Café & Elixir Lounge, 167 Avenue B, New York, NY 10009, USA - Lat: 40.7271351, Lng: -73.9795427
-2025-02-18 17:34:06,433 - WARNING - Could not geocode location: Reforesters Laboratory, 147 Metropolitan Ave, Brooklyn, NY 11249, USA
-2025-02-18 17:34:07,512 - INFO - Geocoded location: One Pace Plaza, New York, NY 10038, USA - Lat: 40.711105, Lng: -74.00461340754549
-2025-02-18 17:34:09,747 - INFO - Geocoded location: 525 Greenwich St, New York, NY 10013, USA - Lat: 40.726386399999996, Lng: -74.00872532974589
-2025-02-18 17:34:10,485 - WARNING - Could not geocode location: Online Event
-2025-02-18 17:34:12,213 - WARNING - Could not geocode location: Chief, 13 E 19th St, New York, NY 10003, USA
-2025-02-18 17:34:13,297 - INFO - Geocoded location: Bryant Park - Lat: 40.75375085, Lng: -73.98354279430387
-2025-02-18 17:34:14,616 - INFO - Geocoded location: 2900 Southern Blvd - Lat: 40.862243050000004, Lng: -73.87715409529777
-2025-02-18 17:34:15,597 - WARNING - Could not geocode location: All NYC Public Schools
-2025-02-18 17:34:16,520 - INFO - Geocoded location: Citywide - Lat: -37.7994743, Lng: 144.9384903
-2025-02-18 17:34:17,601 - WARNING - Could not geocode location: Entrance - Lafayette Avenue and Morrison Avenue
-2025-02-18 17:34:18,886 - WARNING - Could not geocode location: 1527 Jesup Avenue Gymnasium (Part A)
-2025-02-18 17:34:19,789 - WARNING - Could not geocode location: Venues in Brooklyn and Manhattan
-2025-02-18 17:34:21,222 - INFO - Geocoded location: Public Schools - Lat: 41.8821707, Lng: -87.6286808
-2025-02-18 17:34:22,456 - WARNING - Could not geocode location: The parade marches north on Fifth Avenue, from 49th Street to 57th Street.
-2025-02-18 17:34:24,608 - INFO - Geocoded location: 545 W 30th Street - Lat: 40.75328125, Lng: -74.00267106782556
-2025-02-18 17:34:25,739 - INFO - Geocoded location: NYC Public Schools - Lat: 40.6138825, Lng: -73.9313061
-2025-02-18 17:34:29,200 - WARNING - Could not geocode location: 2 AVENUE between EAST   32 STREET and EAST   33 STREET  Manhattan
-2025-02-18 17:34:30,654 - WARNING - Could not geocode location: 4 STREET between 5 AVENUE and DEAD END  Brooklyn
-2025-02-18 17:34:32,087 - WARNING - Could not geocode location: WEST HOUSTON STREET between THOMPSON STREET and MACDOUGAL STREET  Manhattan
-2025-02-18 17:34:35,455 - WARNING - Could not geocode location: EAST   70 STREET between 1 AVENUE and 2 AVENUE  Manhattan
-2025-02-18 17:34:37,813 - WARNING - Could not geocode location: EAST  125 STREET between PARK AVENUE and MADISON AVENUE  Manhattan
-2025-02-18 17:34:38,943 - WARNING - Could not geocode location: EAST GUN HILL ROAD between DEKALB AVENUE and ROCHAMBEAU AVENUE  Bronx
-2025-02-18 17:34:41,709 - WARNING - Could not geocode location: EAST   82 STREET between 1 AVENUE and YORK AVENUE  Manhattan
-2025-02-18 17:34:44,268 - WARNING - Could not geocode location: WEST   97 STREET between COLUMBUS AVENUE and AMSTERDAM AVENUE  Manhattan
+2025-03-03 10:56:12,819 - INFO - 
+=== Starting Event Deduplication ===
+2025-03-03 10:56:12,820 - INFO - 
+Found 2 duplicate events with URL: https://lu.ma/j7ivki67
+2025-03-03 10:56:12,820 - INFO - 
+Duplicate #1:
+2025-03-03 10:56:12,820 - INFO -   Title: SideQuest #22
+2025-03-03 10:56:12,820 - INFO -   Community ID: com_fractal
+2025-03-03 10:56:12,820 - INFO -   Location: 
+2025-03-03 10:56:12,820 - INFO -   Source: pioneer_works_events
+2025-03-03 10:56:12,820 - INFO -   Organizer: {'name': 'Fractal Tech: NYC', 'instagram': '', 'email': 't3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com'}
+2025-03-03 10:56:12,820 - INFO -   Speakers: Chandiran, Chandiran
+2025-03-03 10:56:12,822 - INFO - 
+Duplicate #2:
+2025-03-03 10:56:12,822 - INFO -   Title: SideQuest #22
+2025-03-03 10:56:12,822 - INFO -   Community ID: com_sidequest
+2025-03-03 10:56:12,822 - INFO -   Location: 
+2025-03-03 10:56:12,822 - INFO -   Source: pioneer_works_events
+2025-03-03 10:56:12,822 - INFO -   Organizer: {'name': 'SideQuest', 'instagram': '', 'email': 'abln66abl799vb4gprllu4225l744l70@import.calendar.google.com'}
+2025-03-03 10:56:12,822 - INFO -   Speakers: Chandiran, Chandiran
+2025-03-03 10:56:12,822 - INFO - 
+Merging events:
+2025-03-03 10:56:12,822 - INFO -   Host Community: com_fractal
+2025-03-03 10:56:12,822 - INFO -   Guest Community: com_sidequest
+2025-03-03 10:56:12,822 - INFO -   Using organizer from guest event: {'name': 'SideQuest', 'instagram': '', 'email': 'abln66abl799vb4gprllu4225l744l70@import.calendar.google.com'}
+2025-03-03 10:56:12,824 - INFO -   Removed 1 duplicate speakers
+2025-03-03 10:56:12,824 - INFO -   Final speakers: Chandiran
+2025-03-03 10:56:12,824 - INFO -   Removed 1 duplicate categories
+2025-03-03 10:56:12,824 - INFO -   Final categories: Arts & Culture
+2025-03-03 10:56:12,824 - INFO -   Removed 2 duplicate social links
+2025-03-03 10:56:12,824 - INFO -   Merge complete
+
+2025-03-03 10:56:12,824 - INFO - 
+Found 2 duplicate events with URL: https://lu.ma/nyc-tech
+2025-03-03 10:56:12,824 - INFO - 
+Duplicate #1:
+2025-03-03 10:56:12,824 - INFO -   Title: Tech 4 BABIES Hackathon
+2025-03-03 10:56:12,824 - INFO -   Community ID: com_fractal
+2025-03-03 10:56:12,824 - INFO -   Location: 
+2025-03-03 10:56:12,824 - INFO -   Source: pioneer_works_events
+2025-03-03 10:56:12,824 - INFO -   Organizer: {'name': 'Fractal Tech: NYC', 'instagram': '', 'email': 't3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com'}
+2025-03-03 10:56:12,824 - INFO -   Speakers: 
+2025-03-03 10:56:12,824 - INFO - 
+Duplicate #2:
+2025-03-03 10:56:12,827 - INFO -   Title: Code & Coffee
+2025-03-03 10:56:12,827 - INFO -   Community ID: com_fractal
+2025-03-03 10:56:12,827 - INFO -   Location: 
+2025-03-03 10:56:12,827 - INFO -   Source: pioneer_works_events
+2025-03-03 10:56:12,827 - INFO -   Organizer: {'name': 'Fractal Tech: NYC', 'instagram': '', 'email': 't3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com'}
+2025-03-03 10:56:12,827 - INFO -   Speakers: 
+2025-03-03 10:56:12,827 - INFO - 
+Merging events:
+2025-03-03 10:56:12,827 - INFO -   Host Community: com_fractal
+2025-03-03 10:56:12,827 - INFO -   Guest Community: None
+2025-03-03 10:56:12,827 - INFO -   Merge complete
+
+2025-03-03 10:56:12,827 - INFO - 
+Found 3 duplicate events with URL: https://lu.ma/verci
+2025-03-03 10:56:12,829 - INFO - 
+Duplicate #1:
+2025-03-03 10:56:12,829 - INFO -   Title: Willo: Feel the Music ft. FELA aKUsTIc
+2025-03-03 10:56:12,829 - INFO -   Community ID: com_verci
+2025-03-03 10:56:12,829 - INFO -   Location: 
+2025-03-03 10:56:12,829 - INFO -   Source: pioneer_works_events
+2025-03-03 10:56:12,829 - INFO -   Organizer: {'name': 'Verci Events', 'instagram': '', 'email': 'pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com'}
+2025-03-03 10:56:12,829 - INFO -   Speakers: 
+2025-03-03 10:56:12,829 - INFO - 
+Duplicate #2:
+2025-03-03 10:56:12,829 - INFO -   Title: Studio Jams - How to DJ Workshop with Ibiyemi
+2025-03-03 10:56:12,830 - INFO -   Community ID: com_verci
+2025-03-03 10:56:12,830 - INFO -   Location: 
+2025-03-03 10:56:12,830 - INFO -   Source: pioneer_works_events
+2025-03-03 10:56:12,830 - INFO -   Organizer: {'name': 'Verci Events', 'instagram': '', 'email': 'pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com'}
+2025-03-03 10:56:12,830 - INFO -   Speakers: 
+2025-03-03 10:56:12,830 - INFO - 
+Duplicate #3:
+2025-03-03 10:56:12,830 - INFO -   Title: Much Anticipated Art Show
+2025-03-03 10:56:12,832 - INFO -   Community ID: com_verci
+2025-03-03 10:56:12,832 - INFO -   Location: 
+2025-03-03 10:56:12,832 - INFO -   Source: pioneer_works_events
+2025-03-03 10:56:12,832 - INFO -   Organizer: {'name': 'Verci Events', 'instagram': '', 'email': 'pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com'}
+2025-03-03 10:56:12,832 - INFO -   Speakers: 
+2025-03-03 10:56:12,832 - INFO - 
+Merging events:
+2025-03-03 10:56:12,832 - INFO -   Host Community: com_verci
+2025-03-03 10:56:12,832 - INFO -   Guest Community: None
+2025-03-03 10:56:12,832 - INFO -   Merge complete
+
+2025-03-03 10:56:12,832 - INFO - 
+=== Deduplication Summary ===
+2025-03-03 10:56:12,832 - INFO - Total events before deduplication: 459
+2025-03-03 10:56:12,832 - INFO - Total events after deduplication: 455
+2025-03-03 10:56:12,832 - INFO - Number of duplicate groups found: 3
+2025-03-03 10:56:12,832 - INFO - =====================================
+
+2025-03-03 10:56:12,832 - ERROR - Error saving to public/data/events.json: [Errno 2] No such file or directory: 'public/data/events.json'
+2025-03-03 11:04:42,914 - INFO - 
+Processing gary_events.json
+2025-03-03 11:04:42,918 - INFO - 
+Processing google_calendar_events.json
+2025-03-03 11:04:42,924 - INFO - 
+Processing ics_calendar_events.json
+2025-03-03 11:04:42,926 - INFO - 
+Processing interference_events.json
+2025-03-03 11:04:42,926 - INFO - 
+Processing pioneer_works_events.json
+2025-03-03 11:06:29,144 - INFO - 
+=== Starting Event Deduplication ===
+2025-03-03 11:06:29,145 - INFO - 
+Found 2 duplicate events with URL: https://lu.ma/j7ivki67
+2025-03-03 11:06:29,145 - INFO - 
+Duplicate #1:
+2025-03-03 11:06:29,145 - INFO -   Title: SideQuest #22
+2025-03-03 11:06:29,145 - INFO -   Community ID: com_fractal
+2025-03-03 11:06:29,145 - INFO -   Location: 
+2025-03-03 11:06:29,145 - INFO -   Source: pioneer_works_events
+2025-03-03 11:06:29,147 - INFO -   Organizer: {'name': 'Fractal Tech: NYC', 'instagram': '', 'email': 't3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com'}
+2025-03-03 11:06:29,147 - INFO -   Speakers: Chandiran, Chandiran
+2025-03-03 11:06:29,147 - INFO - 
+Duplicate #2:
+2025-03-03 11:06:29,147 - INFO -   Title: SideQuest #22
+2025-03-03 11:06:29,147 - INFO -   Community ID: com_sidequest
+2025-03-03 11:06:29,148 - INFO -   Location: 
+2025-03-03 11:06:29,148 - INFO -   Source: pioneer_works_events
+2025-03-03 11:06:29,148 - INFO -   Organizer: {'name': 'SideQuest', 'instagram': '', 'email': 'abln66abl799vb4gprllu4225l744l70@import.calendar.google.com'}
+2025-03-03 11:06:29,149 - INFO -   Speakers: Chandiran, Chandiran
+2025-03-03 11:06:29,149 - INFO - 
+Merging events:
+2025-03-03 11:06:29,149 - INFO -   Host Community: com_fractal
+2025-03-03 11:06:29,149 - INFO -   Guest Community: com_sidequest
+2025-03-03 11:06:29,149 - INFO -   Using organizer from guest event: {'name': 'SideQuest', 'instagram': '', 'email': 'abln66abl799vb4gprllu4225l744l70@import.calendar.google.com'}
+2025-03-03 11:06:29,150 - INFO -   Removed 1 duplicate speakers
+2025-03-03 11:06:29,150 - INFO -   Final speakers: Chandiran
+2025-03-03 11:06:29,150 - INFO -   Removed 1 duplicate categories
+2025-03-03 11:06:29,150 - INFO -   Final categories: Arts & Culture
+2025-03-03 11:06:29,150 - INFO -   Removed 2 duplicate social links
+2025-03-03 11:06:29,151 - INFO -   Merge complete
+
+2025-03-03 11:06:29,151 - INFO - 
+Found 2 duplicate events with URL: https://lu.ma/nyc-tech
+2025-03-03 11:06:29,151 - INFO - 
+Duplicate #1:
+2025-03-03 11:06:29,151 - INFO -   Title: Tech 4 BABIES Hackathon
+2025-03-03 11:06:29,151 - INFO -   Community ID: com_fractal
+2025-03-03 11:06:29,152 - INFO -   Location: 
+2025-03-03 11:06:29,152 - INFO -   Source: pioneer_works_events
+2025-03-03 11:06:29,152 - INFO -   Organizer: {'name': 'Fractal Tech: NYC', 'instagram': '', 'email': 't3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com'}
+2025-03-03 11:06:29,152 - INFO -   Speakers: 
+2025-03-03 11:06:29,152 - INFO - 
+Duplicate #2:
+2025-03-03 11:06:29,153 - INFO -   Title: Code & Coffee
+2025-03-03 11:06:29,153 - INFO -   Community ID: com_fractal
+2025-03-03 11:06:29,153 - INFO -   Location: 
+2025-03-03 11:06:29,153 - INFO -   Source: pioneer_works_events
+2025-03-03 11:06:29,153 - INFO -   Organizer: {'name': 'Fractal Tech: NYC', 'instagram': '', 'email': 't3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com'}
+2025-03-03 11:06:29,154 - INFO -   Speakers: 
+2025-03-03 11:06:29,154 - INFO - 
+Merging events:
+2025-03-03 11:06:29,154 - INFO -   Host Community: com_fractal
+2025-03-03 11:06:29,154 - INFO -   Guest Community: None
+2025-03-03 11:06:29,154 - INFO -   Merge complete
+
+2025-03-03 11:06:29,155 - INFO - 
+Found 3 duplicate events with URL: https://lu.ma/verci
+2025-03-03 11:06:29,155 - INFO - 
+Duplicate #1:
+2025-03-03 11:06:29,155 - INFO -   Title: Willo: Feel the Music ft. FELA aKUsTIc
+2025-03-03 11:06:29,155 - INFO -   Community ID: com_verci
+2025-03-03 11:06:29,155 - INFO -   Location: 
+2025-03-03 11:06:29,156 - INFO -   Source: pioneer_works_events
+2025-03-03 11:06:29,156 - INFO -   Organizer: {'name': 'Verci Events', 'instagram': '', 'email': 'pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com'}
+2025-03-03 11:06:29,156 - INFO -   Speakers: 
+2025-03-03 11:06:29,156 - INFO - 
+Duplicate #2:
+2025-03-03 11:06:29,156 - INFO -   Title: Studio Jams - How to DJ Workshop with Ibiyemi
+2025-03-03 11:06:29,156 - INFO -   Community ID: com_verci
+2025-03-03 11:06:29,156 - INFO -   Location: 
+2025-03-03 11:06:29,156 - INFO -   Source: pioneer_works_events
+2025-03-03 11:06:29,156 - INFO -   Organizer: {'name': 'Verci Events', 'instagram': '', 'email': 'pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com'}
+2025-03-03 11:06:29,157 - INFO -   Speakers: 
+2025-03-03 11:06:29,157 - INFO - 
+Duplicate #3:
+2025-03-03 11:06:29,157 - INFO -   Title: Much Anticipated Art Show
+2025-03-03 11:06:29,157 - INFO -   Community ID: com_verci
+2025-03-03 11:06:29,157 - INFO -   Location: 
+2025-03-03 11:06:29,157 - INFO -   Source: pioneer_works_events
+2025-03-03 11:06:29,158 - INFO -   Organizer: {'name': 'Verci Events', 'instagram': '', 'email': 'pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com'}
+2025-03-03 11:06:29,158 - INFO -   Speakers: 
+2025-03-03 11:06:29,158 - INFO - 
+Merging events:
+2025-03-03 11:06:29,158 - INFO -   Host Community: com_verci
+2025-03-03 11:06:29,158 - INFO -   Guest Community: None
+2025-03-03 11:06:29,158 - INFO -   Merge complete
+
+2025-03-03 11:06:29,159 - INFO - 
+=== Deduplication Summary ===
+2025-03-03 11:06:29,159 - INFO - Total events before deduplication: 459
+2025-03-03 11:06:29,159 - INFO - Total events after deduplication: 455
+2025-03-03 11:06:29,159 - INFO - Number of duplicate groups found: 3
+2025-03-03 11:06:29,159 - INFO - =====================================
+
+2025-03-03 11:15:34,629 - INFO - 
+Processing gary_events.json
+2025-03-03 11:15:34,635 - INFO - 
+Processing google_calendar_events.json
+2025-03-03 11:15:34,644 - INFO - 
+Processing ics_calendar_events.json
+2025-03-03 11:15:34,645 - INFO - 
+Processing interference_events.json
+2025-03-03 11:15:34,645 - INFO - 
+Processing pioneer_works_events.json
+2025-03-03 11:17:23,700 - INFO - 
+=== Starting Event Deduplication ===
+2025-03-03 11:17:23,701 - INFO - 
+Found 2 duplicate events with URL: https://lu.ma/j7ivki67
+2025-03-03 11:17:23,701 - INFO - 
+Duplicate #1:
+2025-03-03 11:17:23,702 - INFO -   Title: SideQuest #22
+2025-03-03 11:17:23,703 - INFO -   Community ID: com_fractal
+2025-03-03 11:17:23,703 - INFO -   Location: 
+2025-03-03 11:17:23,703 - INFO -   Source: pioneer_works_events
+2025-03-03 11:17:23,704 - INFO -   Organizer: {'name': 'Fractal Tech: NYC', 'instagram': '', 'email': 't3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com'}
+2025-03-03 11:17:23,704 - INFO -   Speakers: Chandiran, Chandiran
+2025-03-03 11:17:23,705 - INFO - 
+Duplicate #2:
+2025-03-03 11:17:23,706 - INFO -   Title: SideQuest #22
+2025-03-03 11:17:23,706 - INFO -   Community ID: com_sidequest
+2025-03-03 11:17:23,707 - INFO -   Location: 
+2025-03-03 11:17:23,707 - INFO -   Source: pioneer_works_events
+2025-03-03 11:17:23,707 - INFO -   Organizer: {'name': 'SideQuest', 'instagram': '', 'email': 'abln66abl799vb4gprllu4225l744l70@import.calendar.google.com'}
+2025-03-03 11:17:23,708 - INFO -   Speakers: Chandiran, Chandiran
+2025-03-03 11:17:23,708 - INFO - 
+Merging events:
+2025-03-03 11:17:23,708 - INFO -   Primary Community: com_fractal
+2025-03-03 11:17:23,709 - INFO -   Associated Communities: com_sidequest
+2025-03-03 11:45:31,811 - INFO - 
+Processing gary_events.json
+2025-03-03 11:45:31,817 - INFO - 
+Processing google_calendar_events.json
+2025-03-03 11:45:31,829 - INFO - 
+Processing ics_calendar_events.json
+2025-03-03 11:45:31,831 - INFO - 
+Processing interference_events.json
+2025-03-03 11:45:31,832 - INFO - 
+Processing pioneer_works_events.json
+2025-03-03 11:47:41,662 - INFO - 
+=== Starting Event Deduplication ===
+2025-03-03 11:47:41,662 - INFO - 
+Found 2 duplicate events with URL: https://lu.ma/j7ivki67
+2025-03-03 11:47:41,662 - INFO - 
+Duplicate #1:
+2025-03-03 11:47:41,663 - INFO -   Title: SideQuest #22
+2025-03-03 11:47:41,664 - INFO -   Community ID: com_fractal
+2025-03-03 11:47:41,665 - INFO -   Location: 
+2025-03-03 11:47:41,665 - INFO -   Source: pioneer_works_events
+2025-03-03 11:47:41,666 - INFO -   Organizer: {'name': 'Fractal Tech: NYC', 'instagram': '', 'email': 't3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com'}
+2025-03-03 11:47:41,666 - INFO -   Speakers: Chandiran, Chandiran
+2025-03-03 11:47:41,666 - INFO - 
+Duplicate #2:
+2025-03-03 11:47:41,666 - INFO -   Title: SideQuest #22
+2025-03-03 11:47:41,667 - INFO -   Community ID: com_sidequest
+2025-03-03 11:47:41,667 - INFO -   Location: 
+2025-03-03 11:47:41,667 - INFO -   Source: pioneer_works_events
+2025-03-03 11:47:41,668 - INFO -   Organizer: {'name': 'SideQuest', 'instagram': '', 'email': 'abln66abl799vb4gprllu4225l744l70@import.calendar.google.com'}
+2025-03-03 11:47:41,668 - INFO -   Speakers: Chandiran, Chandiran
+2025-03-03 11:47:41,668 - INFO - 
+Merging events:
+2025-03-03 11:47:41,668 - INFO -   Primary Community: com_fractal
+2025-03-03 11:47:41,668 - INFO -   Associated Communities: com_sidequest
+2025-03-03 11:50:43,079 - INFO - 
+Processing gary_events.json
+2025-03-03 11:50:43,085 - INFO - 
+Processing google_calendar_events.json
+2025-03-03 11:50:43,094 - INFO - 
+Processing ics_calendar_events.json
+2025-03-03 11:50:43,096 - INFO - 
+Processing interference_events.json
+2025-03-03 11:50:43,097 - INFO - 
+Processing pioneer_works_events.json
+2025-03-03 11:52:37,673 - INFO - 
+=== Starting Event Deduplication ===
+2025-03-03 11:52:37,674 - INFO - 
+Found 2 duplicate events with URL: https://lu.ma/j7ivki67
+2025-03-03 11:52:37,674 - INFO - 
+Duplicate #1:
+2025-03-03 11:52:37,674 - INFO -   Title: SideQuest #22
+2025-03-03 11:52:37,675 - INFO -   Community ID: com_fractal
+2025-03-03 11:52:37,675 - INFO -   Location: 
+2025-03-03 11:52:37,675 - INFO -   Source: pioneer_works_events
+2025-03-03 11:52:37,675 - INFO -   Organizer: {'name': 'Fractal Tech: NYC', 'instagram': '', 'email': 't3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com'}
+2025-03-03 11:52:37,675 - INFO -   Speakers: Chandiran, Chandiran
+2025-03-03 11:52:37,676 - INFO - 
+Duplicate #2:
+2025-03-03 11:52:37,676 - INFO -   Title: SideQuest #22
+2025-03-03 11:52:37,676 - INFO -   Community ID: com_sidequest
+2025-03-03 11:52:37,676 - INFO -   Location: 
+2025-03-03 11:52:37,676 - INFO -   Source: pioneer_works_events
+2025-03-03 11:52:37,676 - INFO -   Organizer: {'name': 'SideQuest', 'instagram': '', 'email': 'abln66abl799vb4gprllu4225l744l70@import.calendar.google.com'}
+2025-03-03 11:52:37,677 - INFO -   Speakers: Chandiran, Chandiran
+2025-03-03 11:52:37,677 - INFO - 
+Merging events:
+2025-03-03 11:52:37,677 - INFO -   Primary Community: com_fractal
+2025-03-03 11:52:37,677 - INFO -   Associated Communities: com_sidequest
+2025-03-03 11:52:37,677 - INFO -   Organizers: Fractal Tech: NYC, SideQuest
+2025-03-03 11:52:37,678 - INFO -   Removed 1 duplicate speakers
+2025-03-03 11:52:37,678 - INFO -   Final speakers: Chandiran
+2025-03-03 11:52:37,678 - INFO -   Removed 1 duplicate categories
+2025-03-03 11:52:37,678 - INFO -   Final categories: Arts & Culture
+2025-03-03 11:52:37,678 - INFO -   Removed 2 duplicate social links
+2025-03-03 11:52:37,679 - INFO -   Merge complete
+
+2025-03-03 11:52:37,679 - INFO - 
+Found 2 duplicate events with URL: https://lu.ma/nyc-tech
+2025-03-03 11:52:37,679 - INFO - 
+Duplicate #1:
+2025-03-03 11:52:37,679 - INFO -   Title: Tech 4 BABIES Hackathon
+2025-03-03 11:52:37,680 - INFO -   Community ID: com_fractal
+2025-03-03 11:52:37,680 - INFO -   Location: 
+2025-03-03 11:52:37,680 - INFO -   Source: pioneer_works_events
+2025-03-03 11:52:37,680 - INFO -   Organizer: {'name': 'Fractal Tech: NYC', 'instagram': '', 'email': 't3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com'}
+2025-03-03 11:52:37,680 - INFO -   Speakers: 
+2025-03-03 11:52:37,681 - INFO - 
+Duplicate #2:
+2025-03-03 11:52:37,681 - INFO -   Title: Code & Coffee
+2025-03-03 11:52:37,682 - INFO -   Community ID: com_fractal
+2025-03-03 11:52:37,682 - INFO -   Location: 
+2025-03-03 11:52:37,682 - INFO -   Source: pioneer_works_events
+2025-03-03 11:52:37,683 - INFO -   Organizer: {'name': 'Fractal Tech: NYC', 'instagram': '', 'email': 't3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com'}
+2025-03-03 11:52:37,683 - INFO -   Speakers: 
+2025-03-03 11:52:37,683 - INFO - 
+Merging events:
+2025-03-03 11:52:37,683 - INFO -   Primary Community: com_fractal
+2025-03-03 11:52:37,683 - INFO -   Associated Communities: None
+2025-03-03 11:52:37,684 - INFO -   Organizers: Fractal Tech: NYC
+2025-03-03 11:52:37,684 - INFO -   Merge complete
+
+2025-03-03 11:52:37,684 - INFO - 
+Found 3 duplicate events with URL: https://lu.ma/verci
+2025-03-03 11:52:37,684 - INFO - 
+Duplicate #1:
+2025-03-03 11:52:37,685 - INFO -   Title: Willo: Feel the Music ft. FELA aKUsTIc
+2025-03-03 11:52:37,685 - INFO -   Community ID: com_verci
+2025-03-03 11:52:37,685 - INFO -   Location: 
+2025-03-03 11:52:37,685 - INFO -   Source: pioneer_works_events
+2025-03-03 11:52:37,685 - INFO -   Organizer: {'name': 'Verci Events', 'instagram': '', 'email': 'pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com'}
+2025-03-03 11:52:37,686 - INFO -   Speakers: 
+2025-03-03 11:52:37,686 - INFO - 
+Duplicate #2:
+2025-03-03 11:52:37,686 - INFO -   Title: Studio Jams - How to DJ Workshop with Ibiyemi
+2025-03-03 11:52:37,686 - INFO -   Community ID: com_verci
+2025-03-03 11:52:37,686 - INFO -   Location: 
+2025-03-03 11:52:37,687 - INFO -   Source: pioneer_works_events
+2025-03-03 11:52:37,687 - INFO -   Organizer: {'name': 'Verci Events', 'instagram': '', 'email': 'pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com'}
+2025-03-03 11:52:37,687 - INFO -   Speakers: 
+2025-03-03 11:52:37,687 - INFO - 
+Duplicate #3:
+2025-03-03 11:52:37,687 - INFO -   Title: Much Anticipated Art Show
+2025-03-03 11:52:37,688 - INFO -   Community ID: com_verci
+2025-03-03 11:52:37,688 - INFO -   Location: 
+2025-03-03 11:52:37,688 - INFO -   Source: pioneer_works_events
+2025-03-03 11:52:37,688 - INFO -   Organizer: {'name': 'Verci Events', 'instagram': '', 'email': 'pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com'}
+2025-03-03 11:52:37,688 - INFO -   Speakers: 
+2025-03-03 11:52:37,688 - INFO - 
+Merging events:
+2025-03-03 11:52:37,689 - INFO -   Primary Community: com_verci
+2025-03-03 11:52:37,689 - INFO -   Associated Communities: None
+2025-03-03 11:52:37,689 - INFO -   Organizers: Verci Events
+2025-03-03 11:52:37,689 - INFO -   Merge complete
+
+2025-03-03 11:52:37,689 - INFO - 
+=== Deduplication Summary ===
+2025-03-03 11:52:37,689 - INFO - Total events before deduplication: 459
+2025-03-03 11:52:37,689 - INFO - Total events after deduplication: 455
+2025-03-03 11:52:37,689 - INFO - Number of duplicate groups found: 3
+2025-03-03 11:52:37,690 - INFO - =====================================
+
+2025-03-03 11:52:37,802 - INFO - 
+Summary:
+2025-03-03 11:52:37,802 - INFO - Total events: 455
+2025-03-03 11:52:37,803 - INFO - Total locations: 138
+2025-03-03 11:52:37,803 - INFO - Top categories:
+2025-03-03 11:52:37,803 - INFO -   Networking & Social: 450 events (0.87 avg confidence)
+2025-03-03 11:52:37,803 - INFO -   Workshops & Training: 337 events (0.86 avg confidence)
+2025-03-03 11:52:37,804 - INFO -   Tech Talks & Conferences: 234 events (0.83 avg confidence)
+2025-03-03 11:52:37,804 - INFO -   Hackathons & Competitions: 147 events (0.79 avg confidence)
+2025-03-03 11:52:37,804 - INFO -   Startup & Entrepreneurship: 112 events (0.74 avg confidence)
+2025-03-03 11:52:37,804 - INFO -   Coworking & Workspace: 48 events (0.73 avg confidence)
+2025-03-03 11:52:37,805 - INFO -   Tech Innovation & Research: 35 events (0.8 avg confidence)
+2025-03-03 11:52:37,805 - INFO -   Special Interest Tech: 2 events (0.62 avg confidence)
+2025-03-03 12:44:13,449 - INFO - 
+Processing google_calendar_events.json
+2025-03-03 12:44:13,485 - INFO - Filtered out 64 events without a name or with a blank name
+2025-03-03 12:44:13,486 - INFO - 
+Processing ics_calendar_events.json
+2025-03-03 12:44:13,506 - INFO - 
+Processing interference_events.json
+2025-03-03 12:44:13,519 - INFO - 
+Processing pioneer_works_events.json
+2025-03-03 12:45:21,746 - INFO - 
+=== Starting Event Deduplication ===
+2025-03-03 12:45:21,746 - INFO - 
+Found 2 duplicate events with URL: https://lu.ma/j7ivki67
+2025-03-03 12:45:21,746 - INFO - 
+Duplicate #1:
+2025-03-03 12:45:21,746 - INFO -   Title: SideQuest #22
+2025-03-03 12:45:21,746 - INFO -   Community ID: com_fractal
+2025-03-03 12:45:21,746 - INFO -   Location: 
+2025-03-03 12:45:21,747 - INFO -   Source: pioneer_works_events
+2025-03-03 12:45:21,747 - INFO -   Organizer: {'name': 'Fractal Tech: NYC', 'instagram': '', 'email': 't3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com'}
+2025-03-03 12:45:21,747 - INFO -   Speakers: Chandiran, Chandiran
+2025-03-03 12:45:21,747 - INFO - 
+Duplicate #2:
+2025-03-03 12:45:21,748 - INFO -   Title: SideQuest #22
+2025-03-03 12:45:21,748 - INFO -   Community ID: com_sidequest
+2025-03-03 12:45:21,748 - INFO -   Location: 
+2025-03-03 12:45:21,748 - INFO -   Source: pioneer_works_events
+2025-03-03 12:45:21,748 - INFO -   Organizer: {'name': 'SideQuest', 'instagram': '', 'email': 'abln66abl799vb4gprllu4225l744l70@import.calendar.google.com'}
+2025-03-03 12:45:21,749 - INFO -   Speakers: Chandiran, Chandiran
+2025-03-03 12:45:21,749 - INFO - 
+Merging events:
+2025-03-03 12:45:21,749 - INFO -   Primary Community: com_sidequest
+2025-03-03 12:45:21,749 - INFO -   Associated Communities: com_fractal
+2025-03-03 12:45:21,749 - INFO -   Organizers: Fractal Tech: NYC, SideQuest
+2025-03-03 12:45:21,750 - INFO -   Removed 1 duplicate speakers
+2025-03-03 12:45:21,750 - INFO -   Final speakers: Chandiran
+2025-03-03 12:45:21,750 - INFO -   Removed 1 duplicate categories
+2025-03-03 12:45:21,750 - INFO -   Final categories: Arts & Culture
+2025-03-03 12:45:21,750 - INFO -   Removed 2 duplicate social links
+2025-03-03 12:45:21,751 - INFO -   Merge complete
+
+2025-03-03 12:45:21,751 - INFO - 
+Found 2 duplicate events with URL: https://lu.ma/nyc-tech
+2025-03-03 12:45:21,751 - INFO - 
+Duplicate #1:
+2025-03-03 12:45:21,751 - INFO -   Title: Tech 4 BABIES Hackathon
+2025-03-03 12:45:21,752 - INFO -   Community ID: com_fractal
+2025-03-03 12:45:21,752 - INFO -   Location: 
+2025-03-03 12:45:21,752 - INFO -   Source: pioneer_works_events
+2025-03-03 12:45:21,752 - INFO -   Organizer: {'name': 'Fractal Tech: NYC', 'instagram': '', 'email': 't3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com'}
+2025-03-03 12:45:21,752 - INFO -   Speakers: 
+2025-03-03 12:45:21,753 - INFO - 
+Duplicate #2:
+2025-03-03 12:45:21,753 - INFO -   Title: Code & Coffee
+2025-03-03 12:45:21,753 - INFO -   Community ID: com_fractal
+2025-03-03 12:45:21,753 - INFO -   Location: 
+2025-03-03 12:45:21,753 - INFO -   Source: pioneer_works_events
+2025-03-03 12:45:21,754 - INFO -   Organizer: {'name': 'Fractal Tech: NYC', 'instagram': '', 'email': 't3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com'}
+2025-03-03 12:45:21,754 - INFO -   Speakers: 
+2025-03-03 12:45:21,754 - INFO - 
+Merging events:
+2025-03-03 12:45:21,754 - INFO -   Primary Community: com_fractal
+2025-03-03 12:45:21,754 - INFO -   Associated Communities: None
+2025-03-03 12:45:21,754 - INFO -   Organizers: Fractal Tech: NYC
+2025-03-03 12:45:21,755 - INFO -   Merge complete
+
+2025-03-03 12:45:21,755 - INFO - 
+Found 3 duplicate events with URL: https://lu.ma/verci
+2025-03-03 12:45:21,755 - INFO - 
+Duplicate #1:
+2025-03-03 12:45:21,755 - INFO -   Title: Willo: Feel the Music ft. FELA aKUsTIc
+2025-03-03 12:45:21,756 - INFO -   Community ID: com_verci
+2025-03-03 12:45:21,756 - INFO -   Location: 
+2025-03-03 12:45:21,756 - INFO -   Source: pioneer_works_events
+2025-03-03 12:45:21,756 - INFO -   Organizer: {'name': 'Verci Events', 'instagram': '', 'email': 'pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com'}
+2025-03-03 12:45:21,756 - INFO -   Speakers: 
+2025-03-03 12:45:21,756 - INFO - 
+Duplicate #2:
+2025-03-03 12:45:21,756 - INFO -   Title: Studio Jams - How to DJ Workshop with Ibiyemi
+2025-03-03 12:45:21,756 - INFO -   Community ID: com_verci
+2025-03-03 12:45:21,756 - INFO -   Location: 
+2025-03-03 12:45:21,758 - INFO -   Source: pioneer_works_events
+2025-03-03 12:45:21,758 - INFO -   Organizer: {'name': 'Verci Events', 'instagram': '', 'email': 'pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com'}
+2025-03-03 12:45:21,758 - INFO -   Speakers: 
+2025-03-03 12:45:21,758 - INFO - 
+Duplicate #3:
+2025-03-03 12:45:21,758 - INFO -   Title: Much Anticipated Art Show
+2025-03-03 12:45:21,758 - INFO -   Community ID: com_verci
+2025-03-03 12:45:21,759 - INFO -   Location: 
+2025-03-03 12:45:21,759 - INFO -   Source: pioneer_works_events
+2025-03-03 12:45:21,759 - INFO -   Organizer: {'name': 'Verci Events', 'instagram': '', 'email': 'pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com'}
+2025-03-03 12:45:21,759 - INFO -   Speakers: 
+2025-03-03 12:45:21,759 - INFO - 
+Merging events:
+2025-03-03 12:45:21,759 - INFO -   Primary Community: com_verci
+2025-03-03 12:45:21,759 - INFO -   Associated Communities: None
+2025-03-03 12:45:21,760 - INFO -   Organizers: Verci Events
+2025-03-03 12:45:21,760 - INFO -   Merge complete
+
+2025-03-03 12:45:21,760 - INFO - 
+=== Deduplication Summary ===
+2025-03-03 12:45:21,760 - INFO - Total events before deduplication: 286
+2025-03-03 12:45:21,760 - INFO - Total events after deduplication: 282
+2025-03-03 12:45:21,760 - INFO - Number of duplicate groups found: 3
+2025-03-03 12:45:21,761 - INFO - =====================================
+
+2025-03-03 12:45:21,799 - INFO - 
+Summary:
+2025-03-03 12:45:21,799 - INFO - Total events: 282
+2025-03-03 12:45:21,799 - INFO - Total locations: 30
+2025-03-03 12:45:21,799 - INFO - Top categories:
+2025-03-03 12:45:21,799 - INFO -   Networking & Social: 277 events (0.86 avg confidence)
+2025-03-03 12:45:21,801 - INFO -   Workshops & Training: 259 events (0.87 avg confidence)
+2025-03-03 12:45:21,801 - INFO -   Tech Talks & Conferences: 190 events (0.86 avg confidence)
+2025-03-03 12:45:21,801 - INFO -   Hackathons & Competitions: 61 events (0.78 avg confidence)
+2025-03-03 12:45:21,801 - INFO -   Coworking & Workspace: 39 events (0.73 avg confidence)
+2025-03-03 12:45:21,801 - INFO -   Tech Innovation & Research: 20 events (0.86 avg confidence)
+2025-03-03 12:45:21,801 - INFO -   Startup & Entrepreneurship: 9 events (0.7 avg confidence)
+2025-03-03 12:57:07,595 - INFO - 
+Processing google_calendar_events.json
+2025-03-03 12:57:07,616 - INFO - Filtered out 64 events without a name or with a blank name
+2025-03-03 12:57:07,617 - INFO - 
+Processing ics_calendar_events.json
+2025-03-03 12:57:07,620 - INFO - 
+Processing interference_events.json
+2025-03-03 12:57:07,621 - INFO - 
+Processing pioneer_works_events.json
+2025-03-03 12:58:25,331 - INFO - 
+=== Starting Event Deduplication ===
+2025-03-03 12:58:25,331 - INFO - 
+Found 2 duplicate events with URL: https://lu.ma/j7ivki67
+2025-03-03 12:58:25,331 - INFO - 
+Duplicate #1:
+2025-03-03 12:58:25,331 - INFO -   Title: SideQuest #22
+2025-03-03 12:58:25,331 - INFO -   Community ID: com_fractal
+2025-03-03 12:58:25,333 - INFO -   Location: 
+2025-03-03 12:58:25,333 - INFO -   Source: pioneer_works_events
+2025-03-03 12:58:25,333 - INFO -   Organizer: {'name': 'Fractal Tech: NYC', 'instagram': '', 'email': 't3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com'}
+2025-03-03 12:58:25,333 - INFO -   Speakers: Chandiran, Chandiran
+2025-03-03 12:58:25,334 - INFO - 
+Duplicate #2:
+2025-03-03 12:58:25,334 - INFO -   Title: SideQuest #22
+2025-03-03 12:58:25,334 - INFO -   Community ID: com_sidequest
+2025-03-03 12:58:25,334 - INFO -   Location: 
+2025-03-03 12:58:25,335 - INFO -   Source: pioneer_works_events
+2025-03-03 12:58:25,335 - INFO -   Organizer: {'name': 'SideQuest', 'instagram': '', 'email': 'abln66abl799vb4gprllu4225l744l70@import.calendar.google.com'}
+2025-03-03 12:58:25,335 - INFO -   Speakers: Chandiran, Chandiran
+2025-03-03 12:58:25,335 - INFO - 
+Merging events:
+2025-03-03 12:58:25,335 - INFO -   Primary Community: com_sidequest
+2025-03-03 12:58:25,336 - INFO -   Associated Communities: com_fractal
+2025-03-03 12:58:25,336 - INFO -   Using Fractal's location for SideQuest event: loc_fractal
+2025-03-03 12:58:25,336 - INFO -   Organizers: Fractal Tech: NYC, SideQuest
+2025-03-03 12:58:25,337 - INFO -   Removed 1 duplicate speakers
+2025-03-03 12:58:25,337 - INFO -   Final speakers: Chandiran
+2025-03-03 12:58:25,337 - INFO -   Removed 1 duplicate categories
+2025-03-03 12:58:25,337 - INFO -   Final categories: Arts & Culture
+2025-03-03 12:58:25,338 - INFO -   Removed 2 duplicate social links
+2025-03-03 12:58:25,338 - INFO -   Merge complete
+
+2025-03-03 12:58:25,338 - INFO - 
+Found 2 duplicate events with URL: https://lu.ma/nyc-tech
+2025-03-03 12:58:25,338 - INFO - 
+Duplicate #1:
+2025-03-03 12:58:25,339 - INFO -   Title: Tech 4 BABIES Hackathon
+2025-03-03 12:58:25,339 - INFO -   Community ID: com_fractal
+2025-03-03 12:58:25,339 - INFO -   Location: 
+2025-03-03 12:58:25,339 - INFO -   Source: pioneer_works_events
+2025-03-03 12:58:25,340 - INFO -   Organizer: {'name': 'Fractal Tech: NYC', 'instagram': '', 'email': 't3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com'}
+2025-03-03 12:58:25,340 - INFO -   Speakers: 
+2025-03-03 12:58:25,340 - INFO - 
+Duplicate #2:
+2025-03-03 12:58:25,340 - INFO -   Title: Code & Coffee
+2025-03-03 12:58:25,340 - INFO -   Community ID: com_fractal
+2025-03-03 12:58:25,340 - INFO -   Location: 
+2025-03-03 12:58:25,340 - INFO -   Source: pioneer_works_events
+2025-03-03 12:58:25,342 - INFO -   Organizer: {'name': 'Fractal Tech: NYC', 'instagram': '', 'email': 't3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com'}
+2025-03-03 12:58:25,342 - INFO -   Speakers: 
+2025-03-03 12:58:25,342 - INFO - 
+Merging events:
+2025-03-03 12:58:25,342 - INFO -   Primary Community: com_fractal
+2025-03-03 12:58:25,342 - INFO -   Associated Communities: None
+2025-03-03 12:58:25,343 - INFO -   Ensuring Fractal event uses loc_fractal
+2025-03-03 12:58:25,343 - INFO -   Organizers: Fractal Tech: NYC
+2025-03-03 12:58:25,343 - INFO -   Merge complete
+
+2025-03-03 12:58:25,343 - INFO - 
+Found 3 duplicate events with URL: https://lu.ma/verci
+2025-03-03 12:58:25,343 - INFO - 
+Duplicate #1:
+2025-03-03 12:58:25,344 - INFO -   Title: Willo: Feel the Music ft. FELA aKUsTIc
+2025-03-03 12:58:25,344 - INFO -   Community ID: com_verci
+2025-03-03 12:58:25,344 - INFO -   Location: 
+2025-03-03 12:58:25,344 - INFO -   Source: pioneer_works_events
+2025-03-03 12:58:25,344 - INFO -   Organizer: {'name': 'Verci Events', 'instagram': '', 'email': 'pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com'}
+2025-03-03 12:58:25,345 - INFO -   Speakers: 
+2025-03-03 12:58:25,345 - INFO - 
+Duplicate #2:
+2025-03-03 12:58:25,345 - INFO -   Title: Studio Jams - How to DJ Workshop with Ibiyemi
+2025-03-03 12:58:25,345 - INFO -   Community ID: com_verci
+2025-03-03 12:58:25,345 - INFO -   Location: 
+2025-03-03 12:58:25,346 - INFO -   Source: pioneer_works_events
+2025-03-03 12:58:25,346 - INFO -   Organizer: {'name': 'Verci Events', 'instagram': '', 'email': 'pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com'}
+2025-03-03 12:58:25,346 - INFO -   Speakers: 
+2025-03-03 12:58:25,346 - INFO - 
+Duplicate #3:
+2025-03-03 12:58:25,346 - INFO -   Title: Much Anticipated Art Show
+2025-03-03 12:58:25,346 - INFO -   Community ID: com_verci
+2025-03-03 12:58:25,348 - INFO -   Location: 
+2025-03-03 12:58:25,348 - INFO -   Source: pioneer_works_events
+2025-03-03 12:58:25,348 - INFO -   Organizer: {'name': 'Verci Events', 'instagram': '', 'email': 'pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com'}
+2025-03-03 12:58:25,348 - INFO -   Speakers: 
+2025-03-03 12:58:25,348 - INFO - 
+Merging events:
+2025-03-03 12:58:25,349 - INFO -   Primary Community: com_verci
+2025-03-03 12:58:25,349 - INFO -   Associated Communities: None
+2025-03-03 12:58:25,349 - INFO -   Organizers: Verci Events
+2025-03-03 12:58:25,349 - INFO -   Merge complete
+
+2025-03-03 12:58:25,349 - INFO - 
+=== Deduplication Summary ===
+2025-03-03 12:58:25,349 - INFO - Total events before deduplication: 286
+2025-03-03 12:58:25,349 - INFO - Total events after deduplication: 282
+2025-03-03 12:58:25,349 - INFO - Number of duplicate groups found: 3
+2025-03-03 12:58:25,349 - INFO - =====================================
+
+2025-03-03 12:58:25,397 - INFO - 
+Summary:
+2025-03-03 12:58:25,397 - INFO - Total events: 282
+2025-03-03 12:58:25,397 - INFO - Total locations: 28
+2025-03-03 12:58:25,397 - INFO - Top categories:
+2025-03-03 12:58:25,398 - INFO -   Networking & Social: 277 events (0.86 avg confidence)
+2025-03-03 12:58:25,398 - INFO -   Workshops & Training: 259 events (0.87 avg confidence)
+2025-03-03 12:58:25,398 - INFO -   Tech Talks & Conferences: 190 events (0.86 avg confidence)
+2025-03-03 12:58:25,399 - INFO -   Hackathons & Competitions: 61 events (0.78 avg confidence)
+2025-03-03 12:58:25,399 - INFO -   Coworking & Workspace: 39 events (0.73 avg confidence)
+2025-03-03 12:58:25,399 - INFO -   Tech Innovation & Research: 20 events (0.86 avg confidence)
+2025-03-03 12:58:25,399 - INFO -   Startup & Entrepreneurship: 9 events (0.7 avg confidence)
+2025-03-03 13:07:01,155 - INFO - 
+Processing google_calendar_events.json
+2025-03-03 13:07:01,166 - INFO - Filtered out 64 events without a name or with a blank name
+2025-03-03 13:07:01,166 - INFO - 
+Processing ics_calendar_events.json
+2025-03-03 13:07:01,168 - INFO - 
+Processing interference_events.json
+2025-03-03 13:07:01,169 - INFO - 
+Processing pioneer_works_events.json
+2025-03-03 13:08:20,011 - INFO - 
+=== Starting Event Deduplication ===
+2025-03-03 13:08:20,012 - INFO - 
+Found 2 duplicate events with URL: https://lu.ma/j7ivki67
+2025-03-03 13:08:20,012 - INFO - 
+Duplicate #1:
+2025-03-03 13:08:20,012 - INFO -   Title: SideQuest #22
+2025-03-03 13:08:20,013 - INFO -   Community ID: com_fractal
+2025-03-03 13:08:20,013 - INFO -   Location: 
+2025-03-03 13:08:20,013 - INFO -   Source: pioneer_works_events
+2025-03-03 13:08:20,013 - INFO -   Organizer: {'name': 'Fractal Tech: NYC', 'instagram': '', 'email': 't3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com'}
+2025-03-03 13:08:20,014 - INFO -   Speakers: Chandiran, Chandiran
+2025-03-03 13:08:20,014 - INFO - 
+Duplicate #2:
+2025-03-03 13:08:20,014 - INFO -   Title: SideQuest #22
+2025-03-03 13:08:20,014 - INFO -   Community ID: com_sidequest
+2025-03-03 13:08:20,014 - INFO -   Location: 
+2025-03-03 13:08:20,014 - INFO -   Source: pioneer_works_events
+2025-03-03 13:08:20,014 - INFO -   Organizer: {'name': 'SideQuest', 'instagram': '', 'email': 'abln66abl799vb4gprllu4225l744l70@import.calendar.google.com'}
+2025-03-03 13:08:20,015 - INFO -   Speakers: Chandiran, Chandiran
+2025-03-03 13:08:20,015 - INFO - 
+Merging events:
+2025-03-03 13:08:20,015 - INFO -   Primary Community: com_sidequest
+2025-03-03 13:08:20,017 - INFO -   Associated Communities: com_fractal
+2025-03-03 13:08:20,017 - INFO -   Using Fractal's location for SideQuest event: loc_fractal
+2025-03-03 13:08:20,017 - INFO -   Organizers: Fractal Tech: NYC, SideQuest
+2025-03-03 13:08:20,017 - INFO -   Removed 1 duplicate speakers
+2025-03-03 13:08:20,018 - INFO -   Final speakers: Chandiran
+2025-03-03 13:08:20,018 - INFO -   Removed 1 duplicate categories
+2025-03-03 13:08:20,018 - INFO -   Final categories: Arts & Culture
+2025-03-03 13:08:20,019 - INFO -   Removed 2 duplicate social links
+2025-03-03 13:08:20,019 - INFO -   Merge complete
+
+2025-03-03 13:08:20,019 - INFO - 
+Found 2 duplicate events with URL: https://lu.ma/nyc-tech
+2025-03-03 13:08:20,020 - INFO - 
+Duplicate #1:
+2025-03-03 13:08:20,020 - INFO -   Title: Tech 4 BABIES Hackathon
+2025-03-03 13:08:20,020 - INFO -   Community ID: com_fractal
+2025-03-03 13:08:20,020 - INFO -   Location: 
+2025-03-03 13:08:20,021 - INFO -   Source: pioneer_works_events
+2025-03-03 13:08:20,021 - INFO -   Organizer: {'name': 'Fractal Tech: NYC', 'instagram': '', 'email': 't3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com'}
+2025-03-03 13:08:20,021 - INFO -   Speakers: 
+2025-03-03 13:08:20,022 - INFO - 
+Duplicate #2:
+2025-03-03 13:08:20,022 - INFO -   Title: Code & Coffee
+2025-03-03 13:08:20,022 - INFO -   Community ID: com_fractal
+2025-03-03 13:08:20,022 - INFO -   Location: 
+2025-03-03 13:08:20,023 - INFO -   Source: pioneer_works_events
+2025-03-03 13:08:20,023 - INFO -   Organizer: {'name': 'Fractal Tech: NYC', 'instagram': '', 'email': 't3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com'}
+2025-03-03 13:08:20,023 - INFO -   Speakers: 
+2025-03-03 13:08:20,023 - INFO - 
+Merging events:
+2025-03-03 13:08:20,023 - INFO -   Primary Community: com_fractal
+2025-03-03 13:08:20,023 - INFO -   Associated Communities: None
+2025-03-03 13:08:20,024 - INFO -   Ensuring Fractal event uses loc_fractal
+2025-03-03 13:08:20,024 - INFO -   Organizers: Fractal Tech: NYC
+2025-03-03 13:08:20,024 - INFO -   Merge complete
+
+2025-03-03 13:08:20,024 - INFO - 
+Found 3 duplicate events with URL: https://lu.ma/verci
+2025-03-03 13:08:20,024 - INFO - 
+Duplicate #1:
+2025-03-03 13:08:20,025 - INFO -   Title: Willo: Feel the Music ft. FELA aKUsTIc
+2025-03-03 13:08:20,025 - INFO -   Community ID: com_verci
+2025-03-03 13:08:20,025 - INFO -   Location: 
+2025-03-03 13:08:20,025 - INFO -   Source: pioneer_works_events
+2025-03-03 13:08:20,026 - INFO -   Organizer: {'name': 'Verci Events', 'instagram': '', 'email': 'pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com'}
+2025-03-03 13:08:20,026 - INFO -   Speakers: 
+2025-03-03 13:08:20,026 - INFO - 
+Duplicate #2:
+2025-03-03 13:08:20,026 - INFO -   Title: Studio Jams - How to DJ Workshop with Ibiyemi
+2025-03-03 13:08:20,027 - INFO -   Community ID: com_verci
+2025-03-03 13:08:20,027 - INFO -   Location: 
+2025-03-03 13:08:20,027 - INFO -   Source: pioneer_works_events
+2025-03-03 13:08:20,027 - INFO -   Organizer: {'name': 'Verci Events', 'instagram': '', 'email': 'pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com'}
+2025-03-03 13:08:20,028 - INFO -   Speakers: 
+2025-03-03 13:08:20,028 - INFO - 
+Duplicate #3:
+2025-03-03 13:08:20,028 - INFO -   Title: Much Anticipated Art Show
+2025-03-03 13:08:20,028 - INFO -   Community ID: com_verci
+2025-03-03 13:08:20,028 - INFO -   Location: 
+2025-03-03 13:08:20,028 - INFO -   Source: pioneer_works_events
+2025-03-03 13:08:20,028 - INFO -   Organizer: {'name': 'Verci Events', 'instagram': '', 'email': 'pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com'}
+2025-03-03 13:08:20,028 - INFO -   Speakers: 
+2025-03-03 13:08:20,030 - INFO - 
+Merging events:
+2025-03-03 13:08:20,030 - INFO -   Primary Community: com_verci
+2025-03-03 13:08:20,030 - INFO -   Associated Communities: None
+2025-03-03 13:08:20,030 - INFO -   Organizers: Verci Events
+2025-03-03 13:08:20,030 - INFO -   Merge complete
+
+2025-03-03 13:08:20,031 - INFO - 
+=== Deduplication Summary ===
+2025-03-03 13:08:20,031 - INFO - Total events before deduplication: 286
+2025-03-03 13:08:20,031 - INFO - Total events after deduplication: 282
+2025-03-03 13:08:20,031 - INFO - Number of duplicate groups found: 3
+2025-03-03 13:08:20,031 - INFO - =====================================
+
+2025-03-03 13:08:20,088 - INFO - 
+Summary:
+2025-03-03 13:08:20,088 - INFO - Total events: 282
+2025-03-03 13:08:20,089 - INFO - Total locations: 28
+2025-03-03 13:08:20,089 - INFO - Top categories:
+2025-03-03 13:08:20,089 - INFO -   Networking & Social: 277 events (0.86 avg confidence)
+2025-03-03 13:08:20,089 - INFO -   Workshops & Training: 259 events (0.87 avg confidence)
+2025-03-03 13:08:20,090 - INFO -   Tech Talks & Conferences: 190 events (0.86 avg confidence)
+2025-03-03 13:08:20,090 - INFO -   Hackathons & Competitions: 61 events (0.78 avg confidence)
+2025-03-03 13:08:20,090 - INFO -   Coworking & Workspace: 39 events (0.73 avg confidence)
+2025-03-03 13:08:20,090 - INFO -   Tech Innovation & Research: 20 events (0.86 avg confidence)
+2025-03-03 13:08:20,091 - INFO -   Startup & Entrepreneurship: 9 events (0.7 avg confidence)

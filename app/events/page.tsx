@@ -1,59 +1,44 @@
 'use client';
 import React, { useState, useEffect, useRef, useCallback, useMemo } from 'react';
 import events from '@/public/data/events.json';
+import communities from '@/public/data/communities.json';
+import locations from '@/public/data/locations.json';
 import { Panel } from '@/app/components/ui/Panel';
 import Loading from '@/app/loading';
 import { FilterButton } from '@/app/components/ui/FilterButton';
 import { FilterDialog } from '@/app/components/ui/FilterDialog';
 import { FilterToggleButton } from '@/app/components/ui/FilterToggleButton';
-import { CompactFilterButton } from '@/app/components/ui/CompactFilterButton';
+import { EventDetailDialog } from '../components/ui/EventDetailDialog';
+import { CommunityDetailDialog } from '@/app/components/ui/CommunityDetailDialog';
+import { LocationDetailDialog } from '@/app/components/ui/LocationDetailDialog';
 import { saveFilterState, loadFilterState } from '@/app/utils/filterState';
-import { PageNav } from '@/app/components/ui/PageNav';
 import { CyberDatePicker } from '@/app/components/ui/CyberDatePicker';
+import { getCommunityData, getLocationData, Community, Location } from '@/app/utils/dataHelpers';
+import { Event, Category } from '@/app/types/event';
 
-interface Category {
+// Use imported Category type
+interface SimpleCategory {
   id: string;
   name: string;
-  confidence: number;
-  subcategories?: string[];
-}
-
-interface Event {
-  id: string;
-  name: string;
-  type: string;
-  startDate: string;
-  categories: Category[];
-  description?: string;
-  venue?: {
-    name: string;
-    address: string;
-    type: string;
-  };
-  organizer?: {
-    name: string;
-    instagram?: string;
-    email?: string;
-  };
+  count: number;
 }
 
 interface CategoryGroup {
-  id: string;
-  name: string;
-  count: number;
-  subcategories?: {
-    id: string;
-    name: string;
-    count: number;
-  }[];
+  title: string;
+  categories: SimpleCategory[];
 }
 
-interface CategoryData {
+interface FilterOption {
   id: string;
   name: string;
-  count: number;
-  isAcademic?: boolean;
-  parent?: string;
+  count?: number;
+}
+
+interface FilterGroup {
+  title: string;
+  options: FilterOption[];
+  selectedIds: string[];
+  onToggle: (id: string) => void;
 }
 
 // Time of day ranges
@@ -113,6 +98,8 @@ const eventMatchesSearch = (event: any, searchQuery: string): boolean => {
     event.venue?.name,
     event.venue?.address,
     event.organizer?.name,
+    event.locationId,
+    event.communityId,
     ...(event.categories?.map((cat: Category) => [cat.name, ...(cat.subcategories || [])]).flat() || [])
   ].filter(Boolean).join(' '));
 
@@ -120,7 +107,35 @@ const eventMatchesSearch = (event: any, searchQuery: string): boolean => {
   return searchTerms.every(term => eventText.includes(term));
 };
 
-const ITEMS_PER_PAGE = 10;
+const ITEMS_PER_PAGE = 20;
+
+// Add community filter types
+interface CommunityGroup {
+  id: string;
+  name: string;
+  type: string;
+  count: number;
+}
+
+// Add getSocialLink helper function
+const getSocialLink = (platform: string, handle: string): string => {
+  switch (platform.toLowerCase()) {
+    case 'instagram':
+      return `https://instagram.com/${handle.replace('@', '')}`;
+    case 'twitter':
+      return `https://twitter.com/${handle.replace('@', '')}`;
+    case 'facebook':
+      return `https://facebook.com/${handle}`;
+    case 'linkedin':
+      return `https://linkedin.com/in/${handle}`;
+    case 'discord':
+      return handle.startsWith('http') ? handle : `https://discord.gg/${handle}`;
+    case 'website':
+      return handle;
+    default:
+      return handle;
+  }
+};
 
 export default function Events() {
   const [isLoading, setIsLoading] = useState(true);
@@ -132,6 +147,11 @@ export default function Events() {
   const [isMobile, setIsMobile] = useState(false);
   const [visibleItems, setVisibleItems] = useState(ITEMS_PER_PAGE);
   const [hasMore, setHasMore] = useState(true);
+  const [selectedEvent, setSelectedEvent] = useState<Event | null>(null);
+  const [isLoadingMore, setIsLoadingMore] = useState(false);
+  const [selectedCommunities, setSelectedCommunities] = useState<string[]>([]);
+  const [selectedCommunity, setSelectedCommunity] = useState<Community | null>(null);
+  const [selectedLocation, setSelectedLocation] = useState<Location | null>(null);
   
   const observerTarget = useRef<HTMLDivElement>(null);
 
@@ -154,6 +174,7 @@ export default function Events() {
     const savedState = loadFilterState('events');
     if (savedState) {
       setSelectedCategories(savedState.selectedCategories || []);
+      setSelectedCommunities(savedState.selectedCommunities || []);
       setStartDate(savedState.startDate ? new Date(savedState.startDate) : null);
       setEndDate(savedState.endDate ? new Date(savedState.endDate) : null);
       setSearchQuery(savedState.searchQuery || '');
@@ -165,15 +186,16 @@ export default function Events() {
   useEffect(() => {
     saveFilterState('events', {
       selectedCategories,
+      selectedCommunities,
       startDate,
       endDate,
       searchQuery
     });
-  }, [selectedCategories, startDate, endDate, searchQuery]);
+  }, [selectedCategories, selectedCommunities, startDate, endDate, searchQuery]);
 
   // Get categories and their subcategories
   const categoryGroups = useMemo(() => {
-    const categoryMap = new Map<string, CategoryData>();
+    const categoryMap = new Map<string, SimpleCategory>();
     
     // First pass: collect all categories and their counts
     events.events.forEach(event => {
@@ -199,9 +221,7 @@ export default function Events() {
                 categoryMap.set(subId, {
                   id: subId,
                   name: subName,
-                  count: 0,
-                  isAcademic: true,
-                  parent: 'Academic'
+                  count: 0
                 });
               }
               categoryMap.get(subId)!.count++;
@@ -213,10 +233,10 @@ export default function Events() {
 
     // Group categories
     const mainCategories: CategoryGroup[] = [];
-    const academicSubcategories: CategoryGroup['subcategories'] = [];
+    const academicSubcategories: SimpleCategory[] = [];
 
     categoryMap.forEach((cat) => {
-      if (cat.isAcademic) {
+      if (cat.name === 'Academic') {
         academicSubcategories.push({
           id: cat.id,
           name: cat.name,
@@ -224,91 +244,207 @@ export default function Events() {
         });
       } else {
         mainCategories.push({
-          id: cat.id,
-          name: cat.name,
-          count: cat.count,
-          subcategories: cat.name === 'Academic' ? academicSubcategories : undefined
+          title: cat.name,
+          categories: [cat]
         });
       }
     });
 
     return mainCategories
-      .sort((a, b) => b.count - a.count)
+      .sort((a, b) => b.categories[0].count - a.categories[0].count)
       .map(cat => ({
         ...cat,
-        subcategories: cat.subcategories?.sort((a, b) => b.count - a.count)
+        categories: cat.categories.sort((a, b) => b.count - a.count)
       }));
   }, []);
 
-  // Filter events
-  const filteredEvents = useMemo(() => {
-    return events.events
-      .filter(event => {
-        if (selectedCategories.length > 0) {
-          const hasSelectedCategory = selectedCategories.some(selected => {
-            // Check if it's an academic subcategory
-            if (selected.startsWith('academic:')) {
-              const subcategory = selected.split(':')[1];
-              return event.categories?.some(cat => 
-                cat.id === 'academic' && 
-                cat.subcategories?.includes(subcategory)
-              );
-            }
-            
-            // Check regular categories
-            return event.categories?.some(cat => cat.id === selected);
-          });
-          
-          if (!hasSelectedCategory) return false;
-        }
-
-        if (startDate && new Date(event.startDate) < startDate) {
-          return false;
-        }
-
-        if (endDate && new Date(event.startDate) > endDate) {
-          return false;
-        }
-
-        return eventMatchesSearch(event, searchQuery);
-      })
-      .sort((a, b) => new Date(a.startDate).getTime() - new Date(b.startDate).getTime());
-  }, [selectedCategories, startDate, endDate, searchQuery]);
-
-  // Infinite scroll observer
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        if (entries[0].isIntersecting && hasMore) {
-          setVisibleItems(prev => {
-            const next = prev + ITEMS_PER_PAGE;
-            setHasMore(next < filteredEvents.length);
-            return next;
-          });
-        }
-      },
-      { threshold: 1.0 }
+  // Add community groups calculation
+  const communityGroups = useMemo(() => {
+    const communityMap = new Map<string, CommunityGroup>();
+    
+    // Only count upcoming events for filter counts
+    const upcomingEvents = events.events.filter(event => 
+      new Date(event.startDate) >= new Date()
     );
+    
+    upcomingEvents.forEach(event => {
+      // Primary community
+      const community = getCommunityData(event.communityId);
+      if (community) {
+        if (!communityMap.has(community.id)) {
+          communityMap.set(community.id, {
+            id: community.id,
+            name: community.name,
+            type: community.type,
+            count: 0
+          });
+        }
+        communityMap.get(community.id)!.count++;
+      }
+      
+      // Secondary communities (from metadata.associated_communities)
+      if (event.metadata?.associated_communities && Array.isArray(event.metadata.associated_communities)) {
+        event.metadata.associated_communities.forEach(communityId => {
+          const secondaryCommunity = getCommunityData(communityId);
+          if (secondaryCommunity && communityId !== event.communityId) {
+            if (!communityMap.has(communityId)) {
+              communityMap.set(communityId, {
+                id: communityId,
+                name: secondaryCommunity.name,
+                type: secondaryCommunity.type,
+                count: 0
+              });
+            }
+            communityMap.get(communityId)!.count++;
+          }
+        });
+      }
+    });
 
-    if (observerTarget.current) {
-      observer.observe(observerTarget.current);
+    return Array.from(communityMap.values())
+      .sort((a, b) => b.count - a.count);
+  }, []);
+
+  // Filter events with useMemo to focus on upcoming events
+  const filteredEvents = useMemo(() => {
+    // Apply all filters to get filtered events
+    let filtered = [...events.events]; // Create a fresh copy to avoid reference issues
+    
+    // Filter by search query
+    if (searchQuery) {
+      filtered = filtered.filter(event => eventMatchesSearch(event, searchQuery));
+    }
+    
+    // Filter by categories
+    if (selectedCategories.length > 0) {
+      filtered = filtered.filter(event => {
+        return event.categories?.some(category => 
+          selectedCategories.includes(category.name)
+        );
+      });
+    }
+    
+    // Filter by communities
+    if (selectedCommunities.length > 0) {
+      filtered = filtered.filter(event => {
+        // Check primary community
+        if (selectedCommunities.includes(event.communityId)) {
+          return true;
+        }
+        
+        // Check secondary communities
+        if (event.metadata?.associated_communities && Array.isArray(event.metadata.associated_communities)) {
+          return event.metadata.associated_communities.some(communityId => 
+            selectedCommunities.includes(communityId)
+          );
+        }
+        
+        return false;
+      });
+    }
+    
+    // Filter by date range
+    if (startDate) {
+      filtered = filtered.filter(event => 
+        new Date(event.startDate) >= startDate
+      );
+    }
+    
+    if (endDate) {
+      filtered = filtered.filter(event => 
+        new Date(event.startDate) <= endDate
+      );
     }
 
-    return () => observer.disconnect();
-  }, [filteredEvents.length, hasMore]);
+    // Sort events by date - upcoming first
+    filtered = filtered.sort((a, b) => 
+      new Date(a.startDate).getTime() - new Date(b.startDate).getTime()
+    );
 
-  const clearAllFilters = () => {
-    setSelectedCategories([]);
-    setStartDate(null);
-    setEndDate(null);
-    setSearchQuery('');
-  };
+    // Filter to show only upcoming events by default if no date filters are applied
+    if (!startDate && !endDate) {
+      filtered = filtered.filter(event => 
+        new Date(event.startDate) >= new Date()
+      );
+    }
+    
+    // Ensure unique events by ID (no duplicates)
+    const uniqueEvents = Array.from(
+      new Map(filtered.map(event => [event.id, event])).values()
+    );
+    
+    return uniqueEvents;
+  }, [events.events, searchQuery, selectedCategories, selectedCommunities, startDate, endDate]);
+
+  // Update the load more function for infinite scroll
+  const handleLoadMore = useCallback(() => {
+    if (isLoadingMore) return;
+    
+    setIsLoadingMore(true);
+    // Use a short timeout to avoid blocking the UI
+    setTimeout(() => {
+      setVisibleItems(prev => {
+        const nextItems = prev + ITEMS_PER_PAGE;
+        // Check if we have more items to show
+        setHasMore(nextItems < filteredEvents.length);
+        return nextItems;
+      });
+      setIsLoadingMore(false);
+    }, 300);
+  }, [filteredEvents.length, isLoadingMore]);
 
   // Reset visible items when filters change
   useEffect(() => {
+    // Reset to initial page of items whenever filters change
     setVisibleItems(ITEMS_PER_PAGE);
-    setHasMore(true);
-  }, [selectedCategories, startDate, endDate, searchQuery]);
+    setHasMore(filteredEvents.length > ITEMS_PER_PAGE);
+    setIsLoadingMore(false);
+  }, [filteredEvents.length]);
+
+  // Implement infinite scroll using Intersection Observer
+  useEffect(() => {
+    if (!observerTarget.current) return;
+    
+    const observer = new IntersectionObserver(
+      entries => {
+        const [entry] = entries;
+        if (entry.isIntersecting && hasMore && !isLoadingMore) {
+          handleLoadMore();
+        }
+      },
+      { threshold: 0.1 }
+    );
+
+    observer.observe(observerTarget.current);
+    
+    return () => {
+      if (observerTarget.current) {
+        observer.unobserve(observerTarget.current);
+      }
+    };
+  }, [observerTarget, hasMore, isLoadingMore, handleLoadMore]);
+
+  // Handle events, communities, and locations selection
+  const handleEventClick = (e: React.MouseEvent, event: any) => {
+    e.preventDefault();
+    setSelectedEvent(event);
+  };
+
+  const handleCommunityClick = (e: React.MouseEvent, communityId: string) => {
+    e.stopPropagation();
+    const communityData = getCommunityData(communityId);
+    if (communityData) {
+      setSelectedCommunity(communityData);
+    }
+  };
+
+  const handleLocationClick = (e: React.MouseEvent, locationId: string) => {
+    e.stopPropagation();
+    const locationData = getLocationData(locationId);
+    if (locationData) {
+      setSelectedLocation(locationData);
+    }
+  };
 
   if (isLoading) {
     return <Loading />;
@@ -316,11 +452,6 @@ export default function Events() {
 
   return (
     <main className="page-layout">
-      <PageNav 
-        title="NYC EVENTS" 
-        systemId="EVT-001" 
-        showBackButton={false}
-      />
 
       {/* Filter Toggle Button (Mobile Only) */}
       {isMobile && (
@@ -334,66 +465,91 @@ export default function Events() {
       <div className="events-layout">
         {/* Left Column - Event List */}
         <div className="events-list">
-          <Panel title="NYC EVENTS" systemId="EVT-001">
-            <div className="items-grid">
-              {filteredEvents.slice(0, visibleItems).map((event) => (
-                <a key={event.id} href={`/events/${event.id}`} className="item-card">
-                  <div className="card-header">
-                    <span className="event-date">
-                      {new Date(event.startDate).toLocaleDateString()}
-                    </span>
+          <Panel title={`NYC EVENTS (${filteredEvents.length})`} systemId="EVT-001">
+            <div className="event-cards">
+              {filteredEvents.slice(0, visibleItems).map(event => {
+                const community = getCommunityData(event.communityId);
+                const location = getLocationData(event.locationId);
+                const eventDate = new Date(event.startDate);
+                
+                return (
+                  <div 
+                    key={event.id} 
+                    className="event-card" 
+                    onClick={(e) => handleEventClick(e, event)}
+                  >
+                    {/* Date Badge */}
+                    <div className="event-date">
+                      <div className="date-month">{eventDate.toLocaleString('en-US', { month: 'short' }).toUpperCase()}</div>
+                      <div className="date-day">{eventDate.getDate()}</div>
+                    </div>
+                    
+                    {/* Event Content */}
+                    <div className="event-content">
+                      <h3 className="event-name">{event.name}</h3>
+                      <div className="event-time">{eventDate.toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', hour12: true })}</div>
+                      
+                      <div className="event-details">
+                        {community && (
+                          <div className="detail-row">
+                            <span className="detail-icon">⚡</span>
+                            <button 
+                              className="detail-link"
+                              onClick={(e) => handleCommunityClick(e, event.communityId)}
+                            >
+                              {community.name}
+                            </button>
+                          </div>
+                        )}
+                        
+                        {location && (
+                          <div className="detail-row">
+                            <span className="detail-icon">◎</span>
+                            <button 
+                              className="detail-link"
+                              onClick={(e) => handleLocationClick(e, event.locationId)}
+                            >
+                              {location.name}
+                            </button>
+                          </div>
+                        )}
+                      </div>
+                    </div>
+                    
+                    {/* Featured Badge */}
+                    {event.metadata?.featured && (
+                      <div className="featured-badge">Featured</div>
+                    )}
                   </div>
-                  <h3 className="event-name">{event.name}</h3>
-                  {event.venue && (
-                    <div className="event-venue">
-                      <span className="venue-icon">◎</span>
-                      {event.venue.name}
-                      {event.venue.address && (
-                        <>
-                          <span className="venue-separator">•</span>
-                          {event.venue.address}
-                        </>
-                      )}
-                    </div>
-                  )}
-                  {event.organizer && (
-                    <div className="event-organizer">
-                      <span className="organizer-icon">⌬</span>
-                      {event.organizer.name}
-                      {event.organizer.instagram && (
-                        <a 
-                          href={`https://instagram.com/${event.organizer.instagram.replace('@', '')}`}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="social-link"
-                        >
-                          {event.organizer.instagram}
-                        </a>
-                      )}
-                    </div>
-                  )}
-                  <div className="event-categories">
-                    {event.categories?.map((category, i) => (
-                      <span key={i} className="category-tag">{category.name}</span>
-                    ))}
-                  </div>
-                  {event.description && (
-                    <div className="event-description">
-                      {event.description.length > 200 
-                        ? `${event.description.slice(0, 200)}...`
-                        : event.description
-                      }
-                    </div>
-                  )}
-                </a>
-              ))}
-              {hasMore && <div ref={observerTarget} className="loading-trigger" />}
+                );
+              })}
+              
+              {/* Load More Button */}
+              {hasMore && (
+                <div className="load-more-container">
+                  <button 
+                    className="load-more-button"
+                    onClick={handleLoadMore}
+                    disabled={isLoadingMore}
+                  >
+                    {isLoadingMore ? (
+                      <div className="loading-indicator">
+                        <span className="loading-dot"></span>
+                        <span className="loading-dot"></span>
+                        <span className="loading-dot"></span>
+                      </div>
+                    ) : (
+                      `LOAD MORE (${filteredEvents.length - visibleItems} REMAINING)`
+                    )}
+                  </button>
+                </div>
+              )}
             </div>
           </Panel>
         </div>
 
         {/* Right Column - Filters */}
-        <div className="filters-section">
+        <div className={`filters-section ${isMobile ? 'desktop-only' : ''}`}>
           <Panel title="FILTERS" systemId="EVT-FIL-001" variant="secondary">
             <div className="filters-content">
               {/* Search Input */}
@@ -402,7 +558,10 @@ export default function Events() {
                   type="text"
                   placeholder="Search events..."
                   value={searchQuery}
-                  onChange={(e) => setSearchQuery(e.target.value)}
+                  onChange={(e) => {
+                    setSearchQuery(e.target.value);
+                    setVisibleItems(ITEMS_PER_PAGE);
+                  }}
                   className="search-input"
                 />
               </div>
@@ -413,13 +572,19 @@ export default function Events() {
                 <div className="date-filters">
                   <CyberDatePicker
                     selectedDate={startDate}
-                    onChange={setStartDate}
+                    onChange={(date) => {
+                      setStartDate(date);
+                      setVisibleItems(ITEMS_PER_PAGE);
+                    }}
                     label="Start Date"
                     placeholder="FROM"
                   />
                   <CyberDatePicker
                     selectedDate={endDate}
-                    onChange={setEndDate}
+                    onChange={(date) => {
+                      setEndDate(date);
+                      setVisibleItems(ITEMS_PER_PAGE);
+                    }}
                     label="End Date"
                     placeholder="TO"
                   />
@@ -431,58 +596,100 @@ export default function Events() {
                 <h3 className="filter-title">CATEGORIES</h3>
                 <div className="filter-options">
                   {categoryGroups.map(category => (
-                    <div key={category.id} className="category-group">
-                      <CompactFilterButton
-                        label={category.name}
-                        count={category.count}
-                        isActive={selectedCategories.includes(category.id)}
+                    <div key={category.title} className="category-group">
+                      <FilterButton
+                        label={category.title}
+                        count={category.categories[0].count}
+                        isActive={selectedCategories.includes(category.title)}
                         onClick={() => {
                           setSelectedCategories(prev => {
-                            // If deselecting, remove both category and its subcategories
-                            if (prev.includes(category.id)) {
-                              return prev.filter(c => 
-                                !c.startsWith(`${category.id}:`) && c !== category.id
-                              );
-                            }
-                            // If selecting, just add the category
-                            return [...prev, category.id];
+                            const newSelection = prev.includes(category.title)
+                              ? prev.filter(c => c !== category.title)
+                              : [...prev, category.title];
+                            
+                            // Reset to first page of items
+                            setVisibleItems(ITEMS_PER_PAGE);
+                            return newSelection;
                           });
                         }}
+                        variant='compact'
                       />
                       
                       {/* Show subcategories if parent is selected */}
-                      {selectedCategories.includes(category.id) && category.subcategories && (
-                        <div className="subcategories">
-                          {category.subcategories.map(sub => (
-                            <CompactFilterButton
-                              key={sub.id}
-                              label={sub.name}
-                              count={sub.count}
-                              isActive={selectedCategories.includes(sub.id)}
-                              onClick={() => {
-                                setSelectedCategories(prev => {
-                                  return prev.includes(sub.id)
-                                    ? prev.filter(c => c !== sub.id)
-                                    : [...prev, sub.id];
-                                });
-                              }}
-                            />
-                          ))}
-                        </div>
-                      )}
+                      {selectedCategories.includes(category.title) && category.categories.slice(1).map(sub => (
+                        <FilterButton
+                          key={sub.id}
+                          label={sub.name}
+                          count={sub.count}
+                          isActive={selectedCategories.includes(sub.id)}
+                          onClick={() => {
+                            setSelectedCategories(prev => {
+                              const newSelection = prev.includes(sub.id)
+                                ? prev.filter(c => c !== sub.id)
+                                : [...prev, sub.id];
+                              
+                              // Reset to first page of items
+                              setVisibleItems(ITEMS_PER_PAGE);
+                              return newSelection;
+                            });
+                          }}
+                          variant='compact'
+                        />
+                      ))}
                     </div>
+                  ))}
+                </div>
+              </div>
+
+              {/* Add Community Filter Section */}
+              <div className="filter-group">
+                <h3 className="filter-title">COMMUNITIES</h3>
+                <div className="filter-options">
+                  {communityGroups.map(community => (
+                    <FilterButton
+                      key={community.id}
+                      label={`${community.name} (${community.type})`}
+                      count={community.count}
+                      isActive={selectedCommunities.includes(community.id)}
+                      onClick={() => {
+                        // Create a new array to trigger state update and reset visibleItems
+                        setSelectedCommunities(prev => {
+                          // First, create the new array
+                          const newSelection = prev.includes(community.id) 
+                            ? prev.filter(c => c !== community.id) 
+                            : [...prev, community.id];
+                          
+                          // Reset items to initial page
+                          setTimeout(() => {
+                            setVisibleItems(ITEMS_PER_PAGE);
+                          }, 0);
+                          
+                          return newSelection;
+                        });
+                      }}
+                      variant='compact'
+                    />
                   ))}
                 </div>
               </div>
 
               {/* Clear Filters Button */}
               {(selectedCategories.length > 0 || 
+                selectedCommunities.length > 0 ||
                 startDate || 
                 endDate || 
                 searchQuery) && (
                 <button 
                   className="clear-filters-button"
-                  onClick={clearAllFilters}
+                  onClick={() => {
+                    setSelectedCategories([]);
+                    setSelectedCommunities([]);
+                    setStartDate(null);
+                    setEndDate(null);
+                    setSearchQuery('');
+                    // Reset to first page of items
+                    setVisibleItems(ITEMS_PER_PAGE);
+                  }}
                 >
                   CLEAR ALL FILTERS
                 </button>
@@ -491,6 +698,108 @@ export default function Events() {
           </Panel>
         </div>
       </div>
+
+      {/* Event Detail Dialog */}
+      <EventDetailDialog
+        event={selectedEvent}
+        isOpen={selectedEvent !== null}
+        onClose={() => setSelectedEvent(null)}
+        onCommunityClick={(communityId) => {
+          setSelectedEvent(null);
+          handleCommunityClick({ preventDefault: () => {}, stopPropagation: () => {} } as React.MouseEvent, communityId);
+        }}
+        onLocationClick={(locationId) => {
+          setSelectedEvent(null);
+          handleLocationClick({ preventDefault: () => {}, stopPropagation: () => {} } as React.MouseEvent, locationId);
+        }}
+      />
+
+      {/* Community Detail Dialog */}
+      <CommunityDetailDialog
+        community={selectedCommunity}
+        isOpen={selectedCommunity !== null}
+        onClose={() => setSelectedCommunity(null)}
+        onEventSelect={(event) => {
+          setSelectedCommunity(null);
+          setSelectedEvent(event);
+        }}
+      />
+
+      {/* Location Detail Dialog */}
+      <LocationDetailDialog
+        location={selectedLocation}
+        isOpen={selectedLocation !== null}
+        onClose={() => setSelectedLocation(null)}
+        onEventSelect={(event) => {
+          setSelectedLocation(null);
+          setSelectedEvent(event);
+        }}
+      />
+
+      {/* Mobile Filter Dialog */}
+      {isMobile && (
+        <FilterDialog
+          title="EVENT FILTERS"
+          systemId="EVT-FIL-002"
+          isOpen={isFilterDialogOpen}
+          onClose={() => setIsFilterDialogOpen(false)}
+          filterGroups={[
+            {
+              title: "CATEGORIES",
+              options: categoryGroups.flatMap(group => group.categories),
+              selectedIds: selectedCategories,
+              onToggle: (id) => {
+                setSelectedCategories(prev => {
+                  return prev.includes(id)
+                    ? prev.filter(c => c !== id)
+                    : [...prev, id];
+                });
+                setVisibleItems(ITEMS_PER_PAGE);
+              },
+              layout: 'list'
+            },
+            {
+              title: "COMMUNITIES",
+              options: communityGroups.map(community => ({
+                id: community.id,
+                name: `${community.name} (${community.type})`,
+                count: community.count
+              })),
+              selectedIds: selectedCommunities,
+              onToggle: (id) => {
+                setSelectedCommunities(prev => {
+                  return prev.includes(id)
+                    ? prev.filter(c => c !== id)
+                    : [...prev, id];
+                });
+                setVisibleItems(ITEMS_PER_PAGE);
+              },
+              layout: 'list'
+            }
+          ]}
+          searchQuery={searchQuery}
+          onSearchChange={setSearchQuery}
+          resultCount={filteredEvents.length}
+          startDate={startDate}
+          endDate={endDate}
+          onStartDateChange={(date) => {
+            setStartDate(date);
+            setVisibleItems(ITEMS_PER_PAGE);
+          }}
+          onEndDateChange={(date) => {
+            setEndDate(date);
+            setVisibleItems(ITEMS_PER_PAGE);
+          }}
+          onClearAll={() => {
+            setSelectedCategories([]);
+            setSelectedCommunities([]);
+            setStartDate(null);
+            setEndDate(null);
+            setSearchQuery('');
+            setVisibleItems(ITEMS_PER_PAGE);
+          }}
+        />
+      )}
 
       <style jsx>{`
         .page-layout {
@@ -514,106 +823,213 @@ export default function Events() {
           overflow: hidden;
         }
 
-        .items-grid {
-          display: flex;
-          flex-direction: column;
+        .event-cards {
+          display: grid;
+          grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
           gap: 1rem;
-          padding: 1rem;
-          height: 100%;
-          overflow-y: auto;
+          width: 100%;
         }
 
-        .item-card {
+        .event-card {
+          position: relative;
           display: flex;
-          flex-direction: column;
-          gap: 0.5rem;
-          padding: 1rem;
-          background: rgba(0, 56, 117, 0.3);
-          border: 1px solid var(--nyc-orange);
-          text-decoration: none;
-          transition: all 0.2s ease;
-          flex-shrink: 0;
+          border: 1px solid var(--terminal-color);
+          background: rgba(0, 23, 57, 0.7);
+          cursor: pointer;
+          overflow: hidden;
+          transition: border-color 0.2s ease;
         }
 
-        .item-card:hover {
-          transform: translateY(-2px);
-          background: rgba(0, 56, 117, 0.5);
-          border-color: var(--terminal-color);
-        }
-
-        .card-header {
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
+        .event-card:hover {
+          border-color: var(--nyc-orange);
         }
 
         .event-date {
-          color: var(--terminal-color);
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          padding: 0.75rem;
+          background: rgba(0, 20, 40, 0.5);
+          min-width: 60px;
+          text-align: center;
+        }
+
+        .date-month {
+          color: var(--nyc-orange);
           font-size: 0.8rem;
+          letter-spacing: 1px;
+          font-family: var(--font-mono);
+        }
+
+        .date-day {
+          font-size: 1.5rem;
+          font-weight: bold;
+          color: var(--nyc-white);
+          line-height: 1;
+        }
+
+        .event-content {
+          flex: 1;
+          padding: 0.75rem;
+          display: flex;
+          flex-direction: column;
         }
 
         .event-name {
           color: var(--nyc-white);
-          font-size: 1.1rem;
-          margin: 0;
-          font-weight: bold;
+          margin: 0 0 0.5rem 0;
+          font-size: 1rem;
+          line-height: 1.3;
         }
 
-        .event-venue,
-        .event-organizer {
+        .event-time {
+          font-family: var(--font-mono);
+          color: var(--terminal-color);
+          font-size: 0.85rem;
+          margin-bottom: 0.75rem;
+        }
+
+        .event-details {
+          margin-top: auto;
+        }
+
+        .detail-row {
           display: flex;
           align-items: center;
           gap: 0.5rem;
-          color: var(--nyc-white);
-          opacity: 0.8;
+          margin-bottom: 0.35rem;
+        }
+
+        .detail-icon {
+          color: var(--nyc-orange);
           font-size: 0.9rem;
         }
 
-        .venue-icon,
-        .organizer-icon {
-          color: var(--terminal-color);
-          font-size: 0.8rem;
+        .detail-link {
+          background: transparent;
+          border: none;
+          color: var(--nyc-white);
+          font-size: 0.9rem;
+          padding: 0;
+          text-align: left;
+          cursor: pointer;
         }
 
-        .venue-separator {
-          margin: 0 0.5rem;
-          color: var(--terminal-color);
-        }
-
-        .social-link {
+        .detail-link:hover {
           color: var(--nyc-orange);
-          text-decoration: none;
-          margin-left: 0.5rem;
-          transition: all 0.2s ease;
         }
 
-        .social-link:hover {
-          color: var(--terminal-color);
-        }
-
-        .event-categories {
-          display: flex;
-          gap: 0.5rem;
-          flex-wrap: wrap;
-        }
-
-        .category-tag {
+        .featured-badge {
+          position: absolute;
+          top: 0;
+          right: 0;
+          background: var(--nyc-orange);
+          color: var(--background);
           font-size: 0.7rem;
-          padding: 0.25rem 0.5rem;
-          background: rgba(0, 255, 255, 0.1);
+          padding: 0.2rem 0.5rem;
+          font-family: var(--font-mono);
+        }
+
+        .load-more-container {
+          grid-column: 1 / -1;
+          display: flex;
+          justify-content: center;
+          padding: 1.5rem 0;
+        }
+
+        .load-more-button {
+          background: rgba(0, 56, 117, 0.3);
           border: 1px solid var(--terminal-color);
           color: var(--terminal-color);
+          font-family: var(--font-mono);
+          font-size: 0.9rem;
+          padding: 0.75rem 1.5rem;
+          cursor: pointer;
+          transition: all 0.2s ease;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          min-width: 200px;
+        }
+
+        .load-more-button:hover:not(:disabled) {
+          background: rgba(0, 56, 117, 0.5);
+          border-color: var(--nyc-orange);
+          color: var(--nyc-orange);
+        }
+
+        .load-more-button:disabled {
+          opacity: 0.7;
+          cursor: not-allowed;
+        }
+
+        .loading-indicator {
+          display: flex;
+          gap: 0.5rem;
+          align-items: center;
+        }
+
+        .loading-dot {
+          width: 8px;
+          height: 8px;
+          background-color: var(--nyc-orange);
+          border-radius: 50%;
+          display: inline-block;
+          animation: pulse 1.2s infinite ease-in-out;
+        }
+
+        .loading-dot:nth-child(2) {
+          animation-delay: 0.2s;
+        }
+
+        .loading-dot:nth-child(3) {
+          animation-delay: 0.4s;
+        }
+
+        @keyframes pulse {
+          0%, 100% {
+            transform: scale(0.5);
+            opacity: 0.5;
+          }
+          50% {
+            transform: scale(1);
+            opacity: 1;
+          }
         }
 
         .filters-section {
           min-height: 0;
-          overflow: auto;
+          overflow: visible;
+          position: sticky;
+          top: 1rem;
+          max-height: calc(100vh - 2rem);
+          display: flex;
+          flex-direction: column;
         }
 
         .filters-content {
           display: flex;
           flex-direction: column;
           gap: 1.5rem;
+          overflow-y: auto;
+          padding-right: 0.5rem;
+          max-height: calc(100vh - 6rem);
+          scrollbar-width: thin;
+          scrollbar-color: var(--nyc-orange) rgba(0, 56, 117, 0.3);
+        }
+
+        .filters-content::-webkit-scrollbar {
+          width: 6px;
+        }
+
+        .filters-content::-webkit-scrollbar-track {
+          background: rgba(0, 56, 117, 0.3);
+        }
+
+        .filters-content::-webkit-scrollbar-thumb {
+          background-color: var(--nyc-orange);
+          border-radius: 3px;
         }
 
         .filter-group {
@@ -627,12 +1043,18 @@ export default function Events() {
           font-size: 0.8rem;
           margin: 0;
           font-family: var(--font-mono);
+          position: sticky;
+          top: 0;
+          background: var(--panel-bg);
+          padding: 0.5rem 0;
+          z-index: 1;
         }
 
         .filter-options {
           display: flex;
           flex-direction: column;
-          gap: 0.25rem;
+          gap: 0.5rem;
+          padding-left: 0;
         }
 
         .search-input {
@@ -675,22 +1097,11 @@ export default function Events() {
           color: var(--nyc-orange);
         }
 
-        .loading-trigger {
-          height: 20px;
-        }
-
         .category-group {
           display: flex;
           flex-direction: column;
           gap: 0.25rem;
           width: 100%;
-        }
-
-        .subcategories {
-          margin-left: 1rem;
-          display: flex;
-          flex-direction: column;
-          gap: 0.25rem;
         }
 
         .event-description {
@@ -701,30 +1112,274 @@ export default function Events() {
           line-height: 1.4;
         }
 
+        .event-detail {
+          display: flex;
+          flex-direction: column;
+          gap: 2rem;
+        }
+
+        .detail-section {
+          display: flex;
+          flex-direction: column;
+          gap: 0.5rem;
+        }
+
+        .detail-section h3 {
+          color: var(--terminal-color);
+          font-family: var(--font-mono);
+          font-size: 0.9rem;
+          margin: 0;
+        }
+
+        .detail-section p {
+          color: var(--nyc-white);
+          font-size: 1rem;
+          margin: 0;
+          line-height: 1.5;
+        }
+
+        .venue-address {
+          color: var(--nyc-orange);
+          font-family: var(--font-mono);
+          font-size: 0.9rem;
+        }
+
+        .detail-categories {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 0.5rem;
+        }
+
+        .detail-categories .category-tag {
+          font-size: 0.8rem;
+        }
+
+        .event-community,
+        .event-location {
+          display: flex;
+          align-items: center;
+          gap: 0.5rem;
+          margin-top: 0.5rem;
+        }
+        
+        .community-label,
+        .location-label {
+          color: var(--terminal-color);
+          font-size: 0.8rem;
+          font-family: var(--font-mono);
+        }
+        
+        .community-link,
+        .location-link {
+          background: rgba(0, 56, 117, 0.2);
+          border: 1px solid var(--terminal-color);
+          color: var(--nyc-white);
+          font-size: 0.9rem;
+          padding: 0.25rem 0.5rem;
+          cursor: pointer;
+          display: inline-flex;
+          align-items: center;
+          gap: 0.25rem;
+        }
+        
+        .community-link:hover,
+        .location-link:hover {
+          background: rgba(0, 56, 117, 0.4);
+          border-color: var(--nyc-orange);
+        }
+        
+        .community-type {
+          color: var(--terminal-color);
+          font-size: 0.8rem;
+        }
+
+        .featured-badge {
+          background: var(--accent);
+          color: var(--background);
+          padding: 0.25rem 0.5rem;
+          border-radius: 4px;
+          font-size: 0.8rem;
+          font-weight: 500;
+        }
+
+        .event-metadata {
+          display: flex;
+          gap: 1rem;
+          margin-top: 0.5rem;
+          font-size: 0.9rem;
+          color: var(--text-tertiary);
+        }
+
+        .registration-required {
+          color: var(--warning);
+        }
+
+        .event-price {
+          color: var(--success);
+        }
+
+        .community-icon,
+        .location-icon {
+          color: var(--accent);
+        }
+
+        .community-info {
+          display: flex;
+          flex-direction: column;
+          gap: 0.5rem;
+        }
+
+        .community-info h4 {
+          color: var(--nyc-white);
+          margin: 0;
+          font-size: 1.1rem;
+        }
+
+        .community-type {
+          color: var(--terminal-color);
+          font-size: 0.9rem;
+          margin: 0;
+        }
+
+        .community-description {
+          color: var(--nyc-white);
+          opacity: 0.8;
+          font-size: 0.9rem;
+          line-height: 1.4;
+          margin: 0.5rem 0;
+        }
+
+        .community-links {
+          display: flex;
+          gap: 1rem;
+          flex-wrap: wrap;
+        }
+
+        .community-link {
+          color: var(--terminal-color);
+          text-decoration: none;
+          font-size: 0.9rem;
+          transition: color 0.2s ease;
+        }
+
+        .community-link:hover {
+          color: var(--nyc-orange);
+        }
+
+        .membership-info {
+          display: flex;
+          gap: 1rem;
+          align-items: center;
+          margin-top: 0.5rem;
+        }
+
+        .membership-type {
+          color: var(--terminal-color);
+          font-size: 0.9rem;
+          padding: 0.25rem 0.5rem;
+          border: 1px solid var(--terminal-color);
+        }
+
+        .membership-fee {
+          color: var(--nyc-white);
+          font-size: 0.9rem;
+        }
+
+        .amenities {
+          margin-top: 1rem;
+        }
+
+        .amenities h5 {
+          color: var(--terminal-color);
+          font-size: 0.8rem;
+          margin: 0 0 0.5rem 0;
+        }
+
+        .amenity-tags {
+          display: flex;
+          gap: 0.5rem;
+          flex-wrap: wrap;
+        }
+
+        .amenity-tag {
+          font-size: 0.8rem;
+          padding: 0.25rem 0.5rem;
+          background: rgba(0, 255, 255, 0.1);
+          border: 1px solid var(--terminal-color);
+          color: var(--terminal-color);
+        }
+
+        .location-hours {
+          margin-top: 1rem;
+        }
+
+        .location-hours h5 {
+          color: var(--terminal-color);
+          font-size: 0.8rem;
+          margin: 0 0 0.5rem 0;
+        }
+
+        .hours-grid {
+          display: grid;
+          gap: 0.25rem;
+        }
+
+        .hours-row {
+          display: grid;
+          grid-template-columns: 100px 1fr;
+          gap: 1rem;
+          font-size: 0.9rem;
+        }
+
+        .day {
+          color: var(--terminal-color);
+        }
+
+        .hours {
+          color: var(--nyc-white);
+        }
+
+        .event-metadata-grid {
+          display: grid;
+          gap: 1rem;
+        }
+
+        .metadata-item {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        }
+
+        .metadata-label {
+          color: var(--terminal-color);
+          font-size: 0.9rem;
+        }
+
+        .metadata-value {
+          color: var(--nyc-white);
+          font-size: 0.9rem;
+        }
+
+        .metadata-value.required {
+          color: var(--nyc-orange);
+        }
+
         @media (max-width: 1024px) {
           .events-layout {
             grid-template-columns: 1fr;
           }
 
-          .filters-section {
-            order: -1;
+          .desktop-only {
+            display: none !important;
           }
 
-          .filter-options {
-            flex-direction: row;
-            flex-wrap: wrap;
-            gap: 0.5rem;
+          .items-grid {
+            max-height: none;
+            overflow: visible;
           }
 
-          .date-filters {
-            flex-direction: row;
-            gap: 1rem;
-          }
-
-          .subcategories {
-            margin-left: 0;
-            flex-direction: row;
-            flex-wrap: wrap;
+          .page-header {
+            display: none;
           }
         }
       `}</style>

@@ -1,3 +1,6 @@
-from .categorize_events import EventCategorizer
-from .run_scrapers import main
+"""
+NYC Events Scraper Package
+"""
 
+# Version
+__version__ = "1.0.0" 

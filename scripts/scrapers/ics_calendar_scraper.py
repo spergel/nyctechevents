@@ -9,6 +9,7 @@ from bs4 import BeautifulSoup
 from typing import Dict, List, Optional
 from datetime import datetime, UTC
 from icalendar import Calendar
+from calendar_configs import ICS_CALENDARS
 
 # Configure logging
 logging.basicConfig(
@@ -18,70 +19,36 @@ logging.basicConfig(
 )
 
 # Load communities data
-with open('../../data/communities.json', 'r') as f:
+with open('../../public/data/communities.json', 'r') as f:
     COMMUNITIES = {community['id']: community for community in json.load(f)['communities']}
-
-# ICS Calendar Sources
-ICS_CALENDARS = {
-    "nyc_gatherings": {
-        "id": "http://api.lu.ma/ics/get?entity=calendar&id=cal-cnuVqBPxDjDZGcF",
-        "community_id": "com_nyc_gatherings"
-    },
-    "max_ny": {
-        "id": "http://api.lu.ma/ics/get?entity=calendar&id=cal-KGV5WJNQjhqXGj5",
-        "community_id": "com_max_ny"
-    },
-    "otwc": {
-        "id": "http://api.lu.ma/ics/get?entity=calendar&id=cal-q37ZsEGpns4eio2",
-        "community_id": "com_otwc"
-    },
-    "der_project": {
-        "id": "http://api.lu.ma/ics/get?entity=calendar&id=cal-jnmufRkbO6lEBQH",
-        "community_id": "com_der_project"
-    },
-    "olios": {
-        "id": "http://api.lu.ma/ics/get?entity=calendar&id=cal-zfvU7AwJN56Zedx",
-        "community_id": "com_olios"
-    },
-    "walk_club": {
-        "id": "http://api.lu.ma/ics/get?entity=calendar&id=cal-nIXe5Toh3KsgZWg",
-        "community_id": "com_walk_club"
-    },
-    "ny_hardware": {
-        "id": "http://api.lu.ma/ics/get?entity=calendar&id=cal-vR9KDer3a9iEfUd",
-        "community_id": "com_ny_hardware"
-    },
-    "la_creme_stem": {
-        "id": "http://api.lu.ma/ics/get?entity=calendar&id=cal-4oDH9h513BBRk6y",
-        "community_id": "com_la_creme_stem"
-    },
-    "luma_nyc": {
-        "id": "http://api.lu.ma/ics/get?entity=calendar&id=cal-KGV5WJNQjhqXGj5",
-        "community_id": "com_luma_nyc"
-    },
-    "third_place_nyc": {
-        "id": "http://api.lu.ma/ics/get?entity=calendar&id=cal-AIpaP0cRGKS7tcw",
-        "community_id": "com_third_place_nyc"
-    },
-    "reforester": {
-        "id": "http://api.lu.ma/ics/get?entity=calendar&id=cal-p6wrlIz7NXddCxz",
-        "community_id": "com_reforester"
-    },
-    "genZtea": {
-        "id": "http://api.lu.ma/ics/get?entity=calendar&id=cal-6kEfZKtXphCXCQD",
-        "community_id": "com_genZtea"
-    }
-}
 
 def get_luma_event_details(event_url: str) -> Optional[Dict]:
     """Fetch detailed event information from Luma event page"""
     try:
+        # Make sure we have a valid URL
+        if not event_url or not isinstance(event_url, str):
+            return None
+            
+        # Normalize URL format if needed
+        if event_url.startswith('LOCATION:'):
+            event_url = event_url.replace('LOCATION:', '')
+            
+        # Ensure URL is a Luma URL
+        if 'lu.ma' not in event_url:
+            return None
+            
+        logging.info(f"Fetching details from Luma event URL: {event_url}")
         response = requests.get(event_url)
         response.raise_for_status()
         soup = BeautifulSoup(response.text, 'html.parser')
         
         # Extract event details
         details = {}
+        
+        # Get event title
+        title_elem = soup.find('h1', {'class': 'title'})
+        if title_elem:
+            details['title'] = title_elem.get_text(strip=True)
         
         # Get full description/about section
         about_section = soup.find('div', {'class': 'spark-content'})
@@ -98,53 +65,97 @@ def get_luma_event_details(event_url: str) -> Optional[Dict]:
                 details['actual_capacity'] = int(match.group(1))
                 
         # Get detailed location info
-        location_div = soup.find('div', {'class': 'location'})
+        location_div = soup.select('div.jsx-4155675949.content-card:contains("Location")')
+        location_details = {
+            'venue_name': '',
+            'address': '',
+            'room': '',
+            'additional_info': '',
+            'type': 'Offline'  # Default to offline
+        }
+        
         if location_div:
-            location_details = {
-                'venue_name': '',
-                'address': '',
-                'room': '',
-                'additional_info': ''
-            }
-            
-            # Parse location components
-            venue_name = location_div.find('div', {'class': 'fw-medium'})
+            # Get venue name
+            venue_name = soup.select_one('div.jsx-33066475.info div:first-child')
             if venue_name:
                 location_details['venue_name'] = venue_name.get_text(strip=True)
                 
-            address = location_div.find('div', {'class': 'text-tinted'})
+            # Get address
+            address = soup.select_one('div.jsx-33066475.text-tinted.fs-sm.mt-1')
             if address:
                 location_details['address'] = address.get_text(strip=True)
                 
-            room = location_div.find('div', {'class': 'break-word'})
-            if room:
-                location_details['room'] = room.get_text(strip=True)
+            # Check if this is an online event
+            if 'Register to See Address' in soup.text or 'Online Event' in soup.text:
+                location_details['type'] = 'Online'
                 
-            details['location_details'] = location_details
+        details['location_details'] = location_details
+            
+        # Get event date and time
+        date_elem = soup.select_one('div.jsx-2370077516.title.text-ellipses')
+        if date_elem and not date_elem.select_one('div.shimmer'):
+            details['date_display'] = date_elem.get_text(strip=True)
+            
+        # Get event categories
+        categories = []
+        category_elems = soup.select('div.jsx-3250441484.event-categories a')
+        for cat in category_elems:
+            category_text = cat.get_text(strip=True)
+            if category_text:
+                categories.append(category_text)
+        details['categories'] = categories
             
         # Get speaker details
         speakers = []
-        speaker_divs = soup.find_all('div', {'class': 'host-row'})
+        speaker_divs = soup.select('div.jsx-3733653009.flex-center.gap-2')
         for speaker in speaker_divs:
-            speaker_name = speaker.find('div', {'class': 'fw-medium'})
+            speaker_name = speaker.select_one('div.jsx-3733653009.fw-medium.text-ellipses')
             if speaker_name:
                 speakers.append({
                     'name': speaker_name.get_text(strip=True),
                     'title': '',  # Could parse from description if available
-                    'bio': ''    # Could parse from description if available
+                    'bio': ''     # Could parse from description if available
                 })
         details['speakers'] = speakers
         
         # Get social media links
         social_links = []
-        social_div = soup.find('div', {'class': 'social-links'})
-        if social_div:
-            links = social_div.find_all('a')
-            for link in links:
-                href = link.get('href')
-                if href:
-                    social_links.append(href)
+        social_divs = soup.select('div.jsx-1428039309.social-links a')
+        for link in social_divs:
+            href = link.get('href')
+            if href:
+                social_links.append(href)
         details['social_links'] = social_links
+        
+        # Get event image URL
+        image_elem = soup.select_one('img[fetchPriority="auto"][loading="eager"]')
+        if image_elem:
+            img_src = image_elem.get('src')
+            if img_src:
+                details['image_url'] = img_src
+                
+        # Extract price information
+        price_info = {
+            "amount": 0,
+            "type": "Free",
+            "currency": "USD",
+            "details": ""
+        }
+        
+        price_elem = soup.select_one('div.jsx-681273248.cta-wrapper')
+        if price_elem:
+            price_text = price_elem.get_text(strip=True)
+            if any(term in price_text.lower() for term in ['$', 'usd', 'pay']):
+                # Try to extract the price
+                price_match = re.search(r'\$(\d+(\.\d+)?)', price_text)
+                if price_match:
+                    price_info = {
+                        "amount": float(price_match.group(1)),
+                        "type": "Paid",
+                        "currency": "USD",
+                        "details": price_text
+                    }
+        details['price_info'] = price_info
         
         return details
         
@@ -169,8 +180,26 @@ def get_luma_events(ics_url):
             # Skip past events (end time in past)
             if end < now:
                 continue
-                
+            
+            # Get event URL from:
+            # 1. URL property
+            # 2. Location field if it contains a Luma URL
+            # 3. Description field if it contains a Luma URL
             event_url = component.get('url', '')
+            location = component.get('location', '')
+            description = component.get('description', '')
+            
+            # Check if location is a Luma URL
+            if not event_url and location and 'lu.ma' in location:
+                event_url = location
+                
+            # Alternative: Extract URL from description if needed
+            if not event_url and description:
+                urls = re.findall(r'https?://lu\.ma/\S+', description)
+                if urls:
+                    event_url = urls[0]
+            
+            # Get detailed event information if we have a URL
             event_details = get_luma_event_details(event_url) if event_url else None
                 
             events.append({
@@ -178,8 +207,8 @@ def get_luma_events(ics_url):
                 "summary": component.get("summary"),
                 "start": start,
                 "end": end,
-                "location": component.get("location"),
-                "description": component.get("description"),
+                "location": location,
+                "description": description,
                 "organizer": component.get("organizer"),
                 "geo": component.get("geo"),
                 "url": event_url,
@@ -198,7 +227,26 @@ def parse_location(raw_location):
             "type": "Online"
         }
     
-    # Handle URL-based locations
+    # Handle Luma URL-based locations
+    if 'lu.ma' in raw_location:
+        event_details = get_luma_event_details(raw_location)
+        if event_details and 'location_details' in event_details:
+            loc_details = event_details['location_details']
+            return {
+                "name": loc_details.get('venue_name', 'Event Location'),
+                "address": loc_details.get('address', raw_location),
+                "type": loc_details.get('type', 'Offline'),
+                "room": loc_details.get('room', ''),
+                "additional_info": loc_details.get('additional_info', '')
+            }
+        # Fallback if we couldn't extract details
+        return {
+            "name": "Luma Event",
+            "address": raw_location,
+            "type": "Offline"
+        }
+    
+    # Handle other URL-based locations
     if raw_location.startswith('http'):
         return {
             "name": "Online Event",
@@ -292,40 +340,78 @@ def convert_ics_event(ics_event, community_id):
             'name': loc_details.get('venue_name', venue['name']),
             'address': loc_details.get('address', venue['address']),
             'room': loc_details.get('room', ''),
-            'additional_info': loc_details.get('additional_info', '')
+            'additional_info': loc_details.get('additional_info', ''),
+            'type': loc_details.get('type', venue['type'])
         })
     
-    # Extract price from description
-    price_info = parse_price(ics_event.get('description', ''))
+    # Extract price from description or additional details
+    price_info = additional_details.get('price_info', parse_price(ics_event.get('description', '')))
     
     # Clean description
     description = clean_description(ics_event.get('description', ''))
     
-    # Use full description if available
+    # Use full description if available from Luma
     if additional_details and 'full_description' in additional_details:
         description = additional_details['full_description']
     
     # Get actual capacity if available
     capacity = additional_details.get('actual_capacity', 100) if additional_details else 100
     
+    # Get image URL if available
+    image = "fractal-community.jpg"  # Default image
+    if additional_details and 'image_url' in additional_details:
+        # Extract just the filename part for local storage
+        image_url = additional_details['image_url']
+        if image_url:
+            # Generate a filename from the URL
+            image_hash = hashlib.md5(image_url.encode()).hexdigest()[:8]
+            image = f"luma-event-{image_hash}.jpg"
+            
+            # Optionally download the image (uncomment if needed)
+            # try:
+            #     img_response = requests.get(image_url)
+            #     if img_response.status_code == 200:
+            #         os.makedirs('../../public/images/events', exist_ok=True)
+            #         with open(f'../../public/images/events/{image}', 'wb') as img_file:
+            #             img_file.write(img_response.content)
+            # except Exception as e:
+            #     logging.error(f"Failed to download image: {e}")
+    
+    # Get categories
+    categories = ["Tech"]  # Default category
+    if additional_details and 'categories' in additional_details and additional_details['categories']:
+        categories = additional_details['categories']
+    
+    # Set location ID based on community
+    location_id = "loc_tbd"
+    if community_id == "com_fractal":
+        location_id = "loc_fractal"
+    elif community_id == "com_telos":
+        location_id = "loc_telos"
+    
+    # Set source URL based on community
+    source_url = ics_event.get('url')
+    if community_id == "com_nyc_resistor":
+        source_url = "https://www.nycresistor.com/participate/"
+    
     return {
         "id": f"evt_{community_id}_{event_id}",
-        "name": ics_event['summary'],
-        "type": "Tech",
-        "locationId": "loc_tbd",
+        "name": additional_details.get('title', ics_event['summary']),
+        "type": categories[0] if categories else "Tech",
+        "locationId": location_id,
         "communityId": community_id,
         "description": description,
         "startDate": start_date.isoformat(),
         "endDate": end_date.isoformat(),
-        "category": ["Tech"],
+        "category": categories,
         "price": price_info,
         "capacity": capacity,
         "registrationRequired": True,
         "tags": [],
-        "image": "fractal-community.jpg",
+        "image": image,
         "status": "upcoming",
         "metadata": {
-            "source_url": ics_event.get('url'),
+            "source_url": source_url,
             "speakers": additional_details.get('speakers', []) if additional_details else extract_speakers(description),
             "venue": venue,
             "featured": False,
