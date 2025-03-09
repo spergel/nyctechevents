@@ -107,21 +107,19 @@ export function ConsoleLayout({ children, locations, onLocationClick }: ConsoleL
                 </HolographicDisplay>
               </div>
               <div className="news-feed">
-                {events.events.slice(0, 10).map((event) => (
-                  <div
-                    key={event.id}
-                    className="news-item"
-                    onClick={() => setSelectedEvent(event as ImportedEvent)}
-                    role="button"
-                    tabIndex={0}
-                  >
-                    <div className="news-date">{formatDate(event.startDate || '')}</div>
-                    <div className="news-content">
-                      <h4>{event.name}</h4>
-                      <div className="news-source">{event.type}</div>
-                    </div>
+                <div
+                  className="news-item twitter-link"
+                  onClick={() => window.open('https://x.com/nycdosomething', '_blank')}
+                  role="button"
+                  tabIndex={0}
+                >
+                  <div className="news-date">VIEW MORE ON TWITTER <br />
+                    <span className="twitter-handle">@nycdosomething</span>
                   </div>
-                ))}
+                  <div className="news-content">
+
+                  </div>
+                </div>
               </div>
             </div>
           </Panel>
@@ -739,6 +737,17 @@ export function ConsoleLayout({ children, locations, onLocationClick }: ConsoleL
           border: 1px solid var(--nyc-orange);
           white-space: pre-wrap;
           overflow-x: auto;
+        }
+
+        .twitter-link {
+          border: 1px solid var(--nyc-blue);
+          background: rgba(0, 149, 255, 0.1);
+          transition: all 0.2s ease;
+        }
+        .twitter-link:hover {
+          background: rgba(0, 149, 255, 0.2);
+          transform: translateY(-2px);
+          box-shadow: 0 0 10px var(--nyc-blue);
         }
       `}</style>
     </div>
