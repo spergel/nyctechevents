@@ -401,11 +401,25 @@ export default function Events() {
     setIsLoadingMore(false);
   }, [filteredEvents.length]);
 
+  // Initialize the loading state
+  useEffect(() => {
+    // Initial loading state
+    setIsLoading(true);
+    
+    // Short timeout to simulate data loading
+    setTimeout(() => {
+      setIsLoading(false);
+      // Check if we need to enable infinite scrolling
+      setHasMore(filteredEvents.length > ITEMS_PER_PAGE);
+    }, 500);
+  }, [filteredEvents.length]);
+
   // Implement infinite scroll using Intersection Observer
   useEffect(() => {
-    if (!observerTarget.current) return;
+    // Don't set up observer while initial loading is happening
+    if (isLoading || !observerTarget.current) return;
     
-    console.log("Setting up intersection observer");
+    console.log("Setting up intersection observer, isMobile:", isMobile);
     
     const observer = new IntersectionObserver(
       entries => {
@@ -417,11 +431,33 @@ export default function Events() {
         }
       },
       { 
-        threshold: 0.1,
-        rootMargin: '100px' 
+        threshold: isMobile ? 0.1 : 0.2,
+        rootMargin: isMobile ? '300px' : '200px' 
       }
     );
 
+    // Check if already in viewport on initial load (important!)
+    const checkInitialIntersection = () => {
+      if (observerTarget.current) {
+        const rect = observerTarget.current.getBoundingClientRect();
+        const isInViewport = (
+          rect.top >= 0 &&
+          rect.left >= 0 &&
+          rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+          rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+        );
+        
+        console.log("Initial check - target in viewport:", isInViewport);
+        if (isInViewport && hasMore && !isLoadingMore) {
+          handleLoadMore();
+        }
+      }
+    };
+    
+    // Run initial check
+    checkInitialIntersection();
+
+    // Then observe for future intersections
     observer.observe(observerTarget.current);
     
     return () => {
@@ -429,7 +465,7 @@ export default function Events() {
         observer.unobserve(observerTarget.current);
       }
     };
-  }, [observerTarget, hasMore, isLoadingMore, handleLoadMore]);
+  }, [observerTarget, hasMore, isLoadingMore, handleLoadMore, isMobile, isLoading]);
 
   // Handle events, communities, and locations selection
   const handleEventClick = (e: React.MouseEvent, event: any) => {
@@ -1383,6 +1419,26 @@ export default function Events() {
           .page-header {
             display: none;
           }
+        }
+
+        .infinite-scroll-trigger {
+          height: 40px;
+          min-height: 40px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin: 0;
+          padding: 0;
+          width: 100%;
+          opacity: 0.8;
+          background: transparent;
+        }
+
+        .loading-indicator {
+          display: flex;
+          gap: 6px;
+          padding: 10px;
+          justify-content: center;
         }
       `}</style>
     </main>
