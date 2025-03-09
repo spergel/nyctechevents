@@ -23,6 +23,7 @@
     "react": "19.0.0-rc-cd22717c-20241013",
     "react-dom": "19.0.0-rc-cd22717c-20241013",
     "react-icons": "^5.5.0",
+    "react-leaflet": "^5.0.0",
     "tailwind-merge": "^2.2.1"
   },
   "devDependencies": {

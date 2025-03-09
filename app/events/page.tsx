@@ -405,14 +405,21 @@ export default function Events() {
   useEffect(() => {
     if (!observerTarget.current) return;
     
+    console.log("Setting up intersection observer");
+    
     const observer = new IntersectionObserver(
       entries => {
         const [entry] = entries;
+        console.log("Intersection observed:", entry.isIntersecting);
         if (entry.isIntersecting && hasMore && !isLoadingMore) {
+          console.log("Loading more events...");
           handleLoadMore();
         }
       },
-      { threshold: 0.1 }
+      { 
+        threshold: 0.1,
+        rootMargin: '100px' 
+      }
     );
 
     observer.observe(observerTarget.current);
@@ -524,24 +531,19 @@ export default function Events() {
                 );
               })}
               
-              {/* Load More Button */}
+              {/* Infinite Scroll Trigger */}
               {hasMore && (
-                <div className="load-more-container">
-                  <button 
-                    className="load-more-button"
-                    onClick={handleLoadMore}
-                    disabled={isLoadingMore}
-                  >
-                    {isLoadingMore ? (
-                      <div className="loading-indicator">
-                        <span className="loading-dot"></span>
-                        <span className="loading-dot"></span>
-                        <span className="loading-dot"></span>
-                      </div>
-                    ) : (
-                      `LOAD MORE (${filteredEvents.length - visibleItems} REMAINING)`
-                    )}
-                  </button>
+                <div 
+                  ref={observerTarget} 
+                  className="infinite-scroll-trigger"
+                >
+                  {isLoadingMore && (
+                    <div className="loading-indicator">
+                      <span className="loading-dot"></span>
+                      <span className="loading-dot"></span>
+                      <span className="loading-dot"></span>
+                    </div>
+                  )}
                 </div>
               )}
             </div>
