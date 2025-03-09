@@ -263,8 +263,8 @@ export default function Home() {
             variant="primary"
           >
             <div className="directory-links">
-              <CyberLink href="/events" variant="directory">Events</CyberLink>
-              <CyberLink href="/locations" variant="directory">Locations</CyberLink>
+              <CyberLink href="https://somethingtodo.nyc" variant="directory">All Events</CyberLink>
+              <CyberLink href="#" variant="directory">Workout Events (Coming Soon)</CyberLink>
             </div>
           </Panel>
 

@@ -197,8 +197,13 @@ export default function Events() {
   const categoryGroups = useMemo(() => {
     const categoryMap = new Map<string, SimpleCategory>();
     
-    // First pass: collect all categories and their counts
-    events.events.forEach(event => {
+    // First filter to only upcoming events, so the counts reflect future events only
+    const upcomingEvents = events.events.filter(event => 
+      new Date(event.startDate) >= new Date()
+    );
+    
+    // First pass: collect all categories and their counts from upcoming events only
+    upcomingEvents.forEach(event => {
       // Handle structured categories
       if (Array.isArray(event.categories)) {
         event.categories.forEach(category => {

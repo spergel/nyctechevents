@@ -111,11 +111,11 @@ export function ConsoleLayout({ children, locations, onLocationClick }: ConsoleL
                   <div
                     key={event.id}
                     className="news-item"
-                    onClick={() => setSelectedEvent(event)}
+                    onClick={() => setSelectedEvent(event as ImportedEvent)}
                     role="button"
                     tabIndex={0}
                   >
-                    <div className="news-date">{formatDate(event.startDate)}</div>
+                    <div className="news-date">{formatDate(event.startDate || '')}</div>
                     <div className="news-content">
                       <h4>{event.name}</h4>
                       <div className="news-source">{event.type}</div>

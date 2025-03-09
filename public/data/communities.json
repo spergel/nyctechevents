@@ -828,6 +828,165 @@
       "membershipFee": {
         "details": "Member dues support the space"
       }
+    },
+    {
+      "id": "com_columbia_general",
+      "name": "Columbia University Community",
+      "type": "Academic Community",
+      "description": "The main academic community of Columbia University, encompassing students, faculty, staff, and alumni.",
+      "founded": "1754",
+      "size": "33000",
+      "category": ["Education", "Research", "Academic"],
+      "contact": {
+        "email": "info@columbia.edu",
+        "social": {
+          "twitter": "@Columbia",
+          "instagram": "@columbia",
+          "facebook": "columbia"
+        }
+      },
+      "website": "https://www.columbia.edu",
+      "meetingLocationIds": ["loc_columbia_main", "loc_columbia_law", "loc_columbia_sipa"],
+      "image": "columbia-community.jpg",
+      "tags": ["education", "research", "ivy league", "academic"],
+      "membershipType": "Academic Affiliation",
+      "membershipFee": "Tuition-based"
+    },
+    {
+      "id": "com_nyu_general",
+      "name": "NYU Community",
+      "type": "Academic Community",
+      "description": "The diverse academic community of New York University, including students, faculty, staff, and alumni.",
+      "founded": "1831",
+      "size": "51000",
+      "category": ["Education", "Research", "Academic"],
+      "contact": {
+        "email": "admissions@nyu.edu",
+        "social": {
+          "twitter": "@nyuniversity",
+          "instagram": "@nyuniversity",
+          "facebook": "NYU"
+        }
+      },
+      "website": "https://www.nyu.edu",
+      "meetingLocationIds": ["loc_nyu_main", "loc_nyu_tandon", "loc_nyu_kimmel"],
+      "image": "nyu-community.jpg",
+      "tags": ["education", "research", "urban university", "academic"],
+      "membershipType": "Academic Affiliation",
+      "membershipFee": "Tuition-based"
+    },
+    {
+      "id": "com_columbia_law",
+      "name": "Columbia Law School Community",
+      "type": "Academic Community",
+      "description": "The community of Columbia Law School, including law students, faculty, and staff.",
+      "founded": "1858",
+      "size": "1200",
+      "category": ["Law", "Education", "Research"],
+      "contact": {
+        "email": "law@columbia.edu",
+        "social": {
+          "twitter": "@ColumbiaLaw",
+          "instagram": "@columbialaw",
+          "linkedin": "columbia-law-school"
+        }
+      },
+      "website": "https://www.law.columbia.edu",
+      "meetingLocationIds": ["loc_columbia_law"],
+      "image": "columbia-law-community.jpg",
+      "tags": ["law", "legal education", "research", "academic"],
+      "membershipType": "Academic Affiliation",
+      "membershipFee": "Tuition-based"
+    },
+    {
+      "id": "com_nyu_tandon",
+      "name": "NYU Tandon Engineering Community",
+      "type": "Academic Community",
+      "description": "The engineering and technology community at NYU Tandon School of Engineering.",
+      "founded": "1854",
+      "size": "5000",
+      "category": ["Engineering", "Technology", "Education"],
+      "contact": {
+        "email": "engineering@nyu.edu",
+        "social": {
+          "twitter": "@nyutandon",
+          "instagram": "@nyutandon",
+          "linkedin": "nyu-tandon"
+        }
+      },
+      "website": "https://engineering.nyu.edu",
+      "meetingLocationIds": ["loc_nyu_tandon"],
+      "image": "nyu-tandon-community.jpg",
+      "tags": ["engineering", "technology", "innovation", "research"],
+      "membershipType": "Academic Affiliation",
+      "membershipFee": "Tuition-based"
+    },
+    {
+      "id": "com_columbia_sipa",
+      "name": "Columbia SIPA Community",
+      "type": "Academic Community",
+      "description": "The community of Columbia's School of International and Public Affairs, focusing on global policy and governance.",
+      "founded": "1946",
+      "size": "1400",
+      "category": ["Public Policy", "International Affairs", "Education"],
+      "contact": {
+        "email": "sipa@columbia.edu",
+        "social": {
+          "twitter": "@ColumbiaSIPA",
+          "instagram": "@columbiasipa",
+          "linkedin": "columbia-sipa"
+        }
+      },
+      "website": "https://www.sipa.columbia.edu",
+      "meetingLocationIds": ["loc_columbia_sipa"],
+      "image": "columbia-sipa-community.jpg",
+      "tags": ["public policy", "international affairs", "global policy", "research"],
+      "membershipType": "Academic Affiliation",
+      "membershipFee": "Tuition-based"
+    },
+    {
+      "id": "com_nyu_cas",
+      "name": "NYU College of Arts & Science Community",
+      "type": "Academic Community",
+      "description": "The liberal arts community at NYU's founding school, the College of Arts & Science.",
+      "founded": "1831",
+      "size": "7000",
+      "category": ["Liberal Arts", "Sciences", "Education"],
+      "contact": {
+        "email": "cas@nyu.edu",
+        "social": {
+          "twitter": "@nyuarts",
+          "instagram": "@nyuarts"
+        }
+      },
+      "website": "https://cas.nyu.edu",
+      "meetingLocationIds": ["loc_nyu_main"],
+      "image": "nyu-cas-community.jpg",
+      "tags": ["liberal arts", "sciences", "research", "humanities"],
+      "membershipType": "Academic Affiliation",
+      "membershipFee": "Tuition-based"
+    },
+    {
+      "id": "com_nyu_courant",
+      "name": "NYU Courant Institute Community",
+      "type": "Academic Community",
+      "description": "The academic community of NYU's Courant Institute of Mathematical Sciences, focusing on mathematics and computer science.",
+      "founded": "1935",
+      "size": "1000",
+      "category": ["Mathematics", "Computer Science", "Research"],
+      "contact": {
+        "email": "courant@nyu.edu",
+        "social": {
+          "twitter": "@NYUCourant",
+          "linkedin": "nyu-courant"
+        }
+      },
+      "website": "https://cims.nyu.edu",
+      "meetingLocationIds": ["loc_nyu_wwh", "loc_nyu_60fifth"],
+      "image": "nyu-courant-community.jpg",
+      "tags": ["mathematics", "computer science", "research", "academic"],
+      "membershipType": "Academic Affiliation",
+      "membershipFee": "Tuition-based"
     }
   ]
 }
