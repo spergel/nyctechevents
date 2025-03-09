@@ -11,7 +11,7 @@ import { Community, getEventsForCommunity, getLocationsForCommunity, Location } 
 import { CommunityDetailDialog } from '@/app/components/ui/CommunityDetailDialog';
 import { LocationDetailDialog } from '@/app/components/ui/LocationDetailDialog';
 import { EventDetailDialog } from '@/app/components/ui/EventDetailDialog';
-import { Event } from '@/app/types/event';
+import { Event } from '@/app/types/index';
 
 interface CommunitiesData {
   communities: Community[];
@@ -207,7 +207,7 @@ export default function Communities() {
       
       {/* Event Detail Dialog when an event is selected */}
       <EventDetailDialog
-        event={selectedEvent}
+        event={selectedEvent as any}
         isOpen={selectedEvent !== null}
         onClose={() => setSelectedEvent(null)}
         onCommunityClick={(communityId) => {

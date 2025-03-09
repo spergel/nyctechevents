@@ -11,7 +11,7 @@ import { saveFilterState, loadFilterState } from '@/app/utils/filterState';
 import { LocationDetailDialog } from '@/app/components/ui/LocationDetailDialog';
 import { CommunityDetailDialog } from '@/app/components/ui/CommunityDetailDialog';
 import { EventDetailDialog } from '@/app/components/ui/EventDetailDialog';
-import { Event } from '@/app/types/event';
+import { Event } from '@/app/types/index';
 import { Location, getEventsForLocation, getCommunitiesForLocation, getCommunityData } from '@/app/utils/dataHelpers';
 
 export default function Locations() {
@@ -254,7 +254,7 @@ export default function Locations() {
       
       {/* Event Detail Dialog when an event is selected */}
       <EventDetailDialog
-        event={selectedEvent}
+        event={selectedEvent as any}
         isOpen={selectedEvent !== null}
         onClose={() => setSelectedEvent(null)}
       />
