@@ -107,18 +107,15 @@ export function ConsoleLayout({ children, locations, onLocationClick }: ConsoleL
                 </HolographicDisplay>
               </div>
               <div className="news-feed">
-                <div
+                <div 
                   className="news-item twitter-link"
                   onClick={() => window.open('https://x.com/nycdosomething', '_blank')}
                   role="button"
                   tabIndex={0}
                 >
-                  <div className="news-date">VIEW MORE ON TWITTER <br />
-                    <span className="twitter-handle">@nycdosomething</span>
-                  </div>
-                  <div className="news-content">
-
-                  </div>
+                  <div className="link-action">CONNECT</div>
+                  <div className="link-title">NYC DO SOMETHING</div>
+                  <div className="link-source">Follow on Twitter/X</div>
                 </div>
               </div>
             </div>
@@ -485,20 +482,53 @@ export function ConsoleLayout({ children, locations, onLocationClick }: ConsoleL
         }
 
         .news-item {
-          cursor: pointer;
-          display: grid;
-          grid-template-columns: 80px 1fr;
-          gap: 1rem;
+          display: flex;
+          flex-direction: column;
+          gap: 0.5rem;
           padding: 0.75rem;
-          background: rgba(0, 20, 40, 0.8);
-          border-left: 3px solid var(--nyc-orange);
-          text-decoration: none;
+          margin-bottom: 0.5rem;
+          background: rgba(0, 20, 40, 0.3);
+          border: 1px solid var(--terminal-color);
+          cursor: pointer;
           transition: all 0.2s ease;
-          position: relative;
-          overflow: hidden;
-          backdrop-filter: blur(4px);
-          min-height: 80px;
-          width: 100%;
+        }
+
+        .twitter-link {
+          border: 1px solid #1d9bf0;
+          background: rgba(29, 155, 240, 0.1);
+          padding: 1rem;
+          transition: all 0.3s ease;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          text-align: center;
+          gap: 0.5rem;
+        }
+        
+        .twitter-link:hover {
+          border-color: #1d9bf0;
+          background: rgba(29, 155, 240, 0.15);
+          box-shadow: 0 0 10px rgba(29, 155, 240, 0.3);
+          transform: translateY(-2px);
+        }
+        
+        .link-action {
+          color: #1d9bf0;
+          font-family: var(--font-mono);
+          font-size: 0.8rem;
+          letter-spacing: 1px;
+        }
+        
+        .link-title {
+          color: var(--nyc-white);
+          font-size: 1.2rem;
+          font-weight: bold;
+        }
+        
+        .link-source {
+          color: var(--terminal-color);
+          font-size: 0.9rem;
         }
 
         .news-date {
@@ -737,17 +767,6 @@ export function ConsoleLayout({ children, locations, onLocationClick }: ConsoleL
           border: 1px solid var(--nyc-orange);
           white-space: pre-wrap;
           overflow-x: auto;
-        }
-
-        .twitter-link {
-          border: 1px solid var(--nyc-blue);
-          background: rgba(0, 149, 255, 0.1);
-          transition: all 0.2s ease;
-        }
-        .twitter-link:hover {
-          background: rgba(0, 149, 255, 0.2);
-          transform: translateY(-2px);
-          box-shadow: 0 0 10px var(--nyc-blue);
         }
       `}</style>
     </div>

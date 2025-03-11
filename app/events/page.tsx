@@ -1,8 +1,6 @@
 'use client';
 import React, { useState, useEffect, useRef, useCallback, useMemo } from 'react';
 import events from '@/public/data/events.json';
-import communities from '@/public/data/communities.json';
-import locations from '@/public/data/locations.json';
 import { Panel } from '@/app/components/ui/Panel';
 import Loading from '@/app/loading';
 import { FilterButton } from '@/app/components/ui/FilterButton';
@@ -137,18 +135,6 @@ const getSocialLink = (platform: string, handle: string): string => {
   }
 };
 
-// Create a helper function to safely create Date objects
-const createSafeDate = (dateString: string | undefined): Date | null => {
-  if (!dateString) return null;
-  
-  try {
-    return new Date(dateString);
-  } catch (error) {
-    console.error("Invalid date:", dateString);
-    return null;
-  }
-};
-
 export default function Events() {
   const [isLoading, setIsLoading] = useState(true);
   const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
@@ -214,21 +200,7 @@ export default function Events() {
       // Handle structured categories
       if (Array.isArray(event.categories)) {
         event.categories.forEach(category => {
-          // Skip if category is a simple string
-          if (typeof category === 'string') {
-            // Handle string category
-            if (!categoryMap.has(category)) {
-              categoryMap.set(category, {
-                id: category,
-                name: category,
-                count: 0
-              });
-            }
-            categoryMap.get(category)!.count++;
-            return;
-          }
-          
-          // Handle object category
+          // Handle main category
           if (!categoryMap.has(category.name)) {
             categoryMap.set(category.name, {
               id: category.id,
@@ -289,41 +261,35 @@ export default function Events() {
     const communityMap = new Map<string, CommunityGroup>();
     
     // Only count upcoming events for filter counts
-    const upcomingEvents = events.events.filter(event => {
-      const eventDate = createSafeDate(event.startDate);
-      return eventDate ? eventDate >= new Date() : false;
-    });
+    const upcomingEvents = events.events.filter(event => 
+      new Date(event.startDate) >= new Date()
+    );
     
     upcomingEvents.forEach(event => {
       // Primary community
-      if (event.communityId) {
-        const community = getCommunityData(event.communityId);
-        if (community) {
-          const communityId = community.id;
-          if (!communityMap.has(communityId)) {
-            communityMap.set(communityId, {
-              id: communityId,
-              name: community.name,
-              type: community.type,
-              count: 0
-            });
-          }
-          communityMap.get(communityId)!.count++;
+      const community = getCommunityData(event.communityId);
+      if (community) {
+        if (!communityMap.has(community.id)) {
+          communityMap.set(community.id, {
+            id: community.id,
+            name: community.name,
+            type: community.type,
+            count: 0
+          });
         }
+        communityMap.get(community.id)!.count++;
       }
       
-      // Handle associated communities
+      // Secondary communities (from metadata.associated_communities)
       if (event.metadata?.associated_communities && Array.isArray(event.metadata.associated_communities)) {
         event.metadata.associated_communities.forEach(communityId => {
-          if (!communityId) return;
-          
-          const community = getCommunityData(communityId);
-          if (community) {
+          const secondaryCommunity = getCommunityData(communityId);
+          if (secondaryCommunity && communityId !== event.communityId) {
             if (!communityMap.has(communityId)) {
               communityMap.set(communityId, {
                 id: communityId,
-                name: community.name,
-                type: community.type,
+                name: secondaryCommunity.name,
+                type: secondaryCommunity.type,
                 count: 0
               });
             }
@@ -332,34 +298,27 @@ export default function Events() {
         });
       }
     });
-    
-    // Convert map to array and sort by count (descending)
+
     return Array.from(communityMap.values())
       .sort((a, b) => b.count - a.count);
-  }, [events.events]);
+  }, []);
 
-  // Filter events based on selected filters
+  // Filter events with useMemo to focus on upcoming events
   const filteredEvents = useMemo(() => {
-    if (!events || !events.events) return [];
+    // Apply all filters to get filtered events
+    let filtered = [...events.events]; // Create a fresh copy to avoid reference issues
     
-    let filtered = [...events.events];
-    
-    // Search filter
-    if (searchQuery.trim()) {
+    // Filter by search query
+    if (searchQuery) {
       filtered = filtered.filter(event => eventMatchesSearch(event, searchQuery));
     }
     
     // Filter by categories
     if (selectedCategories.length > 0) {
       filtered = filtered.filter(event => {
-        return event.categories?.some(category => {
-          // Handle when category is a string
-          if (typeof category === 'string') {
-            return selectedCategories.includes(category);
-          }
-          // Handle when category is an object
-          return selectedCategories.includes(category.name);
-        });
+        return event.categories?.some(category => 
+          selectedCategories.includes(category.name)
+        );
       });
     }
     
@@ -367,14 +326,14 @@ export default function Events() {
     if (selectedCommunities.length > 0) {
       filtered = filtered.filter(event => {
         // Check primary community
-        if (event.communityId && selectedCommunities.includes(event.communityId)) {
+        if (selectedCommunities.includes(event.communityId)) {
           return true;
         }
         
         // Check secondary communities
         if (event.metadata?.associated_communities && Array.isArray(event.metadata.associated_communities)) {
           return event.metadata.associated_communities.some(communityId => 
-            communityId && selectedCommunities.includes(communityId)
+            selectedCommunities.includes(communityId)
           );
         }
         
@@ -382,43 +341,38 @@ export default function Events() {
       });
     }
     
-    // Filter by start date
+    // Filter by date range
     if (startDate) {
-      filtered = filtered.filter(event => {
-        const eventDate = createSafeDate(event.startDate);
-        return eventDate ? eventDate >= startDate : false;
-      });
+      filtered = filtered.filter(event => 
+        new Date(event.startDate) >= startDate
+      );
     }
     
-    // Filter by end date
     if (endDate) {
-      filtered = filtered.filter(event => {
-        const eventDate = createSafeDate(event.startDate);
-        return eventDate ? eventDate <= endDate : false;
-      });
+      filtered = filtered.filter(event => 
+        new Date(event.startDate) <= endDate
+      );
+    }
+
+    // Sort events by date - upcoming first
+    filtered = filtered.sort((a, b) => 
+      new Date(a.startDate).getTime() - new Date(b.startDate).getTime()
+    );
+
+    // Filter to show only upcoming events by default if no date filters are applied
+    if (!startDate && !endDate) {
+      filtered = filtered.filter(event => 
+        new Date(event.startDate) >= new Date()
+      );
     }
     
-    // Sort by date ascending (soonest first)
-    filtered.sort((a, b) => {
-      const dateA = createSafeDate(a.startDate);
-      const dateB = createSafeDate(b.startDate);
-      
-      if (!dateA && !dateB) return 0;
-      if (!dateA) return 1;
-      if (!dateB) return -1;
-      
-      return dateA.getTime() - dateB.getTime();
-    });
+    // Ensure unique events by ID (no duplicates)
+    const uniqueEvents = Array.from(
+      new Map(filtered.map(event => [event.id, event])).values()
+    );
     
-    // Check if we have any events in the past
-    const now = new Date();
-    const hasPastEvents = filtered.some(event => {
-      const eventDate = createSafeDate(event.startDate);
-      return eventDate ? eventDate < now : false;
-    });
-    
-    return filtered;
-  }, [events, selectedCategories, selectedCommunities, startDate, endDate, searchQuery]);
+    return uniqueEvents;
+  }, [events.events, searchQuery, selectedCategories, selectedCommunities, startDate, endDate]);
 
   // Update the load more function for infinite scroll
   const handleLoadMore = useCallback(() => {
@@ -555,9 +509,9 @@ export default function Events() {
           <Panel title={`NYC EVENTS (${filteredEvents.length})`} systemId="EVT-001">
             <div className="event-cards">
               {filteredEvents.slice(0, visibleItems).map(event => {
-                const community = event.communityId ? getCommunityData(event.communityId) : null;
-                const location = event.locationId ? getLocationData(event.locationId) : null;
-                const eventDate = createSafeDate(event.startDate) || new Date(); // Fallback to current date if invalid
+                const community = getCommunityData(event.communityId);
+                const location = getLocationData(event.locationId);
+                const eventDate = new Date(event.startDate);
                 
                 return (
                   <div 
@@ -577,24 +531,24 @@ export default function Events() {
                       <div className="event-time">{eventDate.toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', hour12: true })}</div>
                       
                       <div className="event-details">
-                        {community && event.communityId && (
+                        {community && (
                           <div className="detail-row">
                             <span className="detail-icon">⚡</span>
                             <button 
                               className="detail-link"
-                              onClick={(e) => handleCommunityClick(e, event.communityId!)}
+                              onClick={(e) => handleCommunityClick(e, event.communityId)}
                             >
                               {community.name}
                             </button>
                           </div>
                         )}
                         
-                        {location && event.locationId && (
+                        {location && (
                           <div className="detail-row">
                             <span className="detail-icon">◎</span>
                             <button 
                               className="detail-link"
-                              onClick={(e) => handleLocationClick(e, event.locationId!)}
+                              onClick={(e) => handleLocationClick(e, event.locationId)}
                             >
                               {location.name}
                             </button>
