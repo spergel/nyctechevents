@@ -354,11 +354,6 @@ export default function Events() {
       );
     }
 
-    // Sort events by date - upcoming first
-    filtered = filtered.sort((a, b) => 
-      new Date(a.startDate).getTime() - new Date(b.startDate).getTime()
-    );
-
     // Filter to show only upcoming events by default if no date filters are applied
     if (!startDate && !endDate) {
       filtered = filtered.filter(event => 
@@ -371,7 +366,10 @@ export default function Events() {
       new Map(filtered.map(event => [event.id, event])).values()
     );
     
-    return uniqueEvents;
+    // Sort events by date after all filtering and deduplication
+    return uniqueEvents.sort((a, b) => 
+      new Date(a.startDate).getTime() - new Date(b.startDate).getTime()
+    );
   }, [events.events, searchQuery, selectedCategories, selectedCommunities, startDate, endDate]);
 
   // Update the load more function for infinite scroll
