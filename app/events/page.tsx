@@ -135,6 +135,52 @@ const getSocialLink = (platform: string, handle: string): string => {
   }
 };
 
+// Helper function to safely create a Date object
+const safeDate = (dateStr: string): Date => {
+  return new Date(dateStr);
+};
+
+// Helper function to compare dates safely
+const compareDates = (date1: Date, date2: Date): number => {
+  return date1.getTime() - date2.getTime();
+};
+
+interface FilterState {
+  selectedCategories: string[];
+  selectedCommunities: string[];
+  startDate: string;
+  endDate: string;
+  searchQuery: string;
+}
+
+// Add helper function for safe date parsing
+const parseSafeDate = (dateStr: string | null): Date | null => {
+  if (!dateStr) return null;
+  const date = new Date(dateStr);
+  return isNaN(date.getTime()) ? null : date;
+};
+
+// Add helper function to ensure event has all required fields
+const ensureCompleteEvent = (event: any): Event => ({
+  ...event,
+  category: event.type || '', // Use type as category if not present
+  price: event.price || {
+    amount: 0,
+    type: 'Free',
+    currency: 'USD',
+    details: ''
+  },
+  capacity: event.capacity || null,
+  registrationRequired: event.registrationRequired || false,
+  image: event.image || '',
+  status: event.status || 'upcoming',
+  metadata: event.metadata || {
+    source_url: '',
+    featured: false
+  },
+  endDate: event.endDate || event.startDate // Use startDate as endDate if not present
+} as Event);
+
 export default function Events() {
   const [isLoading, setIsLoading] = useState(true);
   const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
@@ -167,29 +213,30 @@ export default function Events() {
     };
   }, []);
 
-  // Load saved filter state
+  // Save filter state
   useEffect(() => {
-    const savedState = loadFilterState('events');
-    if (savedState) {
+    const filterState: FilterState = {
+      selectedCategories,
+      selectedCommunities,
+      startDate: startDate ? startDate.toISOString() : '',
+      endDate: endDate ? endDate.toISOString() : '',
+      searchQuery
+    };
+    localStorage.setItem('eventFilters', JSON.stringify(filterState));
+  }, [selectedCategories, selectedCommunities, startDate, endDate, searchQuery]);
+
+  // Load filter state
+  useEffect(() => {
+    const savedFilters = localStorage.getItem('eventFilters');
+    if (savedFilters) {
+      const savedState = JSON.parse(savedFilters) as FilterState;
       setSelectedCategories(savedState.selectedCategories || []);
       setSelectedCommunities(savedState.selectedCommunities || []);
       setStartDate(savedState.startDate ? new Date(savedState.startDate) : null);
       setEndDate(savedState.endDate ? new Date(savedState.endDate) : null);
       setSearchQuery(savedState.searchQuery || '');
     }
-    setIsLoading(false);
   }, []);
-
-  // Save filter state when it changes
-  useEffect(() => {
-    saveFilterState('events', {
-      selectedCategories,
-      selectedCommunities,
-      startDate,
-      endDate,
-      searchQuery
-    });
-  }, [selectedCategories, selectedCommunities, startDate, endDate, searchQuery]);
 
   // Get categories and their subcategories
   const categoryGroups = useMemo(() => {
@@ -197,34 +244,31 @@ export default function Events() {
     
     // First pass: collect all categories and their counts
     events.events.forEach(event => {
-      // Handle structured categories
-      if (Array.isArray(event.categories)) {
-        event.categories.forEach(category => {
-          // Handle main category
-          if (!categoryMap.has(category.name)) {
-            categoryMap.set(category.name, {
-              id: category.id,
-              name: category.name,
+      // Handle event type as main category
+      if (event.type) {
+        if (!categoryMap.has(event.type)) {
+          categoryMap.set(event.type, {
+            id: event.type,
+            name: event.type,
+            count: 0
+          });
+        }
+        const category = categoryMap.get(event.type)!;
+        category.count++;
+      }
+
+      // Handle subcategories if they exist
+      if (Array.isArray(event.subcategories)) {
+        event.subcategories.forEach(subcategory => {
+          if (!categoryMap.has(subcategory)) {
+            categoryMap.set(subcategory, {
+              id: subcategory,
+              name: subcategory,
               count: 0
             });
           }
-          categoryMap.get(category.name)!.count++;
-
-          // Handle subcategories
-          if (category.id === 'academic' && Array.isArray(category.subcategories)) {
-            category.subcategories.forEach(sub => {
-              const subName = sub.replace(/_/g, ' ');
-              const subId = `academic:${sub}`;
-              if (!categoryMap.has(subId)) {
-                categoryMap.set(subId, {
-                  id: subId,
-                  name: subName,
-                  count: 0
-                });
-              }
-              categoryMap.get(subId)!.count++;
-            });
-          }
+          const category = categoryMap.get(subcategory)!;
+          category.count++;
         });
       }
     });
@@ -256,14 +300,16 @@ export default function Events() {
       }));
   }, []);
 
-  // Add community groups calculation
+  // Update communityGroups calculation
   const communityGroups = useMemo(() => {
     const communityMap = new Map<string, CommunityGroup>();
     
     // Only count upcoming events for filter counts
-    const upcomingEvents = events.events.filter(event => 
-      new Date(event.startDate) >= new Date()
-    );
+    const now = new Date();
+    const upcomingEvents = events.events.filter(event => {
+      const eventDate = parseSafeDate(event.startDate);
+      return eventDate ? eventDate >= now : false;
+    });
     
     upcomingEvents.forEach(event => {
       // Primary community
@@ -303,74 +349,51 @@ export default function Events() {
       .sort((a, b) => b.count - a.count);
   }, []);
 
-  // Filter events with useMemo to focus on upcoming events
-  const filteredEvents = useMemo(() => {
-    // Apply all filters to get filtered events
-    let filtered = [...events.events]; // Create a fresh copy to avoid reference issues
-    
-    // Filter by search query
-    if (searchQuery) {
-      filtered = filtered.filter(event => eventMatchesSearch(event, searchQuery));
-    }
-    
-    // Filter by categories
+  // Update filteredEvents logic
+  const filteredEvents = useMemo(() => events.events.filter(event => {
+    // Category filter
     if (selectedCategories.length > 0) {
-      filtered = filtered.filter(event => {
-        return event.categories?.some(category => 
-          selectedCategories.includes(category.name)
-        );
-      });
-    }
-    
-    // Filter by communities
-    if (selectedCommunities.length > 0) {
-      filtered = filtered.filter(event => {
-        // Check primary community
-        if (selectedCommunities.includes(event.communityId)) {
-          return true;
-        }
-        
-        // Check secondary communities
-        if (event.metadata?.associated_communities && Array.isArray(event.metadata.associated_communities)) {
-          return event.metadata.associated_communities.some(communityId => 
-            selectedCommunities.includes(communityId)
-          );
-        }
-        
+      const eventCategories = [event.type, ...(event.subcategories || [])];
+      if (!selectedCategories.some(cat => eventCategories.includes(cat))) {
         return false;
-      });
-    }
-    
-    // Filter by date range
-    if (startDate) {
-      filtered = filtered.filter(event => 
-        new Date(event.startDate) >= startDate
-      );
-    }
-    
-    if (endDate) {
-      filtered = filtered.filter(event => 
-        new Date(event.startDate) <= endDate
-      );
+      }
     }
 
-    // Filter to show only upcoming events by default if no date filters are applied
-    if (!startDate && !endDate) {
-      filtered = filtered.filter(event => 
-        new Date(event.startDate) >= new Date()
-      );
+    // Community filter
+    if (selectedCommunities.length > 0 && !selectedCommunities.includes(event.communityId)) {
+      return false;
     }
-    
-    // Ensure unique events by ID (no duplicates)
-    const uniqueEvents = Array.from(
-      new Map(filtered.map(event => [event.id, event])).values()
-    );
-    
-    // Sort events by date after all filtering and deduplication
-    return uniqueEvents.sort((a, b) => 
-      new Date(a.startDate).getTime() - new Date(b.startDate).getTime()
-    );
-  }, [events.events, searchQuery, selectedCategories, selectedCommunities, startDate, endDate]);
+
+    // Date filter
+    if (startDate || endDate) {
+      const eventStartDate = parseSafeDate(event.startDate);
+      const eventEndDate = parseSafeDate(event.endDate);
+      
+      if (startDate && eventStartDate && eventStartDate < startDate) {
+        return false;
+      }
+      if (endDate && eventEndDate && eventEndDate > endDate) {
+        return false;
+      }
+    }
+
+    // Search filter
+    if (searchQuery && !eventMatchesSearch(event, searchQuery)) {
+      return false;
+    }
+
+    return true;
+  }), [events.events, selectedCategories, selectedCommunities, startDate, endDate, searchQuery]);
+
+  // Update sortedEvents logic
+  const sortedEvents = useMemo(() => {
+    return [...filteredEvents].sort((a, b) => {
+      const dateA = parseSafeDate(a.startDate);
+      const dateB = parseSafeDate(b.startDate);
+      if (!dateA || !dateB) return 0;
+      return dateA.getTime() - dateB.getTime();
+    });
+  }, [filteredEvents]);
 
   // Update the load more function for infinite scroll
   const handleLoadMore = useCallback(() => {
@@ -382,20 +405,20 @@ export default function Events() {
       setVisibleItems(prev => {
         const nextItems = prev + ITEMS_PER_PAGE;
         // Check if we have more items to show
-        setHasMore(nextItems < filteredEvents.length);
+        setHasMore(nextItems < sortedEvents.length);
         return nextItems;
       });
       setIsLoadingMore(false);
     }, 300);
-  }, [filteredEvents.length, isLoadingMore]);
+  }, [sortedEvents.length, isLoadingMore]);
 
   // Reset visible items when filters change
   useEffect(() => {
     // Reset to initial page of items whenever filters change
     setVisibleItems(ITEMS_PER_PAGE);
-    setHasMore(filteredEvents.length > ITEMS_PER_PAGE);
+    setHasMore(sortedEvents.length > ITEMS_PER_PAGE);
     setIsLoadingMore(false);
-  }, [filteredEvents.length]);
+  }, [sortedEvents.length]);
 
   // Initialize the loading state
   useEffect(() => {
@@ -406,9 +429,9 @@ export default function Events() {
     setTimeout(() => {
       setIsLoading(false);
       // Check if we need to enable infinite scrolling
-      setHasMore(filteredEvents.length > ITEMS_PER_PAGE);
+      setHasMore(sortedEvents.length > ITEMS_PER_PAGE);
     }, 500);
-  }, [filteredEvents.length]);
+  }, [sortedEvents.length]);
 
   // Implement infinite scroll using Intersection Observer
   useEffect(() => {
@@ -466,21 +489,21 @@ export default function Events() {
   // Handle events, communities, and locations selection
   const handleEventClick = (e: React.MouseEvent, event: any) => {
     e.preventDefault();
-    setSelectedEvent(event);
+    setSelectedEvent(ensureCompleteEvent(event));
   };
 
-  const handleCommunityClick = (e: React.MouseEvent, communityId: string) => {
-    e.stopPropagation();
+  const handleCommunityClick = (communityId: string) => {
     const communityData = getCommunityData(communityId);
     if (communityData) {
+      setSelectedEvent(null);
       setSelectedCommunity(communityData);
     }
   };
 
-  const handleLocationClick = (e: React.MouseEvent, locationId: string) => {
-    e.stopPropagation();
+  const handleLocationClick = (locationId: string) => {
     const locationData = getLocationData(locationId);
     if (locationData) {
+      setSelectedEvent(null);
       setSelectedLocation(locationData);
     }
   };
@@ -497,19 +520,21 @@ export default function Events() {
         <FilterToggleButton 
           isActive={isFilterDialogOpen}
           onClick={() => setIsFilterDialogOpen(!isFilterDialogOpen)}
-          resultCount={filteredEvents.length}
+          resultCount={sortedEvents.length}
         />
       )}
 
       <div className="events-layout">
         {/* Left Column - Event List */}
         <div className="events-list">
-          <Panel title={`NYC EVENTS (${filteredEvents.length})`} systemId="EVT-001">
+          <Panel title={`NYC EVENTS (${sortedEvents.length})`} systemId="EVT-001">
             <div className="event-cards">
-              {filteredEvents.slice(0, visibleItems).map(event => {
+              {sortedEvents.slice(0, visibleItems).map(event => {
                 const community = getCommunityData(event.communityId);
                 const location = getLocationData(event.locationId);
-                const eventDate = new Date(event.startDate);
+                const eventDate = parseSafeDate(event.startDate);
+                
+                if (!eventDate) return null; // Skip events with invalid dates
                 
                 return (
                   <div 
@@ -534,7 +559,7 @@ export default function Events() {
                             <span className="detail-icon">⚡</span>
                             <button 
                               className="detail-link"
-                              onClick={(e) => handleCommunityClick(e, event.communityId)}
+                              onClick={(e) => handleCommunityClick(event.communityId)}
                             >
                               {community.name}
                             </button>
@@ -546,7 +571,7 @@ export default function Events() {
                             <span className="detail-icon">◎</span>
                             <button 
                               className="detail-link"
-                              onClick={(e) => handleLocationClick(e, event.locationId)}
+                              onClick={(e) => handleLocationClick(event.locationId)}
                             >
                               {location.name}
                             </button>
@@ -738,14 +763,8 @@ export default function Events() {
         event={selectedEvent}
         isOpen={selectedEvent !== null}
         onClose={() => setSelectedEvent(null)}
-        onCommunityClick={(communityId) => {
-          setSelectedEvent(null);
-          handleCommunityClick({ preventDefault: () => {}, stopPropagation: () => {} } as React.MouseEvent, communityId);
-        }}
-        onLocationClick={(locationId) => {
-          setSelectedEvent(null);
-          handleLocationClick({ preventDefault: () => {}, stopPropagation: () => {} } as React.MouseEvent, locationId);
-        }}
+        onCommunityClick={handleCommunityClick}
+        onLocationClick={handleLocationClick}
       />
 
       {/* Community Detail Dialog */}
@@ -755,7 +774,11 @@ export default function Events() {
         onClose={() => setSelectedCommunity(null)}
         onEventSelect={(event) => {
           setSelectedCommunity(null);
-          setSelectedEvent(event);
+          setSelectedEvent(ensureCompleteEvent(event));
+        }}
+        onLocationSelect={(location) => {
+          setSelectedCommunity(null);
+          setSelectedLocation(location);
         }}
       />
 
@@ -766,7 +789,7 @@ export default function Events() {
         onClose={() => setSelectedLocation(null)}
         onEventSelect={(event) => {
           setSelectedLocation(null);
-          setSelectedEvent(event);
+          setSelectedEvent(ensureCompleteEvent(event));
         }}
       />
 
@@ -813,7 +836,7 @@ export default function Events() {
           ]}
           searchQuery={searchQuery}
           onSearchChange={setSearchQuery}
-          resultCount={filteredEvents.length}
+          resultCount={sortedEvents.length}
           startDate={startDate}
           endDate={endDate}
           onStartDateChange={(date) => {

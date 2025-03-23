@@ -70,18 +70,43 @@ export function getLocationData(locationId: string | undefined): Location | unde
   return locations.locations.find(l => l.id === locationId);
 }
 
+// Add helper function to ensure event has all required fields
+const ensureCompleteEvent = (event: any): Event => ({
+  ...event,
+  category: event.type, // Use type as category if not present
+  price: event.price || {
+    amount: 0,
+    type: 'Free',
+    currency: 'USD',
+    details: ''
+  },
+  capacity: event.capacity || null,
+  registrationRequired: event.registrationRequired || false,
+  image: event.image || '',
+  status: event.status || 'upcoming',
+  metadata: event.metadata || {
+    source_url: '',
+    featured: false
+  },
+  endDate: event.endDate || event.startDate // Use startDate as endDate if not present
+});
+
 /**
  * Get all events associated with a specific community
  */
 export function getEventsForCommunity(communityId: string): Event[] {
-  return events.events.filter(event => event.communityId === communityId);
+  return events.events
+    .filter(event => event.communityId === communityId)
+    .map(event => ensureCompleteEvent(event));
 }
 
 /**
  * Get all events associated with a specific location
  */
 export function getEventsForLocation(locationId: string): Event[] {
-  return events.events.filter(event => event.locationId === locationId);
+  return events.events
+    .filter(event => event.locationId === locationId)
+    .map(event => ensureCompleteEvent(event));
 }
 
 /**

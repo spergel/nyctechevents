@@ -36,21 +36,20 @@ const convertToEvent = (pageEvent: PageEvent): Event => {
     name: pageEvent.name,
     type: pageEvent.type,
     startDate: pageEvent.startDate,
+    endDate: pageEvent.startDate, // Use same date for end if not provided
     description: pageEvent.description || '',
     locationId: '',
     communityId: '',
-    category: pageEvent.categories || [],
     price: {
       amount: 0,
-      type: 'free',
+      type: 'Free',
       currency: 'USD',
       details: ''
     },
-    capacity: 0,
+    capacity: null,
     registrationRequired: false,
-    tags: [],
     image: '',
-    status: 'active',
+    status: 'upcoming',
     metadata: {
       source_url: '',
       venue: pageEvent.venue ? {
@@ -59,8 +58,8 @@ const convertToEvent = (pageEvent: PageEvent): Event => {
       } : undefined,
       featured: false
     },
-    categories: [],
-    source: ''
+    subcategories: pageEvent.categories,
+    category: pageEvent.type // Use type as category
   };
 };
 

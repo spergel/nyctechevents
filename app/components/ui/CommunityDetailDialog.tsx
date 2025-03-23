@@ -1,6 +1,7 @@
 import { DetailDialog } from './DetailDialog';
 import { Community, getLocationsForCommunity, getEventsForCommunity } from '@/app/utils/dataHelpers';
-import { Event } from '@/app/types/event';
+import { Event as EventType } from '@/app/types/event';
+import { Event } from '@/app/types';
 import { Location } from '@/app/utils/dataHelpers';
 import React, { useState } from 'react';
 
@@ -23,7 +24,11 @@ export function CommunityDetailDialog({
   
   if (!community) return null;
 
-  const relatedEvents = getEventsForCommunity(community.id);
+  const relatedEvents = getEventsForCommunity(community.id)
+    .map(event => ({
+      ...event,
+      category: event.type // Use the type as category to match the Event interface from index.ts
+    }));
   const relatedLocations = getLocationsForCommunity(community.id);
 
   const upcomingEvents = relatedEvents

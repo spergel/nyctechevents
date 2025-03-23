@@ -9,22 +9,20 @@ export interface Event {
   id: string;
   name: string;
   type: string;
-  locationId?: string;
-  communityId?: string;
-  description?: string;
+  locationId: string;
+  communityId: string;
+  description: string;
   startDate: string;
-  endDate?: string | null;
-  category: string[];
+  endDate: string;
   price: {
     amount: number;
     type: string;
     currency: string;
     details: string;
-  } | null;
-  capacity?: number | null;
+  };
+  capacity: number | null;
   registrationRequired: boolean;
-  tags: string | string[];
-  image: string | string[];
+  image: string;
   status: string;
   metadata: {
     source_url: string;
@@ -49,8 +47,7 @@ export interface Event {
     featured: boolean;
     associated_communities?: string[];
     social_links?: string[];
-    luma_source?: boolean;
   };
-  categories: Category[];
-  source: string;
+  subcategories?: string[];
+  category: string | string[];
 } 

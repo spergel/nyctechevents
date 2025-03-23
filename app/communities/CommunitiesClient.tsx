@@ -6,18 +6,38 @@ import { FilterButton } from '@/app/components/ui/FilterButton';
 import { FilterDialog } from '@/app/components/ui/FilterDialog';
 import { FilterToggleButton } from '@/app/components/ui/FilterToggleButton';
 import Loading from '@/app/loading';
-import { DetailDialog } from '@/app/components/ui/DetailDialog';
 import { Community, getEventsForCommunity, getLocationsForCommunity, Location } from '@/app/utils/dataHelpers';
 import { CommunityDetailDialog } from '@/app/components/ui/CommunityDetailDialog';
 import { LocationDetailDialog } from '@/app/components/ui/LocationDetailDialog';
 import { EventDetailDialog } from '@/app/components/ui/EventDetailDialog';
-import { Event } from '@/app/types/index';
+import { Event } from '@/app/types/event';
 
 interface CommunitiesData {
   communities: Community[];
 }
 
 const communitiesData = communities as CommunitiesData;
+
+// Helper function to ensure event has all required fields
+const ensureCompleteEvent = (event: any): Event => ({
+  ...event,
+  category: event.type || '', // Use type as category if not present
+  price: event.price || {
+    amount: 0,
+    type: 'Free',
+    currency: 'USD',
+    details: ''
+  },
+  capacity: event.capacity || null,
+  registrationRequired: event.registrationRequired || false,
+  image: event.image || '',
+  status: event.status || 'upcoming',
+  metadata: event.metadata || {
+    source_url: '',
+    featured: false
+  },
+  endDate: event.endDate || event.startDate // Use startDate as endDate if not present
+} as Event);
 
 export default function CommunitiesClient() {
   const [isLoading, setIsLoading] = useState(true);
@@ -186,7 +206,7 @@ export default function CommunitiesClient() {
         onClose={() => setSelectedCommunity(null)}
         onEventSelect={(event) => {
           setSelectedCommunity(null);
-          setSelectedEvent(event);
+          setSelectedEvent(ensureCompleteEvent(event));
         }}
         onLocationSelect={(location) => {
           setSelectedCommunity(null);
@@ -201,18 +221,15 @@ export default function CommunitiesClient() {
         onClose={() => setSelectedLocation(null)}
         onEventSelect={(event) => {
           setSelectedLocation(null);
-          setSelectedEvent(event);
+          setSelectedEvent(ensureCompleteEvent(event));
         }}
       />
       
       {/* Event Detail Dialog when an event is selected */}
       <EventDetailDialog
-        event={selectedEvent as any}
+        event={selectedEvent}
         isOpen={selectedEvent !== null}
         onClose={() => setSelectedEvent(null)}
-        onCommunityClick={(communityId) => {
-          // This is likely not needed since we're already in the communities page
-        }}
       />
 
       <style jsx>{`
