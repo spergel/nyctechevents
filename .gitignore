@@ -30,4 +30,31 @@ TODO.md
 
 # typescript
 *.tsbuildinfo
-next-env.d.ts 
+next-env.d.ts
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs
+*.log
+categorizer.log
+scraper.log
+
+# Data directories (except public)
+data/
+tech/data/
+tech/scrapers/data/
+tech/scrapers/logs/
+
+# Environment
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/ 
