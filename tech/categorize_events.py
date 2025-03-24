@@ -468,135 +468,68 @@ def generate_locations_from_events(events: List[Dict], existing_locations: Dict)
     
     return new_locations, venue_to_location
 
-def deduplicate_events(events: List[Dict]) -> List[Dict]:
-    """
-    Deduplicate events based on Luma URLs, identical event details, or matching against existing events.
-    For duplicate events, preserve both location and community information.
-    """
-    logging.info("\n=== Starting Event Deduplication ===")
-    
+def deduplicate_events(events: List[Dict], existing_events: List[Dict] = None) -> List[Dict]:
+    """Remove duplicate events based on URL, title, and date"""
+    if not events:
+        return []
+
     # Filter out events without a name or with a blank name
-    original_count = len(events)
-    events = [event for event in events if event.get('name') and event.get('name').strip()]
-    if original_count > len(events):
-        logging.info(f"Filtered out {original_count - len(events)} events without a name or with a blank name")
-    
-    # Create a unique event identifier based on name, date, and community
-    event_signatures = set()
-    deduplicated_by_signature = []
-    
+    events = [e for e in events if e.get('name') and e['name'].strip()]
+    logging.info(f"Filtered out {len(events)} events without a name or with a blank name")
+
+    # Create signature for each event
+    def get_event_signature(event):
+        name = event.get('name', '').lower().strip()
+        date = event.get('startDate', '')
+        url = event.get('metadata', {}).get('source_url', '')
+        return f"{name}|{date}|{url}"
+
+    # Group events by signature
+    event_groups = {}
     for event in events:
-        name = event.get('name', '').strip().lower() if event.get('name') else ''
-        start_date = event.get('startDate', '') if event.get('startDate') else ''
-        community_id = event.get('communityId', '') if event.get('communityId') else ''
-        
-        # Create a signature for this event
-        signature = f"{name}_{start_date}_{community_id}"
-        
-        # If we haven't seen this signature before, keep the event
-        if signature not in event_signatures:
-            event_signatures.add(signature)
-            deduplicated_by_signature.append(event)
-        
-    logging.info(f"Removed {len(events) - len(deduplicated_by_signature)} events based on name/date/community signature")
-    events = deduplicated_by_signature
-    
-    # Group events by their Luma URL if available
-    events_by_luma_url = {}
-    events_without_luma = []
-    
-    # Step 1: Separate events with Luma URLs from those without
-    for event in events:
-        luma_url = None
-        
-        # Check for Luma URL in metadata
-        if event.get('metadata') and 'source_url' in event['metadata']:
-            source_url = event['metadata']['source_url']
-            if isinstance(source_url, str) and 'lu.ma' in source_url:
-                luma_url = source_url
-        
-        # If we found a Luma URL, add to grouped events
-        if luma_url:
-            if luma_url not in events_by_luma_url:
-                events_by_luma_url[luma_url] = []
-            events_by_luma_url[luma_url].append(event)
+        sig = get_event_signature(event)
+        if sig not in event_groups:
+            event_groups[sig] = []
+        event_groups[sig].append(event)
+
+    # Merge duplicates
+    deduplicated = []
+    for sig, group in event_groups.items():
+        if len(group) > 1:
+            # Only consider it a duplicate if they share the same URL or have very similar titles and dates
+            url = group[0].get('metadata', {}).get('source_url', '')
+            if url or len(set(e.get('name', '').lower().strip() for e in group)) == 1:
+                merged = merge_duplicate_events(group)
+                deduplicated.append(merged)
+            else:
+                # If no URL and names are different enough, keep them separate
+                deduplicated.extend(group)
         else:
-            events_without_luma.append(event)
-    
-    # Step 2: Handle events with Luma URLs - merge duplicates
-    deduplicated_events = []
-    
-    for luma_url, event_group in events_by_luma_url.items():
-        if len(event_group) == 1:
-            # No duplicates for this URL
-            deduplicated_events.append(event_group[0])
-        else:
-            # Log details of duplicate events
-            logging.info(f"\nFound {len(event_group)} duplicate events with URL: {luma_url}")
-            for idx, event in enumerate(event_group, 1):
-                logging.info(f"\nDuplicate #{idx}:")
-                logging.info(f"  Title: {ensure_ascii_safe(event.get('name', 'N/A'))}")
-                logging.info(f"  Community ID: {ensure_ascii_safe(event.get('communityId', 'N/A'))}")
-                logging.info(f"  Location: {ensure_ascii_safe(event.get('locationId', 'N/A'))}")
-                logging.info(f"  Source: {ensure_ascii_safe(event.get('source', 'N/A'))}")
-                if event.get('metadata'):
-                    logging.info(f"  Organizer: {ensure_ascii_safe(event['metadata'].get('organizer', 'N/A'))}")
-                    if 'speakers' in event['metadata']:
-                        speakers = [ensure_ascii_safe(s.get('name', 'N/A')) for s in event['metadata']['speakers']]
-                        logging.info(f"  Speakers: {', '.join(speakers)}")
-            
-            # Merge duplicate events
-            merged_event = merge_duplicate_events(event_group)
-            deduplicated_events.append(merged_event)
-    
-    # Add events without Luma URLs
-    deduplicated_events.extend(events_without_luma)
-    
-    # Final step: Check against existing events in the data file to prevent infinite duplicates
-    try:
-        existing_events = []
-        existing_events_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 
-                                          'tech', 'data', 'all_events_categorized.json')
-        
-        if os.path.exists(existing_events_path):
-            with open(existing_events_path, 'r', encoding='utf-8') as f:
-                data = json.load(f)
-                existing_events = data.get('events', [])
-            
-            logging.info(f"Loaded {len(existing_events)} existing events for deduplication check")
-            
-            # Create signatures for existing events
-            existing_signatures = set()
-            for event in existing_events:
-                name = event.get('name', '').strip().lower() if event.get('name') else ''
-                start_date = event.get('startDate', '') if event.get('startDate') else ''
-                community_id = event.get('communityId', '') if event.get('communityId') else ''
-                signature = f"{name}_{start_date}_{community_id}"
-                existing_signatures.add(signature)
-            
-            # Filter out events that already exist
-            final_events = []
-            for event in deduplicated_events:
-                name = event.get('name', '').strip().lower() if event.get('name') else ''
-                start_date = event.get('startDate', '') if event.get('startDate') else ''
-                community_id = event.get('communityId', '') if event.get('communityId') else ''
-                signature = f"{name}_{start_date}_{community_id}"
-                
-                if signature not in existing_signatures:
-                    final_events.append(event)
-            
-            logging.info(f"Removed {len(deduplicated_events) - len(final_events)} events that already exist in the database")
-            deduplicated_events = final_events
-    except Exception as e:
-        logging.warning(f"Error checking against existing events: {str(e)}")
-        logging.warning("Proceeding with deduplicated events without checking against existing database")
-    
+            deduplicated.append(group[0])
+
+    # Check against existing events if provided
+    if existing_events:
+        def get_existing_signature(event):
+            name = event.get('name', '').lower().strip()
+            date = event.get('startDate', '')
+            return f"{name}|{date}"
+
+        existing_sigs = {get_existing_signature(e) for e in existing_events}
+        new_events = []
+        for event in deduplicated:
+            sig = get_existing_signature(event)
+            if sig not in existing_sigs:
+                new_events.append(event)
+            else:
+                logging.info(f"Skipping duplicate event: {event.get('name')} on {event.get('startDate')}")
+        deduplicated = new_events
+
     logging.info(f"\n=== Deduplication Summary ===")
-    logging.info(f"Total events before deduplication: {original_count}")
-    logging.info(f"Total events after deduplication: {len(deduplicated_events)}")
-    logging.info(f"Number of duplicate groups found: {len([g for g in events_by_luma_url.values() if len(g) > 1])}")
-    logging.info("=====================================\n")
-    return deduplicated_events
+    logging.info(f"Total events before deduplication: {len(events)}")
+    logging.info(f"Total events after deduplication: {len(deduplicated)}")
+    logging.info(f"=====================================\n")
+
+    return deduplicated
 
 def merge_duplicate_events(event_group: List[Dict]) -> Dict:
     """
