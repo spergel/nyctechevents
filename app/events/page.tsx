@@ -151,6 +151,7 @@ interface FilterState {
   startDate: string;
   endDate: string;
   searchQuery: string;
+  showPastEvents: boolean;
 }
 
 // Add helper function for safe date parsing
@@ -184,8 +185,9 @@ const ensureCompleteEvent = (event: any): Event => ({
 export default function Events() {
   const [isLoading, setIsLoading] = useState(true);
   const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
-  const [startDate, setStartDate] = useState<Date | null>(null);
+  const [startDate, setStartDate] = useState<Date | null>(new Date());
   const [endDate, setEndDate] = useState<Date | null>(null);
+  const [showPastEvents, setShowPastEvents] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
   const [isFilterDialogOpen, setIsFilterDialogOpen] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -220,10 +222,11 @@ export default function Events() {
       selectedCommunities,
       startDate: startDate ? startDate.toISOString() : '',
       endDate: endDate ? endDate.toISOString() : '',
-      searchQuery
+      searchQuery,
+      showPastEvents
     };
     localStorage.setItem('eventFilters', JSON.stringify(filterState));
-  }, [selectedCategories, selectedCommunities, startDate, endDate, searchQuery]);
+  }, [selectedCategories, selectedCommunities, startDate, endDate, searchQuery, showPastEvents]);
 
   // Load filter state
   useEffect(() => {
@@ -232,7 +235,19 @@ export default function Events() {
       const savedState = JSON.parse(savedFilters) as FilterState;
       setSelectedCategories(savedState.selectedCategories || []);
       setSelectedCommunities(savedState.selectedCommunities || []);
-      setStartDate(savedState.startDate ? new Date(savedState.startDate) : null);
+      
+      // If showPastEvents was saved in the filter state, use that value
+      if ('showPastEvents' in savedState) {
+        setShowPastEvents(savedState.showPastEvents);
+      }
+      
+      // If we're showing past events, honor the saved startDate, otherwise use today
+      if (savedState.showPastEvents && savedState.startDate) {
+        setStartDate(new Date(savedState.startDate));
+      } else if (!savedState.showPastEvents) {
+        setStartDate(new Date());
+      }
+      
       setEndDate(savedState.endDate ? new Date(savedState.endDate) : null);
       setSearchQuery(savedState.searchQuery || '');
     }
@@ -351,6 +366,16 @@ export default function Events() {
 
   // Update filteredEvents logic
   const filteredEvents = useMemo(() => events.events.filter(event => {
+    // Filter out past events if showPastEvents is false
+    if (!showPastEvents) {
+      const now = new Date();
+      now.setHours(0, 0, 0, 0); // Reset to start of today
+      const eventStartDate = parseSafeDate(event.startDate);
+      if (!eventStartDate || eventStartDate < now) {
+        return false;
+      }
+    }
+
     // Category filter
     if (selectedCategories.length > 0) {
       const eventCategories = [event.type, ...(event.subcategories || [])];
@@ -383,7 +408,7 @@ export default function Events() {
     }
 
     return true;
-  }), [events.events, selectedCategories, selectedCommunities, startDate, endDate, searchQuery]);
+  }), [events.events, selectedCategories, selectedCommunities, startDate, endDate, searchQuery, showPastEvents]);
 
   // Update sortedEvents logic
   const sortedEvents = useMemo(() => {
@@ -625,6 +650,26 @@ export default function Events() {
                 />
               </div>
 
+              {/* Past Events Toggle */}
+              <div className="filter-group">
+                <button 
+                  className={`past-events-toggle ${showPastEvents ? 'active' : ''}`}
+                  onClick={() => {
+                    setShowPastEvents(!showPastEvents);
+                    // If toggling off, reset startDate to today
+                    if (showPastEvents) {
+                      setStartDate(new Date());
+                    } else {
+                      // If toggling on, clear the date filter
+                      setStartDate(null);
+                    }
+                    setVisibleItems(ITEMS_PER_PAGE);
+                  }}
+                >
+                  {showPastEvents ? 'HIDE PAST EVENTS' : 'SHOW PAST EVENTS'}
+                </button>
+              </div>
+
               {/* Date Range Filters */}
               <div className="filter-group">
                 <h3 className="filter-title">DATE RANGE</h3>
@@ -737,16 +782,17 @@ export default function Events() {
                 selectedCommunities.length > 0 ||
                 startDate || 
                 endDate || 
-                searchQuery) && (
+                searchQuery || 
+                showPastEvents) && (
                 <button 
                   className="clear-filters-button"
                   onClick={() => {
                     setSelectedCategories([]);
                     setSelectedCommunities([]);
-                    setStartDate(null);
+                    setStartDate(new Date()); // Reset to today
                     setEndDate(null);
                     setSearchQuery('');
-                    // Reset to first page of items
+                    setShowPastEvents(false); // Reset to hide past events
                     setVisibleItems(ITEMS_PER_PAGE);
                   }}
                 >
@@ -847,12 +893,25 @@ export default function Events() {
             setEndDate(date);
             setVisibleItems(ITEMS_PER_PAGE);
           }}
+          showPastEvents={showPastEvents}
+          onPastEventsToggle={() => {
+            setShowPastEvents(!showPastEvents);
+            // If toggling off, reset startDate to today
+            if (showPastEvents) {
+              setStartDate(new Date());
+            } else {
+              // If toggling on, clear the date filter
+              setStartDate(null);
+            }
+            setVisibleItems(ITEMS_PER_PAGE);
+          }}
           onClearAll={() => {
             setSelectedCategories([]);
             setSelectedCommunities([]);
-            setStartDate(null);
+            setStartDate(new Date()); // Reset to today
             setEndDate(null);
             setSearchQuery('');
+            setShowPastEvents(false); // Reset to hide past events
             setVisibleItems(ITEMS_PER_PAGE);
           }}
         />
@@ -1458,6 +1517,31 @@ export default function Events() {
           gap: 6px;
           padding: 10px;
           justify-content: center;
+        }
+
+        .past-events-toggle {
+          width: 100%;
+          padding: 0.5rem;
+          background: rgba(0, 56, 117, 0.3);
+          border: 1px solid var(--terminal-color);
+          color: var(--terminal-color);
+          font-family: var(--font-mono);
+          font-size: 0.8rem;
+          cursor: pointer;
+          transition: all 0.2s ease;
+          text-align: center;
+        }
+        
+        .past-events-toggle.active {
+          background: rgba(0, 56, 117, 0.5);
+          border-color: var(--nyc-orange);
+          color: var(--nyc-orange);
+        }
+        
+        .past-events-toggle:hover {
+          background: rgba(0, 56, 117, 0.5);
+          border-color: var(--nyc-orange);
+          color: var(--nyc-orange);
         }
       `}</style>
     </main>

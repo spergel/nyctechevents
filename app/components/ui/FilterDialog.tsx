@@ -31,6 +31,8 @@ interface FilterDialogProps {
   endDate?: Date | null;
   onStartDateChange?: (date: Date | null) => void;
   onEndDateChange?: (date: Date | null) => void;
+  showPastEvents?: boolean;
+  onPastEventsToggle?: () => void;
 }
 
 export function FilterDialog({
@@ -47,7 +49,9 @@ export function FilterDialog({
   startDate = null,
   endDate = null,
   onStartDateChange,
-  onEndDateChange
+  onEndDateChange,
+  showPastEvents = false,
+  onPastEventsToggle
 }: FilterDialogProps) {
   const [isMobile, setIsMobile] = useState(false);
 
@@ -115,6 +119,18 @@ export function FilterDialog({
                   />
                   <div className="search-icon">⌕</div>
                 </div>
+              </div>
+            )}
+
+            {/* Past Events Toggle */}
+            {onPastEventsToggle && (
+              <div className="filter-group">
+                <button 
+                  className={`past-events-toggle ${showPastEvents ? 'active' : ''}`}
+                  onClick={onPastEventsToggle}
+                >
+                  {showPastEvents ? 'HIDE PAST EVENTS' : 'SHOW PAST EVENTS'}
+                </button>
               </div>
             )}
 
@@ -334,9 +350,37 @@ export function FilterDialog({
           
           .filter-options-grid {
             display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 0.75rem;
-            padding-left: 0;
+            grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+            gap: 0.5rem;
+          }
+
+          .past-events-toggle {
+            width: 100%;
+            padding: 0.5rem;
+            background: rgba(0, 56, 117, 0.3);
+            border: 1px solid var(--terminal-color);
+            color: var(--terminal-color);
+            font-family: var(--font-mono);
+            font-size: 0.8rem;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            text-align: center;
+          }
+          
+          .past-events-toggle.active {
+            background: rgba(0, 56, 117, 0.5);
+            border-color: var(--nyc-orange);
+            color: var(--nyc-orange);
+          }
+          
+          .past-events-toggle:hover {
+            background: rgba(0, 56, 117, 0.5);
+            border-color: var(--nyc-orange);
+            color: var(--nyc-orange);
+          }
+
+          .subcategories {
+            margin-top: 1rem;
           }
 
           .subcategory-group {

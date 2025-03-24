@@ -79,7 +79,16 @@ export function ConsoleLayout({ children, locations, onLocationClick }: ConsoleL
     const month = String(date.getMonth() + 1).padStart(2, '0');
     const day = String(date.getDate()).padStart(2, '0');
     const year = date.getFullYear();
-    return `${month}/${day}/${year}`;
+    const hours = String(date.getHours()).padStart(2, '0');
+    const minutes = String(date.getMinutes()).padStart(2, '0');
+    
+    // Format as two lines for better fit
+    return (
+      <>
+        <span className="date-part">{`${month}/${day}/${year}`}</span>
+        <span className="time-part">{`${hours}:${minutes}`}</span>
+      </>
+    );
   };
 
   // Get the latest 10 posts
@@ -113,9 +122,25 @@ export function ConsoleLayout({ children, locations, onLocationClick }: ConsoleL
                   role="button"
                   tabIndex={0}
                 >
-                  <div className="link-action">CONNECT</div>
-                  <div className="link-title">NYC DO SOMETHING</div>
-                  <div className="link-source">Follow on Twitter/X</div>
+                  <div className="twitter-glitch-container">
+                    <div className="twitter-scanline"></div>
+                    <div className="twitter-glitch"></div>
+                  </div>
+                  <div className="twitter-icon">
+                    <svg viewBox="0 0 24 24" width="24" height="24" fill="#1d9bf0">
+                      <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path>
+                    </svg>
+                  </div>
+                  <div className="twitter-content">
+                    <div className="link-action">CONNECT</div>
+                    <div className="link-title">NYC DO SOMETHING</div>
+                    <div className="link-source">Follow on Twitter/X</div>
+                  </div>
+                  <div className="twitter-chevron">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#1d9bf0" strokeWidth="2">
+                      <polyline points="9 18 15 12 9 6"></polyline>
+                    </svg>
+                  </div>
                 </div>
               </div>
             </div>
@@ -286,7 +311,7 @@ export function ConsoleLayout({ children, locations, onLocationClick }: ConsoleL
       <style jsx>{`
         .console-layout {
           display: grid;
-          grid-template-columns: 250px 1fr 250px;
+          grid-template-columns: minmax(300px, 1.2fr) minmax(0, 2.5fr) minmax(300px, 1.2fr);
           gap: 0;
           padding: 0.25rem;
           height: calc(100vh - 4rem);
@@ -300,6 +325,12 @@ export function ConsoleLayout({ children, locations, onLocationClick }: ConsoleL
           flex-direction: column;
           gap: 0;
           overflow: hidden;
+        }
+
+        .center-column {
+          max-width: 800px;
+          justify-self: center;
+          width: 100%;
         }
 
         .center-content {
@@ -336,10 +367,18 @@ export function ConsoleLayout({ children, locations, onLocationClick }: ConsoleL
           justify-content: center;
           align-items: center;
           gap: 0.25rem;
-          padding: 1.5rem;
+          padding: 0.75rem;
           background: rgba(0, 20, 40, 0.5);
           border: 1px solid var(--nyc-orange);
           text-align: center;
+          min-width: 60px;
+          min-height: 70px;
+          overflow: hidden;
+        }
+
+        .status-item:last-child {
+          padding-left: 0.5rem;
+          padding-right: 0.5rem;
         }
 
         .status-label {
@@ -348,6 +387,7 @@ export function ConsoleLayout({ children, locations, onLocationClick }: ConsoleL
           font-size: 0.8rem;
           line-height: 1;
           text-transform: uppercase;
+          margin-bottom: 0.25rem;
         }
 
         .status-value {
@@ -355,7 +395,30 @@ export function ConsoleLayout({ children, locations, onLocationClick }: ConsoleL
           font-family: var(--font-mono);
           font-weight: bold;
           font-size: 1.2rem;
-          line-height: 1;
+          line-height: 1.1;
+          word-break: break-word;
+          text-align: center;
+          width: 100%;
+        }
+
+        .status-item:last-child .status-value {
+          font-size: 1rem;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 0.25rem;
+        }
+
+        .date-part {
+          white-space: nowrap;
+          display: block;
+        }
+
+        .time-part {
+          white-space: nowrap;
+          display: block;
+          font-size: 0.9em;
+          opacity: 0.8;
         }
 
         .map-container {
@@ -499,36 +562,203 @@ export function ConsoleLayout({ children, locations, onLocationClick }: ConsoleL
           padding: 1rem;
           transition: all 0.3s ease;
           display: flex;
-          flex-direction: column;
+          flex-direction: row;
           align-items: center;
-          justify-content: center;
-          text-align: center;
-          gap: 0.5rem;
+          justify-content: space-between;
+          gap: 0.75rem;
+          position: relative;
+          overflow: hidden;
         }
         
         .twitter-link:hover {
           border-color: #1d9bf0;
+          background: rgba(29, 155, 240, 0.2);
+          box-shadow: 0 0 15px rgba(29, 155, 240, 0.4), inset 0 0 8px rgba(29, 155, 240, 0.2);
+          transform: translateY(-2px) scale(1.02);
+        }
+        
+        .twitter-link::before {
+          content: '';
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background: linear-gradient(135deg, rgba(29, 155, 240, 0.1) 0%, transparent 50%);
+          pointer-events: none;
+        }
+        
+        .twitter-glitch-container {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          pointer-events: none;
+          overflow: hidden;
+          z-index: 0;
+        }
+        
+        .twitter-scanline {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 1px;
+          background: rgba(29, 155, 240, 0.5);
+          box-shadow: 0 0 8px rgba(29, 155, 240, 0.8);
+          animation: twitter-scanline 3s linear infinite;
+          opacity: 0;
+          transition: opacity 0.3s ease;
+          z-index: 1;
+        }
+        
+        .twitter-link:hover .twitter-scanline {
+          opacity: 0.7;
+        }
+        
+        @keyframes twitter-scanline {
+          0% {
+            transform: translateY(-100%);
+          }
+          100% {
+            transform: translateY(100px);
+          }
+        }
+        
+        .twitter-glitch {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background: linear-gradient(90deg, 
+            transparent 0%, 
+            rgba(29, 155, 240, 0.05) 45%, 
+            rgba(29, 155, 240, 0.1) 50%, 
+            rgba(29, 155, 240, 0.05) 55%, 
+            transparent 100%);
+          opacity: 0;
+          animation: twitter-glitch 3s ease-in-out infinite;
+          z-index: 1;
+        }
+        
+        .twitter-link:hover .twitter-glitch {
+          opacity: 1;
+        }
+        
+        @keyframes twitter-glitch {
+          0%, 100% {
+            transform: translateX(-100%);
+          }
+          50% {
+            transform: translateX(100%);
+          }
+        }
+        
+        .twitter-icon {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 40px;
+          height: 40px;
           background: rgba(29, 155, 240, 0.15);
+          border-radius: 50%;
+          padding: 8px;
+          border: 1px solid rgba(29, 155, 240, 0.5);
           box-shadow: 0 0 10px rgba(29, 155, 240, 0.3);
-          transform: translateY(-2px);
+          position: relative;
+          z-index: 2;
+          animation: twitter-icon-pulse 4s infinite ease-in-out;
+        }
+        
+        @keyframes twitter-icon-pulse {
+          0%, 100% {
+            box-shadow: 0 0 10px rgba(29, 155, 240, 0.3);
+          }
+          50% {
+            box-shadow: 0 0 15px rgba(29, 155, 240, 0.6);
+          }
+        }
+        
+        .twitter-icon::after {
+          content: "";
+          position: absolute;
+          top: -3px;
+          left: -3px;
+          right: -3px;
+          bottom: -3px;
+          border-radius: 50%;
+          border: 1px solid rgba(29, 155, 240, 0.3);
+          animation: twitter-icon-ring 3s infinite ease-in-out;
+        }
+        
+        @keyframes twitter-icon-ring {
+          0% {
+            transform: scale(1);
+            opacity: 0.5;
+          }
+          50% {
+            transform: scale(1.1);
+            opacity: 0.2;
+          }
+          100% {
+            transform: scale(1);
+            opacity: 0.5;
+          }
+        }
+        
+        .twitter-icon svg {
+          filter: drop-shadow(0 0 2px rgba(29, 155, 240, 0.8));
+        }
+        
+        .twitter-content {
+          flex: 1;
+          display: flex;
+          flex-direction: column;
+          gap: 0.3rem;
+          z-index: 2;
+        }
+        
+        .twitter-chevron {
+          opacity: 0.7;
+          transition: all 0.3s ease;
+          z-index: 2;
+        }
+        
+        .twitter-link:hover .twitter-chevron {
+          opacity: 1;
+          transform: translateX(3px);
         }
         
         .link-action {
           color: #1d9bf0;
           font-family: var(--font-mono);
-          font-size: 0.8rem;
-          letter-spacing: 1px;
+          font-size: 0.7rem;
+          letter-spacing: 1.5px;
+          text-shadow: 0 0 5px rgba(29, 155, 240, 0.5);
+          background: rgba(29, 155, 240, 0.1);
+          padding: 0.1rem 0.3rem;
+          border-radius: 2px;
+          display: inline-block;
+          width: fit-content;
+          margin-bottom: 0.1rem;
         }
         
         .link-title {
           color: var(--nyc-white);
-          font-size: 1.2rem;
+          font-size: 1.15rem;
           font-weight: bold;
+          letter-spacing: 0.5px;
+          text-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
+          margin-bottom: 0.1rem;
         }
         
         .link-source {
           color: var(--terminal-color);
-          font-size: 0.9rem;
+          font-size: 0.8rem;
+          opacity: 0.85;
+          letter-spacing: 0.3px;
         }
 
         .news-date {
