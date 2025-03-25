@@ -1,6 +1,1 @@
-"""
-NYC Events Scraper Package
-"""
-
-# Version
-__version__ = "1.0.0" 
+# Make the tech directory a Python package 
