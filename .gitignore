@@ -6,12 +6,8 @@
 .env
 package-lock.json
 # testing
-/coverage
-
 # next.js
 /.next/
-/out/
-
 # production
 /build
 # misc
@@ -43,10 +39,6 @@ categorizer.log
 scraper.log
 
 # Data directories (except public)
-data/
-tech/data/
-tech/scrapers/data/
-tech/scrapers/logs/
 
 # Environment
 .env

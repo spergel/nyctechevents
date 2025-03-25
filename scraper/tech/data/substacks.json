@@ -1,0 +1,10 @@
+{
+  "substacks": [
+    {
+      "id": "sample_substack",
+      "name": "Sample Substack",
+      "url": "https://example.substack.com",
+      "description": "Sample Substack for testing"
+    }
+  ]
+}

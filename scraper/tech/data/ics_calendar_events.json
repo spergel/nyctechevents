@@ -1,0 +1,1251 @@
+{
+  "events": [
+    {
+      "id": "evt_com_max_ny_7616f3db",
+      "name": "So you want to do abundance politics? You want to do it, and you're saying that? I will tell you, and then you have no excuse after that!",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_max_ny",
+      "description": "​See event write-uphere. Also: if you're a parent, feel free to bring your kids. Let me know if you need something like daycare, and I'll see about arranging that.​How do you achieve political outcomes in New York City? What is this\"abundance politics\"thing people keep talking about?​How are political outcomes in New York City relevant to the state and federal governments?​What does the political landscape look like, who are the players, and how can you jump in given your own level of skill and knowledge?​How can you, and how canwe, create a more abundant future for New York City?​Come hearDaniel Golliher, founder ofMaximum New York, give you the rundown. There will also be lightning talks by various guests (to be announced) who have achieved concrete things to make New York City better.​Know before you arrive:This event will be guided by thefour rules of etiquettethat guide all Maximum New York classes, and is generally for people who mostly agree withThe Sensible Seventy.",
+      "startDate": "2025-03-23T14:30:00-04:00",
+      "endDate": "2025-03-23T16:30:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "luma-event-9fe1da4f.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/pm0ponyt",
+        "speakers": [
+          {
+            "name": "Daniel Golliher",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Daniel Golliher",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "venue": {
+          "name": "111 Conselyea StBrooklyn, NY 11211, USA",
+          "address": "Brooklyn, NY 11211, USA",
+          "type": "Offline",
+          "room": "",
+          "additional_info": ""
+        },
+        "featured": false,
+        "social_links": [
+          "https://x.com/danielgolliher",
+          "https://linkedin.com/in/maximumnewyork",
+          "https://maximumnewyork.com",
+          "https://x.com/danielgolliher",
+          "https://x.com/danielgolliher",
+          "https://linkedin.com/in/maximumnewyork",
+          "https://maximumnewyork.com",
+          "https://x.com/danielgolliher"
+        ]
+      }
+    },
+    {
+      "id": "evt_com_max_ny_5ff66076",
+      "name": "Maximum New York Office Hours",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_max_ny",
+      "description": "​Want to talk toDaniel(founder ofMaximum New York) about anything? Want to learn more about government at the city, state, or federal level? Want to know what you can do for a more abundant future? Grab a coffee and come to office hours!",
+      "startDate": "2025-03-29T11:30:00-04:00",
+      "endDate": "2025-03-29T14:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "luma-event-33d136c0.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/9iobb69e",
+        "speakers": [
+          {
+            "name": "Daniel Golliher",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Daniel Golliher",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "venue": {
+          "name": "111 Conselyea StBrooklyn, NY 11211, USA",
+          "address": "Brooklyn, NY 11211, USA",
+          "type": "Offline",
+          "room": "",
+          "additional_info": ""
+        },
+        "featured": false,
+        "social_links": [
+          "https://x.com/danielgolliher",
+          "https://linkedin.com/in/maximumnewyork",
+          "https://maximumnewyork.com",
+          "https://x.com/danielgolliher",
+          "https://x.com/danielgolliher",
+          "https://linkedin.com/in/maximumnewyork",
+          "https://maximumnewyork.com",
+          "https://x.com/danielgolliher"
+        ]
+      }
+    },
+    {
+      "id": "evt_com_max_ny_146cbb7b",
+      "name": "Maximum New York April Party & Abundance Politics Accelerator",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_max_ny",
+      "description": "​Come hang out with friends, hear some lightning talks about NYC city/state politics, find collaborators for your own political schemes, and have a good time!​You'll enjoy the company of MNY alumni, people from theabundance movementgenerally, and other guests.​This event will also feature a brief graduation ceremony for several cohorts ofThe Foundations of New York City!​There will be drinks and snacks!​Know before you arrive:This event will be guided by thefour rules of etiquettethat guide all Maximum New York classes, and is generally for people who mostly agree withThe Sensible Seventy.",
+      "startDate": "2025-04-20T14:30:00-04:00",
+      "endDate": "2025-04-20T16:30:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "luma-event-9fe1da4f.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/jyuvctgc",
+        "speakers": [
+          {
+            "name": "Daniel Golliher",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Daniel Golliher",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "venue": {
+          "name": "111 Conselyea StBrooklyn, NY 11211, USA",
+          "address": "Brooklyn, NY 11211, USA",
+          "type": "Offline",
+          "room": "",
+          "additional_info": ""
+        },
+        "featured": false,
+        "social_links": [
+          "https://x.com/danielgolliher",
+          "https://linkedin.com/in/maximumnewyork",
+          "https://maximumnewyork.com",
+          "https://x.com/danielgolliher",
+          "https://x.com/danielgolliher",
+          "https://linkedin.com/in/maximumnewyork",
+          "https://maximumnewyork.com",
+          "https://x.com/danielgolliher"
+        ]
+      }
+    },
+    {
+      "id": "evt_com_otwc_8448961e",
+      "name": "OTWC Season 6: Kickoff",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_otwc",
+      "description": "​Join us for our first session Season 6!OTWC is an NYC-based writing community for writers to write, exchange ideas, and get inspired. Our sessions look like this:​​​​​​1. ​​​Introduce yourselves and talk about what you plan to write2. ​​​Focused writing session3. ​​​Get together in small groups and discuss how the session went​​​​​​Snacks and drinks will be provided!​​​​​If this price is too steep for you for any reason, email us by clicking \"Contact the Host\" on the left and we’ll give you a pay-what-you-can ticket.​​​​​​Follow us on Twitter and Instagram @otwc_nyc to stay updated on future events and announcements!​​​​​​Hope to see you there 🥳",
+      "startDate": "2025-04-06T10:00:00-04:00",
+      "endDate": "2025-04-06T13:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "luma-event-9d9dccf2.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/e/evt-OeVz7I8NUYbloWp",
+        "speakers": [
+          {
+            "name": "James Q",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "James Q",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "venue": {
+          "name": "Please register to see the exact location of this event.",
+          "address": "New York, New York",
+          "type": "Online",
+          "room": "",
+          "additional_info": ""
+        },
+        "featured": false,
+        "social_links": [
+          "https://instagram.com/otwc_nyc",
+          "https://x.com/otwc_nyc",
+          "https://instagram.com/mrjamesq",
+          "https://x.com/mrjamesq",
+          "https://instagram.com/otwc_nyc",
+          "https://x.com/otwc_nyc",
+          "https://instagram.com/mrjamesq",
+          "https://x.com/mrjamesq"
+        ]
+      }
+    },
+    {
+      "id": "evt_com_der_project_f7370aae",
+      "name": "Data In Power - Virtual Event",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_der_project",
+      "description": "​Data and the distribution of decision-making power is an increasingly important dynamic to understand and engage with in climate and energy. Who is collecting, analyzing, and presenting data - how and why? These are the hard-hitting questions we will unpack in an open format discussion. If you have been looking for a space to share and engage with multiple perspectives through concrete examples of data’s influence within climate and energy decision-making, this event is for you!​*Note: This is a small group discussion so that we can dive deep into Data In Power principles and examples while building relationships. If you are interested, please RSVP even if the event is full, so that I can plan more for the calendar.",
+      "startDate": "2025-03-25T20:00:00-04:00",
+      "endDate": "2025-03-25T21:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "luma-event-f902b935.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/e/evt-Hb9cgfmCGjGXUJY",
+        "speakers": [
+          {
+            "name": "Crystal Soo",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Crystal Soo",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "venue": {
+          "name": "",
+          "address": "",
+          "type": "Offline",
+          "room": "",
+          "additional_info": ""
+        },
+        "featured": false,
+        "social_links": [
+          "https://x.com/derprojectfair",
+          "https://derprojectfair.wordpress.com/climate-coffees/",
+          "https://x.com/Derprojectfair",
+          "https://x.com/derprojectfair",
+          "https://derprojectfair.wordpress.com/climate-coffees/",
+          "https://x.com/Derprojectfair"
+        ]
+      }
+    },
+    {
+      "id": "evt_com_der_project_74c3589a",
+      "name": "Data In Power - NYC Event",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_der_project",
+      "description": "​Data and the distribution of decision-making power is an increasingly important dynamic to understand and engage with in climate and energy. Who is collecting, analyzing, and presenting data - how and why? These are the hard-hitting questions we will unpack.​Our format features focused discussion and open networking, providing a unique opportunity to dive deep into what data and the distribution of power means to the climate and energy community.Our March meetup will discuss Data In Power initiatives, which include data preservation and the development of decision-making tools.Here is avideowith some background on Data In Power's focus within data and the distribution of decision-making power.​​Data In Power is an independently run meetup without any bells and whistles.In order to maintain community and continue organic growth, prospective attendees should be prepared to support our meetup venue with a purchase, regardless of how large or small. Data In Power brings folks together through meaningful, productive, and unique programming.",
+      "startDate": "2025-03-26T18:30:00-04:00",
+      "endDate": "2025-03-26T20:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "luma-event-f902b935.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/e/evt-cW5tQVTCuHh1Gzh",
+        "speakers": [
+          {
+            "name": "Crystal Soo",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Crystal Soo",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "venue": {
+          "name": "Please register to see the exact location of this event.",
+          "address": "New York, New York",
+          "type": "Online",
+          "room": "",
+          "additional_info": ""
+        },
+        "featured": false,
+        "social_links": [
+          "https://x.com/derprojectfair",
+          "https://derprojectfair.wordpress.com/climate-coffees/",
+          "https://x.com/Derprojectfair",
+          "https://x.com/derprojectfair",
+          "https://derprojectfair.wordpress.com/climate-coffees/",
+          "https://x.com/Derprojectfair"
+        ]
+      }
+    },
+    {
+      "id": "evt_com_ny_hardware_619c6334",
+      "name": "Deep Tech Week Happy Hour @ Makelab | NY Hardware Meetup",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_ny_hardware",
+      "description": "​Let's celebrate Deep Tech Week with a happy hour atMakelab! This will be a happy hour-style mixer for everyone to meet others in the NYC area.​Agenda​6:30-7:00 - Arrival, mingle, grab refreshment​7:30-7:45 - Welcome​7:45-9:30 - Mix + mingle​Thank you to our partners​Makelabis a 3D manufacturing service that produces parts, prototypes, and production runs for companies in the robotics, medical, cpg, hardware, and manufacturing sectors. We manufacture locally in NYC, San Francisco, and ship nationwide. Makelab works with companies like Informal, Peleton, Stand+, Nonfiction Design, and Estee Lauder to accelerate agile product development while ensuring quality outcomes​informalis a freelance collective for the best independent professionals in hardware and manufacturing. Whether a client is looking for a single contractor, a full time employee, or an entire team of professionals to work on everything from product development to go-to-market, informal has the right collection of people for the job. With projects as varied as 3D printers to electric vehicles, informal members work with companies at every scale to design, manufacture, and ship physical products.​​​WANT TO GET INVOLVED?​​​Sponsorship:​We offer exclusive access to our 10,000+ member community through sponsorships.​​​Host an event at your space:We are always looking for host sponsors to provide access to unique spaces from cool hardware companies building interesting things. Want to open up your office?​​​Speaker:Do you have something interesting to share with our community? We're on the lookout for fresh faces to talk about their journey and experiences.​​​If you want to get involved, head here:https://linktr.ee/nyhardware",
+      "startDate": "2025-04-02T18:30:00-04:00",
+      "endDate": "2025-04-02T21:30:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "luma-event-1ef73eb2.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/hj4wfh8n",
+        "speakers": [
+          {
+            "name": "Christina Perla",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Paul Vizzio",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Anthony Dzaba",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Hyperstition Incorporated",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Christina Perla",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Paul Vizzio",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Anthony Dzaba",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Hyperstition Incorporated",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "venue": {
+          "name": "Makelab | 3D Manufacturing Services325 Gold St, Brooklyn, NY 11201, USA",
+          "address": "325 Gold St, Brooklyn, NY 11201, USA",
+          "type": "Offline",
+          "room": "",
+          "additional_info": ""
+        },
+        "featured": false,
+        "social_links": [
+          "https://linkedin.com/company/ny-hardware-meetup",
+          "https://linktr.ee/nyhardware",
+          "https://instagram.com/christinaperla",
+          "https://instagram.com/vizengnyc",
+          "https://x.com/vizengnyc",
+          "https://x.com/andercot",
+          "https://linkedin.com/company/ny-hardware-meetup",
+          "https://linktr.ee/nyhardware",
+          "https://instagram.com/christinaperla",
+          "https://instagram.com/vizengnyc",
+          "https://x.com/vizengnyc",
+          "https://x.com/andercot"
+        ]
+      }
+    },
+    {
+      "id": "evt_com_ny_hardware_3502c606",
+      "name": "105th NY Hardware Meetup",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_ny_hardware",
+      "description": "​​​The Hardware Meetup community is excited to announce the 104th NY Hardware Meetup at Viam​​​Hardware Meetups happen across 30+ cities around the world, bringing together hardware professionals to network and learn from each other. You might not realize it, but NYC is a hotbed for this kind of innovation and tonight you'll meet two companies working at the cutting edge of this technology.​​​This month we'll be atViam. Viam helps companies unlock the power of AI, data and automation in the physical world. They provide a single platform for engineers of all disciplines to solve problems together and build solutions that are fast and future-proof. Viam powers solutions across robotics, food and beverage, climate tech, marine, industrial manufacturing, and more. Founded in 2020 by former MongoDB co-founder and CTO Eliot Horowitz, Viam is headquartered in New York City.​​AGENDA​​​6:30 - Arrival, mingle, grab refreshments​​​7:00 - Welcome and introduction​7:15- Guest speakers with audience Q+A​8:20 - Community open mic​​​Anyone will have the chance or talk about what they are working on.​8:30 - Mix + mingle​WANT TO GET INVOLVED?​​Sponsorship:​We offer exclusive access to our 10,000+ member community through sponsorships.​​Host an event at your space:We are always looking for host sponsors to provide access to unique spaces from cool hardware companies building interesting things. Want to open up your office?​​Speaker:Do you have something interesting to share with our community? We're on the lookout for fresh faces to talk about their journey and experiences.​​If you want to get involved, head here:https://linktr.ee/nyhardware",
+      "startDate": "2025-04-17T18:30:00-04:00",
+      "endDate": "2025-04-17T21:30:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "luma-event-7d080f0f.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/exb21kbi",
+        "speakers": [
+          {
+            "name": "Anthony Dzaba",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Paul Vizzio",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Anthony Dzaba",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Paul Vizzio",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "venue": {
+          "name": "1900 BroadwayNew York, NY 10023, USA",
+          "address": "New York, NY 10023, USA",
+          "type": "Offline",
+          "room": "",
+          "additional_info": ""
+        },
+        "featured": false,
+        "social_links": [
+          "https://linkedin.com/company/ny-hardware-meetup",
+          "https://linktr.ee/nyhardware",
+          "https://instagram.com/vizengnyc",
+          "https://x.com/vizengnyc",
+          "https://linkedin.com/company/ny-hardware-meetup",
+          "https://linktr.ee/nyhardware",
+          "https://instagram.com/vizengnyc",
+          "https://x.com/vizengnyc"
+        ]
+      }
+    },
+    {
+      "id": "evt_com_la_creme_stem_c683a307",
+      "name": "Navigating Women's Healthcare: Insights from VC & Founders",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_la_creme_stem",
+      "description": "​La Creme de la STEM™ is partnering with Columbia Healthcare Ventures and GenZ Tea for a panel featuring VCs and founders in the Women Healthcare industry. We will break down trends and challenges. Join us for an insightful evening!​Speakers:​Marion Siboni, CEO and founder of La Creme de la STEM™​Elena Piskounova, Assistant Professor and Founder​NanaYaa Mensah-Thomas, MBA, CLT, Managing Partner - Founder of Purelite Ventures​Denali Dahl, PhD, CEO/Co-Founder of Kalia Health",
+      "startDate": "2025-04-17T18:00:00-04:00",
+      "endDate": "2025-04-17T20:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "luma-event-19ef1dce.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/e/evt-KaRsWnUBaO7m5Ck",
+        "speakers": [
+          {
+            "name": "Marion - La Creme de la STEM ™",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Natalie Neptune",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Kosha Rakholia",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Derek Kastner- Fabrik Community Director",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Marion - La Creme de la STEM ™",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Natalie Neptune",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Kosha Rakholia",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Derek Kastner- Fabrik Community Director",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "venue": {
+          "name": "Please register to see the exact location of this event.",
+          "address": "New York, New York",
+          "type": "Online",
+          "room": "",
+          "additional_info": ""
+        },
+        "featured": false,
+        "social_links": [
+          "https://instagram.com/lacremedelastem",
+          "https://linkedin.com/in/marionsiboni",
+          "https://www.lacremedelastem.com/",
+          "https://instagram.com/Yes",
+          "https://instagram.com/Yes",
+          "https://instagram.com/lacremedelastem",
+          "https://linkedin.com/in/marionsiboni",
+          "https://www.lacremedelastem.com/",
+          "https://instagram.com/Yes",
+          "https://instagram.com/Yes"
+        ]
+      }
+    },
+    {
+      "id": "evt_com_la_creme_stem_4db03522",
+      "name": "VC Fireside Chat",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_la_creme_stem",
+      "description": "​Ever wondered what really goes on behind the scenes in the world of venture capital? Join us for a lively VC Fireside Chat hosted by Marion from La Creme de la STEM™ . We'll be demystifying the VC industry, sharing insider tips, and answering all your burning questions in a relaxed, friendly atmosphere.​Come mingle, learn, and connect with fellow entrepreneurs, investors, and innovators. Whether you're a seasoned founder or just curious about how venture capital works, this is your chance to get the inside scoop—no suits, no jargon, just real talk and good vibes. See you there!",
+      "startDate": "2025-05-21T18:00:00-04:00",
+      "endDate": "2025-05-21T20:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "luma-event-97dccb1f.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/q8v2w8ex",
+        "speakers": [
+          {
+            "name": "Marion - La Creme de la STEM ™",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Marion - La Creme de la STEM ™",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "venue": {
+          "name": "Fabrik NYC12-16 Vestry St 4th Floor, New York, NY 10013, USA",
+          "address": "12-16 Vestry St 4th Floor, New York, NY 10013, USA",
+          "type": "Offline",
+          "room": "",
+          "additional_info": ""
+        },
+        "featured": false,
+        "social_links": [
+          "https://instagram.com/lacremedelastem",
+          "https://linkedin.com/in/marionsiboni",
+          "https://www.lacremedelastem.com/",
+          "https://instagram.com/Yes",
+          "https://instagram.com/lacremedelastem",
+          "https://linkedin.com/in/marionsiboni",
+          "https://www.lacremedelastem.com/",
+          "https://instagram.com/Yes"
+        ]
+      }
+    },
+    {
+      "id": "evt_com_la_creme_stem_1bf0d009",
+      "name": "Female Founders Fitness",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_la_creme_stem",
+      "description": "​Female Founders Fitness",
+      "startDate": "2025-06-03T09:00:00-04:00",
+      "endDate": "2025-06-03T11:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "luma-event-134d7354.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/e1fwkxvt",
+        "speakers": [
+          {
+            "name": "Marion - La Creme de la STEM ™",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Sync N",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Marion - La Creme de la STEM ™",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Sync N",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "venue": {
+          "name": "Fabrik NYC12-16 Vestry St 4th Floor, New York, NY 10013, USA",
+          "address": "12-16 Vestry St 4th Floor, New York, NY 10013, USA",
+          "type": "Offline",
+          "room": "",
+          "additional_info": ""
+        },
+        "featured": false,
+        "social_links": [
+          "https://instagram.com/lacremedelastem",
+          "https://linkedin.com/in/marionsiboni",
+          "https://www.lacremedelastem.com/",
+          "https://instagram.com/Yes",
+          "https://instagram.com/syncnapp",
+          "https://instagram.com/lacremedelastem",
+          "https://linkedin.com/in/marionsiboni",
+          "https://www.lacremedelastem.com/",
+          "https://instagram.com/Yes",
+          "https://instagram.com/syncnapp"
+        ]
+      }
+    },
+    {
+      "id": "evt_com_third_place_nyc_87b2eb13",
+      "name": "Dating App Disconnect: How to Actually Meet People IRL",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_third_place_nyc",
+      "description": "​So, how do Iactuallymeet someone out in the world?When you are trying to move from apps to dating in real life, fears, questions, awkwardness, and insecurities can come up. This event is all about diving into the tactical of going from swiping to IRL.​Build skills and confidence, while also connecting with others dating in NYC!​How?​🔹IRL Dating Panel Discussion– Hear from IRL dating experts as they share insights on how to navigate real-life interactions. Featuring: Elle Wilson (founder of Met Through Friends), Brandon Dawkins of (founder of Beyond Nice), and Tawny Lara (author ofDry Humping: A Guide to Dating, Relating, and Hooking Up Without Booze).🔹Interactive Activities– Connect with people through guided activities exploring the fundamentals of IRL dating — initiating conversation, navigating rejection, reading body language. Melissa Franks (founder of Embrace Club and professional certified cuddle therapist) will lead a light, fun exercise exploring consent.🔹Mingling & Connection– Put your new skills and awareness into practice with informal mingling time. Meet a friend, a date, an acquaintance...see what happens!​Dating in NYC can feel lonely and frustrating. Let's rediscover the joy of meeting people in the real world, one connection at a time.​Alcohol-free refreshments provided by Parentheses and Third Place Bar!​What is The Full?​The Fullis a connection company that is addressing the loneliness epidemic through building community in dating. When founder Isabella Cassell was coaching people 1:1, she kept hearing the same things \"I feel disconnected,\" \"dating feels weird,\" and \"this is a soul sucking experience.\" She realized so many felt alone in their dating experiences, although they were going through similar experiences. Through Dating App Disconnect, we are getting to the root of the issues with dating, helping people connect with themselves so they can better connect with others -- bringing joy, hope, and fun back to dating in NYC. Check out The Full onInstagram!​What is Met Through Friends?Met Through Friendsstarted as a series of apartment parties for founder Elle Wilson’s real single friends. It began with the insight that she knew so many wonderful, “dateable” people weren’t finding luck on the apps - what would happen if they and their friends got offline and into a room full of others looking for the same thing? Since 2022, it has grown to welcome thousands of friends from across NYC and beyond who are looking for more social, fun ways to connect.Elleis also a certified dating coach who works with individuals who are looking to build meaningful, productive, fun IRL dating lives. If you want more support to get “un-stuck” fast, we’d love to work with you. Check outMet Through Friendson Instagram!​What is(parentheses)?​(parentheses) is a fermented, artisanal spirit handmade in Brooklyn by a former sommelier and his wife who missed slow-sipping a stiff drink. ​Tawny Lara has reported on the sober curious and non-alcoholic beverage industry since 2015. She is the author ofDry Humping: A Guide to Dating, Relating, and Hooking Up Without the Boozeand co-author ofThe Sobriety Deck. She also co-hosts theRecovery Rocks podcast. She teachesvirtual coursesabout writing, publishing, media strategy, and DIY PR. Check out(parentheses)andTawny Laraon Instagram!​What is Beyond Nice?Beyond Nicewas created by founder Brandon Dawkins, to remind men that they don't have to stop being nice to start being loved. Brandon works with men both 1:1 and through his event series \"The Confidence Code\" helping men move past the 'nice guy' label and step into confidence in their relationships and social life. Check outBeyond Niceon Instagram!​What is Embrace Club?The Embrace Clubis a digital marketplace and community that offers a broad range of well-being, platonic, and holistic services. The founder, Melissa Franks, is a professional certified cuddle therapist, offering NYC's first and only cuddle studio. Her work is driven by a belief in nurturing the whole self. Check outEmbrace Clubon Instagram!​​​What is Third Place Bar?Third Place Bar NYCis a series of alcohol-free pop-up bar events in New York City founded by Sam Bail in late 2022. The goal of Third Place Bar is to provide an environment for people to socialize and connect without feeling the pressure to drink - whether they’re just not drinking for the night, taking some time off, or are on a longer alcohol-free journey.​What is Fabrik?Fabrikis on a mission to uplift communities and foster serendipitous connections in real life. Fabrik is a home for communities where everyone has a place to belong. With spaces designed to feel more like your living room than your office, Fabrik’s third spaces are vibrant hubs where people can come together in real life, explore interests, forge meaningful connections, and build a sense of community. Check outFabrikon Instagram!​Please note:​​We use RSVPs to plan for the number of attendees and ticket pricing to cover our costs in hosting.Unfortunately, we cannot grant refunds,but you are welcome to pass your ticket on to someone else.​Emails will be collected and photos will be taken during the event for promotional purposes.By attending, you consent to your email being used for future promotions and image being used in future marketing materials. If you have any concerns or do not want your photo taken, please let us know.",
+      "startDate": "2025-03-24T18:00:00-04:00",
+      "endDate": "2025-03-24T20:30:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "luma-event-58e70315.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/6gkcov23",
+        "speakers": [
+          {
+            "name": "Isabella Cassell",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Third Place Bar",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Derek Kastner- Fabrik Community Director",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Isabella Cassell",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Third Place Bar",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Derek Kastner- Fabrik Community Director",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "venue": {
+          "name": "Fabrik NYC12-16 Vestry St 4th Floor, New York, NY 10013, USA",
+          "address": "12-16 Vestry St 4th Floor, New York, NY 10013, USA",
+          "type": "Offline",
+          "room": "",
+          "additional_info": ""
+        },
+        "featured": false,
+        "social_links": [
+          "https://instagram.com/jointhefull",
+          "https://instagram.com/thirdplacebarnyc",
+          "https://instagram.com/jointhefull",
+          "https://instagram.com/thirdplacebarnyc"
+        ]
+      }
+    },
+    {
+      "id": "evt_com_third_place_nyc_3588edc5",
+      "name": "Third Place Bar x Shanti House Mindful Friday Night Social",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_third_place_nyc",
+      "description": "​Third Place Bar & Shanti Houseinvite to you a different kind of Friday night out. Join us at the Fabrik loft for a relaxing beginner's yoga class, a tea bar, non-alcoholic drinks, live DJ, and playful activities to wind down and de-stress from the week... without the hangover.​What to expect:​6.30pm-7pm: Arrivals & mingling(please make sure to arrive on time before the yoga session!)​7pm-7.45pm: Unwind yin yoga led by Louisa, founder ofShanti House​7.45pm-9:00pm: Social hour with NA drinks​Stop by the tea bar byNoah Wellness, enjoy some light bites fromHappy Boards, and functional non-alcoholic drinks fromGuinep!​DJ Solunawill be mixing all night! Whether it’s ambient soundscapes, soulful grooves, or energetic afrohouse beats, Soluna crafts immersive musical journeys that move both body and soul.​FAQ​​Q: Do I need to be there at the exact start time?Yes, please aim to arrive at 6.30pm as we will get started with the yoga class at 7pm and latecomers may not be admitted!​​​Q: Can I come alone?Yes, this is a social mixer, you’re welcome to come alone and meet new people!​​​Q: Is this an alcohol-free venue?Yes, Fabrik is a community space that does not serve alcohol.​​​Q: Is there an age restriction?Yes, all our events are 21+​Q: I've never done yoga, can I still come?The yoga class will be relaxed and suitable for beginners.​Q: Do I need to bring a mat? Can I change somewhere?Yoga mat rental is included in the ticket price, but you're welcome to bring your own! There are limited changing rooms available.​Q: I need to cancel, can I get a refund for my ticket?Unfortunately, we cannot offer refunds, but you're welcome to pass on your ticket to someone else.​​​Please note: By signing up for this event you agree to receive email communication from us. You can opt out any time.",
+      "startDate": "2025-03-28T18:30:00-04:00",
+      "endDate": "2025-03-28T21:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "luma-event-66e7e180.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/yxbmpe6w",
+        "speakers": [
+          {
+            "name": "Third Place Bar",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Louisa Li",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Third Place Bar",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Louisa Li",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "venue": {
+          "name": "Fabrik NYC12-16 Vestry St 4th Floor, New York, NY 10013, USA",
+          "address": "12-16 Vestry St 4th Floor, New York, NY 10013, USA",
+          "type": "Offline",
+          "room": "",
+          "additional_info": ""
+        },
+        "featured": false,
+        "social_links": [
+          "https://instagram.com/thirdplacebarnyc",
+          "https://tiktok.com/@thirdplacebarnyc",
+          "https://www.thirdplacebar.nyc",
+          "https://instagram.com/thirdplacebarnyc",
+          "https://instagram.com/thirdplacebarnyc",
+          "https://tiktok.com/@thirdplacebarnyc",
+          "https://www.thirdplacebar.nyc",
+          "https://instagram.com/thirdplacebarnyc"
+        ]
+      }
+    },
+    {
+      "id": "evt_com_genZtea_a7461692",
+      "name": "GenZtea x Boss Me In: Gen Z Founder Match at Chief",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_genZtea",
+      "description": "​Join a handpicked cohort of visionary Gen Z female founders for an intimate evening with members of Chief - the most exclusive private network for women executives at the VP and C-suite level, whose members lead organizations valued at over $800 billion collectively.​About the Event:​In Chief's prestigious Manhattan clubhouse, where membership is by invitation-only and has a waitlist of thousands, 20 carefully selected Gen Z female founders will have the opportunity to connect one-on-one with some of business's most influential women leaders. This meticulously curated evening brings together today's Fortune 500 executives with tomorrow's groundbreaking entrepreneurs.​Who Will Be There:​- 20 Selected Gen Z Female Founders​- 20 Chief Members (Women executives from Director to C-suite level at Fortune 500 companies, fastest-growing startups, and globally recognized brands)​About the Hosts:​Chief is the most coveted private membership network for senior women executives, with an acceptance rate lower than Harvard. Members include executives from companies like Google, Nike, Goldman Sachs, and other industry-defining organizations. Chief's highly vetted community represents the upper echelon of business leadership, with membership limited to executives at the highest levels of organizational influence.​Boss Me In is pioneering the future of intergenerational leadership, bridging the expertise gap between seasoned executives and emerging leaders through carefully curated connections and transformative experiences.​GenZtea, spanning 21 countries, represents the elite network of Gen Z founders, creators, and investors shaping tomorrow's business landscape. Their partnerships with prestigious institutions and luxury brands like Pace University and Kiehl's showcase their commitment to elevating the next generation of business leaders.​This is a once-in-a-career opportunity to join an evening of unparalleled access and connection.​[Apply Now - Limited to 20 Gen Z Founders]​Location: Chief's Private Members' Club, NYC​Due to the highly exclusive nature of this event, applications will undergo a rigorous review process. Selected participants will represent the most promising ventures and innovative thinking in their respective industries.",
+      "startDate": "2025-04-10T18:00:00-04:00",
+      "endDate": "2025-04-10T19:30:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "luma-event-caa02e51.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/o6movhkg",
+        "speakers": [
+          {
+            "name": "Natalie Neptune",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Mai Moore",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Natalie Neptune",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Mai Moore",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "venue": {
+          "name": "Chief13 E 19th St, New York, NY 10003, USA",
+          "address": "13 E 19th St, New York, NY 10003, USA",
+          "type": "Offline",
+          "room": "",
+          "additional_info": ""
+        },
+        "featured": false,
+        "social_links": [
+          "https://x.com/thegenZtea",
+          "https://linkedin.com/company/genztea",
+          "https://genztea.squarespace.com/",
+          "https://instagram.com/Yes",
+          "https://instagram.com/maimoore",
+          "https://x.com/thegenZtea",
+          "https://linkedin.com/company/genztea",
+          "https://genztea.squarespace.com/",
+          "https://instagram.com/Yes",
+          "https://instagram.com/maimoore"
+        ]
+      }
+    },
+    {
+      "id": "evt_com_genZtea_c683a307",
+      "name": "Navigating Women's Healthcare: Insights from VC & Founders",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_genZtea",
+      "description": "​La Creme de la STEM™ is partnering with Columbia Healthcare Ventures and GenZ Tea for a panel featuring VCs and founders in the Women Healthcare industry. We will break down trends and challenges. Join us for an insightful evening!​Speakers:​Marion Siboni, CEO and founder of La Creme de la STEM™​Elena Piskounova, Assistant Professor and Founder​NanaYaa Mensah-Thomas, MBA, CLT, Managing Partner - Founder of Purelite Ventures​Denali Dahl, PhD, CEO/Co-Founder of Kalia Health",
+      "startDate": "2025-04-17T18:00:00-04:00",
+      "endDate": "2025-04-17T20:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "luma-event-19ef1dce.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/e/evt-KaRsWnUBaO7m5Ck",
+        "speakers": [
+          {
+            "name": "Marion - La Creme de la STEM ™",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Natalie Neptune",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Kosha Rakholia",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Derek Kastner- Fabrik Community Director",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Marion - La Creme de la STEM ™",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Natalie Neptune",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Kosha Rakholia",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Derek Kastner- Fabrik Community Director",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "venue": {
+          "name": "Please register to see the exact location of this event.",
+          "address": "New York, New York",
+          "type": "Online",
+          "room": "",
+          "additional_info": ""
+        },
+        "featured": false,
+        "social_links": [
+          "https://instagram.com/lacremedelastem",
+          "https://linkedin.com/in/marionsiboni",
+          "https://www.lacremedelastem.com/",
+          "https://instagram.com/Yes",
+          "https://instagram.com/Yes",
+          "https://instagram.com/lacremedelastem",
+          "https://linkedin.com/in/marionsiboni",
+          "https://www.lacremedelastem.com/",
+          "https://instagram.com/Yes",
+          "https://instagram.com/Yes"
+        ]
+      }
+    },
+    {
+      "id": "evt_com_genZtea_c7ad1015",
+      "name": "Gen Z Cafe CoWorking",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_genZtea",
+      "description": "​A mid-week coworking session perfect for those flexible WFH days and startup founders!​Join fellow Gen Z founders, creators, and investors for an energizing February coworking session in East Village. Whether you're building your startup, working on your side hustle, or just want to connect with like-minded creators – this space is for you.​What's GenZtea? 🍵​GenZtea empowers Gen Z founders to unlock their full potential through personal branding, community support, and innovative resources. We're building a global network of young entrepreneurs who are changing the world.​📍 What to Expect:​• A cozy workspace in a vibrant cafe setting​• Meaningful connections with fellow Gen Z entrepreneurs​• Collaborative brainstorming and experience sharing​• Winter-friendly amenities to stay productive​Stay Connected: ✨​Join our newsletter atgenztea.beehiiv.com/subscribefor monthly founder resources, event updates, and community highlights! ✨​Want to be featured in our community spotlight? DM us! 📱​Photo Notice: 📸 This event will be photographed and filmed. By attending, you consent to GenZtea using your image in marketing materials and adding you to the GenZtea newsletter.",
+      "startDate": "2025-04-22T13:00:00-04:00",
+      "endDate": "2025-04-22T14:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "luma-event-28bfedf5.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/9ikai9z6",
+        "speakers": [
+          {
+            "name": "Natalie Neptune",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Natalie Neptune",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "venue": {
+          "name": "525 Greenwich StNew York, NY 10013, USA",
+          "address": "New York, NY 10013, USA",
+          "type": "Offline",
+          "room": "",
+          "additional_info": ""
+        },
+        "featured": false,
+        "social_links": [
+          "https://x.com/thegenZtea",
+          "https://linkedin.com/company/genztea",
+          "https://genztea.squarespace.com/",
+          "https://instagram.com/Yes",
+          "https://x.com/thegenZtea",
+          "https://linkedin.com/company/genztea",
+          "https://genztea.squarespace.com/",
+          "https://instagram.com/Yes"
+        ]
+      }
+    },
+    {
+      "id": "evt_com_genZtea_27f83c3e",
+      "name": "Gen Z NYC Founder & Creator Mixer",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_genZtea",
+      "description": "​As we embrace spring in 2025, take a moment to celebrate your entrepreneurial journey with us in East Village! Join fellow ONE-OF-A-KIND Gen Z founders for an intimate evening of connection, inspiration, and well-deserved self-care at our April mixer.​So what the heck is GenZtea?GenZtea's Mission: Empowering Gen Z founders, creators, and investors to unlock their full potential through personal branding, community support, and innovative resources. We're building a global network of young builders who are not just invited into the room but are leading it.​Want to stay in the loop? Join our brand new newsletter athttps://genztea.beehiiv.com/subscribefor monthly deep dives with Gen Z lens, event updates, and community highlights! Reach is the new resume.​DM me if you are interested in getting featured in newsletter​✨ Brand New​✨: Gen Z Marketplace​DM me on Luma to have your food brand represented IRL at this event!​​🎁 Event Highlights:​​• Network with fellow Gen Z entrepreneurs & creators​​• Share experiences and insights​​• Discover potential collaborations​​• Enjoy refreshments​Want to sponsor? Reach out here on Luma or email natalie@thegenztea.com​​** Please note, this event will be photographed and filmed. GenZtea reserves the rights to use photographs and video from the event for marketing and communication purposes. By attending this event you consent to your image being used for these purposes and being added to GenZtea newsletter. **",
+      "startDate": "2025-04-24T18:00:00-04:00",
+      "endDate": "2025-04-24T19:30:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "luma-event-f5992d43.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/53fvw452",
+        "speakers": [
+          {
+            "name": "Natalie Neptune",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Natalie Neptune",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "venue": {
+          "name": "109 3rd AveNew York, NY 10003, USA",
+          "address": "New York, NY 10003, USA",
+          "type": "Offline",
+          "room": "",
+          "additional_info": ""
+        },
+        "featured": false,
+        "social_links": [
+          "https://x.com/thegenZtea",
+          "https://linkedin.com/company/genztea",
+          "https://genztea.squarespace.com/",
+          "https://instagram.com/Yes",
+          "https://x.com/thegenZtea",
+          "https://linkedin.com/company/genztea",
+          "https://genztea.squarespace.com/",
+          "https://instagram.com/Yes"
+        ]
+      }
+    },
+    {
+      "id": "evt_com_acid_club_157f0ea9",
+      "name": "aci-d club weekly hang 017 *on wednesday now*",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_acid_club",
+      "description": "​WE'RE MOVING HANGS TO WEDNESDAYS FOR A BIT​Have a creative project you’ve been wanting to work on but can’t quite make the time for? Want to meet other designers in the city? Come hang with us!Show up with ideas and materials, leave with progress made, and a new friend or two.AGENDA7:00-7:30: intros7:30-8:30: work on (or start) a design project!8:30-9:00+: break into groups, share your WIPs, chat, mingle—Hosted attelos.haus",
+      "startDate": "2025-03-26T18:45:00-04:00",
+      "endDate": "2025-03-26T21:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "luma-event-e505e8ab.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/e/evt-pq13eUBZqSYCXvf",
+        "speakers": [
+          {
+            "name": "aci-d club",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "aci-d club",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "venue": {
+          "name": "Please register to see the exact location of this event.",
+          "address": "Kings County, New York",
+          "type": "Online",
+          "room": "",
+          "additional_info": ""
+        },
+        "featured": false,
+        "social_links": [
+          "https://instagram.com/aci_d.club",
+          "https://x.com/aci_dclub",
+          "https://aci-d.club",
+          "https://instagram.com/aci_d.club",
+          "https://instagram.com/aci_d.club",
+          "https://x.com/aci_dclub",
+          "https://aci-d.club",
+          "https://instagram.com/aci_d.club"
+        ]
+      }
+    },
+    {
+      "id": "evt_com_acid_club_af59734f",
+      "name": "aci-d trip : The Lubalin Archives",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_acid_club",
+      "description": "​Update:We’re sold out! We’ll likely do a second tour in April or May. Follow ourInstagramor subscribe to our luma calendar to hear about the announcement!​——​Join us for a visit to the Lubalin Archives at The Cooper Union.The Lubalin Center preserves the work of Herb Lubalin and other designers through an archive that includes drawings, type specimens, posters, logos, and advertising materials. Lubalin is a goated American Graphic Designer and this growing archive contain works not only by him but also Paul Rand, Milton Glaser, Massimo Vignelli, and many others.​The archive isn’t digitized so you literally won’t be able to find its stuff on are.na, Pinterest, google images etc. We’re moving beyond aesthetics and engaging with materiality and context, folks! As someone who has visited the archives, I’d say it contains some of the best design references in the country.​We’re getting a hands-on presentation of a selection of material which lasts about an hour and a half. It's a closer look at some of the objects in the collection, the stories behind them, and what they can teach us about making work today. The emphasis is on ways we can make active use of design history as contemporary practitioners. The curators will use physical examples from the collection to construct specific case studies of ways we can look at objects to inform today's design decisions.​The Center usually doesn’t host groups past 3 PM, but they’ve graciously agreed to keep the archive open for us until 6 PM on Friday, allowing for a 4 PM start. You may need to leave work a little early, but it’s a Friday and well worth it.",
+      "startDate": "2025-03-28T15:30:00-04:00",
+      "endDate": "2025-03-28T18:15:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "luma-event-3debb4f1.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/e/evt-v8lhdyVVBBC8LvB",
+        "speakers": [
+          {
+            "name": "Arjun",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "aci-d club",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Arjun",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "aci-d club",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "venue": {
+          "name": "Please register to see the exact location of this event.",
+          "address": "New York, New York",
+          "type": "Online",
+          "room": "",
+          "additional_info": ""
+        },
+        "featured": false,
+        "social_links": [
+          "https://instagram.com/aci_d.club",
+          "https://x.com/aci_dclub",
+          "https://aci-d.club",
+          "https://instagram.com/aci_d.club",
+          "https://instagram.com/aci_d.club",
+          "https://x.com/aci_dclub",
+          "https://aci-d.club",
+          "https://instagram.com/aci_d.club"
+        ]
+      }
+    }
+  ]
+}
