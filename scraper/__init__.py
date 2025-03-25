@@ -1,0 +1,1 @@
+# Make the scraper directory a Python package 
