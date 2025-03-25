@@ -149,11 +149,21 @@ def load_auxiliary_data():
     locations = {}
     
     try:
-        with open('data/communities.json', 'r', encoding='utf-8') as f:
+        # Get the root directory path
+        current_dir = os.path.dirname(os.path.abspath(__file__))
+        root_dir = os.path.dirname(os.path.dirname(os.path.dirname(current_dir)))
+        
+        # Construct paths to the auxiliary data files
+        communities_file = os.path.join(root_dir, 'public', 'data', 'communities.json')
+        locations_file = os.path.join(root_dir, 'public', 'data', 'locations.json')
+        
+        # Load communities data
+        with open(communities_file, 'r', encoding='utf-8') as f:
             communities_data = json.load(f)
             communities = {com['id']: com for com in communities_data.get('communities', [])}
             
-        with open('data/locations.json', 'r', encoding='utf-8') as f:
+        # Load locations data
+        with open(locations_file, 'r', encoding='utf-8') as f:
             locations_data = json.load(f)
             locations = {loc['id']: loc for loc in locations_data.get('locations', [])}
     except Exception as e:

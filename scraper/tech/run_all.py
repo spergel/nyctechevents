@@ -11,22 +11,13 @@ import argparse
 import traceback
 import importlib
 from typing import List, Dict, Any
+import atexit
 
 # Add the parent directory to the Python path
 sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 
 # Import scrapers list
 from scraper.tech.scrapers.calendar_configs import SCRAPERS
-
-# Configure logging
-logging.basicConfig(
-    level=logging.INFO,
-    format='%(asctime)s - %(levelname)s - %(message)s',
-    handlers=[
-        logging.FileHandler('scraper.log'),
-        logging.StreamHandler()
-    ]
-)
 
 # Setup paths
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -35,6 +26,42 @@ DATA_DIR = os.path.join(TECH_DIR, 'data')
 
 # Ensure data directory exists
 os.makedirs(DATA_DIR, exist_ok=True)
+
+# Configure logging
+log_file_handler = None
+
+def setup_logging():
+    global log_file_handler
+    
+    # Configure root logger
+    root_logger = logging.getLogger()
+    root_logger.setLevel(logging.INFO)
+    
+    # Create formatters
+    formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
+    
+    # Create handlers
+    console_handler = logging.StreamHandler()
+    console_handler.setFormatter(formatter)
+    
+    log_file_handler = logging.FileHandler('scraper.log')
+    log_file_handler.setFormatter(formatter)
+    
+    # Add handlers to logger
+    root_logger.addHandler(console_handler)
+    root_logger.addHandler(log_file_handler)
+    
+    # Register cleanup function
+    atexit.register(cleanup_logging)
+    
+def cleanup_logging():
+    global log_file_handler
+    if log_file_handler:
+        log_file_handler.close()
+        logging.getLogger().removeHandler(log_file_handler)
+
+# Initialize logging
+setup_logging()
 
 def run_scrapers() -> List[str]:
     """Run all scrapers and return list of output files."""
@@ -83,6 +110,12 @@ def combine_event_files(input_files: List[str], output_file: str = None) -> str:
                     all_events.extend(data['events'])
                 elif isinstance(data, list):
                     all_events.extend(data)
+        except FileNotFoundError:
+            logging.error(f"File not found: {file_path}")
+            continue
+        except json.JSONDecodeError:
+            logging.error(f"Invalid JSON in file: {file_path}")
+            continue
         except Exception as e:
             logging.error(f"Error reading file {file_path}: {e}")
             continue
@@ -146,34 +179,48 @@ def main():
         if arg == '--output' and i + 1 < len(sys.argv):
             output_file = sys.argv[i + 1]
     
-    # Run scrapers
-    event_files = run_scrapers()
-    
-    if not event_files:
-        logging.error("No event files were generated. Exiting.")
-        return
-    
-    # Combine events
-    combined_file = combine_event_files(event_files)
-    if not combined_file:
-        logging.error("Failed to combine event files. Exiting.")
-        return
-    
-    # Run categorization
-    if not run_categorization(combined_file, output_file):
-        logging.error("Failed to categorize events. Exiting.")
-        return
-    
-    # If output file specified, copy combined events there
-    if output_file:
-        try:
-            with open(combined_file, 'r', encoding='utf-8') as f:
-                data = json.load(f)
-            with open(output_file, 'w', encoding='utf-8') as f:
-                json.dump(data, f, indent=2, ensure_ascii=False)
-            logging.info(f"Saved events to {output_file}")
-        except Exception as e:
-            logging.error(f"Error saving to output file: {e}")
+    try:
+        # Run scrapers
+        event_files = run_scrapers()
+        
+        if not event_files:
+            logging.error("No event files were generated. Exiting.")
+            return
+        
+        # Combine events
+        combined_file = combine_event_files(event_files)
+        if not combined_file:
+            logging.error("Failed to combine event files. Exiting.")
+            return
+        
+        # Run categorization
+        if not run_categorization(combined_file, output_file):
+            logging.error("Failed to categorize events. Exiting.")
+            return
+        
+        # If output file specified, copy combined events there
+        if output_file:
+            data = None
+            try:
+                with open(combined_file, 'r', encoding='utf-8') as f:
+                    data = json.load(f)
+            except Exception as e:
+                logging.error(f"Error reading combined file for output: {e}")
+                return
+                
+            try:
+                with open(output_file, 'w', encoding='utf-8') as f:
+                    json.dump(data, f, indent=2, ensure_ascii=False)
+                logging.info(f"Saved events to {output_file}")
+            except Exception as e:
+                logging.error(f"Error saving to output file: {e}")
+                
+    except Exception as e:
+        logging.error(f"Unexpected error in main function: {e}")
+        logging.error(traceback.format_exc())
+    finally:
+        # Make sure logging is properly shut down
+        cleanup_logging()
 
 if __name__ == "__main__":
     main() 
