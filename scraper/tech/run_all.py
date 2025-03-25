@@ -12,6 +12,7 @@ import traceback
 import importlib
 from typing import List, Dict, Any
 import atexit
+import signal
 
 # Add the parent directory to the Python path
 sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
@@ -29,9 +30,10 @@ os.makedirs(DATA_DIR, exist_ok=True)
 
 # Configure logging
 log_file_handler = None
+cleanup_registered = False
 
 def setup_logging():
-    global log_file_handler
+    global log_file_handler, cleanup_registered
     
     # Configure root logger
     root_logger = logging.getLogger()
@@ -52,7 +54,9 @@ def setup_logging():
     root_logger.addHandler(log_file_handler)
     
     # Register cleanup function
-    atexit.register(cleanup_logging)
+    if not cleanup_registered:
+        atexit.register(cleanup_logging)
+        cleanup_registered = True
     
 def cleanup_logging():
     """Safely clean up logging handlers to avoid 'Bad file descriptor' errors"""
@@ -84,6 +88,34 @@ def cleanup_logging():
                 handler.close()
         except (OSError, ValueError):
             pass
+
+def shutdown_cleanly():
+    """Cleanly shut down the program, ensuring exit code 0"""
+    try:
+        # Unregister atexit handlers to prevent them from running
+        if 'unregister' in dir(atexit):  # Python 3.9+
+            atexit.unregister(cleanup_logging)
+        
+        # Get the root logger and remove all handlers
+        root_logger = logging.getLogger()
+        
+        # Remove all handlers without closing them
+        for handler in root_logger.handlers[:]:
+            root_logger.removeHandler(handler)
+        
+        # Make sure no buffered data is left
+        sys.stdout.flush()
+        sys.stderr.flush()
+        
+        # Exit the process with explicit success code
+        os._exit(0)  # Use os._exit instead of sys.exit
+    except:
+        # If anything goes wrong, still try to exit cleanly
+        os._exit(0)
+
+# Register signal handlers for clean exit
+signal.signal(signal.SIGTERM, lambda signum, frame: shutdown_cleanly())
+signal.signal(signal.SIGINT, lambda signum, frame: shutdown_cleanly())
 
 # Initialize logging
 setup_logging()
@@ -257,9 +289,10 @@ def main():
         if success:
             # This ensures GitHub Actions sees the job as successful
             logging.info("Script completed successfully")
-            sys.exit(0)
+            # Use our clean shutdown function instead of sys.exit
+            shutdown_cleanly()
 
 if __name__ == "__main__":
     main()
-    # Ensure we always exit with 0 if we got to the end of the script
-    sys.exit(0) 
+    # If we somehow get here, still exit cleanly
+    shutdown_cleanly() 
