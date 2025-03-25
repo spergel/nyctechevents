@@ -39,11 +39,23 @@ jobs:
           
       - name: Run scrapers
         run: |
+          # Debug directory structure
+          echo "Current working directory: $(pwd)"
+          echo "Checking if scraper/tech exists:"
+          if [ -d "scraper/tech" ]; then
+            echo "scraper/tech directory exists"
+          else
+            echo "scraper/tech directory does NOT exist"
+            echo "Available directories in scraper:"
+            ls -la scraper/
+          fi
+          
           # Add the scraper directory to PYTHONPATH
-          export PYTHONPATH=$PYTHONPATH:$(pwd)/scraper
+          export PYTHONPATH=$PYTHONPATH:$(pwd)
           echo "PYTHONPATH is now: $PYTHONPATH"
-          cd scraper/tech
-          python run_all.py
+          
+          # Run the script using the module path instead of changing directory
+          python -m scraper.tech.run_all --output public/data/events.json
         
       - name: Commit and push if changed
         run: |

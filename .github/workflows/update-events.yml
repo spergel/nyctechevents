@@ -27,7 +27,22 @@ jobs:
           pip install -r scraper/requirements.txt
 
       - name: Run event scrapers
-        run: python -m scraper.tech.run_all --output public/data/events.json
+        run: |
+          # Debug directory structure
+          echo "Current working directory: $(pwd)"
+          echo "Checking if scraper/tech exists:"
+          if [ -d "scraper/tech" ]; then
+            echo "scraper/tech directory exists"
+          else
+            echo "scraper/tech directory does NOT exist"
+            echo "Available directories in scraper:"
+            ls -la scraper/
+          fi
+          
+          # Set PYTHONPATH and run the scraper
+          export PYTHONPATH=$PYTHONPATH:$(pwd)
+          echo "Running scraper with PYTHONPATH: $PYTHONPATH"
+          python -m scraper.tech.run_all --output public/data/events.json
         
       - name: Check for changes
         id: git-check
