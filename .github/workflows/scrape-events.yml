@@ -34,6 +34,8 @@ jobs:
           
       - name: Run scrapers
         run: |
+          # Add the current directory to PYTHONPATH
+          export PYTHONPATH=$PYTHONPATH:$(pwd)
           cd scraper/tech
           python run_all.py
         
