@@ -849,36 +849,28 @@ def process_events(events):
     
     return processed_events
 
-def main():
-    """Main entry point"""
-    parser = argparse.ArgumentParser(description='Categorize events from JSON file')
-    parser.add_argument('input_file', help='Input JSON file containing events')
-    parser.add_argument('output_file', help='Output JSON file to write categorized events')
-    args = parser.parse_args()
-    
+def main(input_file=None, output_file=None):
+    """Main function to run event categorization"""
     try:
-        # Load events
-        with open(args.input_file, 'r', encoding='utf-8') as f:
-            data = json.load(f)
-            events = data.get('events', [])
-        
+        # Load events from input file
+        events = load_events(input_file) if input_file else []
         if not events:
-            logging.error(f"No events found in {args.input_file}")
-            return 1
-            
+            logging.error("No events loaded")
+            return False
+
         # Process events
         processed_events = process_events(events)
         
-        # Write output
-        with open(args.output_file, 'w', encoding='utf-8') as f:
-            json.dump({'events': processed_events}, f, indent=2, ensure_ascii=False)
-            
-        logging.info(f"\nCategorized events written to {args.output_file}")
-        return 0
+        # Save categorized events
+        if output_file:
+            save_categorized_events(processed_events, output_file)
+            logging.info(f"Saved {len(processed_events)} categorized events to {output_file}")
+        
+        return True
         
     except Exception as e:
-        logging.error(f"Error processing events: {str(e)}")
-        return 1
+        logging.error(f"Error in categorization: {str(e)}")
+        return False
 
 def ensure_ascii_safe(text):
     """Ensure text is safely represented for logging, handling all Unicode characters.
@@ -928,4 +920,9 @@ def ensure_ascii_safe(text):
             return repr(text)
 
 if __name__ == '__main__':
-    sys.exit(main()) 
+    parser = argparse.ArgumentParser(description='Categorize tech events')
+    parser.add_argument('input_file', help='Path to input JSON file containing events')
+    parser.add_argument('output_file', help='Path to output JSON file for categorized events')
+    args = parser.parse_args()
+    
+    sys.exit(0 if main(args.input_file, args.output_file) else 1) 

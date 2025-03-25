@@ -1,42 +1,6 @@
 {
   "events": [
     {
-      "id": "evt_pioneer_5b4fcda1",
-      "name": "Warpmode: Afropocalypse ",
-      "type": "Cultural Event",
-      "locationId": "loc_pioneer_works",
-      "communityId": "com_pioneer_works",
-      "description": "Black Beyond’s Warpmode is a conceptual card game and social experience created by artist Jazsalyn to stimulate conversations grounded in Black Metatheo...",
-      "startDate": "2025-03-23T20:00:00+00:00",
-      "endDate": "2025-03-24T03:00:00+00:00",
-      "category": [
-        "Arts",
-        "Music",
-        "Science"
-      ],
-      "price": null,
-      "registrationRequired": true,
-      "tags": [],
-      "image": [
-        "https://cdn.sanity.io/images/vgvol637/production/8de4382391a4c2ac48e5d2e9b62bc431bbc58adc-3000x2003.jpg?w=800"
-      ],
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://pioneerworks.org/programs/black-beyond-warpmode-jazsalyn-american-artist",
-        "organizer": {
-          "name": "Pioneer Works",
-          "instagram": "@pioneerworks",
-          "email": "info@pioneerworks.org"
-        },
-        "venue": {
-          "name": "Pioneer Works",
-          "address": "159 Pioneer Street",
-          "type": "Cultural Institution"
-        },
-        "featured": false
-      }
-    },
-    {
       "id": "evt_pioneer_83057435",
       "name": "Astrid Sonne, Tarta Relena, Jules Reidy",
       "type": "Cultural Event",
@@ -187,7 +151,7 @@
       "locationId": "loc_pioneer_works",
       "communityId": "com_pioneer_works",
       "description": "False Harmonics #23: Brìghde Chaimbeul, Cleek Schrey & Nora Brown, Laura OrtmanFor the 23rd iteration, False Harmonics welcomes Scottish piper Brìghde C...",
-      "startDate": "2025-04-09T00:00:00+00:00",
+      "startDate": "2025-04-08T23:30:00+00:00",
       "endDate": "2025-04-09T03:00:00+00:00",
       "category": [
         "Arts",
@@ -270,7 +234,7 @@
       "registrationRequired": true,
       "tags": [],
       "image": [
-        "https://cdn.sanity.io/images/vgvol637/production/03cda9c81901e1e62e3d61fd1e97b3c037ecf50f-1590x2400.jpg?w=800"
+        "https://cdn.sanity.io/images/vgvol637/production/25fcf8965ea3b6b1def2f8fa38cf90c1ef42cb4a-1200x751.png?w=800"
       ],
       "status": "upcoming",
       "metadata": {

@@ -9,7 +9,7 @@ from bs4 import BeautifulSoup
 from typing import Dict, List, Optional
 from datetime import datetime, UTC
 from icalendar import Calendar
-from tech.scrapers.calendar_configs import ICS_CALENDARS
+from scraper.tech.scrapers.calendar_configs import ICS_CALENDARS
 import ics
 
 # Setup paths

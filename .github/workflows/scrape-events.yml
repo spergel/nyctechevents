@@ -29,13 +29,19 @@ jobs:
             pip install requests beautifulsoup4 pandas lxml tqdm python-dateutil ics
           fi
           
-      - name: List directory structure
-        run: find . -type d | sort
+      - name: Debug directory structure
+        run: |
+          echo "Current working directory: $(pwd)"
+          echo "Directory contents:"
+          ls -la
+          echo "Full directory tree:"
+          find . -type d | sort
           
       - name: Run scrapers
         run: |
-          # Add the current directory to PYTHONPATH
-          export PYTHONPATH=$PYTHONPATH:$(pwd)
+          # Add the scraper directory to PYTHONPATH
+          export PYTHONPATH=$PYTHONPATH:$(pwd)/scraper
+          echo "PYTHONPATH is now: $PYTHONPATH"
           cd scraper/tech
           python run_all.py
         

@@ -7862,6 +7862,391 @@
           "type": "Other"
         }
       }
+    },
+    {
+      "id": "evt_gary_eaf534e3",
+      "name": "Cornell Tech @ Bloomberg w/ Flybridge Capital",
+      "type": "Event",
+      "locationId": "loc_tbd",
+      "communityId": "com_gary",
+      "description": "**NOTE: This month's Cornell Tech @ Bloomberg event will be hosted at Bloomberg's 120 Park Avenue office. Please check the WHEN & WHERE section below for details.**\r Bloomberg, Cornell Tech, & Tech:NYC invite you to join us for the latest installment of the Cornell Tech @ Bloomberg Speaker Series, featuring Jesse Middleton, General Partner at Flybridge, in conversation with Isabelle Lee, Cross-Asset Reporter with Bloomberg News.\r Flybridge is an early-stage venture fund that backs ambitious founders building our AI future, & has invested in companies like MongoDB, FalconX, Nasuni, BitSight, Codecademy, Chief, & Zest AI - typically leading the seed rounds. Since joining Flybridge in 2016, Middleton has been instrumental in leading investments in companies such as Arcee, CarEdge, Chief, HiFi (acquired by Square), Imperfect Foods (acquired by Misfits Markets), Splice, & Teal. His investments focus on Full-Stack AI Native Applications, & he most recently created Next Wave NYC, a pre-seed fund that allows builders of iconic New York companies to back the next generation of founders in their community. Flybridge also recently released a founder-friendly, AI-powered investment memo generator.\r Jesse spotted the remote work revolution over a decade before the COVID-19 pandemic. He has turned his prescient market insights into extraordinary returns for founders & investors alike. As an early WeWork executive who helped scale the company to 4,000 employees across multiple continents, & later as an angel investor with a 16x portfolio multiple on invested capital (MOIC), Jesse has consistently supported transformative companies reshaping how we work, collaborate, & build community.\r We hope you'll register for the opportunity to attend this engaging conversation, in which Middleton will share insights from his extensive experience in venture capital & startups, discuss his vision for the future of work, & explore navigating the evolving tech landscape & the role of community in fostering innovation.\r Agenda\r5:30 PM\rNetworking reception begins\r 6:00 PM\rDoors close, conversation starts\r 6:45 PM\rAudience Q&A\r 7:00 PM\rNetworking & hors d'oeuvres to follow\r 7:45 PM\rFood service ends\r PLEASE NOTE: Seating is limited & registered attendees will be seated on a first-come, first-served basis. Doors close promptly at the top of the hour. Individuals arriving late may be turned away from the building. No walk-ins will be allowed.",
+      "startDate": "2025-03-26T17:30:00-04:00",
+      "endDate": "2025-03-26T19:00:00-04:00",
+      "category": [
+        "Event",
+        "AI",
+        "Business"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [
+        "AI",
+        "Business",
+        "Tech"
+      ],
+      "image": "gary-event.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.garysguide.com/events/5j7lmtv/Cornell-Tech-Bloomberg-w-Flybridge-Capital",
+        "registration_url": "http://gary.to/zmjsjfl",
+        "speakers": [
+          {
+            "name": "Jesse Middleton",
+            "title": "Flybridge Capital",
+            "company": ""
+          }
+        ],
+        "venue": {
+          "name": "Cornell Tech @ Bloomberg w/ Flybridge Capital\n\u00a0\n\nWith Jesse Middleton (Flybridge Capital).\n\nBloomberg",
+          "address": "120 Park Ave, New York\n\n\nMar 26 (Wed) , 2025 @ 05:30 PM\n\n\nFREE\n\n\n\u00a0\n\n\nRegister\u00a0\n\n Export GoogleYahooApple iCalOutlook\u00a0\n\n\n\n\n\n\n\n\n\n\n\u00a0\nDETAILS\n\n\n\n**NOTE: This month's Cornell Tech @ Bloomberg event will be hosted at Bloomberg's 120 Park Avenue office. Please check the WHEN & WHERE section below for details.**\r Bloomberg, Cornell Tech, & Tech:NYC invite you to join us for the latest installment of the Cornell Tech @ Bloomberg Speaker Series, featuring Jesse Middleton, General Partner at Flybridge, in conversation with Isabelle Lee, Cross-Asset Reporter with Bloomberg News.\r Flybridge is an early-stage venture fund that backs ambitious founders building our AI future, & has invested in companies like MongoDB, FalconX, Nasuni, BitSight, Codecademy, Chief, & Zest AI - typically leading the seed rounds. Since joining Flybridge in 2016, Middleton has been instrumental in leading investments in companies such as Arcee, CarEdge, Chief, HiFi (acquired by Square), Imperfect Foods (acquired by Misfits Markets), Splice, & Teal. His investments focus on Full-Stack AI Native Applications, & he most recently created Next Wave NYC, a pre-seed fund that allows builders of iconic New York companies to back the next generation of founders in their community. Flybridge also recently released a founder-friendly, AI-powered investment memo generator.\r Jesse spotted the remote work revolution over a decade before the COVID-19 pandemic. He has turned his prescient market insights into extraordinary returns for founders & investors alike. As an early WeWork executive who helped scale the company to 4,000 employees across multiple continents, & later as an angel investor with a 16x portfolio multiple on invested capital (MOIC), Jesse has consistently supported transformative companies reshaping how we work, collaborate, & build community.\r We hope you'll register for the opportunity to attend this engaging conversation, in which Middleton will share insights from his extensive experience in venture capital & startups, discuss his vision for the future of work, & explore navigating the evolving tech landscape & the role of community in fostering innovation.\r Agenda\r5:30 PM\rNetworking reception begins\r 6:00 PM\rDoors close, conversation starts\r 6:45 PM\rAudience Q&A\r 7:00 PM\rNetworking & hors d'oeuvres to follow\r 7:45 PM\rFood service ends\r PLEASE NOTE: Seating is limited & registered attendees will be seated on a first-come, first-served basis. Doors close promptly at the top of the hour. Individuals arriving late may be turned away from the building. No walk-ins will be allowed.",
+          "type": "Other"
+        }
+      }
+    },
+    {
+      "id": "evt_gary_79b2a6d5",
+      "name": "AI & Future Of Tech Talent",
+      "type": "Event",
+      "locationId": "loc_tbd",
+      "communityId": "com_gary",
+      "description": "In this rapidly evolving era of AI, what skills will define the next generation of technical talent? How do industry shifts & diversity of thought shape innovation? Join Northeastern computer science faculty & distinguished industry tech leaders for a thought-provoking discussion on what it takes to thrive in this changing landscape. \r As Northeastern expands into New York City through its integration with Marymount Manhattan College, the university is bringing its signature focus on experiential learning & industry collaboration to the heart of the tech capital. \r Agenda:\r- Networking + Refreshments\r- Panel Discussion with Nick Peddy - CTO for Clear & Peggy tsAI, Field Chief Data Officer for BigID, moderated by Professor Laney Strange from Northeastern University\r- Networking",
+      "startDate": "2025-03-27T18:00:00-04:00",
+      "endDate": "2025-03-27T19:30:00-04:00",
+      "category": [
+        "Event",
+        "AI",
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [
+        "AI",
+        "Tech"
+      ],
+      "image": "gary-event.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.garysguide.com/events/4munus5/AI-Future-Of-Tech-Talent",
+        "registration_url": "http://gary.to/0g63260",
+        "speakers": [
+          {
+            "name": "Nick Peddy (CTO",
+            "title": "",
+            "company": ""
+          },
+          {
+            "name": "Clear)",
+            "title": "",
+            "company": ""
+          },
+          {
+            "name": "Laney Strange (Dir",
+            "title": "",
+            "company": ""
+          }
+        ],
+        "venue": {
+          "name": "AI & Future Of Tech Talent\n\u00a0\n\nWith Nick Peddy (CTO",
+          "address": "Clear), Laney Strange (Dir. Broadening Participation, Boston).\n\nMarymount Manhattan College, 221 E 71st St, The Commons, New York\n\n\nMar 27 (Thu) , 2025 @ 06:00 PM\n\n\nFREE\n\n\n\u00a0\n\n\nRegister\u00a0\n\n Export GoogleYahooApple iCalOutlook\u00a0\n\n\n\n\n\n\n\n\n\n\n\u00a0\nDETAILS\n\n\n\nIn this rapidly evolving era of AI, what skills will define the next generation of technical talent? How do industry shifts & diversity of thought shape innovation? Join Northeastern computer science faculty & distinguished industry tech leaders for a thought-provoking discussion on what it takes to thrive in this changing landscape. \r As Northeastern expands into New York City through its integration with Marymount Manhattan College, the university is bringing its signature focus on experiential learning & industry collaboration to the heart of the tech capital. \r Agenda:\r- Networking + Refreshments\r- Panel Discussion with Nick Peddy - CTO for Clear & Peggy tsAI, Field Chief Data Officer for BigID, moderated by Professor Laney Strange from Northeastern University\r- Networking",
+          "type": "Other"
+        }
+      }
+    },
+    {
+      "id": "evt_gary_b783fabe",
+      "name": "GenAI Collective Technical Roundtable",
+      "type": "Event",
+      "locationId": "loc_tbd",
+      "communityId": "com_gary",
+      "description": "Join us for the third technical event of 2025! The focus this time is on open source.nThe event is cohosted with AI Review & Permanence & takes place in a beautiful venue near Grand Central Terminal.nWho Should AttendnThis event is designed for researchers, engineers, founders, investors, & all enthusiasts passionate about the latest in Generative AI.nWhat to ExpectnSpeaker Presentations: Learn from top researchers about the latest in AI research.nInteractive Q&A Sessions: Engage with experts, ask questions, & gain a deeper understanding of the topics discussed.nNetworking Opportunities: Connect with like-minded professionals, exchange ideas, & explore collaborative opportunities in the field of Generative AI & software development.nFeatured SpeakersnGanapathi Krishnamoorthi is a Principal ML Solutions Architect at AWS. He creates & evolves solutions architecture strategies to drive customer success. With a strong background in data engineering & cloud migration, he leads clients through complex ML deployments, focusing on Generative AI & open-source solutions.nKunal Sawarkar is a highly accomplished AI expert & entrepreneur, serving as Distinguished Engineer & Chief AI Scientist at IBM. His expertise spans the entire machine learning lifecycle, with a focus on Generative AI & deep learning. A Master Inventor with 20+ patents, he also actively invests in & advises startups focused on ClimateTech & AI4Good. Additionally, he is the author of",
+      "startDate": "2025-03-28T18:30:00-04:00",
+      "endDate": "2025-03-28T20:00:00-04:00",
+      "category": [
+        "Event",
+        "AI",
+        "Business"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [
+        "AI",
+        "Business",
+        "Tech"
+      ],
+      "image": "gary-event.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.garysguide.com/events/csf5pxd/GenAI-Collective-Technical-Roundtable",
+        "registration_url": "http://gary.to/mml5o3b",
+        "speakers": [
+          {
+            "name": "Kunal Sawarkar (Chief AI Scientist",
+            "title": "",
+            "company": ""
+          },
+          {
+            "name": "IBM)",
+            "title": "",
+            "company": ""
+          },
+          {
+            "name": "Ganapathi Krishnamoorthi (Principal ML Solns Architect",
+            "title": "",
+            "company": ""
+          },
+          {
+            "name": "Amazon AWS)",
+            "title": "",
+            "company": ""
+          }
+        ],
+        "venue": {
+          "name": "GenAI Collective Technical Roundtable\n\u00a0\n\nWith Kunal Sawarkar (Chief AI Scientist",
+          "address": "IBM), Ganapathi Krishnamoorthi (Principal ML Solns Architect, Amazon AWS).\n\nVenue, To Be Announced, New York\n\n\nMar 28 (Fri) , 2025 @ 06:30 PM\n\n\nFREE\n\n\n\u00a0\n\n\nRegister\u00a0\n\n Export GoogleYahooApple iCalOutlook\u00a0\n\n\n\n\n\n\n\n\n\n\n\u00a0\nDETAILS\n\n\n\nJoin us for the third technical event of 2025! The focus this time is on open source.nThe event is cohosted with AI Review & Permanence & takes place in a beautiful venue near Grand Central Terminal.nWho Should AttendnThis event is designed for researchers, engineers, founders, investors, & all enthusiasts passionate about the latest in Generative AI.nWhat to ExpectnSpeaker Presentations: Learn from top researchers about the latest in AI research.nInteractive Q&A Sessions: Engage with experts, ask questions, & gain a deeper understanding of the topics discussed.nNetworking Opportunities: Connect with like-minded professionals, exchange ideas, & explore collaborative opportunities in the field of Generative AI & software development.nFeatured SpeakersnGanapathi Krishnamoorthi is a Principal ML Solutions Architect at AWS. He creates & evolves solutions architecture strategies to drive customer success. With a strong background in data engineering & cloud migration, he leads clients through complex ML deployments, focusing on Generative AI & open-source solutions.nKunal Sawarkar is a highly accomplished AI expert & entrepreneur, serving as Distinguished Engineer & Chief AI Scientist at IBM. His expertise spans the entire machine learning lifecycle, with a focus on Generative AI & deep learning. A Master Inventor with 20+ patents, he also actively invests in & advises startups focused on ClimateTech & AI4Good. Additionally, he is the author of",
+          "type": "Other"
+        }
+      }
+    },
+    {
+      "id": "evt_gary_6fa4ea7b",
+      "name": "Scaling Enterprise AI Agents - From 0 To Seed",
+      "type": "Event",
+      "locationId": "loc_tbd",
+      "communityId": "com_gary",
+      "description": "Scaling Enterprise AI Agents: From 0 to Seed\r  Date: April 1st, 2025 |  Time: 5:30 PM - 7:30 PM\r Location: Comcast Ventures Office\r Capacity: Limited to 50 attendees\r Join Glasswing, Comcast, & Headline for an exclusive AI Agent Week panel featuring founders who are actively deploying AI agents in production. This discussion will dive into real-world applications, scaling challenges, & the future of AI agents in enterprise settings. Whether you're building, investing, or exploring AI agent use cases, this event will offer practical insights from those shaping the space. We'll also have drinks & light bites!\r What to Expect:\r  How AI agents are being used in production today\r Challenges & best practices for scaling AI-driven companies\r The best tech stacks for AI agent deployment\r Emerging trends & investment opportunities in the AI agent space\r Panelists & Moderator:\r  VC-backed startup founders leveraging AI agents for real impact:\r Britt O'Daly, CEO of Treater - Seed Stage\r AI agents to help consumer brands optimize retail sales by automating store-level engagement, ensuring products are stocked, promotions are executed, & revenue opportunities are maximized.\r Ethan Ding, CEO of TextQL - Seed Stage\r AI agents to enable translation of natural language queries into SQL, allowing users to interact with structured data using simple, conversational commands.\r Sarmad Qadri, CEO of Last Mile AI - Seed Stage\r Enables developers to build, deploy, & manage AI agents more efficiently by providing a streamlined platform for integrating models, data, & workflows into real-world applications.\r   Moderator: James Massaquoi, Senior Associate at Glasswing Ventures\r Hosted By:\r Glasswing Ventures, Comcast Ventures, & Headline\r  Limited spots available - secure your seat now!\r This is not the official AI Agent Week NYC event, but rather a CrewAI-hosted subsidiary gathering to connect, collaborate, & dive into the latest in AI agents. Expect insightful discussions, networking with like-minded professionals, & hands-on exploration of CrewAI's multi-agent systems.\r A huge thank you to the incredible sponsors who have made the main NYC event possible.\r Special appreciation goes to our Platinum Sponsors :\r Amazon\r Cloudera\r CapGemini\r Deloitte\r PwC\r And to our Gold Sponsors:\r Arize\r Brex\r Centrilogic\r CopilotKit\r Groq\r #nyc #newyork #ai",
+      "startDate": "2025-04-01T17:30:00-04:00",
+      "endDate": "2025-04-01T19:00:00-04:00",
+      "category": [
+        "Event",
+        "AI",
+        "Business"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [
+        "AI",
+        "Business",
+        "Tech"
+      ],
+      "image": "gary-event.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.garysguide.com/events/8797y0g/Scaling-Enterprise-AI-Agents-From-0-To-Seed",
+        "registration_url": "http://gary.to/fzf2aao",
+        "speakers": [
+          {
+            "name": "Britt O'Daly (CEO",
+            "title": "",
+            "company": ""
+          },
+          {
+            "name": "Treater)",
+            "title": "",
+            "company": ""
+          },
+          {
+            "name": "Ethan Ding (CEO",
+            "title": "",
+            "company": ""
+          },
+          {
+            "name": "TextQL)",
+            "title": "",
+            "company": ""
+          },
+          {
+            "name": "Sarmad Qadri (CEO",
+            "title": "",
+            "company": ""
+          },
+          {
+            "name": "Last Mile AI)",
+            "title": "",
+            "company": ""
+          }
+        ],
+        "venue": {
+          "name": "Scaling Enterprise AI Agents - From 0 To Seed\n\u00a0\n\nWith Britt O'Daly (CEO",
+          "address": "Treater), Ethan Ding (CEO, TextQL), Sarmad Qadri (CEO, Last Mile AI).\n\nVenue, To Be Announced, New York\n\n\nApr 01 (Tue) , 2025 @ 05:30 PM\n\n\nFREE\n\n\n\u00a0\n\n\nRegister\u00a0\n\n Export GoogleYahooApple iCalOutlook\u00a0\n\n\n\n\n\n\n\n\n\n\n\u00a0\nDETAILS\n\n\n\nScaling Enterprise AI Agents: From 0 to Seed\r  Date: April 1st, 2025 |  Time: 5:30 PM - 7:30 PM\r Location: Comcast Ventures Office\r Capacity: Limited to 50 attendees\r Join Glasswing, Comcast, & Headline for an exclusive AI Agent Week panel featuring founders who are actively deploying AI agents in production. This discussion will dive into real-world applications, scaling challenges, & the future of AI agents in enterprise settings. Whether you're building, investing, or exploring AI agent use cases, this event will offer practical insights from those shaping the space. We'll also have drinks & light bites!\r What to Expect:\r  How AI agents are being used in production today\r Challenges & best practices for scaling AI-driven companies\r The best tech stacks for AI agent deployment\r Emerging trends & investment opportunities in the AI agent space\r Panelists & Moderator:\r  VC-backed startup founders leveraging AI agents for real impact:\r Britt O'Daly, CEO of Treater - Seed Stage\r AI agents to help consumer brands optimize retail sales by automating store-level engagement, ensuring products are stocked, promotions are executed, & revenue opportunities are maximized.\r Ethan Ding, CEO of TextQL - Seed Stage\r AI agents to enable translation of natural language queries into SQL, allowing users to interact with structured data using simple, conversational commands.\r Sarmad Qadri, CEO of Last Mile AI - Seed Stage\r Enables developers to build, deploy, & manage AI agents more efficiently by providing a streamlined platform for integrating models, data, & workflows into real-world applications.\r   Moderator: James Massaquoi, Senior Associate at Glasswing Ventures\r Hosted By:\r Glasswing Ventures, Comcast Ventures, & Headline\r  Limited spots available - secure your seat now!\r This is not the official AI Agent Week NYC event, but rather a CrewAI-hosted subsidiary gathering to connect, collaborate, & dive into the latest in AI agents. Expect insightful discussions, networking with like-minded professionals, & hands-on exploration of CrewAI's multi-agent systems.\r A huge thank you to the incredible sponsors who have made the main NYC event possible.\r Special appreciation goes to our Platinum Sponsors :\r Amazon\r Cloudera\r CapGemini\r Deloitte\r PwC\r And to our Gold Sponsors:\r Arize\r Brex\r Centrilogic\r CopilotKit\r Groq\r #nyc #newyork #ai",
+          "type": "Other"
+        }
+      }
+    },
+    {
+      "id": "evt_gary_de7c86fb",
+      "name": "Insurtech Conference",
+      "type": "Conference",
+      "locationId": "loc_tbd",
+      "communityId": "com_gary",
+      "description": "About the InsurTech Conference\rJoin us at the 6th annual InsurTech Conference held on April 2-3, 2025.\rThis InsurTech Conference will bring together traditional insurers, InsurTechs, investors, & other solution providers to support the InsurTech community. Presentations will be divided into two content areas: (1) Property & Casualty & (2) Life & Health. \r Integrated in the event is the largest InsurTech Competition on the East Coast. The Top Ten startups from a pool of 100+ applicants will pitch in front of investors.\r Location: Pier 60 - Chelsea Piers, New York\rNetworking app for all attendees provided via brella.io.\r Why Attend?\rInsurTech Spring Conference brings together influencers & changemakers in the industry.\r Exclusive Access: Discover the latest tech & business models that are reshaping the insurance landscape.\r Networking Opportunities: Connect with industry leaders, potential partners, & thought leaders who are pushing the boundaries of what's possible.\r Expert Insights: Gain valuable knowledge from sessions led by top experts in the field, tailored to your specific interests in Property & Casualty or Life & Health.",
+      "startDate": "2025-04-02T09:30:00-04:00",
+      "endDate": "2025-04-02T11:00:00-04:00",
+      "category": [
+        "Conference",
+        "AI",
+        "Business"
+      ],
+      "price": {
+        "amount": 1095.0,
+        "type": "Paid",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [
+        "AI",
+        "Business",
+        "Tech",
+        "Conference"
+      ],
+      "image": "gary-event.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.garysguide.com/events/ksa76bi/InsurTech-Conference",
+        "registration_url": "http://gary.to/4y0e9li",
+        "speakers": [
+          {
+            "name": "Robert Pick (CIO",
+            "title": "",
+            "company": ""
+          },
+          {
+            "name": "Tokio Marine)",
+            "title": "",
+            "company": ""
+          },
+          {
+            "name": "Daniel Bodnar (CTO",
+            "title": "",
+            "company": ""
+          },
+          {
+            "name": "Skyward)",
+            "title": "",
+            "company": ""
+          },
+          {
+            "name": "John Sieb (VP",
+            "title": "",
+            "company": ""
+          },
+          {
+            "name": "Prudential Financial)",
+            "title": "",
+            "company": ""
+          },
+          {
+            "name": "Dominique Roudaut (Head of Innovation Lab",
+            "title": "",
+            "company": ""
+          },
+          {
+            "name": "Dai-ichi)",
+            "title": "",
+            "company": ""
+          },
+          {
+            "name": "Steve Shaffer (CEO",
+            "title": "",
+            "company": ""
+          },
+          {
+            "name": "Homesteaders Life)",
+            "title": "",
+            "company": ""
+          },
+          {
+            "name": "Brian O'Reilly (Head of Innovation",
+            "title": "",
+            "company": ""
+          },
+          {
+            "name": "Greenlight Re)",
+            "title": "",
+            "company": ""
+          },
+          {
+            "name": "Girish Arora (VP",
+            "title": "",
+            "company": ""
+          },
+          {
+            "name": "Nationwide)",
+            "title": "",
+            "company": ""
+          }
+        ],
+        "venue": {
+          "name": "Insurtech Conference\n\u00a0\n\nWith Robert Pick (CIO",
+          "address": "Tokio Marine), Daniel Bodnar (CTO, Skyward), John Sieb (VP, Prudential Financial), Dominique Roudaut (Head of Innovation Lab, Dai-ichi), Steve Shaffer (CEO, Homesteaders Life), Brian O'Reilly (Head of Innovation, Greenlight Re), Girish Arora (VP, Nationwide).\n\nPier 60, 60 Chelsea Piers, New York\n\n\nApr 02 (Wed) , 2025 @ 09:30 AM\n\n\n$1095\n\n\n\u00a0\n\n\nRegister\u00a0\n\n Export GoogleYahooApple iCalOutlook\u00a0\n\n\n\n\n\n\n\n\n\n\n\u00a0\nDETAILS\n\n\n\nAbout the InsurTech Conference\rJoin us at the 6th annual InsurTech Conference held on April 2-3, 2025.\rThis InsurTech Conference will bring together traditional insurers, InsurTechs, investors, & other solution providers to support the InsurTech community. Presentations will be divided into two content areas: (1) Property & Casualty & (2) Life & Health. \r Integrated in the event is the largest InsurTech Competition on the East Coast. The Top Ten startups from a pool of 100+ applicants will pitch in front of investors.\r Location: Pier 60 - Chelsea Piers, New York\rNetworking app for all attendees provided via brella.io.\r Why Attend?\rInsurTech Spring Conference brings together influencers & changemakers in the industry.\r Exclusive Access: Discover the latest tech & business models that are reshaping the insurance landscape.\r Networking Opportunities: Connect with industry leaders, potential partners, & thought leaders who are pushing the boundaries of what's possible.\r Expert Insights: Gain valuable knowledge from sessions led by top experts in the field, tailored to your specific interests in Property & Casualty or Life & Health.",
+          "type": "Other"
+        }
+      }
+    },
+    {
+      "id": "evt_gary_7e67b2c7",
+      "name": "Descinyc - Internet Of Dongs Project",
+      "type": "Event",
+      "locationId": "loc_tbd",
+      "communityId": "com_gary",
+      "description": "Is North Korea in bed with you? Internet connected dongs can be hacked, potentially exposing private habits, biometric details, & intimate data to sophisticated cyber threats.nThe",
+      "startDate": "2025-04-08T18:30:00-04:00",
+      "endDate": "2025-04-08T20:00:00-04:00",
+      "category": [
+        "Event",
+        "AI",
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [
+        "AI",
+        "Tech",
+        "Conference"
+      ],
+      "image": "gary-event.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.garysguide.com/events/nktem0b/DeSciNYC-Internet-Of-Dongs-Project",
+        "registration_url": "http://gary.to/rrhrm9o",
+        "speakers": [],
+        "venue": {
+          "name": "Descinyc - Internet Of Dongs Project\n\u00a0\n\n\nVenue",
+          "address": "To Be Announced, New York\n\n\nApr 08 (Tue) , 2025 @ 06:30 PM\n\n\nFREE\n\n\n\u00a0\n\n\nRegister\u00a0\n\n Export GoogleYahooApple iCalOutlook\u00a0\n\n\n\n\n\n\n\n\n\n\n\u00a0\nDETAILS\n\n\n\nIs North Korea in bed with you? Internet connected dongs can be hacked, potentially exposing private habits, biometric details, & intimate data to sophisticated cyber threats.nThe",
+          "type": "Other"
+        }
+      }
     }
   ]
 }

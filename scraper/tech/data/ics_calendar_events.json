@@ -1,63 +1,6 @@
 {
   "events": [
     {
-      "id": "evt_com_max_ny_7616f3db",
-      "name": "So you want to do abundance politics? You want to do it, and you're saying that? I will tell you, and then you have no excuse after that!",
-      "type": "Tech",
-      "locationId": "loc_tbd",
-      "communityId": "com_max_ny",
-      "description": "​See event write-uphere. Also: if you're a parent, feel free to bring your kids. Let me know if you need something like daycare, and I'll see about arranging that.​How do you achieve political outcomes in New York City? What is this\"abundance politics\"thing people keep talking about?​How are political outcomes in New York City relevant to the state and federal governments?​What does the political landscape look like, who are the players, and how can you jump in given your own level of skill and knowledge?​How can you, and how canwe, create a more abundant future for New York City?​Come hearDaniel Golliher, founder ofMaximum New York, give you the rundown. There will also be lightning talks by various guests (to be announced) who have achieved concrete things to make New York City better.​Know before you arrive:This event will be guided by thefour rules of etiquettethat guide all Maximum New York classes, and is generally for people who mostly agree withThe Sensible Seventy.",
-      "startDate": "2025-03-23T14:30:00-04:00",
-      "endDate": "2025-03-23T16:30:00-04:00",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": 100,
-      "registrationRequired": true,
-      "tags": [],
-      "image": "luma-event-9fe1da4f.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://lu.ma/pm0ponyt",
-        "speakers": [
-          {
-            "name": "Daniel Golliher",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Daniel Golliher",
-            "title": "",
-            "bio": ""
-          }
-        ],
-        "venue": {
-          "name": "111 Conselyea StBrooklyn, NY 11211, USA",
-          "address": "Brooklyn, NY 11211, USA",
-          "type": "Offline",
-          "room": "",
-          "additional_info": ""
-        },
-        "featured": false,
-        "social_links": [
-          "https://x.com/danielgolliher",
-          "https://linkedin.com/in/maximumnewyork",
-          "https://maximumnewyork.com",
-          "https://x.com/danielgolliher",
-          "https://x.com/danielgolliher",
-          "https://linkedin.com/in/maximumnewyork",
-          "https://maximumnewyork.com",
-          "https://x.com/danielgolliher"
-        ]
-      }
-    },
-    {
       "id": "evt_com_max_ny_5ff66076",
       "name": "Maximum New York Office Hours",
       "type": "Tech",
@@ -203,7 +146,17 @@
             "bio": ""
           },
           {
+            "name": "Abi Suresh",
+            "title": "",
+            "bio": ""
+          },
+          {
             "name": "James Q",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Abi Suresh",
             "title": "",
             "bio": ""
           }
@@ -221,10 +174,12 @@
           "https://x.com/otwc_nyc",
           "https://instagram.com/mrjamesq",
           "https://x.com/mrjamesq",
+          "https://instagram.com/abi_nope",
           "https://instagram.com/otwc_nyc",
           "https://x.com/otwc_nyc",
           "https://instagram.com/mrjamesq",
-          "https://x.com/mrjamesq"
+          "https://x.com/mrjamesq",
+          "https://instagram.com/abi_nope"
         ]
       }
     },
@@ -497,6 +452,85 @@
       }
     },
     {
+      "id": "evt_com_ny_hardware_7315b6b0",
+      "name": "106th NY Hardware Meetup @ Cornell Tech",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_ny_hardware",
+      "description": "​The Hardware Meetup community is excited to announce the 106th NY Hardware Meetup at Cornell Tech​​​​Hardware Meetups happen across 30+ cities around the world, bringing together hardware professionals to network and learn from each other. You might not realize it, but NYC is a hotbed for this kind of innovation and tonight you'll meet two companies working at the cutting edge of this technology.​​​​This month we'll be atCornell Tech. Cornell Tech is  Cornell University’s state-of-the-art campus in New York City that develops leaders and technologies for the AI era through foundational and applied research, graduate education, and new ventures. Located on Roosevelt Island, the growing campus was founded in partnership with the Technion-Israel Institute of Technology and in close collaboration with the NYC Economic Development Corporation after Cornell won a worldwide competition initiated by Mayor Michael R. Bloomberg’s administration to create an applied sciences campus in New York City. More than 1,000 Cornell students are now educated annually on the campus, including 700 in Cornell Tech programs. Since opening in 2012, nearly 120 new companies have spun out from startup programs at Cornell Tech, and 95 percent of them are based in New York City. Cornell Tech continues to have atransformative economic impact on the region’s tech sector.​​​AGENDA​​​​6:30 - Arrival, mingle, grab refreshments​​​​7:00 - Welcome and introduction​​7:15- Panel with audience Q+A​​8:20 - Community open mic​​​​Anyone will have the chance or talk about what they are working on.​​8:30 - Mix + mingle​​WANT TO GET INVOLVED?​​​Sponsorship:​We offer exclusive access to our 10,000+ member community through sponsorships.​​​Host an event at your space:We are always looking for host sponsors to provide access to unique spaces from cool hardware companies building interesting things. Want to open up your office?​​​Speaker:Do you have something interesting to share with our community? We're on the lookout for fresh faces to talk about their journey and experiences.​​​If you want to get involved, head here:https://linktr.ee/nyhardware",
+      "startDate": "2025-05-08T18:30:00-04:00",
+      "endDate": "2025-05-08T22:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "luma-event-28713467.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/ag988xhd",
+        "speakers": [
+          {
+            "name": "Paul Vizzio",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Anthony Dzaba",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Nate",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Paul Vizzio",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Anthony Dzaba",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Nate",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "venue": {
+          "name": "Tata Innovation Center11 E Loop Rd, New York, NY 10044, USA",
+          "address": "11 E Loop Rd, New York, NY 10044, USA",
+          "type": "Offline",
+          "room": "",
+          "additional_info": ""
+        },
+        "featured": false,
+        "social_links": [
+          "https://linkedin.com/company/ny-hardware-meetup",
+          "https://linktr.ee/nyhardware",
+          "https://instagram.com/vizengnyc",
+          "https://x.com/vizengnyc",
+          "https://x.com/ngpadgett",
+          "https://linkedin.com/company/ny-hardware-meetup",
+          "https://linktr.ee/nyhardware",
+          "https://instagram.com/vizengnyc",
+          "https://x.com/vizengnyc",
+          "https://x.com/ngpadgett"
+        ]
+      }
+    },
+    {
       "id": "evt_com_la_creme_stem_c683a307",
       "name": "Navigating Women's Healthcare: Insights from VC & Founders",
       "type": "Tech",
@@ -708,79 +742,6 @@
           "https://www.lacremedelastem.com/",
           "https://instagram.com/Yes",
           "https://instagram.com/syncnapp"
-        ]
-      }
-    },
-    {
-      "id": "evt_com_third_place_nyc_87b2eb13",
-      "name": "Dating App Disconnect: How to Actually Meet People IRL",
-      "type": "Tech",
-      "locationId": "loc_tbd",
-      "communityId": "com_third_place_nyc",
-      "description": "​So, how do Iactuallymeet someone out in the world?When you are trying to move from apps to dating in real life, fears, questions, awkwardness, and insecurities can come up. This event is all about diving into the tactical of going from swiping to IRL.​Build skills and confidence, while also connecting with others dating in NYC!​How?​🔹IRL Dating Panel Discussion– Hear from IRL dating experts as they share insights on how to navigate real-life interactions. Featuring: Elle Wilson (founder of Met Through Friends), Brandon Dawkins of (founder of Beyond Nice), and Tawny Lara (author ofDry Humping: A Guide to Dating, Relating, and Hooking Up Without Booze).🔹Interactive Activities– Connect with people through guided activities exploring the fundamentals of IRL dating — initiating conversation, navigating rejection, reading body language. Melissa Franks (founder of Embrace Club and professional certified cuddle therapist) will lead a light, fun exercise exploring consent.🔹Mingling & Connection– Put your new skills and awareness into practice with informal mingling time. Meet a friend, a date, an acquaintance...see what happens!​Dating in NYC can feel lonely and frustrating. Let's rediscover the joy of meeting people in the real world, one connection at a time.​Alcohol-free refreshments provided by Parentheses and Third Place Bar!​What is The Full?​The Fullis a connection company that is addressing the loneliness epidemic through building community in dating. When founder Isabella Cassell was coaching people 1:1, she kept hearing the same things \"I feel disconnected,\" \"dating feels weird,\" and \"this is a soul sucking experience.\" She realized so many felt alone in their dating experiences, although they were going through similar experiences. Through Dating App Disconnect, we are getting to the root of the issues with dating, helping people connect with themselves so they can better connect with others -- bringing joy, hope, and fun back to dating in NYC. Check out The Full onInstagram!​What is Met Through Friends?Met Through Friendsstarted as a series of apartment parties for founder Elle Wilson’s real single friends. It began with the insight that she knew so many wonderful, “dateable” people weren’t finding luck on the apps - what would happen if they and their friends got offline and into a room full of others looking for the same thing? Since 2022, it has grown to welcome thousands of friends from across NYC and beyond who are looking for more social, fun ways to connect.Elleis also a certified dating coach who works with individuals who are looking to build meaningful, productive, fun IRL dating lives. If you want more support to get “un-stuck” fast, we’d love to work with you. Check outMet Through Friendson Instagram!​What is(parentheses)?​(parentheses) is a fermented, artisanal spirit handmade in Brooklyn by a former sommelier and his wife who missed slow-sipping a stiff drink. ​Tawny Lara has reported on the sober curious and non-alcoholic beverage industry since 2015. She is the author ofDry Humping: A Guide to Dating, Relating, and Hooking Up Without the Boozeand co-author ofThe Sobriety Deck. She also co-hosts theRecovery Rocks podcast. She teachesvirtual coursesabout writing, publishing, media strategy, and DIY PR. Check out(parentheses)andTawny Laraon Instagram!​What is Beyond Nice?Beyond Nicewas created by founder Brandon Dawkins, to remind men that they don't have to stop being nice to start being loved. Brandon works with men both 1:1 and through his event series \"The Confidence Code\" helping men move past the 'nice guy' label and step into confidence in their relationships and social life. Check outBeyond Niceon Instagram!​What is Embrace Club?The Embrace Clubis a digital marketplace and community that offers a broad range of well-being, platonic, and holistic services. The founder, Melissa Franks, is a professional certified cuddle therapist, offering NYC's first and only cuddle studio. Her work is driven by a belief in nurturing the whole self. Check outEmbrace Clubon Instagram!​​​What is Third Place Bar?Third Place Bar NYCis a series of alcohol-free pop-up bar events in New York City founded by Sam Bail in late 2022. The goal of Third Place Bar is to provide an environment for people to socialize and connect without feeling the pressure to drink - whether they’re just not drinking for the night, taking some time off, or are on a longer alcohol-free journey.​What is Fabrik?Fabrikis on a mission to uplift communities and foster serendipitous connections in real life. Fabrik is a home for communities where everyone has a place to belong. With spaces designed to feel more like your living room than your office, Fabrik’s third spaces are vibrant hubs where people can come together in real life, explore interests, forge meaningful connections, and build a sense of community. Check outFabrikon Instagram!​Please note:​​We use RSVPs to plan for the number of attendees and ticket pricing to cover our costs in hosting.Unfortunately, we cannot grant refunds,but you are welcome to pass your ticket on to someone else.​Emails will be collected and photos will be taken during the event for promotional purposes.By attending, you consent to your email being used for future promotions and image being used in future marketing materials. If you have any concerns or do not want your photo taken, please let us know.",
-      "startDate": "2025-03-24T18:00:00-04:00",
-      "endDate": "2025-03-24T20:30:00-04:00",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": 100,
-      "registrationRequired": true,
-      "tags": [],
-      "image": "luma-event-58e70315.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://lu.ma/6gkcov23",
-        "speakers": [
-          {
-            "name": "Isabella Cassell",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Third Place Bar",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Derek Kastner- Fabrik Community Director",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Isabella Cassell",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Third Place Bar",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Derek Kastner- Fabrik Community Director",
-            "title": "",
-            "bio": ""
-          }
-        ],
-        "venue": {
-          "name": "Fabrik NYC12-16 Vestry St 4th Floor, New York, NY 10013, USA",
-          "address": "12-16 Vestry St 4th Floor, New York, NY 10013, USA",
-          "type": "Offline",
-          "room": "",
-          "additional_info": ""
-        },
-        "featured": false,
-        "social_links": [
-          "https://instagram.com/jointhefull",
-          "https://instagram.com/thirdplacebarnyc",
-          "https://instagram.com/jointhefull",
-          "https://instagram.com/thirdplacebarnyc"
         ]
       }
     },

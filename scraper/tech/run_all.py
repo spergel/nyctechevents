@@ -10,217 +10,170 @@ from datetime import datetime, timedelta
 import argparse
 import traceback
 import importlib
+from typing import List, Dict, Any
+
+# Add the parent directory to the Python path
+sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 
 # Import scrapers list
-from tech.scrapers.calendar_configs import SCRAPERS
+from scraper.tech.scrapers.calendar_configs import SCRAPERS
 
 # Configure logging
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s',
-    handlers=[logging.StreamHandler()]
+    handlers=[
+        logging.FileHandler('scraper.log'),
+        logging.StreamHandler()
+    ]
 )
 
 # Setup paths
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-TECH_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'tech')
-SCRAPERS_DIR = os.path.join(TECH_DIR, 'scrapers')
+TECH_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_DIR = os.path.join(TECH_DIR, 'data')
 
 # Ensure data directory exists
 os.makedirs(DATA_DIR, exist_ok=True)
 
-def run_scraper(scraper_module_name):
-    """Run a scraper module and return the path to its output file"""
-    logging.info(f"Running scraper: {scraper_module_name}")
-    
-    try:
-        # Import the scraper module
-        scraper_path = f"tech.scrapers.{scraper_module_name}"
-        scraper_module = import_module(scraper_path)
-        
-        # Check if the module has a main function
-        if hasattr(scraper_module, 'main'):
-            # Call the main function
-            result = scraper_module.main()
-            logging.info(f"Scraper {scraper_module_name} completed successfully")
-            
-            # Return the output file path if provided by the scraper
-            if isinstance(result, str) and os.path.exists(result):
-                return result
-            
-            # Otherwise, look for the default output file
-            default_output = os.path.join(DATA_DIR, f"{scraper_module_name}_events.json")
-            if os.path.exists(default_output):
-                return default_output
-                
-            logging.warning(f"No output file found for {scraper_module_name}")
-            return None
-        else:
-            logging.error(f"Scraper {scraper_module_name} does not have a main function")
-            return None
-    except Exception as e:
-        logging.error(f"Error running scraper {scraper_module_name}: {str(e)}")
-        return None
-
-def run_scrapers():
-    """Runs all specified scrapers."""
-    scrapers_completed = 0
-    event_files = []
+def run_scrapers() -> List[str]:
+    """Run all scrapers and return list of output files."""
+    output_files = []
+    successful_scrapers = 0
     
     for scraper_name in SCRAPERS:
-        logging.info(f"Attempting to run scraper: {scraper_name}")
         try:
-            # Import the scraper module dynamically
-            scraper_module = import_module(f"tech.scrapers.{scraper_name}")
-            
-            # Run the main function of the scraper
+            logging.info(f"Attempting to run scraper: {scraper_name}")
+            # Import the scraper module
+            scraper_module = importlib.import_module(f'scraper.tech.scrapers.{scraper_name}')
             logging.info(f"Running scraper: {scraper_name}")
-            result = scraper_module.main()
-            scrapers_completed += 1
-            logging.info(f"Scraper {scraper_name} completed successfully")
             
-            # Add output file to list
-            if isinstance(result, str) and os.path.exists(result):
-                event_files.append(result)
+            # Run the scraper
+            output_file = scraper_module.main()
+            if output_file:
+                output_files.append(output_file)
+                successful_scrapers += 1
+                logging.info(f"Scraper {scraper_name} completed successfully")
             else:
-                # Look for default output file
-                default_output = os.path.join(DATA_DIR, f"{scraper_name.replace('_scraper', '')}_events.json")
-                if os.path.exists(default_output):
-                    event_files.append(default_output)
+                logging.error(f"Scraper {scraper_name} failed to produce output")
+                
         except Exception as e:
-            logging.error(f"Error running scraper {scraper_name}: {str(e)}")
-            traceback.print_exc()
+            logging.error(f"Error running scraper {scraper_name}: {e}")
+            continue
     
-    logging.info(f"Completed running {scrapers_completed} scrapers successfully")
-    return event_files
+    logging.info(f"Completed running {successful_scrapers} scrapers successfully")
+    return output_files
 
-def combine_event_files(event_files, output_file=None):
-    """Combine multiple event JSON files into a single file"""
-    if not event_files:
+def combine_event_files(input_files: List[str], output_file: str = None) -> str:
+    """Combine multiple event files into one."""
+    if not input_files:
         logging.warning("No event files to combine")
         return None
+        
+    if not output_file:
+        output_file = os.path.join(DATA_DIR, "combined_events.json")
     
-    logging.info(f"Combining {len(event_files)} event files...")
-    
-    # Default output file
-    if output_file is None:
-        output_file = os.path.join(DATA_DIR, "all_events.json")
-    
-    # Load and combine all events
     all_events = []
-    for file_path in event_files:
+    
+    for file_path in input_files:
         try:
             with open(file_path, 'r', encoding='utf-8') as f:
                 data = json.load(f)
-                
-                # Handle different JSON structures
                 if isinstance(data, dict) and 'events' in data:
-                    events = data['events']
+                    all_events.extend(data['events'])
                 elif isinstance(data, list):
-                    events = data
-                else:
-                    logging.warning(f"Unexpected data format in {file_path}, skipping")
-                    continue
-                
-                all_events.extend(events)
-                logging.info(f"Added {len(events)} events from {os.path.basename(file_path)}")
+                    all_events.extend(data)
         except Exception as e:
-            logging.error(f"Error processing {file_path}: {str(e)}")
+            logging.error(f"Error reading file {file_path}: {e}")
+            continue
+    
+    if not all_events:
+        logging.warning("No events collected. Exiting.")
+        return None
+    
+    # Create data directory if it doesn't exist
+    os.makedirs(os.path.dirname(output_file), exist_ok=True)
     
     # Save combined events
     try:
         with open(output_file, 'w', encoding='utf-8') as f:
             json.dump({"events": all_events}, f, indent=2, ensure_ascii=False)
-        logging.info(f"Combined {len(all_events)} events into {output_file}")
+        logging.info(f"Saved {len(all_events)} combined events to {output_file}")
         return output_file
     except Exception as e:
-        logging.error(f"Error saving combined events: {str(e)}")
+        logging.error(f"Error saving combined events: {e}")
         return None
 
-def run_categorization(append_to_existing=False):
-    """Run the event categorization process"""
-    logging.info("Starting event categorization...")
-    
-    # Import the categorization module
+def run_categorization(input_file: str, output_file: str) -> None:
+    """Run event categorization"""
     try:
-        from tech.categorize_events import deduplicate_events, process_events, save_categorized_events, load_events
+        # Load auxiliary data from public/data directory
+        root_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+        communities_file = os.path.join(root_dir, 'public', 'data', 'communities.json')
+        locations_file = os.path.join(root_dir, 'public', 'data', 'locations.json')
         
-        # Input and output files
-        input_file = os.path.join(DATA_DIR, "all_events.json")
-        output_file = os.path.join(DATA_DIR, "all_events_categorized.json")
+        # Load communities data
+        try:
+            with open(communities_file, 'r', encoding='utf-8') as f:
+                communities_data = json.load(f)
+                logging.info(f"Loaded {len(communities_data.get('communities', []))} communities")
+        except Exception as e:
+            logging.warning(f"Could not load communities data: {e}")
+            communities_data = {"communities": []}
+            
+        # Load locations data
+        try:
+            with open(locations_file, 'r', encoding='utf-8') as f:
+                locations_data = json.load(f)
+                logging.info(f"Loaded {len(locations_data.get('locations', []))} locations")
+        except Exception as e:
+            logging.warning(f"Could not load locations data: {e}")
+            locations_data = {"locations": []}
         
-        # Check if input file exists
-        if not os.path.exists(input_file):
-            logging.error(f"Input file {input_file} not found")
-            return False
-        
-        # Load events
-        events = load_events(input_file)
-        logging.info(f"Loaded {len(events)} events for categorization")
-        
-        # Append to existing events if requested
-        if append_to_existing and os.path.exists(output_file):
-            try:
-                existing_events = load_events(output_file)
-                logging.info(f"Loaded {len(existing_events)} existing events from {output_file}")
-                
-                # Combine with new events
-                combined_events = existing_events + events
-                logging.info(f"Combined with {len(events)} new events, total: {len(combined_events)} events")
-                events = combined_events
-            except Exception as e:
-                logging.warning(f"Error loading existing events: {str(e)}")
-                logging.warning("Proceeding with only new events")
-        
-        # Deduplicate events
-        deduplicated_events = deduplicate_events(events)
-        logging.info(f"Deduplication complete. {len(deduplicated_events)} events remaining.")
-        
-        # Process and categorize events
-        categorized_events = process_events(deduplicated_events)
-        
-        # Save categorized events
-        save_categorized_events(categorized_events, output_file)
-        logging.info(f"Categorization complete. Saved to {output_file}")
+        from scraper.tech.categorize_events import main as categorize_main
+        categorize_main(input_file, output_file)
         return True
     except Exception as e:
-        logging.error(f"Error during categorization: {str(e)}")
+        logging.error(f"Error running categorization: {e}")
         return False
 
 def main():
-    """Main function to run all scrapers and categorize events"""
-    start_time = time.time()
-    
+    """Main function to run all scrapers and combine results."""
     # Parse command line arguments
-    parser = argparse.ArgumentParser(description='Run all scrapers and categorize events')
-    parser.add_argument('--append', action='store_true', help='Append to existing events instead of overwriting')
-    args = parser.parse_args()
+    append_to_existing = '--append' in sys.argv
+    output_file = None
+    for i, arg in enumerate(sys.argv):
+        if arg == '--output' and i + 1 < len(sys.argv):
+            output_file = sys.argv[i + 1]
     
-    # Run all scrapers
+    # Run scrapers
     event_files = run_scrapers()
     
-    # If no scrapers ran successfully, exit
     if not event_files:
-        logging.error("No events collected. Exiting.")
-        return 1
+        logging.error("No event files were generated. Exiting.")
+        return
     
-    # Combine event files
+    # Combine events
     combined_file = combine_event_files(event_files)
     if not combined_file:
         logging.error("Failed to combine event files. Exiting.")
-        return 1
+        return
     
     # Run categorization
-    success = run_categorization(append_to_existing=args.append)
-    if not success:
-        logging.error("Categorization failed. Exiting.")
-        return 1
+    if not run_categorization(combined_file, output_file):
+        logging.error("Failed to categorize events. Exiting.")
+        return
     
-    # Report total time
-    elapsed_time = time.time() - start_time
-    logging.info(f"=== Process completed in {elapsed_time:.2f} seconds ===")
-    return 0
+    # If output file specified, copy combined events there
+    if output_file:
+        try:
+            with open(combined_file, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+            with open(output_file, 'w', encoding='utf-8') as f:
+                json.dump(data, f, indent=2, ensure_ascii=False)
+            logging.info(f"Saved events to {output_file}")
+        except Exception as e:
+            logging.error(f"Error saving to output file: {e}")
 
 if __name__ == "__main__":
-    sys.exit(main()) 
+    main() 

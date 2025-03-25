@@ -30,7 +30,7 @@ except ImportError:
         return {}
 
 # Load environment variables from .env.local
-load_dotenv(dotenv_path=os.path.join(os.path.dirname(TECH_DIR), '.env.local'))
+load_dotenv(dotenv_path=os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))), '.env.local'))
 
 # Configure logging
 logging.basicConfig(
