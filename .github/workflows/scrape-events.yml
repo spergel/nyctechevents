@@ -29,6 +29,9 @@ jobs:
             pip install requests beautifulsoup4 pandas lxml tqdm python-dateutil ics
           fi
           
+      - name: List directory structure
+        run: find . -type d | sort
+          
       - name: Run scrapers
         run: |
           cd tech
