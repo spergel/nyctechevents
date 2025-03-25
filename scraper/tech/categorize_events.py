@@ -151,11 +151,14 @@ def load_auxiliary_data():
     try:
         # Get the root directory path
         current_dir = os.path.dirname(os.path.abspath(__file__))
-        root_dir = os.path.dirname(os.path.dirname(os.path.dirname(current_dir)))
+        # Navigate up three levels: scraper/tech -> scraper -> project root
+        root_dir = os.path.dirname(os.path.dirname(current_dir))
         
         # Construct paths to the auxiliary data files
         communities_file = os.path.join(root_dir, 'public', 'data', 'communities.json')
         locations_file = os.path.join(root_dir, 'public', 'data', 'locations.json')
+        
+        logging.info(f"Looking for communities file at: {communities_file}")
         
         # Load communities data
         with open(communities_file, 'r', encoding='utf-8') as f:

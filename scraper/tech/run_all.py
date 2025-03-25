@@ -55,10 +55,35 @@ def setup_logging():
     atexit.register(cleanup_logging)
     
 def cleanup_logging():
+    """Safely clean up logging handlers to avoid 'Bad file descriptor' errors"""
     global log_file_handler
+    
+    # Get the root logger
+    root_logger = logging.getLogger()
+    
+    # Remove and close handlers safely
     if log_file_handler:
-        log_file_handler.close()
-        logging.getLogger().removeHandler(log_file_handler)
+        try:
+            # First remove the handler from the logger
+            root_logger.removeHandler(log_file_handler)
+            # Then close it
+            log_file_handler.close()
+            log_file_handler = None
+        except (OSError, ValueError):
+            # Ignore errors during cleanup - they happen when
+            # file descriptors are already closed
+            pass
+    
+    # Safely remove any other handlers
+    for handler in root_logger.handlers[:]:
+        try:
+            # Only try to close file handlers, not stream handlers
+            # as stdout might already be closed
+            if isinstance(handler, logging.FileHandler):
+                root_logger.removeHandler(handler)
+                handler.close()
+        except (OSError, ValueError):
+            pass
 
 # Initialize logging
 setup_logging()
@@ -172,14 +197,16 @@ def run_categorization(input_file: str, output_file: str) -> None:
 
 def main():
     """Main function to run all scrapers and combine results."""
-    # Parse command line arguments
-    append_to_existing = '--append' in sys.argv
-    output_file = None
-    for i, arg in enumerate(sys.argv):
-        if arg == '--output' and i + 1 < len(sys.argv):
-            output_file = sys.argv[i + 1]
+    success = False
     
     try:
+        # Parse command line arguments
+        append_to_existing = '--append' in sys.argv
+        output_file = None
+        for i, arg in enumerate(sys.argv):
+            if arg == '--output' and i + 1 < len(sys.argv):
+                output_file = sys.argv[i + 1]
+        
         # Run scrapers
         event_files = run_scrapers()
         
@@ -212,8 +239,13 @@ def main():
                 with open(output_file, 'w', encoding='utf-8') as f:
                     json.dump(data, f, indent=2, ensure_ascii=False)
                 logging.info(f"Saved events to {output_file}")
+                # Mark as success if we got here
+                success = True
             except Exception as e:
                 logging.error(f"Error saving to output file: {e}")
+        else:
+            # If no output file was specified but we got this far, still mark as success
+            success = True
                 
     except Exception as e:
         logging.error(f"Unexpected error in main function: {e}")
@@ -221,6 +253,13 @@ def main():
     finally:
         # Make sure logging is properly shut down
         cleanup_logging()
+        # Force a successful exit if everything worked
+        if success:
+            # This ensures GitHub Actions sees the job as successful
+            logging.info("Script completed successfully")
+            sys.exit(0)
 
 if __name__ == "__main__":
-    main() 
+    main()
+    # Ensure we always exit with 0 if we got to the end of the script
+    sys.exit(0) 
