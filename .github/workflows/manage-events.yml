@@ -30,12 +30,13 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r scraper/requirements.txt
           
-      - name: Download Latest Data
+      - name: Try to Download Latest Data
+        id: download-data
+        continue-on-error: true
         uses: actions/download-artifact@v3
         with:
           name: event-data
           path: ./data
-          if-no-files-found: warn
           
       - name: Run Scrapers and Generate Tweets
         run: |
@@ -43,11 +44,14 @@ jobs:
           export PYTHONPATH=$PYTHONPATH:$(pwd)
           echo "Running scraper with PYTHONPATH: $PYTHONPATH"
           
+          # Create necessary directories
+          mkdir -p public/data
+          mkdir -p tech/tweets
+          mkdir -p scraper/data
+          mkdir -p scraper/tech/data
+          
           # Run the scraper module
           python -m scraper.tech.run_all --output public/data/events.json
-          
-          # Create tech/tweets directory if it doesn't exist
-          mkdir -p tech/tweets
           
           # Generate tweets
           echo "Generating tweets"
@@ -65,7 +69,6 @@ jobs:
       - name: Update Frontend Data
         run: |
           # Copy the latest data to the frontend
-          mkdir -p public/data
           cp scraper/data/combined_events.json public/data/
           cp scraper/tech/data/*.json public/data/
           
