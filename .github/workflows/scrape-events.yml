@@ -87,7 +87,13 @@ jobs:
       - name: Deploy to Vercel
         if: success()
         run: |
-          npx vercel --token ${VERCEL_TOKEN} --prod
+          if [ -z "$VERCEL_TOKEN" ]; then
+            echo "VERCEL_TOKEN is not set. Skipping Vercel deployment."
+            exit 0
+          fi
+          
+          echo "Installing and deploying to Vercel..."
+          npx vercel --token="${VERCEL_TOKEN}" --prod --confirm
         env:
           VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
           VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
