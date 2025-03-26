@@ -49,15 +49,6 @@ jobs:
           echo "Generating tweets"
           python -m scraper.tech.tweet_generator
           
-      - name: Upload New Data
-        uses: actions/upload-artifact@v3
-        with:
-          name: event-data
-          path: |
-            scraper/data/combined_events.json
-            scraper/tech/data/*.json
-          retention-days: 7
-          
       - name: Update Frontend Data
         run: |
           # Copy the latest data to the frontend
