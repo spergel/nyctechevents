@@ -22,14 +22,6 @@ logging.basicConfig(
 CATEGORIES = {
     "tech_talks": {
         "name": "Tech Talks & Conferences",
-        "subcategories": [
-            "tech_conferences",      # tech industry conferences
-            "tech_meetups",         # tech community meetups
-            "dev_talks",            # developer focused talks
-            "product_talks",        # product demos/launches
-            "tech_panels",          # industry panels
-            "lightning_talks"       # short format talks
-        ],
         "keywords": [
             "tech talk", "conference", "meetup", "presentation", "panel", 
             "product demo", "launch", "tech event", "developer", "engineering"
@@ -37,14 +29,6 @@ CATEGORIES = {
     },
     "hackathons_competitions": {
         "name": "Hackathons & Competitions",
-        "subcategories": [
-            "hackathons",           # coding competitions
-            "code_challenges",      # pbrogramming challenges
-            "game_jams",           # game development events
-            "datathons",           # data science competitions
-            "design_sprints",       # rapid prototyping events
-            "tech_competitions"     # technology contests
-        ],
         "keywords": [
             "hackathon", "competition", "challenge", "game jam", "datathon",
             "code challenge", "sprint", "contest", "competitive", "hack"
@@ -52,14 +36,6 @@ CATEGORIES = {
     },
     "networking_social": {
         "name": "Networking & Social",
-        "subcategories": [
-            "tech_mixers",          # tech networking events
-            "startup_socials",      # startup community events
-            "industry_meetups",     # industry networking
-            "career_events",        # tech career events
-            "community_gatherings", # tech community events
-            "social_events"         # casual tech socials
-        ],
         "keywords": [
             "networking", "mixer", "social", "community", "meetup", "career",
             "gathering", "industry", "professional", "connection"
@@ -67,14 +43,6 @@ CATEGORIES = {
     },
     "workshops_training": {
         "name": "Workshops & Training",
-        "subcategories": [
-            "dev_workshops",        # developer workshops
-            "tech_training",       # technical training
-            "skill_workshops",     # skill development
-            "code_labs",          # coding workshops
-            "tech_bootcamps",     # intensive training
-            "certification_prep"   # certification training
-        ],
         "keywords": [
             "workshop", "training", "bootcamp", "lab", "hands-on", "learning",
             "development", "skills", "certification", "education"
@@ -82,14 +50,6 @@ CATEGORIES = {
     },
     "startup_entrepreneurship": {
         "name": "Startup & Entrepreneurship",
-        "subcategories": [
-            "founder_events",       # founder focused events
-            "startup_workshops",    # startup education
-            "pitch_events",        # pitch competitions
-            "investor_events",     # investment focused
-            "accelerator_programs", # accelerator events
-            "startup_mentoring"    # mentorship programs
-        ],
         "keywords": [
             "startup", "entrepreneur", "founder", "investor", "pitch",
             "venture", "accelerator", "incubator", "business", "funding"
@@ -97,14 +57,6 @@ CATEGORIES = {
     },
     "tech_innovation": {
         "name": "Tech Innovation",
-        "subcategories": [
-            "innovation_talks",     # innovation focused talks
-            "tech_research",       # research presentations
-            "future_tech",        # emerging technology
-            "tech_demos",         # technology demos
-            "product_launches",    # new product launches
-            "research_showcase"    # research demonstrations
-        ],
         "keywords": [
             "innovation", "research", "emerging", "future", "demonstration",
             "prototype", "breakthrough", "cutting-edge", "advanced", "novel"
@@ -112,14 +64,6 @@ CATEGORIES = {
     },
     "special_interest": {
         "name": "Special Interest Tech",
-        "subcategories": [
-            "ai_ml_events",        # AI/ML focused
-            "blockchain_crypto",   # blockchain/crypto
-            "cybersecurity",      # security focused
-            "cloud_computing",    # cloud technology
-            "mobile_dev",         # mobile development
-            "web_development"     # web technology
-        ],
         "keywords": [
             "artificial intelligence", "machine learning", "blockchain", "crypto",
             "security", "cloud", "mobile", "web", "specialized", "specific"
@@ -127,14 +71,6 @@ CATEGORIES = {
     },
     "coworking_workspace": {
         "name": "Coworking & Workspace",
-        "subcategories": [
-            "workspace_events",     # workspace focused
-            "coworking_socials",   # coworking community
-            "facility_tours",      # space tours
-            "member_events",       # member only events
-            "amenity_showcases",   # facility features
-            "community_programs"   # community initiatives
-        ],
         "keywords": [
             "coworking", "workspace", "office", "facility", "space", "amenities",
             "community", "member", "tour", "environment"
@@ -244,11 +180,6 @@ class EventCategorizer:
             'confidence': round(float(confidence), 3)
         }
         
-        # Generate subcategories
-        subcats = self._generate_subcategories(category_id, text)
-        if subcats:
-            event['subcategories'] = subcats
-            
         return event
 
     def _prepare_text_for_analysis(self, event):
@@ -290,66 +221,6 @@ class EventCategorizer:
                 predictions.append((cat_id, confidence))
                 
         return sorted(predictions, key=lambda x: x[1], reverse=True)
-
-    def _generate_subcategories(self, category_id, text):
-        """Generate relevant subcategories for an event based on keyword matching"""
-        subcats = []
-        category = self.categories[category_id]
-        
-        for subcat in category['subcategories']:
-            # Direct keyword matching
-            subcat_terms = self._get_subcat_terms(subcat)
-            if any(term.lower() in text for term in subcat_terms):
-                subcats.append(subcat)
-                
-        return subcats[:3]  # Limit to top 3 most relevant subcategories
-
-    def _get_subcat_terms(self, subcat):
-        """Get related terms for a subcategory"""
-        # Define related terms for each subcategory
-        subcat_terms = {
-            # Tech Talks & Conferences
-            "tech_conferences": ["conference", "summit", "convention", "expo", "symposium"],
-            "tech_meetups": ["meetup", "gathering", "community event", "tech event"],
-            "dev_talks": ["developer talk", "engineering talk", "tech presentation"],
-            "product_talks": ["product demo", "launch event", "showcase"],
-            "tech_panels": ["panel discussion", "expert panel", "industry panel"],
-            "lightning_talks": ["lightning talk", "flash talk", "quick presentation"],
-            
-            # Hackathons & Competitions
-            "hackathons": ["hackathon", "coding competition", "hack event"],
-            "code_challenges": ["coding challenge", "programming contest", "algorithm competition"],
-            "game_jams": ["game jam", "game dev", "game development event"],
-            "datathons": ["datathon", "data science competition", "data challenge"],
-            "design_sprints": ["design sprint", "rapid prototyping", "innovation sprint"],
-            "tech_competitions": ["tech contest", "technology competition", "innovation challenge"],
-            
-            # Networking & Social
-            "tech_mixers": ["mixer", "networking event", "social gathering"],
-            "startup_socials": ["startup event", "founder social", "entrepreneur meetup"],
-            "industry_meetups": ["industry event", "professional meetup", "business networking"],
-            "career_events": ["career fair", "job fair", "recruitment event"],
-            "community_gatherings": ["community event", "tech community", "local tech"],
-            "social_events": ["social", "casual meetup", "informal gathering"],
-            
-            # Workshops & Training
-            "dev_workshops": ["developer workshop", "coding workshop", "programming training"],
-            "tech_training": ["technical training", "technology course", "tech education"],
-            "skill_workshops": ["skill building", "professional development", "learning session"],
-            "code_labs": ["coding lab", "programming lab", "hands-on coding"],
-            "tech_bootcamps": ["bootcamp", "intensive training", "tech camp"],
-            "certification_prep": ["certification", "exam prep", "qualification training"],
-            
-            # Special Interest Tech
-            "ai_ml_events": ["AI", "machine learning", "artificial intelligence", "deep learning"],
-            "blockchain_crypto": ["blockchain", "cryptocurrency", "web3", "crypto"],
-            "cybersecurity": ["security", "cyber", "infosec", "network security"],
-            "cloud_computing": ["cloud", "aws", "azure", "cloud native"],
-            "mobile_dev": ["mobile", "ios", "android", "app development"],
-            "web_development": ["web dev", "frontend", "backend", "full stack"]
-        }
-        
-        return subcat_terms.get(subcat, [subcat.replace('_', ' ')])
 
 def load_events(file_path: str) -> List[Dict]:
     """Load events from a JSON file"""
@@ -818,8 +689,7 @@ def process_events(events):
         'tech': 0,
         'academic': 0,
         'performance': 0,
-        'categories': defaultdict(int),
-        'subcategories': defaultdict(int)
+        'categories': defaultdict(int)
     }
     
     for event in events:
@@ -837,10 +707,6 @@ def process_events(events):
         if event_type == 'tech':
             if 'category' in processed_event:
                 stats['categories'][processed_event['category']['id']] += 1
-            
-            if 'subcategories' in processed_event:
-                for subcat in processed_event['subcategories']:
-                    stats['subcategories'][subcat] += 1
         
         processed_events.append(processed_event)
     
@@ -855,10 +721,6 @@ def process_events(events):
         for cat_id, count in sorted(stats['categories'].items(), key=lambda x: x[1], reverse=True)[:5]:
             cat_name = CATEGORIES[cat_id]['name']
             logging.info(f"- {cat_name}: {count}")
-        
-        logging.info("\nTop tech subcategories:")
-        for subcat, count in sorted(stats['subcategories'].items(), key=lambda x: x[1], reverse=True)[:5]:
-            logging.info(f"- {subcat}: {count}")
     
     return processed_events
 

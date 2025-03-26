@@ -30,7 +30,7 @@ jobs:
             pip install -r scraper/requirements.txt
           else
             # Install common dependencies used by scrapers
-            pip install requests beautifulsoup4 pandas lxml tqdm python-dateutil ics
+            pip install requests beautifulsoup4 pandas lxml tqdm python-dateutil ics pytz
           fi
           
       - name: Debug directory structure
@@ -41,7 +41,7 @@ jobs:
           echo "Full directory tree:"
           find . -type d | sort
           
-      - name: Run scrapers
+      - name: Run scrapers and generate tweets
         run: |
           # Debug directory structure
           echo "Current working directory: $(pwd)"
@@ -63,19 +63,34 @@ jobs:
           export PYTHONPATH=$PYTHONPATH:$(pwd)
           echo "PYTHONPATH is now: $PYTHONPATH"
           
-          # Run the script using the Python module system instead of changing directory
+          # Run the scraper module
           echo "Running the scraper module"
           python -m scraper.tech.run_all --output public/data/events.json
+          
+          # Create tech/tweets directory if it doesn't exist
+          mkdir -p tech/tweets
+          
+          # Generate tweets
+          echo "Generating tweets"
+          python -m scraper.tech.tweet_generator
         
       - name: Commit and push if changed
         run: |
           git config --global user.name 'GitHub Actions'
           git config --global user.email 'actions@github.com'
+          
+          # Pull the latest changes first
+          echo "Pulling latest changes..."
+          git pull --rebase origin main
+          
+          # Add both events.json and tweet files
           git add public/data/events.json
+          git add tech/tweets/*.html
+          
           if git diff --quiet && git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "Update events data [skip ci]"
+            git commit -m "Update events data and tweets [skip ci]"
             # Use the GITHUB_TOKEN for authentication
             git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
             git push
