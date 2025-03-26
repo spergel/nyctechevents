@@ -1,42 +1,6 @@
 {
   "events": [
     {
-      "id": "evt_pioneer_83057435",
-      "name": "Astrid Sonne, Tarta Relena, Jules Reidy",
-      "type": "Cultural Event",
-      "locationId": "loc_pioneer_works",
-      "communityId": "com_pioneer_works",
-      "description": "Pioneer Works is excited to present a lineup of ecstatic new music that explores forms of pop, experimentalism and minimalism, featuring Astrid Sonne, T...",
-      "startDate": "2025-03-25T23:30:00+00:00",
-      "endDate": "2025-03-26T03:00:00+00:00",
-      "category": [
-        "Arts",
-        "Music",
-        "Science"
-      ],
-      "price": null,
-      "registrationRequired": true,
-      "tags": [],
-      "image": [
-        "https://cdn.sanity.io/images/vgvol637/production/f7477670ec7c241d7eda89e060e046632c3cfe39-1600x2002.png?w=800"
-      ],
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://pioneerworks.org/programs/astrid-sonne-tarta-relena-jules-reidy",
-        "organizer": {
-          "name": "Pioneer Works",
-          "instagram": "@pioneerworks",
-          "email": "info@pioneerworks.org"
-        },
-        "venue": {
-          "name": "Pioneer Works",
-          "address": "159 Pioneer Street",
-          "type": "Cultural Institution"
-        },
-        "featured": false
-      }
-    },
-    {
       "id": "evt_pioneer_9eb4de28",
       "name": "Black Eyes, Dreamcrusher",
       "type": "Cultural Event",
@@ -217,6 +181,42 @@
       }
     },
     {
+      "id": "evt_pioneer_6aab0459",
+      "name": "Second Sundays: April 2025",
+      "type": "Cultural Event",
+      "locationId": "loc_pioneer_works",
+      "communityId": "com_pioneer_works",
+      "description": "Since 2013, Pioneer Works has hosted Second Sundays, a free monthly open house. Highlighting our programs, artists-in-residence, and Red Hook community ...",
+      "startDate": "2025-04-13T23:00:00+00:00",
+      "endDate": "2025-04-14T03:00:00+00:00",
+      "category": [
+        "Arts",
+        "Music",
+        "Science"
+      ],
+      "price": null,
+      "registrationRequired": true,
+      "tags": [],
+      "image": [
+        null
+      ],
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://pioneerworks.org/programs/second-sundays-april-2025",
+        "organizer": {
+          "name": "Pioneer Works",
+          "instagram": "@pioneerworks",
+          "email": "info@pioneerworks.org"
+        },
+        "venue": {
+          "name": "Pioneer Works",
+          "address": "159 Pioneer Street",
+          "type": "Cultural Institution"
+        },
+        "featured": false
+      }
+    },
+    {
       "id": "evt_pioneer_0e7e4df9",
       "name": "Why We Die ",
       "type": "Cultural Event",
@@ -347,6 +347,42 @@
       "status": "upcoming",
       "metadata": {
         "source_url": "https://pioneerworks.org/programs/village-fete-2025",
+        "organizer": {
+          "name": "Pioneer Works",
+          "instagram": "@pioneerworks",
+          "email": "info@pioneerworks.org"
+        },
+        "venue": {
+          "name": "Pioneer Works",
+          "address": "159 Pioneer Street",
+          "type": "Cultural Institution"
+        },
+        "featured": false
+      }
+    },
+    {
+      "id": "evt_pioneer_f972de19",
+      "name": "Sun Ra Arkestra with Marshall Allen, Young Boy Dancing Group, Colin Self, Cel Genesis, Relaxer b2b Baby Leo",
+      "type": "Cultural Event",
+      "locationId": "loc_pioneer_works",
+      "communityId": "com_pioneer_works",
+      "description": "In collaboration with Dripping Festival, Pioneer Works is excited to present a concert with performances from Sun Ra Arkestra, Young Boy Dancing Group, ...",
+      "startDate": "2025-06-20T23:00:00+00:00",
+      "endDate": "2025-06-21T03:00:00+00:00",
+      "category": [
+        "Arts",
+        "Music",
+        "Science"
+      ],
+      "price": null,
+      "registrationRequired": true,
+      "tags": [],
+      "image": [
+        "https://cdn.sanity.io/images/vgvol637/production/dcc51c0ea6163f5d193e219fc716388f75553cb0-1440x960.png?w=800"
+      ],
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://pioneerworks.org/programs/sun-ra-arkestra-with-marshall-allen-young-boy-dancing-group-colin-self-cel-genesis-relaxer-b2b",
         "organizer": {
           "name": "Pioneer Works",
           "instagram": "@pioneerworks",
