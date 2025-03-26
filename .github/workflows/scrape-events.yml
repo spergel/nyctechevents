@@ -91,9 +91,16 @@ jobs:
           echo "Applying stashed changes..."
           git stash pop
           
-          # Add both events.json and tweet files
+          # Add events.json
           git add public/data/events.json
-          git add tech/tweets/*.html
+          
+          # Add tweet files if they exist
+          if ls tech/tweets/*.html 1> /dev/null 2>&1; then
+            echo "Adding tweet files..."
+            git add tech/tweets/*.html
+          else
+            echo "No tweet files found to add"
+          fi
           
           if git diff --quiet && git diff --staged --quiet; then
             echo "No changes to commit"
