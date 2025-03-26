@@ -79,9 +79,17 @@ jobs:
           git config --global user.name 'GitHub Actions'
           git config --global user.email 'actions@github.com'
           
+          # Stash any changes before pulling
+          echo "Stashing any changes..."
+          git stash
+          
           # Pull the latest changes first
           echo "Pulling latest changes..."
           git pull --rebase origin main
+          
+          # Pop the stashed changes
+          echo "Applying stashed changes..."
+          git stash pop
           
           # Add both events.json and tweet files
           git add public/data/events.json
