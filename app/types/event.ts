@@ -2,7 +2,6 @@ export interface Category {
   id: string;
   name: string;
   confidence: number;
-  subcategories?: string[];
 }
 
 export interface Event {
@@ -48,6 +47,6 @@ export interface Event {
     associated_communities?: string[];
     social_links?: string[];
   };
-  subcategories?: string[];
-  category: string | string[];
+  category?: Category;
+  event_type?: string;
 } 

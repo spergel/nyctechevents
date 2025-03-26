@@ -58,8 +58,12 @@ const convertToEvent = (pageEvent: PageEvent): Event => {
       } : undefined,
       featured: false
     },
-    subcategories: pageEvent.categories,
-    category: pageEvent.type // Use type as category
+    category: pageEvent.categories ? {
+      id: pageEvent.type,
+      name: pageEvent.type,
+      confidence: 1.0
+    } : undefined,
+    event_type: pageEvent.type
   };
 };
 

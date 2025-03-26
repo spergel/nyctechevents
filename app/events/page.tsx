@@ -272,19 +272,17 @@ export default function Events() {
         category.count++;
       }
 
-      // Handle subcategories if they exist
-      if (Array.isArray(event.subcategories)) {
-        event.subcategories.forEach(subcategory => {
-          if (!categoryMap.has(subcategory)) {
-            categoryMap.set(subcategory, {
-              id: subcategory,
-              name: subcategory,
-              count: 0
-            });
-          }
-          const category = categoryMap.get(subcategory)!;
-          category.count++;
-        });
+      // Handle category if it exists
+      if (event.category) {
+        if (!categoryMap.has(event.category.id)) {
+          categoryMap.set(event.category.id, {
+            id: event.category.id,
+            name: event.category.name,
+            count: 0
+          });
+        }
+        const category = categoryMap.get(event.category.id)!;
+        category.count++;
       }
     });
 
