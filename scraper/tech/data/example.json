@@ -1,0 +1,14 @@
+{
+  "events": [
+    {
+      "id": "example-tech-event-1",
+      "title": "Example Tech Event",
+      "date": "2024-03-26",
+      "venue": "Example Tech Venue",
+      "category": "tech",
+      "subcategory": "example",
+      "source": "example"
+    }
+  ],
+  "last_updated": "2024-03-26T00:00:00Z"
+} 

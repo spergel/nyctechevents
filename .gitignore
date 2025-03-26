@@ -38,7 +38,11 @@ __pycache__/
 categorizer.log
 scraper.log
 
-# Data directories (except public)
+# Data files
+scraper/data/*.json
+scraper/tech/data/*.json
+!scraper/data/example.json
+!scraper/tech/data/example.json
 
 # Environment
 .env
