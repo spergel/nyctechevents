@@ -11,8 +11,9 @@ import { CommunityDetailDialog } from '@/app/components/ui/CommunityDetailDialog
 import { LocationDetailDialog } from '@/app/components/ui/LocationDetailDialog';
 import { saveFilterState, loadFilterState } from '@/app/utils/filterState';
 import { CyberDatePicker } from '@/app/components/ui/CyberDatePicker';
-import { getCommunityData, getLocationData, Community, Location } from '@/app/utils/dataHelpers';
-import { Event, Category } from '@/app/types/event';
+import { getCommunityData, getLocationData } from '@/app/utils/dataHelpers';
+import { Event, Category, Community, Location } from '@/app/types';
+import { getSocialLink } from '@/app/utils/dataHelpers';
 
 // Use imported Category type
 interface SimpleCategory {
@@ -115,26 +116,6 @@ interface CommunityGroup {
   type: string;
   count: number;
 }
-
-// Add getSocialLink helper function
-const getSocialLink = (platform: string, handle: string): string => {
-  switch (platform.toLowerCase()) {
-    case 'instagram':
-      return `https://instagram.com/${handle.replace('@', '')}`;
-    case 'twitter':
-      return `https://twitter.com/${handle.replace('@', '')}`;
-    case 'facebook':
-      return `https://facebook.com/${handle}`;
-    case 'linkedin':
-      return `https://linkedin.com/in/${handle}`;
-    case 'discord':
-      return handle.startsWith('http') ? handle : `https://discord.gg/${handle}`;
-    case 'website':
-      return handle;
-    default:
-      return handle;
-  }
-};
 
 // Helper function to safely create a Date object
 const safeDate = (dateStr: string): Date => {

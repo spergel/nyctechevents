@@ -1,8 +1,7 @@
 import { DetailDialog } from './DetailDialog';
-import { Event } from '@/app/types/event';
 import { getCommunityData, getLocationData } from '@/app/utils/dataHelpers';
 import React from 'react';
-import { Community, Location } from '@/app/utils/dataHelpers';
+import { Community, Location, Event } from '@/app/types';
 import EventJsonLd from '@/app/components/EventJsonLd';
 
 interface EventDetailDialogProps {

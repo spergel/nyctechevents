@@ -1,64 +1,18 @@
 import communities from '@/public/data/communities.json';
 import locations from '@/public/data/locations.json';
 import events from '@/public/data/events.json';
-import { Event } from '@/app/types/event';
+import { Event, Community, Location } from '@/app/types';
 
-export interface Community {
-  id: string;
-  name: string;
-  type: string;
-  organizationType?: string;
-  description: string;
-  founded: string;
-  size: string;
-  category: string[];
-  contact?: {
-    email?: string;
-    phone?: string;
-    social?: {
-      [key: string]: string | undefined;
-    };
-  };
-  website?: string;
-  meetingLocationIds?: string[];
-  image?: string;
-  tags?: string[];
-  membershipType: string;
-  membershipFee: string | {
-    amount?: number;
-    frequency?: string;
-    details?: string;
-  };
-}
+export type { Location };
 
-export interface Location {
-  id: string;
-  name: string;
-  type: string;
-  community_and_location?: boolean;
-  mainCommunityId?: string;
-  address: string;
-  coordinates?: {
-    lat: number;
-    lng: number;
-  };
-  description?: string;
-  amenities?: string[];
-  capacity?: string;
-  accessibility?: boolean;
-  website?: string;
-  images?: string[];
-  hours?: {
-    [key: string]: string;
-  };
-  category?: string | string[];
-  tags?: string[];
-  contact?: {
-    email?: string;
-    instagram?: string;
-    [key: string]: string | undefined;
-  };
-}
+// Helper function to ensure location has all required fields
+const ensureCompleteLocation = (location: any): Location => ({
+  ...location,
+  capacity: location.capacity || 'Unknown',
+  accessibility: location.accessibility || false,
+  hours: location.hours || {},
+  contact: location.contact || { phone: '', email: '' }
+});
 
 export function getCommunityData(communityId: string | undefined): Community | undefined {
   if (!communityId) return undefined;
@@ -67,13 +21,18 @@ export function getCommunityData(communityId: string | undefined): Community | u
 
 export function getLocationData(locationId: string | undefined): Location | undefined {
   if (!locationId) return undefined;
-  return locations.locations.find(l => l.id === locationId);
+  const location = locations.locations.find(l => l.id === locationId);
+  return location ? ensureCompleteLocation(location) : undefined;
 }
 
 // Add helper function to ensure event has all required fields
 const ensureCompleteEvent = (event: any): Event => ({
   ...event,
-  category: event.type, // Use type as category if not present
+  category: event.type ? {
+    id: event.type,
+    name: event.type,
+    confidence: 1
+  } : undefined,
   price: event.price || {
     amount: 0,
     type: 'Free',
@@ -165,9 +124,9 @@ export function getLocationsForCommunity(communityId: string): Location[] {
   const locationIds = Array.from(locationsWithEvents);
   
   // Return the full location objects
-  return locations.locations.filter(location => 
-    locationIds.includes(location.id)
-  );
+  return locations.locations
+    .filter(location => locationIds.includes(location.id))
+    .map(location => ensureCompleteLocation(location));
 }
 
 /**
@@ -187,4 +146,25 @@ export function getMainCommunityForLocation(location: Location): Community | und
   }
   
   return undefined;
+}
+
+export function getSocialLink(platform: string, handle: string): string {
+  switch (platform.toLowerCase()) {
+    case 'instagram':
+      return `https://instagram.com/${handle.replace('@', '')}`;
+    case 'twitter':
+      return `https://twitter.com/${handle.replace('@', '')}`;
+    case 'facebook':
+      return `https://facebook.com/${handle}`;
+    case 'linkedin':
+      return `https://linkedin.com/in/${handle}`;
+    case 'discord':
+      return handle.startsWith('http') ? handle : `https://discord.gg/${handle}`;
+    case 'matrix':
+      return `https://matrix.to/#/${handle}`;
+    case 'website':
+      return handle;
+    default:
+      return handle;
+  }
 } 

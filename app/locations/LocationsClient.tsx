@@ -11,9 +11,17 @@ import { saveFilterState, loadFilterState } from '@/app/utils/filterState';
 import { LocationDetailDialog } from '@/app/components/ui/LocationDetailDialog';
 import { CommunityDetailDialog } from '@/app/components/ui/CommunityDetailDialog';
 import { EventDetailDialog } from '@/app/components/ui/EventDetailDialog';
-import { Event as SimpleEvent } from '@/app/types/index';
-import { Event as DetailedEvent } from '@/app/types/event';
-import { Location, getEventsForLocation, getCommunitiesForLocation, getCommunityData } from '@/app/utils/dataHelpers';
+import { Event, Community, Location } from '@/app/types';
+import { getEventsForLocation, getCommunitiesForLocation, getCommunityData } from '@/app/utils/dataHelpers';
+
+// Helper function to ensure location has all required fields
+const ensureCompleteLocation = (location: any): Location => ({
+  ...location,
+  capacity: location.capacity || 'Unknown',
+  accessibility: location.accessibility || false,
+  hours: location.hours || {},
+  contact: location.contact || { phone: '', email: '' }
+});
 
 export default function LocationsClient() {
   const [isLoading, setIsLoading] = useState(true);
@@ -22,8 +30,8 @@ export default function LocationsClient() {
   const [isMapVisible, setIsMapVisible] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
   const [selectedLocation, setSelectedLocation] = useState<Location | null>(null);
-  const [selectedCommunity, setSelectedCommunity] = useState<any | null>(null);
-  const [selectedEvent, setSelectedEvent] = useState<DetailedEvent | null>(null);
+  const [selectedCommunity, setSelectedCommunity] = useState<Community | null>(null);
+  const [selectedEvent, setSelectedEvent] = useState<Event | null>(null);
 
   // Check if we're on mobile
   useEffect(() => {
@@ -75,9 +83,11 @@ export default function LocationsClient() {
       count: (locations?.locations || []).filter(l => l.type === type).length
     }));
 
-  const filteredLocations = (locations?.locations || []).filter(location =>
-    selectedTypes.length === 0 || selectedTypes.includes(location.type)
-  );
+  const filteredLocations = (locations?.locations || [])
+    .filter(location =>
+      selectedTypes.length === 0 || selectedTypes.includes(location.type)
+    )
+    .map(location => ensureCompleteLocation(location));
 
   const toggleType = (type: string) => {
     setSelectedTypes(prev => 
@@ -100,8 +110,8 @@ export default function LocationsClient() {
   ];
 
   // Handle selecting a location from click
-  const handleLocationClick = (location: Location) => {
-    setSelectedLocation(location);
+  const handleLocationClick = (location: any) => {
+    setSelectedLocation(ensureCompleteLocation(location));
   };
 
   // Handle selecting a community from a location
@@ -114,42 +124,10 @@ export default function LocationsClient() {
   };
 
   // Handle selecting an event
-  const handleEventSelect = (event: SimpleEvent) => {
+  const handleEventSelect = (event: Event) => {
     setSelectedLocation(null);
     setSelectedCommunity(null);
-    // Convert simple event to detailed event for the EventDetailDialog
-    const detailedEvent: DetailedEvent = {
-      ...event,
-      locationId: event.locationId || '',
-      communityId: event.communityId || '',
-      description: event.description || '',
-      endDate: event.endDate || event.startDate || '',
-      category: {
-        id: event.type,
-        name: event.type,
-        confidence: 1
-      },
-      price: {
-        amount: 0,
-        type: 'Free',
-        currency: 'USD',
-        details: ''
-      },
-      capacity: null,
-      registrationRequired: false,
-      image: '',
-      status: 'upcoming',
-      metadata: {
-        source_url: '',
-        featured: false,
-        venue: event.metadata?.venue ? {
-          name: event.metadata.venue.name,
-          address: event.metadata.venue.address || '',
-          type: event.metadata.venue.type
-        } : undefined
-      }
-    };
-    setSelectedEvent(detailedEvent);
+    setSelectedEvent(event);
   };
 
   if (isLoading) {
@@ -187,9 +165,6 @@ export default function LocationsClient() {
           <Panel title="NYC LOCATIONS" systemId="LOC-001">
             <div className="items-grid">
               {filteredLocations.map(location => {
-                // Check if this location is also a community
-                const isCommunity = location.community_and_location === true;
-                
                 return (
                   <div 
                     key={location.id} 
@@ -198,7 +173,9 @@ export default function LocationsClient() {
                   >
                     <div className="location-header">
                       <div className="location-type">{location.type}</div>
-                      {isCommunity && <div className="community-badge">Community</div>}
+                      {location.community_and_location && (
+                        <div className="community-badge">Community</div>
+                      )}
                     </div>
                     <h3 className="location-name">{location.name}</h3>
                     <div className="location-address">{location.address}</div>

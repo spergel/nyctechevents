@@ -1,7 +1,8 @@
 'use client';
 
+import Script from 'next/script';
 import { useEffect } from 'react';
-import { Event } from '../types/event';
+import { Event } from '@/app/types';
 
 interface EventJsonLdProps {
   event: Event;

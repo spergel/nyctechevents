@@ -6,11 +6,11 @@ import { FilterButton } from '@/app/components/ui/FilterButton';
 import { FilterDialog } from '@/app/components/ui/FilterDialog';
 import { FilterToggleButton } from '@/app/components/ui/FilterToggleButton';
 import Loading from '@/app/loading';
-import { Community, getEventsForCommunity, getLocationsForCommunity, Location } from '@/app/utils/dataHelpers';
+import { getEventsForCommunity, getLocationsForCommunity } from '@/app/utils/dataHelpers';
+import { Community, Event, Location } from '@/app/types';
 import { CommunityDetailDialog } from '@/app/components/ui/CommunityDetailDialog';
 import { LocationDetailDialog } from '@/app/components/ui/LocationDetailDialog';
 import { EventDetailDialog } from '@/app/components/ui/EventDetailDialog';
-import { Event } from '@/app/types/event';
 
 interface CommunitiesData {
   communities: Community[];

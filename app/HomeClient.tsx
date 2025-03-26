@@ -12,9 +12,8 @@ import { FilterDialog } from '@/app/components/ui/FilterDialog';
 import { FilterToggleButton } from '@/app/components/ui/FilterToggleButton';
 import { LocationDetailDialog } from '@/app/components/ui/LocationDetailDialog';
 import { EventDetailDialog } from '@/app/components/ui/EventDetailDialog';
-import { Event } from '@/app/types/event';
+import { Event, Location } from '@/app/types';
 import { Event as SimpleEvent } from '@/app/types/index';
-import { Location } from '@/app/utils/dataHelpers';
 
 // Local interface for the events from the JSON file
 interface PageEvent {
