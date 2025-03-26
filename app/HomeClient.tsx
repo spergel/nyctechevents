@@ -13,6 +13,7 @@ import { FilterToggleButton } from '@/app/components/ui/FilterToggleButton';
 import { LocationDetailDialog } from '@/app/components/ui/LocationDetailDialog';
 import { EventDetailDialog } from '@/app/components/ui/EventDetailDialog';
 import { Event } from '@/app/types/event';
+import { Event as SimpleEvent } from '@/app/types/index';
 import { Location } from '@/app/utils/dataHelpers';
 
 // Local interface for the events from the JSON file
@@ -178,10 +179,22 @@ export default function HomeClient() {
     );
   }, [upcomingEvents, selectedTypes]);
 
-  // For the LocationDetailDialog which expects an AppEvent
-  const handleAppEventSelect = (event: Event) => {
-    // Use the EventDetailDialog instead of navigating to the event page
-    setSelectedEvent(event as unknown as PageEvent);
+  // For the LocationDetailDialog which expects a SimpleEvent
+  const handleAppEventSelect = (event: SimpleEvent) => {
+    // Convert SimpleEvent to PageEvent for the EventDetailDialog
+    const pageEvent: PageEvent = {
+      id: event.id,
+      name: event.name,
+      startDate: event.startDate,
+      type: event.type,
+      description: event.description,
+      venue: event.metadata?.venue ? {
+        name: event.metadata.venue.name,
+        address: event.metadata.venue.address || ''
+      } : undefined,
+      categories: Array.isArray(event.category) ? event.category : [event.type]
+    };
+    setSelectedEvent(pageEvent);
   };
 
   if (isLoading) {

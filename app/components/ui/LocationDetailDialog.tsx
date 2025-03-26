@@ -1,13 +1,14 @@
 import { DetailDialog } from './DetailDialog';
 import { Location, getEventsForLocation, getCommunitiesForLocation, getCommunityData, getMainCommunityForLocation } from '@/app/utils/dataHelpers';
-import { Event } from '@/app/types/event';
+import { Event as EventType } from '@/app/types/event';
+import { Event as SimpleEvent } from '@/app/types/index';
 import React, { useState } from 'react';
 
 interface LocationDetailDialogProps {
   location: Location | null;
   isOpen: boolean;
   onClose: () => void;
-  onEventSelect?: (event: Event) => void;
+  onEventSelect?: (event: SimpleEvent) => void;
   onCommunitySelect?: (communityId: string) => void;
 }
 
@@ -39,6 +40,27 @@ export function LocationDetailDialog({
   const handleCommunityClick = (communityId: string) => {
     if (onCommunitySelect) {
       onCommunitySelect(communityId);
+    }
+  };
+
+  const handleEventClick = (event: EventType) => {
+    if (onEventSelect) {
+      // Convert the detailed event to a simple event
+      const simpleEvent: SimpleEvent = {
+        id: event.id,
+        name: event.name,
+        type: event.type,
+        locationId: event.locationId,
+        communityId: event.communityId,
+        description: event.description,
+        startDate: event.startDate,
+        endDate: event.endDate,
+        category: typeof event.category === 'object' ? [event.category.name] : [event.type],
+        metadata: {
+          venue: event.metadata?.venue
+        }
+      };
+      onEventSelect(simpleEvent);
     }
   };
 
@@ -238,7 +260,7 @@ export function LocationDetailDialog({
                       <div 
                         key={event.id} 
                         className="event-item"
-                        onClick={() => onEventSelect && onEventSelect(event)}
+                        onClick={() => handleEventClick(event)}
                       >
                         <div className="event-date">
                           <div className="date-badge small">
@@ -277,7 +299,7 @@ export function LocationDetailDialog({
                       <div 
                         key={event.id} 
                         className="event-item"
-                        onClick={() => onEventSelect && onEventSelect(event)}
+                        onClick={() => handleEventClick(event)}
                       >
                         <div className="event-date">
                           <div className="date-badge small past">

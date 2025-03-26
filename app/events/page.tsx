@@ -98,7 +98,8 @@ const eventMatchesSearch = (event: any, searchQuery: string): boolean => {
     event.organizer?.name,
     event.locationId,
     event.communityId,
-    ...(event.categories?.map((cat: Category) => [cat.name, ...(cat.subcategories || [])]).flat() || [])
+    event.category?.name,
+    event.type
   ].filter(Boolean).join(' '));
 
   // All search terms must be present for a match
@@ -273,15 +274,16 @@ export default function Events() {
       }
 
       // Handle category if it exists
-      if (event.category) {
-        if (!categoryMap.has(event.category.id)) {
-          categoryMap.set(event.category.id, {
-            id: event.category.id,
-            name: event.category.name,
+      if (event.category && typeof event.category === 'object' && 'id' in event.category && 'name' in event.category) {
+        const categoryObj = event.category as unknown as Category;
+        if (!categoryMap.has(categoryObj.id)) {
+          categoryMap.set(categoryObj.id, {
+            id: categoryObj.id,
+            name: categoryObj.name,
             count: 0
           });
         }
-        const category = categoryMap.get(event.category.id)!;
+        const category = categoryMap.get(categoryObj.id)!;
         category.count++;
       }
     });
@@ -340,8 +342,9 @@ export default function Events() {
       }
       
       // Secondary communities (from metadata.associated_communities)
-      if (event.metadata?.associated_communities && Array.isArray(event.metadata.associated_communities)) {
-        event.metadata.associated_communities.forEach(communityId => {
+      const metadata = event.metadata as { associated_communities?: string[] };
+      if (metadata?.associated_communities) {
+        metadata.associated_communities.forEach((communityId: string) => {
           const secondaryCommunity = getCommunityData(communityId);
           if (secondaryCommunity && communityId !== event.communityId) {
             if (!communityMap.has(communityId)) {
@@ -376,7 +379,12 @@ export default function Events() {
 
     // Category filter
     if (selectedCategories.length > 0) {
-      const eventCategories = [event.type, ...(event.subcategories || [])];
+      const eventCategories = [
+        event.type,
+        event.category && typeof event.category === 'object' && 'name' in event.category 
+          ? (event.category as unknown as Category).name 
+          : undefined
+      ].filter(Boolean);
       if (!selectedCategories.some(cat => eventCategories.includes(cat))) {
         return false;
       }

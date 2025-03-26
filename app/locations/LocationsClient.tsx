@@ -11,7 +11,8 @@ import { saveFilterState, loadFilterState } from '@/app/utils/filterState';
 import { LocationDetailDialog } from '@/app/components/ui/LocationDetailDialog';
 import { CommunityDetailDialog } from '@/app/components/ui/CommunityDetailDialog';
 import { EventDetailDialog } from '@/app/components/ui/EventDetailDialog';
-import { Event } from '@/app/types/index';
+import { Event as SimpleEvent } from '@/app/types/index';
+import { Event as DetailedEvent } from '@/app/types/event';
 import { Location, getEventsForLocation, getCommunitiesForLocation, getCommunityData } from '@/app/utils/dataHelpers';
 
 export default function LocationsClient() {
@@ -22,7 +23,7 @@ export default function LocationsClient() {
   const [isMobile, setIsMobile] = useState(false);
   const [selectedLocation, setSelectedLocation] = useState<Location | null>(null);
   const [selectedCommunity, setSelectedCommunity] = useState<any | null>(null);
-  const [selectedEvent, setSelectedEvent] = useState<Event | null>(null);
+  const [selectedEvent, setSelectedEvent] = useState<DetailedEvent | null>(null);
 
   // Check if we're on mobile
   useEffect(() => {
@@ -113,10 +114,42 @@ export default function LocationsClient() {
   };
 
   // Handle selecting an event
-  const handleEventSelect = (event: Event) => {
+  const handleEventSelect = (event: SimpleEvent) => {
     setSelectedLocation(null);
     setSelectedCommunity(null);
-    setSelectedEvent(event);
+    // Convert simple event to detailed event for the EventDetailDialog
+    const detailedEvent: DetailedEvent = {
+      ...event,
+      locationId: event.locationId || '',
+      communityId: event.communityId || '',
+      description: event.description || '',
+      endDate: event.endDate || event.startDate || '',
+      category: {
+        id: event.type,
+        name: event.type,
+        confidence: 1
+      },
+      price: {
+        amount: 0,
+        type: 'Free',
+        currency: 'USD',
+        details: ''
+      },
+      capacity: null,
+      registrationRequired: false,
+      image: '',
+      status: 'upcoming',
+      metadata: {
+        source_url: '',
+        featured: false,
+        venue: event.metadata?.venue ? {
+          name: event.metadata.venue.name,
+          address: event.metadata.venue.address || '',
+          type: event.metadata.venue.type
+        } : undefined
+      }
+    };
+    setSelectedEvent(detailedEvent);
   };
 
   if (isLoading) {
@@ -254,7 +287,7 @@ export default function LocationsClient() {
       
       {/* Event Detail Dialog when an event is selected */}
       <EventDetailDialog
-        event={selectedEvent as any}
+        event={selectedEvent}
         isOpen={selectedEvent !== null}
         onClose={() => setSelectedEvent(null)}
       />
