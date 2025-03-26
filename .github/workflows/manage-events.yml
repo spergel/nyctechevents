@@ -1,8 +1,9 @@
-name: Scrape Events
+name: Manage NYC Events
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # Run daily at midnight UTC
+    # Run daily at midnight UTC
+    - cron: '0 0 * * *'
   workflow_dispatch:  # Allow manual triggering
 
 # Add permissions needed for the workflow
@@ -10,7 +11,7 @@ permissions:
   contents: write  # Give permission to push to the repository
 
 jobs:
-  scrape:
+  scrape-and-update:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -22,49 +23,27 @@ jobs:
         uses: actions/setup-python@v4
         with:
           python-version: '3.10'
+          cache: 'pip'
           
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          if [ -f scraper/requirements.txt ]; then
-            pip install -r scraper/requirements.txt
-          else
-            # Install common dependencies used by scrapers
-            pip install requests beautifulsoup4 pandas lxml tqdm python-dateutil ics pytz
-          fi
+          pip install -r scraper/requirements.txt
           
-      - name: Debug directory structure
+      - name: Download Latest Data
+        uses: actions/download-artifact@v3
+        with:
+          name: event-data
+          path: ./data
+          if-no-files-found: warn
+          
+      - name: Run Scrapers and Generate Tweets
         run: |
-          echo "Current working directory: $(pwd)"
-          echo "Directory contents:"
-          ls -la
-          echo "Full directory tree:"
-          find . -type d | sort
-          
-      - name: Run scrapers and generate tweets
-        run: |
-          # Debug directory structure
-          echo "Current working directory: $(pwd)"
-          echo "Listing contents of root directory:"
-          ls -la
-          
-          echo "Checking if scraper directory exists:"
-          if [ -d "scraper" ]; then
-            echo "scraper directory exists"
-            echo "Contents of scraper directory:"
-            ls -la scraper/
-          else
-            echo "scraper directory does NOT exist!"
-            echo "Creating necessary directories"
-            mkdir -p scraper/tech
-          fi
-          
-          # Add the current directory to PYTHONPATH to allow module imports
+          # Set PYTHONPATH and run the scraper
           export PYTHONPATH=$PYTHONPATH:$(pwd)
-          echo "PYTHONPATH is now: $PYTHONPATH"
+          echo "Running scraper with PYTHONPATH: $PYTHONPATH"
           
           # Run the scraper module
-          echo "Running the scraper module"
           python -m scraper.tech.run_all --output public/data/events.json
           
           # Create tech/tweets directory if it doesn't exist
@@ -73,11 +52,27 @@ jobs:
           # Generate tweets
           echo "Generating tweets"
           python -m scraper.tech.tweet_generator
-        
-      - name: Commit and push if changed
+          
+      - name: Upload New Data
+        uses: actions/upload-artifact@v3
+        with:
+          name: event-data
+          path: |
+            scraper/data/combined_events.json
+            scraper/tech/data/*.json
+          retention-days: 7
+          
+      - name: Update Frontend Data
         run: |
-          git config --global user.name 'GitHub Actions'
-          git config --global user.email 'actions@github.com'
+          # Copy the latest data to the frontend
+          mkdir -p public/data
+          cp scraper/data/combined_events.json public/data/
+          cp scraper/tech/data/*.json public/data/
+          
+      - name: Commit and Push Changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
           
           # Stash any changes before pulling
           echo "Stashing any changes..."
@@ -94,6 +89,7 @@ jobs:
           # Add all relevant data files
           echo "Adding data files..."
           git add public/data/events.json
+          git add public/data/*.json
           git add scraper/data/combined_events.json
           git add scraper/tech/data/*.json
           
@@ -116,7 +112,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           
-      # If you're using Vercel for deployment
+      # Deploy to Vercel if configured
       - name: Deploy to Vercel
         if: success()
         run: |

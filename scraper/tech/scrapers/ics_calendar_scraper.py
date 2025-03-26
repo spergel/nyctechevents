@@ -8,9 +8,8 @@ import re
 from bs4 import BeautifulSoup
 from typing import Dict, List, Optional
 from datetime import datetime, UTC
-from icalendar import Calendar
+from ics import Calendar, Event
 from scraper.tech.scrapers.calendar_configs import ICS_CALENDARS
-import ics
 
 # Setup paths
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -52,7 +51,10 @@ def get_luma_event_details(event_url: str) -> Optional[Dict]:
             return None
             
         logging.info(f"Fetching details from Luma event URL: {event_url}")
-        response = requests.get(event_url)
+        headers = {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+        }
+        response = requests.get(event_url, headers=headers, timeout=10)
         response.raise_for_status()
         soup = BeautifulSoup(response.text, 'html.parser')
         
@@ -179,58 +181,74 @@ def get_luma_event_details(event_url: str) -> Optional[Dict]:
 
 def get_luma_events(ics_url):
     """Fetch and parse Luma calendar events from ICS feed"""
-    response = requests.get(ics_url)
-    response.raise_for_status()
-    
-    cal = Calendar.from_ical(response.text)
-    events = []
-    now = datetime.now(pytz.utc)
-    
-    for component in cal.walk():
-        if component.name == "VEVENT":
-            start = component.get('dtstart').dt
-            end = component.get('dtend').dt
+    try:
+        logging.info(f"Fetching ICS feed from: {ics_url}")
+        headers = {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+        }
+        response = requests.get(ics_url, headers=headers, timeout=10)
+        response.raise_for_status()
+        
+        if not response.text:
+            logging.error(f"Empty response from ICS feed: {ics_url}")
+            return []
             
-            # Skip past events (end time in past)
-            if end < now:
+        logging.info(f"Successfully fetched ICS feed, size: {len(response.text)} bytes")
+        cal = Calendar(response.text)
+        events = []
+        now = datetime.now(pytz.utc)
+        
+        for event in cal.events:
+            try:
+                # Skip past events (end time in past)
+                if event.end < now:
+                    continue
+                
+                # Get event URL from:
+                # 1. URL property
+                # 2. Location field if it contains a Luma URL
+                # 3. Description field if it contains a Luma URL
+                event_url = getattr(event, 'url', '')
+                location = getattr(event, 'location', '')
+                description = getattr(event, 'description', '')
+                
+                # Check if location is a Luma URL
+                if not event_url and location and 'lu.ma' in location:
+                    event_url = location
+                    
+                # Alternative: Extract URL from description if needed
+                if not event_url and description:
+                    urls = re.findall(r'https?://lu\.ma/\S+', description)
+                    if urls:
+                        event_url = urls[0]
+                
+                # Get detailed event information if we have a URL
+                event_details = get_luma_event_details(event_url) if event_url else None
+                    
+                events.append({
+                    "uid": getattr(event, 'uid', ''),
+                    "summary": getattr(event, 'name', ''),
+                    "start": event.begin.datetime,
+                    "end": event.end.datetime,
+                    "location": location,
+                    "description": description,
+                    "organizer": getattr(event, 'organizer', ''),
+                    "geo": getattr(event, 'geo', ''),
+                    "url": event_url,
+                    "additional_details": event_details
+                })
+            except Exception as e:
+                logging.error(f"Error processing event: {e}")
                 continue
-            
-            # Get event URL from:
-            # 1. URL property
-            # 2. Location field if it contains a Luma URL
-            # 3. Description field if it contains a Luma URL
-            event_url = component.get('url', '')
-            location = component.get('location', '')
-            description = component.get('description', '')
-            
-            # Check if location is a Luma URL
-            if not event_url and location and 'lu.ma' in location:
-                event_url = location
-                
-            # Alternative: Extract URL from description if needed
-            if not event_url and description:
-                urls = re.findall(r'https?://lu\.ma/\S+', description)
-                if urls:
-                    event_url = urls[0]
-            
-            # Get detailed event information if we have a URL
-            event_details = get_luma_event_details(event_url) if event_url else None
-                
-            events.append({
-                "uid": component.get("uid"),
-                "summary": component.get("summary"),
-                "start": start,
-                "end": end,
-                "location": location,
-                "description": description,
-                "organizer": component.get("organizer"),
-                "geo": component.get("geo"),
-                "url": event_url,
-                "additional_details": event_details
-            })
-    
-    logging.info(f"Found {len(events)} upcoming events")
-    return events
+        
+        logging.info(f"Found {len(events)} upcoming events")
+        return events
+    except requests.exceptions.RequestException as e:
+        logging.error(f"Error fetching ICS feed: {e}")
+        return []
+    except Exception as e:
+        logging.error(f"Unexpected error processing ICS feed: {e}")
+        return []
 
 def parse_location(raw_location):
     """Extract structured location data from ICS location field"""

@@ -184,61 +184,6 @@
       }
     },
     {
-      "id": "evt_com_der_project_f7370aae",
-      "name": "Data In Power - Virtual Event",
-      "type": "Tech",
-      "locationId": "loc_tbd",
-      "communityId": "com_der_project",
-      "description": "​Data and the distribution of decision-making power is an increasingly important dynamic to understand and engage with in climate and energy. Who is collecting, analyzing, and presenting data - how and why? These are the hard-hitting questions we will unpack in an open format discussion. If you have been looking for a space to share and engage with multiple perspectives through concrete examples of data’s influence within climate and energy decision-making, this event is for you!​*Note: This is a small group discussion so that we can dive deep into Data In Power principles and examples while building relationships. If you are interested, please RSVP even if the event is full, so that I can plan more for the calendar.",
-      "startDate": "2025-03-25T20:00:00-04:00",
-      "endDate": "2025-03-25T21:00:00-04:00",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": 100,
-      "registrationRequired": true,
-      "tags": [],
-      "image": "luma-event-f902b935.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://lu.ma/e/evt-Hb9cgfmCGjGXUJY",
-        "speakers": [
-          {
-            "name": "Crystal Soo",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Crystal Soo",
-            "title": "",
-            "bio": ""
-          }
-        ],
-        "venue": {
-          "name": "",
-          "address": "",
-          "type": "Offline",
-          "room": "",
-          "additional_info": ""
-        },
-        "featured": false,
-        "social_links": [
-          "https://x.com/derprojectfair",
-          "https://derprojectfair.wordpress.com/climate-coffees/",
-          "https://x.com/Derprojectfair",
-          "https://x.com/derprojectfair",
-          "https://derprojectfair.wordpress.com/climate-coffees/",
-          "https://x.com/Derprojectfair"
-        ]
-      }
-    },
-    {
       "id": "evt_com_der_project_74c3589a",
       "name": "Data In Power - NYC Event",
       "type": "Tech",
@@ -290,6 +235,85 @@
           "https://x.com/derprojectfair",
           "https://derprojectfair.wordpress.com/climate-coffees/",
           "https://x.com/Derprojectfair"
+        ]
+      }
+    },
+    {
+      "id": "evt_com_ny_hardware_7315b6b0",
+      "name": "106th NY Hardware Meetup @ Cornell Tech",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_ny_hardware",
+      "description": "​The Hardware Meetup community is excited to announce the 106th NY Hardware Meetup at Cornell Tech​​​​Hardware Meetups happen across 30+ cities around the world, bringing together hardware professionals to network and learn from each other. You might not realize it, but NYC is a hotbed for this kind of innovation and tonight you'll meet two companies working at the cutting edge of this technology.​​​​This month we'll be atCornell Tech. Cornell Tech is  Cornell University’s state-of-the-art campus in New York City that develops leaders and technologies for the AI era through foundational and applied research, graduate education, and new ventures. Located on Roosevelt Island, the growing campus was founded in partnership with the Technion-Israel Institute of Technology and in close collaboration with the NYC Economic Development Corporation after Cornell won a worldwide competition initiated by Mayor Michael R. Bloomberg’s administration to create an applied sciences campus in New York City. More than 1,000 Cornell students are now educated annually on the campus, including 700 in Cornell Tech programs. Since opening in 2012, nearly 120 new companies have spun out from startup programs at Cornell Tech, and 95 percent of them are based in New York City. Cornell Tech continues to have atransformative economic impact on the region’s tech sector.​​​AGENDA​​​​6:30 - Arrival, mingle, grab refreshments​​​​7:00 - Welcome and introduction​​7:15- Panel with audience Q+A​​8:20 - Community open mic​​​​Anyone will have the chance or talk about what they are working on.​​8:30 - Mix + mingle​​WANT TO GET INVOLVED?​​​Sponsorship:​We offer exclusive access to our 10,000+ member community through sponsorships.​​​Host an event at your space:We are always looking for host sponsors to provide access to unique spaces from cool hardware companies building interesting things. Want to open up your office?​​​Speaker:Do you have something interesting to share with our community? We're on the lookout for fresh faces to talk about their journey and experiences.​​​If you want to get involved, head here:https://linktr.ee/nyhardware",
+      "startDate": "2025-05-08T18:30:00-04:00",
+      "endDate": "2025-05-08T22:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "luma-event-28713467.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/ag988xhd",
+        "speakers": [
+          {
+            "name": "Paul Vizzio",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Anthony Dzaba",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Nate",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Paul Vizzio",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Anthony Dzaba",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Nate",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "venue": {
+          "name": "Tata Innovation Center11 E Loop Rd, New York, NY 10044, USA",
+          "address": "11 E Loop Rd, New York, NY 10044, USA",
+          "type": "Offline",
+          "room": "",
+          "additional_info": ""
+        },
+        "featured": false,
+        "social_links": [
+          "https://linkedin.com/company/ny-hardware-meetup",
+          "https://linktr.ee/nyhardware",
+          "https://instagram.com/vizengnyc",
+          "https://x.com/vizengnyc",
+          "https://x.com/ngpadgett",
+          "https://linkedin.com/company/ny-hardware-meetup",
+          "https://linktr.ee/nyhardware",
+          "https://instagram.com/vizengnyc",
+          "https://x.com/vizengnyc",
+          "https://x.com/ngpadgett"
         ]
       }
     },
@@ -452,87 +476,8 @@
       }
     },
     {
-      "id": "evt_com_ny_hardware_7315b6b0",
-      "name": "106th NY Hardware Meetup @ Cornell Tech",
-      "type": "Tech",
-      "locationId": "loc_tbd",
-      "communityId": "com_ny_hardware",
-      "description": "​The Hardware Meetup community is excited to announce the 106th NY Hardware Meetup at Cornell Tech​​​​Hardware Meetups happen across 30+ cities around the world, bringing together hardware professionals to network and learn from each other. You might not realize it, but NYC is a hotbed for this kind of innovation and tonight you'll meet two companies working at the cutting edge of this technology.​​​​This month we'll be atCornell Tech. Cornell Tech is  Cornell University’s state-of-the-art campus in New York City that develops leaders and technologies for the AI era through foundational and applied research, graduate education, and new ventures. Located on Roosevelt Island, the growing campus was founded in partnership with the Technion-Israel Institute of Technology and in close collaboration with the NYC Economic Development Corporation after Cornell won a worldwide competition initiated by Mayor Michael R. Bloomberg’s administration to create an applied sciences campus in New York City. More than 1,000 Cornell students are now educated annually on the campus, including 700 in Cornell Tech programs. Since opening in 2012, nearly 120 new companies have spun out from startup programs at Cornell Tech, and 95 percent of them are based in New York City. Cornell Tech continues to have atransformative economic impact on the region’s tech sector.​​​AGENDA​​​​6:30 - Arrival, mingle, grab refreshments​​​​7:00 - Welcome and introduction​​7:15- Panel with audience Q+A​​8:20 - Community open mic​​​​Anyone will have the chance or talk about what they are working on.​​8:30 - Mix + mingle​​WANT TO GET INVOLVED?​​​Sponsorship:​We offer exclusive access to our 10,000+ member community through sponsorships.​​​Host an event at your space:We are always looking for host sponsors to provide access to unique spaces from cool hardware companies building interesting things. Want to open up your office?​​​Speaker:Do you have something interesting to share with our community? We're on the lookout for fresh faces to talk about their journey and experiences.​​​If you want to get involved, head here:https://linktr.ee/nyhardware",
-      "startDate": "2025-05-08T18:30:00-04:00",
-      "endDate": "2025-05-08T22:00:00-04:00",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": 100,
-      "registrationRequired": true,
-      "tags": [],
-      "image": "luma-event-28713467.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://lu.ma/ag988xhd",
-        "speakers": [
-          {
-            "name": "Paul Vizzio",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Anthony Dzaba",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Nate",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Paul Vizzio",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Anthony Dzaba",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Nate",
-            "title": "",
-            "bio": ""
-          }
-        ],
-        "venue": {
-          "name": "Tata Innovation Center11 E Loop Rd, New York, NY 10044, USA",
-          "address": "11 E Loop Rd, New York, NY 10044, USA",
-          "type": "Offline",
-          "room": "",
-          "additional_info": ""
-        },
-        "featured": false,
-        "social_links": [
-          "https://linkedin.com/company/ny-hardware-meetup",
-          "https://linktr.ee/nyhardware",
-          "https://instagram.com/vizengnyc",
-          "https://x.com/vizengnyc",
-          "https://x.com/ngpadgett",
-          "https://linkedin.com/company/ny-hardware-meetup",
-          "https://linktr.ee/nyhardware",
-          "https://instagram.com/vizengnyc",
-          "https://x.com/vizengnyc",
-          "https://x.com/ngpadgett"
-        ]
-      }
-    },
-    {
-      "id": "evt_com_la_creme_stem_c683a307",
-      "name": "Navigating Women's Healthcare: Insights from VC & Founders",
+      "id": "evt_com_la_creme_stem_b9a5d94c",
+      "name": "Navigating Women's AI Healthcare: Insights from VC & Founders",
       "type": "Tech",
       "locationId": "loc_tbd",
       "communityId": "com_la_creme_stem",
@@ -751,7 +696,7 @@
       "type": "Tech",
       "locationId": "loc_tbd",
       "communityId": "com_third_place_nyc",
-      "description": "​Third Place Bar & Shanti Houseinvite to you a different kind of Friday night out. Join us at the Fabrik loft for a relaxing beginner's yoga class, a tea bar, non-alcoholic drinks, live DJ, and playful activities to wind down and de-stress from the week... without the hangover.​What to expect:​6.30pm-7pm: Arrivals & mingling(please make sure to arrive on time before the yoga session!)​7pm-7.45pm: Unwind yin yoga led by Louisa, founder ofShanti House​7.45pm-9:00pm: Social hour with NA drinks​Stop by the tea bar byNoah Wellness, enjoy some light bites fromHappy Boards, and functional non-alcoholic drinks fromGuinep!​DJ Solunawill be mixing all night! Whether it’s ambient soundscapes, soulful grooves, or energetic afrohouse beats, Soluna crafts immersive musical journeys that move both body and soul.​FAQ​​Q: Do I need to be there at the exact start time?Yes, please aim to arrive at 6.30pm as we will get started with the yoga class at 7pm and latecomers may not be admitted!​​​Q: Can I come alone?Yes, this is a social mixer, you’re welcome to come alone and meet new people!​​​Q: Is this an alcohol-free venue?Yes, Fabrik is a community space that does not serve alcohol.​​​Q: Is there an age restriction?Yes, all our events are 21+​Q: I've never done yoga, can I still come?The yoga class will be relaxed and suitable for beginners.​Q: Do I need to bring a mat? Can I change somewhere?Yoga mat rental is included in the ticket price, but you're welcome to bring your own! There are limited changing rooms available.​Q: I need to cancel, can I get a refund for my ticket?Unfortunately, we cannot offer refunds, but you're welcome to pass on your ticket to someone else.​​​Please note: By signing up for this event you agree to receive email communication from us. You can opt out any time.",
+      "description": "​UPDATE: This event is sold out! Unfortunately, we don't have a waitlist function, but keep an eye on ourInstagram broadcast channelfor updates in case a spot opens up!​---​Third Place Bar & Shanti Houseinvite to you a different kind of Friday night out. Join us at the Fabrik loft for a relaxing beginner's yoga class, a tea bar, non-alcoholic drinks, live DJ, and playful activities to wind down and de-stress from the week... without the hangover.​What to expect:​6.30pm-7pm: Arrivals & mingling(please make sure to arrive on time before the yoga session!)​7pm-7.45pm: Unwind yin yoga led by Louisa, founder ofShanti House​7.45pm-9:00pm: Social hour with NA drinks​Stop by the tea bar byNoah Wellness, enjoy some light bites fromHappy Boards, and functional non-alcoholic drinks fromGuinep!​DJ Solunawill be mixing all night! Whether it’s ambient soundscapes, soulful grooves, or energetic afrohouse beats, Soluna crafts immersive musical journeys that move both body and soul.​FAQ​​Q: Do I need to be there at the exact start time?Yes, please aim to arrive at 6.30pm as we will get started with the yoga class at 7pm and latecomers may not be admitted!​​​Q: Can I come alone?Yes, this is a social mixer, you’re welcome to come alone and meet new people!​​​Q: Is this an alcohol-free venue?Yes, Fabrik is a community space that does not serve alcohol.​​​Q: Is there an age restriction?Yes, all our events are 21+​Q: I've never done yoga, can I still come?The yoga class will be relaxed and suitable for beginners.​Q: Do I need to bring a mat? Can I change somewhere?Yoga mat rental is included in the ticket price, but you're welcome to bring your own! There are limited changing rooms available.​Q: I need to cancel, can I get a refund for my ticket?Unfortunately, we cannot offer refunds, but you're welcome to pass on your ticket to someone else.​​​Please note: By signing up for this event you agree to receive email communication from us. You can opt out any time.",
       "startDate": "2025-03-28T18:30:00-04:00",
       "endDate": "2025-03-28T21:00:00-04:00",
       "category": [
@@ -813,77 +758,8 @@
       }
     },
     {
-      "id": "evt_com_genZtea_a7461692",
-      "name": "GenZtea x Boss Me In: Gen Z Founder Match at Chief",
-      "type": "Tech",
-      "locationId": "loc_tbd",
-      "communityId": "com_genZtea",
-      "description": "​Join a handpicked cohort of visionary Gen Z female founders for an intimate evening with members of Chief - the most exclusive private network for women executives at the VP and C-suite level, whose members lead organizations valued at over $800 billion collectively.​About the Event:​In Chief's prestigious Manhattan clubhouse, where membership is by invitation-only and has a waitlist of thousands, 20 carefully selected Gen Z female founders will have the opportunity to connect one-on-one with some of business's most influential women leaders. This meticulously curated evening brings together today's Fortune 500 executives with tomorrow's groundbreaking entrepreneurs.​Who Will Be There:​- 20 Selected Gen Z Female Founders​- 20 Chief Members (Women executives from Director to C-suite level at Fortune 500 companies, fastest-growing startups, and globally recognized brands)​About the Hosts:​Chief is the most coveted private membership network for senior women executives, with an acceptance rate lower than Harvard. Members include executives from companies like Google, Nike, Goldman Sachs, and other industry-defining organizations. Chief's highly vetted community represents the upper echelon of business leadership, with membership limited to executives at the highest levels of organizational influence.​Boss Me In is pioneering the future of intergenerational leadership, bridging the expertise gap between seasoned executives and emerging leaders through carefully curated connections and transformative experiences.​GenZtea, spanning 21 countries, represents the elite network of Gen Z founders, creators, and investors shaping tomorrow's business landscape. Their partnerships with prestigious institutions and luxury brands like Pace University and Kiehl's showcase their commitment to elevating the next generation of business leaders.​This is a once-in-a-career opportunity to join an evening of unparalleled access and connection.​[Apply Now - Limited to 20 Gen Z Founders]​Location: Chief's Private Members' Club, NYC​Due to the highly exclusive nature of this event, applications will undergo a rigorous review process. Selected participants will represent the most promising ventures and innovative thinking in their respective industries.",
-      "startDate": "2025-04-10T18:00:00-04:00",
-      "endDate": "2025-04-10T19:30:00-04:00",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": 100,
-      "registrationRequired": true,
-      "tags": [],
-      "image": "luma-event-caa02e51.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://lu.ma/o6movhkg",
-        "speakers": [
-          {
-            "name": "Natalie Neptune",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Mai Moore",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Natalie Neptune",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Mai Moore",
-            "title": "",
-            "bio": ""
-          }
-        ],
-        "venue": {
-          "name": "Chief13 E 19th St, New York, NY 10003, USA",
-          "address": "13 E 19th St, New York, NY 10003, USA",
-          "type": "Offline",
-          "room": "",
-          "additional_info": ""
-        },
-        "featured": false,
-        "social_links": [
-          "https://x.com/thegenZtea",
-          "https://linkedin.com/company/genztea",
-          "https://genztea.squarespace.com/",
-          "https://instagram.com/Yes",
-          "https://instagram.com/maimoore",
-          "https://x.com/thegenZtea",
-          "https://linkedin.com/company/genztea",
-          "https://genztea.squarespace.com/",
-          "https://instagram.com/Yes",
-          "https://instagram.com/maimoore"
-        ]
-      }
-    },
-    {
-      "id": "evt_com_genZtea_c683a307",
-      "name": "Navigating Women's Healthcare: Insights from VC & Founders",
+      "id": "evt_com_genZtea_b9a5d94c",
+      "name": "Navigating Women's AI Healthcare: Insights from VC & Founders",
       "type": "Tech",
       "locationId": "loc_tbd",
       "communityId": "com_genZtea",
@@ -971,6 +847,152 @@
       }
     },
     {
+      "id": "evt_com_genZtea_d5350a61",
+      "name": "Female Founders' Tea Party - #NYTechWeek",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_genZtea",
+      "description": "​You are cordially invited to an exclusive Female Founders Tea Party in NYC hosted by Foundess and GenZtea founder, Natalie Neptune.​We are excited to bring an intimate and exceptional group of female founders together for an elegant afternoon of connection and conversation!​The Female Founders Tea Party is a curated private gathering with the goal of building meaningful and powerful relationships among women who are shaping the future of tech. And, of course, share exquisite tea and treats together.​Please RSVP, space is very limited.​A note to guests: No +1s​Event Details:​📅 Date: June 5rd (tentative)​⏰ Time: 3 pm EST (tentative)​🔒 Venue: Revealed closer to date (Luxury venue in NYC)​Warm regards, GenZtea and the Foundess Team​A bit about the hosts:​Foundess (foundess.com) is helping founders build beyond gender boundaries. Since October, we've reached over 30,000 builders with our events and programming across top universities including Stanford, Harvard, and MIT. We've recently hosted the largest gender-equitable accelerator sponsored by Silicon Valley Bank, Anthropic, and Notion with $3M raised from our companies post-program.​★ Natalie Neptune - Founder of GenZTea & LinkedIn Top Voice Natalie Neptune is the visionary founder behind GenZtea. Since September, she has had over 1,000 Gen Z founders, creators, and investors along with female founders & investor attend IRL events. Sponsored by Kiehl's and partnerships with Daily Crunch, Grüns, Beny Yogurt, Columbia Healthcare Ventures, and La Creme de la STEM. As a recognized LinkedIn Top Voice, Natalie shares insights on building sustainable businesses and fostering authentic community engagement.​A note to prospective guests: This tea party is exclusively for female founders who have raised $1M+ or achieved Series A funding and beyond. Admitted guests will be notified via event approval and calendar invite. Invites are non-transferable.​No +1s allowed as space is limited and the gathering is carefully curated. Additional correspondence will be sent leading up to the event.​Code of Conduct​What makes our community special is how we:​Support each other's journeys with authenticity and grace​Create space for meaningful connection and collaboration​Share experiences and insights with generosity​Celebrate each other's successes and provide support during challenges​Foster an environment of inclusion and belonging​Uphold the highest standards of professionalism and respect​The thing we most value is connecting exceptional founders who lead with integrity and vision.​As a guest for the afternoon, you agree to uphold these values.​By providing your information you agree to be added to our email distribution list and contacted by sponsors. You can unsubscribe anytime.​This event is a part of #NYTechWeek—a week of events hosted by VCs and startups to bring together the tech ecosystem. Learn more atwww.tech-week.com.",
+      "startDate": "2025-06-05T15:00:00-04:00",
+      "endDate": "2025-06-05T17:30:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "luma-event-86647419.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/kszlyamq",
+        "speakers": [
+          {
+            "name": "Natalie Neptune",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Shirley Wang",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Emmy",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Natalie Neptune",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Shirley Wang",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Emmy",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "venue": {
+          "name": "Midtown ManhattanNew York, NY, USA",
+          "address": "New York, NY, USA",
+          "type": "Offline",
+          "room": "",
+          "additional_info": ""
+        },
+        "featured": false,
+        "social_links": [
+          "https://x.com/thegenZtea",
+          "https://linkedin.com/company/genztea",
+          "https://genztea.squarespace.com/",
+          "https://instagram.com/Yes",
+          "https://x.com/thegenZtea",
+          "https://linkedin.com/company/genztea",
+          "https://genztea.squarespace.com/",
+          "https://instagram.com/Yes"
+        ]
+      }
+    },
+    {
+      "id": "evt_com_genZtea_a7461692",
+      "name": "GenZtea x Boss Me In: Gen Z Founder Match at Chief",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_genZtea",
+      "description": "​Join a handpicked cohort of visionary Gen Z female founders for an intimate evening with members of Chief - the most exclusive private network for women executives at the VP and C-suite level, whose members lead organizations valued at over $800 billion collectively.​About the Event:​In Chief's prestigious Manhattan clubhouse, where membership is by invitation-only and has a waitlist of thousands, 20 carefully selected Gen Z female founders will have the opportunity to connect one-on-one with some of business's most influential women leaders. This meticulously curated evening brings together today's Fortune 500 executives with tomorrow's groundbreaking entrepreneurs.​Who Will Be There:​- 20 Selected Gen Z Female Founders​- 20 Chief Members (Women executives from Director to C-suite level at Fortune 500 companies, fastest-growing startups, and globally recognized brands)​About the Hosts:​Chief is the most coveted private membership network for senior women executives, with an acceptance rate lower than Harvard. Members include executives from companies like Google, Nike, Goldman Sachs, and other industry-defining organizations. Chief's highly vetted community represents the upper echelon of business leadership, with membership limited to executives at the highest levels of organizational influence.​Boss Me In is pioneering the future of intergenerational leadership, bridging the expertise gap between seasoned executives and emerging leaders through carefully curated connections and transformative experiences.​GenZtea, spanning 21 countries, represents the elite network of Gen Z founders, creators, and investors shaping tomorrow's business landscape. Their partnerships with prestigious institutions and luxury brands like Pace University and Kiehl's showcase their commitment to elevating the next generation of business leaders.​This is a once-in-a-career opportunity to join an evening of unparalleled access and connection.​[Apply Now - Limited to 20 Gen Z Founders]​Location: Chief's Private Members' Club, NYC​Due to the highly exclusive nature of this event, applications will undergo a rigorous review process. Selected participants will represent the most promising ventures and innovative thinking in their respective industries.",
+      "startDate": "2025-04-10T18:00:00-04:00",
+      "endDate": "2025-04-10T19:30:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "luma-event-caa02e51.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/o6movhkg",
+        "speakers": [
+          {
+            "name": "Natalie Neptune",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Mai Moore",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Natalie Neptune",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Mai Moore",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "venue": {
+          "name": "Chief13 E 19th St, New York, NY 10003, USA",
+          "address": "13 E 19th St, New York, NY 10003, USA",
+          "type": "Offline",
+          "room": "",
+          "additional_info": ""
+        },
+        "featured": false,
+        "social_links": [
+          "https://x.com/thegenZtea",
+          "https://linkedin.com/company/genztea",
+          "https://genztea.squarespace.com/",
+          "https://instagram.com/Yes",
+          "https://instagram.com/maimoore",
+          "https://x.com/thegenZtea",
+          "https://linkedin.com/company/genztea",
+          "https://genztea.squarespace.com/",
+          "https://instagram.com/Yes",
+          "https://instagram.com/maimoore"
+        ]
+      }
+    },
+    {
       "id": "evt_com_genZtea_c7ad1015",
       "name": "Gen Z Cafe CoWorking",
       "type": "Tech",
@@ -1028,6 +1050,63 @@
       }
     },
     {
+      "id": "evt_com_genZtea_b6451b7a",
+      "name": "Gen Z NYC Founder & Creator Mixer #NYTechWeek",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_genZtea",
+      "description": "​As we embrace spring in 2025, take a moment to celebrate your entrepreneurial journey with us in East Village! Join fellow ONE-OF-A-KIND Gen Z founders for an intimate evening of connection, inspiration, and well-deserved self-care at our April mixer.​So what the heck is GenZtea?GenZtea's Mission: Empowering Gen Z founders, creators, and investors to unlock their full potential through personal branding, community support, and innovative resources. We're building a global network of young builders who are not just invited into the room but are leading it.​Want to stay in the loop? Join our brand new newsletter athttps://genztea.beehiiv.com/subscribefor monthly deep dives with Gen Z lens, event updates, and community highlights! Reach is the new resume.​DM me if you are interested in getting featured in newsletter​✨ Brand New​✨: Gen Z Marketplace​DM me on Luma to have your food brand represented IRL at this event!​​🎁 Event Highlights:​​• Network with fellow Gen Z entrepreneurs & creators​​• Share experiences and insights​​• Discover potential collaborations​​• Enjoy refreshments​Want to sponsor? Reach out here on Luma or email natalie@thegenztea.com​​** Please note, this event will be photographed and filmed. GenZtea reserves the rights to use photographs and video from the event for marketing and communication purposes. By attending this event you consent to your image being used for these purposes and being added to GenZtea newsletter. **​This event is a part of #NYTechWeek—a week of events hosted by VCs and startups to bring together the tech ecosystem. Learn more atwww.tech-week.com.",
+      "startDate": "2025-06-04T18:00:00-04:00",
+      "endDate": "2025-06-04T19:30:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "luma-event-e97bd210.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/gk8zo6az",
+        "speakers": [
+          {
+            "name": "Natalie Neptune",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Natalie Neptune",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "venue": {
+          "name": "109 3rd AveNew York, NY 10003, USA",
+          "address": "New York, NY 10003, USA",
+          "type": "Offline",
+          "room": "",
+          "additional_info": ""
+        },
+        "featured": false,
+        "social_links": [
+          "https://x.com/thegenZtea",
+          "https://linkedin.com/company/genztea",
+          "https://genztea.squarespace.com/",
+          "https://instagram.com/Yes",
+          "https://x.com/thegenZtea",
+          "https://linkedin.com/company/genztea",
+          "https://genztea.squarespace.com/",
+          "https://instagram.com/Yes"
+        ]
+      }
+    },
+    {
       "id": "evt_com_genZtea_27f83c3e",
       "name": "Gen Z NYC Founder & Creator Mixer",
       "type": "Tech",
@@ -1048,7 +1127,7 @@
       "capacity": 100,
       "registrationRequired": true,
       "tags": [],
-      "image": "luma-event-f5992d43.jpg",
+      "image": "luma-event-ad52906e.jpg",
       "status": "upcoming",
       "metadata": {
         "source_url": "https://lu.ma/53fvw452",
@@ -1109,6 +1188,177 @@
       "status": "upcoming",
       "metadata": {
         "source_url": "https://lu.ma/e/evt-pq13eUBZqSYCXvf",
+        "speakers": [
+          {
+            "name": "aci-d club",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "aci-d club",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "venue": {
+          "name": "Please register to see the exact location of this event.",
+          "address": "Kings County, New York",
+          "type": "Online",
+          "room": "",
+          "additional_info": ""
+        },
+        "featured": false,
+        "social_links": [
+          "https://instagram.com/aci_d.club",
+          "https://x.com/aci_dclub",
+          "https://aci-d.club",
+          "https://instagram.com/aci_d.club",
+          "https://instagram.com/aci_d.club",
+          "https://x.com/aci_dclub",
+          "https://aci-d.club",
+          "https://instagram.com/aci_d.club"
+        ]
+      }
+    },
+    {
+      "id": "evt_com_acid_club_45c6b7c1",
+      "name": "aci-d club weekly hang 018 *on wednesday now*",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_acid_club",
+      "description": "​WE'RE MOVING HANGS TO WEDNESDAYS FOR A BIT​Have a creative project you’ve been wanting to work on but can’t quite make the time for? Want to meet other designers in the city? Come hang with us!Show up with ideas and materials, leave with progress made, and a new friend or two.AGENDA7:00-7:30: intros7:30-8:30: work on (or start) a design project!8:30-9:00+: break into groups, share your WIPs, chat, mingle—Hosted attelos.haus",
+      "startDate": "2025-04-02T18:45:00-04:00",
+      "endDate": "2025-04-02T21:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "luma-event-e505e8ab.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/e/evt-0kQ0pVFT8G4Blzu",
+        "speakers": [
+          {
+            "name": "aci-d club",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "aci-d club",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "venue": {
+          "name": "Please register to see the exact location of this event.",
+          "address": "Kings County, New York",
+          "type": "Online",
+          "room": "",
+          "additional_info": ""
+        },
+        "featured": false,
+        "social_links": [
+          "https://instagram.com/aci_d.club",
+          "https://x.com/aci_dclub",
+          "https://aci-d.club",
+          "https://instagram.com/aci_d.club",
+          "https://instagram.com/aci_d.club",
+          "https://x.com/aci_dclub",
+          "https://aci-d.club",
+          "https://instagram.com/aci_d.club"
+        ]
+      }
+    },
+    {
+      "id": "evt_com_acid_club_93e3e469",
+      "name": "aci-d club weekly hang 019 *on wednesday now*",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_acid_club",
+      "description": "​WE'RE MOVING HANGS TO WEDNESDAYS FOR A BIT​Have a creative project you’ve been wanting to work on but can’t quite make the time for? Want to meet other designers in the city? Come hang with us!Show up with ideas and materials, leave with progress made, and a new friend or two.AGENDA7:00-7:30: intros7:30-8:30: work on (or start) a design project!8:30-9:00+: break into groups, share your WIPs, chat, mingle—Hosted attelos.haus",
+      "startDate": "2025-04-09T18:45:00-04:00",
+      "endDate": "2025-04-09T21:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "luma-event-e505e8ab.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/e/evt-kLNlYdwivI9d0CF",
+        "speakers": [
+          {
+            "name": "aci-d club",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "aci-d club",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "venue": {
+          "name": "Please register to see the exact location of this event.",
+          "address": "Kings County, New York",
+          "type": "Online",
+          "room": "",
+          "additional_info": ""
+        },
+        "featured": false,
+        "social_links": [
+          "https://instagram.com/aci_d.club",
+          "https://x.com/aci_dclub",
+          "https://aci-d.club",
+          "https://instagram.com/aci_d.club",
+          "https://instagram.com/aci_d.club",
+          "https://x.com/aci_dclub",
+          "https://aci-d.club",
+          "https://instagram.com/aci_d.club"
+        ]
+      }
+    },
+    {
+      "id": "evt_com_acid_club_d555a703",
+      "name": "aci-d club weekly hang 020 *on wednesday now*",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_acid_club",
+      "description": "​WE'RE MOVING HANGS TO WEDNESDAYS FOR A BIT​Have a creative project you’ve been wanting to work on but can’t quite make the time for? Want to meet other designers in the city? Come hang with us!Show up with ideas and materials, leave with progress made, and a new friend or two.AGENDA7:00-7:30: intros7:30-8:30: work on (or start) a design project!8:30-9:00+: break into groups, share your WIPs, chat, mingle—Hosted attelos.haus",
+      "startDate": "2025-04-16T18:45:00-04:00",
+      "endDate": "2025-04-16T21:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "luma-event-e505e8ab.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/e/evt-HHFsLz8tQz3wnuC",
         "speakers": [
           {
             "name": "aci-d club",

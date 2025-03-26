@@ -1,47 +1,6 @@
 {
   "events": [
     {
-      "id": "evt_com_effective_altruism_nyc_50guciaq",
-      "name": "Norman Borlaug's Birthday!",
-      "type": "Tech",
-      "locationId": "",
-      "communityId": "com_effective_altruism_nyc",
-      "description": "How can you celebrate an agronomist who fed billions? <br><br>...we're not sure yet, but maybe you can make something tasty with GMO wheat flour?<br><br><a href=\"https://en.wikipedia.org/wiki/Norman_Borlaug\">https://en.wikipedia.org/wiki/Norman_Borlaug</a>",
-      "startDate": "2025-03-25",
-      "endDate": "2025-03-26",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": "",
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.google.com/calendar/event?eid=NTBndWNpYXE5bTI4M2xmbnRtNXFxcHNjczNfMjAyNTAzMjUgaGJ2ZXRxZjVoMXBkMG9mMHZuNnV2cGhxdHNAZw",
-        "organizer": {
-          "name": "Effective Altruism NYC Events",
-          "instagram": "",
-          "email": "hbvetqf5h1pd0of0vn6uvphqts@group.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false
-      }
-    },
-    {
       "id": "evt_com_effective_altruism_nyc_6cvd9deo",
       "name": "Global Health and Wellbeing Subgroup US AID Discussion",
       "type": "Tech",
@@ -640,6 +599,47 @@
       "status": "upcoming",
       "metadata": {
         "source_url": "https://www.google.com/calendar/event?eid=N3UzbXFzM2xvamtzaTFyODYxNTY5OGF0ZG1fMjAyNjAzMTUgaGJ2ZXRxZjVoMXBkMG9mMHZuNnV2cGhxdHNAZw",
+        "organizer": {
+          "name": "Effective Altruism NYC Events",
+          "instagram": "",
+          "email": "hbvetqf5h1pd0of0vn6uvphqts@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
+      "id": "evt_com_effective_altruism_nyc_50guciaq",
+      "name": "Norman Borlaug's Birthday!",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_effective_altruism_nyc",
+      "description": "How can you celebrate an agronomist who fed billions? <br><br>...we're not sure yet, but maybe you can make something tasty with GMO wheat flour?<br><br><a href=\"https://en.wikipedia.org/wiki/Norman_Borlaug\">https://en.wikipedia.org/wiki/Norman_Borlaug</a>",
+      "startDate": "2026-03-25",
+      "endDate": "2026-03-26",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.google.com/calendar/event?eid=NTBndWNpYXE5bTI4M2xmbnRtNXFxcHNjczNfMjAyNjAzMjUgaGJ2ZXRxZjVoMXBkMG9mMHZuNnV2cGhxdHNAZw",
         "organizer": {
           "name": "Effective Altruism NYC Events",
           "instagram": "",
@@ -4362,14 +4362,14 @@
       }
     },
     {
-      "id": "evt_com_nyc_resistor__852k6d9",
-      "name": "",
+      "id": "evt_com_telos_d269plpk",
+      "name": "aci-d club weekly hang",
       "type": "Tech",
       "locationId": "",
-      "communityId": "com_nyc_resistor",
+      "communityId": "com_telos",
       "description": "",
-      "startDate": "2025-03-25T11:00:00-04:00",
-      "endDate": "2025-03-25T15:00:00-04:00",
+      "startDate": "2026-03-25T18:45:00-04:00",
+      "endDate": "2026-03-25T21:15:00-04:00",
       "category": [
         "Tech"
       ],
@@ -4385,62 +4385,25 @@
       "image": "",
       "status": "upcoming",
       "metadata": {
-        "source_url": "https://www.google.com/calendar/event?eid=Xzg1Mms2ZDlnNmgzNDJiOWc4OHEzNGI5azZoMjMyYmEyOGQzMzhiYTY2NG8zZ2U5bDc0bzQ4Z3BnNm9fMjAyNTAzMjVUMTUwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn",
+        "source_url": "https://lu.ma/aci-d.club",
         "organizer": {
-          "name": "",
+          "name": "telos.haus events [public]",
           "instagram": "",
-          "email": ""
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
         },
         "venue": {
           "name": "",
-          "address": "",
+          "address": "https://lu.ma/aci-d.club",
           "type": "Offline"
         },
         "speakers": [],
-        "social_links": [],
+        "social_links": [
+          "https://instagram.com/aci_d.club",
+          "https://x.com/aci_dclub",
+          "https://aci-d.club"
+        ],
         "featured": false,
-        "luma_source": false
-      }
-    },
-    {
-      "id": "evt_com_nyc_resistor_09ardtd3",
-      "name": "Fire Extinguisher Health Check",
-      "type": "Tech",
-      "locationId": "",
-      "communityId": "com_nyc_resistor",
-      "description": "https://blink.ucsd.edu/safety/fire/extinguisher/inspection.html",
-      "startDate": "2025-03-25T21:00:00-04:00",
-      "endDate": "2025-03-25T22:00:00-04:00",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": "",
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.google.com/calendar/event?eid=MDlhcmR0ZDNlbHY0NjZiNGlhazkyamsxbmVfMjAyNTAzMjZUMDEwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn",
-        "organizer": {
-          "name": "",
-          "instagram": "",
-          "email": "opn.address@gmail.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "NYC Resistor, 87 3rd Ave, Brooklyn, NY 11217, USA",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false
+        "luma_source": true
       }
     },
     {
@@ -8462,6 +8425,88 @@
       }
     },
     {
+      "id": "evt_com_nyc_resistor_sf181ee0",
+      "name": "NYCR Craft Night",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_nyc_resistor",
+      "description": "<u></u><p>NYC Resistor is open to the public for Craft Nights now every Monday and Thursday from 6:30-9:30 PM! Come bring your current crafting project and work on it with other artists, crafters, and makers of all kinds. Resistors do everything from costumes to electronics to visual arts to woodworking; people and crafting projects of all sorts are enthusiastically welcome!</p><p>RSVP at<span> <a href=\"https://www.eventbrite.com/e/public-craft-night-mondays-and-thursdays-tickets-162729866411\">https://www.eventbrite.com/e/public-craft-night-mondays-and-thursdays-tickets-162729866411</a></span> is appreciated but not required, for covid contact-tracing purposes.<br></p>This event like all NYC Resistor events is 18 and over and governed by out code of conduct. <br><br>More information: <a href=\"http://www.nycresistor.com/participate/\">http://www.nycresistor.com/participate/</a><br>NYC Resistor Code of Conduct: <a href=\"http://www.nycresistor.com/2015/08/04/nyc-resistor-code-of-conduct/\">http://www.nycresistor.com/2015/08/04/nyc-resistor-code-of-conduct/</a><u></u><u></u><u></u><u></u><u></u>",
+      "startDate": "2025-06-23T18:30:00-04:00",
+      "endDate": "2025-06-23T21:30:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": true,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.eventbrite.com/e/public-craft-night-mondays-and-thursdays-tickets-162729866411\">https://www.eventbrite.com/e/public-craft-night-mondays-and-thursdays-tickets-162729866411</a></span>",
+        "organizer": {
+          "name": "NYCResistor",
+          "instagram": "",
+          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
+      "id": "evt_com_nyc_resistor_5mf9g2iv",
+      "name": "",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_nyc_resistor",
+      "description": "",
+      "startDate": "2025-06-23T20:00:00-04:00",
+      "endDate": "2025-06-23T21:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.google.com/calendar/event?eid=NW1mOWcyaXY4cW00c242cTRlOTNibzdvczBfMjAyNTA2MjRUMDAwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn",
+        "organizer": {
+          "name": "",
+          "instagram": "",
+          "email": ""
+        },
+        "venue": {
+          "name": "",
+          "address": "",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
       "id": "evt_com_south_park_commons__clr78bb",
       "name": "Imagined Futures w/ Neal Stephenson, Ken Liu & more",
       "type": "Tech",
@@ -8635,7 +8680,7 @@
       "type": "Tech",
       "locationId": "",
       "communityId": "com_south_park_commons",
-      "description": "​This time around, it's all about the fun stuff.​Swing by to see some joyful and creative AI-native experiences from:​Fai Nur(Status)​Suraya Shivji(SPC)​Charlesand Rohit (Frisson Labs)​Eliza Wu(Corner)​Zain Shah(SPC)​Daniel Kuntz(Little Guy)​Antonand Oleg (Corca)",
+      "description": "​This time around, it's all about the fun stuff.​Swing by to see some joyful and creative AI-native experiences from:​Fai Nur(Status)​Suraya Shivji(SPC)​Charlesand Rohit (Frisson Labs)​Eliza Wu(Corner)​Zain Shah(SPC)​Daniel Kuntz(Little Guy)​Antonand Oleg (Corca)​Sam Haveson(Samara)",
       "startDate": "2025-04-10T22:00:00Z",
       "endDate": "2025-04-11T00:30:00Z",
       "category": [
