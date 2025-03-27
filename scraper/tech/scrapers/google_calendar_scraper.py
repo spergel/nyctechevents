@@ -71,7 +71,15 @@ def load_communities() -> Dict:
 API_KEY = os.getenv("GOOGLE_API_KEY")
 
 if not API_KEY:
-    logging.warning("Google API key not found. Set GOOGLE_API_KEY in .env.local file.")
+    # Try loading from .env.local if not in environment
+    try:
+        load_dotenv(dotenv_path=os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))), '.env.local'))
+        API_KEY = os.getenv("GOOGLE_API_KEY")
+    except Exception as e:
+        logging.warning(f"Could not load .env.local file: {e}")
+
+if not API_KEY:
+    logging.warning("Google API key not found in environment or .env.local file. Set GOOGLE_API_KEY in GitHub Secrets or .env.local file.")
 
 LOCATIONS = load_locations()
 COMMUNITIES = load_communities()
