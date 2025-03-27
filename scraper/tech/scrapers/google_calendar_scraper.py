@@ -321,27 +321,43 @@ def fetch_google_calendar_events(calendar_id: str, community_id: str) -> List[Di
         one_year_from_now = datetime(now.year + 1, now.month, now.day, tzinfo=pytz.utc)
         
         # Fetch events
-        events_result = service.events().list(
-            calendarId=calendar_id,
-            timeMin=now.isoformat(),
-            timeMax=one_year_from_now.isoformat(),
-            singleEvents=True,
-            orderBy='startTime',
-            maxResults=100
-        ).execute()
-        
-        raw_events = events_result.get('items', [])
-        
-        # Process each event
-        for event in raw_events:
+        try:
+            events_result = service.events().list(
+                calendarId=calendar_id,
+                timeMin=now.isoformat(),
+                timeMax=one_year_from_now.isoformat(),
+                singleEvents=True,
+                orderBy='startTime',
+                maxResults=100
+            ).execute()
+            
+            raw_events = events_result.get('items', [])
+            
+            # Process each event
+            for event in raw_events:
+                try:
+                    formatted_event = format_google_event(event, community_id)
+                    events.append(formatted_event)
+                except Exception as e:
+                    logging.error(f"Error formatting event {event.get('summary', 'Unnamed event')}: {e}")
+                    continue
+                    
+            logging.info(f"Fetched {len(events)} events from calendar {calendar_id} for community {community_id}")
+        except Exception as api_error:
+            logging.error(f"API error for calendar {calendar_id}: {api_error}")
+            # Try to load cached data if available
             try:
-                formatted_event = format_google_event(event, community_id)
-                events.append(formatted_event)
-            except Exception as e:
-                logging.error(f"Error formatting event {event.get('summary', 'Unnamed event')}: {e}")
-                continue
-                
-        logging.info(f"Fetched {len(events)} events from calendar {calendar_id} for community {community_id}")
+                cache_file = os.path.join(DATA_DIR, f"cache_{community_id}_calendar.json")
+                if os.path.exists(cache_file):
+                    with open(cache_file, 'r') as f:
+                        cached_data = json.load(f)
+                        if 'events' in cached_data:
+                            cached_events = [e for e in cached_data['events'] if is_future_event(e)]
+                            events.extend(cached_events)
+                            logging.info(f"Loaded {len(cached_events)} cached events for {community_id}")
+            except Exception as cache_error:
+                logging.error(f"Could not load cached data for {community_id}: {cache_error}")
+            
         return events
         
     except Exception as e:
@@ -370,15 +386,44 @@ def is_future_event(event: Dict) -> bool:
 def main():
     all_events = []
     
+    # Try to load existing events first
+    try:
+        output_file = os.path.join(DATA_DIR, 'google_calendar_events.json')
+        if os.path.exists(output_file):
+            with open(output_file, 'r') as f:
+                existing_data = json.load(f)
+                if 'events' in existing_data:
+                    # Filter to keep only future events
+                    existing_events = [e for e in existing_data['events'] if is_future_event(e)]
+                    if existing_events:
+                        all_events.extend(existing_events)
+                        logging.info(f"Loaded {len(existing_events)} existing events")
+    except Exception as e:
+        logging.error(f"Error loading existing events: {e}")
+    
     # Fetch Google Calendar events
     logging.info("Fetching Google Calendar events...")
     for calendar_name, config in GOOGLE_CALENDARS.items():
         logging.info(f"Fetching events for {calendar_name}...")
         google_events = fetch_google_calendar_events(config["id"], config["community_id"])
         all_events.extend(google_events)
+        
+        # Cache events for this community
+        try:
+            if google_events:
+                cache_file = os.path.join(DATA_DIR, f"cache_{config['community_id']}_calendar.json")
+                with open(cache_file, 'w') as f:
+                    json.dump({"events": google_events}, f, indent=2)
+        except Exception as e:
+            logging.error(f"Could not cache events for {calendar_name}: {e}")
     
-    # Filter out past events
-    filtered_events = [event for event in all_events if is_future_event(event)]
+    # Remove duplicates by ID
+    unique_events = {}
+    for event in all_events:
+        if 'id' in event:
+            unique_events[event['id']] = event
+    
+    filtered_events = list(unique_events.values())
     
     # Save filtered events to file
     output = {"events": filtered_events}

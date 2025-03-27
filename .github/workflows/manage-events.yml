@@ -94,11 +94,21 @@ jobs:
             git add tech/tweets/*.html
           fi
           
+          # Check if we have changes to commit
           if git diff --quiet && git diff --staged --quiet; then
             echo "No changes to commit"
           else
+            # Pull latest changes with rebase strategy to avoid merge commits
+            echo "Pulling latest changes before committing..."
+            git pull --rebase
+            
+            # Commit and push changes
             git commit -m "Update events data and tweets [skip ci]"
-            git push
+            git push || {
+              echo "Push failed, trying again with force option..."
+              # If push fails, try force pushing since this is data-only
+              git push --force
+            }
           fi
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

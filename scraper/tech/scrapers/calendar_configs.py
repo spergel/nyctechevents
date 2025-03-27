@@ -1,5 +1,19 @@
 """Calendar configurations for various sources"""
 
+# Add a comment at the top explaining API key requirements
+"""
+For Google Calendar API to work properly:
+1. Create a Google API key at https://console.cloud.google.com/
+2. Enable the Google Calendar API for the project
+3. Add the key to GitHub Secrets as GOOGLE_API_KEY or in .env.local file
+4. Make sure your API key doesn't have API restrictions that block calendar.v3.Events.List
+
+If you're seeing "Requests to this API calendar method calendar.v3.Events.List are blocked":
+- Check that Calendar API is enabled in Google Cloud Console
+- Remove any API restrictions or add Calendar API to allowed APIs
+- Try deactivating and reactivating the Calendar API
+"""
+
 #TODO: Cozy Sundays nbqghatsg76q5hvuncn0eidonebg6pmj@import.calendar.google.com, https://lu.ma/cozy-sundays
 # ICS Calendar configurations 
 ICS_CALENDARS = {
