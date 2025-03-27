@@ -1,0 +1,2 @@
+# Ignore cache directory but not other data files
+/cache/ 

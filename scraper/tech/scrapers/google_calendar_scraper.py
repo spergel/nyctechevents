@@ -15,6 +15,10 @@ import sys
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 TECH_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_DIR = os.path.join(TECH_DIR, 'data')
+CACHE_DIR = os.path.join(DATA_DIR, 'cache')
+
+# Ensure cache directory exists
+os.makedirs(CACHE_DIR, exist_ok=True)
 
 # Import local modules
 sys.path.append(SCRIPT_DIR)
@@ -347,7 +351,7 @@ def fetch_google_calendar_events(calendar_id: str, community_id: str) -> List[Di
             logging.error(f"API error for calendar {calendar_id}: {api_error}")
             # Try to load cached data if available
             try:
-                cache_file = os.path.join(DATA_DIR, f"cache_{community_id}_calendar.json")
+                cache_file = os.path.join(CACHE_DIR, f"cache_{community_id}_calendar.json")
                 if os.path.exists(cache_file):
                     with open(cache_file, 'r') as f:
                         cached_data = json.load(f)
@@ -411,7 +415,7 @@ def main():
         # Cache events for this community
         try:
             if google_events:
-                cache_file = os.path.join(DATA_DIR, f"cache_{config['community_id']}_calendar.json")
+                cache_file = os.path.join(CACHE_DIR, f"cache_{config['community_id']}_calendar.json")
                 with open(cache_file, 'w') as f:
                     json.dump({"events": google_events}, f, indent=2)
         except Exception as e:
