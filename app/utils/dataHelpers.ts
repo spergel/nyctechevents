@@ -16,7 +16,26 @@ const ensureCompleteLocation = (location: any): Location => ({
 
 export function getCommunityData(communityId: string | undefined): Community | undefined {
   if (!communityId) return undefined;
-  return communities.communities.find(c => c.id === communityId);
+  const community = communities.communities.find(c => c.id === communityId);
+  if (!community) return undefined;
+  
+  // Ensure community has all the required fields
+  return {
+    id: community.id,
+    name: community.name,
+    type: community.type,
+    description: community.description || '',
+    founded: community.founded,
+    size: community.size,
+    category: Array.isArray(community.category) ? community.category : [community.type],
+    contact: community.contact,
+    website: community.website,
+    meetingLocationIds: community.meetingLocationIds,
+    image: community.image,
+    tags: community.tags,
+    membershipType: community.membershipType,
+    membershipFee: community.membershipFee
+  };
 }
 
 export function getLocationData(locationId: string | undefined): Location | undefined {
@@ -142,7 +161,10 @@ export function getMainCommunityForLocation(location: Location): Community | und
   
   // For locations that are also communities (community_and_location)
   if (location.community_and_location) {
-    return communities.communities.find(c => c.name === location.name);
+    const community = communities.communities.find(c => c.name === location.name);
+    if (community) {
+      return getCommunityData(community.id);
+    }
   }
   
   return undefined;
