@@ -40,6 +40,7 @@ jobs:
           mkdir -p scraper/data
           mkdir -p scraper/tech/data
           mkdir -p scraper/tech/tweets
+          mkdir -p tech/tweets  # Create old directory for backward compatibility
           
           # Run the scraper module
           python -m scraper.tech.run_all
@@ -47,6 +48,12 @@ jobs:
           # Generate tweets
           echo "Generating tweets"
           python -m scraper.tech.tweet_generator
+          
+          # Copy tweet files to the old location for backward compatibility
+          echo "Copying tweet files to old location for backward compatibility"
+          if [ -d "scraper/tech/tweets" ] && [ "$(ls -A scraper/tech/tweets)" ]; then
+            cp -r scraper/tech/tweets/* tech/tweets/
+          fi
           
       - name: Commit and Push Changes
         run: |
@@ -64,6 +71,12 @@ jobs:
             git add scraper/tech/tweets/*.html
           else
             echo "No tweet files found to add"
+          fi
+          
+          # Add old tweet files location too
+          if ls tech/tweets/*.html 1> /dev/null 2>&1; then
+            echo "Adding old location tweet files..."
+            git add tech/tweets/*.html
           fi
           
           if git diff --quiet && git diff --staged --quiet; then

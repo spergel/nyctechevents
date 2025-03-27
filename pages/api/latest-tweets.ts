@@ -8,7 +8,7 @@ export default async function handler(
 ) {
   try {
     // Find the latest tweets HTML file
-    const tweetsDir = path.join(process.cwd(), 'tech', 'tweets');
+    const tweetsDir = path.join(process.cwd(), 'scraper', 'tech', 'tweets');
     console.log('Looking for tweets in:', tweetsDir);
     
     // Make sure the directory exists

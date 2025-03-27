@@ -22,7 +22,9 @@ const validateRequest = (req: NextApiRequest) => {
 // Run a script with optional arguments
 const runScript = (scriptPath: string, args: string = ''): Promise<string> => {
   return new Promise((resolve, reject) => {
-    const command = `python ${scriptPath} ${args}`;
+    // Set PYTHONPATH to include the current directory
+    const pythonpath = `export PYTHONPATH=$PYTHONPATH:${process.cwd()} && `;
+    const command = `${pythonpath}python -m ${scriptPath} ${args}`;
     console.log(`Running command: ${command}`);
     
     exec(command, (error, stdout, stderr) => {
@@ -53,11 +55,11 @@ export default async function handler(
   try {
     // Run the scraper script to update events data
     console.log('Running event scraper with --append flag...');
-    await runScript('tech/run_all.py', '--append');
+    await runScript('scraper.tech.run_all', '--append');
     
     // Generate tweets for manual posting
     console.log('Generating tweets for manual posting...');
-    await runScript('tech/tweet_generator.py');
+    await runScript('scraper.tech.tweet_generator');
     
     // Check if email sender is configured
     const emailSenderConfigured = Boolean(process.env.EMAIL_SENDER && process.env.EMAIL_PASSWORD);
@@ -71,7 +73,7 @@ export default async function handler(
       try {
         // Set this as an environment variable for the script to use
         process.env.TWEET_RECIPIENT_EMAIL = recipientEmail;
-        await runScript('tech/tweet_notifier.py');
+        await runScript('scraper.tech.tweet_notifier');
         console.log('Email notification sent successfully');
       } catch (emailError) {
         console.error('Failed to send email notification:', emailError);
