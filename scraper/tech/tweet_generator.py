@@ -28,13 +28,21 @@ def load_events(events_file='events.json'):
 
 def filter_upcoming_events(events, days_ahead=7):
     """Filter events happening in the next X days."""
-    now = datetime.now(pytz.UTC)
+    now = datetime.now(pytz.utc)
     cutoff = now + timedelta(days=days_ahead)
     
     upcoming = []
     for event in events:
         try:
-            start_date = datetime.fromisoformat(event['startDate'].replace('Z', '+00:00'))
+            # Handle both timezone-aware and timezone-naive datetimes
+            start_date_str = event['startDate'].replace('Z', '+00:00')
+            start_date = datetime.fromisoformat(start_date_str)
+            
+            # Make sure start_date is timezone aware
+            if start_date.tzinfo is None:
+                # If it's naive, assume it's in UTC
+                start_date = pytz.utc.localize(start_date)
+                
             if now <= start_date <= cutoff:
                 upcoming.append(event)
         except Exception as e:
@@ -46,17 +54,48 @@ def filter_upcoming_events(events, days_ahead=7):
 def format_event_tweet(event):
     """Format a single event as a tweet."""
     try:
-        start_date = datetime.fromisoformat(event['startDate'].replace('Z', '+00:00'))
-        date_str = start_date.strftime("%A, %B %d")
-        time_str = start_date.strftime("%I:%M %p")
+        # Skip events with missing required fields
+        if not event.get('startDate') or not event.get('name'):
+            logging.warning(f"Skipping event with missing required fields: {event.get('name', 'Unknown')}")
+            return ""
+            
+        # Handle both timezone-aware and timezone-naive datetimes
+        start_date_str = event['startDate'].replace('Z', '+00:00')
+        start_date = datetime.fromisoformat(start_date_str)
+        
+        # Make sure start_date is timezone aware
+        if start_date.tzinfo is None:
+            # If it's naive, assume it's in UTC
+            start_date = pytz.utc.localize(start_date)
+            
+        # Convert to local timezone for display
+        local_tz = pytz.timezone('America/New_York')
+        local_start_date = start_date.astimezone(local_tz)
+        
+        date_str = local_start_date.strftime("%A, %B %d")
+        time_str = local_start_date.strftime("%I:%M %p")
         
         # Get price info
         price = event.get('price', {})
+        if not price or not isinstance(price, dict):
+            price = {}
         price_str = "Free" if price.get('type') == 'Free' else f"${price.get('amount', 'TBD')}"
         
         # Get location info
         location = event.get('location', {})
+        if not location or not isinstance(location, dict):
+            location = {}
         venue = location.get('name', 'TBD')
+        
+        # Get description safely
+        description = event.get('description', '')
+        if not description or not isinstance(description, str):
+            description = "No description available"
+        
+        # Get URL safely
+        url = event.get('url', '#')
+        if not url or not isinstance(url, str):
+            url = '#'
         
         # Format tweet text
         tweet = f"""
@@ -65,13 +104,13 @@ def format_event_tweet(event):
             <p class="date">{date_str} at {time_str}</p>
             <p class="venue">📍 {venue}</p>
             <p class="price">💰 {price_str}</p>
-            <p class="description">{event.get('description', '')[:200]}...</p>
-            <p class="link"><a href="{event.get('url', '#')}" target="_blank">More Info →</a></p>
+            <p class="description">{description[:200]}...</p>
+            <p class="link"><a href="{url}" target="_blank">More Info →</a></p>
         </div>
         """
         return tweet
     except Exception as e:
-        logging.error(f"Error formatting tweet for event {event.get('name')}: {e}")
+        logging.error(f"Error formatting tweet for event {event.get('name', 'Unknown')}: {e}")
         return ""
 
 def generate_tweets_html(events):

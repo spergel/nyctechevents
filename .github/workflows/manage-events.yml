@@ -28,7 +28,11 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
+          # Install all dependencies from the main requirements file
           pip install -r scraper/requirements.txt
+          # Show installed packages for debugging
+          echo "Installed packages:"
+          pip list
           
       - name: Run Scrapers and Generate Tweets
         run: |
@@ -42,8 +46,17 @@ jobs:
           mkdir -p scraper/tech/tweets
           mkdir -p tech/tweets  # Create old directory for backward compatibility
           
-          # Run the scraper module
-          python -m scraper.tech.run_all
+          # Check if we have the right dependencies
+          echo "Checking installed packages:"
+          pip list
+          
+          # Run with more verbose output
+          echo "Running scrapers..."
+          python -m scraper.tech.run_all -v
+          
+          # Examine output files
+          echo "Listing data files:"
+          find scraper/ -name "*.json" | xargs ls -la
           
           # Generate tweets
           echo "Generating tweets"

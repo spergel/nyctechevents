@@ -7,7 +7,7 @@ import pytz
 import re
 from bs4 import BeautifulSoup
 from typing import Dict, List, Optional
-from datetime import datetime, UTC
+from datetime import datetime
 from ics import Calendar, Event
 from scraper.tech.scrapers.calendar_configs import ICS_CALENDARS
 
@@ -462,9 +462,9 @@ def is_future_event(event: Dict) -> bool:
         if 'T' in end_date_str:
             end_date = datetime.fromisoformat(end_date_str.replace('Z', '+00:00'))
         else:
-            end_date = datetime.fromisoformat(end_date_str).replace(tzinfo=UTC)
+            end_date = datetime.fromisoformat(end_date_str).replace(tzinfo=pytz.utc)
             
-        return end_date > datetime.now(UTC)
+        return end_date > datetime.now(pytz.utc)
         
     except Exception as e:
         print(f"Error parsing date for event {event.get('id')}: {e}")

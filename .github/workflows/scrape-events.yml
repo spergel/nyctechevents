@@ -1,0 +1,133 @@
+name: Scrape Events
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Run daily at midnight UTC
+  workflow_dispatch:  # Allow manual triggering
+
+# Add permissions needed for the workflow
+permissions:
+  contents: write  # Give permission to push to the repository
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+          
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f scraper/requirements.txt ]; then
+            pip install -r scraper/requirements.txt
+          else
+            # Install common dependencies used by scrapers
+            pip install requests beautifulsoup4 pandas lxml tqdm python-dateutil ics pytz
+          fi
+          
+      - name: Debug directory structure
+        run: |
+          echo "Current working directory: $(pwd)"
+          echo "Directory contents:"
+          ls -la
+          echo "Full directory tree:"
+          find . -type d | sort
+          
+      - name: Run scrapers and generate tweets
+        run: |
+          # Debug directory structure
+          echo "Current working directory: $(pwd)"
+          echo "Listing contents of root directory:"
+          ls -la
+          
+          echo "Checking if scraper directory exists:"
+          if [ -d "scraper" ]; then
+            echo "scraper directory exists"
+            echo "Contents of scraper directory:"
+            ls -la scraper/
+          else
+            echo "scraper directory does NOT exist!"
+            echo "Creating necessary directories"
+            mkdir -p scraper/tech
+          fi
+          
+          # Add the current directory to PYTHONPATH to allow module imports
+          export PYTHONPATH=$PYTHONPATH:$(pwd)
+          echo "PYTHONPATH is now: $PYTHONPATH"
+          
+          # Run the scraper module
+          echo "Running the scraper module"
+          python -m scraper.tech.run_all --output public/data/events.json
+          
+          # Create tech/tweets directory if it doesn't exist
+          mkdir -p tech/tweets
+          
+          # Generate tweets
+          echo "Generating tweets"
+          python -m scraper.tech.tweet_generator
+        
+      - name: Commit and push if changed
+        run: |
+          git config --global user.name 'GitHub Actions'
+          git config --global user.email 'actions@github.com'
+          
+          # Stash any changes before pulling
+          echo "Stashing any changes..."
+          git stash
+          
+          # Pull the latest changes first
+          echo "Pulling latest changes..."
+          git pull --rebase origin main
+          
+          # Pop the stashed changes
+          echo "Applying stashed changes..."
+          git stash pop
+          
+          # Add all relevant data files
+          echo "Adding data files..."
+          git add public/data/events.json
+          git add scraper/data/combined_events.json
+          git add scraper/tech/data/*.json
+          
+          # Add tweet files if they exist
+          if ls tech/tweets/*.html 1> /dev/null 2>&1; then
+            echo "Adding tweet files..."
+            git add tech/tweets/*.html
+          else
+            echo "No tweet files found to add"
+          fi
+          
+          if git diff --quiet && git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update events data and tweets [skip ci]"
+            # Use the GITHUB_TOKEN for authentication
+            git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
+            git push
+          fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
+      # If you're using Vercel for deployment
+      - name: Deploy to Vercel
+        if: success()
+        run: |
+          if [ -z "$VERCEL_TOKEN" ]; then
+            echo "VERCEL_TOKEN is not set. Skipping Vercel deployment."
+            exit 0
+          fi
+          
+          echo "Installing and deploying to Vercel..."
+          npx vercel --token="${VERCEL_TOKEN}" --prod --confirm
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }} 

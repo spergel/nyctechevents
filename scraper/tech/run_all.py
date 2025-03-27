@@ -124,6 +124,7 @@ def run_scrapers() -> List[str]:
     """Run all scrapers and return list of output files."""
     output_files = []
     successful_scrapers = 0
+    failed_scrapers = 0
     
     for scraper_name in SCRAPERS:
         try:
@@ -140,12 +141,18 @@ def run_scrapers() -> List[str]:
                 logging.info(f"Scraper {scraper_name} completed successfully")
             else:
                 logging.error(f"Scraper {scraper_name} failed to produce output")
+                failed_scrapers += 1
                 
+        except ImportError as e:
+            logging.error(f"Import error for scraper {scraper_name}: {e}")
+            failed_scrapers += 1
         except Exception as e:
             logging.error(f"Error running scraper {scraper_name}: {e}")
+            logging.error(traceback.format_exc())
+            failed_scrapers += 1
             continue
     
-    logging.info(f"Completed running {successful_scrapers} scrapers successfully")
+    logging.info(f"Completed running {successful_scrapers} scrapers successfully, {failed_scrapers} failed")
     return output_files
 
 def combine_event_files(input_files: List[str], output_file: str = None) -> str:
@@ -161,6 +168,11 @@ def combine_event_files(input_files: List[str], output_file: str = None) -> str:
     
     for file_path in input_files:
         try:
+            # Skip non-string file paths (like True/False values)
+            if not isinstance(file_path, str):
+                logging.warning(f"Skipping non-string file path: {file_path}")
+                continue
+                
             with open(file_path, 'r', encoding='utf-8') as f:
                 data = json.load(f)
                 if isinstance(data, dict) and 'events' in data:
@@ -233,11 +245,16 @@ def main():
     
     try:
         # Parse command line arguments
-        append_to_existing = '--append' in sys.argv
-        output_file = None
-        for i, arg in enumerate(sys.argv):
-            if arg == '--output' and i + 1 < len(sys.argv):
-                output_file = sys.argv[i + 1]
+        parser = argparse.ArgumentParser(description='Run all scrapers and combine results')
+        parser.add_argument('--append', action='store_true', help='Append to existing events')
+        parser.add_argument('--output', help='Output file path')
+        parser.add_argument('-v', '--verbose', action='store_true', help='Enable verbose logging')
+        args = parser.parse_args()
+        
+        # Set logging level based on verbose flag
+        if args.verbose:
+            logging.getLogger().setLevel(logging.DEBUG)
+            logging.debug("Verbose logging enabled")
         
         # Run scrapers
         event_files = run_scrapers()
@@ -245,6 +262,8 @@ def main():
         if not event_files:
             logging.error("No event files were generated. Exiting.")
             return
+            
+        logging.debug(f"Generated event files: {event_files}")
         
         # Combine events
         combined_file = combine_event_files(event_files)
@@ -253,12 +272,12 @@ def main():
             return
         
         # Run categorization
-        if not run_categorization(combined_file, output_file):
+        if not run_categorization(combined_file, args.output):
             logging.error("Failed to categorize events. Exiting.")
             return
         
         # If output file specified, copy combined events there
-        if output_file:
+        if args.output:
             data = None
             try:
                 with open(combined_file, 'r', encoding='utf-8') as f:
@@ -268,9 +287,9 @@ def main():
                 return
                 
             try:
-                with open(output_file, 'w', encoding='utf-8') as f:
+                with open(args.output, 'w', encoding='utf-8') as f:
                     json.dump(data, f, indent=2, ensure_ascii=False)
-                logging.info(f"Saved events to {output_file}")
+                logging.info(f"Saved events to {args.output}")
                 # Mark as success if we got here
                 success = True
             except Exception as e:

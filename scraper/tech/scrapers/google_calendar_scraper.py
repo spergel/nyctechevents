@@ -5,7 +5,8 @@ import requests
 import logging
 from typing import Dict, List, Optional
 from googleapiclient.discovery import build
-from datetime import datetime, timezone
+from datetime import datetime
+import pytz
 import hashlib
 from bs4 import BeautifulSoup
 import sys
@@ -308,8 +309,8 @@ def fetch_google_calendar_events(calendar_id: str, community_id: str) -> List[Di
         service = build('calendar', 'v3', developerKey=API_KEY, cache_discovery=False)
         
         # Get current time and one year from now
-        now = datetime.now(timezone.utc)
-        one_year_from_now = datetime(now.year + 1, now.month, now.day, tzinfo=timezone.utc)
+        now = datetime.now(pytz.utc)
+        one_year_from_now = datetime(now.year + 1, now.month, now.day, tzinfo=pytz.utc)
         
         # Fetch events
         events_result = service.events().list(
@@ -350,9 +351,9 @@ def is_future_event(event: Dict) -> bool:
         if 'T' in end_date_str:
             end_date = datetime.fromisoformat(end_date_str.replace('Z', '+00:00'))
         else:
-            end_date = datetime.fromisoformat(end_date_str).replace(tzinfo=timezone.utc)
+            end_date = datetime.fromisoformat(end_date_str).replace(tzinfo=pytz.utc)
             
-        return end_date > datetime.now(timezone.utc)
+        return end_date > datetime.now(pytz.utc)
         
     except Exception as e:
         print(f"Error parsing date for event {event.get('id')}: {e}")
