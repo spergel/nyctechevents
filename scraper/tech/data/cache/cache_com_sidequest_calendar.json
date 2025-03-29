@@ -63,7 +63,7 @@
       "type": "Tech",
       "locationId": "loc_fractal",
       "communityId": "com_sidequest",
-      "description": "\u200b\u200bHave the knack to design your own mechanical products and 3D print them? Unsure where to start? Fear not.\u200b\u200bHI! I'mSuraj Kumarand I can teach you how to become a maker in three days. I was the CTO of Sherpy, a drone startup that manufactured small, long-range airplanes for commercial delivery (sherpymedia.com). I now founded a neurotech startup (Cerelog.com).There are a lot of visionaries and hackers around in New York City, but materializing an idea can be quite the wall to climb! What are the real-world constraints to pay attention to when designing something? Where's the space where you can build things fast and get great advice?!\u200bThis is a small-group, high attention workshop, targeting 10-15 creative people who have the itch to create things.Light on theory, heavy on practice!\u200bWHAT YOU'LL DO\u200bGet familiar with Fusion360!\u200b\u200b\u200bDesign your own custom spray bottle using Fusion360. Use it for cleaning around your house/pranking your dog!\u200b\u200b\u200bWe provide the nozzle and tube\u2014you design the rest!\u200b\u200b\u200b3D print your creation on the high performance Bambu X1 Carbon printer\u200b\u200b\u200bDETAILS\u200b\u200b\u200bFive-day workshop (~3 hrs per session)\u200bMon, Tue, Wed, Thurs, Fri\u200b\u200b\u200bProfessional guidance from an experienced engineer\u200b\u200b\u200bLearn to navigate Fusion360 and think like a designer\u200b\u200b\u200bREGISTRATION\u200b\u200b$250 / person for the 5 days\u200b\u200b\u200bLimited spots available\u200b\u200b\u200bReserve your seat today!\u200bYour Host:\u200b\u200b\u200bSuraj Kumar, Mechanical Engineer with years of Fusion360 experience\u200b\u200b\u200b*thank you tofractal techfor hosting us!*Contact at surajratnam99@gmail.com",
+      "description": "Get up-to-date information at: https://lu.ma/c9bexs8f\n\nAddress:\nFractal Tech\nKings County, New York\nUnited States\n\nHosted by Suraj Kumar, Jake Zegil & Chandiran",
       "startDate": "2025-04-07T22:00:00Z",
       "endDate": "2025-04-08T01:00:00Z",
       "category": [
@@ -78,7 +78,7 @@
       "capacity": null,
       "registrationRequired": false,
       "tags": "",
-      "image": "luma-event-7c08522b.jpg",
+      "image": "",
       "status": "upcoming",
       "metadata": {
         "source_url": "https://lu.ma/c9bexs8f",
@@ -92,54 +92,8 @@
           "address": "111 Conselyea St, Brooklyn, NY 11211",
           "type": "Offline"
         },
-        "speakers": [
-          {
-            "name": "Suraj Kumar",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Jake Zegil",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Chandiran",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Suraj Kumar",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Jake Zegil",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Chandiran",
-            "title": "",
-            "bio": ""
-          }
-        ],
-        "social_links": [
-          "https://instagram.com/fractaltechnyc",
-          "https://x.com/fractaltechnyc",
-          "https://fractaltechhub.com",
-          "https://instagram.com/surajimop",
-          "https://x.com/surkumference",
-          "https://x.com/JakeZegil",
-          "https://x.com/patxnoir",
-          "https://instagram.com/fractaltechnyc",
-          "https://x.com/fractaltechnyc",
-          "https://fractaltechhub.com",
-          "https://instagram.com/surajimop",
-          "https://x.com/surkumference",
-          "https://x.com/JakeZegil",
-          "https://x.com/patxnoir"
-        ],
+        "speakers": [],
+        "social_links": [],
         "featured": false,
         "luma_source": true
       }
