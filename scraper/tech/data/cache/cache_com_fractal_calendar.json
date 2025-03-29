@@ -1,0 +1,662 @@
+{
+  "events": [
+    {
+      "id": "evt_com_fractal__cdgmopb",
+      "name": "Tech 4 BABIES Hackathon",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_fractal",
+      "description": "Find more information on https://lu.ma/nyc-tech",
+      "startDate": "2025-03-29T13:00:00Z",
+      "endDate": "2025-03-29T21:00:00Z",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/nyc-tech",
+        "organizer": {
+          "name": "Fractal Tech: NYC",
+          "instagram": "",
+          "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "https://partiful.com/e/RpWbkjEVJDzxZN1vOLeo",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [
+          "https://instagram.com/fractaltechnyc",
+          "https://x.com/fractaltechnyc",
+          "https://fractaltechhub.com"
+        ],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_fractal__clr78bb",
+      "name": "Maximum New York Office Hours",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_fractal",
+      "description": "\u200bWant to talk toDaniel(founder ofMaximum New York) about anything? Want to learn more about government at the city, state, or federal level? Want to know what you can do for a more abundant future? Grab a coffee and come to office hours!",
+      "startDate": "2025-03-29T15:30:00Z",
+      "endDate": "2025-03-29T18:00:00Z",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "luma-event-33d136c0.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/9iobb69e",
+        "organizer": {
+          "name": "Fractal Tech: NYC",
+          "instagram": "",
+          "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "111 Conselyea StBrooklyn, NY 11211, USA\nBrooklyn, NY 11211, USA",
+          "type": "Offline"
+        },
+        "speakers": [
+          {
+            "name": "Daniel Golliher",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Daniel Golliher",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "social_links": [
+          "https://x.com/danielgolliher",
+          "https://linkedin.com/in/maximumnewyork",
+          "https://maximumnewyork.com",
+          "https://x.com/danielgolliher",
+          "https://x.com/danielgolliher",
+          "https://linkedin.com/in/maximumnewyork",
+          "https://maximumnewyork.com",
+          "https://x.com/danielgolliher"
+        ],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_fractal__clr78bb",
+      "name": "SideQuest #23",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_fractal",
+      "description": "\u200b\u200b\u200bCome join us for a chill afternoon dedicated to your sidequests!Whether it's writing, painting, coding that new app, or literally any other \u201cSideQuest\u201d you\u2019ve been putting off, this is your space to create. This isn\u2019t about 'work' in the traditional sense\u2014it's about crafting something meaningful to you, free from pressure.\u200b\u200bWe'll have focused work sessions to help you make real progress, all set to the backdrop of some lo-fi, balanced with breaks to reset, unblock each other, and mingle with other creators.\u200b\u200bRough Agenda\u200b\u200b2:00 PM - 2:30 PM: Introductions and Intention Sharing\u200b\u200b2:30 PM - 3:45 PM: Deep Focus Session 1\u200b\u200b3:45 PM - 4:15 PM: Break\u200b\u200b4:15 PM - 5:30 PM: Deep Focus Session 2\u200b\u200b5:30 PM - 6:00 PM: if you wanna share your work, we\u2019d love to see it! If not, that\u2019s cool, too!\u200b\u200b6:00 PM: Optional hangout afterward :)*please plan on staying for the whole duration to avoid disrupting the quiet work periods\u200b\u200b**thank you tofractal techfor hosting us! and thank you to our friends atPurdueHackers,CozySundaysandSocraticafor seeding the idea!___________________AboutSideQuest:We host coworking sessions biweekly! Subscribe to our events calendar if you can\u2019t make this one :)",
+      "startDate": "2025-03-30T18:00:00Z",
+      "endDate": "2025-03-30T22:00:00Z",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "luma-event-afbcf6ff.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/gnzubm69",
+        "organizer": {
+          "name": "Fractal Tech: NYC",
+          "instagram": "",
+          "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "Please register to see the exact location of this event.\nKings County, New York",
+          "type": "Online"
+        },
+        "speakers": [
+          {
+            "name": "Chandiran",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Chandiran",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "social_links": [
+          "https://discord.gg/C9qrQR672P",
+          "https://x.com/patxnoir",
+          "https://discord.gg/C9qrQR672P",
+          "https://x.com/patxnoir"
+        ],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_fractal__clr78bb",
+      "name": "Anatomy of a Deal: Sales for Builders",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_fractal",
+      "description": "\u200bDouble your deal size. Halve your sales cycle. Scale.\u200bA systematic workshop where technical leaders deconstruct live deals using first principles and engineering methodologies to build reliable sales systems that scale.\u200bAbout Your Instructor:\u200bWalter Rothleft college one semester short of completing his engineering degree to raise $9.8M for his first startup at age 23. With experience spanning enterprise sales at Oracle, venture capital as an Entrepreneur-in-Residence, and founding multiple companies, Walter's methodology has quantifiably improved sales metrics for founding teams - doubling average deal size and halving sales cycles within 90 days for venture-backed companies from pre-seed to Series C.\u200bFor Technical Leaders Who:\u200bAre founding engineers playing active roles in sales conversations, future founder / founding team members currently in a sales facing role or founding sales executives\u200bWant a systematic approach instead of relationship-based selling tactics\u200bNeed to build sales processes from scratch without prior playbooks\u200bWhy Builders Make Great Salespeople:\u200bPattern recognition identifies underlying deal structures across products and markets\u200bDiagnostic precision and unit testing finds and fixes problems at the root\u200bSystems thinking transforms isolated customer data points into actionable GTM insights\u200bWorkshop Structure (3 hours):\u200bCommunity & Networking (10 min): Connect with fellow technical leaders tackling similar challenges\u200bIntro (15 min): The first principles of sales (Don't waste time, Deals never lie, The truth will set you free)\u200bDeal Dissection (90 min): Collaborative anatomical review of participant deals using the The 3W Diagnostic Protocol\u200bBreak (5 min)\u200bGTM Reverse Engineering (25 min): Layout the foundation for building your playbook and sales toolkit from the ground up based on findings of your pipeline review\u200bPsychological Debugging (25 min): Identify and overcome the hidden mental barriers that emerged during pipeline reviews - the silent deal killers that haunt founders\u200bCommunity Networking (10 min): Collaborative problem-solving and resource sharing\u200bEfficient Preparation:\u200bBring 1+ active deals to discuss (maintaining confidentiality of names/accounts)\u200bOptional pre-reading: \"How to Build a Successful Founder-Led Sales Strategy\" (https://www.heavybit.com/library/article/founder-led-sales-strategy)\u200bFor maximum value: Access the 100-minute foundational course before the workshop and sales templates\u200bExclusive Opportunities:\u200bFirst 3 registrants: optional pre-workshop sales call review with written feedback\u200bAll registrants: optionally submit a call transcript: 2-3 will be selected (with permission) as workshop case studies\u200bSelected examples: complimentary 30-minute coaching session plus workshop spotlight\u200bSpecific Takeaways:\u200bA pipeline review framework that unit tests deals in about 60 seconds, eliminating false positives that waste your time\u200b5 specific deal diagnostic questions that cut through BS and drives clear next steps\u200b1 slide discovery template that helps you proactively and retroactively fill in missing discovery at the start of every sales call (and gets prospects to thank you for using it)\u200b1 slide demo technique template that helps you give shorter, more compelling demos\u200bA meeting architecture that shifts power dynamics from vendor-customer to strategic collaborative problem-solving\u200bWhat Others Say:\u200b\"Walter helped turn what would have been a 6-figure deal into a 7-figure deal for a developer founder, helping them raise the biggest round of the cohort at a much higher valuation than expected. He helps technical founders cut through the hype to figure out what customers truly need. We're starting to introduce him as soon as possible to our teams. The big thing Walter brings to the table is that he convinces engineers to like sales. They go talk to him, and they come back f'n loving doing sales. Before that, they hated doing sales.\" -Dave, Founder of HF0 and General Partner at Backend Capital\u200b\"You talk to him for 5 minutes and he is already delivering value in your sales process. Without knowing anything contextual about us, he was able to look at the pure mechanics of the sales process and then instantly start moving the needle.\" -Henrik Bennetsen, Co-founder and Chief Business Officer of Canvas Construction\u200b\"What I'm most surprised about is how quickly it was adopted not just by a rep but by the whole team. This helped us structure the chaos in early-stage startups. The engagement paid for itself very quickly in just the three or four months we've worked together. What I'm most excited about, anecdotally and directionally, I can say it's going to be a 5-10X return. Because it's now part of our DNA and approach. It's not just limited to Go-to-market. It's benefiting other functions.\"  -Adnan Iqbal, CEO of Luma Health\u200bMore atSimpleLens.com\u200bLimited to 10-15 participants. Workshop creates accelerated learning through direct application of first principles to live deals.",
+      "startDate": "2025-04-02T22:00:00Z",
+      "endDate": "2025-04-03T01:00:00Z",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "luma-event-b3177d3d.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/SalesForBuildersWalterRoth",
+        "organizer": {
+          "name": "Fractal Tech: NYC",
+          "instagram": "",
+          "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "Please register to see the exact location of this event.\nKings County, New York",
+          "type": "Online"
+        },
+        "speakers": [
+          {
+            "name": "Jake Zegil",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Walter Roth",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Jake Zegil",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Walter Roth",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "social_links": [
+          "https://instagram.com/fractaltechnyc",
+          "https://x.com/fractaltechnyc",
+          "https://fractaltechhub.com",
+          "https://x.com/JakeZegil",
+          "https://instagram.com/fractaltechnyc",
+          "https://x.com/fractaltechnyc",
+          "https://fractaltechhub.com",
+          "https://x.com/JakeZegil"
+        ],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_fractal__clr78bb",
+      "name": "Tea Conversations : New York edition",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_fractal",
+      "description": "\u200bHi friends!\u200bWelcome to Solei, a social teahouse concept that connects people from different walks of life.\u200bIt is your third place, your city\u2019s living room, where we sit down to talk to one another beyond small talk over a shared cup of tea (plus snacks!)\u200b\u2014\u200bWhat to expect:\u200bArrival (~15min):You\u2019ll be sat down in a group as you arrive while the host serves you tea.\u200bConversations (~75min):Chat with the group over tea and a few curated questions in a semi-structured manner (depending on the group size, we\u2019ll either speak as one group or break down into smaller groups). We\u2019ll also come together as a group to get to know who\u2019s in the room.\u200bFree flows (~30min):Grab more tea and have amazing conversations.\u200b\u2014\u200bThis is the first, of many, pop-up events to come. Thank you for checking us out early! Your ticket includes tea refills and snacks.\u200bDress comfortably (you may need to sit on the floor) and bring your lovely self. Try to come on time, if you are running late send a note to the host via Luma!\u200bLooking forward to meeting you,\u200bCoco\u200b\u200bIf you\u2019re curious on why we\u2019re doing this and the story behind this initiative, read this blog post:Slow Spaces for Conversation.\u200bOur website:http://dearsolei.com/",
+      "startDate": "2025-04-04T21:00:00Z",
+      "endDate": "2025-04-04T23:00:00Z",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "luma-event-1d87cd30.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/jo03fi5l",
+        "organizer": {
+          "name": "Fractal Tech: NYC",
+          "instagram": "",
+          "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "Please register to see the exact location of this event.\nKings County, New York",
+          "type": "Online"
+        },
+        "speakers": [
+          {
+            "name": "Coco Liu",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Coco Liu",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "social_links": [
+          "https://instagram.com/chocokoala",
+          "https://x.com/cocobliu",
+          "https://instagram.com/chocokoala",
+          "https://x.com/cocobliu"
+        ],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_fractal__clr78ba",
+      "name": "BuildHub #2 - 3D Modelling CAD Workshop",
+      "type": "Tech",
+      "locationId": "loc_fractal",
+      "communityId": "com_fractal",
+      "description": "\u200b\u200bHave the knack to design your own mechanical products and 3D print them? Unsure where to start? Fear not.\u200b\u200bHI! I'mSuraj Kumarand I can teach you how to become a maker in three days. I was the CTO of Sherpy, a drone startup that manufactured small, long-range airplanes for commercial delivery (sherpymedia.com). I now founded a neurotech startup (Cerelog.com).There are a lot of visionaries and hackers around in New York City, but materializing an idea can be quite the wall to climb! What are the real-world constraints to pay attention to when designing something? Where's the space where you can build things fast and get great advice?!\u200bThis is a small-group, high attention workshop, targeting 10-15 creative people who have the itch to create things.Light on theory, heavy on practice!\u200bWHAT YOU'LL DO\u200bGet familiar with Fusion360!\u200b\u200b\u200bDesign your own custom spray bottle using Fusion360. Use it for cleaning around your house/pranking your dog!\u200b\u200b\u200bWe provide the nozzle and tube\u2014you design the rest!\u200b\u200b\u200b3D print your creation on the high performance Bambu X1 Carbon printer\u200b\u200b\u200bDETAILS\u200b\u200b\u200bFive-day workshop (~3 hrs per session)\u200bMon, Tue, Wed, Thurs, Fri\u200b\u200b\u200bProfessional guidance from an experienced engineer\u200b\u200b\u200bLearn to navigate Fusion360 and think like a designer\u200b\u200b\u200bREGISTRATION\u200b\u200b$250 / person for the 5 days\u200b\u200b\u200bLimited spots available\u200b\u200b\u200bReserve your seat today!\u200bYour Host:\u200b\u200b\u200bSuraj Kumar, Mechanical Engineer with years of Fusion360 experience\u200b\u200b\u200b*thank you tofractal techfor hosting us!*Contact at surajratnam99@gmail.com",
+      "startDate": "2025-04-07T22:00:00Z",
+      "endDate": "2025-04-08T01:00:00Z",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "luma-event-7c08522b.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/c9bexs8f",
+        "organizer": {
+          "name": "Fractal Tech: NYC",
+          "instagram": "",
+          "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "Fractal Tech",
+          "address": "111 Conselyea St, Brooklyn, NY 11211",
+          "type": "Offline"
+        },
+        "speakers": [
+          {
+            "name": "Suraj Kumar",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Jake Zegil",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Chandiran",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Suraj Kumar",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Jake Zegil",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Chandiran",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "social_links": [
+          "https://instagram.com/fractaltechnyc",
+          "https://x.com/fractaltechnyc",
+          "https://fractaltechhub.com",
+          "https://instagram.com/surajimop",
+          "https://x.com/surkumference",
+          "https://x.com/JakeZegil",
+          "https://x.com/patxnoir",
+          "https://instagram.com/fractaltechnyc",
+          "https://x.com/fractaltechnyc",
+          "https://fractaltechhub.com",
+          "https://instagram.com/surajimop",
+          "https://x.com/surkumference",
+          "https://x.com/JakeZegil",
+          "https://x.com/patxnoir"
+        ],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_fractal__clr78b9",
+      "name": "Neighborhood Accelerator Barnraising!",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_fractal",
+      "description": "\u200bCome to the Neighborhood Accelerator Barnraising!",
+      "startDate": "2025-04-19T16:00:00Z",
+      "endDate": "2025-04-19T19:00:00Z",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "luma-event-82e586f2.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/kgbnpjqe",
+        "organizer": {
+          "name": "Fractal Tech: NYC",
+          "instagram": "",
+          "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "111 Conselyea StBrooklyn, NY 11211, USA\nBrooklyn, NY 11211, USA",
+          "type": "Offline"
+        },
+        "speakers": [
+          {
+            "name": "Tyler Alterman",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Priya Rose \ud83c\udf39",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Tyler Alterman",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Priya Rose \ud83c\udf39",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "social_links": [
+          "https://x.com/prigoose",
+          "https://x.com/prigoose"
+        ],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_fractal__clr78ba",
+      "name": "Maximum New York April Party & Abundance Politics Accelerator",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_fractal",
+      "description": "\u200bCome hang out with friends, hear some lightning talks about NYC city/state politics, find collaborators for your own political schemes, and have a good time!\u200bYou'll enjoy the company of MNY alumni, people from theabundance movementgenerally, and other guests.\u200bThis event will also feature a brief graduation ceremony for several cohorts ofThe Foundations of New York City!\u200bThere will be drinks and snacks!\u200bKnow before you arrive:This event will be guided by thefour rules of etiquettethat guide all Maximum New York classes, and is generally for people who mostly agree withThe Sensible Seventy.",
+      "startDate": "2025-04-20T18:30:00Z",
+      "endDate": "2025-04-20T20:30:00Z",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "luma-event-9fe1da4f.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/jyuvctgc",
+        "organizer": {
+          "name": "Fractal Tech: NYC",
+          "instagram": "",
+          "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "111 Conselyea StBrooklyn, NY 11211, USA\nBrooklyn, NY 11211, USA",
+          "type": "Offline"
+        },
+        "speakers": [
+          {
+            "name": "Daniel Golliher",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Daniel Golliher",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "social_links": [
+          "https://x.com/danielgolliher",
+          "https://linkedin.com/in/maximumnewyork",
+          "https://maximumnewyork.com",
+          "https://x.com/danielgolliher",
+          "https://x.com/danielgolliher",
+          "https://linkedin.com/in/maximumnewyork",
+          "https://maximumnewyork.com",
+          "https://x.com/danielgolliher"
+        ],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_fractal__cdgmopb",
+      "name": "Code & Coffee",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_fractal",
+      "description": "Find more information on https://lu.ma/nyc-tech",
+      "startDate": "2025-04-27T18:00:00Z",
+      "endDate": "2025-04-27T21:00:00Z",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/nyc-tech",
+        "organizer": {
+          "name": "Fractal Tech: NYC",
+          "instagram": "",
+          "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "https://www.meetup.com/new-york-code-coffee/",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [
+          "https://instagram.com/fractaltechnyc",
+          "https://x.com/fractaltechnyc",
+          "https://fractaltechhub.com"
+        ],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_fractal__clr78bb",
+      "name": "Sf\u00e2nt's Spring Revelry",
+      "type": "Tech",
+      "locationId": "loc_fractal",
+      "communityId": "com_fractal",
+      "description": "\u200bEvent\u200bJoin us atSf\u00e2nt's Spring Revelryas we expand to a new, much bigger space for our 5th popup! Soak up the spring sunshine on the rooftop, enjoy a cozy corner with a book on the living room's couches, or find collaborators to aid you on your latest sidequest.\u200bWhat is Sf\u00e2nt?\u200bSf\u00e2nt is a popup cafe serving modern coffee and tea beverages. All profits are donated to charity. We feature frequent collaborators, such as pastry chefs, ambiance engineers, and tattoo artists.Come learn about coffee and enjoy some, might we say, excellent beverages!See our last popup's recap on ourInstagram.\u200bMenu\u200bEmily, fresh from her stint as a pastry chef at Momoya, has something special baking for this event.\u200bFor coffee, we're brewing up something extraordinary for this celebration... it involves some snazzyclarification:O ;)",
+      "startDate": "2025-05-03T15:00:00Z",
+      "endDate": "2025-05-03T19:30:00Z",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "luma-event-b86d807c.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/cgv46fil",
+        "organizer": {
+          "name": "Fractal Tech: NYC",
+          "instagram": "",
+          "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "Fractal Tech",
+          "address": "111 Conselyea St, Brooklyn, NY 11211",
+          "type": "Offline"
+        },
+        "speakers": [
+          {
+            "name": "Andrei Stoica",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Andrei Stoica",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "social_links": [
+          "https://instagram.com/adr.stc",
+          "https://x.com/andreistoica_",
+          "https://instagram.com/adr.stc",
+          "https://x.com/andreistoica_"
+        ],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_fractal__clr78ba",
+      "name": "Code and Coffee Hackathon",
+      "type": "Tech",
+      "locationId": "loc_fractal",
+      "communityId": "com_fractal",
+      "description": "\u200bPlease sign up here:https://www.meetup.com/new-york-code-coffee/events/306632486/?eventOrigin=group_upcoming_events\u200bJoin us for an exciting day of coding, collaboration, and coffee in the heart of New York City. This event is perfect for software engineers, designers, and enthusiasts alike.",
+      "startDate": "2025-05-18T16:00:00Z",
+      "endDate": "2025-05-18T21:00:00Z",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "luma-event-71a2245e.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/u6rdfq50",
+        "organizer": {
+          "name": "Fractal Tech: NYC",
+          "instagram": "",
+          "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "Fractal Tech",
+          "address": "111 Conselyea St, Brooklyn, NY 11211",
+          "type": "Offline"
+        },
+        "speakers": [
+          {
+            "name": "Charles Inwald",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Charles Inwald",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "social_links": [],
+        "featured": false,
+        "luma_source": true
+      }
+    }
+  ]
+}

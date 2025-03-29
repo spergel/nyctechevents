@@ -1,0 +1,3084 @@
+{
+  "events": [
+    {
+      "id": "evt_com_telos_46pqc50d",
+      "name": "REM Film Club",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2025-03-30T20:00:00-04:00",
+      "endDate": "2025-03-30T23:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/remfilmclub",
+        "organizer": {
+          "name": "telos.haus events",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "https://lu.ma/remfilmclub",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [
+          "https://instagram.com/remfilmclub"
+        ],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_telos_d269plpk",
+      "name": "aci-d club weekly hang",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2025-04-02T18:45:00-04:00",
+      "endDate": "2025-04-02T21:15:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/aci-d.club",
+        "organizer": {
+          "name": "telos.haus events [public]",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "https://lu.ma/aci-d.club",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [
+          "https://instagram.com/aci_d.club",
+          "https://x.com/aci_dclub",
+          "https://aci-d.club"
+        ],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_telos_4sb2h04l",
+      "name": "love & video games",
+      "type": "Tech",
+      "locationId": "loc_telos",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2025-04-03T18:30:00-04:00",
+      "endDate": "2025-04-03T21:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.google.com/calendar/event?eid=NHNiMmgwNGwwNTJnM3FpNTlvbWU2aWVwYjcgZDU5NmMyYmY3MjExODNkMjJiYjUwYmRlNjYyNTA5MGZjMzkyM2FhMjlhNjkxOGQ3ODQwOWUxNjhkYTc5MTc2OUBn",
+        "organizer": {
+          "name": "telos.haus events",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "Telos",
+          "address": "181 Wyckoff Ave, Brooklyn, NY 11237",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
+      "id": "evt_com_telos_2g2qkuc1",
+      "name": "telos.haus community social (April)",
+      "type": "Tech",
+      "locationId": "loc_telos",
+      "communityId": "com_telos",
+      "description": "<p>Join us for a (free) community social hour at telos.haus! Take a break from work with drinks, meet new people, and mingle with other creatives. This is the perfect opportunity to get a sense of our space and connect with others by breaking bread.</p><p>Light snacks provided. Bring your own lunch or something to share if you're feeling generous!</p>",
+      "startDate": "2025-04-04T13:00:00-04:00",
+      "endDate": "2025-04-04T14:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.google.com/calendar/event?eid=MmcycWt1YzFqcmozMm5iNW9vc2RoZjQ4MmwgZDU5NmMyYmY3MjExODNkMjJiYjUwYmRlNjYyNTA5MGZjMzkyM2FhMjlhNjkxOGQ3ODQwOWUxNjhkYTc5MTc2OUBn",
+        "organizer": {
+          "name": "telos.haus events",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "Telos",
+          "address": "181 Wyckoff Ave, Brooklyn, NY 11237",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
+      "id": "evt_com_telos_d269plpk",
+      "name": "aci-d club weekly hang",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2025-04-09T18:45:00-04:00",
+      "endDate": "2025-04-09T21:15:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/aci-d.club",
+        "organizer": {
+          "name": "telos.haus events [public]",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "https://lu.ma/aci-d.club",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [
+          "https://instagram.com/aci_d.club",
+          "https://x.com/aci_dclub",
+          "https://aci-d.club"
+        ],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_telos_d269plpk",
+      "name": "aci-d club weekly hang",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2025-04-16T18:45:00-04:00",
+      "endDate": "2025-04-16T21:15:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/aci-d.club",
+        "organizer": {
+          "name": "telos.haus events [public]",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "https://lu.ma/aci-d.club",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [
+          "https://instagram.com/aci_d.club",
+          "https://x.com/aci_dclub",
+          "https://aci-d.club"
+        ],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_telos_7idl2ste",
+      "name": "figure drawing 003",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2025-04-17T18:30:00-04:00",
+      "endDate": "2025-04-17T20:30:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.google.com/calendar/event?eid=N2lkbDJzdGVrbDJldWJuaTEyNGhoZXZiaWYgZDU5NmMyYmY3MjExODNkMjJiYjUwYmRlNjYyNTA5MGZjMzkyM2FhMjlhNjkxOGQ3ODQwOWUxNjhkYTc5MTc2OUBn",
+        "organizer": {
+          "name": "telos.haus events",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
+      "id": "evt_com_telos_0jth11k0",
+      "name": "Late Night Coworking",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2025-04-18T21:00:00-04:00",
+      "endDate": "2025-04-19T01:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.google.com/calendar/event?eid=MGp0aDExazBocjM0azZnMnZjOTJhdDR1MzUgZDU5NmMyYmY3MjExODNkMjJiYjUwYmRlNjYyNTA5MGZjMzkyM2FhMjlhNjkxOGQ3ODQwOWUxNjhkYTc5MTc2OUBn",
+        "organizer": {
+          "name": "telos.haus events",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
+      "id": "evt_com_telos_d269plpk",
+      "name": "aci-d club weekly hang",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2025-04-23T18:45:00-04:00",
+      "endDate": "2025-04-23T21:15:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/aci-d.club",
+        "organizer": {
+          "name": "telos.haus events [public]",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "https://lu.ma/aci-d.club",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [
+          "https://instagram.com/aci_d.club",
+          "https://x.com/aci_dclub",
+          "https://aci-d.club"
+        ],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_telos_d269plpk",
+      "name": "aci-d club weekly hang",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2025-04-30T18:45:00-04:00",
+      "endDate": "2025-04-30T21:15:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/aci-d.club",
+        "organizer": {
+          "name": "telos.haus events [public]",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "https://lu.ma/aci-d.club",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [
+          "https://instagram.com/aci_d.club",
+          "https://x.com/aci_dclub",
+          "https://aci-d.club"
+        ],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_telos_d269plpk",
+      "name": "aci-d club weekly hang",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2025-05-07T18:45:00-04:00",
+      "endDate": "2025-05-07T21:15:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/aci-d.club",
+        "organizer": {
+          "name": "telos.haus events [public]",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "https://lu.ma/aci-d.club",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [
+          "https://instagram.com/aci_d.club",
+          "https://x.com/aci_dclub",
+          "https://aci-d.club"
+        ],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_telos_d269plpk",
+      "name": "aci-d club weekly hang",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2025-05-14T18:45:00-04:00",
+      "endDate": "2025-05-14T21:15:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/aci-d.club",
+        "organizer": {
+          "name": "telos.haus events [public]",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "https://lu.ma/aci-d.club",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [
+          "https://instagram.com/aci_d.club",
+          "https://x.com/aci_dclub",
+          "https://aci-d.club"
+        ],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_telos_d269plpk",
+      "name": "aci-d club weekly hang",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2025-05-21T18:45:00-04:00",
+      "endDate": "2025-05-21T21:15:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/aci-d.club",
+        "organizer": {
+          "name": "telos.haus events [public]",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "https://lu.ma/aci-d.club",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [
+          "https://instagram.com/aci_d.club",
+          "https://x.com/aci_dclub",
+          "https://aci-d.club"
+        ],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_telos_d269plpk",
+      "name": "aci-d club weekly hang",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2025-05-28T18:45:00-04:00",
+      "endDate": "2025-05-28T21:15:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/aci-d.club",
+        "organizer": {
+          "name": "telos.haus events [public]",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "https://lu.ma/aci-d.club",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [
+          "https://instagram.com/aci_d.club",
+          "https://x.com/aci_dclub",
+          "https://aci-d.club"
+        ],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_telos_d269plpk",
+      "name": "aci-d club weekly hang",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2025-06-04T18:45:00-04:00",
+      "endDate": "2025-06-04T21:15:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/aci-d.club",
+        "organizer": {
+          "name": "telos.haus events [public]",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "https://lu.ma/aci-d.club",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [
+          "https://instagram.com/aci_d.club",
+          "https://x.com/aci_dclub",
+          "https://aci-d.club"
+        ],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_telos_3m2qg4ei",
+      "name": "AAVS Primordial Outcomes (telos.haus closed)",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2025-06-09T09:00:00-04:00",
+      "endDate": "2025-06-09T17:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.google.com/calendar/event?eid=M20ycWc0ZWk3bTZwaWpuazJzbjNvODkwZTIgZDU5NmMyYmY3MjExODNkMjJiYjUwYmRlNjYyNTA5MGZjMzkyM2FhMjlhNjkxOGQ3ODQwOWUxNjhkYTc5MTc2OUBn",
+        "organizer": {
+          "name": "telos.haus events",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "https://www.aaschool.ac.uk/academicprogrammes/visitingschool/primordial-outcomes?fbclid=PAZXh0bgNhZW0CMTEAAabLlHerDoBsECdnRCJu9vGzsUqE8MI08WEFX2rcy3rdZ7N9vyIz1hwSx7g_aem_ZdN7QCJhK-CuQVQ3t8KMIQ",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
+      "id": "evt_com_telos_7vo0l11d",
+      "name": "AAVS Primordial Outcomes",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2025-06-11T09:00:00-04:00",
+      "endDate": "2025-06-11T17:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.google.com/calendar/event?eid=N3ZvMGwxMWQzZTF1aDk2MWYzNzk5NnNnbjggZDU5NmMyYmY3MjExODNkMjJiYjUwYmRlNjYyNTA5MGZjMzkyM2FhMjlhNjkxOGQ3ODQwOWUxNjhkYTc5MTc2OUBn",
+        "organizer": {
+          "name": "telos.haus events",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "https://www.aaschool.ac.uk/academicprogrammes/visitingschool/primordial-outcomes?fbclid=PAZXh0bgNhZW0CMTEAAabLlHerDoBsECdnRCJu9vGzsUqE8MI08WEFX2rcy3rdZ7N9vyIz1hwSx7g_aem_ZdN7QCJhK-CuQVQ3t8KMIQ",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
+      "id": "evt_com_telos_d269plpk",
+      "name": "aci-d club weekly hang",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2025-06-11T18:45:00-04:00",
+      "endDate": "2025-06-11T21:15:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/aci-d.club",
+        "organizer": {
+          "name": "telos.haus events [public]",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "https://lu.ma/aci-d.club",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [
+          "https://instagram.com/aci_d.club",
+          "https://x.com/aci_dclub",
+          "https://aci-d.club"
+        ],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_telos_5iihgg5v",
+      "name": "AAVS Primordial Outcomes Guest Lecture",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2025-06-11T19:00:00-04:00",
+      "endDate": "2025-06-11T21:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.google.com/calendar/event?eid=NWlpaGdnNXZmaG8waDdsOHRoNzMybTFoOW0gZDU5NmMyYmY3MjExODNkMjJiYjUwYmRlNjYyNTA5MGZjMzkyM2FhMjlhNjkxOGQ3ODQwOWUxNjhkYTc5MTc2OUBn",
+        "organizer": {
+          "name": "telos.haus events",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
+      "id": "evt_com_telos_141hump8",
+      "name": "AAVS Primordial Outcomes",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2025-06-12T10:00:00-04:00",
+      "endDate": "2025-06-12T17:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.google.com/calendar/event?eid=MTQxaHVtcDhqMjZwcjJvZjFpZjJhMW5ldGogZDU5NmMyYmY3MjExODNkMjJiYjUwYmRlNjYyNTA5MGZjMzkyM2FhMjlhNjkxOGQ3ODQwOWUxNjhkYTc5MTc2OUBn",
+        "organizer": {
+          "name": "telos.haus events",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "https://www.aaschool.ac.uk/academicprogrammes/visitingschool/primordial-outcomes?fbclid=PAZXh0bgNhZW0CMTEAAabLlHerDoBsECdnRCJu9vGzsUqE8MI08WEFX2rcy3rdZ7N9vyIz1hwSx7g_aem_ZdN7QCJhK-CuQVQ3t8KMIQ",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
+      "id": "evt_com_telos_eppijd9r",
+      "name": "AAVS Primordial Outcomes",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2025-06-13T10:00:00-04:00",
+      "endDate": "2025-06-13T17:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.google.com/calendar/event?eid=ZXBwaWpkOXJkYzE1dWJjczRoN3B2ZTA0ZG8gZDU5NmMyYmY3MjExODNkMjJiYjUwYmRlNjYyNTA5MGZjMzkyM2FhMjlhNjkxOGQ3ODQwOWUxNjhkYTc5MTc2OUBn",
+        "organizer": {
+          "name": "telos.haus events",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "https://www.aaschool.ac.uk/academicprogrammes/visitingschool/primordial-outcomes?fbclid=PAZXh0bgNhZW0CMTEAAabLlHerDoBsECdnRCJu9vGzsUqE8MI08WEFX2rcy3rdZ7N9vyIz1hwSx7g_aem_ZdN7QCJhK-CuQVQ3t8KMIQ",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
+      "id": "evt_com_telos_6lqhgnc1",
+      "name": "AAVS Primordial Outcomes",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2025-06-14T09:00:00-04:00",
+      "endDate": "2025-06-14T17:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.google.com/calendar/event?eid=NmxxaGduYzFvbGh2YW9iYm51NWVrc2d2N3MgZDU5NmMyYmY3MjExODNkMjJiYjUwYmRlNjYyNTA5MGZjMzkyM2FhMjlhNjkxOGQ3ODQwOWUxNjhkYTc5MTc2OUBn",
+        "organizer": {
+          "name": "telos.haus events",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "https://www.aaschool.ac.uk/academicprogrammes/visitingschool/primordial-outcomes?fbclid=PAZXh0bgNhZW0CMTEAAabLlHerDoBsECdnRCJu9vGzsUqE8MI08WEFX2rcy3rdZ7N9vyIz1hwSx7g_aem_ZdN7QCJhK-CuQVQ3t8KMIQ",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
+      "id": "evt_com_telos_4fclng80",
+      "name": "AAVS Primordial Outcomes",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2025-06-16T09:00:00-04:00",
+      "endDate": "2025-06-16T17:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.google.com/calendar/event?eid=NGZjbG5nODAxaXIxbzI2bDBxMWo0cGc5YzUgZDU5NmMyYmY3MjExODNkMjJiYjUwYmRlNjYyNTA5MGZjMzkyM2FhMjlhNjkxOGQ3ODQwOWUxNjhkYTc5MTc2OUBn",
+        "organizer": {
+          "name": "telos.haus events",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "https://www.aaschool.ac.uk/academicprogrammes/visitingschool/primordial-outcomes?fbclid=PAZXh0bgNhZW0CMTEAAabLlHerDoBsECdnRCJu9vGzsUqE8MI08WEFX2rcy3rdZ7N9vyIz1hwSx7g_aem_ZdN7QCJhK-CuQVQ3t8KMIQ",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
+      "id": "evt_com_telos_20k3l4t6",
+      "name": "AAVS Primordial Outcomes Guest Lecture",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2025-06-16T19:00:00-04:00",
+      "endDate": "2025-06-16T21:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.google.com/calendar/event?eid=MjBrM2w0dDZyOHQ3OGFnbzBpa2k0cWpodmMgZDU5NmMyYmY3MjExODNkMjJiYjUwYmRlNjYyNTA5MGZjMzkyM2FhMjlhNjkxOGQ3ODQwOWUxNjhkYTc5MTc2OUBn",
+        "organizer": {
+          "name": "telos.haus events",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
+      "id": "evt_com_telos_4rmaelan",
+      "name": "AAVS Primordial Outcomes",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2025-06-17T10:00:00-04:00",
+      "endDate": "2025-06-17T17:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.google.com/calendar/event?eid=NHJtYWVsYW4zcWttYTdudG1sdG82ZnNxaXUgZDU5NmMyYmY3MjExODNkMjJiYjUwYmRlNjYyNTA5MGZjMzkyM2FhMjlhNjkxOGQ3ODQwOWUxNjhkYTc5MTc2OUBn",
+        "organizer": {
+          "name": "telos.haus events",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "https://www.aaschool.ac.uk/academicprogrammes/visitingschool/primordial-outcomes?fbclid=PAZXh0bgNhZW0CMTEAAabLlHerDoBsECdnRCJu9vGzsUqE8MI08WEFX2rcy3rdZ7N9vyIz1hwSx7g_aem_ZdN7QCJhK-CuQVQ3t8KMIQ",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
+      "id": "evt_com_telos_4gt5ce1s",
+      "name": "AAVS Primordial Outcomes",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2025-06-18T09:00:00-04:00",
+      "endDate": "2025-06-18T17:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.google.com/calendar/event?eid=NGd0NWNlMXN2MDNtZHU1NWM2dDNpajRtaTkgZDU5NmMyYmY3MjExODNkMjJiYjUwYmRlNjYyNTA5MGZjMzkyM2FhMjlhNjkxOGQ3ODQwOWUxNjhkYTc5MTc2OUBn",
+        "organizer": {
+          "name": "telos.haus events",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "https://www.aaschool.ac.uk/academicprogrammes/visitingschool/primordial-outcomes?fbclid=PAZXh0bgNhZW0CMTEAAabLlHerDoBsECdnRCJu9vGzsUqE8MI08WEFX2rcy3rdZ7N9vyIz1hwSx7g_aem_ZdN7QCJhK-CuQVQ3t8KMIQ",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
+      "id": "evt_com_telos_d269plpk",
+      "name": "aci-d club weekly hang",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2025-06-18T18:45:00-04:00",
+      "endDate": "2025-06-18T21:15:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/aci-d.club",
+        "organizer": {
+          "name": "telos.haus events [public]",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "https://lu.ma/aci-d.club",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [
+          "https://instagram.com/aci_d.club",
+          "https://x.com/aci_dclub",
+          "https://aci-d.club"
+        ],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_telos_50josdqc",
+      "name": "AAVS Primordial Outcomes",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2025-06-19T09:00:00-04:00",
+      "endDate": "2025-06-19T17:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.google.com/calendar/event?eid=NTBqb3NkcWMxa2JyZDViNWYwZjNwcTQyZTEgZDU5NmMyYmY3MjExODNkMjJiYjUwYmRlNjYyNTA5MGZjMzkyM2FhMjlhNjkxOGQ3ODQwOWUxNjhkYTc5MTc2OUBn",
+        "organizer": {
+          "name": "telos.haus events",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "https://www.aaschool.ac.uk/academicprogrammes/visitingschool/primordial-outcomes?fbclid=PAZXh0bgNhZW0CMTEAAabLlHerDoBsECdnRCJu9vGzsUqE8MI08WEFX2rcy3rdZ7N9vyIz1hwSx7g_aem_ZdN7QCJhK-CuQVQ3t8KMIQ",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
+      "id": "evt_com_telos_662mlsd7",
+      "name": "AAVS Primordial Outcomes",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2025-06-20T09:00:00-04:00",
+      "endDate": "2025-06-20T17:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.google.com/calendar/event?eid=NjYybWxzZDdjZzVuNnM5djdmNGdoaTg4czYgZDU5NmMyYmY3MjExODNkMjJiYjUwYmRlNjYyNTA5MGZjMzkyM2FhMjlhNjkxOGQ3ODQwOWUxNjhkYTc5MTc2OUBn",
+        "organizer": {
+          "name": "telos.haus events",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "https://www.aaschool.ac.uk/academicprogrammes/visitingschool/primordial-outcomes?fbclid=PAZXh0bgNhZW0CMTEAAabLlHerDoBsECdnRCJu9vGzsUqE8MI08WEFX2rcy3rdZ7N9vyIz1hwSx7g_aem_ZdN7QCJhK-CuQVQ3t8KMIQ",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
+      "id": "evt_com_telos_17405dgh",
+      "name": "AAVS Primordial Outcomes",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2025-06-21T09:00:00-04:00",
+      "endDate": "2025-06-21T17:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.google.com/calendar/event?eid=MTc0MDVkZ2g1aTJyaThoZHA2dnZub2thcmggZDU5NmMyYmY3MjExODNkMjJiYjUwYmRlNjYyNTA5MGZjMzkyM2FhMjlhNjkxOGQ3ODQwOWUxNjhkYTc5MTc2OUBn",
+        "organizer": {
+          "name": "telos.haus events",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "https://www.aaschool.ac.uk/academicprogrammes/visitingschool/primordial-outcomes?fbclid=PAZXh0bgNhZW0CMTEAAabLlHerDoBsECdnRCJu9vGzsUqE8MI08WEFX2rcy3rdZ7N9vyIz1hwSx7g_aem_ZdN7QCJhK-CuQVQ3t8KMIQ",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
+      "id": "evt_com_telos_d269plpk",
+      "name": "aci-d club weekly hang",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2025-06-25T18:45:00-04:00",
+      "endDate": "2025-06-25T21:15:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/aci-d.club",
+        "organizer": {
+          "name": "telos.haus events [public]",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "https://lu.ma/aci-d.club",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [
+          "https://instagram.com/aci_d.club",
+          "https://x.com/aci_dclub",
+          "https://aci-d.club"
+        ],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_telos_d269plpk",
+      "name": "aci-d club weekly hang",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2025-07-02T18:45:00-04:00",
+      "endDate": "2025-07-02T21:15:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/aci-d.club",
+        "organizer": {
+          "name": "telos.haus events [public]",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "https://lu.ma/aci-d.club",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [
+          "https://instagram.com/aci_d.club",
+          "https://x.com/aci_dclub",
+          "https://aci-d.club"
+        ],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_telos_d269plpk",
+      "name": "aci-d club weekly hang",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2025-07-09T18:45:00-04:00",
+      "endDate": "2025-07-09T21:15:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/aci-d.club",
+        "organizer": {
+          "name": "telos.haus events [public]",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "https://lu.ma/aci-d.club",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [
+          "https://instagram.com/aci_d.club",
+          "https://x.com/aci_dclub",
+          "https://aci-d.club"
+        ],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_telos_d269plpk",
+      "name": "aci-d club weekly hang",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2025-07-16T18:45:00-04:00",
+      "endDate": "2025-07-16T21:15:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/aci-d.club",
+        "organizer": {
+          "name": "telos.haus events [public]",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "https://lu.ma/aci-d.club",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [
+          "https://instagram.com/aci_d.club",
+          "https://x.com/aci_dclub",
+          "https://aci-d.club"
+        ],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_telos_d269plpk",
+      "name": "aci-d club weekly hang",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2025-07-23T18:45:00-04:00",
+      "endDate": "2025-07-23T21:15:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/aci-d.club",
+        "organizer": {
+          "name": "telos.haus events [public]",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "https://lu.ma/aci-d.club",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [
+          "https://instagram.com/aci_d.club",
+          "https://x.com/aci_dclub",
+          "https://aci-d.club"
+        ],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_telos_d269plpk",
+      "name": "aci-d club weekly hang",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2025-07-30T18:45:00-04:00",
+      "endDate": "2025-07-30T21:15:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/aci-d.club",
+        "organizer": {
+          "name": "telos.haus events [public]",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "https://lu.ma/aci-d.club",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [
+          "https://instagram.com/aci_d.club",
+          "https://x.com/aci_dclub",
+          "https://aci-d.club"
+        ],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_telos_d269plpk",
+      "name": "aci-d club weekly hang",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2025-08-06T18:45:00-04:00",
+      "endDate": "2025-08-06T21:15:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/aci-d.club",
+        "organizer": {
+          "name": "telos.haus events [public]",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "https://lu.ma/aci-d.club",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [
+          "https://instagram.com/aci_d.club",
+          "https://x.com/aci_dclub",
+          "https://aci-d.club"
+        ],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_telos_d269plpk",
+      "name": "aci-d club weekly hang",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2025-08-13T18:45:00-04:00",
+      "endDate": "2025-08-13T21:15:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/aci-d.club",
+        "organizer": {
+          "name": "telos.haus events [public]",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "https://lu.ma/aci-d.club",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [
+          "https://instagram.com/aci_d.club",
+          "https://x.com/aci_dclub",
+          "https://aci-d.club"
+        ],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_telos_d269plpk",
+      "name": "aci-d club weekly hang",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2025-08-20T18:45:00-04:00",
+      "endDate": "2025-08-20T21:15:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/aci-d.club",
+        "organizer": {
+          "name": "telos.haus events [public]",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "https://lu.ma/aci-d.club",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [
+          "https://instagram.com/aci_d.club",
+          "https://x.com/aci_dclub",
+          "https://aci-d.club"
+        ],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_telos_d269plpk",
+      "name": "aci-d club weekly hang",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2025-08-27T18:45:00-04:00",
+      "endDate": "2025-08-27T21:15:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/aci-d.club",
+        "organizer": {
+          "name": "telos.haus events [public]",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "https://lu.ma/aci-d.club",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [
+          "https://instagram.com/aci_d.club",
+          "https://x.com/aci_dclub",
+          "https://aci-d.club"
+        ],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_telos_d269plpk",
+      "name": "aci-d club weekly hang",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2025-09-03T18:45:00-04:00",
+      "endDate": "2025-09-03T21:15:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/aci-d.club",
+        "organizer": {
+          "name": "telos.haus events [public]",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "https://lu.ma/aci-d.club",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [
+          "https://instagram.com/aci_d.club",
+          "https://x.com/aci_dclub",
+          "https://aci-d.club"
+        ],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_telos_d269plpk",
+      "name": "aci-d club weekly hang",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2025-09-10T18:45:00-04:00",
+      "endDate": "2025-09-10T21:15:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/aci-d.club",
+        "organizer": {
+          "name": "telos.haus events [public]",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "https://lu.ma/aci-d.club",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [
+          "https://instagram.com/aci_d.club",
+          "https://x.com/aci_dclub",
+          "https://aci-d.club"
+        ],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_telos_d269plpk",
+      "name": "aci-d club weekly hang",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2025-09-17T18:45:00-04:00",
+      "endDate": "2025-09-17T21:15:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/aci-d.club",
+        "organizer": {
+          "name": "telos.haus events [public]",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "https://lu.ma/aci-d.club",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [
+          "https://instagram.com/aci_d.club",
+          "https://x.com/aci_dclub",
+          "https://aci-d.club"
+        ],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_telos_d269plpk",
+      "name": "aci-d club weekly hang",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2025-09-24T18:45:00-04:00",
+      "endDate": "2025-09-24T21:15:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/aci-d.club",
+        "organizer": {
+          "name": "telos.haus events [public]",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "https://lu.ma/aci-d.club",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [
+          "https://instagram.com/aci_d.club",
+          "https://x.com/aci_dclub",
+          "https://aci-d.club"
+        ],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_telos_d269plpk",
+      "name": "aci-d club weekly hang",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2025-10-01T18:45:00-04:00",
+      "endDate": "2025-10-01T21:15:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/aci-d.club",
+        "organizer": {
+          "name": "telos.haus events [public]",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "https://lu.ma/aci-d.club",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [
+          "https://instagram.com/aci_d.club",
+          "https://x.com/aci_dclub",
+          "https://aci-d.club"
+        ],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_telos_d269plpk",
+      "name": "aci-d club weekly hang",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2025-10-08T18:45:00-04:00",
+      "endDate": "2025-10-08T21:15:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/aci-d.club",
+        "organizer": {
+          "name": "telos.haus events [public]",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "https://lu.ma/aci-d.club",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [
+          "https://instagram.com/aci_d.club",
+          "https://x.com/aci_dclub",
+          "https://aci-d.club"
+        ],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_telos_d269plpk",
+      "name": "aci-d club weekly hang",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2025-10-15T18:45:00-04:00",
+      "endDate": "2025-10-15T21:15:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/aci-d.club",
+        "organizer": {
+          "name": "telos.haus events [public]",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "https://lu.ma/aci-d.club",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [
+          "https://instagram.com/aci_d.club",
+          "https://x.com/aci_dclub",
+          "https://aci-d.club"
+        ],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_telos_d269plpk",
+      "name": "aci-d club weekly hang",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2025-10-22T18:45:00-04:00",
+      "endDate": "2025-10-22T21:15:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/aci-d.club",
+        "organizer": {
+          "name": "telos.haus events [public]",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "https://lu.ma/aci-d.club",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [
+          "https://instagram.com/aci_d.club",
+          "https://x.com/aci_dclub",
+          "https://aci-d.club"
+        ],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_telos_d269plpk",
+      "name": "aci-d club weekly hang",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2025-10-29T18:45:00-04:00",
+      "endDate": "2025-10-29T21:15:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/aci-d.club",
+        "organizer": {
+          "name": "telos.haus events [public]",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "https://lu.ma/aci-d.club",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [
+          "https://instagram.com/aci_d.club",
+          "https://x.com/aci_dclub",
+          "https://aci-d.club"
+        ],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_telos_d269plpk",
+      "name": "aci-d club weekly hang",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2025-11-05T18:45:00-05:00",
+      "endDate": "2025-11-05T21:15:00-05:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/aci-d.club",
+        "organizer": {
+          "name": "telos.haus events [public]",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "https://lu.ma/aci-d.club",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [
+          "https://instagram.com/aci_d.club",
+          "https://x.com/aci_dclub",
+          "https://aci-d.club"
+        ],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_telos_d269plpk",
+      "name": "aci-d club weekly hang",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2025-11-12T18:45:00-05:00",
+      "endDate": "2025-11-12T21:15:00-05:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/aci-d.club",
+        "organizer": {
+          "name": "telos.haus events [public]",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "https://lu.ma/aci-d.club",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [
+          "https://instagram.com/aci_d.club",
+          "https://x.com/aci_dclub",
+          "https://aci-d.club"
+        ],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_telos_d269plpk",
+      "name": "aci-d club weekly hang",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2025-11-19T18:45:00-05:00",
+      "endDate": "2025-11-19T21:15:00-05:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/aci-d.club",
+        "organizer": {
+          "name": "telos.haus events [public]",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "https://lu.ma/aci-d.club",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [
+          "https://instagram.com/aci_d.club",
+          "https://x.com/aci_dclub",
+          "https://aci-d.club"
+        ],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_telos_d269plpk",
+      "name": "aci-d club weekly hang",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2025-11-26T18:45:00-05:00",
+      "endDate": "2025-11-26T21:15:00-05:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/aci-d.club",
+        "organizer": {
+          "name": "telos.haus events [public]",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "https://lu.ma/aci-d.club",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [
+          "https://instagram.com/aci_d.club",
+          "https://x.com/aci_dclub",
+          "https://aci-d.club"
+        ],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_telos_d269plpk",
+      "name": "aci-d club weekly hang",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2025-12-03T18:45:00-05:00",
+      "endDate": "2025-12-03T21:15:00-05:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/aci-d.club",
+        "organizer": {
+          "name": "telos.haus events [public]",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "https://lu.ma/aci-d.club",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [
+          "https://instagram.com/aci_d.club",
+          "https://x.com/aci_dclub",
+          "https://aci-d.club"
+        ],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_telos_d269plpk",
+      "name": "aci-d club weekly hang",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2025-12-10T18:45:00-05:00",
+      "endDate": "2025-12-10T21:15:00-05:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/aci-d.club",
+        "organizer": {
+          "name": "telos.haus events [public]",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "https://lu.ma/aci-d.club",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [
+          "https://instagram.com/aci_d.club",
+          "https://x.com/aci_dclub",
+          "https://aci-d.club"
+        ],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_telos_d269plpk",
+      "name": "aci-d club weekly hang",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2025-12-17T18:45:00-05:00",
+      "endDate": "2025-12-17T21:15:00-05:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/aci-d.club",
+        "organizer": {
+          "name": "telos.haus events [public]",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "https://lu.ma/aci-d.club",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [
+          "https://instagram.com/aci_d.club",
+          "https://x.com/aci_dclub",
+          "https://aci-d.club"
+        ],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_telos_d269plpk",
+      "name": "aci-d club weekly hang",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2025-12-24T18:45:00-05:00",
+      "endDate": "2025-12-24T21:15:00-05:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/aci-d.club",
+        "organizer": {
+          "name": "telos.haus events [public]",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "https://lu.ma/aci-d.club",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [
+          "https://instagram.com/aci_d.club",
+          "https://x.com/aci_dclub",
+          "https://aci-d.club"
+        ],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_telos_d269plpk",
+      "name": "aci-d club weekly hang",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2025-12-31T18:45:00-05:00",
+      "endDate": "2025-12-31T21:15:00-05:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/aci-d.club",
+        "organizer": {
+          "name": "telos.haus events [public]",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "https://lu.ma/aci-d.club",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [
+          "https://instagram.com/aci_d.club",
+          "https://x.com/aci_dclub",
+          "https://aci-d.club"
+        ],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_telos_d269plpk",
+      "name": "aci-d club weekly hang",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2026-01-07T18:45:00-05:00",
+      "endDate": "2026-01-07T21:15:00-05:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/aci-d.club",
+        "organizer": {
+          "name": "telos.haus events [public]",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "https://lu.ma/aci-d.club",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [
+          "https://instagram.com/aci_d.club",
+          "https://x.com/aci_dclub",
+          "https://aci-d.club"
+        ],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_telos_d269plpk",
+      "name": "aci-d club weekly hang",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2026-01-14T18:45:00-05:00",
+      "endDate": "2026-01-14T21:15:00-05:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/aci-d.club",
+        "organizer": {
+          "name": "telos.haus events [public]",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "https://lu.ma/aci-d.club",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [
+          "https://instagram.com/aci_d.club",
+          "https://x.com/aci_dclub",
+          "https://aci-d.club"
+        ],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_telos_d269plpk",
+      "name": "aci-d club weekly hang",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2026-01-21T18:45:00-05:00",
+      "endDate": "2026-01-21T21:15:00-05:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/aci-d.club",
+        "organizer": {
+          "name": "telos.haus events [public]",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "https://lu.ma/aci-d.club",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [
+          "https://instagram.com/aci_d.club",
+          "https://x.com/aci_dclub",
+          "https://aci-d.club"
+        ],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_telos_d269plpk",
+      "name": "aci-d club weekly hang",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2026-01-28T18:45:00-05:00",
+      "endDate": "2026-01-28T21:15:00-05:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/aci-d.club",
+        "organizer": {
+          "name": "telos.haus events [public]",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "https://lu.ma/aci-d.club",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [
+          "https://instagram.com/aci_d.club",
+          "https://x.com/aci_dclub",
+          "https://aci-d.club"
+        ],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_telos_d269plpk",
+      "name": "aci-d club weekly hang",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2026-02-04T18:45:00-05:00",
+      "endDate": "2026-02-04T21:15:00-05:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/aci-d.club",
+        "organizer": {
+          "name": "telos.haus events [public]",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "https://lu.ma/aci-d.club",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [
+          "https://instagram.com/aci_d.club",
+          "https://x.com/aci_dclub",
+          "https://aci-d.club"
+        ],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_telos_d269plpk",
+      "name": "aci-d club weekly hang",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2026-02-11T18:45:00-05:00",
+      "endDate": "2026-02-11T21:15:00-05:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/aci-d.club",
+        "organizer": {
+          "name": "telos.haus events [public]",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "https://lu.ma/aci-d.club",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [
+          "https://instagram.com/aci_d.club",
+          "https://x.com/aci_dclub",
+          "https://aci-d.club"
+        ],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_telos_d269plpk",
+      "name": "aci-d club weekly hang",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2026-02-18T18:45:00-05:00",
+      "endDate": "2026-02-18T21:15:00-05:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/aci-d.club",
+        "organizer": {
+          "name": "telos.haus events [public]",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "https://lu.ma/aci-d.club",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [
+          "https://instagram.com/aci_d.club",
+          "https://x.com/aci_dclub",
+          "https://aci-d.club"
+        ],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_telos_d269plpk",
+      "name": "aci-d club weekly hang",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2026-02-25T18:45:00-05:00",
+      "endDate": "2026-02-25T21:15:00-05:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/aci-d.club",
+        "organizer": {
+          "name": "telos.haus events [public]",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "https://lu.ma/aci-d.club",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [
+          "https://instagram.com/aci_d.club",
+          "https://x.com/aci_dclub",
+          "https://aci-d.club"
+        ],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_telos_d269plpk",
+      "name": "aci-d club weekly hang",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2026-03-04T18:45:00-05:00",
+      "endDate": "2026-03-04T21:15:00-05:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/aci-d.club",
+        "organizer": {
+          "name": "telos.haus events [public]",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "https://lu.ma/aci-d.club",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [
+          "https://instagram.com/aci_d.club",
+          "https://x.com/aci_dclub",
+          "https://aci-d.club"
+        ],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_telos_d269plpk",
+      "name": "aci-d club weekly hang",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2026-03-11T18:45:00-04:00",
+      "endDate": "2026-03-11T21:15:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/aci-d.club",
+        "organizer": {
+          "name": "telos.haus events [public]",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "https://lu.ma/aci-d.club",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [
+          "https://instagram.com/aci_d.club",
+          "https://x.com/aci_dclub",
+          "https://aci-d.club"
+        ],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_telos_d269plpk",
+      "name": "aci-d club weekly hang",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2026-03-18T18:45:00-04:00",
+      "endDate": "2026-03-18T21:15:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/aci-d.club",
+        "organizer": {
+          "name": "telos.haus events [public]",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "https://lu.ma/aci-d.club",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [
+          "https://instagram.com/aci_d.club",
+          "https://x.com/aci_dclub",
+          "https://aci-d.club"
+        ],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_telos_d269plpk",
+      "name": "aci-d club weekly hang",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2026-03-25T18:45:00-04:00",
+      "endDate": "2026-03-25T21:15:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/aci-d.club",
+        "organizer": {
+          "name": "telos.haus events [public]",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "https://lu.ma/aci-d.club",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [
+          "https://instagram.com/aci_d.club",
+          "https://x.com/aci_dclub",
+          "https://aci-d.club"
+        ],
+        "featured": false,
+        "luma_source": true
+      }
+    }
+  ]
+}

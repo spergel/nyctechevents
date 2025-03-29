@@ -1,0 +1,340 @@
+{
+  "events": [
+    {
+      "id": "evt_com_south_park_commons__clr78bb",
+      "name": "AI Founders Dinner with Emergence, South Park Commons, Together AI, & Rho: Staying ahead of the evolving stack for generative",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_south_park_commons",
+      "description": "\u200b\u200bSPC, Emergence & Rho are excited to invite you to an intimate dinner with fellow founders and builders to explore practical lessons for staying ahead of the evolving stack for generative AI systems.Joining the conversation is industry leadersJamie de Guerre, SVP of Product & Founding Team at Together AI, formerly Director of Product Management at Airbnb.\u200bThis will be a dinner at a private residence in Potrero Hill  prepared by a private.\u200b\u200b\u200bMore about the hosts:Emergence Capitalis an SF-based venture firm actively investing out of their 7th fund, a $1B fund dedicated towards investing in early-stage B2B software and AI companies. The firm has been around for 20 years, and has partnered with the likes of B2B icons like Salesforce, Zoom, Veeva, Box, Gusto,Bill.com, Doximity and others, as well as an emerging breed of AI-native companies like Together AI,Bolt.new, Bland, Unify and more.\u200b\u200bSPCis\u00a0ahome for the most talented technologistsfiguring out what's next \u2014 a community designed to turn the chaos of possibility into the clarity of conviction.\u200b\u200bMore about the sponsoring partner:From two-people startups to public companies, \u200b\u200b\u200bRhois the banking platform with everything businesses needto manage cash, control spend, and automate finance busywork. Rho offers corporate cards, banking, treasury, expense management, AP, accounting automation, and more in one integrated platform.\u200b\u200b*Note that this event is limited in capacity, is highly curated, and invite-only, so please let us know if you can no longer make it.",
+      "startDate": "2025-04-04T01:30:00Z",
+      "endDate": "2025-04-04T04:00:00Z",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "luma-event-f8cd54ca.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/9n7wvoix",
+        "organizer": {
+          "name": "South Park Commons",
+          "instagram": "",
+          "email": "bfptu3ajdae5cc2k16cvs1amenbft762@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "Please register to see the exact location of this event.\nSan Francisco, California",
+          "type": "Online"
+        },
+        "speakers": [
+          {
+            "name": "South Park Commons",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Dylan Itzikowitz",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Yaz El-Baba",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Natalie Riso",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Tarlon Khoubyari",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Jason Grohowski",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "South Park Commons",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Dylan Itzikowitz",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Yaz El-Baba",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Natalie Riso",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Tarlon Khoubyari",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Jason Grohowski",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "social_links": [
+          "https://instagram.com/southparkcommons",
+          "https://x.com/southpkcommons",
+          "https://youtube.com/@southparkcommons",
+          "https://linkedin.com/company/southparkcommons",
+          "https://www.southparkcommons.com/",
+          "https://instagram.com/southparkcommons",
+          "https://x.com/southpkcommons",
+          "https://x.com/ditzikow",
+          "https://x.com/tarlonkhoubyari",
+          "https://x.com/JasonGrohowski",
+          "https://instagram.com/southparkcommons",
+          "https://x.com/southpkcommons",
+          "https://youtube.com/@southparkcommons",
+          "https://linkedin.com/company/southparkcommons",
+          "https://www.southparkcommons.com/",
+          "https://instagram.com/southparkcommons",
+          "https://x.com/southpkcommons",
+          "https://x.com/ditzikow",
+          "https://x.com/tarlonkhoubyari",
+          "https://x.com/JasonGrohowski"
+        ],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_south_park_commons__clr78ba",
+      "name": "Fun (SPC Demo Night)",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_south_park_commons",
+      "description": "\u200bThis time around, it's all about the fun stuff.\u200bSwing by to see some joyful and creative AI-native experiences from:\u200bFai Nur(Status)\u200bSuraya Shivji(SPC)\u200bCharlesand Rohit (Frisson Labs)\u200bEliza Wu(Corner)\u200bZain Shah(SPC)\u200bAntonand Oleg (Corca)\u200bSam Haveson(Samara)\u200bAvneesh Sarwate\u200bRohith Varanasi(Block Party)",
+      "startDate": "2025-04-10T22:00:00Z",
+      "endDate": "2025-04-11T00:30:00Z",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "luma-event-9dd5ac88.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/qh5zbpg9",
+        "organizer": {
+          "name": "South Park Commons",
+          "instagram": "",
+          "email": "bfptu3ajdae5cc2k16cvs1amenbft762@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "36 Cooper Sq floor 6New York, NY 10003, USA\nNew York, NY 10003, USA",
+          "type": "Offline"
+        },
+        "speakers": [
+          {
+            "name": "South Park Commons",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Gopal Raman",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "South Park Commons",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Gopal Raman",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "social_links": [
+          "https://instagram.com/southparkcommons",
+          "https://x.com/southpkcommons",
+          "https://youtube.com/@southparkcommons",
+          "https://linkedin.com/company/southparkcommons",
+          "https://www.southparkcommons.com/",
+          "https://instagram.com/southparkcommons",
+          "https://x.com/southpkcommons",
+          "https://x.com/GopalKRaman",
+          "https://instagram.com/southparkcommons",
+          "https://x.com/southpkcommons",
+          "https://youtube.com/@southparkcommons",
+          "https://linkedin.com/company/southparkcommons",
+          "https://www.southparkcommons.com/",
+          "https://instagram.com/southparkcommons",
+          "https://x.com/southpkcommons",
+          "https://x.com/GopalKRaman"
+        ],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_south_park_commons__clr78ba",
+      "name": "SPC x Anthropic Hackathon Demo Night",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_south_park_commons",
+      "description": "\u200bStop by SPC to see the final projects produced during the SPC + Anthropic Hackathon! This event is open to the public. Please register so that we have an accurate headcount as space will be limited.If you're interested in hacking please register here.Agenda:\u200b\u200bScience fair style demos from 4-5:30pm\u200b\u200bFinalist demos and prize-giving from 5:30-7pm\u200bPrizes awarded for Best Overall, Most Interesting Interface, Best Agent for Developers and Audience Choice. Judging will be done by a panel of SPC team members, Anthropic leadership, and guest experts.",
+      "startDate": "2025-04-13T23:00:00Z",
+      "endDate": "2025-04-14T02:00:00Z",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "luma-event-bc539cc0.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/spc-anthropic-demos",
+        "organizer": {
+          "name": "South Park Commons",
+          "instagram": "",
+          "email": "bfptu3ajdae5cc2k16cvs1amenbft762@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "Please register to see the exact location of this event.\nSan Francisco, California",
+          "type": "Online"
+        },
+        "speakers": [
+          {
+            "name": "South Park Commons",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "South Park Commons",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "social_links": [
+          "https://instagram.com/southparkcommons",
+          "https://x.com/southpkcommons",
+          "https://youtube.com/@southparkcommons",
+          "https://linkedin.com/company/southparkcommons",
+          "https://www.southparkcommons.com/",
+          "https://instagram.com/southparkcommons",
+          "https://x.com/southpkcommons",
+          "https://instagram.com/southparkcommons",
+          "https://x.com/southpkcommons",
+          "https://youtube.com/@southparkcommons",
+          "https://linkedin.com/company/southparkcommons",
+          "https://www.southparkcommons.com/",
+          "https://instagram.com/southparkcommons",
+          "https://x.com/southpkcommons"
+        ],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_south_park_commons__clr78bb",
+      "name": "Mike Krieger and the Future of AI Product",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_south_park_commons",
+      "description": "\u200bJoin SPC for an off the record conversation with Mike Krieger, Chief Product Officer at Anthropic. This is the final event of the SPC x Anthropic Hackathon. All approved hackers who complete a project are guaranteed admission to the fireside chat- registerhereto hack.\u200b\u200b\u200b\u200b\u200bEvent Details\u200b\u200b\u200b\u200b\u200b\u200b\u200b3:00pm:Doors open\u200b3:30-4:30pm:Fireside Chat with Mike Krieger\u200bPriority is given to SPC members, alumni andhackathon participants.\u200bMike Krieger,CPOMike Krieger is the Chief Product Officer at Anthropic, joining the executive team in May 2024. Mike co-founded Instagram and served as its CTO. At Instagram, he focused on building a broad range of products to help people connect with their interests and share their passions. As CTO, Mike grew the engineering organization to more than 450 employees across Instagram's offices in Menlo Park, San Francisco, and New York. Mike is a native of S\u00e3o Paulo, Brazil, Mike speaks fluent Portuguese. He holds an MS in Symbolic Systems from Stanford University and currently resides in San Francisco.\u200b\u200bSouth Park Commons is a home for the most talented technologists, builders, and domain-experts figuring out what's next\u2014a community designed to turn the chaos of possibility into the clarity of conviction. Learn morehere.",
+      "startDate": "2025-04-15T22:00:00Z",
+      "endDate": "2025-04-16T00:00:00Z",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "luma-event-0c84a215.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/mike-krieger-spc",
+        "organizer": {
+          "name": "South Park Commons",
+          "instagram": "",
+          "email": "bfptu3ajdae5cc2k16cvs1amenbft762@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "Please register to see the exact location of this event.\nSan Francisco, California",
+          "type": "Online"
+        },
+        "speakers": [
+          {
+            "name": "South Park Commons",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "South Park Commons",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "social_links": [
+          "https://instagram.com/southparkcommons",
+          "https://x.com/southpkcommons",
+          "https://youtube.com/@southparkcommons",
+          "https://linkedin.com/company/southparkcommons",
+          "https://www.southparkcommons.com/",
+          "https://instagram.com/southparkcommons",
+          "https://x.com/southpkcommons",
+          "https://instagram.com/southparkcommons",
+          "https://x.com/southpkcommons",
+          "https://youtube.com/@southparkcommons",
+          "https://linkedin.com/company/southparkcommons",
+          "https://www.southparkcommons.com/",
+          "https://instagram.com/southparkcommons",
+          "https://x.com/southpkcommons"
+        ],
+        "featured": false,
+        "luma_source": true
+      }
+    }
+  ]
+}

@@ -45,6 +45,7 @@ jobs:
           mkdir -p scraper/tech/data
           mkdir -p scraper/tech/tweets
           mkdir -p tech/tweets  # Create old directory for backward compatibility
+          mkdir -p public/tweets  # Create public tweets directory
           
           # Check if we have the right dependencies
           echo "Checking installed packages:"
@@ -58,14 +59,20 @@ jobs:
           echo "Listing data files:"
           find scraper/ -name "*.json" | xargs ls -la
           
+          # Copy combined events to public directory
+          echo "Copying combined events to public directory..."
+          mkdir -p public/data
+          cp scraper/data/combined_events.json public/data/events.json
+          
           # Generate tweets
           echo "Generating tweets"
           python -m scraper.tech.tweet_generator
           
-          # Copy tweet files to the old location for backward compatibility
-          echo "Copying tweet files to old location for backward compatibility"
+          # Copy tweet files to all needed locations
+          echo "Copying tweet files to required locations"
           if [ -d "scraper/tech/tweets" ] && [ "$(ls -A scraper/tech/tweets)" ]; then
-            cp -r scraper/tech/tweets/* tech/tweets/
+            cp -r scraper/tech/tweets/* tech/tweets/ || true
+            cp -r scraper/tech/tweets/* public/tweets/ || true
           fi
         env:
           GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
@@ -81,6 +88,7 @@ jobs:
           echo "Adding data files..."
           git add scraper/data/*.json || true
           git add scraper/tech/data/*.json || true
+          git add public/data/events.json || true
           
           # Specifically add cache files with force if they exist
           if ls scraper/tech/data/cache/*.json 1> /dev/null 2>&1; then
@@ -100,6 +108,12 @@ jobs:
           if ls tech/tweets/*.html 1> /dev/null 2>&1; then
             echo "Adding old location tweet files..."
             git add tech/tweets/*.html || true
+          fi
+          
+          # Add public tweets files if they exist
+          if ls public/tweets/*.html 1> /dev/null 2>&1; then
+            echo "Adding public tweet files..."
+            git add public/tweets/*.html || true
           fi
           
           # Check if we have changes to commit

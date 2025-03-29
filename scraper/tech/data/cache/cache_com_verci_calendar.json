@@ -1,0 +1,348 @@
+{
+  "events": [
+    {
+      "id": "evt_com_verci__clr78bb",
+      "name": "Little Cubicle Concert",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_verci",
+      "description": "\u200bGet ready for theLittle Cubicle Concert, brought to you byStudio Jams x Songwriting Workshop!\u200bLittle Cubicle Concertis inspired by the beloved Tiny Desk concerts, putting a fresh spin with an acoustic vibe that creates the perfect atmosphere.\u200bJoin us for an afternoon filled with live music from our exciting lineup of talented artists:ArcieandTaylorPhil FlanaganjewelofdenialAshlynn Maliabreakbreadband",
+      "startDate": "2025-03-29T18:00:00Z",
+      "endDate": "2025-03-29T21:00:00Z",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "luma-event-371a4a56.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/rpc23eir",
+        "organizer": {
+          "name": "Verci Events",
+          "instagram": "",
+          "email": "pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "Please register to see the exact location of this event.\nNew York, New York",
+          "type": "Online"
+        },
+        "speakers": [
+          {
+            "name": "Josh",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Kathleen Shao",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Sofia Bianchi",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Josh",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Kathleen Shao",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Sofia Bianchi",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "social_links": [
+          "https://instagram.com/josh.choi99",
+          "https://x.com/jclvsh",
+          "https://instagram.com/josh.choi99",
+          "https://x.com/jclvsh"
+        ],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_verci__cdgmopb",
+      "name": "verci art night - collage",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_verci",
+      "description": "Find more information on https://lu.ma/verci",
+      "startDate": "2025-04-06T23:00:00Z",
+      "endDate": "2025-04-07T02:00:00Z",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/verci",
+        "organizer": {
+          "name": "Verci Events",
+          "instagram": "",
+          "email": "pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "https://partiful.com/e/GXM7TxV6GnZmCqOSEt1H",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [
+          "https://instagram.com/vercinyc",
+          "https://x.com/vercinyc",
+          "https://tiktok.com/@vercinyc"
+        ],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_verci__clr78b9",
+      "name": "Verci Catskills Retreat: Pt IV",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_verci",
+      "description": "\u200bMORE INFO HEREWe're running our next retreat in the Catskills from April 11th-13th.\u200bDinner for the whole retreat will be made on-site by the founder and chef ofUdo Culinary(check them out on IG!).\u200bsign up / commit by grabbing a ticket on this luma page. once approved, you'll be 100% good to go to attend - if you don't get approved for capacity reasons, you will not be charged.",
+      "startDate": "2025-04-11T20:00:00Z",
+      "endDate": "2025-04-14T02:00:00Z",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "luma-event-c93bfffe.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/f4v86x68",
+        "organizer": {
+          "name": "Verci Events",
+          "instagram": "",
+          "email": "pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "Catskill MountainsShandaken, NY 12464, USA\nShandaken, NY 12464, USA",
+          "type": "Offline"
+        },
+        "speakers": [
+          {
+            "name": "Verci",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Verci",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "social_links": [
+          "https://instagram.com/vercinyc",
+          "https://x.com/vercinyc",
+          "https://tiktok.com/@vercinyc",
+          "https://instagram.com/vercinyc",
+          "https://x.com/vercinyc",
+          "https://tiktok.com/@vercinyc"
+        ],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_verci__cdgmopb",
+      "name": "Sharing the Lens",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_verci",
+      "description": "Find more information on https://lu.ma/verci",
+      "startDate": "2025-04-11T23:00:00Z",
+      "endDate": "2025-04-12T02:00:00Z",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/verci",
+        "organizer": {
+          "name": "Verci Events",
+          "instagram": "",
+          "email": "pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "https://partiful.com/e/HKIOtHxysKLAg70e6qd6",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [
+          "https://instagram.com/vercinyc",
+          "https://x.com/vercinyc",
+          "https://tiktok.com/@vercinyc"
+        ],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_verci__clr78b9",
+      "name": "Verci House @ Camp Film Fest",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_verci",
+      "description": "\u200bMORE INFOHERE\u200bWe're hosting a house atCamp Film FestbyCreator CampandPatreonfrom April 25th until April 27th.\u200bThe house is FREE thanks to the generosity from the Creator Camp team.\u200bYou can purchase a ticketHERE.\u200bThis house will be application based. Once accepted, we're asking for a small deposit to confirm your spot (just to decrease last minute cancellations/flaking). The deposit will be returned at the end of the trip unless you forgo your spot after the commitment date.\u200bDeposits & Commitments end on March 28th.",
+      "startDate": "2025-04-25T16:00:00Z",
+      "endDate": "2025-04-27T23:00:00Z",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "luma-event-1dc4cb62.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/lhj3csxv",
+        "organizer": {
+          "name": "Verci Events",
+          "instagram": "",
+          "email": "pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "AustinTX, USA\nTX, USA",
+          "type": "Offline"
+        },
+        "speakers": [
+          {
+            "name": "Verci",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Verci",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "social_links": [
+          "https://instagram.com/vercinyc",
+          "https://x.com/vercinyc",
+          "https://tiktok.com/@vercinyc",
+          "https://instagram.com/vercinyc",
+          "https://x.com/vercinyc",
+          "https://tiktok.com/@vercinyc"
+        ],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_verci__clr78b9",
+      "name": "Verci Japan",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_verci",
+      "description": "\u200bMORE INFO HERE\u200bWe're running our next retreat in Japan from May 23rd until May 26th, with an optional week after until the 1st of June.\u200bDeposits do NOT reflect the full price - the full price of part one of the retreat is $1,450. We'll be collecting the rest of payment at the end of March! Deposits just hold your spot for the retreat.\u200bDeposits & Commitments end on March 25th.\u200bSign up and commit a deposit by grabbing a ticket on this luma page. Once approved, you'll be 100% good to go to attend - if you don't get approved for capacity reasons, you will not be charged.",
+      "startDate": "2025-05-22T16:00:00Z",
+      "endDate": "2025-06-01T22:00:00Z",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "luma-event-01bdc901.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/08yso6qr",
+        "organizer": {
+          "name": "Verci Events",
+          "instagram": "",
+          "email": "pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "JapanJapan\nJapan",
+          "type": "Offline"
+        },
+        "speakers": [
+          {
+            "name": "Verci",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Verci",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "social_links": [
+          "https://instagram.com/vercinyc",
+          "https://x.com/vercinyc",
+          "https://tiktok.com/@vercinyc",
+          "https://instagram.com/vercinyc",
+          "https://x.com/vercinyc",
+          "https://tiktok.com/@vercinyc"
+        ],
+        "featured": false,
+        "luma_source": true
+      }
+    }
+  ]
+}

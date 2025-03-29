@@ -7,26 +7,35 @@ export default async function handler(
   res: NextApiResponse
 ) {
   try {
-    // Find the latest tweets HTML file
-    const tweetsDir = path.join(process.cwd(), 'scraper', 'tech', 'tweets');
-    console.log('Looking for tweets in:', tweetsDir);
+    // Check multiple possible locations for tweets HTML files
+    const tweetsDirs = [
+      path.join(process.cwd(), 'public', 'tweets'),
+      path.join(process.cwd(), 'scraper', 'tech', 'tweets'),
+      path.join(process.cwd(), 'tech', 'tweets')
+    ];
     
-    // Make sure the directory exists
-    if (!fs.existsSync(tweetsDir)) {
-      console.log('Tweets directory not found:', tweetsDir);
-      return res.status(404).json({ error: 'Tweets directory not found' });
+    let htmlFiles: string[] = [];
+    
+    for (const tweetsDir of tweetsDirs) {
+      console.log('Looking for tweets in:', tweetsDir);
+      
+      // Check if directory exists
+      if (fs.existsSync(tweetsDir)) {
+        const files = fs.readdirSync(tweetsDir)
+          .filter(file => file.startsWith('tweets_') && file.endsWith('.html'))
+          .map(file => path.join(tweetsDir, file));
+        
+        htmlFiles = [...htmlFiles, ...files];
+        console.log(`Found ${files.length} HTML files in ${tweetsDir}`);
+      } else {
+        console.log('Directory not found:', tweetsDir);
+      }
     }
     
-    // Get all HTML files in the tweets directory
-    const allFiles = fs.readdirSync(tweetsDir);
-    const htmlFiles = allFiles
-      .filter(file => file.startsWith('tweets_') && file.endsWith('.html'))
-      .map(file => path.join(tweetsDir, file));
-    
-    console.log('Found HTML files:', htmlFiles);
+    console.log('Found total HTML files:', htmlFiles.length);
     
     if (htmlFiles.length === 0) {
-      console.log('No HTML files found in directory:', tweetsDir);
+      console.log('No HTML files found in any directory');
       return res.status(404).json({ error: 'No tweet files found' });
     }
     

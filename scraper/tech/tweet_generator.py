@@ -8,7 +8,7 @@ import pytz
 # Setup paths
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(SCRIPT_DIR, 'data')
-TWEETS_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(SCRIPT_DIR))), 'tech', 'tweets')
+TWEETS_DIR = os.path.join(SCRIPT_DIR, 'tweets')
 
 # Configure logging
 logging.basicConfig(
@@ -16,10 +16,12 @@ logging.basicConfig(
     format='%(asctime)s - %(levelname)s - %(message)s'
 )
 
-def load_events(events_file='events.json'):
+def load_events(events_file='combined_events.json'):
     """Load events from the events file."""
     try:
-        with open(os.path.join(DATA_DIR, events_file), 'r', encoding='utf-8') as f:
+        # Look in the parent scraper/data directory for combined_events.json
+        parent_data_dir = os.path.join(os.path.dirname(SCRIPT_DIR), 'data')
+        with open(os.path.join(parent_data_dir, events_file), 'r', encoding='utf-8') as f:
             data = json.load(f)
             return data.get('events', [])
     except Exception as e:
