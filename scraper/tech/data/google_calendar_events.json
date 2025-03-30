@@ -836,7 +836,7 @@
     },
     {
       "id": "evt_com_telos_46pqc50d",
-      "name": "REM Film Club",
+      "name": "[Canceled] REM Film Club",
       "type": "Tech",
       "locationId": "",
       "communityId": "com_telos",
@@ -884,8 +884,8 @@
       "locationId": "",
       "communityId": "com_telos",
       "description": "",
-      "startDate": "2026-03-25T18:45:00-04:00",
-      "endDate": "2026-03-25T21:15:00-04:00",
+      "startDate": "2025-06-04T18:45:00-04:00",
+      "endDate": "2025-06-04T21:15:00-04:00",
       "category": [
         "Tech"
       ],
@@ -3353,83 +3353,6 @@
       }
     },
     {
-      "id": "evt_com_verci__clr78bb",
-      "name": "Little Cubicle Concert",
-      "type": "Tech",
-      "locationId": "",
-      "communityId": "com_verci",
-      "description": "​Get ready for theLittle Cubicle Concert, brought to you byStudio Jams x Songwriting Workshop!​Little Cubicle Concertis inspired by the beloved Tiny Desk concerts, putting a fresh spin with an acoustic vibe that creates the perfect atmosphere.​Join us for an afternoon filled with live music from our exciting lineup of talented artists:ArcieandTaylorPhil FlanaganjewelofdenialAshlynn Maliabreakbreadband",
-      "startDate": "2025-03-29T18:00:00Z",
-      "endDate": "2025-03-29T21:00:00Z",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": "",
-      "image": "luma-event-371a4a56.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://lu.ma/rpc23eir",
-        "organizer": {
-          "name": "Verci Events",
-          "instagram": "",
-          "email": "pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "Please register to see the exact location of this event.\nNew York, New York",
-          "type": "Online"
-        },
-        "speakers": [
-          {
-            "name": "Josh",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Kathleen Shao",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Sofia Bianchi",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Josh",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Kathleen Shao",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Sofia Bianchi",
-            "title": "",
-            "bio": ""
-          }
-        ],
-        "social_links": [
-          "https://instagram.com/josh.choi99",
-          "https://x.com/jclvsh",
-          "https://instagram.com/josh.choi99",
-          "https://x.com/jclvsh"
-        ],
-        "featured": false,
-        "luma_source": true
-      }
-    },
-    {
       "id": "evt_com_verci__cdgmopb",
       "name": "Sharing the Lens",
       "type": "Tech",
@@ -3596,7 +3519,7 @@
       "type": "Tech",
       "locationId": "loc_fractal",
       "communityId": "com_sidequest",
-      "description": "Get up-to-date information at: https://lu.ma/c9bexs8f\n\nAddress:\nFractal Tech\nKings County, New York\nUnited States\n\nHosted by Suraj Kumar, Jake Zegil & Chandiran",
+      "description": "​​Have the knack to design your own mechanical products and 3D print them? Unsure where to start? Fear not.​​HI! I'mSuraj Kumarand I can teach you how to become a maker in three days. I was the CTO of Sherpy, a drone startup that manufactured small, long-range airplanes for commercial delivery (sherpymedia.com). I now founded a neurotech startup (Cerelog.com).There are a lot of visionaries and hackers around in New York City, but materializing an idea can be quite the wall to climb! What are the real-world constraints to pay attention to when designing something? Where's the space where you can build things fast and get great advice?!​This is a small-group, high attention workshop, targeting 10-15 creative people who have the itch to create things.Light on theory, heavy on practice!​WHAT YOU'LL DO​Get familiar with Fusion360!​​​Design your own custom spray bottle using Fusion360. Use it for cleaning around your house/pranking your dog!​​​We provide the nozzle and tube—you design the rest!​​​3D print your creation on the high performance Bambu X1 Carbon printer​​​DETAILS​​​Five-day workshop (~3 hrs per session)​Mon, Tue, Wed, Thurs, Fri​​​Professional guidance from an experienced engineer​​​Learn to navigate Fusion360 and think like a designer​​​REGISTRATION​​$250 / person for the 5 days​​​Limited spots available​​​Reserve your seat today!​Your Host:​​​Suraj Kumar, Mechanical Engineer with years of Fusion360 experience​​​*thank you tofractal techfor hosting us!*Contact at surajratnam99@gmail.com",
       "startDate": "2025-04-07T22:00:00Z",
       "endDate": "2025-04-08T01:00:00Z",
       "category": [
@@ -3611,7 +3534,7 @@
       "capacity": null,
       "registrationRequired": false,
       "tags": "",
-      "image": "",
+      "image": "luma-event-7c08522b.jpg",
       "status": "upcoming",
       "metadata": {
         "source_url": "https://lu.ma/c9bexs8f",
@@ -3625,8 +3548,54 @@
           "address": "111 Conselyea St, Brooklyn, NY 11211",
           "type": "Offline"
         },
-        "speakers": [],
-        "social_links": [],
+        "speakers": [
+          {
+            "name": "Suraj Kumar",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Jake Zegil",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Chandiran",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Suraj Kumar",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Jake Zegil",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Chandiran",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "social_links": [
+          "https://instagram.com/fractaltechnyc",
+          "https://x.com/fractaltechnyc",
+          "https://fractaltechhub.com",
+          "https://instagram.com/surajimop",
+          "https://x.com/surkumference",
+          "https://x.com/JakeZegil",
+          "https://x.com/patxnoir",
+          "https://instagram.com/fractaltechnyc",
+          "https://x.com/fractaltechnyc",
+          "https://fractaltechhub.com",
+          "https://instagram.com/surajimop",
+          "https://x.com/surkumference",
+          "https://x.com/JakeZegil",
+          "https://x.com/patxnoir"
+        ],
         "featured": false,
         "luma_source": true
       }

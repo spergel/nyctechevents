@@ -1,63 +1,6 @@
 {
   "events": [
     {
-      "id": "evt_com_max_ny_5ff66076",
-      "name": "Maximum New York Office Hours",
-      "type": "Tech",
-      "locationId": "loc_tbd",
-      "communityId": "com_max_ny",
-      "description": "​Want to talk toDaniel(founder ofMaximum New York) about anything? Want to learn more about government at the city, state, or federal level? Want to know what you can do for a more abundant future? Grab a coffee and come to office hours!",
-      "startDate": "2025-03-29T11:30:00-04:00",
-      "endDate": "2025-03-29T14:00:00-04:00",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": 100,
-      "registrationRequired": true,
-      "tags": [],
-      "image": "luma-event-33d136c0.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://lu.ma/9iobb69e",
-        "speakers": [
-          {
-            "name": "Daniel Golliher",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Daniel Golliher",
-            "title": "",
-            "bio": ""
-          }
-        ],
-        "venue": {
-          "name": "111 Conselyea StBrooklyn, NY 11211, USA",
-          "address": "Brooklyn, NY 11211, USA",
-          "type": "Offline",
-          "room": "",
-          "additional_info": ""
-        },
-        "featured": false,
-        "social_links": [
-          "https://x.com/danielgolliher",
-          "https://linkedin.com/in/maximumnewyork",
-          "https://maximumnewyork.com",
-          "https://x.com/danielgolliher",
-          "https://x.com/danielgolliher",
-          "https://linkedin.com/in/maximumnewyork",
-          "https://maximumnewyork.com",
-          "https://x.com/danielgolliher"
-        ]
-      }
-    },
-    {
       "id": "evt_com_max_ny_146cbb7b",
       "name": "Maximum New York April Party & Abundance Politics Accelerator",
       "type": "Tech",

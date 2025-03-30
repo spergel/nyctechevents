@@ -1,42 +1,6 @@
 {
   "events": [
     {
-      "id": "evt_pioneer_9eb4de28",
-      "name": "Black Eyes, Dreamcrusher",
-      "type": "Cultural Event",
-      "locationId": "loc_pioneer_works",
-      "communityId": "com_pioneer_works",
-      "description": "Pioneer Works is excited to welcome back DC post-punk luminaries Black Eyes with an opening performance from NYC noise artist Dreamcrusher.Black EyesFol...",
-      "startDate": "2025-03-30T00:00:00+00:00",
-      "endDate": "2025-03-30T03:00:00+00:00",
-      "category": [
-        "Arts",
-        "Music",
-        "Science"
-      ],
-      "price": null,
-      "registrationRequired": true,
-      "tags": [],
-      "image": [
-        "https://cdn.sanity.io/images/vgvol637/production/6bf5ca114c27eebf3024ba8de5eb63c3597db600-3414x2203.jpg?w=800"
-      ],
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://pioneerworks.org/programs/black-eyes-dreamcrusher",
-        "organizer": {
-          "name": "Pioneer Works",
-          "instagram": "@pioneerworks",
-          "email": "info@pioneerworks.org"
-        },
-        "venue": {
-          "name": "Pioneer Works",
-          "address": "159 Pioneer Street",
-          "type": "Cultural Institution"
-        },
-        "featured": false
-      }
-    },
-    {
       "id": "evt_pioneer_bbae254c",
       "name": "Science vs Fiction: N.K. Jemisin",
       "type": "Cultural Event",

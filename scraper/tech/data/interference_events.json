@@ -1,47 +1,6 @@
 {
   "events": [
     {
-      "id": "evt_interference_74aa3df3",
-      "name": "Build Your Own Time Capsule",
-      "type": "Community",
-      "locationId": "loc_interference",
-      "communityId": "com_interference",
-      "description": "What can your present-day self teach your future self? When histories are rewritten and collective memory is contested, personal archiving can be a mode of resistance. Join us for this hands-on workshop facilitated by author and time capsule keeper Lisa Ko and inspired by her new novel \nMemory Piece\n. Participants will have access to Interference Archive’s materials for inspiration, and will build their own time capsules as an analog antidote to digital authoritarianism, incorporating writing prompts and creating a list of contents and a plan for storage and preservation.\n\n\nPlease bring a closeable container (a large envelope, shoebox, jar, gallon-sized bag, etc.) and at least one item you’d like to include in your time capsule, as well as any other supplies you might want to use (paper, markers, scissors, etc.). We’ll have limited supplies available as well.\n\n\nPlease RSVP \nhere\n.",
-      "startDate": "2025-04-02T18:30:00",
-      "endDate": "2025-04-02T20:30:00",
-      "category": [
-        "Community",
-        "Arts",
-        "Activism"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": "Status Unknown"
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": [
-        "workshop"
-      ],
-      "image": "interference-archive.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://interferencearchive.org/event/build-your-own-time-capsule/",
-        "organizer": {
-          "name": "Interference Archive",
-          "email": "info@interferencearchive.org"
-        },
-        "venue": {
-          "name": "Interference Archive",
-          "address": "314 7th St, Brooklyn, NY 11215",
-          "type": "Offline"
-        },
-        "featured": false
-      }
-    },
-    {
       "id": "evt_interference_27479285",
       "name": "Radical Acupressure Skillshare",
       "type": "Community",
@@ -83,6 +42,45 @@
       }
     },
     {
+      "id": "evt_interference_939dafd5",
+      "name": "Tax Resistance 101 with the War Resisters League",
+      "type": "Community",
+      "locationId": "loc_interference",
+      "communityId": "com_interference",
+      "description": "Want to try tax resistance but don’t know where to start? Come hear from antiwar activists who refuse to pay some or all of their federal income taxes. Learn about the history and how to’s of war tax resistance from members of NYC War Resisters League (WRL) and Tax Resistance Collective. There will be plenty of time for Q&A.",
+      "startDate": "2025-02-27T18:30:00",
+      "endDate": "2025-02-27T20:30:00",
+      "category": [
+        "Community",
+        "Arts",
+        "Activism"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": "Status Unknown"
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": [],
+      "image": "interference-archive.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://interferencearchive.org/event/tax-resistance-101-with-the-war-resisters-league/",
+        "organizer": {
+          "name": "Interference Archive",
+          "email": "info@interferencearchive.org"
+        },
+        "venue": {
+          "name": "Interference Archive",
+          "address": "314 7th St, Brooklyn, NY 11215",
+          "type": "Offline"
+        },
+        "featured": false
+      }
+    },
+    {
       "id": "evt_interference_4543ade1",
       "name": "Gender-Expansive Families Propaganda Party",
       "type": "Community",
@@ -109,50 +107,6 @@
       "status": "upcoming",
       "metadata": {
         "source_url": "https://interferencearchive.org/event/gender-expansive-families-propaganda-party-2/",
-        "organizer": {
-          "name": "Interference Archive",
-          "email": "info@interferencearchive.org"
-        },
-        "venue": {
-          "name": "Interference Archive",
-          "address": "314 7th St, Brooklyn, NY 11215",
-          "type": "Offline"
-        },
-        "featured": false
-      }
-    },
-    {
-      "id": "evt_interference_94966cb0",
-      "name": "Drawn Together",
-      "type": "Community",
-      "locationId": "loc_interference",
-      "communityId": "com_interference",
-      "description": "Join us for a night of drawing and mark-making! Register \nhere\n. \n\n\nAt Drawn Together, we provide prompts and materials for you to experiment and explore with your visual art-making practice, all without the pressure of having to do it well.\n\n\nBecause of this one-night partnership, we’ll also have access to Interference Archive’s materials, which we’ll be using as part of our inspiration.\n\n\nThe mission of Interference Archive is to explore the relationship between cultural production and social movements. This work manifests in an open stacks archival collection, publications, a study center, and public programs including exhibitions, workshops, talks, and screenings, all of which encourage critical and creative engagement with the rich history of social movements.\n\n\nCome for the art-making, stay for a collection of visual media related to the history of activism and social movements around the world!\n\n\nTiming: Doors at 7. Come early to save your seat! Games begin at 7:30.\n\n\nSupplies: Pencils and paper will be provided, though you’re encouraged to bring your own supplies if you’d like.",
-      "startDate": "2025-03-10T19:00:00",
-      "endDate": "2025-03-10T21:00:00",
-      "category": [
-        "Community",
-        "Arts",
-        "Activism"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": "Status Unknown"
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": [
-        "workshop",
-        "exhibition",
-        "screening",
-        "talk"
-      ],
-      "image": "interference-archive.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://interferencearchive.org/event/drawn-together-2/",
         "organizer": {
           "name": "Interference Archive",
           "email": "info@interferencearchive.org"
@@ -248,47 +202,6 @@
       }
     },
     {
-      "id": "evt_interference_d265672d",
-      "name": "Fiber Friends of Falastin",
-      "type": "Community",
-      "locationId": "loc_interference",
-      "communityId": "com_interference",
-      "description": "Join us for a series of fiber arts meetups in support of Palestine—\nFiber Friends of Falastin\n! This is an exploratory social activity for folks who have basic crochet, knitting, sewing, quilting, weaving, embroidery, (and more!) skills, and who are interested in building community at the intersection of textile-making and social movements. \n\n\nWe have yarn, some crochet hooks, and some scissors to work on a group project in support of Palestine. You are also welcome to bring your own tools and materials, and related projects to work on.\n\n\nPlease note that this is not a workshop designed to teach skills, although you may learn new skills when you come! \nTo participate in the crochet activity you will need to know how to do a chain stitch and a single crochet stitch, which can be learned \nhere\n.\n\n\nMasking is always encouraged at Interference Archive. We will provide masks at the door.",
-      "startDate": "2025-03-26T18:00:00",
-      "endDate": "2025-03-26T20:00:00",
-      "category": [
-        "Community",
-        "Arts",
-        "Activism"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": "Status Unknown"
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": [
-        "workshop"
-      ],
-      "image": "interference-archive.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://interferencearchive.org/event/fiber-friends-of-falastin-11/",
-        "organizer": {
-          "name": "Interference Archive",
-          "email": "info@interferencearchive.org"
-        },
-        "venue": {
-          "name": "Interference Archive",
-          "address": "314 7th St, Brooklyn, NY 11215",
-          "type": "Offline"
-        },
-        "featured": false
-      }
-    },
-    {
       "id": "evt_interference_7b6eab32",
       "name": "Drawn Together",
       "type": "Community",
@@ -333,14 +246,14 @@
       }
     },
     {
-      "id": "evt_interference_939dafd5",
-      "name": "Tax Resistance 101 with the War Resisters League",
+      "id": "evt_interference_d265672d",
+      "name": "Fiber Friends of Falastin",
       "type": "Community",
       "locationId": "loc_interference",
       "communityId": "com_interference",
-      "description": "Want to try tax resistance but don’t know where to start? Come hear from antiwar activists who refuse to pay some or all of their federal income taxes. Learn about the history and how to’s of war tax resistance from members of NYC War Resisters League (WRL) and Tax Resistance Collective. There will be plenty of time for Q&A.",
-      "startDate": "2025-02-27T18:30:00",
-      "endDate": "2025-02-27T20:30:00",
+      "description": "Join us for a series of fiber arts meetups in support of Palestine—\nFiber Friends of Falastin\n! This is an exploratory social activity for folks who have basic crochet, knitting, sewing, quilting, weaving, embroidery, (and more!) skills, and who are interested in building community at the intersection of textile-making and social movements. \n\n\nWe have yarn, some crochet hooks, and some scissors to work on a group project in support of Palestine. You are also welcome to bring your own tools and materials, and related projects to work on.\n\n\nPlease note that this is not a workshop designed to teach skills, although you may learn new skills when you come! \nTo participate in the crochet activity you will need to know how to do a chain stitch and a single crochet stitch, which can be learned \nhere\n.\n\n\nMasking is always encouraged at Interference Archive. We will provide masks at the door.",
+      "startDate": "2025-03-26T18:00:00",
+      "endDate": "2025-03-26T20:00:00",
       "category": [
         "Community",
         "Arts",
@@ -354,11 +267,98 @@
       },
       "capacity": null,
       "registrationRequired": false,
-      "tags": [],
+      "tags": [
+        "workshop"
+      ],
       "image": "interference-archive.jpg",
       "status": "upcoming",
       "metadata": {
-        "source_url": "https://interferencearchive.org/event/tax-resistance-101-with-the-war-resisters-league/",
+        "source_url": "https://interferencearchive.org/event/fiber-friends-of-falastin-11/",
+        "organizer": {
+          "name": "Interference Archive",
+          "email": "info@interferencearchive.org"
+        },
+        "venue": {
+          "name": "Interference Archive",
+          "address": "314 7th St, Brooklyn, NY 11215",
+          "type": "Offline"
+        },
+        "featured": false
+      }
+    },
+    {
+      "id": "evt_interference_74aa3df3",
+      "name": "Build Your Own Time Capsule",
+      "type": "Community",
+      "locationId": "loc_interference",
+      "communityId": "com_interference",
+      "description": "What can your present-day self teach your future self? When histories are rewritten and collective memory is contested, personal archiving can be a mode of resistance. Join us for this hands-on workshop facilitated by author and time capsule keeper Lisa Ko and inspired by her new novel \nMemory Piece\n. Participants will have access to Interference Archive’s materials for inspiration, and will build their own time capsules as an analog antidote to digital authoritarianism, incorporating writing prompts and creating a list of contents and a plan for storage and preservation.\n\n\nPlease bring a closeable container (a large envelope, shoebox, jar, gallon-sized bag, etc.) and at least one item you’d like to include in your time capsule, as well as any other supplies you might want to use (paper, markers, scissors, etc.). We’ll have limited supplies available as well.\n\n\nPlease RSVP \nhere\n.",
+      "startDate": "2025-04-02T18:30:00",
+      "endDate": "2025-04-02T20:30:00",
+      "category": [
+        "Community",
+        "Arts",
+        "Activism"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": "Status Unknown"
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": [
+        "workshop"
+      ],
+      "image": "interference-archive.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://interferencearchive.org/event/build-your-own-time-capsule/",
+        "organizer": {
+          "name": "Interference Archive",
+          "email": "info@interferencearchive.org"
+        },
+        "venue": {
+          "name": "Interference Archive",
+          "address": "314 7th St, Brooklyn, NY 11215",
+          "type": "Offline"
+        },
+        "featured": false
+      }
+    },
+    {
+      "id": "evt_interference_94966cb0",
+      "name": "Drawn Together",
+      "type": "Community",
+      "locationId": "loc_interference",
+      "communityId": "com_interference",
+      "description": "Join us for a night of drawing and mark-making! Register \nhere\n. \n\n\nAt Drawn Together, we provide prompts and materials for you to experiment and explore with your visual art-making practice, all without the pressure of having to do it well.\n\n\nBecause of this one-night partnership, we’ll also have access to Interference Archive’s materials, which we’ll be using as part of our inspiration.\n\n\nThe mission of Interference Archive is to explore the relationship between cultural production and social movements. This work manifests in an open stacks archival collection, publications, a study center, and public programs including exhibitions, workshops, talks, and screenings, all of which encourage critical and creative engagement with the rich history of social movements.\n\n\nCome for the art-making, stay for a collection of visual media related to the history of activism and social movements around the world!\n\n\nTiming: Doors at 7. Come early to save your seat! Games begin at 7:30.\n\n\nSupplies: Pencils and paper will be provided, though you’re encouraged to bring your own supplies if you’d like.",
+      "startDate": "2025-03-10T19:00:00",
+      "endDate": "2025-03-10T21:00:00",
+      "category": [
+        "Community",
+        "Arts",
+        "Activism"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": "Status Unknown"
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": [
+        "workshop",
+        "exhibition",
+        "screening",
+        "talk"
+      ],
+      "image": "interference-archive.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://interferencearchive.org/event/drawn-together-2/",
         "organizer": {
           "name": "Interference Archive",
           "email": "info@interferencearchive.org"
