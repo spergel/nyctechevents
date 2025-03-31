@@ -1,63 +1,6 @@
 {
   "events": [
     {
-      "id": "evt_com_sidequest__clr78bb",
-      "name": "SideQuest #23",
-      "type": "Tech",
-      "locationId": "",
-      "communityId": "com_sidequest",
-      "description": "\u200b\u200b\u200bCome join us for a chill afternoon dedicated to your sidequests!Whether it's writing, painting, coding that new app, or literally any other \u201cSideQuest\u201d you\u2019ve been putting off, this is your space to create. This isn\u2019t about 'work' in the traditional sense\u2014it's about crafting something meaningful to you, free from pressure.\u200b\u200bWe'll have focused work sessions to help you make real progress, all set to the backdrop of some lo-fi, balanced with breaks to reset, unblock each other, and mingle with other creators.\u200b\u200bRough Agenda\u200b\u200b2:00 PM - 2:30 PM: Introductions and Intention Sharing\u200b\u200b2:30 PM - 3:45 PM: Deep Focus Session 1\u200b\u200b3:45 PM - 4:15 PM: Break\u200b\u200b4:15 PM - 5:30 PM: Deep Focus Session 2\u200b\u200b5:30 PM - 6:00 PM: if you wanna share your work, we\u2019d love to see it! If not, that\u2019s cool, too!\u200b\u200b6:00 PM: Optional hangout afterward :)*please plan on staying for the whole duration to avoid disrupting the quiet work periods\u200b\u200b**thank you tofractal techfor hosting us! and thank you to our friends atPurdueHackers,CozySundaysandSocraticafor seeding the idea!___________________AboutSideQuest:We host coworking sessions biweekly! Subscribe to our events calendar if you can\u2019t make this one :)",
-      "startDate": "2025-03-30T18:00:00Z",
-      "endDate": "2025-03-30T22:00:00Z",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": "",
-      "image": "luma-event-afbcf6ff.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://lu.ma/gnzubm69",
-        "organizer": {
-          "name": "SideQuest",
-          "instagram": "",
-          "email": "abln66abl799vb4gprllu4225l744l70@import.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "Please register to see the exact location of this event.\nKings County, New York",
-          "type": "Online"
-        },
-        "speakers": [
-          {
-            "name": "Chandiran",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Chandiran",
-            "title": "",
-            "bio": ""
-          }
-        ],
-        "social_links": [
-          "https://discord.gg/C9qrQR672P",
-          "https://x.com/patxnoir",
-          "https://discord.gg/C9qrQR672P",
-          "https://x.com/patxnoir"
-        ],
-        "featured": false,
-        "luma_source": true
-      }
-    },
-    {
       "id": "evt_com_sidequest__clr78ba",
       "name": "BuildHub #2 - 3D Modelling CAD Workshop",
       "type": "Tech",
