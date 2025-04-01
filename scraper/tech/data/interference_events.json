@@ -1,6 +1,47 @@
 {
   "events": [
     {
+      "id": "evt_interference_74aa3df3",
+      "name": "Build Your Own Time Capsule",
+      "type": "Community",
+      "locationId": "loc_interference",
+      "communityId": "com_interference",
+      "description": "What can your present-day self teach your future self? When histories are rewritten and collective memory is contested, personal archiving can be a mode of resistance. Join us for this hands-on workshop facilitated by author and time capsule keeper Lisa Ko and inspired by her new novel \nMemory Piece\n. Participants will have access to Interference Archive’s materials for inspiration, and will build their own time capsules as an analog antidote to digital authoritarianism, incorporating writing prompts and creating a list of contents and a plan for storage and preservation.\n\n\nPlease bring a closeable container (a large envelope, shoebox, jar, gallon-sized bag, etc.) and at least one item you’d like to include in your time capsule, as well as any other supplies you might want to use (paper, markers, scissors, etc.). We’ll have limited supplies available as well.\n\n\nPlease RSVP \nhere\n.",
+      "startDate": "2025-04-02T18:30:00",
+      "endDate": "2025-04-02T20:30:00",
+      "category": [
+        "Community",
+        "Arts",
+        "Activism"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": "Status Unknown"
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": [
+        "workshop"
+      ],
+      "image": "interference-archive.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://interferencearchive.org/event/build-your-own-time-capsule/",
+        "organizer": {
+          "name": "Interference Archive",
+          "email": "info@interferencearchive.org"
+        },
+        "venue": {
+          "name": "Interference Archive",
+          "address": "314 7th St, Brooklyn, NY 11215",
+          "type": "Offline"
+        },
+        "featured": false
+      }
+    },
+    {
       "id": "evt_interference_7b6eab32",
       "name": "Drawn Together",
       "type": "Community",
@@ -32,47 +73,6 @@
       "status": "upcoming",
       "metadata": {
         "source_url": "https://interferencearchive.org/event/drawn-together-3/",
-        "organizer": {
-          "name": "Interference Archive",
-          "email": "info@interferencearchive.org"
-        },
-        "venue": {
-          "name": "Interference Archive",
-          "address": "314 7th St, Brooklyn, NY 11215",
-          "type": "Offline"
-        },
-        "featured": false
-      }
-    },
-    {
-      "id": "evt_interference_d265672d",
-      "name": "Fiber Friends of Falastin",
-      "type": "Community",
-      "locationId": "loc_interference",
-      "communityId": "com_interference",
-      "description": "Join us for a series of fiber arts meetups in support of Palestine—\nFiber Friends of Falastin\n! This is an exploratory social activity for folks who have basic crochet, knitting, sewing, quilting, weaving, embroidery, (and more!) skills, and who are interested in building community at the intersection of textile-making and social movements. \n\n\nWe have yarn, some crochet hooks, and some scissors to work on a group project in support of Palestine. You are also welcome to bring your own tools and materials, and related projects to work on.\n\n\nPlease note that this is not a workshop designed to teach skills, although you may learn new skills when you come! \nTo participate in the crochet activity you will need to know how to do a chain stitch and a single crochet stitch, which can be learned \nhere\n.\n\n\nMasking is always encouraged at Interference Archive. We will provide masks at the door.",
-      "startDate": "2025-03-26T18:00:00",
-      "endDate": "2025-03-26T20:00:00",
-      "category": [
-        "Community",
-        "Arts",
-        "Activism"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": "Status Unknown"
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": [
-        "workshop"
-      ],
-      "image": "interference-archive.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://interferencearchive.org/event/fiber-friends-of-falastin-11/",
         "organizer": {
           "name": "Interference Archive",
           "email": "info@interferencearchive.org"
@@ -127,88 +127,6 @@
       }
     },
     {
-      "id": "evt_interference_de29f7d3",
-      "name": "Volunteer Orientation",
-      "type": "Community",
-      "locationId": "loc_interference",
-      "communityId": "com_interference",
-      "description": "Join us for the next volunteer orientation to learn about getting involved in Interference Archive’s community. You will learn about Interference Archive’s collection of social movement materials, how we work together as a nonhierarchical community archive, and have a chance to meet fellow comrades and volunteers.\n\n\nThis orientation is open to everyone\n; established volunteers who want a refresher and to new folks trying to plug into the community. It doesn’t matter whether you’ve shadowed once, have put on 10 exhibitions, or have just been lurking on the newsletter—all are welcome to learn, share, and make things happen through the archive! We hope you leave this orientation with new friends, new contacts to help you do the work you’re passionate about, and a clear sense of Interference Archive’s history, communication channels, and values. Come with your questions and ideas!\n\n\nSpace is limited, \nso please RSVP\n to reserve your spot for this session!\n\n\nPhysical space of the Interference Archive is ADA compliant.",
-      "startDate": "2025-04-14T19:00:00",
-      "endDate": "2025-04-14T20:30:00",
-      "category": [
-        "Community",
-        "Arts",
-        "Activism"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": "Status Unknown"
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": [
-        "exhibition"
-      ],
-      "image": "interference-archive.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://interferencearchive.org/event/volunteer-orientation-5/",
-        "organizer": {
-          "name": "Interference Archive",
-          "email": "info@interferencearchive.org"
-        },
-        "venue": {
-          "name": "Interference Archive",
-          "address": "314 7th St, Brooklyn, NY 11215",
-          "type": "Offline"
-        },
-        "featured": false
-      }
-    },
-    {
-      "id": "evt_interference_27479285",
-      "name": "Radical Acupressure Skillshare",
-      "type": "Community",
-      "locationId": "loc_interference",
-      "communityId": "com_interference",
-      "description": "Now as always we need cheap and accessible tools to take care of ourselves and each other. From Japanese American incarceration camps to Lincoln Detox and the NADA protocol, acupuncture has been a tool of resistance for regular people to reclaim their health.\n\n\nJoin us at Interference Archive on March 18th at 7pm for the next installment of the Education Working Group’s Skillshare Workshop series and to learn about a radical history of acupuncture in the Americas while looking at related materials from the Archive. We will also demonstrate and practice an acupressure protocol for stress reduction using ear seeds to stimulate pressure points in the ear (no needles required!). Materials will be provided but participants should bring their own tweezers if possible.",
-      "startDate": "2025-03-18T19:00:00",
-      "endDate": "2025-03-18T20:00:00",
-      "category": [
-        "Community",
-        "Arts",
-        "Activism"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": "Status Unknown"
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": [
-        "workshop"
-      ],
-      "image": "interference-archive.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://interferencearchive.org/event/radical-acupressure-skillshare/",
-        "organizer": {
-          "name": "Interference Archive",
-          "email": "info@interferencearchive.org"
-        },
-        "venue": {
-          "name": "Interference Archive",
-          "address": "314 7th St, Brooklyn, NY 11215",
-          "type": "Offline"
-        },
-        "featured": false
-      }
-    },
-    {
       "id": "evt_interference_939dafd5",
       "name": "Tax Resistance 101 with the War Resisters League",
       "type": "Community",
@@ -248,14 +166,14 @@
       }
     },
     {
-      "id": "evt_interference_74aa3df3",
-      "name": "Build Your Own Time Capsule",
+      "id": "evt_interference_de29f7d3",
+      "name": "Volunteer Orientation",
       "type": "Community",
       "locationId": "loc_interference",
       "communityId": "com_interference",
-      "description": "What can your present-day self teach your future self? When histories are rewritten and collective memory is contested, personal archiving can be a mode of resistance. Join us for this hands-on workshop facilitated by author and time capsule keeper Lisa Ko and inspired by her new novel \nMemory Piece\n. Participants will have access to Interference Archive’s materials for inspiration, and will build their own time capsules as an analog antidote to digital authoritarianism, incorporating writing prompts and creating a list of contents and a plan for storage and preservation.\n\n\nPlease bring a closeable container (a large envelope, shoebox, jar, gallon-sized bag, etc.) and at least one item you’d like to include in your time capsule, as well as any other supplies you might want to use (paper, markers, scissors, etc.). We’ll have limited supplies available as well.\n\n\nPlease RSVP \nhere\n.",
-      "startDate": "2025-04-02T18:30:00",
-      "endDate": "2025-04-02T20:30:00",
+      "description": "Join us for the next volunteer orientation to learn about getting involved in Interference Archive’s community. You will learn about Interference Archive’s collection of social movement materials, how we work together as a nonhierarchical community archive, and have a chance to meet fellow comrades and volunteers.\n\n\nThis orientation is open to everyone\n; established volunteers who want a refresher and to new folks trying to plug into the community. It doesn’t matter whether you’ve shadowed once, have put on 10 exhibitions, or have just been lurking on the newsletter—all are welcome to learn, share, and make things happen through the archive! We hope you leave this orientation with new friends, new contacts to help you do the work you’re passionate about, and a clear sense of Interference Archive’s history, communication channels, and values. Come with your questions and ideas!\n\n\nSpace is limited, \nso please RSVP\n to reserve your spot for this session!\n\n\nPhysical space of the Interference Archive is ADA compliant.",
+      "startDate": "2025-04-14T19:00:00",
+      "endDate": "2025-04-14T20:30:00",
       "category": [
         "Community",
         "Arts",
@@ -270,12 +188,12 @@
       "capacity": null,
       "registrationRequired": false,
       "tags": [
-        "workshop"
+        "exhibition"
       ],
       "image": "interference-archive.jpg",
       "status": "upcoming",
       "metadata": {
-        "source_url": "https://interferencearchive.org/event/build-your-own-time-capsule/",
+        "source_url": "https://interferencearchive.org/event/volunteer-orientation-5/",
         "organizer": {
           "name": "Interference Archive",
           "email": "info@interferencearchive.org"
@@ -369,6 +287,47 @@
       }
     },
     {
+      "id": "evt_interference_27479285",
+      "name": "Radical Acupressure Skillshare",
+      "type": "Community",
+      "locationId": "loc_interference",
+      "communityId": "com_interference",
+      "description": "Now as always we need cheap and accessible tools to take care of ourselves and each other. From Japanese American incarceration camps to Lincoln Detox and the NADA protocol, acupuncture has been a tool of resistance for regular people to reclaim their health.\n\n\nJoin us at Interference Archive on March 18th at 7pm for the next installment of the Education Working Group’s Skillshare Workshop series and to learn about a radical history of acupuncture in the Americas while looking at related materials from the Archive. We will also demonstrate and practice an acupressure protocol for stress reduction using ear seeds to stimulate pressure points in the ear (no needles required!). Materials will be provided but participants should bring their own tweezers if possible.",
+      "startDate": "2025-03-18T19:00:00",
+      "endDate": "2025-03-18T20:00:00",
+      "category": [
+        "Community",
+        "Arts",
+        "Activism"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": "Status Unknown"
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": [
+        "workshop"
+      ],
+      "image": "interference-archive.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://interferencearchive.org/event/radical-acupressure-skillshare/",
+        "organizer": {
+          "name": "Interference Archive",
+          "email": "info@interferencearchive.org"
+        },
+        "venue": {
+          "name": "Interference Archive",
+          "address": "314 7th St, Brooklyn, NY 11215",
+          "type": "Offline"
+        },
+        "featured": false
+      }
+    },
+    {
       "id": "evt_interference_94966cb0",
       "name": "Drawn Together",
       "type": "Community",
@@ -400,6 +359,47 @@
       "status": "upcoming",
       "metadata": {
         "source_url": "https://interferencearchive.org/event/drawn-together-2/",
+        "organizer": {
+          "name": "Interference Archive",
+          "email": "info@interferencearchive.org"
+        },
+        "venue": {
+          "name": "Interference Archive",
+          "address": "314 7th St, Brooklyn, NY 11215",
+          "type": "Offline"
+        },
+        "featured": false
+      }
+    },
+    {
+      "id": "evt_interference_d265672d",
+      "name": "Fiber Friends of Falastin",
+      "type": "Community",
+      "locationId": "loc_interference",
+      "communityId": "com_interference",
+      "description": "Join us for a series of fiber arts meetups in support of Palestine—\nFiber Friends of Falastin\n! This is an exploratory social activity for folks who have basic crochet, knitting, sewing, quilting, weaving, embroidery, (and more!) skills, and who are interested in building community at the intersection of textile-making and social movements. \n\n\nWe have yarn, some crochet hooks, and some scissors to work on a group project in support of Palestine. You are also welcome to bring your own tools and materials, and related projects to work on.\n\n\nPlease note that this is not a workshop designed to teach skills, although you may learn new skills when you come! \nTo participate in the crochet activity you will need to know how to do a chain stitch and a single crochet stitch, which can be learned \nhere\n.\n\n\nMasking is always encouraged at Interference Archive. We will provide masks at the door.",
+      "startDate": "2025-03-26T18:00:00",
+      "endDate": "2025-03-26T20:00:00",
+      "category": [
+        "Community",
+        "Arts",
+        "Activism"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": "Status Unknown"
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": [
+        "workshop"
+      ],
+      "image": "interference-archive.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://interferencearchive.org/event/fiber-friends-of-falastin-11/",
         "organizer": {
           "name": "Interference Archive",
           "email": "info@interferencearchive.org"

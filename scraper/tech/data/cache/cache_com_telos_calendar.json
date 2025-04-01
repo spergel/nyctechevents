@@ -1,49 +1,6 @@
 {
   "events": [
     {
-      "id": "evt_com_telos_46pqc50d",
-      "name": "[Canceled] REM Film Club",
-      "type": "Tech",
-      "locationId": "",
-      "communityId": "com_telos",
-      "description": "",
-      "startDate": "2025-03-30T20:00:00-04:00",
-      "endDate": "2025-03-30T23:00:00-04:00",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": "",
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://lu.ma/remfilmclub",
-        "organizer": {
-          "name": "telos.haus events",
-          "instagram": "",
-          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "https://lu.ma/remfilmclub",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [
-          "https://instagram.com/remfilmclub"
-        ],
-        "featured": false,
-        "luma_source": true
-      }
-    },
-    {
       "id": "evt_com_telos_d269plpk",
       "name": "aci-d club weekly hang",
       "type": "Tech",

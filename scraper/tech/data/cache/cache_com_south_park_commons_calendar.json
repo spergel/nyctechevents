@@ -32,8 +32,8 @@
         },
         "venue": {
           "name": "",
-          "address": "36 Cooper Sq floor 6New York, NY 10003, USA\nNew York, NY 10003, USA",
-          "type": "Offline"
+          "address": "Please register to see the exact location of this event.\nNew York, New York",
+          "type": "Online"
         },
         "speakers": [
           {
