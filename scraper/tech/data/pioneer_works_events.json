@@ -1,42 +1,6 @@
 {
   "events": [
     {
-      "id": "evt_pioneer_bbae254c",
-      "name": "Science vs Fiction: N.K. Jemisin",
-      "type": "Cultural Event",
-      "locationId": "loc_pioneer_works",
-      "communityId": "com_pioneer_works",
-      "description": "Few authors have reshaped the landscape of speculative fiction like N.K. Jemisin. In the spirit of the visionary Octavia E. Butler, Jemisin crafts world...",
-      "startDate": "2025-04-01T23:30:00+00:00",
-      "endDate": "2025-04-02T03:00:00+00:00",
-      "category": [
-        "Arts",
-        "Music",
-        "Science"
-      ],
-      "price": null,
-      "registrationRequired": true,
-      "tags": [],
-      "image": [
-        "https://cdn.sanity.io/images/vgvol637/production/d4ca96f6f1491d6b0cca06e5c444f9e25f04b679-16000x9000.png?w=800"
-      ],
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://pioneerworks.org/programs/science-vs-fiction-n-k-jemisin",
-        "organizer": {
-          "name": "Pioneer Works",
-          "instagram": "@pioneerworks",
-          "email": "info@pioneerworks.org"
-        },
-        "venue": {
-          "name": "Pioneer Works",
-          "address": "159 Pioneer Street",
-          "type": "Cultural Institution"
-        },
-        "featured": false
-      }
-    },
-    {
       "id": "evt_pioneer_b852239f",
       "name": "YATTA & HxH",
       "type": "Cultural Event",

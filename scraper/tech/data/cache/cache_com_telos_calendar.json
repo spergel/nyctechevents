@@ -6,7 +6,7 @@
       "type": "Tech",
       "locationId": "",
       "communityId": "com_telos",
-      "description": "",
+      "description": "aci-d club is a weekly meetup for designers who wish to playfully work on their personal projects, befriend other creatives, and see the world with brighter eyes.\n\nalongside the core weekly hangouts, aci-d hosts monthly field trips to museums, archives, and galleries, as well as occasional workshops led by guest artists and speakers.",
       "startDate": "2025-04-02T18:45:00-04:00",
       "endDate": "2025-04-02T21:15:00-04:00",
       "category": [
@@ -49,9 +49,9 @@
       "id": "evt_com_telos_4sb2h04l",
       "name": "love & video games",
       "type": "Tech",
-      "locationId": "loc_telos",
+      "locationId": "",
       "communityId": "com_telos",
-      "description": "",
+      "description": "an experimental video game salon where journalists read poems and essays about the topic of love in video games",
       "startDate": "2025-04-03T18:30:00-04:00",
       "endDate": "2025-04-03T21:00:00-04:00",
       "category": [
@@ -76,8 +76,8 @@
           "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
         },
         "venue": {
-          "name": "Telos",
-          "address": "181 Wyckoff Ave, Brooklyn, NY 11237",
+          "name": "",
+          "address": "https://www.instagram.com/p/DHXKXnCuxyQ/",
           "type": "Offline"
         },
         "speakers": [],
@@ -133,7 +133,7 @@
       "type": "Tech",
       "locationId": "",
       "communityId": "com_telos",
-      "description": "",
+      "description": "aci-d club is a weekly meetup for designers who wish to playfully work on their personal projects, befriend other creatives, and see the world with brighter eyes.\n\nalongside the core weekly hangouts, aci-d hosts monthly field trips to museums, archives, and galleries, as well as occasional workshops led by guest artists and speakers.",
       "startDate": "2025-04-09T18:45:00-04:00",
       "endDate": "2025-04-09T21:15:00-04:00",
       "category": [
@@ -178,7 +178,7 @@
       "type": "Tech",
       "locationId": "",
       "communityId": "com_telos",
-      "description": "",
+      "description": "aci-d club is a weekly meetup for designers who wish to playfully work on their personal projects, befriend other creatives, and see the world with brighter eyes.\n\nalongside the core weekly hangouts, aci-d hosts monthly field trips to museums, archives, and galleries, as well as occasional workshops led by guest artists and speakers.",
       "startDate": "2025-04-16T18:45:00-04:00",
       "endDate": "2025-04-16T21:15:00-04:00",
       "category": [
@@ -260,11 +260,11 @@
     },
     {
       "id": "evt_com_telos_0jth11k0",
-      "name": "Late Night Coworking",
+      "name": "late-night cafe 001",
       "type": "Tech",
-      "locationId": "",
+      "locationId": "loc_telos",
       "communityId": "com_telos",
-      "description": "",
+      "description": "<p>this event is an experiment arising from the dearth of after-hours spaces to read, mingle, and meet others in new york.</p><p>there will be dimly-lit workspaces, couches and cushions to relax, a selection of custom drinks, and ambient sets by @x0trandon.</p><p>bring what stirs your soul.</p>",
       "startDate": "2025-04-18T21:00:00-04:00",
       "endDate": "2025-04-19T01:00:00-04:00",
       "category": [
@@ -289,8 +289,49 @@
           "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
         },
         "venue": {
-          "name": "",
-          "address": "",
+          "name": "Telos",
+          "address": "181 Wyckoff Ave, Brooklyn, NY 11237",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
+      "id": "evt_com_telos_47g5eavu",
+      "name": "P\u00c0O P\u00c0O \u6ce1\u6ce1",
+      "type": "Tech",
+      "locationId": "loc_telos",
+      "communityId": "com_telos",
+      "description": "During this workshop, Jess Eng (@goudatalks) will cover one of the oldest pickling cultures in the world, exploring the history of pickling techniques in Sichuan and Taiwan, along with more contemporary techniques.<br><br>The group will:<br><br><ul><li>learn the history of pickles in china and taiwan + contemporary pickling techniques</li><li>learn about pickling ingredients, techniques, and fermentation science</li><li>sample a collection of pickle creations</li><li>learn how to integrate these savory creations into food and beverage</li><li>make pickles together with pre-cut ingredients, including cabbage, green beans, carrots, peppers, etc.</li></ul><br><br>Each attendee will take home a self-made mason jar of pickle, a pickle zine, and knowledge to craft their own jar of pickles at home. Hopefully you'll teach others how to pickle too! Pickles for everyone!!",
+      "startDate": "2025-04-21T18:30:00-04:00",
+      "endDate": "2025-04-21T20:30:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.google.com/calendar/event?eid=NDdnNWVhdnVkbDM4dXEybm40MjU2amlwbm4gZDU5NmMyYmY3MjExODNkMjJiYjUwYmRlNjYyNTA5MGZjMzkyM2FhMjlhNjkxOGQ3ODQwOWUxNjhkYTc5MTc2OUBn",
+        "organizer": {
+          "name": "telos.haus events",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "Telos",
+          "address": "181 Wyckoff Ave, Brooklyn, NY 11237",
           "type": "Offline"
         },
         "speakers": [],
@@ -305,7 +346,7 @@
       "type": "Tech",
       "locationId": "",
       "communityId": "com_telos",
-      "description": "",
+      "description": "aci-d club is a weekly meetup for designers who wish to playfully work on their personal projects, befriend other creatives, and see the world with brighter eyes.\n\nalongside the core weekly hangouts, aci-d hosts monthly field trips to museums, archives, and galleries, as well as occasional workshops led by guest artists and speakers.",
       "startDate": "2025-04-23T18:45:00-04:00",
       "endDate": "2025-04-23T21:15:00-04:00",
       "category": [
@@ -345,12 +386,94 @@
       }
     },
     {
+      "id": "evt_com_telos_6l1b1p2r",
+      "name": "Jamland",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2025-04-26T13:00:00-04:00",
+      "endDate": "2025-04-26T19:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.google.com/calendar/event?eid=NmwxYjFwMnI2bWswNnQxams2dWFnc2xrNzIgZDU5NmMyYmY3MjExODNkMjJiYjUwYmRlNjYyNTA5MGZjMzkyM2FhMjlhNjkxOGQ3ODQwOWUxNjhkYTc5MTc2OUBn",
+        "organizer": {
+          "name": "telos.haus events",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
+      "id": "evt_com_telos_6oee0q77",
+      "name": "Intro to Handbuilding with Clay",
+      "type": "Tech",
+      "locationId": "loc_telos",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2025-04-27T13:00:00-04:00",
+      "endDate": "2025-04-27T16:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.google.com/calendar/event?eid=Nm9lZTBxNzdmMnA5NTgybzU2MmJhY29qZ2ggZDU5NmMyYmY3MjExODNkMjJiYjUwYmRlNjYyNTA5MGZjMzkyM2FhMjlhNjkxOGQ3ODQwOWUxNjhkYTc5MTc2OUBn",
+        "organizer": {
+          "name": "telos.haus events",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "Telos",
+          "address": "181 Wyckoff Ave, Brooklyn, NY 11237",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
       "id": "evt_com_telos_d269plpk",
       "name": "aci-d club weekly hang",
       "type": "Tech",
       "locationId": "",
       "communityId": "com_telos",
-      "description": "",
+      "description": "aci-d club is a weekly meetup for designers who wish to playfully work on their personal projects, befriend other creatives, and see the world with brighter eyes.\n\nalongside the core weekly hangouts, aci-d hosts monthly field trips to museums, archives, and galleries, as well as occasional workshops led by guest artists and speakers.",
       "startDate": "2025-04-30T18:45:00-04:00",
       "endDate": "2025-04-30T21:15:00-04:00",
       "category": [
@@ -395,7 +518,7 @@
       "type": "Tech",
       "locationId": "",
       "communityId": "com_telos",
-      "description": "",
+      "description": "aci-d club is a weekly meetup for designers who wish to playfully work on their personal projects, befriend other creatives, and see the world with brighter eyes.\n\nalongside the core weekly hangouts, aci-d hosts monthly field trips to museums, archives, and galleries, as well as occasional workshops led by guest artists and speakers.",
       "startDate": "2025-05-07T18:45:00-04:00",
       "endDate": "2025-05-07T21:15:00-04:00",
       "category": [
@@ -440,7 +563,7 @@
       "type": "Tech",
       "locationId": "",
       "communityId": "com_telos",
-      "description": "",
+      "description": "aci-d club is a weekly meetup for designers who wish to playfully work on their personal projects, befriend other creatives, and see the world with brighter eyes.\n\nalongside the core weekly hangouts, aci-d hosts monthly field trips to museums, archives, and galleries, as well as occasional workshops led by guest artists and speakers.",
       "startDate": "2025-05-14T18:45:00-04:00",
       "endDate": "2025-05-14T21:15:00-04:00",
       "category": [
@@ -485,7 +608,7 @@
       "type": "Tech",
       "locationId": "",
       "communityId": "com_telos",
-      "description": "",
+      "description": "aci-d club is a weekly meetup for designers who wish to playfully work on their personal projects, befriend other creatives, and see the world with brighter eyes.\n\nalongside the core weekly hangouts, aci-d hosts monthly field trips to museums, archives, and galleries, as well as occasional workshops led by guest artists and speakers.",
       "startDate": "2025-05-21T18:45:00-04:00",
       "endDate": "2025-05-21T21:15:00-04:00",
       "category": [
@@ -530,7 +653,7 @@
       "type": "Tech",
       "locationId": "",
       "communityId": "com_telos",
-      "description": "",
+      "description": "aci-d club is a weekly meetup for designers who wish to playfully work on their personal projects, befriend other creatives, and see the world with brighter eyes.\n\nalongside the core weekly hangouts, aci-d hosts monthly field trips to museums, archives, and galleries, as well as occasional workshops led by guest artists and speakers.",
       "startDate": "2025-05-28T18:45:00-04:00",
       "endDate": "2025-05-28T21:15:00-04:00",
       "category": [
@@ -575,7 +698,7 @@
       "type": "Tech",
       "locationId": "",
       "communityId": "com_telos",
-      "description": "",
+      "description": "aci-d club is a weekly meetup for designers who wish to playfully work on their personal projects, befriend other creatives, and see the world with brighter eyes.\n\nalongside the core weekly hangouts, aci-d hosts monthly field trips to museums, archives, and galleries, as well as occasional workshops led by guest artists and speakers.",
       "startDate": "2025-06-04T18:45:00-04:00",
       "endDate": "2025-06-04T21:15:00-04:00",
       "category": [

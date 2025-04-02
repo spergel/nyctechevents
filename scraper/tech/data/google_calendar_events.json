@@ -840,7 +840,7 @@
       "type": "Tech",
       "locationId": "",
       "communityId": "com_telos",
-      "description": "",
+      "description": "aci-d club is a weekly meetup for designers who wish to playfully work on their personal projects, befriend other creatives, and see the world with brighter eyes.\n\nalongside the core weekly hangouts, aci-d hosts monthly field trips to museums, archives, and galleries, as well as occasional workshops led by guest artists and speakers.",
       "startDate": "2025-06-04T18:45:00-04:00",
       "endDate": "2025-06-04T21:15:00-04:00",
       "category": [
@@ -883,9 +883,9 @@
       "id": "evt_com_telos_4sb2h04l",
       "name": "love & video games",
       "type": "Tech",
-      "locationId": "loc_telos",
+      "locationId": "",
       "communityId": "com_telos",
-      "description": "",
+      "description": "an experimental video game salon where journalists read poems and essays about the topic of love in video games",
       "startDate": "2025-04-03T18:30:00-04:00",
       "endDate": "2025-04-03T21:00:00-04:00",
       "category": [
@@ -910,8 +910,8 @@
           "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
         },
         "venue": {
-          "name": "Telos",
-          "address": "181 Wyckoff Ave, Brooklyn, NY 11237",
+          "name": "",
+          "address": "https://www.instagram.com/p/DHXKXnCuxyQ/",
           "type": "Offline"
         },
         "speakers": [],
@@ -1004,11 +1004,11 @@
     },
     {
       "id": "evt_com_telos_0jth11k0",
-      "name": "Late Night Coworking",
+      "name": "late-night cafe 001",
       "type": "Tech",
-      "locationId": "",
+      "locationId": "loc_telos",
       "communityId": "com_telos",
-      "description": "",
+      "description": "<p>this event is an experiment arising from the dearth of after-hours spaces to read, mingle, and meet others in new york.</p><p>there will be dimly-lit workspaces, couches and cushions to relax, a selection of custom drinks, and ambient sets by @x0trandon.</p><p>bring what stirs your soul.</p>",
       "startDate": "2025-04-18T21:00:00-04:00",
       "endDate": "2025-04-19T01:00:00-04:00",
       "category": [
@@ -1033,8 +1033,8 @@
           "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
         },
         "venue": {
-          "name": "",
-          "address": "",
+          "name": "Telos",
+          "address": "181 Wyckoff Ave, Brooklyn, NY 11237",
           "type": "Offline"
         },
         "speakers": [],
@@ -1583,8 +1583,8 @@
       "locationId": "",
       "communityId": "com_nyc_resistor",
       "description": "<u></u><p>NYC Resistor is open to the public for Craft Nights now every Monday and Thursday from 6:30-9:30 PM! Come bring your current crafting project and work on it with other artists, crafters, and makers of all kinds. Resistors do everything from costumes to electronics to visual arts to woodworking; people and crafting projects of all sorts are enthusiastically welcome!</p><p>RSVP at<span> <a href=\"https://www.eventbrite.com/e/public-craft-night-mondays-and-thursdays-tickets-162729866411\">https://www.eventbrite.com/e/public-craft-night-mondays-and-thursdays-tickets-162729866411</a></span> is appreciated but not required, for covid contact-tracing purposes.<br></p>This event like all NYC Resistor events is 18 and over and governed by out code of conduct. <br><br>More information: <a href=\"http://www.nycresistor.com/participate/\">http://www.nycresistor.com/participate/</a><br>NYC Resistor Code of Conduct: <a href=\"http://www.nycresistor.com/2015/08/04/nyc-resistor-code-of-conduct/\">http://www.nycresistor.com/2015/08/04/nyc-resistor-code-of-conduct/</a><u></u><u></u><u></u><u></u><u></u>",
-      "startDate": "2025-06-30T18:30:00-04:00",
-      "endDate": "2025-06-30T21:30:00-04:00",
+      "startDate": "2025-06-23T18:30:00-04:00",
+      "endDate": "2025-06-23T21:30:00-04:00",
       "category": [
         "Tech"
       ],
@@ -3555,6 +3555,211 @@
         ],
         "featured": false,
         "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_telos_47g5eavu",
+      "name": "PÀO PÀO 泡泡",
+      "type": "Tech",
+      "locationId": "loc_telos",
+      "communityId": "com_telos",
+      "description": "During this workshop, Jess Eng (@goudatalks) will cover one of the oldest pickling cultures in the world, exploring the history of pickling techniques in Sichuan and Taiwan, along with more contemporary techniques.<br><br>The group will:<br><br><ul><li>learn the history of pickles in china and taiwan + contemporary pickling techniques</li><li>learn about pickling ingredients, techniques, and fermentation science</li><li>sample a collection of pickle creations</li><li>learn how to integrate these savory creations into food and beverage</li><li>make pickles together with pre-cut ingredients, including cabbage, green beans, carrots, peppers, etc.</li></ul><br><br>Each attendee will take home a self-made mason jar of pickle, a pickle zine, and knowledge to craft their own jar of pickles at home. Hopefully you'll teach others how to pickle too! Pickles for everyone!!",
+      "startDate": "2025-04-21T18:30:00-04:00",
+      "endDate": "2025-04-21T20:30:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.google.com/calendar/event?eid=NDdnNWVhdnVkbDM4dXEybm40MjU2amlwbm4gZDU5NmMyYmY3MjExODNkMjJiYjUwYmRlNjYyNTA5MGZjMzkyM2FhMjlhNjkxOGQ3ODQwOWUxNjhkYTc5MTc2OUBn",
+        "organizer": {
+          "name": "telos.haus events",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "Telos",
+          "address": "181 Wyckoff Ave, Brooklyn, NY 11237",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
+      "id": "evt_com_telos_6l1b1p2r",
+      "name": "Jamland",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2025-04-26T13:00:00-04:00",
+      "endDate": "2025-04-26T19:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.google.com/calendar/event?eid=NmwxYjFwMnI2bWswNnQxams2dWFnc2xrNzIgZDU5NmMyYmY3MjExODNkMjJiYjUwYmRlNjYyNTA5MGZjMzkyM2FhMjlhNjkxOGQ3ODQwOWUxNjhkYTc5MTc2OUBn",
+        "organizer": {
+          "name": "telos.haus events",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
+      "id": "evt_com_telos_6oee0q77",
+      "name": "Intro to Handbuilding with Clay",
+      "type": "Tech",
+      "locationId": "loc_telos",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2025-04-27T13:00:00-04:00",
+      "endDate": "2025-04-27T16:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.google.com/calendar/event?eid=Nm9lZTBxNzdmMnA5NTgybzU2MmJhY29qZ2ggZDU5NmMyYmY3MjExODNkMjJiYjUwYmRlNjYyNTA5MGZjMzkyM2FhMjlhNjkxOGQ3ODQwOWUxNjhkYTc5MTc2OUBn",
+        "organizer": {
+          "name": "telos.haus events",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "Telos",
+          "address": "181 Wyckoff Ave, Brooklyn, NY 11237",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
+      "id": "evt_com_nyc_resistor_fvhgga6c",
+      "name": "Spy Kids 2 Watch Party",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_nyc_resistor",
+      "description": "Vaccination Proof + Mask + RSVP Required\nRSVP https://www.eventbrite.com/e/spy-kids-2-watch-party-tickets-1307674462519\n\nPlease join us for our showing of Spy Kids 2: The Island of Lost Dreams, a film about slightly larger spies for slightly bigger fans.Please join us for our showing of Spy Kids 2: The Island of Lost Dreams, a film about slightly larger spies for slightly bigger fans. This is the second showing in our three part series exploring the sociological and philosophical impacts of this world renowned trilogy.\nDo you think god stays in heaven because he lives in fear of what he created? Stay for talk back after the show to discuss.\nLight snacks will be provided. Costumes encouraged. \nWho is this for?\nEarnest Adults Only. No kids, spy or otherwise.\nYour instructor:\nAnna is a Spy Kids expert and historian, having spent the past twenty years of their life researching (watching) the Spy Kids series and analyzing its themes.\nThis is a masks optional event.\nThis show is open to the public, and is free to attend!\nHowever, as with all NYC Resistor events, this show is 18+ and governed by our Code of Conduct. The Code of Conduct, as well as accessibility information, can be found at www.nycresistor.com/participate/.\n",
+      "startDate": "2025-04-13T20:00:00-04:00",
+      "endDate": "2025-04-13T22:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": true,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.eventbrite.com/e/spy-kids-2-watch-party-tickets-1307674462519",
+        "organizer": {
+          "name": "NYCResistor",
+          "instagram": "",
+          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "NYC Resistor\n87 3rd Avenue\nBrooklyn, NY 11217",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
+      "id": "evt_com_nyc_resistor_4698olt3",
+      "name": "HOLD FOR INTERACTIVE SHOW",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_nyc_resistor",
+      "description": "",
+      "startDate": "2025-06-14",
+      "endDate": "2025-06-15",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.google.com/calendar/event?eid=NDY5OG9sdDMxajlnbm9vZnBvaGlvYmE4ZzkgcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw",
+        "organizer": {
+          "name": "NYCResistor",
+          "instagram": "",
+          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
       }
     }
   ]
