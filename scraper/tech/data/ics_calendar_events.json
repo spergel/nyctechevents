@@ -206,97 +206,6 @@
       }
     },
     {
-      "id": "evt_com_ny_hardware_619c6334",
-      "name": "Deep Tech Week Happy Hour @ Makelab | NY Hardware Meetup",
-      "type": "Tech",
-      "locationId": "loc_tbd",
-      "communityId": "com_ny_hardware",
-      "description": "​Let's celebrate Deep Tech Week with a happy hour atMakelab! This will be a happy hour-style mixer for everyone to meet others in the NYC area.​Agenda​6:30-7:00 - Arrival, mingle, grab refreshment​7:30-7:45 - Welcome​7:45-9:30 - Mix + mingle​Thank you to our partners​Makelabis a 3D manufacturing service that produces parts, prototypes, and production runs for companies in the robotics, medical, cpg, hardware, and manufacturing sectors. We manufacture locally in NYC, San Francisco, and ship nationwide. Makelab works with companies like Informal, Peleton, Stand+, Nonfiction Design, and Estee Lauder to accelerate agile product development while ensuring quality outcomes​informalis a freelance collective for the best independent professionals in hardware and manufacturing. Whether a client is looking for a single contractor, a full time employee, or an entire team of professionals to work on everything from product development to go-to-market, informal has the right collection of people for the job. With projects as varied as 3D printers to electric vehicles, informal members work with companies at every scale to design, manufacture, and ship physical products.​​​WANT TO GET INVOLVED?​​​Sponsorship:​We offer exclusive access to our 10,000+ member community through sponsorships.​​​Host an event at your space:We are always looking for host sponsors to provide access to unique spaces from cool hardware companies building interesting things. Want to open up your office?​​​Speaker:Do you have something interesting to share with our community? We're on the lookout for fresh faces to talk about their journey and experiences.​​​If you want to get involved, head here:https://linktr.ee/nyhardware",
-      "startDate": "2025-04-02T18:30:00-04:00",
-      "endDate": "2025-04-02T21:30:00-04:00",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": 100,
-      "registrationRequired": true,
-      "tags": [],
-      "image": "luma-event-1ef73eb2.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://lu.ma/hj4wfh8n",
-        "speakers": [
-          {
-            "name": "Christina Perla",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Paul Vizzio",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Anthony Dzaba",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Hyperstition Incorporated",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Christina Perla",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Paul Vizzio",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Anthony Dzaba",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Hyperstition Incorporated",
-            "title": "",
-            "bio": ""
-          }
-        ],
-        "venue": {
-          "name": "Makelab | 3D Manufacturing Services325 Gold St, Brooklyn, NY 11201, USA",
-          "address": "325 Gold St, Brooklyn, NY 11201, USA",
-          "type": "Offline",
-          "room": "",
-          "additional_info": ""
-        },
-        "featured": false,
-        "social_links": [
-          "https://linkedin.com/company/ny-hardware-meetup",
-          "https://linktr.ee/nyhardware",
-          "https://instagram.com/christinaperla",
-          "https://instagram.com/vizengnyc",
-          "https://x.com/vizengnyc",
-          "https://x.com/andercot",
-          "https://linkedin.com/company/ny-hardware-meetup",
-          "https://linktr.ee/nyhardware",
-          "https://instagram.com/christinaperla",
-          "https://instagram.com/vizengnyc",
-          "https://x.com/vizengnyc",
-          "https://x.com/andercot"
-        ]
-      }
-    },
-    {
       "id": "evt_com_ny_hardware_3502c606",
       "name": "105th NY Hardware Meetup",
       "type": "Tech",
@@ -369,7 +278,7 @@
       "type": "Tech",
       "locationId": "loc_tbd",
       "communityId": "com_la_creme_stem",
-      "description": "​Join us for an exclusive networking opportunity designed specifically for startups and investors. This event brings together innovative tech companies from around the world, connecting them with key stakeholders in the U.S. startup ecosystem.",
+      "description": "​Join La Creme de la STEM™ and Startup Grind for a relaxed evening of networking and conversation at our \"Walk and Talk\" event, happening during SelectUSA at the Gaylord National Resort & Convention Center. Whether you're an entrepreneur or investor located in the DMV area, or attending SelectUSA, this is your chance to connect with like-minded professionals, exchange ideas, and build meaningful relationships in a casual, welcoming atmosphere.​This gathering is the perfect opportunity to unwind after a busy day, share your experiences, and explore new opportunities. We look forward to seeing you there!",
       "startDate": "2025-05-12T18:00:00-04:00",
       "endDate": "2025-05-12T20:00:00-04:00",
       "category": [
@@ -384,7 +293,7 @@
       "capacity": 100,
       "registrationRequired": true,
       "tags": [],
-      "image": "luma-event-02229062.jpg",
+      "image": "luma-event-3032edb3.jpg",
       "status": "upcoming",
       "metadata": {
         "source_url": "https://lu.ma/e/evt-RyMqZ5fnBw4d8zR",
@@ -867,63 +776,6 @@
           "https://linkedin.com/company/genztea",
           "https://genztea.squarespace.com/",
           "https://instagram.com/Yes"
-        ]
-      }
-    },
-    {
-      "id": "evt_com_acid_club_45c6b7c1",
-      "name": "aci-d club weekly hang 018 *on wednesday now*",
-      "type": "Tech",
-      "locationId": "loc_tbd",
-      "communityId": "com_acid_club",
-      "description": "​WE'RE MOVING HANGS TO WEDNESDAYS FOR A BIT​Have a creative project you’ve been wanting to work on but can’t quite make the time for? Want to meet other designers in the city? Come hang with us!Show up with ideas and materials, leave with progress made, and a new friend or two.AGENDA7:00-7:30: intros7:30-8:30: work on (or start) a design project!8:30-9:00+: break into groups, share your WIPs, chat, mingle—Hosted attelos.haus",
-      "startDate": "2025-04-02T18:45:00-04:00",
-      "endDate": "2025-04-02T21:00:00-04:00",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": 100,
-      "registrationRequired": true,
-      "tags": [],
-      "image": "luma-event-e505e8ab.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://lu.ma/e/evt-0kQ0pVFT8G4Blzu",
-        "speakers": [
-          {
-            "name": "aci-d club",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "aci-d club",
-            "title": "",
-            "bio": ""
-          }
-        ],
-        "venue": {
-          "name": "Please register to see the exact location of this event.",
-          "address": "Kings County, New York",
-          "type": "Online",
-          "room": "",
-          "additional_info": ""
-        },
-        "featured": false,
-        "social_links": [
-          "https://instagram.com/aci_d.club",
-          "https://x.com/aci_dclub",
-          "https://aci-d.club",
-          "https://instagram.com/aci_d.club",
-          "https://instagram.com/aci_d.club",
-          "https://x.com/aci_dclub",
-          "https://aci-d.club",
-          "https://instagram.com/aci_d.club"
         ]
       }
     },

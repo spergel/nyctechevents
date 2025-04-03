@@ -1,42 +1,6 @@
 {
   "events": [
     {
-      "id": "evt_pioneer_b852239f",
-      "name": "YATTA & HxH",
-      "type": "Cultural Event",
-      "locationId": "loc_pioneer_works",
-      "communityId": "com_pioneer_works",
-      "description": "Pioneer Works is excited to present a joint record release show by alumni music residents YATTA and HxH. YATTA will be celebrating the release of their ...",
-      "startDate": "2025-04-03T00:00:00+00:00",
-      "endDate": "2025-04-03T03:00:00+00:00",
-      "category": [
-        "Arts",
-        "Music",
-        "Science"
-      ],
-      "price": null,
-      "registrationRequired": true,
-      "tags": [],
-      "image": [
-        "https://cdn.sanity.io/images/vgvol637/production/3e2692d712ed5d2fad46afb505a203ffd5598636-2880x1905.jpg?w=800"
-      ],
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://pioneerworks.org/programs/yatta-and-hxh",
-        "organizer": {
-          "name": "Pioneer Works",
-          "instagram": "@pioneerworks",
-          "email": "info@pioneerworks.org"
-        },
-        "venue": {
-          "name": "Pioneer Works",
-          "address": "159 Pioneer Street",
-          "type": "Cultural Institution"
-        },
-        "featured": false
-      }
-    },
-    {
       "id": "evt_pioneer_7e29d128",
       "name": "Moses Sumney ",
       "type": "Cultural Event",
@@ -253,14 +217,14 @@
       }
     },
     {
-      "id": "evt_pioneer_79044948",
-      "name": "Village Fête 2025",
+      "id": "evt_pioneer_1269a082",
+      "name": "Village Fête After Party 2025",
       "type": "Cultural Event",
       "locationId": "loc_pioneer_works",
       "communityId": "com_pioneer_works",
-      "description": "Pioneer Works and our Board of Directors invite you to join us on Tuesday, May 6 in celebration of the semi-centennial of our Founder, Dustin Yellin. Ra...",
+      "description": "Join us in celebrating Pioneer Works at the 2025 Village Fête After Party.The must-attend finale to our annual gala will include an electrifying perform...",
       "startDate": "2025-05-06T23:00:00+00:00",
-      "endDate": "2025-05-07T03:00:00+00:00",
+      "endDate": "2025-05-08T03:00:00+00:00",
       "category": [
         "Arts",
         "Music",
@@ -270,11 +234,11 @@
       "registrationRequired": true,
       "tags": [],
       "image": [
-        "https://cdn.sanity.io/images/vgvol637/production/8b406d24c53c48b45db4fdd102e5a8f0f3d26fd6-2000x2284.jpg?w=800"
+        "https://cdn.sanity.io/images/vgvol637/production/bc783d45458a39ea87d877571ab614b18a42e0e9-8000x4000.jpg?w=800"
       ],
       "status": "upcoming",
       "metadata": {
-        "source_url": "https://pioneerworks.org/programs/village-fete-2025",
+        "source_url": "https://pioneerworks.org/programs/village-fete-afterparty-2025",
         "organizer": {
           "name": "Pioneer Works",
           "instagram": "@pioneerworks",
