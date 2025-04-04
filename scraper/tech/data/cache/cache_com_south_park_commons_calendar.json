@@ -212,6 +212,85 @@
         "featured": false,
         "luma_source": true
       }
+    },
+    {
+      "id": "evt_com_south_park_commons__clr78bb",
+      "name": "Attention in the Age of AI with Gary Vaynerchuk",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_south_park_commons",
+      "description": "\u200bJoin South Park Commons &Gary Vaynerchukfor discussion and Q&A on marketing yourself in the age of artificial intelligence. You don't want to miss this one!About Gary:Gary Vaynerchuk is a serial entrepreneur and serves as the Chairman of VaynerX, the CEO of VaynerMedia, and the CEO and creator of VeeFriends. Gary is considered one of the leading global minds on what's next in culture, business, and the internet.\u200bKnown as \"GaryVee,\" he acutely recognizes trends and patterns early to help others understand how shifts in consumer attention impact the realities of the business world today. Gary's approach sits at the intersection of business and pop culture. He keenly understands how to bring brand relevance to the forefront. He is a prolific angel investor with early investments in companies like Facebook, Twitter, Tumblr, Venmo, Snapchat, Coinbase, and Uber.Gary is an entrepreneur at heart \u2013 he builds businesses. Today, he helps Fortune 1000 brands leverage consumer attention through his full-service advertising agency, VaynerMedia. Gary is the Co-Founder of VaynerSports, VCR Group, VaynerWatt, ArtOfficial, Resy, and Empathy Wines. He guided Resy and Empathy to successful exits, which he later sold to American Express and Constellation Brands, respectively. He also owns a Major League Pickleball team called the 5s, is part owner of a Big3 basketball team, and is an investor in the revival of the SlamBall League. In 2021, Gary created VeeFriends, an entertainment company that has become a rising powerhouse in modern entertainment and collectibles.Gary is also the founder and creator of VeeCon \u2013 a contemporary super conference that converges business and pop culture with innovation and technology. He is a six-time New York Times bestselling author, with titles includingCrush It!,Jab, Jab, Jab, Right Hook,Twelve and a Half and Day Trading Attention. In addition to running multiple businesses, Gary documents his daily life as a CEO through his social media channels, which have more than 45 million followers and garner more than 300 million monthly impressions/views across all platforms.\u200bPlease RSVP soon, space is limited & approval is required.If you have a question you'd like Gary to answer, please submit it during your registration.",
+      "startDate": "2025-04-23T22:00:00Z",
+      "endDate": "2025-04-24T00:00:00Z",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "luma-event-7de71c0f.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/gary-v-spc",
+        "organizer": {
+          "name": "South Park Commons",
+          "instagram": "",
+          "email": "bfptu3ajdae5cc2k16cvs1amenbft762@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "Please register to see the exact location of this event.\nNew York, New York",
+          "type": "Online"
+        },
+        "speakers": [
+          {
+            "name": "South Park Commons",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Dylan Itzikowitz",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "South Park Commons",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Dylan Itzikowitz",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "social_links": [
+          "https://instagram.com/southparkcommons",
+          "https://x.com/southpkcommons",
+          "https://youtube.com/@southparkcommons",
+          "https://linkedin.com/company/southparkcommons",
+          "https://www.southparkcommons.com/",
+          "https://instagram.com/southparkcommons",
+          "https://x.com/southpkcommons",
+          "https://x.com/ditzikow",
+          "https://instagram.com/southparkcommons",
+          "https://x.com/southpkcommons",
+          "https://youtube.com/@southparkcommons",
+          "https://linkedin.com/company/southparkcommons",
+          "https://www.southparkcommons.com/",
+          "https://instagram.com/southparkcommons",
+          "https://x.com/southpkcommons",
+          "https://x.com/ditzikow"
+        ],
+        "featured": false,
+        "luma_source": true
+      }
     }
   ]
 }

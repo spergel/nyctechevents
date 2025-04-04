@@ -662,13 +662,13 @@
     },
     {
       "id": "evt_com_fractal__clr78bb",
-      "name": "Sfânt's Spring Revelry",
+      "name": "Weekly Sunday Co-Gardening | Spring Season 🌸",
       "type": "Tech",
       "locationId": "loc_fractal",
       "communityId": "com_fractal",
-      "description": "​Event​Join us atSfânt's Spring Revelryas we expand to a new, much bigger space for our 5th popup! Soak up the spring sunshine on the rooftop, enjoy a cozy corner with a book on the living room's couches, or find collaborators to aid you on your latest sidequest.​What is Sfânt?​Sfânt is a popup cafe serving modern coffee and tea beverages. All profits are donated to charity. We feature frequent collaborators, such as pastry chefs, ambiance engineers, and tattoo artists.Come learn about coffee and enjoy some, might we say, excellent beverages!See our last popup's recap on ourInstagram.​Menu​Emily, fresh from her stint as a pastry chef at Momoya, has something special baking for this event.​For coffee, we're brewing up something extraordinary for this celebration... it involves some snazzyclarification:O ;)",
-      "startDate": "2025-05-03T15:00:00Z",
-      "endDate": "2025-05-03T19:30:00Z",
+      "description": "​We're meeting up every Sunday afternoon this Spring to tend the garden on the roof of the Fractal Tech Hub (weather permitting).Bring snacks to share, supplies for the garden, plants to plant, or just bring yourself ready to be put to work.​Join the groupchat:https://chat.whatsapp.com/HhSgjGQskNcJ8hAyKh9YyW​​More information on the Fractal Garden Website:http://garden.fractaltechhub.com/",
+      "startDate": "2025-06-01T19:00:00Z",
+      "endDate": "2025-06-01T21:30:00Z",
       "category": [
         "Tech"
       ],
@@ -681,10 +681,10 @@
       "capacity": null,
       "registrationRequired": false,
       "tags": "",
-      "image": "luma-event-b86d807c.jpg",
+      "image": "luma-event-ba13ea05.jpg",
       "status": "upcoming",
       "metadata": {
-        "source_url": "https://lu.ma/cgv46fil",
+        "source_url": "https://lu.ma/nliculft",
         "organizer": {
           "name": "Fractal Tech: NYC",
           "instagram": "",
@@ -697,21 +697,19 @@
         },
         "speakers": [
           {
-            "name": "Andrei Stoica",
+            "name": "Anthony Castrio 💯",
             "title": "",
             "bio": ""
           },
           {
-            "name": "Andrei Stoica",
+            "name": "Anthony Castrio 💯",
             "title": "",
             "bio": ""
           }
         ],
         "social_links": [
-          "https://instagram.com/adr.stc",
-          "https://x.com/andreistoica_",
-          "https://instagram.com/adr.stc",
-          "https://x.com/andreistoica_"
+          "https://x.com/AnthonyCastrio",
+          "https://x.com/AnthonyCastrio"
         ],
         "featured": false,
         "luma_source": true
@@ -719,13 +717,13 @@
     },
     {
       "id": "evt_com_fractal__clr78ba",
-      "name": "Code and Coffee Hackathon",
+      "name": "Weekly Sunday Co-Gardening | Spring Season 🌸",
       "type": "Tech",
       "locationId": "loc_fractal",
       "communityId": "com_fractal",
-      "description": "​Please sign up here:https://www.meetup.com/new-york-code-coffee/events/306632486/?eventOrigin=group_upcoming_events​Join us for an exciting day of coding, collaboration, and coffee in the heart of New York City. This event is perfect for software engineers, designers, and enthusiasts alike.",
-      "startDate": "2025-05-18T16:00:00Z",
-      "endDate": "2025-05-18T21:00:00Z",
+      "description": "​We're meeting up every Sunday afternoon this Spring to tend the garden on the roof of the Fractal Tech Hub (weather permitting).Bring snacks to share, supplies for the garden, plants to plant, or just bring yourself ready to be put to work.​Join the groupchat:https://chat.whatsapp.com/HhSgjGQskNcJ8hAyKh9YyW​​More information on the Fractal Garden Website:http://garden.fractaltechhub.com/",
+      "startDate": "2025-06-08T19:00:00Z",
+      "endDate": "2025-06-08T21:30:00Z",
       "category": [
         "Tech"
       ],
@@ -738,10 +736,10 @@
       "capacity": null,
       "registrationRequired": false,
       "tags": "",
-      "image": "luma-event-71a2245e.jpg",
+      "image": "luma-event-ba13ea05.jpg",
       "status": "upcoming",
       "metadata": {
-        "source_url": "https://lu.ma/u6rdfq50",
+        "source_url": "https://lu.ma/898jqka5",
         "organizer": {
           "name": "Fractal Tech: NYC",
           "instagram": "",
@@ -754,17 +752,20 @@
         },
         "speakers": [
           {
-            "name": "Charles Inwald",
+            "name": "Anthony Castrio 💯",
             "title": "",
             "bio": ""
           },
           {
-            "name": "Charles Inwald",
+            "name": "Anthony Castrio 💯",
             "title": "",
             "bio": ""
           }
         ],
-        "social_links": [],
+        "social_links": [
+          "https://x.com/AnthonyCastrio",
+          "https://x.com/AnthonyCastrio"
+        ],
         "featured": false,
         "luma_source": true
       }
@@ -877,47 +878,6 @@
         ],
         "featured": false,
         "luma_source": true
-      }
-    },
-    {
-      "id": "evt_com_telos_4sb2h04l",
-      "name": "love & video games",
-      "type": "Tech",
-      "locationId": "",
-      "communityId": "com_telos",
-      "description": "an experimental video game salon where journalists read poems and essays about the topic of love in video games",
-      "startDate": "2025-04-03T18:30:00-04:00",
-      "endDate": "2025-04-03T21:00:00-04:00",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": "",
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.google.com/calendar/event?eid=NHNiMmgwNGwwNTJnM3FpNTlvbWU2aWVwYjcgZDU5NmMyYmY3MjExODNkMjJiYjUwYmRlNjYyNTA5MGZjMzkyM2FhMjlhNjkxOGQ3ODQwOWUxNjhkYTc5MTc2OUBn",
-        "organizer": {
-          "name": "telos.haus events",
-          "instagram": "",
-          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "https://www.instagram.com/p/DHXKXnCuxyQ/",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false
       }
     },
     {
@@ -1952,8 +1912,8 @@
       "locationId": "",
       "communityId": "com_nyc_resistor",
       "description": "",
-      "startDate": "2025-06-17T11:00:00-04:00",
-      "endDate": "2025-06-17T15:00:00-04:00",
+      "startDate": "2025-07-01T11:00:00-04:00",
+      "endDate": "2025-07-01T15:00:00-04:00",
       "category": [
         "Tech"
       ],
@@ -1969,7 +1929,7 @@
       "image": "",
       "status": "upcoming",
       "metadata": {
-        "source_url": "https://www.google.com/calendar/event?eid=Xzg1Mms2ZDlnNmgzNDJiOWc4OHEzNGI5azZoMjMyYmEyOGQzMzhiYTY2NG8zZ2U5bDc0bzQ4Z3BnNm9fMjAyNTA2MTdUMTUwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn",
+        "source_url": "https://www.google.com/calendar/event?eid=Xzg1Mms2ZDlnNmgzNDJiOWc4OHEzNGI5azZoMjMyYmEyOGQzMzhiYTY2NG8zZ2U5bDc0bzQ4Z3BnNm9fMjAyNTA3MDFUMTUwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn",
         "organizer": {
           "name": "",
           "instagram": "",
@@ -2526,8 +2486,8 @@
       "locationId": "",
       "communityId": "com_nyc_resistor",
       "description": "",
-      "startDate": "2025-04-22T18:30:00-04:00",
-      "endDate": "2025-04-22T20:00:00-04:00",
+      "startDate": "2025-06-03T18:30:00-04:00",
+      "endDate": "2025-06-03T20:00:00-04:00",
       "category": [
         "Tech"
       ],
@@ -2690,8 +2650,8 @@
       "locationId": "",
       "communityId": "com_nyc_resistor",
       "description": "",
-      "startDate": "2025-04-27T14:00:00-04:00",
-      "endDate": "2025-04-27T17:00:00-04:00",
+      "startDate": "2025-04-27T13:00:00-04:00",
+      "endDate": "2025-04-27T16:00:00-04:00",
       "category": [
         "Tech"
       ],
@@ -2854,8 +2814,8 @@
       "locationId": "",
       "communityId": "com_nyc_resistor",
       "description": "",
-      "startDate": "2025-06-04",
-      "endDate": "2025-06-05",
+      "startDate": "2025-07-02",
+      "endDate": "2025-07-03",
       "category": [
         "Tech"
       ],
@@ -2871,7 +2831,7 @@
       "image": "",
       "status": "upcoming",
       "metadata": {
-        "source_url": "https://www.google.com/calendar/event?eid=NHFwZW9zODU5dDc1dmg2bDQyZTVtdWtoN2dfMjAyNTA2MDQgcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw",
+        "source_url": "https://www.google.com/calendar/event?eid=NHFwZW9zODU5dDc1dmg2bDQyZTVtdWtoN2dfMjAyNTA3MDIgcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw",
         "organizer": {
           "name": "NYCResistor",
           "instagram": "",
@@ -3054,13 +3014,13 @@
     },
     {
       "id": "evt_com_south_park_commons__clr78bb",
-      "name": "Mike Krieger and the Future of AI Product",
+      "name": "Attention in the Age of AI with Gary Vaynerchuk",
       "type": "Tech",
       "locationId": "",
       "communityId": "com_south_park_commons",
-      "description": "​Join SPC for an off the record conversation with Mike Krieger, Chief Product Officer at Anthropic. This is the final event of the SPC x Anthropic Hackathon. All approved hackers who complete a project are guaranteed admission to the fireside chat- registerhereto hack.​​​​​Event Details​​​​​​​3:00pm:Doors open​3:30-4:30pm:Fireside Chat with Mike Krieger​Priority is given to SPC members, alumni andhackathon participants.​Mike Krieger,CPOMike Krieger is the Chief Product Officer at Anthropic, joining the executive team in May 2024. Mike co-founded Instagram and served as its CTO. At Instagram, he focused on building a broad range of products to help people connect with their interests and share their passions. As CTO, Mike grew the engineering organization to more than 450 employees across Instagram's offices in Menlo Park, San Francisco, and New York. Mike is a native of São Paulo, Brazil, Mike speaks fluent Portuguese. He holds an MS in Symbolic Systems from Stanford University and currently resides in San Francisco.​​South Park Commons is a home for the most talented technologists, builders, and domain-experts figuring out what's next—a community designed to turn the chaos of possibility into the clarity of conviction. Learn morehere.",
-      "startDate": "2025-04-15T22:00:00Z",
-      "endDate": "2025-04-16T00:00:00Z",
+      "description": "​Join South Park Commons &Gary Vaynerchukfor discussion and Q&A on marketing yourself in the age of artificial intelligence. You don't want to miss this one!About Gary:Gary Vaynerchuk is a serial entrepreneur and serves as the Chairman of VaynerX, the CEO of VaynerMedia, and the CEO and creator of VeeFriends. Gary is considered one of the leading global minds on what's next in culture, business, and the internet.​Known as \"GaryVee,\" he acutely recognizes trends and patterns early to help others understand how shifts in consumer attention impact the realities of the business world today. Gary's approach sits at the intersection of business and pop culture. He keenly understands how to bring brand relevance to the forefront. He is a prolific angel investor with early investments in companies like Facebook, Twitter, Tumblr, Venmo, Snapchat, Coinbase, and Uber.Gary is an entrepreneur at heart – he builds businesses. Today, he helps Fortune 1000 brands leverage consumer attention through his full-service advertising agency, VaynerMedia. Gary is the Co-Founder of VaynerSports, VCR Group, VaynerWatt, ArtOfficial, Resy, and Empathy Wines. He guided Resy and Empathy to successful exits, which he later sold to American Express and Constellation Brands, respectively. He also owns a Major League Pickleball team called the 5s, is part owner of a Big3 basketball team, and is an investor in the revival of the SlamBall League. In 2021, Gary created VeeFriends, an entertainment company that has become a rising powerhouse in modern entertainment and collectibles.Gary is also the founder and creator of VeeCon – a contemporary super conference that converges business and pop culture with innovation and technology. He is a six-time New York Times bestselling author, with titles includingCrush It!,Jab, Jab, Jab, Right Hook,Twelve and a Half and Day Trading Attention. In addition to running multiple businesses, Gary documents his daily life as a CEO through his social media channels, which have more than 45 million followers and garner more than 300 million monthly impressions/views across all platforms.​Please RSVP soon, space is limited & approval is required.If you have a question you'd like Gary to answer, please submit it during your registration.",
+      "startDate": "2025-04-23T22:00:00Z",
+      "endDate": "2025-04-24T00:00:00Z",
       "category": [
         "Tech"
       ],
@@ -3073,10 +3033,10 @@
       "capacity": null,
       "registrationRequired": false,
       "tags": "",
-      "image": "luma-event-0c84a215.jpg",
+      "image": "luma-event-7de71c0f.jpg",
       "status": "upcoming",
       "metadata": {
-        "source_url": "https://lu.ma/mike-krieger-spc",
+        "source_url": "https://lu.ma/gary-v-spc",
         "organizer": {
           "name": "South Park Commons",
           "instagram": "",
@@ -3084,7 +3044,7 @@
         },
         "venue": {
           "name": "",
-          "address": "Please register to see the exact location of this event.\nSan Francisco, California",
+          "address": "Please register to see the exact location of this event.\nNew York, New York",
           "type": "Online"
         },
         "speakers": [
@@ -3094,7 +3054,17 @@
             "bio": ""
           },
           {
+            "name": "Dylan Itzikowitz",
+            "title": "",
+            "bio": ""
+          },
+          {
             "name": "South Park Commons",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Dylan Itzikowitz",
             "title": "",
             "bio": ""
           }
@@ -3107,13 +3077,15 @@
           "https://www.southparkcommons.com/",
           "https://instagram.com/southparkcommons",
           "https://x.com/southpkcommons",
+          "https://x.com/ditzikow",
           "https://instagram.com/southparkcommons",
           "https://x.com/southpkcommons",
           "https://youtube.com/@southparkcommons",
           "https://linkedin.com/company/southparkcommons",
           "https://www.southparkcommons.com/",
           "https://instagram.com/southparkcommons",
-          "https://x.com/southpkcommons"
+          "https://x.com/southpkcommons",
+          "https://x.com/ditzikow"
         ],
         "featured": false,
         "luma_source": true
@@ -3664,6 +3636,88 @@
       "status": "upcoming",
       "metadata": {
         "source_url": "https://www.google.com/calendar/event?eid=NDY5OG9sdDMxajlnbm9vZnBvaGlvYmE4ZzkgcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw",
+        "organizer": {
+          "name": "NYCResistor",
+          "instagram": "",
+          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
+      "id": "evt_com_nyc_resistor_hhf8hh3q",
+      "name": "Electronics 14",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_nyc_resistor",
+      "description": "Vaccination Proof + Mask + RSVP Required\nRSVP https://www.eventbrite.com/e/electronics-14-tickets-1312020611969\n\nhardware electronic music partyAPR 5, NYC RESISTORFEATURING\ngovernor vomit\ndj chainwallet\nslacksaw\nfossil christ\ngork\nredneck princess\nnbjp\n\nCOME LISTEN TO HARDWARE\nMUSIC\nOPEN DEX/MIXER B4 &amp; BTWEEN SETS\nNOTAFLOF PLS DONATE IF U CAN\n\nThis is a masks optional event.\n\nAs with all NYC Resistor events, this class is 18+ and governed by our Code of Conduct. The Code of Conduct, as well as accessibility information, can be found at www.nycresistor.com/participate/.\nPlease note that refunds must be requested 24 hours in advance. If you have any questions, please email classes@nycresistor.com.\n",
+      "startDate": "2025-04-05T20:00:00-04:00",
+      "endDate": "2025-04-06T03:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": true,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.eventbrite.com/e/electronics-14-tickets-1312020611969",
+        "organizer": {
+          "name": "NYCResistor",
+          "instagram": "",
+          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "NYCResistor\n87 3rd Ave\nBrooklyn, NY 11217",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
+      "id": "evt_com_nyc_resistor_6hgm4e9p",
+      "name": "HOLD: Networking Event (Yonatan & AJ)",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_nyc_resistor",
+      "description": "",
+      "startDate": "2025-04-25T18:30:00-04:00",
+      "endDate": "2025-04-25T20:30:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.google.com/calendar/event?eid=NmhnbTRlOXA2Z29tYWJiNDYwbzYyYjlrY2dybWFiOXBjNWkzMGJiMmM4cG1hY2o0NzBxamdjcGs2byBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn",
         "organizer": {
           "name": "NYCResistor",
           "instagram": "",

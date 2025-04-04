@@ -1,88 +1,6 @@
 {
   "events": [
     {
-      "id": "evt_com_nyc_resistor_3u52iogs",
-      "name": "NYCR Craft Night",
-      "type": "Tech",
-      "locationId": "",
-      "communityId": "com_nyc_resistor",
-      "description": "<u></u><p>NYC Resistor is open to the public for Craft Nights now every Monday and Thursday from 6:30-9:30 PM! Come bring your current crafting project and work on it with other artists, crafters, and makers of all kinds. Resistors do everything from costumes to electronics to visual arts to woodworking; people and crafting projects of all sorts are enthusiastically welcome!</p><p>RSVP at<span> <a href=\"https://www.google.com/url?q=https://www.eventbrite.com/e/public-craft-night-mondays-and-thursdays-tickets-162729866411&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw2GxlHrVKU2UOWuOdKbNOj5\" target=\"_blank\">https://www.eventbrite.com/e/public-craft-night-mondays-and-thursdays-tickets-162729866411</a></span> is appreciated but not required, for covid contact-tracing purposes.<br></p>This event like all NYC Resistor events is 18 and over and governed by out code of conduct. <br><br>More information: <a href=\"https://www.google.com/url?q=http://www.nycresistor.com/participate/&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw2qoLIc6c_Ay1xuc_FYjEZH\" target=\"_blank\">http://www.nycresistor.com/participate/</a><br>NYC Resistor Code of Conduct: <a href=\"https://www.google.com/url?q=http://www.nycresistor.com/2015/08/04/nyc-resistor-code-of-conduct/&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw1hCVO6yP0-Y--CtV5nrIw_\" target=\"_blank\">http://www.nycresistor.com/2015/08/04/nyc-resistor-code-of-conduct/</a><u></u><u></u><u></u><u></u><u></u>",
-      "startDate": "2025-04-03T18:30:00-04:00",
-      "endDate": "2025-04-03T21:30:00-04:00",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": true,
-      "tags": "",
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.eventbrite.com/e/public-craft-night-mondays-and-thursdays-tickets-162729866411&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw2GxlHrVKU2UOWuOdKbNOj5\"",
-        "organizer": {
-          "name": "NYCResistor",
-          "instagram": "",
-          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false
-      }
-    },
-    {
-      "id": "evt_com_nyc_resistor_211mpik0",
-      "name": "",
-      "type": "Tech",
-      "locationId": "",
-      "communityId": "com_nyc_resistor",
-      "description": "",
-      "startDate": "2025-04-03T20:00:00-04:00",
-      "endDate": "2025-04-03T21:00:00-04:00",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": "",
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.google.com/calendar/event?eid=MjExbXBpazAwdXQ4MTVrZ3FuMjExcm8wcTJfMjAyNTA0MDRUMDAwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn",
-        "organizer": {
-          "name": "",
-          "instagram": "",
-          "email": ""
-        },
-        "venue": {
-          "name": "",
-          "address": "",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false
-      }
-    },
-    {
       "id": "evt_com_nyc_resistor_0iqqft47",
       "name": "Masks On Craft Night",
       "type": "Tech",
@@ -165,14 +83,14 @@
       }
     },
     {
-      "id": "evt_com_nyc_resistor_4lh4cb8a",
-      "name": "HOLD: Meal Prep",
+      "id": "evt_com_nyc_resistor_hhf8hh3q",
+      "name": "Electronics 14",
       "type": "Tech",
       "locationId": "",
       "communityId": "com_nyc_resistor",
-      "description": "",
-      "startDate": "2025-04-06",
-      "endDate": "2025-04-07",
+      "description": "Vaccination Proof + Mask + RSVP Required\nRSVP https://www.eventbrite.com/e/electronics-14-tickets-1312020611969\n\nhardware electronic music partyAPR 5, NYC RESISTORFEATURING\ngovernor vomit\ndj chainwallet\nslacksaw\nfossil christ\ngork\nredneck princess\nnbjp\n\nCOME LISTEN TO HARDWARE\nMUSIC\nOPEN DEX/MIXER B4 &amp; BTWEEN SETS\nNOTAFLOF PLS DONATE IF U CAN\n\nThis is a masks optional event.\n\nAs with all NYC Resistor events, this class is 18+ and governed by our Code of Conduct. The Code of Conduct, as well as accessibility information, can be found at www.nycresistor.com/participate/.\nPlease note that refunds must be requested 24 hours in advance. If you have any questions, please email classes@nycresistor.com.\n",
+      "startDate": "2025-04-05T20:00:00-04:00",
+      "endDate": "2025-04-06T03:00:00-04:00",
       "category": [
         "Tech"
       ],
@@ -183,12 +101,12 @@
         "details": ""
       },
       "capacity": null,
-      "registrationRequired": false,
+      "registrationRequired": true,
       "tags": "",
       "image": "",
       "status": "upcoming",
       "metadata": {
-        "source_url": "https://www.google.com/calendar/event?eid=NGxoNGNiOGE3dHByamUzM2o5b29tYmV2YnEgcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw",
+        "source_url": "https://www.eventbrite.com/e/electronics-14-tickets-1312020611969",
         "organizer": {
           "name": "NYCResistor",
           "instagram": "",
@@ -196,7 +114,7 @@
         },
         "venue": {
           "name": "",
-          "address": "",
+          "address": "NYCResistor\n87 3rd Ave\nBrooklyn, NY 11217",
           "type": "Offline"
         },
         "speakers": [],
@@ -1272,47 +1190,6 @@
       }
     },
     {
-      "id": "evt_com_nyc_resistor__74qk6e2",
-      "name": "MY LOCALHOST TALK",
-      "type": "Tech",
-      "locationId": "",
-      "communityId": "com_nyc_resistor",
-      "description": "",
-      "startDate": "2025-04-22T18:30:00-04:00",
-      "endDate": "2025-04-22T20:00:00-04:00",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": "",
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.google.com/calendar/event?eid=Xzc0cWs2ZTI1NmwwazhiOWc3MTJrYWI5azZ0MGsyYjlwNjRxamNiOW44OTBqOGUxajhnbzQ0ZGhsOG8gcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw",
-        "organizer": {
-          "name": "NYCResistor",
-          "instagram": "",
-          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false
-      }
-    },
-    {
       "id": "evt_com_nyc_resistor_o7gr4m5d",
       "name": "NYCResistor Ham Radio Club",
       "type": "Tech",
@@ -1436,6 +1313,47 @@
       }
     },
     {
+      "id": "evt_com_nyc_resistor_6hgm4e9p",
+      "name": "HOLD: Networking Event (Yonatan & AJ)",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_nyc_resistor",
+      "description": "",
+      "startDate": "2025-04-25T18:30:00-04:00",
+      "endDate": "2025-04-25T20:30:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.google.com/calendar/event?eid=NmhnbTRlOXA2Z29tYWJiNDYwbzYyYjlrY2dybWFiOXBjNWkzMGJiMmM4cG1hY2o0NzBxamdjcGs2byBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn",
+        "organizer": {
+          "name": "NYCResistor",
+          "instagram": "",
+          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
       "id": "evt_com_nyc_resistor_bac78a78",
       "name": "HOLD: RayTK class",
       "type": "Tech",
@@ -1477,55 +1395,14 @@
       }
     },
     {
-      "id": "evt_com_nyc_resistor_59jqljs6",
-      "name": "HOLD: Meal Prep",
-      "type": "Tech",
-      "locationId": "",
-      "communityId": "com_nyc_resistor",
-      "description": "",
-      "startDate": "2025-04-27",
-      "endDate": "2025-04-28",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": "",
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.google.com/calendar/event?eid=NTlqcWxqczZwYTB0a2dhNmU1NHF1ZTA5dnQgcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw",
-        "organizer": {
-          "name": "NYCResistor",
-          "instagram": "",
-          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false
-      }
-    },
-    {
       "id": "evt_com_nyc_resistor_320uib7a",
       "name": "HOLD: DIY Audio",
       "type": "Tech",
       "locationId": "",
       "communityId": "com_nyc_resistor",
       "description": "",
-      "startDate": "2025-04-27T14:00:00-04:00",
-      "endDate": "2025-04-27T17:00:00-04:00",
+      "startDate": "2025-04-27T13:00:00-04:00",
+      "endDate": "2025-04-27T16:00:00-04:00",
       "category": [
         "Tech"
       ],
@@ -3076,6 +2953,47 @@
       }
     },
     {
+      "id": "evt_com_nyc_resistor__74qk6e2",
+      "name": "MY LOCALHOST TALK",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_nyc_resistor",
+      "description": "",
+      "startDate": "2025-06-03T18:30:00-04:00",
+      "endDate": "2025-06-03T20:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.google.com/calendar/event?eid=Xzc0cWs2ZTI1NmwwazhiOWc3MTJrYWI5azZ0MGsyYjlwNjRxamNiOW44OTBqOGUxajhnbzQ0ZGhsOG8gcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw",
+        "organizer": {
+          "name": "NYCResistor",
+          "instagram": "",
+          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
       "id": "evt_com_nyc_resistor_4qpeos85",
       "name": "Hold: Laser Cutting Class",
       "type": "Tech",
@@ -4088,6 +4006,88 @@
           "name": "",
           "instagram": "",
           "email": ""
+        },
+        "venue": {
+          "name": "",
+          "address": "",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
+      "id": "evt_com_nyc_resistor__852k6d9",
+      "name": "",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_nyc_resistor",
+      "description": "",
+      "startDate": "2025-07-01T11:00:00-04:00",
+      "endDate": "2025-07-01T15:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.google.com/calendar/event?eid=Xzg1Mms2ZDlnNmgzNDJiOWc4OHEzNGI5azZoMjMyYmEyOGQzMzhiYTY2NG8zZ2U5bDc0bzQ4Z3BnNm9fMjAyNTA3MDFUMTUwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn",
+        "organizer": {
+          "name": "",
+          "instagram": "",
+          "email": ""
+        },
+        "venue": {
+          "name": "",
+          "address": "",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
+      "id": "evt_com_nyc_resistor_4qpeos85",
+      "name": "Hold: Laser Cutting Class",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_nyc_resistor",
+      "description": "",
+      "startDate": "2025-07-02",
+      "endDate": "2025-07-03",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.google.com/calendar/event?eid=NHFwZW9zODU5dDc1dmg2bDQyZTVtdWtoN2dfMjAyNTA3MDIgcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw",
+        "organizer": {
+          "name": "NYCResistor",
+          "instagram": "",
+          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
         },
         "venue": {
           "name": "",
