@@ -1,63 +1,6 @@
 {
   "events": [
     {
-      "id": "evt_com_fractal__clr78bb",
-      "name": "Tea Conversations : New York edition",
-      "type": "Tech",
-      "locationId": "",
-      "communityId": "com_fractal",
-      "description": "\u200bHi friends!\u200bWelcome to Solei, a social teahouse concept that connects people from different walks of life.\u200bIt is your third place, your city\u2019s living room, where we sit down to talk to one another beyond small talk over a shared cup of tea (plus snacks!)\u200b\u2014\u200bWhat to expect:\u200bArrival (~15min):You\u2019ll be sat down in a group as you arrive while the host serves you tea.\u200bConversations (~75min):Chat with the group over tea and a few curated questions in a semi-structured manner (depending on the group size, we\u2019ll either speak as one group or break down into smaller groups). We\u2019ll also come together as a group to get to know who\u2019s in the room.\u200bFree flows (~30min):Grab more tea and have amazing conversations.\u200b\u2014\u200bThis is the first, of many, pop-up events to come. Thank you for checking us out early! Your ticket includes tea refills and snacks.\u200bDress comfortably (you may need to sit on the floor) and bring your lovely self. Try to come on time, if you are running late send a note to the host via Luma!\u200bLooking forward to meeting you,\u200bCoco\u200b\u200bIf you\u2019re curious on why we\u2019re doing this and the story behind this initiative, read this blog post:Slow Spaces for Conversation.\u200bOur website:http://dearsolei.com/",
-      "startDate": "2025-04-04T21:00:00Z",
-      "endDate": "2025-04-04T23:00:00Z",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": "",
-      "image": "luma-event-1d87cd30.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://lu.ma/jo03fi5l",
-        "organizer": {
-          "name": "Fractal Tech: NYC",
-          "instagram": "",
-          "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "Please register to see the exact location of this event.\nKings County, New York",
-          "type": "Online"
-        },
-        "speakers": [
-          {
-            "name": "Coco Liu",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Coco Liu",
-            "title": "",
-            "bio": ""
-          }
-        ],
-        "social_links": [
-          "https://instagram.com/chocokoala",
-          "https://x.com/cocobliu",
-          "https://instagram.com/chocokoala",
-          "https://x.com/cocobliu"
-        ],
-        "featured": false,
-        "luma_source": true
-      }
-    },
-    {
       "id": "evt_com_fractal__clr78b9",
       "name": "Weekly Sunday Co-Gardening | Spring Season \ud83c\udf38",
       "type": "Tech",
@@ -655,7 +598,7 @@
       "type": "Tech",
       "locationId": "loc_fractal",
       "communityId": "com_fractal",
-      "description": "\u200bA literary event and pop-up book fair alongside FarCon NYC.\u200bCome by for:\u200bLiterary themed beverages and refreshments.\u200bA curation of physical and digital fiction, nonfiction, poetry, and zines by authors and publishers in the Farcaster ecosystem.\u200bA selection of books curated by Well Read.\u200bA series of readings and author talks (presenters TBD!)\u200bGiveaways of rare print books and onchain limited digital editions.\u200bFractal NYC writers, please reach out to Amelie (amelie@alexandriabooks.com) if you'd like to showcase your work as part of the event!\u200bFeaturing:\u200bAlexandria Labs (alexandriabooks.com), the Library of Alexandria for onchain books\u200bDebbie Soon, author of Digital Mavericks (Wiley) and co-founder ofthehug.xyz(acq. by Art Domains)\u200bPhil Mohun, founder of Bright Moments,amps.fun, and Node Foundation--and creator of the /books channel on Farcaster!\u200bWell Read (https://wellread.pt/), a bilingual art & design bookstore, event space and meeting place located in Lisbon, Portugal",
+      "description": "\u200bA literary event and pop-up book fair during FarCon NYC (farcon.nyc), uniting writers, readers, and builders in a global celebration of books, culture, and onchain storytelling.\u200bCome by for:\u200bLiterary themed beverages and refreshments.\u200bA curation of physical and digital fiction, nonfiction, poetry, and zines by authors and publishers in the Farcaster ecosystem.\u200bA selection of books curated by Well Read.\u200bA series of readings and author talks (presenters TBD!)\u200bGiveaways of rare print books and onchain limited digital editions.\u200bFractal NYC writers, please reach out to Amelie (amelie@alexandriabooks.com) if you'd like to showcase your work as part of the event!\u200bFeaturing:\u200bAlexandria Labs (alexandriabooks.com), the Library of Alexandria for onchain books\u200bDebbie Soon, Singaporean author of Digital Mavericks (Wiley) and co-founder ofthehug.xyz(acq. by Art Domains)\u200bPhil Mohun, founder of Bright Moments,amps.fun, and Node Foundation--and creator of the /books channel on Farcaster!\u200bWell Read (https://wellread.pt/), a bilingual art & design bookstore, event space and meeting place located in Lisbon, Portugal",
       "startDate": "2025-05-03T21:00:00Z",
       "endDate": "2025-05-04T00:00:00Z",
       "category": [

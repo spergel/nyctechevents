@@ -1,47 +1,6 @@
 {
   "events": [
     {
-      "id": "evt_com_nyc_resistor_0iqqft47",
-      "name": "Masks On Craft Night",
-      "type": "Tech",
-      "locationId": "",
-      "communityId": "com_nyc_resistor",
-      "description": "All the fun of a regular craft night with the added safety of a masks-required environment.<br><br>Free (and optional) tickets are available here:\u00a0<a href=\"https://www.google.com/url?q=https://www.eventbrite.com/e/public-craft-night-1st-fridays-and-3rd-wednesdays-of-the-month-masks-on-tickets-623419182557&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw30wJgCOHNVYdmKOTp_roao\" target=\"_blank\">https://www.eventbrite.com/e/public-craft-night-1st-fridays-and-3rd-wednesdays-of-the-month-masks-on-tickets-623419182557</a><br><br>This event, like all NYC Resistor events is 18 and over and governed by out code of conduct.\u00a0<br><br>More information:\u00a0<a href=\"https://www.google.com/url?q=http://www.nycresistor.com/participate/&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw1wUIUV1qFGFLwgIAX6dIkL\" target=\"_blank\"><u>http://www.nycresistor.com/participate/</u></a><br>NYC Resistor Code of Conduct:\u00a0<a href=\"https://www.google.com/url?q=http://www.nycresistor.com/2015/08/04/nyc-resistor-code-of-conduct/&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw0FxoSzn8w-pu237gKg6lmI\" target=\"_blank\"><u>http://www.nycresistor.com/2015/08/04/nyc-resistor-code-of-conduct/</u></a>",
-      "startDate": "2025-04-04T18:30:00-04:00",
-      "endDate": "2025-04-04T21:30:00-04:00",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": true,
-      "tags": "",
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.eventbrite.com/e/public-craft-night-1st-fridays-and-3rd-wednesdays-of-the-month-masks-on-tickets-623419182557&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw30wJgCOHNVYdmKOTp_roao\"",
-        "organizer": {
-          "name": "NYCResistor",
-          "instagram": "",
-          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "87 3rd Ave, Brooklyn, NY 11217, USA",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false
-      }
-    },
-    {
       "id": "evt_com_nyc_resistor_363rnqjs",
       "name": "HOLD Electronics",
       "type": "Tech",
@@ -4084,6 +4043,47 @@
       "status": "upcoming",
       "metadata": {
         "source_url": "https://www.google.com/calendar/event?eid=NHFwZW9zODU5dDc1dmg2bDQyZTVtdWtoN2dfMjAyNTA3MDIgcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw",
+        "organizer": {
+          "name": "NYCResistor",
+          "instagram": "",
+          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
+      "id": "evt_com_nyc_resistor_3u52iogs",
+      "name": "NYCR Craft Night",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_nyc_resistor",
+      "description": "<u></u><p>NYC Resistor is open to the public for Craft Nights now every Monday and Thursday from 6:30-9:30 PM! Come bring your current crafting project and work on it with other artists, crafters, and makers of all kinds. Resistors do everything from costumes to electronics to visual arts to woodworking; people and crafting projects of all sorts are enthusiastically welcome!</p><p>RSVP at<span> <a href=\"https://www.google.com/url?q=https://www.eventbrite.com/e/public-craft-night-mondays-and-thursdays-tickets-162729866411&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw2GxlHrVKU2UOWuOdKbNOj5\" target=\"_blank\">https://www.eventbrite.com/e/public-craft-night-mondays-and-thursdays-tickets-162729866411</a></span> is appreciated but not required, for covid contact-tracing purposes.<br></p>This event like all NYC Resistor events is 18 and over and governed by out code of conduct. <br><br>More information: <a href=\"https://www.google.com/url?q=http://www.nycresistor.com/participate/&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw2qoLIc6c_Ay1xuc_FYjEZH\" target=\"_blank\">http://www.nycresistor.com/participate/</a><br>NYC Resistor Code of Conduct: <a href=\"https://www.google.com/url?q=http://www.nycresistor.com/2015/08/04/nyc-resistor-code-of-conduct/&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw1hCVO6yP0-Y--CtV5nrIw_\" target=\"_blank\">http://www.nycresistor.com/2015/08/04/nyc-resistor-code-of-conduct/</a><u></u><u></u><u></u><u></u><u></u>",
+      "startDate": "2025-07-03T18:30:00-04:00",
+      "endDate": "2025-07-03T21:30:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": true,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.eventbrite.com/e/public-craft-night-mondays-and-thursdays-tickets-162729866411&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw2GxlHrVKU2UOWuOdKbNOj5\"",
         "organizer": {
           "name": "NYCResistor",
           "instagram": "",

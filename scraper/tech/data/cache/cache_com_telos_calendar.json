@@ -1,47 +1,6 @@
 {
   "events": [
     {
-      "id": "evt_com_telos_2g2qkuc1",
-      "name": "telos.haus community social (April)",
-      "type": "Tech",
-      "locationId": "loc_telos",
-      "communityId": "com_telos",
-      "description": "<p>Join us for a (free) community social hour at telos.haus! Take a break from work with drinks, meet new people, and mingle with other creatives. This is the perfect opportunity to get a sense of our space and connect with others by breaking bread.</p><p>Light snacks provided. Bring your own lunch or something to share if you're feeling generous!</p>",
-      "startDate": "2025-04-04T13:00:00-04:00",
-      "endDate": "2025-04-04T14:00:00-04:00",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": "",
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.google.com/calendar/event?eid=MmcycWt1YzFqcmozMm5iNW9vc2RoZjQ4MmwgZDU5NmMyYmY3MjExODNkMjJiYjUwYmRlNjYyNTA5MGZjMzkyM2FhMjlhNjkxOGQ3ODQwOWUxNjhkYTc5MTc2OUBn",
-        "organizer": {
-          "name": "telos.haus events",
-          "instagram": "",
-          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
-        },
-        "venue": {
-          "name": "Telos",
-          "address": "181 Wyckoff Ave, Brooklyn, NY 11237",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false
-      }
-    },
-    {
       "id": "evt_com_telos_d269plpk",
       "name": "aci-d club weekly hang",
       "type": "Tech",

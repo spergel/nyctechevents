@@ -881,47 +881,6 @@
       }
     },
     {
-      "id": "evt_com_telos_2g2qkuc1",
-      "name": "telos.haus community social (April)",
-      "type": "Tech",
-      "locationId": "loc_telos",
-      "communityId": "com_telos",
-      "description": "<p>Join us for a (free) community social hour at telos.haus! Take a break from work with drinks, meet new people, and mingle with other creatives. This is the perfect opportunity to get a sense of our space and connect with others by breaking bread.</p><p>Light snacks provided. Bring your own lunch or something to share if you're feeling generous!</p>",
-      "startDate": "2025-04-04T13:00:00-04:00",
-      "endDate": "2025-04-04T14:00:00-04:00",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": "",
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.google.com/calendar/event?eid=MmcycWt1YzFqcmozMm5iNW9vc2RoZjQ4MmwgZDU5NmMyYmY3MjExODNkMjJiYjUwYmRlNjYyNTA5MGZjMzkyM2FhMjlhNjkxOGQ3ODQwOWUxNjhkYTc5MTc2OUBn",
-        "organizer": {
-          "name": "telos.haus events",
-          "instagram": "",
-          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
-        },
-        "venue": {
-          "name": "Telos",
-          "address": "181 Wyckoff Ave, Brooklyn, NY 11237",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false
-      }
-    },
-    {
       "id": "evt_com_telos_7idl2ste",
       "name": "figure drawing 003",
       "type": "Tech",
@@ -1625,8 +1584,8 @@
       "locationId": "",
       "communityId": "com_nyc_resistor",
       "description": "<u></u><p>NYC Resistor is open to the public for Craft Nights now every Monday and Thursday from 6:30-9:30 PM! Come bring your current crafting project and work on it with other artists, crafters, and makers of all kinds. Resistors do everything from costumes to electronics to visual arts to woodworking; people and crafting projects of all sorts are enthusiastically welcome!</p><p>RSVP at<span> <a href=\"https://www.google.com/url?q=https://www.eventbrite.com/e/public-craft-night-mondays-and-thursdays-tickets-162729866411&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw2GxlHrVKU2UOWuOdKbNOj5\" target=\"_blank\">https://www.eventbrite.com/e/public-craft-night-mondays-and-thursdays-tickets-162729866411</a></span> is appreciated but not required, for covid contact-tracing purposes.<br></p>This event like all NYC Resistor events is 18 and over and governed by out code of conduct. <br><br>More information: <a href=\"https://www.google.com/url?q=http://www.nycresistor.com/participate/&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw2qoLIc6c_Ay1xuc_FYjEZH\" target=\"_blank\">http://www.nycresistor.com/participate/</a><br>NYC Resistor Code of Conduct: <a href=\"https://www.google.com/url?q=http://www.nycresistor.com/2015/08/04/nyc-resistor-code-of-conduct/&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw1hCVO6yP0-Y--CtV5nrIw_\" target=\"_blank\">http://www.nycresistor.com/2015/08/04/nyc-resistor-code-of-conduct/</a><u></u><u></u><u></u><u></u><u></u>",
-      "startDate": "2025-06-26T18:30:00-04:00",
-      "endDate": "2025-06-26T21:30:00-04:00",
+      "startDate": "2025-07-03T18:30:00-04:00",
+      "endDate": "2025-07-03T21:30:00-04:00",
       "category": [
         "Tech"
       ],
@@ -3093,13 +3052,13 @@
     },
     {
       "id": "evt_com_south_park_commons__clr78ba",
-      "name": "SPC x Anthropic Hackathon Demo Night",
+      "name": "SPC April SF Graduation & Alumni Happy Hour",
       "type": "Tech",
       "locationId": "",
       "communityId": "com_south_park_commons",
-      "description": "​Stop by SPC to see the final projects produced during the SPC + Anthropic Hackathon! This event is open to the public. Please register so that we have an accurate headcount as space will be limited.If you're interested in hacking please register here.Agenda:​​Science fair style demos from 4-5:30pm​​Finalist demos and prize-giving from 5:30-7pm​Prizes awarded for Best Overall, Most Interesting Interface, Best Agent for Developers and Audience Choice. Judging will be done by a panel of SPC team members, Anthropic leadership, and guest experts.",
-      "startDate": "2025-04-13T23:00:00Z",
-      "endDate": "2025-04-14T02:00:00Z",
+      "description": "​🎓 Join us for our monthly happy hour to celebrate SPC members as they graduate and head off to their next venture!​This is an opportunity for alumni to come back to SPC-SF to welcome the new additions to the alumni network.​Beverages and snacks will be served.  This event is open to all current members and alumni.",
+      "startDate": "2025-04-17T23:30:00Z",
+      "endDate": "2025-04-18T01:00:00Z",
       "category": [
         "Tech"
       ],
@@ -3112,10 +3071,10 @@
       "capacity": null,
       "registrationRequired": false,
       "tags": "",
-      "image": "luma-event-bc539cc0.jpg",
+      "image": "luma-event-941f94cd.jpg",
       "status": "upcoming",
       "metadata": {
-        "source_url": "https://lu.ma/spc-anthropic-demos",
+        "source_url": "https://lu.ma/g8zbkx0t",
         "organizer": {
           "name": "South Park Commons",
           "instagram": "",
@@ -3133,7 +3092,17 @@
             "bio": ""
           },
           {
+            "name": "Tarlon Khoubyari",
+            "title": "",
+            "bio": ""
+          },
+          {
             "name": "South Park Commons",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Tarlon Khoubyari",
             "title": "",
             "bio": ""
           }
@@ -3146,13 +3115,15 @@
           "https://www.southparkcommons.com/",
           "https://instagram.com/southparkcommons",
           "https://x.com/southpkcommons",
+          "https://x.com/tarlonkhoubyari",
           "https://instagram.com/southparkcommons",
           "https://x.com/southpkcommons",
           "https://youtube.com/@southparkcommons",
           "https://linkedin.com/company/southparkcommons",
           "https://www.southparkcommons.com/",
           "https://instagram.com/southparkcommons",
-          "https://x.com/southpkcommons"
+          "https://x.com/southpkcommons",
+          "https://x.com/tarlonkhoubyari"
         ],
         "featured": false,
         "luma_source": true
