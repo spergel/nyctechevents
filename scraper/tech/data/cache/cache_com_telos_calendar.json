@@ -341,6 +341,47 @@
       }
     },
     {
+      "id": "evt_com_telos_3npj2p69",
+      "name": "EDM Production 101",
+      "type": "Tech",
+      "locationId": "loc_telos",
+      "communityId": "com_telos",
+      "description": "<p>\ud83d\udccb APPLY HERE! \u2192 <a href=\"https://forms.gle/1qVxzcLxhaZQExpbA\">https://forms.gle/1qVxzcLxhaZQExpbA</a></p><p>\ud83d\udc68\u200d\ud83c\udfeb Instructor: <a href=\"https://x.com/davidshimel\">David Shimel</a></p><p>\ud83d\uddd3\u00a08 weeks, 1 class per week, on the following Tuesdays: April 29, May 6, 13, 20, 27, June 3, 17, 24 (note: no class June 10)</p><p>\ud83d\udd70\ufe0f\u00a02 hours per class, 6:30 - 8:30 PM ET</p><p>\ud83d\uddfa\u00a0Location: <a href=\"https://telos.haus/\">telos.haus</a>, 303 Ten Eyck St, Brooklyn, NY 11206 (<a href=\"https://maps.app.goo.gl/VgNEWeHsNJL9ST158\">map</a>)</p><p>\ud83d\udcb0\u00a0Tuition tiers: $500 (In-Person) or $250 (Remote). We also have some scholarships available, so if you\u2019re interested in potentially receiving financial aid, please fill out <a href=\"https://forms.gle/b4W6PV7EphzST7fK9\">this form</a>. Protip: your employer may offer you a continuing education budget to spend on classes such as this one!</p><p>\ud83d\udc65\u00a0Enrollment: 20 students in-person, unlimited students remotely.</p><p>\ud83d\udca1Prerequisites: Nothing more than an interest in music :D</p><p>\u2702\ufe0f\ud83d\udcc3TL;DR: Want to learn how to produce your own electronic dance music (EDM) using <a href=\"https://www.ableton.com/\">Ableton</a>? And then DJ it with <a href=\"https://mixxx.org/\">Mixxx</a>?? Then <a href=\"https://forms.gle/1qVxzcLxhaZQExpbA\">apply here</a> today!</p>",
+      "startDate": "2025-04-29T18:30:00-04:00",
+      "endDate": "2025-04-29T20:30:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Paid",
+        "currency": "USD",
+        "details": "See event description for pricing details"
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.google.com/calendar/event?eid=M25wajJwNjlsOGc1MzFmM2o0ZGthdDhydWlfMjAyNTA0MjlUMjIzMDAwWiBkNTk2YzJiZjcyMTE4M2QyMmJiNTBiZGU2NjI1MDkwZmMzOTIzYWEyOWE2OTE4ZDc4NDA5ZTE2OGRhNzkxNzY5QGc",
+        "organizer": {
+          "name": "telos.haus events",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "Telos",
+          "address": "181 Wyckoff Ave, Brooklyn, NY 11237",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
       "id": "evt_com_telos_d269plpk",
       "name": "aci-d club weekly hang",
       "type": "Tech",
@@ -383,6 +424,47 @@
         ],
         "featured": false,
         "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_telos_3npj2p69",
+      "name": "EDM Production 101",
+      "type": "Tech",
+      "locationId": "loc_telos",
+      "communityId": "com_telos",
+      "description": "<p>\ud83d\udccb APPLY HERE! \u2192 <a href=\"https://forms.gle/1qVxzcLxhaZQExpbA\">https://forms.gle/1qVxzcLxhaZQExpbA</a></p><p>\ud83d\udc68\u200d\ud83c\udfeb Instructor: <a href=\"https://x.com/davidshimel\">David Shimel</a></p><p>\ud83d\uddd3\u00a08 weeks, 1 class per week, on the following Tuesdays: April 29, May 6, 13, 20, 27, June 3, 17, 24 (note: no class June 10)</p><p>\ud83d\udd70\ufe0f\u00a02 hours per class, 6:30 - 8:30 PM ET</p><p>\ud83d\uddfa\u00a0Location: <a href=\"https://telos.haus/\">telos.haus</a>, 303 Ten Eyck St, Brooklyn, NY 11206 (<a href=\"https://maps.app.goo.gl/VgNEWeHsNJL9ST158\">map</a>)</p><p>\ud83d\udcb0\u00a0Tuition tiers: $500 (In-Person) or $250 (Remote). We also have some scholarships available, so if you\u2019re interested in potentially receiving financial aid, please fill out <a href=\"https://forms.gle/b4W6PV7EphzST7fK9\">this form</a>. Protip: your employer may offer you a continuing education budget to spend on classes such as this one!</p><p>\ud83d\udc65\u00a0Enrollment: 20 students in-person, unlimited students remotely.</p><p>\ud83d\udca1Prerequisites: Nothing more than an interest in music :D</p><p>\u2702\ufe0f\ud83d\udcc3TL;DR: Want to learn how to produce your own electronic dance music (EDM) using <a href=\"https://www.ableton.com/\">Ableton</a>? And then DJ it with <a href=\"https://mixxx.org/\">Mixxx</a>?? Then <a href=\"https://forms.gle/1qVxzcLxhaZQExpbA\">apply here</a> today!</p>",
+      "startDate": "2025-05-06T18:30:00-04:00",
+      "endDate": "2025-05-06T20:30:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Paid",
+        "currency": "USD",
+        "details": "See event description for pricing details"
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.google.com/calendar/event?eid=M25wajJwNjlsOGc1MzFmM2o0ZGthdDhydWlfMjAyNTA1MDZUMjIzMDAwWiBkNTk2YzJiZjcyMTE4M2QyMmJiNTBiZGU2NjI1MDkwZmMzOTIzYWEyOWE2OTE4ZDc4NDA5ZTE2OGRhNzkxNzY5QGc",
+        "organizer": {
+          "name": "telos.haus events",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "Telos",
+          "address": "181 Wyckoff Ave, Brooklyn, NY 11237",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
       }
     },
     {
@@ -431,6 +513,47 @@
       }
     },
     {
+      "id": "evt_com_telos_3npj2p69",
+      "name": "EDM Production 101",
+      "type": "Tech",
+      "locationId": "loc_telos",
+      "communityId": "com_telos",
+      "description": "<p>\ud83d\udccb APPLY HERE! \u2192 <a href=\"https://forms.gle/1qVxzcLxhaZQExpbA\">https://forms.gle/1qVxzcLxhaZQExpbA</a></p><p>\ud83d\udc68\u200d\ud83c\udfeb Instructor: <a href=\"https://x.com/davidshimel\">David Shimel</a></p><p>\ud83d\uddd3\u00a08 weeks, 1 class per week, on the following Tuesdays: April 29, May 6, 13, 20, 27, June 3, 17, 24 (note: no class June 10)</p><p>\ud83d\udd70\ufe0f\u00a02 hours per class, 6:30 - 8:30 PM ET</p><p>\ud83d\uddfa\u00a0Location: <a href=\"https://telos.haus/\">telos.haus</a>, 303 Ten Eyck St, Brooklyn, NY 11206 (<a href=\"https://maps.app.goo.gl/VgNEWeHsNJL9ST158\">map</a>)</p><p>\ud83d\udcb0\u00a0Tuition tiers: $500 (In-Person) or $250 (Remote). We also have some scholarships available, so if you\u2019re interested in potentially receiving financial aid, please fill out <a href=\"https://forms.gle/b4W6PV7EphzST7fK9\">this form</a>. Protip: your employer may offer you a continuing education budget to spend on classes such as this one!</p><p>\ud83d\udc65\u00a0Enrollment: 20 students in-person, unlimited students remotely.</p><p>\ud83d\udca1Prerequisites: Nothing more than an interest in music :D</p><p>\u2702\ufe0f\ud83d\udcc3TL;DR: Want to learn how to produce your own electronic dance music (EDM) using <a href=\"https://www.ableton.com/\">Ableton</a>? And then DJ it with <a href=\"https://mixxx.org/\">Mixxx</a>?? Then <a href=\"https://forms.gle/1qVxzcLxhaZQExpbA\">apply here</a> today!</p>",
+      "startDate": "2025-05-13T18:30:00-04:00",
+      "endDate": "2025-05-13T20:30:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Paid",
+        "currency": "USD",
+        "details": "See event description for pricing details"
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.google.com/calendar/event?eid=M25wajJwNjlsOGc1MzFmM2o0ZGthdDhydWlfMjAyNTA1MTNUMjIzMDAwWiBkNTk2YzJiZjcyMTE4M2QyMmJiNTBiZGU2NjI1MDkwZmMzOTIzYWEyOWE2OTE4ZDc4NDA5ZTE2OGRhNzkxNzY5QGc",
+        "organizer": {
+          "name": "telos.haus events",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "Telos",
+          "address": "181 Wyckoff Ave, Brooklyn, NY 11237",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
       "id": "evt_com_telos_d269plpk",
       "name": "aci-d club weekly hang",
       "type": "Tech",
@@ -473,6 +596,47 @@
         ],
         "featured": false,
         "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_telos_3npj2p69",
+      "name": "EDM Production 101",
+      "type": "Tech",
+      "locationId": "loc_telos",
+      "communityId": "com_telos",
+      "description": "<p>\ud83d\udccb APPLY HERE! \u2192 <a href=\"https://forms.gle/1qVxzcLxhaZQExpbA\">https://forms.gle/1qVxzcLxhaZQExpbA</a></p><p>\ud83d\udc68\u200d\ud83c\udfeb Instructor: <a href=\"https://x.com/davidshimel\">David Shimel</a></p><p>\ud83d\uddd3\u00a08 weeks, 1 class per week, on the following Tuesdays: April 29, May 6, 13, 20, 27, June 3, 17, 24 (note: no class June 10)</p><p>\ud83d\udd70\ufe0f\u00a02 hours per class, 6:30 - 8:30 PM ET</p><p>\ud83d\uddfa\u00a0Location: <a href=\"https://telos.haus/\">telos.haus</a>, 303 Ten Eyck St, Brooklyn, NY 11206 (<a href=\"https://maps.app.goo.gl/VgNEWeHsNJL9ST158\">map</a>)</p><p>\ud83d\udcb0\u00a0Tuition tiers: $500 (In-Person) or $250 (Remote). We also have some scholarships available, so if you\u2019re interested in potentially receiving financial aid, please fill out <a href=\"https://forms.gle/b4W6PV7EphzST7fK9\">this form</a>. Protip: your employer may offer you a continuing education budget to spend on classes such as this one!</p><p>\ud83d\udc65\u00a0Enrollment: 20 students in-person, unlimited students remotely.</p><p>\ud83d\udca1Prerequisites: Nothing more than an interest in music :D</p><p>\u2702\ufe0f\ud83d\udcc3TL;DR: Want to learn how to produce your own electronic dance music (EDM) using <a href=\"https://www.ableton.com/\">Ableton</a>? And then DJ it with <a href=\"https://mixxx.org/\">Mixxx</a>?? Then <a href=\"https://forms.gle/1qVxzcLxhaZQExpbA\">apply here</a> today!</p>",
+      "startDate": "2025-05-20T18:30:00-04:00",
+      "endDate": "2025-05-20T20:30:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Paid",
+        "currency": "USD",
+        "details": "See event description for pricing details"
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.google.com/calendar/event?eid=M25wajJwNjlsOGc1MzFmM2o0ZGthdDhydWlfMjAyNTA1MjBUMjIzMDAwWiBkNTk2YzJiZjcyMTE4M2QyMmJiNTBiZGU2NjI1MDkwZmMzOTIzYWEyOWE2OTE4ZDc4NDA5ZTE2OGRhNzkxNzY5QGc",
+        "organizer": {
+          "name": "telos.haus events",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "Telos",
+          "address": "181 Wyckoff Ave, Brooklyn, NY 11237",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
       }
     },
     {
@@ -521,6 +685,47 @@
       }
     },
     {
+      "id": "evt_com_telos_3npj2p69",
+      "name": "EDM Production 101",
+      "type": "Tech",
+      "locationId": "loc_telos",
+      "communityId": "com_telos",
+      "description": "<p>\ud83d\udccb APPLY HERE! \u2192 <a href=\"https://forms.gle/1qVxzcLxhaZQExpbA\">https://forms.gle/1qVxzcLxhaZQExpbA</a></p><p>\ud83d\udc68\u200d\ud83c\udfeb Instructor: <a href=\"https://x.com/davidshimel\">David Shimel</a></p><p>\ud83d\uddd3\u00a08 weeks, 1 class per week, on the following Tuesdays: April 29, May 6, 13, 20, 27, June 3, 17, 24 (note: no class June 10)</p><p>\ud83d\udd70\ufe0f\u00a02 hours per class, 6:30 - 8:30 PM ET</p><p>\ud83d\uddfa\u00a0Location: <a href=\"https://telos.haus/\">telos.haus</a>, 303 Ten Eyck St, Brooklyn, NY 11206 (<a href=\"https://maps.app.goo.gl/VgNEWeHsNJL9ST158\">map</a>)</p><p>\ud83d\udcb0\u00a0Tuition tiers: $500 (In-Person) or $250 (Remote). We also have some scholarships available, so if you\u2019re interested in potentially receiving financial aid, please fill out <a href=\"https://forms.gle/b4W6PV7EphzST7fK9\">this form</a>. Protip: your employer may offer you a continuing education budget to spend on classes such as this one!</p><p>\ud83d\udc65\u00a0Enrollment: 20 students in-person, unlimited students remotely.</p><p>\ud83d\udca1Prerequisites: Nothing more than an interest in music :D</p><p>\u2702\ufe0f\ud83d\udcc3TL;DR: Want to learn how to produce your own electronic dance music (EDM) using <a href=\"https://www.ableton.com/\">Ableton</a>? And then DJ it with <a href=\"https://mixxx.org/\">Mixxx</a>?? Then <a href=\"https://forms.gle/1qVxzcLxhaZQExpbA\">apply here</a> today!</p>",
+      "startDate": "2025-05-27T18:30:00-04:00",
+      "endDate": "2025-05-27T20:30:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Paid",
+        "currency": "USD",
+        "details": "See event description for pricing details"
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.google.com/calendar/event?eid=M25wajJwNjlsOGc1MzFmM2o0ZGthdDhydWlfMjAyNTA1MjdUMjIzMDAwWiBkNTk2YzJiZjcyMTE4M2QyMmJiNTBiZGU2NjI1MDkwZmMzOTIzYWEyOWE2OTE4ZDc4NDA5ZTE2OGRhNzkxNzY5QGc",
+        "organizer": {
+          "name": "telos.haus events",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "Telos",
+          "address": "181 Wyckoff Ave, Brooklyn, NY 11237",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
       "id": "evt_com_telos_d269plpk",
       "name": "aci-d club weekly hang",
       "type": "Tech",
@@ -563,6 +768,47 @@
         ],
         "featured": false,
         "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_telos_3npj2p69",
+      "name": "EDM Production 101",
+      "type": "Tech",
+      "locationId": "loc_telos",
+      "communityId": "com_telos",
+      "description": "<p>\ud83d\udccb APPLY HERE! \u2192 <a href=\"https://forms.gle/1qVxzcLxhaZQExpbA\">https://forms.gle/1qVxzcLxhaZQExpbA</a></p><p>\ud83d\udc68\u200d\ud83c\udfeb Instructor: <a href=\"https://x.com/davidshimel\">David Shimel</a></p><p>\ud83d\uddd3\u00a08 weeks, 1 class per week, on the following Tuesdays: April 29, May 6, 13, 20, 27, June 3, 17, 24 (note: no class June 10)</p><p>\ud83d\udd70\ufe0f\u00a02 hours per class, 6:30 - 8:30 PM ET</p><p>\ud83d\uddfa\u00a0Location: <a href=\"https://telos.haus/\">telos.haus</a>, 303 Ten Eyck St, Brooklyn, NY 11206 (<a href=\"https://maps.app.goo.gl/VgNEWeHsNJL9ST158\">map</a>)</p><p>\ud83d\udcb0\u00a0Tuition tiers: $500 (In-Person) or $250 (Remote). We also have some scholarships available, so if you\u2019re interested in potentially receiving financial aid, please fill out <a href=\"https://forms.gle/b4W6PV7EphzST7fK9\">this form</a>. Protip: your employer may offer you a continuing education budget to spend on classes such as this one!</p><p>\ud83d\udc65\u00a0Enrollment: 20 students in-person, unlimited students remotely.</p><p>\ud83d\udca1Prerequisites: Nothing more than an interest in music :D</p><p>\u2702\ufe0f\ud83d\udcc3TL;DR: Want to learn how to produce your own electronic dance music (EDM) using <a href=\"https://www.ableton.com/\">Ableton</a>? And then DJ it with <a href=\"https://mixxx.org/\">Mixxx</a>?? Then <a href=\"https://forms.gle/1qVxzcLxhaZQExpbA\">apply here</a> today!</p>",
+      "startDate": "2025-06-03T18:30:00-04:00",
+      "endDate": "2025-06-03T20:30:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Paid",
+        "currency": "USD",
+        "details": "See event description for pricing details"
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.google.com/calendar/event?eid=M25wajJwNjlsOGc1MzFmM2o0ZGthdDhydWlfMjAyNTA2MDNUMjIzMDAwWiBkNTk2YzJiZjcyMTE4M2QyMmJiNTBiZGU2NjI1MDkwZmMzOTIzYWEyOWE2OTE4ZDc4NDA5ZTE2OGRhNzkxNzY5QGc",
+        "organizer": {
+          "name": "telos.haus events",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "Telos",
+          "address": "181 Wyckoff Ave, Brooklyn, NY 11237",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
       }
     },
     {
@@ -643,6 +889,47 @@
         "venue": {
           "name": "",
           "address": "https://www.aaschool.ac.uk/academicprogrammes/visitingschool/primordial-outcomes?fbclid=PAZXh0bgNhZW0CMTEAAabLlHerDoBsECdnRCJu9vGzsUqE8MI08WEFX2rcy3rdZ7N9vyIz1hwSx7g_aem_ZdN7QCJhK-CuQVQ3t8KMIQ",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
+      "id": "evt_com_telos_3npj2p69",
+      "name": "EDM Production 101",
+      "type": "Tech",
+      "locationId": "loc_telos",
+      "communityId": "com_telos",
+      "description": "<p>\ud83d\udccb APPLY HERE! \u2192 <a href=\"https://forms.gle/1qVxzcLxhaZQExpbA\">https://forms.gle/1qVxzcLxhaZQExpbA</a></p><p>\ud83d\udc68\u200d\ud83c\udfeb Instructor: <a href=\"https://x.com/davidshimel\">David Shimel</a></p><p>\ud83d\uddd3\u00a08 weeks, 1 class per week, on the following Tuesdays: April 29, May 6, 13, 20, 27, June 3, 17, 24 (note: no class June 10)</p><p>\ud83d\udd70\ufe0f\u00a02 hours per class, 6:30 - 8:30 PM ET</p><p>\ud83d\uddfa\u00a0Location: <a href=\"https://telos.haus/\">telos.haus</a>, 303 Ten Eyck St, Brooklyn, NY 11206 (<a href=\"https://maps.app.goo.gl/VgNEWeHsNJL9ST158\">map</a>)</p><p>\ud83d\udcb0\u00a0Tuition tiers: $500 (In-Person) or $250 (Remote). We also have some scholarships available, so if you\u2019re interested in potentially receiving financial aid, please fill out <a href=\"https://forms.gle/b4W6PV7EphzST7fK9\">this form</a>. Protip: your employer may offer you a continuing education budget to spend on classes such as this one!</p><p>\ud83d\udc65\u00a0Enrollment: 20 students in-person, unlimited students remotely.</p><p>\ud83d\udca1Prerequisites: Nothing more than an interest in music :D</p><p>\u2702\ufe0f\ud83d\udcc3TL;DR: Want to learn how to produce your own electronic dance music (EDM) using <a href=\"https://www.ableton.com/\">Ableton</a>? And then DJ it with <a href=\"https://mixxx.org/\">Mixxx</a>?? Then <a href=\"https://forms.gle/1qVxzcLxhaZQExpbA\">apply here</a> today!</p>",
+      "startDate": "2025-06-10T18:30:00-04:00",
+      "endDate": "2025-06-10T20:30:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Paid",
+        "currency": "USD",
+        "details": "See event description for pricing details"
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.google.com/calendar/event?eid=M25wajJwNjlsOGc1MzFmM2o0ZGthdDhydWlfMjAyNTA2MTBUMjIzMDAwWiBkNTk2YzJiZjcyMTE4M2QyMmJiNTBiZGU2NjI1MDkwZmMzOTIzYWEyOWE2OTE4ZDc4NDA5ZTE2OGRhNzkxNzY5QGc",
+        "organizer": {
+          "name": "telos.haus events",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "Telos",
+          "address": "181 Wyckoff Ave, Brooklyn, NY 11237",
           "type": "Offline"
         },
         "speakers": [],
@@ -980,6 +1267,47 @@
       }
     },
     {
+      "id": "evt_com_telos_3npj2p69",
+      "name": "EDM Production 101",
+      "type": "Tech",
+      "locationId": "loc_telos",
+      "communityId": "com_telos",
+      "description": "<p>\ud83d\udccb APPLY HERE! \u2192 <a href=\"https://forms.gle/1qVxzcLxhaZQExpbA\">https://forms.gle/1qVxzcLxhaZQExpbA</a></p><p>\ud83d\udc68\u200d\ud83c\udfeb Instructor: <a href=\"https://x.com/davidshimel\">David Shimel</a></p><p>\ud83d\uddd3\u00a08 weeks, 1 class per week, on the following Tuesdays: April 29, May 6, 13, 20, 27, June 3, 17, 24 (note: no class June 10)</p><p>\ud83d\udd70\ufe0f\u00a02 hours per class, 6:30 - 8:30 PM ET</p><p>\ud83d\uddfa\u00a0Location: <a href=\"https://telos.haus/\">telos.haus</a>, 303 Ten Eyck St, Brooklyn, NY 11206 (<a href=\"https://maps.app.goo.gl/VgNEWeHsNJL9ST158\">map</a>)</p><p>\ud83d\udcb0\u00a0Tuition tiers: $500 (In-Person) or $250 (Remote). We also have some scholarships available, so if you\u2019re interested in potentially receiving financial aid, please fill out <a href=\"https://forms.gle/b4W6PV7EphzST7fK9\">this form</a>. Protip: your employer may offer you a continuing education budget to spend on classes such as this one!</p><p>\ud83d\udc65\u00a0Enrollment: 20 students in-person, unlimited students remotely.</p><p>\ud83d\udca1Prerequisites: Nothing more than an interest in music :D</p><p>\u2702\ufe0f\ud83d\udcc3TL;DR: Want to learn how to produce your own electronic dance music (EDM) using <a href=\"https://www.ableton.com/\">Ableton</a>? And then DJ it with <a href=\"https://mixxx.org/\">Mixxx</a>?? Then <a href=\"https://forms.gle/1qVxzcLxhaZQExpbA\">apply here</a> today!</p>",
+      "startDate": "2025-06-17T18:30:00-04:00",
+      "endDate": "2025-06-17T20:30:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Paid",
+        "currency": "USD",
+        "details": "See event description for pricing details"
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.google.com/calendar/event?eid=M25wajJwNjlsOGc1MzFmM2o0ZGthdDhydWlfMjAyNTA2MTdUMjIzMDAwWiBkNTk2YzJiZjcyMTE4M2QyMmJiNTBiZGU2NjI1MDkwZmMzOTIzYWEyOWE2OTE4ZDc4NDA5ZTE2OGRhNzkxNzY5QGc",
+        "organizer": {
+          "name": "telos.haus events",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "Telos",
+          "address": "181 Wyckoff Ave, Brooklyn, NY 11237",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
       "id": "evt_com_telos_4gt5ce1s",
       "name": "AAVS Primordial Outcomes",
       "type": "Tech",
@@ -1135,6 +1463,47 @@
         "venue": {
           "name": "",
           "address": "https://www.aaschool.ac.uk/academicprogrammes/visitingschool/primordial-outcomes?fbclid=PAZXh0bgNhZW0CMTEAAabLlHerDoBsECdnRCJu9vGzsUqE8MI08WEFX2rcy3rdZ7N9vyIz1hwSx7g_aem_ZdN7QCJhK-CuQVQ3t8KMIQ",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
+      "id": "evt_com_telos_3npj2p69",
+      "name": "EDM Production 101",
+      "type": "Tech",
+      "locationId": "loc_telos",
+      "communityId": "com_telos",
+      "description": "<p>\ud83d\udccb APPLY HERE! \u2192 <a href=\"https://forms.gle/1qVxzcLxhaZQExpbA\">https://forms.gle/1qVxzcLxhaZQExpbA</a></p><p>\ud83d\udc68\u200d\ud83c\udfeb Instructor: <a href=\"https://x.com/davidshimel\">David Shimel</a></p><p>\ud83d\uddd3\u00a08 weeks, 1 class per week, on the following Tuesdays: April 29, May 6, 13, 20, 27, June 3, 17, 24 (note: no class June 10)</p><p>\ud83d\udd70\ufe0f\u00a02 hours per class, 6:30 - 8:30 PM ET</p><p>\ud83d\uddfa\u00a0Location: <a href=\"https://telos.haus/\">telos.haus</a>, 303 Ten Eyck St, Brooklyn, NY 11206 (<a href=\"https://maps.app.goo.gl/VgNEWeHsNJL9ST158\">map</a>)</p><p>\ud83d\udcb0\u00a0Tuition tiers: $500 (In-Person) or $250 (Remote). We also have some scholarships available, so if you\u2019re interested in potentially receiving financial aid, please fill out <a href=\"https://forms.gle/b4W6PV7EphzST7fK9\">this form</a>. Protip: your employer may offer you a continuing education budget to spend on classes such as this one!</p><p>\ud83d\udc65\u00a0Enrollment: 20 students in-person, unlimited students remotely.</p><p>\ud83d\udca1Prerequisites: Nothing more than an interest in music :D</p><p>\u2702\ufe0f\ud83d\udcc3TL;DR: Want to learn how to produce your own electronic dance music (EDM) using <a href=\"https://www.ableton.com/\">Ableton</a>? And then DJ it with <a href=\"https://mixxx.org/\">Mixxx</a>?? Then <a href=\"https://forms.gle/1qVxzcLxhaZQExpbA\">apply here</a> today!</p>",
+      "startDate": "2025-06-24T18:30:00-04:00",
+      "endDate": "2025-06-24T20:30:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Paid",
+        "currency": "USD",
+        "details": "See event description for pricing details"
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.google.com/calendar/event?eid=M25wajJwNjlsOGc1MzFmM2o0ZGthdDhydWlfMjAyNTA2MjRUMjIzMDAwWiBkNTk2YzJiZjcyMTE4M2QyMmJiNTBiZGU2NjI1MDkwZmMzOTIzYWEyOWE2OTE4ZDc4NDA5ZTE2OGRhNzkxNzY5QGc",
+        "organizer": {
+          "name": "telos.haus events",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "Telos",
+          "address": "181 Wyckoff Ave, Brooklyn, NY 11237",
           "type": "Offline"
         },
         "speakers": [],

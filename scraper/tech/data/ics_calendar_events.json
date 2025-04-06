@@ -94,12 +94,22 @@
             "bio": ""
           },
           {
+            "name": "Samika Parab",
+            "title": "",
+            "bio": ""
+          },
+          {
             "name": "James Q",
             "title": "",
             "bio": ""
           },
           {
             "name": "Abi Suresh",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Samika Parab",
             "title": "",
             "bio": ""
           }
@@ -123,6 +133,61 @@
           "https://instagram.com/mrjamesq",
           "https://x.com/mrjamesq",
           "https://instagram.com/abi_nope"
+        ]
+      }
+    },
+    {
+      "id": "evt_com_der_project_a86f5e54",
+      "name": "Data In Power - NYC Event",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_der_project",
+      "description": "​Data and the distribution of decision-making power is an increasingly important dynamic to understand and engage with in climate and energy. ​At Data In Power, we believe the method AND end product of data (collection, analysis, and visualization) are critical to decision-making.How are data being collected, analyzed, and presented - why, and by whom? These are the hard-hitting questions we are unpacking.​At this monthly social, we discuss Data In Power fundamentals in a casual setting. Here is avideowith some background on Data In Power's focus within data and the distribution of decision-making power. At all of our events, we gather our community of data and decision-making experts and enthusiasts within climate and energy to share our perspectives.​​Data In Power is an independently run meetup without any bells and whistles.In order to maintain community and continue organic growth, prospective attendees should be prepared to support our meetup venue with a purchase, regardless of how large or small. Data In Power brings folks together through meaningful, productive, and unique programming.",
+      "startDate": "2025-04-30T18:30:00-04:00",
+      "endDate": "2025-04-30T20:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "luma-event-f902b935.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/e/evt-GPQy2mJrgrIIpzS",
+        "speakers": [
+          {
+            "name": "Crystal Soo",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Crystal Soo",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "venue": {
+          "name": "Please register to see the exact location of this event.",
+          "address": "New York, New York",
+          "type": "Online",
+          "room": "",
+          "additional_info": ""
+        },
+        "featured": false,
+        "social_links": [
+          "https://x.com/derprojectfair",
+          "https://derprojectfair.wordpress.com/climate-coffees/",
+          "https://x.com/Derprojectfair",
+          "https://x.com/derprojectfair",
+          "https://derprojectfair.wordpress.com/climate-coffees/",
+          "https://x.com/Derprojectfair"
         ]
       }
     },

@@ -1,14 +1,14 @@
 {
   "events": [
     {
-      "id": "evt_interference_de29f7d3",
-      "name": "Volunteer Orientation",
+      "id": "evt_interference_d265672d",
+      "name": "Fiber Friends of Falastin",
       "type": "Community",
       "locationId": "loc_interference",
       "communityId": "com_interference",
-      "description": "Join us for the next volunteer orientation to learn about getting involved in Interference Archive’s community. You will learn about Interference Archive’s collection of social movement materials, how we work together as a nonhierarchical community archive, and have a chance to meet fellow comrades and volunteers.\n\n\nThis orientation is open to everyone\n; established volunteers who want a refresher and to new folks trying to plug into the community. It doesn’t matter whether you’ve shadowed once, have put on 10 exhibitions, or have just been lurking on the newsletter—all are welcome to learn, share, and make things happen through the archive! We hope you leave this orientation with new friends, new contacts to help you do the work you’re passionate about, and a clear sense of Interference Archive’s history, communication channels, and values. Come with your questions and ideas!\n\n\nSpace is limited, \nso please RSVP\n to reserve your spot for this session!\n\n\nPhysical space of the Interference Archive is ADA compliant.",
-      "startDate": "2025-04-14T19:00:00",
-      "endDate": "2025-04-14T20:30:00",
+      "description": "Join us for a series of fiber arts meetups in support of Palestine—\nFiber Friends of Falastin\n! This is an exploratory social activity for folks who have basic crochet, knitting, sewing, quilting, weaving, embroidery, (and more!) skills, and who are interested in building community at the intersection of textile-making and social movements. \n\n\nWe have yarn, some crochet hooks, and some scissors to work on a group project in support of Palestine. You are also welcome to bring your own tools and materials, and related projects to work on.\n\n\nPlease note that this is not a workshop designed to teach skills, although you may learn new skills when you come! \nTo participate in the crochet activity you will need to know how to do a chain stitch and a single crochet stitch, which can be learned \nhere\n.\n\n\nMasking is always encouraged at Interference Archive. We will provide masks at the door.",
+      "startDate": "2025-03-26T18:00:00",
+      "endDate": "2025-03-26T20:00:00",
       "category": [
         "Community",
         "Arts",
@@ -23,12 +23,138 @@
       "capacity": null,
       "registrationRequired": false,
       "tags": [
-        "exhibition"
+        "workshop"
       ],
       "image": "interference-archive.jpg",
       "status": "upcoming",
       "metadata": {
-        "source_url": "https://interferencearchive.org/event/volunteer-orientation-5/",
+        "source_url": "https://interferencearchive.org/event/fiber-friends-of-falastin-11/",
+        "organizer": {
+          "name": "Interference Archive",
+          "email": "info@interferencearchive.org"
+        },
+        "venue": {
+          "name": "Interference Archive",
+          "address": "314 7th St, Brooklyn, NY 11215",
+          "type": "Offline"
+        },
+        "featured": false
+      }
+    },
+    {
+      "id": "evt_interference_74aa3df3",
+      "name": "Build Your Own Time Capsule",
+      "type": "Community",
+      "locationId": "loc_interference",
+      "communityId": "com_interference",
+      "description": "What can your present-day self teach your future self? When histories are rewritten and collective memory is contested, personal archiving can be a mode of resistance. Join us for this hands-on workshop facilitated by author and time capsule keeper Lisa Ko and inspired by her new novel \nMemory Piece\n. Participants will have access to Interference Archive’s materials for inspiration, and will build their own time capsules as an analog antidote to digital authoritarianism, incorporating writing prompts and creating a list of contents and a plan for storage and preservation.\n\n\nPlease bring a closeable container (a large envelope, shoebox, jar, gallon-sized bag, etc.) and at least one item you’d like to include in your time capsule, as well as any other supplies you might want to use (paper, markers, scissors, etc.). We’ll have limited supplies available as well.\n\n\nPlease RSVP \nhere\n.",
+      "startDate": "2025-04-02T18:30:00",
+      "endDate": "2025-04-02T20:30:00",
+      "category": [
+        "Community",
+        "Arts",
+        "Activism"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": "Status Unknown"
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": [
+        "workshop"
+      ],
+      "image": "interference-archive.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://interferencearchive.org/event/build-your-own-time-capsule/",
+        "organizer": {
+          "name": "Interference Archive",
+          "email": "info@interferencearchive.org"
+        },
+        "venue": {
+          "name": "Interference Archive",
+          "address": "314 7th St, Brooklyn, NY 11215",
+          "type": "Offline"
+        },
+        "featured": false
+      }
+    },
+    {
+      "id": "evt_interference_5b473e1d",
+      "name": "Dark Side of Goth",
+      "type": "Community",
+      "locationId": "loc_interference",
+      "communityId": "com_interference",
+      "description": "As the goth subculture enjoys a renaissance thanks to social media, we’ll be reflecting on the subculture’s longstanding issues using fascist imagery and Nazi uniforms, ongoing issues of racism, and its growing objectification of women in digital spaces.\n\n\nWe’ll begin with a lecture on the history of the issues within the subculture and move into an open discussion.",
+      "startDate": "2025-04-18T18:30:00",
+      "endDate": "2025-04-18T20:30:00",
+      "category": [
+        "Community",
+        "Arts",
+        "Activism"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": "Status Unknown"
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": [
+        "discussion"
+      ],
+      "image": "interference-archive.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://interferencearchive.org/event/dark-side-of-goth/",
+        "organizer": {
+          "name": "Interference Archive",
+          "email": "info@interferencearchive.org"
+        },
+        "venue": {
+          "name": "Interference Archive",
+          "address": "314 7th St, Brooklyn, NY 11215",
+          "type": "Offline"
+        },
+        "featured": false
+      }
+    },
+    {
+      "id": "evt_interference_94966cb0",
+      "name": "Drawn Together",
+      "type": "Community",
+      "locationId": "loc_interference",
+      "communityId": "com_interference",
+      "description": "Join us for a night of drawing and mark-making! Register \nhere\n. \n\n\nAt Drawn Together, we provide prompts and materials for you to experiment and explore with your visual art-making practice, all without the pressure of having to do it well.\n\n\nBecause of this one-night partnership, we’ll also have access to Interference Archive’s materials, which we’ll be using as part of our inspiration.\n\n\nThe mission of Interference Archive is to explore the relationship between cultural production and social movements. This work manifests in an open stacks archival collection, publications, a study center, and public programs including exhibitions, workshops, talks, and screenings, all of which encourage critical and creative engagement with the rich history of social movements.\n\n\nCome for the art-making, stay for a collection of visual media related to the history of activism and social movements around the world!\n\n\nTiming: Doors at 7. Come early to save your seat! Games begin at 7:30.\n\n\nSupplies: Pencils and paper will be provided, though you’re encouraged to bring your own supplies if you’d like.",
+      "startDate": "2025-03-10T19:00:00",
+      "endDate": "2025-03-10T21:00:00",
+      "category": [
+        "Community",
+        "Arts",
+        "Activism"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": "Status Unknown"
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": [
+        "workshop",
+        "exhibition",
+        "screening",
+        "talk"
+      ],
+      "image": "interference-archive.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://interferencearchive.org/event/drawn-together-2/",
         "organizer": {
           "name": "Interference Archive",
           "email": "info@interferencearchive.org"
@@ -83,14 +209,14 @@
       }
     },
     {
-      "id": "evt_interference_025de535",
-      "name": "Digital Privacy and InfoSec Workshop",
+      "id": "evt_interference_de29f7d3",
+      "name": "Volunteer Orientation",
       "type": "Community",
       "locationId": "loc_interference",
       "communityId": "com_interference",
-      "description": "This workshop is an introduction to personal digital privacy and information security practices, and will cover some data management basics, as well. This workshop is open to anyone, regardless of skill, but will have a particular focus on practices most applicable in community organizing, record-keeping, and archival settings. No pre-existing skills or technologies are required. Participants should bring a device with them, as we will be doing some hands-on activities to help them secure their devices and digital footprints. We will cover topics including:\n\n\n· What information about me is out there?\n· Professional vs personal digital identities\n· Identifying & removing information from public directories\n· Personal communication infosec (emails, phones, social media)\n· Privacy considerations for documenting protests / actions\n· Securing and encrypting personal devices and files\n· Best practices for file-naming, data backup, and metadata\nBecause this workshop is hands-on, it has a cap of 25 participants – please register ahead of time!\n\n\nThis workshop is in collaboration with the \nArchival Technologies Lab\n and lead by a facilitator with 9+ years of experience. Please RSVP \nhere\n.",
-      "startDate": "2025-04-04T18:30:00",
-      "endDate": "2025-04-04T20:30:00",
+      "description": "Join us for the next volunteer orientation to learn about getting involved in Interference Archive’s community. You will learn about Interference Archive’s collection of social movement materials, how we work together as a nonhierarchical community archive, and have a chance to meet fellow comrades and volunteers.\n\n\nThis orientation is open to everyone\n; established volunteers who want a refresher and to new folks trying to plug into the community. It doesn’t matter whether you’ve shadowed once, have put on 10 exhibitions, or have just been lurking on the newsletter—all are welcome to learn, share, and make things happen through the archive! We hope you leave this orientation with new friends, new contacts to help you do the work you’re passionate about, and a clear sense of Interference Archive’s history, communication channels, and values. Come with your questions and ideas!\n\n\nSpace is limited, \nso please RSVP\n to reserve your spot for this session!\n\n\nPhysical space of the Interference Archive is ADA compliant.",
+      "startDate": "2025-04-14T19:00:00",
+      "endDate": "2025-04-14T20:30:00",
       "category": [
         "Community",
         "Arts",
@@ -105,12 +231,12 @@
       "capacity": null,
       "registrationRequired": false,
       "tags": [
-        "workshop"
+        "exhibition"
       ],
       "image": "interference-archive.jpg",
       "status": "upcoming",
       "metadata": {
-        "source_url": "https://interferencearchive.org/event/digital-privacy-and-infosec-workshop/",
+        "source_url": "https://interferencearchive.org/event/volunteer-orientation-5/",
         "organizer": {
           "name": "Interference Archive",
           "email": "info@interferencearchive.org"
@@ -207,14 +333,14 @@
       }
     },
     {
-      "id": "evt_interference_d265672d",
-      "name": "Fiber Friends of Falastin",
+      "id": "evt_interference_025de535",
+      "name": "Digital Privacy and InfoSec Workshop",
       "type": "Community",
       "locationId": "loc_interference",
       "communityId": "com_interference",
-      "description": "Join us for a series of fiber arts meetups in support of Palestine—\nFiber Friends of Falastin\n! This is an exploratory social activity for folks who have basic crochet, knitting, sewing, quilting, weaving, embroidery, (and more!) skills, and who are interested in building community at the intersection of textile-making and social movements. \n\n\nWe have yarn, some crochet hooks, and some scissors to work on a group project in support of Palestine. You are also welcome to bring your own tools and materials, and related projects to work on.\n\n\nPlease note that this is not a workshop designed to teach skills, although you may learn new skills when you come! \nTo participate in the crochet activity you will need to know how to do a chain stitch and a single crochet stitch, which can be learned \nhere\n.\n\n\nMasking is always encouraged at Interference Archive. We will provide masks at the door.",
-      "startDate": "2025-03-26T18:00:00",
-      "endDate": "2025-03-26T20:00:00",
+      "description": "This workshop is an introduction to personal digital privacy and information security practices, and will cover some data management basics, as well. This workshop is open to anyone, regardless of skill, but will have a particular focus on practices most applicable in community organizing, record-keeping, and archival settings. No pre-existing skills or technologies are required. Participants should bring a device with them, as we will be doing some hands-on activities to help them secure their devices and digital footprints. We will cover topics including:\n\n\n· What information about me is out there?\n· Professional vs personal digital identities\n· Identifying & removing information from public directories\n· Personal communication infosec (emails, phones, social media)\n· Privacy considerations for documenting protests / actions\n· Securing and encrypting personal devices and files\n· Best practices for file-naming, data backup, and metadata\nBecause this workshop is hands-on, it has a cap of 25 participants – please register ahead of time!\n\n\nThis workshop is in collaboration with the \nArchival Technologies Lab\n and lead by a facilitator with 9+ years of experience. Please RSVP \nhere\n.",
+      "startDate": "2025-04-04T18:30:00",
+      "endDate": "2025-04-04T20:30:00",
       "category": [
         "Community",
         "Arts",
@@ -234,92 +360,7 @@
       "image": "interference-archive.jpg",
       "status": "upcoming",
       "metadata": {
-        "source_url": "https://interferencearchive.org/event/fiber-friends-of-falastin-11/",
-        "organizer": {
-          "name": "Interference Archive",
-          "email": "info@interferencearchive.org"
-        },
-        "venue": {
-          "name": "Interference Archive",
-          "address": "314 7th St, Brooklyn, NY 11215",
-          "type": "Offline"
-        },
-        "featured": false
-      }
-    },
-    {
-      "id": "evt_interference_74aa3df3",
-      "name": "Build Your Own Time Capsule",
-      "type": "Community",
-      "locationId": "loc_interference",
-      "communityId": "com_interference",
-      "description": "What can your present-day self teach your future self? When histories are rewritten and collective memory is contested, personal archiving can be a mode of resistance. Join us for this hands-on workshop facilitated by author and time capsule keeper Lisa Ko and inspired by her new novel \nMemory Piece\n. Participants will have access to Interference Archive’s materials for inspiration, and will build their own time capsules as an analog antidote to digital authoritarianism, incorporating writing prompts and creating a list of contents and a plan for storage and preservation.\n\n\nPlease bring a closeable container (a large envelope, shoebox, jar, gallon-sized bag, etc.) and at least one item you’d like to include in your time capsule, as well as any other supplies you might want to use (paper, markers, scissors, etc.). We’ll have limited supplies available as well.\n\n\nPlease RSVP \nhere\n.",
-      "startDate": "2025-04-02T18:30:00",
-      "endDate": "2025-04-02T20:30:00",
-      "category": [
-        "Community",
-        "Arts",
-        "Activism"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": "Status Unknown"
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": [
-        "workshop"
-      ],
-      "image": "interference-archive.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://interferencearchive.org/event/build-your-own-time-capsule/",
-        "organizer": {
-          "name": "Interference Archive",
-          "email": "info@interferencearchive.org"
-        },
-        "venue": {
-          "name": "Interference Archive",
-          "address": "314 7th St, Brooklyn, NY 11215",
-          "type": "Offline"
-        },
-        "featured": false
-      }
-    },
-    {
-      "id": "evt_interference_94966cb0",
-      "name": "Drawn Together",
-      "type": "Community",
-      "locationId": "loc_interference",
-      "communityId": "com_interference",
-      "description": "Join us for a night of drawing and mark-making! Register \nhere\n. \n\n\nAt Drawn Together, we provide prompts and materials for you to experiment and explore with your visual art-making practice, all without the pressure of having to do it well.\n\n\nBecause of this one-night partnership, we’ll also have access to Interference Archive’s materials, which we’ll be using as part of our inspiration.\n\n\nThe mission of Interference Archive is to explore the relationship between cultural production and social movements. This work manifests in an open stacks archival collection, publications, a study center, and public programs including exhibitions, workshops, talks, and screenings, all of which encourage critical and creative engagement with the rich history of social movements.\n\n\nCome for the art-making, stay for a collection of visual media related to the history of activism and social movements around the world!\n\n\nTiming: Doors at 7. Come early to save your seat! Games begin at 7:30.\n\n\nSupplies: Pencils and paper will be provided, though you’re encouraged to bring your own supplies if you’d like.",
-      "startDate": "2025-03-10T19:00:00",
-      "endDate": "2025-03-10T21:00:00",
-      "category": [
-        "Community",
-        "Arts",
-        "Activism"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": "Status Unknown"
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": [
-        "workshop",
-        "exhibition",
-        "screening",
-        "talk"
-      ],
-      "image": "interference-archive.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://interferencearchive.org/event/drawn-together-2/",
+        "source_url": "https://interferencearchive.org/event/digital-privacy-and-infosec-workshop/",
         "organizer": {
           "name": "Interference Archive",
           "email": "info@interferencearchive.org"

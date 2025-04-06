@@ -1,47 +1,6 @@
 {
   "events": [
     {
-      "id": "evt_com_nyc_resistor_363rnqjs",
-      "name": "HOLD Electronics",
-      "type": "Tech",
-      "locationId": "",
-      "communityId": "com_nyc_resistor",
-      "description": "",
-      "startDate": "2025-04-05T19:00:00-04:00",
-      "endDate": "2025-04-05T20:00:00-04:00",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": "",
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.google.com/calendar/event?eid=MzYzcm5xanM3ajdyaGVua20zdm1oZjU0MTFfMjAyNTA0MDVUMjMwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn",
-        "organizer": {
-          "name": "NYCResistor",
-          "instagram": "",
-          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false
-      }
-    },
-    {
       "id": "evt_com_nyc_resistor_hhf8hh3q",
       "name": "Electronics 14",
       "type": "Tech",
@@ -1386,6 +1345,47 @@
         "venue": {
           "name": "",
           "address": "",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
+      "id": "evt_com_nyc_resistor_i3p5455v",
+      "name": "diyaudio.nyc April Meetup",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_nyc_resistor",
+      "description": "Vaccination Proof + Mask + RSVP Required\nRSVP https://www.eventbrite.com/e/diyaudionyc-april-meetup-tickets-1313377630849\n\nResistor hosts a meetup for the diyaudio.nyc group, and invites anyone to come learn about making your own home audio gear.diyaudio.nyc has regular meetups to share recent DIY projects (speakers, amps, preamps, tubes and solid state - anything home-audio related), as well as talks and demos on related topics and skills (how to solder, how digital crossovers work, fabrication techniques, digital room correction, etc). Building your own gear doesn't have to be a solitary hobby anymore... has regular meetups to share recent DIY audio projects (speakers, amps, DACs, etc - anything home-audio related), as well as talks and demos on related topics and skills (how to solder, how digital crossovers work, fabrication techniques, digital room correction, etc).\nThis month we're going to talk about repairs, and cover the basics that anyone who's contracted this audio illness should know - we're talking weekend projects that don't need sophisticated equipment.(Things like refoaming speakers, cleaning scratchy volume pots, repairing cables, replacing capacitors, etc.)Do you have a brief demo you can share? Let us know at diyaudio@gowanusaudio.com and we'll add it to the list.\n(If history is any guide, at the end of the meetup some of us will want to keep talking about projects and we'll move to a bar nearby - join us!)\nWho should come?\nOpen to anyone interested in DIY home audio who wants to learn and make some new friends - all experience levels welcome. If you've ever wanted to build any audio gear, we're here for you. (We generally don't focus on production, live sound, musical instruments, or making music, although there certainly is some overlap.)\nNote from the organizer, Pete:\nI started diyaudio.nyc a couple years ago because I wanted to meet some like-minded folks near me - I knew they were out there. And they are! Thank you for being a part! Let's grow this group! These days, for me, it's all audio all the time - I work as a Buyer for The Music Room buying high end audio equipment, and also offer complete classes to build your own equipment as Gowanus Audio.\nThis is a masks optional event.\nAs with all NYC Resistor events, this class is 18+ and governed by our Code of Conduct. The Code of Conduct, as well as accessibility information, can be found at www.nycresistor.com/participate/. If you have any questions, please email classes@nycresistor.com\n",
+      "startDate": "2025-04-27T13:00:00-04:00",
+      "endDate": "2025-04-27T16:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": true,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.eventbrite.com/e/diyaudionyc-april-meetup-tickets-1313377630849",
+        "organizer": {
+          "name": "NYCResistor",
+          "instagram": "",
+          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "NYC Resistor\n87 Third Avenue\nBrooklyn, NY 11217",
           "type": "Offline"
         },
         "speakers": [],
