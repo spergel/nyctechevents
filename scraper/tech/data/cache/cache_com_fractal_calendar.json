@@ -1,14 +1,14 @@
 {
   "events": [
     {
-      "id": "evt_com_fractal__clr78b9",
-      "name": "Weekly Sunday Co-Gardening | Spring Season \ud83c\udf38",
+      "id": "evt_com_fractal__clr78ba",
+      "name": "BuildHub #2 - 3D Modelling CAD Workshop",
       "type": "Tech",
       "locationId": "loc_fractal",
       "communityId": "com_fractal",
-      "description": "\u200bWe're meeting up every Sunday afternoon this Spring to tend the garden on the roof of the Fractal Tech Hub (weather permitting).Bring snacks to share, supplies for the garden, plants to plant, or just bring yourself ready to be put to work.\u200bJoin the groupchat:https://chat.whatsapp.com/HhSgjGQskNcJ8hAyKh9YyW\u200b\u200bMore information on the Fractal Garden Website:http://garden.fractaltechhub.com/",
-      "startDate": "2025-04-06T19:00:00Z",
-      "endDate": "2025-04-06T21:30:00Z",
+      "description": "\u200b\u200bHave the knack to design your own mechanical products and 3D print them? Unsure where to start? Fear not.\u200b\u200bHI! I'mSuraj Kumarand I can teach you how to become a maker in three days. I was the CTO of Sherpy, a drone startup that manufactured small, long-range airplanes for commercial delivery (sherpymedia.com). I now founded a neurotech startup (Cerelog.com).There are a lot of visionaries and hackers around in New York City, but materializing an idea can be quite the wall to climb! What are the real-world constraints to pay attention to when designing something? Where's the space where you can build things fast and get great advice?!\u200bThis is a small-group, high attention workshop, targeting 10-15 creative people who have the itch to create things.Light on theory, heavy on practice!\u200bWHAT YOU'LL DO\u200bGet familiar with Fusion360!\u200b\u200b\u200bDesign your own custom spray bottle using Fusion360. Use it for cleaning around your house/pranking your dog!\u200b\u200b\u200bWe provide the nozzle and tube\u2014you design the rest!\u200b\u200b\u200b3D print your creation on the high performance Bambu X1 Carbon printer\u200b\u200b\u200bDETAILS\u200b\u200b\u200bFour-day workshop (~3 hrs per session)\u200bMon, Tue, Wed, Thurs\u200b\u200b\u200bProfessional guidance from an experienced engineer\u200b\u200b\u200bLearn to navigate Fusion360 and think like a designer\u200b\u200b\u200bREGISTRATION\u200b\u200b$100 / person for the 4 days\u200b\u200b\u200bLimited spots available\u200b\u200b\u200bReserve your seat today!\u200bYour Host:\u200b\u200b\u200bSuraj Kumar, Mechanical Engineer with years of Fusion360 experience\u200b\u200b\u200b*thank you tofractal techfor hosting us!*Contact at surajratnam99@gmail.com",
+      "startDate": "2025-04-07T22:00:00Z",
+      "endDate": "2025-04-08T01:00:00Z",
       "category": [
         "Tech"
       ],
@@ -21,10 +21,10 @@
       "capacity": null,
       "registrationRequired": false,
       "tags": "",
-      "image": "luma-event-ba13ea05.jpg",
+      "image": "luma-event-7c08522b.jpg",
       "status": "upcoming",
       "metadata": {
-        "source_url": "https://lu.ma/suadbe9p",
+        "source_url": "https://lu.ma/c9bexs8f",
         "organizer": {
           "name": "Fractal Tech: NYC",
           "instagram": "",
@@ -37,19 +37,51 @@
         },
         "speakers": [
           {
-            "name": "Anthony Castrio \ud83d\udcaf",
+            "name": "Suraj Kumar",
             "title": "",
             "bio": ""
           },
           {
-            "name": "Anthony Castrio \ud83d\udcaf",
+            "name": "Jake Zegil",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Chandiran",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Suraj Kumar",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Jake Zegil",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Chandiran",
             "title": "",
             "bio": ""
           }
         ],
         "social_links": [
-          "https://x.com/AnthonyCastrio",
-          "https://x.com/AnthonyCastrio"
+          "https://instagram.com/fractaltechnyc",
+          "https://x.com/fractaltechnyc",
+          "https://fractaltechhub.com",
+          "https://instagram.com/surajimop",
+          "https://x.com/surkumference",
+          "https://x.com/JakeZegil",
+          "https://x.com/patxnoir",
+          "https://instagram.com/fractaltechnyc",
+          "https://x.com/fractaltechnyc",
+          "https://fractaltechhub.com",
+          "https://instagram.com/surajimop",
+          "https://x.com/surkumference",
+          "https://x.com/JakeZegil",
+          "https://x.com/patxnoir"
         ],
         "featured": false,
         "luma_source": true
@@ -249,93 +281,6 @@
         "social_links": [
           "https://x.com/AnthonyCastrio",
           "https://x.com/AnthonyCastrio"
-        ],
-        "featured": false,
-        "luma_source": true
-      }
-    },
-    {
-      "id": "evt_com_fractal__clr78ba",
-      "name": "BuildHub #2 - 3D Modelling CAD Workshop",
-      "type": "Tech",
-      "locationId": "loc_fractal",
-      "communityId": "com_fractal",
-      "description": "\u200b\u200bHave the knack to design your own mechanical products and 3D print them? Unsure where to start? Fear not.\u200b\u200bHI! I'mSuraj Kumarand I can teach you how to become a maker in three days. I was the CTO of Sherpy, a drone startup that manufactured small, long-range airplanes for commercial delivery (sherpymedia.com). I now founded a neurotech startup (Cerelog.com).There are a lot of visionaries and hackers around in New York City, but materializing an idea can be quite the wall to climb! What are the real-world constraints to pay attention to when designing something? Where's the space where you can build things fast and get great advice?!\u200bThis is a small-group, high attention workshop, targeting 10-15 creative people who have the itch to create things.Light on theory, heavy on practice!\u200bWHAT YOU'LL DO\u200bGet familiar with Fusion360!\u200b\u200b\u200bDesign your own custom spray bottle using Fusion360. Use it for cleaning around your house/pranking your dog!\u200b\u200b\u200bWe provide the nozzle and tube\u2014you design the rest!\u200b\u200b\u200b3D print your creation on the high performance Bambu X1 Carbon printer\u200b\u200b\u200bDETAILS\u200b\u200b\u200bFour-day workshop (~3 hrs per session)\u200bMon, Tue, Wed, Thurs\u200b\u200b\u200bProfessional guidance from an experienced engineer\u200b\u200b\u200bLearn to navigate Fusion360 and think like a designer\u200b\u200b\u200bREGISTRATION\u200b\u200b$100 / person for the 4 days\u200b\u200b\u200bLimited spots available\u200b\u200b\u200bReserve your seat today!\u200bYour Host:\u200b\u200b\u200bSuraj Kumar, Mechanical Engineer with years of Fusion360 experience\u200b\u200b\u200b*thank you tofractal techfor hosting us!*Contact at surajratnam99@gmail.com",
-      "startDate": "2025-04-14T22:00:00Z",
-      "endDate": "2025-04-15T01:00:00Z",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": "",
-      "image": "luma-event-7c08522b.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://lu.ma/c9bexs8f",
-        "organizer": {
-          "name": "Fractal Tech: NYC",
-          "instagram": "",
-          "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
-        },
-        "venue": {
-          "name": "Fractal Tech",
-          "address": "111 Conselyea St, Brooklyn, NY 11211",
-          "type": "Offline"
-        },
-        "speakers": [
-          {
-            "name": "Suraj Kumar",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Jake Zegil",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Chandiran",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Suraj Kumar",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Jake Zegil",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Chandiran",
-            "title": "",
-            "bio": ""
-          }
-        ],
-        "social_links": [
-          "https://instagram.com/fractaltechnyc",
-          "https://x.com/fractaltechnyc",
-          "https://fractaltechhub.com",
-          "https://instagram.com/surajimop",
-          "https://x.com/surkumference",
-          "https://x.com/JakeZegil",
-          "https://x.com/patxnoir",
-          "https://instagram.com/fractaltechnyc",
-          "https://x.com/fractaltechnyc",
-          "https://fractaltechhub.com",
-          "https://instagram.com/surajimop",
-          "https://x.com/surkumference",
-          "https://x.com/JakeZegil",
-          "https://x.com/patxnoir"
         ],
         "featured": false,
         "luma_source": true

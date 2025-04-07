@@ -58,85 +58,6 @@
       }
     },
     {
-      "id": "evt_com_otwc_8448961e",
-      "name": "OTWC Season 6: Kickoff",
-      "type": "Tech",
-      "locationId": "loc_tbd",
-      "communityId": "com_otwc",
-      "description": "​Join us for our first session Season 6!OTWC is an NYC-based writing community for writers to write, exchange ideas, and get inspired. Our sessions look like this:​​​​​​1. ​​​Introduce yourselves and talk about what you plan to write2. ​​​Focused writing session3. ​​​Get together in small groups and discuss how the session went​​​​​​Snacks and drinks will be provided!​​​​​If this price is too steep for you for any reason, email us by clicking \"Contact the Host\" on the left and we’ll give you a pay-what-you-can ticket.​​​​​​Follow us on Twitter and Instagram @otwc_nyc to stay updated on future events and announcements!​​​​​​Hope to see you there 🥳",
-      "startDate": "2025-04-06T10:00:00-04:00",
-      "endDate": "2025-04-06T13:00:00-04:00",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": 100,
-      "registrationRequired": true,
-      "tags": [],
-      "image": "luma-event-9d9dccf2.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://lu.ma/e/evt-OeVz7I8NUYbloWp",
-        "speakers": [
-          {
-            "name": "James Q",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Abi Suresh",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Samika Parab",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "James Q",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Abi Suresh",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Samika Parab",
-            "title": "",
-            "bio": ""
-          }
-        ],
-        "venue": {
-          "name": "Please register to see the exact location of this event.",
-          "address": "New York, New York",
-          "type": "Online",
-          "room": "",
-          "additional_info": ""
-        },
-        "featured": false,
-        "social_links": [
-          "https://instagram.com/otwc_nyc",
-          "https://x.com/otwc_nyc",
-          "https://instagram.com/mrjamesq",
-          "https://x.com/mrjamesq",
-          "https://instagram.com/abi_nope",
-          "https://instagram.com/otwc_nyc",
-          "https://x.com/otwc_nyc",
-          "https://instagram.com/mrjamesq",
-          "https://x.com/mrjamesq",
-          "https://instagram.com/abi_nope"
-        ]
-      }
-    },
-    {
       "id": "evt_com_der_project_a86f5e54",
       "name": "Data In Power - NYC Event",
       "type": "Tech",
@@ -869,6 +790,63 @@
       "status": "upcoming",
       "metadata": {
         "source_url": "https://lu.ma/e/evt-kLNlYdwivI9d0CF",
+        "speakers": [
+          {
+            "name": "aci-d club",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "aci-d club",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "venue": {
+          "name": "Please register to see the exact location of this event.",
+          "address": "Kings County, New York",
+          "type": "Online",
+          "room": "",
+          "additional_info": ""
+        },
+        "featured": false,
+        "social_links": [
+          "https://instagram.com/aci_d.club",
+          "https://x.com/aci_dclub",
+          "https://aci-d.club",
+          "https://instagram.com/aci_d.club",
+          "https://instagram.com/aci_d.club",
+          "https://x.com/aci_dclub",
+          "https://aci-d.club",
+          "https://instagram.com/aci_d.club"
+        ]
+      }
+    },
+    {
+      "id": "evt_com_acid_club_8615fdc0",
+      "name": "aci-d club weekly hang 021 *on wednesday now*",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_acid_club",
+      "description": "​WE'RE MOVING HANGS TO WEDNESDAYS FOR A BIT​Have a creative project you’ve been wanting to work on but can’t quite make the time for? Want to meet other designers in the city? Come hang with us!Show up with ideas and materials, leave with progress made, and a new friend or two.AGENDA7:00-7:30: intros7:30-8:30: work on (or start) a design project!8:30-9:00+: break into groups, share your WIPs, chat, mingle—Hosted attelos.haus",
+      "startDate": "2025-04-30T18:45:00-04:00",
+      "endDate": "2025-04-30T21:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "luma-event-e505e8ab.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/e/evt-rpup1Hks3T3MS7Y",
         "speakers": [
           {
             "name": "aci-d club",

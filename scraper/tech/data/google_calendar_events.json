@@ -1584,8 +1584,8 @@
       "locationId": "",
       "communityId": "com_nyc_resistor",
       "description": "<u></u><p>NYC Resistor is open to the public for Craft Nights now every Monday and Thursday from 6:30-9:30 PM! Come bring your current crafting project and work on it with other artists, crafters, and makers of all kinds. Resistors do everything from costumes to electronics to visual arts to woodworking; people and crafting projects of all sorts are enthusiastically welcome!</p><p>RSVP at<span> <a href=\"https://www.google.com/url?q=https://www.eventbrite.com/e/public-craft-night-mondays-and-thursdays-tickets-162729866411&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw2GxlHrVKU2UOWuOdKbNOj5\" target=\"_blank\">https://www.eventbrite.com/e/public-craft-night-mondays-and-thursdays-tickets-162729866411</a></span> is appreciated but not required, for covid contact-tracing purposes.<br></p>This event like all NYC Resistor events is 18 and over and governed by out code of conduct. <br><br>More information: <a href=\"https://www.google.com/url?q=http://www.nycresistor.com/participate/&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw2qoLIc6c_Ay1xuc_FYjEZH\" target=\"_blank\">http://www.nycresistor.com/participate/</a><br>NYC Resistor Code of Conduct: <a href=\"https://www.google.com/url?q=http://www.nycresistor.com/2015/08/04/nyc-resistor-code-of-conduct/&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw1hCVO6yP0-Y--CtV5nrIw_\" target=\"_blank\">http://www.nycresistor.com/2015/08/04/nyc-resistor-code-of-conduct/</a><u></u><u></u><u></u><u></u><u></u>",
-      "startDate": "2025-07-03T18:30:00-04:00",
-      "endDate": "2025-07-03T21:30:00-04:00",
+      "startDate": "2025-06-26T18:30:00-04:00",
+      "endDate": "2025-06-26T21:30:00-04:00",
       "category": [
         "Tech"
       ],
@@ -1733,88 +1733,6 @@
         "venue": {
           "name": "",
           "address": "",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false
-      }
-    },
-    {
-      "id": "evt_com_nyc_resistor_4lh4cb8a",
-      "name": "HOLD: Meal Prep",
-      "type": "Tech",
-      "locationId": "",
-      "communityId": "com_nyc_resistor",
-      "description": "",
-      "startDate": "2025-04-06",
-      "endDate": "2025-04-07",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": "",
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.google.com/calendar/event?eid=NGxoNGNiOGE3dHByamUzM2o5b29tYmV2YnEgcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw",
-        "organizer": {
-          "name": "NYCResistor",
-          "instagram": "",
-          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false
-      }
-    },
-    {
-      "id": "evt_com_nyc_resistor_ihj28hha",
-      "name": "Intro to Creating Documentaries",
-      "type": "Tech",
-      "locationId": "",
-      "communityId": "com_nyc_resistor",
-      "description": "Vaccination Proof + Mask + RSVP Required\nRSVP https://www.eventbrite.com/e/intro-to-creating-documentaries-tickets-1284744077119\n\nAn introduction to the founding steps of starting a documentary film project, from composing the idea to conversing with potential subjects.For people interested in making a documentary, they often run into all sorts of walls -- getting permission, working with locations, focusing the story. Most of all, just getting started, even when, from a materials standpoint, all you need is your smartphone camera.This class will introduce the founding steps to starting a documentary film project, from composing their idea to conversing with potential interviewees. My goal is to help provide clear beginning steps and to alleviate any nervousness around each one. We'll also cover morals and ethics when it comes to documentary as it's personally important for me to discuss.The class won't get into technical skills like camera work or editing. To even get people to a ready stage to pick up a camera is more than enough to cover. Also, documentaries are beautiful in that you don't need to invest into much equipment and people's first docs, I feel it's best not to bring any need to purchase or rent anything.Who is this for?People interested in making their own documentary, whether for themselves or to share a story they're passionate about. No materials or prior experience needed.\n\nYour instructor:\nJared Leong - I'm a documentary filmmaker based out of NYC. Filmed all around the country and internationally as well, focused as a producer/director.\n\nThis is a masks optional workshop.\nAs with all NYC Resistor events, this class is 18+ and governed by our Code of Conduct. The Code of Conduct, as well as accessibility information, can be found at www.nycresistor.com/participate/.\nIf you have any questions, please email classes@nycresistor.com.\n",
-      "startDate": "2025-04-06T13:00:00-04:00",
-      "endDate": "2025-04-06T14:30:00-04:00",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": true,
-      "tags": "",
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.eventbrite.com/e/intro-to-creating-documentaries-tickets-1284744077119",
-        "organizer": {
-          "name": "NYCResistor",
-          "instagram": "",
-          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "NYCResistor\n87 3rd Ave\nBrooklyn, NY 11217",
           "type": "Offline"
         },
         "speakers": [],
@@ -3624,47 +3542,6 @@
       }
     },
     {
-      "id": "evt_com_nyc_resistor_hhf8hh3q",
-      "name": "Electronics 14",
-      "type": "Tech",
-      "locationId": "",
-      "communityId": "com_nyc_resistor",
-      "description": "Vaccination Proof + Mask + RSVP Required\nRSVP https://www.eventbrite.com/e/electronics-14-tickets-1312020611969\n\nhardware electronic music partyAPR 5, NYC RESISTORFEATURING\ngovernor vomit\ndj chainwallet\nslacksaw\nfossil christ\ngork\nredneck princess\nnbjp\n\nCOME LISTEN TO HARDWARE\nMUSIC\nOPEN DEX/MIXER B4 &amp; BTWEEN SETS\nNOTAFLOF PLS DONATE IF U CAN\n\nThis is a masks optional event.\n\nAs with all NYC Resistor events, this class is 18+ and governed by our Code of Conduct. The Code of Conduct, as well as accessibility information, can be found at www.nycresistor.com/participate/.\nPlease note that refunds must be requested 24 hours in advance. If you have any questions, please email classes@nycresistor.com.\n",
-      "startDate": "2025-04-05T20:00:00-04:00",
-      "endDate": "2025-04-06T03:00:00-04:00",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": true,
-      "tags": "",
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.eventbrite.com/e/electronics-14-tickets-1312020611969",
-        "organizer": {
-          "name": "NYCResistor",
-          "instagram": "",
-          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "NYCResistor\n87 3rd Ave\nBrooklyn, NY 11217",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false
-      }
-    },
-    {
       "id": "evt_com_nyc_resistor_6hgm4e9p",
       "name": "HOLD: Networking Event (Yonatan & AJ)",
       "type": "Tech",
@@ -3711,7 +3588,7 @@
       "type": "Tech",
       "locationId": "loc_telos",
       "communityId": "com_telos",
-      "description": "<p>📋 APPLY HERE! → <a href=\"https://forms.gle/1qVxzcLxhaZQExpbA\">https://forms.gle/1qVxzcLxhaZQExpbA</a></p><p>👨‍🏫 Instructor: <a href=\"https://x.com/davidshimel\">David Shimel</a></p><p>🗓 8 weeks, 1 class per week, on the following Tuesdays: April 29, May 6, 13, 20, 27, June 3, 17, 24 (note: no class June 10)</p><p>🕰️ 2 hours per class, 6:30 - 8:30 PM ET</p><p>🗺 Location: <a href=\"https://telos.haus/\">telos.haus</a>, 303 Ten Eyck St, Brooklyn, NY 11206 (<a href=\"https://maps.app.goo.gl/VgNEWeHsNJL9ST158\">map</a>)</p><p>💰 Tuition tiers: $500 (In-Person) or $250 (Remote). We also have some scholarships available, so if you’re interested in potentially receiving financial aid, please fill out <a href=\"https://forms.gle/b4W6PV7EphzST7fK9\">this form</a>. Protip: your employer may offer you a continuing education budget to spend on classes such as this one!</p><p>👥 Enrollment: 20 students in-person, unlimited students remotely.</p><p>💡Prerequisites: Nothing more than an interest in music :D</p><p>✂️📃TL;DR: Want to learn how to produce your own electronic dance music (EDM) using <a href=\"https://www.ableton.com/\">Ableton</a>? And then DJ it with <a href=\"https://mixxx.org/\">Mixxx</a>?? Then <a href=\"https://forms.gle/1qVxzcLxhaZQExpbA\">apply here</a> today!</p>",
+      "description": "<p><b>Full details:</b> <a href=\"https://davidshimel.notion.site/EDM-Production-101-Telos-Haus-Spring-2025-1c9cbe9e47b780379e9beb82f78f0a82\">https://davidshimel.notion.site/EDM-Production-101-Telos-Haus-Spring-2025-1c9cbe9e47b780379e9beb82f78f0a82</a></p><p><br></p><p>📋 APPLY HERE! → <a href=\"https://forms.gle/1qVxzcLxhaZQExpbA\" target=\"_blank\">https://forms.gle/1qVxzcLxhaZQExpbA</a></p><p>👨‍🏫 Instructor: <a href=\"https://x.com/davidshimel\" target=\"_blank\">David Shimel</a></p><p>🗓 8 weeks, 1 class per week, on the following Tuesdays: April 29, May 6, 13, 20, 27, June 3, 17, 24 (note: no class June 10)</p><p>🕰️ 2 hours per class, 6:30 - 8:30 PM ET</p><p>🗺 Location: <a href=\"https://telos.haus/\" target=\"_blank\">telos.haus</a>, 303 Ten Eyck St, Brooklyn, NY 11206 (<a href=\"https://maps.app.goo.gl/VgNEWeHsNJL9ST158\" target=\"_blank\">map</a>)</p><p>💰 Tuition tiers: $500 (In-Person) or $250 (Remote). We also have some scholarships available, so if you’re interested in potentially receiving financial aid, please fill out <a href=\"https://forms.gle/b4W6PV7EphzST7fK9\" target=\"_blank\">this form</a>. Protip: your employer may offer you a continuing education budget to spend on classes such as this one!</p><p>👥 Enrollment: 20 students in-person, unlimited students remotely.</p><p>💡Prerequisites: Nothing more than an interest in music :D</p><p>✂️📃TL;DR: Want to learn how to produce your own electronic dance music (EDM) using <a href=\"https://www.ableton.com/\" target=\"_blank\">Ableton</a>? And then DJ it with <a href=\"https://mixxx.org/\" target=\"_blank\">Mixxx</a>?? Then <a href=\"https://forms.gle/1qVxzcLxhaZQExpbA\" target=\"_blank\">apply here</a> today!</p>",
       "startDate": "2025-06-24T18:30:00-04:00",
       "endDate": "2025-06-24T20:30:00-04:00",
       "category": [
@@ -3779,6 +3656,129 @@
         "venue": {
           "name": "",
           "address": "NYC Resistor\n87 Third Avenue\nBrooklyn, NY 11217",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
+      "id": "evt_com_nyc_resistor_0ptmmr84",
+      "name": "Intro to RayTK: an Intermediate TouchDesigner Workshop",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_nyc_resistor",
+      "description": "Vaccination Proof + Mask + RSVP Required\nRSVP https://www.eventbrite.com/e/intro-to-raytk-an-intermediate-touchdesigner-workshop-tickets-1314358775479\n\nExplore RayTK's unique ability to generate infinitely repeating patterns, fractals, reflections, and more—without writing a  line of code!Are you curious about creating intricate volumetric effects and mesmerizing procedural visuals in TouchDesigner but find shader programming daunting? This hands-on workshop introduces you to the powerful RayTK library, allowing you to explore RayMarching techniques without the need for GLSL. Designed for creative coders, visual artists, and interactive designers, this workshop will empower you to build complex visuals using a node-based approach in TouchDesigner.\nYou'll start with the fundamentals of RayMarching, discovering how math-based Signed Distance Functions (SDFs) redefine 3D rendering by eliminating traditional geometry. We’ll dive into RayTK, a versatile library of TouchDesigner components, and explore its unique ability to generate infinitely repeating patterns, fractals, reflections, and more—without writing a single line of code.\nBy the end of the workshop, you'll have a solid foundation in RayMarching, know how to design with RayTK nodes, and be able to incorporate animations, MIDI, and audio for interactive scenes. Whether you're creating dynamic patterns or multi-layered fractal landscapes, this workshop will leave you confident in pushing the boundaries of TouchDesigner’s node-based editor, opening new dimensions for your creative projects.\nNote: Prior TouchDesigner experience, and TouchDesigner loaded on your own laptop are required for this class.\nThis is a masks optional event.\nAs with all NYC Resistor events, this class is 18+ and governed by our Code of Conduct. The Code of Conduct, as well as accessibility information, can be found at www.nycresistor.com/participate/.\nPlease note that refunds must be requested 24 hours in advance. If you have any questions, please email classes@nycresistor.com.\n",
+      "startDate": "2025-04-26T15:00:00-04:00",
+      "endDate": "2025-04-26T18:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": true,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.eventbrite.com/e/intro-to-raytk-an-intermediate-touchdesigner-workshop-tickets-1314358775479",
+        "organizer": {
+          "name": "NYCResistor",
+          "instagram": "",
+          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "NYC Resistor\n87 Third Avenue\nBrooklyn, NY 11217",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
+      "id": "evt_com_nyc_resistor_lri68omv",
+      "name": "Machine Embroidery with Ink/Stitch – Hands-On Workshop!",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_nyc_resistor",
+      "description": "Vaccination Proof + Mask + RSVP Required\nRSVP https://www.eventbrite.com/e/machine-embroidery-with-inkstitch-hands-on-workshop-tickets-1314361202739\n\nLearn to create stunning embroidery designs using Inkscape + Ink/Stitch!This workshop is perfect for beginners and hobbyists looking to dive into machine embroidery using Ink/Stitch (InkEmbroidery)—a free and powerful extension for Inkscape. You’ll learn how to design, digitize, and stitch your own patterns with confidence!\n\n What You’ll Learn:\n Setting up Ink/Stitch (InkEmbroidery) in Inkscape\n Creating and digitizing embroidery designs\n Understanding stitch types, paths, and settings\n Exporting files for embroidery machines\n Hands-on practice with real embroidery stitching!\n\n What to Bring:\n A laptop (Windows or Linux preferred) \n If you don’t have a laptop, no worries! We have a limited number available for use.\n\nThis is a masks optional event.\nAs with all NYC Resistor events, this class is 18+ and governed by our Code of Conduct. The Code of Conduct, as well as accessibility information, can be found at www.nycresistor.com/participate/.\nPlease note that refunds must be requested 24 hours in advance. If you have any questions, please email classes@nycresistor.com.\n",
+      "startDate": "2025-05-04T12:30:00-04:00",
+      "endDate": "2025-05-04T15:30:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": true,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.eventbrite.com/e/machine-embroidery-with-inkstitch-hands-on-workshop-tickets-1314361202739",
+        "organizer": {
+          "name": "NYCResistor",
+          "instagram": "",
+          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "NYC Resistor\n87 3rd Avenue\nBrooklyn, NY 11217",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
+      "id": "evt_com_nyc_resistor_8c5dnvp2",
+      "name": "Copy of Machine Embroidery with Ink/Stitch – Hands-On Workshop!",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_nyc_resistor",
+      "description": "Vaccination Proof + Mask + RSVP Required\nRSVP https://www.eventbrite.com/e/copy-of-machine-embroidery-with-inkstitch-hands-on-workshop-tickets-1314363870719\n\nLearn to create stunning embroidery designs using Inkscape + Ink/Stitch!This workshop is perfect for beginners and hobbyists looking to dive into machine embroidery using Ink/Stitch (InkEmbroidery)—a free and powerful extension for Inkscape. You’ll learn how to design, digitize, and stitch your own patterns with confidence!\n\n What You’ll Learn:\n Setting up Ink/Stitch (InkEmbroidery) in Inkscape\n Creating and digitizing embroidery designs\n Understanding stitch types, paths, and settings\n Exporting files for embroidery machines\n Hands-on practice with real embroidery stitching!\n\n What to Bring:\n A laptop (Windows or Linux preferred) \n If you don’t have a laptop, no worries! We have a limited number available for use.\n\nThis is a masks optional event.\nAs with all NYC Resistor events, this class is 18+ and governed by our Code of Conduct. The Code of Conduct, as well as accessibility information, can be found at www.nycresistor.com/participate/.\nPlease note that refunds must be requested 24 hours in advance. If you have any questions, please email classes@nycresistor.com.\n",
+      "startDate": "2025-05-04T14:30:00-04:00",
+      "endDate": "2025-05-04T17:30:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": true,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.eventbrite.com/e/copy-of-machine-embroidery-with-inkstitch-hands-on-workshop-tickets-1314363870719",
+        "organizer": {
+          "name": "NYCResistor",
+          "instagram": "",
+          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "NYC Resistor\n87 3rd Avenue\nBrooklyn, NY 11217",
           "type": "Offline"
         },
         "speakers": [],
