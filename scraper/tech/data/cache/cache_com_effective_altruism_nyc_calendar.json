@@ -42,47 +42,6 @@
       }
     },
     {
-      "id": "evt_com_effective_altruism_nyc_2mvmt1f5",
-      "name": "AI Governance Subgroup Discussion ",
-      "type": "Tech",
-      "locationId": "",
-      "communityId": "com_effective_altruism_nyc",
-      "description": "AI Subgroup sign-up form: <a href=\"https://www.google.com/url?q=https://forms.gle/fksP9VV3X1owgPe88&amp;sa=D&amp;source=calendar&amp;ust=1740340078367781&amp;usg=AOvVaw1Gq4Qpq9-7sZv1v0wD-NwI\" target=\"_blank\">https://forms.gle/fksP9VV3X1owgPe88</a>\n\n\n\n****\n\nEA NYC:\nPlease find all EA NYC event information - including our Code of Conduct, food policy, covid policy, and information on past and future events - here on our website: <a href=\"https://www.google.com/url?q=https://www.effectivealtruism.nyc/events&amp;sa=D&amp;source=calendar&amp;ust=1740340078367781&amp;usg=AOvVaw14lmj7Oo0KVbHEMA9Io0Io\" target=\"_blank\">https://www.effectivealtruism.nyc/events</a>\n\nYou can also find us on Facebook, Meetup, and Eventbrite!\n<a href=\"https://www.google.com/url?q=http://facebook.com/groups/eanyc/events&amp;sa=D&amp;source=calendar&amp;ust=1740340078367781&amp;usg=AOvVaw2S9X1T96ntA_69qYTY6Xux\" target=\"_blank\">http://facebook.com/groups/eanyc/events</a>\n<a href=\"https://www.google.com/url?q=https://www.meetup.com/effective-altruism-nyc/events/&amp;sa=D&amp;source=calendar&amp;ust=1740340078367781&amp;usg=AOvVaw3K4hLLPZ1cVsTyXhp7mqdv\" target=\"_blank\">https://www.meetup.com/effective-altruism-nyc/events/</a>\n<a href=\"https://www.google.com/url?q=https://www.eventbrite.com/o/effective-altruism-nyc-55938838923&amp;sa=D&amp;source=calendar&amp;ust=1740340078367781&amp;usg=AOvVaw1ntnR_iPj9CmUe96ylX_3n\" target=\"_blank\">https://www.eventbrite.com/o/effective-altruism-nyc-55938838923</a>\n\nFor those new to effective altruism, here are a couple of good introductions. In short, EA is about using evidence to carefully analyze how, given limited resources, we can help others the *most*.\n<a href=\"https://www.google.com/url?q=https://www.youtube.com/watch?v%3D48VAQtGmfWY&amp;sa=D&amp;source=calendar&amp;ust=1740340078367781&amp;usg=AOvVaw2I8NPWSaf3g5Yxf3iUXamZ\" target=\"_blank\">https://www.youtube.com/watch?v=48VAQtGmfWY</a>",
-      "startDate": "2025-04-07T19:00:00-04:00",
-      "endDate": "2025-04-07T21:00:00-04:00",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": "",
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.eventbrite.com/o/effective-altruism-nyc-55938838923&amp;sa=D&amp;source=calendar&amp;ust=1740340078367781&amp;usg=AOvVaw1ntnR_iPj9CmUe96ylX_3n\"",
-        "organizer": {
-          "name": "Effective Altruism NYC Events",
-          "instagram": "",
-          "email": "hbvetqf5h1pd0of0vn6uvphqts@group.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "In-Person Event (Midtown); register for location details",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false
-      }
-    },
-    {
       "id": "evt_com_effective_altruism_nyc_7pgd035d",
       "name": "World Immunization Week",
       "type": "Tech",
@@ -607,6 +566,47 @@
         "venue": {
           "name": "",
           "address": "",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
+      "id": "evt_com_effective_altruism_nyc_6vkt79sh",
+      "name": "World Health Day",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_effective_altruism_nyc",
+      "description": "Some say that April is the cruelest month. The WHO begs to differ:<br><br><a href=\"https://www.google.com/url?q=http://www.who.int/campaigns/world-health-day/2018/en/&amp;sa=D&amp;source=calendar&amp;ust=1671557335136133&amp;usg=AOvVaw0om6R5yHPt6QeEZyLYb6TN\" target=\"_blank\">http://www.who.int/campaigns/world-health-day/2018/en/</a><br><br>Speaking of April, keep an eye out for World Malaria Day and World Immunization Week later this month.",
+      "startDate": "2026-04-07",
+      "endDate": "2026-04-08",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.google.com/calendar/event?eid=NnZrdDc5c2gwYzZyb3F2OGhrZGtiZWk0aDhfMjAyNjA0MDcgaGJ2ZXRxZjVoMXBkMG9mMHZuNnV2cGhxdHNAZw",
+        "organizer": {
+          "name": "Effective Altruism NYC Events",
+          "instagram": "",
+          "email": "hbvetqf5h1pd0of0vn6uvphqts@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "Worldwide!",
           "type": "Offline"
         },
         "speakers": [],

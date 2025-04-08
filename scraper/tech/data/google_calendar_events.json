@@ -1,88 +1,6 @@
 {
   "events": [
     {
-      "id": "evt_com_effective_altruism_nyc_6vkt79sh",
-      "name": "World Health Day",
-      "type": "Tech",
-      "locationId": "",
-      "communityId": "com_effective_altruism_nyc",
-      "description": "Some say that April is the cruelest month. The WHO begs to differ:<br><br><a href=\"https://www.google.com/url?q=http://www.who.int/campaigns/world-health-day/2018/en/&amp;sa=D&amp;source=calendar&amp;ust=1671557335136133&amp;usg=AOvVaw0om6R5yHPt6QeEZyLYb6TN\" target=\"_blank\">http://www.who.int/campaigns/world-health-day/2018/en/</a><br><br>Speaking of April, keep an eye out for World Malaria Day and World Immunization Week later this month.",
-      "startDate": "2025-04-07",
-      "endDate": "2025-04-08",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": "",
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.google.com/calendar/event?eid=NnZrdDc5c2gwYzZyb3F2OGhrZGtiZWk0aDhfMjAyNTA0MDcgaGJ2ZXRxZjVoMXBkMG9mMHZuNnV2cGhxdHNAZw",
-        "organizer": {
-          "name": "Effective Altruism NYC Events",
-          "instagram": "",
-          "email": "hbvetqf5h1pd0of0vn6uvphqts@group.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "Worldwide!",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false
-      }
-    },
-    {
-      "id": "evt_com_effective_altruism_nyc_2mvmt1f5",
-      "name": "AI Governance Subgroup Discussion ",
-      "type": "Tech",
-      "locationId": "",
-      "communityId": "com_effective_altruism_nyc",
-      "description": "AI Subgroup sign-up form: <a href=\"https://www.google.com/url?q=https://forms.gle/fksP9VV3X1owgPe88&amp;sa=D&amp;source=calendar&amp;ust=1740340078367781&amp;usg=AOvVaw1Gq4Qpq9-7sZv1v0wD-NwI\" target=\"_blank\">https://forms.gle/fksP9VV3X1owgPe88</a>\n\n\n\n****\n\nEA NYC:\nPlease find all EA NYC event information - including our Code of Conduct, food policy, covid policy, and information on past and future events - here on our website: <a href=\"https://www.google.com/url?q=https://www.effectivealtruism.nyc/events&amp;sa=D&amp;source=calendar&amp;ust=1740340078367781&amp;usg=AOvVaw14lmj7Oo0KVbHEMA9Io0Io\" target=\"_blank\">https://www.effectivealtruism.nyc/events</a>\n\nYou can also find us on Facebook, Meetup, and Eventbrite!\n<a href=\"https://www.google.com/url?q=http://facebook.com/groups/eanyc/events&amp;sa=D&amp;source=calendar&amp;ust=1740340078367781&amp;usg=AOvVaw2S9X1T96ntA_69qYTY6Xux\" target=\"_blank\">http://facebook.com/groups/eanyc/events</a>\n<a href=\"https://www.google.com/url?q=https://www.meetup.com/effective-altruism-nyc/events/&amp;sa=D&amp;source=calendar&amp;ust=1740340078367781&amp;usg=AOvVaw3K4hLLPZ1cVsTyXhp7mqdv\" target=\"_blank\">https://www.meetup.com/effective-altruism-nyc/events/</a>\n<a href=\"https://www.google.com/url?q=https://www.eventbrite.com/o/effective-altruism-nyc-55938838923&amp;sa=D&amp;source=calendar&amp;ust=1740340078367781&amp;usg=AOvVaw1ntnR_iPj9CmUe96ylX_3n\" target=\"_blank\">https://www.eventbrite.com/o/effective-altruism-nyc-55938838923</a>\n\nFor those new to effective altruism, here are a couple of good introductions. In short, EA is about using evidence to carefully analyze how, given limited resources, we can help others the *most*.\n<a href=\"https://www.google.com/url?q=https://www.youtube.com/watch?v%3D48VAQtGmfWY&amp;sa=D&amp;source=calendar&amp;ust=1740340078367781&amp;usg=AOvVaw2I8NPWSaf3g5Yxf3iUXamZ\" target=\"_blank\">https://www.youtube.com/watch?v=48VAQtGmfWY</a>",
-      "startDate": "2025-04-07T19:00:00-04:00",
-      "endDate": "2025-04-07T21:00:00-04:00",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": "",
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.eventbrite.com/o/effective-altruism-nyc-55938838923&amp;sa=D&amp;source=calendar&amp;ust=1740340078367781&amp;usg=AOvVaw1ntnR_iPj9CmUe96ylX_3n\"",
-        "organizer": {
-          "name": "Effective Altruism NYC Events",
-          "instagram": "",
-          "email": "hbvetqf5h1pd0of0vn6uvphqts@group.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "In-Person Event (Midtown); register for location details",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false
-      }
-    },
-    {
       "id": "evt_com_effective_altruism_nyc_7pgd035d",
       "name": "World Immunization Week",
       "type": "Tech",
@@ -1584,8 +1502,8 @@
       "locationId": "",
       "communityId": "com_nyc_resistor",
       "description": "<u></u><p>NYC Resistor is open to the public for Craft Nights now every Monday and Thursday from 6:30-9:30 PM! Come bring your current crafting project and work on it with other artists, crafters, and makers of all kinds. Resistors do everything from costumes to electronics to visual arts to woodworking; people and crafting projects of all sorts are enthusiastically welcome!</p><p>RSVP at<span> <a href=\"https://www.google.com/url?q=https://www.eventbrite.com/e/public-craft-night-mondays-and-thursdays-tickets-162729866411&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw2GxlHrVKU2UOWuOdKbNOj5\" target=\"_blank\">https://www.eventbrite.com/e/public-craft-night-mondays-and-thursdays-tickets-162729866411</a></span> is appreciated but not required, for covid contact-tracing purposes.<br></p>This event like all NYC Resistor events is 18 and over and governed by out code of conduct. <br><br>More information: <a href=\"https://www.google.com/url?q=http://www.nycresistor.com/participate/&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw2qoLIc6c_Ay1xuc_FYjEZH\" target=\"_blank\">http://www.nycresistor.com/participate/</a><br>NYC Resistor Code of Conduct: <a href=\"https://www.google.com/url?q=http://www.nycresistor.com/2015/08/04/nyc-resistor-code-of-conduct/&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw1hCVO6yP0-Y--CtV5nrIw_\" target=\"_blank\">http://www.nycresistor.com/2015/08/04/nyc-resistor-code-of-conduct/</a><u></u><u></u><u></u><u></u><u></u>",
-      "startDate": "2025-06-26T18:30:00-04:00",
-      "endDate": "2025-06-26T21:30:00-04:00",
+      "startDate": "2025-07-03T18:30:00-04:00",
+      "endDate": "2025-07-03T21:30:00-04:00",
       "category": [
         "Tech"
       ],
@@ -1625,8 +1543,8 @@
       "locationId": "",
       "communityId": "com_nyc_resistor",
       "description": "",
-      "startDate": "2025-06-26T20:00:00-04:00",
-      "endDate": "2025-06-26T21:00:00-04:00",
+      "startDate": "2025-07-03T20:00:00-04:00",
+      "endDate": "2025-07-03T21:00:00-04:00",
       "category": [
         "Tech"
       ],
@@ -1642,7 +1560,7 @@
       "image": "",
       "status": "upcoming",
       "metadata": {
-        "source_url": "https://www.google.com/calendar/event?eid=MjExbXBpazAwdXQ4MTVrZ3FuMjExcm8wcTJfMjAyNTA2MjdUMDAwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn",
+        "source_url": "https://www.google.com/calendar/event?eid=MjExbXBpazAwdXQ4MTVrZ3FuMjExcm8wcTJfMjAyNTA3MDRUMDAwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn",
         "organizer": {
           "name": "",
           "instagram": "",
@@ -1666,8 +1584,8 @@
       "locationId": "",
       "communityId": "com_nyc_resistor",
       "description": "All the fun of a regular craft night with the added safety of a masks-required environment.<br><br>Free (and optional) tickets are available here: <a href=\"https://www.google.com/url?q=https://www.eventbrite.com/e/public-craft-night-1st-fridays-and-3rd-wednesdays-of-the-month-masks-on-tickets-623419182557&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw30wJgCOHNVYdmKOTp_roao\" target=\"_blank\">https://www.eventbrite.com/e/public-craft-night-1st-fridays-and-3rd-wednesdays-of-the-month-masks-on-tickets-623419182557</a><br><br>This event, like all NYC Resistor events is 18 and over and governed by out code of conduct. <br><br>More information: <a href=\"https://www.google.com/url?q=http://www.nycresistor.com/participate/&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw1wUIUV1qFGFLwgIAX6dIkL\" target=\"_blank\"><u>http://www.nycresistor.com/participate/</u></a><br>NYC Resistor Code of Conduct: <a href=\"https://www.google.com/url?q=http://www.nycresistor.com/2015/08/04/nyc-resistor-code-of-conduct/&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw0FxoSzn8w-pu237gKg6lmI\" target=\"_blank\"><u>http://www.nycresistor.com/2015/08/04/nyc-resistor-code-of-conduct/</u></a>",
-      "startDate": "2025-06-06T18:30:00-04:00",
-      "endDate": "2025-06-06T21:30:00-04:00",
+      "startDate": "2025-07-04T18:30:00-04:00",
+      "endDate": "2025-07-04T21:30:00-04:00",
       "category": [
         "Tech"
       ],
@@ -3049,13 +2967,13 @@
     },
     {
       "id": "evt_com_verci__cdgmopb",
-      "name": "Sharing the Lens",
+      "name": "Printmaking: Pennant Flags",
       "type": "Tech",
       "locationId": "",
       "communityId": "com_verci",
       "description": "Find more information on https://lu.ma/verci",
-      "startDate": "2025-04-11T23:00:00Z",
-      "endDate": "2025-04-12T02:00:00Z",
+      "startDate": "2025-04-24T22:30:00Z",
+      "endDate": "2025-04-25T00:30:00Z",
       "category": [
         "Tech"
       ],
@@ -3079,7 +2997,7 @@
         },
         "venue": {
           "name": "",
-          "address": "https://partiful.com/e/HKIOtHxysKLAg70e6qd6",
+          "address": "https://www.craft-society.com/event-details/printmaking-pennant-flags",
           "type": "Offline"
         },
         "speakers": [],
@@ -3146,93 +3064,6 @@
           "https://instagram.com/vercinyc",
           "https://x.com/vercinyc",
           "https://tiktok.com/@vercinyc"
-        ],
-        "featured": false,
-        "luma_source": true
-      }
-    },
-    {
-      "id": "evt_com_sidequest__clr78ba",
-      "name": "BuildHub #2 - 3D Modelling CAD Workshop",
-      "type": "Tech",
-      "locationId": "loc_fractal",
-      "communityId": "com_sidequest",
-      "description": "​​Have the knack to design your own mechanical products and 3D print them? Unsure where to start? Fear not.​​HI! I'mSuraj Kumarand I can teach you how to become a maker in three days. I was the CTO of Sherpy, a drone startup that manufactured small, long-range airplanes for commercial delivery (sherpymedia.com). I now founded a neurotech startup (Cerelog.com).There are a lot of visionaries and hackers around in New York City, but materializing an idea can be quite the wall to climb! What are the real-world constraints to pay attention to when designing something? Where's the space where you can build things fast and get great advice?!​This is a small-group, high attention workshop, targeting 10-15 creative people who have the itch to create things.Light on theory, heavy on practice!​WHAT YOU'LL DO​Get familiar with Fusion360!​​​Design your own custom spray bottle using Fusion360. Use it for cleaning around your house/pranking your dog!​​​We provide the nozzle and tube—you design the rest!​​​3D print your creation on the high performance Bambu X1 Carbon printer​​​DETAILS​​​Four-day workshop (~3 hrs per session)​Mon, Tue, Wed, Thurs​​​Professional guidance from an experienced engineer​​​Learn to navigate Fusion360 and think like a designer​​​REGISTRATION​​$100 / person for the 4 days​​​Limited spots available​​​Reserve your seat today!​Your Host:​​​Suraj Kumar, Mechanical Engineer with years of Fusion360 experience​​​*thank you tofractal techfor hosting us!*Contact at surajratnam99@gmail.com",
-      "startDate": "2025-04-07T22:00:00Z",
-      "endDate": "2025-04-08T01:00:00Z",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": "",
-      "image": "luma-event-7c08522b.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://lu.ma/c9bexs8f",
-        "organizer": {
-          "name": "SideQuest",
-          "instagram": "",
-          "email": "abln66abl799vb4gprllu4225l744l70@import.calendar.google.com"
-        },
-        "venue": {
-          "name": "Fractal Tech",
-          "address": "111 Conselyea St, Brooklyn, NY 11211",
-          "type": "Offline"
-        },
-        "speakers": [
-          {
-            "name": "Suraj Kumar",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Jake Zegil",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Chandiran",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Suraj Kumar",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Jake Zegil",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Chandiran",
-            "title": "",
-            "bio": ""
-          }
-        ],
-        "social_links": [
-          "https://instagram.com/fractaltechnyc",
-          "https://x.com/fractaltechnyc",
-          "https://fractaltechhub.com",
-          "https://instagram.com/surajimop",
-          "https://x.com/surkumference",
-          "https://x.com/JakeZegil",
-          "https://x.com/patxnoir",
-          "https://instagram.com/fractaltechnyc",
-          "https://x.com/fractaltechnyc",
-          "https://fractaltechhub.com",
-          "https://instagram.com/surajimop",
-          "https://x.com/surkumference",
-          "https://x.com/JakeZegil",
-          "https://x.com/patxnoir"
         ],
         "featured": false,
         "luma_source": true
@@ -3785,6 +3616,114 @@
         "social_links": [],
         "featured": false,
         "luma_source": false
+      }
+    },
+    {
+      "id": "evt_com_effective_altruism_nyc_6vkt79sh",
+      "name": "World Health Day",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_effective_altruism_nyc",
+      "description": "Some say that April is the cruelest month. The WHO begs to differ:<br><br><a href=\"https://www.google.com/url?q=http://www.who.int/campaigns/world-health-day/2018/en/&amp;sa=D&amp;source=calendar&amp;ust=1671557335136133&amp;usg=AOvVaw0om6R5yHPt6QeEZyLYb6TN\" target=\"_blank\">http://www.who.int/campaigns/world-health-day/2018/en/</a><br><br>Speaking of April, keep an eye out for World Malaria Day and World Immunization Week later this month.",
+      "startDate": "2026-04-07",
+      "endDate": "2026-04-08",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.google.com/calendar/event?eid=NnZrdDc5c2gwYzZyb3F2OGhrZGtiZWk0aDhfMjAyNjA0MDcgaGJ2ZXRxZjVoMXBkMG9mMHZuNnV2cGhxdHNAZw",
+        "organizer": {
+          "name": "Effective Altruism NYC Events",
+          "instagram": "",
+          "email": "hbvetqf5h1pd0of0vn6uvphqts@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "Worldwide!",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
+      "id": "evt_com_verci__clr78ba",
+      "name": "THE CHAI ROOM: 𝒮𝒜ℒ𝒪𝒩 SALON",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_verci",
+      "description": "​PRESENTED BY KHOOBI WELLNESSProduced byThe Chai RoomandThe Directory​Please join us on Wednesday, April 9th at Verci Flatiron, for a salon showcasing the best emerging talent in beauty, curated byKhoobi Wellness:✰ FACIALS byJennai J.✰ NAILS byLipstickAmmo✰ BROWS byMaya NelsonWith experience including Glowbar, VOGUE, and Carrie Lindsey Beauty, our practitioners’ popular modalities include K-Beauty facial techniques, cat-eye nail art, nail strengthening treatments and more.Khoobi's platform supports the growth of small, women-, and minority-owned beauty businesses by connecting them with loyal clients.​100% of ticket sales will go toward our featured practitioners. Purchase of service guarantees entry to event, complimentary chai, bites & self-care gift bagAttendees are welcome to bring a +1 for moral support. To guarantee entry for your guest please note their details when purchasing your ticket.​***+1s and Industry Invites will have event access, but will not have a beauty service reserved. They may purchase one onsite subject to availability.***—•—​CREDITSIn celebration of global beauty perspectives this event is produced in collaboration withThe Chai Room, a collective honoring the South Asian diaspora and its creative prowess.Collaborators✰ Complimentary Chai byKola Goodies✰ Complimentary Paan byMr. Paanwala✰ Gifts byShaz & Kiks,Say Ghee,NoshinkuandSimply Gum​✰ Bites by Ruhani Cafe & Baabu✰ Music bySrizzy✰ Photography byZaniHosts​✰Ash Navaratnam– multidisciplinary artist, producer + EIC & founder ofSantulan Creative​✰Manya Jain– fashion designer, event producer & founder ofThreads of Tech​✰Aanya Singh– project manager at Baron & Baron + experiential producer✰Mina Hasan– digital creator & founder ofKismet Reserve✰Sabeen Khan– CEO ofKhoobi Wellness✰Sameera Razak– founder ofThe Directory& advisor ofKhoobi Wellness—•—Khoobi Wellness is a loyalty-focused beauty platform: your portal to discovering new practitioners and earning rewards on your routine. We are a proud member ofGold House, an AAPI-focused nonprofit providing incubation for startups.Download the apphere.—•—Please keep an eye on your email for confirmation and next steps.This event will be filmed.",
+      "startDate": "2025-04-09T23:00:00Z",
+      "endDate": "2025-04-10T02:00:00Z",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "luma-event-7366f89f.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/205h1f1t",
+        "organizer": {
+          "name": "Verci Events",
+          "instagram": "",
+          "email": "pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "Verci Flatiron45 E 20th St, New York, NY 10003, USA\n45 E 20th St, New York, NY 10003, USA",
+          "type": "Offline"
+        },
+        "speakers": [
+          {
+            "name": "The Chai Room",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "The Directory",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "The Chai Room",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "The Directory",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "social_links": [
+          "https://instagram.com/the.chai.room",
+          "https://instagram.com/directory_style",
+          "https://instagram.com/the.chai.room",
+          "https://instagram.com/directory_style"
+        ],
+        "featured": false,
+        "luma_source": true
       }
     }
   ]
