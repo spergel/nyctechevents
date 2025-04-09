@@ -1,88 +1,6 @@
 {
   "events": [
     {
-      "id": "evt_com_nyc_resistor_3ilqka8h",
-      "name": "Check laser mirrors",
-      "type": "Tech",
-      "locationId": "",
-      "communityId": "com_nyc_resistor",
-      "description": "",
-      "startDate": "2025-04-08",
-      "endDate": "2025-04-09",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": "",
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.google.com/calendar/event?eid=M2lscWthOGg0N3Q5Y2twZHQ4Yzk5bWRwMG9fMjAyNTA0MDggcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw",
-        "organizer": {
-          "name": "NYCResistor",
-          "instagram": "",
-          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false
-      }
-    },
-    {
-      "id": "evt_com_nyc_resistor__852k6d9",
-      "name": "",
-      "type": "Tech",
-      "locationId": "",
-      "communityId": "com_nyc_resistor",
-      "description": "",
-      "startDate": "2025-04-08T11:00:00-04:00",
-      "endDate": "2025-04-08T15:00:00-04:00",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": "",
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.google.com/calendar/event?eid=Xzg1Mms2ZDlnNmgzNDJiOWc4OHEzNGI5azZoMjMyYmEyOGQzMzhiYTY2NG8zZ2U5bDc0bzQ4Z3BnNm9fMjAyNTA0MDhUMTUwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn",
-        "organizer": {
-          "name": "",
-          "instagram": "",
-          "email": ""
-        },
-        "venue": {
-          "name": "",
-          "address": "",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false
-      }
-    },
-    {
       "id": "evt_com_nyc_resistor_updph4so",
       "name": "Learn to Use a Laser Cutter to Cut and Etch Your Own Designs",
       "type": "Tech",
@@ -1099,6 +1017,47 @@
         "venue": {
           "name": "",
           "address": "",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
+      "id": "evt_com_nyc_resistor_mml8a4gf",
+      "name": "Go Mobile! Mobile development is a legitimate hardware option!",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_nyc_resistor",
+      "description": "Vaccination Proof + Mask + RSVP Required\nRSVP https://www.eventbrite.com/e/go-mobile-mobile-development-is-a-legitimate-hardware-option-tickets-1317509649829\n\nRepurpose used smartphones for their high-quality hardware tools: camera, mic, accelerometer/gyro, BLE/wifi, GPS, touchscreen, power, etc.Mobile devices are a criminally underrated hardware tool! Just by owning a smartphone from the past decade, you already have access to an entire suite of high-quality hardware tools, including: HD camera, high fidelity microphone, precise accelerometer/gyroscope/compass, GPS, touchscreen, speaker and audio output port, WiFi and Bluetooth connectivity, and a built-in rechargeable battery, all within a sleek and compact enclosure. The equivalent components/materials used together with a microcontroller such as an Arduino or ESP32 could cost you up to $100, require additional programming/prototyping and custom fabrication and still not work as well! Not to mention, using repurposed smartphones is a fantastic way to reduce e-waste. You can purchase an \"old\" (3 years old) smartphone for $50 bucks and it'll do almost anything you need.You don't need to be a certified app developer to create custom software to run on your phone. You just need a web browser, (included on literally every smartphone) some familiarity with HTML/Javascript and a simple web server (code provided).This fast-paced, hands-on workshop will begin with some basic relevant networking terms/tools and then dive into a relatively simple starter example that will transform your mobile device into a wireless handheld controller. We'll learn how to stream data from any number of the hardware tools above from your phone directly into some software of your choice (TouchDesigner, Max/MSP, Ableton, Unity, Unreal, Arduino, etc.), and will save some time for experimentation and Q/A aftwards.Who is this for?\nThis class is suited for creative, curious and open-minded individuals who are comfortable with diving into new and unfamiliar tools and expanding their knowledge of what's possible. The examples covered in the workshop will be geared towards real-time multimedia performance but can absolutely be applied to any other medium/installation.\nWhat should I bring?Attendees should come with a mobile device or tablet and a computer with some creative software of your choice (TouchDesigner, Max/MSP or any OSC-enabled software recommended).To save time, come in with Node.js already installed from here: https://nodejs.org/en\nThe instructor:\nYonatan Rozin is a NY/NJ-based interactive technologist, web developer. As a relentlessly curious collaborator and prototyper, Yonatan's works often employ unconventional combinations of existing hardware and software tools. His work as the lead creative technologist for BodyMouth, a body motion-reactive speech instrument developed for transmedia playwright Kat Mustatea, was a finalist in the 2024 Guthman Musical Instrument Competition and the 2024 Lumen Prize in the \u201cInteractive Immersive\u201d category.Yonatan has helped create websites for organizations including NYU's Interactive Telecommunications Program and the Harvestworks Media Arts Center, and is passionate about collaborating with creative individuals and organizations. He holds a Bachelor of Music Performance from the Peabody Conservatory and a Master of Professional Studies from NYU\u2019s Interactive Telecommunications Program, where he also completed a research residency and taught as an adjunct instructor.\n\n\nThis is a masks optional event.\nAs with all NYC Resistor events, this class is 18+ and governed by our Code of Conduct. The Code of Conduct, as well as accessibility information, can be found at www.nycresistor.com/participate/.\nPlease note that refunds must be requested 24 hours in advance. If you have any questions, please email classes@nycresistor.com.\n",
+      "startDate": "2025-04-25T18:30:00-04:00",
+      "endDate": "2025-04-25T21:30:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Paid",
+        "currency": "USD",
+        "details": "See event description for pricing details"
+      },
+      "capacity": null,
+      "registrationRequired": true,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.eventbrite.com/e/go-mobile-mobile-development-is-a-legitimate-hardware-option-tickets-1317509649829",
+        "organizer": {
+          "name": "NYCResistor",
+          "instagram": "",
+          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "NYCResistor\n87 3rd Ave\nBrooklyn, NY 11217",
           "type": "Offline"
         },
         "speakers": [],
@@ -4092,6 +4051,47 @@
         "venue": {
           "name": "",
           "address": "87 3rd Ave, Brooklyn, NY 11217, USA",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
+      "id": "evt_com_nyc_resistor_363rnqjs",
+      "name": "HOLD Electronics",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_nyc_resistor",
+      "description": "",
+      "startDate": "2025-07-05T19:00:00-04:00",
+      "endDate": "2025-07-05T20:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.google.com/calendar/event?eid=MzYzcm5xanM3ajdyaGVua20zdm1oZjU0MTFfMjAyNTA3MDVUMjMwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn",
+        "organizer": {
+          "name": "NYCResistor",
+          "instagram": "",
+          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "",
           "type": "Offline"
         },
         "speakers": [],

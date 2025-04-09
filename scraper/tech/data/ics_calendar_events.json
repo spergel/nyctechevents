@@ -899,7 +899,7 @@
       "type": "Tech",
       "locationId": "loc_tbd",
       "communityId": "com_la_creme_stem",
-      "description": "​Join La Creme de la STEM™ and Startup Grind for a relaxed evening of networking and conversation at our \"Walk and Talk\" event, happening during SelectUSA at the Gaylord National Resort & Convention Center. Whether you're an entrepreneur or investor located in the DMV area, or attending SelectUSA, this is your chance to connect with like-minded professionals, exchange ideas, and build meaningful relationships in a casual, welcoming atmosphere.​This gathering is the perfect opportunity to unwind after a busy day, share your experiences, and explore new opportunities. We look forward to seeing you there!",
+      "description": "​Join La Creme de la STEM™ and Startup Grind for a relaxed evening of networking and conversation at our \"Walk and Talk\" event, happening during SelectUSA at the Gaylord National Resort & Convention Center. Whether you're an entrepreneur or investor located in the DMV area, or attending SelectUSA, this is your chance to connect with like-minded professionals, exchange ideas, and build meaningful relationships in a casual, welcoming atmosphere.​This gathering is the perfect opportunity to unwind after a busy day, share your experiences, and explore new opportunities. We look forward to seeing you there!​ABOUT LA CREME DE LA STEM™​​​La Creme de la STEM™is the only global, private network for early-stage female founders in tech and science, offering a holistic support system that includes exclusive insights from exited entrepreneurs, vetted investors and perks from corporate partners.Applyto join!",
       "startDate": "2025-05-12T18:00:00-04:00",
       "endDate": "2025-05-12T20:00:00-04:00",
       "category": [
@@ -966,7 +966,7 @@
       "type": "Tech",
       "locationId": "loc_tbd",
       "communityId": "com_la_creme_stem",
-      "description": "​La Creme de la STEM™ is partnering with Columbia Healthcare Ventures and GenZ Tea for a panel featuring VCs and founders in the Women Healthcare industry. We will break down trends and challenges. Join us for an insightful evening!​Speakers:​Marion Siboni, CEO and Founder of La Creme de la STEM™​Elena Piskounova, Assistant Professor and Founder​NanaYaa Mensah-Thomas, MBA, CLT, Managing Partner - Founder of Purelite Ventures​Denali Dahl, PhD, CEO/Co-Founder of Kalia Health​This event is sponsored by N2 Water",
+      "description": "​La Creme de la STEM™ is partnering with Columbia Healthcare Ventures and GenZ Tea for a panel featuring VCs and founders in the Women Healthcare industry. We will break down trends and challenges. Join us for an insightful evening!​This event is sponsored by N2 Water.​SPEAKERS:​Elena Piskounova, Assistant Professor and Founder​NanaYaa Mensah-Thomas, MBA, CLT, Managing Partner - Founder of Purelite Ventures​Denali Dahl, PhD, CEO/Co-Founder of Kalia Health​Silvia Garcia Codony, AVP at New York Ventures​Marion Siboni, CEO and Founder of La Creme de la STEM™ (moderator)​​ABOUT LA CREME DE LA STEM™​​​La Creme de la STEM™is the only global, private network for early-stage female founders in tech and science, offering a holistic support system that includes exclusive insights from exited entrepreneurs, vetted investors and perks from corporate partners.Applyto join!",
       "startDate": "2025-04-17T18:00:00-04:00",
       "endDate": "2025-04-17T20:00:00-04:00",
       "category": [
@@ -1055,7 +1055,7 @@
       "type": "Tech",
       "locationId": "loc_tbd",
       "communityId": "com_la_creme_stem",
-      "description": "​Ever wondered what really goes on behind the scenes in the world of venture capital? Join us for a lively VC Fireside Chat hosted by Marion from La Creme de la STEM™ . We'll be demystifying the VC industry, sharing insider tips, and answering all your burning questions in a relaxed, friendly atmosphere.​Come mingle, learn, and connect with fellow entrepreneurs, investors, and innovators. Whether you're a seasoned founder or just curious about how venture capital works, this is your chance to get the inside scoop—no suits, no jargon, just real talk and good vibes. See you there!",
+      "description": "​Ever wondered what really goes on behind the scenes in the world of venture capital? Join us for a lively VC Fireside Chat hosted by Marion from La Creme de la STEM™ . We'll be demystifying the VC industry, sharing insider tips, and answering all your burning questions in a relaxed, friendly atmosphere.​Come mingle, learn, and connect with fellow entrepreneurs, investors, and innovators. Whether you're a seasoned founder or just curious about how venture capital works, this is your chance to get the inside scoop—no suits, no jargon, just real talk and good vibes. See you there!​​ABOUT LA CREME DE LA STEM™​​​La Creme de la STEM™is the only global, private network for early-stage female founders in tech and science, offering a holistic support system that includes exclusive insights from exited entrepreneurs, vetted investors and perks from corporate partners.Applyto join!",
       "startDate": "2025-05-21T18:00:00-04:00",
       "endDate": "2025-05-21T20:00:00-04:00",
       "category": [
@@ -1125,6 +1125,209 @@
           "https://www.lacremedelastem.com/",
           "https://instagram.com/Yes",
           "https://x.com/0"
+        ]
+      }
+    },
+    {
+      "id": "evt_com_la_creme_stem_9261f323",
+      "name": "Female Founders Unwind - La Creme de la STEM™",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_la_creme_stem",
+      "description": "​Join us for unwinding in great company during New York Tech Week! Show up as you are, honore where you are at and mingle with fellow female founders.​AGENDA:​9 - 9:30am: checkin and networking​9:30 - 9:45: pitches of members of La Creme de la STEM​9:45 - 10am: breath and relax with Lizzy of Sync N​10am - 11am: networking​​ABOUT LA CREME DE LA STEM™:​​​La Creme de la STEM™is the only global, private network for early-stage female founders in tech and science, offering a holistic support system that includes exclusive insights from exited entrepreneurs, vetted investors and perks from corporate partners.Applyto join!",
+      "startDate": "2025-06-05T09:00:00-04:00",
+      "endDate": "2025-06-05T11:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "luma-event-d480eb89.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/e/evt-VtYPXgE7NQt3rdo",
+        "speakers": [
+          {
+            "name": "Marion - La Creme de la STEM ™",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Sync N",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Derek Kastner- Fabrik Community Director",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Marion - La Creme de la STEM ™",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Sync N",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Derek Kastner- Fabrik Community Director",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "venue": {
+          "name": "Please register to see the exact location of this event.",
+          "address": "New York, New York",
+          "type": "Online",
+          "room": "",
+          "additional_info": ""
+        },
+        "featured": false,
+        "social_links": [
+          "https://instagram.com/lacremedelastem",
+          "https://linkedin.com/in/marionsiboni",
+          "https://www.lacremedelastem.com/",
+          "https://instagram.com/Yes",
+          "https://instagram.com/syncnapp",
+          "https://instagram.com/lacremedelastem",
+          "https://linkedin.com/in/marionsiboni",
+          "https://www.lacremedelastem.com/",
+          "https://instagram.com/Yes",
+          "https://instagram.com/syncnapp"
+        ]
+      }
+    },
+    {
+      "id": "evt_com_third_place_nyc_8b7fc567",
+      "name": "🕯️ Pour & Shake: Candle & Mocktail Making Class",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_third_place_nyc",
+      "description": "​Join us for an evening of Candle & Mocktail Making at Nose Best - Bushwick’s secret speakeasy candle pouring studio!​We’ll kick off the night in the Nose Best store with a glass of (non-alcoholic) prosecco by St Buena Vida before heading to their speakeasy candle studio in the back.​You’ll start by blending your own signature candle scent and hand-pouring a candle to take home. Then, shake things up with a curated mocktail making experience led by Sam from Third Place Bar. You’ll head home with your own handmade candle and a bottle of St. Buena Vida bubbly to set the mood for your next night in 🥰​Whether you’re sober-curious, alcohol-free, or just looking for a new kind of night out, this cozy, hands-on class is the perfect vibe.​Limited spots available.Come solo, bring a friend, or plan your next date night!​FAQ​​​Q: Do I need to be there at the exact start time?Yes, please aim to arrive at 6.30pm as we will get started with the class at 7pm and latecomers may not be admitted!​​​​Q: Can I come alone?Yes, you’re welcome to come alone and meet new people!​​​​Q: Is this an alcohol-free venue?Yes, the studio does not serve alcohol.​​​​Q: Is there an age restriction?Yes, all our events are 21+​​​Q: I need to cancel, can I get a refund for my ticket?Unfortunately, we cannot offer refunds, but you're welcome to pass on your ticket to someone else.",
+      "startDate": "2025-05-01T18:30:00-04:00",
+      "endDate": "2025-05-01T21:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "luma-event-cb0e03b5.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/ulw03d9i",
+        "speakers": [
+          {
+            "name": "Third Place Bar",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Team Nose Best",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Third Place Bar",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Team Nose Best",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "venue": {
+          "name": "Nose Best: Candles & Classes96 Knickerbocker Ave Suite 111, Brooklyn, NY 11237, USA",
+          "address": "96 Knickerbocker Ave Suite 111, Brooklyn, NY 11237, USA",
+          "type": "Offline",
+          "room": "",
+          "additional_info": ""
+        },
+        "featured": false,
+        "social_links": [
+          "https://instagram.com/thirdplacebarnyc",
+          "https://tiktok.com/@thirdplacebarnyc",
+          "https://www.thirdplacebar.nyc",
+          "https://instagram.com/thirdplacebarnyc",
+          "https://instagram.com/thirdplacebarnyc",
+          "https://tiktok.com/@thirdplacebarnyc",
+          "https://www.thirdplacebar.nyc",
+          "https://instagram.com/thirdplacebarnyc"
+        ]
+      }
+    },
+    {
+      "id": "evt_com_third_place_nyc_a028f593",
+      "name": "Sober(Curious) Cinco de Mayo Party",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_third_place_nyc",
+      "description": "​We're back with another hangover-free party, and this time we’re celebrating our Mexican friends & neighbors on Cinco de Mayo! 🇲🇽​Expect cocktail specials with non-alc tequila, music, conversation starter cards, and MAYBE the bedazzle station will make a comeback too! ✨​There’s no fixed programming at this event. Come through any time and be ready to mingle with new people!​FAQ​​Q: Do I need to be there at the exact start time?No, you can stop by at the party any time!​​​Q: Can I come alone?Yes, this is a social mixer, you’re welcome to come alone and meet new people!​​​Q: Can I bring friends?Yes, but please send them the link to RSVP so we can manage the venue capacity (!!), send them important updates, and ensure a great experience for you all!​​​Q: Is this a sober venue?Yes, Hekate is a 100% sober bar.​​​Q: Is there an age restriction?Yes, all our events are 21+​​​Q: Is there a cover charge?No, there is no cover charge, but we encourage you to purchase drinks to support us and the venue & tip the lovely bar staff so we can continue hosting these kinds of events!​​​",
+      "startDate": "2025-05-05T18:00:00-04:00",
+      "endDate": "2025-05-05T22:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "luma-event-efba723f.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/nnb4bqc7",
+        "speakers": [
+          {
+            "name": "Third Place Bar",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Third Place Bar",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "venue": {
+          "name": "Hekate Café & Elixir Lounge167 Avenue B, New York, NY 10009, USA",
+          "address": "167 Avenue B, New York, NY 10009, USA",
+          "type": "Offline",
+          "room": "",
+          "additional_info": ""
+        },
+        "featured": false,
+        "social_links": [
+          "https://instagram.com/thirdplacebarnyc",
+          "https://tiktok.com/@thirdplacebarnyc",
+          "https://www.thirdplacebar.nyc",
+          "https://instagram.com/thirdplacebarnyc",
+          "https://instagram.com/thirdplacebarnyc",
+          "https://tiktok.com/@thirdplacebarnyc",
+          "https://www.thirdplacebar.nyc",
+          "https://instagram.com/thirdplacebarnyc"
         ]
       }
     },
@@ -1260,7 +1463,7 @@
       "type": "Tech",
       "locationId": "loc_tbd",
       "communityId": "com_genZtea",
-      "description": "​La Creme de la STEM™ is partnering with Columbia Healthcare Ventures and GenZ Tea for a panel featuring VCs and founders in the Women Healthcare industry. We will break down trends and challenges. Join us for an insightful evening!​Speakers:​Marion Siboni, CEO and Founder of La Creme de la STEM™​Elena Piskounova, Assistant Professor and Founder​NanaYaa Mensah-Thomas, MBA, CLT, Managing Partner - Founder of Purelite Ventures​Denali Dahl, PhD, CEO/Co-Founder of Kalia Health​This event is sponsored by N2 Water",
+      "description": "​La Creme de la STEM™ is partnering with Columbia Healthcare Ventures and GenZ Tea for a panel featuring VCs and founders in the Women Healthcare industry. We will break down trends and challenges. Join us for an insightful evening!​This event is sponsored by N2 Water.​SPEAKERS:​Elena Piskounova, Assistant Professor and Founder​NanaYaa Mensah-Thomas, MBA, CLT, Managing Partner - Founder of Purelite Ventures​Denali Dahl, PhD, CEO/Co-Founder of Kalia Health​Silvia Garcia Codony, AVP at New York Ventures​Marion Siboni, CEO and Founder of La Creme de la STEM™ (moderator)​​ABOUT LA CREME DE LA STEM™​​​La Creme de la STEM™is the only global, private network for early-stage female founders in tech and science, offering a holistic support system that includes exclusive insights from exited entrepreneurs, vetted investors and perks from corporate partners.Applyto join!",
       "startDate": "2025-04-17T18:00:00-04:00",
       "endDate": "2025-04-17T20:00:00-04:00",
       "category": [

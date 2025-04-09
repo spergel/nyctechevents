@@ -1625,8 +1625,8 @@
       "locationId": "",
       "communityId": "com_nyc_resistor",
       "description": "",
-      "startDate": "2025-06-07T19:00:00-04:00",
-      "endDate": "2025-06-07T20:00:00-04:00",
+      "startDate": "2025-07-05T19:00:00-04:00",
+      "endDate": "2025-07-05T20:00:00-04:00",
       "category": [
         "Tech"
       ],
@@ -1642,48 +1642,7 @@
       "image": "",
       "status": "upcoming",
       "metadata": {
-        "source_url": "https://www.google.com/calendar/event?eid=MzYzcm5xanM3ajdyaGVua20zdm1oZjU0MTFfMjAyNTA2MDdUMjMwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn",
-        "organizer": {
-          "name": "NYCResistor",
-          "instagram": "",
-          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false
-      }
-    },
-    {
-      "id": "evt_com_nyc_resistor_3ilqka8h",
-      "name": "Check laser mirrors",
-      "type": "Tech",
-      "locationId": "",
-      "communityId": "com_nyc_resistor",
-      "description": "",
-      "startDate": "2025-04-08",
-      "endDate": "2025-04-09",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": "",
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.google.com/calendar/event?eid=M2lscWthOGg0N3Q5Y2twZHQ4Yzk5bWRwMG9fMjAyNTA0MDggcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw",
+        "source_url": "https://www.google.com/calendar/event?eid=MzYzcm5xanM3ajdyaGVua20zdm1oZjU0MTFfMjAyNTA3MDVUMjMwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn",
         "organizer": {
           "name": "NYCResistor",
           "instagram": "",
@@ -3661,13 +3620,13 @@
     },
     {
       "id": "evt_com_verci__clr78ba",
-      "name": "THE CHAI ROOM: 𝒮𝒜ℒ𝒪𝒩 SALON",
+      "name": "OTWC Season 6: Part III",
       "type": "Tech",
       "locationId": "",
       "communityId": "com_verci",
-      "description": "​PRESENTED BY KHOOBI WELLNESSProduced byThe Chai RoomandThe Directory​Please join us on Wednesday, April 9th at Verci Flatiron, for a salon showcasing the best emerging talent in beauty, curated byKhoobi Wellness:✰ FACIALS byJennai J.✰ NAILS byLipstickAmmo✰ BROWS byMaya NelsonWith experience including Glowbar, VOGUE, and Carrie Lindsey Beauty, our practitioners’ popular modalities include K-Beauty facial techniques, cat-eye nail art, nail strengthening treatments and more.Khoobi's platform supports the growth of small, women-, and minority-owned beauty businesses by connecting them with loyal clients.​100% of ticket sales will go toward our featured practitioners. Purchase of service guarantees entry to event, complimentary chai, bites & self-care gift bagAttendees are welcome to bring a +1 for moral support. To guarantee entry for your guest please note their details when purchasing your ticket.​***+1s and Industry Invites will have event access, but will not have a beauty service reserved. They may purchase one onsite subject to availability.***—•—​CREDITSIn celebration of global beauty perspectives this event is produced in collaboration withThe Chai Room, a collective honoring the South Asian diaspora and its creative prowess.Collaborators✰ Complimentary Chai byKola Goodies✰ Complimentary Paan byMr. Paanwala✰ Gifts byShaz & Kiks,Say Ghee,NoshinkuandSimply Gum​✰ Bites by Ruhani Cafe & Baabu✰ Music bySrizzy✰ Photography byZaniHosts​✰Ash Navaratnam– multidisciplinary artist, producer + EIC & founder ofSantulan Creative​✰Manya Jain– fashion designer, event producer & founder ofThreads of Tech​✰Aanya Singh– project manager at Baron & Baron + experiential producer✰Mina Hasan– digital creator & founder ofKismet Reserve✰Sabeen Khan– CEO ofKhoobi Wellness✰Sameera Razak– founder ofThe Directory& advisor ofKhoobi Wellness—•—Khoobi Wellness is a loyalty-focused beauty platform: your portal to discovering new practitioners and earning rewards on your routine. We are a proud member ofGold House, an AAPI-focused nonprofit providing incubation for startups.Download the apphere.—•—Please keep an eye on your email for confirmation and next steps.This event will be filmed.",
-      "startDate": "2025-04-09T23:00:00Z",
-      "endDate": "2025-04-10T02:00:00Z",
+      "description": "​OTWC is an NYC-based writing community for online writers to write, exchange ideas, and get inspired. Our sessions look like this:​​​​​​​​​​​1. ​​​Introduce yourselves and talk about what you plan to write2. ​​​Focused writing session3. ​​​Get together in small groups and discuss how the session went​​​​​​​​​​​Snacks and drinks will be provided!​​​​​​​​​​If this price is too steep for you for any reason, email us by clicking \"Contact the Host\" on the left and we’ll give you a pay-what-you-can ticket.​​​​​​​​​​​Follow us on Twitter and Instagram @otwc_nyc to stay updated on future events and announcements!​​​​​​​​​​​Hope to see you there 🥳",
+      "startDate": "2025-04-20T14:00:00Z",
+      "endDate": "2025-04-20T17:00:00Z",
       "category": [
         "Tech"
       ],
@@ -3680,10 +3639,10 @@
       "capacity": null,
       "registrationRequired": false,
       "tags": "",
-      "image": "luma-event-7366f89f.jpg",
+      "image": "luma-event-9d9dccf2.jpg",
       "status": "upcoming",
       "metadata": {
-        "source_url": "https://lu.ma/205h1f1t",
+        "source_url": "https://lu.ma/vksls03h",
         "organizer": {
           "name": "Verci Events",
           "instagram": "",
@@ -3691,39 +3650,86 @@
         },
         "venue": {
           "name": "",
-          "address": "Verci Flatiron45 E 20th St, New York, NY 10003, USA\n45 E 20th St, New York, NY 10003, USA",
-          "type": "Offline"
+          "address": "Please register to see the exact location of this event.\nNew York, New York",
+          "type": "Online"
         },
         "speakers": [
           {
-            "name": "The Chai Room",
+            "name": "James Q",
             "title": "",
             "bio": ""
           },
           {
-            "name": "The Directory",
+            "name": "Abi Suresh",
             "title": "",
             "bio": ""
           },
           {
-            "name": "The Chai Room",
+            "name": "James Q",
             "title": "",
             "bio": ""
           },
           {
-            "name": "The Directory",
+            "name": "Abi Suresh",
             "title": "",
             "bio": ""
           }
         ],
         "social_links": [
-          "https://instagram.com/the.chai.room",
-          "https://instagram.com/directory_style",
-          "https://instagram.com/the.chai.room",
-          "https://instagram.com/directory_style"
+          "https://instagram.com/otwc_nyc",
+          "https://x.com/otwc_nyc",
+          "https://instagram.com/mrjamesq",
+          "https://x.com/mrjamesq",
+          "https://instagram.com/abi_nope",
+          "https://instagram.com/otwc_nyc",
+          "https://x.com/otwc_nyc",
+          "https://instagram.com/mrjamesq",
+          "https://x.com/mrjamesq",
+          "https://instagram.com/abi_nope"
         ],
         "featured": false,
         "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_nyc_resistor_mml8a4gf",
+      "name": "Go Mobile! Mobile development is a legitimate hardware option!",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_nyc_resistor",
+      "description": "Vaccination Proof + Mask + RSVP Required\nRSVP https://www.eventbrite.com/e/go-mobile-mobile-development-is-a-legitimate-hardware-option-tickets-1317509649829\n\nRepurpose used smartphones for their high-quality hardware tools: camera, mic, accelerometer/gyro, BLE/wifi, GPS, touchscreen, power, etc.Mobile devices are a criminally underrated hardware tool! Just by owning a smartphone from the past decade, you already have access to an entire suite of high-quality hardware tools, including: HD camera, high fidelity microphone, precise accelerometer/gyroscope/compass, GPS, touchscreen, speaker and audio output port, WiFi and Bluetooth connectivity, and a built-in rechargeable battery, all within a sleek and compact enclosure. The equivalent components/materials used together with a microcontroller such as an Arduino or ESP32 could cost you up to $100, require additional programming/prototyping and custom fabrication and still not work as well! Not to mention, using repurposed smartphones is a fantastic way to reduce e-waste. You can purchase an \"old\" (3 years old) smartphone for $50 bucks and it'll do almost anything you need.You don't need to be a certified app developer to create custom software to run on your phone. You just need a web browser, (included on literally every smartphone) some familiarity with HTML/Javascript and a simple web server (code provided).This fast-paced, hands-on workshop will begin with some basic relevant networking terms/tools and then dive into a relatively simple starter example that will transform your mobile device into a wireless handheld controller. We'll learn how to stream data from any number of the hardware tools above from your phone directly into some software of your choice (TouchDesigner, Max/MSP, Ableton, Unity, Unreal, Arduino, etc.), and will save some time for experimentation and Q/A aftwards.Who is this for?\nThis class is suited for creative, curious and open-minded individuals who are comfortable with diving into new and unfamiliar tools and expanding their knowledge of what's possible. The examples covered in the workshop will be geared towards real-time multimedia performance but can absolutely be applied to any other medium/installation.\nWhat should I bring?Attendees should come with a mobile device or tablet and a computer with some creative software of your choice (TouchDesigner, Max/MSP or any OSC-enabled software recommended).To save time, come in with Node.js already installed from here: https://nodejs.org/en\nThe instructor:\nYonatan Rozin is a NY/NJ-based interactive technologist, web developer. As a relentlessly curious collaborator and prototyper, Yonatan's works often employ unconventional combinations of existing hardware and software tools. His work as the lead creative technologist for BodyMouth, a body motion-reactive speech instrument developed for transmedia playwright Kat Mustatea, was a finalist in the 2024 Guthman Musical Instrument Competition and the 2024 Lumen Prize in the “Interactive Immersive” category.Yonatan has helped create websites for organizations including NYU's Interactive Telecommunications Program and the Harvestworks Media Arts Center, and is passionate about collaborating with creative individuals and organizations. He holds a Bachelor of Music Performance from the Peabody Conservatory and a Master of Professional Studies from NYU’s Interactive Telecommunications Program, where he also completed a research residency and taught as an adjunct instructor.\n\n\nThis is a masks optional event.\nAs with all NYC Resistor events, this class is 18+ and governed by our Code of Conduct. The Code of Conduct, as well as accessibility information, can be found at www.nycresistor.com/participate/.\nPlease note that refunds must be requested 24 hours in advance. If you have any questions, please email classes@nycresistor.com.\n",
+      "startDate": "2025-04-25T18:30:00-04:00",
+      "endDate": "2025-04-25T21:30:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Paid",
+        "currency": "USD",
+        "details": "See event description for pricing details"
+      },
+      "capacity": null,
+      "registrationRequired": true,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.eventbrite.com/e/go-mobile-mobile-development-is-a-legitimate-hardware-option-tickets-1317509649829",
+        "organizer": {
+          "name": "NYCResistor",
+          "instagram": "",
+          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "NYCResistor\n87 3rd Ave\nBrooklyn, NY 11217",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
       }
     }
   ]

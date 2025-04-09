@@ -481,6 +481,58 @@
       }
     },
     {
+      "id": "evt_com_fractal__clr78ba",
+      "name": "Hardware Meetup #1 @ Fractal Tech",
+      "type": "Tech",
+      "locationId": "loc_fractal",
+      "communityId": "com_fractal",
+      "description": "\u200bNYC Hardware Builders MeetupI started this meetup for two reasons: the hardware scene in NYC is growing fast, and it deserves a tight-knit, high-quality community. I want everyone building real things\u2014whether that\u2019s embedded systems, wearables, neurotech, robotics, or RF\u2014to actually know each other. The existing meetups haven\u2019t quite hit the mark, so we\u2019re building something better.\u200bJoin a community of engineers, inventors, and builders shaping the future of hardware. Whether you\u2019re debugging a prototype, bringing up a custom board, or just love the smell of solder in the morning, this is your scene.\u200bBring your projects, ideas, or just curiosity. Bonus points if you bring something you built.",
+      "startDate": "2025-05-01T22:30:00Z",
+      "endDate": "2025-05-02T01:30:00Z",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "luma-event-6f6ad613.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/aci0pxbm",
+        "organizer": {
+          "name": "Fractal Tech: NYC",
+          "instagram": "",
+          "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "Fractal Tech",
+          "address": "111 Conselyea St, Brooklyn, NY 11211",
+          "type": "Offline"
+        },
+        "speakers": [
+          {
+            "name": "Simon Hakimian",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Simon Hakimian",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "social_links": [],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
       "id": "evt_com_fractal__clr78bb",
       "name": "Sf\u00e2nt's Spring Revelry",
       "type": "Tech",

@@ -218,6 +218,211 @@
     },
     {
       "id": "evt_com_verci__cdgmopb",
+      "name": "Studio Jam Sesh",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_verci",
+      "description": "Find more information on https://lu.ma/verci",
+      "startDate": "2025-04-12T18:00:00Z",
+      "endDate": "2025-04-12T21:00:00Z",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/verci",
+        "organizer": {
+          "name": "Verci Events",
+          "instagram": "",
+          "email": "pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "https://partiful.com/e/gB2XKLvm7M8RiBo606t4",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [
+          "https://instagram.com/vercinyc",
+          "https://x.com/vercinyc",
+          "https://tiktok.com/@vercinyc"
+        ],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_verci__clr78ba",
+      "name": "OTWC Season 6: Part II",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_verci",
+      "description": "\u200b\u200b\u200bOTWC is an NYC-based writing community for online writers to write, exchange ideas, and get inspired. Our sessions look like this:\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b1. \u200b\u200b\u200bIntroduce yourselves and talk about what you plan to write2. \u200b\u200b\u200bFocused writing session3. \u200b\u200b\u200bGet together in small groups and discuss how the session went\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200bSnacks and drinks will be provided!\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200bIf this price is too steep for you for any reason, email us by clicking \"Contact the Host\" on the left and we\u2019ll give you a pay-what-you-can ticket.\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200bFollow us on Twitter and Instagram @otwc_nyc to stay updated on future events and announcements!\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200bHope to see you there \ud83e\udd73",
+      "startDate": "2025-04-13T14:00:00Z",
+      "endDate": "2025-04-13T17:00:00Z",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "luma-event-9d9dccf2.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/60vuq631",
+        "organizer": {
+          "name": "Verci Events",
+          "instagram": "",
+          "email": "pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "Please register to see the exact location of this event.\nNew York, New York",
+          "type": "Online"
+        },
+        "speakers": [
+          {
+            "name": "James Q",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Abi Suresh",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Aamir Rasheed",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "James Q",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Abi Suresh",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Aamir Rasheed",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "social_links": [
+          "https://instagram.com/otwc_nyc",
+          "https://x.com/otwc_nyc",
+          "https://instagram.com/mrjamesq",
+          "https://x.com/mrjamesq",
+          "https://instagram.com/abi_nope",
+          "https://instagram.com/LinkedIn.com",
+          "https://x.com/aamir1rasheed",
+          "https://instagram.com/otwc_nyc",
+          "https://x.com/otwc_nyc",
+          "https://instagram.com/mrjamesq",
+          "https://x.com/mrjamesq",
+          "https://instagram.com/abi_nope",
+          "https://instagram.com/LinkedIn.com",
+          "https://x.com/aamir1rasheed"
+        ],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_verci__clr78ba",
+      "name": "OTWC Season 6: Part III",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_verci",
+      "description": "\u200bOTWC is an NYC-based writing community for online writers to write, exchange ideas, and get inspired. Our sessions look like this:\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b1. \u200b\u200b\u200bIntroduce yourselves and talk about what you plan to write2. \u200b\u200b\u200bFocused writing session3. \u200b\u200b\u200bGet together in small groups and discuss how the session went\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200bSnacks and drinks will be provided!\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200bIf this price is too steep for you for any reason, email us by clicking \"Contact the Host\" on the left and we\u2019ll give you a pay-what-you-can ticket.\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200bFollow us on Twitter and Instagram @otwc_nyc to stay updated on future events and announcements!\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200bHope to see you there \ud83e\udd73",
+      "startDate": "2025-04-20T14:00:00Z",
+      "endDate": "2025-04-20T17:00:00Z",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "luma-event-9d9dccf2.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/vksls03h",
+        "organizer": {
+          "name": "Verci Events",
+          "instagram": "",
+          "email": "pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "Please register to see the exact location of this event.\nNew York, New York",
+          "type": "Online"
+        },
+        "speakers": [
+          {
+            "name": "James Q",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Abi Suresh",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "James Q",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Abi Suresh",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "social_links": [
+          "https://instagram.com/otwc_nyc",
+          "https://x.com/otwc_nyc",
+          "https://instagram.com/mrjamesq",
+          "https://x.com/mrjamesq",
+          "https://instagram.com/abi_nope",
+          "https://instagram.com/otwc_nyc",
+          "https://x.com/otwc_nyc",
+          "https://instagram.com/mrjamesq",
+          "https://x.com/mrjamesq",
+          "https://instagram.com/abi_nope"
+        ],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_verci__cdgmopb",
       "name": "Printmaking: Pennant Flags",
       "type": "Tech",
       "locationId": "",
@@ -315,6 +520,79 @@
           "https://instagram.com/vercinyc",
           "https://x.com/vercinyc",
           "https://tiktok.com/@vercinyc"
+        ],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_verci__clr78b9",
+      "name": "OTWC Season 6: Part IV",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_verci",
+      "description": "\u200b\u200b\u200b\u200bOTWC is an NYC-based writing community for online writers to write, exchange ideas, and get inspired. Our sessions look like this:\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b1. \u200b\u200b\u200bIntroduce yourselves and talk about what you plan to write2. \u200b\u200b\u200bFocused writing session3. \u200b\u200b\u200bGet together in small groups and discuss how the session went\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200bSnacks and drinks will be provided!\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200bIf this price is too steep for you for any reason, email us by clicking \"Contact the Host\" on the left and we\u2019ll give you a pay-what-you-can ticket.\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200bFollow us on Twitter and Instagram @otwc_nyc to stay updated on future events and announcements!\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200bHope to see you there \ud83e\udd73",
+      "startDate": "2025-04-27T14:00:00Z",
+      "endDate": "2025-04-27T17:00:00Z",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "luma-event-9d9dccf2.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/8g31m6wm",
+        "organizer": {
+          "name": "Verci Events",
+          "instagram": "",
+          "email": "pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "Please register to see the exact location of this event.\nNew York, New York",
+          "type": "Online"
+        },
+        "speakers": [
+          {
+            "name": "James Q",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Abi Suresh",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "James Q",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Abi Suresh",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "social_links": [
+          "https://instagram.com/otwc_nyc",
+          "https://x.com/otwc_nyc",
+          "https://instagram.com/mrjamesq",
+          "https://x.com/mrjamesq",
+          "https://instagram.com/abi_nope",
+          "https://instagram.com/otwc_nyc",
+          "https://x.com/otwc_nyc",
+          "https://instagram.com/mrjamesq",
+          "https://x.com/mrjamesq",
+          "https://instagram.com/abi_nope"
         ],
         "featured": false,
         "luma_source": true

@@ -1,47 +1,6 @@
 {
   "events": [
     {
-      "id": "evt_com_effective_altruism_nyc_6vkt79sh",
-      "name": "World Health Day",
-      "type": "Tech",
-      "locationId": "",
-      "communityId": "com_effective_altruism_nyc",
-      "description": "Some say that April is the cruelest month. The WHO begs to differ:<br><br><a href=\"https://www.google.com/url?q=http://www.who.int/campaigns/world-health-day/2018/en/&amp;sa=D&amp;source=calendar&amp;ust=1671557335136133&amp;usg=AOvVaw0om6R5yHPt6QeEZyLYb6TN\" target=\"_blank\">http://www.who.int/campaigns/world-health-day/2018/en/</a><br><br>Speaking of April, keep an eye out for World Malaria Day and World Immunization Week later this month.",
-      "startDate": "2025-04-07",
-      "endDate": "2025-04-08",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": "",
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.google.com/calendar/event?eid=NnZrdDc5c2gwYzZyb3F2OGhrZGtiZWk0aDhfMjAyNTA0MDcgaGJ2ZXRxZjVoMXBkMG9mMHZuNnV2cGhxdHNAZw",
-        "organizer": {
-          "name": "Effective Altruism NYC Events",
-          "instagram": "",
-          "email": "hbvetqf5h1pd0of0vn6uvphqts@group.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "Worldwide!",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false
-      }
-    },
-    {
       "id": "evt_com_effective_altruism_nyc_7pgd035d",
       "name": "World Immunization Week",
       "type": "Tech",

@@ -1,42 +1,6 @@
 {
   "events": [
     {
-      "id": "evt_pioneer_84304e86",
-      "name": "False Harmonics #23: Brìghde Chaimbeul, Cleek Schrey & Nora Brown, Laura Ortman",
-      "type": "Cultural Event",
-      "locationId": "loc_pioneer_works",
-      "communityId": "com_pioneer_works",
-      "description": "For the 23rd iteration, False Harmonics welcomes Scottish piper Brìghde Chaimbeul to the Pioneer Works North Hall, along with special performances by NY...",
-      "startDate": "2025-04-08T23:30:00+00:00",
-      "endDate": "2025-04-09T03:00:00+00:00",
-      "category": [
-        "Arts",
-        "Music",
-        "Science"
-      ],
-      "price": null,
-      "registrationRequired": true,
-      "tags": [],
-      "image": [
-        "https://cdn.sanity.io/images/vgvol637/production/61b608b57389a511c6bcf68afd0dd03ced92abe6-4780x3187.jpg?w=800"
-      ],
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://pioneerworks.org/programs/false-harmonics-23",
-        "organizer": {
-          "name": "Pioneer Works",
-          "instagram": "@pioneerworks",
-          "email": "info@pioneerworks.org"
-        },
-        "venue": {
-          "name": "Pioneer Works",
-          "address": "159 Pioneer Street",
-          "type": "Cultural Institution"
-        },
-        "featured": false
-      }
-    },
-    {
       "id": "evt_pioneer_344a8351",
       "name": "Ende Tymes 15: Aaron Dilloway, The Rita, Spiteful Womb, Charmaine Lee, Valise",
       "type": "Cultural Event",
@@ -306,7 +270,7 @@
       "registrationRequired": true,
       "tags": [],
       "image": [
-        "https://cdn.sanity.io/images/vgvol637/production/bc783d45458a39ea87d877571ab614b18a42e0e9-8000x4000.jpg?w=800"
+        "https://cdn.sanity.io/images/vgvol637/production/22a526898af0d04cb50db6ee1a13132f3cad42f1-1080x1350.jpg?w=800"
       ],
       "status": "upcoming",
       "metadata": {
