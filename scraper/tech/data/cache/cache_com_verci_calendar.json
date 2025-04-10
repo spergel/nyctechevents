@@ -267,7 +267,7 @@
       "type": "Tech",
       "locationId": "",
       "communityId": "com_verci",
-      "description": "\u200b\u200b\u200bOTWC is an NYC-based writing community for online writers to write, exchange ideas, and get inspired. Our sessions look like this:\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b1. \u200b\u200b\u200bIntroduce yourselves and talk about what you plan to write2. \u200b\u200b\u200bFocused writing session3. \u200b\u200b\u200bGet together in small groups and discuss how the session went\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200bSnacks and drinks will be provided!\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200bIf this price is too steep for you for any reason, email us by clicking \"Contact the Host\" on the left and we\u2019ll give you a pay-what-you-can ticket.\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200bFollow us on Twitter and Instagram @otwc_nyc to stay updated on future events and announcements!\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200bHope to see you there \ud83e\udd73",
+      "description": "Get up-to-date information at: https://lu.ma/60vuq631\n\nAddress:\nCheck event page for more details.\n\nHosted by James Q, Abi Suresh & Aamir Rasheed",
       "startDate": "2025-04-13T14:00:00Z",
       "endDate": "2025-04-13T17:00:00Z",
       "category": [
@@ -282,7 +282,7 @@
       "capacity": null,
       "registrationRequired": false,
       "tags": "",
-      "image": "luma-event-9d9dccf2.jpg",
+      "image": "",
       "status": "upcoming",
       "metadata": {
         "source_url": "https://lu.ma/60vuq631",
@@ -293,57 +293,11 @@
         },
         "venue": {
           "name": "",
-          "address": "Please register to see the exact location of this event.\nNew York, New York",
-          "type": "Online"
+          "address": "https://lu.ma/e/evt-Zy6a5llAfihyX8j",
+          "type": "Offline"
         },
-        "speakers": [
-          {
-            "name": "James Q",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Abi Suresh",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Aamir Rasheed",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "James Q",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Abi Suresh",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Aamir Rasheed",
-            "title": "",
-            "bio": ""
-          }
-        ],
-        "social_links": [
-          "https://instagram.com/otwc_nyc",
-          "https://x.com/otwc_nyc",
-          "https://instagram.com/mrjamesq",
-          "https://x.com/mrjamesq",
-          "https://instagram.com/abi_nope",
-          "https://instagram.com/LinkedIn.com",
-          "https://x.com/aamir1rasheed",
-          "https://instagram.com/otwc_nyc",
-          "https://x.com/otwc_nyc",
-          "https://instagram.com/mrjamesq",
-          "https://x.com/mrjamesq",
-          "https://instagram.com/abi_nope",
-          "https://instagram.com/LinkedIn.com",
-          "https://x.com/aamir1rasheed"
-        ],
+        "speakers": [],
+        "social_links": [],
         "featured": false,
         "luma_source": true
       }

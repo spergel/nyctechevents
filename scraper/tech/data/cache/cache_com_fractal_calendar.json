@@ -165,7 +165,7 @@
       "capacity": null,
       "registrationRequired": false,
       "tags": "",
-      "image": "luma-event-ba13ea05.jpg",
+      "image": "luma-event-88c593e4.jpg",
       "status": "upcoming",
       "metadata": {
         "source_url": "https://lu.ma/bf4sgsvx",
@@ -203,9 +203,9 @@
       "id": "evt_com_fractal__clr78b9",
       "name": "Neighborhood Accelerator Barnraising!",
       "type": "Tech",
-      "locationId": "",
+      "locationId": "loc_fractal",
       "communityId": "com_fractal",
-      "description": "\u200bCome to the Neighborhood Accelerator Barnraising!",
+      "description": "Get up-to-date information at: https://lu.ma/kgbnpjqe\n\nAddress:\n111 Conselyea St\nKings County, New York\nUnited States\n\nHosted by Tyler Alterman & Priya Rose \ud83c\udf39",
       "startDate": "2025-04-19T16:00:00Z",
       "endDate": "2025-04-19T19:00:00Z",
       "category": [
@@ -220,7 +220,7 @@
       "capacity": null,
       "registrationRequired": false,
       "tags": "",
-      "image": "luma-event-82e586f2.jpg",
+      "image": "",
       "status": "upcoming",
       "metadata": {
         "source_url": "https://lu.ma/kgbnpjqe",
@@ -230,36 +230,12 @@
           "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
         },
         "venue": {
-          "name": "",
-          "address": "111 Conselyea StBrooklyn, NY 11211, USA\nBrooklyn, NY 11211, USA",
+          "name": "Fractal Tech",
+          "address": "111 Conselyea St, Brooklyn, NY 11211",
           "type": "Offline"
         },
-        "speakers": [
-          {
-            "name": "Tyler Alterman",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Priya Rose \ud83c\udf39",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Tyler Alterman",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Priya Rose \ud83c\udf39",
-            "title": "",
-            "bio": ""
-          }
-        ],
-        "social_links": [
-          "https://x.com/prigoose",
-          "https://x.com/prigoose"
-        ],
+        "speakers": [],
+        "social_links": [],
         "featured": false,
         "luma_source": true
       }
@@ -346,7 +322,7 @@
       "capacity": null,
       "registrationRequired": false,
       "tags": "",
-      "image": "luma-event-ba13ea05.jpg",
+      "image": "luma-event-9754c625.jpg",
       "status": "upcoming",
       "metadata": {
         "source_url": "https://lu.ma/159xf31w",
@@ -416,11 +392,7 @@
           "type": "Offline"
         },
         "speakers": [],
-        "social_links": [
-          "https://instagram.com/fractaltechnyc",
-          "https://x.com/fractaltechnyc",
-          "https://fractaltechhub.com"
-        ],
+        "social_links": [],
         "featured": false,
         "luma_source": true
       }
@@ -446,7 +418,7 @@
       "capacity": null,
       "registrationRequired": false,
       "tags": "",
-      "image": "luma-event-ba13ea05.jpg",
+      "image": "luma-event-bc89b110.jpg",
       "status": "upcoming",
       "metadata": {
         "source_url": "https://lu.ma/9xds3vq3",
@@ -672,7 +644,7 @@
       "capacity": null,
       "registrationRequired": false,
       "tags": "",
-      "image": "luma-event-ba13ea05.jpg",
+      "image": "luma-event-9a890247.jpg",
       "status": "upcoming",
       "metadata": {
         "source_url": "https://lu.ma/uxiu1z79",
@@ -727,7 +699,7 @@
       "capacity": null,
       "registrationRequired": false,
       "tags": "",
-      "image": "luma-event-ba13ea05.jpg",
+      "image": "luma-event-53b9bfca.jpg",
       "status": "upcoming",
       "metadata": {
         "source_url": "https://lu.ma/132iulln",
