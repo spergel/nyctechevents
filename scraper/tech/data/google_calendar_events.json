@@ -569,7 +569,11 @@
           "type": "Offline"
         },
         "speakers": [],
-        "social_links": [],
+        "social_links": [
+          "https://instagram.com/fractaltechnyc",
+          "https://x.com/fractaltechnyc",
+          "https://fractaltechhub.com"
+        ],
         "featured": false,
         "luma_source": true
       }
@@ -686,13 +690,13 @@
     },
     {
       "id": "evt_com_fractal__clr78b9",
-      "name": "Neighborhood Accelerator Barnraising!",
+      "name": "NY Product Meetup: Clay Co-founder/CEO Kareem Amin",
       "type": "Tech",
       "locationId": "loc_fractal",
       "communityId": "com_fractal",
-      "description": "Get up-to-date information at: https://lu.ma/kgbnpjqe\n\nAddress:\n111 Conselyea St\nKings County, New York\nUnited States\n\nHosted by Tyler Alterman & Priya Rose 🌹",
-      "startDate": "2025-04-19T16:00:00Z",
-      "endDate": "2025-04-19T19:00:00Z",
+      "description": "​NY Product Meetup - Fireside chat with Kareem Amin (Co-founder/CEO at Clay) and Dan Storms (CPO at The Rounds). RSVP link for Meetup will be added once event is confirmed! Expecting 70-90 attendees. Will cap RSVPs at 125.​https://www.meetup.com/ny-product/",
+      "startDate": "2025-05-12T22:00:00Z",
+      "endDate": "2025-05-13T00:00:00Z",
       "category": [
         "Tech"
       ],
@@ -705,10 +709,10 @@
       "capacity": null,
       "registrationRequired": false,
       "tags": "",
-      "image": "",
+      "image": "luma-event-6e76fac5.jpg",
       "status": "upcoming",
       "metadata": {
-        "source_url": "https://lu.ma/kgbnpjqe",
+        "source_url": "https://lu.ma/f2p1ozsz",
         "organizer": {
           "name": "Fractal Tech: NYC",
           "instagram": "",
@@ -719,7 +723,18 @@
           "address": "111 Conselyea St, Brooklyn, NY 11211",
           "type": "Offline"
         },
-        "speakers": [],
+        "speakers": [
+          {
+            "name": "Dan Storms",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Dan Storms",
+            "title": "",
+            "bio": ""
+          }
+        ],
         "social_links": [],
         "featured": false,
         "luma_source": true
@@ -761,7 +776,11 @@
           "type": "Offline"
         },
         "speakers": [],
-        "social_links": [],
+        "social_links": [
+          "https://instagram.com/aci_d.club",
+          "https://x.com/aci_dclub",
+          "https://aci-d.club"
+        ],
         "featured": false,
         "luma_source": true
       }
@@ -1429,8 +1448,8 @@
       "locationId": "",
       "communityId": "com_nyc_resistor",
       "description": "",
-      "startDate": "2025-06-30T20:00:00-04:00",
-      "endDate": "2025-06-30T21:00:00-04:00",
+      "startDate": "2025-07-07T20:00:00-04:00",
+      "endDate": "2025-07-07T21:00:00-04:00",
       "category": [
         "Tech"
       ],
@@ -1446,7 +1465,7 @@
       "image": "",
       "status": "upcoming",
       "metadata": {
-        "source_url": "https://www.google.com/calendar/event?eid=NW1mOWcyaXY4cW00c242cTRlOTNibzdvczBfMjAyNTA3MDFUMDAwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn",
+        "source_url": "https://www.google.com/calendar/event?eid=NW1mOWcyaXY4cW00c242cTRlOTNibzdvczBfMjAyNTA3MDhUMDAwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn",
         "organizer": {
           "name": "",
           "instagram": "",
@@ -1470,8 +1489,8 @@
       "locationId": "",
       "communityId": "com_nyc_resistor",
       "description": "<u></u><p>NYC Resistor is open to the public for Craft Nights now every Monday and Thursday from 6:30-9:30 PM! Come bring your current crafting project and work on it with other artists, crafters, and makers of all kinds. Resistors do everything from costumes to electronics to visual arts to woodworking; people and crafting projects of all sorts are enthusiastically welcome!</p><p>RSVP at<span> <a href=\"https://www.google.com/url?q=https://www.eventbrite.com/e/public-craft-night-mondays-and-thursdays-tickets-162729866411&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw2GxlHrVKU2UOWuOdKbNOj5\" target=\"_blank\">https://www.eventbrite.com/e/public-craft-night-mondays-and-thursdays-tickets-162729866411</a></span> is appreciated but not required, for covid contact-tracing purposes.<br></p>This event like all NYC Resistor events is 18 and over and governed by out code of conduct. <br><br>More information: <a href=\"https://www.google.com/url?q=http://www.nycresistor.com/participate/&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw2qoLIc6c_Ay1xuc_FYjEZH\" target=\"_blank\">http://www.nycresistor.com/participate/</a><br>NYC Resistor Code of Conduct: <a href=\"https://www.google.com/url?q=http://www.nycresistor.com/2015/08/04/nyc-resistor-code-of-conduct/&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw1hCVO6yP0-Y--CtV5nrIw_\" target=\"_blank\">http://www.nycresistor.com/2015/08/04/nyc-resistor-code-of-conduct/</a><u></u><u></u><u></u><u></u><u></u>",
-      "startDate": "2025-07-03T18:30:00-04:00",
-      "endDate": "2025-07-03T21:30:00-04:00",
+      "startDate": "2025-07-10T18:30:00-04:00",
+      "endDate": "2025-07-10T21:30:00-04:00",
       "category": [
         "Tech"
       ],
@@ -2853,13 +2872,13 @@
     },
     {
       "id": "evt_com_verci__cdgmopb",
-      "name": "Printmaking: Pennant Flags",
+      "name": "Willo: Feel the Music ft. Caroline Kuhn",
       "type": "Tech",
       "locationId": "",
       "communityId": "com_verci",
       "description": "Find more information on https://lu.ma/verci",
-      "startDate": "2025-04-24T22:30:00Z",
-      "endDate": "2025-04-25T00:30:00Z",
+      "startDate": "2025-04-26T00:00:00Z",
+      "endDate": "2025-04-26T02:30:00Z",
       "category": [
         "Tech"
       ],
@@ -2883,7 +2902,7 @@
         },
         "venue": {
           "name": "",
-          "address": "https://www.craft-society.com/event-details/printmaking-pennant-flags",
+          "address": "https://partiful.com/e/GYvNWiPnVMElrvtcB68d",
           "type": "Offline"
         },
         "speakers": [],
@@ -3651,6 +3670,47 @@
         "venue": {
           "name": "",
           "address": "NYCResistor\n87 3rd Ave\nBrooklyn, NY 11217",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
+      "id": "evt_com_nyc_resistor__85238g9",
+      "name": "machine embroidery class!",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_nyc_resistor",
+      "description": "",
+      "startDate": "2025-05-04T12:30:00-04:00",
+      "endDate": "2025-05-04T15:30:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.google.com/calendar/event?eid=Xzg1MjM4ZzlvNmwwajhiYTU2NHFqNmI5azhwMzRjYmEyODhvNGFiOWs4Y3BqZ2Qxbjg5MGo4Z2kxNjggcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw",
+        "organizer": {
+          "name": "NYCResistor",
+          "instagram": "",
+          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "NYC Resistor\n87 Third Ave, FL 4, Brooklyn, NY  11217, United States",
           "type": "Offline"
         },
         "speakers": [],

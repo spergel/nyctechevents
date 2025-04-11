@@ -1,42 +1,6 @@
 {
   "events": [
     {
-      "id": "evt_pioneer_344a8351",
-      "name": "Ende Tymes 15: Aaron Dilloway, The Rita, Spiteful Womb, Charmaine Lee, Valise",
-      "type": "Cultural Event",
-      "locationId": "loc_pioneer_works",
-      "communityId": "com_pioneer_works",
-      "description": "Pioneer Works is excited to present the opening night of the 15th Annual Ende Tymes Festival of Noise and Sonic Liberation, featuring performances by Aa...",
-      "startDate": "2025-04-11T00:00:00+00:00",
-      "endDate": "2025-04-11T03:00:00+00:00",
-      "category": [
-        "Arts",
-        "Music",
-        "Science"
-      ],
-      "price": null,
-      "registrationRequired": true,
-      "tags": [],
-      "image": [
-        "https://cdn.sanity.io/images/vgvol637/production/c5609ded57ba869b3c5909e564135f4d4dc24954-3600x3600.png?w=800"
-      ],
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://pioneerworks.org/programs/ende-tymes-15-aaron-dilloway-the-rita-spiteful-womb-charmaine-lee-valise",
-        "organizer": {
-          "name": "Pioneer Works",
-          "instagram": "@pioneerworks",
-          "email": "info@pioneerworks.org"
-        },
-        "venue": {
-          "name": "Pioneer Works",
-          "address": "159 Pioneer Street",
-          "type": "Cultural Institution"
-        },
-        "featured": false
-      }
-    },
-    {
       "id": "evt_pioneer_6aab0459",
       "name": "Second Sundays: April 2025",
       "type": "Cultural Event",
@@ -217,12 +181,12 @@
       }
     },
     {
-      "id": "evt_pioneer_04475b4a",
-      "name": "Terry Riley 90th Birthday Tribute with Pete Townshend, Bang on a Can All-Stars, Gyan Riley & Special Guests",
+      "id": "evt_pioneer_1898c313",
+      "name": "Terry Riley 90th Birthday Tribute with Bang on a Can All-Stars, Gyan Riley, and Special Guests",
       "type": "Cultural Event",
       "locationId": "loc_pioneer_works",
       "communityId": "com_pioneer_works",
-      "description": "PLEASE NOTE: As part of Long Play Festival, there are no individual tickets available to this show. Access to the Terry Riley 90th Birthday Tribute is c...",
+      "description": "We regretfully announce that guitar-legend Pete Townshend has to withdraw from the Long Play celebration of Terry Riley's birthday due to an injury. All...",
       "startDate": "2025-05-05T00:00:00+00:00",
       "endDate": "2025-05-05T03:00:00+00:00",
       "category": [
@@ -234,11 +198,11 @@
       "registrationRequired": true,
       "tags": [],
       "image": [
-        "https://cdn.sanity.io/images/vgvol637/production/e53bef0dd9b2ceb54fa8dc39681646cb481e65ef-3000x3595.png?w=800"
+        "https://cdn.sanity.io/images/vgvol637/production/612a8e58b90a4b0eaeca5b654fd160acf06d0e26-1118x1122.png?w=800"
       ],
       "status": "upcoming",
       "metadata": {
-        "source_url": "https://pioneerworks.org/programs/terry-riley-90th-birthday-tribute-with-pete-townshend-bang-on-a-can-all-stars-gyan-riley-and",
+        "source_url": "https://pioneerworks.org/programs/terry-riley-90th-birthday-tribute-with-bang-on-a-can-all-stars-gyan-riley-and-special-guests",
         "organizer": {
           "name": "Pioneer Works",
           "instagram": "@pioneerworks",

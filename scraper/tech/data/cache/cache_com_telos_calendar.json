@@ -458,7 +458,11 @@
           "type": "Offline"
         },
         "speakers": [],
-        "social_links": [],
+        "social_links": [
+          "https://instagram.com/aci_d.club",
+          "https://x.com/aci_dclub",
+          "https://aci-d.club"
+        ],
         "featured": false,
         "luma_source": true
       }
@@ -798,7 +802,11 @@
           "type": "Offline"
         },
         "speakers": [],
-        "social_links": [],
+        "social_links": [
+          "https://instagram.com/aci_d.club",
+          "https://x.com/aci_dclub",
+          "https://aci-d.club"
+        ],
         "featured": false,
         "luma_source": true
       }

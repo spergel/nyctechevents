@@ -200,47 +200,6 @@
       }
     },
     {
-      "id": "evt_com_fractal__clr78b9",
-      "name": "Neighborhood Accelerator Barnraising!",
-      "type": "Tech",
-      "locationId": "loc_fractal",
-      "communityId": "com_fractal",
-      "description": "Get up-to-date information at: https://lu.ma/kgbnpjqe\n\nAddress:\n111 Conselyea St\nKings County, New York\nUnited States\n\nHosted by Tyler Alterman & Priya Rose \ud83c\udf39",
-      "startDate": "2025-04-19T16:00:00Z",
-      "endDate": "2025-04-19T19:00:00Z",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": "",
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://lu.ma/kgbnpjqe",
-        "organizer": {
-          "name": "Fractal Tech: NYC",
-          "instagram": "",
-          "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
-        },
-        "venue": {
-          "name": "Fractal Tech",
-          "address": "111 Conselyea St, Brooklyn, NY 11211",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": true
-      }
-    },
-    {
       "id": "evt_com_fractal__clr78ba",
       "name": "Maximum New York April Party & Abundance Politics Accelerator",
       "type": "Tech",
@@ -357,6 +316,85 @@
       }
     },
     {
+      "id": "evt_com_fractal__clr78ba",
+      "name": "AI Agents Meetup: Voice in New York with Zowie & Assembly AI",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_fractal",
+      "description": "\u200bAI Agents Meetup: Voice\u200bThe Voice of the Future, Live.\u200bJoin us for theAI Agents Meetup: Voiceto see how voice-powered AI agents are transforming customer interactions, driving operational efficiency, and redefining enterprise support.\u200bWhat you\u2019ll experience\u200bAdeep diveinto the tech, design, and strategy powering next-gen voice.\u200bReal use casesfrom brands already scaling with AI.\u200bAlive demoof Zowie Voice AI: AI agents that sound human and act with precision.\u200bCandidconversations with product builders, AI experts, and enterprise leaders.\u200bWho should attend\u200bTech leadersdriving AI adoption across systems.\u200bProduct ownersreimagining customer experience with automation.\u200bCX teamsready to take the first step into AI.\u200bAnyone prepared to lead the shift from clicks to conversations.\u200bWhy it matters\u200bVoice isn\u2019t a trend. It\u2019s the next default interface.\u200bThis is your chance to see it in action and understand how to lead the transformation inside your own organization.\u200bSpace is limited. This event is designed for innovators ready to shape the future of customer interaction.Join us.",
+      "startDate": "2025-04-22T20:00:00Z",
+      "endDate": "2025-04-22T23:30:00Z",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "luma-event-8436bb1a.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/ai-agents-nyc",
+        "organizer": {
+          "name": "Fractal Tech: NYC",
+          "instagram": "",
+          "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "Please register to see the exact location of this event.\nNew York, New York",
+          "type": "Online"
+        },
+        "speakers": [
+          {
+            "name": "Zowie",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Maciej",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Rueben Meens",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Zowie",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Maciej",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Rueben Meens",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "social_links": [
+          "https://youtube.com/@getzowie",
+          "https://linkedin.com/company/zowieai",
+          "https://getzowie.com",
+          "https://youtube.com/@getzowie",
+          "https://linkedin.com/company/zowieai",
+          "https://getzowie.com"
+        ],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
       "id": "evt_com_fractal__cdgmopb",
       "name": "Code & Coffee",
       "type": "Tech",
@@ -392,7 +430,11 @@
           "type": "Offline"
         },
         "speakers": [],
-        "social_links": [],
+        "social_links": [
+          "https://instagram.com/fractaltechnyc",
+          "https://x.com/fractaltechnyc",
+          "https://fractaltechhub.com"
+        ],
         "featured": false,
         "luma_source": true
       }
@@ -447,6 +489,81 @@
         "social_links": [
           "https://x.com/AnthonyCastrio",
           "https://x.com/AnthonyCastrio"
+        ],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_fractal__clr78b9",
+      "name": "BuildHub #3 - 3D Modelling CAD Workshop",
+      "type": "Tech",
+      "locationId": "loc_fractal",
+      "communityId": "com_fractal",
+      "description": "\u200b\u200b\u200bHave the knack to design your own mechanical products and 3D print them? Unsure where to start? Fear not.\u200b\u200b\u200bHI! I'mSuraj Kumarand I can teach you how to become a maker in three days. I was the Chief Engineer of Sherpy, a drone startup that manufactured small, long-range airplanes for commercial delivery (sherpymedia.com). I now founded a neurotech startup (Cerelog.com).There are a lot of visionaries and hackers around in New York City, but materializing an idea can be quite the wall to climb! What are the real-world constraints to pay attention to when designing something? Where's the space where you can build things fast and get great advice?!\u200b\u200bThis is a small-group, high attention workshop, targeting 10-15 creative people who have the itch to create things.Light on theory, heavy on practice!\u200b\u200bWHAT YOU'LL DO\u200b\u200bGet familiar with Fusion360!\u200b\u200b\u200b\u200bDesign your own custom spray bottle using Fusion360. Use it for cleaning around your house/pranking your dog!\u200b\u200b\u200b\u200bWe provide the nozzle and tube\u2014you design the rest!\u200b\u200b\u200b\u200b3D print your creation on the high performance Bambu X1 Carbon printer\u200b\u200b\u200b\u200bDETAILS\u200b\u200b\u200b\u200bFour-day workshop (~3 hrs per session)\u200b\u200bMon, Tue, Wed, Thurs\u200b\u200b\u200b\u200bProfessional guidance from an experienced engineer\u200b\u200b\u200b\u200bLearn to navigate Fusion360 and think like a designer\u200b\u200b\u200b\u200bREGISTRATION\u200b\u200b\u200b$100 / person for the 4 days\u200b\u200b\u200b\u200bLimited spots available\u200b\u200b\u200b\u200bReserve your seat today!\u200b\u200bYour Host:\u200b\u200b\u200b\u200bSuraj Kumar, Mechanical Engineer with years of Fusion360 experience\u200b\u200b\u200b\u200b*thank you tofractal techfor hosting us!*Contact at surajratnam99@gmail.com",
+      "startDate": "2025-04-28T22:00:00Z",
+      "endDate": "2025-04-29T01:00:00Z",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "luma-event-4f845869.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/ykxtq7jd",
+        "organizer": {
+          "name": "Fractal Tech: NYC",
+          "instagram": "",
+          "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "Fractal Tech",
+          "address": "111 Conselyea St, Brooklyn, NY 11211",
+          "type": "Offline"
+        },
+        "speakers": [
+          {
+            "name": "Suraj Kumar",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Jake Zegil",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Suraj Kumar",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Jake Zegil",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "social_links": [
+          "https://instagram.com/fractaltechnyc",
+          "https://x.com/fractaltechnyc",
+          "https://fractaltechhub.com",
+          "https://instagram.com/surajimop",
+          "https://x.com/surkumference",
+          "https://x.com/JakeZegil",
+          "https://instagram.com/fractaltechnyc",
+          "https://x.com/fractaltechnyc",
+          "https://fractaltechhub.com",
+          "https://instagram.com/surajimop",
+          "https://x.com/surkumference",
+          "https://x.com/JakeZegil"
         ],
         "featured": false,
         "luma_source": true
@@ -679,6 +796,71 @@
       }
     },
     {
+      "id": "evt_com_fractal__clr78bb",
+      "name": "O&O Meetup: Forecasting & Prediction Markets with Jordan Rubin",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_fractal",
+      "description": "\u200bJoin us for an evening with Jordan Rubin who will share his expertise on forecasting based on his work with Metaculus.",
+      "startDate": "2025-05-05T22:30:00Z",
+      "endDate": "2025-05-06T01:30:00Z",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "luma-event-d2598a17.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/imu8v57u",
+        "organizer": {
+          "name": "Fractal Tech: NYC",
+          "instagram": "",
+          "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "111 Conselyea StBrooklyn, NY 11211, USA\nBrooklyn, NY 11211, USA",
+          "type": "Offline"
+        },
+        "speakers": [
+          {
+            "name": "Vaishnav sunil",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Jordan Rubin",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Vaishnav sunil",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Jordan Rubin",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "social_links": [
+          "https://x.com/vaishsg7",
+          "https://x.com/vaishsg7"
+        ],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
       "id": "evt_com_fractal__clr78ba",
       "name": "Weekly Sunday Co-Gardening | Spring Season \ud83c\udf38",
       "type": "Tech",
@@ -729,6 +911,58 @@
           "https://x.com/AnthonyCastrio",
           "https://x.com/AnthonyCastrio"
         ],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_fractal__clr78b9",
+      "name": "NY Product Meetup: Clay Co-founder/CEO Kareem Amin",
+      "type": "Tech",
+      "locationId": "loc_fractal",
+      "communityId": "com_fractal",
+      "description": "\u200bNY Product Meetup - Fireside chat with Kareem Amin (Co-founder/CEO at Clay) and Dan Storms (CPO at The Rounds). RSVP link for Meetup will be added once event is confirmed! Expecting 70-90 attendees. Will cap RSVPs at 125.\u200bhttps://www.meetup.com/ny-product/",
+      "startDate": "2025-05-12T22:00:00Z",
+      "endDate": "2025-05-13T00:00:00Z",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "luma-event-6e76fac5.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/f2p1ozsz",
+        "organizer": {
+          "name": "Fractal Tech: NYC",
+          "instagram": "",
+          "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "Fractal Tech",
+          "address": "111 Conselyea St, Brooklyn, NY 11211",
+          "type": "Offline"
+        },
+        "speakers": [
+          {
+            "name": "Dan Storms",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Dan Storms",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "social_links": [],
         "featured": false,
         "luma_source": true
       }
