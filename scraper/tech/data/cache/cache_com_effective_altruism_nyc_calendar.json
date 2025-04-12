@@ -83,6 +83,47 @@
       }
     },
     {
+      "id": "evt_com_effective_altruism_nyc_t2rnrtl9",
+      "name": "Community Dim Sum (Manhattan)",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_effective_altruism_nyc",
+      "description": "Please use this link to officially sign up - you will not receive registration details unless you fill out this quick Airtable form - https://bit.ly/4j3u1eX\n\nMeetup link: https://www.meetup.com/effective-altruism-nyc/events/302416247/\n\nEventbrite link: https://www.eventbrite.com/e/effective-altruism-nyc-community-dim-sum-manhattan-tickets-954482953207\n\n*TO REQUEST A SPOT, PLEASE COMPLETE 2-STEP REGISTRATION PROCESS*\n\n- All are welcome!\n- Cost per meal: variable, likely $25-$30\n    - If you\u2019d like to attend but have any concerns, please get in touch with Megan <megan@effectivealtruism.nyc>\n\nJoin for an EA NYC community favorite: tasty and affordable vegan dim sum!\n\nLocation will be confirmed when your attendance is confirmed, following the registration process.\n\nAll are welcome to join (regardless of whether or not you wish to eat)! For those eating, food usually ranges from $25-$30 each for a feast. Since this is indoors, please be mindful of any potential flu/illness symptoms and our COVID policy (listed below).\n\nPlease register here to attend (required) - https://bit.ly/4j3u1eX\n\n\n\n\n\n****\n\nEA NYC:\nPlease find all EA NYC event information - including our Code of Conduct, food policy, covid policy, and information on past and future events - here on our website: https://www.effectivealtruism.nyc/events\n\nYou can also find us on Facebook, Meetup, and Eventbrite!\nhttp://facebook.com/groups/eanyc/events\nhttps://www.meetup.com/effective-altruism-nyc/events/\nhttps://www.eventbrite.com/o/effective-altruism-nyc-55938838923\n\nFor those new to effective altruism, here are a couple of good introductions. In short, EA is about using evidence to carefully analyze how, given limited resources, we can help others the *most*.\nhttps://www.youtube.com/watch?v=48VAQtGmfWY",
+      "startDate": "2025-04-26T13:00:00-04:00",
+      "endDate": "2025-04-26T15:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Paid",
+        "currency": "USD",
+        "details": "See event description for pricing details"
+      },
+      "capacity": null,
+      "registrationRequired": true,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.eventbrite.com/e/effective-altruism-nyc-community-dim-sum-manhattan-tickets-954482953207",
+        "organizer": {
+          "name": "Effective Altruism NYC Events",
+          "instagram": "",
+          "email": "hbvetqf5h1pd0of0vn6uvphqts@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "In-Person Event (Chinatown) - register for location details",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
       "id": "evt_com_effective_altruism_nyc_28lmvbgb",
       "name": "NYC Launch Event for Food Policy Pathways",
       "type": "Tech",

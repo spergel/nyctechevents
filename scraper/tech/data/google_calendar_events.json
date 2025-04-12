@@ -1489,8 +1489,8 @@
       "locationId": "",
       "communityId": "com_nyc_resistor",
       "description": "<u></u><p>NYC Resistor is open to the public for Craft Nights now every Monday and Thursday from 6:30-9:30 PM! Come bring your current crafting project and work on it with other artists, crafters, and makers of all kinds. Resistors do everything from costumes to electronics to visual arts to woodworking; people and crafting projects of all sorts are enthusiastically welcome!</p><p>RSVP at<span> <a href=\"https://www.google.com/url?q=https://www.eventbrite.com/e/public-craft-night-mondays-and-thursdays-tickets-162729866411&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw2GxlHrVKU2UOWuOdKbNOj5\" target=\"_blank\">https://www.eventbrite.com/e/public-craft-night-mondays-and-thursdays-tickets-162729866411</a></span> is appreciated but not required, for covid contact-tracing purposes.<br></p>This event like all NYC Resistor events is 18 and over and governed by out code of conduct. <br><br>More information: <a href=\"https://www.google.com/url?q=http://www.nycresistor.com/participate/&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw2qoLIc6c_Ay1xuc_FYjEZH\" target=\"_blank\">http://www.nycresistor.com/participate/</a><br>NYC Resistor Code of Conduct: <a href=\"https://www.google.com/url?q=http://www.nycresistor.com/2015/08/04/nyc-resistor-code-of-conduct/&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw1hCVO6yP0-Y--CtV5nrIw_\" target=\"_blank\">http://www.nycresistor.com/2015/08/04/nyc-resistor-code-of-conduct/</a><u></u><u></u><u></u><u></u><u></u>",
-      "startDate": "2025-07-10T18:30:00-04:00",
-      "endDate": "2025-07-10T21:30:00-04:00",
+      "startDate": "2025-07-03T18:30:00-04:00",
+      "endDate": "2025-07-03T21:30:00-04:00",
       "category": [
         "Tech"
       ],
@@ -1675,47 +1675,6 @@
           "name": "",
           "instagram": "",
           "email": ""
-        },
-        "venue": {
-          "name": "",
-          "address": "",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false
-      }
-    },
-    {
-      "id": "evt_com_nyc_resistor_6lj6ce1p",
-      "name": "HOLD: Thesis Show Setup",
-      "type": "Tech",
-      "locationId": "",
-      "communityId": "com_nyc_resistor",
-      "description": "",
-      "startDate": "2025-04-11",
-      "endDate": "2025-04-12",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": "",
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.google.com/calendar/event?eid=NmxqNmNlMXBjZGkzMGI5bWM1aGpjYjlrNzRybWNiYjE2NHIzZ2I5bmM0cTNjZGhoNmdyM2ljcGw2MCBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn",
-        "organizer": {
-          "name": "NYCResistor",
-          "instagram": "",
-          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
         },
         "venue": {
           "name": "",
@@ -2793,13 +2752,13 @@
     },
     {
       "id": "evt_com_south_park_commons__clr78ba",
-      "name": "SPC April SF Graduation & Alumni Happy Hour",
+      "name": "SPC x Anthropic Hackathon Demo Night",
       "type": "Tech",
       "locationId": "",
       "communityId": "com_south_park_commons",
-      "description": "​🎓 Join us for our monthly happy hour to celebrate SPC members as they graduate and head off to their next venture!​This is an opportunity for alumni to come back to SPC-SF to welcome the new additions to the alumni network.​Beverages and snacks will be served.  This event is open to all current members and alumni.",
-      "startDate": "2025-04-17T23:30:00Z",
-      "endDate": "2025-04-18T01:00:00Z",
+      "description": "​Stop by SPC to see the final projects produced during the SPC + Anthropic Hackathon! This event is open to the public. Please register so that we have an accurate headcount as space will be limited.If you're interested in hacking please register here.Agenda:​​Science fair style demos from 4-5:30pm​​Finalist demos and prize-giving from 5:30-7pm​Prizes awarded for Best Overall, Most Interesting Interface, Best Agent for Developers and Audience Choice. Judging will be done by a panel of SPC team members, Anthropic leadership, and guest experts.",
+      "startDate": "2025-04-13T23:00:00Z",
+      "endDate": "2025-04-14T02:00:00Z",
       "category": [
         "Tech"
       ],
@@ -2812,10 +2771,10 @@
       "capacity": null,
       "registrationRequired": false,
       "tags": "",
-      "image": "luma-event-941f94cd.jpg",
+      "image": "luma-event-bc539cc0.jpg",
       "status": "upcoming",
       "metadata": {
-        "source_url": "https://lu.ma/g8zbkx0t",
+        "source_url": "https://lu.ma/spc-anthropic-demos",
         "organizer": {
           "name": "South Park Commons",
           "instagram": "",
@@ -2833,17 +2792,7 @@
             "bio": ""
           },
           {
-            "name": "Tarlon Khoubyari",
-            "title": "",
-            "bio": ""
-          },
-          {
             "name": "South Park Commons",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Tarlon Khoubyari",
             "title": "",
             "bio": ""
           }
@@ -2856,15 +2805,13 @@
           "https://www.southparkcommons.com/",
           "https://instagram.com/southparkcommons",
           "https://x.com/southpkcommons",
-          "https://x.com/tarlonkhoubyari",
           "https://instagram.com/southparkcommons",
           "https://x.com/southpkcommons",
           "https://youtube.com/@southparkcommons",
           "https://linkedin.com/company/southparkcommons",
           "https://www.southparkcommons.com/",
           "https://instagram.com/southparkcommons",
-          "https://x.com/southpkcommons",
-          "https://x.com/tarlonkhoubyari"
+          "https://x.com/southpkcommons"
         ],
         "featured": false,
         "luma_source": true
@@ -3057,7 +3004,17 @@
             "bio": ""
           },
           {
+            "name": "Ian Howe",
+            "title": "",
+            "bio": ""
+          },
+          {
             "name": "Chandiran",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Ian Howe",
             "title": "",
             "bio": ""
           }
@@ -3711,6 +3668,170 @@
         "venue": {
           "name": "",
           "address": "NYC Resistor\n87 Third Ave, FL 4, Brooklyn, NY  11217, United States",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
+      "id": "evt_com_effective_altruism_nyc_t2rnrtl9",
+      "name": "Community Dim Sum (Manhattan)",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_effective_altruism_nyc",
+      "description": "Please use this link to officially sign up - you will not receive registration details unless you fill out this quick Airtable form - https://bit.ly/4j3u1eX\n\nMeetup link: https://www.meetup.com/effective-altruism-nyc/events/302416247/\n\nEventbrite link: https://www.eventbrite.com/e/effective-altruism-nyc-community-dim-sum-manhattan-tickets-954482953207\n\n*TO REQUEST A SPOT, PLEASE COMPLETE 2-STEP REGISTRATION PROCESS*\n\n- All are welcome!\n- Cost per meal: variable, likely $25-$30\n    - If you’d like to attend but have any concerns, please get in touch with Megan <megan@effectivealtruism.nyc>\n\nJoin for an EA NYC community favorite: tasty and affordable vegan dim sum!\n\nLocation will be confirmed when your attendance is confirmed, following the registration process.\n\nAll are welcome to join (regardless of whether or not you wish to eat)! For those eating, food usually ranges from $25-$30 each for a feast. Since this is indoors, please be mindful of any potential flu/illness symptoms and our COVID policy (listed below).\n\nPlease register here to attend (required) - https://bit.ly/4j3u1eX\n\n\n\n\n\n****\n\nEA NYC:\nPlease find all EA NYC event information - including our Code of Conduct, food policy, covid policy, and information on past and future events - here on our website: https://www.effectivealtruism.nyc/events\n\nYou can also find us on Facebook, Meetup, and Eventbrite!\nhttp://facebook.com/groups/eanyc/events\nhttps://www.meetup.com/effective-altruism-nyc/events/\nhttps://www.eventbrite.com/o/effective-altruism-nyc-55938838923\n\nFor those new to effective altruism, here are a couple of good introductions. In short, EA is about using evidence to carefully analyze how, given limited resources, we can help others the *most*.\nhttps://www.youtube.com/watch?v=48VAQtGmfWY",
+      "startDate": "2025-04-26T13:00:00-04:00",
+      "endDate": "2025-04-26T15:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Paid",
+        "currency": "USD",
+        "details": "See event description for pricing details"
+      },
+      "capacity": null,
+      "registrationRequired": true,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.eventbrite.com/e/effective-altruism-nyc-community-dim-sum-manhattan-tickets-954482953207",
+        "organizer": {
+          "name": "Effective Altruism NYC Events",
+          "instagram": "",
+          "email": "hbvetqf5h1pd0of0vn6uvphqts@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "In-Person Event (Chinatown) - register for location details",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
+      "id": "evt_com_telos_3voahl5v",
+      "name": "Meditation, Photography Exchange, & Journaling Night",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2025-05-02T19:00:00-04:00",
+      "endDate": "2025-05-02T22:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.google.com/calendar/event?eid=M3ZvYWhsNXZjdmFhNWh1a3FsaWxkdm50amMgZDU5NmMyYmY3MjExODNkMjJiYjUwYmRlNjYyNTA5MGZjMzkyM2FhMjlhNjkxOGQ3ODQwOWUxNjhkYTc5MTc2OUBn",
+        "organizer": {
+          "name": "telos.haus events",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
+      "id": "evt_com_nyc_resistor_6lj6ce1p",
+      "name": "HOLD: Thesis Show Setup",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_nyc_resistor",
+      "description": "",
+      "startDate": "2025-04-11",
+      "endDate": "2025-04-12",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.google.com/calendar/event?eid=NmxqNmNlMXBjZGkzMGI5bWM1aGpjYjlrNzRybWNiYjE2NHIzZ2I5bmM0cTNjZGhoNmdyM2ljcGw2MCBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn",
+        "organizer": {
+          "name": "NYCResistor",
+          "instagram": "",
+          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
+      "id": "evt_com_nyc_resistor_74pmccph",
+      "name": "HOLD: NY2CR Ham Exams",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_nyc_resistor",
+      "description": "",
+      "startDate": "2025-05-25T10:00:00-04:00",
+      "endDate": "2025-05-25T13:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.google.com/calendar/event?eid=NzRwbWNjcGg2b29qMGJiMzZoaDNhYjlrYzhxbTZiOW82c3NtNmJiMzZsaGppcGIyNjRvM2FkcGc2MCBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn",
+        "organizer": {
+          "name": "NYCResistor",
+          "instagram": "",
+          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "",
           "type": "Offline"
         },
         "speakers": [],
