@@ -334,89 +334,6 @@
       }
     },
     {
-      "id": "evt_com_otwc_0d5db802",
-      "name": "OTWC Season 6: Part II",
-      "type": "Tech",
-      "locationId": "loc_tbd",
-      "communityId": "com_otwc",
-      "description": "​​​OTWC is an NYC-based writing community for online writers to write, exchange ideas, and get inspired. Our sessions look like this:​​​​​​​​​​1. ​​​Introduce yourselves and talk about what you plan to write2. ​​​Focused writing session3. ​​​Get together in small groups and discuss how the session went​​​​​​​​​​Snacks and drinks will be provided!​​​​​​​​​If this price is too steep for you for any reason, email us by clicking \"Contact the Host\" on the left and we’ll give you a pay-what-you-can ticket.​​​​​​​​​​Follow us on Twitter and Instagram @otwc_nyc to stay updated on future events and announcements!​​​​​​​​​​Hope to see you there 🥳",
-      "startDate": "2025-04-13T10:00:00-04:00",
-      "endDate": "2025-04-13T13:00:00-04:00",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": 100,
-      "registrationRequired": true,
-      "tags": [],
-      "image": "luma-event-9d9dccf2.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://lu.ma/e/evt-Zy6a5llAfihyX8j",
-        "speakers": [
-          {
-            "name": "James Q",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Abi Suresh",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Aamir Rasheed",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "James Q",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Abi Suresh",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Aamir Rasheed",
-            "title": "",
-            "bio": ""
-          }
-        ],
-        "venue": {
-          "name": "Please register to see the exact location of this event.",
-          "address": "New York, New York",
-          "type": "Online",
-          "room": "",
-          "additional_info": ""
-        },
-        "featured": false,
-        "social_links": [
-          "https://instagram.com/otwc_nyc",
-          "https://x.com/otwc_nyc",
-          "https://instagram.com/mrjamesq",
-          "https://x.com/mrjamesq",
-          "https://instagram.com/abi_nope",
-          "https://instagram.com/LinkedIn.com",
-          "https://x.com/aamir1rasheed",
-          "https://instagram.com/otwc_nyc",
-          "https://x.com/otwc_nyc",
-          "https://instagram.com/mrjamesq",
-          "https://x.com/mrjamesq",
-          "https://instagram.com/abi_nope",
-          "https://instagram.com/LinkedIn.com",
-          "https://x.com/aamir1rasheed"
-        ]
-      }
-    },
-    {
       "id": "evt_com_otwc_12a352e8",
       "name": "OTWC Season 6: Part V",
       "type": "Tech",
@@ -1454,6 +1371,73 @@
           "https://linkedin.com/company/genztea",
           "https://genztea.squarespace.com/",
           "https://instagram.com/Yes"
+        ]
+      }
+    },
+    {
+      "id": "evt_com_genZtea_9dcb9f5c",
+      "name": "Tavern Community & GenZtea Present: Intergenerational Coworking",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_genZtea",
+      "description": "​Intergenerational CoworkingOften it feels like the generational gap is one of the things that divides us most. Join us for an inspiring and collaborative event for professionals from different stages of life to come together for a day of intentional connection withTavern CommunityandGenZtea's Natalie NeptuneatTempo by Hilton Times Square!​Event Highlights:​Communal Lunch: Meet and connect with fellow attendees over a relaxed, communal lunch while sharing insights and experiences. (Lunch is ordered à la carte, not included in your ticket)​Panel Discussion​Happy Hour: Wind down and solidify new connections in a casual happy hour setting. (First drink-house beer or wine-included in your ticket)​Join us for the whole day, or just come for the Panel Discussion at 1:30 PM.​🕒Start Time: 11:30 AM​Location: Tempo by Hilton Times SquareRSVP Required​Schedule:​11:30 AM: Welcome, mingle, cowork​12:00 PMCommunal lunch (Lunch is ordered à la carte, not included in your ticket)​1:30 PM: Panel talks, followed by audience conversation​3:00 PM: Coworking​4:30 PM: Happy hour​RSVP now to secure your spot!",
+      "startDate": "2025-04-22T11:30:00-04:00",
+      "endDate": "2025-04-22T18:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "luma-event-cab8325a.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/2s3twt2b",
+        "speakers": [
+          {
+            "name": "Natalie Neptune",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Ben Schwartz",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Natalie Neptune",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Ben Schwartz",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "venue": {
+          "name": "Tempo by Hilton New York Times Square1568 Broadway, New York, NY 10036, USA",
+          "address": "1568 Broadway, New York, NY 10036, USA",
+          "type": "Offline",
+          "room": "",
+          "additional_info": ""
+        },
+        "featured": false,
+        "social_links": [
+          "https://instagram.com/taverncommunity",
+          "https://taverncommunity.com",
+          "https://instagram.com/Yes",
+          "https://instagram.com/taverncommunity",
+          "https://instagram.com/taverncommunity",
+          "https://taverncommunity.com",
+          "https://instagram.com/Yes",
+          "https://instagram.com/taverncommunity"
         ]
       }
     },

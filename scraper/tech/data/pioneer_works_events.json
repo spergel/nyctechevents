@@ -1,42 +1,6 @@
 {
   "events": [
     {
-      "id": "evt_pioneer_6aab0459",
-      "name": "Second Sundays: April 2025",
-      "type": "Cultural Event",
-      "locationId": "loc_pioneer_works",
-      "communityId": "com_pioneer_works",
-      "description": "Since 2013, Pioneer Works has hosted Second Sundays, a free monthly open house. Highlighting our programs, artists-in-residence, and Red Hook community ...",
-      "startDate": "2025-04-13T23:00:00+00:00",
-      "endDate": "2025-04-14T03:00:00+00:00",
-      "category": [
-        "Arts",
-        "Music",
-        "Science"
-      ],
-      "price": null,
-      "registrationRequired": true,
-      "tags": [],
-      "image": [
-        null
-      ],
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://pioneerworks.org/programs/second-sundays-april-2025",
-        "organizer": {
-          "name": "Pioneer Works",
-          "instagram": "@pioneerworks",
-          "email": "info@pioneerworks.org"
-        },
-        "venue": {
-          "name": "Pioneer Works",
-          "address": "159 Pioneer Street",
-          "type": "Cultural Institution"
-        },
-        "featured": false
-      }
-    },
-    {
       "id": "evt_pioneer_62369aa0",
       "name": "Esther Perel: Mating in the Metacrisis",
       "type": "Cultural Event",

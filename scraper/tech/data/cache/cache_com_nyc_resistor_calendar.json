@@ -1,129 +1,6 @@
 {
   "events": [
     {
-      "id": "evt_com_nyc_resistor_c5j66cpk",
-      "name": "HOLD: ITP Thesis Show",
-      "type": "Tech",
-      "locationId": "",
-      "communityId": "com_nyc_resistor",
-      "description": "",
-      "startDate": "2025-04-12",
-      "endDate": "2025-04-13",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": "",
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.google.com/calendar/event?eid=YzVqNjZjcGs2Y3IzOGI5aTZzcTNjYjlrY2RoM2FiOW82OG9tNmJiMzZjczM2Y2oyYzhwNjJvcGo2NCBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn",
-        "organizer": {
-          "name": "NYCResistor",
-          "instagram": "",
-          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false
-      }
-    },
-    {
-      "id": "evt_com_nyc_resistor_6cq6aoj5",
-      "name": "HOLD: Thesis Show Breakdown",
-      "type": "Tech",
-      "locationId": "",
-      "communityId": "com_nyc_resistor",
-      "description": "",
-      "startDate": "2025-04-13T11:00:00-04:00",
-      "endDate": "2025-04-13T15:00:00-04:00",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": "",
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.google.com/calendar/event?eid=NmNxNmFvajU3NHBqaWI5aTZzcTM0YjlrYzhvNjZiOXA3NHE2NmJiMjZjczM0cDFuNjhyNjZwMWs2ayBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn",
-        "organizer": {
-          "name": "NYCResistor",
-          "instagram": "",
-          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false
-      }
-    },
-    {
-      "id": "evt_com_nyc_resistor_nht1f35g",
-      "name": "Meal Prep 101: Beet Pesto",
-      "type": "Tech",
-      "locationId": "",
-      "communityId": "com_nyc_resistor",
-      "description": "Vaccination Proof + Mask + RSVP Required\nRSVP https://www.eventbrite.com/e/meal-prep-101-beet-pesto-tickets-1302742571099\n\nHey there! Join us for Meal Prep 101: Beet Pesto where we'll be trying out new recipes and techniques for easy, delicious meal prepping!Meal Prep 101: Beet Pesto\nDate: Apr 13, 2025\nTime: 5PM EST\nLocation: NYC Resistor\nJoin the Discussion: https://discord.gg/NtdYJrjk\nWelcome to Meal Prep 101: Beet Pesto! The thesis of this series is to teach and practice basic knife skills, increase comfortability in the kitchen, and develop knowledge of flavor combinations, portion-size, produce selection, and active refrigerator inventory to better feed oneself with healthy, delicious, and affordable meals.\nEach class will take home between 3 and 8 portions of pre-prepared, or low-effort meals along with spice blends, marinates, and other kitchen essentials to make cooking easier and better at home.\nMeals will center around vegetables. Groceries will be PROVIDED with RSVP.\nPlease discuss for other dietary restrictions or allergies before attending. We will do our best to accommodate.\nMenu:\nBeet PestoCauliflowerCaramelized OnionsAsparagusTBDMasks optional\nPaypal/Zelle is under phone number 631 371 1168 (Price 85$)\nVenmo is @winston-chiang\nInstagram is @ouroboros.in.reverse\n",
-      "startDate": "2025-04-13T17:00:00-04:00",
-      "endDate": "2025-04-13T20:00:00-04:00",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Paid",
-        "currency": "USD",
-        "details": "See event description for pricing details"
-      },
-      "capacity": null,
-      "registrationRequired": true,
-      "tags": "",
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.eventbrite.com/e/meal-prep-101-beet-pesto-tickets-1302742571099",
-        "organizer": {
-          "name": "NYCResistor",
-          "instagram": "",
-          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "NYCResistor\n87 3rd Ave\nBrooklyn, NY 11217",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false
-      }
-    },
-    {
       "id": "evt_com_nyc_resistor_fvhgga6c",
       "name": "Spy Kids 2 Watch Party",
       "type": "Tech",
@@ -4084,6 +3961,129 @@
       "status": "upcoming",
       "metadata": {
         "source_url": "https://www.google.com/calendar/event?eid=MjExbXBpazAwdXQ4MTVrZ3FuMjExcm8wcTJfMjAyNTA3MTFUMDAwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn",
+        "organizer": {
+          "name": "",
+          "instagram": "",
+          "email": ""
+        },
+        "venue": {
+          "name": "",
+          "address": "",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
+      "id": "evt_com_nyc_resistor_sf181ee0",
+      "name": "NYCR Craft Night",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_nyc_resistor",
+      "description": "<u></u><p>NYC Resistor is open to the public for Craft Nights now every Monday and Thursday from 6:30-9:30 PM! Come bring your current crafting project and work on it with other artists, crafters, and makers of all kinds. Resistors do everything from costumes to electronics to visual arts to woodworking; people and crafting projects of all sorts are enthusiastically welcome!</p><p>RSVP at<span> <a href=\"https://www.eventbrite.com/e/public-craft-night-mondays-and-thursdays-tickets-162729866411\">https://www.eventbrite.com/e/public-craft-night-mondays-and-thursdays-tickets-162729866411</a></span> is appreciated but not required, for covid contact-tracing purposes.<br></p>This event like all NYC Resistor events is 18 and over and governed by out code of conduct. <br><br>More information: <a href=\"http://www.nycresistor.com/participate/\">http://www.nycresistor.com/participate/</a><br>NYC Resistor Code of Conduct: <a href=\"http://www.nycresistor.com/2015/08/04/nyc-resistor-code-of-conduct/\">http://www.nycresistor.com/2015/08/04/nyc-resistor-code-of-conduct/</a><u></u><u></u><u></u><u></u><u></u>",
+      "startDate": "2025-07-14T18:30:00-04:00",
+      "endDate": "2025-07-14T21:30:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": true,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.eventbrite.com/e/public-craft-night-mondays-and-thursdays-tickets-162729866411\">https://www.eventbrite.com/e/public-craft-night-mondays-and-thursdays-tickets-162729866411</a></span>",
+        "organizer": {
+          "name": "NYCResistor",
+          "instagram": "",
+          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
+      "id": "evt_com_nyc_resistor_5mf9g2iv",
+      "name": "",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_nyc_resistor",
+      "description": "",
+      "startDate": "2025-07-14T20:00:00-04:00",
+      "endDate": "2025-07-14T21:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.google.com/calendar/event?eid=NW1mOWcyaXY4cW00c242cTRlOTNibzdvczBfMjAyNTA3MTVUMDAwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn",
+        "organizer": {
+          "name": "",
+          "instagram": "",
+          "email": ""
+        },
+        "venue": {
+          "name": "",
+          "address": "",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
+      "id": "evt_com_nyc_resistor__852k6d9",
+      "name": "",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_nyc_resistor",
+      "description": "",
+      "startDate": "2025-07-15T11:00:00-04:00",
+      "endDate": "2025-07-15T15:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.google.com/calendar/event?eid=Xzg1Mms2ZDlnNmgzNDJiOWc4OHEzNGI5azZoMjMyYmEyOGQzMzhiYTY2NG8zZ2U5bDc0bzQ4Z3BnNm9fMjAyNTA3MTVUMTUwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn",
         "organizer": {
           "name": "",
           "instagram": "",
