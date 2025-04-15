@@ -1318,130 +1318,6 @@
       }
     },
     {
-      "id": "evt_com_genZtea_27f83c3e",
-      "name": "Gen Z NYC Founder & Creator Mixer",
-      "type": "Tech",
-      "locationId": "loc_tbd",
-      "communityId": "com_genZtea",
-      "description": "​As we embrace spring in 2025, take a moment to celebrate your entrepreneurial journey with us in East Village! Join fellow ONE-OF-A-KIND Gen Z founders for an intimate evening of connection, inspiration, and well-deserved self-care at our April mixer.​So what the heck is GenZtea?GenZtea's Mission: Empowering Gen Z founders, creators, and investors to unlock their full potential through personal branding, community support, and innovative resources. We're building a global network of young builders who are not just invited into the room but are leading it.​Want to stay in the loop? Join our brand new newsletter athttps://genztea.beehiiv.com/subscribefor monthly deep dives with Gen Z lens, event updates, and community highlights! Reach is the new resume.​DM me if you are interested in getting featured in newsletter​✨ Brand New​✨: Gen Z Marketplace​DM me on Luma to have your food brand represented IRL at this event!​​🎁 Event Highlights:​​• Network with fellow Gen Z entrepreneurs & creators​​• Share experiences and insights​​• Discover potential collaborations​​• Enjoy refreshments​Want to sponsor? Reach out here on Luma or email natalie@thegenztea.com​​** Please note, this event will be photographed and filmed. GenZtea reserves the rights to use photographs and video from the event for marketing and communication purposes. By attending this event you consent to your image being used for these purposes and being added to GenZtea newsletter. **",
-      "startDate": "2025-04-24T18:00:00-04:00",
-      "endDate": "2025-04-24T19:30:00-04:00",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": 100,
-      "registrationRequired": true,
-      "tags": [],
-      "image": "luma-event-ad52906e.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://lu.ma/53fvw452",
-        "speakers": [
-          {
-            "name": "Natalie Neptune",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Natalie Neptune",
-            "title": "",
-            "bio": ""
-          }
-        ],
-        "venue": {
-          "name": "109 3rd AveNew York, NY 10003, USA",
-          "address": "New York, NY 10003, USA",
-          "type": "Offline",
-          "room": "",
-          "additional_info": ""
-        },
-        "featured": false,
-        "social_links": [
-          "https://x.com/thegenZtea",
-          "https://linkedin.com/company/genztea",
-          "https://genztea.squarespace.com/",
-          "https://instagram.com/Yes",
-          "https://x.com/thegenZtea",
-          "https://linkedin.com/company/genztea",
-          "https://genztea.squarespace.com/",
-          "https://instagram.com/Yes"
-        ]
-      }
-    },
-    {
-      "id": "evt_com_genZtea_9dcb9f5c",
-      "name": "Tavern Community & GenZtea Present: Intergenerational Coworking",
-      "type": "Tech",
-      "locationId": "loc_tbd",
-      "communityId": "com_genZtea",
-      "description": "​Intergenerational CoworkingOften it feels like the generational gap is one of the things that divides us most. Join us for an inspiring and collaborative event for professionals from different stages of life to come together for a day of intentional connection withTavern CommunityandGenZtea's Natalie NeptuneatTempo by Hilton Times Square!​Event Highlights:​Communal Lunch: Meet and connect with fellow attendees over a relaxed, communal lunch while sharing insights and experiences. (Lunch is ordered à la carte, not included in your ticket)​Panel Discussion​Happy Hour: Wind down and solidify new connections in a casual happy hour setting. (First drink-house beer or wine-included in your ticket)​Join us for the whole day, or just come for the Panel Discussion at 1:30 PM.​🕒Start Time: 11:30 AM​Location: Tempo by Hilton Times SquareRSVP Required​Schedule:​11:30 AM: Welcome, mingle, cowork​12:00 PMCommunal lunch (Lunch is ordered à la carte, not included in your ticket)​1:30 PM: Panel talks, followed by audience conversation​3:00 PM: Coworking​4:30 PM: Happy hour​RSVP now to secure your spot!",
-      "startDate": "2025-04-22T11:30:00-04:00",
-      "endDate": "2025-04-22T18:00:00-04:00",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": 100,
-      "registrationRequired": true,
-      "tags": [],
-      "image": "luma-event-cab8325a.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://lu.ma/2s3twt2b",
-        "speakers": [
-          {
-            "name": "Natalie Neptune",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Ben Schwartz",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Natalie Neptune",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Ben Schwartz",
-            "title": "",
-            "bio": ""
-          }
-        ],
-        "venue": {
-          "name": "Tempo by Hilton New York Times Square1568 Broadway, New York, NY 10036, USA",
-          "address": "1568 Broadway, New York, NY 10036, USA",
-          "type": "Offline",
-          "room": "",
-          "additional_info": ""
-        },
-        "featured": false,
-        "social_links": [
-          "https://instagram.com/taverncommunity",
-          "https://taverncommunity.com",
-          "https://instagram.com/Yes",
-          "https://instagram.com/taverncommunity",
-          "https://instagram.com/taverncommunity",
-          "https://taverncommunity.com",
-          "https://instagram.com/Yes",
-          "https://instagram.com/taverncommunity"
-        ]
-      }
-    },
-    {
       "id": "evt_com_genZtea_08b88d10",
       "name": "Navigating AI in Women's Healthcare: Insights from VC & Founders",
       "type": "Tech",
@@ -1588,6 +1464,201 @@
       }
     },
     {
+      "id": "evt_com_genZtea_27f83c3e",
+      "name": "Gen Z NYC Founder & Creator Mixer",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_genZtea",
+      "description": "​As we embrace spring in 2025, take a moment to celebrate your entrepreneurial journey with us in East Village! Join fellow ONE-OF-A-KIND Gen Z founders for an intimate evening of connection, inspiration, and well-deserved self-care at our April mixer.​So what the heck is GenZtea?GenZtea's Mission: Empowering Gen Z founders, creators, and investors to unlock their full potential through personal branding, community support, and innovative resources. We're building a global network of young builders who are not just invited into the room but are leading it.​Want to stay in the loop? Join our brand new newsletter athttps://genztea.beehiiv.com/subscribefor monthly deep dives with Gen Z lens, event updates, and community highlights! Reach is the new resume.​DM me if you are interested in getting featured in newsletter​✨ Brand New​✨: Gen Z Marketplace​DM me on Luma to have your food brand represented IRL at this event!​​🎁 Event Highlights:​​• Network with fellow Gen Z entrepreneurs & creators​​• Share experiences and insights​​• Discover potential collaborations​​• Enjoy refreshments​Want to sponsor? Reach out here on Luma or email natalie@thegenztea.com​​** Please note, this event will be photographed and filmed. GenZtea reserves the rights to use photographs and video from the event for marketing and communication purposes. By attending this event you consent to your image being used for these purposes and being added to GenZtea newsletter. **",
+      "startDate": "2025-04-24T18:00:00-04:00",
+      "endDate": "2025-04-24T19:30:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "luma-event-ad52906e.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/53fvw452",
+        "speakers": [
+          {
+            "name": "Natalie Neptune",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Natalie Neptune",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "venue": {
+          "name": "109 3rd AveNew York, NY 10003, USA",
+          "address": "New York, NY 10003, USA",
+          "type": "Offline",
+          "room": "",
+          "additional_info": ""
+        },
+        "featured": false,
+        "social_links": [
+          "https://x.com/thegenZtea",
+          "https://linkedin.com/company/genztea",
+          "https://genztea.squarespace.com/",
+          "https://instagram.com/Yes",
+          "https://x.com/thegenZtea",
+          "https://linkedin.com/company/genztea",
+          "https://genztea.squarespace.com/",
+          "https://instagram.com/Yes"
+        ]
+      }
+    },
+    {
+      "id": "evt_com_genZtea_9dcb9f5c",
+      "name": "Tavern Community & GenZtea Present: Intergenerational Coworking",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_genZtea",
+      "description": "​Intergenerational CoworkingOften it feels like the generational gap is one of the things that divides us most. Join us for an inspiring and collaborative event for professionals from different stages of life to come together for a day of intentional connection withTavern CommunityandGenZtea's Natalie NeptuneatTempo by Hilton Times Square!​Event Highlights:​Communal Lunch: Meet and connect with fellow attendees over a relaxed, communal lunch while sharing insights and experiences. (Lunch is ordered à la carte, not included in your ticket)​Panel Discussion​Happy Hour: Wind down and solidify new connections in a casual happy hour setting. (First drink-house beer or wine-included in your ticket)​Join us for the whole day, or just come for the Panel Discussion at 1:30 PM.​🕒Start Time: 11:30 AM​Location: Tempo by Hilton Times SquareRSVP Required​Schedule:​11:30 AM: Welcome, mingle, cowork​12:00 PMCommunal lunch (Lunch is ordered à la carte, not included in your ticket)​1:30 PM: Panel talks, followed by audience conversation​3:00 PM: Coworking​4:30 PM: Happy hour​RSVP now to secure your spot!",
+      "startDate": "2025-04-22T11:30:00-04:00",
+      "endDate": "2025-04-22T18:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "luma-event-cab8325a.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/2s3twt2b",
+        "speakers": [
+          {
+            "name": "Natalie Neptune",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Ben Schwartz",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Natalie Neptune",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Ben Schwartz",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "venue": {
+          "name": "Tempo by Hilton New York Times Square1568 Broadway, New York, NY 10036, USA",
+          "address": "1568 Broadway, New York, NY 10036, USA",
+          "type": "Offline",
+          "room": "",
+          "additional_info": ""
+        },
+        "featured": false,
+        "social_links": [
+          "https://instagram.com/taverncommunity",
+          "https://taverncommunity.com",
+          "https://instagram.com/Yes",
+          "https://instagram.com/taverncommunity",
+          "https://instagram.com/taverncommunity",
+          "https://taverncommunity.com",
+          "https://instagram.com/Yes",
+          "https://instagram.com/taverncommunity"
+        ]
+      }
+    },
+    {
+      "id": "evt_com_genZtea_74fe888a",
+      "name": "Female Founders & Financial Empowerment",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_genZtea",
+      "description": "​ELEVATE: Female Founders & Financial Empowerment Event​August 19th, 2025​Sneak Peek: Something powerful is coming for female entrepreneurs.​Join us for an exclusive event where visionary female founders meet wealth management expertise. Build your network, grow your assets, and transform your relationship with money after the summer break.​Full details will be released in the coming months.​Sign up now to be the first to receive updates about this game-changing event. Limited spots available.​[SIGN UP FOR UPDATES]​Questions? Contact us at natalie@thegenztea.com",
+      "startDate": "2025-08-19T18:00:00-04:00",
+      "endDate": "2025-08-19T19:30:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "luma-event-4b340f00.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/g12gab09",
+        "speakers": [
+          {
+            "name": "Natalie Neptune",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Rebecca Pino | Money Her Way",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Natalie Neptune",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Rebecca Pino | Money Her Way",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "venue": {
+          "name": "Fabrik NYC12-16 Vestry St 4th Floor, New York, NY 10013, USA",
+          "address": "12-16 Vestry St 4th Floor, New York, NY 10013, USA",
+          "type": "Offline",
+          "room": "",
+          "additional_info": ""
+        },
+        "featured": false,
+        "social_links": [
+          "https://x.com/thegenZtea",
+          "https://linkedin.com/company/genztea",
+          "https://genztea.squarespace.com/",
+          "https://instagram.com/Yes",
+          "https://instagram.com/moneyherway",
+          "https://x.com/Moneyherway",
+          "https://x.com/thegenZtea",
+          "https://linkedin.com/company/genztea",
+          "https://genztea.squarespace.com/",
+          "https://instagram.com/Yes",
+          "https://instagram.com/moneyherway",
+          "https://x.com/Moneyherway"
+        ]
+      }
+    },
+    {
       "id": "evt_com_acid_club_478ceca9",
       "name": "aci-d trip : folk tales",
       "type": "Tech",
@@ -1611,7 +1682,7 @@
       "image": "luma-event-b536e7b5.jpg",
       "status": "upcoming",
       "metadata": {
-        "source_url": "https://lu.ma/m9k479vc",
+        "source_url": "https://lu.ma/e/evt-p8uarqm69A3DFAw",
         "speakers": [
           {
             "name": "aci-d club",
@@ -1635,9 +1706,9 @@
           }
         ],
         "venue": {
-          "name": "366 Devoe StBrooklyn, NY 11211, USA",
-          "address": "Brooklyn, NY 11211, USA",
-          "type": "Offline",
+          "name": "Please register to see the exact location of this event.",
+          "address": "Kings County, New York",
+          "type": "Online",
           "room": "",
           "additional_info": ""
         },
@@ -1655,8 +1726,122 @@
       }
     },
     {
-      "id": "evt_com_acid_club_8615fdc0",
-      "name": "aci-d club weekly hang 021 *on wednesday now*",
+      "id": "evt_com_acid_club_f8bd9c6e",
+      "name": "aci-d club weekly hang 024 *we go on hiatus after this one*",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_acid_club",
+      "description": "​WEEKLY HANGS WILL GO ON A HIATUS FOR THE SUMMER!!(though we will still be doing field trips and workshops and parties and stuff here n there)​Have a creative project you’ve been wanting to work on but can’t quite make the time for? Want to meet other designers in the city? Come hang with us!Show up with ideas and materials, leave with progress made, and a new friend or two.AGENDA7:00-7:30: intros7:30-8:30: work on (or start) a design project!8:30-9:00+: break into groups, share your WIPs, chat, mingle—Hosted attelos.haus",
+      "startDate": "2025-05-28T18:45:00-04:00",
+      "endDate": "2025-05-28T21:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "luma-event-e505e8ab.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/e/evt-04lyw3l2ZZZlYda",
+        "speakers": [
+          {
+            "name": "aci-d club",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "aci-d club",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "venue": {
+          "name": "Please register to see the exact location of this event.",
+          "address": "Kings County, New York",
+          "type": "Online",
+          "room": "",
+          "additional_info": ""
+        },
+        "featured": false,
+        "social_links": [
+          "https://instagram.com/aci_d.club",
+          "https://x.com/aci_dclub",
+          "https://aci-d.club",
+          "https://instagram.com/aci_d.club",
+          "https://instagram.com/aci_d.club",
+          "https://x.com/aci_dclub",
+          "https://aci-d.club",
+          "https://instagram.com/aci_d.club"
+        ]
+      }
+    },
+    {
+      "id": "evt_com_acid_club_43125613",
+      "name": "aci-d club weekly hang 023",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_acid_club",
+      "description": "​WE'RE MOVING HANGS TO WEDNESDAYS FOR A BIT​Have a creative project you’ve been wanting to work on but can’t quite make the time for? Want to meet other designers in the city? Come hang with us!Show up with ideas and materials, leave with progress made, and a new friend or two.AGENDA7:00-7:30: intros7:30-8:30: work on (or start) a design project!8:30-9:00+: break into groups, share your WIPs, chat, mingle—Hosted attelos.haus",
+      "startDate": "2025-05-21T18:45:00-04:00",
+      "endDate": "2025-05-21T21:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "luma-event-e505e8ab.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/e/evt-lOg1w3Gbu15i39q",
+        "speakers": [
+          {
+            "name": "aci-d club",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "aci-d club",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "venue": {
+          "name": "Please register to see the exact location of this event.",
+          "address": "Kings County, New York",
+          "type": "Online",
+          "room": "",
+          "additional_info": ""
+        },
+        "featured": false,
+        "social_links": [
+          "https://instagram.com/aci_d.club",
+          "https://x.com/aci_dclub",
+          "https://aci-d.club",
+          "https://instagram.com/aci_d.club",
+          "https://instagram.com/aci_d.club",
+          "https://x.com/aci_dclub",
+          "https://aci-d.club",
+          "https://instagram.com/aci_d.club"
+        ]
+      }
+    },
+    {
+      "id": "evt_com_acid_club_0437d6f4",
+      "name": "aci-d club weekly hang 021",
       "type": "Tech",
       "locationId": "loc_tbd",
       "communityId": "com_acid_club",
@@ -1712,8 +1897,8 @@
       }
     },
     {
-      "id": "evt_com_acid_club_d555a703",
-      "name": "aci-d club weekly hang 020 *on wednesday now*",
+      "id": "evt_com_acid_club_dfb1a616",
+      "name": "aci-d club weekly hang 020",
       "type": "Tech",
       "locationId": "loc_tbd",
       "communityId": "com_acid_club",
@@ -1736,6 +1921,63 @@
       "status": "upcoming",
       "metadata": {
         "source_url": "https://lu.ma/e/evt-HHFsLz8tQz3wnuC",
+        "speakers": [
+          {
+            "name": "aci-d club",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "aci-d club",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "venue": {
+          "name": "Please register to see the exact location of this event.",
+          "address": "Kings County, New York",
+          "type": "Online",
+          "room": "",
+          "additional_info": ""
+        },
+        "featured": false,
+        "social_links": [
+          "https://instagram.com/aci_d.club",
+          "https://x.com/aci_dclub",
+          "https://aci-d.club",
+          "https://instagram.com/aci_d.club",
+          "https://instagram.com/aci_d.club",
+          "https://x.com/aci_dclub",
+          "https://aci-d.club",
+          "https://instagram.com/aci_d.club"
+        ]
+      }
+    },
+    {
+      "id": "evt_com_acid_club_756cd2cd",
+      "name": "aci-d club weekly hang 022",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_acid_club",
+      "description": "​WE'RE MOVING HANGS TO WEDNESDAYS FOR A BIT​Have a creative project you’ve been wanting to work on but can’t quite make the time for? Want to meet other designers in the city? Come hang with us!Show up with ideas and materials, leave with progress made, and a new friend or two.AGENDA7:00-7:30: intros7:30-8:30: work on (or start) a design project!8:30-9:00+: break into groups, share your WIPs, chat, mingle—Hosted attelos.haus",
+      "startDate": "2025-05-14T18:45:00-04:00",
+      "endDate": "2025-05-14T21:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "luma-event-e505e8ab.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/e/evt-oEoTTW2nAL8RJTV",
         "speakers": [
           {
             "name": "aci-d club",

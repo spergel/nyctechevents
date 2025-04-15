@@ -1,79 +1,12 @@
 {
   "events": [
     {
-      "id": "evt_com_south_park_commons__clr78ba",
-      "name": "SPC x Anthropic Hackathon Demo Night",
-      "type": "Tech",
-      "locationId": "",
-      "communityId": "com_south_park_commons",
-      "description": "\u200bStop by SPC to see the final projects produced during the SPC + Anthropic Hackathon! This event is open to the public. Please register so that we have an accurate headcount as space will be limited.If you're interested in hacking please register here.Agenda:\u200b\u200bScience fair style demos from 4-5:30pm\u200b\u200bFinalist demos and prize-giving from 5:30-7pm\u200bPrizes awarded for Best Overall, Most Interesting Interface, Best Agent for Developers and Audience Choice. Judging will be done by a panel of SPC team members, Anthropic leadership, and guest experts.",
-      "startDate": "2025-04-13T23:00:00Z",
-      "endDate": "2025-04-14T02:00:00Z",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": "",
-      "image": "luma-event-bc539cc0.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://lu.ma/spc-anthropic-demos",
-        "organizer": {
-          "name": "South Park Commons",
-          "instagram": "",
-          "email": "bfptu3ajdae5cc2k16cvs1amenbft762@import.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "Please register to see the exact location of this event.\nSan Francisco, California",
-          "type": "Online"
-        },
-        "speakers": [
-          {
-            "name": "South Park Commons",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "South Park Commons",
-            "title": "",
-            "bio": ""
-          }
-        ],
-        "social_links": [
-          "https://instagram.com/southparkcommons",
-          "https://x.com/southpkcommons",
-          "https://youtube.com/@southparkcommons",
-          "https://linkedin.com/company/southparkcommons",
-          "https://www.southparkcommons.com/",
-          "https://instagram.com/southparkcommons",
-          "https://x.com/southpkcommons",
-          "https://instagram.com/southparkcommons",
-          "https://x.com/southpkcommons",
-          "https://youtube.com/@southparkcommons",
-          "https://linkedin.com/company/southparkcommons",
-          "https://www.southparkcommons.com/",
-          "https://instagram.com/southparkcommons",
-          "https://x.com/southpkcommons"
-        ],
-        "featured": false,
-        "luma_source": true
-      }
-    },
-    {
       "id": "evt_com_south_park_commons__clr78bb",
       "name": "Mike Krieger and the Future of AI Product",
       "type": "Tech",
       "locationId": "",
       "communityId": "com_south_park_commons",
-      "description": "\u200bJoin SPC for an off the record conversation with Mike Krieger, Chief Product Officer at Anthropic. This is the final event of the SPC x Anthropic Hackathon. All approved hackers who complete a project are guaranteed admission to the fireside chat- registerhereto hack.\u200b\u200b\u200b\u200b\u200bEvent Details\u200b\u200b\u200b\u200b\u200b\u200b\u200b3:00pm:Doors open\u200b3:30-4:30pm:Fireside Chat with Mike Krieger\u200bPriority is given to SPC members, alumni andhackathon participants.\u200bMike Krieger,CPOMike Krieger is the Chief Product Officer at Anthropic, joining the executive team in May 2024. Mike co-founded Instagram and served as its CTO. At Instagram, he focused on building a broad range of products to help people connect with their interests and share their passions. As CTO, Mike grew the engineering organization to more than 450 employees across Instagram's offices in Menlo Park, San Francisco, and New York. Mike is a native of S\u00e3o Paulo, Brazil, Mike speaks fluent Portuguese. He holds an MS in Symbolic Systems from Stanford University and currently resides in San Francisco.\u200b\u200bSouth Park Commons is a home for the most talented technologists, builders, and domain-experts figuring out what's next\u2014a community designed to turn the chaos of possibility into the clarity of conviction. Learn morehere.",
+      "description": "\u200bJoin SPC for an off the record conversation with Mike Krieger, Chief Product Officer at Anthropic. This is the final event of the SPC x Anthropic Hackathon. All approved hackers who complete a project are guaranteed admission to the fireside chat- registerhereto hack.\u200b\u200b\u200b\u200b\u200bEvent Details\u200b\u200b\u200b\u200b\u200b\u200b\u200b3:00pm:Doors open\u200b3:30-4:30pm:Fireside Chat with Mike Krieger\u200bPriority is given to SPC members, alumni andhackathon participants.\u200bMike Krieger,CPOMike Krieger is the Chief Product Officer at Anthropic, joining the executive team in May 2024. Mike co-founded Instagram and served as its CTO. At Instagram, he focused on building a broad range of products to help people connect with their interests and share their passions. As CTO, Mike grew the engineering organization to more than 450 employees across Instagram's offices in Menlo Park, San Francisco, and New York. Mike is a native of S\u00e3o Paulo, Brazil, Mike speaks fluent Portuguese. He holds an MS in Symbolic Systems from Stanford University and currently resides in San Francisco.\u200b\u200bSouth Park Commons is a home for the most talented technologists, builders, and domain-experts figuring out what's next\u2014a community designed to turn the chaos of possibility into the clarity of conviction. Learn morehere.\u200b*Please note doors close promptly at 3:30pm and we can't accommodate late arrivals.",
       "startDate": "2025-04-15T22:00:00Z",
       "endDate": "2025-04-16T00:00:00Z",
       "category": [

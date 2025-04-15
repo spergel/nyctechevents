@@ -118,11 +118,11 @@
     },
     {
       "id": "evt_com_fractal__clr78ba",
-      "name": "AI Agents Meetup: Voice in New York with Zowie & Assembly AI",
+      "name": "AI Agents Meetup NYC: Voice with Zowie & Assembly AI",
       "type": "Tech",
       "locationId": "",
       "communityId": "com_fractal",
-      "description": "\u200bAI Agents Meetup: Voice\u200bThe Voice of the Future, Live.\u200bJoin us for theAI Agents Meetup: Voiceto see how voice-powered AI agents are transforming customer interactions, driving operational efficiency, and redefining enterprise support.\u200b\u200bAgenda\u200b\u200b4:00PM - 4:30PM| Guests arrival\u200b\u200b4:30PM - 4:40PM| Opening by AssemblyAI & Zowie\u200b\u200b4:40PM - 5:15PM| Panel: The Future of CX in the Age of AI with Carewell andL Catterton\u200b\u200b5:15PM - 5:45PM| Fireside chat: Hungryroot + AI: Lessons learned from introducing AI Agents withKylie Conibear, Director of Product Management and Product Operations @ Hungryroot\u200b\u200b5:45PM - 6:15PM| Live demo: Build your first voice AI agent with Zowie & AssemblyAI\u200b\u200b6:15PM - 7:30PM| Networking\u200bWhat you\u2019ll experience\u200bAdeep diveinto the tech, design, and strategy powering next-gen voice.\u200bReal use casesfrom brands already scaling with AI.\u200bAlive demoof Zowie Voice AI: AI agents that sound human and act with precision.\u200bCandidconversations with product builders, AI experts, and enterprise leaders.\u200bWho should attend\u200bTech leadersdriving AI adoption across systems.\u200bProduct ownersreimagining customer experience with automation.\u200bCX teamsready to take the first step into AI.\u200bAnyone prepared to lead the shift from clicks to conversations.\u200bWhy it matters\u200bVoice isn\u2019t a trend. It\u2019s the next default interface.\u200bThis is your chance to see it in action and understand how to lead the transformation inside your own organization.\u200bSpace is limited. This event is designed for innovators ready to shape the future of customer interaction.Join us.",
+      "description": "\u200bAI Agents Meetup\u200bWe're back!\u200bIt\u2019s already our second edition, so technically, we\u2019re a tradition now.\u200bJoin us for theAI Agents Meetup, where forward-thinking leaders explore how agentic AI is transforming customer experience. This time, we\u2019re putting the spotlight onvoice.\u200bYou\u2019ll see how voice AI agents are reshaping customer interactions, learn how to build one for your website, app, or phone support\u2014and as always, stick around for great conversations, drinks, and food.\u200b\u200bAgenda\u200b\u200b4:00PM - 4:30PM| Guests arrival\u200b\u200b4:30PM - 4:40PM| Opening by AssemblyAI & Zowie\u200b\u200b4:40PM - 5:15PM| Panel: The Future of CX in the Age of AI with Carewell andL Catterton\u200b\u200b5:15PM - 5:45PM| Fireside chat: Hungryroot + AI: Lessons learned from introducing AI Agents withKylie Conibear, Director of Product Management and Product Operations @ Hungryroot\u200b\u200b5:45PM - 6:15PM| Live demo: Build your first voice AI agent with Zowie & AssemblyAI\u200b\u200b6:15PM - 7:30PM| Networking\u200bWho should attend\u200bTech leadersdriving AI adoption across systems.\u200bProduct ownersreimagining customer experience with automation.\u200bCX teamsready to take the first step into AI.\u200bAnyone prepared to lead the shift from clicks to conversations.\u200bWhy it matters\u200bThe AI revolution isn\u2019t coming. It\u2019s here.AtAI Agents Meetups, we show you how to lead it.\u200bSpace is limited. This event is designed for innovators ready to shape the future of customer interaction.Join us.",
       "startDate": "2025-04-22T20:00:00Z",
       "endDate": "2025-04-22T23:30:00Z",
       "category": [
@@ -168,6 +168,11 @@
             "bio": ""
           },
           {
+            "name": "Zackary Klebanoff",
+            "title": "",
+            "bio": ""
+          },
+          {
             "name": "Zowie",
             "title": "",
             "bio": ""
@@ -179,6 +184,11 @@
           },
           {
             "name": "Rueben Meens",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Zackary Klebanoff",
             "title": "",
             "bio": ""
           }
