@@ -749,7 +749,7 @@
       "type": "Tech",
       "locationId": "loc_tbd",
       "communityId": "com_ny_hardware",
-      "description": "​​​The Hardware Meetup community is excited to announce the 104th NY Hardware Meetup at Viam​​​Hardware Meetups happen across 30+ cities around the world, bringing together hardware professionals to network and learn from each other. You might not realize it, but NYC is a hotbed for this kind of innovation and tonight you'll meet two companies working at the cutting edge of this technology.​​​This month we'll be atViam. Viam helps companies unlock the power of AI, data and automation in the physical world. They provide a single platform for engineers of all disciplines to solve problems together and build solutions that are fast and future-proof. Viam powers solutions across robotics, food and beverage, climate tech, marine, industrial manufacturing, and more. Founded in 2020 by former MongoDB co-founder and CTO Eliot Horowitz, Viam is headquartered in New York City.​​AGENDA​​​6:30 - Arrival, mingle, grab refreshments​​​7:00 - Welcome and introduction​7:15- Guest speakers with audience Q+A​8:20 - Community open mic​​​Anyone will have the chance or talk about what they are working on.​8:30 - Mix + mingle​WANT TO GET INVOLVED?​​Sponsorship:​We offer exclusive access to our 10,000+ member community through sponsorships.​​Host an event at your space:We are always looking for host sponsors to provide access to unique spaces from cool hardware companies building interesting things. Want to open up your office?​​Speaker:Do you have something interesting to share with our community? We're on the lookout for fresh faces to talk about their journey and experiences.​​If you want to get involved, head here:https://linktr.ee/nyhardware",
+      "description": "​​​The Hardware Meetup community is excited to announce the 105th NY Hardware Meetup at Viam​​​Hardware Meetups happen across 30+ cities around the world, bringing together hardware professionals to network and learn from each other. You might not realize it, but NYC is a hotbed for this kind of innovation and tonight you'll meet two companies working at the cutting edge of this technology.​​​This month we'll be atViam. Viam helps companies unlock the power of AI, data and automation in the physical world. They provide a single platform for engineers of all disciplines to solve problems together and build solutions that are fast and future-proof. Viam powers solutions across robotics, food and beverage, climate tech, marine, industrial manufacturing, and more. Founded in 2020 by former MongoDB co-founder and CTO Eliot Horowitz, Viam is headquartered in New York City.​SPEAKERS​Esha Maharishi is a Senior Product Manager at Viam, where she leads work on hardware and motion, helping to build tools that make robotics more accessible and flexible for developers. Prior to moving into product, she was the lead engineer for SLAM at Viam, bringing deep technical expertise to critical perception systems. Before Viam, Esha spent over seven years at MongoDB, where she held a range of engineering leadership roles across serverless, sharding, and distributed systems. Her work helped shape the core infrastructure behind one of the most widely used databases in the world. With a rare blend of engineering depth and product strategy, Esha brings a thoughtful and pragmatic lens to building modern tools for robotics and infrastructure.​Jeff Crystal is COO of Voltaic Systems. He is responsible for ensuring successful solar deployments for both low-power embedded hardware applications and remote power systems for industrial equipment. He works with companies across transportation, agriculture, security and monitoring to bring new products and services to life. He lives in Brooklyn, NY. Voltaic Systems (www.voltaicsystems.com) is a full-service provider of remote solar charging solutions. Their smaller solar panels are designed for durability in challenging environments and are integrated into high volume IoT products. Their CORE Solar System is designed to provide scalable power and battery storage for remote networking devices, cameras and environmental monitoring equipment.​​AGENDA​​​6:30 - Arrival, mingle, grab refreshments​​​7:00 - Welcome and introduction​7:15- Guest speakers with audience Q+A​8:20 - Community open mic​​​Anyone will have the chance or talk about what they are working on.​8:30 - Mix + mingle​WANT TO GET INVOLVED?​​Sponsorship:​We offer exclusive access to our 10,000+ member community through sponsorships.​​Host an event at your space:We are always looking for host sponsors to provide access to unique spaces from cool hardware companies building interesting things. Want to open up your office?​​Speaker:Do you have something interesting to share with our community? We're on the lookout for fresh faces to talk about their journey and experiences.​​If you want to get involved, head here:https://linktr.ee/nyhardware",
       "startDate": "2025-04-17T18:30:00-04:00",
       "endDate": "2025-04-17T21:30:00-04:00",
       "category": [
@@ -1864,63 +1864,6 @@
       "status": "upcoming",
       "metadata": {
         "source_url": "https://lu.ma/e/evt-rpup1Hks3T3MS7Y",
-        "speakers": [
-          {
-            "name": "aci-d club",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "aci-d club",
-            "title": "",
-            "bio": ""
-          }
-        ],
-        "venue": {
-          "name": "Please register to see the exact location of this event.",
-          "address": "Kings County, New York",
-          "type": "Online",
-          "room": "",
-          "additional_info": ""
-        },
-        "featured": false,
-        "social_links": [
-          "https://instagram.com/aci_d.club",
-          "https://x.com/aci_dclub",
-          "https://aci-d.club",
-          "https://instagram.com/aci_d.club",
-          "https://instagram.com/aci_d.club",
-          "https://x.com/aci_dclub",
-          "https://aci-d.club",
-          "https://instagram.com/aci_d.club"
-        ]
-      }
-    },
-    {
-      "id": "evt_com_acid_club_dfb1a616",
-      "name": "aci-d club weekly hang 020",
-      "type": "Tech",
-      "locationId": "loc_tbd",
-      "communityId": "com_acid_club",
-      "description": "​WE'RE MOVING HANGS TO WEDNESDAYS FOR A BIT​Have a creative project you’ve been wanting to work on but can’t quite make the time for? Want to meet other designers in the city? Come hang with us!Show up with ideas and materials, leave with progress made, and a new friend or two.AGENDA7:00-7:30: intros7:30-8:30: work on (or start) a design project!8:30-9:00+: break into groups, share your WIPs, chat, mingle—Hosted attelos.haus",
-      "startDate": "2025-04-16T18:45:00-04:00",
-      "endDate": "2025-04-16T21:00:00-04:00",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": 100,
-      "registrationRequired": true,
-      "tags": [],
-      "image": "luma-event-e505e8ab.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://lu.ma/e/evt-HHFsLz8tQz3wnuC",
         "speakers": [
           {
             "name": "aci-d club",

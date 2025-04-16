@@ -585,8 +585,8 @@
       "locationId": "loc_fractal",
       "communityId": "com_fractal",
       "description": "​We're meeting up every Sunday afternoon this Spring to tend the garden on the roof of the Fractal Tech Hub (weather permitting).Bring snacks to share, supplies for the garden, plants to plant, or just bring yourself ready to be put to work.​Join the groupchat:https://chat.whatsapp.com/HhSgjGQskNcJ8hAyKh9YyW​​More information on the Fractal Garden Website:http://garden.fractaltechhub.com/",
-      "startDate": "2025-06-01T19:00:00Z",
-      "endDate": "2025-06-01T21:30:00Z",
+      "startDate": "2025-06-01T18:00:00Z",
+      "endDate": "2025-06-01T21:00:00Z",
       "category": [
         "Tech"
       ],
@@ -640,8 +640,8 @@
       "locationId": "loc_fractal",
       "communityId": "com_fractal",
       "description": "​We're meeting up every Sunday afternoon this Spring to tend the garden on the roof of the Fractal Tech Hub (weather permitting).Bring snacks to share, supplies for the garden, plants to plant, or just bring yourself ready to be put to work.​Join the groupchat:https://chat.whatsapp.com/HhSgjGQskNcJ8hAyKh9YyW​​More information on the Fractal Garden Website:http://garden.fractaltechhub.com/",
-      "startDate": "2025-06-08T19:00:00Z",
-      "endDate": "2025-06-08T21:30:00Z",
+      "startDate": "2025-06-08T18:00:00Z",
+      "endDate": "2025-06-08T21:00:00Z",
       "category": [
         "Tech"
       ],
@@ -694,7 +694,7 @@
       "type": "Tech",
       "locationId": "loc_fractal",
       "communityId": "com_fractal",
-      "description": "​NY Product Meetup - Fireside chat with Kareem Amin (Co-founder/CEO at Clay) and Dan Storms (CPO at The Rounds). RSVP link for Meetup will be added once event is confirmed! Expecting 70-90 attendees. Will cap RSVPs at 125.​https://www.meetup.com/ny-product/",
+      "description": "​NY Product Meetup - Fireside chat with Kareem Amin (Co-founder/CEO at Clay) and Dan Storms (CPO at The Rounds). RSVP here!!https://www.meetup.com/ny-product/events/307290062/",
       "startDate": "2025-05-12T22:00:00Z",
       "endDate": "2025-05-13T00:00:00Z",
       "category": [
@@ -833,8 +833,8 @@
       "locationId": "loc_telos",
       "communityId": "com_telos",
       "description": "<p>this event is an experiment arising from the dearth of after-hours spaces to read, mingle, and meet others in new york.</p><p>there will be dimly-lit workspaces, couches and cushions to relax, a selection of custom drinks, and ambient sets by @x0trandon.</p><p>bring what stirs your soul.</p>",
-      "startDate": "2025-04-18T21:00:00-04:00",
-      "endDate": "2025-04-19T01:00:00-04:00",
+      "startDate": "2025-04-18T20:00:00-04:00",
+      "endDate": "2025-04-19T00:00:00-04:00",
       "category": [
         "Tech"
       ],
@@ -1530,8 +1530,8 @@
       "locationId": "",
       "communityId": "com_nyc_resistor",
       "description": "",
-      "startDate": "2025-07-17T20:00:00-04:00",
-      "endDate": "2025-07-17T21:00:00-04:00",
+      "startDate": "2025-07-10T20:00:00-04:00",
+      "endDate": "2025-07-10T21:00:00-04:00",
       "category": [
         "Tech"
       ],
@@ -1547,7 +1547,7 @@
       "image": "",
       "status": "upcoming",
       "metadata": {
-        "source_url": "https://www.google.com/calendar/event?eid=MjExbXBpazAwdXQ4MTVrZ3FuMjExcm8wcTJfMjAyNTA3MThUMDAwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn",
+        "source_url": "https://www.google.com/calendar/event?eid=MjExbXBpazAwdXQ4MTVrZ3FuMjExcm8wcTJfMjAyNTA3MTFUMDAwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn",
         "organizer": {
           "name": "",
           "instagram": "",
@@ -2547,13 +2547,13 @@
     },
     {
       "id": "evt_com_verci__cdgmopb",
-      "name": "Willo: Feel the Music ft. Caroline Kuhn",
+      "name": "lucas wants to show you something",
       "type": "Tech",
       "locationId": "",
       "communityId": "com_verci",
       "description": "Find more information on https://lu.ma/verci",
-      "startDate": "2025-04-26T00:00:00Z",
-      "endDate": "2025-04-26T02:30:00Z",
+      "startDate": "2025-05-04T00:00:00Z",
+      "endDate": "2025-05-04T03:00:00Z",
       "category": [
         "Tech"
       ],
@@ -2577,7 +2577,7 @@
         },
         "venue": {
           "name": "",
-          "address": "https://partiful.com/e/GYvNWiPnVMElrvtcB68d",
+          "address": "https://partiful.com/e/beu9oYALpiX9GsJZ8lDt",
           "type": "Offline"
         },
         "speakers": [],
@@ -3143,13 +3143,13 @@
     },
     {
       "id": "evt_com_verci__clr78ba",
-      "name": "OTWC Season 6: Part III",
+      "name": "Satellite Dining Hall III",
       "type": "Tech",
       "locationId": "",
       "communityId": "com_verci",
-      "description": "​OTWC is an NYC-based writing community for online writers to write, exchange ideas, and get inspired. Our sessions look like this:​​​​​​​​​​​1. ​​​Introduce yourselves and talk about what you plan to write2. ​​​Focused writing session3. ​​​Get together in small groups and discuss how the session went​​​​​​​​​​​Snacks and drinks will be provided!​​​​​​​​​​If this price is too steep for you for any reason, email us by clicking \"Contact the Host\" on the left and we’ll give you a pay-what-you-can ticket.​​​​​​​​​​​Follow us on Twitter and Instagram @otwc_nyc to stay updated on future events and announcements!​​​​​​​​​​​Hope to see you there 🥳",
-      "startDate": "2025-04-20T14:00:00Z",
-      "endDate": "2025-04-20T17:00:00Z",
+      "description": "​Join us for a hand-roll night and dinner at Verci.​Pensara AI-powered code security platform to automate vulnerability management from detection to remediation​Thoropassis the all-in-one platform that combines audit and assessment with compliance automation.  We streamline compliance and accelerate audits for SOC, PCI, ISO, HITRUST, HIPAA, and more.",
+      "startDate": "2025-04-21T23:00:00Z",
+      "endDate": "2025-04-22T00:30:00Z",
       "category": [
         "Tech"
       ],
@@ -3162,10 +3162,10 @@
       "capacity": null,
       "registrationRequired": false,
       "tags": "",
-      "image": "luma-event-9d9dccf2.jpg",
+      "image": "luma-event-4ae50558.jpg",
       "status": "upcoming",
       "metadata": {
-        "source_url": "https://lu.ma/vksls03h",
+        "source_url": "https://lu.ma/71e0ca67",
         "organizer": {
           "name": "Verci Events",
           "instagram": "",
@@ -3173,42 +3173,50 @@
         },
         "venue": {
           "name": "",
-          "address": "Please register to see the exact location of this event.\nNew York, New York",
-          "type": "Online"
+          "address": "Verci Flatiron45 E 20th St, New York, NY 10003, USA\n45 E 20th St, New York, NY 10003, USA",
+          "type": "Offline"
         },
         "speakers": [
           {
-            "name": "James Q",
+            "name": "Verci",
             "title": "",
             "bio": ""
           },
           {
-            "name": "Abi Suresh",
+            "name": "Will Damron",
             "title": "",
             "bio": ""
           },
           {
-            "name": "James Q",
+            "name": "Kyle Bhiro",
             "title": "",
             "bio": ""
           },
           {
-            "name": "Abi Suresh",
+            "name": "Verci",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Will Damron",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Kyle Bhiro",
             "title": "",
             "bio": ""
           }
         ],
         "social_links": [
-          "https://instagram.com/otwc_nyc",
-          "https://x.com/otwc_nyc",
-          "https://instagram.com/mrjamesq",
-          "https://x.com/mrjamesq",
-          "https://instagram.com/abi_nope",
-          "https://instagram.com/otwc_nyc",
-          "https://x.com/otwc_nyc",
-          "https://instagram.com/mrjamesq",
-          "https://x.com/mrjamesq",
-          "https://instagram.com/abi_nope"
+          "https://instagram.com/vercinyc",
+          "https://x.com/vercinyc",
+          "https://tiktok.com/@vercinyc",
+          "https://x.com/kylebhiro",
+          "https://instagram.com/vercinyc",
+          "https://x.com/vercinyc",
+          "https://tiktok.com/@vercinyc",
+          "https://x.com/kylebhiro"
         ],
         "featured": false,
         "luma_source": true
@@ -3403,6 +3411,88 @@
       "status": "upcoming",
       "metadata": {
         "source_url": "https://www.google.com/calendar/event?eid=NzRwbWNjcGg2b29qMGJiMzZoaDNhYjlrYzhxbTZiOW82c3NtNmJiMzZsaGppcGIyNjRvM2FkcGc2MCBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn",
+        "organizer": {
+          "name": "NYCResistor",
+          "instagram": "",
+          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
+      "id": "evt_com_telos_79m9k7m2",
+      "name": "Booked for private event",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2025-05-10",
+      "endDate": "2025-05-11",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.google.com/calendar/event?eid=NzltOWs3bTI0c3U5MWs3aXRpbjd0NDJsa2ogZDU5NmMyYmY3MjExODNkMjJiYjUwYmRlNjYyNTA5MGZjMzkyM2FhMjlhNjkxOGQ3ODQwOWUxNjhkYTc5MTc2OUBn",
+        "organizer": {
+          "name": "telos.haus events",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
+      "id": "evt_com_nyc_resistor_6oo66eb5",
+      "name": "HOLD: Spy Kids 3 Watch Party",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_nyc_resistor",
+      "description": "",
+      "startDate": "2025-05-04T20:00:00-04:00",
+      "endDate": "2025-05-04T22:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.google.com/calendar/event?eid=Nm9vNjZlYjVjb3JqZWI5bGNwajNhYjlrY2twM2diYjE2ZGdtNmJiNWNwaDM2Y3BwNmNxbTRvcGc2ayBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn",
         "organizer": {
           "name": "NYCResistor",
           "instagram": "",

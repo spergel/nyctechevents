@@ -289,6 +289,42 @@
       }
     },
     {
+      "id": "evt_pioneer_2add19e9",
+      "name": "Second Sundays: June 2025",
+      "type": "Cultural Event",
+      "locationId": "loc_pioneer_works",
+      "communityId": "com_pioneer_works",
+      "description": "Since 2013, Pioneer Works has hosted Second Sundays, a free monthly open house. Highlighting our programs, artists-in-residence, and Red Hook community ...",
+      "startDate": "2025-06-08T23:00:00+00:00",
+      "endDate": "2025-06-09T03:00:00+00:00",
+      "category": [
+        "Arts",
+        "Music",
+        "Science"
+      ],
+      "price": null,
+      "registrationRequired": true,
+      "tags": [],
+      "image": [
+        null
+      ],
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://pioneerworks.org/programs/second-sundays-june-2025",
+        "organizer": {
+          "name": "Pioneer Works",
+          "instagram": "@pioneerworks",
+          "email": "info@pioneerworks.org"
+        },
+        "venue": {
+          "name": "Pioneer Works",
+          "address": "159 Pioneer Street",
+          "type": "Cultural Institution"
+        },
+        "featured": false
+      }
+    },
+    {
       "id": "evt_pioneer_f972de19",
       "name": "Sun Ra Arkestra with Marshall Allen, Young Boy Dancing Group, Colin Self, Cel Genesis, Relaxer b2b Baby Leo",
       "type": "Cultural Event",
@@ -433,6 +469,42 @@
       }
     },
     {
+      "id": "evt_pioneer_318479aa",
+      "name": "Second Sundays: July 2025",
+      "type": "Cultural Event",
+      "locationId": "loc_pioneer_works",
+      "communityId": "com_pioneer_works",
+      "description": "Since 2013, Pioneer Works has hosted Second Sundays, a free monthly open house. Highlighting our programs, artists-in-residence, and Red Hook community ...",
+      "startDate": "2025-07-13T23:00:00+00:00",
+      "endDate": "2025-07-14T03:00:00+00:00",
+      "category": [
+        "Arts",
+        "Music",
+        "Science"
+      ],
+      "price": null,
+      "registrationRequired": true,
+      "tags": [],
+      "image": [
+        null
+      ],
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://pioneerworks.org/programs/second-sundays-july-2025",
+        "organizer": {
+          "name": "Pioneer Works",
+          "instagram": "@pioneerworks",
+          "email": "info@pioneerworks.org"
+        },
+        "venue": {
+          "name": "Pioneer Works",
+          "address": "159 Pioneer Street",
+          "type": "Cultural Institution"
+        },
+        "featured": false
+      }
+    },
+    {
       "id": "evt_pioneer_6716ec59",
       "name": "Bonnie \"Prince\" Billy, Tashi Dorji",
       "type": "Cultural Event",
@@ -455,6 +527,42 @@
       "status": "upcoming",
       "metadata": {
         "source_url": "https://pioneerworks.org/programs/bonnie-prince-billy",
+        "organizer": {
+          "name": "Pioneer Works",
+          "instagram": "@pioneerworks",
+          "email": "info@pioneerworks.org"
+        },
+        "venue": {
+          "name": "Pioneer Works",
+          "address": "159 Pioneer Street",
+          "type": "Cultural Institution"
+        },
+        "featured": false
+      }
+    },
+    {
+      "id": "evt_pioneer_a52362c5",
+      "name": "Second Sundays: August 2025",
+      "type": "Cultural Event",
+      "locationId": "loc_pioneer_works",
+      "communityId": "com_pioneer_works",
+      "description": "Since 2013, Pioneer Works has hosted Second Sundays, a free monthly open house. Highlighting our programs, artists-in-residence, and Red Hook community ...",
+      "startDate": "2025-08-10T23:00:00+00:00",
+      "endDate": "2025-08-11T03:00:00+00:00",
+      "category": [
+        "Arts",
+        "Music",
+        "Science"
+      ],
+      "price": null,
+      "registrationRequired": true,
+      "tags": [],
+      "image": [
+        null
+      ],
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://pioneerworks.org/programs/second-sundays-august-2025",
         "organizer": {
           "name": "Pioneer Works",
           "instagram": "@pioneerworks",

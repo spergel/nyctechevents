@@ -1,6 +1,61 @@
 {
   "events": [
     {
+      "id": "evt_com_fractal__clr78bb",
+      "name": "Weekly Sunday Co-Gardening | Spring Season \ud83c\udf38",
+      "type": "Tech",
+      "locationId": "loc_fractal",
+      "communityId": "com_fractal",
+      "description": "\u200bWe're meeting up every Sunday afternoon this Spring to tend the garden on the roof of the Fractal Tech Hub (weather permitting).Bring snacks to share, supplies for the garden, plants to plant, or just bring yourself ready to be put to work.\u200bJoin the groupchat:https://chat.whatsapp.com/HhSgjGQskNcJ8hAyKh9YyW\u200b\u200bMore information on the Fractal Garden Website:http://garden.fractaltechhub.com/",
+      "startDate": "2025-04-20T18:00:00Z",
+      "endDate": "2025-04-20T21:00:00Z",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "luma-event-9754c625.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/159xf31w",
+        "organizer": {
+          "name": "Fractal Tech: NYC",
+          "instagram": "",
+          "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "Fractal Tech",
+          "address": "111 Conselyea St, Brooklyn, NY 11211",
+          "type": "Offline"
+        },
+        "speakers": [
+          {
+            "name": "Anthony Castrio \ud83d\udcaf",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Anthony Castrio \ud83d\udcaf",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "social_links": [
+          "https://x.com/AnthonyCastrio",
+          "https://x.com/AnthonyCastrio"
+        ],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
       "id": "evt_com_fractal__clr78ba",
       "name": "Maximum New York April Party & Abundance Politics Accelerator",
       "type": "Tech",
@@ -62,67 +117,12 @@
       }
     },
     {
-      "id": "evt_com_fractal__clr78bb",
-      "name": "Weekly Sunday Co-Gardening | Spring Season \ud83c\udf38",
-      "type": "Tech",
-      "locationId": "loc_fractal",
-      "communityId": "com_fractal",
-      "description": "\u200bWe're meeting up every Sunday afternoon this Spring to tend the garden on the roof of the Fractal Tech Hub (weather permitting).Bring snacks to share, supplies for the garden, plants to plant, or just bring yourself ready to be put to work.\u200bJoin the groupchat:https://chat.whatsapp.com/HhSgjGQskNcJ8hAyKh9YyW\u200b\u200bMore information on the Fractal Garden Website:http://garden.fractaltechhub.com/",
-      "startDate": "2025-04-20T19:00:00Z",
-      "endDate": "2025-04-20T21:30:00Z",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": "",
-      "image": "luma-event-9754c625.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://lu.ma/159xf31w",
-        "organizer": {
-          "name": "Fractal Tech: NYC",
-          "instagram": "",
-          "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
-        },
-        "venue": {
-          "name": "Fractal Tech",
-          "address": "111 Conselyea St, Brooklyn, NY 11211",
-          "type": "Offline"
-        },
-        "speakers": [
-          {
-            "name": "Anthony Castrio \ud83d\udcaf",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Anthony Castrio \ud83d\udcaf",
-            "title": "",
-            "bio": ""
-          }
-        ],
-        "social_links": [
-          "https://x.com/AnthonyCastrio",
-          "https://x.com/AnthonyCastrio"
-        ],
-        "featured": false,
-        "luma_source": true
-      }
-    },
-    {
       "id": "evt_com_fractal__clr78ba",
       "name": "AI Agents Meetup NYC: Voice with Zowie & Assembly AI",
       "type": "Tech",
       "locationId": "",
       "communityId": "com_fractal",
-      "description": "\u200bAI Agents Meetup\u200bWe're back!\u200bIt\u2019s already our second edition, so technically, we\u2019re a tradition now.\u200bJoin us for theAI Agents Meetup, where forward-thinking leaders explore how agentic AI is transforming customer experience. This time, we\u2019re putting the spotlight onvoice.\u200bYou\u2019ll see how voice AI agents are reshaping customer interactions, learn how to build one for your website, app, or phone support\u2014and as always, stick around for great conversations, drinks, and food.\u200b\u200bAgenda\u200b\u200b4:00PM - 4:30PM| Guests arrival\u200b\u200b4:30PM - 4:40PM| Opening by AssemblyAI & Zowie\u200b\u200b4:40PM - 5:15PM| Panel: The Future of CX in the Age of AI with Carewell andL Catterton\u200b\u200b5:15PM - 5:45PM| Fireside chat: Hungryroot + AI: Lessons learned from introducing AI Agents withKylie Conibear, Director of Product Management and Product Operations @ Hungryroot\u200b\u200b5:45PM - 6:15PM| Live demo: Build your first voice AI agent with Zowie & AssemblyAI\u200b\u200b6:15PM - 7:30PM| Networking\u200bWho should attend\u200bTech leadersdriving AI adoption across systems.\u200bProduct ownersreimagining customer experience with automation.\u200bCX teamsready to take the first step into AI.\u200bAnyone prepared to lead the shift from clicks to conversations.\u200bWhy it matters\u200bThe AI revolution isn\u2019t coming. It\u2019s here.AtAI Agents Meetups, we show you how to lead it.\u200bSpace is limited. This event is designed for innovators ready to shape the future of customer interaction.Join us.",
+      "description": "\u200bAI Agents Meetup\u200bWe're back!\u200bIt\u2019s already our second edition, so technically, we\u2019re a tradition now.\u200bJoin us for theAI Agents Meetup, where forward-thinking leaders explore how agentic AI is transforming customer experience. This time, we\u2019re putting the spotlight onvoice.\u200bYou\u2019ll see how voice AI agents are reshaping customer interactions, learn how to build one for your website, app, or phone support\u2014and as always, stick around for great conversations, drinks, and food.\u200b\u200bAgenda\u200b\u200b\u200b4:00PM - 4:30PM| Guests arrival\u200b\u200b4:30PM - 4:40PM| Opening by AssemblyAI & Zowie\u200b\u200b4:40PM - 5:10PM| Keynote: Expect the unexpected: 5 lessons from building AI agents for voice by Zowie co-founder, Maciej Cio\u0142ek\u200b\u200b5:10PM - 5:45PM| Panel: The Future of CX in the Age of AI with Carewell andL Catterton\u200b\u200b5:45PM - 6:15PM| Live demo: Build your first voice AI agent with Zowie & AssemblyAI\u200b\u200b6:15PM - 7:30PM| Networking\u200bWho should attend\u200bTech leadersdriving AI adoption across systems.\u200bProduct ownersreimagining customer experience with automation.\u200bCX teamsready to take the first step into AI.\u200bAnyone prepared to lead the shift from clicks to conversations.\u200bWhy it matters\u200bThe AI revolution isn\u2019t coming. It\u2019s here.AtAI Agents Meetups, we show you how to lead it.\u200bSpace is limited. This event is designed for innovators ready to shape the future of customer interaction.Join us.",
       "startDate": "2025-04-22T20:00:00Z",
       "endDate": "2025-04-22T23:30:00Z",
       "category": [
@@ -158,7 +158,7 @@
             "bio": ""
           },
           {
-            "name": "Maciej",
+            "name": "Maciek",
             "title": "",
             "bio": ""
           },
@@ -178,7 +178,7 @@
             "bio": ""
           },
           {
-            "name": "Maciej",
+            "name": "Maciek",
             "title": "",
             "bio": ""
           },
@@ -257,8 +257,8 @@
       "locationId": "loc_fractal",
       "communityId": "com_fractal",
       "description": "\u200bWe're meeting up every Sunday afternoon this Spring to tend the garden on the roof of the Fractal Tech Hub (weather permitting).Bring snacks to share, supplies for the garden, plants to plant, or just bring yourself ready to be put to work.\u200bJoin the groupchat:https://chat.whatsapp.com/HhSgjGQskNcJ8hAyKh9YyW\u200b\u200bMore information on the Fractal Garden Website:http://garden.fractaltechhub.com/",
-      "startDate": "2025-04-27T19:00:00Z",
-      "endDate": "2025-04-27T21:30:00Z",
+      "startDate": "2025-04-27T18:00:00Z",
+      "endDate": "2025-04-27T21:00:00Z",
       "category": [
         "Tech"
       ],
@@ -558,8 +558,8 @@
       "locationId": "loc_fractal",
       "communityId": "com_fractal",
       "description": "\u200bWe're meeting up every Sunday afternoon this Spring to tend the garden on the roof of the Fractal Tech Hub (weather permitting).Bring snacks to share, supplies for the garden, plants to plant, or just bring yourself ready to be put to work.\u200bJoin the groupchat:https://chat.whatsapp.com/HhSgjGQskNcJ8hAyKh9YyW\u200b\u200bMore information on the Fractal Garden Website:http://garden.fractaltechhub.com/",
-      "startDate": "2025-05-04T19:00:00Z",
-      "endDate": "2025-05-04T21:30:00Z",
+      "startDate": "2025-05-04T18:00:00Z",
+      "endDate": "2025-05-04T21:00:00Z",
       "category": [
         "Tech"
       ],
@@ -678,8 +678,8 @@
       "locationId": "loc_fractal",
       "communityId": "com_fractal",
       "description": "\u200bWe're meeting up every Sunday afternoon this Spring to tend the garden on the roof of the Fractal Tech Hub (weather permitting).Bring snacks to share, supplies for the garden, plants to plant, or just bring yourself ready to be put to work.\u200bJoin the groupchat:https://chat.whatsapp.com/HhSgjGQskNcJ8hAyKh9YyW\u200b\u200bMore information on the Fractal Garden Website:http://garden.fractaltechhub.com/",
-      "startDate": "2025-05-11T19:00:00Z",
-      "endDate": "2025-05-11T21:30:00Z",
+      "startDate": "2025-05-11T18:00:00Z",
+      "endDate": "2025-05-11T21:00:00Z",
       "category": [
         "Tech"
       ],
@@ -732,7 +732,7 @@
       "type": "Tech",
       "locationId": "loc_fractal",
       "communityId": "com_fractal",
-      "description": "\u200bNY Product Meetup - Fireside chat with Kareem Amin (Co-founder/CEO at Clay) and Dan Storms (CPO at The Rounds). RSVP link for Meetup will be added once event is confirmed! Expecting 70-90 attendees. Will cap RSVPs at 125.\u200bhttps://www.meetup.com/ny-product/",
+      "description": "\u200bNY Product Meetup - Fireside chat with Kareem Amin (Co-founder/CEO at Clay) and Dan Storms (CPO at The Rounds). RSVP here!!https://www.meetup.com/ny-product/events/307290062/",
       "startDate": "2025-05-12T22:00:00Z",
       "endDate": "2025-05-13T00:00:00Z",
       "category": [
@@ -837,8 +837,8 @@
       "locationId": "loc_fractal",
       "communityId": "com_fractal",
       "description": "\u200bWe're meeting up every Sunday afternoon this Spring to tend the garden on the roof of the Fractal Tech Hub (weather permitting).Bring snacks to share, supplies for the garden, plants to plant, or just bring yourself ready to be put to work.\u200bJoin the groupchat:https://chat.whatsapp.com/HhSgjGQskNcJ8hAyKh9YyW\u200b\u200bMore information on the Fractal Garden Website:http://garden.fractaltechhub.com/",
-      "startDate": "2025-05-18T19:00:00Z",
-      "endDate": "2025-05-18T21:30:00Z",
+      "startDate": "2025-05-18T18:00:00Z",
+      "endDate": "2025-05-18T21:00:00Z",
       "category": [
         "Tech"
       ],
@@ -892,8 +892,8 @@
       "locationId": "loc_fractal",
       "communityId": "com_fractal",
       "description": "\u200bWe're meeting up every Sunday afternoon this Spring to tend the garden on the roof of the Fractal Tech Hub (weather permitting).Bring snacks to share, supplies for the garden, plants to plant, or just bring yourself ready to be put to work.\u200bJoin the groupchat:https://chat.whatsapp.com/HhSgjGQskNcJ8hAyKh9YyW\u200b\u200bMore information on the Fractal Garden Website:http://garden.fractaltechhub.com/",
-      "startDate": "2025-05-25T19:00:00Z",
-      "endDate": "2025-05-25T21:30:00Z",
+      "startDate": "2025-05-25T18:00:00Z",
+      "endDate": "2025-05-25T21:00:00Z",
       "category": [
         "Tech"
       ],
@@ -947,8 +947,8 @@
       "locationId": "loc_fractal",
       "communityId": "com_fractal",
       "description": "\u200bWe're meeting up every Sunday afternoon this Spring to tend the garden on the roof of the Fractal Tech Hub (weather permitting).Bring snacks to share, supplies for the garden, plants to plant, or just bring yourself ready to be put to work.\u200bJoin the groupchat:https://chat.whatsapp.com/HhSgjGQskNcJ8hAyKh9YyW\u200b\u200bMore information on the Fractal Garden Website:http://garden.fractaltechhub.com/",
-      "startDate": "2025-06-01T19:00:00Z",
-      "endDate": "2025-06-01T21:30:00Z",
+      "startDate": "2025-06-01T18:00:00Z",
+      "endDate": "2025-06-01T21:00:00Z",
       "category": [
         "Tech"
       ],
@@ -1002,8 +1002,8 @@
       "locationId": "loc_fractal",
       "communityId": "com_fractal",
       "description": "\u200bWe're meeting up every Sunday afternoon this Spring to tend the garden on the roof of the Fractal Tech Hub (weather permitting).Bring snacks to share, supplies for the garden, plants to plant, or just bring yourself ready to be put to work.\u200bJoin the groupchat:https://chat.whatsapp.com/HhSgjGQskNcJ8hAyKh9YyW\u200b\u200bMore information on the Fractal Garden Website:http://garden.fractaltechhub.com/",
-      "startDate": "2025-06-08T19:00:00Z",
-      "endDate": "2025-06-08T21:30:00Z",
+      "startDate": "2025-06-08T18:00:00Z",
+      "endDate": "2025-06-08T21:00:00Z",
       "category": [
         "Tech"
       ],
