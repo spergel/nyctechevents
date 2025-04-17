@@ -535,13 +535,13 @@
     },
     {
       "id": "evt_com_fractal__cdgmopb",
-      "name": "Code & Coffee",
+      "name": "Fireside chat with Clay Co-founder/CEO Kareem Amin",
       "type": "Tech",
       "locationId": "",
       "communityId": "com_fractal",
       "description": "Find more information on https://lu.ma/nyc-tech",
-      "startDate": "2025-04-27T18:00:00Z",
-      "endDate": "2025-04-27T21:00:00Z",
+      "startDate": "2025-05-12T22:00:00Z",
+      "endDate": "2025-05-13T00:00:00Z",
       "category": [
         "Tech"
       ],
@@ -565,7 +565,7 @@
         },
         "venue": {
           "name": "",
-          "address": "https://www.meetup.com/new-york-code-coffee/",
+          "address": "https://www.meetup.com/ny-product/events/307290062/",
           "type": "Offline"
         },
         "speakers": [],
@@ -690,13 +690,13 @@
     },
     {
       "id": "evt_com_fractal__clr78b9",
-      "name": "NY Product Meetup: Clay Co-founder/CEO Kareem Amin",
+      "name": "BuildHub #3 - 3D Modelling CAD Workshop",
       "type": "Tech",
       "locationId": "loc_fractal",
       "communityId": "com_fractal",
-      "description": "​NY Product Meetup - Fireside chat with Kareem Amin (Co-founder/CEO at Clay) and Dan Storms (CPO at The Rounds). RSVP here!!https://www.meetup.com/ny-product/events/307290062/",
-      "startDate": "2025-05-12T22:00:00Z",
-      "endDate": "2025-05-13T00:00:00Z",
+      "description": "​Do you want to learn a fast way to enter a flow state? ​​Have the knack to design your own mechanical products and 3D print them? Unsure where to start? Fear not.​​​HI! I'mSuraj Kumarand I can teach you how to become a maker in three days. I was the Chief Engineer of Sherpy, a drone startup that manufactured small, long-range airplanes for commercial delivery (sherpymedia.com). I now founded a neurotech startup (Cerelog.com).There are a lot of visionaries and hackers around in New York City, but materializing an idea can be quite the wall to climb! What are the real-world constraints to pay attention to when designing something? Where's the space where you can build things fast and get great advice?!​​This is a small-group, high attention workshop, targeting 10 creative people who have the itch to create things.Light on theory, heavy on practice!​​WHAT YOU'LL DO​​Get familiar with Fusion360!​​​​Design your own custom spray bottle using Fusion360. Use it for cleaning around your house/pranking your dog!​​​​We provide the nozzle and tube—you design the rest!​​​​3D print your creation on the high performance Bambu X1 Carbon printer​​​​DETAILS​​​​Five-day workshop (~3 hrs per session)​​Mon - Fri​​​​Professional guidance from an experienced engineer​​​​Learn to navigate Fusion360 and think like a designer​​​​REGISTRATION​​​$100 / person for the 4 days​​​​Limited spots available​​​​Reserve your seat today!​​Your Host:​​​​Suraj Kumar, Mechanical Engineer with years of Fusion360 experience​​​​*thank you tofractal techfor hosting us!*Contact at surajratnam99@gmail.com",
+      "startDate": "2025-04-28T22:00:00Z",
+      "endDate": "2025-04-29T01:00:00Z",
       "category": [
         "Tech"
       ],
@@ -709,10 +709,10 @@
       "capacity": null,
       "registrationRequired": false,
       "tags": "",
-      "image": "luma-event-6e76fac5.jpg",
+      "image": "luma-event-4f845869.jpg",
       "status": "upcoming",
       "metadata": {
-        "source_url": "https://lu.ma/f2p1ozsz",
+        "source_url": "https://lu.ma/ykxtq7jd",
         "organizer": {
           "name": "Fractal Tech: NYC",
           "instagram": "",
@@ -725,17 +725,40 @@
         },
         "speakers": [
           {
-            "name": "Dan Storms",
+            "name": "Suraj Kumar",
             "title": "",
             "bio": ""
           },
           {
-            "name": "Dan Storms",
+            "name": "Jake Zegil",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Suraj Kumar",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Jake Zegil",
             "title": "",
             "bio": ""
           }
         ],
-        "social_links": [],
+        "social_links": [
+          "https://instagram.com/fractaltechnyc",
+          "https://x.com/fractaltechnyc",
+          "https://fractaltechhub.com",
+          "https://instagram.com/surajimop",
+          "https://x.com/surkumference",
+          "https://x.com/JakeZegil",
+          "https://instagram.com/fractaltechnyc",
+          "https://x.com/fractaltechnyc",
+          "https://fractaltechhub.com",
+          "https://instagram.com/surajimop",
+          "https://x.com/surkumference",
+          "https://x.com/JakeZegil"
+        ],
         "featured": false,
         "luma_source": true
       }
@@ -3493,6 +3516,47 @@
       "status": "upcoming",
       "metadata": {
         "source_url": "https://www.google.com/calendar/event?eid=Nm9vNjZlYjVjb3JqZWI5bGNwajNhYjlrY2twM2diYjE2ZGdtNmJiNWNwaDM2Y3BwNmNxbTRvcGc2ayBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn",
+        "organizer": {
+          "name": "NYCResistor",
+          "instagram": "",
+          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
+      "id": "evt_com_nyc_resistor_6os3cp31",
+      "name": "HOLD: Party Kari",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_nyc_resistor",
+      "description": "",
+      "startDate": "2025-05-07",
+      "endDate": "2025-05-08",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.google.com/calendar/event?eid=Nm9zM2NwMzFjZ3BqMmJiNmM1aW04YjlrYzhvajJiYjI2MHMzMmJiNTZnbzMwYzlvYzVqNjhwOWhjOCBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn",
         "organizer": {
           "name": "NYCResistor",
           "instagram": "",

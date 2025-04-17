@@ -2,6 +2,118 @@
   "events": [
     {
       "id": "evt_com_fractal__clr78bb",
+      "name": "OT Society meeting",
+      "type": "Tech",
+      "locationId": "loc_fractal",
+      "communityId": "com_fractal",
+      "description": "\u200bit's a secret ;)",
+      "startDate": "2025-04-17T23:00:00Z",
+      "endDate": "2025-04-18T00:30:00Z",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "luma-event-4f82fba7.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/olchzx0a",
+        "organizer": {
+          "name": "Fractal Tech: NYC",
+          "instagram": "",
+          "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "Fractal Tech",
+          "address": "111 Conselyea St, Brooklyn, NY 11211",
+          "type": "Offline"
+        },
+        "speakers": [
+          {
+            "name": "Roger Bacon",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Roger Bacon",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "social_links": [
+          "https://x.com/rogersbacon1",
+          "https://x.com/rogersbacon1"
+        ],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_fractal__clr78bb",
+      "name": "\u26a1 Lightning Talks \ud83d\udcac",
+      "type": "Tech",
+      "locationId": "loc_fractal",
+      "communityId": "com_fractal",
+      "description": "\u200bWelcome to the first of our new series of biweeklyLightning Talks!\u200bI ran this event at a past company for a few years to very positive response; even those initially hesitant/shy to present ended up feeling energized/inspired after their first talk, with many return presenters. I think this same energy would work well here, and give us a space to share our wins/progress/learnings with our peers.\u200bInterested in presenting?Please sign upif you've got even the vaguest idea of something you'd like to talk about. It doesn't have to be very \"impressive\"; in fact, the simpler the better. Shipped a feature? Read a cool article? Want to show off what you're working on?\u200bSign up here!",
+      "startDate": "2025-04-18T19:00:00Z",
+      "endDate": "2025-04-18T19:30:00Z",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "luma-event-c14b6936.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/bpkr42fp",
+        "organizer": {
+          "name": "Fractal Tech: NYC",
+          "instagram": "",
+          "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "Fractal Tech",
+          "address": "111 Conselyea St, Brooklyn, NY 11211",
+          "type": "Offline"
+        },
+        "speakers": [
+          {
+            "name": "eugene dobry",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "eugene dobry",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "social_links": [
+          "https://instagram.com/gingervitiz",
+          "https://x.com/_gingervitiz",
+          "https://instagram.com/gingervitiz",
+          "https://x.com/_gingervitiz"
+        ],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_fractal__clr78bb",
       "name": "Weekly Sunday Co-Gardening | Spring Season \ud83c\udf38",
       "type": "Tech",
       "locationId": "loc_fractal",
@@ -311,7 +423,7 @@
       "type": "Tech",
       "locationId": "loc_fractal",
       "communityId": "com_fractal",
-      "description": "\u200b\u200b\u200bHave the knack to design your own mechanical products and 3D print them? Unsure where to start? Fear not.\u200b\u200b\u200bHI! I'mSuraj Kumarand I can teach you how to become a maker in three days. I was the Chief Engineer of Sherpy, a drone startup that manufactured small, long-range airplanes for commercial delivery (sherpymedia.com). I now founded a neurotech startup (Cerelog.com).There are a lot of visionaries and hackers around in New York City, but materializing an idea can be quite the wall to climb! What are the real-world constraints to pay attention to when designing something? Where's the space where you can build things fast and get great advice?!\u200b\u200bThis is a small-group, high attention workshop, targeting 10-15 creative people who have the itch to create things.Light on theory, heavy on practice!\u200b\u200bWHAT YOU'LL DO\u200b\u200bGet familiar with Fusion360!\u200b\u200b\u200b\u200bDesign your own custom spray bottle using Fusion360. Use it for cleaning around your house/pranking your dog!\u200b\u200b\u200b\u200bWe provide the nozzle and tube\u2014you design the rest!\u200b\u200b\u200b\u200b3D print your creation on the high performance Bambu X1 Carbon printer\u200b\u200b\u200b\u200bDETAILS\u200b\u200b\u200b\u200bFour-day workshop (~3 hrs per session)\u200b\u200bMon, Tue, Wed, Thurs\u200b\u200b\u200b\u200bProfessional guidance from an experienced engineer\u200b\u200b\u200b\u200bLearn to navigate Fusion360 and think like a designer\u200b\u200b\u200b\u200bREGISTRATION\u200b\u200b\u200b$100 / person for the 4 days\u200b\u200b\u200b\u200bLimited spots available\u200b\u200b\u200b\u200bReserve your seat today!\u200b\u200bYour Host:\u200b\u200b\u200b\u200bSuraj Kumar, Mechanical Engineer with years of Fusion360 experience\u200b\u200b\u200b\u200b*thank you tofractal techfor hosting us!*Contact at surajratnam99@gmail.com",
+      "description": "\u200bDo you want to learn a fast way to enter a flow state? \u200b\u200bHave the knack to design your own mechanical products and 3D print them? Unsure where to start? Fear not.\u200b\u200b\u200bHI! I'mSuraj Kumarand I can teach you how to become a maker in three days. I was the Chief Engineer of Sherpy, a drone startup that manufactured small, long-range airplanes for commercial delivery (sherpymedia.com). I now founded a neurotech startup (Cerelog.com).There are a lot of visionaries and hackers around in New York City, but materializing an idea can be quite the wall to climb! What are the real-world constraints to pay attention to when designing something? Where's the space where you can build things fast and get great advice?!\u200b\u200bThis is a small-group, high attention workshop, targeting 10 creative people who have the itch to create things.Light on theory, heavy on practice!\u200b\u200bWHAT YOU'LL DO\u200b\u200bGet familiar with Fusion360!\u200b\u200b\u200b\u200bDesign your own custom spray bottle using Fusion360. Use it for cleaning around your house/pranking your dog!\u200b\u200b\u200b\u200bWe provide the nozzle and tube\u2014you design the rest!\u200b\u200b\u200b\u200b3D print your creation on the high performance Bambu X1 Carbon printer\u200b\u200b\u200b\u200bDETAILS\u200b\u200b\u200b\u200bFive-day workshop (~3 hrs per session)\u200b\u200bMon - Fri\u200b\u200b\u200b\u200bProfessional guidance from an experienced engineer\u200b\u200b\u200b\u200bLearn to navigate Fusion360 and think like a designer\u200b\u200b\u200b\u200bREGISTRATION\u200b\u200b\u200b$100 / person for the 4 days\u200b\u200b\u200b\u200bLimited spots available\u200b\u200b\u200b\u200bReserve your seat today!\u200b\u200bYour Host:\u200b\u200b\u200b\u200bSuraj Kumar, Mechanical Engineer with years of Fusion360 experience\u200b\u200b\u200b\u200b*thank you tofractal techfor hosting us!*Contact at surajratnam99@gmail.com",
       "startDate": "2025-04-28T22:00:00Z",
       "endDate": "2025-04-29T01:00:00Z",
       "category": [
@@ -433,6 +545,63 @@
       }
     },
     {
+      "id": "evt_com_fractal__clr78ba",
+      "name": "Tea Conversations : Steeped in History",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_fractal",
+      "description": "\u200bHi friends!\u200bWelcome to Solei, a social teahouse concept that connects people from different walks of life.\u200bIt is your third place, your city\u2019s living room, where we sit down to talk to one another beyond small talk over a shared cup of tea and some traditional Chinese tea cakes.\u200bWe had a lovely time last time: see herehttps://lu.ma/jo03fi5land herehttps://www.instagram.com/p/DIJmgrXOByF/\u200b\u2014\u200bWhat to expect:\u200bArrival (~15min):You\u2019ll be sat down in a group as you arrive while the host serves you tea. We will be sharing with you the story of the tea and tea cakes.\u200bConversations (~75min):Chat with the group over tea in a semi-structured manner (depending on the group size, we\u2019ll either speak as one group or break down into smaller groups). We\u2019ll also come together as a group to get to know who\u2019s in the room.\u200bFree flows (~30min):Grab more tea and have amazing conversations.\u200b\u2014\u200bThis is one of the many pop-up events to come. And I hope you have an amazing experience. Your ticket includes tea refills and tea cakes.\u200bDress comfortably (you may need to sit on the floor) and bring your lovely self. Try to come on time (or early), if you are running late send a note to the host via Luma!\u200bLooking forward to meeting you,\u200bCoco\u200b\u200bIf you\u2019re curious on why we\u2019re doing this and the story behind this initiative, read this blog post:Slow Spaces for Conversation.\u200bOur website:http://dearsolei.com/",
+      "startDate": "2025-05-02T22:00:00Z",
+      "endDate": "2025-05-03T00:00:00Z",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "luma-event-6a3327fd.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/v131yc8n",
+        "organizer": {
+          "name": "Fractal Tech: NYC",
+          "instagram": "",
+          "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "Please register to see the exact location of this event.\nKings County, New York",
+          "type": "Online"
+        },
+        "speakers": [
+          {
+            "name": "Coco Liu",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Coco Liu",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "social_links": [
+          "https://instagram.com/chocokoala",
+          "https://x.com/cocobliu",
+          "https://instagram.com/chocokoala",
+          "https://x.com/cocobliu"
+        ],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
       "id": "evt_com_fractal__clr78bb",
       "name": "Sf\u00e2nt's Spring Revelry",
       "type": "Tech",
@@ -547,6 +716,61 @@
           }
         ],
         "social_links": [],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_fractal__clr78ba",
+      "name": "How to Choose a Health Insurance Plan",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_fractal",
+      "description": "\u200bThe Fractal community aims to support its members across multiple facets of life - work, play, and now, health.\u200bIn this weeks event, we give a talk on how to choose a health insurance plan. Come through and learn what all the 3-letter acronyms mean and which one is best for you.\u200b\u200bAfter that chat, you can sign up for a free appointment with a nurse to, for example, get feedback on ongoing medical issues, prepare for an upcoming doctor's appointment, or talk through lifestyle changes like diet or exercise.\u200b\u200bWe'll kick the event off with the chat, and then start calling out names for appointments in the backroom, if you signed up for one. If you're not in an appointment, hang out with the rest of the crew and enjoy the healthy snacks, drinks, and people.\u200b\u200bDisclaimer:This event is for informational and educational purposes only. The nurse will provide general health information and will not offer personal medical advice, diagnosis, or treatment. Please consult your own healthcare provider for medical guidance specific to your needs.",
+      "startDate": "2025-05-04T17:00:00Z",
+      "endDate": "2025-05-04T19:00:00Z",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "luma-event-f073d6c8.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/xz4f2ztu",
+        "organizer": {
+          "name": "Fractal Tech: NYC",
+          "instagram": "",
+          "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "111 Conselyea StBrooklyn, NY 11211, USA\nBrooklyn, NY 11211, USA",
+          "type": "Offline"
+        },
+        "speakers": [
+          {
+            "name": "Lukas Steinbock",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Lukas Steinbock",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "social_links": [
+          "https://x.com/lukassteinbock",
+          "https://x.com/lukassteinbock"
+        ],
         "featured": false,
         "luma_source": true
       }
@@ -727,12 +951,12 @@
       }
     },
     {
-      "id": "evt_com_fractal__clr78b9",
-      "name": "NY Product Meetup: Clay Co-founder/CEO Kareem Amin",
+      "id": "evt_com_fractal__cdgmopb",
+      "name": "Fireside chat with Clay Co-founder/CEO Kareem Amin",
       "type": "Tech",
-      "locationId": "loc_fractal",
+      "locationId": "",
       "communityId": "com_fractal",
-      "description": "\u200bNY Product Meetup - Fireside chat with Kareem Amin (Co-founder/CEO at Clay) and Dan Storms (CPO at The Rounds). RSVP here!!https://www.meetup.com/ny-product/events/307290062/",
+      "description": "Find more information on https://lu.ma/nyc-tech",
       "startDate": "2025-05-12T22:00:00Z",
       "endDate": "2025-05-13T00:00:00Z",
       "category": [
@@ -747,33 +971,26 @@
       "capacity": null,
       "registrationRequired": false,
       "tags": "",
-      "image": "luma-event-6e76fac5.jpg",
+      "image": "",
       "status": "upcoming",
       "metadata": {
-        "source_url": "https://lu.ma/f2p1ozsz",
+        "source_url": "https://lu.ma/nyc-tech",
         "organizer": {
           "name": "Fractal Tech: NYC",
           "instagram": "",
           "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
         },
         "venue": {
-          "name": "Fractal Tech",
-          "address": "111 Conselyea St, Brooklyn, NY 11211",
+          "name": "",
+          "address": "https://www.meetup.com/ny-product/events/307290062/",
           "type": "Offline"
         },
-        "speakers": [
-          {
-            "name": "Dan Storms",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Dan Storms",
-            "title": "",
-            "bio": ""
-          }
+        "speakers": [],
+        "social_links": [
+          "https://instagram.com/fractaltechnyc",
+          "https://x.com/fractaltechnyc",
+          "https://fractaltechhub.com"
         ],
-        "social_links": [],
         "featured": false,
         "luma_source": true
       }

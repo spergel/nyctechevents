@@ -1,47 +1,6 @@
 {
   "events": [
     {
-      "id": "evt_com_nyc_resistor_1g5dt0s2",
-      "name": "Masks On Craft Night",
-      "type": "Tech",
-      "locationId": "",
-      "communityId": "com_nyc_resistor",
-      "description": "All the fun of a regular craft night with the added safety of a masks-required environment.<br><br>Free (and optional) tickets are available here:\u00a0<a href=\"https://www.eventbrite.com/e/public-craft-night-1st-fridays-and-3rd-wednesdays-of-the-month-masks-on-tickets-623419182557\">https://www.eventbrite.com/e/public-craft-night-1st-fridays-and-3rd-wednesdays-of-the-month-masks-on-tickets-623419182557</a><br><br>This event, like all NYC Resistor events is 18 and over and governed by out code of conduct.\u00a0<br><br>More information:\u00a0<a href=\"http://www.nycresistor.com/participate/\"><u>http://www.nycresistor.com/participate/</u></a><br>NYC Resistor Code of Conduct:\u00a0<a href=\"http://www.nycresistor.com/2015/08/04/nyc-resistor-code-of-conduct/\"><u>http://www.nycresistor.com/2015/08/04/nyc-resistor-code-of-conduct/</u></a>",
-      "startDate": "2025-04-16T18:30:00-04:00",
-      "endDate": "2025-04-16T21:30:00-04:00",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": true,
-      "tags": "",
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.eventbrite.com/e/public-craft-night-1st-fridays-and-3rd-wednesdays-of-the-month-masks-on-tickets-623419182557\">https://www.eventbrite.com/e/public-craft-night-1st-fridays-and-3rd-wednesdays-of-the-month-masks-on-tickets-623419182557</a><br><br>This",
-        "organizer": {
-          "name": "NYCResistor",
-          "instagram": "",
-          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "87 3rd Ave, Brooklyn, NY 11217, USA",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false
-      }
-    },
-    {
       "id": "evt_com_nyc_resistor_3u52iogs",
       "name": "NYCR Craft Night",
       "type": "Tech",
@@ -1354,8 +1313,8 @@
       }
     },
     {
-      "id": "evt_com_nyc_resistor_4qpeos85",
-      "name": "Hold: Laser Cutting Class",
+      "id": "evt_com_nyc_resistor_6os3cp31",
+      "name": "HOLD: Party Kari",
       "type": "Tech",
       "locationId": "",
       "communityId": "com_nyc_resistor",
@@ -1377,7 +1336,7 @@
       "image": "",
       "status": "upcoming",
       "metadata": {
-        "source_url": "https://www.google.com/calendar/event?eid=NHFwZW9zODU5dDc1dmg2bDQyZTVtdWtoN2dfMjAyNTA1MDcgcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw",
+        "source_url": "https://www.google.com/calendar/event?eid=Nm9zM2NwMzFjZ3BqMmJiNmM1aW04YjlrYzhvajJiYjI2MHMzMmJiNTZnbzMwYzlvYzVqNjhwOWhjOCBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn",
         "organizer": {
           "name": "NYCResistor",
           "instagram": "",
@@ -1546,6 +1505,47 @@
           "name": "",
           "instagram": "",
           "email": ""
+        },
+        "venue": {
+          "name": "",
+          "address": "",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
+      "id": "evt_com_nyc_resistor_4qpeos85",
+      "name": "Hold: Laser Cutting Class",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_nyc_resistor",
+      "description": "",
+      "startDate": "2025-05-14",
+      "endDate": "2025-05-15",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.google.com/calendar/event?eid=NHFwZW9zODU5dDc1dmg2bDQyZTVtdWtoN2dfMjAyNTA1MDcgcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw",
+        "organizer": {
+          "name": "NYCResistor",
+          "instagram": "",
+          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
         },
         "venue": {
           "name": "",
