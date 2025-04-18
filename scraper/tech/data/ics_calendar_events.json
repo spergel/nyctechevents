@@ -610,14 +610,14 @@
       }
     },
     {
-      "id": "evt_com_der_project_a86f5e54",
+      "id": "evt_com_der_project_d3d511d6",
       "name": "Data In Power - NYC Event",
       "type": "Tech",
       "locationId": "loc_tbd",
       "communityId": "com_der_project",
       "description": "​Data and the distribution of decision-making power is an increasingly important dynamic to understand and engage with in climate and energy. ​At Data In Power, we believe the method AND end product of data (collection, analysis, and visualization) are critical to decision-making.How are data being collected, analyzed, and presented - why, and by whom? These are the hard-hitting questions we are unpacking.​At this monthly social, we discuss Data In Power fundamentals in a casual setting. Here is avideowith some background on Data In Power's focus within data and the distribution of decision-making power. At all of our events, we gather our community of data and decision-making experts and enthusiasts within climate and energy to share our perspectives.​​Data In Power is an independently run meetup without any bells and whistles.In order to maintain community and continue organic growth, prospective attendees should be prepared to support our meetup venue with a purchase, regardless of how large or small. Data In Power brings folks together through meaningful, productive, and unique programming.",
-      "startDate": "2025-04-30T18:30:00-04:00",
-      "endDate": "2025-04-30T20:00:00-04:00",
+      "startDate": "2025-05-01T18:30:00-04:00",
+      "endDate": "2025-05-01T20:00:00-04:00",
       "category": [
         "Tech"
       ],
@@ -670,7 +670,7 @@
       "type": "Tech",
       "locationId": "loc_tbd",
       "communityId": "com_ny_hardware",
-      "description": "​The Hardware Meetup community is excited to announce the 106th NY Hardware Meetup at Cornell Tech​​​​Hardware Meetups happen across 30+ cities around the world, bringing together hardware professionals to network and learn from each other. You might not realize it, but NYC is a hotbed for this kind of innovation and tonight you'll meet two companies working at the cutting edge of this technology.​​​​This month we'll be atCornell Tech. Cornell Tech is  Cornell University’s state-of-the-art campus in New York City that develops leaders and technologies for the AI era through foundational and applied research, graduate education, and new ventures. Located on Roosevelt Island, the growing campus was founded in partnership with the Technion-Israel Institute of Technology and in close collaboration with the NYC Economic Development Corporation after Cornell won a worldwide competition initiated by Mayor Michael R. Bloomberg’s administration to create an applied sciences campus in New York City. More than 1,000 Cornell students are now educated annually on the campus, including 700 in Cornell Tech programs. Since opening in 2012, nearly 120 new companies have spun out from startup programs at Cornell Tech, and 95 percent of them are based in New York City. Cornell Tech continues to have atransformative economic impact on the region’s tech sector.​​​Welcome Remarks​Niti Parikhis the founding director of Cornell Tech’s academic MakerLAB and an Engaged Faculty Fellow, with over 15 years of experience in Interior Architecture and Sustainable Manufacturing. Her work centers on participatory design in Digital Fabrication, creating inclusive learning environments that empower people of all ages and abilities to bring their ideas to life.​AGENDA​​​​6:30 - Arrival, presentation of student demos​​​​7:00 - Welcome and introduction​​7:15- Community open mic​​​​Anyone will have the chance or talk about what they are working on​7:30 - Panel with audience Q+A​​8:40 - Student demos, makerlab tours, mix and mingle​​WANT TO GET INVOLVED?​​​Sponsorship:​We offer exclusive access to our 10,000+ member community through sponsorships.​​​Host an event at your space:We are always looking for host sponsors to provide access to unique spaces from cool hardware companies building interesting things. Want to open up your office?​​​Speaker:Do you have something interesting to share with our community? We're on the lookout for fresh faces to talk about their journey and experiences.​​​If you want to get involved, head here:https://linktr.ee/nyhardware",
+      "description": "​The Hardware Meetup community is excited to announce the 106th NY Hardware Meetup at Cornell Tech​​​​Hardware Meetups happen across 30+ cities around the world, bringing together hardware professionals to network and learn from each other. You might not realize it, but NYC is a hotbed for this kind of innovation and tonight you'll meet two companies working at the cutting edge of this technology.​​​​This month we'll be atCornell Tech. Cornell Tech is  Cornell University’s state-of-the-art campus in New York City that develops leaders and technologies for the AI era through foundational and applied research, graduate education, and new ventures. Located on Roosevelt Island, the growing campus was founded in partnership with the Technion-Israel Institute of Technology and in close collaboration with the NYC Economic Development Corporation after Cornell won a worldwide competition initiated by Mayor Michael R. Bloomberg’s administration to create an applied sciences campus in New York City. More than 1,000 Cornell students are now educated annually on the campus, including 700 in Cornell Tech programs. Since opening in 2012, nearly 120 new companies have spun out from startup programs at Cornell Tech, and 95 percent of them are based in New York City. Cornell Tech continues to have atransformative economic impact on the region’s tech sector.​​​Welcome Remarks​Niti Parikhis the founding director of Cornell Tech’s academic MakerLAB and an Engaged Faculty Fellow, with over 15 years of experience in Interior Architecture and Sustainable Manufacturing. Her work centers on participatory design in Digital Fabrication, creating inclusive learning environments that empower people of all ages and abilities to bring their ideas to life.​AGENDA​​​​6:30 - Arrival, presentation of student demos​​​​7:00 - Welcome and introduction​​7:15- Community open mic​​​​Anyone will have the chance or talk about what they are working on​7:30 - Panel with audience Q+A​​8:40 - Student demos, makerlab tours, mix and mingle​​PANELISTS​Doug Marsden is the Chief Technology Officer and Managing Member of Eleven, LLC, a Boston-based, multi-disciplinary product development studio he co-founded in 1996. With over three decades of experience, he leads Eleven in delivering award-winning, human-centered design solutions across industries including consumer goods, medical devices, and electronics. Doug also serves as an Operating Partner at Pennant Equity Partners, where he provides hands-on expertise in product development and innovation, helping small to medium-sized businesses unlock growth and operational excellence. His career reflects a commitment to purposeful, business-building innovation and cross-disciplinary collaboration.​Ben Zvaifler is the Founder and CEO of Cloud Water Filters, a consumer hardware company transforming residential water filtration. He previously founded PupBox, a DTC pet brand featured on Shark Tank and later acquired by Petco. Ben is an expert in startup growth, operations, and product development.​WANT TO GET INVOLVED?​​​Sponsorship:​We offer exclusive access to our 10,000+ member community through sponsorships.​​​Host an event at your space:We are always looking for host sponsors to provide access to unique spaces from cool hardware companies building interesting things. Want to open up your office?​​​Speaker:Do you have something interesting to share with our community? We're on the lookout for fresh faces to talk about their journey and experiences.​​​If you want to get involved, head here:https://linktr.ee/nyhardware",
       "startDate": "2025-05-08T18:30:00-04:00",
       "endDate": "2025-05-08T22:00:00-04:00",
       "category": [
@@ -744,73 +744,6 @@
       }
     },
     {
-      "id": "evt_com_ny_hardware_9117ca37",
-      "name": "105th NY Hardware Meetup @ Viam",
-      "type": "Tech",
-      "locationId": "loc_tbd",
-      "communityId": "com_ny_hardware",
-      "description": "​​​The Hardware Meetup community is excited to announce the 105th NY Hardware Meetup at Viam​​​Hardware Meetups happen across 30+ cities around the world, bringing together hardware professionals to network and learn from each other. You might not realize it, but NYC is a hotbed for this kind of innovation and tonight you'll meet two companies working at the cutting edge of this technology.​​​This month we'll be atViam. Viam helps companies unlock the power of AI, data and automation in the physical world. They provide a single platform for engineers of all disciplines to solve problems together and build solutions that are fast and future-proof. Viam powers solutions across robotics, food and beverage, climate tech, marine, industrial manufacturing, and more. Founded in 2020 by former MongoDB co-founder and CTO Eliot Horowitz, Viam is headquartered in New York City.​SPEAKERS​Esha Maharishi is a Senior Product Manager at Viam, where she leads work on hardware and motion, helping to build tools that make robotics more accessible and flexible for developers. Prior to moving into product, she was the lead engineer for SLAM at Viam, bringing deep technical expertise to critical perception systems. Before Viam, Esha spent over seven years at MongoDB, where she held a range of engineering leadership roles across serverless, sharding, and distributed systems. Her work helped shape the core infrastructure behind one of the most widely used databases in the world. With a rare blend of engineering depth and product strategy, Esha brings a thoughtful and pragmatic lens to building modern tools for robotics and infrastructure.​Jeff Crystal is COO of Voltaic Systems. He is responsible for ensuring successful solar deployments for both low-power embedded hardware applications and remote power systems for industrial equipment. He works with companies across transportation, agriculture, security and monitoring to bring new products and services to life. He lives in Brooklyn, NY. Voltaic Systems (www.voltaicsystems.com) is a full-service provider of remote solar charging solutions. Their smaller solar panels are designed for durability in challenging environments and are integrated into high volume IoT products. Their CORE Solar System is designed to provide scalable power and battery storage for remote networking devices, cameras and environmental monitoring equipment.​​AGENDA​​​6:30 - Arrival, mingle, grab refreshments​​​7:00 - Welcome and introduction​7:15- Guest speakers with audience Q+A​8:20 - Community open mic​​​Anyone will have the chance or talk about what they are working on.​8:30 - Mix + mingle​WANT TO GET INVOLVED?​​Sponsorship:​We offer exclusive access to our 10,000+ member community through sponsorships.​​Host an event at your space:We are always looking for host sponsors to provide access to unique spaces from cool hardware companies building interesting things. Want to open up your office?​​Speaker:Do you have something interesting to share with our community? We're on the lookout for fresh faces to talk about their journey and experiences.​​If you want to get involved, head here:https://linktr.ee/nyhardware",
-      "startDate": "2025-04-17T18:30:00-04:00",
-      "endDate": "2025-04-17T21:30:00-04:00",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": 100,
-      "registrationRequired": true,
-      "tags": [],
-      "image": "luma-event-7d080f0f.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://lu.ma/exb21kbi",
-        "speakers": [
-          {
-            "name": "Anthony Dzaba",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Paul Vizzio",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Anthony Dzaba",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Paul Vizzio",
-            "title": "",
-            "bio": ""
-          }
-        ],
-        "venue": {
-          "name": "1900 BroadwayNew York, NY 10023, USA",
-          "address": "New York, NY 10023, USA",
-          "type": "Offline",
-          "room": "",
-          "additional_info": ""
-        },
-        "featured": false,
-        "social_links": [
-          "https://linkedin.com/company/ny-hardware-meetup",
-          "https://linktr.ee/nyhardware",
-          "https://instagram.com/vizengnyc",
-          "https://x.com/vizengnyc",
-          "https://linkedin.com/company/ny-hardware-meetup",
-          "https://linktr.ee/nyhardware",
-          "https://instagram.com/vizengnyc",
-          "https://x.com/vizengnyc"
-        ]
-      }
-    },
-    {
       "id": "evt_com_la_creme_stem_02fb08e4",
       "name": "La Creme de la STEM™ x Startup Grind DMV - Walk and Talk",
       "type": "Tech",
@@ -873,95 +806,6 @@
           "https://instagram.com/lacremedelastem",
           "https://linkedin.com/in/marionsiboni",
           "https://www.lacremedelastem.com/",
-          "https://instagram.com/Yes"
-        ]
-      }
-    },
-    {
-      "id": "evt_com_la_creme_stem_08b88d10",
-      "name": "Navigating AI in Women's Healthcare: Insights from VC & Founders",
-      "type": "Tech",
-      "locationId": "loc_tbd",
-      "communityId": "com_la_creme_stem",
-      "description": "​La Creme de la STEM™ is partnering with Columbia Healthcare Ventures and GenZ Tea for a panel featuring VCs and founders in the Women Healthcare industry. We will break down trends and challenges. Join us for an insightful evening!​This event is sponsored by N2 Water.​SPEAKERS:​Elena Piskounova, Assistant Professor and Founder​NanaYaa Mensah-Thomas, MBA, CLT, Managing Partner - Founder of Purelite Ventures​Denali Dahl, PhD, CEO/Co-Founder of Kalia Health​Silvia Garcia Codony, AVP at New York Ventures​Marion Siboni, CEO and Founder of La Creme de la STEM™ (moderator)​​ABOUT LA CREME DE LA STEM™​​​La Creme de la STEM™is the only global, private network for early-stage female founders in tech and science, offering a holistic support system that includes exclusive insights from exited entrepreneurs, vetted investors and perks from corporate partners.Applyto join!",
-      "startDate": "2025-04-17T18:00:00-04:00",
-      "endDate": "2025-04-17T20:00:00-04:00",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": 100,
-      "registrationRequired": true,
-      "tags": [],
-      "image": "luma-event-f5dd80fa.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://lu.ma/e/evt-KaRsWnUBaO7m5Ck",
-        "speakers": [
-          {
-            "name": "Marion - La Creme de la STEM ™",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Natalie Neptune",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Kosha Rakholia",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Derek Kastner- Fabrik Community Director",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Marion - La Creme de la STEM ™",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Natalie Neptune",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Kosha Rakholia",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Derek Kastner- Fabrik Community Director",
-            "title": "",
-            "bio": ""
-          }
-        ],
-        "venue": {
-          "name": "Please register to see the exact location of this event.",
-          "address": "New York, New York",
-          "type": "Online",
-          "room": "",
-          "additional_info": ""
-        },
-        "featured": false,
-        "social_links": [
-          "https://instagram.com/lacremedelastem",
-          "https://linkedin.com/in/marionsiboni",
-          "https://www.lacremedelastem.com/",
-          "https://instagram.com/Yes",
-          "https://instagram.com/Yes",
-          "https://instagram.com/lacremedelastem",
-          "https://linkedin.com/in/marionsiboni",
-          "https://www.lacremedelastem.com/",
-          "https://instagram.com/Yes",
           "https://instagram.com/Yes"
         ]
       }
@@ -1318,95 +1162,6 @@
       }
     },
     {
-      "id": "evt_com_genZtea_08b88d10",
-      "name": "Navigating AI in Women's Healthcare: Insights from VC & Founders",
-      "type": "Tech",
-      "locationId": "loc_tbd",
-      "communityId": "com_genZtea",
-      "description": "​La Creme de la STEM™ is partnering with Columbia Healthcare Ventures and GenZ Tea for a panel featuring VCs and founders in the Women Healthcare industry. We will break down trends and challenges. Join us for an insightful evening!​This event is sponsored by N2 Water.​SPEAKERS:​Elena Piskounova, Assistant Professor and Founder​NanaYaa Mensah-Thomas, MBA, CLT, Managing Partner - Founder of Purelite Ventures​Denali Dahl, PhD, CEO/Co-Founder of Kalia Health​Silvia Garcia Codony, AVP at New York Ventures​Marion Siboni, CEO and Founder of La Creme de la STEM™ (moderator)​​ABOUT LA CREME DE LA STEM™​​​La Creme de la STEM™is the only global, private network for early-stage female founders in tech and science, offering a holistic support system that includes exclusive insights from exited entrepreneurs, vetted investors and perks from corporate partners.Applyto join!",
-      "startDate": "2025-04-17T18:00:00-04:00",
-      "endDate": "2025-04-17T20:00:00-04:00",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": 100,
-      "registrationRequired": true,
-      "tags": [],
-      "image": "luma-event-f5dd80fa.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://lu.ma/e/evt-KaRsWnUBaO7m5Ck",
-        "speakers": [
-          {
-            "name": "Marion - La Creme de la STEM ™",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Natalie Neptune",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Kosha Rakholia",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Derek Kastner- Fabrik Community Director",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Marion - La Creme de la STEM ™",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Natalie Neptune",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Kosha Rakholia",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Derek Kastner- Fabrik Community Director",
-            "title": "",
-            "bio": ""
-          }
-        ],
-        "venue": {
-          "name": "Please register to see the exact location of this event.",
-          "address": "New York, New York",
-          "type": "Online",
-          "room": "",
-          "additional_info": ""
-        },
-        "featured": false,
-        "social_links": [
-          "https://instagram.com/lacremedelastem",
-          "https://linkedin.com/in/marionsiboni",
-          "https://www.lacremedelastem.com/",
-          "https://instagram.com/Yes",
-          "https://instagram.com/Yes",
-          "https://instagram.com/lacremedelastem",
-          "https://linkedin.com/in/marionsiboni",
-          "https://www.lacremedelastem.com/",
-          "https://instagram.com/Yes",
-          "https://instagram.com/Yes"
-        ]
-      }
-    },
-    {
       "id": "evt_com_genZtea_c7ad1015",
       "name": "Gen Z Cafe CoWorking",
       "type": "Tech",
@@ -1526,7 +1281,7 @@
       "type": "Tech",
       "locationId": "loc_tbd",
       "communityId": "com_genZtea",
-      "description": "​Intergenerational CoworkingOften it feels like the generational gap is one of the things that divides us most. Join us for an inspiring and collaborative event for professionals from different stages of life to come together for a day of intentional connection withTavern CommunityandGenZtea's Natalie NeptuneatTempo by Hilton Times Square!​Event Highlights:​Communal Lunch: Meet and connect with fellow attendees over a relaxed, communal lunch while sharing insights and experiences. (Lunch is ordered à la carte, not included in your ticket)​Panel Discussion​Happy Hour: Wind down and solidify new connections in a casual happy hour setting. (First drink-house beer or wine-included in your ticket)​Join us for the whole day, or just come for the Panel Discussion at 1:30 PM.​🕒Start Time: 11:30 AM​Location: Tempo by Hilton Times SquareRSVP Required​Schedule:​11:30 AM: Welcome, mingle, cowork​12:00 PMCommunal lunch (Lunch is ordered à la carte, not included in your ticket)​1:30 PM: Panel talks, followed by audience conversation​3:00 PM: Coworking​4:30 PM: Happy hour​RSVP now to secure your spot!",
+      "description": "​Intergenerational CoworkingOften it feels like the generational gap is one of the things that divides us most. Join us for an inspiring and collaborative event for professionals from different stages of life to come together for a day of intentional connection withTavern CommunityandGenZtea's Natalie NeptuneatTempo by Hilton Times Square!​Event Highlights:​Communal Lunch: Meet and connect with fellow attendees over a relaxed, communal lunch while sharing insights and experiences. (Lunch is ordered à la carte, not included in your ticket)​Panel Discussion​Happy Hour: Wind down and solidify new connections in a casual happy hour setting. (First drink-house beer or wine-included in your ticket)​Join us for the whole day, or just come for the Panel Discussion at 1:30 PM.​Meet the Speakers:​Somya Gupta, founder and CTO of Context​Mai Moore, founder of Boss Me In and EYEJ​🕒Start Time: 11:30 AM​Location: Tempo by Hilton Times SquareRSVP Required​Schedule:​11:30 AM: Welcome, mingle, cowork​12:00 PMCommunal lunch (Lunch is ordered à la carte, not included in your ticket)​1:30 PM: Panel talks, followed by audience conversation​3:00 PM: Coworking​4:30 PM: Happy hour​RSVP now to secure your spot!",
       "startDate": "2025-04-22T11:30:00-04:00",
       "endDate": "2025-04-22T18:00:00-04:00",
       "category": [

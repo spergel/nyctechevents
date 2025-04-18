@@ -2,61 +2,6 @@
   "events": [
     {
       "id": "evt_com_fractal__clr78bb",
-      "name": "OT Society meeting",
-      "type": "Tech",
-      "locationId": "loc_fractal",
-      "communityId": "com_fractal",
-      "description": "\u200bit's a secret ;)",
-      "startDate": "2025-04-17T23:00:00Z",
-      "endDate": "2025-04-18T00:30:00Z",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": "",
-      "image": "luma-event-4f82fba7.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://lu.ma/olchzx0a",
-        "organizer": {
-          "name": "Fractal Tech: NYC",
-          "instagram": "",
-          "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
-        },
-        "venue": {
-          "name": "Fractal Tech",
-          "address": "111 Conselyea St, Brooklyn, NY 11211",
-          "type": "Offline"
-        },
-        "speakers": [
-          {
-            "name": "Roger Bacon",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Roger Bacon",
-            "title": "",
-            "bio": ""
-          }
-        ],
-        "social_links": [
-          "https://x.com/rogersbacon1",
-          "https://x.com/rogersbacon1"
-        ],
-        "featured": false,
-        "luma_source": true
-      }
-    },
-    {
-      "id": "evt_com_fractal__clr78bb",
       "name": "\u26a1 Lightning Talks \ud83d\udcac",
       "type": "Tech",
       "locationId": "loc_fractal",
@@ -419,11 +364,11 @@
     },
     {
       "id": "evt_com_fractal__clr78b9",
-      "name": "BuildHub #3 - 3D Modelling CAD Workshop",
+      "name": "BuildHub #3 - 3D Modelling CAD Workshop in Zen Monk Mode",
       "type": "Tech",
       "locationId": "loc_fractal",
       "communityId": "com_fractal",
-      "description": "\u200bDo you want to learn a fast way to enter a flow state? \u200b\u200bHave the knack to design your own mechanical products and 3D print them? Unsure where to start? Fear not.\u200b\u200b\u200bHI! I'mSuraj Kumarand I can teach you how to become a maker in three days. I was the Chief Engineer of Sherpy, a drone startup that manufactured small, long-range airplanes for commercial delivery (sherpymedia.com). I now founded a neurotech startup (Cerelog.com).There are a lot of visionaries and hackers around in New York City, but materializing an idea can be quite the wall to climb! What are the real-world constraints to pay attention to when designing something? Where's the space where you can build things fast and get great advice?!\u200b\u200bThis is a small-group, high attention workshop, targeting 10 creative people who have the itch to create things.Light on theory, heavy on practice!\u200b\u200bWHAT YOU'LL DO\u200b\u200bGet familiar with Fusion360!\u200b\u200b\u200b\u200bDesign your own custom spray bottle using Fusion360. Use it for cleaning around your house/pranking your dog!\u200b\u200b\u200b\u200bWe provide the nozzle and tube\u2014you design the rest!\u200b\u200b\u200b\u200b3D print your creation on the high performance Bambu X1 Carbon printer\u200b\u200b\u200b\u200bDETAILS\u200b\u200b\u200b\u200bFive-day workshop (~3 hrs per session)\u200b\u200bMon - Fri\u200b\u200b\u200b\u200bProfessional guidance from an experienced engineer\u200b\u200b\u200b\u200bLearn to navigate Fusion360 and think like a designer\u200b\u200b\u200b\u200bREGISTRATION\u200b\u200b\u200b$100 / person for the 4 days\u200b\u200b\u200b\u200bLimited spots available\u200b\u200b\u200b\u200bReserve your seat today!\u200b\u200bYour Host:\u200b\u200b\u200b\u200bSuraj Kumar, Mechanical Engineer with years of Fusion360 experience\u200b\u200b\u200b\u200b*thank you tofractal techfor hosting us!*Contact at surajratnam99@gmail.com",
+      "description": "\u200bDo you want to ? \u200b\u200bHave the knack to design your own mechanical products and 3D print them? Unsure where to start? Fear not.\u200b\u200b\u200bHI! I'mSuraj Kumarand I can teach you how to become a maker in five days. I was the Chief Engineer of Sherpy, a drone startup that manufactured small, long-range airplanes for commercial delivery (sherpymedia.com). I now founded a neurotech startup (Cerelog.com).There are a lot of visionaries and hackers around in New York City, but materializing an idea can be quite the wall to climb! What are the real-world constraints to pay attention to when designing something? Where's the space where you can build things fast and get great advice?!\u200b\u200bThis is a small-group, high attention workshop, targeting 10 creative people who have the itch to create things.Light on theory, heavy on practice!\u200b\u200bWHAT YOU'LL DO\u200b\u200bGet familiar with Fusion360!\u200b\u200b\u200b\u200bDesign your own custom spray bottle using Fusion360. Use it for cleaning around your house/pranking your dog!\u200b\u200b\u200b\u200bWe provide the nozzle and tube\u2014you design the rest!\u200b\u200b\u200b\u200b3D print your creation on the high performance Bambu X1 Carbon printer\u200b\u200b\u200b\u200bDETAILS\u200b\u200b\u200b\u200bFive-day workshop (~3 hrs per session)\u200b\u200bMon - Fri\u200b\u200b\u200b\u200bProfessional guidance from an experienced engineer\u200b\u200b\u200b\u200bLearn to navigate Fusion360 and think like a designer\u200b\u200b\u200b\u200bREGISTRATION\u200b\u200b\u200b$100 / person for the 4 days\u200b\u200b\u200b\u200bLimited spots available\u200b\u200b\u200b\u200bReserve your seat today!\u200b\u200bYour Host:\u200b\u200b\u200b\u200bSuraj Kumar, Mechanical Engineer with years of Fusion360 experience\u200b\u200b\u200b\u200b*thank you tofractal techfor hosting us!*Contact at surajratnam99@gmail.com",
       "startDate": "2025-04-28T22:00:00Z",
       "endDate": "2025-04-29T01:00:00Z",
       "category": [
@@ -664,7 +609,7 @@
       "type": "Tech",
       "locationId": "loc_fractal",
       "communityId": "com_fractal",
-      "description": "\u200bA literary event and pop-up book fair during FarCon NYC (farcon.nyc), uniting writers, readers, and builders in a global celebration of books, culture, and onchain storytelling.\u200bCome by for:\u200bLiterary themed beverages and refreshments.\u200bA curation of physical and digital fiction, nonfiction, poetry, and zines by authors and publishers in the Farcaster ecosystem.\u200bA selection of books curated by Well Read.\u200bA series of readings and author talks (presenters TBD!)\u200bGiveaways of rare print books and onchain limited digital editions.\u200bFractal NYC writers, please reach out to Amelie (amelie@alexandriabooks.com) if you'd like to showcase your work as part of the event!\u200bFeaturing:\u200bAlexandria Labs (alexandriabooks.com), the Library of Alexandria for onchain books\u200bDebbie Soon, Singaporean author of Digital Mavericks (Wiley) and co-founder ofthehug.xyz(acq. by Art Domains)\u200bPhil Mohun, founder of Bright Moments,amps.fun, and Node Foundation--and creator of the /books channel on Farcaster!\u200bWell Read (https://wellread.pt/), a bilingual art & design bookstore, event space and meeting place located in Lisbon, Portugal",
+      "description": "\u200bA literary event and pop-up book fair during FarCon NYC (farcon.nyc), uniting writers, readers, and builders in a global celebration of books, culture, and onchain storytelling.\u200bCome by for:\u200bLiterary themed beverages.\u200bA curation of physical and digital fiction, nonfiction, poetry, and zines by authors and publishers in the Farcaster ecosystem.\u200bA selection of books curated by Well Read.\u200bPoetry performance art.\u200bGiveaways of rare print books and onchain limited digital editions.\u200bBook swap.\u200bCommunal zine-making.\u200b& more!\u200bAuthors, please reach out to Amelie (amelie@alexandriabooks.com) if you'd like to showcase your work as part of the event!\u200bFeaturing:\u200bAlexandria Labs (alexandriabooks.com), the Library of Alexandria for onchain books\u200bDebbie Soon, Singaporean author of Digital Mavericks (Wiley) and co-founder ofthehug.xyz(acq. by Art Domains)\u200bPhil Mohun, founder of Bright Moments,amps.fun, and Node Foundation--and creator of the /books channel on Farcaster!\u200bWell Read (https://wellread.pt/), a bilingual art & design bookstore, event space and meeting place located in Lisbon, Portugal",
       "startDate": "2025-05-03T21:00:00Z",
       "endDate": "2025-05-04T00:00:00Z",
       "category": [
@@ -726,7 +671,7 @@
       "type": "Tech",
       "locationId": "",
       "communityId": "com_fractal",
-      "description": "\u200bThe Fractal community aims to support its members across multiple facets of life - work, play, and now, health.\u200bIn this weeks event, we give a talk on how to choose a health insurance plan. Come through and learn what all the 3-letter acronyms mean and which one is best for you.\u200b\u200bAfter that chat, you can sign up for a free appointment with a nurse to, for example, get feedback on ongoing medical issues, prepare for an upcoming doctor's appointment, or talk through lifestyle changes like diet or exercise.\u200b\u200bWe'll kick the event off with the chat, and then start calling out names for appointments in the backroom, if you signed up for one. If you're not in an appointment, hang out with the rest of the crew and enjoy the healthy snacks, drinks, and people.\u200b\u200bDisclaimer:This event is for informational and educational purposes only. The nurse will provide general health information and will not offer personal medical advice, diagnosis, or treatment. Please consult your own healthcare provider for medical guidance specific to your needs.",
+      "description": "\u200bThe Fractal community aims to support its members across multiple facets of life - work, play, and now, health.\u200bIn this weeks event, we give a talk on how to choose a health insurance plan. The talk will help you answer questions like: What are premiums and deductibles? What's the difference between an HMO and PPO? How do I figure out if my doctor is covered by my insurance?\u200b\u200bAfter that chat, you can sign up for a free appointment with a nurse to get feedback on ongoing medical issues, prepare for an upcoming doctor's appointment, talk through lifestyle changes like diet or exercise, etc.\u200bThe US healthcare system is complex - we aim to make information about it, and how to navigate it, more digestible and accessible. To learn more about how it all works check out thisWiki.\u200b\u200bDisclaimer: This event is for informational and educational purposes only. The nurse will provide general health information and will not offer personal medical advice, diagnosis, or treatment. Please consult your own healthcare provider for medical guidance specific to your needs.",
       "startDate": "2025-05-04T17:00:00Z",
       "endDate": "2025-05-04T19:00:00Z",
       "category": [

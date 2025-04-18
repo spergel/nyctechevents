@@ -1,47 +1,6 @@
 {
   "events": [
     {
-      "id": "evt_com_telos_7idl2ste",
-      "name": "figure drawing 003",
-      "type": "Tech",
-      "locationId": "",
-      "communityId": "com_telos",
-      "description": "",
-      "startDate": "2025-04-17T18:30:00-04:00",
-      "endDate": "2025-04-17T20:30:00-04:00",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": "",
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.google.com/calendar/event?eid=N2lkbDJzdGVrbDJldWJuaTEyNGhoZXZiaWYgZDU5NmMyYmY3MjExODNkMjJiYjUwYmRlNjYyNTA5MGZjMzkyM2FhMjlhNjkxOGQ3ODQwOWUxNjhkYTc5MTc2OUBn",
-        "organizer": {
-          "name": "telos.haus events",
-          "instagram": "",
-          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false
-      }
-    },
-    {
       "id": "evt_com_telos_0jth11k0",
       "name": "late-night cafe 001",
       "type": "Tech",

@@ -469,6 +469,42 @@
       }
     },
     {
+      "id": "evt_pioneer_d328d328",
+      "name": "Warpmode: Afrovoidism",
+      "type": "Cultural Event",
+      "locationId": "loc_pioneer_works",
+      "communityId": "com_pioneer_works",
+      "description": "Black Beyond’s Warpmode is a conceptual card game and social experience created by artist Jazsalyn to stimulate conversations grounded in Black Metatheo...",
+      "startDate": "2025-07-01T23:30:00+00:00",
+      "endDate": "2025-07-02T03:00:00+00:00",
+      "category": [
+        "Arts",
+        "Music",
+        "Science"
+      ],
+      "price": null,
+      "registrationRequired": true,
+      "tags": [],
+      "image": [
+        "https://cdn.sanity.io/images/vgvol637/production/8de4382391a4c2ac48e5d2e9b62bc431bbc58adc-3000x2003.jpg?w=800"
+      ],
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://pioneerworks.org/programs/black-beyond-warpmode-jazsalyn-anastasia-corrine-terence-nance",
+        "organizer": {
+          "name": "Pioneer Works",
+          "instagram": "@pioneerworks",
+          "email": "info@pioneerworks.org"
+        },
+        "venue": {
+          "name": "Pioneer Works",
+          "address": "159 Pioneer Street",
+          "type": "Cultural Institution"
+        },
+        "featured": false
+      }
+    },
+    {
       "id": "evt_pioneer_318479aa",
       "name": "Second Sundays: July 2025",
       "type": "Cultural Event",

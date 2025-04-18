@@ -690,11 +690,11 @@
     },
     {
       "id": "evt_com_fractal__clr78b9",
-      "name": "BuildHub #3 - 3D Modelling CAD Workshop",
+      "name": "BuildHub #3 - 3D Modelling CAD Workshop in Zen Monk Mode",
       "type": "Tech",
       "locationId": "loc_fractal",
       "communityId": "com_fractal",
-      "description": "​Do you want to learn a fast way to enter a flow state? ​​Have the knack to design your own mechanical products and 3D print them? Unsure where to start? Fear not.​​​HI! I'mSuraj Kumarand I can teach you how to become a maker in three days. I was the Chief Engineer of Sherpy, a drone startup that manufactured small, long-range airplanes for commercial delivery (sherpymedia.com). I now founded a neurotech startup (Cerelog.com).There are a lot of visionaries and hackers around in New York City, but materializing an idea can be quite the wall to climb! What are the real-world constraints to pay attention to when designing something? Where's the space where you can build things fast and get great advice?!​​This is a small-group, high attention workshop, targeting 10 creative people who have the itch to create things.Light on theory, heavy on practice!​​WHAT YOU'LL DO​​Get familiar with Fusion360!​​​​Design your own custom spray bottle using Fusion360. Use it for cleaning around your house/pranking your dog!​​​​We provide the nozzle and tube—you design the rest!​​​​3D print your creation on the high performance Bambu X1 Carbon printer​​​​DETAILS​​​​Five-day workshop (~3 hrs per session)​​Mon - Fri​​​​Professional guidance from an experienced engineer​​​​Learn to navigate Fusion360 and think like a designer​​​​REGISTRATION​​​$100 / person for the 4 days​​​​Limited spots available​​​​Reserve your seat today!​​Your Host:​​​​Suraj Kumar, Mechanical Engineer with years of Fusion360 experience​​​​*thank you tofractal techfor hosting us!*Contact at surajratnam99@gmail.com",
+      "description": "​Do you want to ? ​​Have the knack to design your own mechanical products and 3D print them? Unsure where to start? Fear not.​​​HI! I'mSuraj Kumarand I can teach you how to become a maker in five days. I was the Chief Engineer of Sherpy, a drone startup that manufactured small, long-range airplanes for commercial delivery (sherpymedia.com). I now founded a neurotech startup (Cerelog.com).There are a lot of visionaries and hackers around in New York City, but materializing an idea can be quite the wall to climb! What are the real-world constraints to pay attention to when designing something? Where's the space where you can build things fast and get great advice?!​​This is a small-group, high attention workshop, targeting 10 creative people who have the itch to create things.Light on theory, heavy on practice!​​WHAT YOU'LL DO​​Get familiar with Fusion360!​​​​Design your own custom spray bottle using Fusion360. Use it for cleaning around your house/pranking your dog!​​​​We provide the nozzle and tube—you design the rest!​​​​3D print your creation on the high performance Bambu X1 Carbon printer​​​​DETAILS​​​​Five-day workshop (~3 hrs per session)​​Mon - Fri​​​​Professional guidance from an experienced engineer​​​​Learn to navigate Fusion360 and think like a designer​​​​REGISTRATION​​​$100 / person for the 4 days​​​​Limited spots available​​​​Reserve your seat today!​​Your Host:​​​​Suraj Kumar, Mechanical Engineer with years of Fusion360 experience​​​​*thank you tofractal techfor hosting us!*Contact at surajratnam99@gmail.com",
       "startDate": "2025-04-28T22:00:00Z",
       "endDate": "2025-04-29T01:00:00Z",
       "category": [
@@ -806,47 +806,6 @@
         ],
         "featured": false,
         "luma_source": true
-      }
-    },
-    {
-      "id": "evt_com_telos_7idl2ste",
-      "name": "figure drawing 003",
-      "type": "Tech",
-      "locationId": "",
-      "communityId": "com_telos",
-      "description": "",
-      "startDate": "2025-04-17T18:30:00-04:00",
-      "endDate": "2025-04-17T20:30:00-04:00",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": "",
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.google.com/calendar/event?eid=N2lkbDJzdGVrbDJldWJuaTEyNGhoZXZiaWYgZDU5NmMyYmY3MjExODNkMjJiYjUwYmRlNjYyNTA5MGZjMzkyM2FhMjlhNjkxOGQ3ODQwOWUxNjhkYTc5MTc2OUBn",
-        "organizer": {
-          "name": "telos.haus events",
-          "instagram": "",
-          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false
       }
     },
     {
@@ -1553,8 +1512,8 @@
       "locationId": "",
       "communityId": "com_nyc_resistor",
       "description": "",
-      "startDate": "2025-07-10T20:00:00-04:00",
-      "endDate": "2025-07-10T21:00:00-04:00",
+      "startDate": "2025-07-17T20:00:00-04:00",
+      "endDate": "2025-07-17T21:00:00-04:00",
       "category": [
         "Tech"
       ],
@@ -1570,7 +1529,7 @@
       "image": "",
       "status": "upcoming",
       "metadata": {
-        "source_url": "https://www.google.com/calendar/event?eid=MjExbXBpazAwdXQ4MTVrZ3FuMjExcm8wcTJfMjAyNTA3MTFUMDAwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn",
+        "source_url": "https://www.google.com/calendar/event?eid=MjExbXBpazAwdXQ4MTVrZ3FuMjExcm8wcTJfMjAyNTA3MThUMDAwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn",
         "organizer": {
           "name": "",
           "instagram": "",
@@ -3565,6 +3524,47 @@
         "venue": {
           "name": "",
           "address": "",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
+      "id": "evt_com_nyc_resistor_pc3el34f",
+      "name": "Learn to Use a Laser Cutter to Cut and Etch Your Own Designs",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_nyc_resistor",
+      "description": "Vaccination Proof + Mask + RSVP Required\nRSVP https://www.eventbrite.com/e/learn-to-use-a-laser-cutter-to-cut-and-etch-your-own-designs-tickets-1315524522259\n\nHarness the power of an Epilog 60 Watt Laser! In this class you'll learn everything you need.Harness the power of an Epilog 60 Watt Laser! In this class you'll learn everything you need to know to make the ideas in your head become a reality with a laser.\nIn this three hour class, you will learn:\nHow to set up a file for cutting on the laser cutter in Inkscape or Adobe Illustrator.Laser cutter safety including materials testing.Laser cutter operation including configuration, cuts and raster etching in common materials like wood, acrylic, cardboard and others.At the end of class, you will go home with:\nOne laser cut project, either the class default or a simple one of your own design (see below for details)Resistor Laser Certification, enabling you to use our laser on Craft Nights.Please bring the following to class:\nA laptop with either Inkscape (free: download here: https://inkscape.org/release/inkscape-1.2.1/) or Adobe Illustrator installed.\nA USB jump drive\nThe following items are optional if you'd like to try cutting a simple custom design. If your file ends up being too complicated, we may have you do the class default project first, just to learn the laser in the time allotted - but we'll definitely help you with your more complex cut at a free Craft Night in future!\nAn SVG vector file of a simple shape you'd like to cut for your first cut.A piece of 1/8 inch or thinner wood, acrylic or cardboard you'd like to cut. If you can't bring your own material, small pieces will be made available, or larger pieces for purchase on site.Please be on time for the start of class! If you're late you will miss your slot.\nThis class will be taught by NYC Resistor member Katie. As with all NYC Resistor events, this class is 18+ and governed by our Code of Conduct. The Code of Conduct, as well as accessibility information, can be found at www.nycresistor.com/participate/.\nPlease note that refunds must be requested 72 hours in advance. If you have any questions, please email classes@nycresistor.com.\n",
+      "startDate": "2025-05-14T18:00:00-04:00",
+      "endDate": "2025-05-14T21:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": true,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.eventbrite.com/e/learn-to-use-a-laser-cutter-to-cut-and-etch-your-own-designs-tickets-1315524522259",
+        "organizer": {
+          "name": "NYCResistor",
+          "instagram": "",
+          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "NYC Resistor\n87 Third Avenue\nBrooklyn, NY 11217",
           "type": "Offline"
         },
         "speakers": [],
