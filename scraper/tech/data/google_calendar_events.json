@@ -2291,8 +2291,8 @@
       "locationId": "",
       "communityId": "com_nyc_resistor",
       "description": "",
-      "startDate": "2025-06-15",
-      "endDate": "2025-06-16",
+      "startDate": "2025-07-20",
+      "endDate": "2025-07-21",
       "category": [
         "Tech"
       ],
@@ -2308,7 +2308,7 @@
       "image": "",
       "status": "upcoming",
       "metadata": {
-        "source_url": "https://www.google.com/calendar/event?eid=MGE2ZHRnc2xtbGFpMG8xcWU3cGcyMDlrMGtfMjAyNTA2MTUgcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw",
+        "source_url": "https://www.google.com/calendar/event?eid=MGE2ZHRnc2xtbGFpMG8xcWU3cGcyMDlrMGtfMjAyNTA3MjAgcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw",
         "organizer": {
           "name": "NYCResistor",
           "instagram": "",
@@ -3125,13 +3125,13 @@
     },
     {
       "id": "evt_com_verci__clr78ba",
-      "name": "Satellite Dining Hall III",
+      "name": "Verci Founder Pasta-Making Dinner w/ Google Cloud",
       "type": "Tech",
       "locationId": "",
       "communityId": "com_verci",
-      "description": "​Join us for a hand-roll night and dinner at Verci.​Pensara AI-powered code security platform to automate vulnerability management from detection to remediation​Thoropassis the all-in-one platform that combines audit and assessment with compliance automation.  We streamline compliance and accelerate audits for SOC, PCI, ISO, HITRUST, HIPAA, and more.",
-      "startDate": "2025-04-21T23:00:00Z",
-      "endDate": "2025-04-22T00:30:00Z",
+      "description": "​Join us for an curated pasta-making workshop and dinner that brings founders together to knead, create, and connect!Experience an unforgettable evening of culinary craftsmanship and wine, meaningful conversations with fellow founders, and enjoying a family-style pasta dinner in Verci's intimate Flatiron space.​Space is limited to ensure a personal, collaborative experience. Acceptance guarentees entrance.​Google Cloudis a suite of public cloud computing services offered by Google, providing a wide range of hosted solutions for computing, storage, machine learning, big data analytics, networking, and application development that run on Google’s global infrastructure.​Verciis a community for founders, creatives, and operators based in Flatiron.",
+      "startDate": "2025-05-15T22:00:00Z",
+      "endDate": "2025-05-16T00:30:00Z",
       "category": [
         "Tech"
       ],
@@ -3147,7 +3147,7 @@
       "image": "luma-event-4ae50558.jpg",
       "status": "upcoming",
       "metadata": {
-        "source_url": "https://lu.ma/71e0ca67",
+        "source_url": "https://lu.ma/tldlk2e6",
         "organizer": {
           "name": "Verci Events",
           "instagram": "",
@@ -3165,12 +3165,12 @@
             "bio": ""
           },
           {
-            "name": "Will Damron",
+            "name": "Collin Sullivan",
             "title": "",
             "bio": ""
           },
           {
-            "name": "Kyle Bhiro",
+            "name": "Fon Emerson",
             "title": "",
             "bio": ""
           },
@@ -3180,12 +3180,12 @@
             "bio": ""
           },
           {
-            "name": "Will Damron",
+            "name": "Collin Sullivan",
             "title": "",
             "bio": ""
           },
           {
-            "name": "Kyle Bhiro",
+            "name": "Fon Emerson",
             "title": "",
             "bio": ""
           }
@@ -3194,11 +3194,9 @@
           "https://instagram.com/vercinyc",
           "https://x.com/vercinyc",
           "https://tiktok.com/@vercinyc",
-          "https://x.com/kylebhiro",
           "https://instagram.com/vercinyc",
           "https://x.com/vercinyc",
-          "https://tiktok.com/@vercinyc",
-          "https://x.com/kylebhiro"
+          "https://tiktok.com/@vercinyc"
         ],
         "featured": false,
         "luma_source": true
