@@ -670,7 +670,7 @@
       "type": "Tech",
       "locationId": "loc_tbd",
       "communityId": "com_ny_hardware",
-      "description": "​The Hardware Meetup community is excited to announce the 106th NY Hardware Meetup at Cornell Tech​​​​Hardware Meetups happen across 30+ cities around the world, bringing together hardware professionals to network and learn from each other. You might not realize it, but NYC is a hotbed for this kind of innovation and tonight you'll meet two companies working at the cutting edge of this technology.​​​​This month we'll be atCornell Tech. Cornell Tech is  Cornell University’s state-of-the-art campus in New York City that develops leaders and technologies for the AI era through foundational and applied research, graduate education, and new ventures. Located on Roosevelt Island, the growing campus was founded in partnership with the Technion-Israel Institute of Technology and in close collaboration with the NYC Economic Development Corporation after Cornell won a worldwide competition initiated by Mayor Michael R. Bloomberg’s administration to create an applied sciences campus in New York City. More than 1,000 Cornell students are now educated annually on the campus, including 700 in Cornell Tech programs. Since opening in 2012, nearly 120 new companies have spun out from startup programs at Cornell Tech, and 95 percent of them are based in New York City. Cornell Tech continues to have atransformative economic impact on the region’s tech sector.​For information on how to get to the event:https://tech.cornell.edu/visit-us/​​​Welcome Remarks​Niti Parikhis the founding director of Cornell Tech’s academic MakerLAB and an Engaged Faculty Fellow, with over 15 years of experience in Interior Architecture and Sustainable Manufacturing. Her work centers on participatory design in Digital Fabrication, creating inclusive learning environments that empower people of all ages and abilities to bring their ideas to life.​AGENDA​​​​6:30 - Arrival, presentation of student demos​​​​7:00 - Welcome and introduction​​7:15- Community open mic​​​​Anyone will have the chance or talk about what they are working on​7:30 - Panel with audience Q+A​​8:40 - Student demos, makerlab tours, mix and mingle​​PANELISTS​Doug Marsden is the Chief Technology Officer and Managing Member of Eleven, LLC, a Boston-based, multi-disciplinary product development studio he co-founded in 1996. With over three decades of experience, he leads Eleven in delivering award-winning, human-centered design solutions across industries including consumer goods, medical devices, and electronics. Doug also serves as an Operating Partner at Pennant Equity Partners, where he provides hands-on expertise in product development and innovation, helping small to medium-sized businesses unlock growth and operational excellence. His career reflects a commitment to purposeful, business-building innovation and cross-disciplinary collaboration.​Ben Zvaifler is the Founder and CEO of Cloud Water Filters, a consumer hardware company transforming residential water filtration. He previously founded PupBox, a DTC pet brand featured on Shark Tank and later acquired by Petco. Ben is an expert in startup growth, operations, and product development.​WANT TO GET INVOLVED?​​​Sponsorship:​We offer exclusive access to our 10,000+ member community through sponsorships.​​​Host an event at your space:We are always looking for host sponsors to provide access to unique spaces from cool hardware companies building interesting things. Want to open up your office?​​​Speaker:Do you have something interesting to share with our community? We're on the lookout for fresh faces to talk about their journey and experiences.​​​If you want to get involved, head here:https://linktr.ee/nyhardware",
+      "description": "​The Hardware Meetup community is excited to announce the 106th NY Hardware Meetup at Cornell Tech​​​​Hardware Meetups happen across 30+ cities around the world, bringing together hardware professionals to network and learn from each other. You might not realize it, but NYC is a hotbed for this kind of innovation and tonight you'll meet two companies working at the cutting edge of this technology.​​​​This month we'll be atCornell Tech. Cornell Tech is  Cornell University’s state-of-the-art campus in New York City that develops leaders and technologies for the AI era through foundational and applied research, graduate education, and new ventures. Located on Roosevelt Island, the growing campus was founded in partnership with the Technion-Israel Institute of Technology and in close collaboration with the NYC Economic Development Corporation after Cornell won a worldwide competition initiated by Mayor Michael R. Bloomberg’s administration to create an applied sciences campus in New York City. More than 1,000 Cornell students are now educated annually on the campus, including 700 in Cornell Tech programs. Since opening in 2012, nearly 120 new companies have spun out from startup programs at Cornell Tech, and 95 percent of them are based in New York City. Cornell Tech continues to have atransformative economic impact on the region’s tech sector.​For information on how to get to the event:https://tech.cornell.edu/visit-us/​​​Welcome Remarks​Niti Parikhis the founding director of Cornell Tech’s academic MakerLAB and an Engaged Faculty Fellow, with over 15 years of experience in Interior Architecture and Sustainable Manufacturing. Her work centers on participatory design in Digital Fabrication, creating inclusive learning environments that empower people of all ages and abilities to bring their ideas to life.​AGENDA​​​​6:30 - Arrival, presentation of student demos​​​​7:00 - Welcome and introduction​​7:15- Community open mic​​​​Anyone will have the chance or talk about what they are working on​7:30 - Panel with audience Q+A​​8:40 - Student demos, makerlab tours, mix and mingle​​PANELISTS​Jack Daniels is the founder and president of the EastBridge family of companies. He directs a team of professionals in North America, Asia and Eastern Europe. Jack has been involved in complex international development programs for more than thirty-five years and has experience in engineering, manufacturing operations, marketing & sales, finance, regulatory compliance and international business development. He has launched dozens of companies while living and working in China and the Republic of Korea. Prior to founding EastBridge Partners, he was the Vice President of Asian Operations of Rogers Corporation, a USD1.0B manufacturer of advanced materials used in the used in the computer, handheld electronics, office automation and telecommunication industries. During his tenure, Jack established a network of commercial offices, service centers and a manufacturing campus in Mainland China. In a seven-year period, he increased sales from USD6M to USD109M.​Doug Marsden is the Chief Technology Officer and Managing Member of Eleven, LLC, a Boston-based, multi-disciplinary product development studio he co-founded in 1996. With over three decades of experience, he leads Eleven in delivering award-winning, human-centered design solutions across industries including consumer goods, medical devices, and electronics. Doug also serves as an Operating Partner at Pennant Equity Partners, where he provides hands-on expertise in product development and innovation, helping small to medium-sized businesses unlock growth and operational excellence. His career reflects a commitment to purposeful, business-building innovation and cross-disciplinary collaboration.​Ben Zvaifler is the Founder and CEO of Cloud Water Filters, a consumer hardware company transforming residential water filtration. He previously founded PupBox, a DTC pet brand featured on Shark Tank and later acquired by Petco. Ben is an expert in startup growth, operations, and product development.​WANT TO GET INVOLVED?​​​Sponsorship:​We offer exclusive access to our 10,000+ member community through sponsorships.​​​Host an event at your space:We are always looking for host sponsors to provide access to unique spaces from cool hardware companies building interesting things. Want to open up your office?​​​Speaker:Do you have something interesting to share with our community? We're on the lookout for fresh faces to talk about their journey and experiences.​​​If you want to get involved, head here:https://linktr.ee/nyhardware",
       "startDate": "2025-05-08T18:30:00-04:00",
       "endDate": "2025-05-08T22:00:00-04:00",
       "category": [
@@ -1162,120 +1162,6 @@
       }
     },
     {
-      "id": "evt_com_genZtea_c7ad1015",
-      "name": "Gen Z Cafe CoWorking",
-      "type": "Tech",
-      "locationId": "loc_tbd",
-      "communityId": "com_genZtea",
-      "description": "​A mid-week coworking session perfect for those flexible WFH days and startup founders!​Join fellow Gen Z founders, creators, and investors for an energizing February coworking session in East Village. Whether you're building your startup, working on your side hustle, or just want to connect with like-minded creators – this space is for you.​What's GenZtea? 🍵​GenZtea empowers Gen Z founders to unlock their full potential through personal branding, community support, and innovative resources. We're building a global network of young entrepreneurs who are changing the world.​📍 What to Expect:​• A cozy workspace in a vibrant cafe setting​• Meaningful connections with fellow Gen Z entrepreneurs​• Collaborative brainstorming and experience sharing​• Winter-friendly amenities to stay productive​Stay Connected: ✨​Join our newsletter atgenztea.beehiiv.com/subscribefor monthly founder resources, event updates, and community highlights! ✨​Want to be featured in our community spotlight? DM us! 📱​Photo Notice: 📸 This event will be photographed and filmed. By attending, you consent to GenZtea using your image in marketing materials and adding you to the GenZtea newsletter.",
-      "startDate": "2025-04-22T13:00:00-04:00",
-      "endDate": "2025-04-22T14:00:00-04:00",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": 100,
-      "registrationRequired": true,
-      "tags": [],
-      "image": "luma-event-28bfedf5.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://lu.ma/9ikai9z6",
-        "speakers": [
-          {
-            "name": "Natalie Neptune",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Natalie Neptune",
-            "title": "",
-            "bio": ""
-          }
-        ],
-        "venue": {
-          "name": "525 Greenwich StNew York, NY 10013, USA",
-          "address": "New York, NY 10013, USA",
-          "type": "Offline",
-          "room": "",
-          "additional_info": ""
-        },
-        "featured": false,
-        "social_links": [
-          "https://x.com/thegenZtea",
-          "https://linkedin.com/company/genztea",
-          "https://genztea.squarespace.com/",
-          "https://instagram.com/Yes",
-          "https://x.com/thegenZtea",
-          "https://linkedin.com/company/genztea",
-          "https://genztea.squarespace.com/",
-          "https://instagram.com/Yes"
-        ]
-      }
-    },
-    {
-      "id": "evt_com_genZtea_27f83c3e",
-      "name": "Gen Z NYC Founder & Creator Mixer",
-      "type": "Tech",
-      "locationId": "loc_tbd",
-      "communityId": "com_genZtea",
-      "description": "​As we embrace spring in 2025, take a moment to celebrate your entrepreneurial journey with us in East Village! Join fellow ONE-OF-A-KIND Gen Z founders for an intimate evening of connection, inspiration, and well-deserved self-care at our April mixer.​So what the heck is GenZtea?GenZtea's Mission: Empowering Gen Z founders, creators, and investors to unlock their full potential through personal branding, community support, and innovative resources. We're building a global network of young builders who are not just invited into the room but are leading it.​Want to stay in the loop? Join our brand new newsletter athttps://genztea.beehiiv.com/subscribefor monthly deep dives with Gen Z lens, event updates, and community highlights! Reach is the new resume.​DM me if you are interested in getting featured in newsletter​✨ Brand New​✨: Gen Z Marketplace​DM me on Luma to have your food brand represented IRL at this event!​​🎁 Event Highlights:​​• Network with fellow Gen Z entrepreneurs & creators​​• Share experiences and insights​​• Discover potential collaborations​​• Enjoy refreshments​Want to sponsor? Reach out here on Luma or email natalie@thegenztea.com​​** Please note, this event will be photographed and filmed. GenZtea reserves the rights to use photographs and video from the event for marketing and communication purposes. By attending this event you consent to your image being used for these purposes and being added to GenZtea newsletter. **",
-      "startDate": "2025-04-24T18:00:00-04:00",
-      "endDate": "2025-04-24T19:30:00-04:00",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": 100,
-      "registrationRequired": true,
-      "tags": [],
-      "image": "luma-event-ad52906e.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://lu.ma/53fvw452",
-        "speakers": [
-          {
-            "name": "Natalie Neptune",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Natalie Neptune",
-            "title": "",
-            "bio": ""
-          }
-        ],
-        "venue": {
-          "name": "109 3rd AveNew York, NY 10003, USA",
-          "address": "New York, NY 10003, USA",
-          "type": "Offline",
-          "room": "",
-          "additional_info": ""
-        },
-        "featured": false,
-        "social_links": [
-          "https://x.com/thegenZtea",
-          "https://linkedin.com/company/genztea",
-          "https://genztea.squarespace.com/",
-          "https://instagram.com/Yes",
-          "https://x.com/thegenZtea",
-          "https://linkedin.com/company/genztea",
-          "https://genztea.squarespace.com/",
-          "https://instagram.com/Yes"
-        ]
-      }
-    },
-    {
       "id": "evt_com_genZtea_9dcb9f5c",
       "name": "Tavern Community & GenZtea Present: Intergenerational Coworking",
       "type": "Tech",
@@ -1410,6 +1296,63 @@
           "https://instagram.com/Yes",
           "https://instagram.com/moneyherway",
           "https://x.com/Moneyherway"
+        ]
+      }
+    },
+    {
+      "id": "evt_com_genZtea_27f83c3e",
+      "name": "Gen Z NYC Founder & Creator Mixer",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_genZtea",
+      "description": "​As we embrace spring in 2025, take a moment to celebrate your entrepreneurial journey with us in East Village! Join fellow ONE-OF-A-KIND Gen Z founders for an intimate evening of connection, inspiration, and well-deserved self-care at our April mixer.​So what the heck is GenZtea?GenZtea's Mission: Empowering Gen Z founders, creators, and investors to unlock their full potential through personal branding, community support, and innovative resources. We're building a global network of young builders who are not just invited into the room but are leading it.​Want to stay in the loop? Join our brand new newsletter athttps://genztea.beehiiv.com/subscribefor monthly deep dives with Gen Z lens, event updates, and community highlights! Reach is the new resume.​DM me if you are interested in getting featured in newsletter​✨ Brand New​✨: Gen Z Marketplace​DM me on Luma to have your food brand represented IRL at this event!​​🎁 Event Highlights:​​• Network with fellow Gen Z entrepreneurs & creators​​• Share experiences and insights​​• Discover potential collaborations​​• Enjoy refreshments​Want to sponsor? Reach out here on Luma or email natalie@thegenztea.com​​** Please note, this event will be photographed and filmed. GenZtea reserves the rights to use photographs and video from the event for marketing and communication purposes. By attending this event you consent to your image being used for these purposes and being added to GenZtea newsletter. **",
+      "startDate": "2025-04-24T18:00:00-04:00",
+      "endDate": "2025-04-24T19:30:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "luma-event-ad52906e.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/53fvw452",
+        "speakers": [
+          {
+            "name": "Natalie Neptune",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Natalie Neptune",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "venue": {
+          "name": "109 3rd AveNew York, NY 10003, USA",
+          "address": "New York, NY 10003, USA",
+          "type": "Offline",
+          "room": "",
+          "additional_info": ""
+        },
+        "featured": false,
+        "social_links": [
+          "https://x.com/thegenZtea",
+          "https://linkedin.com/company/genztea",
+          "https://genztea.squarespace.com/",
+          "https://instagram.com/Yes",
+          "https://x.com/thegenZtea",
+          "https://linkedin.com/company/genztea",
+          "https://genztea.squarespace.com/",
+          "https://instagram.com/Yes"
         ]
       }
     },

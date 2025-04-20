@@ -1,47 +1,6 @@
 {
   "events": [
     {
-      "id": "evt_com_telos_0jth11k0",
-      "name": "late-night cafe 001",
-      "type": "Tech",
-      "locationId": "loc_telos",
-      "communityId": "com_telos",
-      "description": "<p>this event is an experiment arising from the dearth of after-hours spaces to read, mingle, and meet others in new york.</p><p>there will be dimly-lit workspaces, couches and cushions to relax, a selection of custom drinks, and ambient sets by @x0trandon.</p><p>bring what stirs your soul.</p>",
-      "startDate": "2025-04-18T20:00:00-04:00",
-      "endDate": "2025-04-19T00:00:00-04:00",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": "",
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.google.com/calendar/event?eid=MGp0aDExazBocjM0azZnMnZjOTJhdDR1MzUgZDU5NmMyYmY3MjExODNkMjJiYjUwYmRlNjYyNTA5MGZjMzkyM2FhMjlhNjkxOGQ3ODQwOWUxNjhkYTc5MTc2OUBn",
-        "organizer": {
-          "name": "telos.haus events",
-          "instagram": "",
-          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
-        },
-        "venue": {
-          "name": "Telos",
-          "address": "181 Wyckoff Ave, Brooklyn, NY 11237",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false
-      }
-    },
-    {
       "id": "evt_com_telos_47g5eavu",
       "name": "P\u00c0O P\u00c0O \u6ce1\u6ce1",
       "type": "Tech",
