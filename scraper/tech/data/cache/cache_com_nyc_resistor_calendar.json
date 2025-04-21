@@ -1,47 +1,6 @@
 {
   "events": [
     {
-      "id": "evt_com_nyc_resistor_51r58734",
-      "name": "Learn to Use a Laser Cutter to Cut and Etch Your Own Designs",
-      "type": "Tech",
-      "locationId": "",
-      "communityId": "com_nyc_resistor",
-      "description": "Vaccination Proof + Mask + RSVP Required\nRSVP https://www.eventbrite.com/e/learn-to-use-a-laser-cutter-to-cut-and-etch-your-own-designs-tickets-1298784793279\n\nHarness the power of an Epilog 60 Watt Laser! In this class you'll learn everything you need.Harness the power of an Epilog 60 Watt Laser! In this class you'll learn everything you need to know to make the ideas in your head become a reality with a laser.\nIn this three hour class, you will learn:\nHow to set up a file for cutting on the laser cutter in Inkscape or Adobe Illustrator.Laser cutter safety including materials testing.Laser cutter operation including configuration, cuts and raster etching in common materials like wood, acrylic, cardboard and others.At the end of class, you will go home with:\nOne laser cut project, either the class default or a simple one of your own design (see below for details)Resistor Laser Certification, enabling you to use our laser on Craft Nights.Please bring the following to class:\nA laptop with either Inkscape (free: download here: https://inkscape.org/release/inkscape-1.2.1/) or Adobe Illustrator installed.\nA USB jump drive\nThe following items are optional if you'd like to try cutting a simple custom design. If your file ends up being too complicated, we may have you do the class default project first, just to learn the laser in the time allotted - but we'll definitely help you with your more complex cut at a free Craft Night in future!\nAn SVG vector file of a simple shape you'd like to cut for your first cut.A piece of 1/8 inch or thinner wood, acrylic or cardboard you'd like to cut. If you can't bring your own material, small pieces will be made available, or larger pieces for purchase on site.Please be on time for the start of class! If you're late you will miss your slot.\nThis class will be taught by NYC Resistor member Woody. As with all NYC Resistor events, this class is 18+ and governed by our Code of Conduct. The Code of Conduct, as well as accessibility information, can be found at www.nycresistor.com/participate/.\nPlease note that refunds must be requested 72 hours in advance. If you have any questions, please email classes@nycresistor.com.\n",
-      "startDate": "2025-04-20T13:00:00-04:00",
-      "endDate": "2025-04-20T16:00:00-04:00",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": true,
-      "tags": "",
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.eventbrite.com/e/learn-to-use-a-laser-cutter-to-cut-and-etch-your-own-designs-tickets-1298784793279",
-        "organizer": {
-          "name": "NYCResistor",
-          "instagram": "",
-          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "NYC Resistor\n87 Third Avenue\nBrooklyn, NY 11217",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false
-      }
-    },
-    {
       "id": "evt_com_nyc_resistor_sf181ee0",
       "name": "NYCR Craft Night",
       "type": "Tech",
@@ -1468,6 +1427,47 @@
         "venue": {
           "name": "",
           "address": "",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
+      "id": "evt_com_nyc_resistor_og5a3obl",
+      "name": "Intro to Soldering Workshop: Make an LED Tile",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_nyc_resistor",
+      "description": "Vaccination Proof + Mask + RSVP Required\nRSVP https://www.eventbrite.com/e/intro-to-soldering-workshop-make-an-led-tile-tickets-1332396857869\n\nSoldering is one of the most important skills you'll need for working with electronics. Come join us for an introductory through-hole solderSoldering is one of the most important skills you'll need for working with electronics. Come join us for an introductory through-hole soldering workshop. Soldering enables you to create sturdy connections between electrical components. In this hands-on workshop, you'll learn how to use a soldering iron safely and effectively, and get plenty of practice with both soldering and de-soldering techniques. We'll be soldering up some Game of Life kits - LED tiles that generate nifty animations. No previous experience is required, making this introductory workshop a great choice for anyone who's curious about getting started with hardware tinkering! All materials will be provided.\nOK, awesome, I want to join!\nPlease be ready to start at 1pm! We find that you will need this time to get through the whole class. Our classes tend to sell out about a week in advance so if you're interested, you may want to sign up early.\nThis class will be taught by Resistor member Jack Poon.\nAs with all NYC Resistor events, this class is 18+ and governed by our Code of Conduct. The Code of Conduct, as well as accessibility information, can be found at www.nycresistor.com/participate/. Please note that refunds must be requested 72 hours in advance. If you have any questions, please email classes@nycresistor.com.\n",
+      "startDate": "2025-05-17T13:00:00-04:00",
+      "endDate": "2025-05-17T16:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": true,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.eventbrite.com/e/intro-to-soldering-workshop-make-an-led-tile-tickets-1332396857869",
+        "organizer": {
+          "name": "NYCResistor",
+          "instagram": "",
+          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "NYC Resistor\n87 Third Avenue\nBrooklyn, NY 11217",
           "type": "Offline"
         },
         "speakers": [],

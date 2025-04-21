@@ -1,14 +1,14 @@
 {
   "events": [
     {
-      "id": "evt_com_max_ny_146cbb7b",
-      "name": "Maximum New York April Party & Abundance Politics Accelerator",
+      "id": "evt_com_max_ny_b666f668",
+      "name": "Maximum New York May Party & Abundance Politics Accelerator",
       "type": "Tech",
       "locationId": "loc_tbd",
       "communityId": "com_max_ny",
-      "description": "​Come hang out with friends, hear some lightning talks about NYC city/state politics, find collaborators for your own political schemes, and have a good time!​You'll enjoy the company of MNY alumni, people from theabundance movementgenerally, and other guests.​This event will also feature a brief graduation ceremony for several cohorts ofThe Foundations of New York City!​There will be drinks and snacks!​Know before you arrive:This event will be guided by thefour rules of etiquettethat guide all Maximum New York classes, and is generally for people who mostly agree withThe Sensible Seventy.",
-      "startDate": "2025-04-20T14:30:00-04:00",
-      "endDate": "2025-04-20T16:30:00-04:00",
+      "description": "​Come hang out with friends, hear some lightning talks about NYC city/state politics, find collaborators for your own political schemes, and have a good time!​You'll enjoy the company of MNY alumni, people from theabundance movementgenerally, and other guests.​There will be drinks and snacks!​Know before you arrive:This event will be guided by thefour rules of etiquettethat guide all Maximum New York classes, and is generally for people who mostly agree withThe Sensible Seventy.",
+      "startDate": "2025-05-18T14:30:00-04:00",
+      "endDate": "2025-05-18T16:30:00-04:00",
       "category": [
         "Tech"
       ],
@@ -24,7 +24,7 @@
       "image": "luma-event-9fe1da4f.jpg",
       "status": "upcoming",
       "metadata": {
-        "source_url": "https://lu.ma/jyuvctgc",
+        "source_url": "https://lu.ma/7nexg1m1",
         "speakers": [
           {
             "name": "Daniel Golliher",
@@ -54,75 +54,6 @@
           "https://linkedin.com/in/maximumnewyork",
           "https://maximumnewyork.com",
           "https://x.com/danielgolliher"
-        ]
-      }
-    },
-    {
-      "id": "evt_com_otwc_728d1eef",
-      "name": "OTWC Season 6: Part III",
-      "type": "Tech",
-      "locationId": "loc_tbd",
-      "communityId": "com_otwc",
-      "description": "​OTWC is an NYC-based writing community for online writers to write, exchange ideas, and get inspired. Our sessions look like this:​​​​​​​​​​​1. ​​​Introduce yourselves and talk about what you plan to write2. ​​​Focused writing session3. ​​​Get together in small groups and discuss how the session went​​​​​​​​​​​Snacks and drinks will be provided!​​​​​​​​​​If this price is too steep for you for any reason, email us by clicking \"Contact the Host\" on the left and we’ll give you a pay-what-you-can ticket.​​​​​​​​​​​Follow us on Twitter and Instagram @otwc_nyc to stay updated on future events and announcements!​​​​​​​​​​​Hope to see you there 🥳",
-      "startDate": "2025-04-20T10:00:00-04:00",
-      "endDate": "2025-04-20T13:00:00-04:00",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": 100,
-      "registrationRequired": true,
-      "tags": [],
-      "image": "luma-event-9d9dccf2.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://lu.ma/e/evt-HGnosmt0YU6C08m",
-        "speakers": [
-          {
-            "name": "James Q",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Abi Suresh",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "James Q",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Abi Suresh",
-            "title": "",
-            "bio": ""
-          }
-        ],
-        "venue": {
-          "name": "Please register to see the exact location of this event.",
-          "address": "New York, New York",
-          "type": "Online",
-          "room": "",
-          "additional_info": ""
-        },
-        "featured": false,
-        "social_links": [
-          "https://instagram.com/otwc_nyc",
-          "https://x.com/otwc_nyc",
-          "https://instagram.com/mrjamesq",
-          "https://x.com/mrjamesq",
-          "https://instagram.com/abi_nope",
-          "https://instagram.com/otwc_nyc",
-          "https://x.com/otwc_nyc",
-          "https://instagram.com/mrjamesq",
-          "https://x.com/mrjamesq",
-          "https://instagram.com/abi_nope"
         ]
       }
     },
