@@ -694,7 +694,7 @@
       "type": "Tech",
       "locationId": "loc_fractal",
       "communityId": "com_fractal",
-      "description": "​Do you want to ? ​​Have the knack to design your own mechanical products and 3D print them? Unsure where to start? Fear not.​​​HI! I'mSuraj Kumarand I can teach you how to become a maker in five days. I was the Chief Engineer of Sherpy, a drone startup that manufactured small, long-range airplanes for commercial delivery (sherpymedia.com). I now founded a neurotech startup (Cerelog.com).There are a lot of visionaries and hackers around in New York City, but materializing an idea can be quite the wall to climb! What are the real-world constraints to pay attention to when designing something? Where's the space where you can build things fast and get great advice?!​​This is a small-group, high attention workshop, targeting 10 creative people who have the itch to create things.Light on theory, heavy on practice!​​WHAT YOU'LL DO​​Get familiar with Fusion360!​​​​Design your own custom spray bottle using Fusion360. Use it for cleaning around your house/pranking your dog!​​​​We provide the nozzle and tube—you design the rest!​​​​3D print your creation on the high performance Bambu X1 Carbon printer​​​​DETAILS​​​​Five-day workshop (~3 hrs per session)​​Mon - Fri​​​​Professional guidance from an experienced engineer​​​​Learn to navigate Fusion360 and think like a designer​​​​REGISTRATION​​​$100 / person for the 4 days​​​​Limited spots available​​​​Reserve your seat today!​​Your Host:​​​​Suraj Kumar, Mechanical Engineer with years of Fusion360 experience​​​​*thank you tofractal techfor hosting us!*Contact at surajratnam99@gmail.com",
+      "description": "​Have the knack to design your own mechanical products and 3D print them? Unsure where to start? Fear not.​​​HI! I'mSuraj Kumarand I can teach you how to become a maker in five days. I was the Chief Engineer of Sherpy, a drone startup that manufactured small, long-range airplanes for commercial delivery (sherpymedia.com). I now founded a neurotech startup (Cerelog.com).There are a lot of visionaries and hackers around in New York City, but materializing an idea can be quite the wall to climb! What are the real-world constraints to pay attention to when designing something? Where's the space where you can build things fast and get great advice?!​​This is a small-group, high attention workshop, targeting 10 creative people who have the itch to create things.Light on theory, heavy on practice!​​WHAT YOU'LL DO​​Get familiar with Fusion360!​​​​Design your own custom spray bottle using Fusion360. Use it for cleaning around your house/pranking your dog!​​​​We provide the nozzle and tube—you design the rest!​​​​3D print your creation on the high performance Bambu X1 Carbon printer​​​​DETAILS​​​​Five-day workshop (~3 hrs per session)​​Mon - Fri​​​​Professional guidance from an experienced engineer​​​​Learn to navigate Fusion360 and think like a designer​​​​REGISTRATION​​​$100 / person for the 4 days​​​​Limited spots available​​​​Reserve your seat today!​​Your Host:​​​​Suraj Kumar, Mechanical Engineer with years of Fusion360 experience​​​​*thank you tofractal techfor hosting us!*Contact at surajratnam99@gmail.com",
       "startDate": "2025-04-28T22:00:00Z",
       "endDate": "2025-04-29T01:00:00Z",
       "category": [
@@ -735,12 +735,22 @@
             "bio": ""
           },
           {
+            "name": "Chandiran",
+            "title": "",
+            "bio": ""
+          },
+          {
             "name": "Suraj Kumar",
             "title": "",
             "bio": ""
           },
           {
             "name": "Jake Zegil",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Chandiran",
             "title": "",
             "bio": ""
           }
@@ -752,12 +762,14 @@
           "https://instagram.com/surajimop",
           "https://x.com/surkumference",
           "https://x.com/JakeZegil",
+          "https://x.com/patxnoir",
           "https://instagram.com/fractaltechnyc",
           "https://x.com/fractaltechnyc",
           "https://fractaltechhub.com",
           "https://instagram.com/surajimop",
           "https://x.com/surkumference",
-          "https://x.com/JakeZegil"
+          "https://x.com/JakeZegil",
+          "https://x.com/patxnoir"
         ],
         "featured": false,
         "luma_source": true
@@ -1430,8 +1442,8 @@
       "locationId": "",
       "communityId": "com_nyc_resistor",
       "description": "<u></u><p>NYC Resistor is open to the public for Craft Nights now every Monday and Thursday from 6:30-9:30 PM! Come bring your current crafting project and work on it with other artists, crafters, and makers of all kinds. Resistors do everything from costumes to electronics to visual arts to woodworking; people and crafting projects of all sorts are enthusiastically welcome!</p><p>RSVP at<span> <a href=\"https://www.google.com/url?q=https://www.eventbrite.com/e/public-craft-night-mondays-and-thursdays-tickets-162729866411&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw2GxlHrVKU2UOWuOdKbNOj5\" target=\"_blank\">https://www.eventbrite.com/e/public-craft-night-mondays-and-thursdays-tickets-162729866411</a></span> is appreciated but not required, for covid contact-tracing purposes.<br></p>This event like all NYC Resistor events is 18 and over and governed by out code of conduct. <br><br>More information: <a href=\"https://www.google.com/url?q=http://www.nycresistor.com/participate/&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw2qoLIc6c_Ay1xuc_FYjEZH\" target=\"_blank\">http://www.nycresistor.com/participate/</a><br>NYC Resistor Code of Conduct: <a href=\"https://www.google.com/url?q=http://www.nycresistor.com/2015/08/04/nyc-resistor-code-of-conduct/&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw1hCVO6yP0-Y--CtV5nrIw_\" target=\"_blank\">http://www.nycresistor.com/2015/08/04/nyc-resistor-code-of-conduct/</a><u></u><u></u><u></u><u></u><u></u>",
-      "startDate": "2025-07-17T18:30:00-04:00",
-      "endDate": "2025-07-17T21:30:00-04:00",
+      "startDate": "2025-07-24T18:30:00-04:00",
+      "endDate": "2025-07-24T21:30:00-04:00",
       "category": [
         "Tech"
       ],
@@ -2427,47 +2439,6 @@
       }
     },
     {
-      "id": "evt_com_telos_47g5eavu",
-      "name": "PÀO PÀO 泡泡",
-      "type": "Tech",
-      "locationId": "loc_telos",
-      "communityId": "com_telos",
-      "description": "During this workshop, Jess Eng (@goudatalks) will cover one of the oldest pickling cultures in the world, exploring the history of pickling techniques in Sichuan and Taiwan, along with more contemporary techniques.<br><br>The group will:<br><br><ul><li>learn the history of pickles in china and taiwan + contemporary pickling techniques</li><li>learn about pickling ingredients, techniques, and fermentation science</li><li>sample a collection of pickle creations</li><li>learn how to integrate these savory creations into food and beverage</li><li>make pickles together with pre-cut ingredients, including cabbage, green beans, carrots, peppers, etc.</li></ul><br>Each attendee will take home a self-made mason jar of pickle, a pickle zine, and knowledge to craft their own jar of pickles at home. Hopefully you'll teach others how to pickle too! Pickles for everyone!!",
-      "startDate": "2025-04-21T18:30:00-04:00",
-      "endDate": "2025-04-21T20:30:00-04:00",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": "",
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.google.com/calendar/event?eid=NDdnNWVhdnVkbDM4dXEybm40MjU2amlwbm4gZDU5NmMyYmY3MjExODNkMjJiYjUwYmRlNjYyNTA5MGZjMzkyM2FhMjlhNjkxOGQ3ODQwOWUxNjhkYTc5MTc2OUBn",
-        "organizer": {
-          "name": "telos.haus events",
-          "instagram": "",
-          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
-        },
-        "venue": {
-          "name": "Telos",
-          "address": "181 Wyckoff Ave, Brooklyn, NY 11237",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false
-      }
-    },
-    {
       "id": "evt_com_telos_6l1b1p2r",
       "name": "Jamland",
       "type": "Tech",
@@ -3350,6 +3321,47 @@
       "status": "upcoming",
       "metadata": {
         "source_url": "https://www.eventbrite.com/e/intro-to-soldering-workshop-make-an-led-tile-tickets-1332396857869",
+        "organizer": {
+          "name": "NYCResistor",
+          "instagram": "",
+          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "NYC Resistor\n87 Third Avenue\nBrooklyn, NY 11217",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
+      "id": "evt_com_nyc_resistor_songg503",
+      "name": "NYCResistor Ham Radio Club",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_nyc_resistor",
+      "description": "Vaccination Proof + Mask + RSVP Required\nRSVP https://www.eventbrite.com/e/nycresistor-ham-radio-club-tickets-1113096564789\n\nMonthly Amateur Radio club meeting of NYCResistorRadio curious? Join the NYC Resistor Ham Radio Club (call sign N2YCR) for our open and regular meetings, the 4th Wednesday of each month from 8:00 – 9:30 pm at NYC Resistor (87 3rd Avenue, 4th Floor).\nThe amateur radio hobby has something for everyone, from Morse code to modern digital modes. Bring projects you're working on, gear to fix, problems that puzzle you, outings you'd like to organize, or just yourself to meet &amp; greet your friendly local hams. Drop by the #n2ycr channel in Discord any time to say hi.\nYou do not need to be a member of Resistor to be a member of the club, nor do you need to be a licensed amateur radio operator (though of course we hope you'll become licensed with our help).\nWe aim to create an inclusive, encouraging, and diverse environment to bring together Brooklyn's radio hackers, antenna experimenters, shortwave listeners, toroid winders, satellite chasers, and balloon launchers.\nCome make some noise in the weird and wonderful medium of radio!This is a masks optional event.\nAs with all NYC Resistor events, this class is 18+ and governed by our Code of Conduct. The Code of Conduct, as well as accessibility information, can be found at www.nycresistor.com/participate/.\nPlease note that refunds must be requested 24 hours in advance. If you have any questions, please email classes@nycresistor.com.\n",
+      "startDate": "2025-07-23T20:00:00-04:00",
+      "endDate": "2025-07-23T21:30:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": true,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.eventbrite.com/e/nycresistor-ham-radio-club-tickets-1113096564789",
         "organizer": {
           "name": "NYCResistor",
           "instagram": "",

@@ -1,53 +1,12 @@
 {
   "events": [
     {
-      "id": "evt_com_telos_47g5eavu",
-      "name": "P\u00c0O P\u00c0O \u6ce1\u6ce1",
-      "type": "Tech",
-      "locationId": "loc_telos",
-      "communityId": "com_telos",
-      "description": "During this workshop, Jess Eng (@goudatalks) will cover one of the oldest pickling cultures in the world, exploring the history of pickling techniques in Sichuan and Taiwan, along with more contemporary techniques.<br><br>The group will:<br><br><ul><li>learn the history of pickles in china and taiwan + contemporary pickling techniques</li><li>learn about pickling ingredients, techniques, and fermentation science</li><li>sample a collection of pickle creations</li><li>learn how to integrate these savory creations into food and beverage</li><li>make pickles together with pre-cut ingredients, including cabbage, green beans, carrots, peppers, etc.</li></ul><br>Each attendee will take home a self-made mason jar of pickle, a pickle zine, and knowledge to craft their own jar of pickles at home. Hopefully you'll teach others how to pickle too! Pickles for everyone!!",
-      "startDate": "2025-04-21T18:30:00-04:00",
-      "endDate": "2025-04-21T20:30:00-04:00",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": "",
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.google.com/calendar/event?eid=NDdnNWVhdnVkbDM4dXEybm40MjU2amlwbm4gZDU5NmMyYmY3MjExODNkMjJiYjUwYmRlNjYyNTA5MGZjMzkyM2FhMjlhNjkxOGQ3ODQwOWUxNjhkYTc5MTc2OUBn",
-        "organizer": {
-          "name": "telos.haus events",
-          "instagram": "",
-          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
-        },
-        "venue": {
-          "name": "Telos",
-          "address": "181 Wyckoff Ave, Brooklyn, NY 11237",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false
-      }
-    },
-    {
       "id": "evt_com_telos_d269plpk",
-      "name": "aci-d club weekly hang",
+      "name": "aci-d trip : folk tales",
       "type": "Tech",
       "locationId": "",
       "communityId": "com_telos",
-      "description": "aci-d club is a weekly meetup for designers who wish to playfully work on their personal projects, befriend other creatives, and see the world with brighter eyes.\n\nalongside the core weekly hangouts, aci-d hosts monthly field trips to museums, archives, and galleries, as well as occasional workshops led by guest artists and speakers.",
+      "description": "\u200bThis a field trip + talk with the team behindfolk.computer, a physical computing system.\u200bThe first part will be a demo of the folk system at their studio,  including example programs and a walkthrough of how the system is programmed.\u200bThe second part will \u201cfolk tales\u201d : a talk and Q&A unpacking the philosophy behind the project, its history, and other folk...lore.We're leaning into the more esoteric, obscure parts of folk, so even if you've been to an open house or tried folk out before, you\u2019ll still walk away with something new.\u200bGenerally this trip is geared towards people who havesomecontext on folk.computer and related projects. If you aren't familiar with either, I'd recommend reading up a little beforehand. Here are some links to get you started:dynamicland.org,Geokit,Dynamicland experiments,folk.computer.Tickets are limited, and preference will be given to people who people who have shown up to past aci-d club hangs or events, though we will have some slots open for new faces!\u200b\u2014\u200bFolk Computeris a research & art project, led byOmar RizwanandAndr\u00e9s Cuervo, centered around designing new physical computing interfaces.Folk Computer is developing a new open-source 'physical computing' system, where you operate the computer by moving physical objects around (instead of laptop/phone/mouse/keyboard/touchscreen). The main Folk installations live at Hex House, a shared artist studio space in East Williamsburg.",
       "startDate": "2025-04-23T18:45:00-04:00",
       "endDate": "2025-04-23T21:15:00-04:00",
       "category": [
@@ -62,10 +21,10 @@
       "capacity": null,
       "registrationRequired": false,
       "tags": "",
-      "image": "",
+      "image": "luma-event-b536e7b5.jpg",
       "status": "upcoming",
       "metadata": {
-        "source_url": "https://lu.ma/aci-d.club",
+        "source_url": "https://lu.ma/m9k479vc?tk=xHUERl",
         "organizer": {
           "name": "telos.haus events [public]",
           "instagram": "",
@@ -73,14 +32,40 @@
         },
         "venue": {
           "name": "",
-          "address": "https://lu.ma/aci-d.club",
-          "type": "Offline"
+          "address": "Please register to see the exact location of this event.\nKings County, New York",
+          "type": "Online"
         },
-        "speakers": [],
+        "speakers": [
+          {
+            "name": "aci-d club",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Arjun",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "aci-d club",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Arjun",
+            "title": "",
+            "bio": ""
+          }
+        ],
         "social_links": [
           "https://instagram.com/aci_d.club",
           "https://x.com/aci_dclub",
-          "https://aci-d.club"
+          "https://aci-d.club",
+          "https://instagram.com/aci_d.club",
+          "https://instagram.com/aci_d.club",
+          "https://x.com/aci_dclub",
+          "https://aci-d.club",
+          "https://instagram.com/aci_d.club"
         ],
         "featured": false,
         "luma_source": true
