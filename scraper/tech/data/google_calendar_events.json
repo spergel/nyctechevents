@@ -635,13 +635,13 @@
     },
     {
       "id": "evt_com_fractal__clr78ba",
-      "name": "Weekly Sunday Co-Gardening | Spring Season 🌸",
+      "name": "In Bloom",
       "type": "Tech",
       "locationId": "loc_fractal",
       "communityId": "com_fractal",
-      "description": "​We're meeting up every Sunday afternoon this Spring to tend the garden on the roof of the Fractal Tech Hub (weather permitting).Bring snacks to share, supplies for the garden, plants to plant, or just bring yourself ready to be put to work.​Join the groupchat:https://chat.whatsapp.com/HhSgjGQskNcJ8hAyKh9YyW​​More information on the Fractal Garden Website:http://garden.fractaltechhub.com/",
-      "startDate": "2025-06-08T18:00:00Z",
-      "endDate": "2025-06-08T21:00:00Z",
+      "description": "​Live music on a rooftop garden? What could be better? See artwork from local artists, support a community garden, enjoy some drinks, and listen to talented musicians!!​Bring your family, friends, significant others, acquaintances and favorite baristas!$10 suggested donations​All proceeds will go back to the garden and artists",
+      "startDate": "2025-06-22T00:00:00Z",
+      "endDate": "2025-06-22T04:00:00Z",
       "category": [
         "Tech"
       ],
@@ -654,10 +654,10 @@
       "capacity": null,
       "registrationRequired": false,
       "tags": "",
-      "image": "luma-event-ba13ea05.jpg",
+      "image": "luma-event-ee64b9b1.jpg",
       "status": "upcoming",
       "metadata": {
-        "source_url": "https://lu.ma/898jqka5",
+        "source_url": "https://lu.ma/g1uekza6",
         "organizer": {
           "name": "Fractal Tech: NYC",
           "instagram": "",
@@ -670,7 +670,17 @@
         },
         "speakers": [
           {
+            "name": "Michael NeJame",
+            "title": "",
+            "bio": ""
+          },
+          {
             "name": "Anthony Castrio 💯",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Michael NeJame",
             "title": "",
             "bio": ""
           },
@@ -1483,8 +1493,8 @@
       "locationId": "",
       "communityId": "com_nyc_resistor",
       "description": "",
-      "startDate": "2025-07-17T20:00:00-04:00",
-      "endDate": "2025-07-17T21:00:00-04:00",
+      "startDate": "2025-07-24T20:00:00-04:00",
+      "endDate": "2025-07-24T21:00:00-04:00",
       "category": [
         "Tech"
       ],
@@ -1500,7 +1510,7 @@
       "image": "",
       "status": "upcoming",
       "metadata": {
-        "source_url": "https://www.google.com/calendar/event?eid=MjExbXBpazAwdXQ4MTVrZ3FuMjExcm8wcTJfMjAyNTA3MThUMDAwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn",
+        "source_url": "https://www.google.com/calendar/event?eid=MjExbXBpazAwdXQ4MTVrZ3FuMjExcm8wcTJfMjAyNTA3MjVUMDAwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn",
         "organizer": {
           "name": "",
           "instagram": "",
@@ -2216,13 +2226,13 @@
     },
     {
       "id": "evt_com_south_park_commons__clr78bb",
-      "name": "Attention in the Age of AI with Gary Vaynerchuk",
+      "name": "SPC AI Gaming Hackathon Demo Night",
       "type": "Tech",
       "locationId": "",
       "communityId": "com_south_park_commons",
-      "description": "​Join South Park Commons &Gary Vaynerchukfor discussion and Q&A on marketing yourself in the age of artificial intelligence. You don't want to miss this one!About Gary:Gary Vaynerchuk is a serial entrepreneur and serves as the Chairman of VaynerX, the CEO of VaynerMedia, and the CEO and creator of VeeFriends. Gary is considered one of the leading global minds on what's next in culture, business, and the internet.​Known as \"GaryVee,\" he acutely recognizes trends and patterns early to help others understand how shifts in consumer attention impact the realities of the business world today. Gary's approach sits at the intersection of business and pop culture. He keenly understands how to bring brand relevance to the forefront. He is a prolific angel investor with early investments in companies like Facebook, Twitter, Tumblr, Venmo, Snapchat, Coinbase, and Uber.Gary is an entrepreneur at heart – he builds businesses. Today, he helps Fortune 1000 brands leverage consumer attention through his full-service advertising agency, VaynerMedia. Gary is the Co-Founder of VaynerSports, VCR Group, VaynerWatt, ArtOfficial, Resy, and Empathy Wines. He guided Resy and Empathy to successful exits, which he later sold to American Express and Constellation Brands, respectively. He also owns a Major League Pickleball team called the 5s, is part owner of a Big3 basketball team, and is an investor in the revival of the SlamBall League. In 2021, Gary created VeeFriends, an entertainment company that has become a rising powerhouse in modern entertainment and collectibles.Gary is also the founder and creator of VeeCon – a contemporary super conference that converges business and pop culture with innovation and technology. He is a six-time New York Times bestselling author, with titles includingCrush It!,Jab, Jab, Jab, Right Hook,Twelve and a Half and Day Trading Attention. In addition to running multiple businesses, Gary documents his daily life as a CEO through his social media channels, which have more than 45 million followers and garner more than 300 million monthly impressions/views across all platforms.​Please RSVP soon, space is limited & approval is required.If you have a question you'd like Gary to answer, please submit it during your registration.",
-      "startDate": "2025-04-23T22:00:00Z",
-      "endDate": "2025-04-24T00:00:00Z",
+      "description": "​Stop by SPC to see the final projects produced during the SPC AI Gaming Hackathon! This event is open to the public. Please register so that we have an accurate headcount as space will be limited.If you're interested in hacking please register here.Agenda:​​Science fair style demos from 4:30-5:30pm​​Finalist demos and prize-giving from 5:30-7pm​Judging will be done by a panel of SPC team members and guest experts.",
+      "startDate": "2025-05-10T23:30:00Z",
+      "endDate": "2025-05-11T02:00:00Z",
       "category": [
         "Tech"
       ],
@@ -2235,10 +2245,10 @@
       "capacity": null,
       "registrationRequired": false,
       "tags": "",
-      "image": "luma-event-7de71c0f.jpg",
+      "image": "luma-event-11a7a1db.jpg",
       "status": "upcoming",
       "metadata": {
-        "source_url": "https://lu.ma/gary-v-spc",
+        "source_url": "https://lu.ma/spc-game-hack",
         "organizer": {
           "name": "South Park Commons",
           "instagram": "",
@@ -2246,7 +2256,7 @@
         },
         "venue": {
           "name": "",
-          "address": "Please register to see the exact location of this event.\nNew York, New York",
+          "address": "Please register to see the exact location of this event.\nSan Francisco, California",
           "type": "Online"
         },
         "speakers": [
@@ -2256,17 +2266,7 @@
             "bio": ""
           },
           {
-            "name": "Dylan Itzikowitz",
-            "title": "",
-            "bio": ""
-          },
-          {
             "name": "South Park Commons",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Dylan Itzikowitz",
             "title": "",
             "bio": ""
           }
@@ -2279,15 +2279,13 @@
           "https://www.southparkcommons.com/",
           "https://instagram.com/southparkcommons",
           "https://x.com/southpkcommons",
-          "https://x.com/ditzikow",
           "https://instagram.com/southparkcommons",
           "https://x.com/southpkcommons",
           "https://youtube.com/@southparkcommons",
           "https://linkedin.com/company/southparkcommons",
           "https://www.southparkcommons.com/",
           "https://instagram.com/southparkcommons",
-          "https://x.com/southpkcommons",
-          "https://x.com/ditzikow"
+          "https://x.com/southpkcommons"
         ],
         "featured": false,
         "luma_source": true
@@ -3376,6 +3374,283 @@
         "social_links": [],
         "featured": false,
         "luma_source": false
+      }
+    },
+    {
+      "id": "evt_com_effective_altruism_nyc_0j82butr",
+      "name": "Special EA NYC Event Canvas of Progress: Exploring Jack Whitten's Artistic Evolution and Innovation at MoMA",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_effective_altruism_nyc",
+      "description": "At this event, participants will<a href=\"https://www.moma.org/calendar/exhibitions/5785\"> explore Jack Whitten</a>'s innovative techniques and materials as metaphors for scientific advancement and social transformation. Together we'll examine how his experimental approach mirrors the evolution of technology and justice systems, connecting artistic innovation with broader conversations about the foundations and future of human progress across both technological and social dimensions.  Please email jonathan@effectivealtruism.nyc to reserve your spot.",
+      "startDate": "2025-05-03T13:30:00-04:00",
+      "endDate": "2025-05-03T15:30:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.google.com/calendar/event?eid=MGo4MmJ1dHJ1ZzNsNDRqY2tlcjNnbDNja2kgaGJ2ZXRxZjVoMXBkMG9mMHZuNnV2cGhxdHNAZw",
+        "organizer": {
+          "name": "Effective Altruism NYC Events",
+          "instagram": "",
+          "email": "hbvetqf5h1pd0of0vn6uvphqts@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "The Museum of Modern Art, 11 W 53rd St, New York, NY 10019, USA",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
+      "id": "evt_com_effective_altruism_nyc_2ls9s66h",
+      "name": "EA NYC Creatives and Communicators Subgroup Meeting",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_effective_altruism_nyc",
+      "description": "Please join us for casual networking, sharing projects, getting feedback, and hanging out with creative folks! We meet at the food court at Hudson Eats, 230 Vesey St, New York, NY. Keep an eye on the group slack for table location.  Excited to see you there! <a href=\"https://docs.google.com/forms/d/e/1FAIpQLSdB2-DHy1k3ikEEaMfPTTsVHIQ9iXH0PUkw9e-9ep_NKOQxGg/viewform\">https://docs.google.com/forms/d/e/1FAIpQLSdB2-DHy1k3ikEEaMfPTTsVHIQ9iXH0PUkw9e-9ep_NKOQxGg/viewform</a>",
+      "startDate": "2025-05-22T18:00:00-04:00",
+      "endDate": "2025-05-22T20:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.google.com/calendar/event?eid=MmxzOXM2Nmhoa2NxaWtsdG4wczJlY2JndjggaGJ2ZXRxZjVoMXBkMG9mMHZuNnV2cGhxdHNAZw",
+        "organizer": {
+          "name": "Effective Altruism NYC Events",
+          "instagram": "",
+          "email": "hbvetqf5h1pd0of0vn6uvphqts@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "Hudson Eats, 230 Vesey St, New York, NY 10282, USA",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
+      "id": "evt_com_nyc_resistor_pt0leat2",
+      "name": "Volt Couture: A Wearables + E-textiles \"Open Mic\"",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_nyc_resistor",
+      "description": "Vaccination Proof + Mask + RSVP Required\nRSVP https://www.eventbrite.com/e/volt-couture-a-wearables-e-textiles-open-mic-tickets-1313392234529\n\nShow off your wearable creations and novel electronic textiles at this \"open mic\" event and celebrate the softer side of technology.Volt Couture: A Wearables + E-Textiles \"Open Mic\" is here to celebrate the creativity and passion of all tech+fashion/tech+textiles enthusiasts. We want to see all of the squishy electronics creations at NYC Resistor! Bring high tech and low tech projects. Bring pieces that make people ask, \"How does that work?!\" or \"Is that fashion?\"\n\nHow It Works: Bring your wearable tech and/or e-textile creations, and we'll provide a display card and name-tags. Sign up in advance for prepared materials and a reserved spot, or just drop in and we'll make it work on the fly. We set up pieces when they arrive, and take down pieces when the creator leaves.\n\nWhat to Expect: A diverse array of projects• An inclusive atmosphere • Community Spirit.• Opportunities to connect with fellow tech+textiles enthusiasts • Drinks available by donation\n🎟️ Admission is pay-what-you-wish [recommended $5]. Reserve your spot now and show off what you stitched up a while ago or something more off the cuff! Or just come to see what the talent in our community puts on the proverbial runway.\nIn general, we will not have dress forms or mannequins available.\nThis is a masks optional event.\nWe are a proactively inclusive space, and prioritize creating opportunities for the whole community to engage with our events, across all identities of race, creed, ethnicity, age, religion, gender, gender identity, sexual orientation, physical appearance, and ability; please read our Code of Conduct to familiarize yourself with our community's values before attending. We are also an 18+ space, and accessibility information can be found here.\n",
+      "startDate": "2025-05-23T19:00:00-04:00",
+      "endDate": "2025-05-23T21:30:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Paid",
+        "currency": "USD",
+        "details": "See event description for pricing details"
+      },
+      "capacity": null,
+      "registrationRequired": true,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.eventbrite.com/e/volt-couture-a-wearables-e-textiles-open-mic-tickets-1313392234529",
+        "organizer": {
+          "name": "NYCResistor",
+          "instagram": "",
+          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "NYC Resistor\n87 Third Avenue\nBrooklyn, NY 11217",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
+      "id": "evt_com_south_park_commons__clr78ba",
+      "name": "-1 to Roblox with David Baszucki",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_south_park_commons",
+      "description": "​South Park Commons is delighted to hostDavid Baszuckiof Roblox as part of our -1 to Now series!​​​​​Event Details​​​​​​​4:30pm: Doors Open​​​​5:00-6:00pm: Fireside Chat​David Baszucki​David Baszucki is the founder and CEO of Roblox. His vision is to build a platform that enables shared experiences among billions of users. The company has been widely recognized for its innovation and vision under Baszucki’s leadership.​TIME named Roblox one of the “100 Most Influential Companies,” and it has been recognized by Fast Company for innovation on their “Most Innovative Companies” and “Most Innovative Companies in Gaming” lists. Roblox was also recognized as an innovative workplace on Fast Company’s “Best Workplaces for Innovators” list and for its technical innovations on Fast Company’s “Innovation by Design” list.​Previously, David founded Knowledge Revolution, where he and his brother Greg created “Interactive Physics,” a leader in educational physics and mechanical design simulation software. David graduated from Stanford University as a General Motors Scholar in Electrical Engineering.​📢 -1 to Now is a recurring speaker series at South Park Commons exploring how the world's best builders and thinkers took their ideas from -1 to 0 and beyond. Join us for the inside stories of their experiments, pivots, and breakthroughs on the way to where they are today.​​Registration and approval is required and space is limited, so please RSVP soon.​​Please note doors close promptly at 5:30pm and there will be no late admittance.",
+      "startDate": "2025-05-13T23:30:00Z",
+      "endDate": "2025-05-14T01:30:00Z",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "luma-event-f8c168c9.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/david-roblox-spc",
+        "organizer": {
+          "name": "South Park Commons",
+          "instagram": "",
+          "email": "bfptu3ajdae5cc2k16cvs1amenbft762@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "Please register to see the exact location of this event.\nSan Francisco, California",
+          "type": "Online"
+        },
+        "speakers": [
+          {
+            "name": "South Park Commons",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "South Park Commons",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "social_links": [
+          "https://instagram.com/southparkcommons",
+          "https://x.com/southpkcommons",
+          "https://youtube.com/@southparkcommons",
+          "https://linkedin.com/company/southparkcommons",
+          "https://www.southparkcommons.com/",
+          "https://instagram.com/southparkcommons",
+          "https://x.com/southpkcommons",
+          "https://instagram.com/southparkcommons",
+          "https://x.com/southpkcommons",
+          "https://youtube.com/@southparkcommons",
+          "https://linkedin.com/company/southparkcommons",
+          "https://www.southparkcommons.com/",
+          "https://instagram.com/southparkcommons",
+          "https://x.com/southpkcommons"
+        ],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_sidequest__clr78b9",
+      "name": "BuildHub #3 - 3D Modelling CAD Workshop in Zen Monk Mode",
+      "type": "Tech",
+      "locationId": "loc_fractal",
+      "communityId": "com_sidequest",
+      "description": "​Have the knack to design your own mechanical products and 3D print them? Unsure where to start? Fear not.​​​HI! I'mSuraj Kumarand I can teach you how to become a maker in five days. I was the Chief Engineer of Sherpy, a drone startup that manufactured small, long-range airplanes for commercial delivery (sherpymedia.com). I now founded a neurotech startup (Cerelog.com).There are a lot of visionaries and hackers around in New York City, but materializing an idea can be quite the wall to climb! What are the real-world constraints to pay attention to when designing something? Where's the space where you can build things fast and get great advice?!​​This is a small-group, high attention workshop, targeting 10 creative people who have the itch to create things.Light on theory, heavy on practice!​​WHAT YOU'LL DO​​Get familiar with Fusion360!​​​​Design your own custom spray bottle using Fusion360. Use it for cleaning around your house/pranking your dog!​​​​We provide the nozzle and tube—you design the rest!​​​​3D print your creation on the high performance Bambu X1 Carbon printer​​​​DETAILS​​​​Five-day workshop (~3 hrs per session)​​Mon - Fri​​​​Professional guidance from an experienced engineer​​​​Learn to navigate Fusion360 and think like a designer​​​​REGISTRATION​​​$100 / person for the 4 days​​​​Limited spots available​​​​Reserve your seat today!​​Your Host:​​​​Suraj Kumar, Mechanical Engineer with years of Fusion360 experience​​​​*thank you tofractal techfor hosting us!*Contact at surajratnam99@gmail.com",
+      "startDate": "2025-04-28T22:00:00Z",
+      "endDate": "2025-04-29T01:00:00Z",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "luma-event-4f845869.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/ykxtq7jd",
+        "organizer": {
+          "name": "SideQuest",
+          "instagram": "",
+          "email": "abln66abl799vb4gprllu4225l744l70@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "Fractal Tech",
+          "address": "111 Conselyea St, Brooklyn, NY 11211",
+          "type": "Offline"
+        },
+        "speakers": [
+          {
+            "name": "Suraj Kumar",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Jake Zegil",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Chandiran",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Suraj Kumar",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Jake Zegil",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Chandiran",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "social_links": [
+          "https://instagram.com/fractaltechnyc",
+          "https://x.com/fractaltechnyc",
+          "https://fractaltechhub.com",
+          "https://instagram.com/surajimop",
+          "https://x.com/surkumference",
+          "https://x.com/JakeZegil",
+          "https://x.com/patxnoir",
+          "https://instagram.com/fractaltechnyc",
+          "https://x.com/fractaltechnyc",
+          "https://fractaltechhub.com",
+          "https://instagram.com/surajimop",
+          "https://x.com/surkumference",
+          "https://x.com/JakeZegil",
+          "https://x.com/patxnoir"
+        ],
+        "featured": false,
+        "luma_source": true
       }
     }
   ]

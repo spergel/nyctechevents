@@ -1,47 +1,6 @@
 {
   "events": [
     {
-      "id": "evt_com_nyc_resistor__852k6d9",
-      "name": "",
-      "type": "Tech",
-      "locationId": "",
-      "communityId": "com_nyc_resistor",
-      "description": "",
-      "startDate": "2025-04-22T11:00:00-04:00",
-      "endDate": "2025-04-22T15:00:00-04:00",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": "",
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.google.com/calendar/event?eid=Xzg1Mms2ZDlnNmgzNDJiOWc4OHEzNGI5azZoMjMyYmEyOGQzMzhiYTY2NG8zZ2U5bDc0bzQ4Z3BnNm9fMjAyNTA0MjJUMTUwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn",
-        "organizer": {
-          "name": "",
-          "instagram": "",
-          "email": ""
-        },
-        "venue": {
-          "name": "",
-          "address": "",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false
-      }
-    },
-    {
       "id": "evt_com_nyc_resistor_o7gr4m5d",
       "name": "NYCResistor Ham Radio Club",
       "type": "Tech",
@@ -1682,30 +1641,30 @@
       }
     },
     {
-      "id": "evt_com_nyc_resistor_0jvsld4r",
-      "name": "HOLD: Wearables and E-Textiles Open Mic (Kari)",
+      "id": "evt_com_nyc_resistor_pt0leat2",
+      "name": "Volt Couture: A Wearables + E-textiles \"Open Mic\"",
       "type": "Tech",
       "locationId": "",
       "communityId": "com_nyc_resistor",
-      "description": "",
-      "startDate": "2025-05-23",
-      "endDate": "2025-05-24",
+      "description": "Vaccination Proof + Mask + RSVP Required\nRSVP https://www.eventbrite.com/e/volt-couture-a-wearables-e-textiles-open-mic-tickets-1313392234529\n\nShow off your wearable creations and novel electronic textiles at this \"open mic\" event and celebrate the softer side of technology.Volt Couture: A Wearables + E-Textiles \"Open Mic\" is here to celebrate the creativity and passion of all tech+fashion/tech+textiles enthusiasts. We want to see all of the squishy electronics creations at NYC Resistor! Bring high tech and low tech projects. Bring pieces that make people ask, \"How does that work?!\" or \"Is that fashion?\"\n\nHow It Works: Bring your wearable tech and/or e-textile creations, and we'll provide a display card and name-tags. Sign up in advance for prepared materials and a reserved spot, or just drop in and we'll make it work on the fly. We set up pieces when they arrive, and take down pieces when the creator leaves.\n\nWhat to Expect: A diverse array of projects\u2022 An inclusive atmosphere \u2022 Community Spirit.\u2022 Opportunities to connect with fellow tech+textiles enthusiasts \u2022 Drinks available by donation\n\ud83c\udf9f\ufe0f Admission is pay-what-you-wish [recommended $5]. Reserve your spot now and show off what you stitched up a while ago or something more off the cuff! Or just come to see what the talent in our community puts on the proverbial runway.\nIn general, we will not have dress forms or mannequins available.\nThis is a masks optional event.\nWe are a proactively inclusive space, and prioritize creating opportunities for the whole community to engage with our events, across all identities of race, creed, ethnicity, age, religion, gender, gender identity, sexual orientation, physical appearance, and ability; please read our Code of Conduct to familiarize yourself with our community's values before attending. We are also an 18+ space, and accessibility information can be found here.\n",
+      "startDate": "2025-05-23T19:00:00-04:00",
+      "endDate": "2025-05-23T21:30:00-04:00",
       "category": [
         "Tech"
       ],
       "price": {
         "amount": 0,
-        "type": "Free",
+        "type": "Paid",
         "currency": "USD",
-        "details": ""
+        "details": "See event description for pricing details"
       },
       "capacity": null,
-      "registrationRequired": false,
+      "registrationRequired": true,
       "tags": "",
       "image": "",
       "status": "upcoming",
       "metadata": {
-        "source_url": "https://www.google.com/calendar/event?eid=MGp2c2xkNHI0MHFlc3Yydms1aHQzajUzdG0gcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw",
+        "source_url": "https://www.eventbrite.com/e/volt-couture-a-wearables-e-textiles-open-mic-tickets-1313392234529",
         "organizer": {
           "name": "NYCResistor",
           "instagram": "",
@@ -1713,7 +1672,7 @@
         },
         "venue": {
           "name": "",
-          "address": "",
+          "address": "NYC Resistor\n87 Third Avenue\nBrooklyn, NY 11217",
           "type": "Offline"
         },
         "speakers": [],
@@ -4088,6 +4047,47 @@
           "name": "NYCResistor",
           "instagram": "",
           "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
+      "id": "evt_com_nyc_resistor_211mpik0",
+      "name": "",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_nyc_resistor",
+      "description": "",
+      "startDate": "2025-07-24T20:00:00-04:00",
+      "endDate": "2025-07-24T21:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.google.com/calendar/event?eid=MjExbXBpazAwdXQ4MTVrZ3FuMjExcm8wcTJfMjAyNTA3MjVUMDAwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn",
+        "organizer": {
+          "name": "",
+          "instagram": "",
+          "email": ""
         },
         "venue": {
           "name": "",

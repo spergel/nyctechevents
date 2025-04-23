@@ -695,6 +695,67 @@
     },
     {
       "id": "evt_com_fractal__clr78ba",
+      "name": "Maximum New York May Party & Abundance Politics Accelerator",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_fractal",
+      "description": "\u200bCome hang out with friends, hear some lightning talks about NYC city/state politics, find collaborators for your own political schemes, and have a good time!\u200bYou'll enjoy the company of MNY alumni, people from theabundance movementgenerally, and other guests.\u200bThere will be drinks and snacks!\u200bKnow before you arrive:This event will be guided by thefour rules of etiquettethat guide all Maximum New York classes, and is generally for people who mostly agree withThe Sensible Seventy.",
+      "startDate": "2025-05-17T18:30:00Z",
+      "endDate": "2025-05-17T20:30:00Z",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "luma-event-9fe1da4f.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/7nexg1m1",
+        "organizer": {
+          "name": "Fractal Tech: NYC",
+          "instagram": "",
+          "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "111 Conselyea StBrooklyn, NY 11211, USA\nBrooklyn, NY 11211, USA",
+          "type": "Offline"
+        },
+        "speakers": [
+          {
+            "name": "Daniel Golliher",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Daniel Golliher",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "social_links": [
+          "https://x.com/danielgolliher",
+          "https://linkedin.com/in/maximumnewyork",
+          "https://maximumnewyork.com",
+          "https://x.com/danielgolliher",
+          "https://x.com/danielgolliher",
+          "https://linkedin.com/in/maximumnewyork",
+          "https://maximumnewyork.com",
+          "https://x.com/danielgolliher"
+        ],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_fractal__clr78ba",
       "name": "Code and Coffee Hackathon",
       "type": "Tech",
       "locationId": "loc_fractal",
@@ -766,7 +827,7 @@
       "capacity": null,
       "registrationRequired": false,
       "tags": "",
-      "image": "luma-event-ba13ea05.jpg",
+      "image": "luma-event-126fe29b.jpg",
       "status": "upcoming",
       "metadata": {
         "source_url": "https://lu.ma/vyzz4mo3",
@@ -821,7 +882,7 @@
       "capacity": null,
       "registrationRequired": false,
       "tags": "",
-      "image": "luma-event-ba13ea05.jpg",
+      "image": "luma-event-dedca003.jpg",
       "status": "upcoming",
       "metadata": {
         "source_url": "https://lu.ma/k8tuaabb",
@@ -850,6 +911,61 @@
         "social_links": [
           "https://x.com/AnthonyCastrio",
           "https://x.com/AnthonyCastrio"
+        ],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_fractal__clr78ba",
+      "name": "CMU T&E Home-cooked AI Hack",
+      "type": "Tech",
+      "locationId": "loc_fractal",
+      "communityId": "com_fractal",
+      "description": "Get up-to-date information at: https://lu.ma/q4uc7mtb\n\nAddress:\nFractal Tech\nKings County, New York\nUnited States\n\nHosted by Pavitthra Pandurangan",
+      "startDate": "2025-05-31T14:00:00Z",
+      "endDate": "2025-06-01T00:00:00Z",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "luma-event-2f59a9d1.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/q4uc7mtb",
+        "organizer": {
+          "name": "Fractal Tech: NYC",
+          "instagram": "",
+          "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "Fractal Tech",
+          "address": "111 Conselyea St, Brooklyn, NY 11211",
+          "type": "Offline"
+        },
+        "speakers": [
+          {
+            "name": "Pavitthra Pandurangan",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Pavitthra Pandurangan",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "social_links": [
+          "https://x.com/pavitthrap",
+          "https://x.com/pavitthrap"
         ],
         "featured": false,
         "luma_source": true
@@ -948,6 +1064,126 @@
         "speakers": [
           {
             "name": "Anthony Castrio \ud83d\udcaf",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Anthony Castrio \ud83d\udcaf",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "social_links": [
+          "https://x.com/AnthonyCastrio",
+          "https://x.com/AnthonyCastrio"
+        ],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_fractal__clr78ba",
+      "name": "Weekly Sunday Co-Gardening | Spring Season \ud83c\udf38",
+      "type": "Tech",
+      "locationId": "loc_fractal",
+      "communityId": "com_fractal",
+      "description": "\u200bWe're meeting up every Sunday afternoon this Spring to tend the garden on the roof of the Fractal Tech Hub (weather permitting).Bring snacks to share, supplies for the garden, plants to plant, or just bring yourself ready to be put to work.\u200bJoin the groupchat:https://chat.whatsapp.com/HhSgjGQskNcJ8hAyKh9YyW\u200b\u200bMore information on the Fractal Garden Website:http://garden.fractaltechhub.com/",
+      "startDate": "2025-06-15T18:00:00Z",
+      "endDate": "2025-06-15T21:00:00Z",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "luma-event-ba13ea05.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/xob0y1ml",
+        "organizer": {
+          "name": "Fractal Tech: NYC",
+          "instagram": "",
+          "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "Fractal Tech",
+          "address": "111 Conselyea St, Brooklyn, NY 11211",
+          "type": "Offline"
+        },
+        "speakers": [
+          {
+            "name": "Anthony Castrio \ud83d\udcaf",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Anthony Castrio \ud83d\udcaf",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "social_links": [
+          "https://x.com/AnthonyCastrio",
+          "https://x.com/AnthonyCastrio"
+        ],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_fractal__clr78ba",
+      "name": "In Bloom",
+      "type": "Tech",
+      "locationId": "loc_fractal",
+      "communityId": "com_fractal",
+      "description": "\u200bLive music on a rooftop garden? What could be better? See artwork from local artists, support a community garden, enjoy some drinks, and listen to talented musicians!!\u200bBring your family, friends, significant others, acquaintances and favorite baristas!$10 suggested donations\u200bAll proceeds will go back to the garden and artists",
+      "startDate": "2025-06-22T00:00:00Z",
+      "endDate": "2025-06-22T04:00:00Z",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "luma-event-ee64b9b1.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/g1uekza6",
+        "organizer": {
+          "name": "Fractal Tech: NYC",
+          "instagram": "",
+          "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "Fractal Tech",
+          "address": "111 Conselyea St, Brooklyn, NY 11211",
+          "type": "Offline"
+        },
+        "speakers": [
+          {
+            "name": "Michael NeJame",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Anthony Castrio \ud83d\udcaf",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Michael NeJame",
             "title": "",
             "bio": ""
           },
