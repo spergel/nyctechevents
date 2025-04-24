@@ -245,7 +245,7 @@
       "type": "Tech",
       "locationId": "",
       "communityId": "com_fractal",
-      "description": "\u200bHi friends!\u200bWelcome to Solei, a social teahouse concept that connects people from different walks of life.\u200bIt is your third place, your city\u2019s living room, where we sit down to talk to one another beyond small talk over a shared cup of tea and some traditional Chinese tea cakes.\u200bWe had a lovely time last time: see herehttps://lu.ma/jo03fi5land herehttps://www.instagram.com/p/DIJmgrXOByF/\u200b\u2014\u200bWhat to expect:\u200bArrival (~15min):You\u2019ll be sat down in a group as you arrive while the host serves you tea. We will be sharing with you the story of the tea and tea cakes.\u200bConversations (~75min):Chat with the group over tea in a semi-structured manner (depending on the group size, we\u2019ll either speak as one group or break down into smaller groups). We\u2019ll also come together as a group to get to know who\u2019s in the room.\u200bFree flows (~30min):Grab more tea and have amazing conversations.\u200b\u2014\u200bThis is one of the many pop-up events to come. And I hope you have an amazing experience. Your ticket includes tea refills and tea cakes.\u200bDress comfortably (you may need to sit on the floor) and bring your lovely self. Try to come on time (or early), if you are running late send a note to the host via Luma!\u200bLooking forward to meeting you,\u200bCoco\u200b\u200bIf you\u2019re curious on why we\u2019re doing this and the story behind this initiative, read this blog post:Slow Spaces for Conversation.\u200bOur website:http://dearsolei.com/",
+      "description": "\u200bHi friends!\u200bWelcome to Solei, a social teahouse concept that connects people from different walks of life.\u200bIt is your third place, your city\u2019s living room, where we sit down to talk to one another beyond small talk over a shared cup of tea and some traditional Chinese tea cakes.\u200bWe had a lovely time last time: see herehttps://lu.ma/jo03fi5land herehttps://www.instagram.com/p/DIJmgrXOByF/\u200b\u2014\u200bWhat to expect:\u200bArrival (~15min):You\u2019ll be sat down in a group as you arrive while the host serves you tea. We will be sharing with you the story of the tea and tea cakes.\u200bConversations (~75min):Chat with the group over tea in a semi-structured manner (depending on the group size, we\u2019ll either speak as one group or break down into smaller groups). We\u2019ll also come together as a group to get to know who\u2019s in the room.\u200bFree flows (~30min):Grab more tea and have amazing conversations.\u200b\u2014\u200bThis is one of the many pop-up events to come. And I hope you have an amazing experience. Your ticket includes tea refills and tea cakes.\u200bDress comfortably (you may need to sit on the floor) and bring your lovely self. Try to come on time (or early), if you are running late send a note to the host via Luma!\u200bLooking forward to meeting you,\u200bCoco\u200b\u200bIf you\u2019re curious on why we\u2019re doing this and the story behind this initiative, read this blog post:Slow Spaces for Conversation.\u200bOur website:http://dearsolei.com/\u200bIf you cannot make this one, sign uphereor follow us (IG/X) to be in the loop for the next ones!",
       "startDate": "2025-05-02T22:00:00Z",
       "endDate": "2025-05-03T00:00:00Z",
       "category": [
@@ -411,7 +411,9 @@
           }
         ],
         "social_links": [
+          "https://x.com/amelielasker",
           "https://x.com/debsoon",
+          "https://x.com/amelielasker",
           "https://x.com/debsoon"
         ],
         "featured": false,

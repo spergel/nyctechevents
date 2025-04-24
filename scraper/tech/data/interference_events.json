@@ -1,6 +1,45 @@
 {
   "events": [
     {
+      "id": "evt_interference_7edadb16",
+      "name": "Free Noise",
+      "type": "Community",
+      "locationId": "loc_interference",
+      "communityId": "com_interference",
+      "description": "An open mic for queer/trans people and their music, poetry and performance. Come one, come all! \n\n\nEmail \nmilesellisor@gmail.com\n to perform.\n$5 suggested donation, but pay what you can.\n\n\nCollected donations will be split between the Archive and \nG.L.I.T.S.\n (Gays & Lesbians Living In A Transgender Society).",
+      "startDate": "2025-05-03T18:00:00",
+      "endDate": "2025-05-03T20:30:00",
+      "category": [
+        "Community",
+        "Arts",
+        "Activism"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": "Status Unknown"
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": [],
+      "image": "interference-archive.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://interferencearchive.org/event/free-noise/",
+        "organizer": {
+          "name": "Interference Archive",
+          "email": "info@interferencearchive.org"
+        },
+        "venue": {
+          "name": "Interference Archive",
+          "address": "314 7th St, Brooklyn, NY 11215",
+          "type": "Offline"
+        },
+        "featured": false
+      }
+    },
+    {
       "id": "evt_interference_ede2db13",
       "name": "Zine Club",
       "type": "Community",
@@ -40,14 +79,14 @@
       }
     },
     {
-      "id": "evt_interference_7b6eab32",
-      "name": "Drawn Together",
+      "id": "evt_interference_5b473e1d",
+      "name": "Dark Side of Goth",
       "type": "Community",
       "locationId": "loc_interference",
       "communityId": "com_interference",
-      "description": "Join us for a night of drawing and mark-making! Please \nregister on Eventbrite\n.\n\n\nAt Drawn Together, we provide prompts and materials for you to experiment and explore with your visual art-making practice, all without the pressure of having to do it well.\n\n\nBecause of this one-night partnership, we’ll also have access to Interference Archive’s materials, which we’ll be using as part of our inspiration.\n\n\nThe mission of Interference Archive is to explore the relationship between cultural production and social movements. This work manifests in an open stacks archival collection, publications, a study center, and public programs including exhibitions, workshops, talks, and screenings, all of which encourage critical and creative engagement with the rich history of social movements.\n\n\nCome for the art-making, stay for a collection of visual media related to the history of activism and social movements around the world!\n\n\nTiming:\n Doors at 7. Come early to save your seat! Games begin at 7:30.\n\n\nSupplies:\n Pencils and paper will be provided, though you’re encouraged to bring your own supplies if you’d like.",
-      "startDate": "2025-04-17T19:00:00",
-      "endDate": "2025-04-17T21:00:00",
+      "description": "As the goth subculture enjoys a renaissance thanks to social media, we’ll be reflecting on the subculture’s longstanding issues using fascist imagery and Nazi uniforms, ongoing issues of racism, and its growing objectification of women in digital spaces.\n\n\nWe’ll begin with a lecture on the history of the issues within the subculture and move into an open discussion.",
+      "startDate": "2025-04-18T18:30:00",
+      "endDate": "2025-04-18T20:30:00",
       "category": [
         "Community",
         "Arts",
@@ -62,15 +101,12 @@
       "capacity": null,
       "registrationRequired": false,
       "tags": [
-        "workshop",
-        "exhibition",
-        "screening",
-        "talk"
+        "discussion"
       ],
       "image": "interference-archive.jpg",
       "status": "upcoming",
       "metadata": {
-        "source_url": "https://interferencearchive.org/event/drawn-together-3/",
+        "source_url": "https://interferencearchive.org/event/dark-side-of-goth/",
         "organizer": {
           "name": "Interference Archive",
           "email": "info@interferencearchive.org"
@@ -166,6 +202,50 @@
       }
     },
     {
+      "id": "evt_interference_7b6eab32",
+      "name": "Drawn Together",
+      "type": "Community",
+      "locationId": "loc_interference",
+      "communityId": "com_interference",
+      "description": "Join us for a night of drawing and mark-making! Please \nregister on Eventbrite\n.\n\n\nAt Drawn Together, we provide prompts and materials for you to experiment and explore with your visual art-making practice, all without the pressure of having to do it well.\n\n\nBecause of this one-night partnership, we’ll also have access to Interference Archive’s materials, which we’ll be using as part of our inspiration.\n\n\nThe mission of Interference Archive is to explore the relationship between cultural production and social movements. This work manifests in an open stacks archival collection, publications, a study center, and public programs including exhibitions, workshops, talks, and screenings, all of which encourage critical and creative engagement with the rich history of social movements.\n\n\nCome for the art-making, stay for a collection of visual media related to the history of activism and social movements around the world!\n\n\nTiming:\n Doors at 7. Come early to save your seat! Games begin at 7:30.\n\n\nSupplies:\n Pencils and paper will be provided, though you’re encouraged to bring your own supplies if you’d like.",
+      "startDate": "2025-04-17T19:00:00",
+      "endDate": "2025-04-17T21:00:00",
+      "category": [
+        "Community",
+        "Arts",
+        "Activism"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": "Status Unknown"
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": [
+        "workshop",
+        "exhibition",
+        "screening",
+        "talk"
+      ],
+      "image": "interference-archive.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://interferencearchive.org/event/drawn-together-3/",
+        "organizer": {
+          "name": "Interference Archive",
+          "email": "info@interferencearchive.org"
+        },
+        "venue": {
+          "name": "Interference Archive",
+          "address": "314 7th St, Brooklyn, NY 11215",
+          "type": "Offline"
+        },
+        "featured": false
+      }
+    },
+    {
       "id": "evt_interference_025de535",
       "name": "Digital Privacy and InfoSec Workshop",
       "type": "Community",
@@ -194,86 +274,6 @@
       "status": "upcoming",
       "metadata": {
         "source_url": "https://interferencearchive.org/event/digital-privacy-and-infosec-workshop/",
-        "organizer": {
-          "name": "Interference Archive",
-          "email": "info@interferencearchive.org"
-        },
-        "venue": {
-          "name": "Interference Archive",
-          "address": "314 7th St, Brooklyn, NY 11215",
-          "type": "Offline"
-        },
-        "featured": false
-      }
-    },
-    {
-      "id": "evt_interference_5b473e1d",
-      "name": "Dark Side of Goth",
-      "type": "Community",
-      "locationId": "loc_interference",
-      "communityId": "com_interference",
-      "description": "As the goth subculture enjoys a renaissance thanks to social media, we’ll be reflecting on the subculture’s longstanding issues using fascist imagery and Nazi uniforms, ongoing issues of racism, and its growing objectification of women in digital spaces.\n\n\nWe’ll begin with a lecture on the history of the issues within the subculture and move into an open discussion.",
-      "startDate": "2025-04-18T18:30:00",
-      "endDate": "2025-04-18T20:30:00",
-      "category": [
-        "Community",
-        "Arts",
-        "Activism"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": "Status Unknown"
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": [
-        "discussion"
-      ],
-      "image": "interference-archive.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://interferencearchive.org/event/dark-side-of-goth/",
-        "organizer": {
-          "name": "Interference Archive",
-          "email": "info@interferencearchive.org"
-        },
-        "venue": {
-          "name": "Interference Archive",
-          "address": "314 7th St, Brooklyn, NY 11215",
-          "type": "Offline"
-        },
-        "featured": false
-      }
-    },
-    {
-      "id": "evt_interference_7edadb16",
-      "name": "Free Noise",
-      "type": "Community",
-      "locationId": "loc_interference",
-      "communityId": "com_interference",
-      "description": "An open mic for queer/trans people and their music, poetry and performance. Come one, come all! \n\n\nEmail \nmilesellisor@gmail.com\n to perform.\n$5 suggested donation, but pay what you can.\n\n\nCollected donations will be split between the Archive and \nG.L.I.T.S.\n (Gays & Lesbians Living In A Transgender Society).",
-      "startDate": "2025-05-03T18:00:00",
-      "endDate": "2025-05-03T20:30:00",
-      "category": [
-        "Community",
-        "Arts",
-        "Activism"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": "Status Unknown"
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": [],
-      "image": "interference-archive.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://interferencearchive.org/event/free-noise/",
         "organizer": {
           "name": "Interference Archive",
           "email": "info@interferencearchive.org"
