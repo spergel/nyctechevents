@@ -374,7 +374,7 @@
       "capacity": null,
       "registrationRequired": false,
       "tags": "",
-      "image": "luma-event-77f57631.jpg",
+      "image": "luma-event-6982324f.jpg",
       "status": "upcoming",
       "metadata": {
         "source_url": "https://lu.ma/z22znls4",
@@ -415,6 +415,75 @@
           "https://x.com/debsoon",
           "https://x.com/amelielasker",
           "https://x.com/debsoon"
+        ],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_fractal__clr78ba",
+      "name": "Sunday Session | NY AI",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_fractal",
+      "description": "\u200bJoin us forNew York AI's Sunday Session, a space to build, collaborate, and connect with the city's AI community.\u200bWe'll start working at noon, then wind down with dinner and socializing in the evening.Schedule:\u2022 12:00 PM \u2013 Doors Open - Build & Collaborate\u2022 5:30 PM \u2013 Dinner & Social Time\u2022 7:00 PM \u2013 Doors CloseHosted by:Derek@New York AIJake@Fractal",
+      "startDate": "2025-05-04T16:00:00Z",
+      "endDate": "2025-05-04T23:00:00Z",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "luma-event-2756900b.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/y1wrs9ml",
+        "organizer": {
+          "name": "Fractal Tech: NYC",
+          "instagram": "",
+          "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "Please register to see the exact location of this event.\nKings County, New York",
+          "type": "Online"
+        },
+        "speakers": [
+          {
+            "name": "Derek Larson",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Jake Zegil",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Derek Larson",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Jake Zegil",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "social_links": [
+          "https://about.newyorkai.org",
+          "https://x.com/dereklarso",
+          "https://x.com/JakeZegil",
+          "https://about.newyorkai.org",
+          "https://x.com/dereklarso",
+          "https://x.com/JakeZegil"
         ],
         "featured": false,
         "luma_source": true

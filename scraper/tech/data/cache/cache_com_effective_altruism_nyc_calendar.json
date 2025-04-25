@@ -696,6 +696,47 @@
         "featured": false,
         "luma_source": false
       }
+    },
+    {
+      "id": "evt_com_effective_altruism_nyc_7pgd035d",
+      "name": "World Immunization Week",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_effective_altruism_nyc",
+      "description": "<br>No matter what year you read this, it&#39;s probably the healthiest year in human history. Let&#39;s celebrate, and keep the streak going!<br><a href=\"https://www.google.com/url?q=http://www.who.int/campaigns/immunization-week/2018/en/&amp;sa=D&amp;source=calendar&amp;ust=1671557349757085&amp;usg=AOvVaw1XOs1JHTqnQlGCavPdJJ2Q\" target=\"_blank\">http://www.who.int/campaigns/immunization-week/2018/en/</a>",
+      "startDate": "2026-04-24",
+      "endDate": "2026-05-01",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.google.com/calendar/event?eid=N3BnZDAzNWQ3NzhvaWRybGYyMG84YXIyNXBfMjAyNjA0MjQgaGJ2ZXRxZjVoMXBkMG9mMHZuNnV2cGhxdHNAZw",
+        "organizer": {
+          "name": "Effective Altruism NYC Events",
+          "instagram": "",
+          "email": "hbvetqf5h1pd0of0vn6uvphqts@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "Worldwide!",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
     }
   ]
 }

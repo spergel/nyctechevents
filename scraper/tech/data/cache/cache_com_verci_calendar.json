@@ -1,51 +1,6 @@
 {
   "events": [
     {
-      "id": "evt_com_verci__cdgmopb",
-      "name": "Printmaking: Pennant Flags",
-      "type": "Tech",
-      "locationId": "",
-      "communityId": "com_verci",
-      "description": "Find more information on https://lu.ma/verci",
-      "startDate": "2025-04-24T22:30:00Z",
-      "endDate": "2025-04-25T00:30:00Z",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": "",
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://lu.ma/verci",
-        "organizer": {
-          "name": "Verci Events",
-          "instagram": "",
-          "email": "pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "https://www.craft-society.com/event-details/printmaking-pennant-flags",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [
-          "https://instagram.com/vercinyc",
-          "https://x.com/vercinyc",
-          "https://tiktok.com/@vercinyc"
-        ],
-        "featured": false,
-        "luma_source": true
-      }
-    },
-    {
       "id": "evt_com_verci__clr78b9",
       "name": "Verci House @ Camp Film Fest",
       "type": "Tech",

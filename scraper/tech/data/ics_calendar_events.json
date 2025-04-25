@@ -1,6 +1,63 @@
 {
   "events": [
     {
+      "id": "evt_com_max_ny_5973865f",
+      "name": "Maximum New York Office Hours",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_max_ny",
+      "description": "​Want to talk toDaniel(founder ofMaximum New York) about anything? Want to learn more about government at the city, state, or federal level? Want to know what you can do for a more abundant future? Grab a coffee and come to office hours!",
+      "startDate": "2025-04-26T11:30:00-04:00",
+      "endDate": "2025-04-26T14:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "luma-event-33d136c0.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/g5e8bcor",
+        "speakers": [
+          {
+            "name": "Daniel Golliher",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Daniel Golliher",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "venue": {
+          "name": "111 Conselyea StBrooklyn, NY 11211, USA",
+          "address": "Brooklyn, NY 11211, USA",
+          "type": "Offline",
+          "room": "",
+          "additional_info": ""
+        },
+        "featured": false,
+        "social_links": [
+          "https://x.com/danielgolliher",
+          "https://linkedin.com/in/maximumnewyork",
+          "https://maximumnewyork.com",
+          "https://x.com/danielgolliher",
+          "https://x.com/danielgolliher",
+          "https://linkedin.com/in/maximumnewyork",
+          "https://maximumnewyork.com",
+          "https://x.com/danielgolliher"
+        ]
+      }
+    },
+    {
       "id": "evt_com_max_ny_713ff147",
       "name": "Maximum New York May Party & Abundance Politics Accelerator",
       "type": "Tech",
@@ -1056,7 +1113,7 @@
       "capacity": 100,
       "registrationRequired": true,
       "tags": [],
-      "image": "luma-event-efba723f.jpg",
+      "image": "luma-event-63850be6.jpg",
       "status": "upcoming",
       "metadata": {
         "source_url": "https://lu.ma/nnb4bqc7",
@@ -1160,63 +1217,6 @@
           "https://instagram.com/Yes",
           "https://instagram.com/moneyherway",
           "https://x.com/Moneyherway"
-        ]
-      }
-    },
-    {
-      "id": "evt_com_genZtea_27f83c3e",
-      "name": "Gen Z NYC Founder & Creator Mixer",
-      "type": "Tech",
-      "locationId": "loc_tbd",
-      "communityId": "com_genZtea",
-      "description": "​As we embrace spring in 2025, take a moment to celebrate your entrepreneurial journey with us in East Village! Join fellow ONE-OF-A-KIND Gen Z founders for an intimate evening of connection, inspiration, and well-deserved self-care at our April mixer.​So what the heck is GenZtea?GenZtea's Mission: Empowering Gen Z founders, creators, and investors to unlock their full potential through personal branding, community support, and innovative resources. We're building a global network of young builders who are not just invited into the room but are leading it.​Want to stay in the loop? Join our brand new newsletter athttps://genztea.beehiiv.com/subscribefor monthly deep dives with Gen Z lens, event updates, and community highlights! Reach is the new resume.​DM me if you are interested in getting featured in newsletter​✨ Brand New​✨: Gen Z Marketplace​DM me on Luma to have your food brand represented IRL at this event!​​🎁 Event Highlights:​​• Network with fellow Gen Z entrepreneurs & creators​​• Share experiences and insights​​• Discover potential collaborations​​• Enjoy refreshments​Want to sponsor? Reach out here on Luma or email natalie@thegenztea.com​​** Please note, this event will be photographed and filmed. GenZtea reserves the rights to use photographs and video from the event for marketing and communication purposes. By attending this event you consent to your image being used for these purposes and being added to GenZtea newsletter. **",
-      "startDate": "2025-04-24T18:00:00-04:00",
-      "endDate": "2025-04-24T19:30:00-04:00",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": 100,
-      "registrationRequired": true,
-      "tags": [],
-      "image": "luma-event-ad52906e.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://lu.ma/53fvw452",
-        "speakers": [
-          {
-            "name": "Natalie Neptune",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Natalie Neptune",
-            "title": "",
-            "bio": ""
-          }
-        ],
-        "venue": {
-          "name": "109 3rd AveNew York, NY 10003, USA",
-          "address": "New York, NY 10003, USA",
-          "type": "Offline",
-          "room": "",
-          "additional_info": ""
-        },
-        "featured": false,
-        "social_links": [
-          "https://x.com/thegenZtea",
-          "https://linkedin.com/company/genztea",
-          "https://genztea.squarespace.com/",
-          "https://instagram.com/Yes",
-          "https://x.com/thegenZtea",
-          "https://linkedin.com/company/genztea",
-          "https://genztea.squarespace.com/",
-          "https://instagram.com/Yes"
         ]
       }
     },
