@@ -42,47 +42,6 @@
       }
     },
     {
-      "id": "evt_com_effective_altruism_nyc_3dgeao06",
-      "name": "World Malaria Day",
-      "type": "Tech",
-      "locationId": "",
-      "communityId": "com_effective_altruism_nyc",
-      "description": "<a href=\"https://en.wikipedia.org/wiki/World_Malaria_Day\">https://en.wikipedia.org/wiki/World_Malaria_Day</a><br><br>If you have ideas for ways to commemorate this day, send them to alexrk@effectivealtruism.nyc",
-      "startDate": "2025-04-25",
-      "endDate": "2025-04-26",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": "",
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.google.com/calendar/event?eid=M2RnZWFvMDZxNHY2N2RvY2tndWk0Z29tazBfMjAyNTA0MjUgaGJ2ZXRxZjVoMXBkMG9mMHZuNnV2cGhxdHNAZw",
-        "organizer": {
-          "name": "Effective Altruism NYC Events",
-          "instagram": "",
-          "email": "hbvetqf5h1pd0of0vn6uvphqts@group.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false
-      }
-    },
-    {
       "id": "evt_com_effective_altruism_nyc_28lmvbgb",
       "name": "NYC Launch Event for Food Policy Pathways",
       "type": "Tech",
@@ -584,7 +543,7 @@
       "type": "Tech",
       "locationId": "loc_fractal",
       "communityId": "com_fractal",
-      "description": "​We're meeting up every Sunday afternoon this Spring to tend the garden on the roof of the Fractal Tech Hub (weather permitting).Bring snacks to share, supplies for the garden, plants to plant, or just bring yourself ready to be put to work.​Join the groupchat:https://chat.whatsapp.com/HhSgjGQskNcJ8hAyKh9YyW​​More information on the Fractal Garden Website:http://garden.fractaltechhub.com/",
+      "description": "​We're meeting up every Sunday afternoon this Spring to tend the garden on the roof of the Fractal Tech Hub (weather permitting).Bring snacks to share, supplies for the garden, plants to plant, or just bring yourself ready to be put to work.​​More information on the Fractal Garden Website:http://garden.fractaltechhub.com/",
       "startDate": "2025-06-01T18:00:00Z",
       "endDate": "2025-06-01T21:00:00Z",
       "category": [
@@ -599,7 +558,7 @@
       "capacity": null,
       "registrationRequired": false,
       "tags": "",
-      "image": "luma-event-ba13ea05.jpg",
+      "image": "luma-event-3656b081.jpg",
       "status": "upcoming",
       "metadata": {
         "source_url": "https://lu.ma/nliculft",
@@ -1411,8 +1370,8 @@
       "locationId": "",
       "communityId": "com_nyc_resistor",
       "description": "",
-      "startDate": "2025-07-21T20:00:00-04:00",
-      "endDate": "2025-07-21T21:00:00-04:00",
+      "startDate": "2025-07-28T20:00:00-04:00",
+      "endDate": "2025-07-28T21:00:00-04:00",
       "category": [
         "Tech"
       ],
@@ -1428,7 +1387,7 @@
       "image": "",
       "status": "upcoming",
       "metadata": {
-        "source_url": "https://www.google.com/calendar/event?eid=NW1mOWcyaXY4cW00c242cTRlOTNibzdvczBfMjAyNTA3MjJUMDAwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn",
+        "source_url": "https://www.google.com/calendar/event?eid=NW1mOWcyaXY4cW00c242cTRlOTNibzdvczBfMjAyNTA3MjlUMDAwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn",
         "organizer": {
           "name": "",
           "instagram": "",
@@ -2519,47 +2478,6 @@
       }
     },
     {
-      "id": "evt_com_nyc_resistor_6hgm4e9p",
-      "name": "HOLD: Networking Event (Yonatan & AJ)",
-      "type": "Tech",
-      "locationId": "",
-      "communityId": "com_nyc_resistor",
-      "description": "",
-      "startDate": "2025-04-25T18:30:00-04:00",
-      "endDate": "2025-04-25T20:30:00-04:00",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": "",
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.google.com/calendar/event?eid=NmhnbTRlOXA2Z29tYWJiNDYwbzYyYjlrY2dybWFiOXBjNWkzMGJiMmM4cG1hY2o0NzBxamdjcGs2byBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn",
-        "organizer": {
-          "name": "NYCResistor",
-          "instagram": "",
-          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false
-      }
-    },
-    {
       "id": "evt_com_telos_3npj2p69",
       "name": "EDM Production 101",
       "type": "Tech",
@@ -2882,47 +2800,6 @@
         ],
         "featured": false,
         "luma_source": true
-      }
-    },
-    {
-      "id": "evt_com_nyc_resistor_mml8a4gf",
-      "name": "Go Mobile! Mobile development is a legitimate hardware option!",
-      "type": "Tech",
-      "locationId": "",
-      "communityId": "com_nyc_resistor",
-      "description": "Vaccination Proof + Mask + RSVP Required\nRSVP https://www.eventbrite.com/e/go-mobile-mobile-development-is-a-legitimate-hardware-option-tickets-1317509649829\n\nRepurpose used smartphones for their high-quality hardware tools: camera, mic, accelerometer/gyro, BLE/wifi, GPS, touchscreen, power, etc.Mobile devices are a criminally underrated hardware tool! Just by owning a smartphone from the past decade, you already have access to an entire suite of high-quality hardware tools, including: HD camera, high fidelity microphone, precise accelerometer/gyroscope/compass, GPS, touchscreen, speaker and audio output port, WiFi and Bluetooth connectivity, and a built-in rechargeable battery, all within a sleek and compact enclosure. The equivalent components/materials used together with a microcontroller such as an Arduino or ESP32 could cost you up to $100, require additional programming/prototyping and custom fabrication and still not work as well! Not to mention, using repurposed smartphones is a fantastic way to reduce e-waste. You can purchase an \"old\" (3 years old) smartphone for $50 bucks and it'll do almost anything you need.You don't need to be a certified app developer to create custom software to run on your phone. You just need a web browser, (included on literally every smartphone) some familiarity with HTML/Javascript and a simple web server (code provided).This fast-paced, hands-on workshop will begin with some basic relevant networking terms/tools and then dive into a relatively simple starter example that will transform your mobile device into a wireless handheld controller. We'll learn how to stream data from any number of the hardware tools above from your phone directly into some software of your choice (TouchDesigner, Max/MSP, Ableton, Unity, Unreal, Arduino, etc.), and will save some time for experimentation and Q/A aftwards.Who is this for?\nThis class is suited for creative, curious and open-minded individuals who are comfortable with diving into new and unfamiliar tools and expanding their knowledge of what's possible. The examples covered in the workshop will be geared towards real-time multimedia performance but can absolutely be applied to any other medium/installation.\nWhat should I bring?Attendees should come with a mobile device or tablet and a computer with some creative software of your choice (TouchDesigner, Max/MSP or any OSC-enabled software recommended).To save time, come in with Node.js already installed from here: https://nodejs.org/en\nThe instructor:\nYonatan Rozin is a NY/NJ-based interactive technologist, web developer. As a relentlessly curious collaborator and prototyper, Yonatan's works often employ unconventional combinations of existing hardware and software tools. His work as the lead creative technologist for BodyMouth, a body motion-reactive speech instrument developed for transmedia playwright Kat Mustatea, was a finalist in the 2024 Guthman Musical Instrument Competition and the 2024 Lumen Prize in the “Interactive Immersive” category.Yonatan has helped create websites for organizations including NYU's Interactive Telecommunications Program and the Harvestworks Media Arts Center, and is passionate about collaborating with creative individuals and organizations. He holds a Bachelor of Music Performance from the Peabody Conservatory and a Master of Professional Studies from NYU’s Interactive Telecommunications Program, where he also completed a research residency and taught as an adjunct instructor.\n\n\nThis is a masks optional event.\nAs with all NYC Resistor events, this class is 18+ and governed by our Code of Conduct. The Code of Conduct, as well as accessibility information, can be found at www.nycresistor.com/participate/.\nPlease note that refunds must be requested 24 hours in advance. If you have any questions, please email classes@nycresistor.com.\n",
-      "startDate": "2025-04-25T18:30:00-04:00",
-      "endDate": "2025-04-25T21:30:00-04:00",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Paid",
-        "currency": "USD",
-        "details": "See event description for pricing details"
-      },
-      "capacity": null,
-      "registrationRequired": true,
-      "tags": "",
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.eventbrite.com/e/go-mobile-mobile-development-is-a-legitimate-hardware-option-tickets-1317509649829",
-        "organizer": {
-          "name": "NYCResistor",
-          "instagram": "",
-          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "NYCResistor\n87 3rd Ave\nBrooklyn, NY 11217",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false
       }
     },
     {
@@ -3768,6 +3645,47 @@
         "venue": {
           "name": "",
           "address": "NYC Resistor\n87 Third Avenue\nBrooklyn, NY 11217",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
+      "id": "evt_com_effective_altruism_nyc_3dgeao06",
+      "name": "World Malaria Day",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_effective_altruism_nyc",
+      "description": "<a href=\"https://en.wikipedia.org/wiki/World_Malaria_Day\">https://en.wikipedia.org/wiki/World_Malaria_Day</a><br><br>If you have ideas for ways to commemorate this day, send them to alexrk@effectivealtruism.nyc",
+      "startDate": "2026-04-25",
+      "endDate": "2026-04-26",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.google.com/calendar/event?eid=M2RnZWFvMDZxNHY2N2RvY2tndWk0Z29tazBfMjAyNjA0MjUgaGJ2ZXRxZjVoMXBkMG9mMHZuNnV2cGhxdHNAZw",
+        "organizer": {
+          "name": "Effective Altruism NYC Events",
+          "instagram": "",
+          "email": "hbvetqf5h1pd0of0vn6uvphqts@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "",
           "type": "Offline"
         },
         "speakers": [],

@@ -737,6 +737,47 @@
         "featured": false,
         "luma_source": false
       }
+    },
+    {
+      "id": "evt_com_effective_altruism_nyc_3dgeao06",
+      "name": "World Malaria Day",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_effective_altruism_nyc",
+      "description": "<a href=\"https://en.wikipedia.org/wiki/World_Malaria_Day\">https://en.wikipedia.org/wiki/World_Malaria_Day</a><br><br>If you have ideas for ways to commemorate this day, send them to alexrk@effectivealtruism.nyc",
+      "startDate": "2026-04-25",
+      "endDate": "2026-04-26",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.google.com/calendar/event?eid=M2RnZWFvMDZxNHY2N2RvY2tndWk0Z29tazBfMjAyNjA0MjUgaGJ2ZXRxZjVoMXBkMG9mMHZuNnV2cGhxdHNAZw",
+        "organizer": {
+          "name": "Effective Altruism NYC Events",
+          "instagram": "",
+          "email": "hbvetqf5h1pd0of0vn6uvphqts@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
     }
   ]
 }

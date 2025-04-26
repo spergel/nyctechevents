@@ -1221,6 +1221,73 @@
       }
     },
     {
+      "id": "evt_com_acid_club_6c072405",
+      "name": "aci-d trip : Kubota Loft Tour",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_acid_club",
+      "description": "​If you're here it means you're early. Still working on the description haha​-There's a saying: to understand someone, look at their home. Join us for a rare tour of the loft shared by pioneering video artist Shigeko Kubota and her partner, Nam June Paik.This loft served as the personal residence of Kubota and Paik as well as the studio where some of their most iconic works came into being. Even if you aren’t super familiar with Kubota or Paik’s work yet, I think the opportunity to visit their actual residence + studio will be at the very least a fruitful, if not generative experience.​The Kubota Foundation doesn’t typically offer weekend access, but they have made a special exception for us, aci-d club, the greatest arts crafts interface-design club within a 10 minute vicinity of the Grand street L stop.—Shigeko Kubota (1937–2015) was a video artist who fused sculpture and moving image. She is perhaps best known for being one of the first artists to embrace the medium of video in the early 1970s. She pioneeredvideo sculpture—a hybrid form merging moving images with physical structures made of plywood, metal, mirrors, and water. These works, often evoking landscapes or memorials, extended video beyond the television screen, channeling what she called “the energy of electrons” into immersive, tactile forms.​As a key figure in Fluxus and the first video curator at Anthology Film Archives (1974–1982), Kubota played a vital role in legitimizing video as an art form. Her efforts helped shift video from experimental broadcast into the gallery, establishing it as a central medium in contemporary art. Her work is held in major collections worldwide, including MoMA, the Smithsonian, and Centre Pompidou.Nam June Paik (1932-2006) is considered the \"Father of Video Art\" and is also credited with the first use of the term \"electronic super highway\" to describe the future of telecommunications. His work explored the malleable nature of technology, and its effect on our sense of self, community, and faith.",
+      "startDate": "2025-05-04T13:30:00-04:00",
+      "endDate": "2025-05-04T15:30:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "luma-event-1d56434f.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/e/evt-atzbAEaFzg7lW21",
+        "speakers": [
+          {
+            "name": "Arjun",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "aci-d club",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Arjun",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "aci-d club",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "venue": {
+          "name": "Please register to see the exact location of this event.",
+          "address": "New York, New York",
+          "type": "Online",
+          "room": "",
+          "additional_info": ""
+        },
+        "featured": false,
+        "social_links": [
+          "https://instagram.com/aci_d.club",
+          "https://x.com/aci_dclub",
+          "https://aci-d.club",
+          "https://instagram.com/aci_d.club",
+          "https://instagram.com/aci_d.club",
+          "https://x.com/aci_dclub",
+          "https://aci-d.club",
+          "https://instagram.com/aci_d.club"
+        ]
+      }
+    },
+    {
       "id": "evt_com_acid_club_f8bd9c6e",
       "name": "aci-d club weekly hang 024 *we go on hiatus after this one*",
       "type": "Tech",
@@ -1374,6 +1441,73 @@
         "venue": {
           "name": "Please register to see the exact location of this event.",
           "address": "Kings County, New York",
+          "type": "Online",
+          "room": "",
+          "additional_info": ""
+        },
+        "featured": false,
+        "social_links": [
+          "https://instagram.com/aci_d.club",
+          "https://x.com/aci_dclub",
+          "https://aci-d.club",
+          "https://instagram.com/aci_d.club",
+          "https://instagram.com/aci_d.club",
+          "https://x.com/aci_dclub",
+          "https://aci-d.club",
+          "https://instagram.com/aci_d.club"
+        ]
+      }
+    },
+    {
+      "id": "evt_com_acid_club_7a8d2dde",
+      "name": "aci-d trip : Brutalist Architecture Tour",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_acid_club",
+      "description": "​Let’s marvel at the oppressive beauty of brutalist buildings, from iconic landmarks to hidden gems. Our journey begins in Tribeca, where we’ll stroll along the west side, ending at Washington Square Park. Along the way, we’ll explore architectural wonders such as the AT&T Long Lines Building and the Salt Shed.​During our tour, we’ll delve into the history of these buildings, discussing the visionary architects behind their design, their original purposes, and how they are utilized today. We’ll also explore the challenges and triumphs faced during their construction, adding depth to our understanding of these monumental structures.​This walking tour is at street level, so be sure to wear comfortable shoes and bring along a bottle of water!Note: if you're able, paying $20 helps sustain aci-d club and makes future events possible—we’d really appreciate your support!_Liza Paganois a lifelong New Yorker and a curious Creative Director with a love for all things design. She has a fondness for wabi-sabi philosophy, brutalist architecture, and a well-worn river stone. In her spare time, you’ll find her riding her bike all over NYC, always in search of that one special block she’s never seen before—and she always finds it.",
+      "startDate": "2025-05-17T11:00:00-04:00",
+      "endDate": "2025-05-17T14:30:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "luma-event-fa74a995.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/e/evt-G6cGfw3QnQABsi8",
+        "speakers": [
+          {
+            "name": "aci-d club",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Arjun",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "aci-d club",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Arjun",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "venue": {
+          "name": "Please register to see the exact location of this event.",
+          "address": "New York, New York",
           "type": "Online",
           "room": "",
           "additional_info": ""
