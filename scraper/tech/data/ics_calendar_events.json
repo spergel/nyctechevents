@@ -1,14 +1,14 @@
 {
   "events": [
     {
-      "id": "evt_com_max_ny_5973865f",
-      "name": "Maximum New York Office Hours",
+      "id": "evt_com_max_ny_0ca56356",
+      "name": "Zellnor Myrie for NYC Mayor Fundraiser",
       "type": "Tech",
       "locationId": "loc_tbd",
       "communityId": "com_max_ny",
-      "description": "​Want to talk toDaniel(founder ofMaximum New York) about anything? Want to learn more about government at the city, state, or federal level? Want to know what you can do for a more abundant future? Grab a coffee and come to office hours!",
-      "startDate": "2025-04-26T11:30:00-04:00",
-      "endDate": "2025-04-26T14:00:00-04:00",
+      "description": "Find more information on https://lu.ma/maximumnewyork",
+      "startDate": "2025-05-01T18:00:00-04:00",
+      "endDate": "2025-05-01T19:30:00-04:00",
       "category": [
         "Tech"
       ],
@@ -21,25 +21,14 @@
       "capacity": 100,
       "registrationRequired": true,
       "tags": [],
-      "image": "luma-event-33d136c0.jpg",
+      "image": "fractal-community.jpg",
       "status": "upcoming",
       "metadata": {
-        "source_url": "https://lu.ma/g5e8bcor",
-        "speakers": [
-          {
-            "name": "Daniel Golliher",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Daniel Golliher",
-            "title": "",
-            "bio": ""
-          }
-        ],
+        "source_url": "https://lu.ma/maximumnewyork",
+        "speakers": [],
         "venue": {
-          "name": "111 Conselyea StBrooklyn, NY 11211, USA",
-          "address": "Brooklyn, NY 11211, USA",
+          "name": "",
+          "address": "",
           "type": "Offline",
           "room": "",
           "additional_info": ""
@@ -48,12 +37,7 @@
         "social_links": [
           "https://x.com/danielgolliher",
           "https://linkedin.com/in/maximumnewyork",
-          "https://maximumnewyork.com",
-          "https://x.com/danielgolliher",
-          "https://x.com/danielgolliher",
-          "https://linkedin.com/in/maximumnewyork",
-          "https://maximumnewyork.com",
-          "https://x.com/danielgolliher"
+          "https://maximumnewyork.com"
         ]
       }
     },
@@ -151,12 +135,22 @@
             "bio": ""
           },
           {
+            "name": "saumya",
+            "title": "",
+            "bio": ""
+          },
+          {
             "name": "James Q",
             "title": "",
             "bio": ""
           },
           {
             "name": "Abi Suresh",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "saumya",
             "title": "",
             "bio": ""
           }
@@ -175,11 +169,13 @@
           "https://instagram.com/mrjamesq",
           "https://x.com/mrjamesq",
           "https://instagram.com/abi_nope",
+          "https://instagram.com/saumyachoudhary_",
           "https://instagram.com/otwc_nyc",
           "https://x.com/otwc_nyc",
           "https://instagram.com/mrjamesq",
           "https://x.com/mrjamesq",
-          "https://instagram.com/abi_nope"
+          "https://instagram.com/abi_nope",
+          "https://instagram.com/saumyachoudhary_"
         ]
       }
     },
@@ -358,12 +354,22 @@
             "bio": ""
           },
           {
+            "name": "Emily G",
+            "title": "",
+            "bio": ""
+          },
+          {
             "name": "James Q",
             "title": "",
             "bio": ""
           },
           {
             "name": "Abi Suresh",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Emily G",
             "title": "",
             "bio": ""
           }
@@ -1146,6 +1152,63 @@
           "https://tiktok.com/@thirdplacebarnyc",
           "https://www.thirdplacebar.nyc",
           "https://instagram.com/thirdplacebarnyc"
+        ]
+      }
+    },
+    {
+      "id": "evt_com_genZtea_17d2a31c",
+      "name": "AAPI Gen Z Founder + Creator Pop-Up",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_genZtea",
+      "description": "​Asian Heritage Week 2025 | Manhattan​FOR THE COMMUNITY, BY THE COMMUNITY​If you're AAPI: Come celebrate your heritage at an event where your culture isn't just represented—it's revered. Connect with fellow Gen Z founders  + creators who understand your journey, share your stories over innovative boba and matcha creations, and find community in a space where your identity is celebrated, not commodified.​If you're an AAPI supporter: Step into an authentic experience curated by the next generation of Asian American and Pacific Islander innovators. This isn't cultural tourism—it's an invitation to genuinely engage with AAPI creativity, learn the stories behind each unique beverage creation, and support young entrepreneurs preserving tradition while crafting their future.​When:May 2025 during Asian Heritage WeekWhere:Manhattan (Location TBA)​Presented in partnership with Asian Heritage Week 2025 (asianheritageweek.com)",
+      "startDate": "2025-05-15T13:00:00-04:00",
+      "endDate": "2025-05-15T14:30:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "luma-event-72ba9806.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/e/evt-gni3DfEQtXEizq1",
+        "speakers": [
+          {
+            "name": "Natalie Neptune",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Natalie Neptune",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "venue": {
+          "name": "",
+          "address": "",
+          "type": "Online",
+          "room": "",
+          "additional_info": ""
+        },
+        "featured": false,
+        "social_links": [
+          "https://x.com/thegenZtea",
+          "https://linkedin.com/company/genztea",
+          "https://genztea.squarespace.com/",
+          "https://instagram.com/Yes",
+          "https://x.com/thegenZtea",
+          "https://linkedin.com/company/genztea",
+          "https://genztea.squarespace.com/",
+          "https://instagram.com/Yes"
         ]
       }
     },

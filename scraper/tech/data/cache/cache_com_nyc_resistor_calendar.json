@@ -1,47 +1,6 @@
 {
   "events": [
     {
-      "id": "evt_com_nyc_resistor_0ptmmr84",
-      "name": "Intro to RayTK: an Intermediate TouchDesigner Workshop",
-      "type": "Tech",
-      "locationId": "",
-      "communityId": "com_nyc_resistor",
-      "description": "Vaccination Proof + Mask + RSVP Required\nRSVP https://www.eventbrite.com/e/intro-to-raytk-an-intermediate-touchdesigner-workshop-tickets-1314358775479\n\nExplore RayTK's unique ability to generate infinitely repeating patterns, fractals, reflections, and more\u2014without writing a  line of code!Are you curious about creating intricate volumetric effects and mesmerizing procedural visuals in TouchDesigner but find shader programming daunting? This hands-on workshop introduces you to the powerful RayTK library, allowing you to explore RayMarching techniques without the need for GLSL. Designed for creative coders, visual artists, and interactive designers, this workshop will empower you to build complex visuals using a node-based approach in TouchDesigner.\nYou'll start with the fundamentals of RayMarching, discovering how math-based Signed Distance Functions (SDFs) redefine 3D rendering by eliminating traditional geometry. We\u2019ll dive into RayTK, a versatile library of TouchDesigner components, and explore its unique ability to generate infinitely repeating patterns, fractals, reflections, and more\u2014without writing a single line of code.\nBy the end of the workshop, you'll have a solid foundation in RayMarching, know how to design with RayTK nodes, and be able to incorporate animations, MIDI, and audio for interactive scenes. Whether you're creating dynamic patterns or multi-layered fractal landscapes, this workshop will leave you confident in pushing the boundaries of TouchDesigner\u2019s node-based editor, opening new dimensions for your creative projects.\nNote: Prior TouchDesigner experience, and TouchDesigner loaded on your own laptop are required for this class.\nThis is a masks optional event.\nAs with all NYC Resistor events, this class is 18+ and governed by our Code of Conduct. The Code of Conduct, as well as accessibility information, can be found at www.nycresistor.com/participate/.\nPlease note that refunds must be requested 24 hours in advance. If you have any questions, please email classes@nycresistor.com.\n",
-      "startDate": "2025-04-26T15:00:00-04:00",
-      "endDate": "2025-04-26T18:00:00-04:00",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": true,
-      "tags": "",
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.eventbrite.com/e/intro-to-raytk-an-intermediate-touchdesigner-workshop-tickets-1314358775479",
-        "organizer": {
-          "name": "NYCResistor",
-          "instagram": "",
-          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "NYC Resistor\n87 Third Avenue\nBrooklyn, NY 11217",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false
-      }
-    },
-    {
       "id": "evt_com_nyc_resistor_320uib7a",
       "name": "HOLD: DIY Audio",
       "type": "Tech",
@@ -2448,6 +2407,47 @@
           "name": "",
           "instagram": "",
           "email": ""
+        },
+        "venue": {
+          "name": "",
+          "address": "",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
+      "id": "evt_com_nyc_resistor_0s4b4l42",
+      "name": "Interactive Show Setup",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_nyc_resistor",
+      "description": "",
+      "startDate": "2025-06-13",
+      "endDate": "2025-06-14",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.google.com/calendar/event?eid=MHM0YjRsNDI5bWw0Mm01NTFiMHQzaG80c2kgcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw",
+        "organizer": {
+          "name": "NYCResistor",
+          "instagram": "",
+          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
         },
         "venue": {
           "name": "",

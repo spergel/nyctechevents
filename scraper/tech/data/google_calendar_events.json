@@ -1692,47 +1692,6 @@
       }
     },
     {
-      "id": "evt_com_nyc_resistor_bac78a78",
-      "name": "HOLD: RayTK class",
-      "type": "Tech",
-      "locationId": "",
-      "communityId": "com_nyc_resistor",
-      "description": "",
-      "startDate": "2025-04-26T13:00:00-04:00",
-      "endDate": "2025-04-26T15:00:00-04:00",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": "",
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.google.com/calendar/event?eid=YmFjNzhhNzhlYzhlNGRkZjk1ZWY5YmFkZDk2MjgyY2UgcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw",
-        "organizer": {
-          "name": "NYCResistor",
-          "instagram": "",
-          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false
-      }
-    },
-    {
       "id": "evt_com_nyc_resistor_59jqljs6",
       "name": "HOLD: Meal Prep",
       "type": "Tech",
@@ -2355,47 +2314,6 @@
       }
     },
     {
-      "id": "evt_com_telos_6l1b1p2r",
-      "name": "Jamland",
-      "type": "Tech",
-      "locationId": "",
-      "communityId": "com_telos",
-      "description": "",
-      "startDate": "2025-04-26T13:00:00-04:00",
-      "endDate": "2025-04-26T19:00:00-04:00",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": "",
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.google.com/calendar/event?eid=NmwxYjFwMnI2bWswNnQxams2dWFnc2xrNzIgZDU5NmMyYmY3MjExODNkMjJiYjUwYmRlNjYyNTA5MGZjMzkyM2FhMjlhNjkxOGQ3ODQwOWUxNjhkYTc5MTc2OUBn",
-        "organizer": {
-          "name": "telos.haus events",
-          "instagram": "",
-          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false
-      }
-    },
-    {
       "id": "evt_com_telos_6oee0q77",
       "name": "Intro to Handbuilding with Clay",
       "type": "Tech",
@@ -2560,47 +2478,6 @@
       }
     },
     {
-      "id": "evt_com_nyc_resistor_0ptmmr84",
-      "name": "Intro to RayTK: an Intermediate TouchDesigner Workshop",
-      "type": "Tech",
-      "locationId": "",
-      "communityId": "com_nyc_resistor",
-      "description": "Vaccination Proof + Mask + RSVP Required\nRSVP https://www.eventbrite.com/e/intro-to-raytk-an-intermediate-touchdesigner-workshop-tickets-1314358775479\n\nExplore RayTK's unique ability to generate infinitely repeating patterns, fractals, reflections, and more—without writing a  line of code!Are you curious about creating intricate volumetric effects and mesmerizing procedural visuals in TouchDesigner but find shader programming daunting? This hands-on workshop introduces you to the powerful RayTK library, allowing you to explore RayMarching techniques without the need for GLSL. Designed for creative coders, visual artists, and interactive designers, this workshop will empower you to build complex visuals using a node-based approach in TouchDesigner.\nYou'll start with the fundamentals of RayMarching, discovering how math-based Signed Distance Functions (SDFs) redefine 3D rendering by eliminating traditional geometry. We’ll dive into RayTK, a versatile library of TouchDesigner components, and explore its unique ability to generate infinitely repeating patterns, fractals, reflections, and more—without writing a single line of code.\nBy the end of the workshop, you'll have a solid foundation in RayMarching, know how to design with RayTK nodes, and be able to incorporate animations, MIDI, and audio for interactive scenes. Whether you're creating dynamic patterns or multi-layered fractal landscapes, this workshop will leave you confident in pushing the boundaries of TouchDesigner’s node-based editor, opening new dimensions for your creative projects.\nNote: Prior TouchDesigner experience, and TouchDesigner loaded on your own laptop are required for this class.\nThis is a masks optional event.\nAs with all NYC Resistor events, this class is 18+ and governed by our Code of Conduct. The Code of Conduct, as well as accessibility information, can be found at www.nycresistor.com/participate/.\nPlease note that refunds must be requested 24 hours in advance. If you have any questions, please email classes@nycresistor.com.\n",
-      "startDate": "2025-04-26T15:00:00-04:00",
-      "endDate": "2025-04-26T18:00:00-04:00",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": true,
-      "tags": "",
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.eventbrite.com/e/intro-to-raytk-an-intermediate-touchdesigner-workshop-tickets-1314358775479",
-        "organizer": {
-          "name": "NYCResistor",
-          "instagram": "",
-          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "NYC Resistor\n87 Third Avenue\nBrooklyn, NY 11217",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false
-      }
-    },
-    {
       "id": "evt_com_nyc_resistor_lri68omv",
       "name": "Machine Embroidery with Ink/Stitch – Hands-On Workshop!",
       "type": "Tech",
@@ -2725,11 +2602,11 @@
     },
     {
       "id": "evt_com_verci__clr78ba",
-      "name": "Verci Founder Pasta-Making Dinner w/ Google Cloud",
+      "name": "Founders' Fest: Verci Founders Pasta-Making Dinner w/ Google Cloud",
       "type": "Tech",
       "locationId": "",
       "communityId": "com_verci",
-      "description": "​Join us for an curated pasta-making workshop and dinner that brings founders together to knead, create, and connect!Experience an unforgettable evening of culinary craftsmanship and wine, meaningful conversations with fellow founders, and enjoying a family-style pasta dinner in Verci's intimate Flatiron space.​Space is limited to ensure a personal, collaborative experience. Acceptance guarentees entrance.​Google Cloudis a suite of public cloud computing services offered by Google, providing a wide range of hosted solutions for computing, storage, machine learning, big data analytics, networking, and application development that run on Google’s global infrastructure.​Verciis a community for founders, creatives, and operators based in Flatiron.",
+      "description": "​Founders' Fest is an exclusive event that brings founders together to level up your startup with Google Cloud!  Join us for an curated pasta-making workshop with wine pairing that brings founders together to knead, create, and connect!Experience an unforgettable evening of culinary craftsmanship and wine, meaningful conversations with fellow founders, and enjoying a family-style pasta dinner in Verci's intimate Flatiron space.​Space is limited to ensure a personal, collaborative experience. Acceptance guarentees entrance.​Google Cloudis a suite of public cloud computing services offered by Google, providing a wide range of hosted solutions for computing, storage, AI/ML, big data analytics, networking, and application development that run on Google’s global infrastructure.​Verciis a community for founders, creatives, and operators based in Flatiron.",
       "startDate": "2025-05-15T22:00:00Z",
       "endDate": "2025-05-16T00:30:00Z",
       "category": [
@@ -2744,7 +2621,7 @@
       "capacity": null,
       "registrationRequired": false,
       "tags": "",
-      "image": "luma-event-4ae50558.jpg",
+      "image": "luma-event-ad16d444.jpg",
       "status": "upcoming",
       "metadata": {
         "source_url": "https://lu.ma/tldlk2e6",
@@ -2835,47 +2712,6 @@
         "venue": {
           "name": "",
           "address": "NYC Resistor\n87 Third Ave, FL 4, Brooklyn, NY  11217, United States",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false
-      }
-    },
-    {
-      "id": "evt_com_effective_altruism_nyc_t2rnrtl9",
-      "name": "Community Dim Sum (Manhattan)",
-      "type": "Tech",
-      "locationId": "",
-      "communityId": "com_effective_altruism_nyc",
-      "description": "Please use this link to officially sign up - you will not receive registration details unless you fill out this quick Airtable form - https://bit.ly/4j3u1eX\n\nMeetup link: https://www.meetup.com/effective-altruism-nyc/events/302416247/\n\nEventbrite link: https://www.eventbrite.com/e/effective-altruism-nyc-community-dim-sum-manhattan-tickets-954482953207\n\n*TO REQUEST A SPOT, PLEASE COMPLETE 2-STEP REGISTRATION PROCESS*\n\n- All are welcome!\n- Cost per meal: variable, likely $25-$30\n    - If you’d like to attend but have any concerns, please get in touch with Megan <megan@effectivealtruism.nyc>\n\nJoin for an EA NYC community favorite: tasty and affordable vegan dim sum!\n\nLocation will be confirmed when your attendance is confirmed, following the registration process.\n\nAll are welcome to join (regardless of whether or not you wish to eat)! For those eating, food usually ranges from $25-$30 each for a feast. Since this is indoors, please be mindful of any potential flu/illness symptoms and our COVID policy (listed below).\n\nPlease register here to attend (required) - https://bit.ly/4j3u1eX\n\n\n\n\n\n****\n\nEA NYC:\nPlease find all EA NYC event information - including our Code of Conduct, food policy, covid policy, and information on past and future events - here on our website: https://www.effectivealtruism.nyc/events\n\nYou can also find us on Facebook, Meetup, and Eventbrite!\nhttp://facebook.com/groups/eanyc/events\nhttps://www.meetup.com/effective-altruism-nyc/events/\nhttps://www.eventbrite.com/o/effective-altruism-nyc-55938838923\n\nFor those new to effective altruism, here are a couple of good introductions. In short, EA is about using evidence to carefully analyze how, given limited resources, we can help others the *most*.\nhttps://www.youtube.com/watch?v=48VAQtGmfWY",
-      "startDate": "2025-04-26T13:00:00-04:00",
-      "endDate": "2025-04-26T15:00:00-04:00",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Paid",
-        "currency": "USD",
-        "details": "See event description for pricing details"
-      },
-      "capacity": null,
-      "registrationRequired": true,
-      "tags": "",
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.eventbrite.com/e/effective-altruism-nyc-community-dim-sum-manhattan-tickets-954482953207",
-        "organizer": {
-          "name": "Effective Altruism NYC Events",
-          "instagram": "",
-          "email": "hbvetqf5h1pd0of0vn6uvphqts@group.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "In-Person Event (Chinatown) - register for location details",
           "type": "Offline"
         },
         "speakers": [],
@@ -3377,7 +3213,17 @@
             "bio": ""
           },
           {
+            "name": "Dylan Itzikowitz",
+            "title": "",
+            "bio": ""
+          },
+          {
             "name": "South Park Commons",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Dylan Itzikowitz",
             "title": "",
             "bio": ""
           }
@@ -3390,13 +3236,15 @@
           "https://www.southparkcommons.com/",
           "https://instagram.com/southparkcommons",
           "https://x.com/southpkcommons",
+          "https://x.com/ditzikow",
           "https://instagram.com/southparkcommons",
           "https://x.com/southpkcommons",
           "https://youtube.com/@southparkcommons",
           "https://linkedin.com/company/southparkcommons",
           "https://www.southparkcommons.com/",
           "https://instagram.com/southparkcommons",
-          "https://x.com/southpkcommons"
+          "https://x.com/southpkcommons",
+          "https://x.com/ditzikow"
         ],
         "featured": false,
         "luma_source": true
@@ -3682,6 +3530,47 @@
           "name": "Effective Altruism NYC Events",
           "instagram": "",
           "email": "hbvetqf5h1pd0of0vn6uvphqts@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
+      "id": "evt_com_nyc_resistor_0s4b4l42",
+      "name": "Interactive Show Setup",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_nyc_resistor",
+      "description": "",
+      "startDate": "2025-06-13",
+      "endDate": "2025-06-14",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.google.com/calendar/event?eid=MHM0YjRsNDI5bWw0Mm01NTFiMHQzaG80c2kgcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw",
+        "organizer": {
+          "name": "NYCResistor",
+          "instagram": "",
+          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
         },
         "venue": {
           "name": "",

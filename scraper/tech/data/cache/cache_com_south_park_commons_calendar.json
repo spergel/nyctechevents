@@ -186,7 +186,17 @@
             "bio": ""
           },
           {
+            "name": "Dylan Itzikowitz",
+            "title": "",
+            "bio": ""
+          },
+          {
             "name": "South Park Commons",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Dylan Itzikowitz",
             "title": "",
             "bio": ""
           }
@@ -199,13 +209,15 @@
           "https://www.southparkcommons.com/",
           "https://instagram.com/southparkcommons",
           "https://x.com/southpkcommons",
+          "https://x.com/ditzikow",
           "https://instagram.com/southparkcommons",
           "https://x.com/southpkcommons",
           "https://youtube.com/@southparkcommons",
           "https://linkedin.com/company/southparkcommons",
           "https://www.southparkcommons.com/",
           "https://instagram.com/southparkcommons",
-          "https://x.com/southpkcommons"
+          "https://x.com/southpkcommons",
+          "https://x.com/ditzikow"
         ],
         "featured": false,
         "luma_source": true
