@@ -1,129 +1,6 @@
 {
   "events": [
     {
-      "id": "evt_com_nyc_resistor_320uib7a",
-      "name": "HOLD: DIY Audio",
-      "type": "Tech",
-      "locationId": "",
-      "communityId": "com_nyc_resistor",
-      "description": "",
-      "startDate": "2025-04-27T13:00:00-04:00",
-      "endDate": "2025-04-27T16:00:00-04:00",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": "",
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.google.com/calendar/event?eid=MzIwdWliN2F0NTRzZGoydjFkczRrN285MG8gcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw",
-        "organizer": {
-          "name": "NYCResistor",
-          "instagram": "",
-          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false
-      }
-    },
-    {
-      "id": "evt_com_nyc_resistor_i3p5455v",
-      "name": "diyaudio.nyc April Meetup",
-      "type": "Tech",
-      "locationId": "",
-      "communityId": "com_nyc_resistor",
-      "description": "Vaccination Proof + Mask + RSVP Required\nRSVP https://www.eventbrite.com/e/diyaudionyc-april-meetup-tickets-1313377630849\n\nResistor hosts a meetup for the diyaudio.nyc group, and invites anyone to come learn about making your own home audio gear.diyaudio.nyc has regular meetups to share recent DIY projects (speakers, amps, preamps, tubes and solid state - anything home-audio related), as well as talks and demos on related topics and skills (how to solder, how digital crossovers work, fabrication techniques, digital room correction, etc). Building your own gear doesn't have to be a solitary hobby anymore... has regular meetups to share recent DIY audio projects (speakers, amps, DACs, etc - anything home-audio related), as well as talks and demos on related topics and skills (how to solder, how digital crossovers work, fabrication techniques, digital room correction, etc).\nThis month we're going to talk about repairs, and cover the basics that anyone who's contracted this audio illness should know - we're talking weekend projects that don't need sophisticated equipment.(Things like refoaming speakers, cleaning scratchy volume pots, repairing cables, replacing capacitors, etc.)Do you have a brief demo you can share? Let us know at diyaudio@gowanusaudio.com and we'll add it to the list.\n(If history is any guide, at the end of the meetup some of us will want to keep talking about projects and we'll move to a bar nearby - join us!)\nWho should come?\nOpen to anyone interested in DIY home audio who wants to learn and make some new friends - all experience levels welcome. If you've ever wanted to build any audio gear, we're here for you. (We generally don't focus on production, live sound, musical instruments, or making music, although there certainly is some overlap.)\nNote from the organizer, Pete:\nI started diyaudio.nyc a couple years ago because I wanted to meet some like-minded folks near me - I knew they were out there. And they are! Thank you for being a part! Let's grow this group! These days, for me, it's all audio all the time - I work as a Buyer for The Music Room buying high end audio equipment, and also offer complete classes to build your own equipment as Gowanus Audio.\nThis is a masks optional event.\nAs with all NYC Resistor events, this class is 18+ and governed by our Code of Conduct. The Code of Conduct, as well as accessibility information, can be found at www.nycresistor.com/participate/. If you have any questions, please email classes@nycresistor.com\n",
-      "startDate": "2025-04-27T13:00:00-04:00",
-      "endDate": "2025-04-27T16:00:00-04:00",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": true,
-      "tags": "",
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.eventbrite.com/e/diyaudionyc-april-meetup-tickets-1313377630849",
-        "organizer": {
-          "name": "NYCResistor",
-          "instagram": "",
-          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "NYC Resistor\n87 Third Avenue\nBrooklyn, NY 11217",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false
-      }
-    },
-    {
-      "id": "evt_com_nyc_resistor_98rrg41f",
-      "name": "Meal Prep 101: Thai 2!",
-      "type": "Tech",
-      "locationId": "",
-      "communityId": "com_nyc_resistor",
-      "description": "Vaccination Proof + Mask + RSVP Required\nRSVP https://www.eventbrite.com/e/meal-prep-101-thai-2-tickets-1304760988239\n\nHey there! Join us for Meal Prep 101: Thai 2! where we'll be trying out new recipes and techniques for easy, delicious meal prepping!Meal Prep 101: Thai 2\nDate: Apr 27, 2025\nTime: 5PM EST\nLocation: NYC Resistor\nJoin the Discussion/What do You Want To Cook: https://discord.gg/NtdYJrjk\nWelcome to Meal Prep 101: Thai 2! The thesis of this series is to teach and practice basic knife skills, increase comfortability in the kitchen, and develop knowledge of flavor combinations, portion-size, produce selection, and active refrigerator inventory to better feed oneself with healthy, delicious, and affordable meals.\nEach class will take home between 3 and 8 portions of pre-prepared, or low-effort meals along with spice blends, marinates, and other kitchen essentials to make cooking easier and better at home.\nMeals will center around vegetables. Groceries will be PROVIDED with RSVP.\nPlease discuss for other dietary restrictions or allergies before attending. We will do our best to accommodate.\nMenu:\nThai CurryMushroom PrepCabbage Stir FryGreen Papaya Salad (possible sub for seasonality)TBDMasks optional\nPaypal/Zelle is under phone number 631 371 1168 (Tix 85$)\nVenmo is @winston-chiang\nInstagram is @ouroboros.in.reverse\n",
-      "startDate": "2025-04-27T17:00:00-04:00",
-      "endDate": "2025-04-27T20:00:00-04:00",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Paid",
-        "currency": "USD",
-        "details": "See event description for pricing details"
-      },
-      "capacity": null,
-      "registrationRequired": true,
-      "tags": "",
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.eventbrite.com/e/meal-prep-101-thai-2-tickets-1304760988239",
-        "organizer": {
-          "name": "NYCResistor",
-          "instagram": "",
-          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "NYCResistor\n87 3rd Ave\nBrooklyn, NY 11217",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false
-      }
-    },
-    {
       "id": "evt_com_nyc_resistor_sf181ee0",
       "name": "NYCR Craft Night",
       "type": "Tech",
@@ -4088,6 +3965,129 @@
           "name": "",
           "instagram": "",
           "email": ""
+        },
+        "venue": {
+          "name": "",
+          "address": "",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
+      "id": "evt_com_nyc_resistor__852k6d9",
+      "name": "",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_nyc_resistor",
+      "description": "",
+      "startDate": "2025-07-29T11:00:00-04:00",
+      "endDate": "2025-07-29T15:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.google.com/calendar/event?eid=Xzg1Mms2ZDlnNmgzNDJiOWc4OHEzNGI5azZoMjMyYmEyOGQzMzhiYTY2NG8zZ2U5bDc0bzQ4Z3BnNm9fMjAyNTA3MjlUMTUwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn",
+        "organizer": {
+          "name": "",
+          "instagram": "",
+          "email": ""
+        },
+        "venue": {
+          "name": "",
+          "address": "",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
+      "id": "evt_com_nyc_resistor_09ardtd3",
+      "name": "Fire Extinguisher Health Check",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_nyc_resistor",
+      "description": "https://blink.ucsd.edu/safety/fire/extinguisher/inspection.html",
+      "startDate": "2025-07-29T21:00:00-04:00",
+      "endDate": "2025-07-29T22:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.google.com/calendar/event?eid=MDlhcmR0ZDNlbHY0NjZiNGlhazkyamsxbmVfMjAyNTA3MzBUMDEwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn",
+        "organizer": {
+          "name": "",
+          "instagram": "",
+          "email": "opn.address@gmail.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "NYC Resistor, 87 3rd Ave, Brooklyn, NY 11217, USA",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
+      "id": "evt_com_nyc_resistor_3u52iogs",
+      "name": "NYCR Craft Night",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_nyc_resistor",
+      "description": "<u></u><p>NYC Resistor is open to the public for Craft Nights now every Monday and Thursday from 6:30-9:30 PM! Come bring your current crafting project and work on it with other artists, crafters, and makers of all kinds. Resistors do everything from costumes to electronics to visual arts to woodworking; people and crafting projects of all sorts are enthusiastically welcome!</p><p>RSVP at<span> <a href=\"https://www.google.com/url?q=https://www.eventbrite.com/e/public-craft-night-mondays-and-thursdays-tickets-162729866411&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw2GxlHrVKU2UOWuOdKbNOj5\" target=\"_blank\">https://www.eventbrite.com/e/public-craft-night-mondays-and-thursdays-tickets-162729866411</a></span> is appreciated but not required, for covid contact-tracing purposes.<br></p>This event like all NYC Resistor events is 18 and over and governed by out code of conduct. <br><br>More information: <a href=\"https://www.google.com/url?q=http://www.nycresistor.com/participate/&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw2qoLIc6c_Ay1xuc_FYjEZH\" target=\"_blank\">http://www.nycresistor.com/participate/</a><br>NYC Resistor Code of Conduct: <a href=\"https://www.google.com/url?q=http://www.nycresistor.com/2015/08/04/nyc-resistor-code-of-conduct/&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw1hCVO6yP0-Y--CtV5nrIw_\" target=\"_blank\">http://www.nycresistor.com/2015/08/04/nyc-resistor-code-of-conduct/</a><u></u><u></u><u></u><u></u><u></u>",
+      "startDate": "2025-07-31T18:30:00-04:00",
+      "endDate": "2025-07-31T21:30:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": true,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.eventbrite.com/e/public-craft-night-mondays-and-thursdays-tickets-162729866411&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw2GxlHrVKU2UOWuOdKbNOj5\"",
+        "organizer": {
+          "name": "NYCResistor",
+          "instagram": "",
+          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
         },
         "venue": {
           "name": "",

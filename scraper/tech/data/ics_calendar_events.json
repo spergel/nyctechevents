@@ -397,75 +397,6 @@
       }
     },
     {
-      "id": "evt_com_otwc_501f87d1",
-      "name": "OTWC Season 6: Part IV",
-      "type": "Tech",
-      "locationId": "loc_tbd",
-      "communityId": "com_otwc",
-      "description": "​​​​OTWC is an NYC-based writing community for online writers to write, exchange ideas, and get inspired. Our sessions look like this:​​​​​​​​​​​1. ​​​Introduce yourselves and talk about what you plan to write2. ​​​Focused writing session3. ​​​Get together in small groups and discuss how the session went​​​​​​​​​​​Snacks and drinks will be provided!​​​​​​​​​​If this price is too steep for you for any reason, email us by clicking \"Contact the Host\" on the left and we’ll give you a pay-what-you-can ticket.​​​​​​​​​​​Follow us on Twitter and Instagram @otwc_nyc to stay updated on future events and announcements!​​​​​​​​​​​Hope to see you there 🥳",
-      "startDate": "2025-04-27T10:00:00-04:00",
-      "endDate": "2025-04-27T13:00:00-04:00",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": 100,
-      "registrationRequired": true,
-      "tags": [],
-      "image": "luma-event-9d9dccf2.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://lu.ma/e/evt-0TEDpQ3blDAqPWe",
-        "speakers": [
-          {
-            "name": "James Q",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Abi Suresh",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "James Q",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Abi Suresh",
-            "title": "",
-            "bio": ""
-          }
-        ],
-        "venue": {
-          "name": "Please register to see the exact location of this event.",
-          "address": "New York, New York",
-          "type": "Online",
-          "room": "",
-          "additional_info": ""
-        },
-        "featured": false,
-        "social_links": [
-          "https://instagram.com/otwc_nyc",
-          "https://x.com/otwc_nyc",
-          "https://instagram.com/mrjamesq",
-          "https://x.com/mrjamesq",
-          "https://instagram.com/abi_nope",
-          "https://instagram.com/otwc_nyc",
-          "https://x.com/otwc_nyc",
-          "https://instagram.com/mrjamesq",
-          "https://x.com/mrjamesq",
-          "https://instagram.com/abi_nope"
-        ]
-      }
-    },
-    {
       "id": "evt_com_otwc_d8537af0",
       "name": "OTWC Season 6: Part VII",
       "type": "Tech",
@@ -502,12 +433,22 @@
             "bio": ""
           },
           {
+            "name": "Samika Parab",
+            "title": "",
+            "bio": ""
+          },
+          {
             "name": "James Q",
             "title": "",
             "bio": ""
           },
           {
             "name": "Abi Suresh",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Samika Parab",
             "title": "",
             "bio": ""
           }
@@ -571,12 +512,22 @@
             "bio": ""
           },
           {
+            "name": "Tommy Heller",
+            "title": "",
+            "bio": ""
+          },
+          {
             "name": "James Q",
             "title": "",
             "bio": ""
           },
           {
             "name": "Abi Suresh",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Tommy Heller",
             "title": "",
             "bio": ""
           }
@@ -595,11 +546,13 @@
           "https://instagram.com/mrjamesq",
           "https://x.com/mrjamesq",
           "https://instagram.com/abi_nope",
+          "https://instagram.com/tommy_heller",
           "https://instagram.com/otwc_nyc",
           "https://x.com/otwc_nyc",
           "https://instagram.com/mrjamesq",
           "https://x.com/mrjamesq",
-          "https://instagram.com/abi_nope"
+          "https://instagram.com/abi_nope",
+          "https://instagram.com/tommy_heller"
         ]
       }
     },
@@ -1156,14 +1109,14 @@
       }
     },
     {
-      "id": "evt_com_genZtea_17d2a31c",
+      "id": "evt_com_genZtea_a38d6ad1",
       "name": "AAPI Gen Z Founder + Creator Pop-Up",
       "type": "Tech",
       "locationId": "loc_tbd",
       "communityId": "com_genZtea",
       "description": "​Asian Heritage Week 2025 | Manhattan​FOR THE COMMUNITY, BY THE COMMUNITY​If you're AAPI: Come celebrate your heritage at an event where your culture isn't just represented—it's revered. Connect with fellow Gen Z founders  + creators who understand your journey, share your stories over innovative boba and matcha creations, and find community in a space where your identity is celebrated, not commodified.​If you're an AAPI supporter: Step into an authentic experience curated by the next generation of Asian American and Pacific Islander innovators. This isn't cultural tourism—it's an invitation to genuinely engage with AAPI creativity, learn the stories behind each unique beverage creation, and support young entrepreneurs preserving tradition while crafting their future.​When:May 2025 during Asian Heritage WeekWhere:Manhattan (Location TBA)​Presented in partnership with Asian Heritage Week 2025 (asianheritageweek.com)",
-      "startDate": "2025-05-15T13:00:00-04:00",
-      "endDate": "2025-05-15T14:30:00-04:00",
+      "startDate": "2025-05-15T15:00:00-04:00",
+      "endDate": "2025-05-15T16:30:00-04:00",
       "category": [
         "Tech"
       ],
@@ -1176,7 +1129,7 @@
       "capacity": 100,
       "registrationRequired": true,
       "tags": [],
-      "image": "luma-event-72ba9806.jpg",
+      "image": "luma-event-8dc07904.jpg",
       "status": "upcoming",
       "metadata": {
         "source_url": "https://lu.ma/e/evt-gni3DfEQtXEizq1",
@@ -1187,7 +1140,17 @@
             "bio": ""
           },
           {
+            "name": "Emmy",
+            "title": "",
+            "bio": ""
+          },
+          {
             "name": "Natalie Neptune",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Emmy",
             "title": "",
             "bio": ""
           }

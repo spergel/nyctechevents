@@ -1,51 +1,6 @@
 {
   "events": [
     {
-      "id": "evt_com_fractal__cdgmopb",
-      "name": "Code & Coffee",
-      "type": "Tech",
-      "locationId": "",
-      "communityId": "com_fractal",
-      "description": "Find more information on https://lu.ma/nyc-tech",
-      "startDate": "2025-04-27T18:00:00Z",
-      "endDate": "2025-04-27T21:00:00Z",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": "",
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://lu.ma/nyc-tech",
-        "organizer": {
-          "name": "Fractal Tech: NYC",
-          "instagram": "",
-          "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "https://www.meetup.com/new-york-code-coffee/",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [
-          "https://instagram.com/fractaltechnyc",
-          "https://x.com/fractaltechnyc",
-          "https://fractaltechhub.com"
-        ],
-        "featured": false,
-        "luma_source": true
-      }
-    },
-    {
       "id": "evt_com_fractal__clr78b9",
       "name": "BuildHub #3 - 3D Modelling CAD Workshop in Zen Monk Mode",
       "type": "Tech",
