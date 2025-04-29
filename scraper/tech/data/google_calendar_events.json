@@ -658,93 +658,6 @@
       }
     },
     {
-      "id": "evt_com_fractal__clr78b9",
-      "name": "BuildHub #3 - 3D Modelling CAD Workshop in Zen Monk Mode",
-      "type": "Tech",
-      "locationId": "loc_fractal",
-      "communityId": "com_fractal",
-      "description": "​Have the knack to design your own mechanical products and 3D print them? Unsure where to start? Fear not.​​​HI! I'mSuraj Kumarand I can teach you how to become a maker in five days. I was the Chief Engineer of Sherpy, a drone startup that manufactured small, long-range airplanes for commercial delivery (sherpymedia.com). I now founded a neurotech startup (Cerelog.com).There are a lot of visionaries and hackers around in New York City, but materializing an idea can be quite the wall to climb! What are the real-world constraints to pay attention to when designing something? Where's the space where you can build things fast and get great advice?!​​This is a small-group, high attention workshop, targeting 10 creative people who have the itch to create things.Light on theory, heavy on practice!​​WHAT YOU'LL DO​​Get familiar with Fusion360!​​​​Design your own custom spray bottle using Fusion360. Use it for cleaning around your house/pranking your dog!​​​​We provide the nozzle and tube—you design the rest!​​​​3D print your creation on the high performance Bambu X1 Carbon printer​​​​DETAILS​​​​Five-day workshop (~3 hrs per session)​​Mon - Fri​​​​Professional guidance from an experienced engineer​​​​Learn to navigate Fusion360 and think like a designer​​​​REGISTRATION​​​$100 / person for the 4 days​​​​Limited spots available​​​​Reserve your seat today!​​Your Host:​​​​Suraj Kumar, Mechanical Engineer with years of Fusion360 experience​​​​*thank you tofractal techfor hosting us!*Contact at surajratnam99@gmail.com",
-      "startDate": "2025-04-28T22:00:00Z",
-      "endDate": "2025-04-29T01:00:00Z",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": "",
-      "image": "luma-event-4f845869.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://lu.ma/ykxtq7jd",
-        "organizer": {
-          "name": "Fractal Tech: NYC",
-          "instagram": "",
-          "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
-        },
-        "venue": {
-          "name": "Fractal Tech",
-          "address": "111 Conselyea St, Brooklyn, NY 11211",
-          "type": "Offline"
-        },
-        "speakers": [
-          {
-            "name": "Suraj Kumar",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Jake Zegil",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Chandiran",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Suraj Kumar",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Jake Zegil",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Chandiran",
-            "title": "",
-            "bio": ""
-          }
-        ],
-        "social_links": [
-          "https://instagram.com/fractaltechnyc",
-          "https://x.com/fractaltechnyc",
-          "https://fractaltechhub.com",
-          "https://instagram.com/surajimop",
-          "https://x.com/surkumference",
-          "https://x.com/JakeZegil",
-          "https://x.com/patxnoir",
-          "https://instagram.com/fractaltechnyc",
-          "https://x.com/fractaltechnyc",
-          "https://fractaltechhub.com",
-          "https://instagram.com/surajimop",
-          "https://x.com/surkumference",
-          "https://x.com/JakeZegil",
-          "https://x.com/patxnoir"
-        ],
-        "featured": false,
-        "luma_source": true
-      }
-    },
-    {
       "id": "evt_com_telos_d269plpk",
       "name": "aci-d club weekly hang",
       "type": "Tech",
@@ -1452,8 +1365,8 @@
       "locationId": "",
       "communityId": "com_nyc_resistor",
       "description": "",
-      "startDate": "2025-07-24T20:00:00-04:00",
-      "endDate": "2025-07-24T21:00:00-04:00",
+      "startDate": "2025-07-31T20:00:00-04:00",
+      "endDate": "2025-07-31T21:00:00-04:00",
       "category": [
         "Tech"
       ],
@@ -1469,7 +1382,7 @@
       "image": "",
       "status": "upcoming",
       "metadata": {
-        "source_url": "https://www.google.com/calendar/event?eid=MjExbXBpazAwdXQ4MTVrZ3FuMjExcm8wcTJfMjAyNTA3MjVUMDAwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn",
+        "source_url": "https://www.google.com/calendar/event?eid=MjExbXBpazAwdXQ4MTVrZ3FuMjExcm8wcTJfMjAyNTA4MDFUMDAwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn",
         "organizer": {
           "name": "",
           "instagram": "",
@@ -3046,93 +2959,6 @@
       }
     },
     {
-      "id": "evt_com_sidequest__clr78b9",
-      "name": "BuildHub #3 - 3D Modelling CAD Workshop in Zen Monk Mode",
-      "type": "Tech",
-      "locationId": "loc_fractal",
-      "communityId": "com_sidequest",
-      "description": "​Have the knack to design your own mechanical products and 3D print them? Unsure where to start? Fear not.​​​HI! I'mSuraj Kumarand I can teach you how to become a maker in five days. I was the Chief Engineer of Sherpy, a drone startup that manufactured small, long-range airplanes for commercial delivery (sherpymedia.com). I now founded a neurotech startup (Cerelog.com).There are a lot of visionaries and hackers around in New York City, but materializing an idea can be quite the wall to climb! What are the real-world constraints to pay attention to when designing something? Where's the space where you can build things fast and get great advice?!​​This is a small-group, high attention workshop, targeting 10 creative people who have the itch to create things.Light on theory, heavy on practice!​​WHAT YOU'LL DO​​Get familiar with Fusion360!​​​​Design your own custom spray bottle using Fusion360. Use it for cleaning around your house/pranking your dog!​​​​We provide the nozzle and tube—you design the rest!​​​​3D print your creation on the high performance Bambu X1 Carbon printer​​​​DETAILS​​​​Five-day workshop (~3 hrs per session)​​Mon - Fri​​​​Professional guidance from an experienced engineer​​​​Learn to navigate Fusion360 and think like a designer​​​​REGISTRATION​​​$100 / person for the 4 days​​​​Limited spots available​​​​Reserve your seat today!​​Your Host:​​​​Suraj Kumar, Mechanical Engineer with years of Fusion360 experience​​​​*thank you tofractal techfor hosting us!*Contact at surajratnam99@gmail.com",
-      "startDate": "2025-04-28T22:00:00Z",
-      "endDate": "2025-04-29T01:00:00Z",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": "",
-      "image": "luma-event-4f845869.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://lu.ma/ykxtq7jd",
-        "organizer": {
-          "name": "SideQuest",
-          "instagram": "",
-          "email": "abln66abl799vb4gprllu4225l744l70@import.calendar.google.com"
-        },
-        "venue": {
-          "name": "Fractal Tech",
-          "address": "111 Conselyea St, Brooklyn, NY 11211",
-          "type": "Offline"
-        },
-        "speakers": [
-          {
-            "name": "Suraj Kumar",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Jake Zegil",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Chandiran",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Suraj Kumar",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Jake Zegil",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Chandiran",
-            "title": "",
-            "bio": ""
-          }
-        ],
-        "social_links": [
-          "https://instagram.com/fractaltechnyc",
-          "https://x.com/fractaltechnyc",
-          "https://fractaltechhub.com",
-          "https://instagram.com/surajimop",
-          "https://x.com/surkumference",
-          "https://x.com/JakeZegil",
-          "https://x.com/patxnoir",
-          "https://instagram.com/fractaltechnyc",
-          "https://x.com/fractaltechnyc",
-          "https://fractaltechhub.com",
-          "https://instagram.com/surajimop",
-          "https://x.com/surkumference",
-          "https://x.com/JakeZegil",
-          "https://x.com/patxnoir"
-        ],
-        "featured": false,
-        "luma_source": true
-      }
-    },
-    {
       "id": "evt_com_telos_3gm2aapt",
       "name": "USB of Death",
       "type": "Tech",
@@ -3362,6 +3188,47 @@
       "status": "upcoming",
       "metadata": {
         "source_url": "https://www.google.com/calendar/event?eid=MHM0YjRsNDI5bWw0Mm01NTFiMHQzaG80c2kgcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw",
+        "organizer": {
+          "name": "NYCResistor",
+          "instagram": "",
+          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
+      "id": "evt_com_nyc_resistor_6lijgd9k",
+      "name": "HOLD: Migrate From X (David)",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_nyc_resistor",
+      "description": "",
+      "startDate": "2025-05-25T17:00:00-04:00",
+      "endDate": "2025-05-25T18:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.google.com/calendar/event?eid=NmxpamdkOWs3MHAzZWI5ajc1aDNjYjlrNnNyMzZiYjE2NWdtNGI5bTY4cTM2Y2hvY2dwM2VwOXA2OCBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn",
         "organizer": {
           "name": "NYCResistor",
           "instagram": "",

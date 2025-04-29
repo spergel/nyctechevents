@@ -1,93 +1,6 @@
 {
   "events": [
     {
-      "id": "evt_com_fractal__clr78b9",
-      "name": "BuildHub #3 - 3D Modelling CAD Workshop in Zen Monk Mode",
-      "type": "Tech",
-      "locationId": "loc_fractal",
-      "communityId": "com_fractal",
-      "description": "\u200bHave the knack to design your own mechanical products and 3D print them? Unsure where to start? Fear not.\u200b\u200b\u200bHI! I'mSuraj Kumarand I can teach you how to become a maker in five days. I was the Chief Engineer of Sherpy, a drone startup that manufactured small, long-range airplanes for commercial delivery (sherpymedia.com). I now founded a neurotech startup (Cerelog.com).There are a lot of visionaries and hackers around in New York City, but materializing an idea can be quite the wall to climb! What are the real-world constraints to pay attention to when designing something? Where's the space where you can build things fast and get great advice?!\u200b\u200bThis is a small-group, high attention workshop, targeting 10 creative people who have the itch to create things.Light on theory, heavy on practice!\u200b\u200bWHAT YOU'LL DO\u200b\u200bGet familiar with Fusion360!\u200b\u200b\u200b\u200bDesign your own custom spray bottle using Fusion360. Use it for cleaning around your house/pranking your dog!\u200b\u200b\u200b\u200bWe provide the nozzle and tube\u2014you design the rest!\u200b\u200b\u200b\u200b3D print your creation on the high performance Bambu X1 Carbon printer\u200b\u200b\u200b\u200bDETAILS\u200b\u200b\u200b\u200bFive-day workshop (~3 hrs per session)\u200b\u200bMon - Fri\u200b\u200b\u200b\u200bProfessional guidance from an experienced engineer\u200b\u200b\u200b\u200bLearn to navigate Fusion360 and think like a designer\u200b\u200b\u200b\u200bREGISTRATION\u200b\u200b\u200b$100 / person for the 4 days\u200b\u200b\u200b\u200bLimited spots available\u200b\u200b\u200b\u200bReserve your seat today!\u200b\u200bYour Host:\u200b\u200b\u200b\u200bSuraj Kumar, Mechanical Engineer with years of Fusion360 experience\u200b\u200b\u200b\u200b*thank you tofractal techfor hosting us!*Contact at surajratnam99@gmail.com",
-      "startDate": "2025-04-28T22:00:00Z",
-      "endDate": "2025-04-29T01:00:00Z",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": "",
-      "image": "luma-event-4f845869.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://lu.ma/ykxtq7jd",
-        "organizer": {
-          "name": "Fractal Tech: NYC",
-          "instagram": "",
-          "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
-        },
-        "venue": {
-          "name": "Fractal Tech",
-          "address": "111 Conselyea St, Brooklyn, NY 11211",
-          "type": "Offline"
-        },
-        "speakers": [
-          {
-            "name": "Suraj Kumar",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Jake Zegil",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Chandiran",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Suraj Kumar",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Jake Zegil",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Chandiran",
-            "title": "",
-            "bio": ""
-          }
-        ],
-        "social_links": [
-          "https://instagram.com/fractaltechnyc",
-          "https://x.com/fractaltechnyc",
-          "https://fractaltechhub.com",
-          "https://instagram.com/surajimop",
-          "https://x.com/surkumference",
-          "https://x.com/JakeZegil",
-          "https://x.com/patxnoir",
-          "https://instagram.com/fractaltechnyc",
-          "https://x.com/fractaltechnyc",
-          "https://fractaltechhub.com",
-          "https://instagram.com/surajimop",
-          "https://x.com/surkumference",
-          "https://x.com/JakeZegil",
-          "https://x.com/patxnoir"
-        ],
-        "featured": false,
-        "luma_source": true
-      }
-    },
-    {
       "id": "evt_com_fractal__clr78ba",
       "name": "Hardware Meetup #1 @ Fractal Tech",
       "type": "Tech",
@@ -259,7 +172,7 @@
       "type": "Tech",
       "locationId": "loc_fractal",
       "communityId": "com_fractal",
-      "description": "\u200bA literary event and pop-up book fair during FarCon NYC (farcon.nyc), uniting writers, readers, and builders in a global celebration of books, culture, and onchain storytelling.\u200bCome by for:\u200bLiterary themed beverages.\u200bA curation of physical and digital fiction, nonfiction, poetry, and zines by authors and publishers in the Farcaster ecosystem.\u200bA selection of books curated by Well Read.\u200bPoetry performance art.\u200bGiveaways of rare print books and onchain limited digital editions.\u200bBook swap.\u200bCommunal zine-making.\u200b& more!\u200bAuthors, please reach out to Amelie (amelie@alexandriabooks.com) if you'd like to showcase your work as part of the event!\u200bFeaturing:\u200bAlexandria Labs (alexandriabooks.com), the Library of Alexandria for onchain books\u200bDebbie Soon, Singaporean author of Digital Mavericks (Wiley) and co-founder ofthehug.xyz(acq. by Art Domains)\u200bPhil Mohun, founder of Bright Moments,amps.fun, and Node Foundation--and creator of the /books channel on Farcaster!\u200bWell Read (https://wellread.pt/), a bilingual art & design bookstore, event space and meeting place located in Lisbon, Portugal",
+      "description": "\u200bA literary event and pop-up book fair during FarCon NYC (farcon.nyc), uniting writers, readers, and builders in a global celebration of books, culture, and onchain storytelling.\u200bCome by for:\u200bLiterary themed cocktails and mocktails.\u200bA curation of physical and digital fiction, nonfiction, poetry, and zines by authors and publishers in the Farcaster ecosystem.\u200bA selection of books curated by Well Read.\u200bGiveaways of rare print books and onchain limited digital editions.\u200bNew and exclusive releases, special deals, and merch.\u200bBook swap.\u200bCommunal zine-making.\u200bPoetry performance art and a live typewriter poet.\u200b& more!\u200bHosted by and featuring:\u200bAlexandria Labs, the Library of Alexandria for onchain books\u200bDebbie Soon, Singaporean author of Digital Mavericks (Wiley) and co-founder ofthehug.xyz(acq. by Art Domains)\u200bPhil Mohun, founder of Bright Moments,amps.fun, and Node Foundation, and creator of the/bookschannel on Farcaster!\u200bWell Read, a bilingual art & design bookstore, event space and meeting place located in Lisbon, Portugal\u200bParagraph, where writers share, grow, and get paid \u2014 one post at a time",
       "startDate": "2025-05-03T21:00:00Z",
       "endDate": "2025-05-04T00:00:00Z",
       "category": [
