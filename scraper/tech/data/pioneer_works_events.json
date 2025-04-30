@@ -1,42 +1,6 @@
 {
   "events": [
     {
-      "id": "evt_pioneer_0e7e4df9",
-      "name": "Why We Die ",
-      "type": "Cultural Event",
-      "locationId": "loc_pioneer_works",
-      "communityId": "com_pioneer_works",
-      "description": "Join us to celebrate Venki Ramakrishnan, Nobel Prize-winning biologist and author of Why We Die: The New Science of Aging and the Quest for Immortality....",
-      "startDate": "2025-04-29T23:30:00+00:00",
-      "endDate": "2025-04-30T03:00:00+00:00",
-      "category": [
-        "Arts",
-        "Music",
-        "Science"
-      ],
-      "price": null,
-      "registrationRequired": true,
-      "tags": [],
-      "image": [
-        "https://cdn.sanity.io/images/vgvol637/production/848d682a1f0a93c521f5afa8621f43ab6135f94b-2869x2665.jpg?w=800"
-      ],
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://pioneerworks.org/programs/why-we-die",
-        "organizer": {
-          "name": "Pioneer Works",
-          "instagram": "@pioneerworks",
-          "email": "info@pioneerworks.org"
-        },
-        "venue": {
-          "name": "Pioneer Works",
-          "address": "159 Pioneer Street",
-          "type": "Cultural Institution"
-        },
-        "featured": false
-      }
-    },
-    {
       "id": "evt_pioneer_f09297e3",
       "name": "Kim Gordon",
       "type": "Cultural Event",
@@ -126,7 +90,7 @@
       "registrationRequired": true,
       "tags": [],
       "image": [
-        "https://cdn.sanity.io/images/vgvol637/production/bc783d45458a39ea87d877571ab614b18a42e0e9-8000x4000.jpg?w=800"
+        "https://cdn.sanity.io/images/vgvol637/production/22a526898af0d04cb50db6ee1a13132f3cad42f1-1080x1350.jpg?w=800"
       ],
       "status": "upcoming",
       "metadata": {
@@ -167,6 +131,42 @@
       "status": "upcoming",
       "metadata": {
         "source_url": "https://pioneerworks.org/programs/second-sundays-may-2025",
+        "organizer": {
+          "name": "Pioneer Works",
+          "instagram": "@pioneerworks",
+          "email": "info@pioneerworks.org"
+        },
+        "venue": {
+          "name": "Pioneer Works",
+          "address": "159 Pioneer Street",
+          "type": "Cultural Institution"
+        },
+        "featured": false
+      }
+    },
+    {
+      "id": "evt_pioneer_5863c7bc",
+      "name": "Author Talks ",
+      "type": "Cultural Event",
+      "locationId": "loc_pioneer_works",
+      "communityId": "com_pioneer_works",
+      "description": "Join Pioneer Works and McNally Jackson Books for the official paperback launch of Miranda July’s bestselling novel, All Fours—July’s only book event in ...",
+      "startDate": "2025-05-29T23:30:00+00:00",
+      "endDate": "2025-05-30T03:00:00+00:00",
+      "category": [
+        "Arts",
+        "Music",
+        "Science"
+      ],
+      "price": null,
+      "registrationRequired": true,
+      "tags": [],
+      "image": [
+        "https://cdn.sanity.io/images/vgvol637/production/d0837d0d47c34e0df9d4812f927924225d2ce6ec-1920x1080.png?w=800"
+      ],
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://pioneerworks.org/programs/author-talks",
         "organizer": {
           "name": "Pioneer Works",
           "instagram": "@pioneerworks",

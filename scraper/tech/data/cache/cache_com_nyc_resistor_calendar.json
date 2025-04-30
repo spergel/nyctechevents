@@ -1,47 +1,6 @@
 {
   "events": [
     {
-      "id": "evt_com_nyc_resistor_09ardtd3",
-      "name": "Fire Extinguisher Health Check",
-      "type": "Tech",
-      "locationId": "",
-      "communityId": "com_nyc_resistor",
-      "description": "https://blink.ucsd.edu/safety/fire/extinguisher/inspection.html",
-      "startDate": "2025-04-29T21:00:00-04:00",
-      "endDate": "2025-04-29T22:00:00-04:00",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": "",
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.google.com/calendar/event?eid=MDlhcmR0ZDNlbHY0NjZiNGlhazkyamsxbmVfMjAyNTA0MzBUMDEwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn",
-        "organizer": {
-          "name": "",
-          "instagram": "",
-          "email": "opn.address@gmail.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "NYC Resistor, 87 3rd Ave, Brooklyn, NY 11217, USA",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false
-      }
-    },
-    {
       "id": "evt_com_nyc_resistor_3u52iogs",
       "name": "NYCR Craft Night",
       "type": "Tech",
@@ -197,6 +156,47 @@
         "venue": {
           "name": "",
           "address": "",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
+      "id": "evt_com_nyc_resistor_vu3c5ol6",
+      "name": "Electronics XV",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_nyc_resistor",
+      "description": "Vaccination Proof + Mask + RSVP Required\nRSVP https://www.eventbrite.com/e/electronics-xv-tickets-1343994627109\n\nhardware electronic music partyMAY 3, NYC RESISTORFEATURING\ntr!ggered\ndj dispatch\nredneck princess\ntrey cegan\ncelebrity bitcrush\nslackjaw\nAND VISUALS BY\nfossil christ\nnonbinaryjakepaul\n\nCOME LISTEN TO HARDWARE\nMUSIC\nOPEN DEX/MIXER B4 &amp; BTWEEN SETS\nNOTAFLOF PLS DONATE IF U CAN\n\nThis is a masks optional event.\n\nAs with all NYC Resistor events, this class is 18+ and governed by our Code of Conduct. The Code of Conduct, as well as accessibility information, can be found at www.nycresistor.com/participate/.\nPlease note that refunds must be requested 24 hours in advance. If you have any questions, please email classes@nycresistor.com.\n",
+      "startDate": "2025-05-03T20:00:00-04:00",
+      "endDate": "2025-05-04T03:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": true,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.eventbrite.com/e/electronics-xv-tickets-1343994627109",
+        "organizer": {
+          "name": "NYCResistor",
+          "instagram": "",
+          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "NYCResistor\n87 3rd Ave\nBrooklyn, NY 11217",
           "type": "Offline"
         },
         "speakers": [],
@@ -972,6 +972,47 @@
           "name": "",
           "instagram": "",
           "email": ""
+        },
+        "venue": {
+          "name": "",
+          "address": "",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
+      "id": "evt_com_nyc_resistor_7q0v88u5",
+      "name": "HOLD: may make-along",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_nyc_resistor",
+      "description": "",
+      "startDate": "2025-05-16",
+      "endDate": "2025-05-17",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.google.com/calendar/event?eid=N3Ewdjg4dTVkOXRiNW9rcHUya2xjczM1MDkgcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw",
+        "organizer": {
+          "name": "NYCResistor",
+          "instagram": "",
+          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
         },
         "venue": {
           "name": "",
@@ -4047,47 +4088,6 @@
           "name": "NYCResistor",
           "instagram": "",
           "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false
-      }
-    },
-    {
-      "id": "evt_com_nyc_resistor_211mpik0",
-      "name": "",
-      "type": "Tech",
-      "locationId": "",
-      "communityId": "com_nyc_resistor",
-      "description": "",
-      "startDate": "2025-07-31T20:00:00-04:00",
-      "endDate": "2025-07-31T21:00:00-04:00",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": "",
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.google.com/calendar/event?eid=MjExbXBpazAwdXQ4MTVrZ3FuMjExcm8wcTJfMjAyNTA4MDFUMDAwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn",
-        "organizer": {
-          "name": "",
-          "instagram": "",
-          "email": ""
         },
         "venue": {
           "name": "",
