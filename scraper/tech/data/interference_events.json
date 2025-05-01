@@ -1,6 +1,210 @@
 {
   "events": [
     {
+      "id": "evt_interference_7b6eab32",
+      "name": "Drawn Together",
+      "type": "Community",
+      "locationId": "loc_interference",
+      "communityId": "com_interference",
+      "description": "Join us for a night of drawing and mark-making! Please \nregister on Eventbrite\n.\n\n\nAt Drawn Together, we provide prompts and materials for you to experiment and explore with your visual art-making practice, all without the pressure of having to do it well.\n\n\nBecause of this one-night partnership, we’ll also have access to Interference Archive’s materials, which we’ll be using as part of our inspiration.\n\n\nThe mission of Interference Archive is to explore the relationship between cultural production and social movements. This work manifests in an open stacks archival collection, publications, a study center, and public programs including exhibitions, workshops, talks, and screenings, all of which encourage critical and creative engagement with the rich history of social movements.\n\n\nCome for the art-making, stay for a collection of visual media related to the history of activism and social movements around the world!\n\n\nTiming:\n Doors at 7. Come early to save your seat! Games begin at 7:30.\n\n\nSupplies:\n Pencils and paper will be provided, though you’re encouraged to bring your own supplies if you’d like.",
+      "startDate": "2025-04-17T19:00:00",
+      "endDate": "2025-04-17T21:00:00",
+      "category": [
+        "Community",
+        "Arts",
+        "Activism"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": "Status Unknown"
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": [
+        "workshop",
+        "exhibition",
+        "screening",
+        "talk"
+      ],
+      "image": "interference-archive.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://interferencearchive.org/event/drawn-together-3/",
+        "organizer": {
+          "name": "Interference Archive",
+          "email": "info@interferencearchive.org"
+        },
+        "venue": {
+          "name": "Interference Archive",
+          "address": "314 7th St, Brooklyn, NY 11215",
+          "type": "Offline"
+        },
+        "featured": false
+      }
+    },
+    {
+      "id": "evt_interference_025de535",
+      "name": "Digital Privacy and InfoSec Workshop",
+      "type": "Community",
+      "locationId": "loc_interference",
+      "communityId": "com_interference",
+      "description": "This workshop is an introduction to personal digital privacy and information security practices, and will cover some data management basics, as well. This workshop is open to anyone, regardless of skill, but will have a particular focus on practices most applicable in community organizing, record-keeping, and archival settings. No pre-existing skills or technologies are required. Participants should bring a device with them, as we will be doing some hands-on activities to help them secure their devices and digital footprints. We will cover topics including:\n\n\n· What information about me is out there?\n· Professional vs personal digital identities\n· Identifying & removing information from public directories\n· Personal communication infosec (emails, phones, social media)\n· Privacy considerations for documenting protests / actions\n· Securing and encrypting personal devices and files\n· Best practices for file-naming, data backup, and metadata\nBecause this workshop is hands-on, it has a cap of 25 participants – please register ahead of time!\n\n\nThis workshop is in collaboration with the \nArchival Technologies Lab\n and lead by a facilitator with 9+ years of experience. Please RSVP \nhere\n.",
+      "startDate": "2025-04-04T18:30:00",
+      "endDate": "2025-04-04T20:30:00",
+      "category": [
+        "Community",
+        "Arts",
+        "Activism"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": "Status Unknown"
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": [
+        "workshop"
+      ],
+      "image": "interference-archive.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://interferencearchive.org/event/digital-privacy-and-infosec-workshop/",
+        "organizer": {
+          "name": "Interference Archive",
+          "email": "info@interferencearchive.org"
+        },
+        "venue": {
+          "name": "Interference Archive",
+          "address": "314 7th St, Brooklyn, NY 11215",
+          "type": "Offline"
+        },
+        "featured": false
+      }
+    },
+    {
+      "id": "evt_interference_9ce1cdd6",
+      "name": "Education Reading Group",
+      "type": "Community",
+      "locationId": "loc_interference",
+      "communityId": "com_interference",
+      "description": "The Education Reading Group is a place where we plan to share and discuss readings about transformative teaching, political pedagogy, engaging education, and the like.\n\n\nWe will be meeting at \n8 pm on Tuesday May 13th\n to read\n \n“Bloodchild”\n \nby Octavia Butler. It is the titular story from the collection “Bloodchild and Other Stories,” a pdf is here: \nBloodchild\n\n\nIf you have the book and want to read more stories from the collection feel free, but it’s not necessary!\n\n\nHere is the jitsi link for the meeting: \nJitsi",
+      "startDate": "2025-05-13T20:00:00",
+      "endDate": "2025-05-13T21:30:00",
+      "category": [
+        "Community",
+        "Arts",
+        "Activism"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": "Status Unknown"
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": [],
+      "image": "interference-archive.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://interferencearchive.org/event/education-reading-group-12/",
+        "organizer": {
+          "name": "Interference Archive",
+          "email": "info@interferencearchive.org"
+        },
+        "venue": {
+          "name": "Interference Archive",
+          "address": "314 7th St, Brooklyn, NY 11215",
+          "type": "Offline"
+        },
+        "featured": false
+      }
+    },
+    {
+      "id": "evt_interference_74aa3df3",
+      "name": "Build Your Own Time Capsule",
+      "type": "Community",
+      "locationId": "loc_interference",
+      "communityId": "com_interference",
+      "description": "What can your present-day self teach your future self? When histories are rewritten and collective memory is contested, personal archiving can be a mode of resistance. Join us for this hands-on workshop facilitated by author and time capsule keeper Lisa Ko and inspired by her new novel \nMemory Piece\n. Participants will have access to Interference Archive’s materials for inspiration, and will build their own time capsules as an analog antidote to digital authoritarianism, incorporating writing prompts and creating a list of contents and a plan for storage and preservation.\n\n\nPlease bring a closeable container (a large envelope, shoebox, jar, gallon-sized bag, etc.) and at least one item you’d like to include in your time capsule, as well as any other supplies you might want to use (paper, markers, scissors, etc.). We’ll have limited supplies available as well.\n\n\nPlease RSVP \nhere\n.",
+      "startDate": "2025-04-02T18:30:00",
+      "endDate": "2025-04-02T20:30:00",
+      "category": [
+        "Community",
+        "Arts",
+        "Activism"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": "Status Unknown"
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": [
+        "workshop"
+      ],
+      "image": "interference-archive.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://interferencearchive.org/event/build-your-own-time-capsule/",
+        "organizer": {
+          "name": "Interference Archive",
+          "email": "info@interferencearchive.org"
+        },
+        "venue": {
+          "name": "Interference Archive",
+          "address": "314 7th St, Brooklyn, NY 11215",
+          "type": "Offline"
+        },
+        "featured": false
+      }
+    },
+    {
+      "id": "evt_interference_7edadb16",
+      "name": "Free Noise",
+      "type": "Community",
+      "locationId": "loc_interference",
+      "communityId": "com_interference",
+      "description": "An open mic for queer/trans people and their music, poetry and performance. Come one, come all! \n\n\nEmail \nmilesellisor@gmail.com\n to perform.\n$5 suggested donation, but pay what you can.\n\n\nCollected donations will be split between the Archive and \nG.L.I.T.S.\n (Gays & Lesbians Living In A Transgender Society).",
+      "startDate": "2025-05-03T18:00:00",
+      "endDate": "2025-05-03T20:30:00",
+      "category": [
+        "Community",
+        "Arts",
+        "Activism"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": "Status Unknown"
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": [],
+      "image": "interference-archive.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://interferencearchive.org/event/free-noise/",
+        "organizer": {
+          "name": "Interference Archive",
+          "email": "info@interferencearchive.org"
+        },
+        "venue": {
+          "name": "Interference Archive",
+          "address": "314 7th St, Brooklyn, NY 11215",
+          "type": "Offline"
+        },
+        "featured": false
+      }
+    },
+    {
       "id": "evt_interference_5b473e1d",
       "name": "Dark Side of Goth",
       "type": "Community",
@@ -83,128 +287,6 @@
       }
     },
     {
-      "id": "evt_interference_7edadb16",
-      "name": "Free Noise",
-      "type": "Community",
-      "locationId": "loc_interference",
-      "communityId": "com_interference",
-      "description": "An open mic for queer/trans people and their music, poetry and performance. Come one, come all! \n\n\nEmail \nmilesellisor@gmail.com\n to perform.\n$5 suggested donation, but pay what you can.\n\n\nCollected donations will be split between the Archive and \nG.L.I.T.S.\n (Gays & Lesbians Living In A Transgender Society).",
-      "startDate": "2025-05-03T18:00:00",
-      "endDate": "2025-05-03T20:30:00",
-      "category": [
-        "Community",
-        "Arts",
-        "Activism"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": "Status Unknown"
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": [],
-      "image": "interference-archive.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://interferencearchive.org/event/free-noise/",
-        "organizer": {
-          "name": "Interference Archive",
-          "email": "info@interferencearchive.org"
-        },
-        "venue": {
-          "name": "Interference Archive",
-          "address": "314 7th St, Brooklyn, NY 11215",
-          "type": "Offline"
-        },
-        "featured": false
-      }
-    },
-    {
-      "id": "evt_interference_7b6eab32",
-      "name": "Drawn Together",
-      "type": "Community",
-      "locationId": "loc_interference",
-      "communityId": "com_interference",
-      "description": "Join us for a night of drawing and mark-making! Please \nregister on Eventbrite\n.\n\n\nAt Drawn Together, we provide prompts and materials for you to experiment and explore with your visual art-making practice, all without the pressure of having to do it well.\n\n\nBecause of this one-night partnership, we’ll also have access to Interference Archive’s materials, which we’ll be using as part of our inspiration.\n\n\nThe mission of Interference Archive is to explore the relationship between cultural production and social movements. This work manifests in an open stacks archival collection, publications, a study center, and public programs including exhibitions, workshops, talks, and screenings, all of which encourage critical and creative engagement with the rich history of social movements.\n\n\nCome for the art-making, stay for a collection of visual media related to the history of activism and social movements around the world!\n\n\nTiming:\n Doors at 7. Come early to save your seat! Games begin at 7:30.\n\n\nSupplies:\n Pencils and paper will be provided, though you’re encouraged to bring your own supplies if you’d like.",
-      "startDate": "2025-04-17T19:00:00",
-      "endDate": "2025-04-17T21:00:00",
-      "category": [
-        "Community",
-        "Arts",
-        "Activism"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": "Status Unknown"
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": [
-        "workshop",
-        "exhibition",
-        "screening",
-        "talk"
-      ],
-      "image": "interference-archive.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://interferencearchive.org/event/drawn-together-3/",
-        "organizer": {
-          "name": "Interference Archive",
-          "email": "info@interferencearchive.org"
-        },
-        "venue": {
-          "name": "Interference Archive",
-          "address": "314 7th St, Brooklyn, NY 11215",
-          "type": "Offline"
-        },
-        "featured": false
-      }
-    },
-    {
-      "id": "evt_interference_9ce1cdd6",
-      "name": "Education Reading Group",
-      "type": "Community",
-      "locationId": "loc_interference",
-      "communityId": "com_interference",
-      "description": "The Education Reading Group is a place where we plan to share and discuss readings about transformative teaching, political pedagogy, engaging education, and the like.\n\n\nWe will be meeting at \n8 pm on Tuesday May 13th\n to read\n \n“Bloodchild”\n \nby Octavia Butler. It is the titular story from the collection “Bloodchild and Other Stories,” a pdf is here: \nBloodchild\n\n\nIf you have the book and want to read more stories from the collection feel free, but it’s not necessary!\n\n\nHere is the jitsi link for the meeting: \nJitsi",
-      "startDate": "2025-05-13T20:00:00",
-      "endDate": "2025-05-13T21:30:00",
-      "category": [
-        "Community",
-        "Arts",
-        "Activism"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": "Status Unknown"
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": [],
-      "image": "interference-archive.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://interferencearchive.org/event/education-reading-group-12/",
-        "organizer": {
-          "name": "Interference Archive",
-          "email": "info@interferencearchive.org"
-        },
-        "venue": {
-          "name": "Interference Archive",
-          "address": "314 7th St, Brooklyn, NY 11215",
-          "type": "Offline"
-        },
-        "featured": false
-      }
-    },
-    {
       "id": "evt_interference_ede2db13",
       "name": "Zine Club",
       "type": "Community",
@@ -231,88 +313,6 @@
       "status": "upcoming",
       "metadata": {
         "source_url": "https://interferencearchive.org/event/zine-club-3/",
-        "organizer": {
-          "name": "Interference Archive",
-          "email": "info@interferencearchive.org"
-        },
-        "venue": {
-          "name": "Interference Archive",
-          "address": "314 7th St, Brooklyn, NY 11215",
-          "type": "Offline"
-        },
-        "featured": false
-      }
-    },
-    {
-      "id": "evt_interference_025de535",
-      "name": "Digital Privacy and InfoSec Workshop",
-      "type": "Community",
-      "locationId": "loc_interference",
-      "communityId": "com_interference",
-      "description": "This workshop is an introduction to personal digital privacy and information security practices, and will cover some data management basics, as well. This workshop is open to anyone, regardless of skill, but will have a particular focus on practices most applicable in community organizing, record-keeping, and archival settings. No pre-existing skills or technologies are required. Participants should bring a device with them, as we will be doing some hands-on activities to help them secure their devices and digital footprints. We will cover topics including:\n\n\n· What information about me is out there?\n· Professional vs personal digital identities\n· Identifying & removing information from public directories\n· Personal communication infosec (emails, phones, social media)\n· Privacy considerations for documenting protests / actions\n· Securing and encrypting personal devices and files\n· Best practices for file-naming, data backup, and metadata\nBecause this workshop is hands-on, it has a cap of 25 participants – please register ahead of time!\n\n\nThis workshop is in collaboration with the \nArchival Technologies Lab\n and lead by a facilitator with 9+ years of experience. Please RSVP \nhere\n.",
-      "startDate": "2025-04-04T18:30:00",
-      "endDate": "2025-04-04T20:30:00",
-      "category": [
-        "Community",
-        "Arts",
-        "Activism"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": "Status Unknown"
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": [
-        "workshop"
-      ],
-      "image": "interference-archive.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://interferencearchive.org/event/digital-privacy-and-infosec-workshop/",
-        "organizer": {
-          "name": "Interference Archive",
-          "email": "info@interferencearchive.org"
-        },
-        "venue": {
-          "name": "Interference Archive",
-          "address": "314 7th St, Brooklyn, NY 11215",
-          "type": "Offline"
-        },
-        "featured": false
-      }
-    },
-    {
-      "id": "evt_interference_74aa3df3",
-      "name": "Build Your Own Time Capsule",
-      "type": "Community",
-      "locationId": "loc_interference",
-      "communityId": "com_interference",
-      "description": "What can your present-day self teach your future self? When histories are rewritten and collective memory is contested, personal archiving can be a mode of resistance. Join us for this hands-on workshop facilitated by author and time capsule keeper Lisa Ko and inspired by her new novel \nMemory Piece\n. Participants will have access to Interference Archive’s materials for inspiration, and will build their own time capsules as an analog antidote to digital authoritarianism, incorporating writing prompts and creating a list of contents and a plan for storage and preservation.\n\n\nPlease bring a closeable container (a large envelope, shoebox, jar, gallon-sized bag, etc.) and at least one item you’d like to include in your time capsule, as well as any other supplies you might want to use (paper, markers, scissors, etc.). We’ll have limited supplies available as well.\n\n\nPlease RSVP \nhere\n.",
-      "startDate": "2025-04-02T18:30:00",
-      "endDate": "2025-04-02T20:30:00",
-      "category": [
-        "Community",
-        "Arts",
-        "Activism"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": "Status Unknown"
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": [
-        "workshop"
-      ],
-      "image": "interference-archive.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://interferencearchive.org/event/build-your-own-time-capsule/",
         "organizer": {
           "name": "Interference Archive",
           "email": "info@interferencearchive.org"

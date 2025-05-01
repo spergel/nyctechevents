@@ -493,14 +493,14 @@
       }
     },
     {
-      "id": "evt_com_nyc_resistor_6os3cp31",
+      "id": "evt_com_nyc_resistor_2nmcngqq",
       "name": "HOLD: Party Kari",
       "type": "Tech",
       "locationId": "",
       "communityId": "com_nyc_resistor",
       "description": "",
-      "startDate": "2025-05-07",
-      "endDate": "2025-05-08",
+      "startDate": "2025-05-07T19:00:00-04:00",
+      "endDate": "2025-05-07T21:00:00-04:00",
       "category": [
         "Tech"
       ],
@@ -516,7 +516,7 @@
       "image": "",
       "status": "upcoming",
       "metadata": {
-        "source_url": "https://www.google.com/calendar/event?eid=Nm9zM2NwMzFjZ3BqMmJiNmM1aW04YjlrYzhvajJiYjI2MHMzMmJiNTZnbzMwYzlvYzVqNjhwOWhjOCBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn",
+        "source_url": "https://www.google.com/calendar/event?eid=Mm5tY25ncXEwYTZtc2xvbTVpb28waTFnMDIgcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw",
         "organizer": {
           "name": "NYCResistor",
           "instagram": "",
@@ -603,47 +603,6 @@
           "name": "",
           "instagram": "",
           "email": ""
-        },
-        "venue": {
-          "name": "",
-          "address": "",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false
-      }
-    },
-    {
-      "id": "evt_com_nyc_resistor_38udato6",
-      "name": "HOLD: Open Mic",
-      "type": "Tech",
-      "locationId": "",
-      "communityId": "com_nyc_resistor",
-      "description": "",
-      "startDate": "2025-05-10T19:00:00-04:00",
-      "endDate": "2025-05-10T23:00:00-04:00",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": "",
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.google.com/calendar/event?eid=Mzh1ZGF0bzZlOGJjODNkbTk1aHB0Zmcxbm0gcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw",
-        "organizer": {
-          "name": "NYCResistor",
-          "instagram": "",
-          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
         },
         "venue": {
           "name": "",
@@ -1395,6 +1354,87 @@
       }
     },
     {
+      "id": "evt_com_nyc_resistor_6666hgn2",
+      "name": "Brooklyn meetup",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_nyc_resistor",
+      "description": "\u200bJoin Paulus for the Home Assistant Community Day meetup in Brooklyn, NY!\u200bLocation & time still TBD :)",
+      "startDate": "2025-05-24T13:00:00-04:00",
+      "endDate": "2025-05-24T15:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "luma-event-1a3ee958.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/efkt35on?tk=UyV6Lb\">https://lu.ma/efkt35on?tk=UyV6Lb</a>",
+        "organizer": {
+          "name": "NYCResistor",
+          "instagram": "",
+          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "Please register to see the exact location of this event.",
+          "type": "Online"
+        },
+        "speakers": [
+          {
+            "name": "Missy Quarry",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Paulus Schoutsen",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Madelena Mak",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Missy Quarry",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Paulus Schoutsen",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Madelena Mak",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "social_links": [
+          "https://x.com/home_assistant",
+          "https://linkedin.com/company/home-assistant",
+          "https://www.home-assistant.io",
+          "https://instagram.com/mdmk",
+          "https://x.com/home_assistant",
+          "https://linkedin.com/company/home-assistant",
+          "https://www.home-assistant.io",
+          "https://instagram.com/mdmk"
+        ],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
       "id": "evt_com_nyc_resistor_74pmccph",
       "name": "HOLD: NY2CR Ham Exams",
       "type": "Tech",
@@ -1468,6 +1508,47 @@
         "venue": {
           "name": "",
           "address": "",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
+      "id": "evt_com_nyc_resistor_a5l3agkg",
+      "name": "Delete Your Account: How to ditch X and Elon with Cyd",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_nyc_resistor",
+      "description": "Vaccination Proof + Mask + RSVP Required\nRSVP https://www.eventbrite.com/e/delete-your-account-how-to-ditch-x-and-elon-with-cyd-tickets-1344394272459\n\nTwitter was never good. X is worse. We'll show you how to archive your tweets with Cyd, then delete your content from Elon's website.Remember Twitter, aka the Hellsite? It was terrible, but at least it wasn't owned by a dude who likes making \"roman salutes.\" After you divest from your SpaceX stock and sell your Tesla, come on down to NYC Resistor, where we'll show you how to ditch X but keep a personal copy of your favorite posts using Cyd.\nBefore the workshop: Make sure you can log on to X on your laptop (not your phone, your laptop) and once logged in, request an archive of your tweets using these instructions: https://help.x.com/en/managing-your-account/how-to-download-your-x-archive. Please do this step at least a week before the workshop, as it may take X a few to several days to process the archive request.BONUS: We'll also help you sign up for Mastodon, an X alternative, if you want.\nThis event is donate what-you-wish.\nThis is a masks optional event.\nAs with all NYC Resistor events, this class is 18+ and governed by our Code of Conduct. The Code of Conduct, as well as accessibility information, can be found at www.nycresistor.com/participate/.\n",
+      "startDate": "2025-05-25T17:00:00-04:00",
+      "endDate": "2025-05-25T20:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": true,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.eventbrite.com/e/delete-your-account-how-to-ditch-x-and-elon-with-cyd-tickets-1344394272459",
+        "organizer": {
+          "name": "NYCResistor",
+          "instagram": "",
+          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "NYC Resistor\n87 Third Avenue\nBrooklyn, NY 11217",
           "type": "Offline"
         },
         "speakers": [],
@@ -4051,47 +4132,6 @@
         "venue": {
           "name": "",
           "address": "NYC Resistor, 87 3rd Ave, Brooklyn, NY 11217, USA",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false
-      }
-    },
-    {
-      "id": "evt_com_nyc_resistor_3u52iogs",
-      "name": "NYCR Craft Night",
-      "type": "Tech",
-      "locationId": "",
-      "communityId": "com_nyc_resistor",
-      "description": "<u></u><p>NYC Resistor is open to the public for Craft Nights now every Monday and Thursday from 6:30-9:30 PM! Come bring your current crafting project and work on it with other artists, crafters, and makers of all kinds. Resistors do everything from costumes to electronics to visual arts to woodworking; people and crafting projects of all sorts are enthusiastically welcome!</p><p>RSVP at<span> <a href=\"https://www.google.com/url?q=https://www.eventbrite.com/e/public-craft-night-mondays-and-thursdays-tickets-162729866411&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw2GxlHrVKU2UOWuOdKbNOj5\" target=\"_blank\">https://www.eventbrite.com/e/public-craft-night-mondays-and-thursdays-tickets-162729866411</a></span> is appreciated but not required, for covid contact-tracing purposes.<br></p>This event like all NYC Resistor events is 18 and over and governed by out code of conduct. <br><br>More information: <a href=\"https://www.google.com/url?q=http://www.nycresistor.com/participate/&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw2qoLIc6c_Ay1xuc_FYjEZH\" target=\"_blank\">http://www.nycresistor.com/participate/</a><br>NYC Resistor Code of Conduct: <a href=\"https://www.google.com/url?q=http://www.nycresistor.com/2015/08/04/nyc-resistor-code-of-conduct/&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw1hCVO6yP0-Y--CtV5nrIw_\" target=\"_blank\">http://www.nycresistor.com/2015/08/04/nyc-resistor-code-of-conduct/</a><u></u><u></u><u></u><u></u><u></u>",
-      "startDate": "2025-07-31T18:30:00-04:00",
-      "endDate": "2025-07-31T21:30:00-04:00",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": true,
-      "tags": "",
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.eventbrite.com/e/public-craft-night-mondays-and-thursdays-tickets-162729866411&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw2GxlHrVKU2UOWuOdKbNOj5\"",
-        "organizer": {
-          "name": "NYCResistor",
-          "instagram": "",
-          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "",
           "type": "Offline"
         },
         "speakers": [],

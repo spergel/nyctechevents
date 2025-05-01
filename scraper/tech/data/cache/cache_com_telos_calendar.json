@@ -1,57 +1,12 @@
 {
   "events": [
     {
-      "id": "evt_com_telos_d269plpk",
-      "name": "aci-d club weekly hang",
-      "type": "Tech",
-      "locationId": "",
-      "communityId": "com_telos",
-      "description": "aci-d club is a weekly meetup for designers who wish to playfully work on their personal projects, befriend other creatives, and see the world with brighter eyes.\n\nalongside the core weekly hangouts, aci-d hosts monthly field trips to museums, archives, and galleries, as well as occasional workshops led by guest artists and speakers.",
-      "startDate": "2025-04-30T18:45:00-04:00",
-      "endDate": "2025-04-30T21:15:00-04:00",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": "",
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://lu.ma/aci-d.club",
-        "organizer": {
-          "name": "telos.haus events [public]",
-          "instagram": "",
-          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "https://lu.ma/aci-d.club",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [
-          "https://instagram.com/aci_d.club",
-          "https://x.com/aci_dclub",
-          "https://aci-d.club"
-        ],
-        "featured": false,
-        "luma_source": true
-      }
-    },
-    {
       "id": "evt_com_telos_3voahl5v",
-      "name": "Meditation, Photography Exchange, & Journaling Night",
+      "name": "Meditations: A Photography Gallery & Community Journaling Night",
       "type": "Tech",
-      "locationId": "",
+      "locationId": "loc_telos",
       "communityId": "com_telos",
-      "description": "",
+      "description": "\u200bJoin us for an evening of images, meditation, and community journaling hosted by Worlds Through Minds.\u200bWTM curator, Macy Castaneda Lee, has gathered global photographic works on the visual translation of meditations around the world.\u200bWTM creative lead, Liz Wood, has curated space for meditation techniques at the start of the night followed by a community journaling activity with ambient music.\u200bBring your own journal & materials. Some photographs for collaging will be provided!\u200bCome with an open mind, heart, and friends. We look forward to welcoming you in this healing space.\u200b~\u200bMacy (they/them) is a non-binary Filipino photographer, organizer, public speaker, & curator. They were born and raised all over Southeast Asia. They focus on advocating for psychology, mental health, social justice, and education in the work they do.\u200b~\u200bWorlds Through Minds\u00a0is a space where global photographers come together to participate in community planned workshops and gallery shows. We are mostly\u00a0based in NYC but also function in Berlin, the Philippines and other cities around the world. We are youth led, and encourage beginning\u00a0+ professional\u00a0+ mid career photographers to come together & create meaningful work on psychology, identity, and wellness focused visual narratives.\u200bwww.worldsthroughminds.life",
       "startDate": "2025-05-02T19:00:00-04:00",
       "endDate": "2025-05-02T22:00:00-04:00",
       "category": [
@@ -66,24 +21,42 @@
       "capacity": null,
       "registrationRequired": false,
       "tags": "",
-      "image": "",
+      "image": "luma-event-f4cbf4e6.jpg",
       "status": "upcoming",
       "metadata": {
-        "source_url": "https://www.google.com/calendar/event?eid=M3ZvYWhsNXZjdmFhNWh1a3FsaWxkdm50amMgZDU5NmMyYmY3MjExODNkMjJiYjUwYmRlNjYyNTA5MGZjMzkyM2FhMjlhNjkxOGQ3ODQwOWUxNjhkYTc5MTc2OUBn",
+        "source_url": "https://lu.ma/f5fi6lto",
         "organizer": {
           "name": "telos.haus events",
           "instagram": "",
           "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
         },
         "venue": {
-          "name": "",
-          "address": "",
+          "name": "Telos",
+          "address": "181 Wyckoff Ave, Brooklyn, NY 11237",
           "type": "Offline"
         },
-        "speakers": [],
-        "social_links": [],
+        "speakers": [
+          {
+            "name": "telos.haus",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "telos.haus",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "social_links": [
+          "https://instagram.com/telos.haus",
+          "https://telos.haus",
+          "https://instagram.com/telos.haus",
+          "https://instagram.com/telos.haus",
+          "https://telos.haus",
+          "https://instagram.com/telos.haus"
+        ],
         "featured": false,
-        "luma_source": false
+        "luma_source": true
       }
     },
     {
@@ -125,51 +98,6 @@
         "social_links": [],
         "featured": false,
         "luma_source": false
-      }
-    },
-    {
-      "id": "evt_com_telos_d269plpk",
-      "name": "aci-d club weekly hang",
-      "type": "Tech",
-      "locationId": "",
-      "communityId": "com_telos",
-      "description": "aci-d club is a weekly meetup for designers who wish to playfully work on their personal projects, befriend other creatives, and see the world with brighter eyes.\n\nalongside the core weekly hangouts, aci-d hosts monthly field trips to museums, archives, and galleries, as well as occasional workshops led by guest artists and speakers.",
-      "startDate": "2025-05-07T18:45:00-04:00",
-      "endDate": "2025-05-07T21:15:00-04:00",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": "",
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://lu.ma/aci-d.club",
-        "organizer": {
-          "name": "telos.haus events [public]",
-          "instagram": "",
-          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "https://lu.ma/aci-d.club",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [
-          "https://instagram.com/aci_d.club",
-          "https://x.com/aci_dclub",
-          "https://aci-d.club"
-        ],
-        "featured": false,
-        "luma_source": true
       }
     },
     {
@@ -421,6 +349,77 @@
           "https://instagram.com/aci_d.club",
           "https://x.com/aci_dclub",
           "https://aci-d.club"
+        ],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_telos_3lq0p4l0",
+      "name": "figure drawing at telos.haus 004",
+      "type": "Tech",
+      "locationId": "loc_telos",
+      "communityId": "com_telos",
+      "description": "\u200bWelcome to the fourth edition of figure drawing at telos.haus!\u200bJoin us for an intimate and cozy drawing session surrounded by fellow artists and set to mellow, upbeat music. We'll have three drawing blocks separated by short breaks. At the end of the session, we all place our work on the floor and walk around, sharing our techniques and meeting other artists.\u200bAll levels are welcome. Tea, light snacks, and art materials will be provided.\u200bMaterials provided\u200bHard boards\u200bNewsprint paper\u200bVine charcoal\u200bGraphite pencils\u200bColored pencils\u200bSharpeners & erasers\u200bSchedule\u200b6:30 PM \u2013 Warm-up\u200b5 one-minute poses\u200b5 two-minute poses\u200b2 five-minute poses\u200b7:40 PM \u2013 Break & Art Share\u200bArtists share work and discuss techniques\u200bModel is welcome to rest or participate\u200bRefreshments available\u200b8:00 PM \u2013 Long Poses\u200b2 ten-minute poses\u200b1 fifteen-minute pose\u200b8:40 PM \u2013 Session Concludes\u200bThis event is facilitated by Carol Lei.\u200b\u200bAbout us\u200btelos.haus is a young space for creatives to work and host events exploring art, music, and design. Memberships start as low as $60 and include perks like 50% off workshops (like this one!), discounts at local businesses, event hosting privileges, and more.\u200b\u200b\u200bEmail:info@telos.hausInstagram:@telos.hausDiscord:https://discord.gg/SUZanRzsbf",
+      "startDate": "2025-05-22T18:30:00-04:00",
+      "endDate": "2025-05-22T20:30:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "luma-event-03244671.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/06db0pd1",
+        "organizer": {
+          "name": "telos.haus events",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "Telos",
+          "address": "181 Wyckoff Ave, Brooklyn, NY 11237",
+          "type": "Offline"
+        },
+        "speakers": [
+          {
+            "name": "telos.haus",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Carol Lei",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "telos.haus",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Carol Lei",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "social_links": [
+          "https://instagram.com/telos.haus",
+          "https://telos.haus",
+          "https://instagram.com/telos.haus",
+          "https://instagram.com/carolleii",
+          "https://instagram.com/telos.haus",
+          "https://telos.haus",
+          "https://instagram.com/telos.haus",
+          "https://instagram.com/carolleii"
         ],
         "featured": false,
         "luma_source": true

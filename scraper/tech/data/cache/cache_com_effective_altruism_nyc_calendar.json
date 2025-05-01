@@ -42,47 +42,6 @@
       }
     },
     {
-      "id": "evt_com_effective_altruism_nyc_28lmvbgb",
-      "name": "NYC Launch Event for Food Policy Pathways",
-      "type": "Tech",
-      "locationId": "",
-      "communityId": "com_effective_altruism_nyc",
-      "description": "Please RSVP by April 23rd at info@foodpolicypathways.org",
-      "startDate": "2025-04-30T17:30:00-04:00",
-      "endDate": "2025-04-30T19:30:00-04:00",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": true,
-      "tags": "",
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.google.com/calendar/event?eid=MjhsbXZiZ2JidnFqNDVxZ3FiNm5hdDVncTQgaGJ2ZXRxZjVoMXBkMG9mMHZuNnV2cGhxdHNAZw",
-        "organizer": {
-          "name": "Effective Altruism NYC Events",
-          "instagram": "",
-          "email": "hbvetqf5h1pd0of0vn6uvphqts@group.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false
-      }
-    },
-    {
       "id": "evt_com_effective_altruism_nyc_0j82butr",
       "name": "Special EA NYC Event Canvas of Progress: Exploring Jack Whitten's Artistic Evolution and Innovation at MoMA",
       "type": "Tech",
