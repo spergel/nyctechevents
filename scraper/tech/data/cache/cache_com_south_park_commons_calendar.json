@@ -6,7 +6,7 @@
       "type": "Tech",
       "locationId": "",
       "communityId": "com_south_park_commons",
-      "description": "\u200bStop by SPC to see the final projects produced during the SPC AI Gaming Hackathon! This event is open to the public. Please register so that we have an accurate headcount as space will be limited.If you're interested in hacking please register here.Agenda:\u200b\u200bScience fair style demos from 4:30-5:30pm\u200b\u200bFinalist demos and prize-giving from 5:30-7pm\u200bJudging will be done by a panel of SPC team members and guest experts.",
+      "description": "\u200bStop by SPC to see the final projects produced during the SPC AI Gaming Hackathon! This event is open to the public. Please register so that we have an accurate headcount as space will be limited.If you're interested in hacking please register here.Agenda:\u200b\u200bScience fair style demos from 4:30-5:30pm\u200b\u200bFinalist demos and prize-giving from 5:30-7pm\u200bWe have a special lineup of judges including:\u200bBrina Lee-serial entrepreneur currently founding a social stealth startup. She previously co-founded Hamul, a social gaming platform acquired by Roblox and was Instagram\u2019s first female engineer led engineering teams at Quip.\u200bMax Childis the CEO and co-founder ofVolley, the leading creator of AI-powered voice games for smart TVs and smart home devices. Volley\u2019s titles\u2014includingSong Quiz,Jeopardy!, andWheel of Fortune\u2014have been played in over 30 million homes.\u200bCharles Niuis the co-founder and CEO ofFrisson Labs,where he\u2019s building embodied AI companions that can travel the web with you. He has a decade of experience building virtual companions for AR/VR both on indie titles and at Meta. In his free time Charles also runs a YouTube channel dedicated to his favorite game - Age of Empires.\u200bWe'll also have prizes and access to some fun products with our friends atOpenAI(+ more coming!)",
       "startDate": "2025-05-10T23:30:00Z",
       "endDate": "2025-05-11T02:00:00Z",
       "category": [
@@ -153,6 +153,73 @@
           "https://instagram.com/southparkcommons",
           "https://x.com/southpkcommons",
           "https://x.com/ditzikow"
+        ],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_south_park_commons__clr78bb",
+      "name": "SPC Summer 2025 Demo Faire",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_south_park_commons",
+      "description": "\u200bCurious what the brilliant minds of SPC are up to?\u200b\u200b\u200b\u200bJoin us for a showcase of the latest demos from SPC alumni and members.These are no slideshows\u2014live demos only!\u200b\u200b\u200bDemos will be in person at SPC-SF from 1:30-4:30pm PT. After demos wrap we will host an open house until 6pm PT so you can meet the presenters and mix with SPC members. We hope you'll join us in person!\u200b\u200b\u200bSchedule\u200b\u200b\u200b1:00pm PT - Doors open at SPC-SF\u200b\u200b\u200b1:30pm PT - Demos start\u200b\u200b\u200b4:30pm PT - Demos end, open house starts\u200b\u200b\u200b6:00pm PT - Open house ends\u200b\u200b\u200bAbout South Park Commons\u200b\u200b\u200bSPC is\u00a0ahome for the most talented technologistsfiguring out what's next\u2014a community designed to turn the chaos of possibility into the clarity of conviction. Whether you're exploring startup ideas, refining your thinking on a new product, or looking to dive into a new domain, we're here to help you get from -1 to 0.",
+      "startDate": "2025-06-05T20:00:00Z",
+      "endDate": "2025-06-05T23:30:00Z",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "luma-event-f8833973.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/spc-demo-s25",
+        "organizer": {
+          "name": "South Park Commons",
+          "instagram": "",
+          "email": "bfptu3ajdae5cc2k16cvs1amenbft762@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "Please register to see the exact location of this event.\nSan Francisco, California",
+          "type": "Online"
+        },
+        "speakers": [
+          {
+            "name": "South Park Commons",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "South Park Commons",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "social_links": [
+          "https://instagram.com/southparkcommons",
+          "https://x.com/southpkcommons",
+          "https://youtube.com/@southparkcommons",
+          "https://linkedin.com/company/southparkcommons",
+          "https://www.southparkcommons.com/",
+          "https://instagram.com/southparkcommons",
+          "https://x.com/southpkcommons",
+          "https://instagram.com/southparkcommons",
+          "https://x.com/southpkcommons",
+          "https://youtube.com/@southparkcommons",
+          "https://linkedin.com/company/southparkcommons",
+          "https://www.southparkcommons.com/",
+          "https://instagram.com/southparkcommons",
+          "https://x.com/southpkcommons"
         ],
         "featured": false,
         "luma_source": true

@@ -1,47 +1,6 @@
 {
   "events": [
     {
-      "id": "evt_com_max_ny_0ca56356",
-      "name": "Zellnor Myrie for NYC Mayor Fundraiser",
-      "type": "Tech",
-      "locationId": "loc_tbd",
-      "communityId": "com_max_ny",
-      "description": "Find more information on https://lu.ma/maximumnewyork",
-      "startDate": "2025-05-01T18:00:00-04:00",
-      "endDate": "2025-05-01T19:30:00-04:00",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": 100,
-      "registrationRequired": true,
-      "tags": [],
-      "image": "fractal-community.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://lu.ma/maximumnewyork",
-        "speakers": [],
-        "venue": {
-          "name": "",
-          "address": "",
-          "type": "Offline",
-          "room": "",
-          "additional_info": ""
-        },
-        "featured": false,
-        "social_links": [
-          "https://x.com/danielgolliher",
-          "https://linkedin.com/in/maximumnewyork",
-          "https://maximumnewyork.com"
-        ]
-      }
-    },
-    {
       "id": "evt_com_max_ny_713ff147",
       "name": "Maximum New York May Party & Abundance Politics Accelerator",
       "type": "Tech",
@@ -557,61 +516,6 @@
       }
     },
     {
-      "id": "evt_com_der_project_d942c924",
-      "name": "Data In Power - NYC Event",
-      "type": "Tech",
-      "locationId": "loc_tbd",
-      "communityId": "com_der_project",
-      "description": "​Data and the distribution of decision-making power is an increasingly important dynamic to understand and engage with in climate and energy. ​At Data In Power, we believe the method AND end product of data (collection, analysis, and visualization) are critical to decision-making.How are data being collected, analyzed, and presented - why, and by whom? These are the hard-hitting questions we are unpacking.​At this monthly social, we discuss Data In Power fundamentals in a casual setting. **Format**: We will meet for an hour group discussion followed by an optional social hour. Here is avideowith some background on Data In Power's focus within data and the distribution of decision-making power. At all of our events, we gather our community of data and decision-making experts and enthusiasts within climate and energy to share our perspectives.​​Data In Power is an independently run meetup without any bells and whistles.In order to maintain community and continue organic growth, prospective attendees should be prepared to support our meetup venue with a purchase, regardless of how large or small. Data In Power brings folks together through meaningful, productive, and unique programming.",
-      "startDate": "2025-05-01T18:00:00-04:00",
-      "endDate": "2025-05-01T20:00:00-04:00",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": 100,
-      "registrationRequired": true,
-      "tags": [],
-      "image": "luma-event-f902b935.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://lu.ma/e/evt-GPQy2mJrgrIIpzS",
-        "speakers": [
-          {
-            "name": "Crystal Soo",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Crystal Soo",
-            "title": "",
-            "bio": ""
-          }
-        ],
-        "venue": {
-          "name": "Please register to see the exact location of this event.",
-          "address": "New York, New York",
-          "type": "Online",
-          "room": "",
-          "additional_info": ""
-        },
-        "featured": false,
-        "social_links": [
-          "https://x.com/derprojectfair",
-          "https://derprojectfair.wordpress.com/climate-coffees/",
-          "https://x.com/Derprojectfair",
-          "https://x.com/derprojectfair",
-          "https://derprojectfair.wordpress.com/climate-coffees/",
-          "https://x.com/Derprojectfair"
-        ]
-      }
-    },
-    {
       "id": "evt_com_ny_hardware_7315b6b0",
       "name": "106th NY Hardware Meetup @ Cornell Tech",
       "type": "Tech",
@@ -916,75 +820,6 @@
       }
     },
     {
-      "id": "evt_com_third_place_nyc_8b7fc567",
-      "name": "🕯️ Pour & Shake: Candle & Mocktail Making Class",
-      "type": "Tech",
-      "locationId": "loc_tbd",
-      "communityId": "com_third_place_nyc",
-      "description": "​Hey friends! This event is sold out, and unfortunately we don’t have a waitlist function. Keep an eye out for future events!​——​Join us for an evening of Candle & Mocktail Making at Nose Best - Bushwick’s secret speakeasy candle pouring studio!​We’ll kick off the night in the Nose Best store with a glass of (non-alcoholic) prosecco by St Buena Vida before heading to their speakeasy candle studio in the back.​You’ll start by blending your own signature candle scent and hand-pouring a candle to take home. Then, shake things up with a curated mocktail making experience led by Sam from Third Place Bar.​You’ll head home with your ownhandmade candle, afull size bottle of St. Buena Vida bubbly, and agoodie bag of cocktail garnishesfrom Small Batch Cocktail Co to set the mood for your next night in 🥰​Whether you’re sober-curious, alcohol-free, or just looking for a new kind of night out, this cozy, hands-on class is the perfect vibe.​Limited spots available.Come solo, bring a friend, or plan your next date night!​FAQ​​​Q: Do I need to be there at the exact start time?Yes, please aim to arrive at 6.30pm as we will get started with the class at 7pm and latecomers may not be admitted!​​​​Q: Can I come alone?Yes, you’re welcome to come alone and meet new people!​​​​Q: Is this an alcohol-free venue?Yes, the studio does not serve alcohol.​​​​Q: Is there an age restriction?Yes, all our events are 21+​​​Q: I need to cancel, can I get a refund for my ticket?Unfortunately, we cannot offer refunds, but you're welcome to pass on your ticket to someone else.",
-      "startDate": "2025-05-01T18:30:00-04:00",
-      "endDate": "2025-05-01T21:00:00-04:00",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": 100,
-      "registrationRequired": true,
-      "tags": [],
-      "image": "luma-event-cb0e03b5.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://lu.ma/ulw03d9i",
-        "speakers": [
-          {
-            "name": "Third Place Bar",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Team Nose Best",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Third Place Bar",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Team Nose Best",
-            "title": "",
-            "bio": ""
-          }
-        ],
-        "venue": {
-          "name": "Nose Best: Candles & Classes96 Knickerbocker Ave Suite 111, Brooklyn, NY 11237, USA",
-          "address": "96 Knickerbocker Ave Suite 111, Brooklyn, NY 11237, USA",
-          "type": "Offline",
-          "room": "",
-          "additional_info": ""
-        },
-        "featured": false,
-        "social_links": [
-          "https://instagram.com/thirdplacebarnyc",
-          "https://tiktok.com/@thirdplacebarnyc",
-          "https://www.thirdplacebar.nyc",
-          "https://instagram.com/thirdplacebarnyc",
-          "https://instagram.com/nosebestcandles_",
-          "https://instagram.com/thirdplacebarnyc",
-          "https://tiktok.com/@thirdplacebarnyc",
-          "https://www.thirdplacebar.nyc",
-          "https://instagram.com/thirdplacebarnyc",
-          "https://instagram.com/nosebestcandles_"
-        ]
-      }
-    },
-    {
       "id": "evt_com_third_place_nyc_b3b1349d",
       "name": "Third Place Bar x Shanti House Mindful Friday Night Social",
       "type": "Tech",
@@ -1129,7 +964,7 @@
       "capacity": 100,
       "registrationRequired": true,
       "tags": [],
-      "image": "luma-event-016eda72.jpg",
+      "image": "luma-event-18316822.jpg",
       "status": "upcoming",
       "metadata": {
         "source_url": "https://lu.ma/bucco82g",

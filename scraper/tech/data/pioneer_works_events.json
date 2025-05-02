@@ -253,6 +253,42 @@
       }
     },
     {
+      "id": "evt_pioneer_3342ad22",
+      "name": "John C. Reilly is Mister Romantic",
+      "type": "Cultural Event",
+      "locationId": "loc_pioneer_works",
+      "communityId": "com_pioneer_works",
+      "description": "This Father's Day, Pioneer Works is excited to team up with LPR Presents to bring John C. Reilly's performance of his new act and album Mister Romantic ...",
+      "startDate": "2025-06-16T00:00:00+00:00",
+      "endDate": "2025-06-16T03:00:00+00:00",
+      "category": [
+        "Arts",
+        "Music",
+        "Science"
+      ],
+      "price": null,
+      "registrationRequired": true,
+      "tags": [],
+      "image": [
+        "https://cdn.sanity.io/images/vgvol637/production/9af7b7619422c0073a38734a1fef5b7e8cbe851c-4500x5625.png?w=800"
+      ],
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://pioneerworks.org/programs/john-c-reilly-is-mister-romantic",
+        "organizer": {
+          "name": "Pioneer Works",
+          "instagram": "@pioneerworks",
+          "email": "info@pioneerworks.org"
+        },
+        "venue": {
+          "name": "Pioneer Works",
+          "address": "159 Pioneer Street",
+          "type": "Cultural Institution"
+        },
+        "featured": false
+      }
+    },
+    {
       "id": "evt_pioneer_f972de19",
       "name": "Sun Ra Arkestra with Marshall Allen, Young Boy Dancing Group, Colin Self, Cel Genesis, Relaxer b2b Baby Leo",
       "type": "Cultural Event",
