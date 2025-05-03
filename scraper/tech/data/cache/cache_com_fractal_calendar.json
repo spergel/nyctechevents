@@ -1,120 +1,6 @@
 {
   "events": [
     {
-      "id": "evt_com_fractal__clr78ba",
-      "name": "\u26a1 Lightning Talks \ud83d\udcac",
-      "type": "Tech",
-      "locationId": "loc_fractal",
-      "communityId": "com_fractal",
-      "description": "\u200bWelcome to the Fractal Tech biweeklyLightning Talks!\u200bWhat's a Lightning talk?A short (5-10 minute) talk/demo/Q&A onanything you want!\u200bShipped a feature? Read a cool article? Want to show off what you're working on? Feel like ranting?\u200bSign up here!\u200bI ran this event at a past company for a few years to very positive response; even those initially hesitant/shy to present ended up feeling energized/inspired after their first talk, with many return presenters. I think this same energy would work well here, and give us a space to share our wins/progress/learnings with our peers.\u200bInterested in presenting?Please sign upif you've got even the vaguest idea of something you'd like to talk about. It doesn't have to be very \"impressive\"; in fact, the simpler the better. You're especially welcome if its your first time speaking in public!",
-      "startDate": "2025-05-02T20:00:00Z",
-      "endDate": "2025-05-02T20:30:00Z",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": "",
-      "image": "luma-event-c14b6936.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://lu.ma/y8s3dx6g",
-        "organizer": {
-          "name": "Fractal Tech: NYC",
-          "instagram": "",
-          "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
-        },
-        "venue": {
-          "name": "Fractal Tech",
-          "address": "111 Conselyea St, Brooklyn, NY 11211",
-          "type": "Offline"
-        },
-        "speakers": [
-          {
-            "name": "eugene dobry",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "eugene dobry",
-            "title": "",
-            "bio": ""
-          }
-        ],
-        "social_links": [
-          "https://instagram.com/gingervitiz",
-          "https://x.com/_gingervitiz",
-          "https://instagram.com/gingervitiz",
-          "https://x.com/_gingervitiz"
-        ],
-        "featured": false,
-        "luma_source": true
-      }
-    },
-    {
-      "id": "evt_com_fractal__clr78ba",
-      "name": "Tea Conversations : Steeped in History",
-      "type": "Tech",
-      "locationId": "",
-      "communityId": "com_fractal",
-      "description": "\u200bHi friends!\u200bWelcome to Solei, a social teahouse concept that connects people from different walks of life.\u200bIt is your third place, your city\u2019s living room, where we sit down to talk to one another beyond small talk over a shared cup of tea and some traditional Chinese tea cakes.\u200bWe had a lovely time last time: see herehttps://lu.ma/jo03fi5land herehttps://www.instagram.com/p/DIJmgrXOByF/\u200b\u2014\u200bWhat to expect:\u200bArrival (~15min):You\u2019ll be sat down in a group as you arrive while the host serves you tea. We will be sharing with you the story of the tea and tea cakes.\u200bConversations (~75min):Chat with the group over tea in a semi-structured manner (depending on the group size, we\u2019ll either speak as one group or break down into smaller groups). We\u2019ll also come together as a group to get to know who\u2019s in the room.\u200bFree flows (~30min):Grab more tea and have amazing conversations.\u200b\u2014\u200bThis is one of the many pop-up events to come. And I hope you have an amazing experience. Your ticket includes tea refills and tea cakes.\u200bDress comfortably (you may need to sit on the floor) and bring your lovely self. Try to come on time (or early), if you are running late send a note to the host via Luma!\u200bLooking forward to meeting you,\u200bCoco\u200b\u200bIf you\u2019re curious on why we\u2019re doing this and the story behind this initiative, read this blog post:Slow Spaces for Conversation.\u200bOur website:http://dearsolei.com/\u200bIf you cannot make this one, sign uphereor follow us (IG/X) to be in the loop for the next ones!",
-      "startDate": "2025-05-02T22:00:00Z",
-      "endDate": "2025-05-03T00:00:00Z",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": "",
-      "image": "luma-event-6a3327fd.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://lu.ma/v131yc8n",
-        "organizer": {
-          "name": "Fractal Tech: NYC",
-          "instagram": "",
-          "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "Please register to see the exact location of this event.\nKings County, New York",
-          "type": "Online"
-        },
-        "speakers": [
-          {
-            "name": "Coco Liu",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Coco Liu",
-            "title": "",
-            "bio": ""
-          }
-        ],
-        "social_links": [
-          "https://instagram.com/chocokoala",
-          "https://x.com/cocobliu",
-          "https://instagram.com/chocokoala",
-          "https://x.com/cocobliu"
-        ],
-        "featured": false,
-        "luma_source": true
-      }
-    },
-    {
       "id": "evt_com_fractal__clr78bb",
       "name": "Sf\u00e2nt's Spring Revelry",
       "type": "Tech",
@@ -911,6 +797,103 @@
           "https://x.com/AnthonyCastrio",
           "https://x.com/AnthonyCastrio"
         ],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_fractal__cdgmopb",
+      "name": "Creative Technology Show n' Tell",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_fractal",
+      "description": "Find more information on https://lu.ma/nyc-tech",
+      "startDate": "2025-06-05T23:00:00Z",
+      "endDate": "2025-06-06T00:00:00Z",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/nyc-tech",
+        "organizer": {
+          "name": "Fractal Tech: NYC",
+          "instagram": "",
+          "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "https://partiful.com/e/YIHkn7swv82AjUkd3PlL?",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [
+          "https://instagram.com/fractaltechnyc",
+          "https://x.com/fractaltechnyc",
+          "https://fractaltechhub.com"
+        ],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_fractal__clr78ba",
+      "name": "NYC Hardware Meetup \u2013 Round 2 @ Fractal Tech",
+      "type": "Tech",
+      "locationId": "loc_fractal",
+      "communityId": "com_fractal",
+      "description": "\u200bNYC Hardware Builders Meetup \u2013 Round 2\u200bTo everyone who came to the last meetup\u2014thank you! It was a great time, and I loved hearing what everyone had to share. That\u2019s why we\u2019re doing it again.\u200bThis time, we\u2019re addinglightning talks\u2014short, sharp, and idea-packed. If you\u2019re working on something cool (or learned something the hard way), grab the mic and tell us about it.\u200bAbout the event:The NYC hardware scene is growing fast\u2014and it deserves a tight-knit, high-quality community. That\u2019s why I started this meetup: to connect the people actually building real things. Whether you're into embedded systems, wearables, neurotech, robotics, or RF, this is where we meet, share, and push each other forward.\u200bCome meet fellow engineers, inventors, and builders shaping the future of hardware. Whether you're debugging a prototype, bringing up a custom board, or just love the smell of solder in the morning\u2014this is your scene.\u200bBring your projects, your ideas, or just your curiosity. Bonus points if you bring something you built.",
+      "startDate": "2025-06-05T23:00:00Z",
+      "endDate": "2025-06-06T00:00:00Z",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "luma-event-970f3d86.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/qk4o35pp",
+        "organizer": {
+          "name": "Fractal Tech: NYC",
+          "instagram": "",
+          "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "Fractal Tech",
+          "address": "111 Conselyea St, Brooklyn, NY 11211",
+          "type": "Offline"
+        },
+        "speakers": [
+          {
+            "name": "Simon Hakimian",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Simon Hakimian",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "social_links": [],
         "featured": false,
         "luma_source": true
       }

@@ -1,42 +1,6 @@
 {
   "events": [
     {
-      "id": "evt_pioneer_f09297e3",
-      "name": "Kim Gordon",
-      "type": "Cultural Event",
-      "locationId": "loc_pioneer_works",
-      "communityId": "com_pioneer_works",
-      "description": "Pioneer Works is excited to team up with Bang on a Can to present the opening night of Long Play 2025 with a performance from the iconic Kim Gordon with...",
-      "startDate": "2025-05-03T00:00:00+00:00",
-      "endDate": "2025-05-03T03:00:00+00:00",
-      "category": [
-        "Arts",
-        "Music",
-        "Science"
-      ],
-      "price": null,
-      "registrationRequired": true,
-      "tags": [],
-      "image": [
-        "https://cdn.sanity.io/images/vgvol637/production/1e14d34b856deb2e3b5b4218b1057575a56bb1a9-500x500.jpg?w=800"
-      ],
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://pioneerworks.org/programs/kim-gordon",
-        "organizer": {
-          "name": "Pioneer Works",
-          "instagram": "@pioneerworks",
-          "email": "info@pioneerworks.org"
-        },
-        "venue": {
-          "name": "Pioneer Works",
-          "address": "159 Pioneer Street",
-          "type": "Cultural Institution"
-        },
-        "featured": false
-      }
-    },
-    {
       "id": "evt_pioneer_1898c313",
       "name": "Terry Riley 90th Birthday Tribute with Bang on a Can All-Stars, Gyan Riley, and Special Guests",
       "type": "Cultural Event",
