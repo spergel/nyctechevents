@@ -1,51 +1,6 @@
 {
   "events": [
     {
-      "id": "evt_com_verci__cdgmopb",
-      "name": "lucas wants to show you something",
-      "type": "Tech",
-      "locationId": "",
-      "communityId": "com_verci",
-      "description": "Find more information on https://lu.ma/verci",
-      "startDate": "2025-05-04T00:00:00Z",
-      "endDate": "2025-05-04T03:00:00Z",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": "",
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://lu.ma/verci",
-        "organizer": {
-          "name": "Verci Events",
-          "instagram": "",
-          "email": "pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "https://partiful.com/e/beu9oYALpiX9GsJZ8lDt",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [
-          "https://instagram.com/vercinyc",
-          "https://x.com/vercinyc",
-          "https://tiktok.com/@vercinyc"
-        ],
-        "featured": false,
-        "luma_source": true
-      }
-    },
-    {
       "id": "evt_com_verci__clr78bb",
       "name": "After Hours Cafe",
       "type": "Tech",

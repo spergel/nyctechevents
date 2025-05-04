@@ -1,47 +1,6 @@
 {
   "events": [
     {
-      "id": "evt_com_effective_altruism_nyc_0j82butr",
-      "name": "Special EA NYC Event Canvas of Progress: Exploring Jack Whitten's Artistic Evolution and Innovation at MoMA",
-      "type": "Tech",
-      "locationId": "",
-      "communityId": "com_effective_altruism_nyc",
-      "description": "At this event, participants will<a href=\"https://www.moma.org/calendar/exhibitions/5785\"> explore Jack Whitten</a>'s innovative techniques and materials as metaphors for scientific advancement and social transformation. Together we'll examine how his experimental approach mirrors the evolution of technology and justice systems, connecting artistic innovation with broader conversations about the foundations and future of human progress across both technological and social dimensions.\u00a0 Please email jonathan@effectivealtruism.nyc to reserve your spot.",
-      "startDate": "2025-05-03T13:30:00-04:00",
-      "endDate": "2025-05-03T15:30:00-04:00",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": "",
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.google.com/calendar/event?eid=MGo4MmJ1dHJ1ZzNsNDRqY2tlcjNnbDNja2kgaGJ2ZXRxZjVoMXBkMG9mMHZuNnV2cGhxdHNAZw",
-        "organizer": {
-          "name": "Effective Altruism NYC Events",
-          "instagram": "",
-          "email": "hbvetqf5h1pd0of0vn6uvphqts@group.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "The Museum of Modern Art, 11 W 53rd St, New York, NY 10019, USA",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false
-      }
-    },
-    {
       "id": "evt_com_effective_altruism_nyc_2ls9s66h",
       "name": "EA NYC Creatives and Communicators Subgroup Meeting",
       "type": "Tech",
