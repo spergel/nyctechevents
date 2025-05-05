@@ -1,42 +1,6 @@
 {
   "events": [
     {
-      "id": "evt_pioneer_1898c313",
-      "name": "Terry Riley 90th Birthday Tribute with Bang on a Can All-Stars, Gyan Riley, and Special Guests",
-      "type": "Cultural Event",
-      "locationId": "loc_pioneer_works",
-      "communityId": "com_pioneer_works",
-      "description": "We regretfully announce that guitar-legend Pete Townshend has to withdraw from the Long Play celebration of Terry Riley's birthday due to an injury. All...",
-      "startDate": "2025-05-05T00:00:00+00:00",
-      "endDate": "2025-05-05T03:00:00+00:00",
-      "category": [
-        "Arts",
-        "Music",
-        "Science"
-      ],
-      "price": null,
-      "registrationRequired": true,
-      "tags": [],
-      "image": [
-        "https://cdn.sanity.io/images/vgvol637/production/612a8e58b90a4b0eaeca5b654fd160acf06d0e26-1118x1122.png?w=800"
-      ],
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://pioneerworks.org/programs/terry-riley-90th-birthday-tribute-with-bang-on-a-can-all-stars-gyan-riley-and-special-guests",
-        "organizer": {
-          "name": "Pioneer Works",
-          "instagram": "@pioneerworks",
-          "email": "info@pioneerworks.org"
-        },
-        "venue": {
-          "name": "Pioneer Works",
-          "address": "159 Pioneer Street",
-          "type": "Cultural Institution"
-        },
-        "featured": false
-      }
-    },
-    {
       "id": "evt_pioneer_1269a082",
       "name": "Village Fête After Party 2025",
       "type": "Cultural Event",
@@ -109,8 +73,8 @@
       }
     },
     {
-      "id": "evt_pioneer_5863c7bc",
-      "name": "Author Talks ",
+      "id": "evt_pioneer_24497924",
+      "name": "Miranda July and Elif Batuman in Conversation",
       "type": "Cultural Event",
       "locationId": "loc_pioneer_works",
       "communityId": "com_pioneer_works",

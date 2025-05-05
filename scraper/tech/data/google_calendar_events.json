@@ -1201,8 +1201,8 @@
       "locationId": "",
       "communityId": "com_nyc_resistor",
       "description": "<u></u><p>NYC Resistor is open to the public for Craft Nights now every Monday and Thursday from 6:30-9:30 PM! Come bring your current crafting project and work on it with other artists, crafters, and makers of all kinds. Resistors do everything from costumes to electronics to visual arts to woodworking; people and crafting projects of all sorts are enthusiastically welcome!</p><p>RSVP at<span> <a href=\"https://www.eventbrite.com/e/public-craft-night-mondays-and-thursdays-tickets-162729866411\">https://www.eventbrite.com/e/public-craft-night-mondays-and-thursdays-tickets-162729866411</a></span> is appreciated but not required, for covid contact-tracing purposes.<br></p>This event like all NYC Resistor events is 18 and over and governed by out code of conduct. <br><br>More information: <a href=\"http://www.nycresistor.com/participate/\">http://www.nycresistor.com/participate/</a><br>NYC Resistor Code of Conduct: <a href=\"http://www.nycresistor.com/2015/08/04/nyc-resistor-code-of-conduct/\">http://www.nycresistor.com/2015/08/04/nyc-resistor-code-of-conduct/</a><u></u><u></u><u></u><u></u><u></u>",
-      "startDate": "2025-07-28T18:30:00-04:00",
-      "endDate": "2025-07-28T21:30:00-04:00",
+      "startDate": "2025-08-04T18:30:00-04:00",
+      "endDate": "2025-08-04T21:30:00-04:00",
       "category": [
         "Tech"
       ],
@@ -1242,8 +1242,8 @@
       "locationId": "",
       "communityId": "com_nyc_resistor",
       "description": "",
-      "startDate": "2025-07-28T20:00:00-04:00",
-      "endDate": "2025-07-28T21:00:00-04:00",
+      "startDate": "2025-08-04T20:00:00-04:00",
+      "endDate": "2025-08-04T21:00:00-04:00",
       "category": [
         "Tech"
       ],
@@ -1259,7 +1259,7 @@
       "image": "",
       "status": "upcoming",
       "metadata": {
-        "source_url": "https://www.google.com/calendar/event?eid=NW1mOWcyaXY4cW00c242cTRlOTNibzdvczBfMjAyNTA3MjlUMDAwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn",
+        "source_url": "https://www.google.com/calendar/event?eid=NW1mOWcyaXY4cW00c242cTRlOTNibzdvczBfMjAyNTA4MDVUMDAwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn",
         "organizer": {
           "name": "",
           "instagram": "",
@@ -1283,8 +1283,8 @@
       "locationId": "",
       "communityId": "com_nyc_resistor",
       "description": "<u></u><p>NYC Resistor is open to the public for Craft Nights now every Monday and Thursday from 6:30-9:30 PM! Come bring your current crafting project and work on it with other artists, crafters, and makers of all kinds. Resistors do everything from costumes to electronics to visual arts to woodworking; people and crafting projects of all sorts are enthusiastically welcome!</p><p>RSVP at<span> <a href=\"https://www.google.com/url?q=https://www.eventbrite.com/e/public-craft-night-mondays-and-thursdays-tickets-162729866411&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw2GxlHrVKU2UOWuOdKbNOj5\" target=\"_blank\">https://www.eventbrite.com/e/public-craft-night-mondays-and-thursdays-tickets-162729866411</a></span> is appreciated but not required, for covid contact-tracing purposes.<br></p>This event like all NYC Resistor events is 18 and over and governed by out code of conduct. <br><br>More information: <a href=\"https://www.google.com/url?q=http://www.nycresistor.com/participate/&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw2qoLIc6c_Ay1xuc_FYjEZH\" target=\"_blank\">http://www.nycresistor.com/participate/</a><br>NYC Resistor Code of Conduct: <a href=\"https://www.google.com/url?q=http://www.nycresistor.com/2015/08/04/nyc-resistor-code-of-conduct/&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw1hCVO6yP0-Y--CtV5nrIw_\" target=\"_blank\">http://www.nycresistor.com/2015/08/04/nyc-resistor-code-of-conduct/</a><u></u><u></u><u></u><u></u><u></u>",
-      "startDate": "2025-07-31T18:30:00-04:00",
-      "endDate": "2025-07-31T21:30:00-04:00",
+      "startDate": "2025-08-07T18:30:00-04:00",
+      "endDate": "2025-08-07T21:30:00-04:00",
       "category": [
         "Tech"
       ],
@@ -1605,55 +1605,14 @@
       }
     },
     {
-      "id": "evt_com_nyc_resistor_2uvlrkii",
-      "name": "HOLD: CNC Embroidery",
-      "type": "Tech",
-      "locationId": "",
-      "communityId": "com_nyc_resistor",
-      "description": "",
-      "startDate": "2025-05-04",
-      "endDate": "2025-05-05",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": "",
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.google.com/calendar/event?eid=MnV2bHJraWljNGZwdDhxNmk2amhrYzk0bG8gcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw",
-        "organizer": {
-          "name": "NYCResistor",
-          "instagram": "",
-          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false
-      }
-    },
-    {
       "id": "evt_com_nyc_resistor_4qpeos85",
       "name": "Hold: Laser Cutting Class",
       "type": "Tech",
       "locationId": "",
       "communityId": "com_nyc_resistor",
       "description": "",
-      "startDate": "2025-07-02",
-      "endDate": "2025-07-03",
+      "startDate": "2025-08-06",
+      "endDate": "2025-08-07",
       "category": [
         "Tech"
       ],
@@ -1669,7 +1628,7 @@
       "image": "",
       "status": "upcoming",
       "metadata": {
-        "source_url": "https://www.google.com/calendar/event?eid=NHFwZW9zODU5dDc1dmg2bDQyZTVtdWtoN2dfMjAyNTA3MDIgcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw",
+        "source_url": "https://www.google.com/calendar/event?eid=NHFwZW9zODU5dDc1dmg2bDQyZTVtdWtoN2dfMjAyNTA4MDYgcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw",
         "organizer": {
           "name": "NYCResistor",
           "instagram": "",
@@ -1918,51 +1877,6 @@
       }
     },
     {
-      "id": "evt_com_verci__cdgmopb",
-      "name": "lucas wants to show you something",
-      "type": "Tech",
-      "locationId": "",
-      "communityId": "com_verci",
-      "description": "Find more information on https://lu.ma/verci",
-      "startDate": "2025-05-04T00:00:00Z",
-      "endDate": "2025-05-04T03:00:00Z",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": "",
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://lu.ma/verci",
-        "organizer": {
-          "name": "Verci Events",
-          "instagram": "",
-          "email": "pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "https://partiful.com/e/beu9oYALpiX9GsJZ8lDt",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [
-          "https://instagram.com/vercinyc",
-          "https://x.com/vercinyc",
-          "https://tiktok.com/@vercinyc"
-        ],
-        "featured": false,
-        "luma_source": true
-      }
-    },
-    {
       "id": "evt_com_verci__clr78b9",
       "name": "Verci Japan",
       "type": "Tech",
@@ -2145,88 +2059,6 @@
       }
     },
     {
-      "id": "evt_com_nyc_resistor_lri68omv",
-      "name": "Machine Embroidery with Ink/Stitch – Hands-On Workshop!",
-      "type": "Tech",
-      "locationId": "",
-      "communityId": "com_nyc_resistor",
-      "description": "Vaccination Proof + Mask + RSVP Required\nRSVP https://www.eventbrite.com/e/machine-embroidery-with-inkstitch-hands-on-workshop-tickets-1314361202739\n\nLearn to create stunning embroidery designs using Inkscape + Ink/Stitch!This workshop is perfect for beginners and hobbyists looking to dive into machine embroidery using Ink/Stitch (InkEmbroidery)—a free and powerful extension for Inkscape. You’ll learn how to design, digitize, and stitch your own patterns with confidence!\n\n What You’ll Learn:\n Setting up Ink/Stitch (InkEmbroidery) in Inkscape\n Creating and digitizing embroidery designs\n Understanding stitch types, paths, and settings\n Exporting files for embroidery machines\n Hands-on practice with real embroidery stitching!\n\n What to Bring:\n A laptop (Windows or Linux preferred) \n If you don’t have a laptop, no worries! We have a limited number available for use.\n\nThis is a masks optional event.\nAs with all NYC Resistor events, this class is 18+ and governed by our Code of Conduct. The Code of Conduct, as well as accessibility information, can be found at www.nycresistor.com/participate/.\nPlease note that refunds must be requested 24 hours in advance. If you have any questions, please email classes@nycresistor.com.\n",
-      "startDate": "2025-05-04T12:30:00-04:00",
-      "endDate": "2025-05-04T15:30:00-04:00",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": true,
-      "tags": "",
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.eventbrite.com/e/machine-embroidery-with-inkstitch-hands-on-workshop-tickets-1314361202739",
-        "organizer": {
-          "name": "NYCResistor",
-          "instagram": "",
-          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "NYC Resistor\n87 3rd Avenue\nBrooklyn, NY 11217",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false
-      }
-    },
-    {
-      "id": "evt_com_nyc_resistor_8c5dnvp2",
-      "name": "Copy of Machine Embroidery with Ink/Stitch – Hands-On Workshop!",
-      "type": "Tech",
-      "locationId": "",
-      "communityId": "com_nyc_resistor",
-      "description": "Vaccination Proof + Mask + RSVP Required\nRSVP https://www.eventbrite.com/e/copy-of-machine-embroidery-with-inkstitch-hands-on-workshop-tickets-1314363870719\n\nLearn to create stunning embroidery designs using Inkscape + Ink/Stitch!This workshop is perfect for beginners and hobbyists looking to dive into machine embroidery using Ink/Stitch (InkEmbroidery)—a free and powerful extension for Inkscape. You’ll learn how to design, digitize, and stitch your own patterns with confidence!\n\n What You’ll Learn:\n Setting up Ink/Stitch (InkEmbroidery) in Inkscape\n Creating and digitizing embroidery designs\n Understanding stitch types, paths, and settings\n Exporting files for embroidery machines\n Hands-on practice with real embroidery stitching!\n\n What to Bring:\n A laptop (Windows or Linux preferred) \n If you don’t have a laptop, no worries! We have a limited number available for use.\n\nThis is a masks optional event.\nAs with all NYC Resistor events, this class is 18+ and governed by our Code of Conduct. The Code of Conduct, as well as accessibility information, can be found at www.nycresistor.com/participate/.\nPlease note that refunds must be requested 24 hours in advance. If you have any questions, please email classes@nycresistor.com.\n",
-      "startDate": "2025-05-04T14:30:00-04:00",
-      "endDate": "2025-05-04T17:30:00-04:00",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": true,
-      "tags": "",
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.eventbrite.com/e/copy-of-machine-embroidery-with-inkstitch-hands-on-workshop-tickets-1314363870719",
-        "organizer": {
-          "name": "NYCResistor",
-          "instagram": "",
-          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "NYC Resistor\n87 3rd Avenue\nBrooklyn, NY 11217",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false
-      }
-    },
-    {
       "id": "evt_com_effective_altruism_nyc_6vkt79sh",
       "name": "World Health Day",
       "type": "Tech",
@@ -2347,47 +2179,6 @@
       }
     },
     {
-      "id": "evt_com_nyc_resistor__85238g9",
-      "name": "machine embroidery class!",
-      "type": "Tech",
-      "locationId": "",
-      "communityId": "com_nyc_resistor",
-      "description": "",
-      "startDate": "2025-05-04T12:30:00-04:00",
-      "endDate": "2025-05-04T15:30:00-04:00",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": "",
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.google.com/calendar/event?eid=Xzg1MjM4ZzlvNmwwajhiYTU2NHFqNmI5azhwMzRjYmEyODhvNGFiOWs4Y3BqZ2Qxbjg5MGo4Z2kxNjggcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw",
-        "organizer": {
-          "name": "NYCResistor",
-          "instagram": "",
-          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "NYC Resistor\n87 Third Ave, FL 4, Brooklyn, NY  11217, United States",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false
-      }
-    },
-    {
       "id": "evt_com_nyc_resistor_74pmccph",
       "name": "HOLD: NY2CR Ham Exams",
       "type": "Tech",
@@ -2457,47 +2248,6 @@
           "name": "telos.haus events",
           "instagram": "",
           "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false
-      }
-    },
-    {
-      "id": "evt_com_nyc_resistor_6oo66eb5",
-      "name": "HOLD: Spy Kids 3 Watch Party",
-      "type": "Tech",
-      "locationId": "",
-      "communityId": "com_nyc_resistor",
-      "description": "",
-      "startDate": "2025-05-04T20:00:00-04:00",
-      "endDate": "2025-05-04T22:00:00-04:00",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": "",
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.google.com/calendar/event?eid=Nm9vNjZlYjVjb3JqZWI5bGNwajNhYjlrY2twM2diYjE2ZGdtNmJiNWNwaDM2Y3BwNmNxbTRvcGc2ayBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn",
-        "organizer": {
-          "name": "NYCResistor",
-          "instagram": "",
-          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
         },
         "venue": {
           "name": "",
@@ -3164,47 +2914,6 @@
       }
     },
     {
-      "id": "evt_com_nyc_resistor_vu3c5ol6",
-      "name": "Electronics XV",
-      "type": "Tech",
-      "locationId": "",
-      "communityId": "com_nyc_resistor",
-      "description": "Vaccination Proof + Mask + RSVP Required\nRSVP https://www.eventbrite.com/e/electronics-xv-tickets-1343994627109\n\nhardware electronic music partyMAY 3, NYC RESISTORFEATURING\ntr!ggered\ndj dispatch\nredneck princess\ntrey cegan\ncelebrity bitcrush\nslackjaw\nAND VISUALS BY\nfossil christ\nnonbinaryjakepaul\n\nCOME LISTEN TO HARDWARE\nMUSIC\nOPEN DEX/MIXER B4 &amp; BTWEEN SETS\nNOTAFLOF PLS DONATE IF U CAN\n\nThis is a masks optional event.\n\nAs with all NYC Resistor events, this class is 18+ and governed by our Code of Conduct. The Code of Conduct, as well as accessibility information, can be found at www.nycresistor.com/participate/.\nPlease note that refunds must be requested 24 hours in advance. If you have any questions, please email classes@nycresistor.com.\n",
-      "startDate": "2025-05-03T20:00:00-04:00",
-      "endDate": "2025-05-04T03:00:00-04:00",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": true,
-      "tags": "",
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.eventbrite.com/e/electronics-xv-tickets-1343994627109",
-        "organizer": {
-          "name": "NYCResistor",
-          "instagram": "",
-          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "NYCResistor\n87 3rd Ave\nBrooklyn, NY 11217",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false
-      }
-    },
-    {
       "id": "evt_com_nyc_resistor_7q0v88u5",
       "name": "HOLD: may make-along",
       "type": "Tech",
@@ -3624,8 +3333,8 @@
       "locationId": "",
       "communityId": "com_telos",
       "description": "",
-      "startDate": "2025-06-06T20:00:00-04:00",
-      "endDate": "2025-06-07T01:00:00-04:00",
+      "startDate": "2025-06-07T20:00:00-04:00",
+      "endDate": "2025-06-08T01:00:00-04:00",
       "category": [
         "Tech"
       ],
