@@ -1201,8 +1201,8 @@
       "locationId": "",
       "communityId": "com_nyc_resistor",
       "description": "<u></u><p>NYC Resistor is open to the public for Craft Nights now every Monday and Thursday from 6:30-9:30 PM! Come bring your current crafting project and work on it with other artists, crafters, and makers of all kinds. Resistors do everything from costumes to electronics to visual arts to woodworking; people and crafting projects of all sorts are enthusiastically welcome!</p><p>RSVP at<span> <a href=\"https://www.eventbrite.com/e/public-craft-night-mondays-and-thursdays-tickets-162729866411\">https://www.eventbrite.com/e/public-craft-night-mondays-and-thursdays-tickets-162729866411</a></span> is appreciated but not required, for covid contact-tracing purposes.<br></p>This event like all NYC Resistor events is 18 and over and governed by out code of conduct. <br><br>More information: <a href=\"http://www.nycresistor.com/participate/\">http://www.nycresistor.com/participate/</a><br>NYC Resistor Code of Conduct: <a href=\"http://www.nycresistor.com/2015/08/04/nyc-resistor-code-of-conduct/\">http://www.nycresistor.com/2015/08/04/nyc-resistor-code-of-conduct/</a><u></u><u></u><u></u><u></u><u></u>",
-      "startDate": "2025-08-04T18:30:00-04:00",
-      "endDate": "2025-08-04T21:30:00-04:00",
+      "startDate": "2025-08-11T18:30:00-04:00",
+      "endDate": "2025-08-11T21:30:00-04:00",
       "category": [
         "Tech"
       ],
@@ -1324,8 +1324,8 @@
       "locationId": "",
       "communityId": "com_nyc_resistor",
       "description": "",
-      "startDate": "2025-07-31T20:00:00-04:00",
-      "endDate": "2025-07-31T21:00:00-04:00",
+      "startDate": "2025-08-07T20:00:00-04:00",
+      "endDate": "2025-08-07T21:00:00-04:00",
       "category": [
         "Tech"
       ],
@@ -1341,7 +1341,7 @@
       "image": "",
       "status": "upcoming",
       "metadata": {
-        "source_url": "https://www.google.com/calendar/event?eid=MjExbXBpazAwdXQ4MTVrZ3FuMjExcm8wcTJfMjAyNTA4MDFUMDAwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn",
+        "source_url": "https://www.google.com/calendar/event?eid=MjExbXBpazAwdXQ4MTVrZ3FuMjExcm8wcTJfMjAyNTA4MDhUMDAwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn",
         "organizer": {
           "name": "",
           "instagram": "",
@@ -3287,11 +3287,11 @@
     },
     {
       "id": "evt_com_telos_2d0djm0o",
-      "name": "Public Friday hosted by Tedi",
+      "name": "open.haus with tedi mitiku",
       "type": "Tech",
-      "locationId": "",
+      "locationId": "loc_telos",
       "communityId": "com_telos",
-      "description": "",
+      "description": "​A casual event for you to experiencetelos.haus on your own terms. We'll break for a collective coffee (Swedish fika style) at 2pm. See you there!",
       "startDate": "2025-05-09T12:00:00-04:00",
       "endDate": "2025-05-09T18:00:00-04:00",
       "category": [
@@ -3306,24 +3306,42 @@
       "capacity": null,
       "registrationRequired": false,
       "tags": "",
-      "image": "",
+      "image": "luma-event-d62e608f.jpg",
       "status": "upcoming",
       "metadata": {
-        "source_url": "https://www.google.com/calendar/event?eid=MmQwZGptMG9ndDQxbDZ1bm03YTlucTh1cjAgZDU5NmMyYmY3MjExODNkMjJiYjUwYmRlNjYyNTA5MGZjMzkyM2FhMjlhNjkxOGQ3ODQwOWUxNjhkYTc5MTc2OUBn",
+        "source_url": "https://lu.ma/fkc8fl9e",
         "organizer": {
           "name": "telos.haus events",
           "instagram": "",
           "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
         },
         "venue": {
-          "name": "",
-          "address": "",
+          "name": "Telos",
+          "address": "181 Wyckoff Ave, Brooklyn, NY 11237",
           "type": "Offline"
         },
-        "speakers": [],
-        "social_links": [],
+        "speakers": [
+          {
+            "name": "telos.haus",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "telos.haus",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "social_links": [
+          "https://instagram.com/telos.haus",
+          "https://telos.haus",
+          "https://instagram.com/telos.haus",
+          "https://instagram.com/telos.haus",
+          "https://telos.haus",
+          "https://instagram.com/telos.haus"
+        ],
         "featured": false,
-        "luma_source": false
+        "luma_source": true
       }
     },
     {
@@ -3488,6 +3506,225 @@
         "social_links": [],
         "featured": false,
         "luma_source": false
+      }
+    },
+    {
+      "id": "evt_com_telos_4if5qo35",
+      "name": "Booked by TT",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2025-05-17T11:00:00-04:00",
+      "endDate": "2025-05-17T16:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.google.com/calendar/event?eid=NGlmNXFvMzU2dWtmMGpxNjlhOWwzdDVqaXYgZDU5NmMyYmY3MjExODNkMjJiYjUwYmRlNjYyNTA5MGZjMzkyM2FhMjlhNjkxOGQ3ODQwOWUxNjhkYTc5MTc2OUBn",
+        "organizer": {
+          "name": "telos.haus events",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
+      "id": "evt_com_telos_5sjs1t51",
+      "name": "Booked by Summer Breeze",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2025-05-18T15:00:00-04:00",
+      "endDate": "2025-05-18T18:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.google.com/calendar/event?eid=NXNqczF0NTFqanJjMTNoMzVsOGQ2N3EwbDEgZDU5NmMyYmY3MjExODNkMjJiYjUwYmRlNjYyNTA5MGZjMzkyM2FhMjlhNjkxOGQ3ODQwOWUxNjhkYTc5MTc2OUBn",
+        "organizer": {
+          "name": "telos.haus events",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
+      "id": "evt_com_telos_6oee0q77",
+      "name": "Intro to Handbuilding with Clay (time TBC)",
+      "type": "Tech",
+      "locationId": "loc_telos",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2025-05-23T19:00:00-04:00",
+      "endDate": "2025-05-23T22:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.google.com/calendar/event?eid=Nm9lZTBxNzdmMnA5NTgybzU2MmJhY29qZ2ggZDU5NmMyYmY3MjExODNkMjJiYjUwYmRlNjYyNTA5MGZjMzkyM2FhMjlhNjkxOGQ3ODQwOWUxNjhkYTc5MTc2OUBn",
+        "organizer": {
+          "name": "telos.haus events",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "Telos",
+          "address": "181 Wyckoff Ave, Brooklyn, NY 11237",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
+      "id": "evt_com_telos_4rurv4d2",
+      "name": "Booked by Coco Liu",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2025-05-25T12:00:00-04:00",
+      "endDate": "2025-05-25T18:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.google.com/calendar/event?eid=NHJ1cnY0ZDIyNGdzazhsNjBtOWUzN2Y3ZHEgZDU5NmMyYmY3MjExODNkMjJiYjUwYmRlNjYyNTA5MGZjMzkyM2FhMjlhNjkxOGQ3ODQwOWUxNjhkYTc5MTc2OUBn",
+        "organizer": {
+          "name": "telos.haus events",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
+      "id": "evt_com_telos_5jfm5lau",
+      "name": "“Echoes” Showcase",
+      "type": "Tech",
+      "locationId": "loc_telos",
+      "communityId": "com_telos",
+      "description": "​Work in Progress NYC’s third annual showcase invites attendees to engage with works spanning a variety of mediums – poetry, painting, ceramics, music, dance, video, sculpture, print, and more – that exploreresonance,memory, andconnectionacross time and space.​Food & beverages will be available for purchase.​Schedule​Doors Open- 4:30pmGallery Start- 5:00pmPerformances- 7:00pm​What is Work in Progress?​Work In Progress NYC is a monthly series where interdisciplinary creatives share projects they’re working on for feedback and dialogue. It’s a safe and conscious space focused on being raw and vulnerable with whatever stage of creation people are at instead of focused on presenting a finished and polished project. Our larger showcases like this one serve as a space to share more polished projects, celebrate each other's work, and give our artists an opportunity to share their art with a wider audience.​Price and Accessibility commitment​We want all our events to be accessible to everyone regardless of background or financial status. The pricing shown here is just to help us break even with costs of hosting the event and we don't make any profit off of these. If you have difficulties paying for the event, reach out to us@workinprogressnycand we can arrange entry passes for you.",
+      "startDate": "2025-05-30",
+      "endDate": "2025-06-02",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "luma-event-59a54017.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/tw8k27tc",
+        "organizer": {
+          "name": "telos.haus events",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "Telos",
+          "address": "181 Wyckoff Ave, Brooklyn, NY 11237",
+          "type": "Offline"
+        },
+        "speakers": [
+          {
+            "name": "workinprogressnyc",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "workinprogressnyc",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "social_links": [
+          "https://instagram.com/workinprogressnyc",
+          "https://instagram.com/workinprogressnyc"
+        ],
+        "featured": false,
+        "luma_source": true
       }
     }
   ]

@@ -43,11 +43,11 @@
     },
     {
       "id": "evt_com_telos_2d0djm0o",
-      "name": "Public Friday hosted by Tedi",
+      "name": "open.haus with tedi mitiku",
       "type": "Tech",
-      "locationId": "",
+      "locationId": "loc_telos",
       "communityId": "com_telos",
-      "description": "",
+      "description": "\u200bA casual event for you to experiencetelos.haus on your own terms. We'll break for a collective coffee (Swedish fika style) at 2pm. See you there!",
       "startDate": "2025-05-09T12:00:00-04:00",
       "endDate": "2025-05-09T18:00:00-04:00",
       "category": [
@@ -62,24 +62,42 @@
       "capacity": null,
       "registrationRequired": false,
       "tags": "",
-      "image": "",
+      "image": "luma-event-d62e608f.jpg",
       "status": "upcoming",
       "metadata": {
-        "source_url": "https://www.google.com/calendar/event?eid=MmQwZGptMG9ndDQxbDZ1bm03YTlucTh1cjAgZDU5NmMyYmY3MjExODNkMjJiYjUwYmRlNjYyNTA5MGZjMzkyM2FhMjlhNjkxOGQ3ODQwOWUxNjhkYTc5MTc2OUBn",
+        "source_url": "https://lu.ma/fkc8fl9e",
         "organizer": {
           "name": "telos.haus events",
           "instagram": "",
           "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
         },
         "venue": {
-          "name": "",
-          "address": "",
+          "name": "Telos",
+          "address": "181 Wyckoff Ave, Brooklyn, NY 11237",
           "type": "Offline"
         },
-        "speakers": [],
-        "social_links": [],
+        "speakers": [
+          {
+            "name": "telos.haus",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "telos.haus",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "social_links": [
+          "https://instagram.com/telos.haus",
+          "https://telos.haus",
+          "https://instagram.com/telos.haus",
+          "https://instagram.com/telos.haus",
+          "https://telos.haus",
+          "https://instagram.com/telos.haus"
+        ],
         "featured": false,
-        "luma_source": false
+        "luma_source": true
       }
     },
     {
@@ -234,6 +252,88 @@
       "status": "upcoming",
       "metadata": {
         "source_url": "https://www.google.com/calendar/event?eid=NWkwbnYzaXE5cnZ2bjZva2p1azRrZ3FtcmIgZDU5NmMyYmY3MjExODNkMjJiYjUwYmRlNjYyNTA5MGZjMzkyM2FhMjlhNjkxOGQ3ODQwOWUxNjhkYTc5MTc2OUBn",
+        "organizer": {
+          "name": "telos.haus events",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
+      "id": "evt_com_telos_4if5qo35",
+      "name": "Booked by TT",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2025-05-17T11:00:00-04:00",
+      "endDate": "2025-05-17T16:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.google.com/calendar/event?eid=NGlmNXFvMzU2dWtmMGpxNjlhOWwzdDVqaXYgZDU5NmMyYmY3MjExODNkMjJiYjUwYmRlNjYyNTA5MGZjMzkyM2FhMjlhNjkxOGQ3ODQwOWUxNjhkYTc5MTc2OUBn",
+        "organizer": {
+          "name": "telos.haus events",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
+      "id": "evt_com_telos_5sjs1t51",
+      "name": "Booked by Summer Breeze",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2025-05-18T15:00:00-04:00",
+      "endDate": "2025-05-18T18:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.google.com/calendar/event?eid=NXNqczF0NTFqanJjMTNoMzVsOGQ2N3EwbDEgZDU5NmMyYmY3MjExODNkMjJiYjUwYmRlNjYyNTA5MGZjMzkyM2FhMjlhNjkxOGQ3ODQwOWUxNjhkYTc5MTc2OUBn",
         "organizer": {
           "name": "telos.haus events",
           "instagram": "",
@@ -408,6 +508,47 @@
       }
     },
     {
+      "id": "evt_com_telos_6oee0q77",
+      "name": "Intro to Handbuilding with Clay (time TBC)",
+      "type": "Tech",
+      "locationId": "loc_telos",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2025-05-23T19:00:00-04:00",
+      "endDate": "2025-05-23T22:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.google.com/calendar/event?eid=Nm9lZTBxNzdmMnA5NTgybzU2MmJhY29qZ2ggZDU5NmMyYmY3MjExODNkMjJiYjUwYmRlNjYyNTA5MGZjMzkyM2FhMjlhNjkxOGQ3ODQwOWUxNjhkYTc5MTc2OUBn",
+        "organizer": {
+          "name": "telos.haus events",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "Telos",
+          "address": "181 Wyckoff Ave, Brooklyn, NY 11237",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
       "id": "evt_com_telos_3gm2aapt",
       "name": "USB of Death",
       "type": "Tech",
@@ -432,6 +573,47 @@
       "status": "upcoming",
       "metadata": {
         "source_url": "https://www.google.com/calendar/event?eid=M2dtMmFhcHRpM3I5a29kYTZ2cjhzb2NwYjggZDU5NmMyYmY3MjExODNkMjJiYjUwYmRlNjYyNTA5MGZjMzkyM2FhMjlhNjkxOGQ3ODQwOWUxNjhkYTc5MTc2OUBn",
+        "organizer": {
+          "name": "telos.haus events",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
+      "id": "evt_com_telos_4rurv4d2",
+      "name": "Booked by Coco Liu",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2025-05-25T12:00:00-04:00",
+      "endDate": "2025-05-25T18:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.google.com/calendar/event?eid=NHJ1cnY0ZDIyNGdzazhsNjBtOWUzN2Y3ZHEgZDU5NmMyYmY3MjExODNkMjJiYjUwYmRlNjYyNTA5MGZjMzkyM2FhMjlhNjkxOGQ3ODQwOWUxNjhkYTc5MTc2OUBn",
         "organizer": {
           "name": "telos.haus events",
           "instagram": "",
@@ -529,6 +711,61 @@
           "https://instagram.com/aci_d.club",
           "https://x.com/aci_dclub",
           "https://aci-d.club"
+        ],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_telos_5jfm5lau",
+      "name": "\u201cEchoes\u201d Showcase",
+      "type": "Tech",
+      "locationId": "loc_telos",
+      "communityId": "com_telos",
+      "description": "\u200bWork in Progress NYC\u2019s third annual showcase invites attendees to engage with works spanning a variety of mediums \u2013 poetry, painting, ceramics, music, dance, video, sculpture, print, and more \u2013 that exploreresonance,memory, andconnectionacross time and space.\u200bFood & beverages will be available for purchase.\u200bSchedule\u200bDoors Open- 4:30pmGallery Start- 5:00pmPerformances- 7:00pm\u200bWhat is Work in Progress?\u200bWork In Progress NYC is a monthly series where interdisciplinary creatives share projects they\u2019re working on for feedback and dialogue. It\u2019s a safe and conscious space focused on being raw and vulnerable with whatever stage of creation people are at instead of focused on presenting a finished and polished project. Our larger showcases like this one serve as a space to share more polished projects, celebrate each other's work, and give our artists an opportunity to share their art with a wider audience.\u200bPrice and Accessibility commitment\u200bWe want all our events to be accessible to everyone regardless of background or financial status. The pricing shown here is just to help us break even with costs of hosting the event and we don't make any profit off of these. If you have difficulties paying for the event, reach out to us@workinprogressnycand we can arrange entry passes for you.",
+      "startDate": "2025-05-30",
+      "endDate": "2025-06-02",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "luma-event-59a54017.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/tw8k27tc",
+        "organizer": {
+          "name": "telos.haus events",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "Telos",
+          "address": "181 Wyckoff Ave, Brooklyn, NY 11237",
+          "type": "Offline"
+        },
+        "speakers": [
+          {
+            "name": "workinprogressnyc",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "workinprogressnyc",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "social_links": [
+          "https://instagram.com/workinprogressnyc",
+          "https://instagram.com/workinprogressnyc"
         ],
         "featured": false,
         "luma_source": true
