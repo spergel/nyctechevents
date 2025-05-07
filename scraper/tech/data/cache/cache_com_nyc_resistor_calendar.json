@@ -1,47 +1,6 @@
 {
   "events": [
     {
-      "id": "evt_com_nyc_resistor__852k6d9",
-      "name": "",
-      "type": "Tech",
-      "locationId": "",
-      "communityId": "com_nyc_resistor",
-      "description": "",
-      "startDate": "2025-05-06T11:00:00-04:00",
-      "endDate": "2025-05-06T15:00:00-04:00",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": "",
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.google.com/calendar/event?eid=Xzg1Mms2ZDlnNmgzNDJiOWc4OHEzNGI5azZoMjMyYmEyOGQzMzhiYTY2NG8zZ2U5bDc0bzQ4Z3BnNm9fMjAyNTA1MDZUMTUwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn",
-        "organizer": {
-          "name": "",
-          "instagram": "",
-          "email": ""
-        },
-        "venue": {
-          "name": "",
-          "address": "",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false
-      }
-    },
-    {
       "id": "evt_com_nyc_resistor_2nmcngqq",
       "name": "HOLD: Party Kari",
       "type": "Tech",
@@ -197,47 +156,6 @@
         "venue": {
           "name": "",
           "address": "NYC Resistor\n87 Third Avenue\nBrooklyn, NY 11217",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false
-      }
-    },
-    {
-      "id": "evt_com_nyc_resistor_0hhpde7t",
-      "name": "HOLD: Meal Prep: L9 Dumplings?!",
-      "type": "Tech",
-      "locationId": "",
-      "communityId": "com_nyc_resistor",
-      "description": "",
-      "startDate": "2025-05-11T15:00:00-04:00",
-      "endDate": "2025-05-11T20:00:00-04:00",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": "",
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.google.com/calendar/event?eid=MGhocGRlN3RkcW41ZG45ZXNobW85OGhjcGIgcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw",
-        "organizer": {
-          "name": "NYCResistor",
-          "instagram": "",
-          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "",
           "type": "Offline"
         },
         "speakers": [],
@@ -493,47 +411,6 @@
       }
     },
     {
-      "id": "evt_com_nyc_resistor_7q0v88u5",
-      "name": "HOLD: may make-along",
-      "type": "Tech",
-      "locationId": "",
-      "communityId": "com_nyc_resistor",
-      "description": "",
-      "startDate": "2025-05-16",
-      "endDate": "2025-05-17",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": "",
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.google.com/calendar/event?eid=N3Ewdjg4dTVkOXRiNW9rcHUya2xjczM1MDkgcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw",
-        "organizer": {
-          "name": "NYCResistor",
-          "instagram": "",
-          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false
-      }
-    },
-    {
       "id": "evt_com_nyc_resistor_og5a3obl",
       "name": "Intro to Soldering Workshop: Make an LED Tile",
       "type": "Tech",
@@ -575,47 +452,6 @@
       }
     },
     {
-      "id": "evt_com_nyc_resistor_0a6dtgsl",
-      "name": "Hold: Laser Cutting Class",
-      "type": "Tech",
-      "locationId": "",
-      "communityId": "com_nyc_resistor",
-      "description": "",
-      "startDate": "2025-05-18",
-      "endDate": "2025-05-19",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": "",
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.google.com/calendar/event?eid=MGE2ZHRnc2xtbGFpMG8xcWU3cGcyMDlrMGtfMjAyNTA1MTggcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw",
-        "organizer": {
-          "name": "NYCResistor",
-          "instagram": "",
-          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false
-      }
-    },
-    {
       "id": "evt_com_nyc_resistor_8p0q8to1",
       "name": "Learn to Use a Laser Cutter to Cut and Etch Your Own Designs",
       "type": "Tech",
@@ -648,6 +484,47 @@
         "venue": {
           "name": "",
           "address": "NYC Resistor\n87 Third Avenue\nBrooklyn, NY 11217",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
+      "id": "evt_com_nyc_resistor_r6t4ssbp",
+      "name": "Spy Kids 3 Watch Party",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_nyc_resistor",
+      "description": "RSVP https://www.eventbrite.com/e/spy-kids-3-watch-party-tickets-1355054507509\n\nOur final free screening in our three part exploration of the series that rocked our world. \nEarnest Adults Only. No kids, spy or otherwise.Please join us for our showing of Spy Kids 3-D Game Over, our final screening in our three part exploration of the series that rocked our world. Together we'll celebrate Robert Rodriguez, whimsy, and all things spy.What arguments does the movie make about our relationship to virtual realities? Stay for talk back after the show to discuss.Light snacks will be provided. Costumes encouraged.Earnest Adults Only. No kids, spy or otherwise.\nThis is a masks optional event.\nWe are a proactively inclusive space, and prioritize creating opportunities for the whole community to engage with our events, across all identities of race, creed, ethnicity, age, religion, gender, gender identity, sexual orientation, physical appearance, and ability; please read our Code of Conduct to familiarize yourself with our community's values before attending. We are also an 18+ space, and accessibility information can be found here.\n",
+      "startDate": "2025-05-18T20:00:00-04:00",
+      "endDate": "2025-05-18T22:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": true,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.eventbrite.com/e/spy-kids-3-watch-party-tickets-1355054507509",
+        "organizer": {
+          "name": "NYCResistor",
+          "instagram": "",
+          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "NYCResistor\n87 3rd Ave\nBrooklyn, NY 11217",
           "type": "Offline"
         },
         "speakers": [],
@@ -903,6 +780,47 @@
       }
     },
     {
+      "id": "evt_com_nyc_resistor_6hum31mj",
+      "name": "Set-up: Volt Couture",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_nyc_resistor",
+      "description": "",
+      "startDate": "2025-05-23T17:00:00-04:00",
+      "endDate": "2025-05-23T19:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.google.com/calendar/event?eid=Nmh1bTMxbWpxNjc5MHNwcGdyM2ptZmJhNGwgcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw",
+        "organizer": {
+          "name": "NYCResistor",
+          "instagram": "",
+          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
       "id": "evt_com_nyc_resistor_pt0leat2",
       "name": "Volt Couture: A Wearables + E-textiles \"Open Mic\"",
       "type": "Tech",
@@ -949,7 +867,7 @@
       "type": "Tech",
       "locationId": "",
       "communityId": "com_nyc_resistor",
-      "description": "\u200bJoin Paulus for the Home Assistant Community Day meetup in Brooklyn, NY!\u200bLocation & time still TBD :)",
+      "description": "\u200bThe Home Assistant Community Day meetup in Brooklyn, NY!\u200bLocation & time still TBD :)",
       "startDate": "2025-05-24T13:00:00-04:00",
       "endDate": "2025-05-24T15:00:00-04:00",
       "category": [
@@ -1022,6 +940,47 @@
         ],
         "featured": false,
         "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_nyc_resistor_7q0v88u5",
+      "name": "HOLD: may make-along",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_nyc_resistor",
+      "description": "",
+      "startDate": "2025-05-24T17:00:00-04:00",
+      "endDate": "2025-05-24T19:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.google.com/calendar/event?eid=N3Ewdjg4dTVkOXRiNW9rcHUya2xjczM1MDkgcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw",
+        "organizer": {
+          "name": "NYCResistor",
+          "instagram": "",
+          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
       }
     },
     {
@@ -4128,6 +4087,47 @@
           "name": "NYCResistor",
           "instagram": "",
           "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
+      "id": "evt_com_nyc_resistor_5mf9g2iv",
+      "name": "",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_nyc_resistor",
+      "description": "",
+      "startDate": "2025-08-11T20:00:00-04:00",
+      "endDate": "2025-08-11T21:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.google.com/calendar/event?eid=NW1mOWcyaXY4cW00c242cTRlOTNibzdvczBfMjAyNTA4MTJUMDAwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn",
+        "organizer": {
+          "name": "",
+          "instagram": "",
+          "email": ""
         },
         "venue": {
           "name": "",

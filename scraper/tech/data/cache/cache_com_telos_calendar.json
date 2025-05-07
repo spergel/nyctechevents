@@ -1,47 +1,6 @@
 {
   "events": [
     {
-      "id": "evt_com_telos_3npj2p69",
-      "name": "EDM Production 101",
-      "type": "Tech",
-      "locationId": "loc_telos",
-      "communityId": "com_telos",
-      "description": "<p><b>Full details:</b>\u00a0<a href=\"https://davidshimel.notion.site/EDM-Production-101-Telos-Haus-Spring-2025-1c9cbe9e47b780379e9beb82f78f0a82\">https://davidshimel.notion.site/EDM-Production-101-Telos-Haus-Spring-2025-1c9cbe9e47b780379e9beb82f78f0a82</a></p><p><br></p><p>\ud83d\udccb APPLY HERE! \u2192 <a href=\"https://forms.gle/1qVxzcLxhaZQExpbA\" target=\"_blank\">https://forms.gle/1qVxzcLxhaZQExpbA</a></p><p>\ud83d\udc68\u200d\ud83c\udfeb Instructor: <a href=\"https://x.com/davidshimel\" target=\"_blank\">David Shimel</a></p><p>\ud83d\uddd3\u00a08 weeks, 1 class per week, on the following Tuesdays: April 29, May 6, 13, 20, 27, June 3, 17, 24 (note: no class June 10)</p><p>\ud83d\udd70\ufe0f\u00a02 hours per class, 6:30 - 8:30 PM ET</p><p>\ud83d\uddfa\u00a0Location: <a href=\"https://telos.haus/\" target=\"_blank\">telos.haus</a>, 303 Ten Eyck St, Brooklyn, NY 11206 (<a href=\"https://maps.app.goo.gl/VgNEWeHsNJL9ST158\" target=\"_blank\">map</a>)</p><p>\ud83d\udcb0\u00a0Tuition tiers: $500 (In-Person) or $250 (Remote). We also have some scholarships available, so if you\u2019re interested in potentially receiving financial aid, please fill out <a href=\"https://forms.gle/b4W6PV7EphzST7fK9\" target=\"_blank\">this form</a>. Protip: your employer may offer you a continuing education budget to spend on classes such as this one!</p><p>\ud83d\udc65\u00a0Enrollment: 20 students in-person, unlimited students remotely.</p><p>\ud83d\udca1Prerequisites: Nothing more than an interest in music :D</p><p>\u2702\ufe0f\ud83d\udcc3TL;DR: Want to learn how to produce your own electronic dance music (EDM) using <a href=\"https://www.ableton.com/\" target=\"_blank\">Ableton</a>? And then DJ it with <a href=\"https://mixxx.org/\" target=\"_blank\">Mixxx</a>?? Then <a href=\"https://forms.gle/1qVxzcLxhaZQExpbA\" target=\"_blank\">apply here</a> today!</p>",
-      "startDate": "2025-05-06T18:30:00-04:00",
-      "endDate": "2025-05-06T20:30:00-04:00",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Paid",
-        "currency": "USD",
-        "details": "See event description for pricing details"
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": "",
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.google.com/calendar/event?eid=M25wajJwNjlsOGc1MzFmM2o0ZGthdDhydWlfMjAyNTA1MDZUMjIzMDAwWiBkNTk2YzJiZjcyMTE4M2QyMmJiNTBiZGU2NjI1MDkwZmMzOTIzYWEyOWE2OTE4ZDc4NDA5ZTE2OGRhNzkxNzY5QGc",
-        "organizer": {
-          "name": "telos.haus events",
-          "instagram": "",
-          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
-        },
-        "venue": {
-          "name": "Telos",
-          "address": "181 Wyckoff Ave, Brooklyn, NY 11237",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false
-      }
-    },
-    {
       "id": "evt_com_telos_2d0djm0o",
       "name": "open.haus with tedi mitiku",
       "type": "Tech",
@@ -737,7 +696,7 @@
       "capacity": null,
       "registrationRequired": false,
       "tags": "",
-      "image": "luma-event-59a54017.jpg",
+      "image": "luma-event-095b4b6e.jpg",
       "status": "upcoming",
       "metadata": {
         "source_url": "https://lu.ma/tw8k27tc",

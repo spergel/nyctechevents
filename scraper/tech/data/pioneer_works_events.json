@@ -1,42 +1,6 @@
 {
   "events": [
     {
-      "id": "evt_pioneer_1269a082",
-      "name": "Village Fête After Party 2025",
-      "type": "Cultural Event",
-      "locationId": "loc_pioneer_works",
-      "communityId": "com_pioneer_works",
-      "description": "Join us in celebrating Pioneer Works at the 2025 Village Fête After Party.The must-attend finale to our annual gala will include an electrifying perform...",
-      "startDate": "2025-05-06T23:00:00+00:00",
-      "endDate": "2025-05-08T03:00:00+00:00",
-      "category": [
-        "Arts",
-        "Music",
-        "Science"
-      ],
-      "price": null,
-      "registrationRequired": true,
-      "tags": [],
-      "image": [
-        "https://cdn.sanity.io/images/vgvol637/production/22a526898af0d04cb50db6ee1a13132f3cad42f1-1080x1350.jpg?w=800"
-      ],
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://pioneerworks.org/programs/village-fete-afterparty-2025",
-        "organizer": {
-          "name": "Pioneer Works",
-          "instagram": "@pioneerworks",
-          "email": "info@pioneerworks.org"
-        },
-        "venue": {
-          "name": "Pioneer Works",
-          "address": "159 Pioneer Street",
-          "type": "Cultural Institution"
-        },
-        "featured": false
-      }
-    },
-    {
       "id": "evt_pioneer_fe657431",
       "name": "Second Sundays: May 2025",
       "type": "Cultural Event",
