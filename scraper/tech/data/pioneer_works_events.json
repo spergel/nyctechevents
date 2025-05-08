@@ -109,6 +109,42 @@
       }
     },
     {
+      "id": "evt_pioneer_deb211bd",
+      "name": "Robert Macfarlane: Is a River Alive?",
+      "type": "Cultural Event",
+      "locationId": "loc_pioneer_works",
+      "communityId": "com_pioneer_works",
+      "description": "Join us for the official U.S. launch of the acclaimed new book from Robert Macfarlane, one of our era’s most renowned writers of nature, people, and pla...",
+      "startDate": "2025-06-04T23:30:00+00:00",
+      "endDate": "2025-06-05T03:00:00+00:00",
+      "category": [
+        "Arts",
+        "Music",
+        "Science"
+      ],
+      "price": null,
+      "registrationRequired": true,
+      "tags": [],
+      "image": [
+        "https://cdn.sanity.io/images/vgvol637/production/2bddd3cccbe145ec1f212d503dafcdacf5979886-600x414.gif?w=800"
+      ],
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://pioneerworks.org/programs/robert-macfarlane-is-a-river-alive",
+        "organizer": {
+          "name": "Pioneer Works",
+          "instagram": "@pioneerworks",
+          "email": "info@pioneerworks.org"
+        },
+        "venue": {
+          "name": "Pioneer Works",
+          "address": "159 Pioneer Street",
+          "type": "Cultural Institution"
+        },
+        "featured": false
+      }
+    },
+    {
       "id": "evt_pioneer_2add19e9",
       "name": "Second Sundays: June 2025",
       "type": "Cultural Event",

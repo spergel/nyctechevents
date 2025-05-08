@@ -178,6 +178,65 @@
     },
     {
       "id": "evt_com_verci__clr78b9",
+      "name": "Parallel Play: Volume I",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_verci",
+      "description": "\u200bSession 1 of Parallel Play",
+      "startDate": "2025-05-18T17:00:00Z",
+      "endDate": "2025-05-18T20:00:00Z",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "luma-event-ba15afad.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/d86nqgcy",
+        "organizer": {
+          "name": "Verci Events",
+          "instagram": "",
+          "email": "pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "Please register to see the exact location of this event.",
+          "type": "Online"
+        },
+        "speakers": [
+          {
+            "name": "Verci",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Verci",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "social_links": [
+          "https://instagram.com/vercinyc",
+          "https://x.com/vercinyc",
+          "https://tiktok.com/@vercinyc",
+          "https://instagram.com/vercinyc",
+          "https://x.com/vercinyc",
+          "https://tiktok.com/@vercinyc"
+        ],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_verci__clr78b9",
       "name": "Verci Japan",
       "type": "Tech",
       "locationId": "",

@@ -2261,47 +2261,6 @@
       }
     },
     {
-      "id": "evt_com_nyc_resistor_6os3cp31",
-      "name": "HOLD: Party Kari",
-      "type": "Tech",
-      "locationId": "",
-      "communityId": "com_nyc_resistor",
-      "description": "",
-      "startDate": "2025-05-07",
-      "endDate": "2025-05-08",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": "",
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.google.com/calendar/event?eid=Nm9zM2NwMzFjZ3BqMmJiNmM1aW04YjlrYzhvajJiYjI2MHMzMmJiNTZnbzMwYzlvYzVqNjhwOWhjOCBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn",
-        "organizer": {
-          "name": "NYCResistor",
-          "instagram": "",
-          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false
-      }
-    },
-    {
       "id": "evt_com_nyc_resistor_pc3el34f",
       "name": "Learn to Use a Laser Cutter to Cut and Etch Your Own Designs",
       "type": "Tech",
@@ -3023,47 +2982,6 @@
         ],
         "featured": false,
         "luma_source": true
-      }
-    },
-    {
-      "id": "evt_com_nyc_resistor_2nmcngqq",
-      "name": "HOLD: Party Kari",
-      "type": "Tech",
-      "locationId": "",
-      "communityId": "com_nyc_resistor",
-      "description": "",
-      "startDate": "2025-05-07T19:00:00-04:00",
-      "endDate": "2025-05-07T21:00:00-04:00",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": "",
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.google.com/calendar/event?eid=Mm5tY25ncXEwYTZtc2xvbTVpb28waTFnMDIgcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw",
-        "organizer": {
-          "name": "NYCResistor",
-          "instagram": "",
-          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false
       }
     },
     {
@@ -3797,6 +3715,129 @@
           "name": "NYCResistor",
           "instagram": "",
           "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
+      "id": "evt_com_effective_altruism_nyc_2mvmt1f5",
+      "name": "AI Governance Subgroup Discussion ",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_effective_altruism_nyc",
+      "description": "Last meeting we discussed timelines, but only started to talk about what to do in response to them. Let's continue the discussion. We'll discuss what to do about them at the level of the individual, communities, and society at large, for different timelines, and for different outcomes. I'll prepare discussion topics, but if there is anything you are really keen to discuss in advance, DM me on the slack. There is no need to prep anything but this talk from <a href=\"https://www.youtube.com/watch?v=kI7JPpmBBeY\">Bluedot and 80k</a> would be a good start for thinking about it from the individual perspective. Note, we're not supposing everyone can or should go and work on AI safety. This discussion should be relevant no matter your background or ambitions.<br>AI Subgroup sign-up form: <a href=\"https://forms.gle/fksP9VV3X1owgPe88\" target=\"_blank\">https://forms.gle/fksP9VV3X1owgPe88</a><br><br><br><br>****<br><br>EA NYC:<br>Please find all EA NYC event information - including our Code of Conduct, food policy, covid policy, and information on past and future events - here on our website: <a href=\"https://www.effectivealtruism.nyc/events\" target=\"_blank\">https://www.effectivealtruism.nyc/events</a><br><br>You can also find us on Facebook, Meetup, and Eventbrite!<br><a href=\"http://facebook.com/groups/eanyc/events\" target=\"_blank\">http://facebook.com/groups/eanyc/events</a><br><a href=\"https://www.meetup.com/effective-altruism-nyc/events/\" target=\"_blank\">https://www.meetup.com/effective-altruism-nyc/events/</a><br><a href=\"https://www.eventbrite.com/o/effective-altruism-nyc-55938838923\" target=\"_blank\">https://www.eventbrite.com/o/effective-altruism-nyc-55938838923</a><br><br>For those new to effective altruism, here are a couple of good introductions. In short, EA is about using evidence to carefully analyze how, given limited resources, we can help others the *most*.<br><a href=\"https://www.youtube.com/watch?v=48VAQtGmfWY\" target=\"_blank\">https://www.youtube.com/watch?v=48VAQtGmfWY</a>",
+      "startDate": "2025-05-13T19:00:00-04:00",
+      "endDate": "2025-05-13T21:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.eventbrite.com/o/effective-altruism-nyc-55938838923\"",
+        "organizer": {
+          "name": "Effective Altruism NYC Events",
+          "instagram": "",
+          "email": "hbvetqf5h1pd0of0vn6uvphqts@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "In-Person Event (Midtown); register for location details",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
+      "id": "evt_com_telos_1vshl667",
+      "name": "Private Event",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2025-06-11T19:00:00-04:00",
+      "endDate": "2025-06-11T22:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.google.com/calendar/event?eid=MXZzaGw2NjdrZmFnM2lyamFpMGJndjA4ZW4gZDU5NmMyYmY3MjExODNkMjJiYjUwYmRlNjYyNTA5MGZjMzkyM2FhMjlhNjkxOGQ3ODQwOWUxNjhkYTc5MTc2OUBn",
+        "organizer": {
+          "name": "telos.haus events",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
+      "id": "evt_com_nyc_resistor_58ns485d",
+      "name": "",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_nyc_resistor",
+      "description": "",
+      "startDate": "2025-06-22T14:00:00-04:00",
+      "endDate": "2025-06-22T18:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.google.com/calendar/event?eid=NThuczQ4NWRwbDY4Y2tyMnRwZXN2dDQ5YmogcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw",
+        "organizer": {
+          "name": "",
+          "instagram": "",
+          "email": ""
         },
         "venue": {
           "name": "",

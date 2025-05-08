@@ -1,6 +1,47 @@
 {
   "events": [
     {
+      "id": "evt_com_effective_altruism_nyc_2mvmt1f5",
+      "name": "AI Governance Subgroup Discussion ",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_effective_altruism_nyc",
+      "description": "Last meeting we discussed timelines, but only started to talk about what to do in response to them. Let's continue the discussion. We'll discuss what to do about them at the level of the individual, communities, and society at large, for different timelines, and for different outcomes. I'll prepare discussion topics, but if there is anything you are really keen to discuss in advance, DM me on the slack. There is no need to prep anything but this talk from <a href=\"https://www.youtube.com/watch?v=kI7JPpmBBeY\">Bluedot and 80k</a> would be a good start for thinking about it from the individual perspective. Note, we're not supposing everyone can or should go and work on AI safety. This discussion should be relevant no matter your background or ambitions.<br>AI Subgroup sign-up form: <a href=\"https://forms.gle/fksP9VV3X1owgPe88\" target=\"_blank\">https://forms.gle/fksP9VV3X1owgPe88</a><br><br><br><br>****<br><br>EA NYC:<br>Please find all EA NYC event information - including our Code of Conduct, food policy, covid policy, and information on past and future events - here on our website: <a href=\"https://www.effectivealtruism.nyc/events\" target=\"_blank\">https://www.effectivealtruism.nyc/events</a><br><br>You can also find us on Facebook, Meetup, and Eventbrite!<br><a href=\"http://facebook.com/groups/eanyc/events\" target=\"_blank\">http://facebook.com/groups/eanyc/events</a><br><a href=\"https://www.meetup.com/effective-altruism-nyc/events/\" target=\"_blank\">https://www.meetup.com/effective-altruism-nyc/events/</a><br><a href=\"https://www.eventbrite.com/o/effective-altruism-nyc-55938838923\" target=\"_blank\">https://www.eventbrite.com/o/effective-altruism-nyc-55938838923</a><br><br>For those new to effective altruism, here are a couple of good introductions. In short, EA is about using evidence to carefully analyze how, given limited resources, we can help others the *most*.<br><a href=\"https://www.youtube.com/watch?v=48VAQtGmfWY\" target=\"_blank\">https://www.youtube.com/watch?v=48VAQtGmfWY</a>",
+      "startDate": "2025-05-13T19:00:00-04:00",
+      "endDate": "2025-05-13T21:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.eventbrite.com/o/effective-altruism-nyc-55938838923\"",
+        "organizer": {
+          "name": "Effective Altruism NYC Events",
+          "instagram": "",
+          "email": "hbvetqf5h1pd0of0vn6uvphqts@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "In-Person Event (Midtown); register for location details",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
       "id": "evt_com_effective_altruism_nyc_2ls9s66h",
       "name": "EA NYC Creatives and Communicators Subgroup Meeting",
       "type": "Tech",
