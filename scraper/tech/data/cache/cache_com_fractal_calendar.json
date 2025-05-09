@@ -2,13 +2,13 @@
   "events": [
     {
       "id": "evt_com_fractal__clr78ba",
-      "name": "OT society meeting",
+      "name": "Base Batch Workshop - New York City, USA",
       "type": "Tech",
-      "locationId": "loc_fractal",
+      "locationId": "",
       "communityId": "com_fractal",
-      "description": "Get up-to-date information at: https://lu.ma/rncw2dlz\n\nAddress:\nFractal Tech\nKings County, New York\nUnited States\n\nHosted by Roger Bacon",
-      "startDate": "2025-05-08T23:00:00Z",
-      "endDate": "2025-05-09T00:00:00Z",
+      "description": "\u200bCome join us for a community-hosted workshop for builders on Base!\u200bWe\u2019re excited to invite developers and builders to participate in the Base Batches Workshop Series, a global initiative designed to empower the next wave of onchain builders.\u200bWhether you're an experienced developer or just starting your journey on Base, these workshop sessions are designed to spark collaboration, hands-on learning, and innovation. Prepare for regional buildathons, connect with the builder community, and take the first step toward competing for ETH prizes, earning an incubator placement, and shaping the future of the onchain economy.\u200bWhat are Base Batches?\u200bBase Batches is a global builder program that is actively recruiting the next generation of builders from across the world to create the next wave of industry defining applications onchain.\u200bThis isn\u2019t just a bounty-driven hackathon\u2014it\u2019s your chance to get noticed, funded, and supported beyond the build. Over 50 teams from our inaugural Buildathon will be placed into incubators and invited to pitch at our summer Demo Day, with up to $1,000,000 in funding on the line.\u200bJoin one of the buildathon tracks listed below to challenge yourself to build the next killer app.\u200bAI- Build an AI agent on Base that can perform useful onchain actions using AgentKit and other Coinbase developer platform tools.\u200bStablecoins- Develop an application that leverages Base's growing network of onchain currency stablecoins. Use cases can include: Personal Finance, Merchant Acceptance, DeFi, Business Applications and Cross Border Payments\u200bMini-apps- Use MiniKit to build a mini app that is distributed directly in the feed and leverages the social graph in unique ways.\u200bConsumer- Create a consumer-facing app including in gaming, media, entertainment or whatever innovative idea you can dream up\u200bShowcase- bring an existing app built before the buildathon, build a new feature and get judged on your entire submission\u200bMore info about Base Batches Program:https://www.basebatches.xyz/\u200bRegister and submit your project for the buildathon here:https://base-batch-america.devfolio.co\u200bDisclaimers:This event is supported by Base but organized by XX**\u200bAboutBaseBase, incubated within Coinbase, is an Ethereum Layer 2 (L2) network offering a secure, low-cost, developer-friendly way to build decentralized apps onchain. Base aims to be decentralized, permissionless, and open to anyone. We believe onchain is the next online, and aim to empower developers to shape the onchain future.\u200bLearn more about Base atbase.organd about Coinbase atcoinbase.comEvent Photo Release:By attending this event, you agree to be included in photographs and/or footage that may be taken and used by Coinbase for marketing and publicity purposes, on its website, blog and in social media or in any third party publication.\u200bCoinbase Data Use Notice: By registering for an event, you agree that any information you provide, including but not limited to your name, email, and wallet address, may be used by Coinbase for purposes of supporting the event and contacting you for event follow-up. Additionally, wallet address information may be used by Coinbase to view public blockchain activity for purposes of gathering onchain insights and trends",
+      "startDate": "2025-05-10T16:00:00Z",
+      "endDate": "2025-05-10T17:00:00Z",
       "category": [
         "Tech"
       ],
@@ -21,35 +21,87 @@
       "capacity": null,
       "registrationRequired": false,
       "tags": "",
-      "image": "luma-event-5cadd201.jpg",
+      "image": "luma-event-e787269f.jpg",
       "status": "upcoming",
       "metadata": {
-        "source_url": "https://lu.ma/rncw2dlz",
+        "source_url": "https://lu.ma/vnv007mi",
         "organizer": {
           "name": "Fractal Tech: NYC",
           "instagram": "",
           "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
         },
         "venue": {
-          "name": "Fractal Tech",
-          "address": "111 Conselyea St, Brooklyn, NY 11211",
-          "type": "Offline"
+          "name": "",
+          "address": "Please register to see the exact location of this event.\nNew York, New York",
+          "type": "Online"
         },
         "speakers": [
           {
-            "name": "Roger Bacon",
+            "name": "Sanaz L.",
             "title": "",
             "bio": ""
           },
           {
-            "name": "Roger Bacon",
+            "name": "Ryan MacDowell",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Ryan Gittleson",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Ceren M.A.",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Luciano DeAngelo",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Sanaz L.",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Ryan MacDowell",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Ryan Gittleson",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Ceren M.A.",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Luciano DeAngelo",
             "title": "",
             "bio": ""
           }
         ],
         "social_links": [
-          "https://x.com/rogersbacon1",
-          "https://x.com/rogersbacon1"
+          "https://x.com/buildonbase",
+          "https://base.org",
+          "https://x.com/coinbase",
+          "https://x.com/therymac",
+          "https://x.com/RyanGittleson",
+          "https://x.com/cryptostatuette",
+          "https://x.com/lucianodeangeIo",
+          "https://x.com/buildonbase",
+          "https://base.org",
+          "https://x.com/coinbase",
+          "https://x.com/therymac",
+          "https://x.com/RyanGittleson",
+          "https://x.com/cryptostatuette",
+          "https://x.com/lucianodeangeIo"
         ],
         "featured": false,
         "luma_source": true

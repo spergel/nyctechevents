@@ -1447,8 +1447,8 @@
       "locationId": "",
       "communityId": "com_nyc_resistor",
       "description": "",
-      "startDate": "2025-07-29T11:00:00-04:00",
-      "endDate": "2025-07-29T15:00:00-04:00",
+      "startDate": "2025-08-12T11:00:00-04:00",
+      "endDate": "2025-08-12T15:00:00-04:00",
       "category": [
         "Tech"
       ],
@@ -1464,7 +1464,7 @@
       "image": "",
       "status": "upcoming",
       "metadata": {
-        "source_url": "https://www.google.com/calendar/event?eid=Xzg1Mms2ZDlnNmgzNDJiOWc4OHEzNGI5azZoMjMyYmEyOGQzMzhiYTY2NG8zZ2U5bDc0bzQ4Z3BnNm9fMjAyNTA3MjlUMTUwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn",
+        "source_url": "https://www.google.com/calendar/event?eid=Xzg1Mms2ZDlnNmgzNDJiOWc4OHEzNGI5azZoMjMyYmEyOGQzMzhiYTY2NG8zZ2U5bDc0bzQ4Z3BnNm9fMjAyNTA4MTJUMTUwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn",
         "organizer": {
           "name": "",
           "instagram": "",
@@ -3107,109 +3107,12 @@
       }
     },
     {
-      "id": "evt_com_verci__clr78bb",
-      "name": "After Hours Cafe",
-      "type": "Tech",
-      "locationId": "",
-      "communityId": "com_verci",
-      "description": "​​The After Hours Caféis a series for founders and operators to get their best work done around other incredible builders.​We were tired of coffee shops closing at 5pm, workspaces thinning out as the day ended, and not having a place to workandbe in community as founders.​​​​☕️More Details:​Enjoy ouropen desk, free-flowing workspace with both comfortable couches and high speed internet to get your work done atVerci Flatiron.​As the sun sets, use ourstunning rooftop for happy hour(or work), where drinks and city views create the perfect backdrop for conversations.​Drink a range of (free)specialty coffees, teas, and matchas crafted by expert baristas at the bar.​Whether you're wrapping up projects, sparking collaborations, or simply seeking a change of scenery, the space adapts to your needs - from quiet concentration corners to communal tables designed for conversation.​IMPORTANT:Please select a approximate arrival time so that we understand capacity limits for the space throughout the night.​🍵 The hosts for the night:​➡️ From two-person startups to public companies,Rhois the banking platform with everything businesses need to manage cash, control spend, and automate finance busywork. Rho offers corporate cards, banking, treasury, expense management,  AP, accounting automation, and more in one integrated platform backed by award-winning support.​Rho is a fintech company, not a bank. Checking and card services are provided by Webster Bank, N.A., member FDIC; savings account services are provided by American Deposit Management Co. and its partner banks.​Learn more about Rhohere.​➡️ Verci is a workspace and social space in NYC, meticulously curated for founders, artists, and creatives. Learn more atverci.comand read our manifesto atverci.com/manifesto.​➡️ Carry is a leading technology platform for tax savings, helping self-employed professionals and business owners keep more of what they earn through smarter tax strategies, tax-advantaged accounts, and expert-backed filing. For more information, visitcarry.com.",
-      "startDate": "2025-05-08T21:00:00Z",
-      "endDate": "2025-05-09T02:00:00Z",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": "",
-      "image": "luma-event-ca0e64f7.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://lu.ma/afterhourscafe",
-        "organizer": {
-          "name": "Verci Events",
-          "instagram": "",
-          "email": "pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "Verci Flatiron45 E 20th St, New York, NY 10003, USA\n45 E 20th St, New York, NY 10003, USA",
-          "type": "Offline"
-        },
-        "speakers": [
-          {
-            "name": "Verci",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Drew Parten",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Jaiya Gill",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Ami Yoshimura",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Verci",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Drew Parten",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Jaiya Gill",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Ami Yoshimura",
-            "title": "",
-            "bio": ""
-          }
-        ],
-        "social_links": [
-          "https://instagram.com/vercinyc",
-          "https://x.com/vercinyc",
-          "https://tiktok.com/@vercinyc",
-          "https://instagram.com/jaiyagill",
-          "https://x.com/jaiyagill",
-          "https://instagram.com/amiyoshimura_",
-          "https://x.com/amiyoshimura_",
-          "https://instagram.com/vercinyc",
-          "https://x.com/vercinyc",
-          "https://tiktok.com/@vercinyc",
-          "https://instagram.com/jaiyagill",
-          "https://x.com/jaiyagill",
-          "https://instagram.com/amiyoshimura_",
-          "https://x.com/amiyoshimura_"
-        ],
-        "featured": false,
-        "luma_source": true
-      }
-    },
-    {
       "id": "evt_com_telos_2d0djm0o",
       "name": "open.haus with tedi mitiku",
       "type": "Tech",
       "locationId": "loc_telos",
       "communityId": "com_telos",
-      "description": "​A casual event for you to experiencetelos.haus on your own terms. We'll break for a collective coffee (Swedish fika style) at 2pm. See you there!",
+      "description": "​A casual event for you to experience telos.haus on your own terms. We'll break for a collective coffee (Swedish fika style) at 2pm. See you there!",
       "startDate": "2025-05-09T12:00:00-04:00",
       "endDate": "2025-05-09T18:00:00-04:00",
       "category": [
@@ -3848,6 +3751,174 @@
         "social_links": [],
         "featured": false,
         "luma_source": false
+      }
+    },
+    {
+      "id": "evt_com_telos_2pi1a7j7",
+      "name": "Private Event",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2025-05-17T11:00:00-04:00",
+      "endDate": "2025-05-17T16:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.google.com/calendar/event?eid=MnBpMWE3ajdha2w1bGhpYjF1MnNuMzZ2bmcgZDU5NmMyYmY3MjExODNkMjJiYjUwYmRlNjYyNTA5MGZjMzkyM2FhMjlhNjkxOGQ3ODQwOWUxNjhkYTc5MTc2OUBn",
+        "organizer": {
+          "name": "telos.haus events",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
+      "id": "evt_com_telos_6c8pabfe",
+      "name": "Summer Breeze Show",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2025-05-18T15:00:00-04:00",
+      "endDate": "2025-05-18T18:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.google.com/calendar/event?eid=NmM4cGFiZmVrbzl2ODdub2FhdTBqMzRzbmggZDU5NmMyYmY3MjExODNkMjJiYjUwYmRlNjYyNTA5MGZjMzkyM2FhMjlhNjkxOGQ3ODQwOWUxNjhkYTc5MTc2OUBn",
+        "organizer": {
+          "name": "telos.haus events",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
+      "id": "evt_com_nyc_resistor_lafi2d7s",
+      "name": "Shrinky Dink Make-Along",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_nyc_resistor",
+      "description": "RSVP https://www.eventbrite.com/e/shrinky-dink-make-along-tickets-1359369283119\n\nJoin us for a fun-filled Shrinky Dink Make-Along where we'll create shrinkable plastic masterpieces together!Come join us at NYCResistor for a fun-filled Shrinky Dink Make-Along event! \nRelive your childhood and come make some shrinky dinks with us! With this fun little project, you can make key chains, earrings, charms, and more! We will provide the shrinky dink paper and various drawing materials so you can create your own one of a kind charm. You just need to bring your creativity!\nThis class is for everyone, all materials provided, but feel free to bring reference drawings or photos if you want!This workshop is lead by Resistor member Ben K.\nThis is a masks optional event.\nAs with all NYC Resistor events, this class is 18+ and governed by our Code of Conduct. The Code of Conduct, as well as accessibility information, can be found at www.nycresistor.com/participate/.\nPlease note that refunds must be requested 24 hours in advance. If you have any questions, please email classes@nycresistor.com.\n",
+      "startDate": "2025-05-24T17:00:00-04:00",
+      "endDate": "2025-05-24T19:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": true,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.eventbrite.com/e/shrinky-dink-make-along-tickets-1359369283119",
+        "organizer": {
+          "name": "NYCResistor",
+          "instagram": "",
+          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "NYCResistor\n87 3rd Ave\nBrooklyn, NY 11217",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
+      "id": "evt_com_verci__cdgmopb",
+      "name": "Craft Society: Leather Bag Making w/ WYNTRO",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_verci",
+      "description": "Find more information on https://lu.ma/verci",
+      "startDate": "2025-05-17T15:00:00Z",
+      "endDate": "2025-05-17T18:00:00Z",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/verci",
+        "organizer": {
+          "name": "Verci Events",
+          "instagram": "",
+          "email": "pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "https://www.craft-society.com/event-details/leather-bag-workshop",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [
+          "https://instagram.com/vercinyc",
+          "https://x.com/vercinyc",
+          "https://tiktok.com/@vercinyc"
+        ],
+        "featured": false,
+        "luma_source": true
       }
     }
   ]

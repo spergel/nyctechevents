@@ -1,14 +1,14 @@
 {
   "events": [
     {
-      "id": "evt_com_verci__clr78bb",
-      "name": "After Hours Cafe",
+      "id": "evt_com_verci__cdgmopb",
+      "name": "Studio Jams - Songwriting Workshop",
       "type": "Tech",
       "locationId": "",
       "communityId": "com_verci",
-      "description": "\u200b\u200bThe After Hours Caf\u00e9is a series for founders and operators to get their best work done around other incredible builders.\u200bWe were tired of coffee shops closing at 5pm, workspaces thinning out as the day ended, and not having a place to workandbe in community as founders.\u200b\u200b\u200b\u200b\u2615\ufe0fMore Details:\u200bEnjoy ouropen desk, free-flowing workspace with both comfortable couches and high speed internet to get your work done atVerci Flatiron.\u200bAs the sun sets, use ourstunning rooftop for happy hour(or work), where drinks and city views create the perfect backdrop for conversations.\u200bDrink a range of (free)specialty coffees, teas, and matchas crafted by expert baristas at the bar.\u200bWhether you're wrapping up projects, sparking collaborations, or simply seeking a change of scenery, the space adapts to your needs - from quiet concentration corners to communal tables designed for conversation.\u200bIMPORTANT:Please select a approximate arrival time so that we understand capacity limits for the space throughout the night.\u200b\ud83c\udf75 The hosts for the night:\u200b\u27a1\ufe0f From two-person startups to public companies,Rhois the banking platform with everything businesses need to manage cash, control spend, and automate finance busywork. Rho offers corporate cards, banking, treasury, expense management,  AP, accounting automation, and more in one integrated platform backed by award-winning support.\u200bRho is a fintech company, not a bank. Checking and card services are provided by Webster Bank, N.A., member FDIC; savings account services are provided by American Deposit Management Co. and its partner banks.\u200bLearn more about Rhohere.\u200b\u27a1\ufe0f Verci is a workspace and social space in NYC, meticulously curated for founders, artists, and creatives. Learn more atverci.comand read our manifesto atverci.com/manifesto.\u200b\u27a1\ufe0f Carry is a leading technology platform for tax savings, helping self-employed professionals and business owners keep more of what they earn through smarter tax strategies, tax-advantaged accounts, and expert-backed filing. For more information, visitcarry.com.",
-      "startDate": "2025-05-08T21:00:00Z",
-      "endDate": "2025-05-09T02:00:00Z",
+      "description": "Find more information on https://lu.ma/verci",
+      "startDate": "2025-05-10T18:00:00Z",
+      "endDate": "2025-05-10T21:00:00Z",
       "category": [
         "Tech"
       ],
@@ -21,10 +21,10 @@
       "capacity": null,
       "registrationRequired": false,
       "tags": "",
-      "image": "luma-event-ca0e64f7.jpg",
+      "image": "",
       "status": "upcoming",
       "metadata": {
-        "source_url": "https://lu.ma/afterhourscafe",
+        "source_url": "https://lu.ma/verci",
         "organizer": {
           "name": "Verci Events",
           "instagram": "",
@@ -32,66 +32,14 @@
         },
         "venue": {
           "name": "",
-          "address": "Verci Flatiron45 E 20th St, New York, NY 10003, USA\n45 E 20th St, New York, NY 10003, USA",
+          "address": "https://partiful.com/e/V8D60ZppP1XqXZONGRUY",
           "type": "Offline"
         },
-        "speakers": [
-          {
-            "name": "Verci",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Drew Parten",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Jaiya Gill",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Ami Yoshimura",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Verci",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Drew Parten",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Jaiya Gill",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Ami Yoshimura",
-            "title": "",
-            "bio": ""
-          }
-        ],
+        "speakers": [],
         "social_links": [
           "https://instagram.com/vercinyc",
           "https://x.com/vercinyc",
-          "https://tiktok.com/@vercinyc",
-          "https://instagram.com/jaiyagill",
-          "https://x.com/jaiyagill",
-          "https://instagram.com/amiyoshimura_",
-          "https://x.com/amiyoshimura_",
-          "https://instagram.com/vercinyc",
-          "https://x.com/vercinyc",
-          "https://tiktok.com/@vercinyc",
-          "https://instagram.com/jaiyagill",
-          "https://x.com/jaiyagill",
-          "https://instagram.com/amiyoshimura_",
-          "https://x.com/amiyoshimura_"
+          "https://tiktok.com/@vercinyc"
         ],
         "featured": false,
         "luma_source": true
@@ -168,6 +116,51 @@
           "https://instagram.com/vercinyc",
           "https://x.com/vercinyc",
           "https://tiktok.com/@vercinyc",
+          "https://instagram.com/vercinyc",
+          "https://x.com/vercinyc",
+          "https://tiktok.com/@vercinyc"
+        ],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_verci__cdgmopb",
+      "name": "Craft Society: Leather Bag Making w/ WYNTRO",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_verci",
+      "description": "Find more information on https://lu.ma/verci",
+      "startDate": "2025-05-17T15:00:00Z",
+      "endDate": "2025-05-17T18:00:00Z",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/verci",
+        "organizer": {
+          "name": "Verci Events",
+          "instagram": "",
+          "email": "pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "https://www.craft-society.com/event-details/leather-bag-workshop",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [
           "https://instagram.com/vercinyc",
           "https://x.com/vercinyc",
           "https://tiktok.com/@vercinyc"

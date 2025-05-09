@@ -6,7 +6,7 @@
       "type": "Tech",
       "locationId": "loc_telos",
       "communityId": "com_telos",
-      "description": "\u200bA casual event for you to experiencetelos.haus on your own terms. We'll break for a collective coffee (Swedish fika style) at 2pm. See you there!",
+      "description": "\u200bA casual event for you to experience telos.haus on your own terms. We'll break for a collective coffee (Swedish fika style) at 2pm. See you there!",
       "startDate": "2025-05-09T12:00:00-04:00",
       "endDate": "2025-05-09T18:00:00-04:00",
       "category": [
@@ -228,8 +228,8 @@
       }
     },
     {
-      "id": "evt_com_telos_4if5qo35",
-      "name": "Booked by TT",
+      "id": "evt_com_telos_2pi1a7j7",
+      "name": "Private Event",
       "type": "Tech",
       "locationId": "",
       "communityId": "com_telos",
@@ -251,7 +251,7 @@
       "image": "",
       "status": "upcoming",
       "metadata": {
-        "source_url": "https://www.google.com/calendar/event?eid=NGlmNXFvMzU2dWtmMGpxNjlhOWwzdDVqaXYgZDU5NmMyYmY3MjExODNkMjJiYjUwYmRlNjYyNTA5MGZjMzkyM2FhMjlhNjkxOGQ3ODQwOWUxNjhkYTc5MTc2OUBn",
+        "source_url": "https://www.google.com/calendar/event?eid=MnBpMWE3ajdha2w1bGhpYjF1MnNuMzZ2bmcgZDU5NmMyYmY3MjExODNkMjJiYjUwYmRlNjYyNTA5MGZjMzkyM2FhMjlhNjkxOGQ3ODQwOWUxNjhkYTc5MTc2OUBn",
         "organizer": {
           "name": "telos.haus events",
           "instagram": "",
@@ -269,8 +269,8 @@
       }
     },
     {
-      "id": "evt_com_telos_5sjs1t51",
-      "name": "Booked by Summer Breeze",
+      "id": "evt_com_telos_6c8pabfe",
+      "name": "Summer Breeze Show",
       "type": "Tech",
       "locationId": "",
       "communityId": "com_telos",
@@ -292,7 +292,7 @@
       "image": "",
       "status": "upcoming",
       "metadata": {
-        "source_url": "https://www.google.com/calendar/event?eid=NXNqczF0NTFqanJjMTNoMzVsOGQ2N3EwbDEgZDU5NmMyYmY3MjExODNkMjJiYjUwYmRlNjYyNTA5MGZjMzkyM2FhMjlhNjkxOGQ3ODQwOWUxNjhkYTc5MTc2OUBn",
+        "source_url": "https://www.google.com/calendar/event?eid=NmM4cGFiZmVrbzl2ODdub2FhdTBqMzRzbmggZDU5NmMyYmY3MjExODNkMjJiYjUwYmRlNjYyNTA5MGZjMzkyM2FhMjlhNjkxOGQ3ODQwOWUxNjhkYTc5MTc2OUBn",
         "organizer": {
           "name": "telos.haus events",
           "instagram": "",

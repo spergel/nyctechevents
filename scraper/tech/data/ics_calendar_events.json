@@ -437,85 +437,6 @@
       }
     },
     {
-      "id": "evt_com_ny_hardware_7315b6b0",
-      "name": "106th NY Hardware Meetup @ Cornell Tech",
-      "type": "Tech",
-      "locationId": "loc_tbd",
-      "communityId": "com_ny_hardware",
-      "description": "​The Hardware Meetup community is excited to announce the 106th NY Hardware Meetup at Cornell Tech​​​​Hardware Meetups happen across 30+ cities around the world, bringing together hardware professionals to network and learn from each other. You might not realize it, but NYC is a hotbed for this kind of innovation and tonight you'll meet two companies working at the cutting edge of this technology.​​​​This month we'll be atCornell Tech. ALL ATTENDEES MUST BRING A PHOTO ID to get admittance. Cornell Tech is Cornell University’s state-of-the-art campus in New York City that develops leaders and technologies for the AI era through foundational and applied research, graduate education, and new ventures. Located on Roosevelt Island, the growing campus was founded in partnership with the Technion-Israel Institute of Technology and in close collaboration with the NYC Economic Development Corporation after Cornell won a worldwide competition initiated by Mayor Michael R. Bloomberg’s administration to create an applied sciences campus in New York City. More than 1,000 Cornell students are now educated annually on the campus, including 700 in Cornell Tech programs. Since opening in 2012, nearly 120 new companies have spun out from startup programs at Cornell Tech, and 95 percent of them are based in New York City. Cornell Tech continues to have atransformative economic impact on the region’s tech sector.​For information on how to get to the event:https://tech.cornell.edu/visit-us/​AGENDA​​​​6:30 - Arrival, presentation of student demos​​​​7:00 - Welcome and introduction​​7:15- Community open mic​​​​Anyone will have the chance or talk about what they are working on​7:30 - Panel with audience Q+A​​8:40 - Student demos, makerlab tours, mix and mingle​THANK YOU TO OUR SPONSOR​​​EastBridgewas founded in 2003 to provide original equipment manufacturers, product designers and entrepreneurs with on-the-ground manufacturing management and related services in the Asia-Pacific Eastern Europe and North American regions. We guide manufacturing projects in China, Eastern Europe, Hong Kong, Indonesia, Japan, Korea, Malaysia, Mexico, Singapore, Taiwan, Thailand, Vietnam and many other locations throughout the world. Our team of engineers, scientists and trade & logistics specialists manage the complexities of new product development, production scale-up, quality assurance and global logistics billed using seamless and transparent time-and-materials business model. The EastBridge staff offers decades of experience in manufacturing engineering & procurement, international trade and contract management. All have worked for multinational companies and have degrees in engineering, material science, international trade or accounting and are highly proficient in English and other languages.​Welcome Remarks​Niti Parikhis the founding director of Cornell Tech’s academic MakerLAB and an Engaged Faculty Fellow, with over 15 years of experience in Interior Architecture and Sustainable Manufacturing. Her work centers on participatory design in Digital Fabrication, creating inclusive learning environments that empower people of all ages and abilities to bring their ideas to life.​​Joey Castillois the Technologist in Residence at Cornell Tech’s People Aware Computing lab, where he assists students and postdocs in the design and fabrication of novel devices for health sensing and intervention. He is currently collaborating with the Open Source Hardware Association on a two-year NSF grant aimed at creating an ecosystem of open hardware for health applications. Joey also teaches a masters level class at Cornell Tech on designing ubiquitous and interactive computing devices. Outside Cornell Tech, he publishes open hardware designs for the hobbyist and DIY electronics communities including Sensor Watch, a circuit board swap for the classic Casio F-91W wristwatch, and the Open Book, an e-book reader designed to be built from scratch and understood from first principles.​PANELISTS​Jack Danielsis the founder and president of the EastBridge family of companies. His career has focused on developing new technologies and products, industrializing them and then bringing them to market. Before founding EastBridge, Jack worked for SME as well as large public companies. His experience includes launching and growing advanced materials and electronic interconnect oriented companies overseas. This work allowed him to live in South Korea and China. Our work is now centered on bringing our clients' emerging products through DFMA (design for manufacturing and assembly), industrialization, volume manufacturing and distribution. Half of our projects are medical device and healthcare related, with the balance in automotive, consumer, electronics, industrial, motion control, sensors and transportation. What ties all of our projects together is our clients' need to move their designs quickly from prototype to production.​Doug Marsdenis the Chief Technology Officer and Managing Member of Eleven, LLC, a Boston-based, multi-disciplinary product development studio he co-founded in 1996. With over three decades of experience, he leads Eleven in delivering award-winning, human-centered design solutions across industries including consumer goods, medical devices, and electronics. Doug also serves as an Operating Partner at Pennant Equity Partners, where he provides hands-on expertise in product development and innovation, helping small to medium-sized businesses unlock growth and operational excellence. His career reflects a commitment to purposeful, business-building innovation and cross-disciplinary collaboration.​Ben Zvaifleris the Founder and CEO of Cloud Water Filters, a consumer hardware company transforming residential water filtration. He previously founded PupBox, a DTC pet brand featured on Shark Tank and later acquired by Petco. Ben is an expert in startup growth, operations, and product development.​WANT TO GET INVOLVED?​​​Sponsorship:​We offer exclusive access to our 10,000+ member community through sponsorships.​​​Host an event at your space:We are always looking for host sponsors to provide access to unique spaces from cool hardware companies building interesting things. Want to open up your office?​​​Speaker:Do you have something interesting to share with our community? We're on the lookout for fresh faces to talk about their journey and experiences.​​​If you want to get involved, head here:https://linktr.ee/nyhardware",
-      "startDate": "2025-05-08T18:30:00-04:00",
-      "endDate": "2025-05-08T22:00:00-04:00",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": 100,
-      "registrationRequired": true,
-      "tags": [],
-      "image": "luma-event-28713467.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://lu.ma/ag988xhd",
-        "speakers": [
-          {
-            "name": "Paul Vizzio",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Anthony Dzaba",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Nate",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Paul Vizzio",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Anthony Dzaba",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Nate",
-            "title": "",
-            "bio": ""
-          }
-        ],
-        "venue": {
-          "name": "Tata Innovation Center11 E Loop Rd, New York, NY 10044, USA",
-          "address": "11 E Loop Rd, New York, NY 10044, USA",
-          "type": "Offline",
-          "room": "",
-          "additional_info": ""
-        },
-        "featured": false,
-        "social_links": [
-          "https://linkedin.com/company/ny-hardware-meetup",
-          "https://linktr.ee/nyhardware",
-          "https://instagram.com/vizengnyc",
-          "https://x.com/vizengnyc",
-          "https://x.com/ngpadgett",
-          "https://linkedin.com/company/ny-hardware-meetup",
-          "https://linktr.ee/nyhardware",
-          "https://instagram.com/vizengnyc",
-          "https://x.com/vizengnyc",
-          "https://x.com/ngpadgett"
-        ]
-      }
-    },
-    {
       "id": "evt_com_la_creme_stem_2ae78b56",
       "name": "Behind the Fundraising Scene: the Making of an AI Deal - La Creme de la STEM™ x SPANVentures.",
       "type": "Tech",
@@ -946,63 +867,6 @@
       }
     },
     {
-      "id": "evt_com_genZtea_bff8efa7",
-      "name": "NYC Tech Week Prayer Walk",
-      "type": "Tech",
-      "locationId": "loc_tbd",
-      "communityId": "com_genZtea",
-      "description": "​NYC Tech Week Prayer Walk​A Co-hosted Event by  GenZtea, Tech Walk, and Christians in Tech​Join us for a moment of mindfulness before the hustle of NYC Tech Week​Start your NYC Tech Week experience with intention and community. Join fellow tech professionals, entrepreneurs, and innovators for a guided prayer walk along Manhattan's iconic High Line park.​Event Details​Date:Saturday, June 1st, 2025Time:3:00 PM ESTMeeting Point:Shake Shack at Hudson YardsEnd Point:Chelsea Market​What to Expect​Our journey will begin with a group prayer at Hudson Yards, followed by a reflective walk along the elevated High Line park. As we stroll through this urban oasis, we'll have the opportunity to connect, share intentions for the week ahead, and enjoy breathtaking views of the city.​We'll conclude our walk at Chelsea Market with a final prayer of gratitude and intention-setting for NYC Tech Week.​Who This Is For​This event focuses on Christian founders and investors in the tech community, creating space for faith-centered networking and reflection. However, we warmly welcome participants of all backgrounds and beliefs who are interested in starting NYC Tech Week with intentionality and community.​Why Join?​Center yourself before the busy conference schedule​Network with like-minded professionals in a relaxed setting​Experience a unique perspective of NYC​Set meaningful intentions for your Tech Week experience​What to Bring​Comfortable walking shoes​Water bottle​Open mind and heart​This event is open to all, regardless of faith background or tradition. Our focus is on community, mindfulness, and setting positive intentions for the week ahead.​Register now to reserve your spot!​-----------------------------------------------------------------​About the Organizers​GenZteais a community of Gen Z founders, creators,and investors that brings Gen Z not just in the room, but at the table.​Christians in Techwas founded by Andy Choi to create community and support for Christians working in the technology sector. The organization focuses on integrating faith with professional life in the tech industry.​TechWalkwas created by Christine Farrier Rosemin as a platform for meaningful connection in the tech community through guided walks that combine networking with mindfulness and movement.",
-      "startDate": "2025-06-01T15:00:00-04:00",
-      "endDate": "2025-06-01T16:00:00-04:00",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": 100,
-      "registrationRequired": true,
-      "tags": [],
-      "image": "luma-event-e7f4380d.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://lu.ma/zkc71k33",
-        "speakers": [
-          {
-            "name": "Natalie Neptune",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Natalie Neptune",
-            "title": "",
-            "bio": ""
-          }
-        ],
-        "venue": {
-          "name": "530 W 33rd StNew York, NY 10001, USA",
-          "address": "New York, NY 10001, USA",
-          "type": "Offline",
-          "room": "",
-          "additional_info": ""
-        },
-        "featured": false,
-        "social_links": [
-          "https://x.com/thegenZtea",
-          "https://linkedin.com/company/genztea",
-          "https://genztea.squarespace.com/",
-          "https://instagram.com/Yes",
-          "https://x.com/thegenZtea",
-          "https://linkedin.com/company/genztea",
-          "https://genztea.squarespace.com/",
-          "https://instagram.com/Yes"
-        ]
-      }
-    },
-    {
       "id": "evt_com_genZtea_74fe888a",
       "name": "Female Founders & Financial Empowerment",
       "type": "Tech",
@@ -1070,6 +934,146 @@
           "https://instagram.com/Yes",
           "https://instagram.com/moneyherway",
           "https://x.com/Moneyherway"
+        ]
+      }
+    },
+    {
+      "id": "evt_com_genZtea_bff8efa7",
+      "name": "NYC Tech Week Prayer Walk",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_genZtea",
+      "description": "​NYC Tech Week Prayer Walk​A Co-hosted Event by  GenZtea, Tech Walk, and Christians in Tech​Join us for a moment of mindfulness before the hustle of NYC Tech Week​Start your NYC Tech Week experience with intention and community. Join fellow tech professionals, entrepreneurs, and innovators for a guided prayer walk along Manhattan's iconic High Line park.​Event Details​Date:Saturday, June 1st, 2025Time:3:00 PM ESTMeeting Point:Shake Shack at Hudson YardsEnd Point:Chelsea Market​What to Expect​Our journey will begin with a group prayer at Hudson Yards, followed by a reflective walk along the elevated High Line park. As we stroll through this urban oasis, we'll have the opportunity to connect, share intentions for the week ahead, and enjoy breathtaking views of the city.​We'll conclude our walk at Chelsea Market with a final prayer of gratitude and intention-setting for NYC Tech Week.​Who This Is For​This event focuses on Christian founders and investors in the tech community, creating space for faith-centered networking and reflection. However, we warmly welcome participants of all backgrounds and beliefs who are interested in starting NYC Tech Week with intentionality and community.​Why Join?​Center yourself before the busy conference schedule​Network with like-minded professionals in a relaxed setting​Experience a unique perspective of NYC​Set meaningful intentions for your Tech Week experience​What to Bring​Comfortable walking shoes​Water bottle​Open mind and heart​This event is open to all, regardless of faith background or tradition. Our focus is on community, mindfulness, and setting positive intentions for the week ahead.​Register now to reserve your spot!​-----------------------------------------------------------------​About the Organizers​GenZteais a community of Gen Z founders, creators,and investors that brings Gen Z not just in the room, but at the table.​Christians in Techwas founded by Andy Choi to create community and support for Christians working in the technology sector. The organization focuses on integrating faith with professional life in the tech industry.​TechWalkwas created by Christine Farrier Rosemin as a platform for meaningful connection in the tech community through guided walks that combine networking with mindfulness and movement.",
+      "startDate": "2025-06-01T15:00:00-04:00",
+      "endDate": "2025-06-01T16:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "luma-event-e7f4380d.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/zkc71k33",
+        "speakers": [
+          {
+            "name": "Natalie Neptune",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Natalie Neptune",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "venue": {
+          "name": "530 W 33rd StNew York, NY 10001, USA",
+          "address": "New York, NY 10001, USA",
+          "type": "Offline",
+          "room": "",
+          "additional_info": ""
+        },
+        "featured": false,
+        "social_links": [
+          "https://x.com/thegenZtea",
+          "https://linkedin.com/company/genztea",
+          "https://genztea.squarespace.com/",
+          "https://instagram.com/Yes",
+          "https://x.com/thegenZtea",
+          "https://linkedin.com/company/genztea",
+          "https://genztea.squarespace.com/",
+          "https://instagram.com/Yes"
+        ]
+      }
+    },
+    {
+      "id": "evt_com_genZtea_f115bd77",
+      "name": "Build the Future: AI & Entrepreneurship",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_genZtea",
+      "description": "​A space for future-makers at the intersection of AI, startups, and venture. From YC alums, investors, to AI industry pioneers, we're bringing together the ones leading from ideation to impact today.​This isn’t just a panel—it’s a movement for builders, dreamers, and disruptors. Whether you're launching something new or challenging the status quo, or looking to break into the intersection of these industries, this is your room.​If you don’t like something, build it—and bring others with you.​About hosts:​Klqueis a new, upcoming platform for founders, builders and creators to start their journey with content that builds community.​Check us out:https://www.klque.ai/​WICCaims to unite women and gender minorities in computing fields at Cornell, expand their opportunities and successes, provide a support network, and empower them to encourage younger underrepresented students to consider computing fields.​Check WICC out:https://wicc.cornell.edu/#/​GenZtea'sMission: Empowering Gen Z founders, creators, and investors to unlock their full potential through personal branding, community support, and innovative resources. We're building a global network of young builders who are not just invited into the room but are leading it.​Check it out:www.thegenztea.com",
+      "startDate": "2025-05-09T12:00:00-04:00",
+      "endDate": "2025-05-09T13:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "luma-event-d7820706.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/e/evt-ZbQf7lkxMlpJqku",
+        "speakers": [
+          {
+            "name": "Arushi Aggarwal",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Natalie Neptune",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "IntelliGen",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Akshita Gupta",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Arushi Aggarwal",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Natalie Neptune",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "IntelliGen",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Akshita Gupta",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "venue": {
+          "name": "",
+          "address": "",
+          "type": "Offline",
+          "room": "",
+          "additional_info": ""
+        },
+        "featured": false,
+        "social_links": [
+          "https://instagram.com/Yes",
+          "https://x.com/intelli_gen",
+          "https://instagram.com/Yes",
+          "https://x.com/intelli_gen"
         ]
       }
     },
