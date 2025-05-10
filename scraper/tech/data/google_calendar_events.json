@@ -3107,65 +3107,6 @@
       }
     },
     {
-      "id": "evt_com_telos_2d0djm0o",
-      "name": "open.haus with tedi mitiku",
-      "type": "Tech",
-      "locationId": "loc_telos",
-      "communityId": "com_telos",
-      "description": "​A casual event for you to experience telos.haus on your own terms. We'll break for a collective coffee (Swedish fika style) at 2pm. See you there!",
-      "startDate": "2025-05-09T12:00:00-04:00",
-      "endDate": "2025-05-09T18:00:00-04:00",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": "",
-      "image": "luma-event-d62e608f.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://lu.ma/fkc8fl9e",
-        "organizer": {
-          "name": "telos.haus events",
-          "instagram": "",
-          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
-        },
-        "venue": {
-          "name": "Telos",
-          "address": "181 Wyckoff Ave, Brooklyn, NY 11237",
-          "type": "Offline"
-        },
-        "speakers": [
-          {
-            "name": "telos.haus",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "telos.haus",
-            "title": "",
-            "bio": ""
-          }
-        ],
-        "social_links": [
-          "https://instagram.com/telos.haus",
-          "https://telos.haus",
-          "https://instagram.com/telos.haus",
-          "https://instagram.com/telos.haus",
-          "https://telos.haus",
-          "https://instagram.com/telos.haus"
-        ],
-        "featured": false,
-        "luma_source": true
-      }
-    },
-    {
       "id": "evt_com_telos_6s3n1elt",
       "name": "Booked for private event",
       "type": "Tech",
@@ -3916,6 +3857,61 @@
           "https://instagram.com/vercinyc",
           "https://x.com/vercinyc",
           "https://tiktok.com/@vercinyc"
+        ],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_telos_4ceklfas",
+      "name": "Stage Presence",
+      "type": "Tech",
+      "locationId": "loc_telos",
+      "communityId": "com_telos",
+      "description": "​Anyone else feel like today’s musical artists kinda suck on stage? They often look lost, stumbling breathlessly through their words, if they can remember them. Their movements are awkward and hampered by clothing that isn’t functional or in line with their energy. Overall, the stars of today and tomorrow seem less sure of themselves on stage. How do we fix that?​“Stage Presence”, presented byEdited for Brevity,is a panel on live musical performance, and on how investing in styling, physical training and choreography can take an artist’s live show to the next level.​The Panelists:​Jason Lewisaka RapsTrainer is an LA-based personal trainer with a unique specialization in working with world-touring musicians with emphasis on injury prevention. With a deep understanding of the physical demands placed on touring artists, Jason's clients include GRAMMY-winning artist Kaytranada, Amine, Teezo Touchdown, Cole Bennett & more.​Gigi Todiscois a queer & mixed race choreographer, dancer & movement director based in LA. Gigi choreographed and danced in Kali Uchis'Red Moon in VenusTour, and her 2023 Coachella  set. She's also worked with Post Malone, Tyla, Olivia Rodrigo and more, and has done commercial work for NIKE, New Balance and Vans.​Zay Fofanais a New York based stylist, image consultant and director whose clients include Kanye West, A$AP Rocky, Lil Durk and more. He’s styled tours, album cover shoots, music videos, live performances and more, and has done commercial work for brands like Planes, New Balance and Under Armor.​The Event​Join us atTelos.HausonSaturday, May 17thfor a moderated panel, followed by a mixer. Drinks and light bites will be provided.Doors open at 7:00pm.The event is free to attend, but donations are welcome! All guests who RSVP will be automatically added to the Edited For Brevity Substack community.​Schedule​7:00pm – 7:45pm: Doors Open​7:50pm – 8:50pm: Moderated Panel + Q&A​9:00pm – 10:30pm: Mixer + Light Bites & Drinks​About the Host​Edited For Brevity is a new music publication and platform founded byEbrima Jassey,with a focus on storytelling, whether that be in the dissection of our favorite songs, or in the stories told by the people behind the scenes. Get in touch ateditedbrevity@gmail.comand keep up with us onSubstack.",
+      "startDate": "2025-05-17T19:00:00-04:00",
+      "endDate": "2025-05-17T22:30:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "luma-event-e44cccc6.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/jd36kzu0?pk=g-A2puhA9sV56EGRT",
+        "organizer": {
+          "name": "telos.haus events",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "Telos",
+          "address": "181 Wyckoff Ave, Brooklyn, NY 11237",
+          "type": "Offline"
+        },
+        "speakers": [
+          {
+            "name": "Ebrima Jassey",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Ebrima Jassey",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "social_links": [
+          "https://instagram.com/ebr.ima",
+          "https://instagram.com/ebr.ima"
         ],
         "featured": false,
         "luma_source": true
