@@ -1,61 +1,6 @@
 {
   "events": [
     {
-      "id": "evt_com_fractal__clr78ba",
-      "name": "Weekly Sunday Co-Gardening | Spring Season \ud83c\udf38",
-      "type": "Tech",
-      "locationId": "loc_fractal",
-      "communityId": "com_fractal",
-      "description": "\u200bWe're meeting up every Sunday afternoon this Spring to tend the garden on the roof of the Fractal Tech Hub (weather permitting).Bring snacks to share, supplies for the garden, plants to plant, or just bring yourself ready to be put to work.\u200b\u200bMore information on the Fractal Garden Website:http://garden.fractaltechhub.com/",
-      "startDate": "2025-05-11T18:00:00Z",
-      "endDate": "2025-05-11T21:00:00Z",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": "",
-      "image": "luma-event-53b9bfca.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://lu.ma/132iulln",
-        "organizer": {
-          "name": "Fractal Tech: NYC",
-          "instagram": "",
-          "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
-        },
-        "venue": {
-          "name": "Fractal Tech",
-          "address": "111 Conselyea St, Brooklyn, NY 11211",
-          "type": "Offline"
-        },
-        "speakers": [
-          {
-            "name": "Anthony Castrio \ud83d\udcaf",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Anthony Castrio \ud83d\udcaf",
-            "title": "",
-            "bio": ""
-          }
-        ],
-        "social_links": [
-          "https://x.com/AnthonyCastrio",
-          "https://x.com/AnthonyCastrio"
-        ],
-        "featured": false,
-        "luma_source": true
-      }
-    },
-    {
       "id": "evt_com_fractal__cdgmopb",
       "name": "Fireside chat with Clay Co-founder/CEO Kareem Amin",
       "type": "Tech",

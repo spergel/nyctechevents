@@ -156,7 +156,7 @@
         },
         "venue": {
           "name": "",
-          "address": "Please register to see the exact location of this event.",
+          "address": "Please register to see the exact location of this event.\nNew York, New York",
           "type": "Online"
         },
         "speakers": [

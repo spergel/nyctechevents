@@ -1324,8 +1324,8 @@
       "locationId": "",
       "communityId": "com_nyc_resistor",
       "description": "",
-      "startDate": "2025-08-07T20:00:00-04:00",
-      "endDate": "2025-08-07T21:00:00-04:00",
+      "startDate": "2025-08-14T20:00:00-04:00",
+      "endDate": "2025-08-14T21:00:00-04:00",
       "category": [
         "Tech"
       ],
@@ -1341,7 +1341,7 @@
       "image": "",
       "status": "upcoming",
       "metadata": {
-        "source_url": "https://www.google.com/calendar/event?eid=MjExbXBpazAwdXQ4MTVrZ3FuMjExcm8wcTJfMjAyNTA4MDhUMDAwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn",
+        "source_url": "https://www.google.com/calendar/event?eid=MjExbXBpazAwdXQ4MTVrZ3FuMjExcm8wcTJfMjAyNTA4MTVUMDAwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn",
         "organizer": {
           "name": "",
           "instagram": "",
@@ -2545,88 +2545,6 @@
       }
     },
     {
-      "id": "evt_com_nyc_resistor_38udato6",
-      "name": "HOLD: Open Mic",
-      "type": "Tech",
-      "locationId": "",
-      "communityId": "com_nyc_resistor",
-      "description": "",
-      "startDate": "2025-05-10T19:00:00-04:00",
-      "endDate": "2025-05-10T23:00:00-04:00",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": "",
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.google.com/calendar/event?eid=Mzh1ZGF0bzZlOGJjODNkbTk1aHB0Zmcxbm0gcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw",
-        "organizer": {
-          "name": "NYCResistor",
-          "instagram": "",
-          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false
-      }
-    },
-    {
-      "id": "evt_com_nyc_resistor_0hhpde7t",
-      "name": "HOLD: Meal Prep: L9 Dumplings?!",
-      "type": "Tech",
-      "locationId": "",
-      "communityId": "com_nyc_resistor",
-      "description": "",
-      "startDate": "2025-05-11T15:00:00-04:00",
-      "endDate": "2025-05-11T20:00:00-04:00",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": "",
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.google.com/calendar/event?eid=MGhocGRlN3RkcW41ZG45ZXNobW85OGhjcGIgcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw",
-        "organizer": {
-          "name": "NYCResistor",
-          "instagram": "",
-          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false
-      }
-    },
-    {
       "id": "evt_com_effective_altruism_nyc_3dgeao06",
       "name": "World Malaria Day",
       "type": "Tech",
@@ -3057,47 +2975,6 @@
         "venue": {
           "name": "",
           "address": "",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false
-      }
-    },
-    {
-      "id": "evt_com_nyc_resistor_l7cm1dt8",
-      "name": "Meal Prep 101: L9 DUMPLINGS",
-      "type": "Tech",
-      "locationId": "",
-      "communityId": "com_nyc_resistor",
-      "description": "RSVP https://www.eventbrite.com/e/meal-prep-101-l9-dumplings-tickets-1335493209139\n\nHey there! Join us for Meal Prep 101 where we'll be trying out new recipes and techniques for easy, delicious meal prepping!Meal Prep 101: Dumplings!\nDate: May 11, 2025\nTime: 3:30PM EST\nLocation: NYC Resistor\nJoin the Discussion/What do You Want To Cook: https://discord.gg/NtdYJrjk\nWelcome to Meal Prep 101: Dumplings! The thesis of this series is to teach and practice basic knife skills, increase comfortability in the kitchen, and develop knowledge of flavor combinations, portion-size, produce selection, and active refrigerator inventory to better feed oneself with healthy, delicious, and affordable meals.\nEach class will take home between 3 and 8 portions of pre-prepared, or low-effort meals along with spice blends, marinates, and other kitchen essentials to make cooking easier and better at home.\nMeals will center around vegetables. Groceries will be PROVIDED with RSVP.\nPlease discuss for other dietary restrictions or allergies before attending. We will do our best to accommodate.\nMenu:\nDUMPLINGS, Veg and Meat options available!Masks optional\nPaypal/Zelle is under phone number 631 371 1168 (Tix 85$)\nVenmo is @winston-chiang\nInstagram is @ouroboros.in.reverse\n",
-      "startDate": "2025-05-11T15:30:00-04:00",
-      "endDate": "2025-05-11T20:00:00-04:00",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Paid",
-        "currency": "USD",
-        "details": "See event description for pricing details"
-      },
-      "capacity": null,
-      "registrationRequired": true,
-      "tags": "",
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.eventbrite.com/e/meal-prep-101-l9-dumplings-tickets-1335493209139",
-        "organizer": {
-          "name": "NYCResistor",
-          "instagram": "",
-          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "NYCResistor\n87 3rd Ave\nBrooklyn, NY 11217",
           "type": "Offline"
         },
         "speakers": [],
@@ -3833,47 +3710,6 @@
         ],
         "featured": false,
         "luma_source": true
-      }
-    },
-    {
-      "id": "evt_com_telos_79m9k7m2",
-      "name": "Booked for private event",
-      "type": "Tech",
-      "locationId": "",
-      "communityId": "com_telos",
-      "description": "",
-      "startDate": "2025-05-10",
-      "endDate": "2025-05-11",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": "",
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.google.com/calendar/event?eid=NzltOWs3bTI0c3U5MWs3aXRpbjd0NDJsa2ogZDU5NmMyYmY3MjExODNkMjJiYjUwYmRlNjYyNTA5MGZjMzkyM2FhMjlhNjkxOGQ3ODQwOWUxNjhkYTc5MTc2OUBn",
-        "organizer": {
-          "name": "telos.haus events",
-          "instagram": "",
-          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false
       }
     }
   ]
