@@ -498,13 +498,13 @@
     },
     {
       "id": "evt_com_fractal__clr78bb",
-      "name": "Weekly Sunday Co-Gardening | Spring Season 🌸",
+      "name": "Make Your Own 3D Models: Blender and 3D Printing",
       "type": "Tech",
-      "locationId": "loc_fractal",
+      "locationId": "",
       "communityId": "com_fractal",
-      "description": "​We're meeting up every Sunday afternoon this Spring to tend the garden on the roof of the Fractal Tech Hub (weather permitting).Bring snacks to share, supplies for the garden, plants to plant, or just bring yourself ready to be put to work.​​More information on the Fractal Garden Website:http://garden.fractaltechhub.com/",
-      "startDate": "2025-06-01T18:00:00Z",
-      "endDate": "2025-06-01T21:00:00Z",
+      "description": "​Fractal University class on 3d Modeling and Printing. Details here:https://www.notion.so/Make-Your-Own-3D-Models-Blender-and-3D-Printing-1e8c2ad10be980429e2dd66d94ebc1e6?pvs=4",
+      "startDate": "2025-07-02T22:30:00Z",
+      "endDate": "2025-07-03T02:30:00Z",
       "category": [
         "Tech"
       ],
@@ -517,49 +517,46 @@
       "capacity": null,
       "registrationRequired": false,
       "tags": "",
-      "image": "luma-event-3656b081.jpg",
+      "image": "luma-event-7a93f95c.jpg",
       "status": "upcoming",
       "metadata": {
-        "source_url": "https://lu.ma/nliculft",
+        "source_url": "https://lu.ma/an1omif2",
         "organizer": {
           "name": "Fractal Tech: NYC",
           "instagram": "",
           "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
         },
         "venue": {
-          "name": "Fractal Tech",
-          "address": "111 Conselyea St, Brooklyn, NY 11211",
+          "name": "",
+          "address": "111 Conselyea StBrooklyn, NY 11211, USA\nBrooklyn, NY 11211, USA",
           "type": "Offline"
         },
         "speakers": [
           {
-            "name": "Anthony Castrio 💯",
+            "name": "Jeff Horal",
             "title": "",
             "bio": ""
           },
           {
-            "name": "Anthony Castrio 💯",
+            "name": "Jeff Horal",
             "title": "",
             "bio": ""
           }
         ],
-        "social_links": [
-          "https://x.com/AnthonyCastrio",
-          "https://x.com/AnthonyCastrio"
-        ],
+        "social_links": [],
         "featured": false,
         "luma_source": true
       }
     },
     {
       "id": "evt_com_fractal__clr78ba",
-      "name": "In Bloom",
+      "name": "Learn 80% of SQL in 4 Hours (Cohort 2, Session 2)",
       "type": "Tech",
       "locationId": "loc_fractal",
       "communityId": "com_fractal",
-      "description": "​Live music on a rooftop garden? What could be better? See artwork from local artists, support a community garden, enjoy some drinks, and listen to talented musicians!!​Bring your family, friends, significant others, acquaintances and favorite baristas!$10 suggested donations​All proceeds will go back to the garden and artists",
-      "startDate": "2025-06-22T00:00:00Z",
-      "endDate": "2025-06-22T04:00:00Z",
+      "description": "​​The vast majority of data in the world is stored in a relational database, and SQL is the key to accessing it. In this 2-part beginner course, we will make you comfortable with the foundations of SQL, from projections and filtering to aggregations and joins, with lots of hands-on practice throughout.",
+      "startDate": "2025-06-25T22:30:00Z",
+      "endDate": "2025-06-26T00:30:00Z",
       "category": [
         "Tech"
       ],
@@ -572,10 +569,10 @@
       "capacity": null,
       "registrationRequired": false,
       "tags": "",
-      "image": "luma-event-ee64b9b1.jpg",
+      "image": "luma-event-5f8b85d1.jpg",
       "status": "upcoming",
       "metadata": {
-        "source_url": "https://lu.ma/g1uekza6",
+        "source_url": "https://lu.ma/tfl9lrsl",
         "organizer": {
           "name": "Fractal Tech: NYC",
           "instagram": "",
@@ -588,30 +585,17 @@
         },
         "speakers": [
           {
-            "name": "Michael NeJame",
+            "name": "Alex",
             "title": "",
             "bio": ""
           },
           {
-            "name": "Anthony Castrio 💯",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Michael NeJame",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Anthony Castrio 💯",
+            "name": "Alex",
             "title": "",
             "bio": ""
           }
         ],
-        "social_links": [
-          "https://x.com/AnthonyCastrio",
-          "https://x.com/AnthonyCastrio"
-        ],
+        "social_links": [],
         "featured": false,
         "luma_source": true
       }
@@ -1652,8 +1636,8 @@
       "locationId": "",
       "communityId": "com_nyc_resistor",
       "description": "",
-      "startDate": "2025-07-20",
-      "endDate": "2025-07-21",
+      "startDate": "2025-08-17",
+      "endDate": "2025-08-18",
       "category": [
         "Tech"
       ],
@@ -1669,7 +1653,7 @@
       "image": "",
       "status": "upcoming",
       "metadata": {
-        "source_url": "https://www.google.com/calendar/event?eid=MGE2ZHRnc2xtbGFpMG8xcWU3cGcyMDlrMGtfMjAyNTA3MjAgcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw",
+        "source_url": "https://www.google.com/calendar/event?eid=MGE2ZHRnc2xtbGFpMG8xcWU3cGcyMDlrMGtfMjAyNTA4MTcgcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw",
         "organizer": {
           "name": "NYCResistor",
           "instagram": "",
@@ -2826,7 +2810,7 @@
       "type": "Tech",
       "locationId": "",
       "communityId": "com_nyc_resistor",
-      "description": "​The Home Assistant Community Day meetup in Brooklyn, NY!​Location & time still TBD :)",
+      "description": "​Join us for an afternoon of smart home nerdery, casual hangs, and open-source good vibes!Whether you're already deep in the knees of Home Assistant building automations to make your lights dance to the beat or just curious about what Home Assistant even is... this meetup is for you!Home Assistant is an open-source platform that lets you control and automate everything in your home - lights, sensors, thermostats, cameras, you name it - without giving your data away to Big Tech. It is the #1 community project on GitHub and is powered by a global community of makers, hackers, and everyday folks who just want their homes to be a little smarter and more private (or fight surveillance capitalism).What to Expect:- Demos and smart home show-and-tells (Please feel free to show yours!)- Come exchange tips and tricks from longtime Home Assistant users- Friendly space to ask questions if you're new (no dumb questions here)- Drinks, snacks, and arcade games in the backgroundCome through, meet the community, and see how Home Assistant can help you build a smarter, more thoughtful home—on your own terms.",
       "startDate": "2025-05-24T13:00:00-04:00",
       "endDate": "2025-05-24T15:00:00-04:00",
       "category": [
@@ -2841,7 +2825,7 @@
       "capacity": null,
       "registrationRequired": false,
       "tags": "",
-      "image": "luma-event-1a3ee958.jpg",
+      "image": "luma-event-b7dc3531.jpg",
       "status": "upcoming",
       "metadata": {
         "source_url": "https://lu.ma/efkt35on?tk=UyV6Lb\">https://lu.ma/efkt35on?tk=UyV6Lb</a>",
@@ -2852,21 +2836,11 @@
         },
         "venue": {
           "name": "",
-          "address": "Please register to see the exact location of this event.",
+          "address": "Please register to see the exact location of this event.\nKings County, New York",
           "type": "Online"
         },
         "speakers": [
           {
-            "name": "Missy Quarry",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Paulus Schoutsen",
-            "title": "",
-            "bio": ""
-          },
-          {
             "name": "Madelena Mak",
             "title": "",
             "bio": ""
@@ -2883,6 +2857,16 @@
           },
           {
             "name": "Madelena Mak",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Missy Quarry",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Paulus Schoutsen",
             "title": "",
             "bio": ""
           }
@@ -3707,6 +3691,170 @@
         "social_links": [
           "https://instagram.com/ebr.ima",
           "https://instagram.com/ebr.ima"
+        ],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_fractal__clr78b9",
+      "name": "Make Your Own 3D Models: Blender and 3D Printing",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_fractal",
+      "description": "​Fractal University class on 3d Modeling and Printing. Details here:https://www.notion.so/Make-Your-Own-3D-Models-Blender-and-3D-Printing-1e8c2ad10be980429e2dd66d94ebc1e6?pvs=4",
+      "startDate": "2025-07-09T22:30:00Z",
+      "endDate": "2025-07-10T00:30:00Z",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "luma-event-a5fdbe21.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/gnlrklzp",
+        "organizer": {
+          "name": "Fractal Tech: NYC",
+          "instagram": "",
+          "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "111 Conselyea StBrooklyn, NY 11211, USA\nBrooklyn, NY 11211, USA",
+          "type": "Offline"
+        },
+        "speakers": [
+          {
+            "name": "Jeff Horal",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Jeff Horal",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "social_links": [],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_nyc_resistor__7523egh",
+      "name": "Ping Ji",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_nyc_resistor",
+      "description": "",
+      "startDate": "2025-05-14T10:00:00-04:00",
+      "endDate": "2025-05-14T11:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.google.com/calendar/event?eid=Xzc1MjNlZ2hrODkxM2liOW03NG9rYWI5azg4b2owYmExOGtzazRiOW02MHFqZ2dwajcwcWthZTFsNjggcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw",
+        "organizer": {
+          "name": "NYCResistor",
+          "instagram": "",
+          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
+      "id": "evt_com_verci__clr78bb",
+      "name": "Monday Girl: Women In Creative Industries",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_verci",
+      "description": "​Join Monday Girl and Verci for a night of real conversations, creative energy, and connections that actually go somewhere.​This is a happy hour for NYC’s creative women across media, fashion, content, design, and more.​What to expect:​– Curated networking that feels natural, not forced​– Thoughtful conversation prompts (skip the small talk)​– A beautiful setting inside Verci’s flagship Flatiron space​Whether you’re building your brand, launching something new, or just want to meet other women doing cool things—this night is for you.​Capacity is limited. Come early, bring your best ideas, and leave with a few new contacts worth texting.​🎟️Tickets: FREE for members; $15.00 for non-members​Given limited capacity, this will be invitation-only.​About Verci​Verci is a workspace and social space in NYC, meticulously curated for founders, artists, and creatives. Learn more atverci.comand read our manifesto atverci.com/manifesto.​Learn more here:https://www.verci.com/​About Monday Girl​​Ever felt like the only woman in the room? We've been there too. Welcome to a community where high-achieving women are the rule, not the exception. Say goodbye to feeling outnumbered and overlooked. Monday Girl Members get access to a private network of mentors from top companies, invites to exclusive events, career resources, and more.​​​Apply:https://joinmondaygirl.com/Social:@joinmondaygirl",
+      "startDate": "2025-05-14T22:30:00Z",
+      "endDate": "2025-05-15T01:00:00Z",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "luma-event-7e28ad74.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/MGxVerci",
+        "organizer": {
+          "name": "Verci Events",
+          "instagram": "",
+          "email": "pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "45 E 20th StNew York, NY 10003, USA\nNew York, NY 10003, USA",
+          "type": "Offline"
+        },
+        "speakers": [
+          {
+            "name": "Monday Girl",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Verci",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Monday Girl",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Verci",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "social_links": [
+          "https://instagram.com/joinmondaygirl",
+          "https://tiktok.com/@joinmondaygirl",
+          "https://joinmondaygirl.com",
+          "https://instagram.com/mondaygirlto",
+          "https://instagram.com/joinmondaygirl",
+          "https://tiktok.com/@joinmondaygirl",
+          "https://joinmondaygirl.com",
+          "https://instagram.com/mondaygirlto"
         ],
         "featured": false,
         "luma_source": true

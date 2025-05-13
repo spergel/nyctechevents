@@ -1,55 +1,14 @@
 {
   "events": [
     {
-      "id": "evt_com_nyc_resistor_sf181ee0",
-      "name": "NYCR Craft Night",
-      "type": "Tech",
-      "locationId": "",
-      "communityId": "com_nyc_resistor",
-      "description": "<u></u><p>NYC Resistor is open to the public for Craft Nights now every Monday and Thursday from 6:30-9:30 PM! Come bring your current crafting project and work on it with other artists, crafters, and makers of all kinds. Resistors do everything from costumes to electronics to visual arts to woodworking; people and crafting projects of all sorts are enthusiastically welcome!</p><p>RSVP at<span> <a href=\"https://www.eventbrite.com/e/public-craft-night-mondays-and-thursdays-tickets-162729866411\">https://www.eventbrite.com/e/public-craft-night-mondays-and-thursdays-tickets-162729866411</a></span> is appreciated but not required, for covid contact-tracing purposes.<br></p>This event like all NYC Resistor events is 18 and over and governed by out code of conduct. <br><br>More information: <a href=\"http://www.nycresistor.com/participate/\">http://www.nycresistor.com/participate/</a><br>NYC Resistor Code of Conduct: <a href=\"http://www.nycresistor.com/2015/08/04/nyc-resistor-code-of-conduct/\">http://www.nycresistor.com/2015/08/04/nyc-resistor-code-of-conduct/</a><u></u><u></u><u></u><u></u><u></u>",
-      "startDate": "2025-05-12T18:30:00-04:00",
-      "endDate": "2025-05-12T21:30:00-04:00",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": true,
-      "tags": "",
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.eventbrite.com/e/public-craft-night-mondays-and-thursdays-tickets-162729866411\">https://www.eventbrite.com/e/public-craft-night-mondays-and-thursdays-tickets-162729866411</a></span>",
-        "organizer": {
-          "name": "NYCResistor",
-          "instagram": "",
-          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false
-      }
-    },
-    {
-      "id": "evt_com_nyc_resistor_5mf9g2iv",
-      "name": "",
+      "id": "evt_com_nyc_resistor__7523egh",
+      "name": "Ping Ji",
       "type": "Tech",
       "locationId": "",
       "communityId": "com_nyc_resistor",
       "description": "",
-      "startDate": "2025-05-12T20:00:00-04:00",
-      "endDate": "2025-05-12T21:00:00-04:00",
+      "startDate": "2025-05-14T10:00:00-04:00",
+      "endDate": "2025-05-14T11:00:00-04:00",
       "category": [
         "Tech"
       ],
@@ -65,11 +24,11 @@
       "image": "",
       "status": "upcoming",
       "metadata": {
-        "source_url": "https://www.google.com/calendar/event?eid=NW1mOWcyaXY4cW00c242cTRlOTNibzdvczBfMjAyNTA1MTNUMDAwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn",
+        "source_url": "https://www.google.com/calendar/event?eid=Xzc1MjNlZ2hrODkxM2liOW03NG9rYWI5azg4b2owYmExOGtzazRiOW02MHFqZ2dwajcwcWthZTFsNjggcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw",
         "organizer": {
-          "name": "",
+          "name": "NYCResistor",
           "instagram": "",
-          "email": ""
+          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
         },
         "venue": {
           "name": "",
@@ -662,7 +621,7 @@
       "type": "Tech",
       "locationId": "",
       "communityId": "com_nyc_resistor",
-      "description": "\u200bThe Home Assistant Community Day meetup in Brooklyn, NY!\u200bLocation & time still TBD :)",
+      "description": "\u200bJoin us for an afternoon of smart home nerdery, casual hangs, and open-source good vibes!Whether you're already deep in the knees of Home Assistant building automations to make your lights dance to the beat or just curious about what Home Assistant even is... this meetup is for you!Home Assistant is an open-source platform that lets you control and automate everything in your home - lights, sensors, thermostats, cameras, you name it - without giving your data away to Big Tech. It is the #1 community project on GitHub and is powered by a global community of makers, hackers, and everyday folks who just want their homes to be a little smarter and more private (or fight surveillance capitalism).What to Expect:- Demos and smart home show-and-tells (Please feel free to show yours!)- Come exchange tips and tricks from longtime Home Assistant users- Friendly space to ask questions if you're new (no dumb questions here)- Drinks, snacks, and arcade games in the backgroundCome through, meet the community, and see how Home Assistant can help you build a smarter, more thoughtful home\u2014on your own terms.",
       "startDate": "2025-05-24T13:00:00-04:00",
       "endDate": "2025-05-24T15:00:00-04:00",
       "category": [
@@ -677,7 +636,7 @@
       "capacity": null,
       "registrationRequired": false,
       "tags": "",
-      "image": "luma-event-1a3ee958.jpg",
+      "image": "luma-event-b7dc3531.jpg",
       "status": "upcoming",
       "metadata": {
         "source_url": "https://lu.ma/efkt35on?tk=UyV6Lb\">https://lu.ma/efkt35on?tk=UyV6Lb</a>",
@@ -688,21 +647,11 @@
         },
         "venue": {
           "name": "",
-          "address": "Please register to see the exact location of this event.",
+          "address": "Please register to see the exact location of this event.\nKings County, New York",
           "type": "Online"
         },
         "speakers": [
           {
-            "name": "Missy Quarry",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Paulus Schoutsen",
-            "title": "",
-            "bio": ""
-          },
-          {
             "name": "Madelena Mak",
             "title": "",
             "bio": ""
@@ -719,6 +668,16 @@
           },
           {
             "name": "Madelena Mak",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Missy Quarry",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Paulus Schoutsen",
             "title": "",
             "bio": ""
           }
@@ -4128,6 +4087,47 @@
           "name": "",
           "instagram": "",
           "email": ""
+        },
+        "venue": {
+          "name": "",
+          "address": "",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
+      "id": "evt_com_nyc_resistor_0a6dtgsl",
+      "name": "Hold: Laser Cutting Class",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_nyc_resistor",
+      "description": "",
+      "startDate": "2025-08-17",
+      "endDate": "2025-08-18",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.google.com/calendar/event?eid=MGE2ZHRnc2xtbGFpMG8xcWU3cGcyMDlrMGtfMjAyNTA4MTcgcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw",
+        "organizer": {
+          "name": "NYCResistor",
+          "instagram": "",
+          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
         },
         "venue": {
           "name": "",

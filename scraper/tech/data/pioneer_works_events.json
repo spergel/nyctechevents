@@ -145,6 +145,42 @@
       }
     },
     {
+      "id": "evt_pioneer_57b24697",
+      "name": "Opening Reception for Daniel Johnston & Felix Rodriguez",
+      "type": "Cultural Event",
+      "locationId": "loc_pioneer_works",
+      "communityId": "com_pioneer_works",
+      "description": "Join Pioneer Works in a public opening celebration of Daniel Johnston: I Think, I Draw I Am and Felix Rodriguez: Legendary Looks: My Ballroom Story.Lege...",
+      "startDate": "2025-06-06T23:00:00+00:00",
+      "endDate": "2025-06-07T03:00:00+00:00",
+      "category": [
+        "Arts",
+        "Music",
+        "Science"
+      ],
+      "price": null,
+      "registrationRequired": true,
+      "tags": [],
+      "image": [
+        "https://cdn.sanity.io/images/vgvol637/production/09936a321ccce725002c2481c000ed7779858122-5070x6613.jpg?w=800"
+      ],
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://pioneerworks.org/programs/opening-reception-for-daniel-johnston-and-felix-rodriguez",
+        "organizer": {
+          "name": "Pioneer Works",
+          "instagram": "@pioneerworks",
+          "email": "info@pioneerworks.org"
+        },
+        "venue": {
+          "name": "Pioneer Works",
+          "address": "159 Pioneer Street",
+          "type": "Cultural Institution"
+        },
+        "featured": false
+      }
+    },
+    {
       "id": "evt_pioneer_2add19e9",
       "name": "Second Sundays: June 2025",
       "type": "Cultural Event",
@@ -167,6 +203,42 @@
       "status": "upcoming",
       "metadata": {
         "source_url": "https://pioneerworks.org/programs/second-sundays-june-2025",
+        "organizer": {
+          "name": "Pioneer Works",
+          "instagram": "@pioneerworks",
+          "email": "info@pioneerworks.org"
+        },
+        "venue": {
+          "name": "Pioneer Works",
+          "address": "159 Pioneer Street",
+          "type": "Cultural Institution"
+        },
+        "featured": false
+      }
+    },
+    {
+      "id": "evt_pioneer_68e549cc",
+      "name": "Crit Night at Ace Hotel Brooklyn",
+      "type": "Cultural Event",
+      "locationId": "loc_pioneer_works",
+      "communityId": "com_pioneer_works",
+      "description": "Crit Night, presented in partnership with Ace Hotel Brooklyn, is a series of intimate evenings featuring Pioneer Works artists-in-residence. In the spir...",
+      "startDate": "2025-06-11T23:30:00+00:00",
+      "endDate": "2025-06-12T03:00:00+00:00",
+      "category": [
+        "Arts",
+        "Music",
+        "Science"
+      ],
+      "price": null,
+      "registrationRequired": true,
+      "tags": [],
+      "image": [
+        "https://cdn.sanity.io/images/vgvol637/production/5f9e7d2dfd307928b42bd57e88f35425a5e0115d-1800x1200.jpg?w=800"
+      ],
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://pioneerworks.org/programs/crit-night-at-ace-hotel-brooklyn-june-2025",
         "organizer": {
           "name": "Pioneer Works",
           "instagram": "@pioneerworks",

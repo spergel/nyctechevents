@@ -1,6 +1,122 @@
 {
   "events": [
     {
+      "id": "evt_com_verci__cdgmopb",
+      "name": "Salon S\u00e9ance pop-up at Verci",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_verci",
+      "description": "Find more information on https://lu.ma/verci",
+      "startDate": "2025-05-13T23:00:00Z",
+      "endDate": "2025-05-13T23:30:00Z",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/verci",
+        "organizer": {
+          "name": "Verci Events",
+          "instagram": "",
+          "email": "pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "https://partiful.com/e/99MzDhwMQlntby94vaC5",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [
+          "https://instagram.com/vercinyc",
+          "https://x.com/vercinyc",
+          "https://tiktok.com/@vercinyc"
+        ],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_verci__clr78bb",
+      "name": "Monday Girl: Women In Creative Industries",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_verci",
+      "description": "\u200bJoin Monday Girl and Verci for a night of real conversations, creative energy, and connections that actually go somewhere.\u200bThis is a happy hour for NYC\u2019s creative women across media, fashion, content, design, and more.\u200bWhat to expect:\u200b\u2013 Curated networking that feels natural, not forced\u200b\u2013 Thoughtful conversation prompts (skip the small talk)\u200b\u2013 A beautiful setting inside Verci\u2019s flagship Flatiron space\u200bWhether you\u2019re building your brand, launching something new, or just want to meet other women doing cool things\u2014this night is for you.\u200bCapacity is limited. Come early, bring your best ideas, and leave with a few new contacts worth texting.\u200b\ud83c\udf9f\ufe0fTickets: FREE for members; $15.00 for non-members\u200bGiven limited capacity, this will be invitation-only.\u200bAbout Verci\u200bVerci is a workspace and social space in NYC, meticulously curated for founders, artists, and creatives. Learn more atverci.comand read our manifesto atverci.com/manifesto.\u200bLearn more here:https://www.verci.com/\u200bAbout Monday Girl\u200b\u200bEver felt like the only woman in the room? We've been there too. Welcome to a community where high-achieving women are the rule, not the exception. Say goodbye to feeling outnumbered and overlooked. Monday Girl Members get access to a private network of mentors from top companies, invites to exclusive events, career resources, and more.\u200b\u200b\u200bApply:https://joinmondaygirl.com/Social:@joinmondaygirl",
+      "startDate": "2025-05-14T22:30:00Z",
+      "endDate": "2025-05-15T01:00:00Z",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "luma-event-7e28ad74.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/MGxVerci",
+        "organizer": {
+          "name": "Verci Events",
+          "instagram": "",
+          "email": "pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "45 E 20th StNew York, NY 10003, USA\nNew York, NY 10003, USA",
+          "type": "Offline"
+        },
+        "speakers": [
+          {
+            "name": "Monday Girl",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Verci",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Monday Girl",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Verci",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "social_links": [
+          "https://instagram.com/joinmondaygirl",
+          "https://tiktok.com/@joinmondaygirl",
+          "https://joinmondaygirl.com",
+          "https://instagram.com/mondaygirlto",
+          "https://instagram.com/joinmondaygirl",
+          "https://tiktok.com/@joinmondaygirl",
+          "https://joinmondaygirl.com",
+          "https://instagram.com/mondaygirlto"
+        ],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
       "id": "evt_com_verci__clr78ba",
       "name": "Founders' Fest: Verci Founders Pasta-Making Dinner w/ Google Cloud",
       "type": "Tech",

@@ -1,51 +1,6 @@
 {
   "events": [
     {
-      "id": "evt_com_fractal__cdgmopb",
-      "name": "Fireside chat with Clay Co-founder/CEO Kareem Amin",
-      "type": "Tech",
-      "locationId": "",
-      "communityId": "com_fractal",
-      "description": "Find more information on https://lu.ma/nyc-tech",
-      "startDate": "2025-05-12T22:00:00Z",
-      "endDate": "2025-05-13T00:00:00Z",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": "",
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://lu.ma/nyc-tech",
-        "organizer": {
-          "name": "Fractal Tech: NYC",
-          "instagram": "",
-          "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "https://www.meetup.com/ny-product/events/307290062/",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [
-          "https://instagram.com/fractaltechnyc",
-          "https://x.com/fractaltechnyc",
-          "https://fractaltechhub.com"
-        ],
-        "featured": false,
-        "luma_source": true
-      }
-    },
-    {
       "id": "evt_com_fractal__clr78ba",
       "name": "Maximum New York May Party & Abundance Politics Accelerator",
       "type": "Tech",
@@ -521,6 +476,58 @@
       }
     },
     {
+      "id": "evt_com_fractal__clr78bb",
+      "name": "Make Your Own 3D Models: Blender and 3D Printing",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_fractal",
+      "description": "\u200bFractal University course on 3D Modeling and Printing. Apply here:https://www.notion.so/Make-Your-Own-3D-Models-Blender-and-3D-Printing-1e8c2ad10be980429e2dd66d94ebc1e6?pvs=4",
+      "startDate": "2025-06-04T22:30:00Z",
+      "endDate": "2025-06-05T00:30:00Z",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "luma-event-36113729.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/0liu8sjd",
+        "organizer": {
+          "name": "Fractal Tech: NYC",
+          "instagram": "",
+          "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "111 Conselyea StBrooklyn, NY 11211, USA\nBrooklyn, NY 11211, USA",
+          "type": "Offline"
+        },
+        "speakers": [
+          {
+            "name": "Jeff Horal",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Jeff Horal",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "social_links": [],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
       "id": "evt_com_fractal__cdgmopb",
       "name": "Creative Technology Show n' Tell",
       "type": "Tech",
@@ -674,6 +681,58 @@
     },
     {
       "id": "evt_com_fractal__clr78ba",
+      "name": "Make Your Own 3D Models: Blender and 3D Printing",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_fractal",
+      "description": "\u200bFractal University class on 3d Modeling and Printing. Details here:https://www.notion.so/Make-Your-Own-3D-Models-Blender-and-3D-Printing-1e8c2ad10be980429e2dd66d94ebc1e6?pvs=4",
+      "startDate": "2025-06-11T22:30:00Z",
+      "endDate": "2025-06-12T00:30:00Z",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "luma-event-90d2c3d8.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/o4i5b5cs",
+        "organizer": {
+          "name": "Fractal Tech: NYC",
+          "instagram": "",
+          "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "111 Conselyea StBrooklyn, NY 11211, USA\nBrooklyn, NY 11211, USA",
+          "type": "Offline"
+        },
+        "speakers": [
+          {
+            "name": "Jeff Horal",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Jeff Horal",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "social_links": [],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_fractal__clr78ba",
       "name": "Weekly Sunday Co-Gardening | Spring Season \ud83c\udf38",
       "type": "Tech",
       "locationId": "loc_fractal",
@@ -723,6 +782,162 @@
           "https://x.com/AnthonyCastrio",
           "https://x.com/AnthonyCastrio"
         ],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_fractal__clr78bb",
+      "name": "Learn 80% of SQL in 4 Hours (Cohort 1, Session 1)",
+      "type": "Tech",
+      "locationId": "loc_fractal",
+      "communityId": "com_fractal",
+      "description": "\u200bThe vast majority of data in the world is stored in a relational database, and SQL is the key to accessing it. In this 2-part beginner course, we will make you comfortable with the foundations of SQL, from projections and filtering to aggregations and joins, with lots of hands-on practice throughout.",
+      "startDate": "2025-06-17T22:30:00Z",
+      "endDate": "2025-06-18T00:30:00Z",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "luma-event-5d49b4dc.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/a732lg1s",
+        "organizer": {
+          "name": "Fractal Tech: NYC",
+          "instagram": "",
+          "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "Fractal Tech",
+          "address": "111 Conselyea St, Brooklyn, NY 11211",
+          "type": "Offline"
+        },
+        "speakers": [
+          {
+            "name": "Alex",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Alex",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "social_links": [],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_fractal__clr78ba",
+      "name": "Learn 80% of SQL in 4 Hours (Cohort 2, Session 1)",
+      "type": "Tech",
+      "locationId": "loc_fractal",
+      "communityId": "com_fractal",
+      "description": "\u200b\u200bThe vast majority of data in the world is stored in a relational database, and SQL is the key to accessing it. In this 2-part beginner course, we will make you comfortable with the foundations of SQL, from projections and filtering to aggregations and joins, with lots of hands-on practice throughout.",
+      "startDate": "2025-06-18T22:30:00Z",
+      "endDate": "2025-06-19T00:30:00Z",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "luma-event-98b71da1.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/cq8af0g1",
+        "organizer": {
+          "name": "Fractal Tech: NYC",
+          "instagram": "",
+          "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "Fractal Tech",
+          "address": "111 Conselyea St, Brooklyn, NY 11211",
+          "type": "Offline"
+        },
+        "speakers": [
+          {
+            "name": "Alex",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Alex",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "social_links": [],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_fractal__clr78bb",
+      "name": "Make Your Own 3D Models: Blender and 3D Printing",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_fractal",
+      "description": "\u200bFractal University class on 3d Modeling and Printing. Details here:https://www.notion.so/Make-Your-Own-3D-Models-Blender-and-3D-Printing-1e8c2ad10be980429e2dd66d94ebc1e6?pvs=4",
+      "startDate": "2025-06-18T22:30:00Z",
+      "endDate": "2025-06-19T00:30:00Z",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "luma-event-4b29c97d.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/j40ffvxf",
+        "organizer": {
+          "name": "Fractal Tech: NYC",
+          "instagram": "",
+          "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "111 Conselyea StBrooklyn, NY 11211, USA\nBrooklyn, NY 11211, USA",
+          "type": "Offline"
+        },
+        "speakers": [
+          {
+            "name": "Jeff Horal",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Jeff Horal",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "social_links": [],
         "featured": false,
         "luma_source": true
       }
@@ -788,6 +1003,266 @@
           "https://x.com/AnthonyCastrio",
           "https://x.com/AnthonyCastrio"
         ],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_fractal__clr78ba",
+      "name": "Learn 80% of SQL in 4 Hours (Cohort 1, Session 2)",
+      "type": "Tech",
+      "locationId": "loc_fractal",
+      "communityId": "com_fractal",
+      "description": "\u200b\u200bThe vast majority of data in the world is stored in a relational database, and SQL is the key to accessing it. In this 2-part beginner course, we will make you comfortable with the foundations of SQL, from projections and filtering to aggregations and joins, with lots of hands-on practice throughout.",
+      "startDate": "2025-06-24T22:30:00Z",
+      "endDate": "2025-06-25T00:30:00Z",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "luma-event-d8337d05.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/aaespg7v",
+        "organizer": {
+          "name": "Fractal Tech: NYC",
+          "instagram": "",
+          "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "Fractal Tech",
+          "address": "111 Conselyea St, Brooklyn, NY 11211",
+          "type": "Offline"
+        },
+        "speakers": [
+          {
+            "name": "Alex",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Alex",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "social_links": [],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_fractal__clr78ba",
+      "name": "Make Your Own 3D Models: Blender and 3D Printing",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_fractal",
+      "description": "\u200bFractal University class on 3d Modeling and Printing. Details here:https://www.notion.so/Make-Your-Own-3D-Models-Blender-and-3D-Printing-1e8c2ad10be980429e2dd66d94ebc1e6?pvs=4",
+      "startDate": "2025-06-25T22:30:00Z",
+      "endDate": "2025-06-26T00:30:00Z",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "luma-event-74ca1619.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/s7ilr0ny",
+        "organizer": {
+          "name": "Fractal Tech: NYC",
+          "instagram": "",
+          "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "111 Conselyea StBrooklyn, NY 11211, USA\nBrooklyn, NY 11211, USA",
+          "type": "Offline"
+        },
+        "speakers": [
+          {
+            "name": "Jeff Horal",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Jeff Horal",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "social_links": [],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_fractal__clr78ba",
+      "name": "Learn 80% of SQL in 4 Hours (Cohort 2, Session 2)",
+      "type": "Tech",
+      "locationId": "loc_fractal",
+      "communityId": "com_fractal",
+      "description": "\u200b\u200bThe vast majority of data in the world is stored in a relational database, and SQL is the key to accessing it. In this 2-part beginner course, we will make you comfortable with the foundations of SQL, from projections and filtering to aggregations and joins, with lots of hands-on practice throughout.",
+      "startDate": "2025-06-25T22:30:00Z",
+      "endDate": "2025-06-26T00:30:00Z",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "luma-event-5f8b85d1.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/tfl9lrsl",
+        "organizer": {
+          "name": "Fractal Tech: NYC",
+          "instagram": "",
+          "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "Fractal Tech",
+          "address": "111 Conselyea St, Brooklyn, NY 11211",
+          "type": "Offline"
+        },
+        "speakers": [
+          {
+            "name": "Alex",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Alex",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "social_links": [],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_fractal__clr78bb",
+      "name": "Make Your Own 3D Models: Blender and 3D Printing",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_fractal",
+      "description": "\u200bFractal University class on 3d Modeling and Printing. Details here:https://www.notion.so/Make-Your-Own-3D-Models-Blender-and-3D-Printing-1e8c2ad10be980429e2dd66d94ebc1e6?pvs=4",
+      "startDate": "2025-07-02T22:30:00Z",
+      "endDate": "2025-07-03T02:30:00Z",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "luma-event-7a93f95c.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/an1omif2",
+        "organizer": {
+          "name": "Fractal Tech: NYC",
+          "instagram": "",
+          "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "111 Conselyea StBrooklyn, NY 11211, USA\nBrooklyn, NY 11211, USA",
+          "type": "Offline"
+        },
+        "speakers": [
+          {
+            "name": "Jeff Horal",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Jeff Horal",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "social_links": [],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_fractal__clr78b9",
+      "name": "Make Your Own 3D Models: Blender and 3D Printing",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_fractal",
+      "description": "\u200bFractal University class on 3d Modeling and Printing. Details here:https://www.notion.so/Make-Your-Own-3D-Models-Blender-and-3D-Printing-1e8c2ad10be980429e2dd66d94ebc1e6?pvs=4",
+      "startDate": "2025-07-09T22:30:00Z",
+      "endDate": "2025-07-10T00:30:00Z",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "luma-event-a5fdbe21.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/gnlrklzp",
+        "organizer": {
+          "name": "Fractal Tech: NYC",
+          "instagram": "",
+          "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "111 Conselyea StBrooklyn, NY 11211, USA\nBrooklyn, NY 11211, USA",
+          "type": "Offline"
+        },
+        "speakers": [
+          {
+            "name": "Jeff Horal",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Jeff Horal",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "social_links": [],
         "featured": false,
         "luma_source": true
       }

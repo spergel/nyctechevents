@@ -581,69 +581,12 @@
       }
     },
     {
-      "id": "evt_com_third_place_nyc_0ff35b7e",
-      "name": "WHF - Work From Hekate (May Mondays)",
-      "type": "Tech",
-      "locationId": "loc_tbd",
-      "communityId": "com_third_place_nyc",
-      "description": "​This is a collab with theNew York Coworking Friends MeetUp.​Join us for a relaxed Monday afternoon coworking session at Hekate, the OG sober bar in the East Village. Eliott, our favorite bartender at Hekate, will be there to welcome you. Sam, the founder of Third Place Bar, will stop by around 4pm to say hi.​Hekate is a sober barthat offers tea, coffee (drip), cold brew, and a full menu of alcohol-free cocktails, functional drinks, beer & soda. And of course, they have free wifi and outlets.​Please note that Hekate is a bar andnot suitable for calls- if you have phone/zoom calls to make, this session might not be suitable for you!​PRICEThis event is free, but we ask you to order minimum 1 drink from Hekate Café to support the venue while using their space!​⏰SCHEDULE2pm - 5pm:Focused co-working with social breaks every hour.",
-      "startDate": "2025-05-12T14:00:00-04:00",
-      "endDate": "2025-05-12T17:00:00-04:00",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": 100,
-      "registrationRequired": true,
-      "tags": [],
-      "image": "luma-event-50c4dbbd.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://lu.ma/gzl6e71t",
-        "speakers": [
-          {
-            "name": "Third Place Bar",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Third Place Bar",
-            "title": "",
-            "bio": ""
-          }
-        ],
-        "venue": {
-          "name": "Hekate Café & Elixir Lounge167 Avenue B, New York, NY 10009, USA",
-          "address": "167 Avenue B, New York, NY 10009, USA",
-          "type": "Offline",
-          "room": "",
-          "additional_info": ""
-        },
-        "featured": false,
-        "social_links": [
-          "https://instagram.com/thirdplacebarnyc",
-          "https://tiktok.com/@thirdplacebarnyc",
-          "https://www.thirdplacebar.nyc",
-          "https://instagram.com/thirdplacebarnyc",
-          "https://instagram.com/thirdplacebarnyc",
-          "https://tiktok.com/@thirdplacebarnyc",
-          "https://www.thirdplacebar.nyc",
-          "https://instagram.com/thirdplacebarnyc"
-        ]
-      }
-    },
-    {
       "id": "evt_com_third_place_nyc_f2e3a590",
       "name": "WHF - Work From Hekate (May Mondays)",
       "type": "Tech",
       "locationId": "loc_tbd",
       "communityId": "com_third_place_nyc",
-      "description": "​Join us for a relaxed Monday afternoon coworking session at Hekate, the OG sober bar in the East Village. Sam, the founder of Third Place Bar, will be there to work and welcome you.​Hekate is a sober barthat offers tea, coffee (drip), cold brew, and a full menu of alcohol-free cocktails, functional drinks, beer & soda. And of course, they have free wifi and outlets.​Please note that Hekate is a bar andnot suitable for calls- if you have phone/zoom calls to make, this session might not be suitable for you!​PRICEThis event is free, but we ask you to order minimum 1 drink from Hekate Café to support the venue while using their space.​⏰SCHEDULE2pm - 5pm:Focused co-working with social breaks and quick intros every hour (3pm and 4pm).",
+      "description": "​Join us for a relaxed Monday afternoon coworking session at Hekate, the OG sober bar in the East Village. Sam, the founder of Third Place Bar, will be there to work and welcome you.​Hekate is a sober barthat offers tea, coffee (drip), cold brew, and a full menu of alcohol-free cocktails, functional drinks, beer & soda. And of course, they have free wifi and outlets.​Bring your laptop and a project to work on, or maybe just grab a book and get some reading done.​Please note that Hekate is a bar andnot suitable for calls- if you have phone/zoom calls to make, this session might not be suitable for you!​🎟️ PRICEThis event is free, but we ask you to order minimum 1 drink from Hekate Café to support the venue while using their space.​⏰SCHEDULE2pm - 5pm:Focused co-working with quick intros at the beginning.",
       "startDate": "2025-05-19T14:00:00-04:00",
       "endDate": "2025-05-19T17:00:00-04:00",
       "category": [
