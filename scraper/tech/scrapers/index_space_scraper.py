@@ -101,6 +101,20 @@ def parse_date_time(date_str: str, time_str: str = "") -> tuple:
         # Clean up the strings
         date_str = date_str.replace('&nbsp;', ' ').strip()
         time_str = time_str.replace('&nbsp;', ' ').strip() if time_str else ""
+
+        logging.debug(f"Original parsing inputs - Date: '{date_str}', Time: '{time_str}'")
+
+        # Handle date ranges in date_str by taking the first date
+        if '—' in date_str:
+            date_parts = date_str.split('—')
+            date_str = date_parts[0].strip()
+            logging.debug(f"Date range detected, using first date: '{date_str}'")
+
+        # Remove day names (e.g., "Fridays ", "Tuesday ") from the start of time_str
+        time_str = re.sub(r"^(?:Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday)s?\s*from\s*", "", time_str, flags=re.IGNORECASE).strip()
+        # Further clean common prefixes if "from" was not there
+        time_str = re.sub(r"^(?:Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday)s?\s*", "", time_str, flags=re.IGNORECASE).strip()
+        logging.debug(f"Cleaned time string for parsing: '{time_str}'")
         
         logging.debug(f"Parsing date: '{date_str}' and time: '{time_str}'")
         
