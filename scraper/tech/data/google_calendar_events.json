@@ -2409,85 +2409,6 @@
       }
     },
     {
-      "id": "evt_com_south_park_commons__clr78ba",
-      "name": "-1 to Roblox with David Baszucki",
-      "type": "Tech",
-      "locationId": "",
-      "communityId": "com_south_park_commons",
-      "description": "​South Park Commons is delighted to hostDavid Baszuckiof Roblox as part of our -1 to Now series!​​​​​Event Details​​​​​​​4:30pm: Doors Open​​​​5:00-6:00pm: Fireside Chat​David Baszucki​David Baszucki is the founder and CEO of Roblox. His vision is to build a platform that enables shared experiences among billions of users. The company has been widely recognized for its innovation and vision under Baszucki’s leadership.​TIME named Roblox one of the “100 Most Influential Companies,” and it has been recognized by Fast Company for innovation on their “Most Innovative Companies” and “Most Innovative Companies in Gaming” lists. Roblox was also recognized as an innovative workplace on Fast Company’s “Best Workplaces for Innovators” list and for its technical innovations on Fast Company’s “Innovation by Design” list.​Previously, David founded Knowledge Revolution, where he and his brother Greg created “Interactive Physics,” a leader in educational physics and mechanical design simulation software. David graduated from Stanford University as a General Motors Scholar in Electrical Engineering.​📢 -1 to Now is a recurring speaker series at South Park Commons exploring how the world's best builders and thinkers took their ideas from -1 to 0 and beyond. Join us for the inside stories of their experiments, pivots, and breakthroughs on the way to where they are today.​​Registration and approval is required and space is limited, so please RSVP soon.​​Please note doors close promptly at 5:30pm and there will be no late admittance.",
-      "startDate": "2025-05-13T23:30:00Z",
-      "endDate": "2025-05-14T01:30:00Z",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": "",
-      "image": "luma-event-f8c168c9.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://lu.ma/david-roblox-spc",
-        "organizer": {
-          "name": "South Park Commons",
-          "instagram": "",
-          "email": "bfptu3ajdae5cc2k16cvs1amenbft762@import.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "Please register to see the exact location of this event.\nSan Francisco, California",
-          "type": "Online"
-        },
-        "speakers": [
-          {
-            "name": "South Park Commons",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Dylan Itzikowitz",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "South Park Commons",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Dylan Itzikowitz",
-            "title": "",
-            "bio": ""
-          }
-        ],
-        "social_links": [
-          "https://instagram.com/southparkcommons",
-          "https://x.com/southpkcommons",
-          "https://youtube.com/@southparkcommons",
-          "https://linkedin.com/company/southparkcommons",
-          "https://www.southparkcommons.com/",
-          "https://instagram.com/southparkcommons",
-          "https://x.com/southpkcommons",
-          "https://x.com/ditzikow",
-          "https://instagram.com/southparkcommons",
-          "https://x.com/southpkcommons",
-          "https://youtube.com/@southparkcommons",
-          "https://linkedin.com/company/southparkcommons",
-          "https://www.southparkcommons.com/",
-          "https://instagram.com/southparkcommons",
-          "https://x.com/southpkcommons",
-          "https://x.com/ditzikow"
-        ],
-        "featured": false,
-        "luma_source": true
-      }
-    },
-    {
       "id": "evt_com_telos_3gm2aapt",
       "name": "USB of Death",
       "type": "Tech",
@@ -3351,47 +3272,6 @@
       }
     },
     {
-      "id": "evt_com_effective_altruism_nyc_2mvmt1f5",
-      "name": "AI Governance Subgroup Discussion ",
-      "type": "Tech",
-      "locationId": "",
-      "communityId": "com_effective_altruism_nyc",
-      "description": "Last meeting we discussed timelines, but only started to talk about what to do in response to them. Let's continue the discussion. We'll discuss what to do about them at the level of the individual, communities, and society at large, for different timelines, and for different outcomes. I'll prepare discussion topics, but if there is anything you are really keen to discuss in advance, DM me on the slack. There is no need to prep anything but this talk from <a href=\"https://www.youtube.com/watch?v=kI7JPpmBBeY\">Bluedot and 80k</a> would be a good start for thinking about it from the individual perspective. Note, we're not supposing everyone can or should go and work on AI safety. This discussion should be relevant no matter your background or ambitions.<br>AI Subgroup sign-up form: <a href=\"https://forms.gle/fksP9VV3X1owgPe88\" target=\"_blank\">https://forms.gle/fksP9VV3X1owgPe88</a><br><br><br><br>****<br><br>EA NYC:<br>Please find all EA NYC event information - including our Code of Conduct, food policy, covid policy, and information on past and future events - here on our website: <a href=\"https://www.effectivealtruism.nyc/events\" target=\"_blank\">https://www.effectivealtruism.nyc/events</a><br><br>You can also find us on Facebook, Meetup, and Eventbrite!<br><a href=\"http://facebook.com/groups/eanyc/events\" target=\"_blank\">http://facebook.com/groups/eanyc/events</a><br><a href=\"https://www.meetup.com/effective-altruism-nyc/events/\" target=\"_blank\">https://www.meetup.com/effective-altruism-nyc/events/</a><br><a href=\"https://www.eventbrite.com/o/effective-altruism-nyc-55938838923\" target=\"_blank\">https://www.eventbrite.com/o/effective-altruism-nyc-55938838923</a><br><br>For those new to effective altruism, here are a couple of good introductions. In short, EA is about using evidence to carefully analyze how, given limited resources, we can help others the *most*.<br><a href=\"https://www.youtube.com/watch?v=48VAQtGmfWY\" target=\"_blank\">https://www.youtube.com/watch?v=48VAQtGmfWY</a>",
-      "startDate": "2025-05-13T19:00:00-04:00",
-      "endDate": "2025-05-13T21:00:00-04:00",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": "",
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.eventbrite.com/o/effective-altruism-nyc-55938838923\"",
-        "organizer": {
-          "name": "Effective Altruism NYC Events",
-          "instagram": "",
-          "email": "hbvetqf5h1pd0of0vn6uvphqts@group.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "In-Person Event (Midtown); register for location details",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false
-      }
-    },
-    {
       "id": "evt_com_telos_1vshl667",
       "name": "Private Event",
       "type": "Tech",
@@ -3647,7 +3527,7 @@
       "type": "Tech",
       "locationId": "loc_telos",
       "communityId": "com_telos",
-      "description": "​Anyone else feel like today’s musical artists kinda suck on stage? They often look lost, stumbling breathlessly through their words, if they can remember them. Their movements are awkward and hampered by clothing that isn’t functional or in line with their energy. Overall, the stars of today and tomorrow seem less sure of themselves on stage. How do we fix that?​“Stage Presence”, presented byEdited for Brevity,is a panel on live musical performance, and on how investing in styling, physical training and choreography can take an artist’s live show to the next level.​The Panelists:​Jason Lewisaka RapsTrainer is an LA-based personal trainer with a unique specialization in working with world-touring musicians with emphasis on injury prevention. With a deep understanding of the physical demands placed on touring artists, Jason's clients include GRAMMY-winning artist Kaytranada, Amine, Teezo Touchdown, Cole Bennett & more.​Gigi Todiscois a queer & mixed race choreographer, dancer & movement director based in LA. Gigi choreographed and danced in Kali Uchis'Red Moon in VenusTour, and her 2023 Coachella  set. She's also worked with Post Malone, Tyla, Olivia Rodrigo and more, and has done commercial work for NIKE, New Balance and Vans.​Zay Fofanais a New York based stylist, image consultant and director whose clients include Kanye West, A$AP Rocky, Lil Durk and more. He’s styled tours, album cover shoots, music videos, live performances and more, and has done commercial work for brands like Planes, New Balance and Under Armor.​The Event​Join us atTelos.HausonSaturday, May 17thfor a moderated panel, followed by a mixer. Drinks and light bites will be provided.Doors open at 7:00pm.The event is free to attend, but donations are welcome! All guests who RSVP will be automatically added to the Edited For Brevity Substack community.​Schedule​7:00pm – 7:45pm: Doors Open​7:50pm – 8:50pm: Moderated Panel + Q&A​9:00pm – 10:30pm: Mixer + Light Bites & Drinks​About the Host​Edited For Brevity is a new music publication and platform founded byEbrima Jassey,with a focus on storytelling, whether that be in the dissection of our favorite songs, or in the stories told by the people behind the scenes. Get in touch ateditedbrevity@gmail.comand keep up with us onSubstack.",
+      "description": "​Anyone else feel like today’s musical artists kinda suck on stage? They often look lost, stumbling breathlessly through their words, if they can remember them. Their movements are awkward and hampered by clothing that isn’t functional or in line with their energy. Overall, the stars of today and tomorrow seem less sure of themselves on stage. How do we fix that?​“Stage Presence”, presented byEdited for Brevity,is a panel on live musical performance, and on how investing in styling, physical training and choreography can take an artist’s live show to the next level.​The Panelists:​Jason Lewisaka RapsTrainer is an LA-based personal trainer with a unique specialization in working with world-touring musicians with emphasis on injury prevention. With a deep understanding of the physical demands placed on touring artists, Jason's clients include GRAMMY-winning artist Kaytranada, Amine, Teezo Touchdown, Cole Bennett & more.​Gigi Todiscois a queer & mixed race choreographer, dancer & movement director based in LA. Gigi choreographed and danced in Kali Uchis'Red Moon in VenusTour, and her 2023 Coachella  set. She's also worked with Post Malone, Tyla, Olivia Rodrigo and more, and has done commercial work for NIKE, New Balance and Vans.​Zay Fofanais a New York based stylist, image consultant and director whose clients include Kanye West, A$AP Rocky, Lil Durk and more. He’s styled tours, album cover shoots, music videos, live performances and more, and has done commercial work for brands like Planes, New Balance and Under Armor.​The Event​Join us attelos.hausonSaturday, May 17thfor a moderated panel, followed by a mixer. Drinks and light bites will be provided.Doors open at 7:00pm.The event is free to attend, but donations are welcome! All guests who RSVP will be automatically added to the Edited For Brevity Substack community.​Schedule​7:00pm – 7:45pm: Doors Open​7:50pm – 8:50pm: Moderated Panel + Q&A​9:00pm – 10:30pm: Mixer + Light Bites & Drinks​About the Host​Edited For Brevity is a new music publication and platform founded byEbrima Jassey,with a focus on storytelling, whether that be in the dissection of our favorite songs, or in the stories told by the people behind the scenes. Get in touch ateditedbrevity@gmail.comand keep up with us onSubstack.",
       "startDate": "2025-05-17T19:00:00-04:00",
       "endDate": "2025-05-17T22:30:00-04:00",
       "category": [
@@ -3856,6 +3736,191 @@
           "https://joinmondaygirl.com",
           "https://instagram.com/mondaygirlto"
         ],
+        "featured": false,
+        "luma_source": true
+      }
+    },
+    {
+      "id": "evt_com_effective_altruism_nyc_7t6l0ns2",
+      "name": "Community Dim Sum (Manhattan)",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_effective_altruism_nyc",
+      "description": "Please use this link to officially sign up - you will not receive registration details unless you fill out this quick Airtable form - https://bit.ly/4j3u1eX\n\nMeetup link: https://www.meetup.com/effective-altruism-nyc/events/302416247/\n\nEventbrite link: https://www.eventbrite.com/e/effective-altruism-nyc-community-dim-sum-manhattan-tickets-954482953207\n\n*TO REQUEST A SPOT, PLEASE COMPLETE 2-STEP REGISTRATION PROCESS*\n\n- All are welcome!\n- Cost per meal: variable, likely $25-$30\n    - If you’d like to attend but have any concerns, please get in touch with Megan <megan@effectivealtruism.nyc>\n\nJoin for an EA NYC community favorite: tasty and affordable vegan dim sum!\n\nLocation will be confirmed when your attendance is confirmed, following the registration process.\n\nAll are welcome to join (regardless of whether or not you wish to eat)! For those eating, food usually ranges from $25-$30 each for a feast. Since this is indoors, please be mindful of any potential flu/illness symptoms and our COVID policy (listed below).\n\nPlease register here to attend (required) - https://bit.ly/4j3u1eX\n\n\n\n\n\n****\n\nEA NYC:\nPlease find all EA NYC event information - including our Code of Conduct, food policy, covid policy, and information on past and future events - here on our website: https://www.effectivealtruism.nyc/events\n\nYou can also find us on Facebook, Meetup, and Eventbrite!\nhttp://facebook.com/groups/eanyc/events\nhttps://www.meetup.com/effective-altruism-nyc/events/\nhttps://www.eventbrite.com/o/effective-altruism-nyc-55938838923\n\nFor those new to effective altruism, here are a couple of good introductions. In short, EA is about using evidence to carefully analyze how, given limited resources, we can help others the *most*.\nhttps://www.youtube.com/watch?v=48VAQtGmfWY",
+      "startDate": "2025-05-24T13:00:00-04:00",
+      "endDate": "2025-05-24T15:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Paid",
+        "currency": "USD",
+        "details": "See event description for pricing details"
+      },
+      "capacity": null,
+      "registrationRequired": true,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.eventbrite.com/e/effective-altruism-nyc-community-dim-sum-manhattan-tickets-954482953207",
+        "organizer": {
+          "name": "Effective Altruism NYC Events",
+          "instagram": "",
+          "email": "hbvetqf5h1pd0of0vn6uvphqts@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "In-Person Event (Chinatown) - register for location details",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
+      "id": "evt_com_effective_altruism_nyc_2b3vfmb9",
+      "name": "Hike with EA NYC",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_effective_altruism_nyc",
+      "description": "Please submit interest form here: https://airtable.com/shrGg0fiHeZmdB4tP?prefill_Event%20Registered=4482&prefill_Event=Hike+with+EA+NYC&hide_Event%20Registered=true\n\n\nGrab some fresh air, and (re-)meet some outdoorsy EA NYCers! Join for a laid-back hike in Upstate New York.\n\nEA NYC Volunteer Organizer Jacob will be leading the hike. Please see below for some (critical!) travel / meal planning and coordination.\n\nThe exact timetable details may change, but this will be similar to the final itinerary:\n8:40 am: meet Jacob in Port Authority (south building, 40th St & 8th Ave), upstairs at gate 408. You can reach him on FB Messenger or at jacob.eliosoff@gmail.com.\n9:10 am: Short Line bus leaves for Tuxedo, NY (also goes to Middletown). You must catch this bus!\n10:23 am: arrival at Tuxedo, NY and walk to the trailhead.\n10:40 am: the group will be doing the \"Wildcat Mountain Trail\" - see the map on AllTrails. 4.2 miles, \"easy\" difficulty.\nhttps://www.alltrails.com/trail/us/new-york/wildcat-mountain-trail,\n1 pm-ish: at some point along the route there will be a break to eat a packed lunch.\n2:24 pm: catching the bus back, again from Tuxedo.\n3:33 pm: arrival back at Port Authority Bus terminal.\n\nStuff to bring:\nCOMFORTABLE SHOES - good traction, ideally some ankle support\nLUNCH, SNACKS, WATER - no restaurants/stores in the park, though don't overburden yourself either\nA hat?\nA mask, if you like: most of the event is outside and relatively covid-safe, but we will spend 2+ hours on the bus\nBus is $14.65 each way = $29.30. Full-time nonprofit workers/students are eligible for an EA NYC discount, just ask\nTick protection (ie. long pants tucked into your socks and/or repellant). Ticks can be active any time it is above freezing. Also consider closely inspecting yourself when you get home: the risk with ticks comes if you don't notice one for days. \n\n\n\n****\n\nEA NYC:\nPlease find all EA NYC event information - including our Code of Conduct, food policy, covid policy, and information on past and future events - here on our website: https://www.effectivealtruism.nyc/events\n\n\n\nFor those new to effective altruism, here are a couple of good introductions. In short, EA is about using evidence to carefully analyze how, given limited resources, we can help others the *most*.\nhttps://www.youtube.com/watch?v=48VAQtGmfWY",
+      "startDate": "2025-05-25T08:40:00-04:00",
+      "endDate": "2025-05-25T17:40:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Paid",
+        "currency": "USD",
+        "details": "See event description for pricing details"
+      },
+      "capacity": null,
+      "registrationRequired": true,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.google.com/calendar/event?eid=MmIzdmZtYjliNGpxOGlxa2l0ZWRkaDhiYmQgaGJ2ZXRxZjVoMXBkMG9mMHZuNnV2cGhxdHNAZw",
+        "organizer": {
+          "name": "Effective Altruism NYC Events",
+          "instagram": "",
+          "email": "hbvetqf5h1pd0of0vn6uvphqts@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "In-Person Event - register for location details",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
+      "id": "evt_com_effective_altruism_nyc_260oav0o",
+      "name": "Responding to the USAID Crisis with Speaker Cole Landfried (co-hosted with 1 for the World)",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_effective_altruism_nyc",
+      "description": "Please RSVP by emailing jonathan@effectivealtruism.nyc<br><br>Hear from Cole Landfried, formerly of USAID, about the dismantling of USAID and ways to respond to the dismantling of USAID.  <br><br>Cole will discuss his career at USAID, what all has happened at USAID this year, and ways the EA community can respond to the crisis.  <br><br><b>Please register by emailing </b>jonathan@effectivealtruism.nyc<br><br>Cole Landfried served in the Support Relief Group Bureau for Humanitarian Assistance<br>USAID.  Cole has worked in multiple countries with a focus on disaster relief.  Cole was chosen to testify before Congress about the dismantling of USAID.  Cole is keenly interested in helping the EA community identify the most critical gaps left by the dismantling of USAID and ways to help undo some of the damage caused by the dismantling of USAID.  <br><br>This event will be co-hosted with 1 For the World, an organization dedicated to scaling giving to address extreme poverty.  Drinks and vegan snacks will be provided.  Please join us to hear from Cole and participate in discussion with Cole about the best ways to respond to the dismantling of USAID.  <br><br><br><br>****<br><br>EA NYC:<br>Please find all EA NYC event information - including our Code of Conduct, food policy, covid policy, and information on past and future events - here on our website: <a href=\"https://www.effectivealtruism.nyc/events\" target=\"_blank\">https://www.effectivealtruism.nyc/events</a><br><br><br>For those new to effective altruism, here are a couple of good introductions. In short, EA is about using evidence to carefully analyze how, given limited resources, we can help others the *most*.<br><a href=\"https://www.youtube.com/watch?v=48VAQtGmfWY\" target=\"_blank\">https://www.youtube.com/watch?v=48VAQtGmfWY</a>",
+      "startDate": "2025-05-29T18:30:00-04:00",
+      "endDate": "2025-05-29T21:30:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": true,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.google.com/calendar/event?eid=MjYwb2F2MG9sa2QwZ2ppNWo4Y3FkbTFrOTYgaGJ2ZXRxZjVoMXBkMG9mMHZuNnV2cGhxdHNAZw",
+        "organizer": {
+          "name": "Effective Altruism NYC Events",
+          "instagram": "",
+          "email": "hbvetqf5h1pd0of0vn6uvphqts@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "In-Person Event (Midtown); register for location details",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
+      "id": "evt_com_telos_1vk372h4",
+      "name": "Mùa Xuân — Café Pop-up",
+      "type": "Tech",
+      "locationId": "loc_telos",
+      "communityId": "com_telos",
+      "description": "​tatosando presents:mùa xuân (spring) cafe pop-up ‧₊˚❀​hi friends! we’re hosting our first public cafe pop-up this weekend :D come join us at @telos.hausto try our new spring menu inspired by viet flavors, munch on some sweet treats, and vibe to our cool friends live dj sets <3​stay tuned for our menu drop! ᯓ★​love,tato&sando",
+      "startDate": "2025-05-17T12:00:00-04:00",
+      "endDate": "2025-05-17T15:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "luma-event-e2ee795e.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/ey19qlrw?pk=g-BDhC6FjVX90YXIY",
+        "organizer": {
+          "name": "telos.haus events",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "Telos",
+          "address": "181 Wyckoff Ave, Brooklyn, NY 11237",
+          "type": "Offline"
+        },
+        "speakers": [
+          {
+            "name": "Sandra Thai",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Tatum Tran",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Sandra Thai",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Tatum Tran",
+            "title": "",
+            "bio": ""
+          }
+        ],
+        "social_links": [],
         "featured": false,
         "luma_source": true
       }
