@@ -1,6 +1,7 @@
 import './globals.css'
 import type { Metadata } from 'next'
 import { MainframeHeader } from './components/ui/MainframeHeader'
+import { Analytics } from '@vercel/analytics/react';
 
 export const metadata: Metadata = {
   title: 'NYC Events & Communities | Your Cyberpunk Guide to New York',
@@ -46,6 +47,7 @@ export default function RootLayout({
             {children}
           </main>
         </div>
+        <Analytics />
       </body>
     </html>
   )
