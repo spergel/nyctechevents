@@ -1,12 +1,123 @@
 {
   "events": [
     {
+      "id": "evt_com_max_ny_7f4857ae",
+      "name": "MNY City Council Budget Hearing Field Trip",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_max_ny",
+      "description": "​​Visit the New York City Council with Daniel! Ideally stay for at least an hour!​​I will be attending the Finance Committee's joint executive budget hearing with the Committee on Education. You can meet me beforehand at Remi Flower & Coffee (130 William St, New York, NY) at 9:15am if you want, after which we'll walk over. Otherwise, proceed directly to City Hall.​​What's the \"executive budget\"? Read this to understand what it is, and how it fits into the overall budget process:https://www.ibo.nyc.gov/assets/ibo/downloads/pdf/budget-guides/understandingthebudget.pdf​​Link to the meeting is here:https://legistar.council.nyc.gov/MeetingDetail.aspx?ID=1302700&GUID=C4C1334A-A398-452C-BE50-234ECD71AF6E&Options=info|&Search=​​If you are coming as part of class, this will count for \"Witnessing Government.\"",
+      "startDate": "2025-05-20T10:00:00-04:00",
+      "endDate": "2025-05-20T12:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "luma-event-012c8efb.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/l6fnef9b",
+        "speakers": [],
+        "venue": {
+          "name": "",
+          "address": "",
+          "type": "Offline",
+          "room": "",
+          "additional_info": ""
+        },
+        "featured": false,
+        "social_links": []
+      }
+    },
+    {
+      "id": "evt_com_max_ny_a09dc2c1",
+      "name": "MNY City Council Budget Hearing Field Trip",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_max_ny",
+      "description": "​​Visit the New York City Council with Daniel! Ideally stay for at least an hour!​​I will be attending the Finance Committee's joint executive budget hearing with the Committee on Children and Youth. You can meet me beforehand at Remi Flower & Coffee (130 William St, New York, NY) at 9:15am if you want, after which we'll walk over. Otherwise, proceed directly to City Hall.​​What's the \"executive budget\"? Read this to understand what it is, and how it fits into the overall budget process:https://www.ibo.nyc.gov/assets/ibo/downloads/pdf/budget-guides/understandingthebudget.pdf​​Link to the meeting is here:https://legistar.council.nyc.gov/MeetingDetail.aspx?ID=1302701&GUID=0B2A205F-FDB7-436C-A61E-759531CD2603&Options=info|&Search=​​If you are coming as part of class, this will count for \"Witnessing Government.\"",
+      "startDate": "2025-05-19T10:00:00-04:00",
+      "endDate": "2025-05-19T12:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "luma-event-012c8efb.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/yk1rduep",
+        "speakers": [],
+        "venue": {
+          "name": "",
+          "address": "",
+          "type": "Offline",
+          "room": "",
+          "additional_info": ""
+        },
+        "featured": false,
+        "social_links": []
+      }
+    },
+    {
+      "id": "evt_com_max_ny_0027eab3",
+      "name": "Maximum New York June Party & Abundance Politics Accelerator",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_max_ny",
+      "description": "​Come hang out with friends, hear some lightning talks about NYC city/state politics, find collaborators for your own political schemes, and have a good time!​You'll enjoy the company of MNY alumni, people from theabundance movementgenerally, and other guests.​There will be drinks and snacks!​The formal business agenda will be posted soon. It will include:​Presentations of no more than ~10 minutes​Details on the Abundance Resolution that attendees may vote on.​Updates on city and state politics!​Know before you arrive:This event will be guided by thefour rules of etiquettethat guide all Maximum New York classes, and is generally for people who mostly agree withThe Sensible Seventy.",
+      "startDate": "2025-06-21T14:30:00-04:00",
+      "endDate": "2025-06-21T16:30:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "luma-event-9fe1da4f.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/u8spi6zi",
+        "speakers": [],
+        "venue": {
+          "name": "",
+          "address": "",
+          "type": "Offline",
+          "room": "",
+          "additional_info": ""
+        },
+        "featured": false,
+        "social_links": []
+      }
+    },
+    {
       "id": "evt_com_max_ny_713ff147",
       "name": "Maximum New York May Party & Abundance Politics Accelerator",
       "type": "Tech",
       "locationId": "loc_tbd",
       "communityId": "com_max_ny",
-      "description": "​Come hang out with friends, hear some lightning talks about NYC city/state politics, find collaborators for your own political schemes, and have a good time!​You'll enjoy the company of MNY alumni, people from theabundance movementgenerally, and other guests.​There will be drinks and snacks!​There will be a short presentation of no more than 10 minutes, and we will go over the following:​The New York City rent regulation system, which oversees about a million housing units. It's the housing that Abundance has yet to fully embrace, and we are inRGB season.​The mayoral charter revision commission (CRC), and their recentlyreleased preliminary report. The CRC will put charter amendments directly on our November ballot, and they will be some of the most consequential votes you'll cast in a while.​Other ways to get involved and stay up-to-date with politics in NYC and NYS.​And: a live quiz on NYC government (if you want to participate)! The winner gets a bundle of prizes!​Know before you arrive:This event will be guided by thefour rules of etiquettethat guide all Maximum New York classes, and is generally for people who mostly agree withThe Sensible Seventy.",
+      "description": "​Come hang out with friends, hear some lightning talks about NYC city/state politics, find collaborators for your own political schemes, and have a good time!​You'll enjoy the company of MNY alumni, people from theabundance movementgenerally, and other guests.​There will be drinks and snacks!​There will be a short presentation of no more than 10 minutes, and we will go over the following:​The New York City rent regulation system, which oversees about a million housing units. It's the housing that Abundance has yet to fully embrace, and we are inRGB season.​The mayoral charter revision commission (CRC), and their recentlyreleased preliminary report. The CRC will put charter amendments directly on our November ballot, and they will be some of the most consequential votes you'll cast in a while.​Other ways to get involved and stay up-to-date with politics in NYC and NYS.​Details on the Abundance Resolution you will be able to vote on duringthe June MNY meeting!​And: a live quiz on NYC government (if you want to participate)! The winner gets a bundle of prizes!​Know before you arrive:This event will be guided by thefour rules of etiquettethat guide all Maximum New York classes, and is generally for people who mostly agree withThe Sensible Seventy.",
       "startDate": "2025-05-17T14:30:00-04:00",
       "endDate": "2025-05-17T16:30:00-04:00",
       "category": [
@@ -25,36 +136,53 @@
       "status": "upcoming",
       "metadata": {
         "source_url": "https://lu.ma/7nexg1m1",
-        "speakers": [
-          {
-            "name": "Daniel Golliher",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Daniel Golliher",
-            "title": "",
-            "bio": ""
-          }
-        ],
+        "speakers": [],
         "venue": {
-          "name": "111 Conselyea StBrooklyn, NY 11211, USA",
-          "address": "Brooklyn, NY 11211, USA",
+          "name": "",
+          "address": "",
           "type": "Offline",
           "room": "",
           "additional_info": ""
         },
         "featured": false,
-        "social_links": [
-          "https://x.com/danielgolliher",
-          "https://linkedin.com/in/maximumnewyork",
-          "https://maximumnewyork.com",
-          "https://x.com/danielgolliher",
-          "https://x.com/danielgolliher",
-          "https://linkedin.com/in/maximumnewyork",
-          "https://maximumnewyork.com",
-          "https://x.com/danielgolliher"
-        ]
+        "social_links": []
+      }
+    },
+    {
+      "id": "evt_com_max_ny_c387da3d",
+      "name": "Maximum New York Office Hours",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_max_ny",
+      "description": "​Want to talk toDaniel(founder ofMaximum New York) about anything? Want to learn more about government at the city, state, or federal level? Want to know what you can do for a more abundant future? Grab a coffee and come to office hours!",
+      "startDate": "2025-05-17T12:30:00-04:00",
+      "endDate": "2025-05-17T14:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "luma-event-33d136c0.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/k5nepvd9",
+        "speakers": [],
+        "venue": {
+          "name": "",
+          "address": "",
+          "type": "Offline",
+          "room": "",
+          "additional_info": ""
+        },
+        "featured": false,
+        "social_links": []
       }
     },
     {
@@ -81,49 +209,17 @@
       "image": "luma-event-9d9dccf2.jpg",
       "status": "upcoming",
       "metadata": {
-        "source_url": "https://lu.ma/e/evt-VI4jNbKeqhQppG2",
-        "speakers": [
-          {
-            "name": "James Q",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Abi Suresh",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "James Q",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Abi Suresh",
-            "title": "",
-            "bio": ""
-          }
-        ],
+        "source_url": "https://lu.ma/erlw60hr",
+        "speakers": [],
         "venue": {
-          "name": "Please register to see the exact location of this event.",
-          "address": "New York, New York",
-          "type": "Online",
+          "name": "",
+          "address": "",
+          "type": "Offline",
           "room": "",
           "additional_info": ""
         },
         "featured": false,
-        "social_links": [
-          "https://instagram.com/otwc_nyc",
-          "https://x.com/otwc_nyc",
-          "https://instagram.com/mrjamesq",
-          "https://x.com/mrjamesq",
-          "https://instagram.com/abi_nope",
-          "https://instagram.com/otwc_nyc",
-          "https://x.com/otwc_nyc",
-          "https://instagram.com/mrjamesq",
-          "https://x.com/mrjamesq",
-          "https://instagram.com/abi_nope"
-        ]
+        "social_links": []
       }
     },
     {
@@ -150,49 +246,17 @@
       "image": "luma-event-9d9dccf2.jpg",
       "status": "upcoming",
       "metadata": {
-        "source_url": "https://lu.ma/e/evt-ci2gqnIKIeBsGBh",
-        "speakers": [
-          {
-            "name": "James Q",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Abi Suresh",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "James Q",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Abi Suresh",
-            "title": "",
-            "bio": ""
-          }
-        ],
+        "source_url": "https://lu.ma/1ib99jjl",
+        "speakers": [],
         "venue": {
-          "name": "Please register to see the exact location of this event.",
-          "address": "New York, New York",
-          "type": "Online",
+          "name": "",
+          "address": "",
+          "type": "Offline",
           "room": "",
           "additional_info": ""
         },
         "featured": false,
-        "social_links": [
-          "https://instagram.com/otwc_nyc",
-          "https://x.com/otwc_nyc",
-          "https://instagram.com/mrjamesq",
-          "https://x.com/mrjamesq",
-          "https://instagram.com/abi_nope",
-          "https://instagram.com/otwc_nyc",
-          "https://x.com/otwc_nyc",
-          "https://instagram.com/mrjamesq",
-          "https://x.com/mrjamesq",
-          "https://instagram.com/abi_nope"
-        ]
+        "social_links": []
       }
     },
     {
@@ -219,59 +283,17 @@
       "image": "luma-event-9d9dccf2.jpg",
       "status": "upcoming",
       "metadata": {
-        "source_url": "https://lu.ma/e/evt-NFMJqYqLk0u7WyI",
-        "speakers": [
-          {
-            "name": "James Q",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Abi Suresh",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Samika Parab",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "James Q",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Abi Suresh",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Samika Parab",
-            "title": "",
-            "bio": ""
-          }
-        ],
+        "source_url": "https://lu.ma/cdddospm",
+        "speakers": [],
         "venue": {
-          "name": "Please register to see the exact location of this event.",
-          "address": "New York, New York",
-          "type": "Online",
+          "name": "",
+          "address": "",
+          "type": "Offline",
           "room": "",
           "additional_info": ""
         },
         "featured": false,
-        "social_links": [
-          "https://instagram.com/otwc_nyc",
-          "https://x.com/otwc_nyc",
-          "https://instagram.com/mrjamesq",
-          "https://x.com/mrjamesq",
-          "https://instagram.com/abi_nope",
-          "https://instagram.com/otwc_nyc",
-          "https://x.com/otwc_nyc",
-          "https://instagram.com/mrjamesq",
-          "https://x.com/mrjamesq",
-          "https://instagram.com/abi_nope"
-        ]
+        "social_links": []
       }
     },
     {
@@ -299,60 +321,16 @@
       "status": "upcoming",
       "metadata": {
         "source_url": "https://lu.ma/dvb97dch",
-        "speakers": [
-          {
-            "name": "James Q",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Abi Suresh",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Tommy Heller",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "James Q",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Abi Suresh",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Tommy Heller",
-            "title": "",
-            "bio": ""
-          }
-        ],
+        "speakers": [],
         "venue": {
-          "name": "45 E 20th St floor 12New York, NY 10003, USA",
-          "address": "New York, NY 10003, USA",
+          "name": "",
+          "address": "",
           "type": "Offline",
           "room": "",
           "additional_info": ""
         },
         "featured": false,
-        "social_links": [
-          "https://instagram.com/otwc_nyc",
-          "https://x.com/otwc_nyc",
-          "https://instagram.com/mrjamesq",
-          "https://x.com/mrjamesq",
-          "https://instagram.com/abi_nope",
-          "https://instagram.com/tommy_heller",
-          "https://instagram.com/otwc_nyc",
-          "https://x.com/otwc_nyc",
-          "https://instagram.com/mrjamesq",
-          "https://x.com/mrjamesq",
-          "https://instagram.com/abi_nope",
-          "https://instagram.com/tommy_heller"
-        ]
+        "social_links": []
       }
     },
     {
@@ -380,58 +358,16 @@
       "status": "upcoming",
       "metadata": {
         "source_url": "https://lu.ma/q8v2w8ex",
-        "speakers": [
-          {
-            "name": "Marion - La Creme de la STEM ™",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Laurent",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Derek Kastner- Fabrik Community Director",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Marion - La Creme de la STEM ™",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Laurent",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Derek Kastner- Fabrik Community Director",
-            "title": "",
-            "bio": ""
-          }
-        ],
+        "speakers": [],
         "venue": {
-          "name": "Fabrik NYC12-16 Vestry St 4th Floor, New York, NY 10013, USA",
-          "address": "12-16 Vestry St 4th Floor, New York, NY 10013, USA",
+          "name": "",
+          "address": "",
           "type": "Offline",
           "room": "",
           "additional_info": ""
         },
         "featured": false,
-        "social_links": [
-          "https://instagram.com/lacremedelastem",
-          "https://linkedin.com/in/marionsiboni",
-          "https://www.lacremedelastem.com/",
-          "https://instagram.com/Yes",
-          "https://x.com/0",
-          "https://instagram.com/lacremedelastem",
-          "https://linkedin.com/in/marionsiboni",
-          "https://www.lacremedelastem.com/",
-          "https://instagram.com/Yes",
-          "https://x.com/0"
-        ]
+        "social_links": []
       }
     },
     {
@@ -458,59 +394,17 @@
       "image": "luma-event-c41d5fb1.jpg",
       "status": "upcoming",
       "metadata": {
-        "source_url": "https://lu.ma/e/evt-VtYPXgE7NQt3rdo",
-        "speakers": [
-          {
-            "name": "Marion - La Creme de la STEM ™",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Sync N",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Derek Kastner- Fabrik Community Director",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Marion - La Creme de la STEM ™",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Sync N",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Derek Kastner- Fabrik Community Director",
-            "title": "",
-            "bio": ""
-          }
-        ],
+        "source_url": "https://lu.ma/e1fwkxvt",
+        "speakers": [],
         "venue": {
-          "name": "Please register to see the exact location of this event.",
-          "address": "New York, New York",
-          "type": "Online",
+          "name": "",
+          "address": "",
+          "type": "Offline",
           "room": "",
           "additional_info": ""
         },
         "featured": false,
-        "social_links": [
-          "https://instagram.com/lacremedelastem",
-          "https://linkedin.com/in/marionsiboni",
-          "https://www.lacremedelastem.com/",
-          "https://instagram.com/Yes",
-          "https://instagram.com/syncnapp",
-          "https://instagram.com/lacremedelastem",
-          "https://linkedin.com/in/marionsiboni",
-          "https://www.lacremedelastem.com/",
-          "https://instagram.com/Yes",
-          "https://instagram.com/syncnapp"
-        ]
+        "social_links": []
       }
     },
     {
@@ -538,46 +432,16 @@
       "status": "upcoming",
       "metadata": {
         "source_url": "https://lu.ma/3eya3yan",
-        "speakers": [
-          {
-            "name": "Third Place Bar",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Louisa Li",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Third Place Bar",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Louisa Li",
-            "title": "",
-            "bio": ""
-          }
-        ],
+        "speakers": [],
         "venue": {
-          "name": "Fabrik DUMBO20 Jay St Suite 218, Brooklyn, NY 11201, USA",
-          "address": "20 Jay St Suite 218, Brooklyn, NY 11201, USA",
+          "name": "",
+          "address": "",
           "type": "Offline",
           "room": "",
           "additional_info": ""
         },
         "featured": false,
-        "social_links": [
-          "https://instagram.com/thirdplacebarnyc",
-          "https://tiktok.com/@thirdplacebarnyc",
-          "https://www.thirdplacebar.nyc",
-          "https://instagram.com/thirdplacebarnyc",
-          "https://instagram.com/thirdplacebarnyc",
-          "https://tiktok.com/@thirdplacebarnyc",
-          "https://www.thirdplacebar.nyc",
-          "https://instagram.com/thirdplacebarnyc"
-        ]
+        "social_links": []
       }
     },
     {
@@ -605,36 +469,16 @@
       "status": "upcoming",
       "metadata": {
         "source_url": "https://lu.ma/odsb7wk0",
-        "speakers": [
-          {
-            "name": "Third Place Bar",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Third Place Bar",
-            "title": "",
-            "bio": ""
-          }
-        ],
+        "speakers": [],
         "venue": {
-          "name": "Hekate Café & Elixir Lounge167 Avenue B, New York, NY 10009, USA",
-          "address": "167 Avenue B, New York, NY 10009, USA",
+          "name": "",
+          "address": "",
           "type": "Offline",
           "room": "",
           "additional_info": ""
         },
         "featured": false,
-        "social_links": [
-          "https://instagram.com/thirdplacebarnyc",
-          "https://tiktok.com/@thirdplacebarnyc",
-          "https://www.thirdplacebar.nyc",
-          "https://instagram.com/thirdplacebarnyc",
-          "https://instagram.com/thirdplacebarnyc",
-          "https://tiktok.com/@thirdplacebarnyc",
-          "https://www.thirdplacebar.nyc",
-          "https://instagram.com/thirdplacebarnyc"
-        ]
+        "social_links": []
       }
     },
     {
@@ -662,104 +506,16 @@
       "status": "upcoming",
       "metadata": {
         "source_url": "https://lu.ma/bucco82g",
-        "speakers": [
-          {
-            "name": "Natalie Neptune",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Emmy",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Medha Krishen",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "StoryTell",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Akshita Gupta",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Pooja Lama",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Isha Joshi",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Natalie Neptune",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Emmy",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Medha Krishen",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "StoryTell",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Akshita Gupta",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Pooja Lama",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Isha Joshi",
-            "title": "",
-            "bio": ""
-          }
-        ],
+        "speakers": [],
         "venue": {
-          "name": "109 3rd AveNew York, NY 10003, USA",
-          "address": "New York, NY 10003, USA",
+          "name": "",
+          "address": "",
           "type": "Offline",
           "room": "",
           "additional_info": ""
         },
         "featured": false,
-        "social_links": [
-          "https://x.com/thegenZtea",
-          "https://linkedin.com/company/genztea",
-          "https://genztea.squarespace.com/",
-          "https://instagram.com/Yes",
-          "https://instagram.com/medhacooks",
-          "https://instagram.com/storytellnyc",
-          "https://instagram.com/poojabuilds",
-          "https://instagram.com/Ishaaaaaaaaa",
-          "https://x.com/thegenZtea",
-          "https://linkedin.com/company/genztea",
-          "https://genztea.squarespace.com/",
-          "https://instagram.com/Yes",
-          "https://instagram.com/medhacooks",
-          "https://instagram.com/storytellnyc",
-          "https://instagram.com/poojabuilds",
-          "https://instagram.com/Ishaaaaaaaaa"
-        ]
+        "social_links": []
       }
     },
     {
@@ -787,50 +543,16 @@
       "status": "upcoming",
       "metadata": {
         "source_url": "https://lu.ma/g12gab09",
-        "speakers": [
-          {
-            "name": "Natalie Neptune",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Rebecca Pino | Money Her Way",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Natalie Neptune",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Rebecca Pino | Money Her Way",
-            "title": "",
-            "bio": ""
-          }
-        ],
+        "speakers": [],
         "venue": {
-          "name": "Fabrik NYC12-16 Vestry St 4th Floor, New York, NY 10013, USA",
-          "address": "12-16 Vestry St 4th Floor, New York, NY 10013, USA",
+          "name": "",
+          "address": "",
           "type": "Offline",
           "room": "",
           "additional_info": ""
         },
         "featured": false,
-        "social_links": [
-          "https://x.com/thegenZtea",
-          "https://linkedin.com/company/genztea",
-          "https://genztea.squarespace.com/",
-          "https://instagram.com/Yes",
-          "https://instagram.com/moneyherway",
-          "https://x.com/Moneyherway",
-          "https://x.com/thegenZtea",
-          "https://linkedin.com/company/genztea",
-          "https://genztea.squarespace.com/",
-          "https://instagram.com/Yes",
-          "https://instagram.com/moneyherway",
-          "https://x.com/Moneyherway"
-        ]
+        "social_links": []
       }
     },
     {
@@ -858,36 +580,16 @@
       "status": "upcoming",
       "metadata": {
         "source_url": "https://lu.ma/zkc71k33",
-        "speakers": [
-          {
-            "name": "Natalie Neptune",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Natalie Neptune",
-            "title": "",
-            "bio": ""
-          }
-        ],
+        "speakers": [],
         "venue": {
-          "name": "530 W 33rd StNew York, NY 10001, USA",
-          "address": "New York, NY 10001, USA",
+          "name": "",
+          "address": "",
           "type": "Offline",
           "room": "",
           "additional_info": ""
         },
         "featured": false,
-        "social_links": [
-          "https://x.com/thegenZtea",
-          "https://linkedin.com/company/genztea",
-          "https://genztea.squarespace.com/",
-          "https://instagram.com/Yes",
-          "https://x.com/thegenZtea",
-          "https://linkedin.com/company/genztea",
-          "https://genztea.squarespace.com/",
-          "https://instagram.com/Yes"
-        ]
+        "social_links": []
       }
     },
     {
@@ -914,37 +616,17 @@
       "image": "luma-event-01fa7ebb.jpg",
       "status": "upcoming",
       "metadata": {
-        "source_url": "https://lu.ma/e/evt-04lyw3l2ZZZlYda",
-        "speakers": [
-          {
-            "name": "aci-d club",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "aci-d club",
-            "title": "",
-            "bio": ""
-          }
-        ],
+        "source_url": "https://lu.ma/sfs6441r",
+        "speakers": [],
         "venue": {
-          "name": "Please register to see the exact location of this event.",
-          "address": "Kings County, New York",
-          "type": "Online",
+          "name": "",
+          "address": "",
+          "type": "Offline",
           "room": "",
           "additional_info": ""
         },
         "featured": false,
-        "social_links": [
-          "https://instagram.com/aci_d.club",
-          "https://x.com/aci_dclub",
-          "https://aci-d.club",
-          "https://instagram.com/aci_d.club",
-          "https://instagram.com/aci_d.club",
-          "https://x.com/aci_dclub",
-          "https://aci-d.club",
-          "https://instagram.com/aci_d.club"
-        ]
+        "social_links": []
       }
     },
     {
@@ -971,37 +653,17 @@
       "image": "luma-event-e505e8ab.jpg",
       "status": "upcoming",
       "metadata": {
-        "source_url": "https://lu.ma/e/evt-lOg1w3Gbu15i39q",
-        "speakers": [
-          {
-            "name": "aci-d club",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "aci-d club",
-            "title": "",
-            "bio": ""
-          }
-        ],
+        "source_url": "https://lu.ma/jn8g51oa",
+        "speakers": [],
         "venue": {
-          "name": "Please register to see the exact location of this event.",
-          "address": "Kings County, New York",
-          "type": "Online",
+          "name": "",
+          "address": "",
+          "type": "Offline",
           "room": "",
           "additional_info": ""
         },
         "featured": false,
-        "social_links": [
-          "https://instagram.com/aci_d.club",
-          "https://x.com/aci_dclub",
-          "https://aci-d.club",
-          "https://instagram.com/aci_d.club",
-          "https://instagram.com/aci_d.club",
-          "https://x.com/aci_dclub",
-          "https://aci-d.club",
-          "https://instagram.com/aci_d.club"
-        ]
+        "social_links": []
       }
     },
     {
@@ -1028,47 +690,17 @@
       "image": "luma-event-fa74a995.jpg",
       "status": "upcoming",
       "metadata": {
-        "source_url": "https://lu.ma/e/evt-G6cGfw3QnQABsi8",
-        "speakers": [
-          {
-            "name": "aci-d club",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Arjun",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "aci-d club",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Arjun",
-            "title": "",
-            "bio": ""
-          }
-        ],
+        "source_url": "https://lu.ma/zw2sgney",
+        "speakers": [],
         "venue": {
-          "name": "Please register to see the exact location of this event.",
-          "address": "New York, New York",
-          "type": "Online",
+          "name": "",
+          "address": "",
+          "type": "Offline",
           "room": "",
           "additional_info": ""
         },
         "featured": false,
-        "social_links": [
-          "https://instagram.com/aci_d.club",
-          "https://x.com/aci_dclub",
-          "https://aci-d.club",
-          "https://instagram.com/aci_d.club",
-          "https://instagram.com/aci_d.club",
-          "https://x.com/aci_dclub",
-          "https://aci-d.club",
-          "https://instagram.com/aci_d.club"
-        ]
+        "social_links": []
       }
     },
     {
@@ -1095,37 +727,17 @@
       "image": "luma-event-e505e8ab.jpg",
       "status": "upcoming",
       "metadata": {
-        "source_url": "https://lu.ma/e/evt-oEoTTW2nAL8RJTV",
-        "speakers": [
-          {
-            "name": "aci-d club",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "aci-d club",
-            "title": "",
-            "bio": ""
-          }
-        ],
+        "source_url": "https://lu.ma/ysnvp1af",
+        "speakers": [],
         "venue": {
-          "name": "Please register to see the exact location of this event.",
-          "address": "Kings County, New York",
-          "type": "Online",
+          "name": "",
+          "address": "",
+          "type": "Offline",
           "room": "",
           "additional_info": ""
         },
         "featured": false,
-        "social_links": [
-          "https://instagram.com/aci_d.club",
-          "https://x.com/aci_dclub",
-          "https://aci-d.club",
-          "https://instagram.com/aci_d.club",
-          "https://instagram.com/aci_d.club",
-          "https://x.com/aci_dclub",
-          "https://aci-d.club",
-          "https://instagram.com/aci_d.club"
-        ]
+        "social_links": []
       }
     }
   ]
