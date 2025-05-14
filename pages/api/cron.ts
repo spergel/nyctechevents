@@ -8,16 +8,27 @@ const validateRequest = (req: NextApiRequest) => {
   const authHeader = req.headers.authorization;
   
   if (!process.env.CRON_SECRET) {
-    console.error('CRON_SECRET is not set in the environment variables');
+    console.error('CRON_SECRET is not set in the environment variables for the Vercel project.');
     return false;
   }
   
   if (!authHeader) {
-    console.error('Authorization header is missing');
+    console.error('Authorization header is missing from the incoming cron request.');
+    return false;
+  }
+
+  // Vercel cron jobs send the secret as "Bearer YOUR_SECRET"
+  // process.env.CRON_SECRET should just be "YOUR_SECRET"
+  const expectedAuthHeader = `Bearer ${process.env.CRON_SECRET}`;
+
+  if (authHeader !== expectedAuthHeader) {
+    console.error('Authorization header does not match expected CRON_SECRET.');
+    console.error(`Received: "${authHeader}"`); // Be careful logging sensitive headers, maybe just log mismatch
+    console.error(`Expected pattern: "Bearer YOUR_CRON_SECRET_VALUE"`);
     return false;
   }
   
-  return authHeader === process.env.CRON_SECRET;
+  return true;
 };
 
 // Run a script with optional arguments
