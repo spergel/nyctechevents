@@ -1,14 +1,14 @@
 {
   "events": [
     {
-      "id": "evt_com_effective_altruism_nyc_6vkt79sh",
-      "name": "World Health Day",
+      "id": "evt_com_effective_altruism_nyc_2ls9s66h",
+      "name": "EA NYC Creatives and Communicators Subgroup Meeting",
       "type": "Tech",
       "locationId": "",
       "communityId": "com_effective_altruism_nyc",
-      "description": "Some say that April is the cruelest month. The WHO begs to differ:<br><br><a href=\"https://www.google.com/url?q=http://www.who.int/campaigns/world-health-day/2018/en/&amp;sa=D&amp;source=calendar&amp;ust=1671557335136133&amp;usg=AOvVaw0om6R5yHPt6QeEZyLYb6TN\" target=\"_blank\">http://www.who.int/campaigns/world-health-day/2018/en/</a><br><br>Speaking of April, keep an eye out for World Malaria Day and World Immunization Week later this month.",
-      "startDate": "2025-04-07",
-      "endDate": "2025-04-08",
+      "description": "Please join us for casual networking, sharing projects, getting feedback, and hanging out with creative folks! We meet at the food court at Hudson Eats, 230 Vesey St, New York, NY. Keep an eye on the group slack for table location.\u00a0 Excited to see you there!\u00a0<a href=\"https://docs.google.com/forms/d/e/1FAIpQLSdB2-DHy1k3ikEEaMfPTTsVHIQ9iXH0PUkw9e-9ep_NKOQxGg/viewform\">https://docs.google.com/forms/d/e/1FAIpQLSdB2-DHy1k3ikEEaMfPTTsVHIQ9iXH0PUkw9e-9ep_NKOQxGg/viewform</a>",
+      "startDate": "2025-05-22T18:00:00-04:00",
+      "endDate": "2025-05-22T20:00:00-04:00",
       "category": [
         "Tech"
       ],
@@ -24,7 +24,7 @@
       "image": "",
       "status": "upcoming",
       "metadata": {
-        "source_url": "https://www.google.com/calendar/event?eid=NnZrdDc5c2gwYzZyb3F2OGhrZGtiZWk0aDhfMjAyNTA0MDcgaGJ2ZXRxZjVoMXBkMG9mMHZuNnV2cGhxdHNAZw",
+        "source_url": "https://www.google.com/calendar/event?eid=MmxzOXM2Nmhoa2NxaWtsdG4wczJlY2JndjggaGJ2ZXRxZjVoMXBkMG9mMHZuNnV2cGhxdHNAZw",
         "organizer": {
           "name": "Effective Altruism NYC Events",
           "instagram": "",
@@ -32,7 +32,7 @@
         },
         "venue": {
           "name": "",
-          "address": "Worldwide!",
+          "address": "Hudson Eats, 230 Vesey St, New York, NY 10282, USA",
           "type": "Offline"
         },
         "speakers": [],
@@ -42,30 +42,30 @@
       }
     },
     {
-      "id": "evt_com_effective_altruism_nyc_2mvmt1f5",
-      "name": "AI Governance Subgroup Discussion ",
+      "id": "evt_com_effective_altruism_nyc_7t6l0ns2",
+      "name": "Community Dim Sum (Manhattan)",
       "type": "Tech",
       "locationId": "",
       "communityId": "com_effective_altruism_nyc",
-      "description": "AI Subgroup sign-up form: <a href=\"https://www.google.com/url?q=https://forms.gle/fksP9VV3X1owgPe88&amp;sa=D&amp;source=calendar&amp;ust=1740340078367781&amp;usg=AOvVaw1Gq4Qpq9-7sZv1v0wD-NwI\" target=\"_blank\">https://forms.gle/fksP9VV3X1owgPe88</a>\n\n\n\n****\n\nEA NYC:\nPlease find all EA NYC event information - including our Code of Conduct, food policy, covid policy, and information on past and future events - here on our website: <a href=\"https://www.google.com/url?q=https://www.effectivealtruism.nyc/events&amp;sa=D&amp;source=calendar&amp;ust=1740340078367781&amp;usg=AOvVaw14lmj7Oo0KVbHEMA9Io0Io\" target=\"_blank\">https://www.effectivealtruism.nyc/events</a>\n\nYou can also find us on Facebook, Meetup, and Eventbrite!\n<a href=\"https://www.google.com/url?q=http://facebook.com/groups/eanyc/events&amp;sa=D&amp;source=calendar&amp;ust=1740340078367781&amp;usg=AOvVaw2S9X1T96ntA_69qYTY6Xux\" target=\"_blank\">http://facebook.com/groups/eanyc/events</a>\n<a href=\"https://www.google.com/url?q=https://www.meetup.com/effective-altruism-nyc/events/&amp;sa=D&amp;source=calendar&amp;ust=1740340078367781&amp;usg=AOvVaw3K4hLLPZ1cVsTyXhp7mqdv\" target=\"_blank\">https://www.meetup.com/effective-altruism-nyc/events/</a>\n<a href=\"https://www.google.com/url?q=https://www.eventbrite.com/o/effective-altruism-nyc-55938838923&amp;sa=D&amp;source=calendar&amp;ust=1740340078367781&amp;usg=AOvVaw1ntnR_iPj9CmUe96ylX_3n\" target=\"_blank\">https://www.eventbrite.com/o/effective-altruism-nyc-55938838923</a>\n\nFor those new to effective altruism, here are a couple of good introductions. In short, EA is about using evidence to carefully analyze how, given limited resources, we can help others the *most*.\n<a href=\"https://www.google.com/url?q=https://www.youtube.com/watch?v%3D48VAQtGmfWY&amp;sa=D&amp;source=calendar&amp;ust=1740340078367781&amp;usg=AOvVaw2I8NPWSaf3g5Yxf3iUXamZ\" target=\"_blank\">https://www.youtube.com/watch?v=48VAQtGmfWY</a>",
-      "startDate": "2025-04-07T19:00:00-04:00",
-      "endDate": "2025-04-07T21:00:00-04:00",
+      "description": "Please use this link to officially sign up - you will not receive registration details unless you fill out this quick Airtable form - https://bit.ly/4j3u1eX\n\nMeetup link: https://www.meetup.com/effective-altruism-nyc/events/302416247/\n\nEventbrite link: https://www.eventbrite.com/e/effective-altruism-nyc-community-dim-sum-manhattan-tickets-954482953207\n\n*TO REQUEST A SPOT, PLEASE COMPLETE 2-STEP REGISTRATION PROCESS*\n\n- All are welcome!\n- Cost per meal: variable, likely $25-$30\n    - If you\u2019d like to attend but have any concerns, please get in touch with Megan <megan@effectivealtruism.nyc>\n\nJoin for an EA NYC community favorite: tasty and affordable vegan dim sum!\n\nLocation will be confirmed when your attendance is confirmed, following the registration process.\n\nAll are welcome to join (regardless of whether or not you wish to eat)! For those eating, food usually ranges from $25-$30 each for a feast. Since this is indoors, please be mindful of any potential flu/illness symptoms and our COVID policy (listed below).\n\nPlease register here to attend (required) - https://bit.ly/4j3u1eX\n\n\n\n\n\n****\n\nEA NYC:\nPlease find all EA NYC event information - including our Code of Conduct, food policy, covid policy, and information on past and future events - here on our website: https://www.effectivealtruism.nyc/events\n\nYou can also find us on Facebook, Meetup, and Eventbrite!\nhttp://facebook.com/groups/eanyc/events\nhttps://www.meetup.com/effective-altruism-nyc/events/\nhttps://www.eventbrite.com/o/effective-altruism-nyc-55938838923\n\nFor those new to effective altruism, here are a couple of good introductions. In short, EA is about using evidence to carefully analyze how, given limited resources, we can help others the *most*.\nhttps://www.youtube.com/watch?v=48VAQtGmfWY",
+      "startDate": "2025-05-24T13:00:00-04:00",
+      "endDate": "2025-05-24T15:00:00-04:00",
       "category": [
         "Tech"
       ],
       "price": {
         "amount": 0,
-        "type": "Free",
+        "type": "Paid",
         "currency": "USD",
-        "details": ""
+        "details": "See event description for pricing details"
       },
       "capacity": null,
-      "registrationRequired": false,
+      "registrationRequired": true,
       "tags": "",
       "image": "",
       "status": "upcoming",
       "metadata": {
-        "source_url": "https://www.eventbrite.com/o/effective-altruism-nyc-55938838923&amp;sa=D&amp;source=calendar&amp;ust=1740340078367781&amp;usg=AOvVaw1ntnR_iPj9CmUe96ylX_3n\"",
+        "source_url": "https://www.eventbrite.com/e/effective-altruism-nyc-community-dim-sum-manhattan-tickets-954482953207",
         "organizer": {
           "name": "Effective Altruism NYC Events",
           "instagram": "",
@@ -73,7 +73,7 @@
         },
         "venue": {
           "name": "",
-          "address": "In-Person Event (Midtown); register for location details",
+          "address": "In-Person Event (Chinatown) - register for location details",
           "type": "Offline"
         },
         "speakers": [],
@@ -83,30 +83,30 @@
       }
     },
     {
-      "id": "evt_com_effective_altruism_nyc_7pgd035d",
-      "name": "World Immunization Week",
+      "id": "evt_com_effective_altruism_nyc_2b3vfmb9",
+      "name": "Hike with EA NYC",
       "type": "Tech",
       "locationId": "",
       "communityId": "com_effective_altruism_nyc",
-      "description": "<br>No matter what year you read this, it&#39;s probably the healthiest year in human history. Let&#39;s celebrate, and keep the streak going!<br><a href=\"https://www.google.com/url?q=http://www.who.int/campaigns/immunization-week/2018/en/&amp;sa=D&amp;source=calendar&amp;ust=1671557349757085&amp;usg=AOvVaw1XOs1JHTqnQlGCavPdJJ2Q\" target=\"_blank\">http://www.who.int/campaigns/immunization-week/2018/en/</a>",
-      "startDate": "2025-04-24",
-      "endDate": "2025-05-01",
+      "description": "Please submit interest form here: https://airtable.com/shrGg0fiHeZmdB4tP?prefill_Event%20Registered=4482&prefill_Event=Hike+with+EA+NYC&hide_Event%20Registered=true\n\n\nGrab some fresh air, and (re-)meet some outdoorsy EA NYCers! Join for a laid-back hike in Upstate New York.\n\nEA NYC Volunteer Organizer Jacob will be leading the hike. Please see below for some (critical!) travel / meal planning and coordination.\n\nThe exact timetable details may change, but this will be similar to the final itinerary:\n8:40 am: meet Jacob in Port Authority (south building, 40th St & 8th Ave), upstairs at gate 408. You can reach him on FB Messenger or at jacob.eliosoff@gmail.com.\n9:10 am: Short Line bus leaves for Tuxedo, NY (also goes to Middletown). You must catch this bus!\n10:23 am: arrival at Tuxedo, NY and walk to the trailhead.\n10:40 am: the group will be doing the \"Wildcat Mountain Trail\" - see the map on AllTrails. 4.2 miles, \"easy\" difficulty.\nhttps://www.alltrails.com/trail/us/new-york/wildcat-mountain-trail,\n1 pm-ish: at some point along the route there will be a break to eat a packed lunch.\n2:24 pm: catching the bus back, again from Tuxedo.\n3:33 pm: arrival back at Port Authority Bus terminal.\n\nStuff to bring:\nCOMFORTABLE SHOES - good traction, ideally some ankle support\nLUNCH, SNACKS, WATER - no restaurants/stores in the park, though don't overburden yourself either\nA hat?\nA mask, if you like: most of the event is outside and relatively covid-safe, but we will spend 2+ hours on the bus\nBus is $14.65 each way = $29.30. Full-time nonprofit workers/students are eligible for an EA NYC discount, just ask\nTick protection (ie. long pants tucked into your socks and/or repellant). Ticks can be active any time it is above freezing. Also consider closely inspecting yourself when you get home: the risk with ticks comes if you don't notice one for days. \n\n\n\n****\n\nEA NYC:\nPlease find all EA NYC event information - including our Code of Conduct, food policy, covid policy, and information on past and future events - here on our website: https://www.effectivealtruism.nyc/events\n\n\n\nFor those new to effective altruism, here are a couple of good introductions. In short, EA is about using evidence to carefully analyze how, given limited resources, we can help others the *most*.\nhttps://www.youtube.com/watch?v=48VAQtGmfWY",
+      "startDate": "2025-05-25T08:40:00-04:00",
+      "endDate": "2025-05-25T17:40:00-04:00",
       "category": [
         "Tech"
       ],
       "price": {
         "amount": 0,
-        "type": "Free",
+        "type": "Paid",
         "currency": "USD",
-        "details": ""
+        "details": "See event description for pricing details"
       },
       "capacity": null,
-      "registrationRequired": false,
+      "registrationRequired": true,
       "tags": "",
       "image": "",
       "status": "upcoming",
       "metadata": {
-        "source_url": "https://www.google.com/calendar/event?eid=N3BnZDAzNWQ3NzhvaWRybGYyMG84YXIyNXBfMjAyNTA0MjQgaGJ2ZXRxZjVoMXBkMG9mMHZuNnV2cGhxdHNAZw",
+        "source_url": "https://www.google.com/calendar/event?eid=MmIzdmZtYjliNGpxOGlxa2l0ZWRkaDhiYmQgaGJ2ZXRxZjVoMXBkMG9mMHZuNnV2cGhxdHNAZw",
         "organizer": {
           "name": "Effective Altruism NYC Events",
           "instagram": "",
@@ -114,7 +114,7 @@
         },
         "venue": {
           "name": "",
-          "address": "Worldwide!",
+          "address": "In-Person Event - register for location details",
           "type": "Offline"
         },
         "speakers": [],
@@ -124,55 +124,14 @@
       }
     },
     {
-      "id": "evt_com_effective_altruism_nyc_3dgeao06",
-      "name": "World Malaria Day",
+      "id": "evt_com_effective_altruism_nyc_260oav0o",
+      "name": "Responding to the USAID Crisis with Speaker Cole Landfried (co-hosted with 1 for the World)",
       "type": "Tech",
       "locationId": "",
       "communityId": "com_effective_altruism_nyc",
-      "description": "<a href=\"https://en.wikipedia.org/wiki/World_Malaria_Day\">https://en.wikipedia.org/wiki/World_Malaria_Day</a><br><br>If you have ideas for ways to commemorate this day, send them to alexrk@effectivealtruism.nyc",
-      "startDate": "2025-04-25",
-      "endDate": "2025-04-26",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": "",
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.google.com/calendar/event?eid=M2RnZWFvMDZxNHY2N2RvY2tndWk0Z29tazBfMjAyNTA0MjUgaGJ2ZXRxZjVoMXBkMG9mMHZuNnV2cGhxdHNAZw",
-        "organizer": {
-          "name": "Effective Altruism NYC Events",
-          "instagram": "",
-          "email": "hbvetqf5h1pd0of0vn6uvphqts@group.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false
-      }
-    },
-    {
-      "id": "evt_com_effective_altruism_nyc_28lmvbgb",
-      "name": "NYC Launch Event for Food Policy Pathways",
-      "type": "Tech",
-      "locationId": "",
-      "communityId": "com_effective_altruism_nyc",
-      "description": "Please RSVP by April 23rd at info@foodpolicypathways.org",
-      "startDate": "2025-04-30T17:30:00-04:00",
-      "endDate": "2025-04-30T19:30:00-04:00",
+      "description": "Please RSVP by emailing jonathan@effectivealtruism.nyc<br><br>Hear from Cole Landfried, formerly of USAID, about the dismantling of USAID and ways to respond to the dismantling of USAID.\u00a0\u00a0<br><br>Cole will discuss his career at USAID, what all has happened at USAID this year, and ways the EA community can respond to the crisis.\u00a0\u00a0<br><br><b>Please register by emailing\u00a0</b>jonathan@effectivealtruism.nyc<br><br>Cole Landfried served in the Support Relief Group Bureau for Humanitarian Assistance<br>USAID.\u00a0 Cole has worked in multiple countries with a focus on disaster relief.\u00a0 Cole was chosen to testify before Congress about the dismantling of USAID.\u00a0 Cole is keenly interested in helping the EA community identify the most critical gaps left by the dismantling of USAID and ways to help undo some of the damage caused by the dismantling of USAID.\u00a0\u00a0<br><br>This event will be co-hosted with 1 For the World, an organization dedicated to scaling giving to address extreme poverty.\u00a0 Drinks and vegan snacks will be provided.\u00a0 Please join us to hear from Cole and participate in discussion with Cole about the best ways to respond to the dismantling of USAID.\u00a0\u00a0<br><br><br><br>****<br><br>EA NYC:<br>Please find all EA NYC event information - including our Code of Conduct, food policy, covid policy, and information on past and future events - here on our website: <a href=\"https://www.effectivealtruism.nyc/events\" target=\"_blank\">https://www.effectivealtruism.nyc/events</a><br><br><br>For those new to effective altruism, here are a couple of good introductions. In short, EA is about using evidence to carefully analyze how, given limited resources, we can help others the *most*.<br><a href=\"https://www.youtube.com/watch?v=48VAQtGmfWY\" target=\"_blank\">https://www.youtube.com/watch?v=48VAQtGmfWY</a>",
+      "startDate": "2025-05-29T18:30:00-04:00",
+      "endDate": "2025-05-29T21:30:00-04:00",
       "category": [
         "Tech"
       ],
@@ -188,7 +147,7 @@
       "image": "",
       "status": "upcoming",
       "metadata": {
-        "source_url": "https://www.google.com/calendar/event?eid=MjhsbXZiZ2JidnFqNDVxZ3FiNm5hdDVncTQgaGJ2ZXRxZjVoMXBkMG9mMHZuNnV2cGhxdHNAZw",
+        "source_url": "https://www.google.com/calendar/event?eid=MjYwb2F2MG9sa2QwZ2ppNWo4Y3FkbTFrOTYgaGJ2ZXRxZjVoMXBkMG9mMHZuNnV2cGhxdHNAZw",
         "organizer": {
           "name": "Effective Altruism NYC Events",
           "instagram": "",
@@ -196,7 +155,7 @@
         },
         "venue": {
           "name": "",
-          "address": "",
+          "address": "In-Person Event (Midtown); register for location details",
           "type": "Offline"
         },
         "speakers": [],
@@ -599,6 +558,129 @@
       "status": "upcoming",
       "metadata": {
         "source_url": "https://www.google.com/calendar/event?eid=NTBndWNpYXE5bTI4M2xmbnRtNXFxcHNjczNfMjAyNjAzMjUgaGJ2ZXRxZjVoMXBkMG9mMHZuNnV2cGhxdHNAZw",
+        "organizer": {
+          "name": "Effective Altruism NYC Events",
+          "instagram": "",
+          "email": "hbvetqf5h1pd0of0vn6uvphqts@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
+      "id": "evt_com_effective_altruism_nyc_6vkt79sh",
+      "name": "World Health Day",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_effective_altruism_nyc",
+      "description": "Some say that April is the cruelest month. The WHO begs to differ:<br><br><a href=\"https://www.google.com/url?q=http://www.who.int/campaigns/world-health-day/2018/en/&amp;sa=D&amp;source=calendar&amp;ust=1671557335136133&amp;usg=AOvVaw0om6R5yHPt6QeEZyLYb6TN\" target=\"_blank\">http://www.who.int/campaigns/world-health-day/2018/en/</a><br><br>Speaking of April, keep an eye out for World Malaria Day and World Immunization Week later this month.",
+      "startDate": "2026-04-07",
+      "endDate": "2026-04-08",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.google.com/calendar/event?eid=NnZrdDc5c2gwYzZyb3F2OGhrZGtiZWk0aDhfMjAyNjA0MDcgaGJ2ZXRxZjVoMXBkMG9mMHZuNnV2cGhxdHNAZw",
+        "organizer": {
+          "name": "Effective Altruism NYC Events",
+          "instagram": "",
+          "email": "hbvetqf5h1pd0of0vn6uvphqts@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "Worldwide!",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
+      "id": "evt_com_effective_altruism_nyc_7pgd035d",
+      "name": "World Immunization Week",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_effective_altruism_nyc",
+      "description": "<br>No matter what year you read this, it&#39;s probably the healthiest year in human history. Let&#39;s celebrate, and keep the streak going!<br><a href=\"https://www.google.com/url?q=http://www.who.int/campaigns/immunization-week/2018/en/&amp;sa=D&amp;source=calendar&amp;ust=1671557349757085&amp;usg=AOvVaw1XOs1JHTqnQlGCavPdJJ2Q\" target=\"_blank\">http://www.who.int/campaigns/immunization-week/2018/en/</a>",
+      "startDate": "2026-04-24",
+      "endDate": "2026-05-01",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.google.com/calendar/event?eid=N3BnZDAzNWQ3NzhvaWRybGYyMG84YXIyNXBfMjAyNjA0MjQgaGJ2ZXRxZjVoMXBkMG9mMHZuNnV2cGhxdHNAZw",
+        "organizer": {
+          "name": "Effective Altruism NYC Events",
+          "instagram": "",
+          "email": "hbvetqf5h1pd0of0vn6uvphqts@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "Worldwide!",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false
+      }
+    },
+    {
+      "id": "evt_com_effective_altruism_nyc_3dgeao06",
+      "name": "World Malaria Day",
+      "type": "Tech",
+      "locationId": "",
+      "communityId": "com_effective_altruism_nyc",
+      "description": "<a href=\"https://en.wikipedia.org/wiki/World_Malaria_Day\">https://en.wikipedia.org/wiki/World_Malaria_Day</a><br><br>If you have ideas for ways to commemorate this day, send them to alexrk@effectivealtruism.nyc",
+      "startDate": "2026-04-25",
+      "endDate": "2026-04-26",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": "",
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.google.com/calendar/event?eid=M2RnZWFvMDZxNHY2N2RvY2tndWk0Z29tazBfMjAyNjA0MjUgaGJ2ZXRxZjVoMXBkMG9mMHZuNnV2cGhxdHNAZw",
         "organizer": {
           "name": "Effective Altruism NYC Events",
           "instagram": "",

@@ -2,13 +2,13 @@
   "events": [
     {
       "id": "evt_com_verci__clr78bb",
-      "name": "Little Cubicle Concert",
+      "name": "Monday Girl: Women In Creative Industries",
       "type": "Tech",
       "locationId": "",
       "communityId": "com_verci",
-      "description": "\u200bGet ready for theLittle Cubicle Concert, brought to you byStudio Jams x Songwriting Workshop!\u200bLittle Cubicle Concertis inspired by the beloved Tiny Desk concerts, putting a fresh spin with an acoustic vibe that creates the perfect atmosphere.\u200bJoin us for an afternoon filled with live music from our exciting lineup of talented artists:ArcieandTaylorPhil FlanaganjewelofdenialAshlynn Maliabreakbreadband",
-      "startDate": "2025-03-29T18:00:00Z",
-      "endDate": "2025-03-29T21:00:00Z",
+      "description": "\u200bJoin Monday Girl and Verci for a night of real conversations, creative energy, and connections that actually go somewhere.\u200bThis is a happy hour for NYC\u2019s creative women across media, fashion, content, design, and more.\u200bWhat to expect:\u200b\u2013 Curated networking that feels natural, not forced\u200b\u2013 Thoughtful conversation prompts (skip the small talk)\u200b\u2013 A beautiful setting inside Verci\u2019s flagship Flatiron space\u200bWhether you\u2019re building your brand, launching something new, or just want to meet other women doing cool things\u2014this night is for you.\u200bCapacity is limited. Come early, bring your best ideas, and leave with a few new contacts worth texting.\u200b\ud83c\udf9f\ufe0fTickets: FREE for members; $15.00 for non-members\u200bGiven limited capacity, this will be invitation-only.\u200bAbout Verci\u200bVerci is a workspace and social space in NYC, meticulously curated for founders, artists, and creatives. Learn more atverci.comand read our manifesto atverci.com/manifesto.\u200bLearn more here:https://www.verci.com/\u200bAbout Monday Girl\u200b\u200bEver felt like the only woman in the room? We've been there too. Welcome to a community where high-achieving women are the rule, not the exception. Say goodbye to feeling outnumbered and overlooked. Monday Girl Members get access to a private network of mentors from top companies, invites to exclusive events, career resources, and more.\u200b\u200b\u200bApply:https://joinmondaygirl.com/Social:@joinmondaygirl",
+      "startDate": "2025-05-14T22:30:00Z",
+      "endDate": "2025-05-15T01:00:00Z",
       "category": [
         "Tech"
       ],
@@ -21,10 +21,10 @@
       "capacity": null,
       "registrationRequired": false,
       "tags": "",
-      "image": "luma-event-371a4a56.jpg",
+      "image": "luma-event-7e28ad74.jpg",
       "status": "upcoming",
       "metadata": {
-        "source_url": "https://lu.ma/rpc23eir",
+        "source_url": "https://lu.ma/MGxVerci",
         "organizer": {
           "name": "Verci Events",
           "instagram": "",
@@ -32,60 +32,54 @@
         },
         "venue": {
           "name": "",
-          "address": "Please register to see the exact location of this event.\nNew York, New York",
-          "type": "Online"
+          "address": "45 E 20th StNew York, NY 10003, USA\nNew York, NY 10003, USA",
+          "type": "Offline"
         },
         "speakers": [
           {
-            "name": "Josh",
+            "name": "Monday Girl",
             "title": "",
             "bio": ""
           },
           {
-            "name": "Kathleen Shao",
+            "name": "Verci",
             "title": "",
             "bio": ""
           },
           {
-            "name": "Sofia Bianchi",
+            "name": "Monday Girl",
             "title": "",
             "bio": ""
           },
           {
-            "name": "Josh",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Kathleen Shao",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Sofia Bianchi",
+            "name": "Verci",
             "title": "",
             "bio": ""
           }
         ],
         "social_links": [
-          "https://instagram.com/josh.choi99",
-          "https://x.com/jclvsh",
-          "https://instagram.com/josh.choi99",
-          "https://x.com/jclvsh"
+          "https://instagram.com/joinmondaygirl",
+          "https://tiktok.com/@joinmondaygirl",
+          "https://joinmondaygirl.com",
+          "https://instagram.com/mondaygirlto",
+          "https://instagram.com/joinmondaygirl",
+          "https://tiktok.com/@joinmondaygirl",
+          "https://joinmondaygirl.com",
+          "https://instagram.com/mondaygirlto"
         ],
         "featured": false,
         "luma_source": true
       }
     },
     {
-      "id": "evt_com_verci__cdgmopb",
-      "name": "verci art night - collage",
+      "id": "evt_com_verci__clr78ba",
+      "name": "Founders' Fest: Verci Founders Pasta-Making Dinner w/ Google Cloud",
       "type": "Tech",
       "locationId": "",
       "communityId": "com_verci",
-      "description": "Find more information on https://lu.ma/verci",
-      "startDate": "2025-04-06T23:00:00Z",
-      "endDate": "2025-04-07T02:00:00Z",
+      "description": "\u200bFounders' Fest is an exclusive event that brings founders together to level up your startup with Google Cloud!  Join us for an curated pasta-making workshop with wine pairing that brings founders together to knead, create, and connect!Experience an unforgettable evening of culinary craftsmanship and wine, meaningful conversations with fellow founders, and enjoying a family-style pasta dinner in Verci's intimate Flatiron space.\u200bSpace is limited to ensure a personal, collaborative experience. Acceptance guarentees entrance.\u200bGoogle Cloudis a suite of public cloud computing services offered by Google, providing a wide range of hosted solutions for computing, storage, AI/ML, big data analytics, networking, and application development that run on Google\u2019s global infrastructure.\u200bVerciis a community for founders, creatives, and operators based in Flatiron.",
+      "startDate": "2025-05-15T22:00:00Z",
+      "endDate": "2025-05-16T00:30:00Z",
       "category": [
         "Tech"
       ],
@@ -98,10 +92,10 @@
       "capacity": null,
       "registrationRequired": false,
       "tags": "",
-      "image": "",
+      "image": "luma-event-ad16d444.jpg",
       "status": "upcoming",
       "metadata": {
-        "source_url": "https://lu.ma/verci",
+        "source_url": "https://lu.ma/tldlk2e6",
         "organizer": {
           "name": "Verci Events",
           "instagram": "",
@@ -109,52 +103,7 @@
         },
         "venue": {
           "name": "",
-          "address": "https://partiful.com/e/GXM7TxV6GnZmCqOSEt1H",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [
-          "https://instagram.com/vercinyc",
-          "https://x.com/vercinyc",
-          "https://tiktok.com/@vercinyc"
-        ],
-        "featured": false,
-        "luma_source": true
-      }
-    },
-    {
-      "id": "evt_com_verci__clr78b9",
-      "name": "Verci Catskills Retreat: Pt IV",
-      "type": "Tech",
-      "locationId": "",
-      "communityId": "com_verci",
-      "description": "\u200bMORE INFO HEREWe're running our next retreat in the Catskills from April 11th-13th.\u200bDinner for the whole retreat will be made on-site by the founder and chef ofUdo Culinary(check them out on IG!).\u200bsign up / commit by grabbing a ticket on this luma page. once approved, you'll be 100% good to go to attend - if you don't get approved for capacity reasons, you will not be charged.",
-      "startDate": "2025-04-11T20:00:00Z",
-      "endDate": "2025-04-14T02:00:00Z",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": "",
-      "image": "luma-event-c93bfffe.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://lu.ma/f4v86x68",
-        "organizer": {
-          "name": "Verci Events",
-          "instagram": "",
-          "email": "pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "Catskill MountainsShandaken, NY 12464, USA\nShandaken, NY 12464, USA",
+          "address": "Verci Flatiron45 E 20th St, New York, NY 10003, USA\n45 E 20th St, New York, NY 10003, USA",
           "type": "Offline"
         },
         "speakers": [
@@ -164,7 +113,27 @@
             "bio": ""
           },
           {
+            "name": "Collin Sullivan",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Fon Emerson",
+            "title": "",
+            "bio": ""
+          },
+          {
             "name": "Verci",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Collin Sullivan",
+            "title": "",
+            "bio": ""
+          },
+          {
+            "name": "Fon Emerson",
             "title": "",
             "bio": ""
           }
@@ -183,13 +152,13 @@
     },
     {
       "id": "evt_com_verci__cdgmopb",
-      "name": "Sharing the Lens",
+      "name": "Craft Society: Leather Bag Making w/ WYNTRO",
       "type": "Tech",
       "locationId": "",
       "communityId": "com_verci",
       "description": "Find more information on https://lu.ma/verci",
-      "startDate": "2025-04-11T23:00:00Z",
-      "endDate": "2025-04-12T02:00:00Z",
+      "startDate": "2025-05-17T15:00:00Z",
+      "endDate": "2025-05-17T18:00:00Z",
       "category": [
         "Tech"
       ],
@@ -213,7 +182,7 @@
         },
         "venue": {
           "name": "",
-          "address": "https://partiful.com/e/HKIOtHxysKLAg70e6qd6",
+          "address": "https://www.craft-society.com/event-details/leather-bag-workshop",
           "type": "Offline"
         },
         "speakers": [],
@@ -228,13 +197,13 @@
     },
     {
       "id": "evt_com_verci__clr78b9",
-      "name": "Verci House @ Camp Film Fest",
+      "name": "Parallel Play: Volume I",
       "type": "Tech",
       "locationId": "",
       "communityId": "com_verci",
-      "description": "\u200bMORE INFOHERE\u200bWe're hosting a house atCamp Film FestbyCreator CampandPatreonfrom April 25th until April 27th.\u200bThe house is FREE thanks to the generosity from the Creator Camp team.\u200bYou can purchase a ticketHERE.\u200bThis house will be application based. Once accepted, we're asking for a small deposit to confirm your spot (just to decrease last minute cancellations/flaking). The deposit will be returned at the end of the trip unless you forgo your spot after the commitment date.\u200bDeposits & Commitments end on March 28th.",
-      "startDate": "2025-04-25T16:00:00Z",
-      "endDate": "2025-04-27T23:00:00Z",
+      "description": "\u200bSession 1 of Parallel Play",
+      "startDate": "2025-05-18T17:00:00Z",
+      "endDate": "2025-05-18T20:00:00Z",
       "category": [
         "Tech"
       ],
@@ -247,10 +216,10 @@
       "capacity": null,
       "registrationRequired": false,
       "tags": "",
-      "image": "luma-event-1dc4cb62.jpg",
+      "image": "luma-event-ba15afad.jpg",
       "status": "upcoming",
       "metadata": {
-        "source_url": "https://lu.ma/lhj3csxv",
+        "source_url": "https://lu.ma/d86nqgcy",
         "organizer": {
           "name": "Verci Events",
           "instagram": "",
@@ -258,8 +227,8 @@
         },
         "venue": {
           "name": "",
-          "address": "AustinTX, USA\nTX, USA",
-          "type": "Offline"
+          "address": "Please register to see the exact location of this event.\nNew York, New York",
+          "type": "Online"
         },
         "speakers": [
           {

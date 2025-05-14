@@ -113,71 +113,6 @@ def filter_upcoming_events(events, days_ahead=2):
     
     return upcoming
 
-def format_event_tweet(event):
-    """Format a single event as a tweet."""
-    try:
-        # Skip events with missing required fields
-        if not event.get('startDate') or not event.get('name'):
-            logging.warning(f"Skipping event with missing required fields: {event.get('name', 'Unknown')}")
-            return ""
-            
-        # Handle both timezone-aware and timezone-naive datetimes
-        start_date_str = event['startDate'].replace('Z', '+00:00')
-        start_date = datetime.fromisoformat(start_date_str)
-        
-        # Make sure start_date is timezone aware
-        if start_date.tzinfo is None:
-            # If it's naive, assume it's in UTC
-            start_date = pytz.utc.localize(start_date)
-            
-        # Convert to local timezone for display
-        local_tz = pytz.timezone('America/New_York')
-        local_start_date = start_date.astimezone(local_tz)
-        
-        date_str = local_start_date.strftime("%A, %B %d")
-        time_str = local_start_date.strftime("%I:%M %p")
-        
-        # Get price info
-        price = event.get('price', {})
-        if not price or not isinstance(price, dict):
-            price = {}
-        price_str = "Free" if price.get('type') == 'Free' else f"${price.get('amount', 'TBD')}"
-        
-        # Get location info
-        location = event.get('location', {})
-        if not location or not isinstance(location, dict):
-            location = {}
-        venue = location.get('name', 'TBD')
-        
-        # Get description safely
-        description = event.get('description', '')
-        if not description or not isinstance(description, str):
-            description = "No description available"
-        
-        # Get URL safely and ensure it's valid
-        url = event.get('url', '')
-        if not url or not isinstance(url, str) or url == '#':
-            # Try to use source site URL as fallback
-            url = event.get('sourceSite', '')
-            if not url or not isinstance(url, str):
-                url = '#'
-        
-        # Format tweet text
-        tweet = f"""
-        <div class="tweet">
-            <h3>{event['name']}</h3>
-            <p class="date">{date_str} at {time_str}</p>
-            <p class="venue">📍 {venue}</p>
-            <p class="price">💰 {price_str}</p>
-            <p class="description">{description}</p>
-            <p class="link"><a href="{url}" target="_blank" rel="noopener noreferrer">More Info →</a></p>
-        </div>
-        """
-        return tweet
-    except Exception as e:
-        logging.error(f"Error formatting tweet for event {event.get('name', 'Unknown')}: {e}")
-        return ""
-
 def generate_tweet_with_gemini(event):
     """Generates a tweet using the Gemini API."""
     if not GEMINI_API_KEY:
@@ -251,7 +186,7 @@ def main():
     """Main function to generate tweets."""
     try:
         # Create tweets directory if it doesn't exist
-        os.makedirs(TWEETS_DIR, exist_ok=True)
+        # os.makedirs(TWEETS_DIR, exist_ok=True) Commenting out this line
         
         # Load and filter events
         events = load_events()

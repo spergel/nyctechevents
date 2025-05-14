@@ -75,9 +75,28 @@ export default function HomeClient() {
   const [selectedEvent, setSelectedEvent] = useState<PageEvent | null>(null);
   const [selectedLocation, setSelectedLocation] = useState<Location | null>(null);
   const [selectedTypes, setSelectedTypes] = useState<string[]>([]);
+  const [lastUpdateTime, setLastUpdateTime] = useState<string>('N/A');
   const observerTarget = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
+    // Fetch last update time
+    fetch('/data/last_update.json')
+      .then(response => {
+        if (!response.ok) {
+          throw new Error('Failed to fetch last_update.json');
+        }
+        return response.json();
+      })
+      .then(data => {
+        if (data && data.lastUpdateISO) {
+          setLastUpdateTime(data.lastUpdateISO);
+        }
+      })
+      .catch(error => {
+        console.error('Error fetching or parsing last_update.json:', error);
+        setLastUpdateTime('Error'); // Indicate an error in the UI if needed
+      });
+
     // Check if the document is already loaded
     if (document.readyState === 'complete') {
       setIsLoading(false);
@@ -232,7 +251,7 @@ export default function HomeClient() {
           variant="secondary"
         >
           <div className="data-feed">
-            {filteredEvents.slice(0, visibleEvents).map(event => (
+            {filteredEvents.map(event => (
               <a
                 key={event.id}
                 href={`/events/${event.id}`}
@@ -249,11 +268,6 @@ export default function HomeClient() {
             {filteredEvents.length === 0 && (
               <div className="no-data">No events match your filters</div>
             )}
-            {visibleEvents < filteredEvents.length && (
-              <div ref={observerTarget} className="loading-trigger">
-                <a href="/events" className="go-to-events-link">Go to events</a>
-              </div>
-            )}
           </div>
         </Panel>
       )}
@@ -263,6 +277,7 @@ export default function HomeClient() {
         <ConsoleLayout
           locations={(locations?.locations || []) as unknown as Location[]}
           onLocationClick={handleLocationClick}
+          lastUpdateTime={lastUpdateTime}
         >
           <Panel 
             systemId="NYC-001" 
@@ -341,7 +356,7 @@ export default function HomeClient() {
       <style jsx>{`
         .console-page {
           width: 100%;
-          height: 100vh;
+          height: 100%;
           overflow: hidden;
           display: flex;
           flex-direction: column;

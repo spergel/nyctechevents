@@ -1,53 +1,14 @@
 {
   "events": [
     {
-      "id": "evt_interference_4543ade1",
-      "name": "Gender-Expansive Families Propaganda Party",
+      "id": "evt_interference_5b473e1d",
+      "name": "Dark Side of Goth",
       "type": "Community",
       "locationId": "loc_interference",
       "communityId": "com_interference",
-      "description": "Come create together! Join us for a collaborative day of making posters, buttons, t-shirts, zines, and other materials for Trans Day of Visibility events. This is a wonderful opportunity to connect with others, learn about important work happening in our community, and gather materials to show support and solidarity.\n\n\nThe event is free and open to everyone!\n All materials created will be available at no cost. While not required, donations are warmly welcomed to help fund future Propaganda Parties (either in person or through the support link below).\n\n\n\n\nSupport our materials cost\n\n\n\n\n\n\nBring your own canvas!\n We’ll have some t-shirts available, but we encourage you to bring your own t-shirts and tote bags to print on.\n\n\nWho is invited? \nEveryone! Come with friends or on your own to meet new people. Representatives from organizations are welcome to bring flyers or postcards to share your work and help others connect with your cause. \n\n\nOur Organizers: \nThe \nGender-expansive Families Propaganda Party\n is organized by \nParents of Gender Expansive Kids (POGEK) at PS39 together\n with \nInterference Archive,\n and additional support from \nPS39’s Parent Association\n, \nTrans formative Schools\n, \nTextile Art Center\n, & \nBooklyn, Inc\n.\n\n\nWhat is a propaganda party?\n It’s a gathering where organizations, activists, artists, and community members  come together to create and share t-shirts, posters, buttons and other materials while connecting with one another in a supportive environment. \n\n\nWhy “propaganda”? \n“Propaganda,” shares roots with  “propagate,” and refers to information, ideas, or images shared in support of a cause.  While this word has taken on negative connotations in modern times, we’re reclaiming it!  Our daily lives are saturated with supposedly “neutral” materials that implicitly support existing power structures. We use the word “propaganda” because this work is not neutral—we’re proudly supporting our gender-expansive community.",
-      "startDate": "2025-03-23T12:00:00",
-      "endDate": "2025-03-23T17:00:00",
-      "category": [
-        "Community",
-        "Arts",
-        "Activism"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": "Status Unknown"
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": [],
-      "image": "interference-archive.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://interferencearchive.org/event/gender-expansive-families-propaganda-party-2/",
-        "organizer": {
-          "name": "Interference Archive",
-          "email": "info@interferencearchive.org"
-        },
-        "venue": {
-          "name": "Interference Archive",
-          "address": "314 7th St, Brooklyn, NY 11215",
-          "type": "Offline"
-        },
-        "featured": false
-      }
-    },
-    {
-      "id": "evt_interference_23cdf632",
-      "name": "Fiber Friends of Falastin",
-      "type": "Community",
-      "locationId": "loc_interference",
-      "communityId": "com_interference",
-      "description": "Join us for a series of fiber arts meetups in support of Palestine—\nFiber Friends of Falastin\n! This is an exploratory social activity for folks who have basic crochet, knitting, sewing, quilting, weaving, embroidery, (and more!) skills, and who are interested in building community at the intersection of textile-making and social movements. \n\n\nWe have yarn, some crochet hooks, and some scissors to work on a group project in support of Palestine. You are also welcome to bring your own tools and materials, and related projects to work on. \n\n\nPlease note that this is not a workshop designed to teach skills, although you may learn new skills when you come! \nTo participate in the crochet activity you will need to know how to do a chain stitch and a single crochet stitch, which can be learned \nhere\n.\n\n\nMasking is always encouraged at Interference Archive. We will provide masks at the door.",
-      "startDate": "2025-02-25T18:00:00",
-      "endDate": "2025-02-25T20:00:00",
+      "description": "As the goth subculture enjoys a renaissance thanks to social media, we’ll be reflecting on the subculture’s longstanding issues using fascist imagery and Nazi uniforms, ongoing issues of racism, and its growing objectification of women in digital spaces.\n\n\nWe’ll begin with a lecture on the history of the issues within the subculture and move into an open discussion.",
+      "startDate": "2025-04-18T18:30:00",
+      "endDate": "2025-04-18T20:30:00",
       "category": [
         "Community",
         "Arts",
@@ -62,218 +23,12 @@
       "capacity": null,
       "registrationRequired": false,
       "tags": [
-        "workshop"
+        "discussion"
       ],
       "image": "interference-archive.jpg",
       "status": "upcoming",
       "metadata": {
-        "source_url": "https://interferencearchive.org/event/fiber-friends-of-falastin-10/",
-        "organizer": {
-          "name": "Interference Archive",
-          "email": "info@interferencearchive.org"
-        },
-        "venue": {
-          "name": "Interference Archive",
-          "address": "314 7th St, Brooklyn, NY 11215",
-          "type": "Offline"
-        },
-        "featured": false
-      }
-    },
-    {
-      "id": "evt_interference_939dafd5",
-      "name": "Tax Resistance 101 with the War Resisters League",
-      "type": "Community",
-      "locationId": "loc_interference",
-      "communityId": "com_interference",
-      "description": "Want to try tax resistance but don’t know where to start? Come hear from antiwar activists who refuse to pay some or all of their federal income taxes. Learn about the history and how to’s of war tax resistance from members of NYC War Resisters League (WRL) and Tax Resistance Collective. There will be plenty of time for Q&A.",
-      "startDate": "2025-02-27T18:30:00",
-      "endDate": "2025-02-27T20:30:00",
-      "category": [
-        "Community",
-        "Arts",
-        "Activism"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": "Status Unknown"
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": [],
-      "image": "interference-archive.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://interferencearchive.org/event/tax-resistance-101-with-the-war-resisters-league/",
-        "organizer": {
-          "name": "Interference Archive",
-          "email": "info@interferencearchive.org"
-        },
-        "venue": {
-          "name": "Interference Archive",
-          "address": "314 7th St, Brooklyn, NY 11215",
-          "type": "Offline"
-        },
-        "featured": false
-      }
-    },
-    {
-      "id": "evt_interference_74aa3df3",
-      "name": "Build Your Own Time Capsule",
-      "type": "Community",
-      "locationId": "loc_interference",
-      "communityId": "com_interference",
-      "description": "What can your present-day self teach your future self? When histories are rewritten and collective memory is contested, personal archiving can be a mode of resistance. Join us for this hands-on workshop facilitated by author and time capsule keeper Lisa Ko and inspired by her new novel \nMemory Piece\n. Participants will have access to Interference Archive’s materials for inspiration, and will build their own time capsules as an analog antidote to digital authoritarianism, incorporating writing prompts and creating a list of contents and a plan for storage and preservation.\n\n\nPlease bring a closeable container (a large envelope, shoebox, jar, gallon-sized bag, etc.) and at least one item you’d like to include in your time capsule, as well as any other supplies you might want to use (paper, markers, scissors, etc.). We’ll have limited supplies available as well.\n\n\nPlease RSVP \nhere\n.",
-      "startDate": "2025-04-02T18:30:00",
-      "endDate": "2025-04-02T20:30:00",
-      "category": [
-        "Community",
-        "Arts",
-        "Activism"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": "Status Unknown"
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": [
-        "workshop"
-      ],
-      "image": "interference-archive.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://interferencearchive.org/event/build-your-own-time-capsule/",
-        "organizer": {
-          "name": "Interference Archive",
-          "email": "info@interferencearchive.org"
-        },
-        "venue": {
-          "name": "Interference Archive",
-          "address": "314 7th St, Brooklyn, NY 11215",
-          "type": "Offline"
-        },
-        "featured": false
-      }
-    },
-    {
-      "id": "evt_interference_94966cb0",
-      "name": "Drawn Together",
-      "type": "Community",
-      "locationId": "loc_interference",
-      "communityId": "com_interference",
-      "description": "Join us for a night of drawing and mark-making! Register \nhere\n. \n\n\nAt Drawn Together, we provide prompts and materials for you to experiment and explore with your visual art-making practice, all without the pressure of having to do it well.\n\n\nBecause of this one-night partnership, we’ll also have access to Interference Archive’s materials, which we’ll be using as part of our inspiration.\n\n\nThe mission of Interference Archive is to explore the relationship between cultural production and social movements. This work manifests in an open stacks archival collection, publications, a study center, and public programs including exhibitions, workshops, talks, and screenings, all of which encourage critical and creative engagement with the rich history of social movements.\n\n\nCome for the art-making, stay for a collection of visual media related to the history of activism and social movements around the world!\n\n\nTiming: Doors at 7. Come early to save your seat! Games begin at 7:30.\n\n\nSupplies: Pencils and paper will be provided, though you’re encouraged to bring your own supplies if you’d like.",
-      "startDate": "2025-03-10T19:00:00",
-      "endDate": "2025-03-10T21:00:00",
-      "category": [
-        "Community",
-        "Arts",
-        "Activism"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": "Status Unknown"
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": [
-        "workshop",
-        "exhibition",
-        "screening",
-        "talk"
-      ],
-      "image": "interference-archive.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://interferencearchive.org/event/drawn-together-2/",
-        "organizer": {
-          "name": "Interference Archive",
-          "email": "info@interferencearchive.org"
-        },
-        "venue": {
-          "name": "Interference Archive",
-          "address": "314 7th St, Brooklyn, NY 11215",
-          "type": "Offline"
-        },
-        "featured": false
-      }
-    },
-    {
-      "id": "evt_interference_025de535",
-      "name": "Digital Privacy and InfoSec Workshop",
-      "type": "Community",
-      "locationId": "loc_interference",
-      "communityId": "com_interference",
-      "description": "This workshop is an introduction to personal digital privacy and information security practices, and will cover some data management basics, as well. This workshop is open to anyone, regardless of skill, but will have a particular focus on practices most applicable in community organizing, record-keeping, and archival settings. No pre-existing skills or technologies are required. Participants should bring a device with them, as we will be doing some hands-on activities to help them secure their devices and digital footprints. We will cover topics including:\n\n\n· What information about me is out there?\n· Professional vs personal digital identities\n· Identifying & removing information from public directories\n· Personal communication infosec (emails, phones, social media)\n· Privacy considerations for documenting protests / actions\n· Securing and encrypting personal devices and files\n· Best practices for file-naming, data backup, and metadata\nBecause this workshop is hands-on, it has a cap of 25 participants – please register ahead of time!\n\n\nThis workshop is in collaboration with the \nArchival Technologies Lab\n and lead by a facilitator with 9+ years of experience. Please RSVP \nhere\n.",
-      "startDate": "2025-04-04T18:30:00",
-      "endDate": "2025-04-04T20:30:00",
-      "category": [
-        "Community",
-        "Arts",
-        "Activism"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": "Status Unknown"
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": [
-        "workshop"
-      ],
-      "image": "interference-archive.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://interferencearchive.org/event/digital-privacy-and-infosec-workshop/",
-        "organizer": {
-          "name": "Interference Archive",
-          "email": "info@interferencearchive.org"
-        },
-        "venue": {
-          "name": "Interference Archive",
-          "address": "314 7th St, Brooklyn, NY 11215",
-          "type": "Offline"
-        },
-        "featured": false
-      }
-    },
-    {
-      "id": "evt_interference_27479285",
-      "name": "Radical Acupressure Skillshare",
-      "type": "Community",
-      "locationId": "loc_interference",
-      "communityId": "com_interference",
-      "description": "Now as always we need cheap and accessible tools to take care of ourselves and each other. From Japanese American incarceration camps to Lincoln Detox and the NADA protocol, acupuncture has been a tool of resistance for regular people to reclaim their health.\n\n\nJoin us at Interference Archive on March 18th at 7pm for the next installment of the Education Working Group’s Skillshare Workshop series and to learn about a radical history of acupuncture in the Americas while looking at related materials from the Archive. We will also demonstrate and practice an acupressure protocol for stress reduction using ear seeds to stimulate pressure points in the ear (no needles required!). Materials will be provided but participants should bring their own tweezers if possible.",
-      "startDate": "2025-03-18T19:00:00",
-      "endDate": "2025-03-18T20:00:00",
-      "category": [
-        "Community",
-        "Arts",
-        "Activism"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": "Status Unknown"
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": [
-        "workshop"
-      ],
-      "image": "interference-archive.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://interferencearchive.org/event/radical-acupressure-skillshare/",
+        "source_url": "https://interferencearchive.org/event/dark-side-of-goth/",
         "organizer": {
           "name": "Interference Archive",
           "email": "info@interferencearchive.org"
@@ -328,14 +83,92 @@
       }
     },
     {
-      "id": "evt_interference_d265672d",
-      "name": "Fiber Friends of Falastin",
+      "id": "evt_interference_ee1caffb",
+      "name": "Collections Working Group Meeting",
       "type": "Community",
       "locationId": "loc_interference",
       "communityId": "com_interference",
-      "description": "Join us for a series of fiber arts meetups in support of Palestine—\nFiber Friends of Falastin\n! This is an exploratory social activity for folks who have basic crochet, knitting, sewing, quilting, weaving, embroidery, (and more!) skills, and who are interested in building community at the intersection of textile-making and social movements. \n\n\nWe have yarn, some crochet hooks, and some scissors to work on a group project in support of Palestine. You are also welcome to bring your own tools and materials, and related projects to work on.\n\n\nPlease note that this is not a workshop designed to teach skills, although you may learn new skills when you come! \nTo participate in the crochet activity you will need to know how to do a chain stitch and a single crochet stitch, which can be learned \nhere\n.\n\n\nMasking is always encouraged at Interference Archive. We will provide masks at the door.",
-      "startDate": "2025-03-26T18:00:00",
-      "endDate": "2025-03-26T20:00:00",
+      "description": "Join Collections Management working group for our May monthly meeting, hybrid at the archive and on Zoom. We will be discussing new donation requests, ongoing cataloging projects, and issues in the archive’s collections. New and seasoned volunteers welcome, no prior experience in archives or libraries necessary.\n\n\nZoom link: \nhttps://us06web.zoom.us/j/84556756017?pwd=AxmnArDLYM85qrF0Yt10osClt1NQF2.1",
+      "startDate": "2025-05-14T19:00:00",
+      "endDate": "2025-05-14T20:00:00",
+      "category": [
+        "Community",
+        "Arts",
+        "Activism"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": "Status Unknown"
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": [],
+      "image": "interference-archive.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://interferencearchive.org/event/collections-working-group-meeting-8/",
+        "organizer": {
+          "name": "Interference Archive",
+          "email": "info@interferencearchive.org"
+        },
+        "venue": {
+          "name": "Interference Archive",
+          "address": "314 7th St, Brooklyn, NY 11215",
+          "type": "Offline"
+        },
+        "featured": false
+      }
+    },
+    {
+      "id": "evt_interference_7edadb16",
+      "name": "Free Noise",
+      "type": "Community",
+      "locationId": "loc_interference",
+      "communityId": "com_interference",
+      "description": "An open mic for queer/trans people and their music, poetry and performance. Come one, come all! \n\n\nEmail \nmilesellisor@gmail.com\n to perform.\n$5 suggested donation, but pay what you can.\n\n\nCollected donations will be split between the Archive and \nG.L.I.T.S.\n (Gays & Lesbians Living In A Transgender Society).",
+      "startDate": "2025-05-03T18:00:00",
+      "endDate": "2025-05-03T20:30:00",
+      "category": [
+        "Community",
+        "Arts",
+        "Activism"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": "Status Unknown"
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": [],
+      "image": "interference-archive.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://interferencearchive.org/event/free-noise/",
+        "organizer": {
+          "name": "Interference Archive",
+          "email": "info@interferencearchive.org"
+        },
+        "venue": {
+          "name": "Interference Archive",
+          "address": "314 7th St, Brooklyn, NY 11215",
+          "type": "Offline"
+        },
+        "featured": false
+      }
+    },
+    {
+      "id": "evt_interference_6e380fff",
+      "name": "Intro to Self-Defense Workshop",
+      "type": "Community",
+      "locationId": "loc_interference",
+      "communityId": "com_interference",
+      "description": "Led by Grey from \nPop Gym\n, we’ll be covering the basics: stretching, conditioning, technique, and theory, with the hope that participants will leave with some super useful foundations that they can add to their self-defense toolkits.\nMix that in with movement and pad-hitting and you’ll have an accessible and confidence-boosting good time for all. This workshop is great for beginners, meant to share some simple-to-pick-up techniques that you can practice on your own or with friends!\n\n\nGrey\n (He/Him, They/Them) has been an instructor with Pop Gym since 2017, and has been co-organizing and leading self-defense workshops in NYC since 2015. They have a background Tae-Kwon-Do, as well as Muay Thai, Boxing, and Brazilian Jiu-Jitsu. They enjoy creating spaces in which participants can better learn to understand their self-defense abilities and brainstorming individual and collective ways we can defend ourselves and our communities.\n\n\nRegistration\n is required.\n\n\nInterference Archive is ADA accessible and on the ground floor. There are two single-stall all gender ADA-accessible bathrooms. Masks are encouraged, but not required (and we usually have some available).",
+      "startDate": "2025-05-20T18:00:00",
+      "endDate": "2025-05-20T20:00:00",
       "category": [
         "Community",
         "Arts",
@@ -355,7 +188,46 @@
       "image": "interference-archive.jpg",
       "status": "upcoming",
       "metadata": {
-        "source_url": "https://interferencearchive.org/event/fiber-friends-of-falastin-11/",
+        "source_url": "https://interferencearchive.org/event/intro-to-self-defense-workshop-2/",
+        "organizer": {
+          "name": "Interference Archive",
+          "email": "info@interferencearchive.org"
+        },
+        "venue": {
+          "name": "Interference Archive",
+          "address": "314 7th St, Brooklyn, NY 11215",
+          "type": "Offline"
+        },
+        "featured": false
+      }
+    },
+    {
+      "id": "evt_interference_7f2f41db",
+      "name": "Zine Club",
+      "type": "Community",
+      "locationId": "loc_interference",
+      "communityId": "com_interference",
+      "description": "Please join us to make zines at Zine Club on the third Monday of every month! It is a casual, creative and welcoming space where you can make your own mini zine or work on an ongoing larger project. We have some limited supplies so please bring your own if you are able to.",
+      "startDate": "2025-05-19T18:30:00",
+      "endDate": "2025-05-19T20:00:00",
+      "category": [
+        "Community",
+        "Arts",
+        "Activism"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": "Status Unknown"
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": [],
+      "image": "interference-archive.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://interferencearchive.org/event/zine-club-4/",
         "organizer": {
           "name": "Interference Archive",
           "email": "info@interferencearchive.org"
@@ -400,6 +272,205 @@
       "status": "upcoming",
       "metadata": {
         "source_url": "https://interferencearchive.org/event/drawn-together-3/",
+        "organizer": {
+          "name": "Interference Archive",
+          "email": "info@interferencearchive.org"
+        },
+        "venue": {
+          "name": "Interference Archive",
+          "address": "314 7th St, Brooklyn, NY 11215",
+          "type": "Offline"
+        },
+        "featured": false
+      }
+    },
+    {
+      "id": "evt_interference_dea72605",
+      "name": "Fiber Friends of Falastin",
+      "type": "Community",
+      "locationId": "loc_interference",
+      "communityId": "com_interference",
+      "description": "Join us for a series of fiber arts meetups in support of Palestine—\nFiber Friends of Falastin\n! This is an exploratory social activity for folks who have basic crochet, knitting, sewing, quilting, weaving, embroidery, (and more!) skills, and who are interested in building community at the intersection of textile-making and social movements. \n\n\nWe have yarn, some crochet hooks, and some scissors to work on a group project in support of Palestine. You are also welcome to bring your own tools and materials, and related projects to work on.\n\n\nPlease note that this is not a workshop designed to teach skills, although you may learn new skills when you come! \nTo participate in the crochet activity, you will need to know how to do a chain stitch and a single crochet stitch, which can be learned \nhere\n.\n\n\nMasking is always encouraged at Interference Archive. We will provide masks at the door.\n\n\nSuggested donation: $10\n\n\nDonations help to keep our events free and our doors open to the public!",
+      "startDate": "2025-06-17T18:00:00",
+      "endDate": "2025-06-17T20:00:00",
+      "category": [
+        "Community",
+        "Arts",
+        "Activism"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": "Status Unknown"
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": [
+        "workshop"
+      ],
+      "image": "interference-archive.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://interferencearchive.org/event/fiber-friends-of-falastin-13/",
+        "organizer": {
+          "name": "Interference Archive",
+          "email": "info@interferencearchive.org"
+        },
+        "venue": {
+          "name": "Interference Archive",
+          "address": "314 7th St, Brooklyn, NY 11215",
+          "type": "Offline"
+        },
+        "featured": false
+      }
+    },
+    {
+      "id": "evt_interference_feaba5a4",
+      "name": "Fiber Friends of Falastin",
+      "type": "Community",
+      "locationId": "loc_interference",
+      "communityId": "com_interference",
+      "description": "Join us for a series of fiber arts meetups in support of Palestine—\nFiber Friends of Falastin\n! This is an exploratory social activity for folks who have basic crochet, knitting, sewing, quilting, weaving, embroidery, (and more!) skills, and who are interested in building community at the intersection of textile-making and social movements. \n\n\nWe have yarn, some crochet hooks, and some scissors to work on a group project in support of Palestine. You are also welcome to bring your own tools and materials, and related projects to work on.\n\n\nPlease note that this is not a workshop designed to teach skills, although you may learn new skills when you come! \nTo participate in the crochet activity, you will need to know how to do a chain stitch and a single crochet stitch, which can be learned \nhere\n.\n\n\nMasking is always encouraged at Interference Archive. We will provide masks at the door.\n\n\nSuggested donation: $10\n\n\nDonations help to keep our events free and our doors open to the public!",
+      "startDate": "2025-05-27T18:00:00",
+      "endDate": "2025-05-27T20:00:00",
+      "category": [
+        "Community",
+        "Arts",
+        "Activism"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": "Status Unknown"
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": [
+        "workshop"
+      ],
+      "image": "interference-archive.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://interferencearchive.org/event/fiber-friends-of-falastin-12/",
+        "organizer": {
+          "name": "Interference Archive",
+          "email": "info@interferencearchive.org"
+        },
+        "venue": {
+          "name": "Interference Archive",
+          "address": "314 7th St, Brooklyn, NY 11215",
+          "type": "Offline"
+        },
+        "featured": false
+      }
+    },
+    {
+      "id": "evt_interference_adaf5b95",
+      "name": "Know Your Rights Propaganda Party",
+      "type": "Community",
+      "locationId": "loc_interference",
+      "communityId": "com_interference",
+      "description": "We keep us safe.\n Join us Sunday, June 1 from 2-6pm to mass produce multilingual know your rights materials like how to watch out for ICE, how to keep yourself safe during a police raid, and how you can intervene as a bystander.\n\n\nMaterials will be available for you to make, take, and distribute within your own communities. Come hang out, print materials, fold zines, and be in community with others as we educate and empower each other.\n\n\nWhile this event is free, your donations cover our material costs. \nThe mass distribution of materials is not free. Interference Archive is completely volunteer-run and on a shoestring operational budget. Please consider donating to our \nKnow Your Rights Propaganda Party fund\n or donating any of the following materials:\n\n\n\n\nblank canvas tote bags\n\n\nblank t-shirts (all sizes)\n\n\nscreen-printing inks\n\n\n11″ x 17″ white paper for riso printing (smooth, uncoated)\n\n\n1.5”, 2” or 2.25” button making supplies\n\n\n\n\nIf you are able to donate a material, please dm us on instagram (@interferencearchive) to coordinate a drop off time (by May 18). We appreciate your support! Mutual aid forever.\n\n\nWhat is a propaganda party?\n \n\n\nA propaganda party is where people like you come together to create and distribute material to be “propagated.” While propaganda often has a negative connotation, here we are reclaiming the term and using it to mean mass-education of our community in the face of rising fascism.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNosotros nos mantenemos a salvo. \nÚnase a nosotros el domingo 1 de junio de 2 a 6 p.m. para producir en masa materiales multilingües para conocer sus derechos, cómo tener cuidado y vista contra ICE, cómo mantenerse seguro durante una redada policial y cómo puede intervenir como espectador.\n\n\nHabrá materiales disponibles para que usted los fabrique, los lleve y los distribuya dentro de sus propias comunidades. Venga a pasar el rato, imprima materiales, doble revistas y forme comunidad con otros mientras nos educamos y empoderamos unos a otros.\n\n\nAunque este evento es gratuito, sus donaciones cubren nuestros costos de material. La distribución masiva de materiales no es gratuita. Interference Archive está gestionado completamente por voluntarios y tiene un presupuesto operativo limitado. Por favor, considere hacer una donación a nuestro \nfondo para la Conoce tus Derechos Fiesta de Propaganda\n o donar cualquiera de los siguientes materiales:\n\n\n\n\n\n\nbolsas de lona en blanco\n\n\ncamisetas en blanco (todas las tallas)\n\n\ntintas de serigrafía\n\n\nPapel blanco de 11″ x 17″ para impresión riso (liso, sin recubrimiento)\n\n\nSuministros para hacer botones de 1,5”, 2” o 2,25”\n\n\n\n\n\n\nSi puedes donar materiales, envíenos un mensaje privado (@interferencearchive – instagram) para coordinar la hora de entrega (antes del 18 de mayo). ¡Apreciamos su apoyo! Ayuda mutua para siempre.\n\n\n¿Qué es una fiesta de propaganda?\n\n\nUna fiesta de propaganda es donde personas como usted se reúnen para crear y distribuir material para “propagarlo”. Si bien la propaganda tiene una connotación negativa muchas veces, aquí estamos reclamando el término y usándolo para referirse a la educación masiva de nuestra comunidad frente al creciente fascismo.",
+      "startDate": "2025-06-01T14:00:00",
+      "endDate": "2025-06-01T18:00:00",
+      "category": [
+        "Community",
+        "Arts",
+        "Activism"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": "Status Unknown"
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": [],
+      "image": "interference-archive.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://interferencearchive.org/event/know-your-rights-propaganda-party/",
+        "organizer": {
+          "name": "Interference Archive",
+          "email": "info@interferencearchive.org"
+        },
+        "venue": {
+          "name": "Interference Archive",
+          "address": "314 7th St, Brooklyn, NY 11215",
+          "type": "Offline"
+        },
+        "featured": false
+      }
+    },
+    {
+      "id": "evt_interference_9ce1cdd6",
+      "name": "Education Reading Group",
+      "type": "Community",
+      "locationId": "loc_interference",
+      "communityId": "com_interference",
+      "description": "The Education Reading Group is a place where we plan to share and discuss readings about transformative teaching, political pedagogy, engaging education, and the like.\n\n\nWe will be meeting at \n8 pm on Tuesday May 13th\n to read\n \n“Bloodchild”\n \nby Octavia Butler. It is the titular story from the collection “Bloodchild and Other Stories,” a pdf is here: \nBloodchild\n\n\nIf you have the book and want to read more stories from the collection feel free, but it’s not necessary!\n\n\nHere is the jitsi link for the meeting: \nJitsi",
+      "startDate": "2025-05-13T20:00:00",
+      "endDate": "2025-05-13T21:30:00",
+      "category": [
+        "Community",
+        "Arts",
+        "Activism"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": "Status Unknown"
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": [],
+      "image": "interference-archive.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://interferencearchive.org/event/education-reading-group-12/",
+        "organizer": {
+          "name": "Interference Archive",
+          "email": "info@interferencearchive.org"
+        },
+        "venue": {
+          "name": "Interference Archive",
+          "address": "314 7th St, Brooklyn, NY 11215",
+          "type": "Offline"
+        },
+        "featured": false
+      }
+    },
+    {
+      "id": "evt_interference_ede2db13",
+      "name": "Zine Club",
+      "type": "Community",
+      "locationId": "loc_interference",
+      "communityId": "com_interference",
+      "description": "New month, new zine club! This is an informal gathering with some materials provided (paper, scraps, scissors) but anything you want to bring to work with is very welcome. We’ll be making mini one-cut zines around topics of your choice with a bit of brainstorming built in. Come make friends, make a zine, trade a zine.",
+      "startDate": "2025-04-21T18:30:00",
+      "endDate": "2025-04-21T20:00:00",
+      "category": [
+        "Community",
+        "Arts",
+        "Activism"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": "Status Unknown"
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": [],
+      "image": "interference-archive.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://interferencearchive.org/event/zine-club-3/",
         "organizer": {
           "name": "Interference Archive",
           "email": "info@interferencearchive.org"

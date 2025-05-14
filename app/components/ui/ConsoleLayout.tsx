@@ -68,9 +68,10 @@ interface ConsoleLayoutProps {
   children: React.ReactNode;
   locations: Location[];
   onLocationClick?: (location: Location) => void;
+  lastUpdateTime: string;
 }
 
-export function ConsoleLayout({ children, locations, onLocationClick }: ConsoleLayoutProps) {
+export function ConsoleLayout({ children, locations, onLocationClick, lastUpdateTime }: ConsoleLayoutProps) {
   const [selectedEvent, setSelectedEvent] = useState<ImportedEvent | null>(null);
 
   const formatDate = (dateString: string) => {
@@ -221,7 +222,11 @@ export function ConsoleLayout({ children, locations, onLocationClick }: ConsoleL
               </div>
               <div className="status-item">
                 <span className="status-label">LAST UPDATE:</span>
-                <span className="status-value">{formatDate(substackPosts.last_updated)}</span>
+                <span className="status-value">
+                  {lastUpdateTime && lastUpdateTime !== 'N/A' && lastUpdateTime !== 'Error' 
+                    ? formatDate(lastUpdateTime) 
+                    : lastUpdateTime /* Display N/A or Error directly */}
+                </span>
               </div>
             </div>
           </Panel>

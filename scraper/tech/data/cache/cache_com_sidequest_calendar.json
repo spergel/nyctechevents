@@ -1,71 +1,14 @@
 {
   "events": [
     {
-      "id": "evt_com_sidequest__clr78bb",
-      "name": "SideQuest #23",
-      "type": "Tech",
-      "locationId": "",
-      "communityId": "com_sidequest",
-      "description": "\u200b\u200b\u200bCome join us for a chill afternoon dedicated to your sidequests!Whether it's writing, painting, coding that new app, or literally any other \u201cSideQuest\u201d you\u2019ve been putting off, this is your space to create. This isn\u2019t about 'work' in the traditional sense\u2014it's about crafting something meaningful to you, free from pressure.\u200b\u200bWe'll have focused work sessions to help you make real progress, all set to the backdrop of some lo-fi, balanced with breaks to reset, unblock each other, and mingle with other creators.\u200b\u200bRough Agenda\u200b\u200b2:00 PM - 2:30 PM: Introductions and Intention Sharing\u200b\u200b2:30 PM - 3:45 PM: Deep Focus Session 1\u200b\u200b3:45 PM - 4:15 PM: Break\u200b\u200b4:15 PM - 5:30 PM: Deep Focus Session 2\u200b\u200b5:30 PM - 6:00 PM: if you wanna share your work, we\u2019d love to see it! If not, that\u2019s cool, too!\u200b\u200b6:00 PM: Optional hangout afterward :)*please plan on staying for the whole duration to avoid disrupting the quiet work periods\u200b\u200b**thank you tofractal techfor hosting us! and thank you to our friends atPurdueHackers,CozySundaysandSocraticafor seeding the idea!___________________AboutSideQuest:We host coworking sessions biweekly! Subscribe to our events calendar if you can\u2019t make this one :)",
-      "startDate": "2025-03-30T18:00:00Z",
-      "endDate": "2025-03-30T22:00:00Z",
-      "category": [
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": "",
-      "image": "luma-event-afbcf6ff.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://lu.ma/gnzubm69",
-        "organizer": {
-          "name": "SideQuest",
-          "instagram": "",
-          "email": "abln66abl799vb4gprllu4225l744l70@import.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "Please register to see the exact location of this event.\nKings County, New York",
-          "type": "Online"
-        },
-        "speakers": [
-          {
-            "name": "Chandiran",
-            "title": "",
-            "bio": ""
-          },
-          {
-            "name": "Chandiran",
-            "title": "",
-            "bio": ""
-          }
-        ],
-        "social_links": [
-          "https://discord.gg/C9qrQR672P",
-          "https://x.com/patxnoir",
-          "https://discord.gg/C9qrQR672P",
-          "https://x.com/patxnoir"
-        ],
-        "featured": false,
-        "luma_source": true
-      }
-    },
-    {
-      "id": "evt_com_sidequest__clr78ba",
-      "name": "BuildHub #2 - 3D Modelling CAD Workshop",
+      "id": "evt_com_sidequest__clr78b9",
+      "name": "BuildHub #3 - 3D Modelling CAD Workshop in Zen Monk Mode",
       "type": "Tech",
       "locationId": "loc_fractal",
       "communityId": "com_sidequest",
-      "description": "\u200b\u200bHave the knack to design your own mechanical products and 3D print them? Unsure where to start? Fear not.\u200b\u200bHI! I'mSuraj Kumarand I can teach you how to become a maker in three days. I was the CTO of Sherpy, a drone startup that manufactured small, long-range airplanes for commercial delivery (sherpymedia.com). I now founded a neurotech startup (Cerelog.com).There are a lot of visionaries and hackers around in New York City, but materializing an idea can be quite the wall to climb! What are the real-world constraints to pay attention to when designing something? Where's the space where you can build things fast and get great advice?!\u200bThis is a small-group, high attention workshop, targeting 10-15 creative people who have the itch to create things.Light on theory, heavy on practice!\u200bWHAT YOU'LL DO\u200bGet familiar with Fusion360!\u200b\u200b\u200bDesign your own custom spray bottle using Fusion360. Use it for cleaning around your house/pranking your dog!\u200b\u200b\u200bWe provide the nozzle and tube\u2014you design the rest!\u200b\u200b\u200b3D print your creation on the high performance Bambu X1 Carbon printer\u200b\u200b\u200bDETAILS\u200b\u200b\u200bFive-day workshop (~3 hrs per session)\u200bMon, Tue, Wed, Thurs, Fri\u200b\u200b\u200bProfessional guidance from an experienced engineer\u200b\u200b\u200bLearn to navigate Fusion360 and think like a designer\u200b\u200b\u200bREGISTRATION\u200b\u200b$250 / person for the 5 days\u200b\u200b\u200bLimited spots available\u200b\u200b\u200bReserve your seat today!\u200bYour Host:\u200b\u200b\u200bSuraj Kumar, Mechanical Engineer with years of Fusion360 experience\u200b\u200b\u200b*thank you tofractal techfor hosting us!*Contact at surajratnam99@gmail.com",
-      "startDate": "2025-04-07T22:00:00Z",
-      "endDate": "2025-04-08T01:00:00Z",
+      "description": "\u200bHave the knack to design your own mechanical products and 3D print them? Unsure where to start? Fear not.\u200b\u200b\u200bHI! I'mSuraj Kumarand I can teach you how to become a maker in five days. I was the Chief Engineer of Sherpy, a drone startup that manufactured small, long-range airplanes for commercial delivery (sherpymedia.com). I now founded a neurotech startup (Cerelog.com).There are a lot of visionaries and hackers around in New York City, but materializing an idea can be quite the wall to climb! What are the real-world constraints to pay attention to when designing something? Where's the space where you can build things fast and get great advice?!\u200b\u200bThis is a small-group, high attention workshop, targeting 10 creative people who have the itch to create things.Light on theory, heavy on practice!\u200b\u200bWHAT YOU'LL DO\u200b\u200bGet familiar with Fusion360!\u200b\u200b\u200b\u200bDesign your own custom spray bottle using Fusion360. Use it for cleaning around your house/pranking your dog!\u200b\u200b\u200b\u200bWe provide the nozzle and tube\u2014you design the rest!\u200b\u200b\u200b\u200b3D print your creation on the high performance Bambu X1 Carbon printer\u200b\u200b\u200b\u200bDETAILS\u200b\u200b\u200b\u200bFive-day workshop (~3 hrs per session)\u200b\u200bMon - Fri\u200b\u200b\u200b\u200bProfessional guidance from an experienced engineer\u200b\u200b\u200b\u200bLearn to navigate Fusion360 and think like a designer\u200b\u200b\u200b\u200bREGISTRATION\u200b\u200b\u200b$100 / person for the 4 days\u200b\u200b\u200b\u200bLimited spots available\u200b\u200b\u200b\u200bReserve your seat today!\u200b\u200bYour Host:\u200b\u200b\u200b\u200bSuraj Kumar, Mechanical Engineer with years of Fusion360 experience\u200b\u200b\u200b\u200b*thank you tofractal techfor hosting us!*Contact at surajratnam99@gmail.com",
+      "startDate": "2025-04-28T22:00:00Z",
+      "endDate": "2025-04-29T01:00:00Z",
       "category": [
         "Tech"
       ],
@@ -78,10 +21,10 @@
       "capacity": null,
       "registrationRequired": false,
       "tags": "",
-      "image": "luma-event-7c08522b.jpg",
+      "image": "luma-event-4f845869.jpg",
       "status": "upcoming",
       "metadata": {
-        "source_url": "https://lu.ma/c9bexs8f",
+        "source_url": "https://lu.ma/ykxtq7jd",
         "organizer": {
           "name": "SideQuest",
           "instagram": "",
