@@ -54,66 +54,68 @@ def load_events(events_file='combined_events.json'):
         logging.error(f"Error loading events: {e}")
         return []
 
-def filter_upcoming_events(events, days_ahead=2):
-    """Filter events happening in the next X days."""
-    now = datetime.now(pytz.utc)
+def get_events_for_target_day_ny(events, target_day_for_filtering_ny):
+    """Filter events that occur on the specified target_day_for_filtering_ny in New York time."""
+    ny_tz = pytz.timezone('America/New_York')
     
+    # Ensure target_day_for_filtering_ny is the start of the day in NY
+    day_start_ny = target_day_for_filtering_ny.replace(hour=0, minute=0, second=0, microsecond=0)
+    day_end_ny = day_start_ny + timedelta(days=1) # End of the target day (exclusive)
+
+    logging.info(f"Filtering events for NY date: {day_start_ny.strftime('%Y-%m-%d')}, " +
+                 f"Window (NYT): {day_start_ny.isoformat()} to {day_end_ny.isoformat()}")
+
     # Check if this is test data (assuming test data has specific event names)
     is_test_data = any(event.get('name') in ['Valid Event', 'No Date Event', 'Invalid URL Event'] for event in events)
     
     if is_test_data:
-        logging.info("Test data detected - including all events with valid dates")
-        upcoming = []
+        logging.info("Test data detected - including all test events with valid dates, ignoring target day for tests.")
+        upcoming_for_test = []
         for event in events:
             if event.get('startDate'):
-                upcoming.append(event)
+                upcoming_for_test.append(event)
                 logging.info(f"Including test event: {event.get('name')}")
-            #else:
-                #logging.warning(f"Skipping test event without date: {event.get('name', 'Unknown')}")
-        
-        return upcoming
+        return upcoming_for_test
     
-    # Regular processing for non-test data
-    cutoff = now + timedelta(days=days_ahead)
-    logging.info(f"Using date range: {now} to {cutoff}")
-    
-    upcoming = []
+    upcoming_on_target_day = []
     skipped_no_date = 0
     skipped_date_parsing = 0
-    skipped_past_or_future = 0
+    skipped_outside_target_day = 0
     
     for event in events:
         try:
-            # Skip events without a startDate
             if not event.get('startDate'):
                 logging.warning(f"Skipping event without start date: {event.get('name', 'Unknown')}")
                 skipped_no_date += 1
                 continue
                 
-            # Handle both timezone-aware and timezone-naive datetimes
-            start_date_str = event['startDate'].replace('Z', '+00:00')
-            start_date = datetime.fromisoformat(start_date_str)
+            start_date_str = event['startDate'].replace('Z', '+00:00') # Ensure ISO format compatibility
+            event_start_utc = datetime.fromisoformat(start_date_str)
             
-            # Make sure start_date is timezone aware
-            if start_date.tzinfo is None:
-                # If it's naive, assume it's in UTC
-                start_date = pytz.utc.localize(start_date)
+            if event_start_utc.tzinfo is None: # Should ideally always have tzinfo from source
+                event_start_utc = pytz.utc.localize(event_start_utc)
                 
-            if now <= start_date <= cutoff:
-                upcoming.append(event)
-                logging.info(f"Including event: {event.get('name')} on {start_date}")
+            # Convert event start time to New York time
+            event_start_ny = event_start_utc.astimezone(ny_tz)
+            
+            if day_start_ny <= event_start_ny < day_end_ny:
+                upcoming_on_target_day.append(event)
+                logging.info(f"Including event: {event.get('name')} starting at {event_start_ny.isoformat()} (NYT)")
             else:
-                skipped_past_or_future += 1
-                logging.debug(f"Skipping event outside date range: {event.get('name')} on {start_date}")
+                skipped_outside_target_day += 1
+                logging.debug(f"Skipping event: {event.get('name')} starting at {event_start_ny.isoformat()} (NYT) - outside target day window.")
         except Exception as e:
-            logging.warning(f"Error parsing date for event {event.get('name')}: {e}")
+            logging.warning(f"Error processing date for event {event.get('name')}: {e}")
             skipped_date_parsing += 1
             continue
-    
-    logging.info(f"Event processing summary: {len(upcoming)} included, {skipped_no_date} skipped (no date), " +
-                f"{skipped_date_parsing} skipped (date parsing error), {skipped_past_or_future} skipped (outside date range)")
-    
-    return upcoming
+            
+    logging.info(f"Event processing for {day_start_ny.strftime('%Y-%m-%d')} (NYT) summary: " +
+                 f"{len(upcoming_on_target_day)} included, " +
+                 f"{skipped_no_date} skipped (no date), " +
+                 f"{skipped_date_parsing} skipped (date parsing error), " +
+                 f"{skipped_outside_target_day} skipped (outside target day)")
+                 
+    return upcoming_on_target_day
 
 def shorten_url(long_url):
     if not long_url or long_url == '#':
@@ -255,16 +257,28 @@ def main():
         events = load_events()
         logging.info(f"Loaded {len(events)} events total")
         
-        upcoming_events = filter_upcoming_events(events)
+        # Determine the target date for the tweet header and event filtering
+        # This will be two days from the script's current run date in New York
+        ny_tz = pytz.timezone('America/New_York')
+        current_time_ny = datetime.now(ny_tz)
+        
+        # target_day_for_header is for display in the tweet
+        target_day_for_header = current_time_ny + timedelta(days=2)
+        target_day_for_header_str = target_day_for_header.strftime("%A, %B %d")
+        
+        # target_day_for_filtering is the specific day we want events from (midnight to midnight NYT)
+        target_day_for_filtering = (current_time_ny + timedelta(days=2)).replace(hour=0, minute=0, second=0, microsecond=0)
+
+        logging.info(f"Script run time (NYT): {current_time_ny.isoformat()}")
+        logging.info(f"Targeting events for NYT date: {target_day_for_filtering.strftime('%Y-%m-%d')}")
+
+        upcoming_events = get_events_for_target_day_ny(events, target_day_for_filtering)
         
         if not upcoming_events:
-            logging.warning("No upcoming events found")
+            logging.warning(f"No upcoming events found for {target_day_for_filtering.strftime('%Y-%m-%d')} NYT.")
             return
 
-        # Get the date two days from now for the initial tweet
-        target_date = datetime.now(pytz.timezone('America/New_York')) + timedelta(days=2)
-        target_date_str = target_date.strftime("%A, %B %d")
-        initial_tweet_text = f"Here are some things to do in NYC for {target_date_str}:"
+        initial_tweet_text = f"Here are some things to do in NYC for {target_day_for_header_str}:"
         
         previous_tweet_id = None
         
