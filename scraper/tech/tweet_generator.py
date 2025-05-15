@@ -297,27 +297,27 @@ def main():
                 
             logging.info(f"Generated reply content for {event.get('name', 'Unnamed Event')}: {tweet_content}")
 
-            # if TWITTER_API_KEY and TWITTER_API_KEY != "YOUR_API_KEY":
-            #     if previous_tweet_id: # Only post as reply if initial tweet (or previous reply) was successful
-            #         logging.info(f"Posting event {i+1} as a reply to tweet ID: {previous_tweet_id}")
-            #         current_tweet_id = post_to_twitter(
-            #             tweet_content,
-            #             TWITTER_API_KEY,
-            #             TWITTER_API_SECRET,
-            #             TWITTER_ACCESS_TOKEN,
-            #             TWITTER_ACCESS_TOKEN_SECRET,
-            #             in_reply_to_tweet_id=previous_tweet_id
-            #         )
-            #         if current_tweet_id:
-            #             previous_tweet_id = current_tweet_id # Update for the next reply
-            #         else:
-            #             logging.warning(f"Failed to post reply for event: {event.get('name')}. Subsequent events may not be threaded correctly.")
-            #             # Optionally, could break here or try to post next as a new tweet
-            #     else:
-            #         logging.warning(f"Cannot post reply for event {event.get('name')} because previous_tweet_id is missing.")
-            # else:
-            #     logging.warning(f"Skipping Twitter post (reply for {event.get('name')}): Twitter API credentials missing.")
-            #     print(f"LOCAL DEBUG (Reply {i+1} to {previous_tweet_id if previous_tweet_id else '[No Initial Tweet ID]'}): {tweet_content}") # For local non-posting test
+            if TWITTER_API_KEY and TWITTER_API_KEY != "YOUR_API_KEY":
+                if previous_tweet_id: # Only post as reply if initial tweet (or previous reply) was successful
+                    logging.info(f"Posting event {i+1} as a reply to tweet ID: {previous_tweet_id}")
+                    current_tweet_id = post_to_twitter(
+                        tweet_content,
+                        TWITTER_API_KEY,
+                        TWITTER_API_SECRET,
+                        TWITTER_ACCESS_TOKEN,
+                        TWITTER_ACCESS_TOKEN_SECRET,
+                        in_reply_to_tweet_id=previous_tweet_id
+                    )
+                    if current_tweet_id:
+                        previous_tweet_id = current_tweet_id # Update for the next reply
+                    else:
+                        logging.warning(f"Failed to post reply for event: {event.get('name')}. Subsequent events may not be threaded correctly.")
+                        # Optionally, could break here or try to post next as a new tweet
+                else:
+                    logging.warning(f"Cannot post reply for event {event.get('name')} because previous_tweet_id is missing.")
+            else:
+                logging.warning(f"Skipping Twitter post (reply for {event.get('name')}): Twitter API credentials missing.")
+                print(f"LOCAL DEBUG (Reply {i+1} to {previous_tweet_id if previous_tweet_id else '[No Initial Tweet ID]'}): {tweet_content}") # For local non-posting test
 
     except Exception as e:
         logging.error(f"Error in tweet generation main function: {e}")
