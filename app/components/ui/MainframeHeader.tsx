@@ -80,9 +80,9 @@ export function MainframeHeader() {
               <span className="link-icon">◎</span>
               <span className="link-text">Locations</span>
             </a>
-            <a href="/substacks" className="mainframe-link" onClick={playButtonSound}>
+            <a href="/about" className="mainframe-link" onClick={playButtonSound}>
               <span className="link-icon">⎈</span>
-              <span className="link-text">Substacks</span>
+              <span className="link-text">About</span>
             </a>
           </div>
         </nav>
