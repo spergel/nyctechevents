@@ -64,6 +64,10 @@ ICS_CALENDARS = {
     "acid_club": {
         "id": "http://api.lu.ma/ics/get?entity=calendar&id=cal-uMDiLB3ckLaGfkl",
         "community_id": "com_acid_club"
+    },
+    "desci_nyc": {
+        "id": "http://api.lu.ma/ics/get?entity=calendar&id=cal-wZRB9D5dtAO9FXa",
+        "community_id": "com_desci"
     }
 }
 
@@ -136,6 +140,7 @@ SCRAPERS = [
     'ics_calendar_scraper',
     'index_space_scraper',
     'fabrik_scraper',
+    
     #'substack_scraper',
     #'nyc_parks_scraper'
 ] 

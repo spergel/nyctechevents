@@ -196,6 +196,37 @@
         "internet culture",
         "artist-run"
       ]
+    },
+    {
+      "id": "loc_desci",
+      "name": "DeSci NYC Meetup Location",
+      "community_and_location": false,
+      "mainCommunityId": "com_desci",
+      "type": "Community Space",
+      "address": "Various locations in NYC (see event details)",
+      "coordinates": {
+        "lat": 40.7128, 
+        "lng": -74.0060 
+      },
+      "description": "DeSci NYC holds monthly meetups and events at various locations throughout New York City. Please check specific event details for the exact venue.",
+      "amenities": [
+        "Varies by event"
+      ],
+      "website": "https://www.desci.nyc",
+      "images": [
+        "desci-nyc-community.jpg"
+      ],
+      "category": [
+        "Science",
+        "Tech",
+        "Meetup"
+      ],
+      "tags": [
+        "science meetup",
+        "decentralized science",
+        "community events",
+        "nyc"
+      ]
     }
   ]
 }

@@ -64,6 +64,11 @@
       "id": "com_sidequest",
       "name": "Sidequest",
       "type": "tech"
+    },
+    {
+      "id": "com_desci",
+      "name": "DeSci NYC",
+      "type": "Tech"
     }
   ]
 }

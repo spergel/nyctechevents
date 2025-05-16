@@ -366,19 +366,22 @@
       "id": "com_desci",
       "name": "DeSci NYC",
       "type": "Tech",
-      "description": "A community dedicated to advancing decentralized science initiatives, fostering innovation and collaboration in scientific research and technology.",
+      "description": "DeSci NYC is a monthly meetup for science enthusiasts in NYC to learn, share projects, and socialize. It's a community dedicated to advancing decentralized science (DeSci) initiatives, fostering innovation, and collaboration in scientific research and technology. Science is for everyone, and we try to make it accessible to all. Open to science people and people interested in science.",
       "founded": "2022",
       "size": "0",
       "category": [
         "Science",
         "Technology",
         "Research",
-        "Web3"
+        "Web3",
+        "Networking",
+        "Community"
       ],
       "contact": {
         "email": "info@desci.nyc",
         "social": {
-          "twitter": "@desci_nyc"
+          "twitter": "@desci_nyc",
+          "telegram": "https://t.me/desci_nyc"
         }
       },
       "website": "https://www.desci.nyc",
@@ -388,9 +391,14 @@
       "image": "desci-nyc-community.jpg",
       "tags": [
         "science",
+        "decentralized science",
         "blockchain",
         "research",
-        "technology"
+        "technology",
+        "meetup",
+        "nyc",
+        "community",
+        "networking"
       ],
       "membershipType": "Open",
       "membershipFee": "Free"
