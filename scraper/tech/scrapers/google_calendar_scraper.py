@@ -273,6 +273,15 @@ def format_google_event(event: Dict, community_id: str) -> Dict:
         if luma_details['title'] != event_title:
             event_title = luma_details['title']
     
+    # Determine the source URL
+    source_url_to_use = event.get('htmlLink', '') # Default to Google Calendar event link
+    if event_url: # If a Luma/Eventbrite URL was extracted
+        source_url_to_use = event_url
+    else: # No Luma/Eventbrite URL, try community website
+        community_website = COMMUNITIES.get(community_id, {}).get('website')
+        if community_website:
+            source_url_to_use = community_website
+
     return {
         "id": event_id,
         "name": event_title,
@@ -290,7 +299,7 @@ def format_google_event(event: Dict, community_id: str) -> Dict:
         "image": image,
         "status": "upcoming",
         "metadata": {
-            "source_url": event_url if event_url else event.get('htmlLink', ''),
+            "source_url": source_url_to_use,
             "organizer": {
                 "name": event.get('organizer', {}).get('displayName', ''),
                 "instagram": "",
