@@ -41,11 +41,7 @@ jobs:
           echo "Running scraper with PYTHONPATH: $PYTHONPATH"
           
           # Create necessary directories
-          mkdir -p scraper/data
-          mkdir -p scraper/tech/data
-          mkdir -p scraper/tech/tweets
-          mkdir -p tech/tweets  # Create old directory for backward compatibility
-          mkdir -p public/tweets  # Create public tweets directory
+          mkdir -p scraper/data # For combined_events.json, etc.
           
           # Check if we have the right dependencies
           echo "Checking installed packages:"
@@ -53,7 +49,7 @@ jobs:
           
           # Run with more verbose output
           echo "Running scrapers..."
-          python -m scraper.tech.run_all -v
+          python -m scraper.run_all -v
           
           # Examine output files
           echo "Listing data files:"
@@ -64,16 +60,9 @@ jobs:
           mkdir -p public/data
           cp scraper/data/combined_events.json public/data/events.json
           
-          # Generate tweets
+          # Generate tweets (this will still run to post to Twitter if configured)
           echo "Generating tweets"
-          python -m scraper.tech.tweet_generator
-          
-          # Copy tweet files to all needed locations
-          echo "Copying tweet files to required locations"
-          if [ -d "scraper/tech/tweets" ] && [ "$(ls -A scraper/tech/tweets)" ]; then
-            cp -r scraper/tech/tweets/* tech/tweets/ || true
-            cp -r scraper/tech/tweets/* public/tweets/ || true
-          fi
+          python -m scraper.tweet_generator
         env:
           GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
@@ -92,33 +81,12 @@ jobs:
           # Add all relevant data files (ignoring errors for gitignored files)
           echo "Adding data files..."
           git add scraper/data/*.json || true
-          git add scraper/tech/data/*.json || true
           git add public/data/events.json || true
           
           # Specifically add cache files with force if they exist
-          if ls scraper/tech/data/cache/*.json 1> /dev/null 2>&1; then
+          if ls scraper/data/cache/*.json 1> /dev/null 2>&1; then
             echo "Adding cache files (with force)..."
-            git add -f scraper/tech/data/cache/*.json || true
-          fi
-          
-          # Add tweet files if they exist
-          if ls scraper/tech/tweets/*.html 1> /dev/null 2>&1; then
-            echo "Adding tweet files..."
-            git add scraper/tech/tweets/*.html || true
-          else
-            echo "No tweet files found to add"
-          fi
-          
-          # Add old tweet files location too
-          if ls tech/tweets/*.html 1> /dev/null 2>&1; then
-            echo "Adding old location tweet files..."
-            git add tech/tweets/*.html || true
-          fi
-          
-          # Add public tweets files if they exist
-          if ls public/tweets/*.html 1> /dev/null 2>&1; then
-            echo "Adding public tweet files..."
-            git add public/tweets/*.html || true
+            git add -f scraper/data/cache/*.json || true
           fi
           
           # Check if we have changes to commit

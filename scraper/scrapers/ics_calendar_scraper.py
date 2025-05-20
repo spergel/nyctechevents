@@ -13,8 +13,16 @@ from scraper.tech.scrapers.calendar_configs import ICS_CALENDARS
 
 # Setup paths
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-TECH_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-DATA_DIR = os.path.join(TECH_DIR, 'data')
+# Path to the project root (assuming this script is in scraper/tech/scrapers/)
+_PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(SCRIPT_DIR)))
+
+# Directory for reading config files like communities.json
+CONFIG_DATA_DIR = os.path.join(_PROJECT_ROOT, 'public', 'data')
+
+# Directory for scraper's own output (will be refined in later refactoring stages)
+# For now, keep original logic relative to SCRIPT_DIR to output to scraper/tech/data/
+_SCRAPER_TECH_DIR = os.path.dirname(SCRIPT_DIR) # This is scraper/tech/
+OUTPUT_DATA_DIR = os.path.join(_SCRAPER_TECH_DIR, 'data') # This is scraper/tech/data/
 
 # Configure logging
 logging.basicConfig(
@@ -26,14 +34,14 @@ logging.basicConfig(
 # Load communities data
 communities = {}
 try:
-    communities_file = os.path.join(DATA_DIR, 'communities.json')
+    communities_file = os.path.join(CONFIG_DATA_DIR, 'communities.json') # Changed to CONFIG_DATA_DIR
     if os.path.exists(communities_file):
         with open(communities_file, 'r') as f:
             communities = {com['id']: com for com in json.load(f).get('communities', [])}
     else:
-        logging.warning(f"Communities file not found: {communities_file}")
+        logging.warning(f"Communities file not found: {communities_file} (Looking in public/data/)")
 except Exception as e:
-    logging.error(f"Error loading communities data: {e}")
+    logging.error(f"Error loading communities data from {CONFIG_DATA_DIR}: {e}")
 
 def get_luma_event_details(event_url: str) -> Optional[Dict]:
     """Fetch detailed event information from Luma event page"""
@@ -472,9 +480,16 @@ def is_future_event(event: Dict) -> bool:
 
 def main():
     all_events = []
-    
-    # Create data directory if it doesn't exist
-    os.makedirs(DATA_DIR, exist_ok=True)
+    # Try to load existing events first
+    try:
+        output_file = os.path.join(OUTPUT_DATA_DIR, 'ics_calendar_events.json') # Use OUTPUT_DATA_DIR
+        if os.path.exists(output_file):
+            with open(output_file, 'r') as f:
+                existing_data = json.load(f)
+            all_events = existing_data.get('events', [])
+            logging.info(f"Loaded {len(all_events)} existing events from {output_file}")
+    except Exception as e:
+        logging.error(f"Error loading existing events: {e}")
     
     for calendar_name, calendar_config in ICS_CALENDARS.items():
         logging.info(f"Fetching events for {calendar_name}")
@@ -489,16 +504,18 @@ def main():
     # Filter out past events
     filtered_events = [event for event in all_events if is_future_event(event)]
     
-    # Save events to file
-    output_file = os.path.join(DATA_DIR, 'ics_calendar_events.json')
-    try:
-        with open(output_file, 'w', encoding='utf-8') as f:
-            json.dump({"events": filtered_events}, f, indent=2, ensure_ascii=False)
-        logging.info(f"Saved {len(filtered_events)} events to {output_file}")
-        return output_file
-    except Exception as e:
-        logging.error(f"Failed to save events: {e}")
-        return None
+    # Save all fetched events
+    output = {"events": filtered_events}
+    
+    # Create data directory if it doesn't exist
+    os.makedirs(OUTPUT_DATA_DIR, exist_ok=True) # Use OUTPUT_DATA_DIR
+    
+    output_file = os.path.join(OUTPUT_DATA_DIR, 'ics_calendar_events.json') # Use OUTPUT_DATA_DIR
+    
+    with open(output_file, 'w', encoding='utf-8') as f:
+        json.dump(output, f, indent=2, ensure_ascii=False)
+    logging.info(f"Saved {len(filtered_events)} events to {output_file}")
+    return output_file
 
 if __name__ == "__main__":
     main() 

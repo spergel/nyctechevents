@@ -14,16 +14,17 @@ from typing import List, Dict, Any
 import atexit
 import signal
 
-# Add the parent directory to the Python path
-sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
+# Add the parent directory (project root) to the Python path
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 # Import scrapers list
-from scraper.tech.scrapers.calendar_configs import SCRAPERS
+from scraper.scrapers.calendar_configs import SCRAPERS
 
 # Setup paths
-SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__)) # Will be scraper/
+# TECH_DIR will now point to the project root if script is in scraper/
 TECH_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-DATA_DIR = os.path.join(TECH_DIR, 'data')
+DATA_DIR = os.path.join(SCRIPT_DIR, 'data') # Correctly scraper/data
 
 # Ensure data directory exists
 os.makedirs(DATA_DIR, exist_ok=True)
@@ -129,8 +130,8 @@ def run_scrapers() -> List[str]:
     for scraper_name in SCRAPERS:
         try:
             logging.info(f"Attempting to run scraper: {scraper_name}")
-            # Import the scraper module
-            scraper_module = importlib.import_module(f'scraper.tech.scrapers.{scraper_name}')
+            # Import the scraper module from scraper.scrapers
+            scraper_module = importlib.import_module(f'scraper.scrapers.{scraper_name}')
             logging.info(f"Running scraper: {scraper_name}")
             
             # Run the scraper
@@ -193,7 +194,7 @@ def combine_event_files(input_files: List[str], output_file: str = None) -> str:
         logging.warning("No events collected. Exiting.")
         return None
     
-    # Create data directory if it doesn't exist
+    # Create data directory if it doesn't exist (DATA_DIR is scraper/data)
     os.makedirs(os.path.dirname(output_file), exist_ok=True)
     
     # Save combined events
@@ -210,29 +211,10 @@ def run_categorization(input_file: str, output_file: str) -> None:
     """Run event categorization"""
     try:
         # Load auxiliary data from public/data directory
-        root_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-        communities_file = os.path.join(root_dir, 'public', 'data', 'communities.json')
-        locations_file = os.path.join(root_dir, 'public', 'data', 'locations.json')
+        # root_dir calculation in categorize_events.py is updated to handle its new location
         
-        # Load communities data
-        try:
-            with open(communities_file, 'r', encoding='utf-8') as f:
-                communities_data = json.load(f)
-                logging.info(f"Loaded {len(communities_data.get('communities', []))} communities")
-        except Exception as e:
-            logging.warning(f"Could not load communities data: {e}")
-            communities_data = {"communities": []}
-            
-        # Load locations data
-        try:
-            with open(locations_file, 'r', encoding='utf-8') as f:
-                locations_data = json.load(f)
-                logging.info(f"Loaded {len(locations_data.get('locations', []))} locations")
-        except Exception as e:
-            logging.warning(f"Could not load locations data: {e}")
-            locations_data = {"locations": []}
-        
-        from scraper.tech.categorize_events import main as categorize_main
+        # Import categorize_main from scraper.categorize_events
+        from scraper.categorize_events import main as categorize_main
         categorize_main(input_file, output_file)
         return True
     except Exception as e:
@@ -277,23 +259,27 @@ def main():
             return
         
         # If output file specified, copy combined events there
+        # Note: categorize_events already saves to args.output if provided to its main function.
+        # This section seems redundant if run_categorization saves to args.output.
+        # However, run_categorization's output_file param might be different from combined_file.
+        # Let's assume combined_file is the categorized one if args.output was used by run_categorization.
+        # The current logic in run_categorization saves to its output_file arg.
+        # And run_all passes args.output to it.
+        # This block for copying to args.output might be intended if args.output is different from what categorize_main used.
+        # For now, keeping the structure.
         if args.output:
-            data = None
-            try:
-                with open(combined_file, 'r', encoding='utf-8') as f:
-                    data = json.load(f)
-            except Exception as e:
-                logging.error(f"Error reading combined file for output: {e}")
-                return
-                
-            try:
-                with open(args.output, 'w', encoding='utf-8') as f:
-                    json.dump(data, f, indent=2, ensure_ascii=False)
-                logging.info(f"Saved events to {args.output}")
-                # Mark as success if we got here
-                success = True
-            except Exception as e:
-                logging.error(f"Error saving to output file: {e}")
+            # If categorization was successful and args.output was specified, the categorized events are in args.output.
+            # This block tries to read combined_file and write to args.output, which might be overwriting.
+            # Let's assume categorized events are in 'combined_file' (which is the output of combine_event_files)
+            # and then run_categorization processes 'combined_file' and saves to 'args.output'.
+            # So, if args.output exists and is from categorization, this part is ok.
+            # If args.output was not provided to run_categorization, then this will copy the raw combined to args.output.
+            # The run_categorization call IS `categorize_main(input_file, output_file)` where output_file is args.output.
+            # So, if args.output is set, categorized events are already there.
+            # This if args.output block for copying might be simplified or removed.
+            # The critical part is that `success = True` is set.
+            logging.info(f"Categorized events should be in {args.output if args.output else 'default location used by categorize_events'}")
+            success = True # If categorization succeeded and we are here.
         else:
             # If no output file was specified but we got this far, still mark as success
             success = True

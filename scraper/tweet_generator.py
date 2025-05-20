@@ -23,8 +23,8 @@ TWITTER_ACCESS_TOKEN_SECRET = os.environ.get("TWITTER_ACCESS_TOKEN_SECRET", "YOU
 
 # Setup paths
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-DATA_DIR = os.path.join(SCRIPT_DIR, 'data')
-TWEETS_DIR = os.path.join(SCRIPT_DIR, 'tweets')
+DATA_DIR = os.path.join(SCRIPT_DIR, 'data') # After move, SCRIPT_DIR is 'scraper', so this is 'scraper/data'
+TWEETS_DIR = os.path.join(SCRIPT_DIR, 'tweets') # After move, SCRIPT_DIR is 'scraper', so this is 'scraper/tweets'
 
 # Configure logging
 logging.basicConfig(
@@ -45,9 +45,10 @@ else:
 def load_events(events_file='combined_events.json'):
     """Load events from the events file."""
     try:
-        # Look in the parent scraper/data directory for combined_events.json
-        parent_data_dir = os.path.join(os.path.dirname(SCRIPT_DIR), 'data')
-        with open(os.path.join(parent_data_dir, events_file), 'r', encoding='utf-8') as f:
+        # After moving, SCRIPT_DIR is 'scraper', DATA_DIR is 'scraper/data' (defined as os.path.join(SCRIPT_DIR, 'data'))
+        # combined_events.json is expected in DATA_DIR.
+        file_path = os.path.join(DATA_DIR, events_file)
+        with open(file_path, 'r', encoding='utf-8') as f:
             data = json.load(f)
             return data.get('events', [])
     except Exception as e:
@@ -140,7 +141,7 @@ def generate_tweet_with_gemini(event):
         return f"Check out this event: {event.get('name', 'N/A')}! More info at {event.get('url', '#')}"
 
     try:
-        model = genai.GenerativeModel('gemini-2.0-flash')
+        model = genai.GenerativeModel('gemini-1.5-flash') # Using a known valid model
 
         # Prepare event details for the prompt
         # Ensure all potentially missing data is handled gracefully for the prompt

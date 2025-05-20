@@ -227,6 +227,38 @@
         "community events",
         "nyc"
       ]
+    },
+    {
+      "id": "loc_civic_techish_nyc",
+      "name": "Civic Tech'ish NYC Meetup Location",
+      "community_and_location": false,
+      "mainCommunityId": "com_civic_techish_nyc",
+      "type": "Various",
+      "address": "Various locations in NYC (e.g., Long Island City, Queens - see event details)",
+      "coordinates": {
+        "lat": 40.7128, 
+        "lng": -74.0060 
+      },
+      "description": "Civic Tech'ish NYC hosts events like coffee hours at various locations throughout New York City. Please check specific event details on their Luma page (https://lu.ma/civic-techish) for the exact venue.",
+      "amenities": [
+        "Varies by event"
+      ],
+      "website": "https://lu.ma/civic-techish",
+      "images": [
+        "civic-techish-nyc-community.jpg" 
+      ],
+      "category": [
+        "Civic Tech",
+        "Networking",
+        "Community"
+      ],
+      "tags": [
+        "civic tech",
+        "community events",
+        "nyc",
+        "networking",
+        "meetup"
+      ]
     }
   ]
 }

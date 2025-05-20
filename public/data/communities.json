@@ -751,7 +751,7 @@
           "website": "https://raid.nyc"
         }
       },
-      "website": "https://raid.nyc",
+      "website": "https://lu.ma/clpjfa51",
       "meetingLocationIds": [],
       "image": "raid-nyc-community.jpg",
       "tags": [
@@ -995,6 +995,77 @@
       "tags": ["mathematics", "computer science", "research", "academic"],
       "membershipType": "Academic Affiliation",
       "membershipFee": "Tuition-based"
+    },
+    {
+      "id": "com_satori",
+      "name": "Satori - Coffee & Chill",
+      "type": "Networking",
+      "description": "Wholesome events for ambitious peeps in NYC. Satori means a moment of sudden enlightenment in Zen Buddhism. This community hosts laid-back events like coffee and chill sessions for ambitious, interesting humans to connect.",
+      "founded": "",
+      "size": "0",
+      "category": [
+        "Networking",
+        "Community",
+        "Social"
+      ],
+      "contact": {
+        "social": {
+          "instagram": "@letslivesatori"
+        }
+      },
+      "website": "https://lu.ma/satori",
+      "meetingLocationIds": [],
+      "image": "satori-community.jpg",
+      "tags": [
+        "networking",
+        "community",
+        "social",
+        "coffee",
+        "chill",
+        "ambitious people",
+        "nyc"
+      ],
+      "membershipType": "Open",
+      "membershipFee": "Free"
+    },
+    {
+      "id": "com_civic_techish_nyc",
+      "name": "Civic Tech'ish NYC",
+      "type": "Tech",
+      "description": "New Yorkers passionate about improving government services for all. We host events like coffee hours and share resources (see bit.ly/CivicTechishNYC) for the civic tech curious. Join our Google Group for announcements: groups.google.com/g/civic-techish-nyc.",
+      "founded": "",
+      "size": "0",
+      "category": [
+        "Tech",
+        "Civic Tech",
+        "Government",
+        "Community",
+        "Networking"
+      ],
+      "contact": {
+        "email": "civictechish@gmail.com",
+        "social": {
+          "google_group": "groups.google.com/g/civic-techish-nyc"
+        }
+      },
+      "website": "https://lu.ma/civic-techish",
+      "meetingLocationIds": ["loc_civic_techish_nyc"],
+      "image": "civic-techish-nyc-community.jpg",
+      "tags": [
+        "civic tech",
+        "government technology",
+        "public interest tech",
+        "nyc",
+        "community",
+        "networking",
+        "events"
+      ],
+      "membershipType": "Open",
+      "membershipFee": "Free",
+      "additionalInfo": {
+        "codeOfConductUrl": "bit.ly/CivicTechishNYC",
+        "resourcesUrl": "bit.ly/CivicTechishNYC"
+      }
     }
   ]
 }

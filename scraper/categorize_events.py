@@ -78,17 +78,17 @@ CATEGORIES = {
     }
 }
         
-        # Load community and location data
+# Load community and location data
 def load_auxiliary_data():
     """Load community and location data for enhanced categorization"""
     communities = {}
     locations = {}
     
     try:
-        # Get the root directory path
+        # Get the current directory path (scraper/)
         current_dir = os.path.dirname(os.path.abspath(__file__))
-        # Navigate up three levels: scraper/tech -> scraper -> project root
-        root_dir = os.path.dirname(os.path.dirname(current_dir))
+        # Navigate up one level to get the project root
+        root_dir = os.path.dirname(current_dir)
         
         # Construct paths to the auxiliary data files
         communities_file = os.path.join(root_dir, 'public', 'data', 'communities.json')
@@ -439,8 +439,9 @@ def deduplicate_events(events: List[Dict]) -> List[Dict]:
     # Final step: Check against existing events in the data file to prevent infinite duplicates
     try:
         existing_events = []
-        existing_events_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 
-                                          'tech', 'data', 'all_events_categorized.json')
+        # After move, __file__ is in 'scraper' dir. Data is in 'scraper/data'.
+        current_script_dir = os.path.dirname(os.path.abspath(__file__))
+        existing_events_path = os.path.join(current_script_dir, 'data', 'all_events_categorized.json')
         
         if os.path.exists(existing_events_path):
             with open(existing_events_path, 'r', encoding='utf-8') as f:

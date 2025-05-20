@@ -49,10 +49,10 @@ ICS_CALENDARS = {
         "id": "http://api.lu.ma/ics/get?entity=calendar&id=cal-4oDH9h513BBRk6y",
         "community_id": "com_la_creme_stem"
     },
-    "third_place_nyc": {
-        "id": "http://api.lu.ma/ics/get?entity=calendar&id=cal-AIpaP0cRGKS7tcw",
-        "community_id": "com_third_place_nyc"
-    },
+    # "third_place_nyc": {
+    #     "id": "http://api.lu.ma/ics/get?entity=calendar&id=cal-AIpaP0cRGKS7tcw",
+    #     "community_id": "com_third_place_nyc"
+    # },
     # "reforester": {
     #     "id": "http://api.lu.ma/ics/get?entity=calendar&id=cal-p6wrlIz7NXddCxz",
     #     "community_id": "com_reforester"
@@ -68,6 +68,18 @@ ICS_CALENDARS = {
     "desci_nyc": {
         "id": "http://api.lu.ma/ics/get?entity=calendar&id=cal-wZRB9D5dtAO9FXa",
         "community_id": "com_desci"
+    },
+    "raid_nyc": {
+        "id": "https://api.lu.ma/ics/get?entity=calendar&id=cal-tBOSmnsBzW0kTrf",
+        "community_id": "com_raid"
+    },
+    "satori": {
+        "id": "https://api.lu.ma/ics/get?entity=calendar&id=cal-EYZA520VGEASXG2",
+        "community_id": "com_satori"
+    },
+    "civic_techish_nyc": {
+        "id": "https://api.lu.ma/ics/get?entity=calendar&id=cal-IS0wmeg4we7wiPa",
+        "community_id": "com_civic_techish_nyc"
     }
 }
 
@@ -135,11 +147,8 @@ GOOGLE_CALENDARS = {
 SCRAPERS = [
     'pioneer_works_scraper',
     'garys_guide_scraper',
-    'interference_scraper',
     'google_calendar_scraper',
     'ics_calendar_scraper',
-    'index_space_scraper',
-    'fabrik_scraper',
     
     #'substack_scraper',
     #'nyc_parks_scraper'
