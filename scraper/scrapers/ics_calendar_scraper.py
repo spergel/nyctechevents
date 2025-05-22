@@ -9,7 +9,7 @@ from bs4 import BeautifulSoup
 from typing import Dict, List, Optional
 from datetime import datetime
 from ics import Calendar, Event
-from scraper.tech.scrapers.calendar_configs import ICS_CALENDARS
+from .calendar_configs import ICS_CALENDARS
 
 # Setup paths
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))

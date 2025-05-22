@@ -281,91 +281,93 @@ class GarysGuideScraper:
             }
         }
     
-    def scrape_events(self) -> bool:
-        """Main method to scrape all Gary's Guide events"""
+    def scrape_events(self) -> List[Dict]:
+        """Scrape all events from Gary's Guide"""
+        logger.info("Starting Gary's Guide events scraper")
+        
+        # Fetch the main events page
         try:
-            # Get main events page
             response = self.session.get(self.EVENTS_URL)
             response.raise_for_status()
-            soup = BeautifulSoup(response.text, 'html.parser')
-            
-            # Find all event links - be more specific to target actual event pages
-            event_links = soup.find_all('a', href=re.compile(r'/events/\w+/'))
-            event_urls = []
-            
-            # Collect all unique event URLs
-            for link in event_links:
-                # Skip affiliate links (gary.to) - we want the actual Gary's Guide event pages
-                if 'gary.to' in link.get('href', ''):
-                    continue
-                    
-                event_url = urljoin(self.BASE_URL, link['href'])
-                if event_url not in event_urls:
-                    event_urls.append(event_url)
-            
-            logger.info(f"Found {len(event_urls)} events to scrape")
-            
-            events = []
-            for url in event_urls:
-                # Scrape individual event page
-                event = self._scrape_event_page(url)
-                if event:
-                    events.append(self._convert_to_event_json(event))
-                    logger.info(f"Scraped event: {event.name}")
-                
-                # Be nice to the server
-                time.sleep(1)
-            
-            # Save events
-            self._save_events(events)
-            
-            logger.info(f"Successfully scraped {len(events)} events from Gary's Guide")
-            return True
-            
-        except Exception as e:
-            logger.error(f"Error scraping Gary's Guide events: {str(e)}")
-            return False
-    
-    def _save_events(self, new_events: List[Dict]) -> None:
-        """Save new events to the events file"""
-        events_file = "data/gary_events.json"
-        
-        # Create file with empty array if doesn't exist
-        if not os.path.exists(events_file):
-            os.makedirs(os.path.dirname(events_file), exist_ok=True)
-            with open(events_file, 'w') as f:
-                json.dump({"events": []}, f)
-                
-        with open(events_file, 'r+') as f:
-            try:
-                data = json.load(f)
-            except json.JSONDecodeError:
-                data = {"events": []}  # Handle empty file case
-                
-            existing_events = {e["name"] for e in data["events"]}
-            # Add new events while avoiding duplicates
-            unique_new_events = [event for event in new_events if event["name"] not in existing_events]
-            
-            # Update events list
-            data["events"].extend(unique_new_events)
-            
-            # Save updated events
-            f.seek(0)
-            json.dump(data, f, indent=2)
-            f.truncate()
-            
-            logger.info(f"Saved {len(unique_new_events)} new events to {events_file}")
+        except requests.RequestException as e:
+            logger.error(f"Failed to fetch main events page: {e}")
+            return []  # Return empty list on failure
 
+        soup = BeautifulSoup(response.text, 'html.parser')
+        
+        # Find all event links
+        event_links = []
+        for link in soup.find_all('a', href=re.compile(r'/events/[a-zA-Z0-9]+/[^/]+$')):
+            if link.get('href'): # Ensure href exists
+                full_url = urljoin(self.BASE_URL, link['href'])
+                event_links.append(full_url)
+        
+        event_links = list(set(event_links))  # Remove duplicates
+        logger.info(f"Found {len(event_links)} events to scrape")
+        
+        all_events = []
+        scraped_count = 0
+        
+        for i, event_url in enumerate(event_links):
+            if i > 0 and i % 10 == 0: # Add a small delay every 10 requests
+                time.sleep(1)
+
+            logger.debug(f"Scraping event URL: {event_url}")
+            gary_event = self._scrape_event_page(event_url)
+            if gary_event:
+                event_json = self._convert_to_event_json(gary_event)
+                all_events.append(event_json)
+                logger.info(f"Scraped event: {gary_event.name}")
+                scraped_count += 1
+            else:
+                logger.warning(f"Failed to scrape event from {event_url}")
+
+        logger.info(f"Successfully scraped {scraped_count} events from Gary's Guide")
+        return all_events
+
+    def _save_events(self, new_events: List[Dict]) -> Optional[str]:
+        """Save new events to a JSON file in the data directory."""
+        if not new_events:
+            logger.info("No new events to save.")
+            return None
+
+        # Define the data directory relative to this script's location
+        # SCRIPT_DIR is scraper/scrapers
+        # DATA_DIR should be scraper/data
+        script_dir = os.path.dirname(os.path.abspath(__file__))
+        data_dir = os.path.join(os.path.dirname(script_dir), 'data')
+        
+        # Ensure data directory exists
+        os.makedirs(data_dir, exist_ok=True)
+        
+        output_file = os.path.join(data_dir, "gary_events.json")
+
+        try:
+            with open(output_file, 'w', encoding='utf-8') as f:
+                json.dump({"events": new_events}, f, indent=2, ensure_ascii=False)
+            logger.info(f"Saved {len(new_events)} new events to {output_file}")
+            return output_file
+        except IOError as e:
+            logger.error(f"Error saving events to {output_file}: {e}")
+            return None
+
+# Main function to run the scraper
 def main():
-    """Entry point for the scraper"""
-    logger.info("Starting Gary's Guide events scraper")
+    """Main function to run the Gary's Guide scraper."""
     scraper = GarysGuideScraper()
-    success = scraper.scrape_events()
-    if success:
-        logger.info("Gary's Guide events scraping completed successfully")
+    scraped_events_data = scraper.scrape_events()
+    
+    if scraped_events_data:
+        output_file_path = scraper._save_events(scraped_events_data)
+        if output_file_path:
+            logger.info("Gary's Guide events scraping completed successfully.")
+            return output_file_path  # Return the path to the output file
+        else:
+            logger.error("Gary's Guide scraping completed, but failed to save events.")
+            return None # Indicate failure to save
     else:
-        logger.error("Gary's Guide events scraping failed")
-    return success
+        logger.warning("No events were scraped from Gary's Guide.")
+        return None # Indicate no events scraped
 
 if __name__ == "__main__":
     main() 

@@ -28,9 +28,7 @@ CACHE_DIR = os.path.join(OUTPUT_DATA_DIR, 'cache', 'google_calendar') # Specific
 os.makedirs(CACHE_DIR, exist_ok=True)
 
 # Import local modules
-# Adjust import path for calendar_configs
-sys.path.append(os.path.join(SCRIPT_DIR, '../configs')) # Add parent of SCRIPT_DIR to path
-from calendar_configs import GOOGLE_CALENDARS
+from .calendar_configs import GOOGLE_CALENDARS
 from dotenv import load_dotenv
 
 # Add import for Luma event details function
