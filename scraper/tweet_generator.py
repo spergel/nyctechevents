@@ -149,7 +149,7 @@ def generate_tweet_with_gemini(event):
         start_date_str = event.get('startDate', 'Not specified')
         description = event.get('description', 'No description provided.')
         venue = event.get('location', {}).get('name', 'Venue TBD')
-        price_info = event.get('price', {})
+        price_info = event.get('price') or {}  # Handle None case
         price_type = price_info.get('type', 'N/A')
         price_amount = price_info.get('amount', '')
         price_str = f"{price_type} (${price_amount})" if price_type not in ['Free', 'N/A'] else price_type
@@ -165,12 +165,11 @@ def generate_tweet_with_gemini(event):
         display_url = shorten_url(original_url) # Use the new shorten_url function
 
         # Attempt to format date nicely if possible
+        formatted_date = "Date not specified"  # Default value
         try:
             if start_date_str != 'Not specified':
                 dt_obj = datetime.fromisoformat(start_date_str.replace('Z', '+00:00'))
                 formatted_date = dt_obj.strftime("%A, %B %d at %I:%M %p %Z")
-            else:
-                formatted_date = "Date not specified"
         except ValueError:
             formatted_date = start_date_str # Fallback to original string if parsing fails
 
