@@ -1,42 +1,6 @@
 {
   "events": [
     {
-      "id": "evt_pioneer_57b24697",
-      "name": "Opening Reception for Daniel Johnston & Felix Rodriguez",
-      "type": "Cultural Event",
-      "locationId": "loc_pioneer_works",
-      "communityId": "com_pioneer_works",
-      "description": "Join Pioneer Works in a public opening celebration of Daniel Johnston: I Think, I Draw I Am and Felix Rodriguez: Legendary Looks: My Ballroom Story.Lege...",
-      "startDate": "2025-06-06T23:00:00+00:00",
-      "endDate": "2025-06-07T03:00:00+00:00",
-      "category": [
-        "Arts",
-        "Music",
-        "Science"
-      ],
-      "price": null,
-      "registrationRequired": true,
-      "tags": [],
-      "image": [
-        "https://cdn.sanity.io/images/vgvol637/production/09936a321ccce725002c2481c000ed7779858122-5070x6613.jpg?w=800"
-      ],
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://pioneerworks.org/programs/opening-reception-for-daniel-johnston-and-felix-rodriguez",
-        "organizer": {
-          "name": "Pioneer Works",
-          "instagram": "@pioneerworks",
-          "email": "info@pioneerworks.org"
-        },
-        "venue": {
-          "name": "Pioneer Works",
-          "address": "159 Pioneer Street",
-          "type": "Cultural Institution"
-        },
-        "featured": false
-      }
-    },
-    {
       "id": "evt_pioneer_2add19e9",
       "name": "Second Sundays: June 2025",
       "type": "Cultural Event",
@@ -613,200 +577,48 @@
       }
     },
     {
-      "id": "evt_gary_3440ffe7",
-      "name": "Building Capitol - AI Startups Political Advocacy Luncheon",
+      "id": "evt_gary_1582433a",
+      "name": "DevRelCon NYC",
       "type": "Event",
       "locationId": "loc_tbd",
       "communityId": "com_gary",
-      "description": "Join AWS Public Policy at New York Tech Week for:\rBuilding Capitol: AI Startups Political Advocacy Luncheon\r  For too long, startups & entrepreneurs have been shut out of the rooms where innovation policy gets made. At AWS, we believe that startups & small businesses are not just key drivers of economic growth-they embody the spirit of American exceptionalism. Your insights, challenges, & experiences should play a defining role in shaping the policies that will determine the future of innovation in the U.S. & beyond. At AWS, we recognize our responsibility to help elevate the voices of startups in these critical discussions. We are committed to working alongside the startups that build on AWS to ensure their perspectives are heard. Through partnerships, direct engagement, & advocacy, we are helping connect startups with policymakers, ensuring that their insights inform the decisions that shape the technology landscape.\r You'll gain:\r Insights on the DC tech policy state of play.\rStrategies for talking to lawmakers to build regulations for startups, by startups.\rNetworking opportunities to connect with industry & AWS public policy leaders.\rDon't miss this chance to expand your professional network & raise political capital.\rRegistration Information: Due to high demand & limited capacity, submitting a registration does not guarantee entry. All RSVPs will be reviewed & approved on a weekly basis, with confirmation emails being sent to approvals.\r Agenda\r 9:00 PM GMT+5:30\r Registration & Networking\r 9:30 PM GMT+5:30\r Welcome Remarks\r 9:45 PM GMT+5:30\r Lunch & Roundtable Discussion Topics\r 11:00 PM GMT+5:30\r Open Discussion & Networking",
-      "startDate": "2025-06-05T12:00:00-04:00",
-      "endDate": "2025-06-05T13:30:00-04:00",
+      "description": "DevRelCon is the premiere global conference for Developer Relations, Developer Experience, Developer Marketing, & Technical Community Management. This is a unique opportunity to hear talks from industry leaders, connect with your peers on best practices & challenges, & participate in hands-on workshops & discussions.\r See recorded sessions from previous events for examples of what to expect at DevRelCon NY!\r DevRelCon is a global series of conferences for developer relations, developer experience & developer marketing professionals. Whether you're looking to advance your craft & career, are in-between roles, or simply want to reconnect with the wider DevRel community, DevRelCon is the place for you! Sessions will cover practical topics like metrics & ROI, managing up & down, community management, content creation, career paths, open source, improving & scaling using AI tools, & much more.",
+      "startDate": "2025-06-19T07:00:00-04:00",
+      "endDate": "2025-06-19T08:30:00-04:00",
       "category": [
         "Event",
-        "Tech",
-        "AI"
+        "Workshop",
+        "Conference"
       ],
       "price": {
-        "amount": 0,
-        "type": "Free",
+        "amount": 699.0,
+        "type": "Paid",
         "currency": "USD",
         "details": ""
       },
       "capacity": 100,
       "registrationRequired": true,
       "tags": [
-        "Tech",
-        "AI",
-        "Business"
-      ],
-      "image": "gary-event.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.garysguide.com/events/byc1oxy/Building-Capitol-AI-Startups-Political-Advocacy-Luncheon",
-        "registration_url": "http://gary.to/a7eph65",
-        "speakers": [
-          {
-            "name": "Bob Kimball (VP Public Policy",
-            "title": "",
-            "company": ""
-          },
-          {
-            "name": "AWS)",
-            "title": "",
-            "company": ""
-          },
-          {
-            "name": "Olivia Igbokwe (Dir",
-            "title": "",
-            "company": ""
-          }
-        ],
-        "venue": {
-          "name": "Building Capitol - AI Startups Political Advocacy Luncheon\n \n\nWith Bob Kimball (VP Public Policy",
-          "address": "AWS), Olivia Igbokwe (Dir. Federal Affairs, AWS).\n\nVenue, 42 E 20th St\n\nJun 05 (Thu) , 2025 @ 12:00 PM\n\n\nFREE\n\n\n \n\n\nRegister \n\n Export GoogleYahooApple iCalOutlook \n\n\n\n\n\n\n\n\n\n\n \nDETAILS\n\n\n\nJoin AWS Public Policy at New York Tech Week for:\rBuilding Capitol: AI Startups Political Advocacy Luncheon\r  For too long, startups & entrepreneurs have been shut out of the rooms where innovation policy gets made. At AWS, we believe that startups & small businesses are not just key drivers of economic growth-they embody the spirit of American exceptionalism. Your insights, challenges, & experiences should play a defining role in shaping the policies that will determine the future of innovation in the U.S. & beyond. At AWS, we recognize our responsibility to help elevate the voices of startups in these critical discussions. We are committed to working alongside the startups that build on AWS to ensure their perspectives are heard. Through partnerships, direct engagement, & advocacy, we are helping connect startups with policymakers, ensuring that their insights inform the decisions that shape the technology landscape.\r You'll gain:\r Insights on the DC tech policy state of play.\rStrategies for talking to lawmakers to build regulations for startups, by startups.\rNetworking opportunities to connect with industry & AWS public policy leaders.\rDon't miss this chance to expand your professional network & raise political capital.\rRegistration Information: Due to high demand & limited capacity, submitting a registration does not guarantee entry. All RSVPs will be reviewed & approved on a weekly basis, with confirmation emails being sent to approvals.\r Agenda\r 9:00 PM GMT+5:30\r Registration & Networking\r 9:30 PM GMT+5:30\r Welcome Remarks\r 9:45 PM GMT+5:30\r Lunch & Roundtable Discussion Topics\r 11:00 PM GMT+5:30\r Open Discussion & Networking",
-          "type": "Other"
-        }
-      }
-    },
-    {
-      "id": "evt_gary_19dd0231",
-      "name": "The State Of Venture Capital",
-      "type": "Event",
-      "locationId": "loc_tbd",
-      "communityId": "com_gary",
-      "description": "Venture capital firms are more selective & demanding when it comes to financing these days, especially with regard to first financings by early stage startups.  Join us for an informative panel where well be discussing questions & topics such as:\r - When does it make sense to start approaching venture capital firms for investment?\r- What does it take for a startup to raise its first priced round these days?  \r- What are early, growth, & late stage VCs investing in today?\r- What kind of business & financial metrics should a founder have in place before approaching venture firms for a priced round raise, whether Series Seed or Series A/B/C?\r- What do venture capitalists predict about the venture market for the remainder of 2025?\r Panelists: \r- Lindsey Mignano (SSM Law)\r- Naomi Goez (Forum Ventures)\r- Daniel Fleischmann (Timber Grove)\r- Pramod Gosavi  (Blumberg Capital)\r- Kevin Ye (Mach49)\r Moderator:\r-Christina Sclafani (TriNet)\r Food & Beverage Sponsors: Jacquelynne Suguitan, Christina Sclafani, & Grace Power of TriNet; Gadiel Morantes of Pilot; Calina Thompson of Safra National Bank; Lindsey Mignano of SSM Law; & Garrison Gowens of Cake Equity.\r By registering for this event, you herein agree to SSM's Privacy Policy (https://www.ssm.legal/privacy-policy.html) & Terms of Use (https://www.ssm.legal/terms-of-use.html).\r This event may be attended in person (if approved) or via Zoom (https://us06web.zoom.us/j/4810347305?pwd=dDhvblA3M1JEQTN1MkkyaEpvZzVjQT09)\r This event is a part of #NYTechWeeka week of events hosted by VCs & startups to bring together the tech ecosystem. Learn more at www.tech-week.com.",
-      "startDate": "2025-06-06T12:00:00-04:00",
-      "endDate": "2025-06-06T13:30:00-04:00",
-      "category": [
-        "Event",
+        "Workshop",
+        "Conference",
         "Tech",
         "AI"
       ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": 100,
-      "registrationRequired": true,
-      "tags": [
-        "Tech",
-        "AI",
-        "Business"
-      ],
       "image": "gary-event.jpg",
       "status": "upcoming",
       "metadata": {
-        "source_url": "https://www.garysguide.com/events/gl6p1nz/The-State-Of-Venture-Capital",
-        "registration_url": "http://gary.to/rr3b64m",
-        "speakers": [
-          {
-            "name": "Lindsey Mignano",
-            "title": "SSM Law",
-            "company": ""
-          },
-          {
-            "name": "Naomi Goez",
-            "title": "Forum Ventures",
-            "company": ""
-          },
-          {
-            "name": "Daniel Fleischmann",
-            "title": "Timber Grove",
-            "company": ""
-          },
-          {
-            "name": "Pramod Gosavi",
-            "title": "Blumberg Capital",
-            "company": ""
-          },
-          {
-            "name": "Kevin Ye",
-            "title": "Mach49",
-            "company": ""
-          },
-          {
-            "name": "Christina Sclafani",
-            "title": "TriNet",
-            "company": ""
-          }
-        ],
+        "source_url": "https://www.garysguide.com/events/vu5jlxe/DevRelCon-NYC",
+        "registration_url": "http://gary.to/h42rpbe",
+        "speakers": [],
         "venue": {
-          "name": "[ NY Tech Week ]\nThe State Of Venture Capital\n \n\nWith Lindsey Mignano (SSM Law)",
-          "address": "Naomi Goez (Forum Ventures), Daniel Fleischmann (Timber Grove), Pramod Gosavi (Blumberg Capital), Kevin Ye (Mach49), Christina Sclafani (TriNet).\n\nVenue, To Be Announced\n\nJun 06 (Fri) , 2025 @ 12:00 PM\n\n\nFREE\n\n\n \n\n\nRegister \n\n Export GoogleYahooApple iCalOutlook \n\n\n\n\n\n\n\n\n\n\n \nDETAILS\n\n\n\nVenture capital firms are more selective & demanding when it comes to financing these days, especially with regard to first financings by early stage startups.  Join us for an informative panel where well be discussing questions & topics such as:\r - When does it make sense to start approaching venture capital firms for investment?\r- What does it take for a startup to raise its first priced round these days?  \r- What are early, growth, & late stage VCs investing in today?\r- What kind of business & financial metrics should a founder have in place before approaching venture firms for a priced round raise, whether Series Seed or Series A/B/C?\r- What do venture capitalists predict about the venture market for the remainder of 2025?\r Panelists: \r- Lindsey Mignano (SSM Law)\r- Naomi Goez (Forum Ventures)\r- Daniel Fleischmann (Timber Grove)\r- Pramod Gosavi  (Blumberg Capital)\r- Kevin Ye (Mach49)\r Moderator:\r-Christina Sclafani (TriNet)\r Food & Beverage Sponsors: Jacquelynne Suguitan, Christina Sclafani, & Grace Power of TriNet; Gadiel Morantes of Pilot; Calina Thompson of Safra National Bank; Lindsey Mignano of SSM Law; & Garrison Gowens of Cake Equity.\r By registering for this event, you herein agree to SSM's Privacy Policy (https://www.ssm.legal/privacy-policy.html) & Terms of Use (https://www.ssm.legal/terms-of-use.html).\r This event may be attended in person (if approved) or via Zoom (https://us06web.zoom.us/j/4810347305?pwd=dDhvblA3M1JEQTN1MkkyaEpvZzVjQT09)\r This event is a part of #NYTechWeeka week of events hosted by VCs & startups to bring together the tech ecosystem. Learn more at www.tech-week.com.",
+          "name": "DevRelCon NYC\n \n\nGlobal conference for dev relations",
+          "address": "dev experience, dev mktg & technical community mgmt.\n\nVenue, 220 36th St, Brooklyn\n\nJun 19 (Thu) , 2025 @ 07:00 AM\n\n\n$699\n\n\n \n\n\nRegister \n\n Export GoogleYahooApple iCalOutlook \n\n\n\n\n\n\n\n\n\n\n \nDETAILS\n\n\n\nDevRelCon is the premiere global conference for Developer Relations, Developer Experience, Developer Marketing, & Technical Community Management. This is a unique opportunity to hear talks from industry leaders, connect with your peers on best practices & challenges, & participate in hands-on workshops & discussions.\r See recorded sessions from previous events for examples of what to expect at DevRelCon NY!\r DevRelCon is a global series of conferences for developer relations, developer experience & developer marketing professionals. Whether you're looking to advance your craft & career, are in-between roles, or simply want to reconnect with the wider DevRel community, DevRelCon is the place for you! Sessions will cover practical topics like metrics & ROI, managing up & down, community management, content creation, career paths, open source, improving & scaling using AI tools, & much more.",
           "type": "Other"
         }
       }
     },
     {
-      "id": "evt_gary_ea625d30",
-      "name": "Sky-High Pitch Competition",
-      "type": "Event",
-      "locationId": "loc_tbd",
-      "communityId": "com_gary",
-      "description": "A curated & mindful Tech Week gathering for Founders, Builders, & Believers.\r We're set for an experience like no other-where modern wellness meets cutting-edge tech, & Apollo Society collides with Rocket Mixer to create something extraordinary in one of the most beautiful & serene places in New York - Edge's Outdoor Deck.\r First off, we are going to start our morning with a guided breathwork session by Apollo Society. That's when we take a moment to relax, recharge our minds & bodies, & enjoy the stunning view of NYC!\r With focus sharpened, the pitch competition begins.\r 10 founders will deliver elevator pitches to a panel of top investors. The top three move on to a finale round, where they'll pitch again in more detail & receive deeper feedback.\r  The winner receives:\r $2,500 Draper House credit for global stays, programs, or funding opportunities\r Private Breakfast with top VCs, investors & cultural leaders\r Mito Health Biomarker Testing ($500 value) for optimized performance\r Lazo Premium Package: 2-year subscription, free business incorporation, & more\r Priority Access to future Apollo Society & Rocket Mixer events\r  Every attendee will receive:\r Full Othership Signature Experience Pass - Includes guided breathwork, sauna, & ice bath journey - a complete mind-body reset.\r Wellness Gifts Curated by Apollo Society partners to elevate your self-care ritual.\r Startup Support from Lazo: 6-month subscription to Lazo One + 50% off tax & bookkeeping services.\r Networking with Top Founders & Investors Priceless connections designed to inspire, elevate, & expand your journey.\r  Panel of Top Investors:\r Nicole Newman Enslein, Loeb.nyc, Sublime Communications\r Slava Rubin, Indiegogo, Nillion\r Jenn Bonine, Valhalla Capital\r Mike Schulte, Loeb.nyc, Great North Ventures\r Patrick Tsang, Chairman Tsangs Group\r a16z\r  Program Schedule\r 7:00 AM - Guest Check-In\r7:15 AM - Guided Breathwork Session\r7:45 AM - Light Snack & Refresh\r8:00 AM - Pitch Competition Kickoff\r8:45 AM - Highlights & Winner Announcement\r9:00 AM - Event Closing - Let's Keep Building!\r9:30 AM - Private Breakfast with Leading VCs & Investors (place to be announced)\r Whether you come to pitch your startup, connect with investors, or simply to be among the most intentional minds of the week - this experience is for you. So guys- all the way up! See you at the top-100th floor.\r Apollo Society & Rocket Mixer Team\r    Key Info Before You Join\r  Pitch Competition:\rTo apply, purchase a ticket, & fill out the application form.\rNote: Due to high volume, not all applicants will be selected, but all ticket holders can attend the event.\r  Ticket Tiers:\rEarly Bird - $45 (limited until May 20) Discounted access for early movers.\r General Admission - $75\rIncludes entry to the Edge Observation Deck, guided breathwork, curated networking, & a one-of-a-kind pitch event.\r Premium - $120\rAll of the above plus access to a private breakfast with investors, VIP guests, & organizers.\r  Please Note:\rTickets are non-refundable unless the event is canceled or significantly rescheduled. The event will be photographed & filmed - by attending, you consent to your image being used for promotional purposes.",
-      "startDate": "2025-06-05T07:00:00-04:00",
-      "endDate": "2025-06-05T08:30:00-04:00",
-      "category": [
-        "Event",
-        "Tech",
-        "AI"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": 100,
-      "registrationRequired": true,
-      "tags": [
-        "Tech",
-        "AI",
-        "Business"
-      ],
-      "image": "gary-event.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.garysguide.com/events/np7acjf/Sky-High-Pitch-Competition",
-        "registration_url": "http://gary.to/61mt71i",
-        "speakers": [
-          {
-            "name": "Slava Rubin (Founder",
-            "title": "",
-            "company": ""
-          },
-          {
-            "name": "Indiegogo)",
-            "title": "",
-            "company": ""
-          },
-          {
-            "name": "Jenn Bonine",
-            "title": "Valhalla Capital",
-            "company": ""
-          },
-          {
-            "name": "Nicole Enslein (CEO",
-            "title": "",
-            "company": ""
-          },
-          {
-            "name": "Loeb)",
-            "title": "",
-            "company": ""
-          }
-        ],
-        "venue": {
-          "name": "Sky-High Pitch Competition\n \n\nWith Slava Rubin (Founder",
-          "address": "Indiegogo), Jenn Bonine (Valhalla Capital), Nicole Enslein (CEO, Loeb).\r\n\n\nEdge, 30 Hudson Yards, 100th Fl\n\nJun 05 (Thu) , 2025 @ 07:00 AM\n\n\n$75\n\n\n \n\n\nRegister \n\n Export GoogleYahooApple iCalOutlook \n\n\n\n\n\n\n\n\n\n\n \nDETAILS\n\n\n\nA curated & mindful Tech Week gathering for Founders, Builders, & Believers.\r We're set for an experience like no other-where modern wellness meets cutting-edge tech, & Apollo Society collides with Rocket Mixer to create something extraordinary in one of the most beautiful & serene places in New York - Edge's Outdoor Deck.\r First off, we are going to start our morning with a guided breathwork session by Apollo Society. That's when we take a moment to relax, recharge our minds & bodies, & enjoy the stunning view of NYC!\r With focus sharpened, the pitch competition begins.\r 10 founders will deliver elevator pitches to a panel of top investors. The top three move on to a finale round, where they'll pitch again in more detail & receive deeper feedback.\r  The winner receives:\r $2,500 Draper House credit for global stays, programs, or funding opportunities\r Private Breakfast with top VCs, investors & cultural leaders\r Mito Health Biomarker Testing ($500 value) for optimized performance\r Lazo Premium Package: 2-year subscription, free business incorporation, & more\r Priority Access to future Apollo Society & Rocket Mixer events\r  Every attendee will receive:\r Full Othership Signature Experience Pass - Includes guided breathwork, sauna, & ice bath journey - a complete mind-body reset.\r Wellness Gifts Curated by Apollo Society partners to elevate your self-care ritual.\r Startup Support from Lazo: 6-month subscription to Lazo One + 50% off tax & bookkeeping services.\r Networking with Top Founders & Investors Priceless connections designed to inspire, elevate, & expand your journey.\r  Panel of Top Investors:\r Nicole Newman Enslein, Loeb.nyc, Sublime Communications\r Slava Rubin, Indiegogo, Nillion\r Jenn Bonine, Valhalla Capital\r Mike Schulte, Loeb.nyc, Great North Ventures\r Patrick Tsang, Chairman Tsangs Group\r a16z\r  Program Schedule\r 7:00 AM - Guest Check-In\r7:15 AM - Guided Breathwork Session\r7:45 AM - Light Snack & Refresh\r8:00 AM - Pitch Competition Kickoff\r8:45 AM - Highlights & Winner Announcement\r9:00 AM - Event Closing - Let's Keep Building!\r9:30 AM - Private Breakfast with Leading VCs & Investors (place to be announced)\r Whether you come to pitch your startup, connect with investors, or simply to be among the most intentional minds of the week - this experience is for you. So guys- all the way up! See you at the top-100th floor.\r Apollo Society & Rocket Mixer Team\r    Key Info Before You Join\r  Pitch Competition:\rTo apply, purchase a ticket, & fill out the application form.\rNote: Due to high volume, not all applicants will be selected, but all ticket holders can attend the event.\r  Ticket Tiers:\rEarly Bird - $45 (limited until May 20) Discounted access for early movers.\r General Admission - $75\rIncludes entry to the Edge Observation Deck, guided breathwork, curated networking, & a one-of-a-kind pitch event.\r Premium - $120\rAll of the above plus access to a private breakfast with investors, VIP guests, & organizers.\r  Please Note:\rTickets are non-refundable unless the event is canceled or significantly rescheduled. The event will be photographed & filmed - by attending, you consent to your image being used for promotional purposes.",
-          "type": "Other"
-        }
-      }
-    },
-    {
-      "id": "evt_gary_38144503",
+      "id": "evt_gary_cdd60c07",
       "name": "Archery For All Mixer",
       "type": "Event",
       "locationId": "loc_tbd",
@@ -846,334 +658,7 @@
       }
     },
     {
-      "id": "evt_gary_eb7530ca",
-      "name": "DevRelCon NYC",
-      "type": "Event",
-      "locationId": "loc_tbd",
-      "communityId": "com_gary",
-      "description": "DevRelCon is the premiere global conference for Developer Relations, Developer Experience, Developer Marketing, & Technical Community Management. This is a unique opportunity to hear talks from industry leaders, connect with your peers on best practices & challenges, & participate in hands-on workshops & discussions.\r See recorded sessions from previous events for examples of what to expect at DevRelCon NY!\r DevRelCon is a global series of conferences for developer relations, developer experience & developer marketing professionals. Whether you're looking to advance your craft & career, are in-between roles, or simply want to reconnect with the wider DevRel community, DevRelCon is the place for you! Sessions will cover practical topics like metrics & ROI, managing up & down, community management, content creation, career paths, open source, improving & scaling using AI tools, & much more.",
-      "startDate": "2025-06-19T07:00:00-04:00",
-      "endDate": "2025-06-19T08:30:00-04:00",
-      "category": [
-        "Event",
-        "Workshop",
-        "Tech"
-      ],
-      "price": {
-        "amount": 699.0,
-        "type": "Paid",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": 100,
-      "registrationRequired": true,
-      "tags": [
-        "Workshop",
-        "Tech",
-        "AI",
-        "Conference"
-      ],
-      "image": "gary-event.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.garysguide.com/events/vu5jlxe/DevRelCon-NYC",
-        "registration_url": "http://gary.to/h42rpbe",
-        "speakers": [],
-        "venue": {
-          "name": "DevRelCon NYC\n \n\nGlobal conference for dev relations",
-          "address": "dev experience, dev mktg & technical community mgmt.\n\nVenue, 220 36th St, Brooklyn\n\nJun 19 (Thu) , 2025 @ 07:00 AM\n\n\n$699\n\n\n \n\n\nRegister \n\n Export GoogleYahooApple iCalOutlook \n\n\n\n\n\n\n\n\n\n\n \nDETAILS\n\n\n\nDevRelCon is the premiere global conference for Developer Relations, Developer Experience, Developer Marketing, & Technical Community Management. This is a unique opportunity to hear talks from industry leaders, connect with your peers on best practices & challenges, & participate in hands-on workshops & discussions.\r See recorded sessions from previous events for examples of what to expect at DevRelCon NY!\r DevRelCon is a global series of conferences for developer relations, developer experience & developer marketing professionals. Whether you're looking to advance your craft & career, are in-between roles, or simply want to reconnect with the wider DevRel community, DevRelCon is the place for you! Sessions will cover practical topics like metrics & ROI, managing up & down, community management, content creation, career paths, open source, improving & scaling using AI tools, & much more.",
-          "type": "Other"
-        }
-      }
-    },
-    {
-      "id": "evt_gary_ac39b1ee",
-      "name": "MetaProp Accelerator Demo Day",
-      "type": "Event",
-      "locationId": "loc_tbd",
-      "communityId": "com_gary",
-      "description": "Join us in NYC for MetaProp's 2025 Demo Day on June 17th.\r Be among the first to meet the next generation of PropTech innovators as the six startups in MetaProp's latest Accelerator cohort take the stage.\r This exclusive event brings together top investors, industry leaders, & select media to hear firsthand from visionary founders tackling the real estate industry's most pressing challenges.\r June 17, 2025\r9:00 AM - 12:00 PM EST\rMidtown Manhattan (RSVP for address)\r If you have any questions, please get in touch with Evan Petitt at epetitt@metaprop.com. This marquee event has limited space & fills up fast every year.\r 2025 Cohort\r BUILDRFI (Miami) - BuildrFi streamlines financial workflows for construction by offering a clear view of project cash flows & financing options, helping to manage material costs & delayed payments.\r FRAM ENERGY (NYC) - Fram Energy makes solar deployment for multifamily & single-family rentals profitable & effortless through tenant energy billing software.\r POPWHEELS (NYC) - PopWheels is revolutionizing urban mobility in America with its e-bike battery swap network, starting with the 80,000+ delivery workers in NYC.\r PROPRISE (SF) - PropRise is an AI-driven commercial real estate deal sourcing platform, transforming how firms discover & evaluate opportunities.\r ULAMA (NYC) - Ulama is AI-powered code compliance that automates the approval of construction permit applications.\r WEALTHIE (NYC) - Wealthie builds more wealth for homeowners by investing home equity in diversified assets without loans or debt.",
-      "startDate": "2025-06-17T09:00:00-04:00",
-      "endDate": "2025-06-17T10:30:00-04:00",
-      "category": [
-        "Event",
-        "Tech",
-        "AI"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": 100,
-      "registrationRequired": true,
-      "tags": [
-        "Tech",
-        "AI",
-        "Business"
-      ],
-      "image": "gary-event.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.garysguide.com/events/z1l3oo0/MetaProp-Accelerator-Demo-Day",
-        "registration_url": "http://gary.to/pfeecu6",
-        "speakers": [],
-        "venue": {
-          "name": "MetaProp Accelerator Demo Day\n \n\nDemos by BuildrFi",
-          "address": "Fram Energy, PopWheels, PropRise, Ulama, Wealthie.\n\nVenue, To Be Announced\n\nJun 17 (Tue) , 2025 @ 09:00 AM\n\n\nBy Invite Only\n\n\n \n\n\nRegister \n\n Export GoogleYahooApple iCalOutlook \n\n\n\n\n\n\n\n\n\n\n \nDETAILS\n\n\n\nJoin us in NYC for MetaProp's 2025 Demo Day on June 17th.\r Be among the first to meet the next generation of PropTech innovators as the six startups in MetaProp's latest Accelerator cohort take the stage.\r This exclusive event brings together top investors, industry leaders, & select media to hear firsthand from visionary founders tackling the real estate industry's most pressing challenges.\r June 17, 2025\r9:00 AM - 12:00 PM EST\rMidtown Manhattan (RSVP for address)\r If you have any questions, please get in touch with Evan Petitt at epetitt@metaprop.com. This marquee event has limited space & fills up fast every year.\r 2025 Cohort\r BUILDRFI (Miami) - BuildrFi streamlines financial workflows for construction by offering a clear view of project cash flows & financing options, helping to manage material costs & delayed payments.\r FRAM ENERGY (NYC) - Fram Energy makes solar deployment for multifamily & single-family rentals profitable & effortless through tenant energy billing software.\r POPWHEELS (NYC) - PopWheels is revolutionizing urban mobility in America with its e-bike battery swap network, starting with the 80,000+ delivery workers in NYC.\r PROPRISE (SF) - PropRise is an AI-driven commercial real estate deal sourcing platform, transforming how firms discover & evaluate opportunities.\r ULAMA (NYC) - Ulama is AI-powered code compliance that automates the approval of construction permit applications.\r WEALTHIE (NYC) - Wealthie builds more wealth for homeowners by investing home equity in diversified assets without loans or debt.",
-          "type": "Other"
-        }
-      }
-    },
-    {
-      "id": "evt_gary_3604f1cc",
-      "name": "Tech Pickleball",
-      "type": "Event",
-      "locationId": "loc_tbd",
-      "communityId": "com_gary",
-      "description": "About Event\rJoin us for coffee, bagels, & pickleball with NYC's largest tech networking community, Tech Pickleball!\r This year we are teaming up with Apollo.io to bring you more hype than ever. Stay tuned for more details :)\r First-timers, intermediate, & advanced players welcome! We'll help pair you up with a group on your skill level.\r Come for the coffee & pickleball, stay for the vibes!\r Tech Pickleball was founded by John (Knock2.ai) & Skyler (Optemization.com) to bring the NYC tech community together in a fun & casual format + bond over our shared passion for Pickleball. Since then, we've been featured in Best of Lu.ma, ~GM NYC~, NextNYC & more!\r Follow us on LinkedIn for more:\r https://www.linkedin.com/company/tech-pickleball/",
-      "startDate": "2025-06-06T07:30:00-04:00",
-      "endDate": "2025-06-06T09:00:00-04:00",
-      "category": [
-        "Event",
-        "Tech",
-        "AI"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": 100,
-      "registrationRequired": true,
-      "tags": [
-        "Tech",
-        "AI"
-      ],
-      "image": "gary-event.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.garysguide.com/events/2wxjuh7/Tech-Pickleball",
-        "registration_url": "http://gary.to/a52elp4",
-        "speakers": [],
-        "venue": {
-          "name": "[ NY Tech Week ]\nTech Pickleball\n \n\n\nMcCarren Park Tennis Courts",
-          "address": "50 Bedford Ave, Brooklyn\n\nJun 06 (Fri) , 2025 @ 07:30 AM\n\n\nFREE\n\n\n \n\n\nRegister \n\n Export GoogleYahooApple iCalOutlook \n\n\n\n\n\n\n\n\n\n\n \nDETAILS\n\n\n\nAbout Event\rJoin us for coffee, bagels, & pickleball with NYC's largest tech networking community, Tech Pickleball!\r This year we are teaming up with Apollo.io to bring you more hype than ever. Stay tuned for more details :)\r First-timers, intermediate, & advanced players welcome! We'll help pair you up with a group on your skill level.\r Come for the coffee & pickleball, stay for the vibes!\r Tech Pickleball was founded by John (Knock2.ai) & Skyler (Optemization.com) to bring the NYC tech community together in a fun & casual format + bond over our shared passion for Pickleball. Since then, we've been featured in Best of Lu.ma, ~GM NYC~, NextNYC & more!\r Follow us on LinkedIn for more:\r https://www.linkedin.com/company/tech-pickleball/",
-          "type": "Other"
-        }
-      }
-    },
-    {
-      "id": "evt_gary_3a0444e1",
-      "name": "Care & Code  - Health Startup Mixer",
-      "type": "Event",
-      "locationId": "loc_tbd",
-      "communityId": "com_gary",
-      "description": "Join us for an evening of collaboration, innovation, & networking at the Care & Code at Sour Mouse on the Lower East Side.\r Hosted by: Bottleneck Technologies , InsureTalk &  Vital View\r ________________________________________\r Event Description:\r Join us for an evening of collaboration, innovation, & networking at the Care & Code : a Health Startup Mixer\r Hosted by two SaaS innovators & a trailblazing software company, this event unites professionals from healthcare, tech, & entrepreneurship to tackle pressing challenges, share insights, & forge partnerships.\r ________________________________________\r Format:\r Casual Networking Mixer:\r       Welcome & Mingling: Kick off with open networking.\r     Icebreaker Activity: Quick founder's game to spark conversation\r     Introduction:  Bottleneck Technologies , InsureTalk, Vital View & their involvement in health care, Q & A\r  Stage For All:  Attendees are encouraged  to present their success stories, ideas, challenges & what they are looking for -  3 sentences max\r     Open Networking: Time to connect.\r ________________________________________\r When: June 5th, 6 pm - 9 pm\r Where: Sour Mouse ( please write the address )\r ________________________________________\r Why Attend?\r     Solve Pain Points: See how AI, SaaS, & software streamline workflows for dentists, home care nurses, & hospitals.\r     Network with health tech founders, clinicians, SaaS developers, entrepreneurs.\r     Discover Collaboration Opportunities: Pilot projects, integrations, or partnerships.",
-      "startDate": "2025-06-05T18:00:00-04:00",
-      "endDate": "2025-06-05T19:30:00-04:00",
-      "category": [
-        "Event",
-        "Tech",
-        "AI"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": 100,
-      "registrationRequired": true,
-      "tags": [
-        "Tech",
-        "AI",
-        "Business"
-      ],
-      "image": "gary-event.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.garysguide.com/events/vqy4k1q/Care-Code-Health-Startup-Mixer",
-        "registration_url": "http://gary.to/ke2y6kh",
-        "speakers": [],
-        "venue": {
-          "name": "[ NY Tech Week ]\nCare & Code  - Health Startup Mixer\n \n\n\nSour Mouse",
-          "address": "110 Delancey St\n\nJun 05 (Thu) , 2025 @ 06:00 PM\n\n\nFREE\n\n\n \n\n\nRegister \n\n Export GoogleYahooApple iCalOutlook \n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n \nDETAILS\n\n\n\nJoin us for an evening of collaboration, innovation, & networking at the Care & Code at Sour Mouse on the Lower East Side.\r Hosted by: Bottleneck Technologies , InsureTalk &  Vital View\r ________________________________________\r Event Description:\r Join us for an evening of collaboration, innovation, & networking at the Care & Code : a Health Startup Mixer\r Hosted by two SaaS innovators & a trailblazing software company, this event unites professionals from healthcare, tech, & entrepreneurship to tackle pressing challenges, share insights, & forge partnerships.\r ________________________________________\r Format:\r Casual Networking Mixer:\r       Welcome & Mingling: Kick off with open networking.\r     Icebreaker Activity: Quick founder's game to spark conversation\r     Introduction:  Bottleneck Technologies , InsureTalk, Vital View & their involvement in health care, Q & A\r  Stage For All:  Attendees are encouraged  to present their success stories, ideas, challenges & what they are looking for -  3 sentences max\r     Open Networking: Time to connect.\r ________________________________________\r When: June 5th, 6 pm - 9 pm\r Where: Sour Mouse ( please write the address )\r ________________________________________\r Why Attend?\r     Solve Pain Points: See how AI, SaaS, & software streamline workflows for dentists, home care nurses, & hospitals.\r     Network with health tech founders, clinicians, SaaS developers, entrepreneurs.\r     Discover Collaboration Opportunities: Pilot projects, integrations, or partnerships.",
-          "type": "Other"
-        }
-      }
-    },
-    {
-      "id": "evt_gary_1232e2cd",
-      "name": "AI Devs & Hoopers Morning Run",
-      "type": "Event",
-      "locationId": "loc_tbd",
-      "communityId": "com_gary",
-      "description": "Bring your sneakers & a basketball & start your morning with casual hooping, networking, & good vibes. Whether you're playing 3-on-3, shooting around, or just on the sidelines connecting with fellow tech professionals, this is the perfect way to mix basketball, business, & networking during NY Tech Week.\r Bonus: Join Our Exclusive Tech & Basketball WhatsApp Group!\r  Attendees of the event will get access to our private Tech & Basketball WhatsApp group!\r Can't make it but still want to be in the group? No problem! You can buy access & join the conversation. Stay connected with fellow founders, tech leaders, & investors who share a passion for basketball.\r staaake NY Tech Week 2025 Excel List\r Stand out from thousands of attendees by being on the staaake Excel list. This will set you apart & make you more visible.\r  Join the list:\rhttps://docs.google.com/spreadsheets/d/1y2Gqiq5000Nn2bteZDYANdsPTk5Rk37a_KsVQuLdwbY/edit?usp=sharing\r Have your name, link (LinkedIn or company), & what you're looking for-funding, investing, or networking-added to the list.\r This list will be linked to the over 20 events we are hosting for NY Tech Week on Partiful, Lu.ma, Eventbrite, & Meetup, & will also be emailed to everyone who signed up for those events!",
-      "startDate": "2025-06-06T09:00:00-04:00",
-      "endDate": "2025-06-06T10:30:00-04:00",
-      "category": [
-        "Event",
-        "Tech",
-        "AI"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": 100,
-      "registrationRequired": true,
-      "tags": [
-        "Tech",
-        "AI",
-        "Business"
-      ],
-      "image": "gary-event.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.garysguide.com/events/kb3gpyx/AI-Devs-Hoopers-Morning-Run",
-        "registration_url": "http://gary.to/scnq16b",
-        "speakers": [],
-        "venue": {
-          "name": "[ NY Tech Week ]\nAI Devs & Hoopers Morning Run\n \n\n\nVenue",
-          "address": "To Be Announced\n\nJun 06 (Fri) , 2025 @ 09:00 AM\n\n\nFREE\n\n\n \n\n\nRegister \n\n Export GoogleYahooApple iCalOutlook \n\n\n\n\n\n\n\n\n\n\n \nDETAILS\n\n\n\nBring your sneakers & a basketball & start your morning with casual hooping, networking, & good vibes. Whether you're playing 3-on-3, shooting around, or just on the sidelines connecting with fellow tech professionals, this is the perfect way to mix basketball, business, & networking during NY Tech Week.\r Bonus: Join Our Exclusive Tech & Basketball WhatsApp Group!\r  Attendees of the event will get access to our private Tech & Basketball WhatsApp group!\r Can't make it but still want to be in the group? No problem! You can buy access & join the conversation. Stay connected with fellow founders, tech leaders, & investors who share a passion for basketball.\r staaake NY Tech Week 2025 Excel List\r Stand out from thousands of attendees by being on the staaake Excel list. This will set you apart & make you more visible.\r  Join the list:\rhttps://docs.google.com/spreadsheets/d/1y2Gqiq5000Nn2bteZDYANdsPTk5Rk37a_KsVQuLdwbY/edit?usp=sharing\r Have your name, link (LinkedIn or company), & what you're looking for-funding, investing, or networking-added to the list.\r This list will be linked to the over 20 events we are hosting for NY Tech Week on Partiful, Lu.ma, Eventbrite, & Meetup, & will also be emailed to everyone who signed up for those events!",
-          "type": "Other"
-        }
-      }
-    },
-    {
-      "id": "evt_gary_b0da9cf3",
-      "name": "Female Founders Unwind",
-      "type": "Event",
-      "locationId": "loc_tbd",
-      "communityId": "com_gary",
-      "description": "Join us for unwinding in great company during New York Tech Week! Show up as you are, honore where you are at & mingle with fellow female founders.\r AGENDA:\r 9 - 9:30am: checkin & networking\r 9:30 - 9:45: pitches of Founding Members of La Creme de la STEM\r Abby Rakshit, CEO & Founder at Season\r 9:45 - 10am: breath & relax with Lizzy of Sync N\r 10am - 11am: networking\r  ABOUT LA CREME DE LA STEM:\r La Creme de la STEM is the only global, private network for early-stage female founders in tech & science, offering a holistic support system that includes exclusive insights from exited entrepreneurs, vetted investors & perks from corporate partners. Apply to join!",
-      "startDate": "2025-06-05T09:00:00-04:00",
-      "endDate": "2025-06-05T10:30:00-04:00",
-      "category": [
-        "Event",
-        "Tech",
-        "Business"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": 100,
-      "registrationRequired": true,
-      "tags": [
-        "Tech",
-        "Business"
-      ],
-      "image": "gary-event.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.garysguide.com/events/z1ka1n1/Female-Founders-Unwind",
-        "registration_url": "http://gary.to/xdcz95m",
-        "speakers": [
-          {
-            "name": "Abby Rakshit (Founder/CEO",
-            "title": "",
-            "company": ""
-          },
-          {
-            "name": "Season)",
-            "title": "",
-            "company": ""
-          }
-        ],
-        "venue": {
-          "name": "[ NY Tech Week ]\nFemale Founders Unwind\n \n\nWith Abby Rakshit (Founder/CEO",
-          "address": "Season).\n\nVenue, To Be Announced\n\nJun 05 (Thu) , 2025 @ 09:00 AM\n\n\nFREE\n\n\n \n\n\nRegister \n\n Export GoogleYahooApple iCalOutlook \n\n\n\n\n\n\n\n\n\n\n \nDETAILS\n\n\n\nJoin us for unwinding in great company during New York Tech Week! Show up as you are, honore where you are at & mingle with fellow female founders.\r AGENDA:\r 9 - 9:30am: checkin & networking\r 9:30 - 9:45: pitches of Founding Members of La Creme de la STEM\r Abby Rakshit, CEO & Founder at Season\r 9:45 - 10am: breath & relax with Lizzy of Sync N\r 10am - 11am: networking\r  ABOUT LA CREME DE LA STEM:\r La Creme de la STEM is the only global, private network for early-stage female founders in tech & science, offering a holistic support system that includes exclusive insights from exited entrepreneurs, vetted investors & perks from corporate partners. Apply to join!",
-          "type": "Other"
-        }
-      }
-    },
-    {
-      "id": "evt_gary_0c6037cc",
-      "name": "Secret Society Afterparty",
-      "type": "Event",
-      "locationId": "loc_tbd",
-      "communityId": "com_gary",
-      "description": "Youve been to the panels, the rooftop happy hours, the accelerator mixers. This isnt that.nWere taking over one of NYCs top clubs for a private after hours experienceinvite-only, approval required. Expect EDM & house sets from some of the most popular DJs in the game, surprise performances, & a room full of the founders, investors, & creators shaping whats next.nAccess is very limited. It's an invite-only secret society, after all, with a few public spots. But you can tell us why we should let you in on your signup nReach out to us at events@unicorner.news or suvir@flite.city for table inquiries or to get approved.",
-      "startDate": "2025-06-06T20:00:00-04:00",
-      "endDate": "2025-06-06T21:30:00-04:00",
-      "category": [
-        "Event",
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": 100,
-      "registrationRequired": true,
-      "tags": [
-        "Tech"
-      ],
-      "image": "gary-event.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.garysguide.com/events/ut3pmr4/Secret-Society-Afterparty",
-        "registration_url": "http://gary.to/3qz81gx",
-        "speakers": [],
-        "venue": {
-          "name": "[ NY Tech Week ]\nSecret Society Afterparty\n \n\n\nVenue",
-          "address": "To Be Announced\n\nJun 06 (Fri) , 2025 @ 08:00 PM\n\n\nFREE\n\n\n \n\n\nRegister \n\n Export GoogleYahooApple iCalOutlook \n\n\n\n\n\n\n\n\n\n\n \nDETAILS\n\n\n\nYouve been to the panels, the rooftop happy hours, the accelerator mixers. This isnt that.nWere taking over one of NYCs top clubs for a private after hours experienceinvite-only, approval required. Expect EDM & house sets from some of the most popular DJs in the game, surprise performances, & a room full of the founders, investors, & creators shaping whats next.nAccess is very limited. It's an invite-only secret society, after all, with a few public spots. But you can tell us why we should let you in on your signup nReach out to us at events@unicorner.news or suvir@flite.city for table inquiries or to get approved.",
-          "type": "Other"
-        }
-      }
-    },
-    {
-      "id": "evt_gary_1bf72ca9",
-      "name": "Fashion Tech 101 - The Store Of The Future",
-      "type": "Event",
-      "locationId": "loc_tbd",
-      "communityId": "com_gary",
-      "description": "Play & learn with the latest technology. Come see the future of fashion & retail. Enjoy cocktails & conversations.\r This event is a part of #NYTechWeeka week of events hosted by VCs & startups to bring together the tech ecosystem. Learn more at www.tech-week.com.",
-      "startDate": "2025-06-05T18:00:00-04:00",
-      "endDate": "2025-06-05T19:30:00-04:00",
-      "category": [
-        "Event",
-        "Tech",
-        "AI"
-      ],
-      "price": {
-        "amount": 25.0,
-        "type": "Paid",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": 100,
-      "registrationRequired": true,
-      "tags": [
-        "Tech",
-        "AI",
-        "Business"
-      ],
-      "image": "gary-event.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.garysguide.com/events/hhe72cg/Fashion-Tech-101-The-Store-Of-The-Future",
-        "registration_url": "http://gary.to/d213e3v",
-        "speakers": [],
-        "venue": {
-          "name": "[ NY Tech Week ]\nFashion Tech 101 - The Store Of The Future\n \n\n\nVenue",
-          "address": "To Be Announced\n\nJun 05 (Thu) , 2025 @ 06:00 PM\n\n\n$25\n\n\n \n\n\nRegister \n\n Export GoogleYahooApple iCalOutlook \n\n\n\n\n\n\n\n\n\n\n \nDETAILS\n\n\n\nPlay & learn with the latest technology. Come see the future of fashion & retail. Enjoy cocktails & conversations.\r This event is a part of #NYTechWeeka week of events hosted by VCs & startups to bring together the tech ecosystem. Learn more at www.tech-week.com.",
-          "type": "Other"
-        }
-      }
-    },
-    {
-      "id": "evt_gary_72158dbe",
+      "id": "evt_gary_d87eaac1",
       "name": "Open-Source NYC Computer Vision Hackathon w/ Moondream",
       "type": "Event",
       "locationId": "loc_tbd",
@@ -1210,274 +695,67 @@
       }
     },
     {
-      "id": "evt_gary_05159858",
-      "name": "AI Demo Night",
+      "id": "evt_gary_388d7e96",
+      "name": "Shift VC - The Journey Of An Investor",
       "type": "Event",
       "locationId": "loc_tbd",
       "communityId": "com_gary",
-      "description": "AI Demo Nights Powered by BetterFutureLabs features super cool AI demos. You should join us if you like meeting people & learning about AI & tech.\r 6:00 - Doors/Networking\r6:30 - Welcome Remarks\r6:40 - Demos (5 mins + 5 mins q&a each)\r EntropyRobotics\r CarbonDex\r NOS Agent\r 7:20 - Keynote Speaker TBD\r 7:45 - Audience Choice Awards / Networking\r8:00 - Close\r Address: 7 Times Sq, New York, NY 10036. It's between W41st & W42nd on Broadway. Upon arrival, you will need a QR code that you'll receive in your email to enter & will be directed to Floor #46.\r Parking Garage: Icon Parking is located at 143-145 W 40th St, New York, NY 10018. The rates can be found here.\r No-show policy: As you know, putting on these events takes a lot of time. All we ask is that you treat them professionally as you would any meeting & update your RSVP more than 24 hours ahead of time if you can't make it. No-shows who do not adhere to this policy will be listed on our no-show list of shame & not allowed in future events. Don't be that guy or gal!\r Want to sponsor or pitch? Get in touch.",
-      "startDate": "2025-06-25T18:00:00-04:00",
-      "endDate": "2025-06-25T19:30:00-04:00",
+      "description": "BIG NEWS: SHIFT VC is returning this summer for our fourth conference! \r VC Unleashed's annual conference will take place June 13th in New York City, & we're gearing up for an incredible 2-day experience. \r This year's theme Journey of an Investor: from early investing to excelling in the boardroom-get ready for a day packed with candid conversations, real insights, & practical tools for every stage of a venture career. We'll be joined by top minds from across the ecosystem, all dedicated to reshaping the future of VC.\r Grab your tickets here:https://shiftvc.rsvpify.com/\rMore about VC Unleashed: https://vcunleashed.xyz/",
+      "startDate": "2025-06-13T08:00:00-04:00",
+      "endDate": "2025-06-13T09:30:00-04:00",
       "category": [
         "Event",
-        "Tech",
-        "AI"
-      ],
-      "price": {
-        "amount": 8.0,
-        "type": "Paid",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": 100,
-      "registrationRequired": true,
-      "tags": [
-        "Tech",
-        "AI"
-      ],
-      "image": "gary-event.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.garysguide.com/events/dv78nbg/AI-Demo-Night",
-        "registration_url": "http://gary.to/xxbaxlk",
-        "speakers": [],
-        "venue": {
-          "name": "AI Demo Night\n \n\nDemos by EntropyRobotics",
-          "address": "CarbonDex, NOS Agent.\r\n\n\nVenue, 7 Times Sq\n\nJun 25 (Wed) , 2025 @ 06:00 PM\n\n\n$8\n\n\n \n\n\nRegister \n\n Export GoogleYahooApple iCalOutlook \n\n\n\n\n\n\n\n\n\n\n \nDETAILS\n\n\n\nAI Demo Nights Powered by BetterFutureLabs features super cool AI demos. You should join us if you like meeting people & learning about AI & tech.\r 6:00 - Doors/Networking\r6:30 - Welcome Remarks\r6:40 - Demos (5 mins + 5 mins q&a each)\r EntropyRobotics\r CarbonDex\r NOS Agent\r 7:20 - Keynote Speaker TBD\r 7:45 - Audience Choice Awards / Networking\r8:00 - Close\r Address: 7 Times Sq, New York, NY 10036. It's between W41st & W42nd on Broadway. Upon arrival, you will need a QR code that you'll receive in your email to enter & will be directed to Floor #46.\r Parking Garage: Icon Parking is located at 143-145 W 40th St, New York, NY 10018. The rates can be found here.\r No-show policy: As you know, putting on these events takes a lot of time. All we ask is that you treat them professionally as you would any meeting & update your RSVP more than 24 hours ahead of time if you can't make it. No-shows who do not adhere to this policy will be listed on our no-show list of shame & not allowed in future events. Don't be that guy or gal!\r Want to sponsor or pitch? Get in touch.",
-          "type": "Other"
-        }
-      }
-    },
-    {
-      "id": "evt_gary_641829e0",
-      "name": "Web3 Familia Meetup",
-      "type": "Meetup",
-      "locationId": "loc_tbd",
-      "communityId": "com_gary",
-      "description": "Web3 Familia NYC Tech Week Meetup\r Join Web3 Familia, Rayo, & Stand with Crypto for an evening of connection, collaboration, & community! We welcome everyone in town for NYC Tech Week to join our community of founders, developers, & builders to join us over light refreshments. See you all soon!\r Event Highlights:\r 6:00 PM: Check-in, network, & light refreshments\r 7:30 PM: Remarks from hosts\r 9:00 PM: Closing remarks & meetup wrap-up\r Hosts:\r Web3 Familia - Community & support network for founders & developers globally in web3\r Rayo Capital Group - A New York City based investment & advisory firm in the digital assets economy.\r Stand with Crypto - Grassroots advocacy hub to empower crypto users, builders, & supporters to make themselves heard\r If you're interested in collaborating as a partner, contact us at info@rayo.capital for complete details\r Stay Connected:\rFollow Rayo on socials\rFollow Web3 Familia on socials\r Learn more about Stand with Crypto\r Subscribe to our Newsletter\r See our 2025 events calendar",
-      "startDate": "2025-06-05T18:00:00-04:00",
-      "endDate": "2025-06-05T19:30:00-04:00",
-      "category": [
-        "Meetup",
-        "Tech",
-        "AI"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": 100,
-      "registrationRequired": true,
-      "tags": [
-        "Tech",
-        "AI"
-      ],
-      "image": "gary-event.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.garysguide.com/events/4hto4is/Web3-Familia-Meetup",
-        "registration_url": "http://gary.to/3tq9dmj",
-        "speakers": [
-          {
-            "name": "Web3 Familia",
-            "title": "",
-            "company": ""
-          },
-          {
-            "name": "Rayo Capital Group",
-            "title": "",
-            "company": ""
-          },
-          {
-            "name": "Stand with Crypto",
-            "title": "",
-            "company": ""
-          }
-        ],
-        "venue": {
-          "name": "[ NY Tech Week ]\nWeb3 Familia Meetup\n \n\nWith Web3 Familia",
-          "address": "Rayo Capital Group, Stand with Crypto.\n\nVenue, To Be Announced\n\nJun 05 (Thu) , 2025 @ 06:00 PM\n\n\nFREE\n\n\n \n\n\nRegister \n\n Export GoogleYahooApple iCalOutlook \n\n\n\n\n\n\n\n\n\n\n \nDETAILS\n\n\n\nWeb3 Familia NYC Tech Week Meetup\r Join Web3 Familia, Rayo, & Stand with Crypto for an evening of connection, collaboration, & community! We welcome everyone in town for NYC Tech Week to join our community of founders, developers, & builders to join us over light refreshments. See you all soon!\r Event Highlights:\r 6:00 PM: Check-in, network, & light refreshments\r 7:30 PM: Remarks from hosts\r 9:00 PM: Closing remarks & meetup wrap-up\r Hosts:\r Web3 Familia - Community & support network for founders & developers globally in web3\r Rayo Capital Group - A New York City based investment & advisory firm in the digital assets economy.\r Stand with Crypto - Grassroots advocacy hub to empower crypto users, builders, & supporters to make themselves heard\r If you're interested in collaborating as a partner, contact us at info@rayo.capital for complete details\r Stay Connected:\rFollow Rayo on socials\rFollow Web3 Familia on socials\r Learn more about Stand with Crypto\r Subscribe to our Newsletter\r See our 2025 events calendar",
-          "type": "Other"
-        }
-      }
-    },
-    {
-      "id": "evt_gary_617c2c6b",
-      "name": "Visions Summit",
-      "type": "Conference",
-      "locationId": "loc_tbd",
-      "communityId": "com_gary",
-      "description": "About Event\rVISIONS Summit: NYC - Where Culture, Commerce, & the Future Converge\r Join us at the Museum of Modern Art for a one-day summit exploring the forces shaping the next era of commerce. Centered on this year's theme-We Are Builders of Worlds- the VISIONS Summit will explore mythmaking, design systems, brand legacy, & narrative strategy. The content is crafted to bring a fresh perspective to the retail & eCommerce landscape, inspiring marketing, CX, & innovation professionals to think beyond best practices & engage in meaningful transformation.\r Programmed by the editorial team at Future Commerce, this half-day event features a curated mix of keynotes, 1-on-1 interviews, & moderated panels with culture-shaping voices across media, creative arts, brand building, & technology.\r Through immersive storytelling, unexpected conversations, & cultural insight, this event is where the future gets built.\r This one-day-only experience will be held in the Roy & Niuta Titus Theater at the Museum of Modern Art, & only 200 guests will have the opportunity to attend.\r Full agenda & speakers can be viewed at futurecommerce.com/visions",
-      "startDate": "2025-06-10T13:00:00-04:00",
-      "endDate": "2025-06-10T14:30:00-04:00",
-      "category": [
         "Conference",
-        "Tech",
-        "AI"
-      ],
-      "price": {
-        "amount": 249.0,
-        "type": "Paid",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": 100,
-      "registrationRequired": true,
-      "tags": [
-        "Tech",
-        "AI",
-        "Conference"
-      ],
-      "image": "gary-event.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.garysguide.com/events/c1yeka5/Visions-Summit",
-        "registration_url": "http://gary.to/dwve4w8",
-        "speakers": [
-          {
-            "name": "Gianna Valintina (Global Head of Strategic Partnerships",
-            "title": "",
-            "company": ""
-          },
-          {
-            "name": "Spatial)",
-            "title": "",
-            "company": ""
-          },
-          {
-            "name": "Elliot Vredenburg",
-            "title": "Designer",
-            "company": ""
-          },
-          {
-            "name": "Andrew Huang",
-            "title": "Author",
-            "company": ""
-          },
-          {
-            "name": "Dami Lee",
-            "title": "Architect",
-            "company": ""
-          }
-        ],
-        "venue": {
-          "name": "Visions Summit\n \n\nWith Gianna Valintina (Global Head of Strategic Partnerships",
-          "address": "Spatial), Elliot Vredenburg (Designer), Andrew Huang (Author), Dami Lee (Architect).\n\nMuseum Of Modern Art, 11 W 53rd St\n\nJun 10 (Tue) , 2025 @ 01:00 PM\n\n\n$249\n\n\n \n\n\nRegister \n\n Export GoogleYahooApple iCalOutlook \n\n\n\n\n\n\n\n\n\n\n \nDETAILS\n\n\n\nAbout Event\rVISIONS Summit: NYC - Where Culture, Commerce, & the Future Converge\r Join us at the Museum of Modern Art for a one-day summit exploring the forces shaping the next era of commerce. Centered on this year's theme-We Are Builders of Worlds- the VISIONS Summit will explore mythmaking, design systems, brand legacy, & narrative strategy. The content is crafted to bring a fresh perspective to the retail & eCommerce landscape, inspiring marketing, CX, & innovation professionals to think beyond best practices & engage in meaningful transformation.\r Programmed by the editorial team at Future Commerce, this half-day event features a curated mix of keynotes, 1-on-1 interviews, & moderated panels with culture-shaping voices across media, creative arts, brand building, & technology.\r Through immersive storytelling, unexpected conversations, & cultural insight, this event is where the future gets built.\r This one-day-only experience will be held in the Roy & Niuta Titus Theater at the Museum of Modern Art, & only 200 guests will have the opportunity to attend.\r Full agenda & speakers can be viewed at futurecommerce.com/visions",
-          "type": "Other"
-        }
-      }
-    },
-    {
-      "id": "evt_gary_0efd5f2e",
-      "name": "Ai-Native Product Development Workshop",
-      "type": "Workshop",
-      "locationId": "loc_tbd",
-      "communityId": "com_gary",
-      "description": "Are you ready to unlock the full potential of AI for your product?\r Join Codewalla & Startup Grind at The Yard: Herald Square for an exclusive workshop during #NYTechWeek that will revolutionize how you think about product development in the AI era.\r In just two hours, you'll gain:\r Cutting-edge strategies for AI-native product design\r Practical frameworks to integrate AI into your existing products\r Insights from industry experts on leveraging AI for competitive advantage\r Who Should Attend:\r Startup founders\r Product managers\r Innovation teams\r Technical & non-technical entrepreneurs\r Whether you're building your first AI-powered product, looking to refresh an existing offering, or exploring how AI can transform your business, this workshop is your roadmap to staying ahead in the rapidly evolving tech landscape.\r Limited seats available - don't miss this opportunity to future-proof your product strategy!",
-      "startDate": "2025-06-05T10:00:00-04:00",
-      "endDate": "2025-06-05T11:30:00-04:00",
-      "category": [
-        "Workshop",
-        "Workshop",
         "Tech"
       ],
       "price": {
-        "amount": 0,
-        "type": "Free",
+        "amount": 200.0,
+        "type": "Paid",
         "currency": "USD",
         "details": ""
       },
       "capacity": 100,
       "registrationRequired": true,
       "tags": [
-        "Workshop",
-        "Tech",
-        "AI",
-        "Business"
+        "Conference",
+        "Tech"
       ],
       "image": "gary-event.jpg",
       "status": "upcoming",
       "metadata": {
-        "source_url": "https://www.garysguide.com/events/ov7pf04/Ai-Native-Product-Development-Workshop",
-        "registration_url": "http://gary.to/uq5ptaf",
+        "source_url": "https://www.garysguide.com/events/xgozsbd/Shift-VC-The-Journey-Of-An-Investor",
+        "registration_url": "http://gary.to/5rtor4j",
         "speakers": [
           {
-            "name": "Rakesh Raju (Founder",
+            "name": "Ana Bonamassa (Ops Lead",
             "title": "",
             "company": ""
           },
           {
-            "name": "Codewalla)",
+            "name": "Neptune)",
             "title": "",
+            "company": ""
+          },
+          {
+            "name": "Jossy Rodriguez",
+            "title": "Tech Council Ventures",
+            "company": ""
+          },
+          {
+            "name": "Monica Bolanos",
+            "title": "Halogen Ventures",
             "company": ""
           }
         ],
         "venue": {
-          "name": "[ NY Tech Week ]\nAi-Native Product Development Workshop\n \n\nWith Rakesh Raju (Founder",
-          "address": "Codewalla).\n\nThe Yard: Herald Sq, 106 W 32nd St\n\nJun 05 (Thu) , 2025 @ 10:00 AM\n\n\nFREE\n\n\n \n\n\nRegister \n\n Export GoogleYahooApple iCalOutlook \n\n\n\n\n\n\n\n\n\n\n \nDETAILS\n\n\n\nAre you ready to unlock the full potential of AI for your product?\r Join Codewalla & Startup Grind at The Yard: Herald Square for an exclusive workshop during #NYTechWeek that will revolutionize how you think about product development in the AI era.\r In just two hours, you'll gain:\r Cutting-edge strategies for AI-native product design\r Practical frameworks to integrate AI into your existing products\r Insights from industry experts on leveraging AI for competitive advantage\r Who Should Attend:\r Startup founders\r Product managers\r Innovation teams\r Technical & non-technical entrepreneurs\r Whether you're building your first AI-powered product, looking to refresh an existing offering, or exploring how AI can transform your business, this workshop is your roadmap to staying ahead in the rapidly evolving tech landscape.\r Limited seats available - don't miss this opportunity to future-proof your product strategy!",
+          "name": "Shift VC - The Journey Of An Investor\n \n\nWith Ana Bonamassa (Ops Lead",
+          "address": "Neptune), Jossy Rodriguez (Tech Council Ventures), Monica Bolanos (Halogen Ventures).\n\nPerkins Coie, 1155 Ave of the Americas, 22nd Fl\n\nJun 13 (Fri) , 2025 @ 08:00 AM\n\n\n$200\n\n\n \n\n\nRegister \n\n Export GoogleYahooApple iCalOutlook \n\n\n\n\n\n\n\n\n\n\n \nDETAILS\n\n\n\nBIG NEWS: SHIFT VC is returning this summer for our fourth conference! \r VC Unleashed's annual conference will take place June 13th in New York City, & we're gearing up for an incredible 2-day experience. \r This year's theme Journey of an Investor: from early investing to excelling in the boardroom-get ready for a day packed with candid conversations, real insights, & practical tools for every stage of a venture career. We'll be joined by top minds from across the ecosystem, all dedicated to reshaping the future of VC.\r Grab your tickets here:https://shiftvc.rsvpify.com/\rMore about VC Unleashed: https://vcunleashed.xyz/",
           "type": "Other"
         }
       }
     },
     {
-      "id": "evt_gary_eb87411a",
-      "name": "Catalyst For Change - Founders Driving Change",
-      "type": "Event",
-      "locationId": "loc_tbd",
-      "communityId": "com_gary",
-      "description": "Join us at NY Tech Week for Catalyst for Change: Tech Founders Tackling Tough Challenges, a powerful gathering hosted by the Robin Hood Foundation, Samvid Ventures, & Maycomb Capital.\r Meet visionary founders on the frontlines of tech-based solutions to society's toughest challenges, from fighting inequality to breaking down systemic barriers.\r Through bold conversation, interactive showcases, & incisive Q&A, you'll discover how these change-makers are rewriting the rules of social impact & driving innovation that truly matters. Be part of this unapologetically radical community, & help redefine what's possible.\r This event is a part of #NYTechWeek-a week of events hosted by VCs & startups to bring together the tech ecosystem. Learn more at www.tech-week.com.",
-      "startDate": "2025-06-05T15:00:00-04:00",
-      "endDate": "2025-06-05T16:30:00-04:00",
-      "category": [
-        "Event",
-        "Tech",
-        "Business"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": 100,
-      "registrationRequired": true,
-      "tags": [
-        "Tech",
-        "Business"
-      ],
-      "image": "gary-event.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.garysguide.com/events/43cr42x/Catalyst-For-Change-Founders-Driving-Change",
-        "registration_url": "http://gary.to/j07pmiy",
-        "speakers": [
-          {
-            "name": "Robin Hood Foundation",
-            "title": "",
-            "company": ""
-          },
-          {
-            "name": "Samvid Ventures",
-            "title": "",
-            "company": ""
-          },
-          {
-            "name": "Maycomb Capital",
-            "title": "",
-            "company": ""
-          }
-        ],
-        "venue": {
-          "name": "Catalyst For Change - Founders Driving Change\n \n\nWith Robin Hood Foundation",
-          "address": "Samvid Ventures, Maycomb Capital.\n\nVenue, To Be Announced\n\nJun 05 (Thu) , 2025 @ 03:00 PM\n\n\nFREE\n\n\n \n\n\nRegister \n\n Export GoogleYahooApple iCalOutlook \n\n\n\n\n\n\n\n\n\n\n \nDETAILS\n\n\n\nJoin us at NY Tech Week for Catalyst for Change: Tech Founders Tackling Tough Challenges, a powerful gathering hosted by the Robin Hood Foundation, Samvid Ventures, & Maycomb Capital.\r Meet visionary founders on the frontlines of tech-based solutions to society's toughest challenges, from fighting inequality to breaking down systemic barriers.\r Through bold conversation, interactive showcases, & incisive Q&A, you'll discover how these change-makers are rewriting the rules of social impact & driving innovation that truly matters. Be part of this unapologetically radical community, & help redefine what's possible.\r This event is a part of #NYTechWeek-a week of events hosted by VCs & startups to bring together the tech ecosystem. Learn more at www.tech-week.com.",
-          "type": "Other"
-        }
-      }
-    },
-    {
-      "id": "evt_gary_e13104e2",
+      "id": "evt_gary_0b37369b",
       "name": "AI In Space - Exploring Future Of Data, Discovery & Design",
       "type": "Event",
       "locationId": "loc_tbd",
@@ -1537,100 +815,21 @@
       }
     },
     {
-      "id": "evt_gary_90a2b172",
-      "name": "Founders & Funders Rooftop Party",
+      "id": "evt_gary_246f1dac",
+      "name": "AI Demo Night",
       "type": "Event",
       "locationId": "loc_tbd",
       "communityId": "com_gary",
-      "description": "Join an iconic rooftop gatheringwhere the energy is high, & the innovation is unstoppablebrought to you by Morrison Foerster, Carta, Google Cloud, NYU Tandon Future Labs, & Techstars. \r \tSeed Connections  Network with top founders, funders, & innovators shaping the future.\r \tPitch & Party  Swap ideas, scout deals, & unwind.\r \tMusic & Memories  Enjoy a DJ & capture #NYTechWeek connections in our 360 photo booth.\r \tSkylines & Gourmet Bites  Elevate the evening with skyline sights as bold as your next move, paired with signature cocktails & bites. \r Space is limitedget on the list now.\r This event is a part of #NYTechWeeka week of events hosted by VCs & startups to bring together the tech ecosystem. Learn more at www.tech-week.com.",
-      "startDate": "2025-06-05T18:00:00-04:00",
-      "endDate": "2025-06-05T19:30:00-04:00",
+      "description": "AI Demo Nights Powered by BetterFutureLabs features super cool AI demos. You should join us if you like meeting people & learning about AI & tech.\r 6:00 - Doors/Networking\r6:30 - Welcome Remarks\r6:40 - Demos (5 mins + 5 mins q&a each)\r EntropyRobotics\r CarbonDex\r NOS Agent\r 7:20 - Keynote Speaker TBD\r 7:45 - Audience Choice Awards / Networking\r8:00 - Close\r Address: 7 Times Sq, New York, NY 10036. It's between W41st & W42nd on Broadway. Upon arrival, you will need a QR code that you'll receive in your email to enter & will be directed to Floor #46.\r Parking Garage: Icon Parking is located at 143-145 W 40th St, New York, NY 10018. The rates can be found here.\r No-show policy: As you know, putting on these events takes a lot of time. All we ask is that you treat them professionally as you would any meeting & update your RSVP more than 24 hours ahead of time if you can't make it. No-shows who do not adhere to this policy will be listed on our no-show list of shame & not allowed in future events. Don't be that guy or gal!\r Want to sponsor or pitch? Get in touch.",
+      "startDate": "2025-06-25T18:00:00-04:00",
+      "endDate": "2025-06-25T19:30:00-04:00",
       "category": [
         "Event",
         "Tech",
         "AI"
       ],
       "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": 100,
-      "registrationRequired": true,
-      "tags": [
-        "Tech",
-        "AI",
-        "Business"
-      ],
-      "image": "gary-event.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.garysguide.com/events/w4w1kka/Founders-Funders-Rooftop-Party",
-        "registration_url": "http://gary.to/0g56bcx",
-        "speakers": [],
-        "venue": {
-          "name": "[ NY Tech Week ]\nFounders & Funders Rooftop Party\n \n\n\nVenue",
-          "address": "To Be Announced\n\nJun 05 (Thu) , 2025 @ 06:00 PM\n\n\nFREE\n\n\n \n\n\nRegister \n\n Export GoogleYahooApple iCalOutlook \n\n\n\n\n\n\n\n\n\n\n \nDETAILS\n\n\n\nJoin an iconic rooftop gatheringwhere the energy is high, & the innovation is unstoppablebrought to you by Morrison Foerster, Carta, Google Cloud, NYU Tandon Future Labs, & Techstars. \r \tSeed Connections  Network with top founders, funders, & innovators shaping the future.\r \tPitch & Party  Swap ideas, scout deals, & unwind.\r \tMusic & Memories  Enjoy a DJ & capture #NYTechWeek connections in our 360 photo booth.\r \tSkylines & Gourmet Bites  Elevate the evening with skyline sights as bold as your next move, paired with signature cocktails & bites. \r Space is limitedget on the list now.\r This event is a part of #NYTechWeeka week of events hosted by VCs & startups to bring together the tech ecosystem. Learn more at www.tech-week.com.",
-          "type": "Other"
-        }
-      }
-    },
-    {
-      "id": "evt_gary_5508a84e",
-      "name": "Climate Tech Mixer",
-      "type": "Event",
-      "locationId": "loc_tbd",
-      "communityId": "com_gary",
-      "description": "The NYC Climate Tech Mixer is Net Zero Insights' signature monthly gathering- exclusively bringing together:\r  VCs, CVCs, PEs, Bankers\r Founders & Startups\r Corporates, Policymakers & Ecosystem Builders\r What to expect:\r 6:00-7:00 PM - Doors open. Grab a drink, settle in, & meet fellow builders & backers.\r 7:00-8:00 PM - A curated selection of founders will pitch bold solutions tackling climate's toughest challenges.\r 8:00-9:00 PM - Keep the energy going with networking, drinks, & new connections.\r About Net Zero Insights\rNet Zero Insights is the leading climate tech intelligence platform. We equip investors, corporates, & governments with real-time data to track innovation, spot trends, & make data-driven decisions in the race to net zero.",
-      "startDate": "2025-06-10T18:00:00-04:00",
-      "endDate": "2025-06-10T19:30:00-04:00",
-      "category": [
-        "Event",
-        "Tech",
-        "Business"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": 100,
-      "registrationRequired": true,
-      "tags": [
-        "Tech",
-        "Business"
-      ],
-      "image": "gary-event.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.garysguide.com/events/sbko902/Climate-Tech-Mixer",
-        "registration_url": "http://gary.to/w4g7rt3",
-        "speakers": [],
-        "venue": {
-          "name": "Climate Tech Mixer\n \n\n\nVenue",
-          "address": "To Be Announced\n\nJun 10 (Tue) , 2025 @ 06:00 PM\n\n\nFREE\n\n\n \n\n\nRegister \n\n Export GoogleYahooApple iCalOutlook \n\n\n\n\n\n\n\n\n\n\n \nDETAILS\n\n\n\nThe NYC Climate Tech Mixer is Net Zero Insights' signature monthly gathering- exclusively bringing together:\r  VCs, CVCs, PEs, Bankers\r Founders & Startups\r Corporates, Policymakers & Ecosystem Builders\r What to expect:\r 6:00-7:00 PM - Doors open. Grab a drink, settle in, & meet fellow builders & backers.\r 7:00-8:00 PM - A curated selection of founders will pitch bold solutions tackling climate's toughest challenges.\r 8:00-9:00 PM - Keep the energy going with networking, drinks, & new connections.\r About Net Zero Insights\rNet Zero Insights is the leading climate tech intelligence platform. We equip investors, corporates, & governments with real-time data to track innovation, spot trends, & make data-driven decisions in the race to net zero.",
-          "type": "Other"
-        }
-      }
-    },
-    {
-      "id": "evt_gary_1d8fad39",
-      "name": "Shift VC - The Journey Of An Investor",
-      "type": "Event",
-      "locationId": "loc_tbd",
-      "communityId": "com_gary",
-      "description": "BIG NEWS: SHIFT VC is returning this summer for our fourth conference! \r VC Unleashed's annual conference will take place June 13th in New York City, & we're gearing up for an incredible 2-day experience. \r This year's theme Journey of an Investor: from early investing to excelling in the boardroom-get ready for a day packed with candid conversations, real insights, & practical tools for every stage of a venture career. We'll be joined by top minds from across the ecosystem, all dedicated to reshaping the future of VC.\r Grab your tickets here:https://shiftvc.rsvpify.com/\rMore about VC Unleashed: https://vcunleashed.xyz/",
-      "startDate": "2025-06-13T08:00:00-04:00",
-      "endDate": "2025-06-13T09:30:00-04:00",
-      "category": [
-        "Event",
-        "Tech",
-        "Conference"
-      ],
-      "price": {
-        "amount": 200.0,
+        "amount": 8.0,
         "type": "Paid",
         "currency": "USD",
         "details": ""
@@ -1639,299 +838,33 @@
       "registrationRequired": true,
       "tags": [
         "Tech",
-        "Conference"
+        "AI"
       ],
       "image": "gary-event.jpg",
       "status": "upcoming",
       "metadata": {
-        "source_url": "https://www.garysguide.com/events/xgozsbd/Shift-VC-The-Journey-Of-An-Investor",
-        "registration_url": "http://gary.to/5rtor4j",
-        "speakers": [
-          {
-            "name": "Ana Bonamassa (Ops Lead",
-            "title": "",
-            "company": ""
-          },
-          {
-            "name": "Neptune)",
-            "title": "",
-            "company": ""
-          },
-          {
-            "name": "Jossy Rodriguez",
-            "title": "Tech Council Ventures",
-            "company": ""
-          },
-          {
-            "name": "Monica Bolanos",
-            "title": "Halogen Ventures",
-            "company": ""
-          }
-        ],
-        "venue": {
-          "name": "Shift VC - The Journey Of An Investor\n \n\nWith Ana Bonamassa (Ops Lead",
-          "address": "Neptune), Jossy Rodriguez (Tech Council Ventures), Monica Bolanos (Halogen Ventures).\n\nPerkins Coie, 1155 Ave of the Americas, 22nd Fl\n\nJun 13 (Fri) , 2025 @ 08:00 AM\n\n\n$200\n\n\n \n\n\nRegister \n\n Export GoogleYahooApple iCalOutlook \n\n\n\n\n\n\n\n\n\n\n \nDETAILS\n\n\n\nBIG NEWS: SHIFT VC is returning this summer for our fourth conference! \r VC Unleashed's annual conference will take place June 13th in New York City, & we're gearing up for an incredible 2-day experience. \r This year's theme Journey of an Investor: from early investing to excelling in the boardroom-get ready for a day packed with candid conversations, real insights, & practical tools for every stage of a venture career. We'll be joined by top minds from across the ecosystem, all dedicated to reshaping the future of VC.\r Grab your tickets here:https://shiftvc.rsvpify.com/\rMore about VC Unleashed: https://vcunleashed.xyz/",
-          "type": "Other"
-        }
-      }
-    },
-    {
-      "id": "evt_gary_4171e213",
-      "name": "Understanding Nil &. Leveraging Tech For Female Athletes",
-      "type": "Event",
-      "locationId": "loc_tbd",
-      "communityId": "com_gary",
-      "description": "UNDERSTANDING NIL AND LEVERAGING TECH FOR FEMALE ATHLETES\r Empowering female athletes with NIL insights, networking, & brand-building strategies. Join us June 6 in NYC to own your future!",
-      "startDate": "2025-06-06T08:00:00-04:00",
-      "endDate": "2025-06-06T09:30:00-04:00",
-      "category": [
-        "Event",
-        "Tech"
-      ],
-      "price": {
-        "amount": 99.0,
-        "type": "Paid",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": 100,
-      "registrationRequired": true,
-      "tags": [
-        "Tech"
-      ],
-      "image": "gary-event.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.garysguide.com/events/mpfj0l4/Understanding-Nil-Leveraging-Tech-For-Female-Athletes",
-        "registration_url": "http://gary.to/ui201x8",
+        "source_url": "https://www.garysguide.com/events/dv78nbg/AI-Demo-Night",
+        "registration_url": "http://gary.to/xxbaxlk",
         "speakers": [],
         "venue": {
-          "name": "Understanding Nil &. Leveraging Tech For Female Athletes\n \n\n\nVenue",
-          "address": "226 E 54th St\n\nJun 06 (Fri) , 2025 @ 08:00 AM\n\n\n$99\n\n\n \n\n\nRegister \n\n Export GoogleYahooApple iCalOutlook \n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n \nDETAILS\n\n\n\nUNDERSTANDING NIL AND LEVERAGING TECH FOR FEMALE ATHLETES\r Empowering female athletes with NIL insights, networking, & brand-building strategies. Join us June 6 in NYC to own your future!",
+          "name": "AI Demo Night\n \n\nDemos by EntropyRobotics",
+          "address": "CarbonDex, NOS Agent.\r\n\n\nVenue, 7 Times Sq\n\nJun 25 (Wed) , 2025 @ 06:00 PM\n\n\n$8\n\n\n \n\n\nRegister \n\n Export GoogleYahooApple iCalOutlook \n\n\n\n\n\n\n\n\n\n\n \nDETAILS\n\n\n\nAI Demo Nights Powered by BetterFutureLabs features super cool AI demos. You should join us if you like meeting people & learning about AI & tech.\r 6:00 - Doors/Networking\r6:30 - Welcome Remarks\r6:40 - Demos (5 mins + 5 mins q&a each)\r EntropyRobotics\r CarbonDex\r NOS Agent\r 7:20 - Keynote Speaker TBD\r 7:45 - Audience Choice Awards / Networking\r8:00 - Close\r Address: 7 Times Sq, New York, NY 10036. It's between W41st & W42nd on Broadway. Upon arrival, you will need a QR code that you'll receive in your email to enter & will be directed to Floor #46.\r Parking Garage: Icon Parking is located at 143-145 W 40th St, New York, NY 10018. The rates can be found here.\r No-show policy: As you know, putting on these events takes a lot of time. All we ask is that you treat them professionally as you would any meeting & update your RSVP more than 24 hours ahead of time if you can't make it. No-shows who do not adhere to this policy will be listed on our no-show list of shame & not allowed in future events. Don't be that guy or gal!\r Want to sponsor or pitch? Get in touch.",
           "type": "Other"
         }
       }
     },
     {
-      "id": "evt_gary_969bf0bb",
-      "name": "New Media & Comms Happy Hour",
+      "id": "evt_gary_668258f0",
+      "name": "NJ Fast Expo",
       "type": "Event",
       "locationId": "loc_tbd",
       "communityId": "com_gary",
-      "description": "Join Edelman & Tech:NYC for a happy hour & panel on how new media is reshaping the tech landscape.\r As podcasts, Substacks, & other emerging formats gain traction, the rules of engagement for tech communicators are shifting quickly.\r Julie Samuels, President & CEO of Tech:NYC, will moderate a conversation exploring the rise of independent platforms, their disruption of traditional journalism, & where comms leaders should focus to stay ahead in a fast-evolving media ecosystem.\r Confirmed panelists include Alex Kantrowitz (Big Technology), Hope King (Macro Talk), Alex Konrad (Upstarts Media), Polina Pompliano (The Profile), & Eric Newcomer (Newcomer).\r This event is a part of #NYTechWeek-a week of events hosted by VCs & startups to bring together the tech ecosystem. Learn more at www.tech-week.com.",
-      "startDate": "2025-06-05T17:30:00-04:00",
-      "endDate": "2025-06-05T19:00:00-04:00",
+      "description": "Join us for our NJ FAST Expo.\r More details to come!\r Startups Pitches Listed Below:\r Squirro turns meaningless data into A.I.-driven actionable Insights.\r Venteur is an AI-powered benefits marketplace that empowers individuals to take control of their health care.\r DeepKeep multimodal AI security safeguards machine learning pipelines, promoting secure, unbiased, real time & trustworthy AI solutions.\r Penelope is a self-service retirement platform for small & micro businesses.\r Vaultik is the bank for your belongings that unlocks a new world of post sale opportunities including perks, insurance, & credit services for high net worth individuals.\r Markets EQ provides GenAI solution providing competitive tonal analysis, previously unavailable awareness.\r Cranium is an AI security & trust platform that delivers security & trust to the AI revolution.\r Ledge is a command center for payments built for finance teams operating at scale.\r Column is an AI-powered insurance management platform designed for today's financial professionals.\r Clarista is a data analytics platform that provides real-time answers from any enterprise platform, acting as a bridge between technical data & AI.\r OpenVC provides investible unicorn indexes of the most innovative late-stage venture capital companies. \r AQ22 is a loan assessment AI solution built exclusively for credit analysts. Our platform boosts loan assessment efficiency, accuracy, & transparency for creditors, credit unions, & alternative lenders. \r Indemn builds machine learning-powered insurance conversations. Users can learn about coverage, purchase insurance, & perform service tasks through natural conversation.\r FinX Capital Markets builds high-performance systems for investors, analysts, & risk managers of capital markets.\r Kobalt Labs is an AI-powered platform to reduce errors & increase efficiency in manual compliance work.\r Atidot empowers life insurance & annuity writers to evaluate opportunities in the in-force of business with big data & predictive analytics.\r Truthifi is a developer of a wealth management platform designed to offer financial advisory services.\r #NJFAST #Innovation #NextGenStartups #Networking #GameChangers #NewJersey #Startups #Accelerator",
+      "startDate": "2025-06-24T13:00:00-04:00",
+      "endDate": "2025-06-24T14:30:00-04:00",
       "category": [
         "Event",
-        "Tech",
-        "AI"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": 100,
-      "registrationRequired": true,
-      "tags": [
-        "Tech",
-        "AI",
-        "Business"
-      ],
-      "image": "gary-event.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.garysguide.com/events/2ckslzs/New-Media-Comms-Happy-Hour",
-        "registration_url": "http://gary.to/ed4bhs5",
-        "speakers": [
-          {
-            "name": "Alex Kantrowitz",
-            "title": "Big Tech",
-            "company": ""
-          },
-          {
-            "name": "Hope King",
-            "title": "Macro Talk",
-            "company": ""
-          },
-          {
-            "name": "Julie Samuels",
-            "title": "Tech:NYC",
-            "company": ""
-          },
-          {
-            "name": "Alex Konrad",
-            "title": "Upstarts Media",
-            "company": ""
-          },
-          {
-            "name": "Polina Pompliano",
-            "title": "The Profile",
-            "company": ""
-          },
-          {
-            "name": "Eric Newcomer",
-            "title": "Newcomer",
-            "company": ""
-          }
-        ],
-        "venue": {
-          "name": "[ NY Tech Week ]\nNew Media & Comms Happy Hour\n \n\nWith Alex Kantrowitz (Big Tech)",
-          "address": "Hope King (Macro Talk), Julie Samuels (Tech:NYC), Alex Konrad (Upstarts Media), Polina Pompliano (The Profile), Eric Newcomer (Newcomer).\n\nVenue, To Be Announced\n\nJun 05 (Thu) , 2025 @ 05:30 PM\n\n\nFREE\n\n\n \n\n\nRegister \n\n Export GoogleYahooApple iCalOutlook \n\n\n\n\n\n\n\n\n\n\n \nDETAILS\n\n\n\nJoin Edelman & Tech:NYC for a happy hour & panel on how new media is reshaping the tech landscape.\r As podcasts, Substacks, & other emerging formats gain traction, the rules of engagement for tech communicators are shifting quickly.\r Julie Samuels, President & CEO of Tech:NYC, will moderate a conversation exploring the rise of independent platforms, their disruption of traditional journalism, & where comms leaders should focus to stay ahead in a fast-evolving media ecosystem.\r Confirmed panelists include Alex Kantrowitz (Big Technology), Hope King (Macro Talk), Alex Konrad (Upstarts Media), Polina Pompliano (The Profile), & Eric Newcomer (Newcomer).\r This event is a part of #NYTechWeek-a week of events hosted by VCs & startups to bring together the tech ecosystem. Learn more at www.tech-week.com.",
-          "type": "Other"
-        }
-      }
-    },
-    {
-      "id": "evt_gary_a16073aa",
-      "name": "Building Emotional Support Systems w/ AI",
-      "type": "Event",
-      "locationId": "loc_tbd",
-      "communityId": "com_gary",
-      "description": "This isn't just another tech panel-join us for an intimate, women-led roundtable exploring how AI can support emotional wellbeing, digital balance, & addiction recovery in today's high-pressure, hyperconnected world.\r This gathering will break into small, thoughtfully curated groups to spark honest conversations, not lectures. Together with 50 mission-driven technologists, builders, & community leaders, we'll dive deep into designing a more compassionate digital future.\r  Core topics we'll explore:\r How AI can offer non-judgmental, always-on emotional support\r Rethinking digital wellness & social media through a gender-inclusive lens\r Exploring voice vs. text agents for crisis care\r Designing pro-user algorithms that empower attention-not exploit it\r Our hosts:\rEchoHer is a non-profit organization dedicated to empowering women & non-binary founders & funders by increasing their representation & success in entrepreneurship. We foster a supportive ecosystem to drive meaningful change & create impactful opportunities through monthly events, co-working opportunities, curated networking sessions, pitch nights, & insightful panel discussions.\r PowerYou is an AI-powered companion for emotional healing & wellbeing. Designed for people navigating addiction, burnout, or self-doubt, it offers daily support through guided reflection, personalized action plans, & a warm, human-like AI guide named Kris. We imagine a world where no one has to suffer alone in their hardest moments - because the support they need is right in their pocket. Already ready to listen. Always learning. Always there.\r This event is a part of #NYTechWeek-a week of events hosted by VCs & startups to bring together the tech ecosystem. Learn more at www.tech-week.com.",
-      "startDate": "2025-06-05T14:00:00-04:00",
-      "endDate": "2025-06-05T15:30:00-04:00",
-      "category": [
-        "Event",
-        "Tech",
-        "AI"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": 100,
-      "registrationRequired": true,
-      "tags": [
-        "Tech",
-        "AI",
-        "Business"
-      ],
-      "image": "gary-event.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.garysguide.com/events/62k2krg/Building-Emotional-Support-Systems-w-AI",
-        "registration_url": "http://gary.to/apdn2we",
-        "speakers": [
-          {
-            "name": "Vivian Lei (CEO",
-            "title": "",
-            "company": ""
-          },
-          {
-            "name": "PowerYou)",
-            "title": "",
-            "company": ""
-          },
-          {
-            "name": "Qianwen Chen (CEO",
-            "title": "",
-            "company": ""
-          },
-          {
-            "name": "Echoher)",
-            "title": "",
-            "company": ""
-          },
-          {
-            "name": "Sandy Yu (VP",
-            "title": "",
-            "company": ""
-          },
-          {
-            "name": "Revenue Retention)",
-            "title": "",
-            "company": ""
-          }
-        ],
-        "venue": {
-          "name": "[ NY Tech Week ]\nBuilding Emotional Support Systems w/ AI\n \n\nWith Vivian Lei (CEO",
-          "address": "PowerYou), Qianwen Chen (CEO, Echoher), Sandy Yu (VP, Revenue Retention).\n\nSoho, To Be Announced\n\nJun 05 (Thu) , 2025 @ 02:00 PM\n\n\nFREE\n\n\n \n\n\nRegister \n\n Export GoogleYahooApple iCalOutlook \n\n\n\n\n\n\n\n\n\n\n \nDETAILS\n\n\n\nThis isn't just another tech panel-join us for an intimate, women-led roundtable exploring how AI can support emotional wellbeing, digital balance, & addiction recovery in today's high-pressure, hyperconnected world.\r This gathering will break into small, thoughtfully curated groups to spark honest conversations, not lectures. Together with 50 mission-driven technologists, builders, & community leaders, we'll dive deep into designing a more compassionate digital future.\r  Core topics we'll explore:\r How AI can offer non-judgmental, always-on emotional support\r Rethinking digital wellness & social media through a gender-inclusive lens\r Exploring voice vs. text agents for crisis care\r Designing pro-user algorithms that empower attention-not exploit it\r Our hosts:\rEchoHer is a non-profit organization dedicated to empowering women & non-binary founders & funders by increasing their representation & success in entrepreneurship. We foster a supportive ecosystem to drive meaningful change & create impactful opportunities through monthly events, co-working opportunities, curated networking sessions, pitch nights, & insightful panel discussions.\r PowerYou is an AI-powered companion for emotional healing & wellbeing. Designed for people navigating addiction, burnout, or self-doubt, it offers daily support through guided reflection, personalized action plans, & a warm, human-like AI guide named Kris. We imagine a world where no one has to suffer alone in their hardest moments - because the support they need is right in their pocket. Already ready to listen. Always learning. Always there.\r This event is a part of #NYTechWeek-a week of events hosted by VCs & startups to bring together the tech ecosystem. Learn more at www.tech-week.com.",
-          "type": "Other"
-        }
-      }
-    },
-    {
-      "id": "evt_gary_94e6344d",
-      "name": "KOSME NY Tech Demo Day",
-      "type": "Event",
-      "locationId": "loc_tbd",
-      "communityId": "com_gary",
-      "description": "Join us for KOSME NY Tech Demo Day, where 10 groundbreaking Korean startups across AI, healthcare, mobility, & more will pitch their innovations to investors, partners, & tech leaders in New York City.\r  Agenda\r10:30 - 11:00 AM Doors Open & Guest Check-In\r11:00  11:05 AM Opening Address\r11:05  11:10 AM Welcoming Remarks\r11:10  11:15 AM Congratulatory Remarks\r11:15  11:20 AM KOSME Overview\r11:20  12:00 PM Startup Pitches\r12:00  12:30 PM Investor Meetings & Networking\r12:30  1:30 PM Networking Lunch\r This exclusive event is hosted by KOSME & GBC (Global Business Center NY) in partnership with PEN Ventures, UXDot, KVIC.\r Spots are limited. This event is a part of #NYTechWeeka week of events hosted by VCs & startups to bring together the tech ecosystem. Learn more at www.tech-week.com.\" data-next-head=\"",
-      "startDate": "2025-06-06T11:00:00-04:00",
-      "endDate": "2025-06-06T12:30:00-04:00",
-      "category": [
-        "Event",
-        "Tech",
-        "AI"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": 100,
-      "registrationRequired": true,
-      "tags": [
-        "Tech",
-        "AI",
-        "Business"
-      ],
-      "image": "gary-event.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.garysguide.com/events/c46l4mf/KOSME-NY-Tech-Demo-Day",
-        "registration_url": "http://gary.to/ktvhj9g",
-        "speakers": [
-          {
-            "name": "KOSME",
-            "title": "",
-            "company": ""
-          },
-          {
-            "name": "GBC",
-            "title": "",
-            "company": ""
-          },
-          {
-            "name": "PEN Ventures",
-            "title": "",
-            "company": ""
-          },
-          {
-            "name": "UXDot",
-            "title": "",
-            "company": ""
-          },
-          {
-            "name": "KVIC",
-            "title": "",
-            "company": ""
-          }
-        ],
-        "venue": {
-          "name": "[ NY Tech Week ]\nKOSME NY Tech Demo Day\n \n\nWith KOSME",
-          "address": "GBC, PEN Ventures, UXDot, KVIC.\n\nVenue, To Be Announced\n\nJun 06 (Fri) , 2025 @ 11:00 AM\n\n\nFREE\n\n\n \n\n\nRegister \n\n Export GoogleYahooApple iCalOutlook \n\n\n\n\n\n\n\n\n\n\n \nDETAILS\n\n\n\nJoin us for KOSME NY Tech Demo Day, where 10 groundbreaking Korean startups across AI, healthcare, mobility, & more will pitch their innovations to investors, partners, & tech leaders in New York City.\r  Agenda\r10:30 - 11:00 AM Doors Open & Guest Check-In\r11:00  11:05 AM Opening Address\r11:05  11:10 AM Welcoming Remarks\r11:10  11:15 AM Congratulatory Remarks\r11:15  11:20 AM KOSME Overview\r11:20  12:00 PM Startup Pitches\r12:00  12:30 PM Investor Meetings & Networking\r12:30  1:30 PM Networking Lunch\r This exclusive event is hosted by KOSME & GBC (Global Business Center NY) in partnership with PEN Ventures, UXDot, KVIC.\r Spots are limited. This event is a part of #NYTechWeeka week of events hosted by VCs & startups to bring together the tech ecosystem. Learn more at www.tech-week.com.\" data-next-head=\"",
-          "type": "Other"
-        }
-      }
-    },
-    {
-      "id": "evt_gary_35594a66",
-      "name": "Bedrock Agents Workshop",
-      "type": "Workshop",
-      "locationId": "loc_tbd",
-      "communityId": "com_gary",
-      "description": "Join us for a hands-on introduction to AI Agents, where you will learn to optimize task automation using generative AI. This session will demonstrate how these agents leverage foundation models to interpret complex requests, integrate with your APIs & data, & execute multistep workflows seamlessly.  Key highlights:  Multi-agent Collaboration: Coordinate specialized agents under a supervisor to manage intricate processes. RAG Integration: Provide accurate, data-supported responses through retrieval-augmented generation. Configuration: Build & customize agents efficiently with straightforward instructions.   Discover practical, real-world applications & gain the skills to transform workflows with AI-powered solutions that boost efficiency & elevate user experiences. Together, let us pave the way for intelligent automation.  This event features an interactive workshopplease bring your laptop if you wish to participate in the hands-on segment. Are you prepared to advance your organizations AI capabilities? Mark your calendar for June 9, 2025! High level schedule: 2:45 - 3:00: Arrivals 3:00 - 3:20: Presentation 3:20 - 4:20: Workshop 4:20 - 4:30: Wrap up & Q&A 4:30 - 5:00: Networking Bio: Udaya Jaladi is a Solutions Architect at AWS specializing in FinTech ISV customers. With over 16 years of experience, he has extensive expertise in designing & implementing enterprise applications across Sales, Services, Financial, HR, & Payroll domains. In his current role, he partners with customers to provide strategic guidance on building well-architected, AI-powered solutions on AWS. Udaya has developed deep expertise in Generative AI & helps organizations leverage this transformative technology to drive business innovation & efficiency Important instructions  Event starts at 3:00 pm EST, but please allow at least 15 minutes for security to process registration Please ensure that your meetup profile has your full name. Both first & last name are required & we will not be able to register attendees with just abbreviations or incomplete names. There is an optional networking & Q&A event at the end of the meetup",
-      "startDate": "2025-06-09T18:45:00-04:00",
-      "endDate": "2025-06-09T20:15:00-04:00",
-      "category": [
-        "Workshop",
-        "Workshop",
+        "Conference",
         "Tech"
       ],
       "price": {
@@ -1943,134 +876,33 @@
       "capacity": 100,
       "registrationRequired": true,
       "tags": [
-        "Workshop",
+        "Conference",
         "Tech",
-        "AI",
-        "Business"
-      ],
-      "image": "gary-event.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.garysguide.com/events/vynhg3z/Bedrock-Agents-Workshop",
-        "registration_url": "http://gary.to/uvo7ufd",
-        "speakers": [
-          {
-            "name": "Udaya Jaladi (Solns Architect",
-            "title": "",
-            "company": ""
-          },
-          {
-            "name": "Amazon AWS)",
-            "title": "",
-            "company": ""
-          }
-        ],
-        "venue": {
-          "name": "Bedrock Agents Workshop\n \n\nWith Udaya Jaladi (Solns Architect",
-          "address": "Amazon AWS).\n\nAmazon JFK14, 7 W 34th St\n\nJun 09 (Mon) , 2025 @ 06:45 PM\n\n\nFREE\n\n\n \n\n\nRegister \n\n Export GoogleYahooApple iCalOutlook \n\n\n\n\n\n\n\n\n\n\n \nDETAILS\n\n\n\nJoin us for a hands-on introduction to AI Agents, where you will learn to optimize task automation using generative AI. This session will demonstrate how these agents leverage foundation models to interpret complex requests, integrate with your APIs & data, & execute multistep workflows seamlessly.  Key highlights:  Multi-agent Collaboration: Coordinate specialized agents under a supervisor to manage intricate processes. RAG Integration: Provide accurate, data-supported responses through retrieval-augmented generation. Configuration: Build & customize agents efficiently with straightforward instructions.   Discover practical, real-world applications & gain the skills to transform workflows with AI-powered solutions that boost efficiency & elevate user experiences. Together, let us pave the way for intelligent automation.  This event features an interactive workshopplease bring your laptop if you wish to participate in the hands-on segment. Are you prepared to advance your organizations AI capabilities? Mark your calendar for June 9, 2025! High level schedule: 2:45 - 3:00: Arrivals 3:00 - 3:20: Presentation 3:20 - 4:20: Workshop 4:20 - 4:30: Wrap up & Q&A 4:30 - 5:00: Networking Bio: Udaya Jaladi is a Solutions Architect at AWS specializing in FinTech ISV customers. With over 16 years of experience, he has extensive expertise in designing & implementing enterprise applications across Sales, Services, Financial, HR, & Payroll domains. In his current role, he partners with customers to provide strategic guidance on building well-architected, AI-powered solutions on AWS. Udaya has developed deep expertise in Generative AI & helps organizations leverage this transformative technology to drive business innovation & efficiency Important instructions  Event starts at 3:00 pm EST, but please allow at least 15 minutes for security to process registration Please ensure that your meetup profile has your full name. Both first & last name are required & we will not be able to register attendees with just abbreviations or incomplete names. There is an optional networking & Q&A event at the end of the meetup",
-          "type": "Other"
-        }
-      }
-    },
-    {
-      "id": "evt_gary_1a9ea1c6",
-      "name": "$50k Pitch Competition",
-      "type": "Event",
-      "locationId": "loc_tbd",
-      "communityId": "com_gary",
-      "description": "Hey everyone! \r Rocket Mixer is back with another exciting event, & this time, we're partnering with Reed Smith to bring you an unforgettable evening of networking, entertainment, & opportunity. \r Here's what's in store:\r  A top-tier setup for meaningful connections\r  Great food & drinks to fuel great conversations\r  Five founders pitching their startups to a panel of professional investors-$50K Worth of Services for the Winner-Courtesy of Our Sponsors!\r You get to vote for the best pitch! Due to limited venue capacity & the high demand for our events, this gathering is exclusively for startup founders & entrepreneurs with an active business.\r A company email is required to apply-no exceptions. If you sign up, please make sure to attend-or let us know in advance if you can't make it so we can offer your spot to someone else. \r See you there!\r Rocket Mixer Team  \r   Please note, this event will be photographed & filmed. Rocket Mixer reserves the right to use photographs & video from the event for marketing & communications purposes. By attending the event you consent to your image being used for these purposes & to receive future marketing communications.",
-      "startDate": "2025-06-06T11:00:00-04:00",
-      "endDate": "2025-06-06T12:30:00-04:00",
-      "category": [
-        "Event",
-        "Tech",
+        "Business",
         "AI"
       ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": 100,
-      "registrationRequired": true,
-      "tags": [
-        "Tech",
-        "AI",
-        "Business"
-      ],
       "image": "gary-event.jpg",
       "status": "upcoming",
       "metadata": {
-        "source_url": "https://www.garysguide.com/events/p5hifel/-50k-Pitch-Competition",
-        "registration_url": "http://gary.to/m4ugk1z",
+        "source_url": "https://www.garysguide.com/events/guefh85/Nj-Fast-Expo",
+        "registration_url": "http://gary.to/bu40sk8",
         "speakers": [],
         "venue": {
-          "name": "[ NY Tech Week ]\n$50k Pitch Competition\n \n\n\nVenue",
-          "address": "To Be Announced\n\nJun 06 (Fri) , 2025 @ 11:00 AM\n\n\nFREE\n\n\n \n\n\nRegister \n\n Export GoogleYahooApple iCalOutlook \n\n\n\n\n\n\n\n\n\n\n \nDETAILS\n\n\n\nHey everyone! \r Rocket Mixer is back with another exciting event, & this time, we're partnering with Reed Smith to bring you an unforgettable evening of networking, entertainment, & opportunity. \r Here's what's in store:\r  A top-tier setup for meaningful connections\r  Great food & drinks to fuel great conversations\r  Five founders pitching their startups to a panel of professional investors-$50K Worth of Services for the Winner-Courtesy of Our Sponsors!\r You get to vote for the best pitch! Due to limited venue capacity & the high demand for our events, this gathering is exclusively for startup founders & entrepreneurs with an active business.\r A company email is required to apply-no exceptions. If you sign up, please make sure to attend-or let us know in advance if you can't make it so we can offer your spot to someone else. \r See you there!\r Rocket Mixer Team  \r   Please note, this event will be photographed & filmed. Rocket Mixer reserves the right to use photographs & video from the event for marketing & communications purposes. By attending the event you consent to your image being used for these purposes & to receive future marketing communications.",
+          "name": "NJ Fast Expo\n \n\nDemos by Squirro",
+          "address": "Venteur, DeepKeep, Penelope, Vaultik, Markets EQ, Cranium, Ledge, Column, Clarista, OpenVC, AQ22, Indemn, FinX Capital Markets, Kobalt Labs, Atidot, Truthifi.\n\nVenue, To Be Announced\n\nJun 24 (Tue) , 2025 @ 01:00 PM\n\n\nFREE\n\n\n \n\n\nRegister \n\n Export GoogleYahooApple iCalOutlook \n\n\n\n\n\n\n\n\n\n\n \nDETAILS\n\n\n\nJoin us for our NJ FAST Expo.\r More details to come!\r Startups Pitches Listed Below:\r Squirro turns meaningless data into A.I.-driven actionable Insights.\r Venteur is an AI-powered benefits marketplace that empowers individuals to take control of their health care.\r DeepKeep multimodal AI security safeguards machine learning pipelines, promoting secure, unbiased, real time & trustworthy AI solutions.\r Penelope is a self-service retirement platform for small & micro businesses.\r Vaultik is the bank for your belongings that unlocks a new world of post sale opportunities including perks, insurance, & credit services for high net worth individuals.\r Markets EQ provides GenAI solution providing competitive tonal analysis, previously unavailable awareness.\r Cranium is an AI security & trust platform that delivers security & trust to the AI revolution.\r Ledge is a command center for payments built for finance teams operating at scale.\r Column is an AI-powered insurance management platform designed for today's financial professionals.\r Clarista is a data analytics platform that provides real-time answers from any enterprise platform, acting as a bridge between technical data & AI.\r OpenVC provides investible unicorn indexes of the most innovative late-stage venture capital companies. \r AQ22 is a loan assessment AI solution built exclusively for credit analysts. Our platform boosts loan assessment efficiency, accuracy, & transparency for creditors, credit unions, & alternative lenders. \r Indemn builds machine learning-powered insurance conversations. Users can learn about coverage, purchase insurance, & perform service tasks through natural conversation.\r FinX Capital Markets builds high-performance systems for investors, analysts, & risk managers of capital markets.\r Kobalt Labs is an AI-powered platform to reduce errors & increase efficiency in manual compliance work.\r Atidot empowers life insurance & annuity writers to evaluate opportunities in the in-force of business with big data & predictive analytics.\r Truthifi is a developer of a wealth management platform designed to offer financial advisory services.\r #NJFAST #Innovation #NextGenStartups #Networking #GameChangers #NewJersey #Startups #Accelerator",
           "type": "Other"
         }
       }
     },
     {
-      "id": "evt_gary_341c5159",
-      "name": "AI Developer Meetup",
-      "type": "Meetup",
-      "locationId": "loc_tbd",
-      "communityId": "com_gary",
-      "description": "Join us for an exclusive technical meetup & tech chat where Lyzr AI & AWS experts will demonstrate how to build production-ready AI applications using cutting-edge technologies. Learn how to leverage Lyzr Agent Studio, LLaMA, AWS Bedrock, Nova, & SageMaker to create sophisticated AI solutions similar to successful YC-backed products. This session will be led by Siva Surendira, CEO of Lyzr AI, alongside AWS experts.\r Who Should Attend:\r- Enterprise developers & technical architects\r- AI/ML engineers & data scientists\r- Technical decision-makers exploring large-scale AI implementations\r- Professionals with intermediate to expert-level experience in AI developmentKey\r Takeaways:\r- Practical insights into building production-grade AI agents\r- Best practices for AI development & deployment at scale\r- Strategic approaches to enterprise AI implementation\r- Networking opportunities with industry leaders & peers\r Space is limited to 60 participants to ensure an optimal learning experience. Register now to secure your spot at this cutting-edge technical meetup.\r This event will be held in-person at JFK24 Floor 16 on June 5th, 2025, from 12 PM to 2 PM.",
-      "startDate": "2025-06-05T12:00:00-04:00",
-      "endDate": "2025-06-05T13:30:00-04:00",
-      "category": [
-        "Meetup",
-        "Tech",
-        "AI"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": 100,
-      "registrationRequired": true,
-      "tags": [
-        "Tech",
-        "AI"
-      ],
-      "image": "gary-event.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.garysguide.com/events/8a30obc/AI-Developer-Meetup",
-        "registration_url": "http://gary.to/i3mdshn",
-        "speakers": [
-          {
-            "name": "Siva Surendira (CEO",
-            "title": "",
-            "company": ""
-          },
-          {
-            "name": "Lyzr AI)",
-            "title": "",
-            "company": ""
-          }
-        ],
-        "venue": {
-          "name": "AI Developer Meetup\n \n\nWith Siva Surendira (CEO",
-          "address": "Lyzr AI).\n\nVenue, 12 W 39th St, 16th Fl\n\nJun 05 (Thu) , 2025 @ 12:00 PM\n\n\nFREE\n\n\n \n\n\nRegister \n\n Export GoogleYahooApple iCalOutlook \n\n\n\n\n\n\n\n\n\n\n \nDETAILS\n\n\n\nJoin us for an exclusive technical meetup & tech chat where Lyzr AI & AWS experts will demonstrate how to build production-ready AI applications using cutting-edge technologies. Learn how to leverage Lyzr Agent Studio, LLaMA, AWS Bedrock, Nova, & SageMaker to create sophisticated AI solutions similar to successful YC-backed products. This session will be led by Siva Surendira, CEO of Lyzr AI, alongside AWS experts.\r Who Should Attend:\r- Enterprise developers & technical architects\r- AI/ML engineers & data scientists\r- Technical decision-makers exploring large-scale AI implementations\r- Professionals with intermediate to expert-level experience in AI developmentKey\r Takeaways:\r- Practical insights into building production-grade AI agents\r- Best practices for AI development & deployment at scale\r- Strategic approaches to enterprise AI implementation\r- Networking opportunities with industry leaders & peers\r Space is limited to 60 participants to ensure an optimal learning experience. Register now to secure your spot at this cutting-edge technical meetup.\r This event will be held in-person at JFK24 Floor 16 on June 5th, 2025, from 12 PM to 2 PM.",
-          "type": "Other"
-        }
-      }
-    },
-    {
-      "id": "evt_gary_5f9df68d",
-      "name": "Product Builders In Health & Wellness Tech Happy Hour",
+      "id": "evt_gary_3409cc23",
+      "name": "MetaProp Accelerator Demo Day",
       "type": "Event",
       "locationId": "loc_tbd",
       "communityId": "com_gary",
-      "description": "Welcome to the NYC HealthTech Founders & Operators Happy Hour with the real how\rCome grab a drink with the community & meet others in the NYC tech ecosystem during NY Tech Week 2025.\r the real how is a community for product builders, founders, other operators & investors across all industries & stages.\r  What is this? A happy hour to connect with builders & major players in healthcare & wellness tech, discuss your ideas & projects. We host hyper curated gatherings for people to chat & connect.\r  Who's coming? The typical mix of attendees for our happy hours is a health mix of product builders, founders, go-to-market operators & investors in health & wellness tech.\r About the host & sponsors\r Haris Jaliawala is a 2x founder & 2x startup operator (also runs the real how). He is active in NYC's tech community & hosts happy hours & panels every month.\r   Want to get Involved?\rSponsorship: Here is how you can get involved as a sponsor.\r Host an event at your space: We are always looking for host sponsors to provide access to unique spaces from cool companies/firms building interesting things. Want to open up your office?\r By signing up, you're joining the real how community & will be informed about future events & opportunities.\r Photography & Filming\rPlease note, this event may be photographed & filmed. the real how reserves the right to use photographs & video from the event for marketing & communications purposes. By attending the event you consent to your image being used for these purposes.",
-      "startDate": "2025-06-05T18:30:00-04:00",
-      "endDate": "2025-06-05T20:00:00-04:00",
+      "description": "Join us in NYC for MetaProp's 2025 Demo Day on June 17th.\r Be among the first to meet the next generation of PropTech innovators as the six startups in MetaProp's latest Accelerator cohort take the stage.\r This exclusive event brings together top investors, industry leaders, & select media to hear firsthand from visionary founders tackling the real estate industry's most pressing challenges.\r June 17, 2025\r9:00 AM - 12:00 PM EST\rMidtown Manhattan (RSVP for address)\r If you have any questions, please get in touch with Evan Petitt at epetitt@metaprop.com. This marquee event has limited space & fills up fast every year.\r 2025 Cohort\r BUILDRFI (Miami) - BuildrFi streamlines financial workflows for construction by offering a clear view of project cash flows & financing options, helping to manage material costs & delayed payments.\r FRAM ENERGY (NYC) - Fram Energy makes solar deployment for multifamily & single-family rentals profitable & effortless through tenant energy billing software.\r POPWHEELS (NYC) - PopWheels is revolutionizing urban mobility in America with its e-bike battery swap network, starting with the 80,000+ delivery workers in NYC.\r PROPRISE (SF) - PropRise is an AI-driven commercial real estate deal sourcing platform, transforming how firms discover & evaluate opportunities.\r ULAMA (NYC) - Ulama is AI-powered code compliance that automates the approval of construction permit applications.\r WEALTHIE (NYC) - Wealthie builds more wealth for homeowners by investing home equity in diversified assets without loans or debt.",
+      "startDate": "2025-06-17T09:00:00-04:00",
+      "endDate": "2025-06-17T10:30:00-04:00",
       "category": [
         "Event",
         "Tech",
@@ -2086,29 +918,24 @@
       "registrationRequired": true,
       "tags": [
         "Tech",
-        "Business"
+        "Business",
+        "AI"
       ],
       "image": "gary-event.jpg",
       "status": "upcoming",
       "metadata": {
-        "source_url": "https://www.garysguide.com/events/la8swte/Product-Builders-In-Health-Wellness-Tech-Happy-Hour",
-        "registration_url": "http://gary.to/g4nwowu",
-        "speakers": [
-          {
-            "name": "Haris Jaliawala",
-            "title": "2x founder",
-            "company": ""
-          }
-        ],
+        "source_url": "https://www.garysguide.com/events/z1l3oo0/MetaProp-Accelerator-Demo-Day",
+        "registration_url": "http://gary.to/pfeecu6",
+        "speakers": [],
         "venue": {
-          "name": "[ NY Tech Week ]\nProduct Builders In Health & Wellness Tech Happy Hour\n \n\nWith Haris Jaliawala (2x founder).\n\nVenue",
-          "address": "To Be Announced\n\nJun 05 (Thu) , 2025 @ 06:30 PM\n\n\nFREE\n\n\n \n\n\nRegister \n\n Export GoogleYahooApple iCalOutlook \n\n\n\n\n\n\n\n\n\n\n \nDETAILS\n\n\n\nWelcome to the NYC HealthTech Founders & Operators Happy Hour with the real how\rCome grab a drink with the community & meet others in the NYC tech ecosystem during NY Tech Week 2025.\r the real how is a community for product builders, founders, other operators & investors across all industries & stages.\r  What is this? A happy hour to connect with builders & major players in healthcare & wellness tech, discuss your ideas & projects. We host hyper curated gatherings for people to chat & connect.\r  Who's coming? The typical mix of attendees for our happy hours is a health mix of product builders, founders, go-to-market operators & investors in health & wellness tech.\r About the host & sponsors\r Haris Jaliawala is a 2x founder & 2x startup operator (also runs the real how). He is active in NYC's tech community & hosts happy hours & panels every month.\r   Want to get Involved?\rSponsorship: Here is how you can get involved as a sponsor.\r Host an event at your space: We are always looking for host sponsors to provide access to unique spaces from cool companies/firms building interesting things. Want to open up your office?\r By signing up, you're joining the real how community & will be informed about future events & opportunities.\r Photography & Filming\rPlease note, this event may be photographed & filmed. the real how reserves the right to use photographs & video from the event for marketing & communications purposes. By attending the event you consent to your image being used for these purposes.",
+          "name": "MetaProp Accelerator Demo Day\n \n\nDemos by BuildrFi",
+          "address": "Fram Energy, PopWheels, PropRise, Ulama, Wealthie.\n\nVenue, To Be Announced\n\nJun 17 (Tue) , 2025 @ 09:00 AM\n\n\nBy Invite Only\n\n\n \n\n\nRegister \n\n Export GoogleYahooApple iCalOutlook \n\n\n\n\n\n\n\n\n\n\n \nDETAILS\n\n\n\nJoin us in NYC for MetaProp's 2025 Demo Day on June 17th.\r Be among the first to meet the next generation of PropTech innovators as the six startups in MetaProp's latest Accelerator cohort take the stage.\r This exclusive event brings together top investors, industry leaders, & select media to hear firsthand from visionary founders tackling the real estate industry's most pressing challenges.\r June 17, 2025\r9:00 AM - 12:00 PM EST\rMidtown Manhattan (RSVP for address)\r If you have any questions, please get in touch with Evan Petitt at epetitt@metaprop.com. This marquee event has limited space & fills up fast every year.\r 2025 Cohort\r BUILDRFI (Miami) - BuildrFi streamlines financial workflows for construction by offering a clear view of project cash flows & financing options, helping to manage material costs & delayed payments.\r FRAM ENERGY (NYC) - Fram Energy makes solar deployment for multifamily & single-family rentals profitable & effortless through tenant energy billing software.\r POPWHEELS (NYC) - PopWheels is revolutionizing urban mobility in America with its e-bike battery swap network, starting with the 80,000+ delivery workers in NYC.\r PROPRISE (SF) - PropRise is an AI-driven commercial real estate deal sourcing platform, transforming how firms discover & evaluate opportunities.\r ULAMA (NYC) - Ulama is AI-powered code compliance that automates the approval of construction permit applications.\r WEALTHIE (NYC) - Wealthie builds more wealth for homeowners by investing home equity in diversified assets without loans or debt.",
           "type": "Other"
         }
       }
     },
     {
-      "id": "evt_gary_bea9aead",
+      "id": "evt_gary_2468c765",
       "name": "Peakrankings Hike",
       "type": "Event",
       "locationId": "loc_tbd",
@@ -2147,18 +974,18 @@
       }
     },
     {
-      "id": "evt_gary_4ea5f7f5",
-      "name": "NJ Fast Expo",
+      "id": "evt_gary_567d392a",
+      "name": "Climate Tech Mixer",
       "type": "Event",
       "locationId": "loc_tbd",
       "communityId": "com_gary",
-      "description": "Join us for our NJ FAST Expo.\r More details to come!\r Startups Pitches Listed Below:\r Squirro turns meaningless data into A.I.-driven actionable Insights.\r Venteur is an AI-powered benefits marketplace that empowers individuals to take control of their health care.\r DeepKeep multimodal AI security safeguards machine learning pipelines, promoting secure, unbiased, real time & trustworthy AI solutions.\r Penelope is a self-service retirement platform for small & micro businesses.\r Vaultik is the bank for your belongings that unlocks a new world of post sale opportunities including perks, insurance, & credit services for high net worth individuals.\r Markets EQ provides GenAI solution providing competitive tonal analysis, previously unavailable awareness.\r Cranium is an AI security & trust platform that delivers security & trust to the AI revolution.\r Ledge is a command center for payments built for finance teams operating at scale.\r Column is an AI-powered insurance management platform designed for today's financial professionals.\r Clarista is a data analytics platform that provides real-time answers from any enterprise platform, acting as a bridge between technical data & AI.\r OpenVC provides investible unicorn indexes of the most innovative late-stage venture capital companies. \r AQ22 is a loan assessment AI solution built exclusively for credit analysts. Our platform boosts loan assessment efficiency, accuracy, & transparency for creditors, credit unions, & alternative lenders. \r Indemn builds machine learning-powered insurance conversations. Users can learn about coverage, purchase insurance, & perform service tasks through natural conversation.\r FinX Capital Markets builds high-performance systems for investors, analysts, & risk managers of capital markets.\r Kobalt Labs is an AI-powered platform to reduce errors & increase efficiency in manual compliance work.\r Atidot empowers life insurance & annuity writers to evaluate opportunities in the in-force of business with big data & predictive analytics.\r Truthifi is a developer of a wealth management platform designed to offer financial advisory services.\r #NJFAST #Innovation #NextGenStartups #Networking #GameChangers #NewJersey #Startups #Accelerator",
-      "startDate": "2025-06-24T13:00:00-04:00",
-      "endDate": "2025-06-24T14:30:00-04:00",
+      "description": "The NYC Climate Tech Mixer is Net Zero Insights' signature monthly gathering- exclusively bringing together:\r  VCs, CVCs, PEs, Bankers\r Founders & Startups\r Corporates, Policymakers & Ecosystem Builders\r What to expect:\r 6:00-7:00 PM - Doors open. Grab a drink, settle in, & meet fellow builders & backers.\r 7:00-8:00 PM - A curated selection of founders will pitch bold solutions tackling climate's toughest challenges.\r 8:00-9:00 PM - Keep the energy going with networking, drinks, & new connections.\r About Net Zero Insights\rNet Zero Insights is the leading climate tech intelligence platform. We equip investors, corporates, & governments with real-time data to track innovation, spot trends, & make data-driven decisions in the race to net zero.",
+      "startDate": "2025-06-10T18:00:00-04:00",
+      "endDate": "2025-06-10T19:30:00-04:00",
       "category": [
         "Event",
         "Tech",
-        "AI"
+        "Business"
       ],
       "price": {
         "amount": 0,
@@ -2170,154 +997,135 @@
       "registrationRequired": true,
       "tags": [
         "Tech",
-        "AI",
-        "Business",
-        "Conference"
-      ],
-      "image": "gary-event.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.garysguide.com/events/guefh85/Nj-Fast-Expo",
-        "registration_url": "http://gary.to/bu40sk8",
-        "speakers": [],
-        "venue": {
-          "name": "NJ Fast Expo\n \n\nDemos by Squirro",
-          "address": "Venteur, DeepKeep, Penelope, Vaultik, Markets EQ, Cranium, Ledge, Column, Clarista, OpenVC, AQ22, Indemn, FinX Capital Markets, Kobalt Labs, Atidot, Truthifi.\n\nVenue, To Be Announced\n\nJun 24 (Tue) , 2025 @ 01:00 PM\n\n\nFREE\n\n\n \n\n\nRegister \n\n Export GoogleYahooApple iCalOutlook \n\n\n\n\n\n\n\n\n\n\n \nDETAILS\n\n\n\nJoin us for our NJ FAST Expo.\r More details to come!\r Startups Pitches Listed Below:\r Squirro turns meaningless data into A.I.-driven actionable Insights.\r Venteur is an AI-powered benefits marketplace that empowers individuals to take control of their health care.\r DeepKeep multimodal AI security safeguards machine learning pipelines, promoting secure, unbiased, real time & trustworthy AI solutions.\r Penelope is a self-service retirement platform for small & micro businesses.\r Vaultik is the bank for your belongings that unlocks a new world of post sale opportunities including perks, insurance, & credit services for high net worth individuals.\r Markets EQ provides GenAI solution providing competitive tonal analysis, previously unavailable awareness.\r Cranium is an AI security & trust platform that delivers security & trust to the AI revolution.\r Ledge is a command center for payments built for finance teams operating at scale.\r Column is an AI-powered insurance management platform designed for today's financial professionals.\r Clarista is a data analytics platform that provides real-time answers from any enterprise platform, acting as a bridge between technical data & AI.\r OpenVC provides investible unicorn indexes of the most innovative late-stage venture capital companies. \r AQ22 is a loan assessment AI solution built exclusively for credit analysts. Our platform boosts loan assessment efficiency, accuracy, & transparency for creditors, credit unions, & alternative lenders. \r Indemn builds machine learning-powered insurance conversations. Users can learn about coverage, purchase insurance, & perform service tasks through natural conversation.\r FinX Capital Markets builds high-performance systems for investors, analysts, & risk managers of capital markets.\r Kobalt Labs is an AI-powered platform to reduce errors & increase efficiency in manual compliance work.\r Atidot empowers life insurance & annuity writers to evaluate opportunities in the in-force of business with big data & predictive analytics.\r Truthifi is a developer of a wealth management platform designed to offer financial advisory services.\r #NJFAST #Innovation #NextGenStartups #Networking #GameChangers #NewJersey #Startups #Accelerator",
-          "type": "Other"
-        }
-      }
-    },
-    {
-      "id": "evt_gary_536ce3d5",
-      "name": "Global Fintech Report Launch",
-      "type": "Event",
-      "locationId": "loc_tbd",
-      "communityId": "com_gary",
-      "description": "Join BCG & QED Investors for the launch of the third annual Global Fintech Report.\r The launch will include a fireside chat with BCG Managing Director Deepak Goyal & QED Managing Partner Nigel Morris, followed by drinks & a networking reception.\r Stay tuned for details about a special panel featuring prominent fintech CEOs.\r Upon approval, the event time & location will be disclosed.\r This event is a part of #NYTechWeek-a week of events hosted by VCs & startups to bring together the tech ecosystem. Learn more at www.tech-week.com.",
-      "startDate": "2025-06-05T16:00:00-04:00",
-      "endDate": "2025-06-05T17:30:00-04:00",
-      "category": [
-        "Event",
-        "Tech",
-        "AI"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": 100,
-      "registrationRequired": true,
-      "tags": [
-        "Tech",
-        "AI",
         "Business"
       ],
       "image": "gary-event.jpg",
       "status": "upcoming",
       "metadata": {
-        "source_url": "https://www.garysguide.com/events/o909ul1/Global-Fintech-Report-Launch",
-        "registration_url": "http://gary.to/ij2grxk",
+        "source_url": "https://www.garysguide.com/events/sbko902/Climate-Tech-Mixer",
+        "registration_url": "http://gary.to/w4g7rt3",
+        "speakers": [],
+        "venue": {
+          "name": "Climate Tech Mixer\n \n\n\nVenue",
+          "address": "To Be Announced\n\nJun 10 (Tue) , 2025 @ 06:00 PM\n\n\nFREE\n\n\n \n\n\nRegister \n\n Export GoogleYahooApple iCalOutlook \n\n\n\n\n\n\n\n\n\n\n \nDETAILS\n\n\n\nThe NYC Climate Tech Mixer is Net Zero Insights' signature monthly gathering- exclusively bringing together:\r  VCs, CVCs, PEs, Bankers\r Founders & Startups\r Corporates, Policymakers & Ecosystem Builders\r What to expect:\r 6:00-7:00 PM - Doors open. Grab a drink, settle in, & meet fellow builders & backers.\r 7:00-8:00 PM - A curated selection of founders will pitch bold solutions tackling climate's toughest challenges.\r 8:00-9:00 PM - Keep the energy going with networking, drinks, & new connections.\r About Net Zero Insights\rNet Zero Insights is the leading climate tech intelligence platform. We equip investors, corporates, & governments with real-time data to track innovation, spot trends, & make data-driven decisions in the race to net zero.",
+          "type": "Other"
+        }
+      }
+    },
+    {
+      "id": "evt_gary_7a0132ba",
+      "name": "Bedrock Agents Workshop",
+      "type": "Workshop",
+      "locationId": "loc_tbd",
+      "communityId": "com_gary",
+      "description": "Join us for a hands-on introduction to AI Agents, where you will learn to optimize task automation using generative AI. This session will demonstrate how these agents leverage foundation models to interpret complex requests, integrate with your APIs & data, & execute multistep workflows seamlessly.  Key highlights:  Multi-agent Collaboration: Coordinate specialized agents under a supervisor to manage intricate processes. RAG Integration: Provide accurate, data-supported responses through retrieval-augmented generation. Configuration: Build & customize agents efficiently with straightforward instructions.   Discover practical, real-world applications & gain the skills to transform workflows with AI-powered solutions that boost efficiency & elevate user experiences. Together, let us pave the way for intelligent automation.  This event features an interactive workshopplease bring your laptop if you wish to participate in the hands-on segment. Are you prepared to advance your organizations AI capabilities? Mark your calendar for June 9, 2025! High level schedule: 2:45 - 3:00: Arrivals 3:00 - 3:20: Presentation 3:20 - 4:20: Workshop 4:20 - 4:30: Wrap up & Q&A 4:30 - 5:00: Networking Bio: Udaya Jaladi is a Solutions Architect at AWS specializing in FinTech ISV customers. With over 16 years of experience, he has extensive expertise in designing & implementing enterprise applications across Sales, Services, Financial, HR, & Payroll domains. In his current role, he partners with customers to provide strategic guidance on building well-architected, AI-powered solutions on AWS. Udaya has developed deep expertise in Generative AI & helps organizations leverage this transformative technology to drive business innovation & efficiency Important instructions  Event starts at 3:00 pm EST, but please allow at least 15 minutes for security to process registration Please ensure that your meetup profile has your full name. Both first & last name are required & we will not be able to register attendees with just abbreviations or incomplete names. There is an optional networking & Q&A event at the end of the meetup",
+      "startDate": "2025-06-09T18:45:00-04:00",
+      "endDate": "2025-06-09T20:15:00-04:00",
+      "category": [
+        "Workshop",
+        "Workshop",
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [
+        "Workshop",
+        "Tech",
+        "Business",
+        "AI"
+      ],
+      "image": "gary-event.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.garysguide.com/events/vynhg3z/Bedrock-Agents-Workshop",
+        "registration_url": "http://gary.to/uvo7ufd",
         "speakers": [
           {
-            "name": "Deepak Goyal (MD",
+            "name": "Udaya Jaladi (Solns Architect",
             "title": "",
             "company": ""
           },
           {
-            "name": "BCG)",
+            "name": "Amazon AWS)",
             "title": "",
-            "company": ""
-          },
-          {
-            "name": "Nigel Morris",
-            "title": "QED",
             "company": ""
           }
         ],
         "venue": {
-          "name": "[ NY Tech Week ]\nGlobal Fintech Report Launch\n \n\nWith Deepak Goyal (MD",
-          "address": "BCG), Nigel Morris (QED).\n\nVenue, To Be Announced\n\nJun 05 (Thu) , 2025 @ 04:00 PM\n\n\nFREE\n\n\n \n\n\nRegister \n\n Export GoogleYahooApple iCalOutlook \n\n\n\n\n\n\n\n\n\n\n \nDETAILS\n\n\n\nJoin BCG & QED Investors for the launch of the third annual Global Fintech Report.\r The launch will include a fireside chat with BCG Managing Director Deepak Goyal & QED Managing Partner Nigel Morris, followed by drinks & a networking reception.\r Stay tuned for details about a special panel featuring prominent fintech CEOs.\r Upon approval, the event time & location will be disclosed.\r This event is a part of #NYTechWeek-a week of events hosted by VCs & startups to bring together the tech ecosystem. Learn more at www.tech-week.com.",
+          "name": "Bedrock Agents Workshop\n \n\nWith Udaya Jaladi (Solns Architect",
+          "address": "Amazon AWS).\n\nAmazon JFK14, 7 W 34th St\n\nJun 09 (Mon) , 2025 @ 06:45 PM\n\n\nFREE\n\n\n \n\n\nRegister \n\n Export GoogleYahooApple iCalOutlook \n\n\n\n\n\n\n\n\n\n\n \nDETAILS\n\n\n\nJoin us for a hands-on introduction to AI Agents, where you will learn to optimize task automation using generative AI. This session will demonstrate how these agents leverage foundation models to interpret complex requests, integrate with your APIs & data, & execute multistep workflows seamlessly.  Key highlights:  Multi-agent Collaboration: Coordinate specialized agents under a supervisor to manage intricate processes. RAG Integration: Provide accurate, data-supported responses through retrieval-augmented generation. Configuration: Build & customize agents efficiently with straightforward instructions.   Discover practical, real-world applications & gain the skills to transform workflows with AI-powered solutions that boost efficiency & elevate user experiences. Together, let us pave the way for intelligent automation.  This event features an interactive workshopplease bring your laptop if you wish to participate in the hands-on segment. Are you prepared to advance your organizations AI capabilities? Mark your calendar for June 9, 2025! High level schedule: 2:45 - 3:00: Arrivals 3:00 - 3:20: Presentation 3:20 - 4:20: Workshop 4:20 - 4:30: Wrap up & Q&A 4:30 - 5:00: Networking Bio: Udaya Jaladi is a Solutions Architect at AWS specializing in FinTech ISV customers. With over 16 years of experience, he has extensive expertise in designing & implementing enterprise applications across Sales, Services, Financial, HR, & Payroll domains. In his current role, he partners with customers to provide strategic guidance on building well-architected, AI-powered solutions on AWS. Udaya has developed deep expertise in Generative AI & helps organizations leverage this transformative technology to drive business innovation & efficiency Important instructions  Event starts at 3:00 pm EST, but please allow at least 15 minutes for security to process registration Please ensure that your meetup profile has your full name. Both first & last name are required & we will not be able to register attendees with just abbreviations or incomplete names. There is an optional networking & Q&A event at the end of the meetup",
           "type": "Other"
         }
       }
     },
     {
-      "id": "evt_gary_60675c9c",
-      "name": "Infrastructure In Focus - Postgresql Modernization On Azure",
-      "type": "Event",
+      "id": "evt_gary_f6e6684f",
+      "name": "Visions Summit",
+      "type": "Conference",
       "locationId": "loc_tbd",
       "communityId": "com_gary",
-      "description": "As businesses strive to deliver seamless digital experiences, the demand for databases that combine speed, resilience, & simplicity has never been higher. Azure Database for PostgreSQL is purpose-built to meet these expectations, offering a fully managed, open-source solution with dynamic scaling, zone-redundant high availability, & advanced performance tuning. Whether you're migrating legacy systems or building new applications, Azure's intelligent automation & enterprise security help you stay ahead of the curve-so you can focus on what matters most: driving business value & delighting your users. Discover with Quadrant Technologies, Microsoft, & AMD how Azure's powerful platform can streamline & secure your PostgreSQL databases, no matter where they run-on-premises, in multi-cloud setups, or at the edge.",
-      "startDate": "2025-06-05T07:00:00-04:00",
-      "endDate": "2025-06-05T08:30:00-04:00",
+      "description": "About Event\rVISIONS Summit: NYC - Where Culture, Commerce, & the Future Converge\r Join us at the Museum of Modern Art for a one-day summit exploring the forces shaping the next era of commerce. Centered on this year's theme-We Are Builders of Worlds- the VISIONS Summit will explore mythmaking, design systems, brand legacy, & narrative strategy. The content is crafted to bring a fresh perspective to the retail & eCommerce landscape, inspiring marketing, CX, & innovation professionals to think beyond best practices & engage in meaningful transformation.\r Programmed by the editorial team at Future Commerce, this half-day event features a curated mix of keynotes, 1-on-1 interviews, & moderated panels with culture-shaping voices across media, creative arts, brand building, & technology.\r Through immersive storytelling, unexpected conversations, & cultural insight, this event is where the future gets built.\r This one-day-only experience will be held in the Roy & Niuta Titus Theater at the Museum of Modern Art, & only 200 guests will have the opportunity to attend.\r Full agenda & speakers can be viewed at futurecommerce.com/visions",
+      "startDate": "2025-06-10T13:00:00-04:00",
+      "endDate": "2025-06-10T14:30:00-04:00",
       "category": [
-        "Event",
+        "Conference",
+        "Conference",
+        "Tech"
+      ],
+      "price": {
+        "amount": 249.0,
+        "type": "Paid",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [
+        "Conference",
         "Tech",
         "AI"
       ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": 100,
-      "registrationRequired": true,
-      "tags": [
-        "Tech",
-        "AI",
-        "Business"
-      ],
       "image": "gary-event.jpg",
       "status": "upcoming",
       "metadata": {
-        "source_url": "https://www.garysguide.com/events/ues4r22/Infrastructure-In-Focus-Postgresql-Modernization-On-Azure",
-        "registration_url": "http://gary.to/wmelw83",
-        "speakers": [],
+        "source_url": "https://www.garysguide.com/events/c1yeka5/Visions-Summit",
+        "registration_url": "http://gary.to/dwve4w8",
+        "speakers": [
+          {
+            "name": "Gianna Valintina (Global Head of Strategic Partnerships",
+            "title": "",
+            "company": ""
+          },
+          {
+            "name": "Spatial)",
+            "title": "",
+            "company": ""
+          },
+          {
+            "name": "Elliot Vredenburg",
+            "title": "Designer",
+            "company": ""
+          },
+          {
+            "name": "Andrew Huang",
+            "title": "Author",
+            "company": ""
+          },
+          {
+            "name": "Dami Lee",
+            "title": "Architect",
+            "company": ""
+          }
+        ],
         "venue": {
-          "name": "Infrastructure In Focus - Postgresql Modernization On Azure\n \n\n\nMicrosoft",
-          "address": "11 Times Sq\n\nJun 05 (Thu) , 2025 @ 07:00 AM\n\n\nFREE\n\n\n \n\n\nRegister \n\n Export GoogleYahooApple iCalOutlook \n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n \nDETAILS\n\n\n\nAs businesses strive to deliver seamless digital experiences, the demand for databases that combine speed, resilience, & simplicity has never been higher. Azure Database for PostgreSQL is purpose-built to meet these expectations, offering a fully managed, open-source solution with dynamic scaling, zone-redundant high availability, & advanced performance tuning. Whether you're migrating legacy systems or building new applications, Azure's intelligent automation & enterprise security help you stay ahead of the curve-so you can focus on what matters most: driving business value & delighting your users. Discover with Quadrant Technologies, Microsoft, & AMD how Azure's powerful platform can streamline & secure your PostgreSQL databases, no matter where they run-on-premises, in multi-cloud setups, or at the edge.",
-          "type": "Other"
-        }
-      }
-    },
-    {
-      "id": "evt_gary_c2fab86d",
-      "name": "Pancakes w/ PENSA",
-      "type": "Event",
-      "locationId": "loc_tbd",
-      "communityId": "com_gary",
-      "description": "Join our intimate discussion about how to move a hardware company forward.\r We bring hardware entrepreneurs together to discuss the challenges that they are experiencing - whether these are design, manufacturing, marketing, or finance related.\r Pancakes* with PENSA (*full disclosure: no pancakes are served) is a small gathering of entrepreneurs, about 10-12 people (in person), over breakfast. It is an open discussion & a great forum for learning & sharing.\r The topics we discuss are determined by the attendees joining the breakfast, to ensure an interesting & rewarding conversation.\r This event is free of charge.",
-      "startDate": "2025-06-05T09:30:00-04:00",
-      "endDate": "2025-06-05T11:00:00-04:00",
-      "category": [
-        "Event",
-        "Tech",
-        "Business"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": 100,
-      "registrationRequired": true,
-      "tags": [
-        "Tech",
-        "Business"
-      ],
-      "image": "gary-event.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.garysguide.com/events/an2074l/Pancakes-w-PENSA",
-        "registration_url": "http://gary.to/6ys71si",
-        "speakers": [],
-        "venue": {
-          "name": "Pancakes w/ PENSA\n \n\n\nVenue",
-          "address": "To Be Announced, Brooklyn\n\nJun 05 (Thu) , 2025 @ 09:30 AM\n\n\nFREE\n\n\n \n\n\nRegister \n\n Export GoogleYahooApple iCalOutlook \n\n\n\n\n\n\n\n\n\n\n \nDETAILS\n\n\n\nJoin our intimate discussion about how to move a hardware company forward.\r We bring hardware entrepreneurs together to discuss the challenges that they are experiencing - whether these are design, manufacturing, marketing, or finance related.\r Pancakes* with PENSA (*full disclosure: no pancakes are served) is a small gathering of entrepreneurs, about 10-12 people (in person), over breakfast. It is an open discussion & a great forum for learning & sharing.\r The topics we discuss are determined by the attendees joining the breakfast, to ensure an interesting & rewarding conversation.\r This event is free of charge.",
+          "name": "Visions Summit\n \n\nWith Gianna Valintina (Global Head of Strategic Partnerships",
+          "address": "Spatial), Elliot Vredenburg (Designer), Andrew Huang (Author), Dami Lee (Architect).\n\nMuseum Of Modern Art, 11 W 53rd St\n\nJun 10 (Tue) , 2025 @ 01:00 PM\n\n\n$249\n\n\n \n\n\nRegister \n\n Export GoogleYahooApple iCalOutlook \n\n\n\n\n\n\n\n\n\n\n \nDETAILS\n\n\n\nAbout Event\rVISIONS Summit: NYC - Where Culture, Commerce, & the Future Converge\r Join us at the Museum of Modern Art for a one-day summit exploring the forces shaping the next era of commerce. Centered on this year's theme-We Are Builders of Worlds- the VISIONS Summit will explore mythmaking, design systems, brand legacy, & narrative strategy. The content is crafted to bring a fresh perspective to the retail & eCommerce landscape, inspiring marketing, CX, & innovation professionals to think beyond best practices & engage in meaningful transformation.\r Programmed by the editorial team at Future Commerce, this half-day event features a curated mix of keynotes, 1-on-1 interviews, & moderated panels with culture-shaping voices across media, creative arts, brand building, & technology.\r Through immersive storytelling, unexpected conversations, & cultural insight, this event is where the future gets built.\r This one-day-only experience will be held in the Roy & Niuta Titus Theater at the Museum of Modern Art, & only 200 guests will have the opportunity to attend.\r Full agenda & speakers can be viewed at futurecommerce.com/visions",
           "type": "Other"
         }
       }
@@ -3827,55 +2635,6 @@
       }
     },
     {
-      "id": "evt_gcal_com_telos_1f742a36",
-      "name": "Booked for private event",
-      "type": "tech",
-      "locationId": "loc_telos",
-      "communityId": "com_telos",
-      "description": "",
-      "startDate": "2025-06-06T19:00:00-04:00",
-      "endDate": "2025-06-07T01:00:00-04:00",
-      "category": [
-        "tech",
-        "art",
-        "community",
-        "workshops",
-        "events",
-        "co-working"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": null,
-      "tags": [],
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source": "Google Calendar",
-        "source_url": "https://telos.haus",
-        "original_event_id": "78kdv46le8mbavmu6sl2j5r17b",
-        "organizer": {
-          "name": "telos.haus events",
-          "instagram": "",
-          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
-        },
-        "venue": {
-          "name": "Telos",
-          "address": "181 Wyckoff Ave, Brooklyn, NY 11237",
-          "type": "Community Space"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false,
-        "google_calendar_link": "https://www.google.com/calendar/event?eid=NzhrZHY0NmxlOG1iYXZtdTZzbDJqNXIxN2IgZDU5NmMyYmY3MjExODNkMjJiYjUwYmRlNjYyNTA5MGZjMzkyM2FhMjlhNjkxOGQ3ODQwOWUxNjhkYTc5MTc2OUBn"
-      }
-    },
-    {
       "id": "evt_gcal_com_telos_14e91d32",
       "name": "Booked for private event",
       "type": "tech",
@@ -4167,6 +2926,55 @@
         "featured": false,
         "luma_source": false,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=M25wajJwNjlsOGc1MzFmM2o0ZGthdDhydWlfMjAyNTA2MTdUMjIzMDAwWiBkNTk2YzJiZjcyMTE4M2QyMmJiNTBiZGU2NjI1MDkwZmMzOTIzYWEyOWE2OTE4ZDc4NDA5ZTE2OGRhNzkxNzY5QGc"
+      }
+    },
+    {
+      "id": "evt_gcal_com_telos_a3c74dd1",
+      "name": "Spinning Sessions ",
+      "type": "tech",
+      "locationId": "loc_telos",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2025-06-19T19:30:00-04:00",
+      "endDate": "2025-06-19T23:30:00-04:00",
+      "category": [
+        "tech",
+        "art",
+        "community",
+        "workshops",
+        "events",
+        "co-working"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": null,
+      "tags": [],
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://telos.haus",
+        "original_event_id": "0v6oece5islbfn9bfnbdhfjfha",
+        "organizer": {
+          "name": "telos.haus events",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "Telos",
+          "address": "181 Wyckoff Ave, Brooklyn, NY 11237",
+          "type": "Community Space"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false,
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=MHY2b2VjZTVpc2xiZm45YmZuYmRoZmpmaGEgZDU5NmMyYmY3MjExODNkMjJiYjUwYmRlNjYyNTA5MGZjMzkyM2FhMjlhNjkxOGQ3ODQwOWUxNjhkYTc5MTc2OUBn"
       }
     },
     {
@@ -5098,57 +3906,6 @@
         "featured": false,
         "luma_source": false,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=OTZoam5xNmY0NXE0bzgzb2JnZXR2ZzNhb2pfMjAyNTA4MDNUMTYwMDAwWiBkNTk2YzJiZjcyMTE4M2QyMmJiNTBiZGU2NjI1MDkwZmMzOTIzYWEyOWE2OTE4ZDc4NDA5ZTE2OGRhNzkxNzY5QGc"
-      }
-    },
-    {
-      "id": "evt_gcal_com_nyc_resistor_081c9d83",
-      "name": "Masks On Craft Night",
-      "type": "hackerspace",
-      "locationId": "loc_nyc_resistor",
-      "communityId": "com_nyc_resistor",
-      "description": "All the fun of a regular craft night with the added safety of a masks-required environment.<br><br>Free (and optional) tickets are available here: <a href=\"https://www.google.com/url?q=https://www.eventbrite.com/e/public-craft-night-1st-fridays-and-3rd-wednesdays-of-the-month-masks-on-tickets-623419182557&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw30wJgCOHNVYdmKOTp_roao\" target=\"_blank\">https://www.eventbrite.com/e/public-craft-night-1st-fridays-and-3rd-wednesdays-of-the-month-masks-on-tickets-623419182557</a><br><br>This event, like all NYC Resistor events is 18 and over and governed by out code of conduct. <br><br>More information: <a href=\"https://www.google.com/url?q=http://www.nycresistor.com/participate/&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw1wUIUV1qFGFLwgIAX6dIkL\" target=\"_blank\"><u>http://www.nycresistor.com/participate/</u></a><br>NYC Resistor Code of Conduct: <a href=\"https://www.google.com/url?q=http://www.nycresistor.com/2015/08/04/nyc-resistor-code-of-conduct/&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw0FxoSzn8w-pu237gKg6lmI\" target=\"_blank\"><u>http://www.nycresistor.com/2015/08/04/nyc-resistor-code-of-conduct/</u></a>",
-      "startDate": "2025-06-06T18:30:00-04:00",
-      "endDate": "2025-06-06T21:30:00-04:00",
-      "category": [
-        "hackerspace",
-        "maker",
-        "hardware",
-        "electronics",
-        "laser cutting",
-        "3d printing",
-        "microcontrollers",
-        "robotics"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": true,
-      "tags": [],
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source": "Google Calendar",
-        "source_url": "https://www.eventbrite.com/e/public-craft-night-1st-fridays-and-3rd-wednesdays-of-the-month-masks-on-tickets-623419182557&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw30wJgCOHNVYdmKOTp_roao\"",
-        "original_event_id": "0iqqft475g0rh2qe28btv8gne9_20250606T223000Z",
-        "organizer": {
-          "name": "NYCResistor",
-          "instagram": "",
-          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "87 3rd Ave, Brooklyn, NY 11217, USA",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false,
-        "google_calendar_link": "https://www.google.com/calendar/event?eid=MGlxcWZ0NDc1ZzByaDJxZTI4YnR2OGduZTlfMjAyNTA2MDZUMjIzMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn"
       }
     },
     {
@@ -8518,19 +7275,23 @@
       }
     },
     {
-      "id": "evt_gcal_com_verci_185a75b2",
-      "name": "Murder Mystery Party",
-      "type": "technology",
-      "locationId": "",
-      "communityId": "com_verci",
-      "description": "Get up-to-date information at: https://lu.ma/n330ni8r\n\nAddress:\nVerci Flatiron\nNew York, New York\nUnited States\n\nHosted by Symphony & Verci",
-      "startDate": "2025-06-07T00:00:00Z",
-      "endDate": "2025-06-07T03:00:00Z",
+      "id": "evt_gcal_com_nyc_resistor_824d8e7b",
+      "name": "NYCR Craft Night",
+      "type": "hackerspace",
+      "locationId": "loc_nyc_resistor",
+      "communityId": "com_nyc_resistor",
+      "description": "<u></u><p>NYC Resistor is open to the public for Craft Nights now every Monday and Thursday from 6:30-9:30 PM! Come bring your current crafting project and work on it with other artists, crafters, and makers of all kinds. Resistors do everything from costumes to electronics to visual arts to woodworking; people and crafting projects of all sorts are enthusiastically welcome!</p><p>RSVP at<span> <a href=\"https://www.eventbrite.com/e/public-craft-night-mondays-and-thursdays-tickets-162729866411\">https://www.eventbrite.com/e/public-craft-night-mondays-and-thursdays-tickets-162729866411</a></span> is appreciated but not required, for covid contact-tracing purposes.<br></p>This event like all NYC Resistor events is 18 and over and governed by out code of conduct. <br><br>More information: <a href=\"http://www.nycresistor.com/participate/\">http://www.nycresistor.com/participate/</a><br>NYC Resistor Code of Conduct: <a href=\"http://www.nycresistor.com/2015/08/04/nyc-resistor-code-of-conduct/\">http://www.nycresistor.com/2015/08/04/nyc-resistor-code-of-conduct/</a><u></u><u></u><u></u><u></u><u></u>",
+      "startDate": "2025-09-08T18:30:00-04:00",
+      "endDate": "2025-09-08T21:30:00-04:00",
       "category": [
-        "technology",
-        "innovation",
-        "society",
-        "community"
+        "hackerspace",
+        "maker",
+        "hardware",
+        "electronics",
+        "laser cutting",
+        "3d printing",
+        "microcontrollers",
+        "robotics"
       ],
       "price": {
         "amount": 0,
@@ -8539,29 +7300,29 @@
         "details": ""
       },
       "capacity": null,
-      "registrationRequired": {},
+      "registrationRequired": true,
       "tags": [],
       "image": "",
       "status": "upcoming",
       "metadata": {
         "source": "Google Calendar",
-        "source_url": "https://lu.ma/n330ni8r",
-        "original_event_id": "_clr78bae61rkipqj9ha3ap2m9tkjiji0clr6arjkecn6ot9edlgg",
+        "source_url": "https://www.eventbrite.com/e/public-craft-night-mondays-and-thursdays-tickets-162729866411\">https://www.eventbrite.com/e/public-craft-night-mondays-and-thursdays-tickets-162729866411</a></span>",
+        "original_event_id": "sf181ee0p1mp51cmuvkl324n06_20250908T223000Z",
         "organizer": {
-          "name": "Verci Events",
+          "name": "NYCResistor",
           "instagram": "",
-          "email": "pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com"
+          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
         },
         "venue": {
           "name": "",
-          "address": "Verci Flatiron, 45 E 20th St, New York, NY 10003, USA",
+          "address": "",
           "type": "Offline"
         },
         "speakers": [],
         "social_links": [],
         "featured": false,
-        "luma_source": true,
-        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmFlNjFya2lwcWo5aGEzYXAybTl0a2ppamkwY2xyNmFyamtlY242b3Q5ZWRsZ2cgcGY2bzdkcmxmcmJobXBxbG1sdDdwMjE1ZTcwaTljam5AaQ"
+        "luma_source": false,
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=c2YxODFlZTBwMW1wNTFjbXV2a2wzMjRuMDZfMjAyNTA5MDhUMjIzMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn"
       }
     },
     {
@@ -8797,6 +7558,672 @@
         "featured": false,
         "luma_source": true,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=X2NkZ21vcGJtNWxhbGNwamM2ZGg3MHNqZ2M5aTVrcTJvNzEwNmF0ajVkcHE3NmJqY2VrbjZxbzggcGY2bzdkcmxmcmJobXBxbG1sdDdwMjE1ZTcwaTljam5AaQ"
+      }
+    },
+    {
+      "id": "evt_com_max_ny_0027eab3",
+      "name": "Maximum New York June Party & Abundance Politics Accelerator",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_max_ny",
+      "description": "​Come hang out with friends, hear some lightning talks about NYC city/state politics, find collaborators for your own political schemes, and have a good time!​You'll enjoy the company of MNY alumni, people from theabundance movementgenerally, and other guests.​There will be drinks and snacks!​The formal business agenda will be posted soon. It will include:​Presentations of no more than ~10 minutes​Details on the Abundance Resolution that attendees may vote on.​Updates on city and state politics!​Know before you arrive:This event will be guided by thefour rules of etiquettethat guide all Maximum New York classes, and is generally for people who mostly agree withThe Sensible Seventy.",
+      "startDate": "2025-06-21T14:30:00-04:00",
+      "endDate": "2025-06-21T16:30:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "luma-event-9fe1da4f.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/u8spi6zi",
+        "speakers": [],
+        "venue": {
+          "name": "",
+          "address": "",
+          "type": "Offline",
+          "room": "",
+          "additional_info": ""
+        },
+        "featured": false,
+        "social_links": []
+      }
+    },
+    {
+      "id": "evt_com_otwc_d5a622bc",
+      "name": "OTWC Season 6 Finale and Open Mic",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_otwc",
+      "description": "​What a year it’s been!​Before we break for the summer, let’s come together for one last celebration with an open mic and party with the OTWC community. We’ll be back in the fall, but first, let’s end the season with a bang.​Over the past year, we’ve written, shared, and grown together. Now’s your chance to show how far you’ve come. Share a snippet of your sci-fi novel, read a poem, or even do a show-and-tell of that Substack you published.​Want to share something?​Sign up for theopen mic here. Each reader will have up to 5 minutes.​Snacks and drinks will be provided, but feel free to bring your own to share too!",
+      "startDate": "2025-06-08T19:00:00-04:00",
+      "endDate": "2025-06-08T22:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "luma-event-9d9dccf2.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/e/evt-9qCxIPvIjdqx5Ua",
+        "speakers": [],
+        "venue": {
+          "name": "",
+          "address": "",
+          "type": "Offline",
+          "room": "",
+          "additional_info": ""
+        },
+        "featured": false,
+        "social_links": []
+      }
+    },
+    {
+      "id": "evt_com_otwc_cdec3058",
+      "name": "Olive Tree Writing Retreat",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_otwc",
+      "description": "​We’re hosting our first-ever writing retreat!​Whether you’re working on a novel, a poetry collection, a longform Substack post, or just starting out, this retreat is for anyone looking to dive deep into their writing alongside others on the same journey.​What to expect?​⏰Focused Writing BlocksPlenty of uninterrupted time to go heads down and make real progress on your projects.​🛋Social TimeWe’ll have downtime to rest, play, and connect.​📣Share & CelebrateWrap up the weekend with an intimate open mic-style session. Share a chapter, a poem, or even just a sentence, whatever you want to celebrate, we’ll cheer you on.​How much does it cost?​Tickets will be$500and will include:​✔️ Roundtrip transportation from NYC​✔️ Two nights in a beautiful upstate home​✔️ All meals, snacks, and drinks included​Spots are limitedso we can keep the experience intimate and intentional.​Let’s make it the most productive and inspiring writing weekend of your life.",
+      "startDate": "2025-07-11T17:00:00-04:00",
+      "endDate": "2025-07-13T11:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "luma-event-77b758da.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/e/evt-BqT1hgkDa2l1aAW",
+        "speakers": [],
+        "venue": {
+          "name": "",
+          "address": "",
+          "type": "Offline",
+          "room": "",
+          "additional_info": ""
+        },
+        "featured": false,
+        "social_links": []
+      }
+    },
+    {
+      "id": "evt_com_der_project_0deb6d8e",
+      "name": "Data In Power - NYC Event",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_der_project",
+      "description": "​Data and the distribution of decision-making power is an increasingly important dynamic to understand and engage with in climate and energy. ​At Data In Power, we believe the method AND end product of data (collection, analysis, and visualization) are critical to decision-making.How are data being collected, analyzed, and presented - why, and by whom? These are the hard-hitting questions we are unpacking.​At this monthly social, we discuss Data In Power fundamentals in a casual setting.**Format**: We will meet for an hour group discussion followed by an optional social hour.Here is avideowith some background on Data In Power's focus within data and the distribution of decision-making power. At all of our events, we gather our community of data and decision-making experts and enthusiasts within climate and energy to share our perspectives.​​Data In Power is an independently run meetup without any bells and whistles.In order to maintain community and continue organic growth, prospective attendees should be prepared to support our meetup venue with a purchase, regardless of how large or small. Data In Power brings folks together through meaningful, productive, and unique programming.",
+      "startDate": "2025-06-10T18:00:00-04:00",
+      "endDate": "2025-06-10T19:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "luma-event-f902b935.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/e/evt-SYPO7l8oZHtZMDP",
+        "speakers": [],
+        "venue": {
+          "name": "",
+          "address": "",
+          "type": "Offline",
+          "room": "",
+          "additional_info": ""
+        },
+        "featured": false,
+        "social_links": []
+      }
+    },
+    {
+      "id": "evt_com_ny_hardware_4ae99c67",
+      "name": "110th NY Hardware Meetup @ Industry City/Adafruit | Space Tech",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_ny_hardware",
+      "description": "​​​​The Hardware Meetup community is excited to announce the next NY Hardware Meetup inIndustry CityatAdafruit! This month's event will be about the growing NYC space tech industry.​​​​​Hardware Meetupshappen in over 30 cities around the world, bringing together hardware professionals to network and learn from each other.​​​​​This month we'll behosted byAdafruitat their facility inIndustry City!​Adafruit, established in 2005 by MIT engineer Limor Fried, has been at the forefront of the maker movement. It provides an unparalleled online platform for electronics education, the Internet of Things (IoT), and the latest high-tech chips for engineering. With a commitment to excellence and open-source, Adafruit is a trusted resource for makers and engineers of all ages and skill levels. Adafruit has expanded its offerings to include tools, equipment, and electronics that Fried personally selects, tests, and approves before they go into the Adafruit store. Adafruit is a 100% woman-owned manufacturing company, a certified Minority and Woman-owned Business Enterprise (M/WBE), a certified Women’s Business Enterprise (WBE), and WOSB.​Industry City is a dynamic 35-acre creative campus on the Brooklyn waterfront in Sunset Park. Once a historic industrial hub, it has been transformed into a vibrant destination blending innovation, culture, and community. Home to over 650 businesses across 16 buildings, Industry City offers a unique mix of artisanal shops, global eateries, art installations, and event spaces. Whether you're here for a meetup, to explore the diverse food options, or to enjoy live events, Industry City provides an inspiring backdrop for connection and creativity.​​​SPEAKERS​Limor Fried. Adafruit was founded in 2005 by MIT engineer, Limor \"Ladyada\" Fried. Her goal was to create the best place online for learning electronics and making the best-designed products for makers of all ages and skill levels. Limor is a proud contributor to the open-source community, offering all of her product designs for free on Adafruit’s website, and participated in the first Open Source Hardware Summit drafting of the Open Source Hardware definition. Limor was the first female engineer on the cover of WIRED magazine, was awarded Entrepreneur magazine's Entrepreneur of the Year, was awarded the Most Influential Women in Technology award byFast Company magazine, was on the cover of Make: Vol. 57, and was named a WHITEHOUSE CHAMPION OF CHANGE in 2016.​Follow ourLinkedInpage as we announce the 2 remaining speakers!​​​​AGENDA​​​​​6:30 - Arrival, mingle, grab refreshments​​​​​7:00 - Welcome and introduction​​​7:15- Guest speakers with audience Q+A​​​8:20 - Community open mic​​​​​Anyone will have the chance or talk about what they are working on.​​​8:30 - Mix + mingle​​​WANT TO GET INVOLVED?​​​​Sponsorship:​We offer exclusive access to our 10,000+ member community through sponsorships.​​​​Host an event at your space:We are always looking for host sponsors to provide access to unique spaces from cool hardware companies building interesting things. Want to open up your office?​​​​Speaker:Do you have something interesting to share with our community? We're on the lookout for fresh faces to talk about their journey and experiences.​​​​If you want to get involved, head here:https://linktr.ee/nyhardware",
+      "startDate": "2025-08-14T18:30:00-04:00",
+      "endDate": "2025-08-14T22:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "luma-event-2b42c4df.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/hp22m1vf",
+        "speakers": [],
+        "venue": {
+          "name": "",
+          "address": "",
+          "type": "Offline",
+          "room": "",
+          "additional_info": ""
+        },
+        "featured": false,
+        "social_links": []
+      }
+    },
+    {
+      "id": "evt_com_ny_hardware_13bd1909",
+      "name": "109th NY Hardware Meetup @ Ultimaker",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_ny_hardware",
+      "description": "​The Hardware Meetup community is excited to announce the 109th NY Hardware Meetup atUltimaker!​RSVPs FOR THIS EVENT ARE LIMITED.​​​​​​Hardware Meetupshappen in over 30 cities around the world, bringing together hardware professionals to network and learn from each other.​​​​​​This month we'll behosted byUltimakerin FiDi (Manhattan). They have graciously opened up their printer queues and will be printing products from attendees - more details to follow.​Follow ourLinkedInpage as we announces updates for this event.​​WANT TO GET INVOLVED?​​​​​Sponsorship:​We offer exclusive access to our 10,000+ member community through sponsorships.​​​​​Host an event at your space:We are always looking for host sponsors to provide access to unique spaces from cool hardware companies building interesting things. Want to open up your office?​​​​​Speaker:Do you have something interesting to share with our community? We're on the lookout for fresh faces to talk about their journey and experiences.​​​​​If you want to get involved, head here:https://linktr.ee/nyhardware",
+      "startDate": "2025-07-24T18:30:00-04:00",
+      "endDate": "2025-07-24T22:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "luma-event-49b9c73d.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/6eapwozz",
+        "speakers": [],
+        "venue": {
+          "name": "",
+          "address": "",
+          "type": "Offline",
+          "room": "",
+          "additional_info": ""
+        },
+        "featured": false,
+        "social_links": []
+      }
+    },
+    {
+      "id": "evt_com_genZtea_087358f7",
+      "name": "NYC Intern Summer Kickoff",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_genZtea",
+      "description": "​🏙️NYC Intern Summer Kickoff​The Summer Kickoff You've Been Waiting For​Special Announcement:We are bringing the most exclusive intern experience to NYC this summer.​After seeing too many brilliant interns settle for generic corporate mixers, we decided to create something different. Something that matches the energy of the city that never sleeps and the ambition of the next generation building it.​NYC Intern Summer Kickoffis the premier summer kickoff event for elite interns who think bigger, move faster, and refuse to blend in.​🚀What Makes This Different​This isn't your typical networking event. This is where:​Top Gen Z founders who built million-dollar companies before 25share the playbook​Creator-entrepreneurs crushing it on multiple platformsreveal their strategies​NYC's most ambitious internsconnect with their future co-founders​Real talk, real connections, real opportunitieshappen​🎯The Experience​6:30 PM - 7:00 PM:Welcome ReceptionPremium networking with curated intro connections + CPG brand snacks​7:00 PM - 8:00 PM:Founder-Creator Panel\"From Intern to Icon: Building Your Empire Before 25\"​Featuring Gen Z founders who:​Turned internships into acquisition offers​Built personal brands with 100K+ engaged followers​Launched companies that VCs actually funded​Created multiple revenue streams before graduation​8:00 PM - 8:30 PM:Empire MixerFinal networking with fellow interns, founders, and industry operators​💎Who Should Attend​✅Summer interns(Tech, Finance, Consulting, Media)✅Aspiring founderswith side projects already in motion✅Content creatorsbuilding their personal brand✅Students/recent gradsinterning in NYC metro area✅Anyone who sees their internship as a stepping stone, not the destination​🏆Featured Panelists​Curating NYC's most impressive Gen Z founder-creators who built empires while their peers were still figuring out their majors.​Panel lineup dropping soon...​🤝Event Partners & Co-Hosts​​The Collective NY: Exclusive community for top young talent, building opportunities for NYC's most ambitious young leaders​​Jonas - Cofounder of The Collective.Connect with him here.​​Maggie - Cofounder of The Collective.Connect with her here.​This event is brought to you by a collective of ambitious operators and founders who believe in elevating the next generation.​Each co-host brings their unique expertise and network to create an unmatched experience for attendees.​📍Venue​Premium Manhattan location(Exact address sent with confirmation)Time:6:30 PM - 8:30 PM ESTDress Code:Come as you are​🎟️Registration​100% FREE- Because we believe in investing in the next generation​Full panel + mixer access​Premium snacks from emerging CPG brands​Limited to 150 attendees - first come, first served​We will personally review and accept the most impressive applications.​💭Why We Are Hosting This​As a group who's built multiple companies and invested in dozens of startups, we see the same pattern: the interns who win big are the ones who think like founders from day one.​They don't just complete assignments—they identify opportunities.They don't just network—they build genuine relationships.They don't just consume content—they create value.​This event is for the 1% of interns who already think this way, and the 10% who are ready to level up.​We covering all costs because we believe the next generation of founders deserves the same opportunities we had—regardless of their bank account.​Your internship is just the beginning. Your empire starts here.​📧Partnership & Sponsorship Inquiries​Interested in partnering with us or sponsoring this exclusive event?Contact:natalie@thegenztea.com​Questions? DM me directly.​Ready to claim your spot in NYC's most exclusive intern experience?",
+      "startDate": "2025-06-24T18:30:00-04:00",
+      "endDate": "2025-06-24T20:30:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "luma-event-787e344c.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/d70zlrea",
+        "speakers": [],
+        "venue": {
+          "name": "",
+          "address": "",
+          "type": "Offline",
+          "room": "",
+          "additional_info": ""
+        },
+        "featured": false,
+        "social_links": []
+      }
+    },
+    {
+      "id": "evt_com_genZtea_25af45a9",
+      "name": "Creatives in Finance",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_genZtea",
+      "description": "Get up-to-date information at: https://lu.ma/y1u0p5vg\n\nAddress:\nMidtown Manhattan\nNew York, New York\nUnited States\n\nHosted by Natalie Neptune & Riya Goel",
+      "startDate": "2025-07-10T18:00:00-04:00",
+      "endDate": "2025-07-10T19:30:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "luma-event-e307bd3f.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/y1u0p5vg",
+        "speakers": [],
+        "venue": {
+          "name": "",
+          "address": "",
+          "type": "Offline",
+          "room": "",
+          "additional_info": ""
+        },
+        "featured": false,
+        "social_links": []
+      }
+    },
+    {
+      "id": "evt_com_genZtea_74fe888a",
+      "name": "Female Founders & Financial Empowerment",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_genZtea",
+      "description": "​ELEVATE: Female Founders & Financial Empowerment Event​August 19th, 2025​Sneak Peek: Something powerful is coming for female entrepreneurs.​Join us for an exclusive event where visionary female founders meet wealth management expertise. Build your network, grow your assets, and transform your relationship with money after the summer break.​Full details will be released in the coming months.​Sign up now to be the first to receive updates about this game-changing event. Limited spots available.​[SIGN UP FOR UPDATES]​Questions? Contact us at natalie@thegenztea.com",
+      "startDate": "2025-08-19T18:00:00-04:00",
+      "endDate": "2025-08-19T19:30:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "luma-event-4b340f00.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/g12gab09",
+        "speakers": [],
+        "venue": {
+          "name": "",
+          "address": "",
+          "type": "Offline",
+          "room": "",
+          "additional_info": ""
+        },
+        "featured": false,
+        "social_links": []
+      }
+    },
+    {
+      "id": "evt_com_desci_711d892a",
+      "name": "DeSciNYC: Nutrient Transport and Cell Metabolism",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_desci",
+      "description": "​Timothy Kenny​Schedule:6:30-7:30 PM: Networking7:30-8:30 PM: Main talk8:30-9:30 PM: More chatting🐦Stay Connected about Future Events:Twitter:@descinyc_Instagram:@descinyc​PS: Apply to be a member of the DeSci NYC group chat:https://forms.gle/AmUtotmCgWgGxWDp6",
+      "startDate": "2025-08-12T18:30:00-04:00",
+      "endDate": "2025-08-12T20:30:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "luma-event-ee3321e3.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/e/evt-9U3AFAbImn8vs5m",
+        "speakers": [],
+        "venue": {
+          "name": "",
+          "address": "",
+          "type": "Offline",
+          "room": "",
+          "additional_info": ""
+        },
+        "featured": false,
+        "social_links": []
+      }
+    },
+    {
+      "id": "evt_com_desci_1c605b0c",
+      "name": "DeSciNYC: TBD",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_desci",
+      "description": "​​Schedule:6:30-7:30 PM: Networking7:30-8:30 PM: Main talk8:30-9:30 PM: More chatting🐦Stay Connected about Future Events:Twitter:@descinyc_Instagram:@descinyc​PS: Apply to be a member of the DeSci NYC group chat:https://forms.gle/AmUtotmCgWgGxWDp6",
+      "startDate": "2025-10-14T19:00:00-04:00",
+      "endDate": "2025-10-14T21:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "luma-event-f3a39c9b.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/e/evt-RtBtrHYLDA0ug8b",
+        "speakers": [],
+        "venue": {
+          "name": "",
+          "address": "",
+          "type": "Offline",
+          "room": "",
+          "additional_info": ""
+        },
+        "featured": false,
+        "social_links": []
+      }
+    },
+    {
+      "id": "evt_com_desci_67cc69f4",
+      "name": "DeSciNYC: Science of Sleep #TechWeek",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_desci",
+      "description": "​​Schedule:6:30-7:30 PM: Networking7:30-8:30 PM: Main talk8:30-9:30 PM: More chatting🐦Stay Connected about Future Events:Twitter:@descinyc_Instagram:@descinyc​PS: Apply to be a member of the DeSci NYC group chat:https://forms.gle/AmUtotmCgWgGxWDp6",
+      "startDate": "2025-06-10T18:30:00-04:00",
+      "endDate": "2025-06-10T20:30:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "luma-event-e1f0c460.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/e/evt-2vcupFsZjIjKl6t",
+        "speakers": [],
+        "venue": {
+          "name": "",
+          "address": "",
+          "type": "Offline",
+          "room": "",
+          "additional_info": ""
+        },
+        "featured": false,
+        "social_links": []
+      }
+    },
+    {
+      "id": "evt_com_desci_0264e7d9",
+      "name": "DeSciNYC: TBD",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_desci",
+      "description": "​​Schedule:6:30-7:30 PM: Networking7:30-8:30 PM: Main talk8:30-9:30 PM: More chatting🐦Stay Connected about Future Events:Twitter:@descinyc_Instagram:@descinyc​PS: Apply to be a member of the DeSci NYC group chat:https://forms.gle/AmUtotmCgWgGxWDp6",
+      "startDate": "2025-09-09T18:30:00-04:00",
+      "endDate": "2025-09-09T20:30:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "luma-event-f3a39c9b.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/e/evt-E8ZRG5RBpAIQqAS",
+        "speakers": [],
+        "venue": {
+          "name": "",
+          "address": "",
+          "type": "Offline",
+          "room": "",
+          "additional_info": ""
+        },
+        "featured": false,
+        "social_links": []
+      }
+    },
+    {
+      "id": "evt_com_desci_c9cea63e",
+      "name": "DeSciNYC: TBD",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_desci",
+      "description": "​​Schedule:6:30-7:30 PM: Networking7:30-8:30 PM: Main talk8:30-9:30 PM: More chatting🐦Stay Connected about Future Events:Twitter:@descinyc_Instagram:@descinyc​PS: Apply to be a member of the DeSci NYC group chat:https://forms.gle/AmUtotmCgWgGxWDp6",
+      "startDate": "2025-12-09T18:30:00-05:00",
+      "endDate": "2025-12-09T20:30:00-05:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "luma-event-f3a39c9b.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/e/evt-rLLENKhkWgnnL3E",
+        "speakers": [],
+        "venue": {
+          "name": "",
+          "address": "",
+          "type": "Offline",
+          "room": "",
+          "additional_info": ""
+        },
+        "featured": false,
+        "social_links": []
+      }
+    },
+    {
+      "id": "evt_com_desci_542d3a0a",
+      "name": "DeSciNYC: TBD",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_desci",
+      "description": "​​Schedule:6:30-7:30 PM: Networking7:30-8:30 PM: Main talk8:30-9:30 PM: More chatting🐦Stay Connected about Future Events:Twitter:@descinyc_Instagram:@descinyc​PS: Apply to be a member of the DeSci NYC group chat:https://forms.gle/AmUtotmCgWgGxWDp6",
+      "startDate": "2025-11-11T18:30:00-05:00",
+      "endDate": "2025-11-11T20:30:00-05:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "luma-event-f3a39c9b.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/e/evt-C1vOim1QK070FAR",
+        "speakers": [],
+        "venue": {
+          "name": "",
+          "address": "",
+          "type": "Offline",
+          "room": "",
+          "additional_info": ""
+        },
+        "featured": false,
+        "social_links": []
+      }
+    },
+    {
+      "id": "evt_com_desci_ddcfd1c4",
+      "name": "DeSciNYC: Genome Editing in Early Human Embryos",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_desci",
+      "description": "​Genome editing tools allow the introduction of precise changes in the DNA. For this ability, they became indispensable for basic biological research and hold great promise for future therapeutic applications. The same technologies are being utilized also in early human embryos for better understanding of key developmental regulators and DNA repair mechanisms. In the future, precise correction of specific genes might enable curing devastating diseases early in the development or decreasing the risks of certain diseases. Although continuous research is needed before such an intervention becomes safe, the first gene-edited babies were already born. This talk aims to contribute to the debate about human germline gene editing by putting it into a broader context of human biology, discussing the benefits, current limitations, and possible future alternatives leading to the prevention of genetic diseases.Stepan Jerabek is a postdoctoral research scientist in the Pediatrics Department at Columbia University. He is also an associate scientist at IOCB Prague, an institute of the Czech Academy of Sciences. Stepan’s interest in early development and genome stability brought him to the Egli laboratory, where he uses genome editing tools to study DNA repair in human preimplantation embryos. In 2024, Stepan was the recipient of the Druckenmiller Fellowship Award from the New York Stem Cell Foundation Research Institute. Stepan completed his doctoral training at the Max Planck Institute for Molecular Biomedicine in Germany and was a research fellow at Harvard Medical School, working in the lab of genetics pioneer George Church.🐦Stay Connected about Future Events:Twitter:@descinyc_Instagram:@descinyc​PS: Apply to be a member of the DeSci NYC group chat:https://forms.gle/AmUtotmCgWgGxWDp6",
+      "startDate": "2025-07-08T19:00:00-04:00",
+      "endDate": "2025-07-08T21:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "luma-event-42e200ee.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/e/evt-OwIEod9tP338yP7",
+        "speakers": [],
+        "venue": {
+          "name": "",
+          "address": "",
+          "type": "Offline",
+          "room": "",
+          "additional_info": ""
+        },
+        "featured": false,
+        "social_links": []
+      }
+    },
+    {
+      "id": "evt_com_satori_7622eb5f",
+      "name": "Startup Friends - Meditative Walk w/ Satori",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_satori",
+      "description": "​You survived Tech Week. Panels. Pitches. Pings. Your brain feels like a tab you forgot to close.​If you have to explain what you do one more time, you might explode. So now what?​Zen out or burn out.​The meditative walkis a slow, tech-free walk through Central Park. Phones on airplane mode. No pitches. No pretending to be “on.”​Just actual humans, moving slowly, enjoying nature and breathing like it’s 1996.​Join a crew of ambitious, slightly-fried New Yorkers as we unplug, walk, and remember how to be human again.",
+      "startDate": "2025-06-08T12:30:00-04:00",
+      "endDate": "2025-06-08T14:30:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "luma-event-4481eca9.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/x6beklhk",
+        "speakers": [],
+        "venue": {
+          "name": "",
+          "address": "",
+          "type": "Offline",
+          "room": "",
+          "additional_info": ""
+        },
+        "featured": false,
+        "social_links": []
+      }
+    },
+    {
+      "id": "evt_com_satori_4f3d4f73",
+      "name": "Founder Debate Night By Antler & Satori",
+      "type": "Tech",
+      "locationId": "loc_tbd",
+      "communityId": "com_satori",
+      "description": "​Two teams. One motion. Wildly strong opinions - whether you believe them or not.​Here’s how it works:​We’ll throw out a spicy topic. Teams take sides. Each person gets a chance to make their case, throw a little shade (respectfully, of course), and see who can win over the crowd.​The best arguments? Loud applause.The worst ones? Probably still loud applause.​No debate experience needed. Just bring your brain, your sense of humor, and your willingness to argue passionately about things thatmay or may notmatter.",
+      "startDate": "2025-06-09T17:30:00-04:00",
+      "endDate": "2025-06-09T20:00:00-04:00",
+      "category": [
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "luma-event-12328727.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://lu.ma/e/evt-E3EJRIBF5lg1V1k",
+        "speakers": [],
+        "venue": {
+          "name": "",
+          "address": "",
+          "type": "Offline",
+          "room": "",
+          "additional_info": ""
+        },
+        "featured": false,
+        "social_links": []
       }
     }
   ]
