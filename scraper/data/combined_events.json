@@ -234,7 +234,7 @@
       "registrationRequired": true,
       "tags": [],
       "image": [
-        "https://cdn.sanity.io/images/vgvol637/production/24f1da0ea907634e6398bef8f0228cdb345db954-2000x1124.jpg?w=800"
+        "https://cdn.sanity.io/images/vgvol637/production/61f61c11a7d70fa5ac7b497b2fe33072d45e61ad-2160x2160.png?w=800"
       ],
       "status": "upcoming",
       "metadata": {
@@ -577,21 +577,21 @@
       }
     },
     {
-      "id": "evt_gary_1582433a",
-      "name": "DevRelCon NYC",
-      "type": "Event",
+      "id": "evt_gary_0c669742",
+      "name": "Visions Summit",
+      "type": "Conference",
       "locationId": "loc_tbd",
       "communityId": "com_gary",
-      "description": "DevRelCon is the premiere global conference for Developer Relations, Developer Experience, Developer Marketing, & Technical Community Management. This is a unique opportunity to hear talks from industry leaders, connect with your peers on best practices & challenges, & participate in hands-on workshops & discussions.\r See recorded sessions from previous events for examples of what to expect at DevRelCon NY!\r DevRelCon is a global series of conferences for developer relations, developer experience & developer marketing professionals. Whether you're looking to advance your craft & career, are in-between roles, or simply want to reconnect with the wider DevRel community, DevRelCon is the place for you! Sessions will cover practical topics like metrics & ROI, managing up & down, community management, content creation, career paths, open source, improving & scaling using AI tools, & much more.",
-      "startDate": "2025-06-19T07:00:00-04:00",
-      "endDate": "2025-06-19T08:30:00-04:00",
+      "description": "About Event\rVISIONS Summit: NYC - Where Culture, Commerce, & the Future Converge\r Join us at the Museum of Modern Art for a one-day summit exploring the forces shaping the next era of commerce. Centered on this year's theme-We Are Builders of Worlds- the VISIONS Summit will explore mythmaking, design systems, brand legacy, & narrative strategy. The content is crafted to bring a fresh perspective to the retail & eCommerce landscape, inspiring marketing, CX, & innovation professionals to think beyond best practices & engage in meaningful transformation.\r Programmed by the editorial team at Future Commerce, this half-day event features a curated mix of keynotes, 1-on-1 interviews, & moderated panels with culture-shaping voices across media, creative arts, brand building, & technology.\r Through immersive storytelling, unexpected conversations, & cultural insight, this event is where the future gets built.\r This one-day-only experience will be held in the Roy & Niuta Titus Theater at the Museum of Modern Art, & only 200 guests will have the opportunity to attend.\r Full agenda & speakers can be viewed at futurecommerce.com/visions",
+      "startDate": "2025-06-10T13:00:00-04:00",
+      "endDate": "2025-06-10T14:30:00-04:00",
       "category": [
-        "Event",
-        "Workshop",
+        "Conference",
+        "AI",
         "Conference"
       ],
       "price": {
-        "amount": 699.0,
+        "amount": 249.0,
         "type": "Paid",
         "currency": "USD",
         "details": ""
@@ -599,40 +599,65 @@
       "capacity": 100,
       "registrationRequired": true,
       "tags": [
-        "Workshop",
+        "AI",
         "Conference",
-        "Tech",
-        "AI"
+        "Tech"
       ],
       "image": "gary-event.jpg",
       "status": "upcoming",
       "metadata": {
-        "source_url": "https://www.garysguide.com/events/vu5jlxe/DevRelCon-NYC",
-        "registration_url": "http://gary.to/h42rpbe",
-        "speakers": [],
+        "source_url": "https://www.garysguide.com/events/c1yeka5/Visions-Summit",
+        "registration_url": "http://gary.to/dwve4w8",
+        "speakers": [
+          {
+            "name": "Gianna Valintina (Global Head of Strategic Partnerships",
+            "title": "",
+            "company": ""
+          },
+          {
+            "name": "Spatial)",
+            "title": "",
+            "company": ""
+          },
+          {
+            "name": "Elliot Vredenburg",
+            "title": "Designer",
+            "company": ""
+          },
+          {
+            "name": "Andrew Huang",
+            "title": "Author",
+            "company": ""
+          },
+          {
+            "name": "Dami Lee",
+            "title": "Architect",
+            "company": ""
+          }
+        ],
         "venue": {
-          "name": "DevRelCon NYC\n \n\nGlobal conference for dev relations",
-          "address": "dev experience, dev mktg & technical community mgmt.\n\nVenue, 220 36th St, Brooklyn\n\nJun 19 (Thu) , 2025 @ 07:00 AM\n\n\n$699\n\n\n \n\n\nRegister \n\n Export GoogleYahooApple iCalOutlook \n\n\n\n\n\n\n\n\n\n\n \nDETAILS\n\n\n\nDevRelCon is the premiere global conference for Developer Relations, Developer Experience, Developer Marketing, & Technical Community Management. This is a unique opportunity to hear talks from industry leaders, connect with your peers on best practices & challenges, & participate in hands-on workshops & discussions.\r See recorded sessions from previous events for examples of what to expect at DevRelCon NY!\r DevRelCon is a global series of conferences for developer relations, developer experience & developer marketing professionals. Whether you're looking to advance your craft & career, are in-between roles, or simply want to reconnect with the wider DevRel community, DevRelCon is the place for you! Sessions will cover practical topics like metrics & ROI, managing up & down, community management, content creation, career paths, open source, improving & scaling using AI tools, & much more.",
+          "name": "Visions Summit\n \n\nWith Gianna Valintina (Global Head of Strategic Partnerships",
+          "address": "Spatial), Elliot Vredenburg (Designer), Andrew Huang (Author), Dami Lee (Architect).\n\nMuseum Of Modern Art, 11 W 53rd St\n\nJun 10 (Tue) , 2025 @ 01:00 PM\n\n\n$249\n\n\n \n\n\nRegister \n\n Export GoogleYahooApple iCalOutlook \n\n\n\n\n\n\n\n\n\n\n \nDETAILS\n\n\n\nAbout Event\rVISIONS Summit: NYC - Where Culture, Commerce, & the Future Converge\r Join us at the Museum of Modern Art for a one-day summit exploring the forces shaping the next era of commerce. Centered on this year's theme-We Are Builders of Worlds- the VISIONS Summit will explore mythmaking, design systems, brand legacy, & narrative strategy. The content is crafted to bring a fresh perspective to the retail & eCommerce landscape, inspiring marketing, CX, & innovation professionals to think beyond best practices & engage in meaningful transformation.\r Programmed by the editorial team at Future Commerce, this half-day event features a curated mix of keynotes, 1-on-1 interviews, & moderated panels with culture-shaping voices across media, creative arts, brand building, & technology.\r Through immersive storytelling, unexpected conversations, & cultural insight, this event is where the future gets built.\r This one-day-only experience will be held in the Roy & Niuta Titus Theater at the Museum of Modern Art, & only 200 guests will have the opportunity to attend.\r Full agenda & speakers can be viewed at futurecommerce.com/visions",
           "type": "Other"
         }
       }
     },
     {
-      "id": "evt_gary_cdd60c07",
-      "name": "Archery For All Mixer",
+      "id": "evt_gary_891e2959",
+      "name": "AI Demo Night",
       "type": "Event",
       "locationId": "loc_tbd",
       "communityId": "com_gary",
-      "description": "Join Hidden Gems Archery during New York Tech Week in Brooklyn Heights!\r Take a break from tech & hit the target -learn the basics of archery, take your shot, & connect with fellow tech enthusiasts who love to move. Whether you're a first-timer or just looking to unwind, our classes are the perfect way to have fun, recharge, & meet new people during Tech Week.\r 10:00 - 11:00 - 10 folks\r11:30 - 12:30 - 10 folks\r1:00 - 2:00 - 10 folks\r2:30 - 3:30 - 10 folks\r4:00 - 5:00 - 10 folks\r Make sure you share the time you would like to attend! There are no refunds but we will allow ticket transfer & for you to attend another pop-up event at no additional cost.\r This event is a part of #NYTechWeek-a week of events hosted by VCs & startups to bring together the tech ecosystem. Learn more at www.tech-week.com.",
-      "startDate": "2025-06-07T10:00:00-04:00",
-      "endDate": "2025-06-07T11:30:00-04:00",
+      "description": "AI Demo Nights Powered by BetterFutureLabs features super cool AI demos. You should join us if you like meeting people & learning about AI & tech.\r 6:00 - Doors/Networking\r6:30 - Welcome Remarks\r6:40 - Demos (5 mins + 5 mins q&a each)\r EntropyRobotics\r CarbonDex\r NOS Agent\r 7:20 - Keynote Speaker TBD\r 7:45 - Audience Choice Awards / Networking\r8:00 - Close\r Address: 7 Times Sq, New York, NY 10036. It's between W41st & W42nd on Broadway. Upon arrival, you will need a QR code that you'll receive in your email to enter & will be directed to Floor #46.\r Parking Garage: Icon Parking is located at 143-145 W 40th St, New York, NY 10018. The rates can be found here.\r No-show policy: As you know, putting on these events takes a lot of time. All we ask is that you treat them professionally as you would any meeting & update your RSVP more than 24 hours ahead of time if you can't make it. No-shows who do not adhere to this policy will be listed on our no-show list of shame & not allowed in future events. Don't be that guy or gal!\r Want to sponsor or pitch? Get in touch.",
+      "startDate": "2025-06-25T18:00:00-04:00",
+      "endDate": "2025-06-25T19:30:00-04:00",
       "category": [
         "Event",
-        "Workshop",
+        "AI",
         "Tech"
       ],
       "price": {
-        "amount": 40.0,
+        "amount": 8.0,
         "type": "Paid",
         "currency": "USD",
         "details": ""
@@ -640,25 +665,125 @@
       "capacity": 100,
       "registrationRequired": true,
       "tags": [
-        "Workshop",
-        "Tech",
-        "Business"
+        "AI",
+        "Tech"
       ],
       "image": "gary-event.jpg",
       "status": "upcoming",
       "metadata": {
-        "source_url": "https://www.garysguide.com/events/2al5wy3/Archery-For-All-Mixer",
-        "registration_url": "http://gary.to/gqamtey",
+        "source_url": "https://www.garysguide.com/events/dv78nbg/AI-Demo-Night",
+        "registration_url": "http://gary.to/xxbaxlk",
         "speakers": [],
         "venue": {
-          "name": "[ NY Tech Week ]\nArchery For All Mixer\n \n\nLearn basics of archery",
-          "address": "take your shot, & connect w/ fellow tech enthusiasts who love to move.\n\nVenue, To Be Announced, Brooklyn\n\nJun 07 (Sat) , 2025 @ 10:00 AM\n\n\n$40\n\n\n \n\n\nRegister \n\n Export GoogleYahooApple iCalOutlook \n\n\n\n\n\n\n\n\n\n\n \nDETAILS\n\n\n\nJoin Hidden Gems Archery during New York Tech Week in Brooklyn Heights!\r Take a break from tech & hit the target -learn the basics of archery, take your shot, & connect with fellow tech enthusiasts who love to move. Whether you're a first-timer or just looking to unwind, our classes are the perfect way to have fun, recharge, & meet new people during Tech Week.\r 10:00 - 11:00 - 10 folks\r11:30 - 12:30 - 10 folks\r1:00 - 2:00 - 10 folks\r2:30 - 3:30 - 10 folks\r4:00 - 5:00 - 10 folks\r Make sure you share the time you would like to attend! There are no refunds but we will allow ticket transfer & for you to attend another pop-up event at no additional cost.\r This event is a part of #NYTechWeek-a week of events hosted by VCs & startups to bring together the tech ecosystem. Learn more at www.tech-week.com.",
+          "name": "AI Demo Night\n \n\nDemos by EntropyRobotics",
+          "address": "CarbonDex, NOS Agent.\r\n\n\nVenue, 7 Times Sq\n\nJun 25 (Wed) , 2025 @ 06:00 PM\n\n\n$8\n\n\n \n\n\nRegister \n\n Export GoogleYahooApple iCalOutlook \n\n\n\n\n\n\n\n\n\n\n \nDETAILS\n\n\n\nAI Demo Nights Powered by BetterFutureLabs features super cool AI demos. You should join us if you like meeting people & learning about AI & tech.\r 6:00 - Doors/Networking\r6:30 - Welcome Remarks\r6:40 - Demos (5 mins + 5 mins q&a each)\r EntropyRobotics\r CarbonDex\r NOS Agent\r 7:20 - Keynote Speaker TBD\r 7:45 - Audience Choice Awards / Networking\r8:00 - Close\r Address: 7 Times Sq, New York, NY 10036. It's between W41st & W42nd on Broadway. Upon arrival, you will need a QR code that you'll receive in your email to enter & will be directed to Floor #46.\r Parking Garage: Icon Parking is located at 143-145 W 40th St, New York, NY 10018. The rates can be found here.\r No-show policy: As you know, putting on these events takes a lot of time. All we ask is that you treat them professionally as you would any meeting & update your RSVP more than 24 hours ahead of time if you can't make it. No-shows who do not adhere to this policy will be listed on our no-show list of shame & not allowed in future events. Don't be that guy or gal!\r Want to sponsor or pitch? Get in touch.",
           "type": "Other"
         }
       }
     },
     {
-      "id": "evt_gary_d87eaac1",
+      "id": "evt_gary_32de7688",
+      "name": "AI In Space - Exploring Future Of Data, Discovery & Design",
+      "type": "Event",
+      "locationId": "loc_tbd",
+      "communityId": "com_gary",
+      "description": "A Space Apps NYC 2025 Preview Event\r Join us for a dynamic, multi-speaker session previewing Space Apps NYC 2025-where curiosity meets code & cosmic questions become collaborative experiments.\r This event brings together NASA datasets, AI-powered workflows, & mind-expanding applications of space science. Hear from:\r Cloudflare on how AI is reshaping coding workflows & developer productivity\r Steven Jaret (AMNH) on decoding the story of our solar system through meteorite research\r Michael Caprio (Tesla Science Center) on Open Space, a 3D platform visualizing real NASA mission data\r And more voices exploring how open data & public science can fuel both education & innovation\r Whether you're a student, scientist, coder, or community builder-this is your launchpad to get involved, get inspired, & get ready for this year's Space Apps challenge.\r In an age of AI & institutional uncertainty, the next generation of civic & tech leaders needs more than just skills-they need to practice working across silos, building with clarity, & designing for meaning.\r That's what Space Apps + SWARM is.\r Not just a hackathon.\r A year-long civic sandbox for:\r students to grow\r orgs to connect\r problems to get visible\r systems to be made legible\r and life to improve on Earth & in space\r Pizza & light refreshments will be served.\r Community Partners:",
+      "startDate": "2025-06-23T18:30:00-04:00",
+      "endDate": "2025-06-23T20:00:00-04:00",
+      "category": [
+        "Event",
+        "AI",
+        "Tech"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [
+        "AI",
+        "Tech"
+      ],
+      "image": "gary-event.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.garysguide.com/events/oa6busu/AI-In-Space-Exploring-Future-Of-Data-Discovery-Design",
+        "registration_url": "http://gary.to/lqk793v",
+        "speakers": [
+          {
+            "name": "Steven Jaret (Planetary Geologist",
+            "title": "",
+            "company": ""
+          },
+          {
+            "name": "American Museum of Natural History)",
+            "title": "",
+            "company": ""
+          },
+          {
+            "name": "Michael Caprio (Tesla Science Center",
+            "title": "",
+            "company": ""
+          },
+          {
+            "name": "Wardenclyffe)",
+            "title": "",
+            "company": ""
+          }
+        ],
+        "venue": {
+          "name": "AI In Space - Exploring Future Of Data",
+          "address": "Discovery & Design\n \n\nWith Steven Jaret (Planetary Geologist, American Museum of Natural History), Michael Caprio (Tesla Science Center, Wardenclyffe).\n\nCivic Hall, 124 E 14th St, Rm 520\n\nJun 23 (Mon) , 2025 @ 06:30 PM\n\n\nFREE\n\n\n \n\n\nRegister \n\n Export GoogleYahooApple iCalOutlook \n\n\n\n\n\n\n\n\n\n\n \nDETAILS\n\n\n\nA Space Apps NYC 2025 Preview Event\r Join us for a dynamic, multi-speaker session previewing Space Apps NYC 2025-where curiosity meets code & cosmic questions become collaborative experiments.\r This event brings together NASA datasets, AI-powered workflows, & mind-expanding applications of space science. Hear from:\r Cloudflare on how AI is reshaping coding workflows & developer productivity\r Steven Jaret (AMNH) on decoding the story of our solar system through meteorite research\r Michael Caprio (Tesla Science Center) on Open Space, a 3D platform visualizing real NASA mission data\r And more voices exploring how open data & public science can fuel both education & innovation\r Whether you're a student, scientist, coder, or community builder-this is your launchpad to get involved, get inspired, & get ready for this year's Space Apps challenge.\r In an age of AI & institutional uncertainty, the next generation of civic & tech leaders needs more than just skills-they need to practice working across silos, building with clarity, & designing for meaning.\r That's what Space Apps + SWARM is.\r Not just a hackathon.\r A year-long civic sandbox for:\r students to grow\r orgs to connect\r problems to get visible\r systems to be made legible\r and life to improve on Earth & in space\r Pizza & light refreshments will be served.\r Community Partners:",
+          "type": "Other"
+        }
+      }
+    },
+    {
+      "id": "evt_gary_5e1d1dc2",
+      "name": "NJ Fast Expo",
+      "type": "Event",
+      "locationId": "loc_tbd",
+      "communityId": "com_gary",
+      "description": "Join us for our NJ FAST Expo.\r More details to come!\r Startups Pitches Listed Below:\r Squirro turns meaningless data into A.I.-driven actionable Insights.\r Venteur is an AI-powered benefits marketplace that empowers individuals to take control of their health care.\r DeepKeep multimodal AI security safeguards machine learning pipelines, promoting secure, unbiased, real time & trustworthy AI solutions.\r Penelope is a self-service retirement platform for small & micro businesses.\r Vaultik is the bank for your belongings that unlocks a new world of post sale opportunities including perks, insurance, & credit services for high net worth individuals.\r Markets EQ provides GenAI solution providing competitive tonal analysis, previously unavailable awareness.\r Cranium is an AI security & trust platform that delivers security & trust to the AI revolution.\r Ledge is a command center for payments built for finance teams operating at scale.\r Column is an AI-powered insurance management platform designed for today's financial professionals.\r Clarista is a data analytics platform that provides real-time answers from any enterprise platform, acting as a bridge between technical data & AI.\r OpenVC provides investible unicorn indexes of the most innovative late-stage venture capital companies. \r AQ22 is a loan assessment AI solution built exclusively for credit analysts. Our platform boosts loan assessment efficiency, accuracy, & transparency for creditors, credit unions, & alternative lenders. \r Indemn builds machine learning-powered insurance conversations. Users can learn about coverage, purchase insurance, & perform service tasks through natural conversation.\r FinX Capital Markets builds high-performance systems for investors, analysts, & risk managers of capital markets.\r Kobalt Labs is an AI-powered platform to reduce errors & increase efficiency in manual compliance work.\r Atidot empowers life insurance & annuity writers to evaluate opportunities in the in-force of business with big data & predictive analytics.\r Truthifi is a developer of a wealth management platform designed to offer financial advisory services.\r #NJFAST #Innovation #NextGenStartups #Networking #GameChangers #NewJersey #Startups #Accelerator",
+      "startDate": "2025-06-24T13:00:00-04:00",
+      "endDate": "2025-06-24T14:30:00-04:00",
+      "category": [
+        "Event",
+        "Business",
+        "AI"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [
+        "Business",
+        "AI",
+        "Conference",
+        "Tech"
+      ],
+      "image": "gary-event.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.garysguide.com/events/guefh85/Nj-Fast-Expo",
+        "registration_url": "http://gary.to/bu40sk8",
+        "speakers": [],
+        "venue": {
+          "name": "NJ Fast Expo\n \n\nDemos by Squirro",
+          "address": "Venteur, DeepKeep, Penelope, Vaultik, Markets EQ, Cranium, Ledge, Column, Clarista, OpenVC, AQ22, Indemn, FinX Capital Markets, Kobalt Labs, Atidot, Truthifi.\n\nVenue, To Be Announced\n\nJun 24 (Tue) , 2025 @ 01:00 PM\n\n\nFREE\n\n\n \n\n\nRegister \n\n Export GoogleYahooApple iCalOutlook \n\n\n\n\n\n\n\n\n\n\n \nDETAILS\n\n\n\nJoin us for our NJ FAST Expo.\r More details to come!\r Startups Pitches Listed Below:\r Squirro turns meaningless data into A.I.-driven actionable Insights.\r Venteur is an AI-powered benefits marketplace that empowers individuals to take control of their health care.\r DeepKeep multimodal AI security safeguards machine learning pipelines, promoting secure, unbiased, real time & trustworthy AI solutions.\r Penelope is a self-service retirement platform for small & micro businesses.\r Vaultik is the bank for your belongings that unlocks a new world of post sale opportunities including perks, insurance, & credit services for high net worth individuals.\r Markets EQ provides GenAI solution providing competitive tonal analysis, previously unavailable awareness.\r Cranium is an AI security & trust platform that delivers security & trust to the AI revolution.\r Ledge is a command center for payments built for finance teams operating at scale.\r Column is an AI-powered insurance management platform designed for today's financial professionals.\r Clarista is a data analytics platform that provides real-time answers from any enterprise platform, acting as a bridge between technical data & AI.\r OpenVC provides investible unicorn indexes of the most innovative late-stage venture capital companies. \r AQ22 is a loan assessment AI solution built exclusively for credit analysts. Our platform boosts loan assessment efficiency, accuracy, & transparency for creditors, credit unions, & alternative lenders. \r Indemn builds machine learning-powered insurance conversations. Users can learn about coverage, purchase insurance, & perform service tasks through natural conversation.\r FinX Capital Markets builds high-performance systems for investors, analysts, & risk managers of capital markets.\r Kobalt Labs is an AI-powered platform to reduce errors & increase efficiency in manual compliance work.\r Atidot empowers life insurance & annuity writers to evaluate opportunities in the in-force of business with big data & predictive analytics.\r Truthifi is a developer of a wealth management platform designed to offer financial advisory services.\r #NJFAST #Innovation #NextGenStartups #Networking #GameChangers #NewJersey #Startups #Accelerator",
+          "type": "Other"
+        }
+      }
+    },
+    {
+      "id": "evt_gary_f27b8cff",
       "name": "Open-Source NYC Computer Vision Hackathon w/ Moondream",
       "type": "Event",
       "locationId": "loc_tbd",
@@ -695,7 +820,7 @@
       }
     },
     {
-      "id": "evt_gary_388d7e96",
+      "id": "evt_gary_fa1a1919",
       "name": "Shift VC - The Journey Of An Investor",
       "type": "Event",
       "locationId": "loc_tbd",
@@ -755,116 +880,17 @@
       }
     },
     {
-      "id": "evt_gary_0b37369b",
-      "name": "AI In Space - Exploring Future Of Data, Discovery & Design",
+      "id": "evt_gary_bcc609df",
+      "name": "Peakrankings Hike",
       "type": "Event",
       "locationId": "loc_tbd",
       "communityId": "com_gary",
-      "description": "A Space Apps NYC 2025 Preview Event\r Join us for a dynamic, multi-speaker session previewing Space Apps NYC 2025-where curiosity meets code & cosmic questions become collaborative experiments.\r This event brings together NASA datasets, AI-powered workflows, & mind-expanding applications of space science. Hear from:\r Cloudflare on how AI is reshaping coding workflows & developer productivity\r Steven Jaret (AMNH) on decoding the story of our solar system through meteorite research\r Michael Caprio (Tesla Science Center) on Open Space, a 3D platform visualizing real NASA mission data\r And more voices exploring how open data & public science can fuel both education & innovation\r Whether you're a student, scientist, coder, or community builder-this is your launchpad to get involved, get inspired, & get ready for this year's Space Apps challenge.\r In an age of AI & institutional uncertainty, the next generation of civic & tech leaders needs more than just skills-they need to practice working across silos, building with clarity, & designing for meaning.\r That's what Space Apps + SWARM is.\r Not just a hackathon.\r A year-long civic sandbox for:\r students to grow\r orgs to connect\r problems to get visible\r systems to be made legible\r and life to improve on Earth & in space\r Pizza & light refreshments will be served.\r Community Partners:",
-      "startDate": "2025-06-23T18:30:00-04:00",
-      "endDate": "2025-06-23T20:00:00-04:00",
+      "description": "Come join us for a 5-mile hike just outside NYC!nAbout the hike: https://www.alltrails.com/trail/us/new-york/beacon-fire-tower-via-casino-wilkinson-memorial-and-breakneck-ridge-trailnNOTE: While the Breakneck Ridge trailhead to the fire tower is currently closed, this alternative route is still open.nWhen:nDepart from Grand Central at 7:50AMnArrive at Beacon at 9:27AMnWe'll stop for lunch in Beacon after the hike, then take the train back!nApproximately 4-6 hoursnIf you plan to take the train, the fare is $35.50 ($17.75 each way)nBring:nWaternSnacksnCash/card for lunchnSee you all soon!",
+      "startDate": "2025-06-07T07:30:00-04:00",
+      "endDate": "2025-06-07T09:00:00-04:00",
       "category": [
         "Event",
-        "Tech",
-        "AI"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": 100,
-      "registrationRequired": true,
-      "tags": [
-        "Tech",
-        "AI"
-      ],
-      "image": "gary-event.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.garysguide.com/events/oa6busu/AI-In-Space-Exploring-Future-Of-Data-Discovery-Design",
-        "registration_url": "http://gary.to/lqk793v",
-        "speakers": [
-          {
-            "name": "Steven Jaret (Planetary Geologist",
-            "title": "",
-            "company": ""
-          },
-          {
-            "name": "American Museum of Natural History)",
-            "title": "",
-            "company": ""
-          },
-          {
-            "name": "Michael Caprio (Tesla Science Center",
-            "title": "",
-            "company": ""
-          },
-          {
-            "name": "Wardenclyffe)",
-            "title": "",
-            "company": ""
-          }
-        ],
-        "venue": {
-          "name": "AI In Space - Exploring Future Of Data",
-          "address": "Discovery & Design\n \n\nWith Steven Jaret (Planetary Geologist, American Museum of Natural History), Michael Caprio (Tesla Science Center, Wardenclyffe).\n\nCivic Hall, 124 E 14th St, Rm 520\n\nJun 23 (Mon) , 2025 @ 06:30 PM\n\n\nFREE\n\n\n \n\n\nRegister \n\n Export GoogleYahooApple iCalOutlook \n\n\n\n\n\n\n\n\n\n\n \nDETAILS\n\n\n\nA Space Apps NYC 2025 Preview Event\r Join us for a dynamic, multi-speaker session previewing Space Apps NYC 2025-where curiosity meets code & cosmic questions become collaborative experiments.\r This event brings together NASA datasets, AI-powered workflows, & mind-expanding applications of space science. Hear from:\r Cloudflare on how AI is reshaping coding workflows & developer productivity\r Steven Jaret (AMNH) on decoding the story of our solar system through meteorite research\r Michael Caprio (Tesla Science Center) on Open Space, a 3D platform visualizing real NASA mission data\r And more voices exploring how open data & public science can fuel both education & innovation\r Whether you're a student, scientist, coder, or community builder-this is your launchpad to get involved, get inspired, & get ready for this year's Space Apps challenge.\r In an age of AI & institutional uncertainty, the next generation of civic & tech leaders needs more than just skills-they need to practice working across silos, building with clarity, & designing for meaning.\r That's what Space Apps + SWARM is.\r Not just a hackathon.\r A year-long civic sandbox for:\r students to grow\r orgs to connect\r problems to get visible\r systems to be made legible\r and life to improve on Earth & in space\r Pizza & light refreshments will be served.\r Community Partners:",
-          "type": "Other"
-        }
-      }
-    },
-    {
-      "id": "evt_gary_246f1dac",
-      "name": "AI Demo Night",
-      "type": "Event",
-      "locationId": "loc_tbd",
-      "communityId": "com_gary",
-      "description": "AI Demo Nights Powered by BetterFutureLabs features super cool AI demos. You should join us if you like meeting people & learning about AI & tech.\r 6:00 - Doors/Networking\r6:30 - Welcome Remarks\r6:40 - Demos (5 mins + 5 mins q&a each)\r EntropyRobotics\r CarbonDex\r NOS Agent\r 7:20 - Keynote Speaker TBD\r 7:45 - Audience Choice Awards / Networking\r8:00 - Close\r Address: 7 Times Sq, New York, NY 10036. It's between W41st & W42nd on Broadway. Upon arrival, you will need a QR code that you'll receive in your email to enter & will be directed to Floor #46.\r Parking Garage: Icon Parking is located at 143-145 W 40th St, New York, NY 10018. The rates can be found here.\r No-show policy: As you know, putting on these events takes a lot of time. All we ask is that you treat them professionally as you would any meeting & update your RSVP more than 24 hours ahead of time if you can't make it. No-shows who do not adhere to this policy will be listed on our no-show list of shame & not allowed in future events. Don't be that guy or gal!\r Want to sponsor or pitch? Get in touch.",
-      "startDate": "2025-06-25T18:00:00-04:00",
-      "endDate": "2025-06-25T19:30:00-04:00",
-      "category": [
-        "Event",
-        "Tech",
-        "AI"
-      ],
-      "price": {
-        "amount": 8.0,
-        "type": "Paid",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": 100,
-      "registrationRequired": true,
-      "tags": [
-        "Tech",
-        "AI"
-      ],
-      "image": "gary-event.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.garysguide.com/events/dv78nbg/AI-Demo-Night",
-        "registration_url": "http://gary.to/xxbaxlk",
-        "speakers": [],
-        "venue": {
-          "name": "AI Demo Night\n \n\nDemos by EntropyRobotics",
-          "address": "CarbonDex, NOS Agent.\r\n\n\nVenue, 7 Times Sq\n\nJun 25 (Wed) , 2025 @ 06:00 PM\n\n\n$8\n\n\n \n\n\nRegister \n\n Export GoogleYahooApple iCalOutlook \n\n\n\n\n\n\n\n\n\n\n \nDETAILS\n\n\n\nAI Demo Nights Powered by BetterFutureLabs features super cool AI demos. You should join us if you like meeting people & learning about AI & tech.\r 6:00 - Doors/Networking\r6:30 - Welcome Remarks\r6:40 - Demos (5 mins + 5 mins q&a each)\r EntropyRobotics\r CarbonDex\r NOS Agent\r 7:20 - Keynote Speaker TBD\r 7:45 - Audience Choice Awards / Networking\r8:00 - Close\r Address: 7 Times Sq, New York, NY 10036. It's between W41st & W42nd on Broadway. Upon arrival, you will need a QR code that you'll receive in your email to enter & will be directed to Floor #46.\r Parking Garage: Icon Parking is located at 143-145 W 40th St, New York, NY 10018. The rates can be found here.\r No-show policy: As you know, putting on these events takes a lot of time. All we ask is that you treat them professionally as you would any meeting & update your RSVP more than 24 hours ahead of time if you can't make it. No-shows who do not adhere to this policy will be listed on our no-show list of shame & not allowed in future events. Don't be that guy or gal!\r Want to sponsor or pitch? Get in touch.",
-          "type": "Other"
-        }
-      }
-    },
-    {
-      "id": "evt_gary_668258f0",
-      "name": "NJ Fast Expo",
-      "type": "Event",
-      "locationId": "loc_tbd",
-      "communityId": "com_gary",
-      "description": "Join us for our NJ FAST Expo.\r More details to come!\r Startups Pitches Listed Below:\r Squirro turns meaningless data into A.I.-driven actionable Insights.\r Venteur is an AI-powered benefits marketplace that empowers individuals to take control of their health care.\r DeepKeep multimodal AI security safeguards machine learning pipelines, promoting secure, unbiased, real time & trustworthy AI solutions.\r Penelope is a self-service retirement platform for small & micro businesses.\r Vaultik is the bank for your belongings that unlocks a new world of post sale opportunities including perks, insurance, & credit services for high net worth individuals.\r Markets EQ provides GenAI solution providing competitive tonal analysis, previously unavailable awareness.\r Cranium is an AI security & trust platform that delivers security & trust to the AI revolution.\r Ledge is a command center for payments built for finance teams operating at scale.\r Column is an AI-powered insurance management platform designed for today's financial professionals.\r Clarista is a data analytics platform that provides real-time answers from any enterprise platform, acting as a bridge between technical data & AI.\r OpenVC provides investible unicorn indexes of the most innovative late-stage venture capital companies. \r AQ22 is a loan assessment AI solution built exclusively for credit analysts. Our platform boosts loan assessment efficiency, accuracy, & transparency for creditors, credit unions, & alternative lenders. \r Indemn builds machine learning-powered insurance conversations. Users can learn about coverage, purchase insurance, & perform service tasks through natural conversation.\r FinX Capital Markets builds high-performance systems for investors, analysts, & risk managers of capital markets.\r Kobalt Labs is an AI-powered platform to reduce errors & increase efficiency in manual compliance work.\r Atidot empowers life insurance & annuity writers to evaluate opportunities in the in-force of business with big data & predictive analytics.\r Truthifi is a developer of a wealth management platform designed to offer financial advisory services.\r #NJFAST #Innovation #NextGenStartups #Networking #GameChangers #NewJersey #Startups #Accelerator",
-      "startDate": "2025-06-24T13:00:00-04:00",
-      "endDate": "2025-06-24T14:30:00-04:00",
-      "category": [
-        "Event",
-        "Conference",
+        "AI",
         "Tech"
       ],
       "price": {
@@ -876,89 +902,8 @@
       "capacity": 100,
       "registrationRequired": true,
       "tags": [
-        "Conference",
-        "Tech",
-        "Business",
-        "AI"
-      ],
-      "image": "gary-event.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.garysguide.com/events/guefh85/Nj-Fast-Expo",
-        "registration_url": "http://gary.to/bu40sk8",
-        "speakers": [],
-        "venue": {
-          "name": "NJ Fast Expo\n \n\nDemos by Squirro",
-          "address": "Venteur, DeepKeep, Penelope, Vaultik, Markets EQ, Cranium, Ledge, Column, Clarista, OpenVC, AQ22, Indemn, FinX Capital Markets, Kobalt Labs, Atidot, Truthifi.\n\nVenue, To Be Announced\n\nJun 24 (Tue) , 2025 @ 01:00 PM\n\n\nFREE\n\n\n \n\n\nRegister \n\n Export GoogleYahooApple iCalOutlook \n\n\n\n\n\n\n\n\n\n\n \nDETAILS\n\n\n\nJoin us for our NJ FAST Expo.\r More details to come!\r Startups Pitches Listed Below:\r Squirro turns meaningless data into A.I.-driven actionable Insights.\r Venteur is an AI-powered benefits marketplace that empowers individuals to take control of their health care.\r DeepKeep multimodal AI security safeguards machine learning pipelines, promoting secure, unbiased, real time & trustworthy AI solutions.\r Penelope is a self-service retirement platform for small & micro businesses.\r Vaultik is the bank for your belongings that unlocks a new world of post sale opportunities including perks, insurance, & credit services for high net worth individuals.\r Markets EQ provides GenAI solution providing competitive tonal analysis, previously unavailable awareness.\r Cranium is an AI security & trust platform that delivers security & trust to the AI revolution.\r Ledge is a command center for payments built for finance teams operating at scale.\r Column is an AI-powered insurance management platform designed for today's financial professionals.\r Clarista is a data analytics platform that provides real-time answers from any enterprise platform, acting as a bridge between technical data & AI.\r OpenVC provides investible unicorn indexes of the most innovative late-stage venture capital companies. \r AQ22 is a loan assessment AI solution built exclusively for credit analysts. Our platform boosts loan assessment efficiency, accuracy, & transparency for creditors, credit unions, & alternative lenders. \r Indemn builds machine learning-powered insurance conversations. Users can learn about coverage, purchase insurance, & perform service tasks through natural conversation.\r FinX Capital Markets builds high-performance systems for investors, analysts, & risk managers of capital markets.\r Kobalt Labs is an AI-powered platform to reduce errors & increase efficiency in manual compliance work.\r Atidot empowers life insurance & annuity writers to evaluate opportunities in the in-force of business with big data & predictive analytics.\r Truthifi is a developer of a wealth management platform designed to offer financial advisory services.\r #NJFAST #Innovation #NextGenStartups #Networking #GameChangers #NewJersey #Startups #Accelerator",
-          "type": "Other"
-        }
-      }
-    },
-    {
-      "id": "evt_gary_3409cc23",
-      "name": "MetaProp Accelerator Demo Day",
-      "type": "Event",
-      "locationId": "loc_tbd",
-      "communityId": "com_gary",
-      "description": "Join us in NYC for MetaProp's 2025 Demo Day on June 17th.\r Be among the first to meet the next generation of PropTech innovators as the six startups in MetaProp's latest Accelerator cohort take the stage.\r This exclusive event brings together top investors, industry leaders, & select media to hear firsthand from visionary founders tackling the real estate industry's most pressing challenges.\r June 17, 2025\r9:00 AM - 12:00 PM EST\rMidtown Manhattan (RSVP for address)\r If you have any questions, please get in touch with Evan Petitt at epetitt@metaprop.com. This marquee event has limited space & fills up fast every year.\r 2025 Cohort\r BUILDRFI (Miami) - BuildrFi streamlines financial workflows for construction by offering a clear view of project cash flows & financing options, helping to manage material costs & delayed payments.\r FRAM ENERGY (NYC) - Fram Energy makes solar deployment for multifamily & single-family rentals profitable & effortless through tenant energy billing software.\r POPWHEELS (NYC) - PopWheels is revolutionizing urban mobility in America with its e-bike battery swap network, starting with the 80,000+ delivery workers in NYC.\r PROPRISE (SF) - PropRise is an AI-driven commercial real estate deal sourcing platform, transforming how firms discover & evaluate opportunities.\r ULAMA (NYC) - Ulama is AI-powered code compliance that automates the approval of construction permit applications.\r WEALTHIE (NYC) - Wealthie builds more wealth for homeowners by investing home equity in diversified assets without loans or debt.",
-      "startDate": "2025-06-17T09:00:00-04:00",
-      "endDate": "2025-06-17T10:30:00-04:00",
-      "category": [
-        "Event",
-        "Tech",
-        "Business"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": 100,
-      "registrationRequired": true,
-      "tags": [
-        "Tech",
-        "Business",
-        "AI"
-      ],
-      "image": "gary-event.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.garysguide.com/events/z1l3oo0/MetaProp-Accelerator-Demo-Day",
-        "registration_url": "http://gary.to/pfeecu6",
-        "speakers": [],
-        "venue": {
-          "name": "MetaProp Accelerator Demo Day\n \n\nDemos by BuildrFi",
-          "address": "Fram Energy, PopWheels, PropRise, Ulama, Wealthie.\n\nVenue, To Be Announced\n\nJun 17 (Tue) , 2025 @ 09:00 AM\n\n\nBy Invite Only\n\n\n \n\n\nRegister \n\n Export GoogleYahooApple iCalOutlook \n\n\n\n\n\n\n\n\n\n\n \nDETAILS\n\n\n\nJoin us in NYC for MetaProp's 2025 Demo Day on June 17th.\r Be among the first to meet the next generation of PropTech innovators as the six startups in MetaProp's latest Accelerator cohort take the stage.\r This exclusive event brings together top investors, industry leaders, & select media to hear firsthand from visionary founders tackling the real estate industry's most pressing challenges.\r June 17, 2025\r9:00 AM - 12:00 PM EST\rMidtown Manhattan (RSVP for address)\r If you have any questions, please get in touch with Evan Petitt at epetitt@metaprop.com. This marquee event has limited space & fills up fast every year.\r 2025 Cohort\r BUILDRFI (Miami) - BuildrFi streamlines financial workflows for construction by offering a clear view of project cash flows & financing options, helping to manage material costs & delayed payments.\r FRAM ENERGY (NYC) - Fram Energy makes solar deployment for multifamily & single-family rentals profitable & effortless through tenant energy billing software.\r POPWHEELS (NYC) - PopWheels is revolutionizing urban mobility in America with its e-bike battery swap network, starting with the 80,000+ delivery workers in NYC.\r PROPRISE (SF) - PropRise is an AI-driven commercial real estate deal sourcing platform, transforming how firms discover & evaluate opportunities.\r ULAMA (NYC) - Ulama is AI-powered code compliance that automates the approval of construction permit applications.\r WEALTHIE (NYC) - Wealthie builds more wealth for homeowners by investing home equity in diversified assets without loans or debt.",
-          "type": "Other"
-        }
-      }
-    },
-    {
-      "id": "evt_gary_2468c765",
-      "name": "Peakrankings Hike",
-      "type": "Event",
-      "locationId": "loc_tbd",
-      "communityId": "com_gary",
-      "description": "Come join us for a 5-mile hike just outside NYC!nAbout the hike: https://www.alltrails.com/trail/us/new-york/beacon-fire-tower-via-casino-wilkinson-memorial-and-breakneck-ridge-trailnNOTE: While the Breakneck Ridge trailhead to the fire tower is currently closed, this alternative route is still open.nWhen:nDepart from Grand Central at 7:50AMnArrive at Beacon at 9:27AMnWe'll stop for lunch in Beacon after the hike, then take the train back!nApproximately 4-6 hoursnIf you plan to take the train, the fare is $35.50 ($17.75 each way)nBring:nWaternSnacksnCash/card for lunchnSee you all soon!",
-      "startDate": "2025-06-07T07:30:00-04:00",
-      "endDate": "2025-06-07T09:00:00-04:00",
-      "category": [
-        "Event",
-        "Tech",
-        "AI"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": 100,
-      "registrationRequired": true,
-      "tags": [
-        "Tech",
-        "AI"
+        "AI",
+        "Tech"
       ],
       "image": "gary-event.jpg",
       "status": "upcoming",
@@ -974,46 +919,7 @@
       }
     },
     {
-      "id": "evt_gary_567d392a",
-      "name": "Climate Tech Mixer",
-      "type": "Event",
-      "locationId": "loc_tbd",
-      "communityId": "com_gary",
-      "description": "The NYC Climate Tech Mixer is Net Zero Insights' signature monthly gathering- exclusively bringing together:\r  VCs, CVCs, PEs, Bankers\r Founders & Startups\r Corporates, Policymakers & Ecosystem Builders\r What to expect:\r 6:00-7:00 PM - Doors open. Grab a drink, settle in, & meet fellow builders & backers.\r 7:00-8:00 PM - A curated selection of founders will pitch bold solutions tackling climate's toughest challenges.\r 8:00-9:00 PM - Keep the energy going with networking, drinks, & new connections.\r About Net Zero Insights\rNet Zero Insights is the leading climate tech intelligence platform. We equip investors, corporates, & governments with real-time data to track innovation, spot trends, & make data-driven decisions in the race to net zero.",
-      "startDate": "2025-06-10T18:00:00-04:00",
-      "endDate": "2025-06-10T19:30:00-04:00",
-      "category": [
-        "Event",
-        "Tech",
-        "Business"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": 100,
-      "registrationRequired": true,
-      "tags": [
-        "Tech",
-        "Business"
-      ],
-      "image": "gary-event.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.garysguide.com/events/sbko902/Climate-Tech-Mixer",
-        "registration_url": "http://gary.to/w4g7rt3",
-        "speakers": [],
-        "venue": {
-          "name": "Climate Tech Mixer\n \n\n\nVenue",
-          "address": "To Be Announced\n\nJun 10 (Tue) , 2025 @ 06:00 PM\n\n\nFREE\n\n\n \n\n\nRegister \n\n Export GoogleYahooApple iCalOutlook \n\n\n\n\n\n\n\n\n\n\n \nDETAILS\n\n\n\nThe NYC Climate Tech Mixer is Net Zero Insights' signature monthly gathering- exclusively bringing together:\r  VCs, CVCs, PEs, Bankers\r Founders & Startups\r Corporates, Policymakers & Ecosystem Builders\r What to expect:\r 6:00-7:00 PM - Doors open. Grab a drink, settle in, & meet fellow builders & backers.\r 7:00-8:00 PM - A curated selection of founders will pitch bold solutions tackling climate's toughest challenges.\r 8:00-9:00 PM - Keep the energy going with networking, drinks, & new connections.\r About Net Zero Insights\rNet Zero Insights is the leading climate tech intelligence platform. We equip investors, corporates, & governments with real-time data to track innovation, spot trends, & make data-driven decisions in the race to net zero.",
-          "type": "Other"
-        }
-      }
-    },
-    {
-      "id": "evt_gary_7a0132ba",
+      "id": "evt_gary_35784ad8",
       "name": "Bedrock Agents Workshop",
       "type": "Workshop",
       "locationId": "loc_tbd",
@@ -1023,8 +929,8 @@
       "endDate": "2025-06-09T20:15:00-04:00",
       "category": [
         "Workshop",
-        "Workshop",
-        "Tech"
+        "Business",
+        "AI"
       ],
       "price": {
         "amount": 0,
@@ -1035,10 +941,10 @@
       "capacity": 100,
       "registrationRequired": true,
       "tags": [
-        "Workshop",
-        "Tech",
         "Business",
-        "AI"
+        "AI",
+        "Workshop",
+        "Tech"
       ],
       "image": "gary-event.jpg",
       "status": "upcoming",
@@ -1065,21 +971,100 @@
       }
     },
     {
-      "id": "evt_gary_f6e6684f",
-      "name": "Visions Summit",
-      "type": "Conference",
+      "id": "evt_gary_a27c9522",
+      "name": "Archery For All Mixer",
+      "type": "Event",
       "locationId": "loc_tbd",
       "communityId": "com_gary",
-      "description": "About Event\rVISIONS Summit: NYC - Where Culture, Commerce, & the Future Converge\r Join us at the Museum of Modern Art for a one-day summit exploring the forces shaping the next era of commerce. Centered on this year's theme-We Are Builders of Worlds- the VISIONS Summit will explore mythmaking, design systems, brand legacy, & narrative strategy. The content is crafted to bring a fresh perspective to the retail & eCommerce landscape, inspiring marketing, CX, & innovation professionals to think beyond best practices & engage in meaningful transformation.\r Programmed by the editorial team at Future Commerce, this half-day event features a curated mix of keynotes, 1-on-1 interviews, & moderated panels with culture-shaping voices across media, creative arts, brand building, & technology.\r Through immersive storytelling, unexpected conversations, & cultural insight, this event is where the future gets built.\r This one-day-only experience will be held in the Roy & Niuta Titus Theater at the Museum of Modern Art, & only 200 guests will have the opportunity to attend.\r Full agenda & speakers can be viewed at futurecommerce.com/visions",
-      "startDate": "2025-06-10T13:00:00-04:00",
-      "endDate": "2025-06-10T14:30:00-04:00",
+      "description": "Join Hidden Gems Archery during New York Tech Week in Brooklyn Heights!\r Take a break from tech & hit the target -learn the basics of archery, take your shot, & connect with fellow tech enthusiasts who love to move. Whether you're a first-timer or just looking to unwind, our classes are the perfect way to have fun, recharge, & meet new people during Tech Week.\r 10:00 - 11:00 - 10 folks\r11:30 - 12:30 - 10 folks\r1:00 - 2:00 - 10 folks\r2:30 - 3:30 - 10 folks\r4:00 - 5:00 - 10 folks\r Make sure you share the time you would like to attend! There are no refunds but we will allow ticket transfer & for you to attend another pop-up event at no additional cost.\r This event is a part of #NYTechWeek-a week of events hosted by VCs & startups to bring together the tech ecosystem. Learn more at www.tech-week.com.",
+      "startDate": "2025-06-07T10:00:00-04:00",
+      "endDate": "2025-06-07T11:30:00-04:00",
       "category": [
-        "Conference",
-        "Conference",
+        "Event",
+        "Business",
+        "Workshop"
+      ],
+      "price": {
+        "amount": 40.0,
+        "type": "Paid",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [
+        "Business",
+        "Workshop",
+        "Tech"
+      ],
+      "image": "gary-event.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.garysguide.com/events/2al5wy3/Archery-For-All-Mixer",
+        "registration_url": "http://gary.to/gqamtey",
+        "speakers": [],
+        "venue": {
+          "name": "[ NY Tech Week ]\nArchery For All Mixer\n \n\nLearn basics of archery",
+          "address": "take your shot, & connect w/ fellow tech enthusiasts who love to move.\n\nVenue, To Be Announced, Brooklyn\n\nJun 07 (Sat) , 2025 @ 10:00 AM\n\n\n$40\n\n\n \n\n\nRegister \n\n Export GoogleYahooApple iCalOutlook \n\n\n\n\n\n\n\n\n\n\n \nDETAILS\n\n\n\nJoin Hidden Gems Archery during New York Tech Week in Brooklyn Heights!\r Take a break from tech & hit the target -learn the basics of archery, take your shot, & connect with fellow tech enthusiasts who love to move. Whether you're a first-timer or just looking to unwind, our classes are the perfect way to have fun, recharge, & meet new people during Tech Week.\r 10:00 - 11:00 - 10 folks\r11:30 - 12:30 - 10 folks\r1:00 - 2:00 - 10 folks\r2:30 - 3:30 - 10 folks\r4:00 - 5:00 - 10 folks\r Make sure you share the time you would like to attend! There are no refunds but we will allow ticket transfer & for you to attend another pop-up event at no additional cost.\r This event is a part of #NYTechWeek-a week of events hosted by VCs & startups to bring together the tech ecosystem. Learn more at www.tech-week.com.",
+          "type": "Other"
+        }
+      }
+    },
+    {
+      "id": "evt_gary_ec957d1b",
+      "name": "Climate Tech Mixer",
+      "type": "Event",
+      "locationId": "loc_tbd",
+      "communityId": "com_gary",
+      "description": "The NYC Climate Tech Mixer is Net Zero Insights' signature monthly gathering- exclusively bringing together:\r  VCs, CVCs, PEs, Bankers\r Founders & Startups\r Corporates, Policymakers & Ecosystem Builders\r What to expect:\r 6:00-7:00 PM - Doors open. Grab a drink, settle in, & meet fellow builders & backers.\r 7:00-8:00 PM - A curated selection of founders will pitch bold solutions tackling climate's toughest challenges.\r 8:00-9:00 PM - Keep the energy going with networking, drinks, & new connections.\r About Net Zero Insights\rNet Zero Insights is the leading climate tech intelligence platform. We equip investors, corporates, & governments with real-time data to track innovation, spot trends, & make data-driven decisions in the race to net zero.",
+      "startDate": "2025-06-10T18:00:00-04:00",
+      "endDate": "2025-06-10T19:30:00-04:00",
+      "category": [
+        "Event",
+        "Business",
         "Tech"
       ],
       "price": {
-        "amount": 249.0,
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [
+        "Business",
+        "Tech"
+      ],
+      "image": "gary-event.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.garysguide.com/events/sbko902/Climate-Tech-Mixer",
+        "registration_url": "http://gary.to/w4g7rt3",
+        "speakers": [],
+        "venue": {
+          "name": "Climate Tech Mixer\n \n\n\nVenue",
+          "address": "To Be Announced\n\nJun 10 (Tue) , 2025 @ 06:00 PM\n\n\nFREE\n\n\n \n\n\nRegister \n\n Export GoogleYahooApple iCalOutlook \n\n\n\n\n\n\n\n\n\n\n \nDETAILS\n\n\n\nThe NYC Climate Tech Mixer is Net Zero Insights' signature monthly gathering- exclusively bringing together:\r  VCs, CVCs, PEs, Bankers\r Founders & Startups\r Corporates, Policymakers & Ecosystem Builders\r What to expect:\r 6:00-7:00 PM - Doors open. Grab a drink, settle in, & meet fellow builders & backers.\r 7:00-8:00 PM - A curated selection of founders will pitch bold solutions tackling climate's toughest challenges.\r 8:00-9:00 PM - Keep the energy going with networking, drinks, & new connections.\r About Net Zero Insights\rNet Zero Insights is the leading climate tech intelligence platform. We equip investors, corporates, & governments with real-time data to track innovation, spot trends, & make data-driven decisions in the race to net zero.",
+          "type": "Other"
+        }
+      }
+    },
+    {
+      "id": "evt_gary_f021e226",
+      "name": "DevRelCon NYC",
+      "type": "Event",
+      "locationId": "loc_tbd",
+      "communityId": "com_gary",
+      "description": "DevRelCon is the premiere global conference for Developer Relations, Developer Experience, Developer Marketing, & Technical Community Management. This is a unique opportunity to hear talks from industry leaders, connect with your peers on best practices & challenges, & participate in hands-on workshops & discussions.\r See recorded sessions from previous events for examples of what to expect at DevRelCon NY!\r DevRelCon is a global series of conferences for developer relations, developer experience & developer marketing professionals. Whether you're looking to advance your craft & career, are in-between roles, or simply want to reconnect with the wider DevRel community, DevRelCon is the place for you! Sessions will cover practical topics like metrics & ROI, managing up & down, community management, content creation, career paths, open source, improving & scaling using AI tools, & much more.",
+      "startDate": "2025-06-19T07:00:00-04:00",
+      "endDate": "2025-06-19T08:30:00-04:00",
+      "category": [
+        "Event",
+        "Conference",
+        "AI"
+      ],
+      "price": {
+        "amount": 699.0,
         "type": "Paid",
         "currency": "USD",
         "details": ""
@@ -1088,44 +1073,59 @@
       "registrationRequired": true,
       "tags": [
         "Conference",
-        "Tech",
-        "AI"
+        "AI",
+        "Workshop",
+        "Tech"
       ],
       "image": "gary-event.jpg",
       "status": "upcoming",
       "metadata": {
-        "source_url": "https://www.garysguide.com/events/c1yeka5/Visions-Summit",
-        "registration_url": "http://gary.to/dwve4w8",
-        "speakers": [
-          {
-            "name": "Gianna Valintina (Global Head of Strategic Partnerships",
-            "title": "",
-            "company": ""
-          },
-          {
-            "name": "Spatial)",
-            "title": "",
-            "company": ""
-          },
-          {
-            "name": "Elliot Vredenburg",
-            "title": "Designer",
-            "company": ""
-          },
-          {
-            "name": "Andrew Huang",
-            "title": "Author",
-            "company": ""
-          },
-          {
-            "name": "Dami Lee",
-            "title": "Architect",
-            "company": ""
-          }
-        ],
+        "source_url": "https://www.garysguide.com/events/vu5jlxe/DevRelCon-NYC",
+        "registration_url": "http://gary.to/h42rpbe",
+        "speakers": [],
         "venue": {
-          "name": "Visions Summit\n \n\nWith Gianna Valintina (Global Head of Strategic Partnerships",
-          "address": "Spatial), Elliot Vredenburg (Designer), Andrew Huang (Author), Dami Lee (Architect).\n\nMuseum Of Modern Art, 11 W 53rd St\n\nJun 10 (Tue) , 2025 @ 01:00 PM\n\n\n$249\n\n\n \n\n\nRegister \n\n Export GoogleYahooApple iCalOutlook \n\n\n\n\n\n\n\n\n\n\n \nDETAILS\n\n\n\nAbout Event\rVISIONS Summit: NYC - Where Culture, Commerce, & the Future Converge\r Join us at the Museum of Modern Art for a one-day summit exploring the forces shaping the next era of commerce. Centered on this year's theme-We Are Builders of Worlds- the VISIONS Summit will explore mythmaking, design systems, brand legacy, & narrative strategy. The content is crafted to bring a fresh perspective to the retail & eCommerce landscape, inspiring marketing, CX, & innovation professionals to think beyond best practices & engage in meaningful transformation.\r Programmed by the editorial team at Future Commerce, this half-day event features a curated mix of keynotes, 1-on-1 interviews, & moderated panels with culture-shaping voices across media, creative arts, brand building, & technology.\r Through immersive storytelling, unexpected conversations, & cultural insight, this event is where the future gets built.\r This one-day-only experience will be held in the Roy & Niuta Titus Theater at the Museum of Modern Art, & only 200 guests will have the opportunity to attend.\r Full agenda & speakers can be viewed at futurecommerce.com/visions",
+          "name": "DevRelCon NYC\n \n\nGlobal conference for dev relations",
+          "address": "dev experience, dev mktg & technical community mgmt.\n\nVenue, 220 36th St, Brooklyn\n\nJun 19 (Thu) , 2025 @ 07:00 AM\n\n\n$699\n\n\n \n\n\nRegister \n\n Export GoogleYahooApple iCalOutlook \n\n\n\n\n\n\n\n\n\n\n \nDETAILS\n\n\n\nDevRelCon is the premiere global conference for Developer Relations, Developer Experience, Developer Marketing, & Technical Community Management. This is a unique opportunity to hear talks from industry leaders, connect with your peers on best practices & challenges, & participate in hands-on workshops & discussions.\r See recorded sessions from previous events for examples of what to expect at DevRelCon NY!\r DevRelCon is a global series of conferences for developer relations, developer experience & developer marketing professionals. Whether you're looking to advance your craft & career, are in-between roles, or simply want to reconnect with the wider DevRel community, DevRelCon is the place for you! Sessions will cover practical topics like metrics & ROI, managing up & down, community management, content creation, career paths, open source, improving & scaling using AI tools, & much more.",
+          "type": "Other"
+        }
+      }
+    },
+    {
+      "id": "evt_gary_11fa97e6",
+      "name": "MetaProp Accelerator Demo Day",
+      "type": "Event",
+      "locationId": "loc_tbd",
+      "communityId": "com_gary",
+      "description": "Join us in NYC for MetaProp's 2025 Demo Day on June 17th.\r Be among the first to meet the next generation of PropTech innovators as the six startups in MetaProp's latest Accelerator cohort take the stage.\r This exclusive event brings together top investors, industry leaders, & select media to hear firsthand from visionary founders tackling the real estate industry's most pressing challenges.\r June 17, 2025\r9:00 AM - 12:00 PM EST\rMidtown Manhattan (RSVP for address)\r If you have any questions, please get in touch with Evan Petitt at epetitt@metaprop.com. This marquee event has limited space & fills up fast every year.\r 2025 Cohort\r BUILDRFI (Miami) - BuildrFi streamlines financial workflows for construction by offering a clear view of project cash flows & financing options, helping to manage material costs & delayed payments.\r FRAM ENERGY (NYC) - Fram Energy makes solar deployment for multifamily & single-family rentals profitable & effortless through tenant energy billing software.\r POPWHEELS (NYC) - PopWheels is revolutionizing urban mobility in America with its e-bike battery swap network, starting with the 80,000+ delivery workers in NYC.\r PROPRISE (SF) - PropRise is an AI-driven commercial real estate deal sourcing platform, transforming how firms discover & evaluate opportunities.\r ULAMA (NYC) - Ulama is AI-powered code compliance that automates the approval of construction permit applications.\r WEALTHIE (NYC) - Wealthie builds more wealth for homeowners by investing home equity in diversified assets without loans or debt.",
+      "startDate": "2025-06-17T09:00:00-04:00",
+      "endDate": "2025-06-17T10:30:00-04:00",
+      "category": [
+        "Event",
+        "Business",
+        "AI"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [
+        "Business",
+        "AI",
+        "Tech"
+      ],
+      "image": "gary-event.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.garysguide.com/events/z1l3oo0/MetaProp-Accelerator-Demo-Day",
+        "registration_url": "http://gary.to/pfeecu6",
+        "speakers": [],
+        "venue": {
+          "name": "MetaProp Accelerator Demo Day\n \n\nDemos by BuildrFi",
+          "address": "Fram Energy, PopWheels, PropRise, Ulama, Wealthie.\n\nVenue, To Be Announced\n\nJun 17 (Tue) , 2025 @ 09:00 AM\n\n\nBy Invite Only\n\n\n \n\n\nRegister \n\n Export GoogleYahooApple iCalOutlook \n\n\n\n\n\n\n\n\n\n\n \nDETAILS\n\n\n\nJoin us in NYC for MetaProp's 2025 Demo Day on June 17th.\r Be among the first to meet the next generation of PropTech innovators as the six startups in MetaProp's latest Accelerator cohort take the stage.\r This exclusive event brings together top investors, industry leaders, & select media to hear firsthand from visionary founders tackling the real estate industry's most pressing challenges.\r June 17, 2025\r9:00 AM - 12:00 PM EST\rMidtown Manhattan (RSVP for address)\r If you have any questions, please get in touch with Evan Petitt at epetitt@metaprop.com. This marquee event has limited space & fills up fast every year.\r 2025 Cohort\r BUILDRFI (Miami) - BuildrFi streamlines financial workflows for construction by offering a clear view of project cash flows & financing options, helping to manage material costs & delayed payments.\r FRAM ENERGY (NYC) - Fram Energy makes solar deployment for multifamily & single-family rentals profitable & effortless through tenant energy billing software.\r POPWHEELS (NYC) - PopWheels is revolutionizing urban mobility in America with its e-bike battery swap network, starting with the 80,000+ delivery workers in NYC.\r PROPRISE (SF) - PropRise is an AI-driven commercial real estate deal sourcing platform, transforming how firms discover & evaluate opportunities.\r ULAMA (NYC) - Ulama is AI-powered code compliance that automates the approval of construction permit applications.\r WEALTHIE (NYC) - Wealthie builds more wealth for homeowners by investing home equity in diversified assets without loans or debt.",
           "type": "Other"
         }
       }
@@ -2635,55 +2635,6 @@
       }
     },
     {
-      "id": "evt_gcal_com_telos_14e91d32",
-      "name": "Booked for private event",
-      "type": "tech",
-      "locationId": "loc_telos",
-      "communityId": "com_telos",
-      "description": "",
-      "startDate": "2025-06-07T18:00:00-04:00",
-      "endDate": "2025-06-08T01:00:00-04:00",
-      "category": [
-        "tech",
-        "art",
-        "community",
-        "workshops",
-        "events",
-        "co-working"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": null,
-      "tags": [],
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source": "Google Calendar",
-        "source_url": "https://telos.haus",
-        "original_event_id": "6s3n1elt5agr7gfeec9dt6vheh",
-        "organizer": {
-          "name": "telos.haus events",
-          "instagram": "",
-          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
-        },
-        "venue": {
-          "name": "Telos",
-          "address": "181 Wyckoff Ave, Brooklyn, NY 11237",
-          "type": "Community Space"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false,
-        "google_calendar_link": "https://www.google.com/calendar/event?eid=NnMzbjFlbHQ1YWdyN2dmZWVjOWR0NnZoZWggZDU5NmMyYmY3MjExODNkMjJiYjUwYmRlNjYyNTA5MGZjMzkyM2FhMjlhNjkxOGQ3ODQwOWUxNjhkYTc5MTc2OUBn"
-      }
-    },
-    {
       "id": "evt_gcal_com_telos_47a81482",
       "name": "First Light: Asian Short Film Screening & Cultural Celebration",
       "type": "tech",
@@ -3906,108 +3857,6 @@
         "featured": false,
         "luma_source": false,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=OTZoam5xNmY0NXE0bzgzb2JnZXR2ZzNhb2pfMjAyNTA4MDNUMTYwMDAwWiBkNTk2YzJiZjcyMTE4M2QyMmJiNTBiZGU2NjI1MDkwZmMzOTIzYWEyOWE2OTE4ZDc4NDA5ZTE2OGRhNzkxNzY5QGc"
-      }
-    },
-    {
-      "id": "evt_gcal_com_nyc_resistor_7dee46ca",
-      "name": "Delete Your Account: How to ditch X and Elon with Cyd",
-      "type": "hackerspace",
-      "locationId": "loc_nyc_resistor",
-      "communityId": "com_nyc_resistor",
-      "description": "RSVP https://www.eventbrite.com/e/delete-your-account-how-to-ditch-x-and-elon-with-cyd-tickets-1344394272459\n\nTwitter was never good. X is worse. We'll show you how to archive your tweets with Cyd, then delete your content from Elon's website.Remember Twitter, aka the Hellsite? It was terrible, but at least it wasn't owned by a dude who likes making \"roman salutes.\" After you divest from your SpaceX stock and sell your Tesla, come on down to NYC Resistor, where we'll show you how to ditch X but keep a personal copy of your favorite posts using Cyd.\nBefore the workshop: Make sure you can log on to X on your laptop (not your phone, your laptop) and once logged in, request an archive of your tweets using these instructions: https://help.x.com/en/managing-your-account/how-to-download-your-x-archive. Please do this step at least a week before the workshop, as it may take X a few to several days to process the archive request.BONUS: We'll also help you sign up for Mastodon, an X alternative, if you want.\nThis event is donate what-you-wish.\nThis is a masks optional event.\nAs with all NYC Resistor events, this class is 18+ and governed by our Code of Conduct. The Code of Conduct, as well as accessibility information, can be found at www.nycresistor.com/participate/.",
-      "startDate": "2025-06-07T13:00:00-04:00",
-      "endDate": "2025-06-07T15:00:00-04:00",
-      "category": [
-        "hackerspace",
-        "maker",
-        "hardware",
-        "electronics",
-        "laser cutting",
-        "3d printing",
-        "microcontrollers",
-        "robotics"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": true,
-      "tags": [],
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source": "Google Calendar",
-        "source_url": "https://www.eventbrite.com/e/delete-your-account-how-to-ditch-x-and-elon-with-cyd-tickets-1344394272459",
-        "original_event_id": "a5l3agkgo3gs2gess2vovpm81o",
-        "organizer": {
-          "name": "NYCResistor",
-          "instagram": "",
-          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "NYC Resistor\n87 Third Avenue\nBrooklyn, NY 11217",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false,
-        "google_calendar_link": "https://www.google.com/calendar/event?eid=YTVsM2Fna2dvM2dzMmdlc3Mydm92cG04MW8gcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw"
-      }
-    },
-    {
-      "id": "evt_gcal_com_nyc_resistor_cdc6c112",
-      "name": "HOLD Electronics",
-      "type": "hackerspace",
-      "locationId": "loc_nyc_resistor",
-      "communityId": "com_nyc_resistor",
-      "description": "",
-      "startDate": "2025-06-07T19:00:00-04:00",
-      "endDate": "2025-06-07T20:00:00-04:00",
-      "category": [
-        "hackerspace",
-        "maker",
-        "hardware",
-        "electronics",
-        "laser cutting",
-        "3d printing",
-        "microcontrollers",
-        "robotics"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": null,
-      "tags": [],
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source": "Google Calendar",
-        "source_url": "https://www.nycresistor.com",
-        "original_event_id": "363rnqjs7j7rhenkm3vmhf5411_20250607T230000Z",
-        "organizer": {
-          "name": "NYCResistor",
-          "instagram": "",
-          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false,
-        "google_calendar_link": "https://www.google.com/calendar/event?eid=MzYzcm5xanM3ajdyaGVua20zdm1oZjU0MTFfMjAyNTA2MDdUMjMwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn"
       }
     },
     {
@@ -7326,53 +7175,6 @@
       }
     },
     {
-      "id": "evt_gcal_com_verci_648117f2",
-      "name": "Tech Comedy Night feat. Viral Creators & Wild Tech Demos #NYTechWeek",
-      "type": "technology",
-      "locationId": "",
-      "communityId": "com_verci",
-      "description": "Find more information on https://lu.ma/verci",
-      "startDate": "2025-06-08T00:00:00Z",
-      "endDate": "2025-06-08T03:00:00Z",
-      "category": [
-        "technology",
-        "innovation",
-        "society",
-        "community"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": {},
-      "tags": [],
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source": "Google Calendar",
-        "source_url": "https://lu.ma/verci",
-        "original_event_id": "_cdgmopbm5lp38l1h910l2hio6h0n2taia106atj5dpq76bjcekn6qo8",
-        "organizer": {
-          "name": "Verci Events",
-          "instagram": "",
-          "email": "pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "https://partiful.com/e/2uHpIioWS6pIdBlIyUov",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": true,
-        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2NkZ21vcGJtNWxwMzhsMWg5MTBsMmhpbzZoMG4ydGFpYTEwNmF0ajVkcHE3NmJqY2VrbjZxbzggcGY2bzdkcmxmcmJobXBxbG1sdDdwMjE1ZTcwaTljam5AaQ"
-      }
-    },
-    {
       "id": "evt_gcal_com_verci_d21f2659",
       "name": "Verci Game Night: Two Rooms and a Boom!",
       "type": "technology",
@@ -7968,12 +7770,12 @@
       }
     },
     {
-      "id": "evt_com_desci_67cc69f4",
-      "name": "DeSciNYC: Science of Sleep #TechWeek",
+      "id": "evt_com_desci_0ef152b9",
+      "name": "DeSciNYC: Olfactory RGB",
       "type": "Tech",
       "locationId": "loc_tbd",
       "communityId": "com_desci",
-      "description": "​​Schedule:6:30-7:30 PM: Networking7:30-8:30 PM: Main talk8:30-9:30 PM: More chatting🐦Stay Connected about Future Events:Twitter:@descinyc_Instagram:@descinyc​PS: Apply to be a member of the DeSci NYC group chat:https://forms.gle/AmUtotmCgWgGxWDp6",
+      "description": "​Abstract: How does molecular shape turn into scent, and what happens when drug-discovery algorithms and machine learning start designing the molecules themselves? This talk breaks down the latest science of structure-odor relationships, shows how AI predicts and creates brand-new fragrance compounds, and explores the emerging field of smell-based therapeutics for mood, memory, and health.Bio: Sean Raspet has studied structure-odor relationships of molecules for the past 12 years. He is the founder of Patina which uses techniques from drug discovery and machine learning to design the next generation of fragrance molecules and a new class of olfactory therapeutics.​Schedule:6:30-7:30 PM: Networking7:30-8:30 PM: Main talk8:30-9:30 PM: More chatting🐦Stay Connected about Future Events:Twitter:@descinyc_Instagram:@descinyc​PS: Apply to be a member of the DeSci NYC group chat:https://forms.gle/AmUtotmCgWgGxWDp6",
       "startDate": "2025-06-10T18:30:00-04:00",
       "endDate": "2025-06-10T20:30:00-04:00",
       "category": [
@@ -7988,7 +7790,7 @@
       "capacity": 100,
       "registrationRequired": true,
       "tags": [],
-      "image": "luma-event-e1f0c460.jpg",
+      "image": "luma-event-e3f7ea92.jpg",
       "status": "upcoming",
       "metadata": {
         "source_url": "https://lu.ma/e/evt-2vcupFsZjIjKl6t",
@@ -8158,7 +7960,7 @@
       "type": "Tech",
       "locationId": "loc_tbd",
       "communityId": "com_satori",
-      "description": "​You survived Tech Week. Panels. Pitches. Pings. Your brain feels like a tab you forgot to close.​If you have to explain what you do one more time, you might explode. So now what?​Zen out or burn out.​The meditative walkis a slow, tech-free walk through Central Park. Phones on airplane mode. No pitches. No pretending to be “on.”​Just actual humans, moving slowly, enjoying nature and breathing like it’s 1996.​Join a crew of ambitious, slightly-fried New Yorkers as we unplug, walk, and remember how to be human again.",
+      "description": "​You survived Tech Week. Panels. Pitches. Pings. Your brain feels like a tab you forgot to close.​If you have to explain what you do one more time, you might explode. So now what?​Zen out or burn out.​The meditative walkis a slow, tech-free walk through Central Park. Phones on airplane mode. No pitches. No pretending to be “on.”​Just actual humans, moving slowly, enjoying nature and breathing like it’s 1996.​Join a crew of ambitious, slightly-fried New Yorkers as we unplug, walk, and remember how to be human again.​Follow us on IG for live updates:https://www.instagram.com/letslivesatori?igsh=MW5iZ3pja2s3dTR6Ng%3D%3D&utm_source=qr",
       "startDate": "2025-06-08T12:30:00-04:00",
       "endDate": "2025-06-08T14:30:00-04:00",
       "category": [
