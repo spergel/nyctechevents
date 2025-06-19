@@ -10,10 +10,10 @@ function escapeText(text: string): string {
 
 export async function GET(
   request: Request,
-  { params }: { params: { id: string } }
+  { params }: { params: Promise<{ id: string }> }
 ) {
   try {
-    const eventId = params.id;
+    const { id: eventId } = await params;
     const event = (events?.events || []).find((e: any) => e.id === eventId);
 
     if (!event) {
