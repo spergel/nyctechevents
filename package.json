@@ -2,15 +2,35 @@
   "name": "nycevents",
   "version": "0.1.0",
   "private": true,
+  "description": "A futuristic cyberpunk-themed website that aggregates and displays NYC tech events, communities, and locations",
+  "author": "NYC Events Team",
+  "license": "ISC",
+  "homepage": "https://nycevents.vercel.app",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/nycevents.git"
+  },
+  "keywords": [
+    "nyc",
+    "events",
+    "tech",
+    "communities",
+    "nextjs",
+    "typescript",
+    "cyberpunk",
+    "scraper"
+  ],
   "scripts": {
     "dev": "next dev --turbo",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "type-check": "tsc --noEmit",
+    "scrape": "python -m scraper.run_all",
+    "tweets": "python -m scraper.tweet_generator",
+    "clean": "rm -rf .next out",
+    "analyze": "ANALYZE=true npm run build"
   },
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
     "@next/font": "^14.2.15",
     "@radix-ui/react-dialog": "^1.1.6",
@@ -31,7 +51,7 @@
     "tailwind-merge": "^2.2.1"
   },
   "devDependencies": {
-    "@types/node": "^20.11.19",
+    "@types/node": "^20.19.1",
     "@types/react": "npm:types-react@19.0.0-rc.1",
     "@types/react-dom": "npm:types-react-dom@19.0.0-rc.1",
     "typescript": "^5.3.3"

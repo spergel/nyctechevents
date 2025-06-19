@@ -366,7 +366,7 @@ export default function Events() {
           ? (event.category as unknown as Category).name 
           : undefined
       ].filter(Boolean);
-      if (!selectedCategories.some(cat => eventCategories.includes(cat))) {
+      if (!selectedCategories.some((cat: string) => eventCategories.includes(cat))) {
         return false;
       }
     }
@@ -414,7 +414,7 @@ export default function Events() {
     setIsLoadingMore(true);
     // Use a short timeout to avoid blocking the UI
     setTimeout(() => {
-      setVisibleItems(prev => {
+      setVisibleItems((prev: number) => {
         const nextItems = prev + ITEMS_PER_PAGE;
         // Check if we have more items to show
         setHasMore(nextItems < sortedEvents.length);
@@ -450,14 +450,10 @@ export default function Events() {
     // Don't set up observer while initial loading is happening
     if (isLoading || !observerTarget.current) return;
     
-    console.log("Setting up intersection observer, isMobile:", isMobile);
-    
     const observer = new IntersectionObserver(
       entries => {
         const [entry] = entries;
-        console.log("Intersection observed:", entry.isIntersecting);
         if (entry.isIntersecting && hasMore && !isLoadingMore) {
-          console.log("Loading more events...");
           handleLoadMore();
         }
       },
@@ -478,7 +474,6 @@ export default function Events() {
           rect.right <= (window.innerWidth || document.documentElement.clientWidth)
         );
         
-        console.log("Initial check - target in viewport:", isInViewport);
         if (isInViewport && hasMore && !isLoadingMore) {
           handleLoadMore();
         }
@@ -541,7 +536,7 @@ export default function Events() {
         <div className="events-list">
           <Panel title={`NYC EVENTS (${sortedEvents.length})`} systemId="EVT-001">
             <div className="event-cards">
-              {sortedEvents.slice(0, visibleItems).map(event => {
+              {sortedEvents.slice(0, visibleItems).map((event: any) => {
                 const community = getCommunityData(event.communityId);
                 const location = getLocationData(event.locationId);
                 const eventDate = parseSafeDate(event.startDate);
@@ -552,7 +547,7 @@ export default function Events() {
                   <div 
                     key={event.id} 
                     className="event-card" 
-                    onClick={(e) => handleEventClick(e, event)}
+                    onClick={(e: React.MouseEvent) => handleEventClick(e, event)}
                   >
                     {/* Date Badge */}
                     <div className="event-date">
@@ -571,7 +566,7 @@ export default function Events() {
                             <span className="detail-icon">⚡</span>
                             <button 
                               className="detail-link"
-                              onClick={(e) => handleCommunityClick(event.communityId)}
+                              onClick={(e: React.MouseEvent) => handleCommunityClick(event.communityId)}
                             >
                               {community.name}
                             </button>
@@ -583,7 +578,7 @@ export default function Events() {
                             <span className="detail-icon">◎</span>
                             <button 
                               className="detail-link"
-                              onClick={(e) => handleLocationClick(event.locationId)}
+                              onClick={(e: React.MouseEvent) => handleLocationClick(event.locationId)}
                             >
                               {location.name}
                             </button>
@@ -629,7 +624,7 @@ export default function Events() {
                   type="text"
                   placeholder="Search events..."
                   value={searchQuery}
-                  onChange={(e) => {
+                  onChange={(e: React.ChangeEvent<HTMLInputElement>) => {
                     setSearchQuery(e.target.value);
                     setVisibleItems(ITEMS_PER_PAGE);
                   }}
@@ -686,16 +681,16 @@ export default function Events() {
               <div className="filter-group">
                 <h3 className="filter-title">CATEGORIES</h3>
                 <div className="filter-options">
-                  {categoryGroups.map(category => (
+                  {categoryGroups.map((category: any) => (
                     <div key={category.title} className="category-group">
                       <FilterButton
                         label={category.title}
                         count={category.categories[0].count}
                         isActive={selectedCategories.includes(category.title)}
                         onClick={() => {
-                          setSelectedCategories(prev => {
+                          setSelectedCategories((prev: string[]) => {
                             const newSelection = prev.includes(category.title)
-                              ? prev.filter(c => c !== category.title)
+                              ? prev.filter((c: string) => c !== category.title)
                               : [...prev, category.title];
                             
                             // Reset to first page of items
@@ -707,16 +702,16 @@ export default function Events() {
                       />
                       
                       {/* Show subcategories if parent is selected */}
-                      {selectedCategories.includes(category.title) && category.categories.slice(1).map(sub => (
+                      {selectedCategories.includes(category.title) && category.categories.slice(1).map((sub: any) => (
                         <FilterButton
                           key={sub.id}
                           label={sub.name}
                           count={sub.count}
                           isActive={selectedCategories.includes(sub.id)}
                           onClick={() => {
-                            setSelectedCategories(prev => {
+                            setSelectedCategories((prev: string[]) => {
                               const newSelection = prev.includes(sub.id)
-                                ? prev.filter(c => c !== sub.id)
+                                ? prev.filter((c: string) => c !== sub.id)
                                 : [...prev, sub.id];
                               
                               // Reset to first page of items
@@ -736,7 +731,7 @@ export default function Events() {
               <div className="filter-group">
                 <h3 className="filter-title">COMMUNITIES</h3>
                 <div className="filter-options">
-                  {communityGroups.map(community => (
+                  {communityGroups.map((community: any) => (
                     <FilterButton
                       key={community.id}
                       label={`${community.name} (${community.type})`}
@@ -744,10 +739,10 @@ export default function Events() {
                       isActive={selectedCommunities.includes(community.id)}
                       onClick={() => {
                         // Create a new array to trigger state update and reset visibleItems
-                        setSelectedCommunities(prev => {
+                        setSelectedCommunities((prev: string[]) => {
                           // First, create the new array
                           const newSelection = prev.includes(community.id) 
-                            ? prev.filter(c => c !== community.id) 
+                            ? prev.filter((c: string) => c !== community.id) 
                             : [...prev, community.id];
                           
                           // Reset items to initial page
@@ -836,12 +831,12 @@ export default function Events() {
           filterGroups={[
             {
               title: "CATEGORIES",
-              options: categoryGroups.flatMap(group => group.categories),
+              options: categoryGroups.flatMap((group: any) => group.categories),
               selectedIds: selectedCategories,
-              onToggle: (id) => {
-                setSelectedCategories(prev => {
+              onToggle: (id: string) => {
+                setSelectedCategories((prev: string[]) => {
                   return prev.includes(id)
-                    ? prev.filter(c => c !== id)
+                    ? prev.filter((c: string) => c !== id)
                     : [...prev, id];
                 });
                 setVisibleItems(ITEMS_PER_PAGE);
@@ -850,16 +845,16 @@ export default function Events() {
             },
             {
               title: "COMMUNITIES",
-              options: communityGroups.map(community => ({
+              options: communityGroups.map((community: any) => ({
                 id: community.id,
                 name: `${community.name} (${community.type})`,
                 count: community.count
               })),
               selectedIds: selectedCommunities,
-              onToggle: (id) => {
-                setSelectedCommunities(prev => {
+              onToggle: (id: string) => {
+                setSelectedCommunities((prev: string[]) => {
                   return prev.includes(id)
-                    ? prev.filter(c => c !== id)
+                    ? prev.filter((c: string) => c !== id)
                     : [...prev, id];
                 });
                 setVisibleItems(ITEMS_PER_PAGE);

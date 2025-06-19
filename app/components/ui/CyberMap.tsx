@@ -110,7 +110,6 @@ const DynamicMap = dynamic(
         if (typeof window === 'undefined') return;
     
         const initMap = async () => {
-          console.log('Initializing map...');
           const mapboxToken = process.env.NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN;
           
           if (!mapboxToken) {
@@ -118,8 +117,6 @@ const DynamicMap = dynamic(
             setMapError('Mapbox access token is missing. Please check your .env file.');
             return;
           }
-          
-          console.log('Mapbox token found');
     
           // Set your Mapbox access token from environment variable
           mapboxgl.accessToken = mapboxToken;
@@ -127,7 +124,6 @@ const DynamicMap = dynamic(
           try {
             // Add Mapbox CSS only once
             if (!cssLoaded.current) {
-              console.log('Adding Mapbox CSS');
               const link = document.createElement('link');
               link.rel = 'stylesheet';
               link.href = 'https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css';
@@ -141,12 +137,9 @@ const DynamicMap = dynamic(
               setMapError('Map container not found');
               return;
             }
-            
-            console.log('Map container found');
     
             // Only initialize map if it hasn't been initialized yet
             if (!mapRef.current) {
-              console.log('Creating new map instance');
               // Calculate initial bounds from locations
               const bounds = new mapboxgl.LngLatBounds();
               
@@ -172,7 +165,6 @@ const DynamicMap = dynamic(
               );
     
               // Create the map
-              console.log('Creating map with container:', mapContainer.current);
               mapRef.current = new mapboxgl.Map({
                 container: mapContainer.current,
                 style: 'mapbox://styles/mapbox/dark-v11',
@@ -185,10 +177,9 @@ const DynamicMap = dynamic(
               });
     
               const map = mapRef.current;
-              console.log('Map created:', map);
     
               // Add error handling for map load
-              map.on('error', (e) => {
+              map.on('error', (e: any) => {
                 setMapError(`Map error: ${e.error?.message || 'Unknown error'}`);
               });
     
@@ -199,13 +190,11 @@ const DynamicMap = dynamic(
     
               // Wait for map to load before adding markers
               map.on('load', () => {
-                console.log('Map loaded successfully');
                 updateMarkers();
                 
                 // Force a resize to ensure the map fills the container
                 setTimeout(() => {
                   if (mapRef.current) {
-                    console.log('Resizing map');
                     mapRef.current.resize();
                   }
                 }, 100);
@@ -243,7 +232,7 @@ const DynamicMap = dynamic(
         if (!mapRef.current) return;
     
         // Clear existing markers
-        markersRef.current.forEach(marker => marker.remove());
+        markersRef.current.forEach((marker: mapboxgl.Marker) => marker.remove());
         markersRef.current = [];
     
         // Filter locations based on selected types
