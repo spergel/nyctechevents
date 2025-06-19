@@ -3,6 +3,7 @@ import { getCommunityData, getLocationData } from '@/app/utils/dataHelpers';
 import React from 'react';
 import { Community, Location, Event } from '@/app/types';
 import EventJsonLd from '@/app/components/EventJsonLd';
+import { FeedButtons } from './FeedButtons';
 
 interface EventDetailDialogProps {
   event: Event | null;
@@ -255,6 +256,12 @@ export function EventDetailDialog({
                     </a>
                   </div>
                 )}
+
+                {/* Calendar & RSS Links */}
+                <div className="detail-section calendar-section">
+                  <h3>CALENDAR & FEEDS</h3>
+                  <FeedButtons eventId={event.id} className="event-feed-buttons" />
+                </div>
               </div>
             </div>
 
@@ -707,6 +714,26 @@ export function EventDetailDialog({
 
           .map-icon {
             font-size: 1rem;
+          }
+
+          .calendar-section {
+            margin-top: 0.5rem;
+          }
+
+          .event-feed-buttons {
+            margin-top: 0.5rem;
+          }
+
+          .event-feed-buttons :global(.feed-buttons) {
+            flex-direction: column;
+            gap: 0.5rem;
+          }
+
+          .event-feed-buttons :global(.feed-button) {
+            width: 100%;
+            justify-content: center;
+            padding: 0.75rem;
+            font-size: 0.9rem;
           }
 
           @media (min-width: 768px) {

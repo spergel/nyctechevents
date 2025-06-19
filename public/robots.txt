@@ -2,5 +2,9 @@
 User-agent: *
 Allow: /
 
+# RSS and Calendar Feeds
+Allow: /api/rss
+Allow: /api/ics
+
 # Sitemap location
 Sitemap: https://nycevents.vercel.app/sitemap.xml 

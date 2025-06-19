@@ -12,6 +12,7 @@ import { FilterDialog } from '@/app/components/ui/FilterDialog';
 import { FilterToggleButton } from '@/app/components/ui/FilterToggleButton';
 import { LocationDetailDialog } from '@/app/components/ui/LocationDetailDialog';
 import { EventDetailDialog } from '@/app/components/ui/EventDetailDialog';
+import { FeedButtons } from '@/app/components/ui/FeedButtons';
 import { Event, Location } from '@/app/types';
 import { Event as SimpleEvent } from '@/app/types/index';
 
@@ -295,6 +296,7 @@ export default function HomeClient() {
             <div className="directory-links">
               <CyberLink href="https://somethingtodo.nyc" variant="directory">All Events</CyberLink>
               <CyberLink href="#" variant="directory">Workout Events (Coming Soon)</CyberLink>
+              <FeedButtons className="feed-buttons-container" />
             </div>
           </Panel>
 
@@ -562,6 +564,18 @@ export default function HomeClient() {
             font-size: 1rem;
             font-weight: bold;
           }
+        }
+
+        .directory-links {
+          display: flex;
+          flex-direction: column;
+          gap: 0.75rem;
+        }
+
+        .feed-buttons-container {
+          margin-top: 0.5rem;
+          padding-top: 0.5rem;
+          border-top: 1px solid rgba(0, 56, 117, 0.3);
         }
       `}</style>
     </div>

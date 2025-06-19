@@ -10,6 +10,12 @@ export const metadata: Metadata = {
     url: "https://nycevents.vercel.app",
     type: "website",
   },
+  alternates: {
+    types: {
+      'application/rss+xml': '/api/rss',
+      'text/calendar': '/api/ics',
+    },
+  },
 };
 
 // Server component that returns the client component
