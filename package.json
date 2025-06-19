@@ -10,16 +10,6 @@
     "type": "git",
     "url": "https://github.com/yourusername/nycevents.git"
   },
-  "keywords": [
-    "nyc",
-    "events",
-    "tech",
-    "communities",
-    "nextjs",
-    "typescript",
-    "cyberpunk",
-    "scraper"
-  ],
   "scripts": {
     "dev": "next dev --turbo",
     "build": "next build",
@@ -51,7 +41,7 @@
     "tailwind-merge": "^2.2.1"
   },
   "devDependencies": {
-    "@types/node": "^20.19.1",
+    "@types/node": "^20.11.19",
     "@types/react": "npm:types-react@19.0.0-rc.1",
     "@types/react-dom": "npm:types-react-dom@19.0.0-rc.1",
     "typescript": "^5.3.3"
