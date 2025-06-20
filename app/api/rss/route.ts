@@ -1,6 +1,20 @@
 import { NextResponse } from 'next/server';
 import events from '@/public/data/events.json';
 
+function escapeXml(unsafe: string): string {
+  if (!unsafe) return '';
+  return unsafe.replace(/[<>&'"]/g, (c) => {
+    switch (c) {
+      case '<': return '&lt;';
+      case '>': return '&gt;';
+      case '&': return '&amp;';
+      case '\'': return '&apos;';
+      case '"': return '&quot;';
+      default: return c;
+    }
+  });
+}
+
 export async function GET() {
   try {
     const upcomingEvents = (events?.events || [])
@@ -11,7 +25,7 @@ export async function GET() {
     const rssContent = `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>NYC Events - Tech & Innovation</title>
+    <title>NYC Events - Tech &amp; Innovation</title>
     <link>https://nycevents.vercel.app</link>
     <description>Latest tech events, meetups, and innovation gatherings in New York City</description>
     <language>en-us</language>
@@ -20,12 +34,12 @@ export async function GET() {
     ${upcomingEvents.map((event: any) => `
     <item>
       <guid>${event.id}</guid>
-      <title>${event.name}</title>
+      <title>${escapeXml(event.name)}</title>
       <link>https://nycevents.vercel.app/events/${event.id}</link>
       <description><![CDATA[${event.description || ''}]]></description>
       <pubDate>${new Date(event.startDate).toUTCString()}</pubDate>
-      <category>${event.type}</category>
-      ${event.metadata?.venue?.name ? `<location>${event.metadata.venue.name}</location>` : ''}
+      <category>${escapeXml(event.type)}</category>
+      ${event.metadata?.venue?.name ? `<location>${escapeXml(event.metadata.venue.name)}</location>` : ''}
     </item>`).join('')}
   </channel>
 </rss>`;

@@ -260,7 +260,15 @@ export function EventDetailDialog({
                 {/* Calendar & RSS Links */}
                 <div className="detail-section calendar-section">
                   <h3>CALENDAR & FEEDS</h3>
-                  <FeedButtons eventId={event.id} className="event-feed-buttons" />
+                  <FeedButtons 
+                    eventId={event.id}
+                    eventName={event.name}
+                    startDate={event.startDate}
+                    endDate={event.endDate}
+                    description={event.description}
+                    location={event.metadata?.venue?.name || ''}
+                    className="event-feed-buttons" 
+                  />
                 </div>
               </div>
             </div>

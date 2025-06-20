@@ -296,7 +296,8 @@ export default function HomeClient() {
             <div className="directory-links">
               <CyberLink href="https://somethingtodo.nyc" variant="directory">All Events</CyberLink>
               <CyberLink href="#" variant="directory">Workout Events (Coming Soon)</CyberLink>
-              <FeedButtons className="feed-buttons-container" />
+              <CyberLink href="https://legal.somethingtodo.nyc" variant="directory">Legal</CyberLink>
+              <CyberLink href="https://youth.somethingtodo.nyc" variant="directory">Tech for Kids</CyberLink>
             </div>
           </Panel>
 

@@ -51,6 +51,18 @@ export function MainframeHeader() {
             <div className="mainframe-label">NYC DIRECTORY</div>
             <div className="mainframe-value">SYSTEM v1.0</div>
           </div>
+          <a
+            href="/api/rss"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="header-rss-button"
+            title="Subscribe to RSS feed"
+          >
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M6.18 15.64a2.18 2.18 0 0 1 2.18 2.18C8.36 19 7.38 20 6.18 20C5 20 4 19 4 17.82a2.18 2.18 0 0 1 2.18-2.18M4 4.44A15.56 15.56 0 0 1 19.56 20h-2.83A12.73 12.73 0 0 0 4 7.27V4.44m0 5.66a9.9 9.9 0 0 1 9.9 9.9h-2.83A7.07 7.07 0 0 0 4 12.1V10.1Z"/>
+            </svg>
+            <span className="rss-label">RSS</span>
+          </a>
           <button 
             className={`burger-menu ${isMenuOpen ? 'active' : ''}`}
             onClick={toggleMenu}
@@ -370,6 +382,34 @@ export function MainframeHeader() {
           .mainframe-link {
             padding: 0.6rem;
           }
+        }
+
+        .header-rss-button {
+          display: flex;
+          align-items: center;
+          gap: 0.3rem;
+          margin-left: 1.2rem;
+          padding: 0.4rem 0.8rem;
+          background: rgba(0, 56, 117, 0.3);
+          border: 1.5px solid var(--nyc-orange);
+          border-radius: 4px;
+          color: #ff6600;
+          font-family: var(--font-mono);
+          font-size: 0.9rem;
+          text-decoration: none;
+          transition: all 0.2s;
+        }
+        .header-rss-button:hover {
+          background: rgba(0, 56, 117, 0.5);
+          color: #fff;
+          border-color: #ff6600;
+        }
+        .header-rss-button svg {
+          color: #ff6600;
+        }
+        .header-rss-button .rss-label {
+          font-weight: bold;
+          letter-spacing: 0.05em;
         }
       `}</style>
     </header>

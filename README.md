@@ -179,9 +179,9 @@ npm run dev
 ```
 
 ### Backend Setup
-```bash
+   ```bash
 # Install Python dependencies
-pip install -r requirements.txt
+   pip install -r requirements.txt
 
 # Set up environment variables
 cp .env.example .env.local
@@ -195,7 +195,7 @@ Create a `.env.local` file in the root directory:
 
 ```bash
 # Google Calendar API (for event scraping)
-GOOGLE_API_KEY=your_google_api_key_here
+   GOOGLE_API_KEY=your_google_api_key_here
 
 # Twitter API (for automated tweets)
 TWITTER_API_KEY=your_twitter_api_key

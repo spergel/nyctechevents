@@ -349,8 +349,8 @@ export function ConsoleLayout({ children, locations, onLocationClick, lastUpdate
         }
 
         .system-status-container {
-          height: 130px;
-          min-height: 130px;
+          height: 200px;
+          min-height: 200px;
           margin: 0;
           display: flex;
           flex-direction: column;
@@ -429,6 +429,7 @@ export function ConsoleLayout({ children, locations, onLocationClick, lastUpdate
         .map-container {
           flex: 1;
           min-height: 0;
+          max-height: 350px;
           background: rgba(0, 20, 40, 0.3);
           border-radius: 4px;
           overflow: hidden;
