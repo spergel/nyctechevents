@@ -155,6 +155,15 @@ python -m scraper.tweet_generator
 - **API endpoints**: Create public API for event data
 - **Mobile app**: Develop native mobile applications
 
+### 🔄 Automated Workflows
+- **Implement a more robust de-duplication algorithm.**
+- **Add more data sources for events (e.g., Eventbrite, Meetup, specific venues).**
+- **Improve the categorization of events using more sophisticated NLP techniques.**
+- **Add support for more social media platforms for tweet generation.**
+- **Add `https://www.nyc.gov/events/index.html`**
+- **Add `https://experience.arcgis.com/experience/d826b115c87841d491c2b41fcb175305`**
+- **Add `https://api-portal.nyc.gov` (official Event Calendar API)**
+
 ## 📦 Installation
 
 ### Prerequisites
@@ -195,7 +204,7 @@ Create a `.env.local` file in the root directory:
 
 ```bash
 # Google Calendar API (for event scraping)
-   GOOGLE_API_KEY=your_google_api_key_here
+   GOOGLE_API_KEY=your_google_api_key
 
 # Twitter API (for automated tweets)
 TWITTER_API_KEY=your_twitter_api_key
