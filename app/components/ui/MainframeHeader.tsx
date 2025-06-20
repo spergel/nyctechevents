@@ -24,29 +24,6 @@ export function MainframeHeader() {
 
       <div className="mainframe-container">
         <div className="mainframe-title">
-          <div className="mainframe-controls">
-            <button 
-              className="mainframe-button minimize"
-              aria-label="minimize"
-              onClick={playButtonSound}
-            >
-              <div className="button-symbol">⌬</div>
-            </button>
-            <button 
-              className="mainframe-button maximize"
-              aria-label="maximize"
-              onClick={playButtonSound}
-            >
-              <div className="button-symbol">⎔</div>
-            </button>
-            <button 
-              className="mainframe-button close"
-              aria-label="close"
-              onClick={playButtonSound}
-            >
-              <div className="button-symbol">⊗</div>
-            </button>
-          </div>
           <div className="title-container">
             <div className="mainframe-label">NYC DIRECTORY</div>
             <div className="mainframe-value">SYSTEM v1.0</div>
@@ -137,46 +114,6 @@ export function MainframeHeader() {
           display: flex;
           align-items: center;
           gap: 1rem;
-        }
-
-        .mainframe-controls {
-          display: flex;
-          gap: 0.5rem;
-        }
-
-        .mainframe-button {
-          width: 32px;
-          height: 32px;
-          border: 2px solid var(--nyc-orange);
-          border-radius: 4px;
-          background: var(--panel-bg);
-          position: relative;
-          cursor: pointer;
-          padding: 0;
-          transition: all 0.1s ease-out;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-        }
-
-        .button-symbol {
-          color: var(--nyc-orange);
-          font-size: 1.2rem;
-          line-height: 1;
-          transition: all 0.1s ease-out;
-        }
-
-        .mainframe-button:hover {
-          background: rgba(255, 107, 28, 0.1);
-        }
-
-        .mainframe-button:active {
-          transform: translateY(1px);
-          background: rgba(255, 107, 28, 0.2);
-        }
-
-        .mainframe-button:active .button-symbol {
-          transform: scale(0.9);
         }
 
         .title-container {
