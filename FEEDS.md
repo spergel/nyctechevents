@@ -2,42 +2,28 @@
 
 NYC Events provides RSS and ICS calendar feeds to help you stay updated with the latest tech events in New York City.
 
-## RSS Feed
+## Main Feeds
 
-Subscribe to our RSS feed to get updates about new events in your favorite RSS reader.
+You can subscribe to the main feeds using these user-friendly URLs:
 
-**Feed URL:** `https://nycevents.vercel.app/api/rss`
+- **RSS Feed**: [`/rss`](https://nycevents.vercel.app/rss)
+- **ICS Calendar**: [`/ics`](https://nycevents.vercel.app/ics)
 
-**Features:**
-- Latest 50 upcoming events
-- Event details including description, location, and category
-- Automatic updates when new events are added
-- Compatible with all major RSS readers
+These feeds will always show all upcoming events.
 
-**Example RSS Readers:**
-- Feedly
-- Inoreader
-- NetNewsWire (Mac/iOS)
-- Reeder (Mac/iOS)
-- NewsBlur
+## Filterable Feeds
 
-## ICS Calendar Feed
+You can also create a custom feed for a specific event type by adding a query parameter. This is great for tracking specific interests.
 
-Download our ICS calendar file to add all upcoming events to your calendar application.
+### How to Filter
 
-**Feed URL:** `https://nycevents.vercel.app/api/ics`
+Add `?type={event-type}` to the feed URL. For example, to get a feed of only "Hackerspace" events:
 
-**Features:**
-- All upcoming events in iCalendar format
-- Event details including start/end times, location, and description
-- Compatible with Google Calendar, Apple Calendar, Outlook, and more
-- Automatic updates when new events are added
+- **Filtered RSS**: `/api/rss?type=Hackerspace`
+- **Filtered ICS**: `/api/ics?type=Hackerspace`
 
-**How to use:**
-1. Click the "ICS" button on the homepage
-2. Your browser will download a `.ics` file
-3. Open the file with your calendar application
-4. Choose to add all events to your calendar
+### Available Types
+You can use any of the event types found on the main site's filter panel, such as: `Tech`, `Art`, `Hackerspace`, `Conference`, etc. (Note: type names are case-insensitive).
 
 ## Individual Event Calendar
 
@@ -72,9 +58,9 @@ Modern browsers and RSS readers can automatically detect our feeds:
 - Properly escaped text content
 
 ### API Endpoints
-- `GET /api/rss` - RSS feed for all events
-- `GET /api/ics` - ICS calendar for all events  
-- `GET /api/events/{id}/ics` - ICS calendar for individual event
+- `GET /api/rss` - RSS feed for all events (or filtered by `type`)
+- `GET /api/ics` - ICS calendar for all events (or filtered by `type`)
+- `GET /api/events/{id}/ics` - ICS calendar for an individual event
 
 ## Troubleshooting
 

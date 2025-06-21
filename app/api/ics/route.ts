@@ -1,4 +1,4 @@
-import { NextResponse } from 'next/server';
+import { NextResponse, NextRequest } from 'next/server';
 import events from '@/public/data/events.json';
 
 function escapeText(text: string): string {
@@ -8,10 +8,21 @@ function escapeText(text: string): string {
     .replace(/\r/g, '\\r');
 }
 
-export async function GET() {
+export async function GET(request: NextRequest) {
   try {
-    const upcomingEvents = (events?.events || [])
-      .filter((event: any) => new Date(event.startDate) > new Date())
+    const searchParams = request.nextUrl.searchParams;
+    const type = searchParams.get('type');
+
+    let upcomingEvents = (events?.events || [])
+      .filter((event: any) => new Date(event.startDate) > new Date());
+      
+    if (type) {
+      upcomingEvents = upcomingEvents.filter((event: any) => 
+        event.type && event.type.toLowerCase() === type.toLowerCase()
+      );
+    }
+
+    upcomingEvents = upcomingEvents
       .sort((a: any, b: any) => new Date(a.startDate).getTime() - new Date(b.startDate).getTime());
 
     const icsContent = `BEGIN:VCALENDAR

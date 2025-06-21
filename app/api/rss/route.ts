@@ -1,4 +1,4 @@
-import { NextResponse } from 'next/server';
+import { NextResponse, NextRequest } from 'next/server';
 import events from '@/public/data/events.json';
 
 function escapeXml(unsafe: string): string {
@@ -15,10 +15,21 @@ function escapeXml(unsafe: string): string {
   });
 }
 
-export async function GET() {
+export async function GET(request: NextRequest) {
   try {
-    const upcomingEvents = (events?.events || [])
-      .filter((event: any) => new Date(event.startDate) > new Date())
+    const searchParams = request.nextUrl.searchParams;
+    const type = searchParams.get('type');
+
+    let upcomingEvents = (events?.events || [])
+      .filter((event: any) => new Date(event.startDate) > new Date());
+
+    if (type) {
+      upcomingEvents = upcomingEvents.filter((event: any) => 
+        event.type && event.type.toLowerCase() === type.toLowerCase()
+      );
+    }
+    
+    upcomingEvents = upcomingEvents
       .sort((a: any, b: any) => new Date(a.startDate).getTime() - new Date(b.startDate).getTime())
       .slice(0, 50); // Limit to 50 most recent events
 
