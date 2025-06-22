@@ -29,18 +29,8 @@ os.makedirs(CACHE_DIR, exist_ok=True)
 
 # Import local modules
 from .calendar_configs import GOOGLE_CALENDARS
+from .utils import get_luma_event_details
 from dotenv import load_dotenv
-
-# Add import for Luma event details function
-try:
-    # Adjust import path for ics_calendar_scraper
-    sys.path.append(SCRIPT_DIR) # Add SCRIPT_DIR to path if not already
-    from ics_calendar_scraper import get_luma_event_details
-except ImportError:
-    # Define a fallback function if import fails
-    def get_luma_event_details(url):
-        logging.warning(f"Could not import get_luma_event_details, returning empty dict for {url}")
-        return {}
 
 # Load environment variables from .env.local in the project root
 dotenv_path = os.path.join(PROJECT_ROOT, '.env.local')
@@ -156,9 +146,10 @@ def extract_event_url(text: str) -> Optional[str]:
         return None
         
     # Look for common patterns in Google Calendar description
+    # This regex is now more specific to avoid capturing trailing characters like ">" or "</a>"
     patterns = [
-        r'(?:Get up-to-date information at:|More info:|RSVP:|Register:)\s*(https?://(?:lu\.ma|www\.eventbrite\.com)/\S+)',
-        r'(https?://(?:lu\.ma|www\.eventbrite\.com)/\S+)'
+        r'(?:Get up-to-date information at:|More info:|RSVP:|Register:)\s*(https?://(?:lu\.ma|www\.eventbrite\.com)/[\w-]+)',
+        r'(https?://(?:lu\.ma|www\.eventbrite\.com)/[\w-]+)'
     ]
     
     for pattern in patterns:
@@ -192,7 +183,7 @@ def format_google_event(event: Dict, community_id: str) -> Dict:
     # If we found a Luma URL, fetch additional details
     if event_url and 'lu.ma' in event_url:
         logging.info(f"Found Luma URL in Google Calendar event: {event_url}")
-        luma_details = get_luma_event_details(event_url) # Assuming get_luma_event_details is correctly imported
+        luma_details = get_luma_event_details(event_url)
     
     # If Luma details have better location info, use it
     if luma_details and 'location_details' in luma_details:

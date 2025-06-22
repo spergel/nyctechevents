@@ -244,25 +244,22 @@ def main():
         
         if not event_files:
             logging.error("No event files were generated. Exiting.")
-            return
+        else:
+            logging.debug(f"Generated event files: {event_files}")
             
-        logging.debug(f"Generated event files: {event_files}")
-        
-        # Combine event files
-        combined_file = combine_event_files(event_files)
-        
-        if not combined_file:
-            logging.error("Failed to combine event files. Exiting.")
-            return
-        
-        # Run categorization
-        final_output_file = os.path.join(TECH_DIR, 'public', 'data', 'events.json')
-        if not run_categorization(combined_file, final_output_file):
-            logging.error("Categorization failed. Exiting.")
-            return
-        
-            success = True
-                
+            # Combine event files
+            combined_file = combine_event_files(event_files)
+            
+            if not combined_file:
+                logging.error("Failed to combine event files. Exiting.")
+            else:
+                # Run categorization
+                final_output_file = os.path.join(TECH_DIR, 'public', 'data', 'events.json')
+                if run_categorization(combined_file, final_output_file):
+                    success = True
+                else:
+                    logging.error("Categorization failed. Exiting.")
+
     except Exception as e:
         logging.error(f"An unexpected error occurred in main: {e}")
         logging.error(traceback.format_exc())
@@ -276,6 +273,4 @@ def main():
         cleanup_logging()
 
 if __name__ == "__main__":
-    main()
-    # Explicitly call shutdown_cleanly for a clean exit
-    shutdown_cleanly() 
+    main() 
