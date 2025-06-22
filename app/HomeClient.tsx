@@ -15,6 +15,7 @@ import { EventDetailDialog } from '@/app/components/ui/EventDetailDialog';
 import { FeedButtons } from '@/app/components/ui/FeedButtons';
 import { Event, Location } from '@/app/types';
 import { Event as SimpleEvent } from '@/app/types/index';
+import { getCommunityData, getLocationData } from '@/app/utils/dataHelpers';
 
 // Local interface for the events from the JSON file
 interface PageEvent {
@@ -66,6 +67,13 @@ const convertToEvent = (pageEvent: PageEvent): Event => {
     } : undefined,
     event_type: pageEvent.type
   };
+};
+
+// Helper function to safely create a Date object
+const parseSafeDate = (dateStr: string | null): Date | null => {
+  if (!dateStr) return null;
+  const date = new Date(dateStr);
+  return isNaN(date.getTime()) ? null : date;
 };
 
 export default function HomeClient() {
@@ -239,33 +247,66 @@ export default function HomeClient() {
           systemId="EVT-FIL-001"
           isOpen={isFilterDialogOpen}
           onClose={() => setIsFilterDialogOpen(false)}
+          onApply={() => setIsFilterDialogOpen(false)}
           filterGroups={filterGroups}
           resultCount={filteredEvents.length}
           onClearAll={() => setSelectedTypes([])}
         />
       )}
 
-      {/* Mobile Events List */}
+      {/* Mobile Events List - Using Event Cards */}
       {isMobile && (
         <Panel 
+          title={`NYC EVENTS (${filteredEvents.length})`}
           systemId="DATA-003" 
           variant="secondary"
         >
-          <div className="data-feed">
-            {filteredEvents.map(event => (
-              <a
-                key={event.id}
-                href={`/events/${event.id}`}
-                className="data-event"
-                onClick={(e) => {
-                  e.preventDefault();
-                  handleEventClick(event);
-                }}
-              >
-                <span className="event-date">{new Date(event.startDate).toLocaleDateString()}</span>
-                <span className="event-name">{event.name}</span>
-              </a>
-            ))}
+          <div className="event-cards">
+            {filteredEvents.map((event, index) => {
+              const eventDate = parseSafeDate(event.startDate);
+              
+              if (!eventDate) return null; // Skip events with invalid dates
+              
+              return (
+                <div 
+                  key={`${event.id}-${index}`}
+                  className="event-card" 
+                  onClick={() => handleEventClick(event)}
+                >
+                  {/* Date Badge */}
+                  <div className="event-date">
+                    <div className="date-month">{eventDate.toLocaleString('en-US', { month: 'short' }).toUpperCase()}</div>
+                    <div className="date-day">{eventDate.getDate()}</div>
+                  </div>
+                  
+                  {/* Event Content */}
+                  <div className="event-content">
+                    <h3 className="event-name">{event.name}</h3>
+                    <div className="event-time">{eventDate.toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', hour12: true })}</div>
+                    
+                    <div className="event-details">
+                      {event.venue && (
+                        <div className="detail-row">
+                          <span className="detail-icon">◎</span>
+                          <span className="detail-text">{event.venue.name}</span>
+                        </div>
+                      )}
+                      
+                      {event.type && (
+                        <div className="detail-row">
+                          <span className="detail-icon">⚡</span>
+                          <span className="detail-text">{event.type}</span>
+                        </div>
+                      )}
+                    </div>
+                  </div>
+                  
+                  {/* Featured Badge */}
+                  {/* Removed featured badge since PageEvent doesn't have metadata */}
+                </div>
+              );
+            })}
+            
             {filteredEvents.length === 0 && (
               <div className="no-data">No events match your filters</div>
             )}
@@ -415,6 +456,108 @@ export default function HomeClient() {
           opacity: 0.7;
         }
 
+        /* Event Cards Styles (same as events page) */
+        .event-cards {
+          display: grid;
+          grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+          gap: 1rem;
+          width: 100%;
+          padding: 1rem;
+        }
+
+        .event-card {
+          position: relative;
+          display: flex;
+          border: 1px solid var(--terminal-color);
+          background: rgba(0, 23, 57, 0.7);
+          cursor: pointer;
+          overflow: hidden;
+          transition: border-color 0.2s ease;
+        }
+
+        .event-card:hover {
+          border-color: var(--nyc-orange);
+        }
+
+        .event-date {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          padding: 0.75rem;
+          background: rgba(0, 20, 40, 0.5);
+          min-width: 60px;
+          text-align: center;
+        }
+
+        .date-month {
+          color: var(--nyc-orange);
+          font-size: 0.8rem;
+          letter-spacing: 1px;
+          font-family: var(--font-mono);
+        }
+
+        .date-day {
+          font-size: 1.5rem;
+          font-weight: bold;
+          color: var(--nyc-white);
+          line-height: 1;
+        }
+
+        .event-content {
+          flex: 1;
+          padding: 0.75rem;
+          display: flex;
+          flex-direction: column;
+        }
+
+        .event-name {
+          color: var(--nyc-white);
+          margin: 0 0 0.5rem 0;
+          font-size: 1rem;
+          line-height: 1.3;
+        }
+
+        .event-time {
+          font-family: var(--font-mono);
+          color: var(--terminal-color);
+          font-size: 0.85rem;
+          margin-bottom: 0.75rem;
+        }
+
+        .event-details {
+          margin-top: auto;
+        }
+
+        .detail-row {
+          display: flex;
+          align-items: center;
+          gap: 0.5rem;
+          margin-bottom: 0.35rem;
+        }
+
+        .detail-icon {
+          color: var(--nyc-orange);
+          font-size: 0.9rem;
+        }
+
+        .detail-text {
+          color: var(--nyc-white);
+          font-size: 0.9rem;
+        }
+
+        .featured-badge {
+          position: absolute;
+          top: 0.5rem;
+          right: 0.5rem;
+          background: var(--nyc-orange);
+          color: var(--nyc-blue);
+          font-family: var(--font-mono);
+          font-size: 0.7rem;
+          padding: 0.25rem 0.5rem;
+          clip-path: polygon(0 0, 100% 0, 95% 100%, 0 100%);
+        }
+
         /* Detail Dialog Styles */
         .event-detail,
         .location-detail {
@@ -538,6 +681,11 @@ export default function HomeClient() {
 
           .page-header {
             display: none;
+          }
+
+          .event-cards {
+            grid-template-columns: 1fr;
+            padding: 0.75rem;
           }
 
           .data-feed {

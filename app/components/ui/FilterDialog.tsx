@@ -15,6 +15,7 @@ interface FilterDialogProps {
   systemId?: string;
   isOpen: boolean;
   onClose: () => void;
+  onApply: () => void;
   filterGroups: {
     title: string;
     options: FilterOption[];
@@ -40,6 +41,7 @@ export function FilterDialog({
   systemId = 'FILTER-001',
   isOpen,
   onClose,
+  onApply,
   filterGroups,
   searchQuery = '',
   onSearchChange,
@@ -206,7 +208,10 @@ export function FilterDialog({
             <div className="mobile-actions">
               <button 
                 className="mobile-apply"
-                onClick={onClose}
+                onClick={() => {
+                  onApply();
+                  onClose();
+                }}
               >
                 APPLY FILTERS {resultCount !== undefined && `(${resultCount} RESULTS)`}
               </button>

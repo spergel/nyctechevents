@@ -91,16 +91,19 @@ const eventMatchesSearch = (event: any, searchQuery: string): boolean => {
   
   if (searchTerms.length === 0) return true;
 
+  const community = getCommunityData(event.communityId);
+  const location = getLocationData(event.locationId);
+
   const eventText = normalizeText([
     event.name,
     event.description,
-    event.venue?.name,
-    event.venue?.address,
-    event.organizer?.name,
+    location?.name,
+    location?.address,
+    community?.name,
     event.locationId,
     event.communityId,
-    event.category?.name,
-    event.type
+    event.category?.type,
+    event.category?.subCategory
   ].filter(Boolean).join(' '));
 
   // All search terms must be present for a match
@@ -166,22 +169,39 @@ const ensureCompleteEvent = (event: any): Event => ({
 
 export default function Events() {
   const [isLoading, setIsLoading] = useState(true);
-  const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
+  
+  // Staged state for filters
+  const [stagedCategories, setStagedCategories] = useState<string[]>([]);
+  const [stagedCommunities, setStagedCommunities] = useState<string[]>([]);
+  
+  // Active state for filters
+  const [activeCategories, setActiveCategories] = useState<string[]>([]);
+  const [activeCommunities, setActiveCommunities] = useState<string[]>([]);
+
   const [startDate, setStartDate] = useState<Date | null>(new Date());
   const [endDate, setEndDate] = useState<Date | null>(null);
   const [showPastEvents, setShowPastEvents] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
+  const [searchInput, setSearchInput] = useState(''); // New state for input value
+  const [stagedSearchQuery, setStagedSearchQuery] = useState(''); // New staged search state for mobile
   const [isFilterDialogOpen, setIsFilterDialogOpen] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
   const [visibleItems, setVisibleItems] = useState(ITEMS_PER_PAGE);
   const [hasMore, setHasMore] = useState(true);
   const [selectedEvent, setSelectedEvent] = useState<Event | null>(null);
   const [isLoadingMore, setIsLoadingMore] = useState(false);
-  const [selectedCommunities, setSelectedCommunities] = useState<string[]>([]);
   const [selectedCommunity, setSelectedCommunity] = useState<Community | null>(null);
   const [selectedLocation, setSelectedLocation] = useState<Location | null>(null);
+  const [isFiltersExpanded, setIsFiltersExpanded] = useState(false);
   
   const observerTarget = useRef<HTMLDivElement>(null);
+
+  const applyFilters = useCallback(() => {
+    setActiveCategories(stagedCategories);
+    setActiveCommunities(stagedCommunities);
+    setSearchQuery(stagedSearchQuery); // Apply staged search query
+    setVisibleItems(ITEMS_PER_PAGE);
+  }, [stagedCategories, stagedCommunities, stagedSearchQuery]);
 
   // Check if we're on mobile
   useEffect(() => {
@@ -197,26 +217,55 @@ export default function Events() {
     };
   }, []);
 
+  // Handle search submit
+  const handleSearchSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    setSearchQuery(searchInput);
+    setVisibleItems(ITEMS_PER_PAGE);
+  };
+
+  // Handle search input change
+  const handleSearchInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    setSearchInput(e.target.value);
+  };
+
+  // Handle search clear
+  const handleSearchClear = () => {
+    setSearchInput('');
+    setSearchQuery('');
+    setVisibleItems(ITEMS_PER_PAGE);
+  };
+
+  // Toggle filters expansion
+  const toggleFiltersExpansion = () => {
+    setIsFiltersExpanded(!isFiltersExpanded);
+  };
+
   // Save filter state
   useEffect(() => {
     const filterState: FilterState = {
-      selectedCategories,
-      selectedCommunities,
+      selectedCategories: activeCategories,
+      selectedCommunities: activeCommunities,
       startDate: startDate ? startDate.toISOString() : '',
       endDate: endDate ? endDate.toISOString() : '',
       searchQuery,
       showPastEvents
     };
     localStorage.setItem('eventFilters', JSON.stringify(filterState));
-  }, [selectedCategories, selectedCommunities, startDate, endDate, searchQuery, showPastEvents]);
+  }, [activeCategories, activeCommunities, startDate, endDate, searchQuery, showPastEvents]);
 
   // Load filter state
   useEffect(() => {
     const savedFilters = localStorage.getItem('eventFilters');
     if (savedFilters) {
       const savedState = JSON.parse(savedFilters) as FilterState;
-      setSelectedCategories(savedState.selectedCategories || []);
-      setSelectedCommunities(savedState.selectedCommunities || []);
+      const categories = savedState.selectedCategories || [];
+      const communities = savedState.selectedCommunities || [];
+      
+      setActiveCategories(categories);
+      setStagedCategories(categories);
+      setActiveCommunities(communities);
+      setStagedCommunities(communities);
       
       // If showPastEvents was saved in the filter state, use that value
       if ('showPastEvents' in savedState) {
@@ -232,68 +281,50 @@ export default function Events() {
       
       setEndDate(savedState.endDate ? new Date(savedState.endDate) : null);
       setSearchQuery(savedState.searchQuery || '');
+      setSearchInput(savedState.searchQuery || '');
+      setStagedSearchQuery(savedState.searchQuery || ''); // Initialize staged search
     }
   }, []);
 
-  // Get categories and their subcategories
   const categoryGroups = useMemo(() => {
-    const categoryMap = new Map<string, SimpleCategory>();
+    const categoryMap = new Map<string, { id: string; name: string; count: number; subCategories: Map<string, { id: string; name: string; count: number }> }>();
     
-    // First pass: collect all categories and their counts
     events.events.forEach(event => {
-      // Handle event type as main category
-      if (event.type) {
-        if (!categoryMap.has(event.type)) {
-          categoryMap.set(event.type, {
-            id: event.type,
-            name: event.type,
+      const category = event.category;
+      if (category && category.type && category.subCategory) {
+        // Ensure the main category type exists in the map
+        if (!categoryMap.has(category.type)) {
+          categoryMap.set(category.type, {
+            id: category.type,
+            name: category.type,
+            count: 0,
+            subCategories: new Map()
+          });
+        }
+        
+        const mainCategory = categoryMap.get(category.type)!;
+        mainCategory.count++;
+
+        // Process the subcategory
+        const subCategory = mainCategory.subCategories;
+        if (!subCategory.has(category.subCategory)) {
+          subCategory.set(category.subCategory, {
+            id: `${category.type}-${category.subCategory}`, // Create a unique ID
+            name: category.subCategory,
             count: 0
           });
         }
-        const category = categoryMap.get(event.type)!;
-        category.count++;
-      }
-
-      // Handle category if it exists
-      if (event.category && typeof event.category === 'object' && 'id' in event.category && 'name' in event.category) {
-        const categoryObj = event.category as unknown as Category;
-        if (!categoryMap.has(categoryObj.id)) {
-          categoryMap.set(categoryObj.id, {
-            id: categoryObj.id,
-            name: categoryObj.name,
-            count: 0
-          });
-        }
-        const category = categoryMap.get(categoryObj.id)!;
-        category.count++;
+        subCategory.get(category.subCategory)!.count++;
       }
     });
 
-    // Group categories
-    const mainCategories: CategoryGroup[] = [];
-    const academicSubcategories: SimpleCategory[] = [];
-
-    categoryMap.forEach((cat) => {
-      if (cat.name === 'Academic') {
-        academicSubcategories.push({
-          id: cat.id,
-          name: cat.name,
-          count: cat.count
-        });
-      } else {
-        mainCategories.push({
-          title: cat.name,
-          categories: [cat]
-        });
-      }
-    });
-
-    return mainCategories
-      .sort((a, b) => b.categories[0].count - a.categories[0].count)
-      .map(cat => ({
-        ...cat,
-        categories: cat.categories.sort((a, b) => b.count - a.count)
-      }));
+    // Convert the map to the desired array structure for rendering
+    return Array.from(categoryMap.entries()).map(([typeName, typeDetails]) => ({
+      title: typeName,
+      count: typeDetails.count,
+      id: typeDetails.id,
+      subCategories: Array.from(typeDetails.subCategories.values()).sort((a, b) => b.count - a.count)
+    })).sort((a, b) => b.count - a.count);
   }, []);
 
   // Update communityGroups calculation
@@ -303,7 +334,7 @@ export default function Events() {
     // Only count upcoming events for filter counts
     const now = new Date();
     const upcomingEvents = events.events.filter(event => {
-      const eventDate = parseSafeDate(event.startDate);
+      const eventDate = parseSafeDate(event.startDate || null);
       return eventDate ? eventDate >= now : false;
     });
     
@@ -352,34 +383,39 @@ export default function Events() {
     if (!showPastEvents) {
       const now = new Date();
       now.setHours(0, 0, 0, 0); // Reset to start of today
-      const eventStartDate = parseSafeDate(event.startDate);
+      const eventStartDate = parseSafeDate(event.startDate || null);
       if (!eventStartDate || eventStartDate < now) {
         return false;
       }
     }
 
     // Category filter
-    if (selectedCategories.length > 0) {
-      const eventCategories = [
-        event.type,
-        event.category && typeof event.category === 'object' && 'name' in event.category 
-          ? (event.category as unknown as Category).name 
-          : undefined
-      ].filter(Boolean);
-      if (!selectedCategories.some((cat: string) => eventCategories.includes(cat))) {
+    if (activeCategories.length > 0) {
+      const eventCategoryType = event.category?.type;
+      const eventSubCategory = event.category?.subCategory;
+      const eventSubCategoryId = eventCategoryType ? `${eventCategoryType}-${eventSubCategory}` : '';
+
+      const isSelected = activeCategories.some(selectedCatId => {
+        // Check if the main category type is selected OR if the specific subcategory is selected
+        return selectedCatId === eventCategoryType || selectedCatId === eventSubCategoryId;
+      });
+      
+      if (!isSelected) {
         return false;
       }
     }
 
     // Community filter
-    if (selectedCommunities.length > 0 && !selectedCommunities.includes(event.communityId)) {
+    if (activeCommunities.length > 0) {
+      if (!event.communityId || !activeCommunities.includes(event.communityId)) {
       return false;
+      }
     }
 
     // Date filter
     if (startDate || endDate) {
-      const eventStartDate = parseSafeDate(event.startDate);
-      const eventEndDate = parseSafeDate(event.endDate);
+      const eventStartDate = parseSafeDate(event.startDate || null);
+      const eventEndDate = parseSafeDate(event.endDate || null);
       
       if (startDate && eventStartDate && eventStartDate < startDate) {
         return false;
@@ -395,13 +431,13 @@ export default function Events() {
     }
 
     return true;
-  }), [events.events, selectedCategories, selectedCommunities, startDate, endDate, searchQuery, showPastEvents]);
+  }), [events.events, activeCategories, activeCommunities, startDate, endDate, searchQuery, showPastEvents]);
 
   // Update sortedEvents logic
   const sortedEvents = useMemo(() => {
     return [...filteredEvents].sort((a, b) => {
-      const dateA = parseSafeDate(a.startDate);
-      const dateB = parseSafeDate(b.startDate);
+      const dateA = parseSafeDate(a.startDate || null);
+      const dateB = parseSafeDate(b.startDate || null);
       if (!dateA || !dateB) return 0;
       return dateA.getTime() - dateB.getTime();
     });
@@ -499,7 +535,8 @@ export default function Events() {
     setSelectedEvent(ensureCompleteEvent(event));
   };
 
-  const handleCommunityClick = (communityId: string) => {
+  const handleCommunityClick = (communityId: string | undefined) => {
+    if (!communityId) return;
     const communityData = getCommunityData(communityId);
     if (communityData) {
       setSelectedEvent(null);
@@ -507,7 +544,8 @@ export default function Events() {
     }
   };
 
-  const handleLocationClick = (locationId: string) => {
+  const handleLocationClick = (locationId: string | undefined) => {
+    if (!locationId) return;
     const locationData = getLocationData(locationId);
     if (locationData) {
       setSelectedEvent(null);
@@ -522,6 +560,40 @@ export default function Events() {
   return (
     <main className="page-layout">
 
+      {/* Top Search Bar */}
+      <div className="top-search-bar">
+        <form onSubmit={handleSearchSubmit} className="search-form">
+          <div className="search-input-container">
+            <input
+              type="text"
+              placeholder="Search NYC events..."
+              value={searchInput}
+              onChange={handleSearchInputChange}
+              className="search-input"
+            />
+            <div className="search-buttons">
+              {searchInput && (
+                <button
+                  type="button"
+                  onClick={handleSearchClear}
+                  className="search-clear-btn"
+                  title="Clear search"
+                >
+                  ✕
+                </button>
+              )}
+              <button
+                type="submit"
+                className="search-submit-btn"
+                title="Search"
+              >
+                🔍
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+
       {/* Filter Toggle Button (Mobile Only) */}
       {isMobile && (
         <FilterToggleButton 
@@ -531,54 +603,238 @@ export default function Events() {
         />
       )}
 
-      <div className="events-layout">
-        {/* Left Column - Event List */}
+      <div className={`events-layout ${isFiltersExpanded ? 'filters-expanded' : ''}`}>
+        {/* Left Column - Filters */}
+        <div className={`filters-section ${isMobile ? 'desktop-only' : ''}`}>
+          <Panel title="FILTERS" systemId="EVT-FIL-001" variant="secondary">
+            <div className="filters-header">
+              <div className="filter-actions">
+                <button 
+                  className="apply-filters-btn"
+                  onClick={applyFilters}
+                >
+                  APPLY
+                </button>
+                            <button 
+                  className="clear-filters-btn"
+                  onClick={() => {
+                    setStagedCategories([]);
+                    setStagedCommunities([]);
+                    setActiveCategories([]);
+                    setActiveCommunities([]);
+                    setStartDate(new Date()); // Reset to today
+                    setEndDate(null);
+                    setSearchQuery('');
+                    setSearchInput(''); // Also clear the search input
+                    setShowPastEvents(false); // Reset to hide past events
+                    setVisibleItems(ITEMS_PER_PAGE);
+                  }}
+                >
+                  CLEAR ALL
+                            </button>
+                          </div>
+                            <button 
+                className="expand-filters-btn"
+                onClick={toggleFiltersExpansion}
+                title={isFiltersExpanded ? "Collapse filters" : "Expand filters"}
+                            >
+                {isFiltersExpanded ? "◀" : "▶"}
+                            </button>
+                          </div>
+            <div className="filters-content">
+              <div className="filter-group">
+                <h3 className="filter-title">SEARCH</h3>
+                <form onSubmit={handleSearchSubmit} className="search-form">
+                  <div className="search-input-container">
+                <input
+                  type="text"
+                      placeholder="Search events by name..."
+                      value={searchInput}
+                      onChange={handleSearchInputChange}
+                  className="search-input"
+                />
+                    <div className="search-buttons">
+                      {searchInput && (
+                <button 
+                          type="button"
+                          onClick={handleSearchClear}
+                          className="search-clear-btn"
+                          title="Clear search"
+                        >
+                          ✕
+                        </button>
+                      )}
+                      <button
+                        type="submit"
+                        className="search-submit-btn"
+                        title="Search"
+                      >
+                        🔍
+                </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+
+              {/* Date Range Filters */}
+              <div className="filter-group">
+                <h3 className="filter-title">DATE RANGE</h3>
+                <div className="date-filters">
+                  <CyberDatePicker
+                    selectedDate={startDate}
+                    onChange={(date) => {
+                      setStartDate(date);
+                    }}
+                    label="Start Date"
+                    placeholder="FROM"
+                  />
+                  <CyberDatePicker
+                    selectedDate={endDate}
+                    onChange={(date) => {
+                      setEndDate(date);
+                    }}
+                    label="End Date"
+                    placeholder="TO"
+                  />
+                </div>
+              </div>
+
+              {/* Past Events Toggle */}
+              <div className="filter-group">
+                <button 
+                  className={`past-events-toggle ${showPastEvents ? 'active' : ''}`}
+                  onClick={() => setShowPastEvents(!showPastEvents)}
+                >
+                  {showPastEvents ? 'HIDE PAST EVENTS' : 'SHOW PAST EVENTS'}
+                </button>
+              </div>
+
+              <div className="filter-columns">
+              {/* Categories Filter */}
+              <div className="filter-group">
+                <h3 className="filter-title">CATEGORIES</h3>
+                <div className="filter-options">
+                    {categoryGroups.map((group) => (
+                      <div key={group.id} className="category-group">
+                      <FilterButton
+                          label={group.title}
+                          count={group.count}
+                          isActive={stagedCategories.includes(group.id)}
+                        onClick={() => {
+                            setStagedCategories((prev) => 
+                              prev.includes(group.id)
+                                ? prev.filter((c) => c !== group.id && !group.subCategories.some(sub => `${group.id}-${sub.name}` === c))
+                                : [...prev, group.id]
+                            );
+                        }}
+                        variant='compact'
+                      />
+                      
+                        {/* Show subcategories */}
+                        <div className="subcategory-list">
+                          {group.subCategories.map((sub) => (
+                        <FilterButton
+                          key={sub.id}
+                          label={sub.name}
+                          count={sub.count}
+                              isActive={stagedCategories.includes(sub.id)}
+                          onClick={() => {
+                                setStagedCategories((prev) => 
+                                  prev.includes(sub.id)
+                                    ? prev.filter((c) => c !== sub.id)
+                                    : [...prev, sub.id]
+                                );
+                          }}
+                          variant='compact'
+                        />
+                      ))}
+                        </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+
+              {/* Add Community Filter Section */}
+              <div className="filter-group">
+                <h3 className="filter-title">COMMUNITIES</h3>
+                <div className="filter-options">
+                  {communityGroups.map((community: any) => (
+                    <FilterButton
+                      key={community.id}
+                      label={`${community.name} (${community.type})`}
+                      count={community.count}
+                        isActive={stagedCommunities.includes(community.id)}
+                      onClick={() => {
+                          setStagedCommunities((prev: string[]) => {
+                          const newSelection = prev.includes(community.id) 
+                            ? prev.filter((c: string) => c !== community.id) 
+                            : [...prev, community.id];
+                          return newSelection;
+                        });
+                      }}
+                      variant='compact'
+                    />
+                  ))}
+                </div>
+                </div>
+              </div>
+            </div>
+          </Panel>
+              </div>
+
+        {/* Right Column - Event List */}
         <div className="events-list">
           <Panel title={`NYC EVENTS (${sortedEvents.length})`} systemId="EVT-001">
             <div className="event-cards">
-              {sortedEvents.slice(0, visibleItems).map((event: any) => {
+              {sortedEvents.slice(0, visibleItems).map((event: any, index: number) => {
                 const community = getCommunityData(event.communityId);
                 const location = getLocationData(event.locationId);
-                const eventDate = parseSafeDate(event.startDate);
+                const parsedEventDate = parseSafeDate(event.startDate || null);
                 
-                if (!eventDate) return null; // Skip events with invalid dates
+                if (!parsedEventDate) return null; // Skip events with invalid dates
                 
                 return (
                   <div 
-                    key={event.id} 
+                    key={`${event.id}-${index}`}
                     className="event-card" 
                     onClick={(e: React.MouseEvent) => handleEventClick(e, event)}
                   >
                     {/* Date Badge */}
                     <div className="event-date">
-                      <div className="date-month">{eventDate.toLocaleString('en-US', { month: 'short' }).toUpperCase()}</div>
-                      <div className="date-day">{eventDate.getDate()}</div>
+                      <div className="date-month">{parsedEventDate.toLocaleString('en-US', { month: 'short' }).toUpperCase()}</div>
+                      <div className="date-day">{parsedEventDate.getDate()}</div>
                     </div>
                     
                     {/* Event Content */}
                     <div className="event-content">
                       <h3 className="event-name">{event.name}</h3>
-                      <div className="event-time">{eventDate.toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', hour12: true })}</div>
+                      <div className="event-time">{parsedEventDate.toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', hour12: true })}</div>
                       
                       <div className="event-details">
-                        {community && (
+                        {community && event.communityId && (
                           <div className="detail-row">
                             <span className="detail-icon">⚡</span>
-                            <button 
+                <button 
                               className="detail-link"
-                              onClick={(e: React.MouseEvent) => handleCommunityClick(event.communityId)}
-                            >
+                              onClick={(e: React.MouseEvent) => {
+                                e.stopPropagation();
+                                handleCommunityClick(event.communityId);
+                  }}
+                >
                               {community.name}
-                            </button>
+                </button>
                           </div>
                         )}
                         
-                        {location && (
+                        {location && event.locationId && (
                           <div className="detail-row">
                             <span className="detail-icon">◎</span>
                             <button 
                               className="detail-link"
-                              onClick={(e: React.MouseEvent) => handleLocationClick(event.locationId)}
+                              onClick={(e: React.MouseEvent) => {
+                                e.stopPropagation();
+                                handleLocationClick(event.locationId);
+                              }}
                             >
                               {location.name}
                             </button>
@@ -609,177 +865,6 @@ export default function Events() {
                     </div>
                   )}
                 </div>
-              )}
-            </div>
-          </Panel>
-        </div>
-
-        {/* Right Column - Filters */}
-        <div className={`filters-section ${isMobile ? 'desktop-only' : ''}`}>
-          <Panel title="FILTERS" systemId="EVT-FIL-001" variant="secondary">
-            <div className="filters-content">
-              {/* Search Input */}
-              <div className="filter-group">
-                <input
-                  type="text"
-                  placeholder="Search events..."
-                  value={searchQuery}
-                  onChange={(e: React.ChangeEvent<HTMLInputElement>) => {
-                    setSearchQuery(e.target.value);
-                    setVisibleItems(ITEMS_PER_PAGE);
-                  }}
-                  className="search-input"
-                />
-              </div>
-
-              {/* Past Events Toggle */}
-              <div className="filter-group">
-                <button 
-                  className={`past-events-toggle ${showPastEvents ? 'active' : ''}`}
-                  onClick={() => {
-                    setShowPastEvents(!showPastEvents);
-                    // If toggling off, reset startDate to today
-                    if (showPastEvents) {
-                      setStartDate(new Date());
-                    } else {
-                      // If toggling on, clear the date filter
-                      setStartDate(null);
-                    }
-                    setVisibleItems(ITEMS_PER_PAGE);
-                  }}
-                >
-                  {showPastEvents ? 'HIDE PAST EVENTS' : 'SHOW PAST EVENTS'}
-                </button>
-              </div>
-
-              {/* Date Range Filters */}
-              <div className="filter-group">
-                <h3 className="filter-title">DATE RANGE</h3>
-                <div className="date-filters">
-                  <CyberDatePicker
-                    selectedDate={startDate}
-                    onChange={(date) => {
-                      setStartDate(date);
-                      setVisibleItems(ITEMS_PER_PAGE);
-                    }}
-                    label="Start Date"
-                    placeholder="FROM"
-                  />
-                  <CyberDatePicker
-                    selectedDate={endDate}
-                    onChange={(date) => {
-                      setEndDate(date);
-                      setVisibleItems(ITEMS_PER_PAGE);
-                    }}
-                    label="End Date"
-                    placeholder="TO"
-                  />
-                </div>
-              </div>
-
-              {/* Categories Filter */}
-              <div className="filter-group">
-                <h3 className="filter-title">CATEGORIES</h3>
-                <div className="filter-options">
-                  {categoryGroups.map((category: any) => (
-                    <div key={category.title} className="category-group">
-                      <FilterButton
-                        label={category.title}
-                        count={category.categories[0].count}
-                        isActive={selectedCategories.includes(category.title)}
-                        onClick={() => {
-                          setSelectedCategories((prev: string[]) => {
-                            const newSelection = prev.includes(category.title)
-                              ? prev.filter((c: string) => c !== category.title)
-                              : [...prev, category.title];
-                            
-                            // Reset to first page of items
-                            setVisibleItems(ITEMS_PER_PAGE);
-                            return newSelection;
-                          });
-                        }}
-                        variant='compact'
-                      />
-                      
-                      {/* Show subcategories if parent is selected */}
-                      {selectedCategories.includes(category.title) && category.categories.slice(1).map((sub: any) => (
-                        <FilterButton
-                          key={sub.id}
-                          label={sub.name}
-                          count={sub.count}
-                          isActive={selectedCategories.includes(sub.id)}
-                          onClick={() => {
-                            setSelectedCategories((prev: string[]) => {
-                              const newSelection = prev.includes(sub.id)
-                                ? prev.filter((c: string) => c !== sub.id)
-                                : [...prev, sub.id];
-                              
-                              // Reset to first page of items
-                              setVisibleItems(ITEMS_PER_PAGE);
-                              return newSelection;
-                            });
-                          }}
-                          variant='compact'
-                        />
-                      ))}
-                    </div>
-                  ))}
-                </div>
-              </div>
-
-              {/* Add Community Filter Section */}
-              <div className="filter-group">
-                <h3 className="filter-title">COMMUNITIES</h3>
-                <div className="filter-options">
-                  {communityGroups.map((community: any) => (
-                    <FilterButton
-                      key={community.id}
-                      label={`${community.name} (${community.type})`}
-                      count={community.count}
-                      isActive={selectedCommunities.includes(community.id)}
-                      onClick={() => {
-                        // Create a new array to trigger state update and reset visibleItems
-                        setSelectedCommunities((prev: string[]) => {
-                          // First, create the new array
-                          const newSelection = prev.includes(community.id) 
-                            ? prev.filter((c: string) => c !== community.id) 
-                            : [...prev, community.id];
-                          
-                          // Reset items to initial page
-                          setTimeout(() => {
-                            setVisibleItems(ITEMS_PER_PAGE);
-                          }, 0);
-                          
-                          return newSelection;
-                        });
-                      }}
-                      variant='compact'
-                    />
-                  ))}
-                </div>
-              </div>
-
-              {/* Clear Filters Button */}
-              {(selectedCategories.length > 0 || 
-                selectedCommunities.length > 0 ||
-                startDate || 
-                endDate || 
-                searchQuery || 
-                showPastEvents) && (
-                <button 
-                  className="clear-filters-button"
-                  onClick={() => {
-                    setSelectedCategories([]);
-                    setSelectedCommunities([]);
-                    setStartDate(new Date()); // Reset to today
-                    setEndDate(null);
-                    setSearchQuery('');
-                    setShowPastEvents(false); // Reset to hide past events
-                    setVisibleItems(ITEMS_PER_PAGE);
-                  }}
-                >
-                  CLEAR ALL FILTERS
-                </button>
               )}
             </div>
           </Panel>
@@ -827,19 +912,28 @@ export default function Events() {
           title="EVENT FILTERS"
           systemId="EVT-FIL-002"
           isOpen={isFilterDialogOpen}
-          onClose={() => setIsFilterDialogOpen(false)}
+          onClose={() => {
+            // Reset staged filters to active filters on close
+            setStagedCategories(activeCategories);
+            setStagedCommunities(activeCommunities);
+            setStagedSearchQuery(searchQuery); // Reset staged search to current search
+            setIsFilterDialogOpen(false);
+          }}
+          onApply={applyFilters}
           filterGroups={[
             {
               title: "CATEGORIES",
-              options: categoryGroups.flatMap((group: any) => group.categories),
-              selectedIds: selectedCategories,
+              options: categoryGroups.flatMap((group) => [
+                { id: group.id, name: group.title, count: group.count },
+                ...group.subCategories.map(sub => ({ ...sub, name: `  ${sub.name}` })) // Indent subcategories
+              ]),
+              selectedIds: stagedCategories,
               onToggle: (id: string) => {
-                setSelectedCategories((prev: string[]) => {
+                setStagedCategories((prev: string[]) => {
                   return prev.includes(id)
                     ? prev.filter((c: string) => c !== id)
                     : [...prev, id];
                 });
-                setVisibleItems(ITEMS_PER_PAGE);
               },
               layout: 'list'
             },
@@ -850,51 +944,45 @@ export default function Events() {
                 name: `${community.name} (${community.type})`,
                 count: community.count
               })),
-              selectedIds: selectedCommunities,
+              selectedIds: stagedCommunities,
               onToggle: (id: string) => {
-                setSelectedCommunities((prev: string[]) => {
+                setStagedCommunities((prev: string[]) => {
                   return prev.includes(id)
                     ? prev.filter((c: string) => c !== id)
                     : [...prev, id];
                 });
-                setVisibleItems(ITEMS_PER_PAGE);
               },
               layout: 'list'
             }
           ]}
-          searchQuery={searchQuery}
-          onSearchChange={setSearchQuery}
+          searchQuery={stagedSearchQuery} // Use staged search query instead
+          onSearchChange={(query) => {
+            setStagedSearchQuery(query); // Only update staged search, don't apply immediately
+          }}
           resultCount={sortedEvents.length}
           startDate={startDate}
           endDate={endDate}
           onStartDateChange={(date) => {
             setStartDate(date);
-            setVisibleItems(ITEMS_PER_PAGE);
           }}
           onEndDateChange={(date) => {
             setEndDate(date);
-            setVisibleItems(ITEMS_PER_PAGE);
           }}
           showPastEvents={showPastEvents}
           onPastEventsToggle={() => {
             setShowPastEvents(!showPastEvents);
-            // If toggling off, reset startDate to today
-            if (showPastEvents) {
-              setStartDate(new Date());
-            } else {
-              // If toggling on, clear the date filter
-              setStartDate(null);
-            }
-            setVisibleItems(ITEMS_PER_PAGE);
           }}
           onClearAll={() => {
-            setSelectedCategories([]);
-            setSelectedCommunities([]);
+            setStagedCategories([]);
+            setStagedCommunities([]);
+            setActiveCategories([]);
+            setActiveCommunities([]);
             setStartDate(new Date()); // Reset to today
             setEndDate(null);
             setSearchQuery('');
+            setSearchInput(''); // Also clear the search input
+            setStagedSearchQuery(''); // Clear staged search
             setShowPastEvents(false); // Reset to hide past events
-            setVisibleItems(ITEMS_PER_PAGE);
           }}
         />
       )}
@@ -909,11 +997,16 @@ export default function Events() {
 
         .events-layout {
           display: grid;
-          grid-template-columns: 1fr 320px;
+          grid-template-columns: 320px 1fr;
           gap: 1rem;
           padding: 1rem;
           flex: 1;
           min-height: 0;
+          transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .events-layout.filters-expanded {
+          grid-template-columns: 2fr 1fr;
         }
 
         .events-list {
@@ -1171,9 +1264,14 @@ export default function Events() {
         }
 
         .date-filters {
-          display: flex;
-          flex-direction: column;
-          gap: 0.5rem;
+          display: grid;
+          grid-template-columns: 1fr;
+          gap: 0.75rem;
+          transition: all 0.3s ease;
+        }
+
+        .events-layout.filters-expanded .date-filters {
+          grid-template-columns: 1fr 1fr;
         }
 
         .clear-filters-button {
@@ -1467,17 +1565,34 @@ export default function Events() {
             grid-template-columns: 1fr;
           }
 
-          .desktop-only {
-            display: none !important;
+          .events-layout.filters-expanded {
+            grid-template-columns: 1fr;
           }
-
-          .items-grid {
-            max-height: none;
-            overflow: visible;
-          }
-
-          .page-header {
+          
+          .filters-section {
             display: none;
+          }
+
+          .filter-actions {
+            flex-direction: column;
+            gap: 0.25rem;
+          }
+          
+          .apply-filters-btn,
+          .clear-filters-btn {
+            font-size: 0.7rem;
+            padding: 0.4rem;
+          }
+
+          .filters-header {
+            margin-bottom: 0.75rem;
+            padding-bottom: 0.25rem;
+          }
+          
+          .expand-filters-btn {
+            min-width: 1.8rem;
+            height: 1.8rem;
+            font-size: 0.8rem;
           }
         }
 
@@ -1524,6 +1639,190 @@ export default function Events() {
           background: rgba(0, 56, 117, 0.5);
           border-color: var(--nyc-orange);
           color: var(--nyc-orange);
+        }
+
+        .filters-header {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin-bottom: 1rem;
+          padding-bottom: 0.5rem;
+          border-bottom: 1px solid rgba(255, 107, 28, 0.3);
+        }
+
+        .filter-actions {
+          display: flex;
+          flex-direction: column;
+          gap: 0.5rem;
+          flex: 1;
+        }
+
+        .apply-filters-btn,
+        .clear-filters-btn {
+          background: rgba(0, 56, 117, 0.3);
+          border: 1px solid var(--nyc-orange);
+          color: var(--nyc-orange);
+          padding: 0.75rem 1rem;
+          font-family: var(--font-mono);
+          font-size: 0.8rem;
+          cursor: pointer;
+          transition: all 0.2s ease;
+          clip-path: polygon(0 0, 100% 0, 95% 100%, 0 100%);
+          flex: 1;
+        }
+
+        .apply-filters-btn:hover,
+        .clear-filters-btn:hover {
+          background: rgba(0, 56, 117, 0.5);
+          border-color: var(--terminal-color);
+          color: var(--terminal-color);
+          box-shadow: 0 0 10px rgba(255, 107, 28, 0.3);
+        }
+
+        .apply-filters-btn:active,
+        .clear-filters-btn:active {
+          transform: translateY(1px);
+        }
+
+        .expand-filters-btn {
+          background: rgba(0, 56, 117, 0.3);
+          border: 1px solid var(--terminal-color);
+          color: var(--terminal-color);
+          width: 2rem;
+          height: 2rem;
+          font-family: var(--font-mono);
+          font-size: 0.8rem;
+          cursor: pointer;
+          transition: all 0.2s ease;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-left: 0.5rem;
+        }
+
+        .expand-filters-btn:hover {
+          background: rgba(0, 56, 117, 0.5);
+          border-color: var(--nyc-orange);
+          color: var(--nyc-orange);
+        }
+
+        .filters-content {
+          display: flex;
+          flex-direction: column;
+          gap: 1.5rem;
+        }
+
+        .filter-group {
+          display: flex;
+          flex-direction: column;
+          gap: 0.75rem;
+        }
+
+        .filter-title {
+          color: var(--nyc-orange);
+          font-family: var(--font-mono);
+          font-size: 0.9rem;
+          margin: 0;
+          text-transform: uppercase;
+          letter-spacing: 1px;
+        }
+
+        .search-form {
+          display: flex;
+          flex-direction: column;
+          gap: 0.5rem;
+        }
+
+        .search-input-container {
+          position: relative;
+          display: flex;
+          align-items: center;
+        }
+
+        .search-input {
+          flex: 1;
+          padding: 0.75rem;
+          padding-right: 4rem;
+          background: rgba(0, 56, 117, 0.3);
+          border: 1px solid var(--nyc-orange);
+          color: var(--nyc-white);
+          font-family: var(--font-mono);
+          font-size: 0.9rem;
+          transition: all 0.2s ease;
+          clip-path: polygon(0 0, 100% 0, 95% 100%, 0 100%);
+        }
+
+        .search-input::placeholder {
+          color: rgba(255, 255, 255, 0.5);
+        }
+
+        .search-input:focus {
+          outline: none;
+          background: rgba(0, 56, 117, 0.5);
+          border-color: var(--terminal-color);
+          box-shadow: 0 0 15px rgba(255, 107, 28, 0.2);
+        }
+
+        .search-buttons {
+          position: absolute;
+          right: 0.5rem;
+          display: flex;
+          gap: 0.25rem;
+        }
+
+        .search-submit-btn,
+        .search-clear-btn {
+          background: rgba(0, 56, 117, 0.5);
+          border: 1px solid var(--nyc-orange);
+          color: var(--nyc-orange);
+          width: 1.5rem;
+          height: 1.5rem;
+          font-size: 0.7rem;
+          cursor: pointer;
+          transition: all 0.2s ease;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+
+        .search-submit-btn:hover,
+        .search-clear-btn:hover {
+          background: rgba(0, 56, 117, 0.7);
+          border-color: var(--terminal-color);
+          color: var(--terminal-color);
+        }
+
+        .date-filters {
+          display: flex;
+          flex-direction: column;
+          gap: 0.75rem;
+        }
+
+        .filter-columns {
+          display: flex;
+          flex-direction: column;
+          gap: 1.5rem;
+        }
+
+        .filter-options {
+          display: flex;
+          flex-direction: column;
+          gap: 0.5rem;
+        }
+
+        .category-group {
+          display: flex;
+          flex-direction: column;
+          gap: 0.25rem;
+        }
+
+        .subcategory-list {
+          display: flex;
+          flex-direction: column;
+          gap: 0.25rem;
+          margin-left: 1rem;
+          padding-left: 0.5rem;
+          border-left: 1px solid rgba(255, 107, 28, 0.3);
         }
       `}</style>
     </main>
