@@ -10,6 +10,7 @@ import sys
 from collections import defaultdict
 import re
 import unicodedata
+import traceback
 
 # Configure logging
 logging.basicConfig(
@@ -18,65 +19,53 @@ logging.basicConfig(
     handlers=[logging.FileHandler('categorizer.log'), logging.StreamHandler()]
 )
 
-# Define categories
+# Define categories with a clearer hierarchy and refined keywords
 CATEGORIES = {
-    "tech_talks": {
-        "name": "Tech Talks & Conferences",
-        "keywords": [
-            "tech talk", "conference", "meetup", "presentation", "panel", 
-            "product demo", "launch", "tech event", "developer", "engineering"
-        ]
+    # Primary Types
+    "Tech": {
+        "keywords": ["tech", "software", "hardware", "developer", "engineer", "data", "ai", "ml", "startup", "product", "design", "ux", "ui", "cybersecurity", "blockchain", "crypto"],
+        "subcategories": {
+            "Talk/Conference": ["talk", "conference", "seminar", "presentation", "panel", "keynote", "summit"],
+            "Workshop/Training": ["workshop", "training", "bootcamp", "class", "course", "lab", "learn", "study group"],
+            "Hackathon/Competition": ["hackathon", "competition", "challenge", "game jam", "datathon", "contest"],
+            "Networking/Social": ["networking", "mixer", "social", "meetup", "community", "gathering", "happy hour"],
+            "Startup/Business": ["startup", "entrepreneur", "founder", "investor", "pitch", "venture", "business", "demo day"],
+        }
     },
-    "hackathons_competitions": {
-        "name": "Hackathons & Competitions",
-        "keywords": [
-            "hackathon", "competition", "challenge", "game jam", "datathon",
-            "code challenge", "sprint", "contest", "competitive", "hack"
-        ]
+    "Art & Culture": {
+        "keywords": ["art", "culture", "music", "gallery", "exhibition", "performance", "film", "screening", "theater", "dance", "museum"],
+        "subcategories": {
+            "Exhibition": ["exhibition", "gallery", "show", "installation", "art show"],
+            "Performance": ["performance", "concert", "recital", "play", "theater", "dance"],
+            "Screening": ["film", "screening", "movie"],
+            "Cultural Event": ["culture", "heritage", "festival"],
+        }
     },
-    "networking_social": {
-        "name": "Networking & Social",
-        "keywords": [
-            "networking", "mixer", "social", "community", "meetup", "career",
-            "gathering", "industry", "professional", "connection"
-        ]
+    "Academic": {
+        "keywords": ["academic", "lecture", "symposium", "university", "college", "research", "scholar", "thesis"],
+        "subcategories": {
+            "Lecture": ["lecture", "seminar", "talk"],
+            "Conference": ["symposium", "conference", "colloquium"],
+        }
     },
-    "workshops_training": {
-        "name": "Workshops & Training",
-        "keywords": [
-            "workshop", "training", "bootcamp", "lab", "hands-on", "learning",
-            "development", "skills", "certification", "education"
-        ]
-    },
-    "startup_entrepreneurship": {
-        "name": "Startup & Entrepreneurship",
-        "keywords": [
-            "startup", "entrepreneur", "founder", "investor", "pitch",
-            "venture", "accelerator", "incubator", "business", "funding"
-        ]
-    },
-    "tech_innovation": {
-        "name": "Tech Innovation",
-        "keywords": [
-            "innovation", "research", "emerging", "future", "demonstration",
-            "prototype", "breakthrough", "cutting-edge", "advanced", "novel"
-        ]
-    },
-    "special_interest": {
-        "name": "Special Interest Tech",
-        "keywords": [
-            "artificial intelligence", "machine learning", "blockchain", "crypto",
-            "security", "cloud", "mobile", "web", "specialized", "specific"
-        ]
-    },
-    "coworking_workspace": {
-        "name": "Coworking & Workspace",
-        "keywords": [
-            "coworking", "workspace", "office", "facility", "space", "amenities",
-            "community", "member", "tour", "environment"
-        ]
+    "Community & Civic": {
+        "keywords": ["community", "civic", "volunteer", "neighborhood", "public", "government", "non-profit"],
+        "subcategories": {}
     }
 }
+
+# Normalize all keywords to lowercase for case-insensitive matching
+for category, data in CATEGORIES.items():
+    data["keywords"] = [k.lower() for k in data["keywords"]]
+    if "subcategories" in data:
+        for subcat, keywords in data["subcategories"].items():
+            data["subcategories"][subcat] = [k.lower() for k in keywords]
+
+def normalize_text(text):
+    """Lowercase and remove punctuation for matching."""
+    if not text:
+        return ""
+    return re.sub(r'[^\w\s]', '', text.lower())
         
 # Load community and location data
 def load_auxiliary_data():
@@ -117,67 +106,46 @@ class EventCategorizer:
         self.communities, self.locations = load_auxiliary_data()
         
     def determine_event_type(self, event):
-        """Determine if event is tech, academic, or performance based"""
-        title = event.get('name', '').lower()
-        description = event.get('description', '').lower()
-        text = f"{title} {description}"
+        """Determine the primary event type and subcategory."""
+        name = normalize_text(event.get('name', ''))
+        description = normalize_text(event.get('description', ''))
+        text_to_search = f"{name} {description}"
+
+        scores = defaultdict(lambda: defaultdict(int))
         
-        # Academic indicators
-        academic_terms = {
-            "lecture", "seminar", "symposium", "colloquium", "thesis", 
-            "dissertation", "research presentation", "academic", "faculty",
-            "professor", "scholar", "department", "university", "college"
-        }
+        # Score based on keywords
+        for cat_name, cat_data in self.categories.items():
+            for keyword in cat_data["keywords"]:
+                if keyword in text_to_search:
+                    scores[cat_name]["main"] += 1
+            for subcat_name, subcat_keywords in cat_data.get("subcategories", {}).items():
+                for keyword in subcat_keywords:
+                    if keyword in text_to_search:
+                        scores[cat_name][subcat_name] += 1
         
-        # Performance indicators
-        performance_terms = {
-            "concert", "recital", "performance", "theatre", "theater",
-            "dance", "exhibition", "gallery", "screening", "film",
-            "music", "play", "show", "art", "artistic", "performer"
-        }
+        # Determine primary type
+        if not scores:
+            return "General", None # Default if no keywords match
+
+        primary_type = max(scores, key=lambda k: scores[k]["main"])
         
-        # Count matches for each type
-        academic_count = sum(1 for term in academic_terms if term in text)
-        performance_count = sum(1 for term in performance_terms if term in text)
-        
-        # Default to tech unless strong indicators of other types
-        if academic_count > 2:
-            return "academic"
-        elif performance_count > 2:
-            return "performance"
-        return "tech"
+        # Determine subcategory
+        subcategory = None
+        # Remove the 'main' score to find the best subcategory
+        sub_scores = {k: v for k, v in scores[primary_type].items() if k != "main"}
+        if sub_scores and max(sub_scores.values()) > 0:
+            subcategory = max(sub_scores, key=sub_scores.get)
+            
+        return primary_type, subcategory
 
     def categorize_event(self, event):
         """Categorize an event based on its content"""
-        # Determine event type first
-        event_type = self.determine_event_type(event)
-        event['event_type'] = event_type
+        primary_type, subcategory = self.determine_event_type(event)
         
-        if event_type != "tech":
-            # Skip tech categorization for non-tech events
-            return event
-            
-        # Prepare text for analysis
-        text = self._prepare_text_for_analysis(event).lower()
-        
-        # Get category predictions
-        predictions = self._get_category_predictions(text)
-        
-        if not predictions:
-            return event
-            
-        # Get highest confidence category
-        top_category = max(predictions, key=lambda x: x[1])
-        category_id, confidence = top_category
-        
-        if confidence < 0.15:  # Minimum confidence threshold
-            return event
-            
-        # Add category with rounded confidence
+        event['type'] = primary_type
         event['category'] = {
-            'id': category_id,
-            'name': self.categories[category_id]['name'],
-            'confidence': round(float(confidence), 3)
+            'id': subcategory.lower().replace(' ', '_') if subcategory else "general",
+            'name': subcategory if subcategory else "General"
         }
         
         return event
@@ -361,9 +329,10 @@ def deduplicate_events(events: List[Dict]) -> List[Dict]:
     
     # Filter out events without a name or with a blank name
     original_count = len(events)
-    events = [event for event in events if event.get('name') and event.get('name').strip()]
+    # Be less aggressive - only filter out completely empty or None names
+    events = [event for event in events if event.get('name') and event.get('name').strip() and event.get('name').strip() != '']
     if original_count > len(events):
-        logging.info(f"Filtered out {original_count - len(events)} events without a name or with a blank name")
+        logging.info(f"Filtered out {original_count - len(events)} events without a valid name")
     
     # Create a unique event identifier based on name, date, and community
     event_signatures = set()
@@ -702,7 +671,7 @@ def process_events(events):
         processed_event = categorizer.categorize_event(event)
         
         # Update statistics
-        event_type = processed_event.get('event_type')
+        event_type = processed_event.get('type')
         stats[event_type] += 1
         
         if event_type == 'tech':
@@ -725,28 +694,33 @@ def process_events(events):
     
     return processed_events
 
-def main(input_file=None, output_file=None):
-    """Main function to run event categorization"""
+def main(input_file, output_file):
+    """
+    Main function to categorize events from an input file and save them to an output file.
+    """
     try:
-        # Load events from input file
-        events = load_events(input_file) if input_file else []
-        if not events:
-            logging.error("No events loaded")
-            return False
-
-        # Process events
-        processed_events = process_events(events)
+        with open(input_file, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+        
+        events = data.get('events', [])
+        
+        for event in events:
+            # Assign a score-based category
+            event['category'] = get_event_category(event)
         
         # Save categorized events
-        if output_file:
-            save_categorized_events(processed_events, output_file)
-            logging.info(f"Saved {len(processed_events)} categorized events to {output_file}")
+        with open(output_file, 'w', encoding='utf-8') as f:
+            json.dump(data, f, indent=2, ensure_ascii=False)
         
-        return True
+        logging.info(f"Successfully categorized and saved {len(events)} events to {output_file}")
         
+    except FileNotFoundError:
+        logging.error(f"Input file not found: {input_file}")
+    except json.JSONDecodeError:
+        logging.error(f"Error decoding JSON from file: {input_file}")
     except Exception as e:
-        logging.error(f"Error in categorization: {str(e)}")
-        return False
+        logging.error(f"An error occurred during categorization: {e}")
+        logging.error(traceback.format_exc())
 
 def ensure_ascii_safe(text):
     """Ensure text is safely represented for logging, handling all Unicode characters.
@@ -795,10 +769,50 @@ def ensure_ascii_safe(text):
             # Last resort: fully ASCII representation
             return repr(text)
 
+def get_event_category(event):
+    """
+    Categorizes an event based on keywords in its summary and description.
+    """
+    summary = event.get('summary', '').lower()
+    description = event.get('description', '').lower()
+    event_text = summary + ' ' + description
+    
+    existing_category = event.get('category', {})
+    if isinstance(existing_category, dict) and 'type' in existing_category and 'subCategory' in existing_category:
+        return existing_category
+
+    scores = {cat: 0 for cat in CATEGORIES}
+
+    for category, details in CATEGORIES.items():
+        for keyword in details['keywords']:
+            if keyword in event_text:
+                scores[category] += 1
+    
+    if any(score > 0 for score in scores.values()):
+        best_category_name = max(scores, key=scores.get)
+        best_category = CATEGORIES[best_category_name]
+        
+        # Find the best subcategory
+        subcategory_scores = {}
+        for subcat_name, subcat_keywords in best_category.get('subcategories', {}).items():
+            subcategory_scores[subcat_name] = sum(1 for keyword in subcat_keywords if keyword in event_text)
+        
+        best_subcategory = max(subcategory_scores, key=subcategory_scores.get) if subcategory_scores and max(subcategory_scores.values()) > 0 else "General"
+        
+        return {
+            "type": best_category_name,
+            "subCategory": best_subcategory
+        }
+    
+    return {
+        "type": "General",
+        "subCategory": "Community Event"
+    }
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Categorize tech events')
-    parser.add_argument('input_file', help='Path to input JSON file containing events')
-    parser.add_argument('output_file', help='Path to output JSON file for categorized events')
+    parser.add_argument('input_file', help='Input JSON file with events')
+    parser.add_argument('output_file', help='Output JSON file for categorized events')
     args = parser.parse_args()
     
-    sys.exit(0 if main(args.input_file, args.output_file) else 1) 
+    main(args.input_file, args.output_file) 

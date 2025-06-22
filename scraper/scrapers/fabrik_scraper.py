@@ -39,11 +39,11 @@ def get_luma_event_details(event_url: str) -> Optional[Dict]:
     try:
         # Make sure we have a valid URL
         if not event_url or not isinstance(event_url, str):
-            return None
+            return {}
             
         # Ensure URL is a Luma URL
         if 'lu.ma' not in event_url:
-            return None
+            return {}
             
         logging.info(f"Fetching details from Luma event URL: {event_url}")
         response = requests.get(event_url, headers=HEADERS, timeout=10)
@@ -149,7 +149,7 @@ def get_luma_event_details(event_url: str) -> Optional[Dict]:
         
     except Exception as e:
         logging.error(f"Error fetching Luma event details: {e}")
-        return None
+        return {}
 
 def get_fabrik_luma_events() -> List[Dict]:
     """Scrape Fabrik gatherings page for Luma event links and extract event details"""

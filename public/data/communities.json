@@ -1066,6 +1066,44 @@
         "codeOfConductUrl": "bit.ly/CivicTechishNYC",
         "resourcesUrl": "bit.ly/CivicTechishNYC"
       }
+    },
+    {
+      "id": "com_betaworks",
+      "name": "Betaworks",
+      "type": "Tech",
+      "description": "A startup studio and community that explores the latest frontiers of technology, art, politics, and science through events, hackathons, and innovation programs.",
+      "founded": "2008",
+      "size": "0",
+      "category": [
+        "Tech",
+        "Startup",
+        "Innovation",
+        "AI",
+        "Community"
+      ],
+      "contact": {
+        "email": "hello@betaworks.com",
+        "social": {
+          "twitter": "@betaworks",
+          "instagram": "@betaworks",
+          "linkedin": "betaworks"
+        }
+      },
+      "website": "https://www.betaworks.com",
+      "meetingLocationIds": [
+        "loc_betaworks"
+      ],
+      "image": "betaworks-community.jpg",
+      "tags": [
+        "startup studio",
+        "innovation",
+        "ai",
+        "hackathons",
+        "tech events",
+        "community"
+      ],
+      "membershipType": "Open",
+      "membershipFee": "Free"
     }
   ]
 }

@@ -54,8 +54,36 @@ def scrape_event_page(url):
                 elif 'Start:' in text:
                     door_times['start'] = time_match.group(1).lower()
     
-    # Extract description from meta
-    description = soup.find('meta', {'name': 'description'})['content'] if soup.find('meta', {'name': 'description'}) else ''
+    # Extract full description from page content instead of meta description
+    description = ""
+    
+    # Try to get description from JSON-LD first (often has full description)
+    if event_data and 'description' in event_data:
+        description = event_data['description']
+    
+    # If no description in JSON-LD, try to extract from page content
+    if not description:
+        # Look for description in various content areas
+        content_selectors = [
+            '.program-description',
+            '.event-description', 
+            '.description',
+            '.content',
+            'p',  # Fallback to any paragraph
+        ]
+        
+        for selector in content_selectors:
+            content_elem = soup.select_one(selector)
+            if content_elem:
+                description = content_elem.get_text(strip=True)
+                if len(description) > 50:  # Make sure we got meaningful content
+                    break
+    
+    # Fallback to meta description if nothing else works
+    if not description:
+        meta_desc = soup.find('meta', {'name': 'description'})
+        if meta_desc:
+            description = meta_desc.get('content', '')
     
     return event_data, door_times, description
 

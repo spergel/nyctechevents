@@ -151,7 +151,8 @@ def run_scrapers() -> List[str]:
             logging.error(f"Error running scraper {scraper_name}: {e}")
             logging.error(traceback.format_exc())
             failed_scrapers += 1
-            continue
+            # Don't continue here - let the scraper try to complete even if there was an error
+            # The scraper might still produce output despite the error
     
     logging.info(f"Completed running {successful_scrapers} scrapers successfully, {failed_scrapers} failed")
     return output_files
@@ -247,57 +248,34 @@ def main():
             
         logging.debug(f"Generated event files: {event_files}")
         
-        # Combine events
+        # Combine event files
         combined_file = combine_event_files(event_files)
+        
         if not combined_file:
             logging.error("Failed to combine event files. Exiting.")
             return
         
         # Run categorization
-        if not run_categorization(combined_file, args.output):
-            logging.error("Failed to categorize events. Exiting.")
+        final_output_file = os.path.join(TECH_DIR, 'public', 'data', 'events.json')
+        if not run_categorization(combined_file, final_output_file):
+            logging.error("Categorization failed. Exiting.")
             return
         
-        # If output file specified, copy combined events there
-        # Note: categorize_events already saves to args.output if provided to its main function.
-        # This section seems redundant if run_categorization saves to args.output.
-        # However, run_categorization's output_file param might be different from combined_file.
-        # Let's assume combined_file is the categorized one if args.output was used by run_categorization.
-        # The current logic in run_categorization saves to its output_file arg.
-        # And run_all passes args.output to it.
-        # This block for copying to args.output might be intended if args.output is different from what categorize_main used.
-        # For now, keeping the structure.
-        if args.output:
-            # If categorization was successful and args.output was specified, the categorized events are in args.output.
-            # This block tries to read combined_file and write to args.output, which might be overwriting.
-            # Let's assume categorized events are in 'combined_file' (which is the output of combine_event_files)
-            # and then run_categorization processes 'combined_file' and saves to 'args.output'.
-            # So, if args.output exists and is from categorization, this part is ok.
-            # If args.output was not provided to run_categorization, then this will copy the raw combined to args.output.
-            # The run_categorization call IS `categorize_main(input_file, output_file)` where output_file is args.output.
-            # So, if args.output is set, categorized events are already there.
-            # This if args.output block for copying might be simplified or removed.
-            # The critical part is that `success = True` is set.
-            logging.info(f"Categorized events should be in {args.output if args.output else 'default location used by categorize_events'}")
-            success = True # If categorization succeeded and we are here.
-        else:
-            # If no output file was specified but we got this far, still mark as success
             success = True
                 
     except Exception as e:
-        logging.error(f"Unexpected error in main function: {e}")
+        logging.error(f"An unexpected error occurred in main: {e}")
         logging.error(traceback.format_exc())
+    
     finally:
-        # Make sure logging is properly shut down
-        cleanup_logging()
-        # Force a successful exit if everything worked
         if success:
-            # This ensures GitHub Actions sees the job as successful
             logging.info("Script completed successfully")
-            # Use our clean shutdown function instead of sys.exit
-            shutdown_cleanly()
+        else:
+            logging.error("Script finished with errors")
+        
+        cleanup_logging()
 
 if __name__ == "__main__":
     main()
-    # If we somehow get here, still exit cleanly
+    # Explicitly call shutdown_cleanly for a clean exit
     shutdown_cleanly() 

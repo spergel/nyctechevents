@@ -166,8 +166,6 @@ export function MainframeHeader() {
         .link-icon {
           font-size: 1.1rem;
           color: var(--nyc-orange);
-          background:var(--terminal-color);
-
         }
 
         .mainframe-link:hover {
@@ -246,13 +244,34 @@ export function MainframeHeader() {
             justify-content: space-between;
           }
 
+          .header-rss-button {
+            display: none;
+          }
+
           .burger-menu {
             display: flex;
+            width: 44px;
+            height: 44px;
+            padding: 10px 8px;
+          }
+
+          .burger-menu.active .burger-line:nth-child(1) {
+            transform: translateY(10px) rotate(45deg);
+          }
+
+          .burger-menu.active .burger-line:nth-child(3) {
+            transform: translateY(-10px) rotate(-45deg);
           }
 
           .mainframe-nav {
             display: none;
             width: 100%;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background: var(--panel-bg);
+            border-top: 2px solid var(--nyc-orange);
+            padding: 1rem;
             overflow: hidden;
             max-height: 0;
             transition: all 0.3s ease-in-out;
@@ -324,29 +343,28 @@ export function MainframeHeader() {
         .header-rss-button {
           display: flex;
           align-items: center;
-          gap: 0.3rem;
-          margin-left: 1.2rem;
-          padding: 0.4rem 0.8rem;
-          background: rgba(0, 56, 117, 0.3);
-          border: 1.5px solid var(--nyc-orange);
-          border-radius: 4px;
-          color: #ff6600;
+          gap: 0.5rem;
+          color: var(--terminal-color);
+          text-decoration: none;
           font-family: var(--font-mono);
           font-size: 0.9rem;
-          text-decoration: none;
-          transition: all 0.2s;
+          padding: 0.5rem 1rem;
+          background: rgba(0, 56, 117, 0.3);
+          border: 1px solid transparent;
+          border-radius: 4px;
+          transition: all 0.2s ease;
         }
+
         .header-rss-button:hover {
+          border-color: var(--nyc-orange);
           background: rgba(0, 56, 117, 0.5);
-          color: #fff;
-          border-color: #ff6600;
+          box-shadow: 0 2px 8px rgba(255, 107, 28, 0.2);
         }
-        .header-rss-button svg {
-          color: #ff6600;
-        }
-        .header-rss-button .rss-label {
-          font-weight: bold;
-          letter-spacing: 0.05em;
+
+        @media (max-width: 768px) {
+          .header-rss-button {
+            display: none;
+          }
         }
       `}</style>
     </header>

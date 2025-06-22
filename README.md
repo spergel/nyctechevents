@@ -127,6 +127,11 @@ python -m scraper.tweet_generator
 
 ## 📋 TODO & Future Improvements
 
+### 🗄️ Infrastructure Improvements
+- **Database Migration**: Move from JSON file storage to online database (PostgreSQL/MongoDB) for better scalability and real-time updates
+- **API Development**: Create RESTful API endpoints for event data
+- **Real-time Updates**: Implement WebSocket connections for live event updates
+
 ### 🔍 Better Event Information Scraping
 - **Enhanced metadata extraction**: Capture more detailed event information
 - **Speaker information**: Extract and store speaker names and bios

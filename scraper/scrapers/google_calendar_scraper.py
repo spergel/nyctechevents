@@ -13,15 +13,15 @@ import sys
 
 # Setup paths
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-# Path to the project root (assuming this script is in src/scrapers/)
-_PROJECT_ROOT = os.path.dirname(os.path.dirname(SCRIPT_DIR)) # This is now src/
+# Path to the project root
+PROJECT_ROOT = os.path.dirname(os.path.dirname(SCRIPT_DIR))
 
 # Directory for reading config files like communities.json and locations.json
-CONFIG_DATA_DIR = os.path.join(_PROJECT_ROOT, 'public', 'data')
+CONFIG_DATA_DIR = os.path.join(PROJECT_ROOT, 'public', 'data')
 
 # Directory for scraper's own output and cache
 # Output will be in PROJECT_ROOT/data/scrapers/
-OUTPUT_DATA_DIR = os.path.join(_PROJECT_ROOT, 'data', 'scrapers')
+OUTPUT_DATA_DIR = os.path.join(PROJECT_ROOT, 'data', 'scrapers')
 CACHE_DIR = os.path.join(OUTPUT_DATA_DIR, 'cache', 'google_calendar') # Specific cache for this scraper
 
 # Ensure cache directory exists
@@ -43,7 +43,7 @@ except ImportError:
         return {}
 
 # Load environment variables from .env.local in the project root
-dotenv_path = os.path.join(_PROJECT_ROOT, '.env.local')
+dotenv_path = os.path.join(PROJECT_ROOT, '.env.local')
 load_dotenv(dotenv_path=dotenv_path)
 logging.info(f"Attempting to load .env.local from: {dotenv_path}")
 
@@ -280,7 +280,7 @@ def format_google_event(event: Dict, community_id: str) -> Dict:
             image_filename = f"events/luma-event-{image_hash}.jpg" # Relative path for frontend
             
             # Actual download path for the image
-            image_download_path = os.path.join(_PROJECT_ROOT, 'public', 'images', 'events')
+            image_download_path = os.path.join(PROJECT_ROOT, 'public', 'images', 'events')
             os.makedirs(image_download_path, exist_ok=True)
             full_image_path = os.path.join(image_download_path, f"luma-event-{image_hash}.jpg")
 
@@ -408,9 +408,9 @@ def fetch_google_calendar_events(calendar_id: str, community_id: str) -> List[Di
         for event_data in raw_events:
             try:
                 # Skip events without a summary (title) as they are often problematic
-                if not event_data.get('summary'):
-                    logging.warning(f"Skipping event without summary (title) in calendar {calendar_id}. Event ID: {event_data.get('id')}")
-                    continue
+                # if not event_data.get('summary'):
+                #     logging.warning(f"Skipping event without summary (title) in calendar {calendar_id}. Event ID: {event_data.get('id')}")
+                #     continue
                 formatted_event = format_google_event(event_data, community_id)
                 events.append(formatted_event)
             except Exception as e:

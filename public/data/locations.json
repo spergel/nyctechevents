@@ -259,6 +259,43 @@
         "networking",
         "meetup"
       ]
+    },
+    {
+      "id": "loc_betaworks",
+      "name": "Betaworks",
+      "type": "Tech Space",
+      "mainCommunityId": "com_betaworks",
+      "address": "29 Little West 12th Street, New York, NY 10014",
+      "coordinates": {
+        "lat": 40.7402,
+        "lng": -74.0100
+      },
+      "description": "A startup studio and innovation space in Manhattan's Meatpacking District, hosting tech events, hackathons, and innovation programs.",
+      "amenities": [
+        "Event Space",
+        "Workshop Area",
+        "Meeting Rooms",
+        "WiFi",
+        "Kitchen",
+        "Outdoor Space"
+      ],
+      "website": "https://www.betaworks.com",
+      "images": [
+        "betaworks-space.jpg"
+      ],
+      "category": [
+        "Tech",
+        "Startup",
+        "Innovation",
+        "Event Space"
+      ],
+      "tags": [
+        "startup studio",
+        "innovation",
+        "tech events",
+        "hackathons",
+        "meatpacking district"
+      ]
     }
   ]
 }

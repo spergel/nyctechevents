@@ -1,4 +1,8 @@
-torch>=2.0.0
+# torch>=2.0.0
+# torchvision>=0.15.1
+# torchaudio>=2.0.1
+# sentence-transformers
+# faiss-cpu
 transformers>=4.30.0
 numpy>=1.24.0
 tqdm>=4.65.0
@@ -14,3 +18,4 @@ pyshorteners>=1.0.1
 google-api-python-client==2.86.0
 python-dotenv==1.0.0
 google-generativeai 
+oauth2client 

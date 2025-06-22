@@ -13,16 +13,14 @@ from .calendar_configs import ICS_CALENDARS
 
 # Setup paths
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-# Path to the project root (assuming this script is in scraper/tech/scrapers/)
-_PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(SCRIPT_DIR)))
+# Path to the project root
+PROJECT_ROOT = os.path.dirname(os.path.dirname(SCRIPT_DIR))
 
 # Directory for reading config files like communities.json
-CONFIG_DATA_DIR = os.path.join(_PROJECT_ROOT, 'public', 'data')
+CONFIG_DATA_DIR = os.path.join(PROJECT_ROOT, 'public', 'data')
 
-# Directory for scraper's own output (will be refined in later refactoring stages)
-# For now, keep original logic relative to SCRIPT_DIR to output to scraper/tech/data/
-_SCRAPER_TECH_DIR = os.path.dirname(SCRIPT_DIR) # This is scraper/tech/
-OUTPUT_DATA_DIR = os.path.join(_SCRAPER_TECH_DIR, 'data') # This is scraper/tech/data/
+# Directory for scraper's own output
+OUTPUT_DATA_DIR = os.path.join(PROJECT_ROOT, 'scraper', 'data')
 
 # Configure logging
 logging.basicConfig(
@@ -34,7 +32,7 @@ logging.basicConfig(
 # Load communities data
 communities = {}
 try:
-    communities_file = os.path.join(CONFIG_DATA_DIR, 'communities.json') # Changed to CONFIG_DATA_DIR
+    communities_file = os.path.join(CONFIG_DATA_DIR, 'communities.json')
     if os.path.exists(communities_file):
         with open(communities_file, 'r') as f:
             communities = {com['id']: com for com in json.load(f).get('communities', [])}
@@ -246,276 +244,250 @@ def get_luma_events(ics_url):
                     "additional_details": event_details
                 })
             except Exception as e:
-                logging.error(f"Error processing event: {e}")
+                logging.error(f"Error processing event: {getattr(event, 'name', 'Unknown Event')} - {e}")
                 continue
         
         logging.info(f"Found {len(events)} upcoming events")
         return events
     except requests.exceptions.RequestException as e:
-        logging.error(f"Error fetching ICS feed: {e}")
+        logging.error(f"Failed to fetch or parse ICS feed: {ics_url}. Error: {e}")
         return []
     except Exception as e:
         logging.error(f"Unexpected error processing ICS feed: {e}")
         return []
 
 def parse_location(raw_location):
-    """Extract structured location data from ICS location field"""
+    """Parse location string into a structured dictionary"""
     if not raw_location:
         return {
-            "name": "",
-            "address": "",
-            "type": "Online"
+            'venue': '', 'street': '', 'city': '', 'state': '', 'zip': '',
+            'country': '', 'type': 'Online'
         }
     
-    # Handle Luma URL-based locations
-    if 'lu.ma' in raw_location:
-        event_details = get_luma_event_details(raw_location)
-        if event_details and 'location_details' in event_details:
-            loc_details = event_details['location_details']
-            return {
-                "name": loc_details.get('venue_name', 'Event Location'),
-                "address": loc_details.get('address', raw_location),
-                "type": loc_details.get('type', 'Offline'),
-                "room": loc_details.get('room', ''),
-                "additional_info": loc_details.get('additional_info', '')
-            }
-        # Fallback if we couldn't extract details
+    # Check for online/TBA locations
+    if any(keyword in raw_location.lower() for keyword in ['online', 'tba', 'tbd', 'see description']):
         return {
-            "name": "Luma Event",
-            "address": raw_location,
-            "type": "Offline"
+            'venue': raw_location, 'street': '', 'city': '', 'state': '', 'zip': '',
+            'country': '', 'type': 'Online'
         }
     
-    # Handle other URL-based locations
-    if raw_location.startswith('http'):
-        return {
-            "name": "Online Event",
-            "address": raw_location,
-            "type": "Online"
-        }
+    # Try to parse as structured address
+    parts = [p.strip() for p in raw_location.split(',')]
+    location_data = {'venue': '', 'street': '', 'city': '', 'state': '', 'zip': '', 'country': '', 'type': 'Offline'}
     
-    # Split address lines
-    parts = [p.strip() for p in raw_location.split('\n') if p.strip()]
+    # Simple logic (can be improved with a proper library like usaddress)
+    if len(parts) >= 3:
+        location_data['venue'] = parts[0]
+        location_data['street'] = parts[0] # Often venue and street are the same
+        location_data['city'] = parts[1]
+        state_zip = parts[2].split()
+        if len(state_zip) == 2:
+            location_data['state'] = state_zip[0]
+            location_data['zip'] = state_zip[1]
+    elif len(parts) == 1:
+        location_data['venue'] = parts[0]
     
-    # Special handling for common patterns
-    if len(parts) == 1:
-        # If it's just one line, treat it as both name and address
-        return {
-            "name": parts[0],
-            "address": parts[0],
-            "type": "Offline"
-        }
-    
-    # Try to intelligently determine venue name vs address
-    # Look for common address patterns in the first line
-    first_line = parts[0].lower()
-    if (any(first_line.startswith(str(i)) for i in range(10)) or  # Starts with number
-        '@' in first_line or  # Contains @ symbol
-        any(word in first_line for word in ['street', 'st.', 'avenue', 'ave.', 'road', 'rd.', 'boulevard', 'blvd.'])):
-        # First line looks like an address, try to find a venue name in subsequent lines
-        address = parts[0]
-        name = parts[1] if len(parts) > 1 else parts[0]
-    else:
-        # First line is probably the venue name
-        name = parts[0]
-        address = '\n'.join(parts[1:]) if len(parts) > 1 else parts[0]
-    
-    return {
-        "name": name,
-        "address": address,
-        "type": "Offline"
-    }
+    return location_data
 
 def clean_description(desc):
-    """Remove redundant boilerplate from descriptions"""
-    return desc.replace("Find more information on https://lu.ma/nyc-tech", "").strip()
+    """Clean HTML and other artifacts from description"""
+    if not desc:
+        return ""
+    # Use BeautifulSoup to parse and get text
+    soup = BeautifulSoup(desc, 'html.parser')
+    return soup.get_text(separator='\n', strip=True)
 
 def parse_price(desc):
-    """Extract price info from description"""
-    if "free" in desc.lower():
+    """Extract price information from description"""
+    if not desc:
+        return {"amount": 0, "type": "Free", "currency": "USD", "details": ""}
+        
+    # Search for price patterns
+    match = re.search(r'\$(\d+(\.\d+)?)', desc)
+    if match:
         return {
-            "amount": 0,
-            "type": "Free",
+            "amount": float(match.group(1)),
+            "type": "Paid",
             "currency": "USD",
-            "details": "Status Unknown"
+            "details": f"Price found in description: {match.group(0)}"
         }
     
-    # Add more price parsing logic as needed
-    return {
-        "amount": 0,
-        "type": "Free", 
-        "currency": "USD",
-        "details": ""
-    }
+    # Check for "free" keyword
+    if 'free' in desc.lower() and 'free of charge' in desc.lower():
+        return {"amount": 0, "type": "Free", "currency": "USD", "details": "Event is free"}
+        
+    return {"amount": 0, "type": "Free", "currency": "USD", "details": "No price information found"}
 
 def extract_speakers(desc):
-    """Extract speaker names from description"""
-    if "Hosted by" in desc:
-        return [s.strip() for s in desc.split("Hosted by")[-1].split("\n")[0].split("&")]
-    return []
+    """Extract speaker names from description (basic implementation)"""
+    speakers = []
+    if 'speaker:' in desc.lower():
+        # Find text after "Speaker:"
+        try:
+            speaker_section = desc.lower().split('speaker:')[1]
+            # Simple split by common delimiters
+            potential_speakers = re.split(r',| and |&', speaker_section)
+            for speaker in potential_speakers:
+                if speaker.strip():
+                    speakers.append({"name": speaker.strip().title(), "title": "", "bio": ""})
+        except IndexError:
+            pass # No speaker section found
+    return speakers
 
-def convert_ics_event(ics_event, community_id):
-    """Convert ICS event to our standardized format with improved parsing"""
-    eastern = pytz.timezone('America/New_York')
+def convert_ics_event(ics_event: Dict, community_id: str) -> Dict:
+    """Convert a parsed ICS event into our standard event format."""
+    event_details = ics_event.get("additional_details", {}) or {}
     
-    # Generate unique ID
-    unique_id = f"{ics_event['summary']}{ics_event['start']}".encode()
-    event_id = hashlib.md5(unique_id).hexdigest()[:8]
-    
-    # Handle datetime conversion
-    start_date = ics_event['start'].astimezone(eastern)
-    end_date = ics_event['end'].astimezone(eastern)
-    
-    # Get additional details
-    additional_details = ics_event.get('additional_details', {})
-    
-    # Parse location data
-    raw_location = ics_event.get('location', '')
-    venue = parse_location(raw_location)
-    
-    # Update venue with detailed location if available
-    if additional_details and 'location_details' in additional_details:
-        loc_details = additional_details['location_details']
-        venue.update({
-            'name': loc_details.get('venue_name', venue['name']),
-            'address': loc_details.get('address', venue['address']),
-            'room': loc_details.get('room', ''),
-            'additional_info': loc_details.get('additional_info', ''),
-            'type': loc_details.get('type', venue['type'])
-        })
-    
-    # Extract price from description or additional details
-    price_info = additional_details.get('price_info', parse_price(ics_event.get('description', '')))
+    # Generate a unique event ID
+    event_id_str = f"{ics_event['uid']}{ics_event['summary']}{ics_event['start']}"
+    event_id_hash = hashlib.md5(event_id_str.encode()).hexdigest()[:8]
+    event_id = f"evt_ics_{community_id}_{event_id_hash}"
     
     # Clean description
     description = clean_description(ics_event.get('description', ''))
     
-    # Use full description if available from Luma
-    if additional_details and 'full_description' in additional_details:
-        description = additional_details['full_description']
+    # Override with more detailed description from Luma if available
+    if event_details.get('full_description'):
+        description = event_details['full_description']
     
-    # Get actual capacity if available
-    capacity = additional_details.get('actual_capacity', 100) if additional_details else 100
+    # Location handling
+    location_str = ics_event.get('location', '')
+    location_type = 'Offline'
     
-    # Get image URL if available
-    image = "fractal-community.jpg"  # Default image
-    if additional_details and 'image_url' in additional_details:
-        # Extract just the filename part for local storage
-        image_url = additional_details['image_url']
-        if image_url:
-            # Generate a filename from the URL
-            image_hash = hashlib.md5(image_url.encode()).hexdigest()[:8]
-            image = f"luma-event-{image_hash}.jpg"
+    luma_location = event_details.get('location_details', {})
+    if luma_location:
+        if luma_location.get('venue_name') and luma_location.get('address'):
+            location_str = f"{luma_location['venue_name']}, {luma_location['address']}"
+        elif luma_location.get('venue_name'):
+            location_str = luma_location['venue_name']
+        
+        if luma_location.get('type'):
+            location_type = luma_location['type']
             
-            # Optionally download the image (uncomment if needed)
-            # try:
-            #     img_response = requests.get(image_url)
-            #     if img_response.status_code == 200:
-            #         os.makedirs('../../public/images/events', exist_ok=True)
-            #         with open(f'../../public/images/events/{image}', 'wb') as img_file:
-            #             img_file.write(img_response.content)
-            # except Exception as e:
-            #     logging.error(f"Failed to download image: {e}")
+    location_info = parse_location(location_str)
     
-    # Get categories
-    categories = ["Tech"]  # Default category
-    if additional_details and 'categories' in additional_details and additional_details['categories']:
-        categories = additional_details['categories']
+    # Price
+    price_info = parse_price(description)
+    if 'price_info' in event_details and event_details['price_info']:
+        price_info = event_details['price_info']
+        
+    # Speakers
+    speakers = extract_speakers(description)
+    if 'speakers' in event_details and event_details['speakers']:
+        speakers = event_details['speakers']
     
-    # Set location ID based on community
-    location_id = "loc_tbd"
-    if community_id == "com_fractal":
-        location_id = "loc_fractal"
-    elif community_id == "com_telos":
-        location_id = "loc_telos"
+    # Categories / Tags
+    tags = event_details.get('categories', [])
     
-    # Set source URL based on community
-    source_url = ics_event.get('url')
-    if community_id == "com_nyc_resistor":
-        source_url = "https://www.nycresistor.com/participate/"
+    # Image URL
+    image_url = event_details.get('image_url', '')
     
-    return {
-        "id": f"evt_{community_id}_{event_id}",
-        "name": additional_details.get('title', ics_event['summary']),
-        "type": categories[0] if categories else "Tech",
-        "locationId": location_id,
-        "communityId": community_id,
+    # Construct the final event object
+    event = {
+        "id": event_id,
+        "title": event_details.get('title', ics_event.get('summary', 'Untitled Event')),
         "description": description,
-        "startDate": start_date.isoformat(),
-        "endDate": end_date.isoformat(),
-        "category": categories,
+        "start_time": ics_event['start'].isoformat(),
+        "end_time": ics_event['end'].isoformat(),
+        "url": ics_event.get('url', ''),
+        "community_id": community_id,
+        "location": {
+            "name": location_info['venue'],
+            "address": location_str,
+            "type": location_type
+        },
         "price": price_info,
-        "capacity": capacity,
-        "registrationRequired": True,
-        "tags": [],
-        "image": image,
-        "status": "upcoming",
-        "metadata": {
-            "source_url": source_url,
-            "speakers": additional_details.get('speakers', []) if additional_details else extract_speakers(description),
-            "venue": venue,
-            "featured": False,
-            "social_links": additional_details.get('social_links', []) if additional_details else []
+        "tags": tags,
+        "speakers": speakers,
+        "images": [{"url": image_url}] if image_url else [],
+        "last_updated": datetime.now(pytz.utc).isoformat(),
+        "misc": {
+            "source_event_id": ics_event.get('uid'),
+            "source": "ics",
+            "raw_location": ics_event.get('location', ''),
+            "organizer": ics_event.get('organizer', '')
         }
     }
+    
+    return event
 
 def is_future_event(event: Dict) -> bool:
-    """Check if event hasn't ended yet"""
+    """Check if the event's start time is in the future."""
     try:
-        end_date_str = event.get('endDate')
-        if not end_date_str:
-            return True  # Assume ongoing if no end date
-            
-        # Parse both date-only and datetime formats
-        if 'T' in end_date_str:
-            end_date = datetime.fromisoformat(end_date_str.replace('Z', '+00:00'))
+        # Handle both raw ICS events (with 'start') and converted events (with 'start_time')
+        if 'start_time' in event:
+            # This is a converted event
+        start_time = event['start_time']
+        if isinstance(start_time, str):
+            start_time = datetime.fromisoformat(start_time)
+        elif 'start' in event:
+            # This is a raw ICS event
+            start_time = event['start']
+            if hasattr(start_time, 'datetime'):
+                start_time = start_time.datetime
         else:
-            end_date = datetime.fromisoformat(end_date_str).replace(tzinfo=pytz.utc)
+            logging.error(f"Event has no start time field: {event.keys()}")
+            return False
             
-        return end_date > datetime.now(pytz.utc)
-        
+        if start_time.tzinfo is None:
+            start_time = pytz.utc.localize(start_time)
+            
+        return start_time > datetime.now(pytz.utc)
     except Exception as e:
-        print(f"Error parsing date for event {event.get('id')}: {e}")
-        return False  # Exclude events with invalid dates
+        logging.error(f"Could not parse event start time: {event.get('start_time', event.get('start', 'Unknown'))} - {e}")
+        return False
 
 def main():
+    """Main function to run the ICS scraper"""
+    logging.info("Starting ICS calendar processing...")
+    
+    if not isinstance(ICS_CALENDARS, list):
+        logging.error("ICS_CALENDARS is not a list. Please check calendar_configs.py")
+        return []
+    
     all_events = []
-    # Try to load existing events first
+    
+    # Iterate over each calendar configuration
+    for cal_info in ICS_CALENDARS:
+        try:
+            community_id = cal_info.get('community_id')
+            ics_url = cal_info.get('url')
+            cal_name = cal_info.get('name', 'Unknown')
+
+            if not community_id or not ics_url:
+                logging.warning(f"Skipping calendar '{cal_name}' due to missing 'community_id' or 'url'.")
+                continue
+        
+        logging.info(f"Processing calendar for community: {community_id}")
+        
+            # Fetch events from the ICS feed
+            luma_events = get_luma_events(ics_url)
+        
+            # Convert and filter for future events
+            future_events = [
+                convert_ics_event(event, community_id)
+                for event in luma_events
+                if is_future_event(event)
+            ]
+            
+            all_events.extend(future_events)
+            logging.info(f"Found {len(future_events)} future events for {community_id}")
+
+        except Exception as e:
+            logging.error(f"Failed to process calendar '{cal_info.get('name', 'Unknown')}': {e}")
+            continue
+            
+    # Save the combined list of events
+    output_path = os.path.join(OUTPUT_DATA_DIR, 'ics_events.json')
     try:
-        output_file = os.path.join(OUTPUT_DATA_DIR, 'ics_calendar_events.json') # Use OUTPUT_DATA_DIR
-        if os.path.exists(output_file):
-            with open(output_file, 'r') as f:
-                existing_data = json.load(f)
-            all_events = existing_data.get('events', [])
-            logging.info(f"Loaded {len(all_events)} existing events from {output_file}")
-    except Exception as e:
-        logging.error(f"Error loading existing events: {e}")
-    
-    for calendar_name, calendar_config in ICS_CALENDARS.items():
-        logging.info(f"Fetching events for {calendar_name}")
-        calendar_events = get_luma_events(calendar_config["id"])
-        if calendar_events:
-            converted_events = [convert_ics_event(event, calendar_config["community_id"]) for event in calendar_events]
-            all_events.extend(converted_events)
-            logging.info(f"Fetched {len(converted_events)} events from {calendar_name}")
-        else:
-            logging.warning(f"No events fetched from {calendar_name}")
-    
-    # Filter out past events
-    filtered_events = [event for event in all_events if is_future_event(event)]
-    
-    # Save all fetched events
-    output = {"events": filtered_events}
-    
-    # Create data directory if it doesn't exist
-    os.makedirs(OUTPUT_DATA_DIR, exist_ok=True) # Use OUTPUT_DATA_DIR
-    
-    output_file = os.path.join(OUTPUT_DATA_DIR, 'ics_calendar_events.json') # Use OUTPUT_DATA_DIR
-    
-    with open(output_file, 'w', encoding='utf-8') as f:
-        json.dump(output, f, indent=2, ensure_ascii=False)
-    logging.info(f"Saved {len(filtered_events)} events to {output_file}")
-    return output_file
+        os.makedirs(os.path.dirname(output_path), exist_ok=True)
+        with open(output_path, 'w', encoding='utf-8') as f:
+            json.dump(all_events, f, indent=2, default=str)
+        logging.info(f"Successfully saved {len(all_events)} events to {output_path}")
+            except Exception as e:
+        logging.error(f"Error saving events to {output_path}: {e}")
+
+    return output_path
 
 if __name__ == "__main__":
     main() 
