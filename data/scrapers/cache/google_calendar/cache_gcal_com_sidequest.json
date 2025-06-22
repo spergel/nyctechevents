@@ -1,0 +1,52 @@
+{
+  "events": [
+    {
+      "id": "evt_gcal_com_sidequest_0fb712ea",
+      "name": "SideQuest #25: We're soooo back \ud83d\ude80",
+      "type": "technology",
+      "locationId": "",
+      "communityId": "com_sidequest",
+      "description": "\u200b\u200b\u200bCome join us for a chill afternoon dedicated to your sidequests!Whether it's writing, painting, coding that new app, or literally any other \u201cSideQuest\u201d you\u2019ve been putting off, this is your space to create. This isn\u2019t about 'work' in the traditional sense\u2014it's about crafting something meaningful to you, free from pressure.\u200b\u200bWe'll have focused work sessions to help you make real progress, all set to the backdrop of some lo-fi, balanced with breaks to reset, unblock each other, and mingle with other creators.\u200b\u200bRough Agenda\u200b\u200b2:00 PM - 2:30 PM: Introductions and Intention Sharing\u200b\u200b2:30 PM - 3:45 PM: Deep Focus Session 1\u200b\u200b3:45 PM - 4:15 PM: Break\u200b\u200b4:15 PM - 5:30 PM: Deep Focus Session 2\u200b\u200b5:30 PM - 6:00 PM: if you wanna share your work, we\u2019d love to see it! If not, that\u2019s cool, too!\u200b\u200b6:00 PM: Optional hangout afterward :)*please plan on staying for the whole duration to avoid disrupting the quiet work periods\u200b\u200b**thank you tofractal techfor hosting us! and thank you to our friends atPurdueHackers,CozySundaysandSocraticafor seeding the idea!___________________AboutSideQuest:We host coworking sessions biweekly! Subscribe to our events calendar if you can\u2019t make this one :)",
+      "startDate": "2025-06-29T18:00:00Z",
+      "endDate": "2025-06-29T22:00:00Z",
+      "category": [
+        "technology",
+        "science",
+        "research",
+        "society"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": [],
+      "image": "events/luma-event-afbcf6ff.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://lu.ma/um0ccf1q",
+        "original_event_id": "_clr78bbld953gkjg8p6jajqqetq76ea0clr6arjkecn6ot9edlgg",
+        "organizer": {
+          "name": "SideQuest",
+          "instagram": "",
+          "email": "abln66abl799vb4gprllu4225l744l70@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "https://lu.ma/e/evt-ujJ8RpFM5OZwts9",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": true,
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmJsZDk1M2dramc4cDZqYWpxcWV0cTc2ZWEwY2xyNmFyamtlY242b3Q5ZWRsZ2cgYWJsbjY2YWJsNzk5dmI0Z3BybGx1NDIyNWw3NDRsNzBAaQ"
+      }
+    }
+  ],
+  "timestamp": "2025-06-22T15:01:05.399763"
+}

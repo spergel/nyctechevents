@@ -128,6 +128,7 @@ export default function CommunitiesClient() {
           systemId="COM-FIL-001"
           isOpen={isFilterDialogOpen}
           onClose={() => setIsFilterDialogOpen(false)}
+          onApply={() => setIsFilterDialogOpen(false)}
           filterGroups={filterGroups}
           resultCount={filteredCommunities.length}
           onClearAll={() => setSelectedTypes([])}

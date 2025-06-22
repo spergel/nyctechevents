@@ -153,6 +153,7 @@ export default function LocationsClient() {
           systemId="LOC-FIL-001"
           isOpen={isFilterDialogOpen}
           onClose={() => setIsFilterDialogOpen(false)}
+          onApply={() => setIsFilterDialogOpen(false)}
           filterGroups={filterGroups}
           resultCount={filteredLocations.length}
           onClearAll={clearAllFilters}

@@ -1,0 +1,710 @@
+{
+  "events": [
+    {
+      "id": "evt_gcal_com_fractal_6bb32977",
+      "name": "NYC Code and Coffee 74 at Fractal Tech Hub: Williamsburg",
+      "type": "tech",
+      "locationId": "",
+      "communityId": "com_fractal",
+      "description": "Find more information on https://lu.ma/nyc-tech",
+      "startDate": "2025-06-22T18:00:00Z",
+      "endDate": "2025-06-22T21:00:00Z",
+      "category": [
+        "tech",
+        "startup",
+        "innovation",
+        "education"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": [],
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://lu.ma/nyc-tech",
+        "original_event_id": "_cdgmopbm5lrleha8dhalgrq2e91n4lb8ch06atj5dpq76bjcekn6qo8",
+        "organizer": {
+          "name": "Fractal Tech: NYC",
+          "instagram": "",
+          "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "https://www.meetup.com/new-york-code-coffee/events/308415569",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": true,
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2NkZ21vcGJtNWxybGVoYThkaGFsZ3JxMmU5MW40bGI4Y2gwNmF0ajVkcHE3NmJqY2VrbjZxbzggdDN2MnJzb3VmZmZsMjA2amgxMDJ0dmEzamVla2ZnbWVAaQ"
+      }
+    },
+    {
+      "id": "evt_gcal_com_fractal_08fcb7e1",
+      "name": "Buildhub #6 - Experience Manufacturing",
+      "type": "tech",
+      "locationId": "loc_fractal",
+      "communityId": "com_fractal",
+      "description": "\u200bWanna see what it means to make something in the USA?\u200b\u200b\u200bHI! I'mSuraj Kumarand I can expose you how to manufacturing in 5 days. I was the Chief Engineer of Sherpy, a drone startup that manufactured small, long-range airplanes for commercial delivery (sherpymedia.com). I now founded a neurotech startup (Cerelog.com).\u200bThere are a lot of visionaries and hackers around in New York City, but materializing an idea can be quite the wall to climb! What goes into making something reliably and repeatedly while maintaining quality?\u200bThis is a field trip to a machine shop in LIC run by Zach Mandell ofZinala. Heavy on theory, heavy on practice!WHAT YOU'LL DO\u200bLearn what a shop looks like\u200bOrganize a shop accordingly\u200bFix particular processes\u200bOptimize whatever can be optimized\u200bDETAILS\u200bFIVE DAY workshop\u200bMon - Fri\u200bProfessional guidance from experienced engineer\u200bGo to an actual shop making stuff\u200bREGISTRATION\u200b$ 75 / person, pay in person, potentiality for waiver\u200bLimited spots available\u200bReserve your seat today!\u200bYour host:\u200bSuraj Kumar, Mechanical Engineer with years of Fusion360 experience\u200b\u200b\u200b\u200b\u200b\u200b*thank you tofractal techfor hosting us!*Contact at surajratnam99@gmail.com",
+      "startDate": "2025-06-24T22:00:00Z",
+      "endDate": "2025-06-25T01:00:00Z",
+      "category": [
+        "tech",
+        "startup",
+        "innovation",
+        "education"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": [],
+      "image": "events/luma-event-5de4eca6.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://lu.ma/25dyp0sq",
+        "original_event_id": "_clr78baqcdpn6ghme9hmoe9gclkl2ki0clr6arjkecn6ot9edlgg",
+        "organizer": {
+          "name": "Fractal Tech: NYC",
+          "instagram": "",
+          "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "Fractal Tech",
+          "address": "111 Conselyea St, Brooklyn, NY 11211",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": true,
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmFxY2RwbjZnaG1lOWhtb2U5Z2Nsa2wya2kwY2xyNmFyamtlY242b3Q5ZWRsZ2cgdDN2MnJzb3VmZmZsMjA2amgxMDJ0dmEzamVla2ZnbWVAaQ"
+      }
+    },
+    {
+      "id": "evt_gcal_com_fractal_5124592d",
+      "name": "Learn 80% of SQL in 4 Hours (Cohort 1, Session 2)",
+      "type": "tech",
+      "locationId": "loc_fractal",
+      "communityId": "com_fractal",
+      "description": "\u200b\u200bThe vast majority of data in the world is stored in a relational database, and SQL is the key to accessing it. In this 2-part beginner course, we will make you comfortable with the foundations of SQL, from projections and filtering to aggregations and joins, with lots of hands-on practice throughout.",
+      "startDate": "2025-06-24T23:00:00Z",
+      "endDate": "2025-06-25T01:00:00Z",
+      "category": [
+        "tech",
+        "startup",
+        "innovation",
+        "education"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": [],
+      "image": "events/luma-event-d8337d05.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://lu.ma/aaespg7v",
+        "original_event_id": "_clr78ba3cllk8da49ll4ukrbchomuca0clr6arjkecn6ot9edlgg",
+        "organizer": {
+          "name": "Fractal Tech: NYC",
+          "instagram": "",
+          "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "Fractal Tech",
+          "address": "111 Conselyea St, Brooklyn, NY 11211",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": true,
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmEzY2xsazhkYTQ5bGw0dWtyYmNob211Y2EwY2xyNmFyamtlY242b3Q5ZWRsZ2cgdDN2MnJzb3VmZmZsMjA2amgxMDJ0dmEzamVla2ZnbWVAaQ"
+      }
+    },
+    {
+      "id": "evt_gcal_com_fractal_169b4562",
+      "name": "Make Your Own 3D Models: Blender and 3D Printing",
+      "type": "tech",
+      "locationId": "loc_fractal",
+      "communityId": "com_fractal",
+      "description": "\u200bFractal University class on 3d Modeling and Printing. Details here:https://www.notion.so/Make-Your-Own-3D-Models-Blender-and-3D-Printing-1e8c2ad10be980429e2dd66d94ebc1e6?pvs=4",
+      "startDate": "2025-06-25T22:30:00Z",
+      "endDate": "2025-06-26T00:30:00Z",
+      "category": [
+        "tech",
+        "startup",
+        "innovation",
+        "education"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": [],
+      "image": "events/luma-event-74ca1619.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://lu.ma/s7ilr0ny",
+        "original_event_id": "_clr78ba86hl6eh21f1jlitqqdhingk20clr6arjkecn6ot9edlgg",
+        "organizer": {
+          "name": "Fractal Tech: NYC",
+          "instagram": "",
+          "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "Fractal Tech",
+          "address": "111 Conselyea St, Brooklyn, NY 11211",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": true,
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmE4NmhsNmVoMjFmMWpsaXRxcWRoaW5nazIwY2xyNmFyamtlY242b3Q5ZWRsZ2cgdDN2MnJzb3VmZmZsMjA2amgxMDJ0dmEzamVla2ZnbWVAaQ"
+      }
+    },
+    {
+      "id": "evt_gcal_com_fractal_00f1a6be",
+      "name": "Learn 80% of SQL in 4 Hours (Cohort 2, Session 2)",
+      "type": "tech",
+      "locationId": "loc_fractal",
+      "communityId": "com_fractal",
+      "description": "\u200b\u200bThe vast majority of data in the world is stored in a relational database, and SQL is the key to accessing it. In this 2-part beginner course, we will make you comfortable with the foundations of SQL, from projections and filtering to aggregations and joins, with lots of hands-on practice throughout.",
+      "startDate": "2025-06-25T23:00:00Z",
+      "endDate": "2025-06-26T01:00:00Z",
+      "category": [
+        "tech",
+        "startup",
+        "innovation",
+        "education"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": [],
+      "image": "events/luma-event-5f8b85d1.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://lu.ma/tfl9lrsl",
+        "original_event_id": "_clr78bakdhrmop2ccks36tbba983cii0clr6arjkecn6ot9edlgg",
+        "organizer": {
+          "name": "Fractal Tech: NYC",
+          "instagram": "",
+          "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "Fractal Tech",
+          "address": "111 Conselyea St, Brooklyn, NY 11211",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": true,
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmFrZGhybW9wMmNja3MzNnRiYmE5ODNjaWkwY2xyNmFyamtlY242b3Q5ZWRsZ2cgdDN2MnJzb3VmZmZsMjA2amgxMDJ0dmEzamVla2ZnbWVAaQ"
+      }
+    },
+    {
+      "id": "evt_gcal_com_fractal_9d7f19dc",
+      "name": "O&O Meetup: Show off how you talk to Claude",
+      "type": "tech",
+      "locationId": "loc_fractal",
+      "communityId": "com_fractal",
+      "description": "\u200bFor this meetup, we\u2019re going to try something a bit more practical and hands-on.\u200bThis is a chance to learn from each other and show off how you use LLMs to enhance productivity, well-being, or anything else you care about.\u200bAttendees can come up and do a quick 5-minute demo of their preferred use case. If you'd like to present, please submit ideas here:https://cloutcareers.typeform.com/to/NJDt6WMOWe'll also walk to get a round of drinks at Radegast after.",
+      "startDate": "2025-06-26T22:30:00Z",
+      "endDate": "2025-06-27T01:30:00Z",
+      "category": [
+        "tech",
+        "startup",
+        "innovation",
+        "education"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": [],
+      "image": "events/luma-event-5cadd201.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://lu.ma/duiqldui",
+        "original_event_id": "_clr78ba76hqmksj78l94cqbf7173agi0clr6arjkecn6ot9edlgg",
+        "organizer": {
+          "name": "Fractal Tech: NYC",
+          "instagram": "",
+          "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "Fractal Tech",
+          "address": "111 Conselyea St, Brooklyn, NY 11211",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": true,
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmE3NmhxbWtzajc4bDk0Y3FiZjcxNzNhZ2kwY2xyNmFyamtlY242b3Q5ZWRsZ2cgdDN2MnJzb3VmZmZsMjA2amgxMDJ0dmEzamVla2ZnbWVAaQ"
+      }
+    },
+    {
+      "id": "evt_gcal_com_fractal_80e417db",
+      "name": "HCI Lightning Talks",
+      "type": "tech",
+      "locationId": "",
+      "communityId": "com_fractal",
+      "description": "Get up-to-date information at: https://lu.ma/7b5c7ehv\n\nAddress:\nLounge\n\nHosted by Parth Agrawal",
+      "startDate": "2025-06-27T15:00:00Z",
+      "endDate": "2025-06-27T15:30:00Z",
+      "category": [
+        "tech",
+        "startup",
+        "innovation",
+        "education"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": [],
+      "image": "events/luma-event-68bb5407.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://lu.ma/7b5c7ehv",
+        "original_event_id": "_clr78bb3dln5kubmacp5eh9lc95k4u20clr6arjkecn6ot9edlgg",
+        "organizer": {
+          "name": "Fractal Tech: NYC",
+          "instagram": "",
+          "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "Lounge",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": true,
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmIzZGxuNWt1Ym1hY3A1ZWg5bGM5NWs0dTIwY2xyNmFyamtlY242b3Q5ZWRsZ2cgdDN2MnJzb3VmZmZsMjA2amgxMDJ0dmEzamVla2ZnbWVAaQ"
+      }
+    },
+    {
+      "id": "evt_gcal_com_fractal_b03e8006",
+      "name": "Fractal Tech Brunch",
+      "type": "tech",
+      "locationId": "loc_fractal",
+      "communityId": "com_fractal",
+      "description": "\u200bThis week come for brunch and help the community (and Regan!) by organizing the Room of Requirement.",
+      "startDate": "2025-06-29T14:00:00Z",
+      "endDate": "2025-06-29T17:00:00Z",
+      "category": [
+        "tech",
+        "startup",
+        "innovation",
+        "education"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": [],
+      "image": "events/luma-event-057eeac2.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://lu.ma/mh6c6oq9",
+        "original_event_id": "_clr78bb491qmqr24eh152r2le1s6mki0clr6arjkecn6ot9edlgg",
+        "organizer": {
+          "name": "Fractal Tech: NYC",
+          "instagram": "",
+          "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "Fractal Tech",
+          "address": "111 Conselyea St, Brooklyn, NY 11211",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": true,
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmI0OTFxbXFyMjRlaDE1MnIybGUxczZta2kwY2xyNmFyamtlY242b3Q5ZWRsZ2cgdDN2MnJzb3VmZmZsMjA2amgxMDJ0dmEzamVla2ZnbWVAaQ"
+      }
+    },
+    {
+      "id": "evt_gcal_com_fractal_0fb712ea",
+      "name": "SideQuest #25: We're soooo back \ud83d\ude80",
+      "type": "tech",
+      "locationId": "",
+      "communityId": "com_fractal",
+      "description": "\u200b\u200b\u200bCome join us for a chill afternoon dedicated to your sidequests!Whether it's writing, painting, coding that new app, or literally any other \u201cSideQuest\u201d you\u2019ve been putting off, this is your space to create. This isn\u2019t about 'work' in the traditional sense\u2014it's about crafting something meaningful to you, free from pressure.\u200b\u200bWe'll have focused work sessions to help you make real progress, all set to the backdrop of some lo-fi, balanced with breaks to reset, unblock each other, and mingle with other creators.\u200b\u200bRough Agenda\u200b\u200b2:00 PM - 2:30 PM: Introductions and Intention Sharing\u200b\u200b2:30 PM - 3:45 PM: Deep Focus Session 1\u200b\u200b3:45 PM - 4:15 PM: Break\u200b\u200b4:15 PM - 5:30 PM: Deep Focus Session 2\u200b\u200b5:30 PM - 6:00 PM: if you wanna share your work, we\u2019d love to see it! If not, that\u2019s cool, too!\u200b\u200b6:00 PM: Optional hangout afterward :)*please plan on staying for the whole duration to avoid disrupting the quiet work periods\u200b\u200b**thank you tofractal techfor hosting us! and thank you to our friends atPurdueHackers,CozySundaysandSocraticafor seeding the idea!___________________AboutSideQuest:We host coworking sessions biweekly! Subscribe to our events calendar if you can\u2019t make this one :)",
+      "startDate": "2025-06-29T18:00:00Z",
+      "endDate": "2025-06-29T22:00:00Z",
+      "category": [
+        "tech",
+        "startup",
+        "innovation",
+        "education"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": [],
+      "image": "events/luma-event-afbcf6ff.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://lu.ma/um0ccf1q",
+        "original_event_id": "_clr78bbld953gkjg8p6jajqqetq76ea0clr6arjkecn6ot9edlgg",
+        "organizer": {
+          "name": "Fractal Tech: NYC",
+          "instagram": "",
+          "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "https://lu.ma/e/evt-ujJ8RpFM5OZwts9",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": true,
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmJsZDk1M2dramc4cDZqYWpxcWV0cTc2ZWEwY2xyNmFyamtlY242b3Q5ZWRsZ2cgdDN2MnJzb3VmZmZsMjA2amgxMDJ0dmEzamVla2ZnbWVAaQ"
+      }
+    },
+    {
+      "id": "evt_gcal_com_fractal_07647c4d",
+      "name": "NYC Rabbitholes \ud83d\udc07\ud83d\udd73\ufe0f",
+      "type": "tech",
+      "locationId": "loc_fractal",
+      "communityId": "com_fractal",
+      "description": "\u200bJoin us for an evening of quiet rabbitholing! Dive into a topic of choice and share about it afterward.\u200bNo requirements other than an interest in something. Treat this as a coworking session, an opportunity to dive into a topic you've always wanted to learn more about (color theory, optics, a new language, John Rawls, etc. etc.), or built-in time to flesh out a passion project. The only requirement that it has to be a side project (i.e. not your day-to-day work).\u200bWe'll have snacks!\u200bRough schedule is:06:30-06:45: people arrive, set up06:45-07:45: work time07:45-08:00: quick break08:00-09:00: work time09:00-09:30: sharing session for those who feel inclined!\u200bThis event is supported byRabbitholeathon, a weekend-long retreat for technologists to do a deep dive into a subject that interests them, and trade ideas with others.",
+      "startDate": "2025-07-02T22:30:00Z",
+      "endDate": "2025-07-03T01:30:00Z",
+      "category": [
+        "tech",
+        "startup",
+        "innovation",
+        "education"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": [],
+      "image": "events/luma-event-4b29c97d.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://lu.ma/x3itmdbw",
+        "original_event_id": "_clr78bane0o50rhketgmsl22f8rl4la0clr6arjkecn6ot9edlgg",
+        "organizer": {
+          "name": "Fractal Tech: NYC",
+          "instagram": "",
+          "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "Fractal Tech",
+          "address": "111 Conselyea St, Brooklyn, NY 11211",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": true,
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmFuZTBvNTByaGtldGdtc2wyMmY4cmw0bGEwY2xyNmFyamtlY242b3Q5ZWRsZ2cgdDN2MnJzb3VmZmZsMjA2amgxMDJ0dmEzamVla2ZnbWVAaQ"
+      }
+    },
+    {
+      "id": "evt_gcal_com_fractal_c8555c27",
+      "name": "Make Your Own 3D Models: Blender and 3D Printing",
+      "type": "tech",
+      "locationId": "loc_fractal",
+      "communityId": "com_fractal",
+      "description": "\u200bFractal University class on 3d Modeling and Printing. Details here:https://www.notion.so/Make-Your-Own-3D-Models-Blender-and-3D-Printing-1e8c2ad10be980429e2dd66d94ebc1e6?pvs=4",
+      "startDate": "2025-07-02T22:30:00Z",
+      "endDate": "2025-07-03T02:30:00Z",
+      "category": [
+        "tech",
+        "startup",
+        "innovation",
+        "education"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": [],
+      "image": "events/luma-event-7a93f95c.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://lu.ma/an1omif2",
+        "original_event_id": "_clr78bbjeti32drgdpm64j3n88q7adq0clr6arjkecn6ot9edlgg",
+        "organizer": {
+          "name": "Fractal Tech: NYC",
+          "instagram": "",
+          "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "Fractal Tech",
+          "address": "111 Conselyea St, Brooklyn, NY 11211",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": true,
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmJqZXRpMzJkcmdkcG02NGozbjg4cTdhZHEwY2xyNmFyamtlY242b3Q5ZWRsZ2cgdDN2MnJzb3VmZmZsMjA2amgxMDJ0dmEzamVla2ZnbWVAaQ"
+      }
+    },
+    {
+      "id": "evt_gcal_com_fractal_8f259526",
+      "name": "Selvedge Book Launch & Exhibit",
+      "type": "tech",
+      "locationId": "loc_fractal",
+      "communityId": "com_fractal",
+      "description": "\u200bSelvedge: Woven Histories Behind the Seamsis a research journey into the artisan textiles of Indian high fashion by author Riya Goel.\u200bCome celebrate the book's release as a limited digital edition in collaboration with Alexandria Editions!\u200bFeaturing images, limited edition prints, and textile samples to explore.",
+      "startDate": "2025-07-08T22:30:00Z",
+      "endDate": "2025-07-09T00:30:00Z",
+      "category": [
+        "tech",
+        "startup",
+        "innovation",
+        "education"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": [],
+      "image": "events/luma-event-37ddbcc1.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://lu.ma/ktsxanug",
+        "original_event_id": "_clr78ba8ahrlghrfahll0dbactml4k20clr6arjkecn6ot9edlgg",
+        "organizer": {
+          "name": "Fractal Tech: NYC",
+          "instagram": "",
+          "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "Fractal Tech",
+          "address": "111 Conselyea St, Brooklyn, NY 11211",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": true,
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmE4YWhybGdocmZhaGxsMGRiYWN0bWw0azIwY2xyNmFyamtlY242b3Q5ZWRsZ2cgdDN2MnJzb3VmZmZsMjA2amgxMDJ0dmEzamVla2ZnbWVAaQ"
+      }
+    },
+    {
+      "id": "evt_gcal_com_fractal_09a204fb",
+      "name": "Make Your Own 3D Models: Blender and 3D Printing",
+      "type": "tech",
+      "locationId": "loc_fractal",
+      "communityId": "com_fractal",
+      "description": "\u200bFractal University class on 3d Modeling and Printing. Details here:https://www.notion.so/Make-Your-Own-3D-Models-Blender-and-3D-Printing-1e8c2ad10be980429e2dd66d94ebc1e6?pvs=4",
+      "startDate": "2025-07-09T22:30:00Z",
+      "endDate": "2025-07-10T00:30:00Z",
+      "category": [
+        "tech",
+        "startup",
+        "innovation",
+        "education"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": [],
+      "image": "events/luma-event-a5fdbe21.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://lu.ma/gnlrklzp",
+        "original_event_id": "_clr78b9gb5akqt389p1n6sbof516uoq0clr6arjkecn6ot9edlgg",
+        "organizer": {
+          "name": "Fractal Tech: NYC",
+          "instagram": "",
+          "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "Fractal Tech",
+          "address": "111 Conselyea St, Brooklyn, NY 11211",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": true,
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YjlnYjVha3F0Mzg5cDFuNnNib2Y1MTZ1b3EwY2xyNmFyamtlY242b3Q5ZWRsZ2cgdDN2MnJzb3VmZmZsMjA2amgxMDJ0dmEzamVla2ZnbWVAaQ"
+      }
+    },
+    {
+      "id": "evt_gcal_com_fractal_d79ce170",
+      "name": "NYC Code and Coffee 76 at Fractal Tech Hub: Williamsburg",
+      "type": "tech",
+      "locationId": "",
+      "communityId": "com_fractal",
+      "description": "Find more information on https://lu.ma/nyc-tech",
+      "startDate": "2025-07-20T18:00:00Z",
+      "endDate": "2025-07-20T21:00:00Z",
+      "category": [
+        "tech",
+        "startup",
+        "innovation",
+        "education"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": [],
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://lu.ma/nyc-tech",
+        "original_event_id": "_cdgmopbm5l2mcuj99h246gre6lj4uk349l06atj5dpq76bjcekn6qo8",
+        "organizer": {
+          "name": "Fractal Tech: NYC",
+          "instagram": "",
+          "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "https://www.meetup.com/new-york-code-coffee/",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": true,
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2NkZ21vcGJtNWwybWN1ajk5aDI0NmdyZTZsajR1azM0OWwwNmF0ajVkcHE3NmJqY2VrbjZxbzggdDN2MnJzb3VmZmZsMjA2amgxMDJ0dmEzamVla2ZnbWVAaQ"
+      }
+    },
+    {
+      "id": "evt_gcal_com_fractal_20544458",
+      "name": "LLM Feedback Loops || Voice AI Hackathon",
+      "type": "tech",
+      "locationId": "loc_fractal",
+      "communityId": "com_fractal",
+      "description": "\u200bOverviewJoin us for a hackathon focused on advancing Voice AI through intelligent feedback loops and evaluation systems. UsingElevenLabs\u2019 voice synthesis and LLMs, we\u2019ll build adaptive voice agents that can self-diagnose and improve their own system prompts over time.\u200bEvaluating LLM systems is a major challenge\u2014and we're tackling it head-on. Whether for interviews, data collection, or dynamic conversations, let\u2019screate voice agentsthat don\u2019t just talk, butcontinuously self-improve.Who Should Join?Engineers, prompt designers, LLM researchers, UX thinkers, conversation designers, and anyone curious about voice interfaces and AI feedback loops.Come with a project idea, or find collaborators at the event. Solo? We'll help with team formation after kickoff.Examples:\u200bExpert Interviewer:A voice agent that questions domain experts to capture both quantitative metrics and rich qualitative insights, then refines its questioning strategy through feedback\u2011driven prompt tuning.\u200bLearning Buddy:A voice companion that adapts tone, pacing, and complexity to the user\u2019s comprehension level\u2014self\u2011diagnosing and improving its system prompts from interaction history.\u200b\u200bSponsorsElevenLabs\u2013 Voice AI reimagined.PrizesTBD\u200b\u200bJudgingTBDJudgesTobias Hanl (Rilla)\u200b\u200bSchedule\u200b\u200b8:30am- Doors Open (coffee, mingle)\u200b\u200b9:30am- Hackathon Starts (talks)\u200b\u200b10:00am- Team Assignments, Coding Begins\u200b\u200b1:00pm- Lunch\u200b\u200b5:00pm- Submissions\u200b\u200b5:30pm- Pitches\u200b\u200b6:00pm- Judging & Prizes\u200bContact ushere.",
+      "startDate": "2025-07-26T13:00:00Z",
+      "endDate": "2025-07-26T22:30:00Z",
+      "category": [
+        "tech",
+        "startup",
+        "innovation",
+        "education"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": [],
+      "image": "events/luma-event-4beeec5c.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://lu.ma/k71rncxx",
+        "original_event_id": "_clr78ba885a6em2l9dpkkgr7f4plgii0clr6arjkecn6ot9edlgg",
+        "organizer": {
+          "name": "Fractal Tech: NYC",
+          "instagram": "",
+          "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "Fractal Tech",
+          "address": "111 Conselyea St, Brooklyn, NY 11211",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": true,
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmE4ODVhNmVtMmw5ZHBra2dyN2Y0cGxnaWkwY2xyNmFyamtlY242b3Q5ZWRsZ2cgdDN2MnJzb3VmZmZsMjA2amgxMDJ0dmEzamVla2ZnbWVAaQ"
+      }
+    }
+  ],
+  "timestamp": "2025-06-22T15:00:58.450835"
+}

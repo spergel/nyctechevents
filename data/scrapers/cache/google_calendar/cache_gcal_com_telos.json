@@ -1,0 +1,1083 @@
+{
+  "events": [
+    {
+      "id": "evt_gcal_com_telos_fbed2fc5",
+      "name": "TWA: Total Work of Art",
+      "type": "tech",
+      "locationId": "loc_telos",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2025-06-22T12:00:00-04:00",
+      "endDate": "2025-06-22T16:00:00-04:00",
+      "category": [
+        "tech",
+        "art",
+        "community",
+        "workshops",
+        "events",
+        "co-working"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": null,
+      "tags": [],
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://telos.haus",
+        "original_event_id": "96hjnq6f45q4o83obgetvg3aoj_20250622T160000Z",
+        "organizer": {
+          "name": "telos.haus events",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "Telos",
+          "address": "181 Wyckoff Ave, Brooklyn, NY 11237",
+          "type": "Community Space"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false,
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=OTZoam5xNmY0NXE0bzgzb2JnZXR2ZzNhb2pfMjAyNTA2MjJUMTYwMDAwWiBkNTk2YzJiZjcyMTE4M2QyMmJiNTBiZGU2NjI1MDkwZmMzOTIzYWEyOWE2OTE4ZDc4NDA5ZTE2OGRhNzkxNzY5QGc"
+      }
+    },
+    {
+      "id": "evt_gcal_com_telos_b2852216",
+      "name": "telos 1yr anniversary party byob",
+      "type": "tech",
+      "locationId": "loc_telos",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2025-06-22T17:00:00-04:00",
+      "endDate": "2025-06-22T21:00:00-04:00",
+      "category": [
+        "tech",
+        "art",
+        "community",
+        "workshops",
+        "events",
+        "co-working"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": null,
+      "tags": [],
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://telos.haus",
+        "original_event_id": "7c3mbv05ghaoeh5eknmpgm1o43",
+        "organizer": {
+          "name": "telos.haus events",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "Telos",
+          "address": "181 Wyckoff Ave, Brooklyn, NY 11237",
+          "type": "Community Space"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false,
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=N2MzbWJ2MDVnaGFvZWg1ZWtubXBnbTFvNDMgZDU5NmMyYmY3MjExODNkMjJiYjUwYmRlNjYyNTA5MGZjMzkyM2FhMjlhNjkxOGQ3ODQwOWUxNjhkYTc5MTc2OUBn"
+      }
+    },
+    {
+      "id": "evt_gcal_com_telos_13b81c5c",
+      "name": "Viet Yoga and Pilates Night",
+      "type": "tech",
+      "locationId": "loc_telos",
+      "communityId": "com_telos",
+      "description": "\u200bVCS presents:Yoga and Pilates Night\u200bJoin us for an evening of Yoga Sculpt instructed byGabrielle Nguyen(@gabenoogen), hosted by theViet Creative Society(@vcs.nyc). Take some time for yourself, connect with others, and stretch out with a mix of Yoga and Pilates before the summer begins.\u200bWear something you can move in and BYOM - bring your own yoga mat.\u200bPost stretch there will be light snacks and electrolytes to replenish you.\u200b__________\u200b6:50PM - Arrive and chill out\u200b7:00PM - Yoga+Pilates\u200b7:50PM - Cooldown\u200b8:00PM - Mingle with electrolytes and light snacks\u200bSee you on the mat!__________\u200bMeet your instructor: Gabrielle (Gabby) Nguyen \u2728\u200b@gabenooge teaches yoga and Pilates, focusing on strength, connection, and self-empowerment. Outside of the studio, Gabby co-leads AZN AMERICANA, a platform supporting Asian women and femmes through events and mentorship.\u200b\u200b\u200b\u200bRegistering for this event grants permission to use photos from the event for marketing purposes and may include your name and email in the marketing emails for our partners and sponsors, including but not limited to, more information about this event, further marketing communications, and subscription to newsletters. You are able to unsubscribe directly from the email at any time if you do not wish to receive these emails.\u200b\u200b\u200b\u200b\u200bBy RSVPing and attending, you agree to these terms and waive any claims against VCS and event organizers.",
+      "startDate": "2025-06-23T19:00:00-04:00",
+      "endDate": "2025-06-23T20:30:00-04:00",
+      "category": [
+        "tech",
+        "art",
+        "community",
+        "workshops",
+        "events",
+        "co-working"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": [],
+      "image": "events/luma-event-82511c7e.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://lu.ma/begqyum5",
+        "original_event_id": "341r727qiqv9io5tdlsns456va",
+        "organizer": {
+          "name": "telos.haus events",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "Telos",
+          "address": "181 Wyckoff Ave, Brooklyn, NY 11237",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": true,
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=MzQxcjcyN3FpcXY5aW81dGRsc25zNDU2dmEgZDU5NmMyYmY3MjExODNkMjJiYjUwYmRlNjYyNTA5MGZjMzkyM2FhMjlhNjkxOGQ3ODQwOWUxNjhkYTc5MTc2OUBn"
+      }
+    },
+    {
+      "id": "evt_gcal_com_telos_6cfc90e2",
+      "name": "EDM Production 101",
+      "type": "tech",
+      "locationId": "loc_telos",
+      "communityId": "com_telos",
+      "description": "<p><b>Full details:</b>\u00a0<a href=\"https://davidshimel.notion.site/EDM-Production-101-Telos-Haus-Spring-2025-1c9cbe9e47b780379e9beb82f78f0a82\">https://davidshimel.notion.site/EDM-Production-101-Telos-Haus-Spring-2025-1c9cbe9e47b780379e9beb82f78f0a82</a></p><p><br></p><p>\ud83d\udccb APPLY HERE! \u2192 <a href=\"https://forms.gle/1qVxzcLxhaZQExpbA\" target=\"_blank\">https://forms.gle/1qVxzcLxhaZQExpbA</a></p><p>\ud83d\udc68\u200d\ud83c\udfeb Instructor: <a href=\"https://x.com/davidshimel\" target=\"_blank\">David Shimel</a></p><p>\ud83d\uddd3\u00a08 weeks, 1 class per week, on the following Tuesdays: April 29, May 6, 13, 20, 27, June 3, 17, 24 (note: no class June 10)</p><p>\ud83d\udd70\ufe0f\u00a02 hours per class, 6:30 - 8:30 PM ET</p><p>\ud83d\uddfa\u00a0Location: <a href=\"https://telos.haus/\" target=\"_blank\">telos.haus</a>, 303 Ten Eyck St, Brooklyn, NY 11206 (<a href=\"https://maps.app.goo.gl/VgNEWeHsNJL9ST158\" target=\"_blank\">map</a>)</p><p>\ud83d\udcb0\u00a0Tuition tiers: $500 (In-Person) or $250 (Remote). We also have some scholarships available, so if you\u2019re interested in potentially receiving financial aid, please fill out <a href=\"https://forms.gle/b4W6PV7EphzST7fK9\" target=\"_blank\">this form</a>. Protip: your employer may offer you a continuing education budget to spend on classes such as this one!</p><p>\ud83d\udc65\u00a0Enrollment: 20 students in-person, unlimited students remotely.</p><p>\ud83d\udca1Prerequisites: Nothing more than an interest in music :D</p><p>\u2702\ufe0f\ud83d\udcc3TL;DR: Want to learn how to produce your own electronic dance music (EDM) using <a href=\"https://www.ableton.com/\" target=\"_blank\">Ableton</a>? And then DJ it with <a href=\"https://mixxx.org/\" target=\"_blank\">Mixxx</a>?? Then <a href=\"https://forms.gle/1qVxzcLxhaZQExpbA\" target=\"_blank\">apply here</a> today!</p>",
+      "startDate": "2025-06-24T18:30:00-04:00",
+      "endDate": "2025-06-24T20:30:00-04:00",
+      "category": [
+        "tech",
+        "art",
+        "community",
+        "workshops",
+        "events",
+        "co-working"
+      ],
+      "price": {
+        "amount": 500.0,
+        "type": "Paid",
+        "currency": "USD",
+        "details": "See event description for pricing details"
+      },
+      "capacity": null,
+      "registrationRequired": null,
+      "tags": [],
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://telos.haus",
+        "original_event_id": "3npj2p69l8g531f3j4dkat8rui_20250624T223000Z",
+        "organizer": {
+          "name": "telos.haus events",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "Telos",
+          "address": "181 Wyckoff Ave, Brooklyn, NY 11237",
+          "type": "Community Space"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false,
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=M25wajJwNjlsOGc1MzFmM2o0ZGthdDhydWlfMjAyNTA2MjRUMjIzMDAwWiBkNTk2YzJiZjcyMTE4M2QyMmJiNTBiZGU2NjI1MDkwZmMzOTIzYWEyOWE2OTE4ZDc4NDA5ZTE2OGRhNzkxNzY5QGc"
+      }
+    },
+    {
+      "id": "evt_gcal_com_telos_14de3842",
+      "name": "4N Exchange: A Q&A with Immigration Lawyers",
+      "type": "tech",
+      "locationId": "loc_telos",
+      "communityId": "com_telos",
+      "description": "\u200bLooking for legal advice? Two of our trusted US immigration lawyers are\u00a0ready for\u00a0your questions about the visa process.\u200bJoin us Wednesday, June 25, from 7-9PM attelos.hausfor an intimate conversation on US visa hurdles and current immigration policies. Lawyers Tao Lin and Betty Huang will offer their expert legal advice for those navigating US Citizenship and Immigration Services.\u200bAttendees will have the opportunity to ask questions during the discussion or 1:1. You can also submit a question here when you RSVP.\u200bCome hungry!GaMaDiam Goodswill offer Taiwanese bites.\u200bThis is a free event, but space is limited! Please RSVP.\u200bAbout the lawyers:\u200bTao Lin is the founder ofTLA Lawand specializes in U.S. immigration and international affairs. He received his BA from the University of California, Los Angeles and his Master and Doctor of International Affairs from Johns Hopkins University. After receiving his J.D. from the University of Pittsburgh Law School, he was admitted to practice law in New York in 1997. He served as an advisor at the United Nations and a panel member of the New York City Bar\u2019s Immigration Legal Referral Service. He is also a co-author of the book \u201cA Guide to U.S Immigration & Visas.\u201d\u200bBetty Huangwas born and raised in NYC by Taiwanese immigrants. She received a BA in Political Science from Wellesley College and graduated from Brooklyn Law School in 2006. Betty represents individuals in assisting them to obtain legal permanent residency, non-immigrant visas, waivers of inadmissibility, and US citizenship. She has also represented clients in deportation/removal hearings in Immigration Court, and has worked with ICE officers in obtaining bond for clients who are detained.\u200b4N Exchange is a conversation series started by4N magazine. 4N is a community-based publication that acts as a platform for extraordinary foreign talent in America, promoting discourse on creative migration.@weare4n",
+      "startDate": "2025-06-25T19:00:00-04:00",
+      "endDate": "2025-06-25T21:00:00-04:00",
+      "category": [
+        "tech",
+        "art",
+        "community",
+        "workshops",
+        "events",
+        "co-working"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": [],
+      "image": "events/luma-event-831870d9.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://lu.ma/5szb6nku",
+        "original_event_id": "0iensvmma52s2nq20jommlg39h",
+        "organizer": {
+          "name": "telos.haus events",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "Telos",
+          "address": "181 Wyckoff Ave, Brooklyn, NY 11237",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": true,
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=MGllbnN2bW1hNTJzMm5xMjBqb21tbGczOWggZDU5NmMyYmY3MjExODNkMjJiYjUwYmRlNjYyNTA5MGZjMzkyM2FhMjlhNjkxOGQ3ODQwOWUxNjhkYTc5MTc2OUBn"
+      }
+    },
+    {
+      "id": "evt_gcal_com_telos_3586f5ed",
+      "name": "TWA: Total Work of Art",
+      "type": "tech",
+      "locationId": "loc_telos",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2025-06-26T19:00:00-04:00",
+      "endDate": "2025-06-26T21:00:00-04:00",
+      "category": [
+        "tech",
+        "art",
+        "community",
+        "workshops",
+        "events",
+        "co-working"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": null,
+      "tags": [],
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://telos.haus",
+        "original_event_id": "96hjnq6f45q4o83obgetvg3aoj_20250626T160000Z",
+        "organizer": {
+          "name": "telos.haus events",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "Telos",
+          "address": "181 Wyckoff Ave, Brooklyn, NY 11237",
+          "type": "Community Space"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false,
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=OTZoam5xNmY0NXE0bzgzb2JnZXR2ZzNhb2pfMjAyNTA2MjZUMTYwMDAwWiBkNTk2YzJiZjcyMTE4M2QyMmJiNTBiZGU2NjI1MDkwZmMzOTIzYWEyOWE2OTE4ZDc4NDA5ZTE2OGRhNzkxNzY5QGc"
+      }
+    },
+    {
+      "id": "evt_gcal_com_telos_866ea7f8",
+      "name": "Clara Joy Record Release Show",
+      "type": "tech",
+      "locationId": "loc_telos",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2025-06-27T20:00:00-04:00",
+      "endDate": "2025-06-28T00:30:00-04:00",
+      "category": [
+        "tech",
+        "art",
+        "community",
+        "workshops",
+        "events",
+        "co-working"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": null,
+      "tags": [],
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://telos.haus",
+        "original_event_id": "122rptg8pmndulkfj9jdblddec",
+        "organizer": {
+          "name": "telos.haus events",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "Telos",
+          "address": "181 Wyckoff Ave, Brooklyn, NY 11237",
+          "type": "Community Space"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false,
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=MTIycnB0ZzhwbW5kdWxrZmo5amRibGRkZWMgZDU5NmMyYmY3MjExODNkMjJiYjUwYmRlNjYyNTA5MGZjMzkyM2FhMjlhNjkxOGQ3ODQwOWUxNjhkYTc5MTc2OUBn"
+      }
+    },
+    {
+      "id": "evt_gcal_com_telos_f55009d5",
+      "name": "Booked for private event",
+      "type": "tech",
+      "locationId": "loc_telos",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2025-06-28T12:00:00-04:00",
+      "endDate": "2025-06-28T18:00:00-04:00",
+      "category": [
+        "tech",
+        "art",
+        "community",
+        "workshops",
+        "events",
+        "co-working"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": null,
+      "tags": [],
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://telos.haus",
+        "original_event_id": "0b66l7q0bniv8acum80vijr0hs",
+        "organizer": {
+          "name": "telos.haus events",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "Telos",
+          "address": "181 Wyckoff Ave, Brooklyn, NY 11237",
+          "type": "Community Space"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false,
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=MGI2Nmw3cTBibml2OGFjdW04MHZpanIwaHMgZDU5NmMyYmY3MjExODNkMjJiYjUwYmRlNjYyNTA5MGZjMzkyM2FhMjlhNjkxOGQ3ODQwOWUxNjhkYTc5MTc2OUBn"
+      }
+    },
+    {
+      "id": "evt_gcal_com_telos_4f9db039",
+      "name": "TWA: Total Work of Art",
+      "type": "tech",
+      "locationId": "loc_telos",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2025-06-29T12:00:00-04:00",
+      "endDate": "2025-06-29T16:00:00-04:00",
+      "category": [
+        "tech",
+        "art",
+        "community",
+        "workshops",
+        "events",
+        "co-working"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": null,
+      "tags": [],
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://telos.haus",
+        "original_event_id": "96hjnq6f45q4o83obgetvg3aoj_20250629T160000Z",
+        "organizer": {
+          "name": "telos.haus events",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "Telos",
+          "address": "181 Wyckoff Ave, Brooklyn, NY 11237",
+          "type": "Community Space"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false,
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=OTZoam5xNmY0NXE0bzgzb2JnZXR2ZzNhb2pfMjAyNTA2MjlUMTYwMDAwWiBkNTk2YzJiZjcyMTE4M2QyMmJiNTBiZGU2NjI1MDkwZmMzOTIzYWEyOWE2OTE4ZDc4NDA5ZTE2OGRhNzkxNzY5QGc"
+      }
+    },
+    {
+      "id": "evt_gcal_com_telos_c3d86cbf",
+      "name": "TWA: Total Work of Art",
+      "type": "tech",
+      "locationId": "loc_telos",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2025-07-03T19:00:00-04:00",
+      "endDate": "2025-07-03T21:00:00-04:00",
+      "category": [
+        "tech",
+        "art",
+        "community",
+        "workshops",
+        "events",
+        "co-working"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": null,
+      "tags": [],
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://telos.haus",
+        "original_event_id": "96hjnq6f45q4o83obgetvg3aoj_20250703T160000Z",
+        "organizer": {
+          "name": "telos.haus events",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "Telos",
+          "address": "181 Wyckoff Ave, Brooklyn, NY 11237",
+          "type": "Community Space"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false,
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=OTZoam5xNmY0NXE0bzgzb2JnZXR2ZzNhb2pfMjAyNTA3MDNUMTYwMDAwWiBkNTk2YzJiZjcyMTE4M2QyMmJiNTBiZGU2NjI1MDkwZmMzOTIzYWEyOWE2OTE4ZDc4NDA5ZTE2OGRhNzkxNzY5QGc"
+      }
+    },
+    {
+      "id": "evt_gcal_com_telos_4e56b0c8",
+      "name": "TWA: Total Work of Art",
+      "type": "tech",
+      "locationId": "loc_telos",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2025-07-06T12:00:00-04:00",
+      "endDate": "2025-07-06T16:00:00-04:00",
+      "category": [
+        "tech",
+        "art",
+        "community",
+        "workshops",
+        "events",
+        "co-working"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": null,
+      "tags": [],
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://telos.haus",
+        "original_event_id": "96hjnq6f45q4o83obgetvg3aoj_20250706T160000Z",
+        "organizer": {
+          "name": "telos.haus events",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "Telos",
+          "address": "181 Wyckoff Ave, Brooklyn, NY 11237",
+          "type": "Community Space"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false,
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=OTZoam5xNmY0NXE0bzgzb2JnZXR2ZzNhb2pfMjAyNTA3MDZUMTYwMDAwWiBkNTk2YzJiZjcyMTE4M2QyMmJiNTBiZGU2NjI1MDkwZmMzOTIzYWEyOWE2OTE4ZDc4NDA5ZTE2OGRhNzkxNzY5QGc"
+      }
+    },
+    {
+      "id": "evt_gcal_com_telos_e78cb2fd",
+      "name": "TWA: Total Work of Art",
+      "type": "tech",
+      "locationId": "loc_telos",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2025-07-10T19:00:00-04:00",
+      "endDate": "2025-07-10T21:00:00-04:00",
+      "category": [
+        "tech",
+        "art",
+        "community",
+        "workshops",
+        "events",
+        "co-working"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": null,
+      "tags": [],
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://telos.haus",
+        "original_event_id": "96hjnq6f45q4o83obgetvg3aoj_20250710T160000Z",
+        "organizer": {
+          "name": "telos.haus events",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "Telos",
+          "address": "181 Wyckoff Ave, Brooklyn, NY 11237",
+          "type": "Community Space"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false,
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=OTZoam5xNmY0NXE0bzgzb2JnZXR2ZzNhb2pfMjAyNTA3MTBUMTYwMDAwWiBkNTk2YzJiZjcyMTE4M2QyMmJiNTBiZGU2NjI1MDkwZmMzOTIzYWEyOWE2OTE4ZDc4NDA5ZTE2OGRhNzkxNzY5QGc"
+      }
+    },
+    {
+      "id": "evt_gcal_com_telos_5e8b5b37",
+      "name": "Hold for private event",
+      "type": "tech",
+      "locationId": "loc_telos",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2025-07-12T19:00:00-04:00",
+      "endDate": "2025-07-13T04:00:00-04:00",
+      "category": [
+        "tech",
+        "art",
+        "community",
+        "workshops",
+        "events",
+        "co-working"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": null,
+      "tags": [],
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://telos.haus",
+        "original_event_id": "67mte2ruml01721u3s7rh31hh7",
+        "organizer": {
+          "name": "telos.haus events",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "Telos",
+          "address": "181 Wyckoff Ave, Brooklyn, NY 11237",
+          "type": "Community Space"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false,
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=NjdtdGUycnVtbDAxNzIxdTNzN3JoMzFoaDcgZDU5NmMyYmY3MjExODNkMjJiYjUwYmRlNjYyNTA5MGZjMzkyM2FhMjlhNjkxOGQ3ODQwOWUxNjhkYTc5MTc2OUBn"
+      }
+    },
+    {
+      "id": "evt_gcal_com_telos_cd3b985a",
+      "name": "TWA: Total Work of Art",
+      "type": "tech",
+      "locationId": "loc_telos",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2025-07-13T12:00:00-04:00",
+      "endDate": "2025-07-13T16:00:00-04:00",
+      "category": [
+        "tech",
+        "art",
+        "community",
+        "workshops",
+        "events",
+        "co-working"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": null,
+      "tags": [],
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://telos.haus",
+        "original_event_id": "96hjnq6f45q4o83obgetvg3aoj_20250713T160000Z",
+        "organizer": {
+          "name": "telos.haus events",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "Telos",
+          "address": "181 Wyckoff Ave, Brooklyn, NY 11237",
+          "type": "Community Space"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false,
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=OTZoam5xNmY0NXE0bzgzb2JnZXR2ZzNhb2pfMjAyNTA3MTNUMTYwMDAwWiBkNTk2YzJiZjcyMTE4M2QyMmJiNTBiZGU2NjI1MDkwZmMzOTIzYWEyOWE2OTE4ZDc4NDA5ZTE2OGRhNzkxNzY5QGc"
+      }
+    },
+    {
+      "id": "evt_gcal_com_telos_98a8a279",
+      "name": "TWA: Total Work of Art",
+      "type": "tech",
+      "locationId": "loc_telos",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2025-07-17T19:00:00-04:00",
+      "endDate": "2025-07-17T21:00:00-04:00",
+      "category": [
+        "tech",
+        "art",
+        "community",
+        "workshops",
+        "events",
+        "co-working"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": null,
+      "tags": [],
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://telos.haus",
+        "original_event_id": "96hjnq6f45q4o83obgetvg3aoj_20250717T160000Z",
+        "organizer": {
+          "name": "telos.haus events",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "Telos",
+          "address": "181 Wyckoff Ave, Brooklyn, NY 11237",
+          "type": "Community Space"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false,
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=OTZoam5xNmY0NXE0bzgzb2JnZXR2ZzNhb2pfMjAyNTA3MTdUMTYwMDAwWiBkNTk2YzJiZjcyMTE4M2QyMmJiNTBiZGU2NjI1MDkwZmMzOTIzYWEyOWE2OTE4ZDc4NDA5ZTE2OGRhNzkxNzY5QGc"
+      }
+    },
+    {
+      "id": "evt_gcal_com_telos_06b6eff7",
+      "name": "tea.haus 003",
+      "type": "tech",
+      "locationId": "loc_telos",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2025-07-18T19:00:00-04:00",
+      "endDate": "2025-07-19T00:00:00-04:00",
+      "category": [
+        "tech",
+        "art",
+        "community",
+        "workshops",
+        "events",
+        "co-working"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": null,
+      "tags": [],
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://telos.haus",
+        "original_event_id": "5qsh94io2fjvbdvu03h4pu6t0g",
+        "organizer": {
+          "name": "telos.haus events",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "Telos",
+          "address": "181 Wyckoff Ave, Brooklyn, NY 11237",
+          "type": "Community Space"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false,
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=NXFzaDk0aW8yZmp2YmR2dTAzaDRwdTZ0MGcgZDU5NmMyYmY3MjExODNkMjJiYjUwYmRlNjYyNTA5MGZjMzkyM2FhMjlhNjkxOGQ3ODQwOWUxNjhkYTc5MTc2OUBn"
+      }
+    },
+    {
+      "id": "evt_gcal_com_telos_642c65e4",
+      "name": "booked for private event",
+      "type": "tech",
+      "locationId": "loc_telos",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2025-07-19T13:00:00-04:00",
+      "endDate": "2025-07-19T18:00:00-04:00",
+      "category": [
+        "tech",
+        "art",
+        "community",
+        "workshops",
+        "events",
+        "co-working"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": null,
+      "tags": [],
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://telos.haus",
+        "original_event_id": "62jebl4u2hkp9v1bt6bi5j3iqg",
+        "organizer": {
+          "name": "telos.haus events",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "Telos",
+          "address": "181 Wyckoff Ave, Brooklyn, NY 11237",
+          "type": "Community Space"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false,
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=NjJqZWJsNHUyaGtwOXYxYnQ2Ymk1ajNpcWcgZDU5NmMyYmY3MjExODNkMjJiYjUwYmRlNjYyNTA5MGZjMzkyM2FhMjlhNjkxOGQ3ODQwOWUxNjhkYTc5MTc2OUBn"
+      }
+    },
+    {
+      "id": "evt_gcal_com_telos_181566c9",
+      "name": "TWA: Total Work of Art",
+      "type": "tech",
+      "locationId": "loc_telos",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2025-07-20T12:00:00-04:00",
+      "endDate": "2025-07-20T16:00:00-04:00",
+      "category": [
+        "tech",
+        "art",
+        "community",
+        "workshops",
+        "events",
+        "co-working"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": null,
+      "tags": [],
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://telos.haus",
+        "original_event_id": "96hjnq6f45q4o83obgetvg3aoj_20250720T160000Z",
+        "organizer": {
+          "name": "telos.haus events",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "Telos",
+          "address": "181 Wyckoff Ave, Brooklyn, NY 11237",
+          "type": "Community Space"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false,
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=OTZoam5xNmY0NXE0bzgzb2JnZXR2ZzNhb2pfMjAyNTA3MjBUMTYwMDAwWiBkNTk2YzJiZjcyMTE4M2QyMmJiNTBiZGU2NjI1MDkwZmMzOTIzYWEyOWE2OTE4ZDc4NDA5ZTE2OGRhNzkxNzY5QGc"
+      }
+    },
+    {
+      "id": "evt_gcal_com_telos_bc0f14ed",
+      "name": "TWA: Total Work of Art",
+      "type": "tech",
+      "locationId": "loc_telos",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2025-07-24T19:00:00-04:00",
+      "endDate": "2025-07-24T21:00:00-04:00",
+      "category": [
+        "tech",
+        "art",
+        "community",
+        "workshops",
+        "events",
+        "co-working"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": null,
+      "tags": [],
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://telos.haus",
+        "original_event_id": "96hjnq6f45q4o83obgetvg3aoj_20250724T160000Z",
+        "organizer": {
+          "name": "telos.haus events",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "Telos",
+          "address": "181 Wyckoff Ave, Brooklyn, NY 11237",
+          "type": "Community Space"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false,
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=OTZoam5xNmY0NXE0bzgzb2JnZXR2ZzNhb2pfMjAyNTA3MjRUMTYwMDAwWiBkNTk2YzJiZjcyMTE4M2QyMmJiNTBiZGU2NjI1MDkwZmMzOTIzYWEyOWE2OTE4ZDc4NDA5ZTE2OGRhNzkxNzY5QGc"
+      }
+    },
+    {
+      "id": "evt_gcal_com_telos_6935850b",
+      "name": "TWA: Total Work of Art",
+      "type": "tech",
+      "locationId": "loc_telos",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2025-07-27T12:00:00-04:00",
+      "endDate": "2025-07-27T16:00:00-04:00",
+      "category": [
+        "tech",
+        "art",
+        "community",
+        "workshops",
+        "events",
+        "co-working"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": null,
+      "tags": [],
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://telos.haus",
+        "original_event_id": "96hjnq6f45q4o83obgetvg3aoj_20250727T160000Z",
+        "organizer": {
+          "name": "telos.haus events",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "Telos",
+          "address": "181 Wyckoff Ave, Brooklyn, NY 11237",
+          "type": "Community Space"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false,
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=OTZoam5xNmY0NXE0bzgzb2JnZXR2ZzNhb2pfMjAyNTA3MjdUMTYwMDAwWiBkNTk2YzJiZjcyMTE4M2QyMmJiNTBiZGU2NjI1MDkwZmMzOTIzYWEyOWE2OTE4ZDc4NDA5ZTE2OGRhNzkxNzY5QGc"
+      }
+    },
+    {
+      "id": "evt_gcal_com_telos_2d739901",
+      "name": "TWA: Total Work of Art",
+      "type": "tech",
+      "locationId": "loc_telos",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2025-07-31T19:00:00-04:00",
+      "endDate": "2025-07-31T21:00:00-04:00",
+      "category": [
+        "tech",
+        "art",
+        "community",
+        "workshops",
+        "events",
+        "co-working"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": null,
+      "tags": [],
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://telos.haus",
+        "original_event_id": "96hjnq6f45q4o83obgetvg3aoj_20250731T160000Z",
+        "organizer": {
+          "name": "telos.haus events",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "Telos",
+          "address": "181 Wyckoff Ave, Brooklyn, NY 11237",
+          "type": "Community Space"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false,
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=OTZoam5xNmY0NXE0bzgzb2JnZXR2ZzNhb2pfMjAyNTA3MzFUMTYwMDAwWiBkNTk2YzJiZjcyMTE4M2QyMmJiNTBiZGU2NjI1MDkwZmMzOTIzYWEyOWE2OTE4ZDc4NDA5ZTE2OGRhNzkxNzY5QGc"
+      }
+    },
+    {
+      "id": "evt_gcal_com_telos_259fd63c",
+      "name": "TWA: Total Work of Art",
+      "type": "tech",
+      "locationId": "loc_telos",
+      "communityId": "com_telos",
+      "description": "",
+      "startDate": "2025-08-03T12:00:00-04:00",
+      "endDate": "2025-08-03T16:00:00-04:00",
+      "category": [
+        "tech",
+        "art",
+        "community",
+        "workshops",
+        "events",
+        "co-working"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": null,
+      "tags": [],
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://telos.haus",
+        "original_event_id": "96hjnq6f45q4o83obgetvg3aoj_20250803T160000Z",
+        "organizer": {
+          "name": "telos.haus events",
+          "instagram": "",
+          "email": "d596c2bf721183d22bb50bde6625090fc3923aa29a6918d78409e168da791769@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "Telos",
+          "address": "181 Wyckoff Ave, Brooklyn, NY 11237",
+          "type": "Community Space"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false,
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=OTZoam5xNmY0NXE0bzgzb2JnZXR2ZzNhb2pfMjAyNTA4MDNUMTYwMDAwWiBkNTk2YzJiZjcyMTE4M2QyMmJiNTBiZGU2NjI1MDkwZmMzOTIzYWEyOWE2OTE4ZDc4NDA5ZTE2OGRhNzkxNzY5QGc"
+      }
+    }
+  ],
+  "timestamp": "2025-06-22T15:01:00.546828"
+}

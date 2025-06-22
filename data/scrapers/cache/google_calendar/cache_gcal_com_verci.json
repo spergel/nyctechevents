@@ -1,0 +1,240 @@
+{
+  "events": [
+    {
+      "id": "evt_gcal_com_verci_3096c069",
+      "name": "Dining Hall: Rooftop BBQ",
+      "type": "technology",
+      "locationId": "",
+      "communityId": "com_verci",
+      "description": "\u200bJoin us for Verci Dining Hall Rooftop edition! We'll have burgers from 7th st burger and lots of snacks and drinks up on the rooftop!",
+      "startDate": "2025-06-24T22:00:00Z",
+      "endDate": "2025-06-25T00:00:00Z",
+      "category": [
+        "technology",
+        "innovation",
+        "society",
+        "community"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": [],
+      "image": "events/luma-event-6dcf3b7e.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://lu.ma/ar3vmbji",
+        "original_event_id": "_clr78b9n6p1lekrkah47grq69ti6qli0clr6arjkecn6ot9edlgg",
+        "organizer": {
+          "name": "Verci Events",
+          "instagram": "",
+          "email": "pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "45 E 20th St floor 12, New York, NY 10003, USA",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": true,
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YjluNnAxbGVrcmthaDQ3Z3JxNjl0aTZxbGkwY2xyNmFyamtlY242b3Q5ZWRsZ2cgcGY2bzdkcmxmcmJobXBxbG1sdDdwMjE1ZTcwaTljam5AaQ"
+      }
+    },
+    {
+      "id": "evt_gcal_com_verci_54502d57",
+      "name": "ACE OF SPADES, FOUNDER DINNER",
+      "type": "technology",
+      "locationId": "",
+      "communityId": "com_verci",
+      "description": "\u200bBringing together NYC's ACE founders.\u200bCommunity Builders: Brett (Bulletpitch), Ami (Verci), and Spencer (Pier) are teaming up to bring host a private dinner for ~20 selected founders on the Rooftop, followed up an open bar and Poker Night.",
+      "startDate": "2025-06-25T22:30:00Z",
+      "endDate": "2025-06-26T04:00:00Z",
+      "category": [
+        "technology",
+        "innovation",
+        "society",
+        "community"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": [],
+      "image": "events/luma-event-6c0fec17.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://lu.ma/aceofspades",
+        "original_event_id": "_clr78bam99hmmka8c5sjiorq9thk2ri0clr6arjkecn6ot9edlgg",
+        "organizer": {
+          "name": "Verci Events",
+          "instagram": "",
+          "email": "pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "https://lu.ma/e/evt-VJckQHay9czOcAn",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": true,
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmFtOTlobW1rYThjNXNqaW9ycTl0aGsycmkwY2xyNmFyamtlY242b3Q5ZWRsZ2cgcGY2bzdkcmxmcmJobXBxbG1sdDdwMjE1ZTcwaTljam5AaQ"
+      }
+    },
+    {
+      "id": "evt_gcal_com_verci_ad4c4f42",
+      "name": "Satellite Lunch: La Dong",
+      "type": "technology",
+      "locationId": "",
+      "communityId": "com_verci",
+      "description": "\u200bEnjoy Lunch at La Dong on us :)",
+      "startDate": "2025-06-27T16:15:00Z",
+      "endDate": "2025-06-27T17:45:00Z",
+      "category": [
+        "technology",
+        "innovation",
+        "society",
+        "community"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": [],
+      "image": "events/luma-event-1c5eb7e6.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://lu.ma/fv9jw20k",
+        "original_event_id": "_clr78b9hdd150jbc8pr6omjoap7ngu20clr6arjkecn6ot9edlgg",
+        "organizer": {
+          "name": "Verci Events",
+          "instagram": "",
+          "email": "pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "45 E 20th St floor 12, New York, NY 10003, USA",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": true,
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YjloZGQxNTBqYmM4cHI2b21qb2FwN25ndTIwY2xyNmFyamtlY242b3Q5ZWRsZ2cgcGY2bzdkcmxmcmJobXBxbG1sdDdwMjE1ZTcwaTljam5AaQ"
+      }
+    },
+    {
+      "id": "evt_gcal_com_verci_11f0f8fb",
+      "name": "Parallel Play: Volume 4",
+      "type": "technology",
+      "locationId": "",
+      "communityId": "com_verci",
+      "description": "\u200bSession 4 of Parallel Play\u200bBecome aPro Memberand get unlimited access to our sessions & private slack channelhttps://lu.ma/calendar/cal-dc0YiqvoSm8A5Bq___________Event Format\u200b1-1:15 | mingle and settle in\u200b1:15 - 1:30 | set goals for deep focus session with group\u200b1:30 - 3:45 | deep work session\u200b3:45 - 4:15 | shipit session\u200b4:15 - 4:30 | optional breakout groups",
+      "startDate": "2025-06-29T17:00:00Z",
+      "endDate": "2025-06-29T20:00:00Z",
+      "category": [
+        "technology",
+        "innovation",
+        "society",
+        "community"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": [],
+      "image": "events/luma-event-59843ce5.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://lu.ma/5fj1mjoe",
+        "original_event_id": "_clr78bb6b0s6gmb2f52k6lpgcgp30ri0clr6arjkecn6ot9edlgg",
+        "organizer": {
+          "name": "Verci Events",
+          "instagram": "",
+          "email": "pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "https://lu.ma/e/evt-fX8hYbyECW0d20n",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": true,
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmI2YjBzNmdtYjJmNTJrNmxwZ2NncDMwcmkwY2xyNmFyamtlY242b3Q5ZWRsZ2cgcGY2bzdkcmxmcmJobXBxbG1sdDdwMjE1ZTcwaTljam5AaQ"
+      }
+    },
+    {
+      "id": "evt_gcal_com_verci_9612e2a6",
+      "name": "Stripe x Verci (Late Night) Cafe",
+      "type": "technology",
+      "locationId": "",
+      "communityId": "com_verci",
+      "description": "\u200b\u200b\u200bThe Stripe x Verci Late Night Caf\u00e9is a series for founders and builders to get their best work done around others.\u200b\u200bWe were tired of coffee shops closing at 5pm, workspaces thinning out as the day ended, and not having a place to workandbe in community as founders.\u200b\u200b\u200b\u200b\u200b\u2615\ufe0f More Details:\u200b\u200bEnjoy ouropen desk, free-flowing workspace with both comfortable couches and high speed internet to get your work done atVerci Flatiron.\u200b\u200bAs the sun sets, use ourstunning rooftop to meet others or towork, where drinks and city views create the perfect backdrop for conversations.\u200b\u200bDrink a range of (free)specialty coffees, teas, and matchas crafted by expert baristas at the bar.\u200b\u200bWhether you're wrapping up projects, sparking collaborations, or simply seeking a change of scenery, the space adapts to your needs - from quiet concentration corners to communal tables designed for conversation.\u200b\u200bIMPORTANT:Please select a approximate arrival time so that we understand capacity limits for the space throughout the night.\u200b\u200b\ud83c\udf75 The hosts for the night:\u200b\u200b\u27a1\ufe0f Stripe builds programmable financial services. Millions of companies\u2014from the world\u2019s largest enterprises to the most ambitious startups\u2014use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Headquartered in San Francisco and Dublin, the company aims to increase the GDP of the internet.\u200b\u200b\u27a1\ufe0f Verci is a workspace and social space in NYC, meticulously curated for founders, artists, and creatives. Learn more atverci.comand read our manifesto atverci.com/manifesto.",
+      "startDate": "2025-07-09T21:00:00Z",
+      "endDate": "2025-07-10T02:00:00Z",
+      "category": [
+        "technology",
+        "innovation",
+        "society",
+        "community"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": [],
+      "image": "events/luma-event-3e1ee651.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://lu.ma/j9ynasuk",
+        "original_event_id": "_clr78ba8d9omqqjof1o34tbc6dn6ek20clr6arjkecn6ot9edlgg",
+        "organizer": {
+          "name": "Verci Events",
+          "instagram": "",
+          "email": "pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "https://lu.ma/e/evt-Hjqmjxxp2ul3ngP",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": true,
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmE4ZDlvbXFxam9mMW8zNHRiYzZkbjZlazIwY2xyNmFyamtlY242b3Q5ZWRsZ2cgcGY2bzdkcmxmcmJobXBxbG1sdDdwMjE1ZTcwaTljam5AaQ"
+      }
+    }
+  ],
+  "timestamp": "2025-06-22T15:01:04.541146"
+}
