@@ -137,9 +137,19 @@ export default function HomeClient() {
 
   // Get all upcoming events
   const upcomingEvents = useMemo(() => {
-    return [...((events?.events || []) as unknown as PageEvent[])]
-      .filter(event => new Date(event.startDate) > new Date())
-      .sort((a, b) => new Date(a.startDate).getTime() - new Date(b.startDate).getTime());
+    const today = new Date();
+    today.setHours(0, 0, 0, 0);
+
+    const dayAfterTomorrow = new Date(today);
+    dayAfterTomorrow.setDate(dayAfterTomorrow.getDate() + 2);
+
+    return (events.events as any[])
+      .filter((event: any) => {
+        if (!event.startDate) return false;
+        const eventDate = new Date(event.startDate);
+        return eventDate >= today && eventDate < dayAfterTomorrow;
+      })
+      .sort((a: any, b: any) => new Date(a.startDate).getTime() - new Date(b.startDate).getTime());
   }, []);
 
   // Infinite scroll observer

@@ -288,41 +288,48 @@ export default function Events() {
 
   const categoryGroups = useMemo(() => {
     const categoryMap = new Map<string, { id: string; name: string; count: number; subCategories: Map<string, { id: string; name: string; count: number }> }>();
-    
+
     events.events.forEach(event => {
-      const category = event.category;
-      if (category && category.type && category.subCategory) {
-        // Ensure the main category type exists in the map
-        if (!categoryMap.has(category.type)) {
-          categoryMap.set(category.type, {
-            id: category.type,
-            name: category.type,
+      let categoryName: string | undefined;
+      let subCategoryName: string | undefined;
+
+      if (typeof event.category === 'string') {
+        categoryName = event.category;
+      } else if (event.category && typeof event.category === 'object' && 'type' in event.category) {
+        categoryName = (event.category as any).type;
+        subCategoryName = (event.category as any).subCategory;
+      }
+
+      if (categoryName) {
+        if (!categoryMap.has(categoryName)) {
+          categoryMap.set(categoryName, {
+            id: categoryName,
+            name: categoryName,
             count: 0,
             subCategories: new Map()
           });
         }
         
-        const mainCategory = categoryMap.get(category.type)!;
+        const mainCategory = categoryMap.get(categoryName)!;
         mainCategory.count++;
 
-        // Process the subcategory
-        const subCategory = mainCategory.subCategories;
-        if (!subCategory.has(category.subCategory)) {
-          subCategory.set(category.subCategory, {
-            id: `${category.type}-${category.subCategory}`, // Create a unique ID
-            name: category.subCategory,
-            count: 0
-          });
+        if (subCategoryName) {
+          const subCategoryMap = mainCategory.subCategories;
+          if (!subCategoryMap.has(subCategoryName)) {
+            subCategoryMap.set(subCategoryName, {
+              id: `${categoryName}-${subCategoryName}`,
+              name: subCategoryName,
+              count: 0
+            });
+          }
+          subCategoryMap.get(subCategoryName)!.count++;
         }
-        subCategory.get(category.subCategory)!.count++;
       }
     });
 
     // Convert the map to the desired array structure for rendering
-    return Array.from(categoryMap.entries()).map(([typeName, typeDetails]) => ({
-      title: typeName,
-      count: typeDetails.count,
-      id: typeDetails.id,
+    return Array.from(categoryMap.values()).map(typeDetails => ({
+      ...typeDetails,
       subCategories: Array.from(typeDetails.subCategories.values()).sort((a, b) => b.count - a.count)
     })).sort((a, b) => b.count - a.count);
   }, []);
@@ -717,7 +724,7 @@ export default function Events() {
                     {categoryGroups.map((group) => (
                       <div key={group.id} className="category-group">
                       <FilterButton
-                          label={group.title}
+                          label={group.name}
                           count={group.count}
                           isActive={stagedCategories.includes(group.id)}
                         onClick={() => {
@@ -924,7 +931,7 @@ export default function Events() {
             {
               title: "CATEGORIES",
               options: categoryGroups.flatMap((group) => [
-                { id: group.id, name: group.title, count: group.count },
+                { id: group.id, name: group.name, count: group.count },
                 ...group.subCategories.map(sub => ({ ...sub, name: `  ${sub.name}` })) // Indent subcategories
               ]),
               selectedIds: stagedCategories,
