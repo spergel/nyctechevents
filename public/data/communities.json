@@ -211,6 +211,36 @@
       "membershipType": "Open",
       "membershipFee": "Free"
     },
+    {
+      "id": "com_cozy_sundays",
+      "name": "Cozy Sundays",
+      "type": "Creative",
+      "description": "We host biweekly (ish) co-working sessions for you to work on your passion projects with likeminded people. Thank you Ambrook for lending us their space.",
+      "founded": "2023",
+      "size": "0",
+      "category": [
+        "Co-working",
+        "Creative",
+        "Community",
+        "Productivity"
+      ],
+      "contact": {
+        "email": "",
+        "social": {}
+      },
+      "website": "https://lu.ma/cozy-sundays",
+      "meetingLocationIds": [],
+      "image": "cozy-sundays-community.jpg",
+      "tags": [
+        "co-working",
+        "passion projects",
+        "community",
+        "biweekly",
+        "creative"
+      ],
+      "membershipType": "Open",
+      "membershipFee": "Free"
+    },
     
     {
       "id": "com_pioneer_works",

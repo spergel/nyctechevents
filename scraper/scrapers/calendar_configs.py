@@ -14,7 +14,6 @@ If you're seeing "Requests to this API calendar method calendar.v3.Events.List a
 - Try deactivating and reactivating the Calendar API
 """
 
-#TODO: Cozy Sundays nbqghatsg76q5hvuncn0eidonebg6pmj@import.calendar.google.com, https://lu.ma/cozy-sundays
 # ICS Calendar configurations 
 ICS_CALENDARS = [
     {'name': 'max_ny', 'url': 'https://api.lu.ma/ics/get?entity=calendar&id=cal-KGV5WJNQjhqXGj5', 'community_id': 'com_max_ny'},
@@ -87,6 +86,10 @@ GOOGLE_CALENDARS = {
     "sidequest": {
         "id": "abln66abl799vb4gprllu4225l744l70@import.calendar.google.com",
         "community_id": "com_sidequest"
+    },
+    "cozy_sundays": {
+        "id": "nbqghatsg76q5hvuncn0eidonebg6pmj@import.calendar.google.com",
+        "community_id": "com_cozy_sundays"
     }
 }
 
