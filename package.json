@@ -12,6 +12,7 @@
   },
   "scripts": {
     "dev": "next dev --turbo",
+    "prebuild": "cp data/scrapers/google_calendar_events.json public/data/events.json 2>/dev/null || echo 'Warning: events.json not found, build may fail'",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",

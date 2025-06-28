@@ -398,13 +398,30 @@ export default function Events() {
 
     // Category filter
     if (activeCategories.length > 0) {
-      const eventCategoryType = event.category?.type;
-      const eventSubCategory = event.category?.subCategory;
-      const eventSubCategoryId = eventCategoryType ? `${eventCategoryType}-${eventSubCategory}` : '';
+      // Handle category as either array of strings or Category object
+      const eventCategories = Array.isArray((event as any).category) 
+        ? (event as any).category as string[]
+        : [event.type];
+      
+      const eventCategoryObj = event.category as any;
+      const eventCategoryType = Array.isArray((event as any).category) 
+        ? event.type 
+        : eventCategoryObj?.name || eventCategoryObj?.id;
+      
+      const eventSubCategory = Array.isArray((event as any).category) 
+        ? undefined 
+        : (eventCategoryObj as any)?.subCategory;
+      
+      const eventSubCategoryId = eventCategoryType && eventSubCategory 
+        ? `${eventCategoryType}-${eventSubCategory}` 
+        : '';
 
       const isSelected = activeCategories.some(selectedCatId => {
-        // Check if the main category type is selected OR if the specific subcategory is selected
-        return selectedCatId === eventCategoryType || selectedCatId === eventSubCategoryId;
+        // Check if any category matches, main category type, or specific subcategory
+        return eventCategories.includes(selectedCatId) || 
+               selectedCatId === eventCategoryType || 
+               selectedCatId === eventSubCategoryId ||
+               selectedCatId === event.type;
       });
       
       if (!isSelected) {
