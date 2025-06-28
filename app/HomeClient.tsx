@@ -85,6 +85,7 @@ export default function HomeClient() {
   const [selectedLocation, setSelectedLocation] = useState<Location | null>(null);
   const [selectedTypes, setSelectedTypes] = useState<string[]>([]);
   const [lastUpdateTime, setLastUpdateTime] = useState<string>('N/A');
+  const [isLoadingMore, setIsLoadingMore] = useState(false);
   const observerTarget = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -152,12 +153,19 @@ export default function HomeClient() {
       .sort((a: any, b: any) => new Date(a.startDate).getTime() - new Date(b.startDate).getTime());
   }, []);
 
-  // Infinite scroll observer
+  // Filter events based on selected types
+  const filteredEvents = useMemo(() => {
+    return upcomingEvents.filter(event => 
+      selectedTypes.length === 0 || selectedTypes.includes(event.type)
+    );
+  }, [upcomingEvents, selectedTypes]);
+
+  // Infinite scroll observer (for desktop and mobile)
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
-        if (entries[0].isIntersecting && visibleEvents < upcomingEvents.length) {
-          setVisibleEvents(prev => Math.min(prev + 10, upcomingEvents.length));
+        if (entries[0].isIntersecting && visibleEvents < filteredEvents.length) {
+          setVisibleEvents(prev => Math.min(prev + 10, filteredEvents.length));
         }
       },
       { threshold: 0.1 }
@@ -168,7 +176,21 @@ export default function HomeClient() {
     }
 
     return () => observer.disconnect();
-  }, [visibleEvents, upcomingEvents.length]);
+  }, [visibleEvents, filteredEvents.length]);
+
+  // Load more function for mobile button
+  const handleLoadMore = async () => {
+    setIsLoadingMore(true);
+    // Simulate loading delay for better UX
+    await new Promise(resolve => setTimeout(resolve, 300));
+    setVisibleEvents(prev => Math.min(prev + 10, filteredEvents.length));
+    setIsLoadingMore(false);
+  };
+
+  // Reset visible events when filters change
+  useEffect(() => {
+    setVisibleEvents(10);
+  }, [selectedTypes]);
 
   const handleEventClick = (event: PageEvent) => {
     setSelectedEvent(event);
@@ -208,13 +230,6 @@ export default function HomeClient() {
       }
     }
   ];
-
-  // Filter events based on selected types
-  const filteredEvents = useMemo(() => {
-    return upcomingEvents.filter(event => 
-      selectedTypes.length === 0 || selectedTypes.includes(event.type)
-    );
-  }, [upcomingEvents, selectedTypes]);
 
   // For the LocationDetailDialog which expects a SimpleEvent
   const handleAppEventSelect = (event: SimpleEvent) => {
@@ -272,7 +287,7 @@ export default function HomeClient() {
           variant="secondary"
         >
           <div className="event-cards">
-            {filteredEvents.map((event, index) => {
+            {filteredEvents.slice(0, visibleEvents).map((event, index) => {
               const eventDate = parseSafeDate(event.startDate);
               
               if (!eventDate) return null; // Skip events with invalid dates
@@ -319,6 +334,24 @@ export default function HomeClient() {
             
             {filteredEvents.length === 0 && (
               <div className="no-data">No events match your filters</div>
+            )}
+            
+            {/* Load More Button */}
+            {visibleEvents < filteredEvents.length && (
+              <div className="load-more-container">
+                <button 
+                  className="load-more-button"
+                  onClick={handleLoadMore}
+                  disabled={isLoadingMore}
+                >
+                  {isLoadingMore ? 'LOADING...' : `LOAD MORE (${filteredEvents.length - visibleEvents} remaining)`}
+                </button>
+              </div>
+            )}
+            
+            {/* Infinite scroll trigger (hidden) */}
+            {visibleEvents < filteredEvents.length && (
+              <div ref={observerTarget} className="infinite-scroll-trigger" />
             )}
           </div>
         </Panel>
@@ -735,6 +768,45 @@ export default function HomeClient() {
           margin-top: 0.5rem;
           padding-top: 0.5rem;
           border-top: 1px solid rgba(0, 56, 117, 0.3);
+        }
+
+        /* Load More Button Styles */
+        .load-more-container {
+          display: flex;
+          justify-content: center;
+          padding: 1.5rem;
+          grid-column: 1 / -1;
+        }
+
+        .load-more-button {
+          background: rgba(0, 56, 117, 0.3);
+          border: 1px solid var(--terminal-color);
+          color: var(--terminal-color);
+          font-family: var(--font-mono);
+          font-size: 0.9rem;
+          padding: 0.75rem 1.5rem;
+          cursor: pointer;
+          transition: all 0.2s ease;
+          min-width: 200px;
+          text-align: center;
+        }
+
+        .load-more-button:hover:not(:disabled) {
+          background: rgba(0, 56, 117, 0.5);
+          border-color: var(--nyc-orange);
+          color: var(--nyc-orange);
+        }
+
+        .load-more-button:disabled {
+          opacity: 0.6;
+          cursor: not-allowed;
+        }
+
+        /* Infinite Scroll Trigger */
+        .infinite-scroll-trigger {
+          height: 1px;
+          opacity: 0;
+          pointer-events: none;
         }
       `}</style>
     </div>

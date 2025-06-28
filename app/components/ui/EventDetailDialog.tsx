@@ -3,7 +3,6 @@ import { getCommunityData, getLocationData } from '@/app/utils/dataHelpers';
 import React from 'react';
 import { Community, Location, Event } from '@/app/types';
 import EventJsonLd from '@/app/components/EventJsonLd';
-import { FeedButtons } from './FeedButtons';
 
 interface EventDetailDialogProps {
   event: Event | null;
@@ -239,36 +238,38 @@ export function EventDetailDialog({
                   </div>
                 )}
 
-                {/* Registration Link */}
-                {registrationUrl && (
-                  <div className="detail-section registration-section">
-                    <h3>REGISTRATION</h3>
+                {/* Event Source Link - Always Present */}
+                <div className="detail-section registration-section">
+                  <h3>VIEW EVENT</h3>
+                  <a 
+                    href={registrationUrl || '#'}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="registration-link"
+                    onClick={!registrationUrl ? (e) => e.preventDefault() : undefined}
+                  >
+                    <div className={`registration-button ${!registrationUrl ? 'disabled' : ''}`}>
+                      <span>
+                        {registrationUrl ? 'View Original Event' : 'Event Source Unavailable'}
+                      </span>
+                      {registrationUrl && <span className="external-link-icon">↗</span>}
+                    </div>
+                  </a>
+                </div>
+
+                {/* Calendar Links Only */}
+                <div className="detail-section calendar-section">
+                  <h3>ADD TO CALENDAR</h3>
+                  <div className="calendar-buttons">
                     <a 
-                      href={registrationUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="registration-link"
+                      href={`/api/events/${event.id}/ics`}
+                      className="calendar-button"
+                      download={`${event.name.replace(/[^a-z0-9]/gi, '_')}.ics`}
                     >
-                      <div className="registration-button">
-                        <span>Register for Event</span>
-                        <span className="external-link-icon">↗</span>
-                      </div>
+                      <span>Download .ics</span>
+                      <span className="download-icon">⬇</span>
                     </a>
                   </div>
-                )}
-
-                {/* Calendar & RSS Links */}
-                <div className="detail-section calendar-section">
-                  <h3>CALENDAR & FEEDS</h3>
-                  <FeedButtons 
-                    eventId={event.id}
-                    eventName={event.name}
-                    startDate={event.startDate}
-                    endDate={event.endDate}
-                    description={event.description}
-                    location={event.metadata?.venue?.name || ''}
-                    className="event-feed-buttons" 
-                  />
                 </div>
               </div>
             </div>
@@ -631,8 +632,52 @@ export function EventDetailDialog({
             background: #ff8c4d;
           }
 
+          .registration-button.disabled {
+            background: rgba(0, 56, 117, 0.3);
+            color: var(--terminal-color);
+            cursor: not-allowed;
+            opacity: 0.6;
+          }
+
+          .registration-button.disabled:hover {
+            background: rgba(0, 56, 117, 0.3);
+          }
+
           .external-link-icon {
             font-size: 1.1rem;
+          }
+
+          .download-icon {
+            font-size: 1.1rem;
+          }
+
+          .calendar-buttons {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+          }
+
+          .calendar-button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+            padding: 0.75rem;
+            background: rgba(0, 56, 117, 0.3);
+            color: var(--terminal-color);
+            font-family: var(--font-mono);
+            font-weight: bold;
+            font-size: 0.9rem;
+            border: 1px solid var(--terminal-color);
+            text-decoration: none;
+            cursor: pointer;
+            transition: all 0.2s ease;
+          }
+
+          .calendar-button:hover {
+            background: rgba(0, 56, 117, 0.5);
+            border-color: var(--nyc-orange);
+            color: var(--nyc-orange);
           }
 
           .location-section,
@@ -726,22 +771,6 @@ export function EventDetailDialog({
 
           .calendar-section {
             margin-top: 0.5rem;
-          }
-
-          .event-feed-buttons {
-            margin-top: 0.5rem;
-          }
-
-          .event-feed-buttons :global(.feed-buttons) {
-            flex-direction: column;
-            gap: 0.5rem;
-          }
-
-          .event-feed-buttons :global(.feed-button) {
-            width: 100%;
-            justify-content: center;
-            padding: 0.75rem;
-            font-size: 0.9rem;
           }
 
           @media (min-width: 768px) {
