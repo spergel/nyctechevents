@@ -12,7 +12,7 @@
   },
   "scripts": {
     "dev": "next dev --turbo",
-    "prebuild": "cp data/scrapers/google_calendar_events.json public/data/events.json 2>/dev/null || echo 'Warning: events.json not found, build may fail'",
+    "prebuild": "mkdir -p public/data && (cp data/scrapers/google_calendar_events.json public/data/events.json 2>/dev/null || cp scraper/data/combined_events.json public/data/events.json 2>/dev/null || echo '{\"events\": [], \"last_updated\": \"'$(date -u +%Y-%m-%dT%H:%M:%SZ)'\"}' > public/data/events.json)",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
