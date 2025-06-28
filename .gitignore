@@ -44,6 +44,9 @@ scraper/tech/data/*.json
 !scraper/data/example.json
 !scraper/tech/data/example.json
 
+# Generated events data (updated daily by scraper)
+public/data/events.json
+
 # Environment
 .env
 .venv
