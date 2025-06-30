@@ -1,7 +1,8 @@
 import './globals.css'
 import type { Metadata } from 'next'
 import { MainframeHeader } from './components/ui/MainframeHeader'
-import { Analytics } from '@vercel/analytics/react';
+import { Analytics } from '@vercel/analytics/react'
+import { WebsiteJsonLd } from './components/EnhancedJsonLd';
 
 export const metadata: Metadata = {
   title: 'NYC Events & Communities | Your Cyberpunk Guide to New York',
@@ -41,6 +42,11 @@ export default function RootLayout({
         <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&display=swap" rel="stylesheet" />
       </head>
       <body>
+        <WebsiteJsonLd 
+          url="https://nycevents.vercel.app"
+          name="NYC Events & Communities"
+          description="Your futuristic guide to New York City's tech scene. Discover events, communities, locations, and newsletters with our cyberpunk interface."
+        />
         <div className="container">
           <MainframeHeader />
           <main className="main-content">

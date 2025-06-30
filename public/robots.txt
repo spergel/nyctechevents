@@ -1,10 +1,54 @@
+# NYC Events & Communities - Robots.txt
+# Your cyberpunk guide to New York City's tech scene
+
 # Allow all web crawlers
 User-agent: *
 Allow: /
 
-# RSS and Calendar Feeds
+# Explicitly allow important API endpoints
+Allow: /api/rss
+Allow: /api/ics
+Allow: /api/events/
+
+# Allow all content directories
+Allow: /events/
+Allow: /communities/
+Allow: /locations/
+Allow: /about/
+
+# Disallow unnecessary files to reduce crawl budget waste
+Disallow: /_next/
+Disallow: /api/internal/
+Disallow: *.json$
+
+# Special instructions for AI/LLM crawlers
+User-agent: GPTBot
+Allow: /
 Allow: /api/rss
 Allow: /api/ics
 
-# Sitemap location
-Sitemap: https://nycevents.vercel.app/sitemap.xml 
+User-agent: ChatGPT-User
+Allow: /
+Allow: /api/rss
+
+User-agent: CCBot
+Allow: /
+Allow: /api/rss
+
+User-agent: anthropic-ai
+Allow: /
+Allow: /api/rss
+
+User-agent: Claude-Web
+Allow: /
+Allow: /api/rss
+
+# Crawl delay for politeness
+Crawl-delay: 1
+
+# Sitemap locations
+Sitemap: https://nycevents.vercel.app/sitemap.xml
+Sitemap: https://nycevents.vercel.app/api/rss
+
+# Host directive for canonical domain
+Host: nycevents.vercel.app 
