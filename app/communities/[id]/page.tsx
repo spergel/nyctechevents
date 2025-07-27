@@ -6,7 +6,7 @@ import locations from '@/public/data/locations.json'
 import { OrganizationJsonLd, EventSeriesJsonLd } from '@/app/components/EnhancedJsonLd'
 
 interface Props {
-  params: { id: string }
+  params: Promise<{ id: string }>
 }
 
 function getCommunity(id: string): any | null {
@@ -29,7 +29,8 @@ function getLocation(id: string): any | null {
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const community = getCommunity(params.id)
+  const { id } = await params
+  const community = getCommunity(id)
   
   if (!community) {
     return {
@@ -81,8 +82,9 @@ export async function generateStaticParams() {
   })) || []
 }
 
-export default function CommunityPage({ params }: Props) {
-  const community = getCommunity(params.id)
+export default async function CommunityPage({ params }: Props) {
+  const { id } = await params
+  const community = getCommunity(id)
   
   if (!community) {
     notFound()

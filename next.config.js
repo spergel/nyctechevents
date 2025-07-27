@@ -50,7 +50,7 @@ const nextConfig = {
 
   // Enable experimental features for better SEO
   experimental: {
-    optimizeCss: true,
+    // optimizeCss: true, // Temporarily disabled due to build issues
   },
 
   // Compress responses

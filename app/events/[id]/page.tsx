@@ -7,7 +7,7 @@ import EventJsonLd from '@/app/components/EventJsonLd'
 import { Event, Community, Location } from '@/app/types'
 
 interface Props {
-  params: { id: string }
+  params: Promise<{ id: string }>
 }
 
 function getEvent(id: string): any | null {
@@ -26,7 +26,8 @@ function getLocation(id: string): any | null {
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const event = getEvent(params.id)
+  const { id } = await params
+  const event = getEvent(id)
   
   if (!event) {
     return {
@@ -93,8 +94,9 @@ export async function generateStaticParams() {
   })) || []
 }
 
-export default function EventPage({ params }: Props) {
-  const event = getEvent(params.id)
+export default async function EventPage({ params }: Props) {
+  const { id } = await params
+  const event = getEvent(id)
   
   if (!event) {
     notFound()
