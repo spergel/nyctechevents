@@ -1134,6 +1134,42 @@
       ],
       "membershipType": "Open",
       "membershipFee": "Free"
+    },
+    {
+      "id": "com_forum_ventures",
+      "name": "Forum Ventures",
+      "type": "Tech",
+      "description": "An early-stage B2B SaaS-focused VC fund and accelerator that hosts networking events, workshops, and community gatherings for founders and funders.",
+      "founded": "2016",
+      "size": "500+",
+      "category": [
+        "Tech",
+        "Startup",
+        "Venture Capital",
+        "B2B",
+        "SaaS"
+      ],
+      "contact": {
+        "email": "hello@forumvc.com",
+        "social": {
+          "twitter": "@forumvc",
+          "linkedin": "forum-ventures"
+        }
+      },
+      "website": "https://www.forumvc.com",
+      "meetingLocationIds": [],
+      "image": "forum-ventures.jpg",
+      "tags": [
+        "venture capital",
+        "b2b",
+        "saas",
+        "founders",
+        "funders",
+        "networking",
+        "workshops"
+      ],
+      "membershipType": "Open",
+      "membershipFee": "Free"
     }
   ]
 }

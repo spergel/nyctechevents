@@ -9,6 +9,7 @@ import communities from '@/public/data/communities.json';
 import locations from '@/public/data/locations.json';
 import events from '@/public/data/events.json';
 import { Location } from '@/app/utils/dataHelpers';
+import { AddToCalendar } from './AddToCalendar';
 
 interface Community {
   id: string;
@@ -100,51 +101,17 @@ export function ConsoleLayout({ children, locations, onLocationClick, lastUpdate
       <div className="left-column-container">
         <div className="left-top">
           <div className="section-header">
-            <h3>COMMUNITY NEWS</h3>
-            <span className="system-id">NEWS-001</span>
+            <h3>ADD TO CALENDAR</h3>
+            <span className="system-id">CAL-001</span>
           </div>
           <Panel 
             variant="primary"
             footerStats={{
-              left: "FEED: ACTIVE",
-              right: "UPDATES: LIVE"
+              left: "SYNC: READY",
+              right: "EXPORT: ACTIVE"
             }}
           >
-            <div className="news-container">
-              <div className="news-hologram">
-                <HolographicDisplay>
-                  <div className="hologram-content" />
-                </HolographicDisplay>
-              </div>
-              <div className="news-feed">
-                <div 
-                  className="news-item twitter-link"
-                  onClick={() => window.open('https://x.com/nycdosomething', '_blank')}
-                  role="button"
-                  tabIndex={0}
-                >
-                  <div className="twitter-glitch-container">
-                    <div className="twitter-scanline"></div>
-                    <div className="twitter-glitch"></div>
-                  </div>
-                  <div className="twitter-icon">
-                    <svg viewBox="0 0 24 24" width="24" height="24" fill="#1d9bf0">
-                      <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path>
-                    </svg>
-                  </div>
-                  <div className="twitter-content">
-                    <div className="link-action">CONNECT</div>
-                    <div className="link-title">NYC DO SOMETHING</div>
-                    <div className="link-source">Follow on Twitter/X</div>
-                  </div>
-                  <div className="twitter-chevron">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#1d9bf0" strokeWidth="2">
-                      <polyline points="9 18 15 12 9 6"></polyline>
-                    </svg>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <AddToCalendar />
           </Panel>
         </div>
 

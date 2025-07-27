@@ -262,8 +262,33 @@ export function EventDetailDialog({
                   <h3>ADD TO CALENDAR</h3>
                   <div className="calendar-buttons">
                     <a 
+                      href={generateGoogleCalendarUrl(event)}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="calendar-button google-calendar"
+                    >
+                      <span>Google Calendar</span>
+                      <span className="external-link-icon">↗</span>
+                    </a>
+                    <a 
+                      href={generateAppleCalendarUrl(event)}
+                      className="calendar-button apple-calendar"
+                    >
+                      <span>Apple Calendar</span>
+                      <span className="external-link-icon">↗</span>
+                    </a>
+                    <a 
+                      href={generateOutlookCalendarUrl(event)}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="calendar-button outlook-calendar"
+                    >
+                      <span>Outlook</span>
+                      <span className="external-link-icon">↗</span>
+                    </a>
+                    <a 
                       href={`/api/events/${event.id}/ics`}
-                      className="calendar-button"
+                      className="calendar-button ics-download"
                       download={`${event.name.replace(/[^a-z0-9]/gi, '_')}.ics`}
                     >
                       <span>Download .ics</span>
@@ -652,8 +677,8 @@ export function EventDetailDialog({
           }
 
           .calendar-buttons {
-            display: flex;
-            flex-direction: column;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
             gap: 0.5rem;
           }
 
@@ -678,6 +703,44 @@ export function EventDetailDialog({
             background: rgba(0, 56, 117, 0.5);
             border-color: var(--nyc-orange);
             color: var(--nyc-orange);
+          }
+
+          .calendar-button.google-calendar {
+            background: rgba(66, 133, 244, 0.2);
+            border-color: rgba(66, 133, 244, 0.5);
+          }
+
+          .calendar-button.google-calendar:hover {
+            background: rgba(66, 133, 244, 0.4);
+            border-color: #4285f4;
+            color: #4285f4;
+          }
+
+          .calendar-button.apple-calendar {
+            background: rgba(128, 128, 128, 0.2);
+            border-color: rgba(128, 128, 128, 0.5);
+          }
+
+          .calendar-button.apple-calendar:hover {
+            background: rgba(128, 128, 128, 0.4);
+            border-color: #888;
+            color: #888;
+          }
+
+          .calendar-button.outlook-calendar {
+            background: rgba(0, 120, 215, 0.2);
+            border-color: rgba(0, 120, 215, 0.5);
+          }
+
+          .calendar-button.outlook-calendar:hover {
+            background: rgba(0, 120, 215, 0.4);
+            border-color: #0078d7;
+            color: #0078d7;
+          }
+
+          .calendar-button.ics-download {
+            grid-column: 1 / -1;
+            background: rgba(0, 56, 117, 0.3);
           }
 
           .location-section,
@@ -782,6 +845,85 @@ export function EventDetailDialog({
       </DetailDialog>
     </>
   );
+}
+
+function generateGoogleCalendarUrl(event: Event): string {
+  const startDate = new Date(event.startDate);
+  const endDate = event.endDate ? new Date(event.endDate) : new Date(startDate.getTime() + 60 * 60 * 1000); // Default 1 hour if no end date
+  
+  const formatDate = (date: Date) => {
+    return date.toISOString().replace(/[-:]/g, '').split('.')[0] + 'Z';
+  };
+  
+  const venue = event.metadata?.venue;
+  const location = venue ? `${venue.name}, ${venue.address}` : '';
+  const details = event.description || '';
+  
+  const params = new URLSearchParams({
+    action: 'TEMPLATE',
+    text: event.name,
+    dates: `${formatDate(startDate)}/${formatDate(endDate)}`,
+    details: details,
+    location: location,
+    ...(event.metadata?.source_url && { src: event.metadata.source_url })
+  });
+  
+  return `https://calendar.google.com/calendar/render?${params.toString()}`;
+}
+
+function generateAppleCalendarUrl(event: Event): string {
+  const startDate = new Date(event.startDate);
+  const endDate = event.endDate ? new Date(event.endDate) : new Date(startDate.getTime() + 60 * 60 * 1000);
+  
+  const formatDate = (date: Date) => {
+    return date.toISOString().replace(/[-:]/g, '').split('.')[0] + 'Z';
+  };
+  
+  const venue = event.metadata?.venue;
+  const location = venue ? `${venue.name}, ${venue.address}` : '';
+  const details = event.description || '';
+  
+  const params = new URLSearchParams({
+    action: 'TEMPLATE',
+    text: event.name,
+    dates: `${formatDate(startDate)}/${formatDate(endDate)}`,
+    details: details,
+    location: location
+  });
+  
+  return `data:text/calendar;charset=utf8,BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//NYC Events//Event Calendar//EN
+BEGIN:VEVENT
+DTSTART:${formatDate(startDate)}
+DTEND:${formatDate(endDate)}
+SUMMARY:${event.name}
+DESCRIPTION:${details.replace(/\n/g, '\\n')}
+LOCATION:${location}
+URL:${event.metadata?.source_url || ''}
+END:VEVENT
+END:VCALENDAR`.replace(/\n/g, '%0A');
+}
+
+function generateOutlookCalendarUrl(event: Event): string {
+  const startDate = new Date(event.startDate);
+  const endDate = event.endDate ? new Date(event.endDate) : new Date(startDate.getTime() + 60 * 60 * 1000);
+  
+  const venue = event.metadata?.venue;
+  const location = venue ? `${venue.name}, ${venue.address}` : '';
+  const details = event.description || '';
+  
+  const params = new URLSearchParams({
+    path: '/calendar/action/compose',
+    rru: 'addevent',
+    subject: event.name,
+    startdt: startDate.toISOString(),
+    enddt: endDate.toISOString(),
+    body: details,
+    location: location
+  });
+  
+  return `https://outlook.live.com/calendar/0/deeplink/compose?${params.toString()}`;
 }
 
 function getSocialLink(platform: string, handle: string): string {

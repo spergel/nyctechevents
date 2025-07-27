@@ -42,7 +42,43 @@ try:
 except Exception as e:
     logging.error(f"Error loading communities data from {CONFIG_DATA_DIR}: {e}")
 
-def get_luma_events(ics_url):
+def is_nyc_event(event_data):
+    """Check if an event is in NYC based on geographic coordinates, location, or title"""
+    # NYC bounding box (approximate)
+    NYC_LAT_MIN, NYC_LAT_MAX = 40.4, 41.0
+    NYC_LON_MIN, NYC_LON_MAX = -74.3, -73.7
+    
+    # Check GEO coordinates first
+    geo = event_data.get('geo', '')
+    if geo:
+        try:
+            # Parse geo coordinates (format: "lat;lon")
+            if ';' in geo:
+                lat_str, lon_str = geo.split(';')
+                lat, lon = float(lat_str), float(lon_str)
+                if NYC_LAT_MIN <= lat <= NYC_LAT_MAX and NYC_LON_MIN <= lon <= NYC_LON_MAX:
+                    return True
+        except (ValueError, IndexError):
+            pass
+    
+    # Check location field for NYC indicators
+    location = event_data.get('location', '').lower()
+    if any(nyc_indicator in location for nyc_indicator in [
+        'new york', 'nyc', 'manhattan', 'brooklyn', 'queens', 
+        'bronx', 'staten island', 'ny ', ', ny'
+    ]):
+        return True
+    
+    # Check event title/summary for NYC indicators
+    summary = event_data.get('summary', '').lower()
+    if any(nyc_indicator in summary for nyc_indicator in [
+        'nyc', 'new york city', 'manhattan', 'brooklyn'
+    ]):
+        return True
+    
+    return False
+
+def get_luma_events(ics_url, filter_nyc=False):
     """Fetch and parse Luma calendar events from ICS feed"""
     try:
         logging.info(f"Fetching ICS feed from: {ics_url}")
@@ -87,8 +123,9 @@ def get_luma_events(ics_url):
                 
                 # Get detailed event information if we have a URL
                 event_details = get_luma_event_details(event_url) if event_url else None
-                    
-                events.append({
+                
+                # Create event data
+                event_data = {
                     "uid": getattr(event, 'uid', ''),
                     "summary": getattr(event, 'name', ''),
                     "start": event.begin.datetime,
@@ -99,7 +136,13 @@ def get_luma_events(ics_url):
                     "geo": getattr(event, 'geo', ''),
                     "url": event_url,
                     "additional_details": event_details
-                })
+                }
+                
+                # Apply NYC filtering if requested
+                if filter_nyc and not is_nyc_event(event_data):
+                    continue
+                    
+                events.append(event_data)
             except Exception as e:
                 logging.error(f"Error processing event: {getattr(event, 'name', 'Unknown Event')} - {e}")
                 continue
@@ -316,15 +359,16 @@ def main():
             community_id = cal_info.get('community_id')
             ics_url = cal_info.get('url')
             cal_name = cal_info.get('name', 'Unknown')
+            filter_nyc = cal_info.get('filter_nyc', False)
 
             if not community_id or not ics_url:
                 logging.warning(f"Skipping calendar '{cal_name}' due to missing 'community_id' or 'url'.")
                 continue
         
-            logging.info(f"Processing calendar for community: {community_id}")
+            logging.info(f"Processing calendar for community: {community_id} (NYC filter: {filter_nyc})")
             
             # Fetch events from the ICS feed
-            luma_events = get_luma_events(ics_url)
+            luma_events = get_luma_events(ics_url, filter_nyc=filter_nyc)
             
             # Convert and filter for future events
             future_events = [

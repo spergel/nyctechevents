@@ -27,6 +27,7 @@ ICS_CALENDARS = [
     {'name': 'raid_nyc', 'url': 'https://api.lu.ma/ics/get?entity=calendar&id=cal-tBOSmnsBzW0kTrf', 'community_id': 'com_raid_nyc'},
     {'name': 'satori', 'url': 'https://api.lu.ma/ics/get?entity=calendar&id=cal-EYZA520VGEASXG2', 'community_id': 'com_satori'},
     {'name': 'civic_techish_nyc', 'url': 'https://api.lu.ma/ics/get?entity=calendar&id=cal-IS0wmeg4we7wiPa', 'community_id': 'com_civic_techish_nyc'},
+    {'name': 'forum_ventures', 'url': 'https://api.lu.ma/ics/get?entity=calendar&id=cal-SbCHaOYXyeQHVgB', 'community_id': 'com_forum_ventures', 'filter_nyc': True},
 ]
 
 # Google Calendar configurations
