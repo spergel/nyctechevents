@@ -9,6 +9,7 @@ import google.generativeai as genai
 from dotenv import load_dotenv
 import pyshorteners
 import re
+import requests # Added for shorten_url function
 
 load_dotenv()
 
@@ -118,21 +119,55 @@ def get_events_for_target_day_ny(events, target_day_for_filtering_ny):
                  
     return upcoming_on_target_day
 
-def shorten_url(long_url):
-    if not long_url or long_url == '#':
-        return "#" # Return placeholder if no valid URL
+def shorten_url(url):
+    """Shorten a URL using TinyURL API"""
+    if not url or url == '#':
+        return '#'
+    
     try:
-        s = pyshorteners.Shortener()
-        short_url = s.tinyurl.short(long_url)
-        # Remove http:// or https:// from the beginning of the URL
-        if short_url.startswith("https://"):
-            return short_url[len("https://"):]
-        elif short_url.startswith("http://"):
-            return short_url[len("http://"):]
-        return short_url
+        response = requests.get(f"http://tinyurl.com/api-create.php?url={url}")
+        if response.status_code == 200:
+            return response.text.strip()
+        else:
+            return url  # Return original URL if shortening fails
     except Exception as e:
-        logging.error(f"Error shortening URL {long_url}: {e}")
-        return long_url # Fallback to long_url if shortening fails
+        logging.warning(f"Failed to shorten URL {url}: {e}")
+        return url  # Return original URL if shortening fails
+
+def get_main_source_url(event):
+    """Get the main source page URL based on the event's source"""
+    # Check if we have metadata with source information
+    metadata = event.get('metadata', {})
+    source = metadata.get('source', '').lower()
+    
+    # Define main URLs for each source
+    source_urls = {
+        'pioneer works': 'https://pioneerworks.org/calendar',
+        'garys guide': 'https://www.garysguide.com/events?region=nyc',
+        'google calendar': 'https://calendar.google.com',
+        'ics calendar': 'https://lu.ma',  # Most ICS calendars seem to be from Luma
+        'luma': 'https://lu.ma',
+        'eventbrite': 'https://www.eventbrite.com/d/united-states--new-york/events/',
+    }
+    
+    # Try to match the source
+    for key, url in source_urls.items():
+        if key in source:
+            return url
+    
+    # If no specific match, try to infer from the event URL if available
+    event_url = event.get('url', '')
+    if 'lu.ma' in event_url:
+        return 'https://lu.ma'
+    elif 'eventbrite.com' in event_url:
+        return 'https://www.eventbrite.com/d/united-states--new-york/events/'
+    elif 'pioneerworks.org' in event_url:
+        return 'https://pioneerworks.org/calendar'
+    elif 'garysguide.com' in event_url:
+        return 'https://www.garysguide.com/events?region=nyc'
+    
+    # Default fallback
+    return 'https://www.garysguide.com/events?region=nyc'
 
 def generate_tweet_with_gemini(event):
     """Generates a tweet using the Gemini API."""
@@ -161,6 +196,10 @@ def generate_tweet_with_gemini(event):
             original_url = event.get('url', '#') 
         if original_url == '#':
             original_url = event.get('sourceSite', '#')
+        
+        # If we still don't have a specific event URL, use the main source page
+        if original_url == '#':
+            original_url = get_main_source_url(event)
         
         display_url = shorten_url(original_url) # Use the new shorten_url function
 

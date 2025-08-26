@@ -28,7 +28,11 @@ export function EventDetailDialog({
   const associatedCommunityData = associatedCommunities
     .map((id: string) => getCommunityData(id))
     .filter((c): c is Community => c !== undefined);
-  const registrationUrl = event.metadata?.source_url;
+  // Get the registration URL with fallback to main source page
+  let registrationUrl = event.metadata?.source_url;
+  if (!registrationUrl || registrationUrl === '#') {
+    registrationUrl = getMainSourceUrl(event);
+  }
 
   const handleCommunityClick = (communityId: string) => {
     if (onCommunityClick) {
@@ -242,17 +246,16 @@ export function EventDetailDialog({
                 <div className="detail-section registration-section">
                   <h3>VIEW EVENT</h3>
                   <a 
-                    href={registrationUrl || '#'}
+                    href={registrationUrl}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="registration-link"
-                    onClick={!registrationUrl ? (e) => e.preventDefault() : undefined}
                   >
-                    <div className={`registration-button ${!registrationUrl ? 'disabled' : ''}`}>
+                    <div className="registration-button">
                       <span>
-                        {registrationUrl ? 'View Original Event' : 'Event Source Unavailable'}
+                        {event.metadata?.source_url ? 'View Original Event' : 'View Event Source'}
                       </span>
-                      {registrationUrl && <span className="external-link-icon">↗</span>}
+                      <span className="external-link-icon">↗</span>
                     </div>
                   </a>
                 </div>
@@ -943,4 +946,25 @@ function getSocialLink(platform: string, handle: string): string {
     default:
       return handle;
   }
+} 
+
+function getMainSourceUrl(event: Event): string {
+  /**Get the main source page URL based on the event's source*/
+  // Check if we have metadata with source_url information
+  const metadata = event.metadata || {};
+  const sourceUrl = metadata.source_url || '';
+  
+  // Try to infer from the source URL if available
+  if (sourceUrl.includes('lu.ma')) {
+    return 'https://lu.ma';
+  } else if (sourceUrl.includes('eventbrite.com')) {
+    return 'https://www.eventbrite.com/d/united-states--new-york/events/';
+  } else if (sourceUrl.includes('pioneerworks.org')) {
+    return 'https://pioneerworks.org/calendar';
+  } else if (sourceUrl.includes('garysguide.com')) {
+    return 'https://www.garysguide.com/events?region=nyc';
+  }
+  
+  // Default fallback
+  return 'https://www.garysguide.com/events?region=nyc';
 } 
