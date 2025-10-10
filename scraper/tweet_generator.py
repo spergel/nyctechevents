@@ -208,19 +208,23 @@ def generate_tweet_with_gemini(event):
         try:
             if start_date_str != 'Not specified':
                 dt_obj = datetime.fromisoformat(start_date_str.replace('Z', '+00:00'))
-                formatted_date = dt_obj.strftime("%A, %B %d at %I:%M %p %Z")
+                # Convert to NY time and format without timezone abbreviation
+                ny_tz = pytz.timezone('America/New_York')
+                dt_ny = dt_obj.astimezone(ny_tz)
+                formatted_date = dt_ny.strftime("%A, %B %d at %I:%M %p").replace(" 0", " ")  # Remove leading zero from hour
         except ValueError:
             formatted_date = start_date_str # Fallback to original string if parsing fails
 
         prompt = f"""Create an engaging and concise tweet for the following NYC tech event.
         The event is: {event_name}
-        Date: {formatted_date}
+        Date: {formatted_date} (New York time)
         Description: {description}
         Venue: {venue}
         Price: {price_str}
         Link: {display_url}
 
         The tweet should be exciting and encourage people to check it out. Do NOT include any hashtags. 
+        The time is already in New York time, so just say things like "at 7pm" without any timezone.
         Max 280 characters. Directly provide only the tweet text."""
         
         logging.info(f"Sending prompt to Gemini for event: {event_name} with display_url: {display_url}")
