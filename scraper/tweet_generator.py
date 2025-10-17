@@ -240,7 +240,7 @@ def generate_tweet_with_gemini(event):
         # Fallback tweet content in case of API error
         # Ensure fallback also uses a processed URL if original_url was defined, or a placeholder
         fallback_url_display = shorten_url(original_url) if 'original_url' in locals() and original_url else "#"
-        return f"Check out: {event_name} on {formatted_date}. Link: {fallback_url_display} (Error generating creative tweet)"
+        return f"Check out: {event_name} on {formatted_date}. Link: {fallback_url_display}"
 
 def post_to_twitter(tweet_text, api_key, api_secret, access_token, access_token_secret, in_reply_to_tweet_id=None):
     """Authenticates with Twitter and posts a tweet using API v2, optionally as a reply."""
