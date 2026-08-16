@@ -199,7 +199,7 @@ export default function HomeClient() {
     const today = new Date();
     today.setHours(0, 0, 0, 0);
 
-    const upcoming = (events.events as PageEvent[])
+    const upcoming = (events.events as unknown as PageEvent[])
       .filter((event) => {
         if (!event.startDate) return false;
         const eventDate = new Date(event.startDate);
