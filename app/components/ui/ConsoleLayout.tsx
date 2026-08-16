@@ -9,7 +9,7 @@ import communities from '@/public/data/communities.json';
 import locations from '@/public/data/locations.json';
 import events from '@/public/data/events.json';
 import { Location } from '@/app/utils/dataHelpers';
-import { AddToCalendar } from './AddToCalendar';
+import { CityUplink } from './CityUplink';
 
 interface Community {
   id: string;
@@ -103,17 +103,17 @@ export function ConsoleLayout({ children, locations, onLocationClick, lastUpdate
       <div className="left-column-container">
         <div className="left-top">
           <div className="section-header">
-            <h3>ADD TO CALENDAR</h3>
-            <span className="system-id">CAL-001</span>
+            <h3>NYC UPLINK</h3>
+            <span className="system-id">WIRE-001</span>
           </div>
           <Panel 
             variant="primary"
             footerStats={{
-              left: "SYNC: READY",
-              right: "EXPORT: ACTIVE"
+              left: "UPLINK: LIVE",
+              right: "NYC.GRID"
             }}
           >
-            <AddToCalendar />
+            <CityUplink />
           </Panel>
         </div>
 
