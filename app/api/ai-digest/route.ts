@@ -2,6 +2,7 @@ import { NextResponse, NextRequest } from 'next/server';
 import events from '@/public/data/events.json';
 import communities from '@/public/data/communities.json';
 import locations from '@/public/data/locations.json';
+import { SITE_URL } from '@/lib/site';
 
 export async function GET(request: NextRequest) {
   try {
@@ -97,7 +98,7 @@ export async function GET(request: NextRequest) {
           location: location?.name || 'TBD',
           price: event.price?.type === 'Free' ? 'Free' : `$${event.price?.amount || 0}`,
           description: event.description?.slice(0, 150) + '...' || 'Event details coming soon',
-          url: `https://nycevents.vercel.app/events/${event.id}`,
+          url: `${SITE_URL}/events/${event.id}`,
           aiSummary: `${event.name} is a ${event.type} event hosted by ${community?.name || 'community organizers'} on ${new Date(event.startDate).toDateString()}. ${event.description?.slice(0, 100) || 'This event focuses on NYC tech community building.'}`
         };
       }),

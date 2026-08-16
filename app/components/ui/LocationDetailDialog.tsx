@@ -1,5 +1,5 @@
 import { DetailDialog } from './DetailDialog';
-import { getEventsForLocation, getCommunitiesForLocation, getCommunityData, getMainCommunityForLocation } from '@/app/utils/dataHelpers';
+import { getEventsForLocation, getCommunitiesForLocation, getCommunityData, getMainCommunityForLocation, isFormalCommunity } from '@/app/utils/dataHelpers';
 import { Event, Community, Location } from '@/app/types';
 import React, { useState } from 'react';
 
@@ -36,9 +36,11 @@ export function LocationDetailDialog({
     .filter(event => new Date(event.startDate) < new Date())
     .sort((a, b) => new Date(b.startDate).getTime() - new Date(a.startDate).getTime());
 
-  const handleCommunityClick = (communityId: string) => {
-    if (onCommunitySelect) {
-      onCommunitySelect(communityId);
+  const handleCommunityClick = (community: Community) => {
+    if (isFormalCommunity(community) && onCommunitySelect) {
+      onCommunitySelect(community.id);
+    } else if (community.website) {
+      window.open(community.website, '_blank', 'noopener,noreferrer');
     }
   };
 
@@ -97,7 +99,7 @@ export function LocationDetailDialog({
               {mainCommunity && (
                 <div className="main-community-section">
                   <h3 className="main-community-header">MAIN COMMUNITY</h3>
-                  <div className="main-community-card" onClick={() => handleCommunityClick(mainCommunity.id)}>
+                  <div className="main-community-card" onClick={() => handleCommunityClick(mainCommunity)}>
                     <div className="community-icon-large">
                       {mainCommunity.type === 'Tech' ? '💻' : 
                        mainCommunity.type === 'Art' ? '🎨' : 
@@ -334,7 +336,7 @@ export function LocationDetailDialog({
               {mainCommunity && (
                 <div className="main-community-section">
                   <h3 className="main-community-header">PRIMARY COMMUNITY</h3>
-                  <div className="main-community-card" onClick={() => handleCommunityClick(mainCommunity.id)}>
+                  <div className="main-community-card" onClick={() => handleCommunityClick(mainCommunity)}>
                     <div className="community-icon-large">
                       {mainCommunity.type === 'Tech' ? '💻' : 
                        mainCommunity.type === 'Art' ? '🎨' : 
@@ -387,7 +389,7 @@ export function LocationDetailDialog({
                       <div 
                         key={community.id} 
                         className="community-item"
-                        onClick={() => handleCommunityClick(community.id)}
+                        onClick={() => handleCommunityClick(community)}
                       >
                         <div className="community-icon">
                           {community.type === 'Tech' ? '💻' : 
@@ -399,11 +401,14 @@ export function LocationDetailDialog({
                         <div className="community-info">
                           <div className="community-list-header">
                             <h4 className="community-list-name">{community.name}</h4>
-                            <span className="community-list-type">{community.type}</span>
+                            <span className="community-list-type">
+                              {community.derived ? 'Luma Host' : community.type}
+                            </span>
                           </div>
                           <p className="community-description-preview">
-                            {community.description.substring(0, 120)}
-                            {community.description.length > 120 ? '...' : ''}
+                            {community.derived
+                              ? `Hosts events at ${location.name}`
+                              : `${(community.description || '').substring(0, 120)}${(community.description || '').length > 120 ? '...' : ''}`}
                           </p>
                         </div>
                       </div>

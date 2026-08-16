@@ -1,5 +1,5 @@
 import { DetailDialog } from './DetailDialog';
-import { getCommunityData, getLocationData } from '@/app/utils/dataHelpers';
+import { getCommunityData, getEventHost, getEventLocation, isFormalCommunity } from '@/app/utils/dataHelpers';
 import React from 'react';
 import { Community, Location, Event } from '@/app/types';
 import EventJsonLd from '@/app/components/EventJsonLd';
@@ -21,13 +21,13 @@ export function EventDetailDialog({
 }: EventDetailDialogProps) {
   if (!event) return null;
 
-  const community = event.communityId ? getCommunityData(event.communityId) : undefined;
-  const location = event.locationId ? getLocationData(event.locationId) : undefined;
+  const community = getEventHost(event);
+  const location = getEventLocation(event);
   const venue = event.metadata?.venue;
   const associatedCommunities = event.metadata?.associated_communities || [];
   const associatedCommunityData = associatedCommunities
     .map((id: string) => getCommunityData(id))
-    .filter((c): c is Community => c !== undefined);
+    .filter((c): c is Community => c !== undefined && c.id !== community?.id);
   // Get the registration URL with fallback to main source page
   let registrationUrl = event.metadata?.source_url;
   if (!registrationUrl || registrationUrl === '#') {
@@ -191,7 +191,14 @@ export function EventDetailDialog({
                     <h3>HOSTED BY</h3>
                     <div 
                       className="community-compact"
-                      onClick={() => handleCommunityClick(community.id)}
+                      onClick={() => {
+                        if (isFormalCommunity(community)) {
+                          handleCommunityClick(community.id);
+                        } else if (community.website) {
+                          window.open(community.website, '_blank', 'noopener,noreferrer');
+                        }
+                      }}
+                      style={{ cursor: isFormalCommunity(community) || community.website ? 'pointer' : 'default' }}
                     >
                       <div className="community-avatar">
                         <div className="community-icon">
@@ -205,9 +212,13 @@ export function EventDetailDialog({
                       </div>
                       <div className="community-info">
                         <h4 className="community-name">{community.name}</h4>
-                        <div className="community-type-badge">{community.type}</div>
+                        <div className="community-type-badge">
+                          {community.derived ? 'Luma Host' : community.type}
+                        </div>
                       </div>
-                      <div className="view-more-indicator">⟩</div>
+                      {(isFormalCommunity(community) || community.website) && (
+                        <div className="view-more-indicator">⟩</div>
+                      )}
                     </div>
 
                     {/* Associated Communities */}

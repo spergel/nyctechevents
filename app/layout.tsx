@@ -1,17 +1,18 @@
 import './globals.css'
 import type { Metadata } from 'next'
 import { MainframeHeader } from './components/ui/MainframeHeader'
-import { Analytics } from '@vercel/analytics/react'
 import { WebsiteJsonLd } from './components/EnhancedJsonLd';
+import { SITE_URL } from '@/lib/site';
 
 export const metadata: Metadata = {
+  metadataBase: new URL(SITE_URL),
   title: 'NYC Events & Communities | Your Cyberpunk Guide to New York',
   description: 'Discover upcoming NYC events, tech communities, and cool locations with our futuristic cyberpunk interface. Connect with NYC builders, creators, and innovators.',
   keywords: 'NYC events, New York communities, tech meetups, NYC builders, cyberpunk interface, New York tech scene, NYC locations',
   openGraph: {
     title: 'NYC Events & Communities | Your Cyberpunk Guide to New York',
     description: 'Discover upcoming NYC events, tech communities, and cool locations with our futuristic cyberpunk interface. Connect with NYC builders, creators, and innovators.',
-    url: 'https://nycevents.vercel.app',
+    url: SITE_URL,
     siteName: 'NYC Events & Communities',
     images: [{
       url: '/nyc_skyline.gif',
@@ -43,7 +44,7 @@ export default function RootLayout({
       </head>
       <body>
         <WebsiteJsonLd 
-          url="https://nycevents.vercel.app"
+          url={SITE_URL}
           name="NYC Events & Communities"
           description="Your futuristic guide to New York City's tech scene. Discover events, communities, locations, and newsletters with our cyberpunk interface."
         />
@@ -53,7 +54,6 @@ export default function RootLayout({
             {children}
           </main>
         </div>
-        <Analytics />
       </body>
     </html>
   )

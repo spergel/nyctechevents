@@ -1,3 +1,4 @@
+import { SITE_URL } from '@/lib/site';
 import { Metadata } from 'next'
 import events from '@/public/data/events.json'
 import locations from '@/public/data/locations.json'
@@ -10,11 +11,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'NYC Tech Events by Neighborhood',
     description: 'Find tech events in your NYC neighborhood - Manhattan, Brooklyn, Queens, Bronx, and Staten Island.',
-    url: 'https://nycevents.vercel.app/neighborhoods',
+    url: `${SITE_URL}/neighborhoods`,
     type: 'website',
   },
   alternates: {
-    canonical: 'https://nycevents.vercel.app/neighborhoods',
+    canonical: `${SITE_URL}/neighborhoods`,
   },
 }
 

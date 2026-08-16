@@ -5,28 +5,31 @@
   "description": "A futuristic cyberpunk-themed website that aggregates and displays NYC tech events, communities, and locations",
   "author": "NYC Events Team",
   "license": "ISC",
-  "homepage": "https://nycevents.vercel.app",
+  "homepage": "https://tech.somethingtodo.nyc",
   "repository": {
     "type": "git",
     "url": "https://github.com/yourusername/nycevents.git"
   },
   "scripts": {
-    "dev": "next dev --turbo",
-    "prebuild": "mkdir -p public/data && (cp data/scrapers/google_calendar_events.json public/data/events.json 2>/dev/null || cp scraper/data/combined_events.json public/data/events.json 2>/dev/null || echo '{\"events\": [], \"last_updated\": \"'$(date -u +%Y-%m-%dT%H:%M:%SZ)'\"}' > public/data/events.json)",
     "build": "next build",
+    "dev": "next dev --turbo",
+    "prebuild": "mkdir -p public/data && if [ -f public/data/events.json ]; then echo 'Using existing public/data/events.json'; elif [ -f scraper/data/combined_events.json ]; then cp scraper/data/combined_events.json public/data/events.json; elif [ -f data/scrapers/google_calendar_events.json ]; then cp data/scrapers/google_calendar_events.json public/data/events.json; else echo '{\"events\": [], \"last_updated\": \"'$(date -u +%Y-%m-%dT%H:%M:%SZ)'\"}' > public/data/events.json; fi",
     "start": "next start",
     "lint": "next lint",
     "type-check": "tsc --noEmit",
     "scrape": "python -m scraper.run_all",
-    "tweets": "python -m scraper.tweet_generator",
     "clean": "rm -rf .next out",
-    "analyze": "ANALYZE=true npm run build"
+    "analyze": "ANALYZE=true npm run build",
+    "preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
+    "deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy",
+    "upload": "opennextjs-cloudflare build && opennextjs-cloudflare upload",
+    "cf-typegen": "wrangler types --env-interface CloudflareEnv cloudflare-env.d.ts"
   },
   "dependencies": {
+    "@opennextjs/cloudflare": "^1.20.2",
     "@radix-ui/react-dialog": "^1.1.6",
     "@types/glob": "^8.1.0",
     "@types/mapbox-gl": "^3.4.1",
-    "@vercel/analytics": "^1.5.0",
     "clsx": "^2.1.0",
     "date-fns": "^4.1.0",
     "glob": "^11.0.1",
@@ -44,7 +47,8 @@
     "@types/node": "^20.11.19",
     "@types/react": "npm:types-react@19.0.0-rc.1",
     "@types/react-dom": "npm:types-react-dom@19.0.0-rc.1",
-    "typescript": "^5.3.3"
+    "typescript": "^5.3.3",
+    "wrangler": "^4.120.1"
   },
   "overrides": {
     "@types/react": "npm:types-react@19.0.0-rc.1",

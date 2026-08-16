@@ -19,9 +19,6 @@ export function MainframeHeader() {
 
   return (
     <header className="mainframe-header">
-      <div className="mainframe-status">
-      </div>
-
       <div className="mainframe-container">
         <div className="mainframe-title">
           <div className="title-container">
@@ -83,24 +80,6 @@ export function MainframeHeader() {
           border-bottom: 2px solid var(--nyc-orange);
           padding: 0.5rem;
           position: relative;
-        }
-
-        .mainframe-status {
-          position: absolute;
-          top: -1px;
-          left: 2rem;
-          z-index: 2;
-        }
-
-        .status-badge {
-          background: var(--nyc-orange);
-          color: var(--nyc-blue);
-          font-family: var(--font-display);
-          font-size: 0.8rem;
-          font-weight: bold;
-          padding: 0.25rem 1rem;
-          border-radius: 0 0 8px 8px;
-          box-shadow: 0 2px 4px rgba(0,0,0,0.2);
         }
 
         .mainframe-container {

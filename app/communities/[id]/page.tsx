@@ -1,3 +1,4 @@
+import { SITE_URL } from '@/lib/site';
 import { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import communities from '@/public/data/communities.json'
@@ -60,18 +61,18 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     openGraph: {
       title,
       description,
-      url: `https://nycevents.vercel.app/communities/${community.id}`,
+      url: `${SITE_URL}/communities/${community.id}`,
       type: 'profile',
-      images: community.image ? [`https://nycevents.vercel.app/${community.image}`] : ['/nyc_skyline.gif'],
+      images: community.image ? [`${SITE_URL}/${community.image}`] : ['/nyc_skyline.gif'],
     },
     twitter: {
       card: 'summary_large_image',
       title,
       description,
-      images: community.image ? [`https://nycevents.vercel.app/${community.image}`] : ['/nyc_skyline.gif'],
+      images: community.image ? [`${SITE_URL}/${community.image}`] : ['/nyc_skyline.gif'],
     },
     alternates: {
-      canonical: `https://nycevents.vercel.app/communities/${community.id}`,
+      canonical: `${SITE_URL}/communities/${community.id}`,
     },
   }
 }

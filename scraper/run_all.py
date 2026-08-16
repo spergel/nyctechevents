@@ -6,7 +6,7 @@ import time
 import subprocess
 import glob
 from importlib import import_module
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 import argparse
 import traceback
 import importlib
@@ -201,7 +201,10 @@ def combine_event_files(input_files: List[str], output_file: str = None) -> str:
     # Save combined events
     try:
         with open(output_file, 'w', encoding='utf-8') as f:
-            json.dump({"events": all_events}, f, indent=2, ensure_ascii=False)
+            json.dump({
+                "last_updated": datetime.now(timezone.utc).isoformat(),
+                "events": all_events
+            }, f, indent=2, ensure_ascii=False)
         logging.info(f"Saved {len(all_events)} combined events to {output_file}")
         return output_file
     except Exception as e:

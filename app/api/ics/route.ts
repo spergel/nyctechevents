@@ -1,5 +1,6 @@
 import { NextResponse, NextRequest } from 'next/server';
 import events from '@/public/data/events.json';
+import { SITE_URL } from '@/lib/site';
 
 function escapeText(text: string): string {
   return text
@@ -43,10 +44,10 @@ ${upcomingEvents.map((event: any) => {
 
   const description = event.description ? escapeText(event.description) : '';
   const location = event.metadata?.venue?.name ? escapeText(event.metadata.venue.name) : '';
-  const url = `https://nycevents.vercel.app/events/${event.id}`;
+  const url = `${SITE_URL}/events/${event.id}`;
 
   return `BEGIN:VEVENT
-UID:${event.id}@nycevents.vercel.app
+UID:${event.id}@${new URL(SITE_URL).hostname}
 DTSTAMP:${formatDate(new Date())}
 DTSTART:${formatDate(startDate)}
 DTEND:${formatDate(endDate)}

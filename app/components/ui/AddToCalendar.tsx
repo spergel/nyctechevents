@@ -2,6 +2,7 @@
 import React, { useState, useMemo } from 'react';
 import events from '@/public/data/events.json';
 import { HolographicDisplay } from './HolographicDisplay';
+import { SITE_URL } from '@/lib/site';
 
 interface Event {
   id: string;
@@ -81,7 +82,7 @@ METHOD:PUBLISH`;
       
       icsContent += `
 BEGIN:VEVENT
-UID:${event.id}@nycevents.vercel.app
+UID:${event.id}@${new URL(SITE_URL).hostname}
 DTSTART:${formatDate(startDate)}
 DTEND:${formatDate(endDate)}
 SUMMARY:${event.name}

@@ -60,12 +60,12 @@
       "id": "loc_boshis",
       "name": "Boshi's Place",
       "type": "Community Space",
-      "address": "117 Wilson Ave, Brooklyn, NY 11237",
+      "address": "1002 Metropolitan Ave, Brooklyn, NY 11211",
       "coordinates": {
-        "lat": 40.7007,
-        "lng": -73.9283
+        "lat": 40.7142,
+        "lng": -73.9345
       },
-      "description": "A community space and cafe in Bushwick focused on art, music, and cultural events.",
+      "description": "A community space and cafe in Brooklyn focused on art, music, games, and cultural events.",
       "amenities": [
         "Cafe",
         "Event Space",
@@ -151,7 +151,7 @@
       "mainCommunityId": "com_index",
       "name": "Index Space",
       "type": "Museum & Gallery",
-      "address": "29 Norman Ave, Brooklyn, NY 11222",
+      "address": "698 Manhattan Ave Floors 2 & 3, Brooklyn, NY 11222",
       "coordinates": {
         "lat": 40.7242,
         "lng": -73.9448

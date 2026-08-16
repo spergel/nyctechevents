@@ -3,6 +3,7 @@
 import Script from 'next/script';
 import { useEffect } from 'react';
 import { Event } from '@/app/types';
+import { SITE_URL } from '@/lib/site';
 
 interface EventJsonLdProps {
   event: Event;
@@ -46,13 +47,13 @@ export default function EventJsonLd({ event }: EventJsonLdProps) {
           'streetAddress': event.metadata?.venue?.address || ''
         }
       },
-      'image': event.image ? `https://nycevents.vercel.app/${event.image}` : undefined,
+      'image': event.image ? `${SITE_URL}/${event.image}` : undefined,
       'offers': {
         '@type': 'Offer',
         'price': event.price?.amount || 0,
         'priceCurrency': event.price?.currency || 'USD',
         'availability': 'https://schema.org/InStock',
-        'url': event.metadata?.source_url || 'https://nycevents.vercel.app'
+        'url': event.metadata?.source_url || `${SITE_URL}`
       },
       'organizer': {
         '@type': 'Organization',

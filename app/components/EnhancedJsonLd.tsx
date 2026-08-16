@@ -2,6 +2,7 @@
 
 import Script from 'next/script';
 import { useEffect } from 'react';
+import { SITE_URL } from '@/lib/site';
 
 interface OrganizationJsonLdProps {
   organization: {
@@ -66,10 +67,10 @@ export function OrganizationJsonLd({ organization }: OrganizationJsonLdProps) {
     const jsonLd = {
       '@context': 'https://schema.org',
       '@type': 'Organization',
-      '@id': `https://nycevents.vercel.app/communities/${organization.id}`,
+      '@id': `${SITE_URL}/communities/${organization.id}`,
       'name': organization.name,
       'description': organization.description,
-      'url': organization.website || `https://nycevents.vercel.app/communities/${organization.id}`,
+      'url': organization.website || `${SITE_URL}/communities/${organization.id}`,
       'foundingDate': organization.founded || undefined,
       'location': {
         '@type': 'Place',
@@ -95,7 +96,7 @@ export function OrganizationJsonLd({ organization }: OrganizationJsonLdProps) {
         organization.website
       ].filter(Boolean),
       'keywords': ['NYC', 'New York', 'community', 'tech', 'events', organization.type, organization.name].join(', '),
-      'image': organization.image ? `https://nycevents.vercel.app/${organization.image}` : undefined
+      'image': organization.image ? `${SITE_URL}/${organization.image}` : undefined
     };
     
     script.textContent = JSON.stringify(jsonLd);
@@ -119,7 +120,7 @@ export function LocationJsonLd({ location }: LocationJsonLdProps) {
     const jsonLd = {
       '@context': 'https://schema.org',
       '@type': 'Place',
-      '@id': `https://nycevents.vercel.app/locations/${location.id}`,
+      '@id': `${SITE_URL}/locations/${location.id}`,
       'name': location.name,
       'description': location.description,
       'address': {
@@ -134,7 +135,7 @@ export function LocationJsonLd({ location }: LocationJsonLdProps) {
         'latitude': location.coordinates.lat,
         'longitude': location.coordinates.lng
       } : undefined,
-      'url': location.website || `https://nycevents.vercel.app/locations/${location.id}`,
+      'url': location.website || `${SITE_URL}/locations/${location.id}`,
       'telephone': location.contact?.phone,
       'email': location.contact?.email,
       'openingHours': location.hours ? Object.entries(location.hours).map(([day, hours]) => 
@@ -171,7 +172,7 @@ export function EventSeriesJsonLd({ events, community, location }: EventSeriesJs
       'organizer': community ? {
         '@type': 'Organization',
         'name': community.name,
-        'url': community.website || `https://nycevents.vercel.app/communities/${community.id}`
+        'url': community.website || `${SITE_URL}/communities/${community.id}`
       } : undefined,
       'location': location ? {
         '@type': 'Place',
@@ -198,7 +199,7 @@ export function EventSeriesJsonLd({ events, community, location }: EventSeriesJs
         'name': event.name,
         'startDate': event.startDate,
         'endDate': event.endDate || event.startDate,
-        'url': `https://nycevents.vercel.app/events/${event.id}`,
+        'url': `${SITE_URL}/events/${event.id}`,
         'description': event.description || ''
       }))
     };

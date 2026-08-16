@@ -1170,6 +1170,153 @@
       ],
       "membershipType": "Open",
       "membershipFee": "Free"
+    },
+    {
+      "id": "com_bk_product_design",
+      "name": "Brooklyn Product Design",
+      "type": "Creative",
+      "organizationType": "community",
+      "description": "We connect Brooklyn (and New York City's) product design community together through curiosity and shared learning.",
+      "founded": "",
+      "size": "0",
+      "category": [
+        "Creative",
+        "Design",
+        "Product",
+        "Networking"
+      ],
+      "contact": {
+        "social": {}
+      },
+      "website": "https://luma.com/bkproductdesign",
+      "meetingLocationIds": [],
+      "image": "",
+      "tags": [
+        "product design",
+        "ux",
+        "brooklyn",
+        "design talks",
+        "networking"
+      ],
+      "membershipType": "Open",
+      "membershipFee": "Free"
+    },
+    {
+      "id": "com_all_tech_is_human",
+      "name": "All Tech Is Human",
+      "type": "Tech",
+      "organizationType": "community",
+      "description": "Together, we tackle the world's thorniest tech & society issues and co-create a better tech future.",
+      "founded": "",
+      "size": "0",
+      "category": [
+        "Tech",
+        "Society",
+        "Responsible Tech",
+        "AI"
+      ],
+      "contact": {
+        "social": {}
+      },
+      "website": "https://luma.com/AllTechIsHuman",
+      "meetingLocationIds": [],
+      "image": "",
+      "tags": [
+        "responsible tech",
+        "ai ethics",
+        "tech and society",
+        "networking"
+      ],
+      "membershipType": "Open",
+      "membershipFee": "Free"
+    },
+    {
+      "id": "com_cht",
+      "name": "Center for Humane Technology",
+      "type": "Tech",
+      "organizationType": "nonprofit",
+      "description": "We envision a world with technology that respects our attention, improves our well-being, and strengthens communities.",
+      "founded": "",
+      "size": "0",
+      "category": [
+        "Tech",
+        "Society",
+        "Responsible Tech"
+      ],
+      "contact": {
+        "social": {}
+      },
+      "website": "https://luma.com/user/CHT",
+      "meetingLocationIds": [],
+      "image": "",
+      "tags": [
+        "humane technology",
+        "attention",
+        "well-being",
+        "responsible tech"
+      ],
+      "membershipType": "Open",
+      "membershipFee": "Free"
+    },
+    {
+      "id": "com_brainstation",
+      "name": "BrainStation",
+      "type": "Education",
+      "organizationType": "company",
+      "description": "Digital skills education and event space hosting tech, design, and product community gatherings in NYC.",
+      "founded": "",
+      "size": "0",
+      "category": [
+        "Education",
+        "Tech",
+        "Design"
+      ],
+      "contact": {
+        "social": {}
+      },
+      "website": "https://luma.com/user/usr-kN1ZexRdgL8Xr61",
+      "meetingLocationIds": [],
+      "image": "",
+      "tags": [
+        "education",
+        "digital skills",
+        "product",
+        "design",
+        "events"
+      ],
+      "membershipType": "Open",
+      "membershipFee": "Free"
+    },
+    {
+      "id": "com_ny_bio_connect",
+      "name": "New York Bio Connect",
+      "type": "Tech",
+      "organizationType": "ecosystem",
+      "description": "A partnership of NewYorkBIO, NYCEDC, and Empire State Development connecting New York's biotech and life sciences community through events, funding, facilities, and programs.",
+      "founded": "",
+      "size": "0",
+      "category": [
+        "Tech",
+        "Biotech",
+        "Life Sciences",
+        "Healthcare"
+      ],
+      "contact": {
+        "social": {}
+      },
+      "website": "https://newyorkbioconnect.com",
+      "meetingLocationIds": [],
+      "image": "",
+      "tags": [
+        "biotech",
+        "life sciences",
+        "healthcare",
+        "startups",
+        "investors",
+        "nyc"
+      ],
+      "membershipType": "Open",
+      "membershipFee": "Free"
     }
   ]
 }

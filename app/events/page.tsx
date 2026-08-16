@@ -11,7 +11,7 @@ import { CommunityDetailDialog } from '@/app/components/ui/CommunityDetailDialog
 import { LocationDetailDialog } from '@/app/components/ui/LocationDetailDialog';
 import { saveFilterState, loadFilterState } from '@/app/utils/filterState';
 import { CyberDatePicker } from '@/app/components/ui/CyberDatePicker';
-import { getCommunityData, getLocationData } from '@/app/utils/dataHelpers';
+import { getCommunityData, getEventHost, getEventLocation, getLocationData, isFormalCommunity } from '@/app/utils/dataHelpers';
 import { Event, Category, Community, Location } from '@/app/types';
 import { getSocialLink } from '@/app/utils/dataHelpers';
 
@@ -811,8 +811,8 @@ export default function Events() {
           <Panel title={`NYC EVENTS (${sortedEvents.length})`} systemId="EVT-001">
             <div className="event-cards">
               {sortedEvents.slice(0, visibleItems).map((event: any, index: number) => {
-                const community = getCommunityData(event.communityId);
-                const location = getLocationData(event.locationId);
+                const community = getEventHost(event);
+                const location = getEventLocation(event);
                 const parsedEventDate = parseSafeDate(event.startDate || null);
                 
                 if (!parsedEventDate) return null; // Skip events with invalid dates
@@ -835,29 +835,43 @@ export default function Events() {
                       <div className="event-time">{parsedEventDate.toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', hour12: true })}</div>
                       
                       <div className="event-details">
-                        {community && event.communityId && (
+                        {community && (
                           <div className="detail-row">
                             <span className="detail-icon">⚡</span>
-                <button 
-                              className="detail-link"
-                              onClick={(e: React.MouseEvent) => {
-                                e.stopPropagation();
-                                handleCommunityClick(event.communityId);
-                  }}
-                >
-                              {community.name}
-                </button>
+                            {isFormalCommunity(community) ? (
+                              <button 
+                                className="detail-link"
+                                onClick={(e: React.MouseEvent) => {
+                                  e.stopPropagation();
+                                  handleCommunityClick(event.communityId);
+                                }}
+                              >
+                                {community.name}
+                              </button>
+                            ) : community.website ? (
+                              <a
+                                className="detail-link"
+                                href={community.website}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                onClick={(e: React.MouseEvent) => e.stopPropagation()}
+                              >
+                                {community.name}
+                              </a>
+                            ) : (
+                              <span className="detail-link" style={{ cursor: 'default' }}>{community.name}</span>
+                            )}
                           </div>
                         )}
                         
-                        {location && event.locationId && (
+                        {location && (
                           <div className="detail-row">
                             <span className="detail-icon">◎</span>
                             <button 
                               className="detail-link"
                               onClick={(e: React.MouseEvent) => {
                                 e.stopPropagation();
-                                handleLocationClick(event.locationId);
+                                handleLocationClick(location.id);
                               }}
                             >
                               {location.name}

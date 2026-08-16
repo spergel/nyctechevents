@@ -1,0 +1,1936 @@
+{
+  "events": [
+    {
+      "id": "evt_fabrik_cfeb0724",
+      "name": "Unlocking Human Potential",
+      "type": "Career & Networking",
+      "locationId": "loc_fabrik",
+      "communityId": "com_fabrik_ny",
+      "description": "Unlocking Human Potential is an interactive masterclass exploring how our beliefs, assumptions, thought patterns, and internal narratives shape the way we experience the world, communicate with others, and pursue our goals. \n\nFabrik members get a complimentary access on Luma with the code FRIEND ",
+      "startDate": "2026-08-17T22:30:00+00:00",
+      "endDate": "2026-08-18T01:00:00+00:00",
+      "category": [
+        "Career & Networking"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": "See registration link for details"
+      },
+      "capacity": 50,
+      "registrationRequired": true,
+      "tags": [
+        "fabrik"
+      ],
+      "image": "https://cdn.joinfabrik.com/gatherings/IMG_2480_64c17bce-801f-4af5-8b1d-9d3ee10afbf9.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Fabrik",
+        "source_url": "https://luma.com/ly5ta6dn",
+        "organizer": {
+          "name": "Alina Kuderska",
+          "website": "https://www.joinfabrik.com"
+        },
+        "venue": {
+          "name": "Fabrik Tribeca",
+          "address": "Fabrik Tribeca, New York, NY",
+          "type": "Community Space"
+        },
+        "featured": false,
+        "members_only": false,
+        "original_event_id": "d1d57ab6-75f1-4cce-a5b0-b4f4cb24b737"
+      }
+    },
+    {
+      "id": "evt_fabrik_962032a2",
+      "name": "STAND UP COMEDY at Fabrik!",
+      "type": "Friendship & Belonging",
+      "locationId": "",
+      "communityId": "com_fabrik_ny",
+      "description": "Come share your worst and best jokes with a happy, loving, supportive community! This is for beginners and experienced comedians alike. Light refreshments and snacks will be provided.\n\nYou can go for as long or as little as you like, but at some point the audience will decide whether it's time for you to shift to another voice! The max amount of time will be 20 minutes. ",
+      "startDate": "2026-08-18T22:00:00+00:00",
+      "endDate": "2026-08-18T23:30:00+00:00",
+      "category": [
+        "Friendship & Belonging"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": "See registration link for details"
+      },
+      "capacity": 50,
+      "registrationRequired": true,
+      "tags": [
+        "fabrik"
+      ],
+      "image": "https://cdn.joinfabrik.com/gatherings/Square Logos (6)_6fdd8db8-ecd6-44ab-a9bc-5e7d52175ffe.png",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Fabrik",
+        "source_url": "https://app.joinfabrik.com/gki6ind3",
+        "organizer": {
+          "name": "Fabrik",
+          "website": "https://www.joinfabrik.com"
+        },
+        "venue": {
+          "name": "Fabrik Dumbo",
+          "address": "Fabrik Dumbo, Brooklyn, NY",
+          "type": "Community Space"
+        },
+        "featured": false,
+        "members_only": false,
+        "original_event_id": "0468c588-91e2-493a-8e44-b9f287faa729"
+      }
+    },
+    {
+      "id": "evt_fabrik_f47dc0f7",
+      "name": "The Play Principle",
+      "type": "Creative Arts",
+      "locationId": "loc_fabrik",
+      "communityId": "com_fabrik_ny",
+      "description": "The Play Principle is an experiential research seminar on play as a spiritual practice and as a form of attention activism.",
+      "startDate": "2026-08-18T22:00:00+00:00",
+      "endDate": "2026-08-19T01:00:00+00:00",
+      "category": [
+        "Creative Arts"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": "See registration link for details"
+      },
+      "capacity": 20,
+      "registrationRequired": true,
+      "tags": [
+        "fabrik"
+      ],
+      "image": "https://cdn.joinfabrik.com/gatherings/Screenshot 2026-08-04 at 2.56.10 PM_eee45671-ed5c-4916-8ddf-b85092f2f51d.png",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Fabrik",
+        "source_url": "https://luma.com/1irkw4m9",
+        "organizer": {
+          "name": "That’s Interesting!",
+          "website": "https://www.joinfabrik.com"
+        },
+        "venue": {
+          "name": "Fabrik Tribeca",
+          "address": "Fabrik Tribeca, New York, NY",
+          "type": "Community Space"
+        },
+        "featured": false,
+        "members_only": false,
+        "original_event_id": "401dfd19-7fe0-4a31-a403-a2abb7775d3b"
+      }
+    },
+    {
+      "id": "evt_fabrik_4f2f1517",
+      "name": "Founder Lab: NYC",
+      "type": "Health and Wellness",
+      "locationId": "loc_fabrik",
+      "communityId": "com_fabrik_ny",
+      "description": "Founder Lab is a weekly build day assembling early-stage venture builders. Structured check-ins are run through FounderOS, unlocking access to office hours with advisors, investors, and operators.\n\n​Day pass from 9:00 AM to 5:00 PM is included, unless otherwise stated.\n\n​Review Reps: How are you stuck, what did you learn, and what needs to change.\n\n​Pressure-Test Logic: Use adversarial feedback to identify flaws in current hypotheses.\n\n​Anchor the Roadmap: Align on near-term technical unlocks and business milestones.\n\n​Design the Next Interval: Lock the specific success gates for the upcoming build cycle.\n\n​Direct Feedback: Receive \"brutal honesty\" testing from founders, operators, and venture advisors.",
+      "startDate": "2026-08-19T14:30:00+00:00",
+      "endDate": "2026-08-19T16:00:00+00:00",
+      "category": [
+        "Health and Wellness"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": "See registration link for details"
+      },
+      "capacity": 30,
+      "registrationRequired": true,
+      "tags": [
+        "fabrik"
+      ],
+      "image": "https://cdn.joinfabrik.com/gatherings/vision lab_76c71eb1-8e46-4168-8186-811ca5257dcb.avif",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Fabrik",
+        "source_url": "https://luma.com/7ruumwp5",
+        "organizer": {
+          "name": "Run Tech Club",
+          "website": "https://www.joinfabrik.com"
+        },
+        "venue": {
+          "name": "Fabrik Tribeca",
+          "address": "Fabrik Tribeca, New York, NY",
+          "type": "Community Space"
+        },
+        "featured": false,
+        "members_only": false,
+        "original_event_id": "13cfca48-c003-442f-ae08-44465565e62c"
+      }
+    },
+    {
+      "id": "evt_fabrik_55d38448",
+      "name": "Nukhu Foundation",
+      "type": "Creative Arts",
+      "locationId": "",
+      "communityId": "com_fabrik_ny",
+      "description": "Join us at Fabrik Dumbo for a filmmaker mixer celebrating the relaunch of Nukhu, a streaming platform empowering indie filmmakers to build audiences and earn revenue. Hosted by Sanjay Singh, Charles Bullard, Melissa Center, & MéLisa Best, this event unites creators across our networks!",
+      "startDate": "2026-08-19T21:30:00+00:00",
+      "endDate": "2026-08-20T01:00:00+00:00",
+      "category": [
+        "Creative Arts"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": "See registration link for details"
+      },
+      "capacity": 40,
+      "registrationRequired": true,
+      "tags": [
+        "fabrik"
+      ],
+      "image": "https://cdn.joinfabrik.com/gatherings/Nukhu-Rebuilt_square_a7710178-8e19-40bb-8e82-5fe88948af7a.png",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Fabrik",
+        "source_url": "https://luma.com/0upczk7y",
+        "organizer": {
+          "name": "Nukhu Foundation",
+          "website": "https://www.joinfabrik.com"
+        },
+        "venue": {
+          "name": "Fabrik Dumbo",
+          "address": "Fabrik Dumbo, Brooklyn, NY",
+          "type": "Community Space"
+        },
+        "featured": false,
+        "members_only": false,
+        "original_event_id": "cb37a49f-6702-4540-8310-c9b538f26295"
+      }
+    },
+    {
+      "id": "evt_fabrik_c02914b1",
+      "name": "For the Firsts",
+      "type": "Career & Networking",
+      "locationId": "loc_fabrik",
+      "communityId": "com_fabrik_ny",
+      "description": "For The Firsts is a meetup club for those building without a blueprint\n​Expect an evening of interesting conversation in an inviting space as you meet and mingle with other \"firsts\" — those who are the first in their family to choose their professional path with intention instead of inertia.\n\n​Enjoy refreshing drinks, delicious bites, and the chance to connect with other professionals, creatives, students, and founders. Each of our meetups looks something like this:\n\n​6:00 - 6:30 PM: Arrival & Open Mixer\n\n​6:30 - 6:40 PM: Introduction\n\n​6:40 - 8:00 PM: Guided Networking Experience\n\n​8:00 - 9:00 PM: Open Mixer\n\n​If you are approved, please try to arrive on time, as our events regularly hit capacity and we have many folks on the waitlist.\n\n​​Here’s what to expect:\n​Cringe-Free Conversation: This isn't a networking event. It's a purpose-led meetup where who you are will always be more important than what you do. The dress code is always 'come exactly as you are, meet exactly who you need'.\n\n​Guided Moments of Connection: This experience is at the core of For The Firsts. We’ll have a few rounds of guided connection meant to introduce you to others who share your story. Remember the first rule of For The Firsts: go deeper than your job title!\n\n​Firsts, not Followers: Each meetup is curated to bring together the best possible group of professionals, creatives, and founders in NYC who are the architects of their own lives. Intention is in everything we do, and you'll find that in the people you meet. Remember, the best way to get to know someone is to get someone to know you.\n\n​I want to encourage you to connect on who you are and your purpose for your work and life. Remember Rule #1: No job titles, go deeper. Tell us why, how and for whom you do what you do.",
+      "startDate": "2026-08-19T22:00:00+00:00",
+      "endDate": "2026-08-20T00:30:00+00:00",
+      "category": [
+        "Career & Networking"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": "See registration link for details"
+      },
+      "capacity": 40,
+      "registrationRequired": true,
+      "tags": [
+        "fabrik"
+      ],
+      "image": "https://cdn.joinfabrik.com/gatherings/Screenshot 2026-07-23 at 9.16.42 AM_2c9caf73-35c7-4206-bb4c-4fa3031f34f7.png",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Fabrik",
+        "source_url": "https://luma.com/gxg3rfpa",
+        "organizer": {
+          "name": "For the Firsts",
+          "website": "https://www.joinfabrik.com"
+        },
+        "venue": {
+          "name": "Fabrik Tribeca",
+          "address": "Fabrik Tribeca, New York, NY",
+          "type": "Community Space"
+        },
+        "featured": false,
+        "members_only": false,
+        "original_event_id": "268cd519-9999-45a2-a59b-13b801553d65"
+      }
+    },
+    {
+      "id": "evt_fabrik_ae04fd09",
+      "name": "Founder & Investor Dinner",
+      "type": "Financial",
+      "locationId": "loc_fabrik",
+      "communityId": "com_fabrik_ny",
+      "description": "The best fundraising conversations rarely start with a pitch—they start with the right connection.\n\nJoin us for an exclusive evening bringing together a carefully curated group of founders, investors, fund managers, and operators for meaningful conversations over dinner.\n\nUnlike large networking events, this intimate gathering is designed to create genuine relationships, thoughtful discussions, and high-quality connections across the startup and venture ecosystem.\n\nWhether you are a founder raising capital for your company, an emerging fund manager building relationships with LPs, an investor actively deploying capital, or an operator exploring your next opportunity, this dinner offers a relaxed and sophisticated setting to connect with people who understand the fundraising journey.\n\nThis is not about collecting business cards or delivering the perfect pitch. It is about communicating your vision, building trust, and creating the kind of relationships that can grow into future investments, partnerships, and opportunities.\n\nWho should attend?\n\nVenture capital investors\nAngel investors\nEmerging fund managers raising from LPs\nStartup founders raising capital\nFamily offices and limited partners\nCorporate innovation leaders\nExperienced operators and executives\n\nExpect engaging conversations around venture capital, AI, fundraising, fund formation, founder–investor relationships, product strategy, market trends, and the future of innovation.\n\nPair it with excellent food, thoughtful conversation, and a room full of ambitious people building what comes next.\n\nSeats are intentionally limited to maintain an intimate, high-quality experience. Early registration is encouraged.",
+      "startDate": "2026-08-19T22:30:00+00:00",
+      "endDate": "2026-08-20T01:00:00+00:00",
+      "category": [
+        "Financial"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": "See registration link for details"
+      },
+      "capacity": 20,
+      "registrationRequired": true,
+      "tags": [
+        "fabrik"
+      ],
+      "image": "https://cdn.joinfabrik.com/gatherings/321c2e9e-06c3-44c9-942e-a1b3cb9a775c_82743715-e5cb-4f91-b5e9-7f3a19edafab.png",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Fabrik",
+        "source_url": "https://luma.com/a7k4iz9j",
+        "organizer": {
+          "name": "Founder Community",
+          "website": "https://www.joinfabrik.com"
+        },
+        "venue": {
+          "name": "Fabrik Tribeca",
+          "address": "Fabrik Tribeca, New York, NY",
+          "type": "Community Space"
+        },
+        "featured": false,
+        "members_only": false,
+        "original_event_id": "977edabd-587d-48e3-b763-8abf8e51bfd8"
+      }
+    },
+    {
+      "id": "evt_fabrik_e6eaaa77",
+      "name": "Critical Thinking Club",
+      "type": "Career & Networking",
+      "locationId": "loc_fabrik",
+      "communityId": "com_fabrik_ny",
+      "description": "New Yorkers argue a lot. Disagreement has the power to bring us closer together, but most of us never learned how. Somewhere along the way, speed replaced clarity, and certainty replaced curiosity. The result: we're more polarized, and less understanding.\n\n​Critical Thinking Club aims to reverse that trend by providing space for busy New Yorkers who want to think more clearly and communicate more thoughtfully. The goal isn’t to \"win\" an argument, it’s to improve how we listen, disagree, and express our opinions without distancing each other.\n\n​Our next theme is, \"When you move away, do you owe home anything, or only yourself?\"\n\n​We’ll use this topic to practice critical thinking skills like…\n\n​Articulating views you disagree with\n\n​Separating personal experience from broader evidence\n\n​Noticing hidden assumptions, in yourself and others\n\n​Revising your position without compromising your values or credibility\n\n​What to expect\n\n​2 comedians debate and a philosophy professor moderates\n\n​Small-group conversations with guided prompts\n\n​A psychologically safe environment for disagreement\n\n​The evening begins with a moderated discussion between 2 comedians who take opposite sides. A professor of philosophy moderates and steps in when reasoning breaks down, or a common fallacy appears. The moderator pauses to explain, and suggests how reasoning could be improved. Mistakes are expected and useful. The goal is for all of us to share the learnings. Then, everyone practices in small groups.\n\n​Agenda\n\n​6:30 - 7 PM - Arrive, grab a refreshment, chat, find a seat\n\n​7 - 7:05 PM - Summarize what to expect, introduce the moderator and speakers\n\n​7:05 - 7:35 PM - Opening statements, Q&A, and closing statements\n\n​7:35 - 8:05 - Small group discussions (4-6 people) to practice sound critical thinking skills with the help of guided prompts\n\n​8:05 - 8:10 - Wrap-up, participants can share key takeaways from their group discussions\n\n​8:10 - 8:45ish - Socialize with the speakers and participants\n\n​9 - after party Puffy's Tavern\n\n​Speakers\n\n​We’re excited to have Greg Nirshberg moderating our next discussion. Greg is the Professor of Philosophy at Iona University, an advisor for the university’s interdisciplinary neuroscience program, and he received his Ph.D. in philosophy at the University of Wisconsin-Madison in 2023, https://www.iona.edu/faculty/nirshberg-gregory\n\n​Our next speakers will be announced soon!\n\n​If you want to understand others better, and be better understood, join us!",
+      "startDate": "2026-08-20T22:30:00+00:00",
+      "endDate": "2026-08-21T00:30:00+00:00",
+      "category": [
+        "Career & Networking"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": "See registration link for details"
+      },
+      "capacity": 60,
+      "registrationRequired": true,
+      "tags": [
+        "fabrik"
+      ],
+      "image": "https://cdn.joinfabrik.com/gatherings/Screenshot 2026-06-05 at 12.46.11 PM_4d62e2be-2eb9-4621-9738-c73f7977073d.png",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Fabrik",
+        "source_url": "https://luma.com/cpg6i0qa",
+        "organizer": {
+          "name": "Critical Thinking Club August",
+          "website": "https://www.joinfabrik.com"
+        },
+        "venue": {
+          "name": "Fabrik Tribeca",
+          "address": "Fabrik Tribeca, New York, NY",
+          "type": "Community Space"
+        },
+        "featured": false,
+        "members_only": false,
+        "original_event_id": "51014ae4-9fcd-49e4-9537-f1392fd81268"
+      }
+    },
+    {
+      "id": "evt_fabrik_3c0e9e4a",
+      "name": "AI Incubator for Solopreneurs | Work Session | MEMBERS ONLY",
+      "type": "Technology & AI",
+      "locationId": "",
+      "communityId": "com_fabrik_ny",
+      "description": "<p>This is part of an 8-Week Incubator Series.</p><p>There are 4 Workshop Sessions open to All:<br>Session 1: August 14<br>Session 2: August 28<br>Session 3: September 11<br>Session 4: September 25</p><p></p><p>And 4 Working Sessions open for Members:<br>August 21<br>September 4<br>September 18<br>Concluding Presentation: October 2</p><p></p><p>You can only get access to the Working Sessions by purchasing the full 8-week Pass ($149)</p><p></p><p>Who this is for:<br>- Founders<br>- Solopreneurs<br>- Small scrappy teams<br>- No Coding Experience Required</p><p></p><p>Sessions:<br>90-minute Hands-On Workshop<br>2.5 Hour Working Session Follows</p><p>Cohort Size:<br>15-30</p><p>----</p><p>This is a working session for members only to collaborate on their AI projects. </p><p></p><p>If you would like to join, you can also buy a day pass! </p>",
+      "startDate": "2026-08-21T17:00:00+00:00",
+      "endDate": "2026-08-21T21:00:00+00:00",
+      "category": [
+        "Technology & AI"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": "See registration link for details"
+      },
+      "capacity": 15,
+      "registrationRequired": true,
+      "tags": [
+        "fabrik"
+      ],
+      "image": "https://cdn.joinfabrik.com/gatherings/MORE POSTS (4).png_d452b9a1-9dda-4450-889f-2bdeb6e2f64b.png",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Fabrik",
+        "source_url": "https://app.joinfabrik.com/w752flcf",
+        "organizer": {
+          "name": "Fabrik",
+          "website": "https://www.joinfabrik.com"
+        },
+        "venue": {
+          "name": "Fabrik Dumbo",
+          "address": "Fabrik Dumbo, Brooklyn, NY",
+          "type": "Community Space"
+        },
+        "featured": false,
+        "members_only": false,
+        "original_event_id": "b990a81d-aa56-46e9-b14b-ffdb60a46da9"
+      }
+    },
+    {
+      "id": "evt_fabrik_b590760b",
+      "name": "Reading Rhythms Lower Manhattan: August 24",
+      "type": "Reading & Writing",
+      "locationId": "loc_fabrik",
+      "communityId": "com_fabrik_ny",
+      "description": "You’re invited!📚🏖️\n\nReading Rhythms is a series of welcoming reading parties designed to make it easy for people to gather and read socially. We invite you to bring any book you'd like and facilitate silent reading periods, as well as one-on-one breakouts and group discussions to explore the themes and connections within the books that everyone is engaging with.\n\nIn a world that can often feel devoid of interest and meaningful connection, we bring readers together to reconnect with their passion for learning, to experience the wonder of beautiful venues and curated music, and to gather among all the people who want to be in that very same room.\n\nFabrik is your new third space between work and home: a place to make new friends, meet, gather, host, tackle tasks, and unwind. Fabrik members can get a $5 discount on Standard tickets and a $10 discount on Last Chance tickets! Use the code FABRIK824 for Standard tickets and FABRIK824L for Last Chance tickets.\n\nOur favorite conversations happen in the Reading Rhythms mobile app. Join us there → https://readingrhythms.app\n\nDisclaimer: By purchasing a ticket, you agree to have your photo/video used for social media/marketing materials, both as property of Reading Rhythms and other publications that may be present at our reading parties. Additionally, your purchase is final, and no refunds will be given under any circumstances.",
+      "startDate": "2026-08-24T22:00:00+00:00",
+      "endDate": "2026-08-25T01:00:00+00:00",
+      "category": [
+        "Reading & Writing"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": "See registration link for details"
+      },
+      "capacity": 60,
+      "registrationRequired": true,
+      "tags": [
+        "fabrik"
+      ],
+      "image": "https://cdn.joinfabrik.com/gatherings/default.png",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Fabrik",
+        "source_url": "https://luma.com/reading-rgst",
+        "organizer": {
+          "name": "Reading Rhythms",
+          "website": "https://www.joinfabrik.com"
+        },
+        "venue": {
+          "name": "Fabrik Tribeca",
+          "address": "Fabrik Tribeca, New York, NY",
+          "type": "Community Space"
+        },
+        "featured": false,
+        "members_only": false,
+        "original_event_id": "81ec4323-0054-47aa-a644-f30f21aea0dc"
+      }
+    },
+    {
+      "id": "evt_fabrik_8fe3da39",
+      "name": "Drinking Chocolate With Prophecy Chocolate",
+      "type": "Educational",
+      "locationId": "loc_fabrik",
+      "communityId": "com_fabrik_ny",
+      "description": "It is 2 pm on a Tuesday at Fabrik and you could use a pick me up while you get your work done. Luckily for all of us, Mateo of Prophecy chocolate will be coming down from Vermont to take care of you. He will make you a cup of chocolate and show you how to make a good one too. The chocolate drinking will only be about 30 minutes, but feel free to hang around, ask questions and chat. This is your chance to get a little nurturing and some great chocolate in the middle of the workday. Tuesday just got so much better.\n\nAND....that is not all. We have a special guest straight from Oaxaca. His sister-in-law owns Sobre Masa in Brooklyn, a well respected restaurant featuring Oaxacan cuisine.\n\nGregorio is a master weaver and is a member of the only family in the region that is still fermenting a cousin of cacao called Theobroma Bicolor. It’s RARE and helps to create the beloved froth on some chocolate drinks. This is an extremely rare opportunity. Gregorio is also a master weaver who makes natural dyes. If you have ever wanted to visit Oaxaca, this is the closest you will get to it on a workday.\n\nThis is a free event for FABRIK MEMBERS.\n\nWho are we?\n\nMateo is the founder of Prophecy Chocolate in Vermont. Mateo has spent years living in Peru, Colombia, and Mexico, learning directly from campesinos how cacao is grown, harvested, and transformed. In 2014, while living in the “Eyebrow of the Jungle” in Peru, he learned to make drinking chocolate using traditional methods, an experience that shaped his lifelong love for cacao.\n\nHe later imported heirloom cacao from the Cusco jungle and apprenticed in European‑style chocolate making. In 2019 he founded Prophecy Chocolate, creating craft chocolate from direct‑trade cacao. In 2025 and 2026, Prophecy Chocolate earned 13 medals in the International Chocolate Awards.\n\nMateo teaches about cacao at expos and universities, and when he isn’t making chocolate, he’s often on farms or in the forest, learning from growers and enjoying the plants that inspire his work\n\nNettie is the founder of The Chocolate Connection.\n\nI create guided chocolate experiences that combine storytelling, history, sensory exploration, and first-hand stories gathered through years of traveling to cacao farms, meeting growers and chocolate makers, and exploring chocolate traditions around the world.\n\nChocolate is simply the starting point.\n\nThrough shared tasting, conversation, and immersive storytelling, guests gain a deeper appreciation for the people, cultures, and craftsmanship behind chocolate while creating meaningful connections with one another.\n\nEvery experience is designed to leave people feeling more present, more connected, and inspired to keep exploring long after the experience ends.",
+      "startDate": "2026-08-25T18:00:00+00:00",
+      "endDate": "2026-08-25T19:00:00+00:00",
+      "category": [
+        "Educational"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": "See registration link for details"
+      },
+      "capacity": 20,
+      "registrationRequired": true,
+      "tags": [
+        "fabrik"
+      ],
+      "image": "https://cdn.joinfabrik.com/gatherings/E68A7197-6E74-447C-A219-36190F68CFD8_908e04c2-b7ff-49fd-9a65-984731062e10.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Fabrik",
+        "source_url": "https://luma.com/k5jxhafz",
+        "organizer": {
+          "name": "The Chocolate Connection",
+          "website": "https://www.joinfabrik.com"
+        },
+        "venue": {
+          "name": "Fabrik Tribeca",
+          "address": "Fabrik Tribeca, New York, NY",
+          "type": "Community Space"
+        },
+        "featured": false,
+        "members_only": false,
+        "original_event_id": "2cf01a2f-8c7a-4d6d-baa7-9069ba057819"
+      }
+    },
+    {
+      "id": "evt_fabrik_d10d24b1",
+      "name": "Funemployed ?! & Friends Summer Potluck",
+      "type": "Career & Networking",
+      "locationId": "",
+      "communityId": "com_fabrik_ny",
+      "description": "​I encourage you, if you're able, to bring a dish/drink that brings out your youthful energy and/or reminds you of what you ate (or weren't allowed to eat) as a kid! Please fill out the sign-up sheet here 🤝 🍲\n\n​We're all about connecting people with shared career and life experiences, and helping folks feel a little bit less alone.\n\n​All are welcome. You can be un-/under-employed, in career transition, employed or none of the above! All we ask is that you come open to meet and connect with people.",
+      "startDate": "2026-08-25T21:30:00+00:00",
+      "endDate": "2026-08-26T00:30:00+00:00",
+      "category": [
+        "Career & Networking"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": "See registration link for details"
+      },
+      "capacity": 40,
+      "registrationRequired": true,
+      "tags": [
+        "fabrik"
+      ],
+      "image": "https://cdn.joinfabrik.com/gatherings/inner child potluck_45301ec0-a70a-4321-9c9e-67d96b1194ac.avif",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Fabrik",
+        "source_url": "https://luma.com/la9dukgh",
+        "organizer": {
+          "name": "Funemployed ?! & Friends",
+          "website": "https://www.joinfabrik.com"
+        },
+        "venue": {
+          "name": "Fabrik Dumbo",
+          "address": "Fabrik Dumbo, Brooklyn, NY",
+          "type": "Community Space"
+        },
+        "featured": false,
+        "members_only": false,
+        "original_event_id": "dcece7fa-a47e-459a-92f5-ab2433e6242f"
+      }
+    },
+    {
+      "id": "evt_fabrik_68ffd832",
+      "name": "Dialed In: Building Immersive WebXR Experiences",
+      "type": "Technology & AI",
+      "locationId": "loc_fabrik",
+      "communityId": "com_fabrik_ny",
+      "description": "Join us as we explore how developers can combine WebXR and Vonage APIs to create immersive, real-time experiences for the web. Learn how voice, video, messaging, and AI-powered communications can enhance AR and VR applications, then get hands-on building your own interactive prototype. Whether you're an XR developer, web developer, or just curious about the future of immersive technology, this session will give you practical tools and inspiration to start building.\nWhat you'll learn:\n\nWebXR fundamentals and emerging use cases\nIntegrating real-time voice and video into XR experiences\nUsing Vonage APIs to power communication and engagement\nBest practices for building immersive web applications\nNo prior XR experience required—just bring your curiosity and your laptop.",
+      "startDate": "2026-08-25T22:00:00+00:00",
+      "endDate": "2026-08-26T01:00:00+00:00",
+      "category": [
+        "Technology & AI"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": "See registration link for details"
+      },
+      "capacity": 50,
+      "registrationRequired": true,
+      "tags": [
+        "fabrik"
+      ],
+      "image": "https://cdn.joinfabrik.com/gatherings/IMG_9710_c71dc00b-e9d9-431d-9d61-ec73b4f79bd9.JPG",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Fabrik",
+        "source_url": "https://luma.com/cixy2ktj",
+        "organizer": {
+          "name": "Vonage APIs",
+          "website": "https://www.joinfabrik.com"
+        },
+        "venue": {
+          "name": "Fabrik Tribeca",
+          "address": "Fabrik Tribeca, New York, NY",
+          "type": "Community Space"
+        },
+        "featured": false,
+        "members_only": false,
+        "original_event_id": "015ffa19-02c6-431a-bb37-4b3a5e8fd37e"
+      }
+    },
+    {
+      "id": "evt_fabrik_ca3556d3",
+      "name": "Mise En Table",
+      "type": "Career & Networking",
+      "locationId": "",
+      "communityId": "com_fabrik_ny",
+      "description": "Building a food brand or business is hard. The stakes are real, the learning curve is steep, and there's no clear roadmap — just a long series of tasks and decisions you mostly have to figure out on your own. What if you didn't have to do it alone?\n\n​Mise en Table is a monthly gathering for the people doing the work to bring great food and dining experiences to life. This is about creating the conditions for people working in food and beverage to set themselves up for success — by sharing resources, asking hard questions, putting everything on the table, and building the kind of mutual support that only comes from a real community of peers.\n\n​This isn't another networking event. It's a free, working peer group where food entrepreneurs, creatives, and operators come together to share resources, solve real problems, and build the kind of connections that actually move your work forward. No panels. No pitching. Just a room full of people who get it.",
+      "startDate": "2026-08-26T14:00:00+00:00",
+      "endDate": "2026-08-26T16:00:00+00:00",
+      "category": [
+        "Career & Networking"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": "See registration link for details"
+      },
+      "capacity": 20,
+      "registrationRequired": true,
+      "tags": [
+        "fabrik"
+      ],
+      "image": "https://cdn.joinfabrik.com/gatherings/FCD06E56-F889-4501-BE2C-87736E9A60C6_2dde2761-7051-4236-b563-49883071b121.png",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Fabrik",
+        "source_url": "https://flyn.co/BVD3we",
+        "organizer": {
+          "name": "Letters From The Table",
+          "website": "https://www.joinfabrik.com"
+        },
+        "venue": {
+          "name": "Fabrik Dumbo",
+          "address": "Fabrik Dumbo, Brooklyn, NY",
+          "type": "Community Space"
+        },
+        "featured": false,
+        "members_only": false,
+        "original_event_id": "065c2177-6f46-42c1-ad77-167b3defc94a"
+      }
+    },
+    {
+      "id": "evt_fabrik_fb7818b7",
+      "name": "Become Secure: Heal Your Avoidant Or Anxious Attachment",
+      "type": "Educational",
+      "locationId": "loc_fabrik",
+      "communityId": "com_fabrik_ny",
+      "description": "Our attachment style can make or break our relationships. \nLearn to create security in your nervous system, so that you can be and feel secure in your relationships with your family, romantic partner and even friends. \nKnow what boundaries and self care make it possible for you to be secure. You don’t have to guess anymore. \n\n\n\n\n",
+      "startDate": "2026-08-26T16:00:00+00:00",
+      "endDate": "2026-08-26T18:00:00+00:00",
+      "category": [
+        "Educational"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": "See registration link for details"
+      },
+      "capacity": 20,
+      "registrationRequired": true,
+      "tags": [
+        "fabrik"
+      ],
+      "image": "https://cdn.joinfabrik.com/gatherings/E1AC1D2D-8324-40DF-AD6B-6C68C6090D32_f3ec7e3b-7dc1-42cb-aeea-60ef1c90beb8.png",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Fabrik",
+        "source_url": "https://luma.com/d499urlg",
+        "organizer": {
+          "name": "Syeda Zaidi, NYC Love And Intimacy",
+          "website": "https://www.joinfabrik.com"
+        },
+        "venue": {
+          "name": "Fabrik Tribeca",
+          "address": "Fabrik Tribeca, New York, NY",
+          "type": "Community Space"
+        },
+        "featured": false,
+        "members_only": false,
+        "original_event_id": "357321b9-75e3-4642-9889-d91dc14cf93c"
+      }
+    },
+    {
+      "id": "evt_fabrik_b71bf157",
+      "name": "Divine Timing: The Stars Aligned",
+      "type": "Technology & AI",
+      "locationId": "loc_fabrik",
+      "communityId": "com_fabrik_ny",
+      "description": "Intention setting and productivity with an AI flare.\n\n\n​The full moon in Pisces is a Sturgeon moon. It’s less about big dramatic energy and more about quiet power, a great night to manifest your goals into reality.\n\nBring your journal and a pen, or your laptop, or your phone. We’re going to breakdown your goals into tangible action steps for the next 6 months.\n\nWhat to expect: You’ll get cleansed on entry and get paired with your accountability partner. Then we’ll walk through goal setting together with prompts to help guide you along the way. To conclude, we’ll reflect and be able to mingle with other ambitious baddies.",
+      "startDate": "2026-08-26T22:00:00+00:00",
+      "endDate": "2026-08-27T00:30:00+00:00",
+      "category": [
+        "Technology & AI"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": "See registration link for details"
+      },
+      "capacity": 20,
+      "registrationRequired": true,
+      "tags": [
+        "fabrik"
+      ],
+      "image": "https://cdn.joinfabrik.com/gatherings/Screenshot 2026-07-07 at 10.57.54 AM_cd6b02ea-bd5d-4f24-b246-342f33513509.png",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Fabrik",
+        "source_url": "https://luma.com/ogc-ivs8",
+        "organizer": {
+          "name": "Old Girls Club",
+          "website": "https://www.joinfabrik.com"
+        },
+        "venue": {
+          "name": "Fabrik Tribeca",
+          "address": "Fabrik Tribeca, New York, NY",
+          "type": "Community Space"
+        },
+        "featured": false,
+        "members_only": false,
+        "original_event_id": "2bb12d0e-6d4a-46e7-9a98-2808e2ae9aca"
+      }
+    },
+    {
+      "id": "evt_fabrik_9300c362",
+      "name": "Girls Who Meet Book club",
+      "type": "Other",
+      "locationId": "loc_fabrik",
+      "communityId": "com_fabrik_ny",
+      "description": "Girls Who Meet book club ",
+      "startDate": "2026-08-26T22:00:00+00:00",
+      "endDate": "2026-08-27T00:00:00+00:00",
+      "category": [
+        "Other"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": "See registration link for details"
+      },
+      "capacity": 40,
+      "registrationRequired": true,
+      "tags": [
+        "fabrik"
+      ],
+      "image": "https://cdn.joinfabrik.com/gatherings/IMG_9739_9febb50a-0793-4699-a2c6-d2db37a83604.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Fabrik",
+        "source_url": "https://luma.com/41q3uicl",
+        "organizer": {
+          "name": "Girls Who Meet",
+          "website": "https://www.joinfabrik.com"
+        },
+        "venue": {
+          "name": "Fabrik Tribeca",
+          "address": "Fabrik Tribeca, New York, NY",
+          "type": "Community Space"
+        },
+        "featured": false,
+        "members_only": false,
+        "original_event_id": "3551dd70-54b8-4850-80d4-bd8fcdd17792"
+      }
+    },
+    {
+      "id": "evt_fabrik_159ea27e",
+      "name": "The Kalshi Crisis: Bets Over Baghdad",
+      "type": "Educational",
+      "locationId": "",
+      "communityId": "com_fabrik_ny",
+      "description": "Polymarket processed $3.6 billion on a single presidential race. Kalshi just signed deals to pipe its odds into CNN and CNBC broadcasts. Bloomberg Terminal now carries prediction-market prices on the same screens as oil futures. The contracts run 24/7 the way commodities do: presidential races, congressional control, ceasefire dates, war casualty counts. A few clicks gets you long a candidate, short a hostage release, or a position on whether a sitting senator survives the year. Kalshi's CEO says the goal is to \"financialize everything.\" He's most of the way there.\n\n​So: are prediction markets the most honest reading of civic life we've ever built, or the corruption of every outcome they touch?\n\n​For the prosecution, the answer is obvious. Some things shouldn't be priced. The moment you can profit from a war dragging on or an election going a particular way, you've created an incentive to make it so...and handed the deepest pockets in finance the keys to a democracy they were already overrepresented in. Markets that pay you for predicting an assassination attempt aren't predicting anything. They're paying people to think about it. A republic that lets citizens hedge against its own outcomes isn't a republic with better data. It's one that has quietly outsourced its civic life to traders.\n\n​For the defense, that's squeamishness dressed as principle. These markets aggregate information better than polls, better than pundits, better than the press. They put skin in the game on claims that have lived consequence-free for decades. Banning them doesn't make wars or elections less consequential, it just hands price discovery to offshore platforms, foreign capital, and worse actors. Polymarket and Kalshi aren't corrupting civic life. They're the first honest reading of it we've ever had.\n\n​One side says the market is the truth. The other says some truths shouldn't have a market.\n\n​Lindsey Cormack, PhD, is an Associate Professor of Political Science at Stevens Institute of Technology and the author of How to Raise a Citizen (And Why It's Up to You to Do It). She runs DCinbox, which has archived every email Congress sends its constituents for over a decade, and contributes to the New York Times, Washington Post, Bloomberg, FiveThirtyEight, and Fox News. Her entire career argues that being a citizen is something you practice, not something you trade: that civic life has to be built deliberately, in households and classrooms, not aggregated through the same mechanisms that price pork bellies.\n\n​Yehuda Maes is a Harvard Law grad ('23), former Bain consultant, former Citadel Securities trader, and has run client engagement at Norm AI, anthe AI company building legal and compliance infrastructure for institutional finance. Before all of that he was a Sergeant in the IDF and a BlackRock analyst. He's spent his entire adult life inside the machinery that puts a price on sovereign debt, legal risk, and roughly everything else. He thinks that's a feature, not a bug. He's the perfect defendant.\n\n​Two perspectives. One night. And probably a few people in the room with open positions they shouldn't admit they have.\n\n​Moderated by Gillian Goodman, a Columbia Journalism School grad whose work has appeared in The Intercept, Truthout, Prism, and Democracy Now!, with features in Vanity Fair and New York Magazine. She covered the Columbia encampments from the first days and elections in coastal Georgia from inside the precincts. She knows the difference between calling a race and calling a price. Let's get it on. Drinks provided.\n\n​Accessible. Engaging. Social. UNMUTED is the place where talking points go to die. Talk politics. Keep your friends. Make new ones.",
+      "startDate": "2026-08-26T22:00:00+00:00",
+      "endDate": "2026-08-27T01:00:00+00:00",
+      "category": [
+        "Educational"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": "See registration link for details"
+      },
+      "capacity": 60,
+      "registrationRequired": true,
+      "tags": [
+        "fabrik"
+      ],
+      "image": "https://cdn.joinfabrik.com/gatherings/IMG_0613_b6d89a55-a254-4684-bb26-93d1aebcfac4.PNG",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Fabrik",
+        "source_url": "https://luma.com/84fec4e2",
+        "organizer": {
+          "name": "UNMUTED",
+          "website": "https://www.joinfabrik.com"
+        },
+        "venue": {
+          "name": "Fabrik Dumbo",
+          "address": "Fabrik Dumbo, Brooklyn, NY",
+          "type": "Community Space"
+        },
+        "featured": false,
+        "members_only": false,
+        "original_event_id": "d160dfef-d37c-4686-a44d-bb6de76d92ff"
+      }
+    },
+    {
+      "id": "evt_fabrik_e58ded44",
+      "name": "Rom-Com & Cheese Club",
+      "type": "Other",
+      "locationId": "",
+      "communityId": "com_fabrik_ny",
+      "description": "A movie night for people who love rom-coms, cheese, and cozy community.\n\n​At Rom-Com & Cheese Night, we watch a classic romantic comedy together while tasting cheese pairings inspired by the film. Each pairing is chosen to reflect the mood, setting, or iconic food moments in the movie — turning the screening into a shared sensory experience.\n\n​Think of it as part movie night, part cheese tasting, and part accidental meet-cute (with someone new, or with the cheese).",
+      "startDate": "2026-08-27T21:00:00+00:00",
+      "endDate": "2026-08-28T01:00:00+00:00",
+      "category": [
+        "Other"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": "See registration link for details"
+      },
+      "capacity": 30,
+      "registrationRequired": true,
+      "tags": [
+        "fabrik"
+      ],
+      "image": "https://cdn.joinfabrik.com/gatherings/pop_4d8ce1f7-009c-4314-93a3-675abf183473.jpeg",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Fabrik",
+        "source_url": "https://luma.com/0q3wwo8a",
+        "organizer": {
+          "name": "Trust Your Taste",
+          "website": "https://www.joinfabrik.com"
+        },
+        "venue": {
+          "name": "Fabrik Dumbo",
+          "address": "Fabrik Dumbo, Brooklyn, NY",
+          "type": "Community Space"
+        },
+        "featured": false,
+        "members_only": false,
+        "original_event_id": "160a75b6-25f2-4788-956a-84ce6a64b560"
+      }
+    },
+    {
+      "id": "evt_fabrik_311f6551",
+      "name": "Sex, Crime, Gender: Hollywood and the Rise of Censorship",
+      "type": "Educational",
+      "locationId": "loc_fabrik",
+      "communityId": "com_fabrik_ny",
+      "description": "A little about us: Wisdom Bar is a social lecture series hosted in cool bars and creative spaces throughout New York City. Each event features a presentation from an expert speaker whose passion for a unique topic guides the room. We'll explore new ideas, exchange perspectives, and learn something new along the way, all in an effort to get curious-minded people together for drinks and thoughtful conversation. If this sounds like something you might enjoy, we'd love to host you.\n\nHere's what you need to know!\nWe will begin with a short introduction and a film screening of the 1933 film Design for Living. After the screening, Matt Johnson will walk us through how the film is an insight into censorship.\n\nMost people think of film history as a straight line — movies started out conservative and gradually pushed toward the sex and violence of today's blockbusters. That's not what happened.\n\nEarly Hollywood talkies were surprisingly bold. Frank depictions of sexuality, violence, and gender norms played out on screen at a moment of real cultural upheaval in America. It was freewheeling, daring, and genuinely revolutionary — until religious authorities, alarmed by what they called \"filth\" in America's mass media, began pushing back. Hard. The result was a self-imposed Hollywood Code that would reshape what American audiences were allowed to see for decades.\n\nSound familiar? America is currently in the middle of a strikingly similar cultural battle — book bans, library defunding, and political pressure on broadcasters are reshaping what people can access right now. Film historian Matt Johnson traces the arc from Pre-Code Hollywood to the rise of censorship — and makes the case that attempts to silence artistic output almost always produce something more subversive and more clever in return.\nMatt Johnson teaches film theory and history at Franklin and Marshall College, where he is also a Fellow coordinating work in refugee resettlement and the question of welcome. He brings the same intellectual rigor and genuine curiosity to the history of Hollywood that he does to the most pressing questions of our time.\n\nWe'll explore:\n* The surprisingly bold and daring films that existed before Hollywood self-censorship — and why they matter\n* How religious, political, and cultural forces converged to impose the Hollywood Code\n* Ernst Lubitsch and the \"Lubitsch Touch\" — how European filmmaking influenced and challenged Hollywood norms\n* Why America has been here before — and what the history of censorship tells us about the cultural battles happening right now\n* How artists have historically defeated censorship — and what that looks like today",
+      "startDate": "2026-08-27T21:00:00+00:00",
+      "endDate": "2026-08-28T01:00:00+00:00",
+      "category": [
+        "Educational"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": "See registration link for details"
+      },
+      "capacity": 60,
+      "registrationRequired": true,
+      "tags": [
+        "fabrik"
+      ],
+      "image": "https://cdn.joinfabrik.com/gatherings/EDC5EF26-927D-4472-B5A5-1DA0D3B19E60_f7c65e33-cfa2-4f51-a035-117cf7215368.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Fabrik",
+        "source_url": "https://www.eventbrite.com/e/the-wisdom-bar-sex-crime-gender-hollywood-and-the-rise-of-censorship-tickets-1995718103571?aff=oddtdtcreator",
+        "organizer": {
+          "name": "The Wisdom Bar",
+          "website": "https://www.joinfabrik.com"
+        },
+        "venue": {
+          "name": "Fabrik Tribeca",
+          "address": "Fabrik Tribeca, New York, NY",
+          "type": "Community Space"
+        },
+        "featured": false,
+        "members_only": false,
+        "original_event_id": "b8078ed9-a813-4fb7-b3cc-4aa1aa203d38"
+      }
+    },
+    {
+      "id": "evt_fabrik_0cac6e55",
+      "name": "The Reflection Circle",
+      "type": "Friendship & Belonging",
+      "locationId": "loc_fabrik",
+      "communityId": "com_fabrik_ny",
+      "description": "Monthly weeknight gatherings for growth-minded women to have meaningful conversations, build friendships, and find accountability partners.\n",
+      "startDate": "2026-08-27T22:30:00+00:00",
+      "endDate": "2026-08-28T00:30:00+00:00",
+      "category": [
+        "Friendship & Belonging"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": "See registration link for details"
+      },
+      "capacity": 10,
+      "registrationRequired": true,
+      "tags": [
+        "fabrik"
+      ],
+      "image": "https://cdn.joinfabrik.com/gatherings/IMG_7268_cfe60389-6947-4022-95cf-a3dcbc3614de.PNG",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Fabrik",
+        "source_url": "https://luma.com/x9hznt39",
+        "organizer": {
+          "name": "Books Light the Fire",
+          "website": "https://www.joinfabrik.com"
+        },
+        "venue": {
+          "name": "Fabrik Tribeca",
+          "address": "Fabrik Tribeca, New York, NY",
+          "type": "Community Space"
+        },
+        "featured": false,
+        "members_only": false,
+        "original_event_id": "ef56d096-a76d-4fa8-9f75-0af7201f0f6f"
+      }
+    },
+    {
+      "id": "evt_fabrik_42018a11",
+      "name": "AI Incubator for Solopreneurs | Session 2: The Marketing Engine",
+      "type": "Technology & AI",
+      "locationId": "",
+      "communityId": "com_fabrik_ny",
+      "description": "This is part of an 8-Week Incubator Series. \n\nThere are 4 Sessions and 4 Working Sessions:\nSession 1: August 14\nSession 2: August 28\nSession 3: September 11\nSession 4: September 25\n\nAnd 4 Working Sessions: \nAugust 21\nSeptember 4\nSeptember 18\nConcluding Presentation: October 2\n\n\nYou can only get access to the Working Sessions by purchasing the full 8-week Pass ($149) \n\nWho this is for: \n- Founders\n- Solopreneurs\n- Small scrappy teams \n- No Coding Experience Required \n\nSessions:\n90-minute Hands-On Workshop\n2.5 Hour Working Session Follows\n\nCohort Size: \n15-30\n\n----\n\nSession 2: What we will cover: \n\nBuild a month of social content, scheduled and running, in one evening.\n\nWhat’s covered\n\nBuild a repeatable social media engine from end to end, covering strategy and brand voice, content creation and repurposing, visuals, scheduling, publishing, audience engagement, and performance measurement.\n\nThe goal is not simply to generate a pile of posts. You’ll create a system that helps you consistently publish, engage, and learn what is actually growing your audience.\n\nWhat you’ll do\n\nSet the strategy\n\nDefine your positioning, your audience, and the two or three channels that are genuinely worth your time.\nCapture your brand voice as a reusable Claude skill so your content does not sound generic.\n\nCreate the content\n\nGenerate a month of social posts.\nRepurpose one central idea into multiple formats across different platforms.\nDraft accompanying visuals and sharpen every hook, caption, and call to action.\n\nSchedule and publish\n\nLoad and schedule the entire month of content across your platforms using Metricool.\n\nEngage and measure\n\nManage direct messages and comments from one unified inbox.\nTurn on an analytics loop, connect the results to Claude, and identify which content deserves more investment.\n\nRecommended stack: Claude for voice and copy, AirOps for producing content at volume, Metricool for scheduling, engagement, and analytics, and Canva for visuals.\n\nOther tools considered: Claude alone for a simpler content workflow, Buffer for straightforward and affordable scheduling, Later for visual and Instagram-first brands, and Hootsuite for larger enterprise teams.\n\nYou’ll leave with: A full month of scheduled content and a repeatable marketing engine you can operate in roughly one hour per week.",
+      "startDate": "2026-08-28T17:00:00+00:00",
+      "endDate": "2026-08-28T21:00:00+00:00",
+      "category": [
+        "Technology & AI"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": "See registration link for details"
+      },
+      "capacity": 20,
+      "registrationRequired": true,
+      "tags": [
+        "fabrik"
+      ],
+      "image": "https://cdn.joinfabrik.com/gatherings/3.png_b6a741e4-27ce-49d8-99a7-0571be33582f.png",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Fabrik",
+        "source_url": "https://app.joinfabrik.com/cpfvzo8t",
+        "organizer": {
+          "name": "Fabrik",
+          "website": "https://www.joinfabrik.com"
+        },
+        "venue": {
+          "name": "Fabrik Dumbo",
+          "address": "Fabrik Dumbo, Brooklyn, NY",
+          "type": "Community Space"
+        },
+        "featured": true,
+        "members_only": false,
+        "original_event_id": "98e647f5-a6ab-45d4-ae30-defc4ecdd4bd"
+      }
+    },
+    {
+      "id": "evt_fabrik_bbec8fc9",
+      "name": "The Slow Down: The Baby Question",
+      "type": "Health and Wellness",
+      "locationId": "",
+      "communityId": "com_fabrik_ny",
+      "description": "A salon- style gathering and community discussion for women to discuss the concerns of modern womanhood. \n\nThis month, we discuss the internal and external pressures women hold about having children and what it means to be child-free whether by choice or not. ",
+      "startDate": "2026-08-28T21:30:00+00:00",
+      "endDate": "2026-08-29T00:30:00+00:00",
+      "category": [
+        "Health and Wellness"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": "See registration link for details"
+      },
+      "capacity": 10,
+      "registrationRequired": true,
+      "tags": [
+        "fabrik"
+      ],
+      "image": "https://cdn.joinfabrik.com/gatherings/2d07b806-32bc-4052-8bf5-6f4250eeb414_8b8f1db2-6e2d-465f-bca6-8f997559cda6.png",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Fabrik",
+        "source_url": "https://luma.com/9m1hk7x2",
+        "organizer": {
+          "name": "Her Soul Supply",
+          "website": "https://www.joinfabrik.com"
+        },
+        "venue": {
+          "name": "Fabrik Dumbo",
+          "address": "Fabrik Dumbo, Brooklyn, NY",
+          "type": "Community Space"
+        },
+        "featured": false,
+        "members_only": false,
+        "original_event_id": "0b6ff96e-ab17-46f4-9f26-8fd0110744b6"
+      }
+    },
+    {
+      "id": "evt_fabrik_ed714fc5",
+      "name": "Wine And Chocolate Pairing",
+      "type": "Other",
+      "locationId": "loc_fabrik",
+      "communityId": "com_fabrik_ny",
+      "description": "Celebrate the final days of summer with a craft chocolate and wine pairing. \n\n3 wines. 3 curated craft chocolates. \n\n\nNettie Atkisson is an author and certified chocolate educator who leads hands‑on chocolate tastings for corporate teams, leadership groups, and community organizations. She trained with the International Institute of Chocolate and Cacao Tasting and completed a cacao masterclass in the Dominican Republic. Nettie presents on chocolate history at festivals, and designs events that use chocolate as a simple way for people to connect and learn together.  ",
+      "startDate": "2026-08-28T22:30:00+00:00",
+      "endDate": "2026-08-29T00:30:00+00:00",
+      "category": [
+        "Other"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": "See registration link for details"
+      },
+      "capacity": 20,
+      "registrationRequired": true,
+      "tags": [
+        "fabrik"
+      ],
+      "image": "https://cdn.joinfabrik.com/gatherings/IMG_1974_f3f8b9db-6635-432a-9bc1-b3dd44be7666.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Fabrik",
+        "source_url": "https://luma.com/xw519ixz",
+        "organizer": {
+          "name": "The Chocolate Connection",
+          "website": "https://www.joinfabrik.com"
+        },
+        "venue": {
+          "name": "Fabrik Tribeca",
+          "address": "Fabrik Tribeca, New York, NY",
+          "type": "Community Space"
+        },
+        "featured": false,
+        "members_only": false,
+        "original_event_id": "368a1d51-4b7f-45a4-87b7-d1f35b2276fd"
+      }
+    },
+    {
+      "id": "evt_fabrik_d3c1407e",
+      "name": "How Busy Singles Can Date Smarter Without Wasting Time on Dating Apps",
+      "type": "Other",
+      "locationId": "loc_fabrik",
+      "communityId": "com_fabrik_ny",
+      "description": "A practical, high-level workshop for busy singles who want to date more intentionally without letting apps consume their time. \n\nDating apps can be useful, but they also quietly eat up time, energy, and attention. In this gathering, we’ll talk about how busy singles can date more strategically and intentionally to support real connection instead of endless swiping. Community members will leave with simple, practical ways to date with more clarity and less burnout. Dating doesn’t have to be a full-time job! ",
+      "startDate": "2026-08-31T22:00:00+00:00",
+      "endDate": "2026-08-31T23:30:00+00:00",
+      "category": [
+        "Other"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": "See registration link for details"
+      },
+      "capacity": 60,
+      "registrationRequired": true,
+      "tags": [
+        "fabrik"
+      ],
+      "image": "https://cdn.joinfabrik.com/gatherings/busy singles_94967504-35ae-40f7-9490-17262f2c29e7.avif",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Fabrik",
+        "source_url": "https://luma.com/oqdbyiag",
+        "organizer": {
+          "name": "Singles Support with Sophie of Toi & Moi Matchmaking",
+          "website": "https://www.joinfabrik.com"
+        },
+        "venue": {
+          "name": "Fabrik Tribeca",
+          "address": "Fabrik Tribeca, New York, NY",
+          "type": "Community Space"
+        },
+        "featured": false,
+        "members_only": false,
+        "original_event_id": "cc84625c-c194-4c1b-b932-61b69c8b4d6e"
+      }
+    },
+    {
+      "id": "evt_fabrik_5cf139c7",
+      "name": "FaithTech September Social",
+      "type": "Technology & AI",
+      "locationId": "loc_fabrik",
+      "communityId": "com_fabrik_ny",
+      "description": "Hey friends,\n\nWe're are so pumped to reconnect and kick off FaithTech NYC's fall season on Tuesday, September 1st at our new location: Fabrik. \n\nAs things start ramping up for this Fall, this is a great way to hear what's ahead and figure out how you want to plug in.\n\nIt's also just a chance to be in the room with other Christians working in tech across NYC. If you've been circling FaithTech or wondering what we're about, this is a great first step.\n\nBring your questions. What's on your mind about faith, the church, and technology? We plan to make space for that kind of conversation.\n\nLight food provided. No cost to attend.",
+      "startDate": "2026-09-01T22:00:00+00:00",
+      "endDate": "2026-09-02T00:30:00+00:00",
+      "category": [
+        "Technology & AI"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": "See registration link for details"
+      },
+      "capacity": 50,
+      "registrationRequired": true,
+      "tags": [
+        "fabrik"
+      ],
+      "image": "https://cdn.joinfabrik.com/gatherings/IMG_6590_d89fd10a-cc76-45ff-a362-cc904ff5ed64.PNG",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Fabrik",
+        "source_url": "https://luma.com/bru67v55",
+        "organizer": {
+          "name": "FaithTech",
+          "website": "https://www.joinfabrik.com"
+        },
+        "venue": {
+          "name": "Fabrik Tribeca",
+          "address": "Fabrik Tribeca, New York, NY",
+          "type": "Community Space"
+        },
+        "featured": false,
+        "members_only": false,
+        "original_event_id": "15e0e1c4-25d3-4aa1-8705-ce55dec229c5"
+      }
+    },
+    {
+      "id": "evt_fabrik_9c771a50",
+      "name": "Move X Good 5K + Community",
+      "type": "Health and Wellness",
+      "locationId": "",
+      "communityId": "com_fabrik_ny",
+      "description": "Join us for another edition of Move × Good, a donation-based gathering that brings our community together through movement, meaningful conversation, and collective care.\n\n\nThis experience begins with an all-levels 5K community run in partnership with The Energy Club, followed by an intimate conversation on community building at Fabrik Dumbo with Olga De Andres, passionate runner, marketing and strategy expert and community builder, and Maga Villarreal, founder of Antevasin and Move × Good. Together, we’ll explore how building communities create connection, belonging, and positive impact, while turning our time together into meaningful action.\n\n\nThis edition of Move × Good is made possible in partnership with The Energy Club and Fabrik Dumbo. Together, we’re creating a space to move with purpose and gather in support of communities affected by the recent earthquake in Venezuela, transforming every step into an act of care and solidarity.\n\n",
+      "startDate": "2026-09-01T22:00:00+00:00",
+      "endDate": "2026-09-02T00:00:00+00:00",
+      "category": [
+        "Health and Wellness"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": "See registration link for details"
+      },
+      "capacity": 30,
+      "registrationRequired": true,
+      "tags": [
+        "fabrik"
+      ],
+      "image": "https://cdn.joinfabrik.com/gatherings/move _bd4bff08-e3dc-439d-927c-c8da29234a3b.avif",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Fabrik",
+        "source_url": "https://www.ante-vasin.com/events/move-x-good-nyc-2",
+        "organizer": {
+          "name": "The Energy club",
+          "website": "https://www.joinfabrik.com"
+        },
+        "venue": {
+          "name": "Fabrik Dumbo",
+          "address": "Fabrik Dumbo, Brooklyn, NY",
+          "type": "Community Space"
+        },
+        "featured": false,
+        "members_only": false,
+        "original_event_id": "665a9ffe-3553-4b6a-b623-eea6105b2ba3"
+      }
+    },
+    {
+      "id": "evt_fabrik_ffc49005",
+      "name": "PMAI: Sell Me This AI - A No BS Sales Workshop",
+      "type": "Technology & AI",
+      "locationId": "",
+      "communityId": "com_fabrik_ny",
+      "description": "Sales goes without saying is one of, if not the most critical problem that most AI startup faces (and VCs care an awful lot). This hands-on workshop will give early-stage founders a practical playbook for founder-led sales, before hiring an expensive sales team or committing significant budget to customer acquisition. We’ll cover how to identify and reach your first customers when nobody knows your name, run effective outreach and customer conversations, turn early wins into a repeatable sales motion, and build the foundation for your first 100, and eventually 1,000 customers. The goal is simple: learn to sell your product yourself, validate what works, and only scale the sales function when the business is ready.",
+      "startDate": "2026-09-03T22:00:00+00:00",
+      "endDate": "2026-09-04T00:30:00+00:00",
+      "category": [
+        "Technology & AI"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": "See registration link for details"
+      },
+      "capacity": 50,
+      "registrationRequired": true,
+      "tags": [
+        "fabrik"
+      ],
+      "image": "https://cdn.joinfabrik.com/gatherings/sell me this_a6ce875e-d2cc-48db-bdc8-c42e9c3a237e.avif",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Fabrik",
+        "source_url": "https://luma.com/py7all8p",
+        "organizer": {
+          "name": "No BS coach",
+          "website": "https://www.joinfabrik.com"
+        },
+        "venue": {
+          "name": "Fabrik Dumbo",
+          "address": "Fabrik Dumbo, Brooklyn, NY",
+          "type": "Community Space"
+        },
+        "featured": false,
+        "members_only": false,
+        "original_event_id": "0e856355-9994-412a-b47c-693e331fa844"
+      }
+    },
+    {
+      "id": "evt_fabrik_1b3772ce",
+      "name": "Inner Child Art Nyte",
+      "type": "Creative Arts",
+      "locationId": "loc_fabrik",
+      "communityId": "com_fabrik_ny",
+      "description": "🖍️ When was the last time you used crayons just for fun?\n🤸🏽‍♀️ When was the last time you really let yourself play?\n\nWelcome to Inner Child Art Nyte.\nAn evening where you get to do both -\nan event that's part summer camp, part art class, and all fun.\n\nThis ain't another paint night! This is an evening that blends creativity, connection, and playful practices to get you out of your head, into presence, and reconnected to joy.\n\n(Excited yet?!) The evening includes:\n\n🎨 Art - Toooons of art supplies, with zero expectation to be \"good.\"\n🫱🏽‍🫲🏾 Connection - Games and exercises designed to make strangers into fast friends\n🥸 Play - The belly-laugh kind you forgot you needed\n\nCool. Here's what people are saying, FYI:\n“Such a beautiful evening of connection and creativity!”\n“I'm so grateful for this space.\"\n\nWant more info? OK, OK. The night's flow goes:\n6:30-6:45: Arrive, settle in, grab some crayons\n6:45 – 8:00: Connection, creative play, and art making – the good stuff!\n8:00 – 8:30: Open art making, a good hang, new friends",
+      "startDate": "2026-09-03T22:30:00+00:00",
+      "endDate": "2026-09-04T00:30:00+00:00",
+      "category": [
+        "Creative Arts"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": "See registration link for details"
+      },
+      "capacity": 50,
+      "registrationRequired": true,
+      "tags": [
+        "fabrik"
+      ],
+      "image": "https://cdn.joinfabrik.com/gatherings/art nyte_c73cef66-f480-42a2-80aa-9cc89229b7c5.avif",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Fabrik",
+        "source_url": "https://luma.com/ahafoa96",
+        "organizer": {
+          "name": "Somartica",
+          "website": "https://www.joinfabrik.com"
+        },
+        "venue": {
+          "name": "Fabrik Tribeca",
+          "address": "Fabrik Tribeca, New York, NY",
+          "type": "Community Space"
+        },
+        "featured": false,
+        "members_only": false,
+        "original_event_id": "fa61b3d9-dcc3-4cf1-8949-cde3bf3d6429"
+      }
+    },
+    {
+      "id": "evt_fabrik_5b10197d",
+      "name": "Start With Yourself: An Evening of Conversation & Community",
+      "type": "Reading & Writing",
+      "locationId": "",
+      "communityId": "com_fabrik_ny",
+      "description": "Join us for an evening of thoughtful conversation, genuine connection, and community as we discuss Start With Yourself by Emma Grede.\n\n​Whether you’ve read every page, are halfway through, or are just getting started, you’re welcome. This isn’t a lecture or networking event. It’s a space to meet new people, share perspectives, and have honest conversations about ambition, purpose, leadership, and building a life that’s true to who you are.\n\n​Come ready to connect, reflect, and leave with new ideas and a few new friends.",
+      "startDate": "2026-09-04T22:00:00+00:00",
+      "endDate": "2026-09-05T00:30:00+00:00",
+      "category": [
+        "Reading & Writing"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": "See registration link for details"
+      },
+      "capacity": 50,
+      "registrationRequired": true,
+      "tags": [
+        "fabrik"
+      ],
+      "image": "https://cdn.joinfabrik.com/gatherings/Screenshot 2026-08-06 at 9.52.25 AM_c9555283-9f33-451a-b3ba-99cacf722bdc.png",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Fabrik",
+        "source_url": "https://luma.com/ifyarytc",
+        "organizer": {
+          "name": "Colin Daniels",
+          "website": "https://www.joinfabrik.com"
+        },
+        "venue": {
+          "name": "Fabrik Dumbo",
+          "address": "Fabrik Dumbo, Brooklyn, NY",
+          "type": "Community Space"
+        },
+        "featured": false,
+        "members_only": false,
+        "original_event_id": "64d270cb-3a17-4484-8d39-fc165710a87b"
+      }
+    },
+    {
+      "id": "evt_fabrik_74ae3fa4",
+      "name": "How to Turn Trains Into Music",
+      "type": "Creative Arts",
+      "locationId": "loc_fabrik",
+      "communityId": "com_fabrik_ny",
+      "description": "Expert-led lectures in bars and creative spaces across NYC.\n 💭 Topic: \"How to Turn Trains Into Music\" 🎤 Lecturer: Joshua Wolk 📆 Date: Friday, September 4th  ⏰ Doors Open: 6:30 PM 📍 Location: Tribeca, Manhattan\n🍻 Craft Beer and Snacks Included with Ticket Purchase!\n🤝 A little about us: Wisdom Bar is a social lecture series hosted in cool bars and creative spaces throughout New York City. Each event features a presentation from an expert speaker whose passion for a unique topic guides the room. We'll explore new ideas, exchange perspectives, and learn something new along the way, all in an effort to get curious-minded people together for drinks and thoughtful conversation. If this sounds like something you might enjoy, we'd love to host you.\nHere's what to look forward to during this groundbreaking lecture:\nEvery dot is a real subway train. Eight hundred of them, give or take, form a small jazz combo (walking bass, piano, sax, vibes, brushes) that has been playing without pause for over a hundred years. On the platforms they are hot, screaming, full of complaint. This is the music inside the noise.  The harmony moves through a slow chorus. A note is placed precisely where the train happens to be along its route. Rush hour fills the band with held tones; at 3 a.m. the silences grow longer. Whatever is playing now has not played before and will not play again.  Share your location and the trains nearest you grow louder. The piece rearranges itself around your body. You are listening to a portrait of where you stand, played by the city you are standing in.\nJoshua Wolk is a designer and engineer who leverages data to make art.\nWe'll explore:\n* The music all around us in every day life.\n* The science of sound design.\n* Basic music theory as applied to locomotives.\nThis might be for you if you...\n* Are a music enthusiast or have interest in sound design\n* Are curious about music theory in a bite sized setting\n* Are intrigued by the idea of finding the art in the ordinary\n* Enjoy lecture-based and conversation-focused events of any kind — think Ted Talks in bars, Lectures on Tap, or micro learning meets dinner party\n* Want to switch up your usual weeknight. Why not make it interesting? 🤓",
+      "startDate": "2026-09-04T22:00:00+00:00",
+      "endDate": "2026-09-05T01:00:00+00:00",
+      "category": [
+        "Creative Arts"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": "See registration link for details"
+      },
+      "capacity": 50,
+      "registrationRequired": true,
+      "tags": [
+        "fabrik"
+      ],
+      "image": "https://cdn.joinfabrik.com/gatherings/EDC5EF26-927D-4472-B5A5-1DA0D3B19E60_34d2d908-501f-4835-89c9-77296c9c4c6e.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Fabrik",
+        "source_url": "https://www.eventbrite.com/e/the-wisdom-bar-how-to-turn-trains-into-music-tickets-1997055817710?aff=oddtdtcreator",
+        "organizer": {
+          "name": "The Wisdom Bar",
+          "website": "https://www.joinfabrik.com"
+        },
+        "venue": {
+          "name": "Fabrik Tribeca",
+          "address": "Fabrik Tribeca, New York, NY",
+          "type": "Community Space"
+        },
+        "featured": false,
+        "members_only": false,
+        "original_event_id": "f3579680-54e3-4b08-9239-85bd5f7de1f5"
+      }
+    },
+    {
+      "id": "evt_fabrik_bbeed1e7",
+      "name": "Histories Of Freedom, Justice, and Democracy",
+      "type": "Educational",
+      "locationId": "",
+      "communityId": "com_fabrik_ny",
+      "description": "\nExpert-led lectures in bars and creative spaces across NYC.\n 💭 Topic: \"Freedom, Justice, and Democracy: History of the Reconstruction and Thaddeus Stevens\" 🎤 Lecturer: Stephanie Townrow 📆 Date: Friday, September 9th ⏰ Doors Open: 6:30 PM 📍 Location: Dumbo, Brooklyn\n🍻 Craft Beer and Snacks Included with Ticket Purchase!\n🤝 A little about us: Wisdom Bar is a social lecture series hosted in cool bars and creative spaces throughout New York City. Each event features a presentation from an expert speaker whose passion for a unique topic guides the room. We'll explore new ideas, exchange perspectives, and learn something new along the way, all in an effort to get curious-minded people together for drinks and thoughtful conversation. If this sounds like something you might enjoy, we'd love to host you.\nHere's what to look forward to during this groundbreaking lecture:\nWhen the Civil War ended, the United States faced an enormous question: What kind of country would it become? Congressman Thaddeus Stevens believed the nation could not simply rebuild what had existed before the war. Instead, he called for radical changes to dismantle the South's old social and economic system, protect the rights of formerly enslaved people, and create a country built on a foundation of legal equality. This talk explores Stevens' bold vision for Reconstruction, the fierce opposition he faced, and why the questions he raised about freedom, justice, and democracy remain just as relevant today.\n\nStephanie Townrow is the Director of Interpretation and Exhibitions at the Thaddeus Stevens & Lydia Hamilton Smith Center for History and Democracy, a new museum she has had the privilege to build from the ground-up. A Ph.D. candidate in American history at the University of Delaware, she specializes in bringing the past to life through storytelling, artifacts, and the occasional deep dive down a historical rabbit hole. She has spent the last several years immersed in the world of Thaddeus Stevens and Lydia Hamilton Smith—and promises that Stevens was far more interesting (and important) than most history textbooks let on. She's excited to share some of the surprising stories behind one of America's most fascinating and fearless politicians.\nWe'll explore:\n* The reconstruction of the United States post Civil War\n* The radical changes that occured during this period which have led to the state of the country we live in today\n* The role that Thaddeus Stevens played in shaping our nation\nThis might be for you if you...\n* Are curious about unknown figures in our shared history\n* Are intrigued by the steps taken by the government during the Reconstruction era that have directly impacted where the US is today\n* Enjoy lecture-based and conversation-focused events of any kind — think Ted Talks in bars, Lectures on Tap, or micro learning meets dinner party\n* Want to switch up your usual weeknight. Why not make it interesting? 🤓",
+      "startDate": "2026-09-09T22:00:00+00:00",
+      "endDate": "2026-09-10T01:00:00+00:00",
+      "category": [
+        "Educational"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": "See registration link for details"
+      },
+      "capacity": 50,
+      "registrationRequired": true,
+      "tags": [
+        "fabrik"
+      ],
+      "image": "https://cdn.joinfabrik.com/gatherings/IMG_5574_97d2f248-bfde-4432-a9f7-7e97bc03be0f.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Fabrik",
+        "source_url": "https://www.eventbrite.com/e/the-wisdom-bar-freedom-justice-and-democracy-tickets-1997059700323?aff=oddtdtcreator",
+        "organizer": {
+          "name": "The Wisdom Bar",
+          "website": "https://www.joinfabrik.com"
+        },
+        "venue": {
+          "name": "Fabrik Dumbo",
+          "address": "Fabrik Dumbo, Brooklyn, NY",
+          "type": "Community Space"
+        },
+        "featured": false,
+        "members_only": false,
+        "original_event_id": "a148dee5-4287-4e73-b087-67cbdb149229"
+      }
+    },
+    {
+      "id": "evt_fabrik_c3b45107",
+      "name": "Corporate Girlies 30+ Networking Event 👯‍♀️ Sep 10",
+      "type": "Technology & AI",
+      "locationId": "loc_fabrik",
+      "communityId": "com_fabrik_ny",
+      "description": "Get ready to mix, mingle, and meet women navigating the very specific chaos of being in your 30s: careers, relationships, health, fertility, family planning, and everything in between.\n\n​Join us at Fabrik NYC for an evening built for women who are juggling ambition, big life decisions, self-transformations, and whatever their next chapter looks like.\n\n​Whether you're building a company, climbing the corporate ladder, thinking about freezing your eggs, trying to conceive, or just figuring out what you want, you belong in the room.\n\n​Expect good conversation, great energy, and plenty of opportunities to connect with women in a similar stage of life. Come ready to make new friends, swap advice, grow your network, and maybe finally talk about the things nobody puts on LinkedIn. 😉\n\n​Women 30+ encouraged. All career paths and life stages welcome.",
+      "startDate": "2026-09-10T22:00:00+00:00",
+      "endDate": "2026-09-11T01:00:00+00:00",
+      "category": [
+        "Technology & AI"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": "See registration link for details"
+      },
+      "capacity": 50,
+      "registrationRequired": true,
+      "tags": [
+        "fabrik"
+      ],
+      "image": "https://cdn.joinfabrik.com/gatherings/corporate_787f8dc0-d49f-4838-856d-68e9cc8b251f.avif",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Fabrik",
+        "source_url": "https://luma.com/1bw5ah94",
+        "organizer": {
+          "name": "Lawrence Krubner",
+          "website": "https://www.joinfabrik.com"
+        },
+        "venue": {
+          "name": "Fabrik Tribeca",
+          "address": "Fabrik Tribeca, New York, NY",
+          "type": "Community Space"
+        },
+        "featured": false,
+        "members_only": false,
+        "original_event_id": "1787763b-96e7-4567-a4ac-c485aa0ae19f"
+      }
+    },
+    {
+      "id": "evt_fabrik_cc85e368",
+      "name": "AI Incubator for Solopreneurs | Session 3: The Sales Funnel, Built with AI",
+      "type": "Technology & AI",
+      "locationId": "",
+      "communityId": "com_fabrik_ny",
+      "description": "This is part of an 8-Week Incubator Series. \n\nThere are 4 Sessions and 4 Working Sessions:\nSession 1: August 14\nSession 2: August 28\nSession 3: September 11\nSession 4: September 25\n\nAnd 4 Working Sessions: \nAugust 21\nSeptember 4\nSeptember 18\nConcluding Presentation: October 2\n\n\nYou can only get access to the Working Sessions by purchasing the full 8-week Pass ($149) \n\nWho this is for: \n- Founders\n- Solopreneurs\n- Small scrappy teams \n- No Coding Experience Required \n\nSessions:\n90-minute Hands-On Workshop\n2.5 Hour Working Session Follows\n\nCohort Size: \n15-30\n\n----\nBuild the full path from a stranger to a booked meeting to a closed deal, and know exactly what it costs you.\n\nWhat’s covered\n\nBuild the complete sales funnel, not just the top of it.\n\nYou’ll learn how to attract and capture leads, qualify them so you spend time on the right prospects, automatically book meetings, follow up without losing anyone, and measure what every stage costs.\n\nWhat you’ll do\n\nAttract and capture\n\nMap the entire funnel with Claude, stage by stage.\nCreate a lead magnet that solves one urgent problem.\nBuild a landing page and opt-in form that captures the lead.\n\nQualify\n\nAdd qualifying questions covering budget, timeline, need, and decision-making authority.\nUse Claude and your CRM’s lead scoring to automatically separate hot leads from cold ones.\n\nBook meetings\n\nConnect a scheduling tool so qualified leads can instantly book a call.\nAdd confirmations and reminders designed to reduce no-shows.\n\nFollow up and close\n\nWrite a nurture sequence and automated follow-ups with Claude.\nInclude dedicated paths for no-shows and rescheduling.\nConfigure your CRM to draft a personalized follow-up after each meeting so no opportunity quietly evaporates.\n\nMeasure the money\n\nSet up the numbers that determine whether the funnel is working, including cost per lead, cost per booked meeting, customer acquisition cost, and conversion rates between each stage.\nUse Claude to interpret the dashboard, identify where money is leaking, and suggest what to fix first.\n\nThe proposal also highlights two longer-term metrics founders should watch: lifetime value compared with customer acquisition cost, and the time required to recover acquisition costs.\n\nRecommended stack: Claude for copy, scoring logic, and interpreting performance; HubSpot’s free CRM for lead capture, scoring, pipeline management, and reporting; Calendly or Cal.com for scheduling; and Systeme.io as an all-in-one option for landing pages, email, and funnels.\n\nOther tools considered: Chili Piper and RevenueHero for high-volume inbound teams, ClickFunnels for templates, GoHighLevel for agencies, and ActiveCampaign for advanced email automation.\n\nYou’ll leave with: A live funnel that captures, qualifies, books, and follows up with leads, plus a simple dashboard showing what each stage costs.\n\nProgramming note: The proposal identifies this as the most content-dense session and suggests that it may work better as two separate evenings, one focused on building and capturing leads, and another focused on qualification, booking, and measurement.\n",
+      "startDate": "2026-09-11T16:00:00+00:00",
+      "endDate": "2026-09-11T21:00:00+00:00",
+      "category": [
+        "Technology & AI"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": "See registration link for details"
+      },
+      "capacity": 15,
+      "registrationRequired": true,
+      "tags": [
+        "fabrik"
+      ],
+      "image": "https://cdn.joinfabrik.com/gatherings/4.png_d25f3a84-cb06-41a2-97cc-ad2040e21bb3.png",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Fabrik",
+        "source_url": "https://app.joinfabrik.com/24xbrvow",
+        "organizer": {
+          "name": "Fabrik",
+          "website": "https://www.joinfabrik.com"
+        },
+        "venue": {
+          "name": "Fabrik Dumbo",
+          "address": "Fabrik Dumbo, Brooklyn, NY",
+          "type": "Community Space"
+        },
+        "featured": false,
+        "members_only": false,
+        "original_event_id": "fad805b8-0f60-40ec-a125-d896a3781dff"
+      }
+    },
+    {
+      "id": "evt_fabrik_f484b6d8",
+      "name": "How To Build Trust In Your Organization",
+      "type": "Career & Networking",
+      "locationId": "loc_fabrik",
+      "communityId": "com_fabrik_ny",
+      "description": "In this Venture Week workshop, we will learn the elements of the most valuable thing you can give and receive, besides respect: sacred trust! \n\nThere is no respect, love, collaboration or success without trust.\n\nLearn how to build and maintain it with your co-founder, partner, employees and coworkers. No matter where you are in your organizational hierarchy, you must maintain trust with others. \n\nSo, don’t leave a precious and often fragile thing to chance. Create unbreakable trust with others. ",
+      "startDate": "2026-09-14T22:00:00+00:00",
+      "endDate": "2026-09-15T00:00:00+00:00",
+      "category": [
+        "Career & Networking"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": "See registration link for details"
+      },
+      "capacity": 30,
+      "registrationRequired": true,
+      "tags": [
+        "fabrik"
+      ],
+      "image": "https://cdn.joinfabrik.com/gatherings/0C50946A-02FC-4315-A9BE-F028CB8945C5_0fcc1639-e316-46ac-a4d6-bf852a87f110.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Fabrik",
+        "source_url": "https://luma.com/hmwns7gh",
+        "organizer": {
+          "name": "Syeda Zaidi, NYC Love And Intimacy",
+          "website": "https://www.joinfabrik.com"
+        },
+        "venue": {
+          "name": "Fabrik Tribeca",
+          "address": "Fabrik Tribeca, New York, NY",
+          "type": "Community Space"
+        },
+        "featured": false,
+        "members_only": false,
+        "original_event_id": "f7384649-8075-464c-9516-5c8511e75522"
+      }
+    },
+    {
+      "id": "evt_fabrik_7ca6b79d",
+      "name": "WNORTH Summit",
+      "type": "Career & Networking",
+      "locationId": "loc_fabrik",
+      "communityId": "com_fabrik_ny",
+      "description": "This Fall, our WNORTH NYC Summit will return to Fabrik in Tribeca for the third year in a row!  Join us Thursday September 17 for this half day summit.  \n\nThis year’s program will be centered around the theme “The Human Advantage”. In an age of automation, disruption, and rapid transformation, the human advantage becomes our greatest leadership currency: community, empathy, courage, and collective action.",
+      "startDate": "2026-09-17T12:30:00+00:00",
+      "endDate": "2026-09-17T16:00:00+00:00",
+      "category": [
+        "Career & Networking"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": "See registration link for details"
+      },
+      "capacity": 50,
+      "registrationRequired": true,
+      "tags": [
+        "fabrik"
+      ],
+      "image": "https://cdn.joinfabrik.com/gatherings/Screenshot 2026-06-30 at 1.37.23 PM_7fba5a7b-4648-48fb-ad6c-07cc8fa16125.png",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Fabrik",
+        "source_url": "https://wnorthconnect.com/2026summitnyc/#register",
+        "organizer": {
+          "name": "WNORTH",
+          "website": "https://www.joinfabrik.com"
+        },
+        "venue": {
+          "name": "Fabrik Tribeca",
+          "address": "Fabrik Tribeca, New York, NY",
+          "type": "Community Space"
+        },
+        "featured": false,
+        "members_only": false,
+        "original_event_id": "f8a6671f-39f0-4547-83f6-8a6de39ab585"
+      }
+    },
+    {
+      "id": "evt_fabrik_fe396b9a",
+      "name": "The Reflection Circle",
+      "type": "Friendship & Belonging",
+      "locationId": "loc_fabrik",
+      "communityId": "com_fabrik_ny",
+      "description": "Monthly weeknight gatherings for growth-minded women to have meaningful conversations, build friendships, and find accountability partners.",
+      "startDate": "2026-09-17T22:30:00+00:00",
+      "endDate": "2026-09-18T00:30:00+00:00",
+      "category": [
+        "Friendship & Belonging"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": "See registration link for details"
+      },
+      "capacity": 5,
+      "registrationRequired": true,
+      "tags": [
+        "fabrik"
+      ],
+      "image": "https://cdn.joinfabrik.com/gatherings/IMG_7268_b31289fd-8940-4dea-b327-bbefc75b28af.PNG",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Fabrik",
+        "source_url": "https://luma.com/kkotogzi",
+        "organizer": {
+          "name": "Books Light the Fire",
+          "website": "https://www.joinfabrik.com"
+        },
+        "venue": {
+          "name": "Fabrik Tribeca",
+          "address": "Fabrik Tribeca, New York, NY",
+          "type": "Community Space"
+        },
+        "featured": false,
+        "members_only": false,
+        "original_event_id": "42add1cd-ec0e-45f7-ab29-2cd664e8ddf4"
+      }
+    },
+    {
+      "id": "evt_fabrik_85bf5a7e",
+      "name": "Unlocking Human Potential",
+      "type": "Career & Networking",
+      "locationId": "loc_fabrik",
+      "communityId": "com_fabrik_ny",
+      "description": "An evening of Human Potential, Inclusive Thinking & Meaningful Connection\n\nWhat is the greatest barriers to growth, innovation, fulfilment, and human connection are not external - but internal? \n\nUnlocking Human Potential is an interactive masterclass exploring how our beliefs, assumptions, thought patterns and internal narratives shape the way we experience the world, communicate with others, and pursue our goals. \n\nFabrik members get a complimentary access on Luma with the code FRIEND \n",
+      "startDate": "2026-09-18T22:30:00+00:00",
+      "endDate": "2026-09-19T01:00:00+00:00",
+      "category": [
+        "Career & Networking"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": "See registration link for details"
+      },
+      "capacity": 50,
+      "registrationRequired": true,
+      "tags": [
+        "fabrik"
+      ],
+      "image": "https://cdn.joinfabrik.com/gatherings/IMG_2480_3e9708be-3941-4186-a4d2-3890c00a6d32.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Fabrik",
+        "source_url": "https://luma.com/z3izzvu9",
+        "organizer": {
+          "name": "Alina Kuderska",
+          "website": "https://www.joinfabrik.com"
+        },
+        "venue": {
+          "name": "Fabrik Tribeca",
+          "address": "Fabrik Tribeca, New York, NY",
+          "type": "Community Space"
+        },
+        "featured": false,
+        "members_only": false,
+        "original_event_id": "1eb916b5-c476-4ea8-8856-7bb985cd4285"
+      }
+    },
+    {
+      "id": "evt_fabrik_8336e693",
+      "name": "Drop-In Men's Work Group",
+      "type": "Health and Wellness",
+      "locationId": "loc_fabrik",
+      "communityId": "com_fabrik_ny",
+      "description": "A meeting where men can do their work.\nMen’s work is just this: being mindful and relating intentionally with other people who identify as men, to allow ourselves to just be, together, in a deeper way. We sometimes call this deeper connection \"dropping in\".\n\nMen’s work can help to expand emotional range and resilience, and your ability to express feelings - here in the group through creating a safe space, and out in the world, at your job and in your relationships.\n\nThis circle is for both men who have experienced men's work and for men who are curious about men's work.\n\nAnyone who identifies as male can join.\n\nHow it will work\n\nWe'll meet from 6:30 PM sharp until 8:30PM. Please come sober, with your phone off, and ready to spend the whole time with the group.\n\nExpect a series of conversations and guided experiences to connect you more deeply to yourself and to others.\n\nPlease Note: This is not therapy.\nThis is a mutual support group, hosted by peers.\nAbout your Host, Daniel Stillman\n\nI work as executive leadership coach and keynote speaker, for organizations of all shapes, sizes and industries. I have learned that at the heart of real change is a conversation - one with yourself, as well as conversations with others. I create space for leaders and their teams to have the conversations that matter.\n\nI’ve been co-leading a men’s group since 2018, and have taught and facilitated men's work in person, online, and at multi-day retreats. Men’s work has been an important part of my ongoing personal development and has allowed me to expand my emotional range and resilience. It’s also expanded my range and the depth in my one-on-one coaching and team transformation work.\n\nI also host The Conversation Factory podcast (a top 100 Management Podcast) and am the author of “Good Talk: How to Design Conversations that Matter” a handbook for changemakers and innovators.\n\nLearn more at www.DanielStillman.com\n\nA portion of the proceeds from ticket sales will go to the Ever Forward Club, which provides support programs and workshops to disadvantaged young men and boys in the Bay Area.\n\nAgreements for the gathering:\n\nI agree to…\n\nCome prepared and ready to both give and receive support for the group members by being well rested and nourished.  I will take care of myself.\n\nI will include all the men in the conversation.  I will not dominate.\n\nI will not be violent.\n\nI agree to keep everything discussed or revealed in the group completely confidential except for what I share or another man’s reaction to what I share.  \n\nI agree to keep the physical space we use and occupy in better shape than I found it.\n\nFor the duration of the session I will honor myself and my colleagues by not coming under the influence of any mood altering recreational substance, including drugs and alcohol. \n\nI agree that our time together is not counseling or therapy.  \n\nIf there is any reason to believe that I may be of harm to myself or others, I am required to share this with the group.",
+      "startDate": "2026-09-21T22:00:00+00:00",
+      "endDate": "2026-09-22T01:00:00+00:00",
+      "category": [
+        "Health and Wellness"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": "See registration link for details"
+      },
+      "capacity": 10,
+      "registrationRequired": true,
+      "tags": [
+        "fabrik"
+      ],
+      "image": "https://cdn.joinfabrik.com/gatherings/72ab9f27-5a8f-43c1-b99f-2669f45b9565_a5e6f7e5-46f0-4439-9904-e6d0b44e6105.jpeg",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Fabrik",
+        "source_url": "https://luma.com/1qdaaas6",
+        "organizer": {
+          "name": "The Conversation Factory",
+          "website": "https://www.joinfabrik.com"
+        },
+        "venue": {
+          "name": "Fabrik Tribeca",
+          "address": "Fabrik Tribeca, New York, NY",
+          "type": "Community Space"
+        },
+        "featured": false,
+        "members_only": false,
+        "original_event_id": "6accfeb7-470a-49bd-907c-ab957f171046"
+      }
+    },
+    {
+      "id": "evt_fabrik_754a3613",
+      "name": "AI Incubator for Solopreneurs | Session 4: Project Management and Operations",
+      "type": "Technology & AI",
+      "locationId": "",
+      "communityId": "com_fabrik_ny",
+      "description": "This is part of an 8-Week Incubator Series. \n\nThere are 4 Sessions and 4 Working Sessions:\nSession 1: August 14\nSession 2: August 28\nSession 3: September 11\nSession 4: September 25\n\nAnd 4 Working Sessions: \nAugust 21\nSeptember 4\nSeptember 18\nConcluding Presentation: October 2\n\n\nYou can only get access to the Working Sessions by purchasing the full 8-week Pass ($149) \n\nWho this is for: \n- Founders\n- Solopreneurs\n- Small scrappy teams \n- No Coding Experience Required \n\nSessions:\n90-minute Hands-On Workshop\n2.5 Hour Working Session Follows\n\nCohort Size: \n15-30\n\n----\n\nStop the week from leaking. Build the system that runs everything that isn’t the product.\n\nWhat’s covered\n\nCreate the operating system for a one-person company.\n\nThis session covers how to plan your work, use AI throughout the day, connect the tools you already rely on, automate repetitive tasks, and establish a rhythm that keeps the business moving.\n\nWhat you’ll do\n\nMap your operation\n\nIdentify where your time, attention, and money are leaking across your inbox, calendar, notes, follow-ups, and administrative work.\n\nBuild your hub\n\nSet up one central workspace for your tasks, documents, projects, and roadmap.\n\nWire in Claude\n\nTurn meeting notes into actionable tasks.\nDraft updates and replies.\nPlan your week with AI support.\n\nAutomate the busywork\n\nBuild two or three automations connecting the tools you already use.\nExamples might include sending a new lead into your CRM with a follow-up task, or transforming meeting notes into assigned action items.\n\nAdd guardrails and rhythm\n\nEstablish approvals and limits so automations remain safe and predictable.\nCreate a daily and weekly operating routine supported by a simple dashboard.\n\nRecommended stack: Claude as the central intelligence layer, Notion as the workspace, and Make for automations. The proposal recommends Notion for its flexibility and accessible free plan, and Make for affordable, multi-step workflows.\n\nOther tools considered: Linear for product and engineering teams, ClickUp for businesses trying to consolidate multiple tools, Zapier for ease of use and a large integration library, n8n for technical users who want a self-hosted option, and AI-agent tools such as Lindy or Relay for inbox and meeting workflows.\n\nYou’ll leave with: A working operating system for your business and two or three automations already running.\n\nAbout Sixfactors AI\n\nSixfactors AI is building a workforce-upskilling platform and learning-and-development brand for founders who want to build, not just talk about building.\n\nIts sessions are hands-on and practice-first, with participants creating real working software, marketing systems, funnels, and automations during the session itself. The curriculum is taught by people who build AI products professionally, using tools they rely on in their own work rather than tools that only perform well in demonstrations.",
+      "startDate": "2026-09-25T17:00:00+00:00",
+      "endDate": "2026-09-25T21:00:00+00:00",
+      "category": [
+        "Technology & AI"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": "See registration link for details"
+      },
+      "capacity": 25,
+      "registrationRequired": true,
+      "tags": [
+        "fabrik"
+      ],
+      "image": "https://cdn.joinfabrik.com/gatherings/5.png_897a40a6-ca34-403c-8c6c-7e923feb8101.png",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Fabrik",
+        "source_url": "https://app.joinfabrik.com/vihrk3tg",
+        "organizer": {
+          "name": "Fabrik",
+          "website": "https://www.joinfabrik.com"
+        },
+        "venue": {
+          "name": "Fabrik Dumbo",
+          "address": "Fabrik Dumbo, Brooklyn, NY",
+          "type": "Community Space"
+        },
+        "featured": false,
+        "members_only": false,
+        "original_event_id": "6050df77-b694-4f83-90a4-3c4d7d973cae"
+      }
+    },
+    {
+      "id": "evt_fabrik_83dee3f8",
+      "name": "Fall Singles Social",
+      "type": "Friendship & Belonging",
+      "locationId": "",
+      "communityId": "com_fabrik_ny",
+      "description": "An evening of connection, play, and good times! ✨🍁\n\nJoin Single Saturdays and The Full for an evening of mingling, laughter, and play with NYC singles.\n\nThe evening includes interactive games, conversation starters, and a special olive oil tasting — plenty of opportunities to meet new people in a fun, low-pressure setting.",
+      "startDate": "2026-09-25T22:00:00+00:00",
+      "endDate": "2026-09-26T01:00:00+00:00",
+      "category": [
+        "Friendship & Belonging"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": "See registration link for details"
+      },
+      "capacity": 40,
+      "registrationRequired": true,
+      "tags": [
+        "fabrik"
+      ],
+      "image": "https://cdn.joinfabrik.com/gatherings/IMG_7413_ba76fe99-50d5-40e3-b8a3-e63762a5f0ea.PNG",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Fabrik",
+        "source_url": "https://luma.com/fallsocial26",
+        "organizer": {
+          "name": "Single Saturdays",
+          "website": "https://www.joinfabrik.com"
+        },
+        "venue": {
+          "name": "Fabrik Dumbo",
+          "address": "Fabrik Dumbo, Brooklyn, NY",
+          "type": "Community Space"
+        },
+        "featured": false,
+        "members_only": false,
+        "original_event_id": "14420717-d07f-4756-a3e4-da25477ac07d"
+      }
+    },
+    {
+      "id": "evt_fabrik_ddfc6163",
+      "name": "Refresh NYC Coach Gathering",
+      "type": "Career & Networking",
+      "locationId": "loc_fabrik",
+      "communityId": "com_fabrik_ny",
+      "description": "​Hi, I'm Mallory Roth. I'm personally inviting a handful of inspiring coaches for a meetup at Fabrik, and have saved space for Fabrik members who are also coaches. We'd love to have you there. Spots are limited, register below.",
+      "startDate": "2026-09-28T18:30:00+00:00",
+      "endDate": "2026-09-28T20:00:00+00:00",
+      "category": [
+        "Career & Networking"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": "See registration link for details"
+      },
+      "capacity": 40,
+      "registrationRequired": true,
+      "tags": [
+        "fabrik"
+      ],
+      "image": "https://cdn.joinfabrik.com/gatherings/Screenshot 2026-08-10 at 9.40.23 AM_078a5b71-025f-4bd1-8a6d-b9e72bda3f6a.png",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Fabrik",
+        "source_url": "https://luma.com/470qn68v",
+        "organizer": {
+          "name": "Potluck",
+          "website": "https://www.joinfabrik.com"
+        },
+        "venue": {
+          "name": "Fabrik Tribeca",
+          "address": "Fabrik Tribeca, New York, NY",
+          "type": "Community Space"
+        },
+        "featured": false,
+        "members_only": false,
+        "original_event_id": "a14c86d0-4fe8-48ce-a1c4-5039596c28ce"
+      }
+    },
+    {
+      "id": "evt_fabrik_384023fd",
+      "name": "UGLY TALK X GOOD TALK: WHAT NO ONE TELLS YOU ABOUT BEING A MIDDLE AGED FOUNDER",
+      "type": "Health and Wellness",
+      "locationId": "loc_fabrik",
+      "communityId": "com_fabrik_ny",
+      "description": "\nA small, facilitated roundtable for founders who aren't hustle-culture kids.\nBring one conversation you've been avoiding. Leave with real perspective on it, and a handful of founders who know what you're actually dealing with.\nNo stage. No audience. No pitching. \nFacilitated by executive leadership coach Daniel Stillman, author of Good Talk: How to Design Conversations that Matter. \nWho is this for?\nBeing a founder takes commitment, sacrifice, and sometimes hustle. But the hustle-culture narrative doesn't match the life you want as you get older. You're not 25 with nothing to lose. You have a mortgage. You want a proper vacation. Maybe you have aging parents to care for. And a mission you still want to bring into the world. \n\nWhy a Roundtable?\nYou don’t need another big networking event, or a poorly moderated panel you could have watched on YouTube at 2x.\n\nYou need an intimate, high-trust, off-the-record room where you can get real with other founders, builders and entrepreneurs. \n\nA roundtable is one where everyone shares, everyone is heard, and everyone gets more than they imagined.\n\nThe Conversation\nConversations are the atomic unit of change. Our lives are built by the conversations we have, and defined by the ones we avoid. The cofounder conflict you brush off but never resolve. The hire you won't admit isn't working. The pivot you keep putting off.\nThe ones we avoid most are with ourselves. The bargains we never renegotiated. The anxiety we can't politely ask to leave. The question we keep not answering.\nThe un-had conversation doesn't disappear. It goes underground and gets more expensive. This roundtable is designed to create the space for the most important questions and conversations you’re facing right now.\n\nApplication and Curation\nAdmission is by invitation only - please complete all application questions so we can curate the group, optimizing for:\n\nPeople actively building\nOpenness, Curiosity and Generosity\nCommitment - people who don’t show up won’t be invited to come again\nThe Prework: \nThis is a small room, on purpose, so we’re only selecting a handful of folks who are willing to do some thinking before they get in the room. Apply with your thoughtful answers to the registration questions.\nThe Format: \nFive rounds of conversation: \nConnection and Learning - so we know who we are and why we’re building what we are each building\nExploration: Sharing your avoided conversation with the group\nStories Vs Advice: Sharing stories to help each other through shared empathy, not problem solving\nAsks and Offers: What’s something you need from the group? What’s something you can offer in generosity?\nClosing Round - What you’re taking away from the conversation - what you’re committed to\nThe Follow Up:\nJoin a continuing conversation with the attendees, where you can share the resource you mentioned, ask that follow-up question, and get the support you need from a generous, growing community.\nYour Co-Hosts\nDaniel Stillman designs conversations for a living, and insists that you do too. He's an executive coach and facilitator who works with founders and founding teams on how they lead, communicate, and navigate the conversations that matter. He hosts The Conversation Factory podcast (a top 100 Management podcast) and wrote Good Talk: How to Design Conversations that Matter, a handbook for changemakers and innovators.\nAnson Wu is the founder of Ugly Talk, the no-BS event series where battle-tested founders share the setbacks, pivots, and lessons behind the wins. Since 2019 it's grown across New York, Chicago, San Francisco, and Miami. Anson also runs Grey Journal, the digital media company behind it, and came up as a designer and agency founder. By his own description, a recovering underthinker still mining the lessons from two failed startups.\nAbout Ugly Talk\nStarted in 2019, Ugly Talk has been transforming business setbacks into breakthrough “aha!” moments by hosting unfiltered, no-nonsense events where battle-tested entrepreneurs share their raw lessons and insights.\nWith a growing presence in cities like New York, Chicago, San Francisco, and Miami, we’ve built a vibrant community of thousands of founders and industry leaders making a profound impact on the entrepreneurial landscape.\nOfficial Website: UglyTalk.com\n\n\n",
+      "startDate": "2026-10-01T22:00:00+00:00",
+      "endDate": "2026-10-02T00:30:00+00:00",
+      "category": [
+        "Health and Wellness"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": "See registration link for details"
+      },
+      "capacity": 10,
+      "registrationRequired": true,
+      "tags": [
+        "fabrik"
+      ],
+      "image": "https://cdn.joinfabrik.com/gatherings/ugly talk_171c7c5a-6da4-4034-9109-4960a275de3d.avif",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Fabrik",
+        "source_url": "https://luma.com/czp3ejpc",
+        "organizer": {
+          "name": "The Conversation Factory",
+          "website": "https://www.joinfabrik.com"
+        },
+        "venue": {
+          "name": "Fabrik Tribeca",
+          "address": "Fabrik Tribeca, New York, NY",
+          "type": "Community Space"
+        },
+        "featured": false,
+        "members_only": false,
+        "original_event_id": "b8bf88a8-4815-4f3a-9ff7-b8ec218f45b2"
+      }
+    },
+    {
+      "id": "evt_fabrik_31698439",
+      "name": "Olive Oil & Chocolate: Two Harvests, One Table",
+      "type": "Other",
+      "locationId": "",
+      "communityId": "com_fabrik_ny",
+      "description": "Olive oil and chocolate are two ancient foods that carry stories of culture, process, and taste. Let's taste our way into them during a delicious evening together.\n\n​Join Isabella of The Full and Nettie of Small Batch Education for an evening exploring what chocolate and olive oil have in common (and where they are different). Both start as fruit, harvested by hand. Both pass through a process that can honor them or hurt them. And both foster a slow, sensory approach, paying attention to bitterness, quality, and origin.",
+      "startDate": "2026-10-01T22:30:00+00:00",
+      "endDate": "2026-10-02T00:30:00+00:00",
+      "category": [
+        "Other"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": "See registration link for details"
+      },
+      "capacity": 30,
+      "registrationRequired": true,
+      "tags": [
+        "fabrik"
+      ],
+      "image": "https://cdn.joinfabrik.com/gatherings/9F6D0E39-A17A-405A-BFC7-B40FB02FCAF1_6c1dfdc4-7942-4324-8b1e-cd6bc98d9677.png",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Fabrik",
+        "source_url": "https://luma.com/z3635yvd",
+        "organizer": {
+          "name": "The Full + The Chocolate Connection",
+          "website": "https://www.joinfabrik.com"
+        },
+        "venue": {
+          "name": "Fabrik Dumbo",
+          "address": "Fabrik Dumbo, Brooklyn, NY",
+          "type": "Community Space"
+        },
+        "featured": false,
+        "members_only": false,
+        "original_event_id": "d7926441-8315-4e10-a080-dfe31f7cc3b0"
+      }
+    },
+    {
+      "id": "evt_fabrik_a70e2f45",
+      "name": "Claude Cafe with AI Snack Club - New York City",
+      "type": "Technology & AI",
+      "locationId": "loc_fabrik",
+      "communityId": "com_fabrik_ny",
+      "description": "Come vibe code and meet other AI Snack Club members in person in the NYC!\n\n​Don't forget — Bring your laptop.",
+      "startDate": "2026-10-06T13:30:00+00:00",
+      "endDate": "2026-10-06T15:30:00+00:00",
+      "category": [
+        "Technology & AI"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": "See registration link for details"
+      },
+      "capacity": 30,
+      "registrationRequired": true,
+      "tags": [
+        "fabrik"
+      ],
+      "image": "https://cdn.joinfabrik.com/gatherings/ai snack_966d77af-1eea-488f-a47b-1c97a5005eef.avif",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Fabrik",
+        "source_url": "https://luma.com/aisnack-h9tz",
+        "organizer": {
+          "name": "AI Snack Club",
+          "website": "https://www.joinfabrik.com"
+        },
+        "venue": {
+          "name": "Fabrik Tribeca",
+          "address": "Fabrik Tribeca, New York, NY",
+          "type": "Community Space"
+        },
+        "featured": false,
+        "members_only": false,
+        "original_event_id": "76fa470a-5b94-4b3c-b28f-2aa481b2d2f8"
+      }
+    },
+    {
+      "id": "evt_fabrik_22e14186",
+      "name": "The Reflection Circle",
+      "type": "Friendship & Belonging",
+      "locationId": "loc_fabrik",
+      "communityId": "com_fabrik_ny",
+      "description": "Monthly weeknight gatherings for growth-minded women to have meaningful conversations, build friendships, and find accountability partners.\n",
+      "startDate": "2026-10-22T22:30:00+00:00",
+      "endDate": "2026-10-23T00:30:00+00:00",
+      "category": [
+        "Friendship & Belonging"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": "See registration link for details"
+      },
+      "capacity": 5,
+      "registrationRequired": true,
+      "tags": [
+        "fabrik"
+      ],
+      "image": "https://cdn.joinfabrik.com/gatherings/IMG_7268_d67a551f-739a-446b-943f-48114bed16ce.PNG",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Fabrik",
+        "source_url": "https://luma.com/8d63j92f",
+        "organizer": {
+          "name": "Books Light the Fire",
+          "website": "https://www.joinfabrik.com"
+        },
+        "venue": {
+          "name": "Fabrik Tribeca",
+          "address": "Fabrik Tribeca, New York, NY",
+          "type": "Community Space"
+        },
+        "featured": false,
+        "members_only": false,
+        "original_event_id": "6a9f94ce-4908-4702-a1f1-ccc3d7f308e0"
+      }
+    }
+  ]
+}

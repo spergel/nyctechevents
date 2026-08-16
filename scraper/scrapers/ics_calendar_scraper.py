@@ -107,19 +107,31 @@ def get_luma_events(ics_url, filter_nyc=False):
                 # 1. URL property
                 # 2. Location field if it contains a Luma URL
                 # 3. Description field if it contains a Luma URL
-                event_url = getattr(event, 'url', '')
-                location = getattr(event, 'location', '')
-                description = getattr(event, 'description', '')
+                event_url = getattr(event, 'url', '') or ''
+                location = getattr(event, 'location', '') or ''
+                description = getattr(event, 'description', '') or ''
+
+                def _first_luma_url(text: str) -> str:
+                    if not text:
+                        return ''
+                    matches = re.findall(r'https?://(?:www\.)?(?:lu\.ma|luma\.com)/[^\s<>"\']+', text, flags=re.I)
+                    for match in matches:
+                        cleaned = match.rstrip(').,;>"\'')
+                        if '/event/manage/' in cleaned.lower():
+                            continue
+                        return cleaned.replace('https://lu.ma/', 'https://luma.com/').replace('http://lu.ma/', 'https://luma.com/')
+                    return ''
                 
                 # Check if location is a Luma URL
-                if not event_url and location and 'lu.ma' in location:
-                    event_url = location
+                if not event_url:
+                    event_url = _first_luma_url(location)
                     
                 # Alternative: Extract URL from description if needed
-                if not event_url and description:
-                    urls = re.findall(r'https?://lu\.ma/\S+', description)
-                    if urls:
-                        event_url = urls[0]
+                if not event_url:
+                    event_url = _first_luma_url(description)
+
+                if event_url and ('lu.ma' in event_url or 'luma.com' in event_url):
+                    event_url = event_url.replace('https://lu.ma/', 'https://luma.com/').replace('http://lu.ma/', 'https://luma.com/')
                 
                 # Get detailed event information if we have a URL
                 event_details = get_luma_event_details(event_url) if event_url else None
@@ -282,31 +294,63 @@ def convert_ics_event(ics_event: Dict, community_id: str) -> Dict:
     # Image URL
     image_url = event_details.get('image_url', '')
     
-    # Construct the final event object
+    # Construct the final event object in the shared schema used by other scrapers
+    event_name = event_details.get('title') or ics_event.get('summary') or 'Untitled Event'
+    primary_host = event_details.get('primary_host') or {}
+    from .host_enrichment import parse_ics_organizer_name, match_location_id
+    import json as _json
+    import os as _os
+    _locations_path = _os.path.join(_os.path.dirname(__file__), '..', '..', 'public', 'data', 'locations.json')
+    try:
+        _locations = {loc['id']: loc for loc in _json.load(open(_locations_path)).get('locations', [])}
+    except Exception:
+        _locations = {}
+
+    organizer_name = primary_host.get('name') or parse_ics_organizer_name(str(ics_event.get('organizer', '') or ''))
+    venue_name = (luma_location or {}).get('venue_name') or location_info.get('venue', '')
+    venue_address = location_str
+    if (luma_location or {}).get('address'):
+        addr = luma_location['address']
+        venue_address = f"{venue_name}, {addr}" if venue_name and venue_name not in addr else (addr or location_str)
+
+    location_id = match_location_id(venue_name, venue_address, _locations)
+
     event = {
         "id": event_id,
-        "title": event_details.get('title', ics_event.get('summary', 'Untitled Event')),
+        "name": event_name,
+        "type": tags[0] if tags else "Tech",
+        "locationId": location_id,
+        "communityId": community_id,
         "description": description,
-        "start_time": ics_event['start'].isoformat(),
-        "end_time": ics_event['end'].isoformat(),
-        "url": ics_event.get('url', ''),
-        "community_id": community_id,
-        "location": {
-            "name": location_info['venue'],
-            "address": location_str,
-            "type": location_type
-        },
+        "startDate": ics_event['start'].isoformat(),
+        "endDate": ics_event['end'].isoformat(),
+        "category": tags,
         "price": price_info,
+        "capacity": event_details.get('actual_capacity'),
+        "registrationRequired": True,
         "tags": tags,
-        "speakers": speakers,
-        "images": [{"url": image_url}] if image_url else [],
-        "last_updated": datetime.now(pytz.utc).isoformat(),
-        "misc": {
-            "source_event_id": ics_event.get('uid'),
-            "source": "ics",
-            "raw_location": ics_event.get('location', ''),
-            "organizer": ics_event.get('organizer', '')
-        }
+        "image": image_url,
+        "status": "upcoming",
+        "metadata": {
+            "source": "ICS/Luma",
+            "source_url": ics_event.get('url', ''),
+            "original_event_id": ics_event.get('uid'),
+            "organizer": {
+                "name": organizer_name,
+                "website": primary_host.get('url', ''),
+            },
+            "venue": {
+                "name": venue_name,
+                "address": venue_address,
+                "type": location_type,
+            },
+            "speakers": speakers,
+            "social_links": event_details.get('social_links', []),
+            "featured": False,
+            "luma_source": bool(ics_event.get('url')),
+            "luma_host": primary_host or None,
+            "luma_hosts": event_details.get('hosts') or ([primary_host] if primary_host else []),
+        },
     }
     
     return event
@@ -315,9 +359,13 @@ def is_future_event(event: Dict) -> bool:
     """Check if the event's start time is in the future."""
     try:
         start_time = None
-        # Handle both raw ICS events (with 'start') and converted events (with 'start_time')
-        if 'start_time' in event:
-            # This is a converted event
+        # Handle raw ICS events ('start') and converted events ('startDate' / legacy 'start_time')
+        if 'startDate' in event:
+            start_time = event['startDate']
+            if isinstance(start_time, str):
+                start_time = datetime.fromisoformat(start_time.replace(" ", "T"))
+        elif 'start_time' in event:
+            # Legacy converted event
             start_time = event['start_time']
             if isinstance(start_time, str):
                 # fromisoformat doesn't like spaces
@@ -340,7 +388,7 @@ def is_future_event(event: Dict) -> bool:
             
         return start_time > datetime.now(pytz.utc)
     except Exception as e:
-        logging.error(f"Could not parse event start time: {event.get('start_time', event.get('start', 'Unknown'))} - {e}")
+        logging.error(f"Could not parse event start time: {event.get('startDate', event.get('start_time', event.get('start', 'Unknown')))} - {e}")
         return False
 
 def main():

@@ -1,0 +1,49 @@
+{
+  "events": [
+    {
+      "id": "evt_boshis_dfb4fabb",
+      "name": "robot karaoke",
+      "type": "Creative",
+      "locationId": "loc_boshis",
+      "communityId": "com_boshis",
+      "description": "Join us for karaoke night on impossible mode as we replace the lyrics to any SONG with words from a specific TEXT, then try to sing the results on the spot. Our songwriting system, THE WEIRD ALGORITHM, matches each line syllable-for-syllable so you can sing along if you know the tune. It all happens live: each song has never been heard before and will never be heard again.",
+      "startDate": "2026-08-21T23:00:00+00:00",
+      "endDate": "2026-08-22T01:00:00+00:00",
+      "category": [
+        "Arts",
+        "Community",
+        "Games"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": "Free / donation"
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": [
+        "boshi",
+        "brooklyn"
+      ],
+      "image": "https://boshis.place/img/CtyCOB8XAd-200.png",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Boshi's Place",
+        "source_url": "https://boshis.place/events/26-08-21-robot-karaoke",
+        "organizer": {
+          "name": "Boshi's Place",
+          "website": "https://boshis.place",
+          "instagram": "@boshisplace",
+          "email": "hello@boshis.place"
+        },
+        "venue": {
+          "name": "Boshi's Place",
+          "address": "1002 Metropolitan Ave, Brooklyn, NY 11211",
+          "type": "Community Space"
+        },
+        "featured": false
+      }
+    }
+  ]
+}

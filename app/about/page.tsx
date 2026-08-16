@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import AboutClient from "./AboutClient";
+import { SITE_URL } from '@/lib/site';
 
 export const metadata: Metadata = {
   title: "About Joshua Spergel | NYC Events & Tech",
@@ -7,11 +8,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: "About Joshua Spergel | NYC Events & Tech",
     description: "Learn more about Joshua Spergel, the creator of NYC Events.",
-    url: "https://nycevents.vercel.app/about",
+    url: `${SITE_URL}/about`,
     type: "profile",
     images: [
       {
-        url: "https://nycevents.vercel.app/joshua_spergel_profile.jpg",
+        url: `${SITE_URL}/joshua_spergel_profile.jpg`,
         width: 800,
         height: 800,
         alt: "Joshua Spergel"
@@ -24,7 +25,7 @@ export const metadata: Metadata = {
     creator: "@nycdosomething",
     title: "About Joshua Spergel | NYC Events & Tech",
     description: "Creator of somethingtodo.nyc, web scraping enthusiast, living near NYC.",
-    images: ["https://nycevents.vercel.app/joshua_spergel_profile.jpg"]
+    images: [`${SITE_URL}/joshua_spergel_profile.jpg`]
   }
 };
 

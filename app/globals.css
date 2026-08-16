@@ -1581,18 +1581,6 @@ pre {
   position: relative;
 }
 
-.mainframe-nav::before {
-  content: '';
-  position: absolute;
-  left: -1rem;
-  top: 50%;
-  width: 2px;
-  height: 2px;
-  background: var(--nyc-orange);
-  box-shadow: 0 0 10px var(--nyc-orange);
-  animation: blink 1s infinite;
-}
-
 .mainframe-link {
   font-family: 'Eurostile', sans-serif;
   font-size: 0.8rem;

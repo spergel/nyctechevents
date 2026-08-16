@@ -4,7 +4,7 @@ from typing import Dict, List, Tuple
 import logging
 from tqdm import tqdm
 import requests
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 import argparse
 import sys
 from collections import defaultdict
@@ -327,10 +327,13 @@ def deduplicate_events(events: List[Dict]) -> List[Dict]:
     """
     logging.info("\n=== Starting Event Deduplication ===")
     
-    # Filter out events without a name or with a blank name
+    # Filter out events without a real title (empty or scraper placeholders)
     original_count = len(events)
-    # Be less aggressive - only filter out completely empty or None names
-    events = [event for event in events if event.get('name') and event.get('name').strip() and event.get('name').strip() != '']
+    placeholder_names = {'', 'unnamed event', 'untitled', 'untitled event'}
+    events = [
+        event for event in events
+        if (event.get('name') or '').strip().lower() not in placeholder_names
+    ]
     if original_count > len(events):
         logging.info(f"Filtered out {original_count - len(events)} events without a valid name")
     
@@ -365,7 +368,7 @@ def deduplicate_events(events: List[Dict]) -> List[Dict]:
         # Check for Luma URL in metadata
         if event.get('metadata') and 'source_url' in event['metadata']:
             source_url = event['metadata']['source_url']
-            if isinstance(source_url, str) and 'lu.ma' in source_url:
+            if isinstance(source_url, str) and ('lu.ma' in source_url or 'luma.com' in source_url):
                 luma_url = source_url
         
         # If we found a Luma URL, add to grouped events
@@ -703,14 +706,46 @@ def main(input_file, output_file):
             data = json.load(f)
         
         events = data.get('events', [])
+
+        # Drop calendar placeholders with no real title
+        placeholder_names = {'', 'unnamed event', 'untitled', 'untitled event'}
+        before = len(events)
+        events = [
+            event for event in events
+            if (event.get('name') or '').strip().lower() not in placeholder_names
+        ]
+        if before != len(events):
+            logging.info(f"Filtered out {before - len(events)} events without a valid name")
+            data['events'] = events
+
+        # Soft communities + venue matching for Luma/orphan hosts (not added to communities.json)
+        try:
+            from scraper.scrapers.host_enrichment import enrich_events
+            repo_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+            locations_path = os.path.join(repo_root, 'public', 'data', 'locations.json')
+            communities_path = os.path.join(repo_root, 'public', 'data', 'communities.json')
+            locations_list = json.load(open(locations_path)).get('locations', [])
+            locations = {loc['id']: loc for loc in locations_list}
+            formal_ids = {c['id'] for c in json.load(open(communities_path)).get('communities', [])}
+            events = enrich_events(events, locations, formal_ids)
+            data['events'] = events
+        except Exception as enrich_err:
+            logging.warning(f"Host/venue enrichment skipped: {enrich_err}")
         
         for event in events:
             # Assign a score-based category
             event['category'] = get_event_category(event)
+
+        data['events'] = events
+        data['last_updated'] = data.get('last_updated') or datetime.now(timezone.utc).isoformat()
         
         # Save categorized events
         with open(output_file, 'w', encoding='utf-8') as f:
             json.dump(data, f, indent=2, ensure_ascii=False)
+
+        last_update_path = os.path.join(os.path.dirname(output_file), 'last_update.json')
+        with open(last_update_path, 'w', encoding='utf-8') as f:
+            json.dump({'lastUpdateISO': data['last_updated']}, f)
         
         logging.info(f"Successfully categorized and saved {len(events)} events to {output_file}")
         

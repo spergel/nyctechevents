@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import HomeClient from './HomeClient';
+import { SITE_URL } from '@/lib/site';
 
 export const metadata: Metadata = {
   title: "NYC Events & Communities | New York City Tech Hub",
@@ -7,7 +8,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "NYC Events & Communities | New York City Tech Hub",
     description: "Your futuristic guide to New York City's tech scene. Discover events, communities, locations, and newsletters with our cyberpunk interface.",
-    url: "https://nycevents.vercel.app",
+    url: `${SITE_URL}`,
     type: "website",
   },
   alternates: {

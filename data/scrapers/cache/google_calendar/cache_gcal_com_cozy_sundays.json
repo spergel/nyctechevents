@@ -1,0 +1,149 @@
+{
+  "events": [
+    {
+      "id": "evt_gcal_com_cozy_sundays_a90a6493",
+      "name": "Cozy Sundays \u2014 Summer '26 Session VI",
+      "type": "co-working",
+      "locationId": "",
+      "communityId": "com_cozy_sundays",
+      "description": "Get up-to-date information at: https://luma.com/f3o7fht7\n\nAddress:\nCheck event page for more details.\n\nHosted by Alana Wu, Hugo Moulin & Andrew Xu",
+      "startDate": "2026-08-23T18:00:00Z",
+      "endDate": "2026-08-23T21:30:00Z",
+      "category": [
+        "co-working",
+        "passion projects",
+        "community",
+        "biweekly",
+        "creative"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": null,
+      "tags": [],
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://luma.com/f3o7fht7",
+        "original_event_id": "_clr78bbb89bk8or2ah342gjpedim6la0clr6arjkecn6ot9edlgg",
+        "organizer": {
+          "name": "Cozy Sundays",
+          "instagram": "",
+          "email": "nbqghatsg76q5hvuncn0eidonebg6pmj@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "https://luma.com/event/evt-kBWDcbTFABysecU",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": true,
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmJiODliazhvcjJhaDM0MmdqcGVkaW02bGEwY2xyNmFyamtlY242b3Q5ZWRsZ2cgbmJxZ2hhdHNnNzZxNWh2dW5jbjBlaWRvbmViZzZwbWpAaQ"
+      }
+    },
+    {
+      "id": "evt_gcal_com_cozy_sundays_8f936b7f",
+      "name": "Cozy Sundays \u2014 Summer '26 Session VII",
+      "type": "co-working",
+      "locationId": "",
+      "communityId": "com_cozy_sundays",
+      "description": "Get up-to-date information at: https://luma.com/sptjzqmb\n\nAddress:\nCheck event page for more details.\n\nHosted by Alana Wu",
+      "startDate": "2026-09-06T18:00:00Z",
+      "endDate": "2026-09-06T21:30:00Z",
+      "category": [
+        "co-working",
+        "passion projects",
+        "community",
+        "biweekly",
+        "creative"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": null,
+      "tags": [],
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://luma.com/sptjzqmb",
+        "original_event_id": "_clr78bbcahjmkij7c944gcbof5k7eci0clr6arjkecn6ot9edlgg",
+        "organizer": {
+          "name": "Cozy Sundays",
+          "instagram": "",
+          "email": "nbqghatsg76q5hvuncn0eidonebg6pmj@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "https://luma.com/event/evt-lTgjJgbHH1xyhw2",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": true,
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmJjYWhqbWtpajdjOTQ0Z2Nib2Y1azdlY2kwY2xyNmFyamtlY242b3Q5ZWRsZ2cgbmJxZ2hhdHNnNzZxNWh2dW5jbjBlaWRvbmViZzZwbWpAaQ"
+      }
+    },
+    {
+      "id": "evt_gcal_com_cozy_sundays_21ae50a7",
+      "name": "Cozy Sundays \u2014 Summer '26 Session VIII",
+      "type": "co-working",
+      "locationId": "",
+      "communityId": "com_cozy_sundays",
+      "description": "Get up-to-date information at: https://luma.com/mio3rz47\n\nAddress:\nCheck event page for more details.\n\nHosted by Alana Wu",
+      "startDate": "2026-09-20T18:00:00Z",
+      "endDate": "2026-09-20T21:30:00Z",
+      "category": [
+        "co-working",
+        "passion projects",
+        "community",
+        "biweekly",
+        "creative"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": null,
+      "tags": [],
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://luma.com/mio3rz47",
+        "original_event_id": "_clr78ba7ctjnkr1j9t9ksc22cln7ici0clr6arjkecn6ot9edlgg",
+        "organizer": {
+          "name": "Cozy Sundays",
+          "instagram": "",
+          "email": "nbqghatsg76q5hvuncn0eidonebg6pmj@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "https://luma.com/event/evt-Gggzl3OSN0Beny2",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": true,
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmE3Y3RqbmtyMWo5dDlrc2MyMmNsbjdpY2kwY2xyNmFyamtlY242b3Q5ZWRsZ2cgbmJxZ2hhdHNnNzZxNWh2dW5jbjBlaWRvbmViZzZwbWpAaQ"
+      }
+    }
+  ],
+  "timestamp": "2026-08-16T15:29:54.720426"
+}

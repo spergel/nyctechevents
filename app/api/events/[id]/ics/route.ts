@@ -1,5 +1,6 @@
 import { NextResponse } from 'next/server';
 import events from '@/public/data/events.json';
+import { SITE_URL } from '@/lib/site';
 
 function escapeText(text: string): string {
   return text
@@ -30,7 +31,7 @@ export async function GET(
 
     const description = event.description ? escapeText(event.description) : '';
     const location = event.metadata?.venue?.name ? escapeText(event.metadata.venue.name) : '';
-    const url = `https://nycevents.vercel.app/events/${event.id}`;
+    const url = `${SITE_URL}/events/${event.id}`;
 
     const icsContent = `BEGIN:VCALENDAR
 VERSION:2.0
@@ -38,7 +39,7 @@ PRODID:-//NYC Events//Tech & Innovation Events//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
-UID:${event.id}@nycevents.vercel.app
+UID:${event.id}@${new URL(SITE_URL).hostname}
 DTSTAMP:${formatDate(new Date())}
 DTSTART:${formatDate(startDate)}
 DTEND:${formatDate(endDate)}

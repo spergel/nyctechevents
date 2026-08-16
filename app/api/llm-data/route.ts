@@ -2,6 +2,7 @@ import { NextResponse, NextRequest } from 'next/server';
 import events from '@/public/data/events.json';
 import communities from '@/public/data/communities.json';
 import locations from '@/public/data/locations.json';
+import { SITE_URL } from '@/lib/site';
 
 export async function GET(request: NextRequest) {
   try {
@@ -59,7 +60,7 @@ export async function GET(request: NextRequest) {
         title: "NYC Events & Communities - Tech Innovation Hub",
         description: "Comprehensive data about New York City's tech events, communities, and innovation spaces",
         lastUpdated: new Date().toISOString(),
-        website: "https://nycevents.vercel.app",
+        website: `${SITE_URL}`,
         contact: "Your cyberpunk guide to NYC's tech scene",
         totalEvents: enrichedEvents.length,
         totalCommunities: communities?.communities?.length || 0,

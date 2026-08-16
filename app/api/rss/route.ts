@@ -2,6 +2,7 @@ import { NextResponse, NextRequest } from 'next/server';
 import events from '@/public/data/events.json';
 import communities from '@/public/data/communities.json';
 import locations from '@/public/data/locations.json';
+import { SITE_URL } from '@/lib/site';
 
 function escapeXml(unsafe: string): string {
   if (!unsafe) return '';
@@ -74,18 +75,18 @@ export async function GET(request: NextRequest) {
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <title>NYC Events - Tech &amp; Innovation Hub</title>
-    <link>https://nycevents.vercel.app</link>
+    <link>${SITE_URL}</link>
     <description>Discover the latest tech events, meetups, and innovation gatherings in New York City. Your cyberpunk guide to NYC's tech scene.</description>
     <language>en-us</language>
     <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>
-    <atom:link href="https://nycevents.vercel.app/api/rss" rel="self" type="application/rss+xml" />
+    <atom:link href="${SITE_URL}/api/rss" rel="self" type="application/rss+xml" />
     <category>Technology</category>
     <category>Events</category>
     <category>New York City</category>
     <category>Innovation</category>
     <category>Startups</category>
-    <webMaster>contact@nycevents.vercel.app</webMaster>
-    <managingEditor>contact@nycevents.vercel.app</managingEditor>
+    <webMaster>contact@${new URL(SITE_URL).hostname}</webMaster>
+    <managingEditor>contact@${new URL(SITE_URL).hostname}</managingEditor>
     <generator>NYC Events Platform</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>60</ttl>
@@ -96,9 +97,9 @@ export async function GET(request: NextRequest) {
       
       return `
     <item>
-      <guid isPermaLink="true">https://nycevents.vercel.app/events/${event.id}</guid>
+      <guid isPermaLink="true">${SITE_URL}/events/${event.id}</guid>
       <title>${escapeXml(event.name)}</title>
-      <link>https://nycevents.vercel.app/events/${event.id}</link>
+      <link>${SITE_URL}/events/${event.id}</link>
       <description><![CDATA[${richDescription}]]></description>
       <content:encoded><![CDATA[
         <h2>${escapeXml(event.name)}</h2>
@@ -114,7 +115,7 @@ export async function GET(request: NextRequest) {
         ${location ? `<p><strong>Location:</strong> ${escapeXml(location.name)}, ${escapeXml(location.address)}</p>` : ''}
         ${event.price ? `<p><strong>Price:</strong> ${event.price.type === 'Free' ? 'Free' : `$${event.price.amount}`}</p>` : ''}
         <p>${escapeXml(event.description || 'Event details coming soon.')}</p>
-        <p><a href="https://nycevents.vercel.app/events/${event.id}">View Event Details</a></p>
+        <p><a href="${SITE_URL}/events/${event.id}">View Event Details</a></p>
       ]]></content:encoded>
       <pubDate>${new Date(event.startDate).toUTCString()}</pubDate>
       <category>${escapeXml(event.type || 'Event')}</category>

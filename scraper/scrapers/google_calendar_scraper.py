@@ -140,24 +140,111 @@ def get_location_id(event_location: str, community_id: str) -> str:
     
     return ""
 
+def _unwrap_google_redirect(url: str) -> str:
+    """Expand Google Calendar redirect wrappers to the underlying destination."""
+    if not url:
+        return url
+    try:
+        from urllib.parse import urlparse, parse_qs, unquote
+        parsed = urlparse(url)
+        if parsed.netloc.endswith('google.com') and parsed.path.startswith('/url'):
+            qs = parse_qs(parsed.query)
+            target = qs.get('q') or qs.get('url')
+            if target and target[0]:
+                return unquote(target[0])
+    except Exception:
+        pass
+    return url
+
+
+def _normalize_event_url(url: str) -> Optional[str]:
+    """Clean and normalize a candidate event URL."""
+    if not url:
+        return None
+    url = _unwrap_google_redirect(url.strip().rstrip(').,;>"\''))
+    # Prefer public Luma pages over host-only manage links when both appear.
+    if re.search(r'https?://(?:www\.)?luma\.com/event/manage/', url, re.I):
+        return None
+    # Normalize legacy lu.ma host to luma.com for consistency.
+    url = re.sub(r'https?://lu\.ma/', 'https://luma.com/', url, count=1, flags=re.I)
+    return url
+
+
 def extract_event_url(text: str) -> Optional[str]:
-    """Extract Luma or Eventbrite event URL from text if present"""
+    """Extract a specific Luma or Eventbrite event URL from text if present."""
     if not text:
         return None
-        
-    # Look for common patterns in Google Calendar description
-    # This regex is now more specific to avoid capturing trailing characters like ">" or "</a>"
-    patterns = [
-        r'(?:Get up-to-date information at:|More info:|RSVP:|Register:)\s*(https?://(?:lu\.ma|www\.eventbrite\.com)/[\w-]+)',
-        r'(https?://(?:lu\.ma|www\.eventbrite\.com)/[\w-]+)'
+
+    # Google Calendar descriptions are often HTML-escaped (&amp;, etc.)
+    try:
+        import html as _html
+        text = _html.unescape(text)
+    except Exception:
+        pass
+
+    # Prefer labeled links first (common in Google Calendar / Luma sync descriptions).
+    labeled_patterns = [
+        r'(?:Get up-to-date information at:|More info:|RSVP:|Register:|View the public page at:)\s*<?(https?://[^\s<>"\']+)>?',
     ]
-    
-    for pattern in patterns:
-        match = re.search(pattern, text)
+    for pattern in labeled_patterns:
+        match = re.search(pattern, text, re.I)
         if match:
-            return match.group(1).strip()
-            
-    return None
+            normalized = _normalize_event_url(match.group(1))
+            if normalized and _is_specific_event_url(normalized):
+                return normalized
+
+    # Collect all candidate absolute URLs, unwrap Google redirects, then pick the best.
+    candidates = re.findall(r'https?://[^\s<>"\']+', text)
+    specific_urls = []
+    for raw in candidates:
+        normalized = _normalize_event_url(raw)
+        if normalized and _is_specific_event_url(normalized):
+            specific_urls.append(normalized)
+
+    if not specific_urls:
+        return None
+
+    # Prefer luma.com / lu.ma event pages, then Eventbrite ticket pages.
+    def score(url: str) -> int:
+        host_path = url.lower()
+        if 'luma.com/' in host_path or 'lu.ma/' in host_path:
+            return 3
+        if 'eventbrite.com/e/' in host_path:
+            return 2
+        if 'eventbrite.com/' in host_path:
+            return 1
+        return 0
+
+    specific_urls.sort(key=score, reverse=True)
+    return specific_urls[0]
+
+
+def _is_specific_event_url(url: str) -> bool:
+    """True when URL points at a single event page, not a calendar/org homepage."""
+    try:
+        from urllib.parse import urlparse
+        parsed = urlparse(url)
+        host = (parsed.netloc or '').lower().removeprefix('www.')
+        path = (parsed.path or '').rstrip('/')
+        segments = [s for s in path.split('/') if s]
+
+        if host in ('luma.com', 'lu.ma'):
+            # Accept /abc123 or /some-slug, reject bare calendar hubs with no slug.
+            if not segments:
+                return False
+            if segments[0] == 'event' and len(segments) >= 2 and segments[1] != 'manage':
+                return True
+            if segments[0] == 'event' and len(segments) >= 2 and segments[1] == 'manage':
+                return False
+            return True
+
+        if host.endswith('eventbrite.com'):
+            # Real ticket pages look like /e/<slug>-tickets-<id>
+            return bool(segments) and segments[0] == 'e' and len(segments) >= 2
+
+        return False
+    except Exception:
+        return False
 
 def format_google_event(event: Dict, community_id: str) -> Dict:
     """Format a Google Calendar event into our standard event format."""
@@ -181,7 +268,7 @@ def format_google_event(event: Dict, community_id: str) -> Dict:
     luma_details = None
     
     # If we found a Luma URL, fetch additional details
-    if event_url and 'lu.ma' in event_url:
+    if event_url and ('lu.ma' in event_url or 'luma.com' in event_url):
         logging.info(f"Found Luma URL in Google Calendar event: {event_url}")
         luma_details = get_luma_event_details(event_url)
     
@@ -320,11 +407,9 @@ def format_google_event(event: Dict, community_id: str) -> Dict:
         if luma_details['title'] != event_title:
             event_title = luma_details['title']
     
-    # Determine the source URL
-    source_url_to_use = event.get('htmlLink', '') # Default to Google Calendar event link
-    if event_url: # If a Luma/Eventbrite URL was extracted
-        source_url_to_use = event_url
-    else: # No Luma/Eventbrite URL, try community website
+    # Prefer specific event page > Google Calendar event link > community homepage
+    source_url_to_use = event_url or event.get('htmlLink', '') or ''
+    if not source_url_to_use:
         community_website = COMMUNITIES.get(community_id, {}).get('website')
         if community_website:
             source_url_to_use = community_website
@@ -350,7 +435,12 @@ def format_google_event(event: Dict, community_id: str) -> Dict:
             "source_url": source_url_to_use,
             "original_event_id": event['id'], # Store original Google Calendar event ID
             "organizer": {
-                "name": event.get('organizer', {}).get('displayName', COMMUNITIES.get(community_id, {}).get('name', '')),
+                "name": (
+                    (luma_details or {}).get('primary_host', {}).get('name')
+                    or event.get('organizer', {}).get('displayName')
+                    or COMMUNITIES.get(community_id, {}).get('name', '')
+                ),
+                "website": (luma_details or {}).get('primary_host', {}).get('url', ''),
                 "instagram": COMMUNITIES.get(community_id, {}).get('socialMedia', {}).get('instagram', ''),
                 "email": event.get('organizer', {}).get('email', '')
             },
@@ -362,7 +452,8 @@ def format_google_event(event: Dict, community_id: str) -> Dict:
             "speakers": speakers,
             "social_links": social_links,
             "featured": False, # Default featured status
-            "luma_source": True if event_url and 'lu.ma' in event_url else False,
+            "luma_source": bool(event_url and ('lu.ma' in event_url or 'luma.com' in event_url)),
+            "luma_host": (luma_details or {}).get('primary_host') or None,
             "google_calendar_link": event.get('htmlLink', '') # Explicitly store Google Calendar link
         }
     }
@@ -398,10 +489,14 @@ def fetch_google_calendar_events(calendar_id: str, community_id: str) -> List[Di
         # Process each event
         for event_data in raw_events:
             try:
-                # Skip events without a summary (title) as they are often problematic
-                # if not event_data.get('summary'):
-                #     logging.warning(f"Skipping event without summary (title) in calendar {calendar_id}. Event ID: {event_data.get('id')}")
-                #     continue
+                # Skip untitled calendar placeholders (common on NYC Resistor)
+                summary = (event_data.get('summary') or '').strip()
+                if not summary:
+                    logging.info(
+                        f"Skipping event without summary in calendar {calendar_id}. "
+                        f"Event ID: {event_data.get('id')}"
+                    )
+                    continue
                 formatted_event = format_google_event(event_data, community_id)
                 events.append(formatted_event)
             except Exception as e:

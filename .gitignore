@@ -44,8 +44,8 @@ scraper/tech/data/*.json
 !scraper/data/example.json
 !scraper/tech/data/example.json
 
-# Generated events data (updated daily by scraper)
-public/data/events.json
+# Generated events data (updated daily by scraper; committed for Cloudflare builds)
+# public/data/events.json
 
 # Environment
 .env
@@ -57,3 +57,10 @@ ENV/
 # IDE
 .vscode/
 .idea/ 
+# OpenNext
+.open-next
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example

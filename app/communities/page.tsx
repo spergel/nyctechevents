@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import CommunitiesClient from "./CommunitiesClient";
+import { SITE_URL } from '@/lib/site';
 
 export const metadata: Metadata = {
   title: "NYC Tech Communities | Connect with Technology Groups in New York",
@@ -7,11 +8,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: "NYC Tech Communities | Connect with Technology Groups in New York",
     description: "Explore technology communities, developer groups, and tech organizations in New York City. Find your tech tribe and connect with like-minded individuals.",
-    url: "https://nycevents.vercel.app/communities",
+    url: `${SITE_URL}/communities`,
     type: "website",
     images: [
       {
-        url: "https://nycevents.vercel.app/og-communities.jpg",
+        url: `${SITE_URL}/og-communities.jpg`,
         width: 1200,
         height: 630,
         alt: "NYC Tech Communities"
@@ -22,7 +23,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@nycdosomething",
     creator: "@nycdosomething",
-    images: ["https://nycevents.vercel.app/og-communities.jpg"]
+    images: [`${SITE_URL}/og-communities.jpg`]
   }
 };
 

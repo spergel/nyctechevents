@@ -1,10 +1,11 @@
+import { SITE_URL } from '@/lib/site';
 import { MetadataRoute } from 'next'
 import events from '@/public/data/events.json'
 import communities from '@/public/data/communities.json'
 import locations from '@/public/data/locations.json'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://nycevents.vercel.app'
+  const baseUrl = `${SITE_URL}`
   
   // Main pages
   const mainPages = [

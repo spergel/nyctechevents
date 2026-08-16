@@ -1,14 +1,155 @@
 {
   "events": [
     {
-      "id": "evt_gcal_com_effective_altruism_nyc_a9407f43",
+      "id": "evt_gcal_com_effective_altruism_nyc_116a3d5b",
+      "name": "Global Health and Development Subgroup Meetup",
+      "type": "effective altruism",
+      "locationId": "",
+      "communityId": "com_effective_altruism_nyc",
+      "description": "You are hosting this event. View the public page at <a href=\"https://www.google.com/url?q=https://luma.com/m2bztmdj&amp;sa=D&amp;source=calendar&amp;ust=1786204179764918&amp;usg=AOvVaw1FCpqcM2CN4EM7VqOEDelt\" target=\"_blank\">https://luma.com/m2bztmdj</a>\n\nManage the event at <a href=\"https://www.google.com/url?q=https://luma.com/event/manage/evt-C1NrrbxHWmuQkgQ&amp;sa=D&amp;source=calendar&amp;ust=1786204179764918&amp;usg=AOvVaw2lG53o5SdpeUFLJrrYrzB2\" target=\"_blank\">https://luma.com/event/manage/evt-C1NrrbxHWmuQkgQ</a>\n\nAddress:\n26 Broadway\nWe will meet in the conference room 385 at Collider on the third floor.\nNew York, NY\nUnited States\n\nJoin our Global Development subgroup for a focused discussion on high-impact opportunities in global health and development. Great for practitioners, funders, and those exploring this cause area.\n\nHosted by Jonathan Calenzani",
+      "startDate": "2026-08-18T18:00:00-04:00",
+      "endDate": "2026-08-18T20:00:00-04:00",
+      "category": [
+        "effective altruism",
+        "impact",
+        "philosophy",
+        "community"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": null,
+      "tags": [],
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://luma.com/m2bztmdj",
+        "original_event_id": "3p6igtrt1j0su4mbf0f1a4tpud",
+        "organizer": {
+          "name": "Effective Altruism NYC Events",
+          "instagram": "",
+          "email": "hbvetqf5h1pd0of0vn6uvphqts@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "26 Broadway, New York, NY 10004, USA",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": true,
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=M3A2aWd0cnQxajBzdTRtYmYwZjFhNHRwdWQgaGJ2ZXRxZjVoMXBkMG9mMHZuNnV2cGhxdHNAZw"
+      }
+    },
+    {
+      "id": "evt_gcal_com_effective_altruism_nyc_a082a41c",
+      "name": "AI Safety workshop",
+      "type": "effective altruism",
+      "locationId": "",
+      "communityId": "com_effective_altruism_nyc",
+      "description": "You are hosting this event. View the public page at <a href=\"https://www.google.com/url?q=https://luma.com/i9ak92r5&amp;sa=D&amp;source=calendar&amp;ust=1786204179764918&amp;usg=AOvVaw198TnzbY5ihREmiG6js-y4\" target=\"_blank\">https://luma.com/i9ak92r5</a>\n\nManage the event at <a href=\"https://www.google.com/url?q=https://luma.com/event/manage/evt-nsH79d9HIYDiXxu&amp;sa=D&amp;source=calendar&amp;ust=1786204179764918&amp;usg=AOvVaw0qiVPIOVMnb_mzvWxZ8rK0\" target=\"_blank\">https://luma.com/event/manage/evt-nsH79d9HIYDiXxu</a>\n\nAddress:\n26 Broadway\n3rd Floor, Primary Coworking\nNew York, NY\nUnited States\n\nNote we&#39;re other 3rd floor in the Primary co working space\nThis session we&#39;re digging into whether today&#39;s AI models are already quietly misaligned. \n\nThe format of the event is more of a reading group discussion than an interactive workshop. Please read the recommended reading to get the most out of it.\n\nOur main read is Ryan Greenblatt&#39;s &quot;Current AIs seem pretty misaligned to me,&quot; an AI safety researcher&#39;s first-hand case that frontier models routinely oversell their work, bury problems, quit early while claiming success, and cheat on tasks without admitting it. We&#39;ll pair it with OpenAI&#39;s\u2026\n\nHosted by Jonathan Calenzani",
+      "startDate": "2026-08-19T18:00:00-04:00",
+      "endDate": "2026-08-19T20:00:00-04:00",
+      "category": [
+        "effective altruism",
+        "impact",
+        "philosophy",
+        "community"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": null,
+      "tags": [],
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://luma.com/i9ak92r5",
+        "original_event_id": "7v1jh2c7c3apugrkrf54d7qma1",
+        "organizer": {
+          "name": "Effective Altruism NYC Events",
+          "instagram": "",
+          "email": "hbvetqf5h1pd0of0vn6uvphqts@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "26 Broadway, New York, NY 10004, USA",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": true,
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=N3YxamgyYzdjM2FwdWdya3JmNTRkN3FtYTEgaGJ2ZXRxZjVoMXBkMG9mMHZuNnV2cGhxdHNAZw"
+      }
+    },
+    {
+      "id": "evt_gcal_com_effective_altruism_nyc_db090157",
+      "name": "EA NYC Vegan Dim Sum",
+      "type": "effective altruism",
+      "locationId": "",
+      "communityId": "com_effective_altruism_nyc",
+      "description": "You are hosting this event. View the public page at <a href=\"https://www.google.com/url?q=https://luma.com/p0zwptl4&amp;sa=D&amp;source=calendar&amp;ust=1786204179764918&amp;usg=AOvVaw24oBcxG2hjudG1ZLWDtzdp\" target=\"_blank\">https://luma.com/p0zwptl4</a>\n\nManage the event at <a href=\"https://www.google.com/url?q=https://luma.com/event/manage/evt-RAI4rqWO7Tp9fe6&amp;sa=D&amp;source=calendar&amp;ust=1786204179764918&amp;usg=AOvVaw2jpyb6iOYH_8M7HS8qnv1M\" target=\"_blank\">https://luma.com/event/manage/evt-RAI4rqWO7Tp9fe6</a>\n\nAddress:\nBodhi Kosher Vegetarian Restaurant\nNew York, New York\nUnited States\n\nPlease join EA NYC for our monthly vegan dim sum.\n- All are welcome! - Cost per meal: variable, likely $25-$30 - If you\u2019d like to attend but have any concerns, please get in touch with Megan\nJoin for an EA NYC community favorite: tasty and affordable vegan dim sum!\n\nHosted by Jonathan Calenzani",
+      "startDate": "2026-08-29T13:00:00-04:00",
+      "endDate": "2026-08-29T15:00:00-04:00",
+      "category": [
+        "effective altruism",
+        "impact",
+        "philosophy",
+        "community"
+      ],
+      "price": {
+        "amount": 25.0,
+        "type": "Paid",
+        "currency": "USD",
+        "details": "See event description for pricing details"
+      },
+      "capacity": null,
+      "registrationRequired": null,
+      "tags": [],
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://luma.com/p0zwptl4",
+        "original_event_id": "2a3p1ajjh0gnqr7j7lfcd3bof3",
+        "organizer": {
+          "name": "Effective Altruism NYC Events",
+          "instagram": "",
+          "email": "hbvetqf5h1pd0of0vn6uvphqts@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "Bodhi Kosher Vegetarian Restaurant, 77 Mulberry St, New York, NY 10013, USA",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": true,
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=MmEzcDFhampoMGducXI3ajdsZmNkM2JvZjMgaGJ2ZXRxZjVoMXBkMG9mMHZuNnV2cGhxdHNAZw"
+      }
+    },
+    {
+      "id": "evt_gcal_com_effective_altruism_nyc_bb16e6b3",
       "name": "Petrov Day",
       "type": "effective altruism",
       "locationId": "",
       "communityId": "com_effective_altruism_nyc",
       "description": "&quot;Wherever you are, whatever you&#39;re doing, take a minute to not destroy the world.&quot;\n\n<a href=\"https://www.google.com/url?q=https://www.lesswrong.com/posts/QtyKq4BDyuJ3tysoK/9-26-is-petrov-day&amp;sa=D&amp;source=calendar&amp;ust=1671557418452493&amp;usg=AOvVaw3dKWb-p144ID-3PJae80MU\" target=\"_blank\">https://www.lesswrong.com/posts/QtyKq4BDyuJ3tysoK/9-26-is-petrov-day</a>\n<a href=\"https://www.google.com/url?q=https://en.wikipedia.org/wiki/The_Man_Who_Saved_the_World&amp;sa=D&amp;source=calendar&amp;ust=1671557418452493&amp;usg=AOvVaw1sYplyrxkbQR0HvfA6nJf1\" target=\"_blank\">https://en.wikipedia.org/wiki/The_Man_Who_Saved_the_World</a>\n\nWays to celebrate:\n\n* Screening of the film &quot;The Man Who Saved The World&quot;? (It&#39;s pretty good!)\n* X-risk discussion meetup?\n* Call your representatives to express your views on any upcoming nuclear risk-related bills?",
-      "startDate": "2025-09-26",
-      "endDate": "2025-09-27",
+      "startDate": "2026-09-26",
+      "endDate": "2026-09-27",
       "category": [
         "effective altruism",
         "impact",
@@ -28,8 +169,8 @@
       "status": "upcoming",
       "metadata": {
         "source": "Google Calendar",
-        "source_url": "https://www.effectivealtruism.nyc",
-        "original_event_id": "2b0kor50u84bptje6q56kjbq0n_20250926",
+        "source_url": "https://www.google.com/calendar/event?eid=MmIwa29yNTB1ODRicHRqZTZxNTZramJxMG5fMjAyNjA5MjYgaGJ2ZXRxZjVoMXBkMG9mMHZuNnV2cGhxdHNAZw",
+        "original_event_id": "2b0kor50u84bptje6q56kjbq0n_20260926",
         "organizer": {
           "name": "Effective Altruism NYC Events",
           "instagram": "",
@@ -44,18 +185,18 @@
         "social_links": [],
         "featured": false,
         "luma_source": false,
-        "google_calendar_link": "https://www.google.com/calendar/event?eid=MmIwa29yNTB1ODRicHRqZTZxNTZramJxMG5fMjAyNTA5MjYgaGJ2ZXRxZjVoMXBkMG9mMHZuNnV2cGhxdHNAZw"
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=MmIwa29yNTB1ODRicHRqZTZxNTZramJxMG5fMjAyNjA5MjYgaGJ2ZXRxZjVoMXBkMG9mMHZuNnV2cGhxdHNAZw"
       }
     },
     {
-      "id": "evt_gcal_com_effective_altruism_nyc_a71df532",
+      "id": "evt_gcal_com_effective_altruism_nyc_bbc0baf2",
       "name": "World Longevity Day",
       "type": "effective altruism",
       "locationId": "",
       "communityId": "com_effective_altruism_nyc",
       "description": "These nice people keep track of Longevity Day celebrations around the world:<br><br><a href=\"http://www.longevityhistory.com/longevity-day-and-longevity-month/\">http://www.longevityhistory.com/longevity-day-and-longevity-month/</a><br><br>...but while people are living longer every year, there haven't been more Longevity Day celebrations every year. If that seems \"off\" to you, why not host one yourself? And then tell the folks at LongevityHistory.com!<br><br>The website has records of past events, which may offer ideas for how to celebrate. If you have any cool ideas of your own, let us know: alexrk@effectivealtruism.nyc",
-      "startDate": "2025-10-01",
-      "endDate": "2025-10-02",
+      "startDate": "2026-10-01",
+      "endDate": "2026-10-02",
       "category": [
         "effective altruism",
         "impact",
@@ -75,8 +216,8 @@
       "status": "upcoming",
       "metadata": {
         "source": "Google Calendar",
-        "source_url": "https://www.effectivealtruism.nyc",
-        "original_event_id": "31qc56hm9ejcff16mru5blj69c_20251001",
+        "source_url": "https://www.google.com/calendar/event?eid=MzFxYzU2aG05ZWpjZmYxNm1ydTVibGo2OWNfMjAyNjEwMDEgaGJ2ZXRxZjVoMXBkMG9mMHZuNnV2cGhxdHNAZw",
+        "original_event_id": "31qc56hm9ejcff16mru5blj69c_20261001",
         "organizer": {
           "name": "Effective Altruism NYC Events",
           "instagram": "",
@@ -91,18 +232,18 @@
         "social_links": [],
         "featured": false,
         "luma_source": false,
-        "google_calendar_link": "https://www.google.com/calendar/event?eid=MzFxYzU2aG05ZWpjZmYxNm1ydTVibGo2OWNfMjAyNTEwMDEgaGJ2ZXRxZjVoMXBkMG9mMHZuNnV2cGhxdHNAZw"
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=MzFxYzU2aG05ZWpjZmYxNm1ydTVibGo2OWNfMjAyNjEwMDEgaGJ2ZXRxZjVoMXBkMG9mMHZuNnV2cGhxdHNAZw"
       }
     },
     {
-      "id": "evt_gcal_com_effective_altruism_nyc_82408ec0",
+      "id": "evt_gcal_com_effective_altruism_nyc_0d61cd0e",
       "name": "World Vegetarian Day",
       "type": "effective altruism",
       "locationId": "",
       "communityId": "com_effective_altruism_nyc",
       "description": "&quot;To promote the joy, compassion and life-enhancing possibilities of vegetarianism.&quot;<br><br><br><a href=\"https://www.google.com/url?q=https://en.wikipedia.org/wiki/World_Vegetarian_Day&amp;sa=D&amp;source=calendar&amp;ust=1671557444525285&amp;usg=AOvVaw1hZuhRxjjdUUvObB5dF0CH\" target=\"_blank\">https://en.wikipedia.org/wiki/World_Vegetarian_Day</a><br><br><br>Also the beginning of Vegetarian Awareness Month -- though it&#39;s never a bad time to be aware of the vegetarians around you!",
-      "startDate": "2025-10-01",
-      "endDate": "2025-10-02",
+      "startDate": "2026-10-01",
+      "endDate": "2026-10-02",
       "category": [
         "effective altruism",
         "impact",
@@ -122,8 +263,8 @@
       "status": "upcoming",
       "metadata": {
         "source": "Google Calendar",
-        "source_url": "https://www.effectivealtruism.nyc",
-        "original_event_id": "4d47au4rjg95qajfcggott1pfd_20251001",
+        "source_url": "https://www.google.com/calendar/event?eid=NGQ0N2F1NHJqZzk1cWFqZmNnZ290dDFwZmRfMjAyNjEwMDEgaGJ2ZXRxZjVoMXBkMG9mMHZuNnV2cGhxdHNAZw",
+        "original_event_id": "4d47au4rjg95qajfcggott1pfd_20261001",
         "organizer": {
           "name": "Effective Altruism NYC Events",
           "instagram": "",
@@ -138,18 +279,18 @@
         "social_links": [],
         "featured": false,
         "luma_source": false,
-        "google_calendar_link": "https://www.google.com/calendar/event?eid=NGQ0N2F1NHJqZzk1cWFqZmNnZ290dDFwZmRfMjAyNTEwMDEgaGJ2ZXRxZjVoMXBkMG9mMHZuNnV2cGhxdHNAZw"
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=NGQ0N2F1NHJqZzk1cWFqZmNnZ290dDFwZmRfMjAyNjEwMDEgaGJ2ZXRxZjVoMXBkMG9mMHZuNnV2cGhxdHNAZw"
       }
     },
     {
-      "id": "evt_gcal_com_effective_altruism_nyc_439670fb",
+      "id": "evt_gcal_com_effective_altruism_nyc_69fe6a46",
       "name": "World Mental Health Day",
       "type": "effective altruism",
       "locationId": "",
       "communityId": "com_effective_altruism_nyc",
       "description": "",
-      "startDate": "2025-10-10",
-      "endDate": "2025-10-11",
+      "startDate": "2026-10-10",
+      "endDate": "2026-10-11",
       "category": [
         "effective altruism",
         "impact",
@@ -169,8 +310,8 @@
       "status": "upcoming",
       "metadata": {
         "source": "Google Calendar",
-        "source_url": "https://www.effectivealtruism.nyc",
-        "original_event_id": "2taqe6e9cuove2hk039u08d7pf_20251010",
+        "source_url": "https://www.google.com/calendar/event?eid=MnRhcWU2ZTljdW92ZTJoazAzOXUwOGQ3cGZfMjAyNjEwMTAgaGJ2ZXRxZjVoMXBkMG9mMHZuNnV2cGhxdHNAZw",
+        "original_event_id": "2taqe6e9cuove2hk039u08d7pf_20261010",
         "organizer": {
           "name": "Effective Altruism NYC Events",
           "instagram": "",
@@ -185,18 +326,18 @@
         "social_links": [],
         "featured": false,
         "luma_source": false,
-        "google_calendar_link": "https://www.google.com/calendar/event?eid=MnRhcWU2ZTljdW92ZTJoazAzOXUwOGQ3cGZfMjAyNTEwMTAgaGJ2ZXRxZjVoMXBkMG9mMHZuNnV2cGhxdHNAZw"
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=MnRhcWU2ZTljdW92ZTJoazAzOXUwOGQ3cGZfMjAyNjEwMTAgaGJ2ZXRxZjVoMXBkMG9mMHZuNnV2cGhxdHNAZw"
       }
     },
     {
-      "id": "evt_gcal_com_effective_altruism_nyc_7a01292d",
+      "id": "evt_gcal_com_effective_altruism_nyc_031b8164",
       "name": "World Vegan Day",
       "type": "effective altruism",
       "locationId": "",
       "communityId": "com_effective_altruism_nyc",
       "description": "The perfect day to eat all of your Halloween candy! (No milk chocolate, though.)<br><br><a href=\"https://www.google.com/url?q=https://en.wikipedia.org/wiki/World_Vegan_Day&amp;sa=D&amp;source=calendar&amp;ust=1671557497614102&amp;usg=AOvVaw3XZj_WUToiLysODuqYIB22\" target=\"_blank\">https://en.wikipedia.org/wiki/World_Vegan_Day</a>",
-      "startDate": "2025-11-01",
-      "endDate": "2025-11-02",
+      "startDate": "2026-11-01",
+      "endDate": "2026-11-02",
       "category": [
         "effective altruism",
         "impact",
@@ -216,8 +357,8 @@
       "status": "upcoming",
       "metadata": {
         "source": "Google Calendar",
-        "source_url": "https://www.effectivealtruism.nyc",
-        "original_event_id": "3bpn97d3p5eqc6n37fukrbmsv0_20251101",
+        "source_url": "https://www.google.com/calendar/event?eid=M2Jwbjk3ZDNwNWVxYzZuMzdmdWtyYm1zdjBfMjAyNjExMDEgaGJ2ZXRxZjVoMXBkMG9mMHZuNnV2cGhxdHNAZw",
+        "original_event_id": "3bpn97d3p5eqc6n37fukrbmsv0_20261101",
         "organizer": {
           "name": "Effective Altruism NYC Events",
           "instagram": "",
@@ -232,18 +373,18 @@
         "social_links": [],
         "featured": false,
         "luma_source": false,
-        "google_calendar_link": "https://www.google.com/calendar/event?eid=M2Jwbjk3ZDNwNWVxYzZuMzdmdWtyYm1zdjBfMjAyNTExMDEgaGJ2ZXRxZjVoMXBkMG9mMHZuNnV2cGhxdHNAZw"
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=M2Jwbjk3ZDNwNWVxYzZuMzdmdWtyYm1zdjBfMjAyNjExMDEgaGJ2ZXRxZjVoMXBkMG9mMHZuNnV2cGhxdHNAZw"
       }
     },
     {
-      "id": "evt_gcal_com_effective_altruism_nyc_b979fb9a",
+      "id": "evt_gcal_com_effective_altruism_nyc_25b51972",
       "name": "Happy birthday, Giving What We Can!",
       "type": "effective altruism",
       "locationId": "",
       "communityId": "com_effective_altruism_nyc",
       "description": "Giving What We Can was officially founded on November 14th, 2009. Every anniversary represents a few hundred more people (and in the future, perhaps even larger numbers) who have committed a substantial fraction of their income to helping others effectively. Huzzah!",
-      "startDate": "2025-11-14",
-      "endDate": "2025-11-15",
+      "startDate": "2026-11-14",
+      "endDate": "2026-11-15",
       "category": [
         "effective altruism",
         "impact",
@@ -263,8 +404,8 @@
       "status": "upcoming",
       "metadata": {
         "source": "Google Calendar",
-        "source_url": "https://www.effectivealtruism.nyc",
-        "original_event_id": "6m2res65ktr6dff77e6olpanc5_20251114",
+        "source_url": "https://www.google.com/calendar/event?eid=Nm0ycmVzNjVrdHI2ZGZmNzdlNm9scGFuYzVfMjAyNjExMTQgaGJ2ZXRxZjVoMXBkMG9mMHZuNnV2cGhxdHNAZw",
+        "original_event_id": "6m2res65ktr6dff77e6olpanc5_20261114",
         "organizer": {
           "name": "Effective Altruism NYC Events",
           "instagram": "",
@@ -279,18 +420,18 @@
         "social_links": [],
         "featured": false,
         "luma_source": false,
-        "google_calendar_link": "https://www.google.com/calendar/event?eid=Nm0ycmVzNjVrdHI2ZGZmNzdlNm9scGFuYzVfMjAyNTExMTQgaGJ2ZXRxZjVoMXBkMG9mMHZuNnV2cGhxdHNAZw"
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=Nm0ycmVzNjVrdHI2ZGZmNzdlNm9scGFuYzVfMjAyNjExMTQgaGJ2ZXRxZjVoMXBkMG9mMHZuNnV2cGhxdHNAZw"
       }
     },
     {
-      "id": "evt_gcal_com_effective_altruism_nyc_232f955c",
+      "id": "evt_gcal_com_effective_altruism_nyc_25c8a97c",
       "name": "Smallpox Eradication Day",
       "type": "effective altruism",
       "locationId": "",
       "communityId": "com_effective_altruism_nyc",
       "description": "<a href=\"https://www.google.com/url?q=http://effective-altruism.com/ea/1t5/500_million_but_not_a_single_one_more/&amp;sa=D&amp;source=calendar&amp;ust=1671557547900138&amp;usg=AOvVaw2Lr9IfXaUGtgAoeyHQwk46\" target=\"_blank\">http://effective-altruism.com/ea/1t5/500_million_but_not_a_single_one_more/</a><br><br><br>500 million people died, but we turned &quot;Smallpox is&quot; into <a href=\"https://www.google.com/url?q=https://en.wikipedia.org/wiki/Smallpox&amp;sa=D&amp;source=calendar&amp;ust=1671557547900138&amp;usg=AOvVaw2M2sM7e03Vz44TJnDh7fEb\" target=\"_blank\">&quot;Smallpox was&quot;</a>. This is one of our species&#39; greatest victories over suffering; it&#39;s a good time to celebrate and to remember.<br>.",
-      "startDate": "2025-12-09",
-      "endDate": "2025-12-10",
+      "startDate": "2026-12-09",
+      "endDate": "2026-12-10",
       "category": [
         "effective altruism",
         "impact",
@@ -310,8 +451,8 @@
       "status": "upcoming",
       "metadata": {
         "source": "Google Calendar",
-        "source_url": "https://www.effectivealtruism.nyc",
-        "original_event_id": "18nssiq2d5tomo24lmlh5c8a40_20251209",
+        "source_url": "https://www.google.com/calendar/event?eid=MThuc3NpcTJkNXRvbW8yNGxtbGg1YzhhNDBfMjAyNjEyMDkgaGJ2ZXRxZjVoMXBkMG9mMHZuNnV2cGhxdHNAZw",
+        "original_event_id": "18nssiq2d5tomo24lmlh5c8a40_20261209",
         "organizer": {
           "name": "Effective Altruism NYC Events",
           "instagram": "",
@@ -326,18 +467,18 @@
         "social_links": [],
         "featured": false,
         "luma_source": false,
-        "google_calendar_link": "https://www.google.com/calendar/event?eid=MThuc3NpcTJkNXRvbW8yNGxtbGg1YzhhNDBfMjAyNTEyMDkgaGJ2ZXRxZjVoMXBkMG9mMHZuNnV2cGhxdHNAZw"
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=MThuc3NpcTJkNXRvbW8yNGxtbGg1YzhhNDBfMjAyNjEyMDkgaGJ2ZXRxZjVoMXBkMG9mMHZuNnV2cGhxdHNAZw"
       }
     },
     {
-      "id": "evt_gcal_com_effective_altruism_nyc_ec99e2d0",
+      "id": "evt_gcal_com_effective_altruism_nyc_2bee10f0",
       "name": "Derek Parfit's Birthday!",
       "type": "effective altruism",
       "locationId": "",
       "communityId": "com_effective_altruism_nyc",
       "description": "<a href=\"https://www.google.com/url?q=https://en.wikipedia.org/wiki/Derek_Parfit&amp;sa=D&amp;source=calendar&amp;ust=1671557547909792&amp;usg=AOvVaw2BFY-ERvvYRIfECWD_0Jvj\" target=\"_blank\">Derek Parfit</a>\u00a0was perhaps the greatest moral philosopher of the 20th century, in how he shaped the discipline and raised important new questions.\u00a0<br><br>He gave us the Repugnant Conclusion and the Hitchhiker&#39;s Dilemma, and put a plug for giving 10% into <i>On What Matters</i>, his masterpiece. Had he lived long enough to finish another volume, he had <a href=\"https://www.google.com/url?q=http://dailynous.com/2017/01/02/derek-parfit-1942-2017/%23comment-96731&amp;sa=D&amp;source=calendar&amp;ust=1671557547909792&amp;usg=AOvVaw2Y8vbk28wweupN5IRHEzYy\" target=\"_blank\">plans</a>\u00a0to discuss existential risk and dive deeper into questions of how we ought to act.<br><br>How to celebrate Parfit&#39;s life and work? You could discuss population ethics, philosophize about something else, or consider, as a group, ways to make your lives slightly more rational. (Or just eat cake and sing Happy Birthday and engage in idle, friendly conversation; Parfit surely wouldn&#39;t object.)",
-      "startDate": "2025-12-11",
-      "endDate": "2025-12-12",
+      "startDate": "2026-12-11",
+      "endDate": "2026-12-12",
       "category": [
         "effective altruism",
         "impact",
@@ -357,8 +498,8 @@
       "status": "upcoming",
       "metadata": {
         "source": "Google Calendar",
-        "source_url": "https://www.effectivealtruism.nyc",
-        "original_event_id": "2hp8lrqp66mrkko0bp7fh5nvg4_20251211",
+        "source_url": "https://www.google.com/calendar/event?eid=MmhwOGxycXA2Nm1ya2tvMGJwN2ZoNW52ZzRfMjAyNjEyMTEgaGJ2ZXRxZjVoMXBkMG9mMHZuNnV2cGhxdHNAZw",
+        "original_event_id": "2hp8lrqp66mrkko0bp7fh5nvg4_20261211",
         "organizer": {
           "name": "Effective Altruism NYC Events",
           "instagram": "",
@@ -373,18 +514,18 @@
         "social_links": [],
         "featured": false,
         "luma_source": false,
-        "google_calendar_link": "https://www.google.com/calendar/event?eid=MmhwOGxycXA2Nm1ya2tvMGJwN2ZoNW52ZzRfMjAyNTEyMTEgaGJ2ZXRxZjVoMXBkMG9mMHZuNnV2cGhxdHNAZw"
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=MmhwOGxycXA2Nm1ya2tvMGJwN2ZoNW52ZzRfMjAyNjEyMTEgaGJ2ZXRxZjVoMXBkMG9mMHZuNnV2cGhxdHNAZw"
       }
     },
     {
-      "id": "evt_gcal_com_effective_altruism_nyc_52044431",
+      "id": "evt_gcal_com_effective_altruism_nyc_6dcf9679",
       "name": "John Snow's Birthday!",
       "type": "effective altruism",
       "locationId": "",
       "communityId": "com_effective_altruism_nyc",
       "description": "No, not the George R. R. Martin one. The one who helped found epidemiology!<br><br><a href=\"https://en.wikipedia.org/wiki/John_Snow\">https://en.wikipedia.org/wiki/John_Snow</a><br><br><br>Celebrate today by drinking clean water!&nbsp;",
-      "startDate": "2026-03-15",
-      "endDate": "2026-03-16",
+      "startDate": "2027-03-15",
+      "endDate": "2027-03-16",
       "category": [
         "effective altruism",
         "impact",
@@ -404,8 +545,8 @@
       "status": "upcoming",
       "metadata": {
         "source": "Google Calendar",
-        "source_url": "https://www.effectivealtruism.nyc",
-        "original_event_id": "7u3mqs3lojksi1r8615698atdm_20260315",
+        "source_url": "https://www.google.com/calendar/event?eid=N3UzbXFzM2xvamtzaTFyODYxNTY5OGF0ZG1fMjAyNzAzMTUgaGJ2ZXRxZjVoMXBkMG9mMHZuNnV2cGhxdHNAZw",
+        "original_event_id": "7u3mqs3lojksi1r8615698atdm_20270315",
         "organizer": {
           "name": "Effective Altruism NYC Events",
           "instagram": "",
@@ -420,18 +561,18 @@
         "social_links": [],
         "featured": false,
         "luma_source": false,
-        "google_calendar_link": "https://www.google.com/calendar/event?eid=N3UzbXFzM2xvamtzaTFyODYxNTY5OGF0ZG1fMjAyNjAzMTUgaGJ2ZXRxZjVoMXBkMG9mMHZuNnV2cGhxdHNAZw"
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=N3UzbXFzM2xvamtzaTFyODYxNTY5OGF0ZG1fMjAyNzAzMTUgaGJ2ZXRxZjVoMXBkMG9mMHZuNnV2cGhxdHNAZw"
       }
     },
     {
-      "id": "evt_gcal_com_effective_altruism_nyc_268d3e52",
+      "id": "evt_gcal_com_effective_altruism_nyc_2c22ee19",
       "name": "Norman Borlaug's Birthday!",
       "type": "effective altruism",
       "locationId": "",
       "communityId": "com_effective_altruism_nyc",
       "description": "How can you celebrate an agronomist who fed billions? <br><br>...we're not sure yet, but maybe you can make something tasty with GMO wheat flour?<br><br><a href=\"https://en.wikipedia.org/wiki/Norman_Borlaug\">https://en.wikipedia.org/wiki/Norman_Borlaug</a>",
-      "startDate": "2026-03-25",
-      "endDate": "2026-03-26",
+      "startDate": "2027-03-25",
+      "endDate": "2027-03-26",
       "category": [
         "effective altruism",
         "impact",
@@ -451,8 +592,8 @@
       "status": "upcoming",
       "metadata": {
         "source": "Google Calendar",
-        "source_url": "https://www.effectivealtruism.nyc",
-        "original_event_id": "50guciaq9m283lfntm5qqpscs3_20260325",
+        "source_url": "https://www.google.com/calendar/event?eid=NTBndWNpYXE5bTI4M2xmbnRtNXFxcHNjczNfMjAyNzAzMjUgaGJ2ZXRxZjVoMXBkMG9mMHZuNnV2cGhxdHNAZw",
+        "original_event_id": "50guciaq9m283lfntm5qqpscs3_20270325",
         "organizer": {
           "name": "Effective Altruism NYC Events",
           "instagram": "",
@@ -467,18 +608,18 @@
         "social_links": [],
         "featured": false,
         "luma_source": false,
-        "google_calendar_link": "https://www.google.com/calendar/event?eid=NTBndWNpYXE5bTI4M2xmbnRtNXFxcHNjczNfMjAyNjAzMjUgaGJ2ZXRxZjVoMXBkMG9mMHZuNnV2cGhxdHNAZw"
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=NTBndWNpYXE5bTI4M2xmbnRtNXFxcHNjczNfMjAyNzAzMjUgaGJ2ZXRxZjVoMXBkMG9mMHZuNnV2cGhxdHNAZw"
       }
     },
     {
-      "id": "evt_gcal_com_effective_altruism_nyc_1623ce8b",
+      "id": "evt_gcal_com_effective_altruism_nyc_1d443d5d",
       "name": "World Health Day",
       "type": "effective altruism",
       "locationId": "",
       "communityId": "com_effective_altruism_nyc",
       "description": "Some say that April is the cruelest month. The WHO begs to differ:<br><br><a href=\"https://www.google.com/url?q=http://www.who.int/campaigns/world-health-day/2018/en/&amp;sa=D&amp;source=calendar&amp;ust=1671557335136133&amp;usg=AOvVaw0om6R5yHPt6QeEZyLYb6TN\" target=\"_blank\">http://www.who.int/campaigns/world-health-day/2018/en/</a><br><br>Speaking of April, keep an eye out for World Malaria Day and World Immunization Week later this month.",
-      "startDate": "2026-04-07",
-      "endDate": "2026-04-08",
+      "startDate": "2027-04-07",
+      "endDate": "2027-04-08",
       "category": [
         "effective altruism",
         "impact",
@@ -498,8 +639,8 @@
       "status": "upcoming",
       "metadata": {
         "source": "Google Calendar",
-        "source_url": "https://www.effectivealtruism.nyc",
-        "original_event_id": "6vkt79sh0c6roqv8hkdkbei4h8_20260407",
+        "source_url": "https://www.google.com/calendar/event?eid=NnZrdDc5c2gwYzZyb3F2OGhrZGtiZWk0aDhfMjAyNzA0MDcgaGJ2ZXRxZjVoMXBkMG9mMHZuNnV2cGhxdHNAZw",
+        "original_event_id": "6vkt79sh0c6roqv8hkdkbei4h8_20270407",
         "organizer": {
           "name": "Effective Altruism NYC Events",
           "instagram": "",
@@ -514,18 +655,18 @@
         "social_links": [],
         "featured": false,
         "luma_source": false,
-        "google_calendar_link": "https://www.google.com/calendar/event?eid=NnZrdDc5c2gwYzZyb3F2OGhrZGtiZWk0aDhfMjAyNjA0MDcgaGJ2ZXRxZjVoMXBkMG9mMHZuNnV2cGhxdHNAZw"
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=NnZrdDc5c2gwYzZyb3F2OGhrZGtiZWk0aDhfMjAyNzA0MDcgaGJ2ZXRxZjVoMXBkMG9mMHZuNnV2cGhxdHNAZw"
       }
     },
     {
-      "id": "evt_gcal_com_effective_altruism_nyc_dd8d62dd",
+      "id": "evt_gcal_com_effective_altruism_nyc_e3bfc5f1",
       "name": "World Immunization Week",
       "type": "effective altruism",
       "locationId": "",
       "communityId": "com_effective_altruism_nyc",
       "description": "<br>No matter what year you read this, it&#39;s probably the healthiest year in human history. Let&#39;s celebrate, and keep the streak going!<br><a href=\"https://www.google.com/url?q=http://www.who.int/campaigns/immunization-week/2018/en/&amp;sa=D&amp;source=calendar&amp;ust=1671557349757085&amp;usg=AOvVaw1XOs1JHTqnQlGCavPdJJ2Q\" target=\"_blank\">http://www.who.int/campaigns/immunization-week/2018/en/</a>",
-      "startDate": "2026-04-24",
-      "endDate": "2026-05-01",
+      "startDate": "2027-04-24",
+      "endDate": "2027-05-01",
       "category": [
         "effective altruism",
         "impact",
@@ -545,8 +686,8 @@
       "status": "upcoming",
       "metadata": {
         "source": "Google Calendar",
-        "source_url": "https://www.effectivealtruism.nyc",
-        "original_event_id": "7pgd035d778oidrlf20o8ar25p_20260424",
+        "source_url": "https://www.google.com/calendar/event?eid=N3BnZDAzNWQ3NzhvaWRybGYyMG84YXIyNXBfMjAyNzA0MjQgaGJ2ZXRxZjVoMXBkMG9mMHZuNnV2cGhxdHNAZw",
+        "original_event_id": "7pgd035d778oidrlf20o8ar25p_20270424",
         "organizer": {
           "name": "Effective Altruism NYC Events",
           "instagram": "",
@@ -561,18 +702,18 @@
         "social_links": [],
         "featured": false,
         "luma_source": false,
-        "google_calendar_link": "https://www.google.com/calendar/event?eid=N3BnZDAzNWQ3NzhvaWRybGYyMG84YXIyNXBfMjAyNjA0MjQgaGJ2ZXRxZjVoMXBkMG9mMHZuNnV2cGhxdHNAZw"
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=N3BnZDAzNWQ3NzhvaWRybGYyMG84YXIyNXBfMjAyNzA0MjQgaGJ2ZXRxZjVoMXBkMG9mMHZuNnV2cGhxdHNAZw"
       }
     },
     {
-      "id": "evt_gcal_com_effective_altruism_nyc_04c9a47c",
+      "id": "evt_gcal_com_effective_altruism_nyc_4cc98cea",
       "name": "World Malaria Day",
       "type": "effective altruism",
       "locationId": "",
       "communityId": "com_effective_altruism_nyc",
       "description": "<a href=\"https://en.wikipedia.org/wiki/World_Malaria_Day\">https://en.wikipedia.org/wiki/World_Malaria_Day</a><br><br>If you have ideas for ways to commemorate this day, send them to alexrk@effectivealtruism.nyc",
-      "startDate": "2026-04-25",
-      "endDate": "2026-04-26",
+      "startDate": "2027-04-25",
+      "endDate": "2027-04-26",
       "category": [
         "effective altruism",
         "impact",
@@ -592,8 +733,8 @@
       "status": "upcoming",
       "metadata": {
         "source": "Google Calendar",
-        "source_url": "https://www.effectivealtruism.nyc",
-        "original_event_id": "3dgeao06q4v67dockgui4gomk0_20260425",
+        "source_url": "https://www.google.com/calendar/event?eid=M2RnZWFvMDZxNHY2N2RvY2tndWk0Z29tazBfMjAyNzA0MjUgaGJ2ZXRxZjVoMXBkMG9mMHZuNnV2cGhxdHNAZw",
+        "original_event_id": "3dgeao06q4v67dockgui4gomk0_20270425",
         "organizer": {
           "name": "Effective Altruism NYC Events",
           "instagram": "",
@@ -608,9 +749,9 @@
         "social_links": [],
         "featured": false,
         "luma_source": false,
-        "google_calendar_link": "https://www.google.com/calendar/event?eid=M2RnZWFvMDZxNHY2N2RvY2tndWk0Z29tazBfMjAyNjA0MjUgaGJ2ZXRxZjVoMXBkMG9mMHZuNnV2cGhxdHNAZw"
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=M2RnZWFvMDZxNHY2N2RvY2tndWk0Z29tazBfMjAyNzA0MjUgaGJ2ZXRxZjVoMXBkMG9mMHZuNnV2cGhxdHNAZw"
       }
     }
   ],
-  "timestamp": "2025-06-22T15:00:47.696522"
+  "timestamp": "2026-08-16T15:29:53.205313"
 }

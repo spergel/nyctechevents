@@ -42,6 +42,7 @@ jobs:
           
           # Create necessary directories
           mkdir -p scraper/data # For combined_events.json, etc.
+          mkdir -p public/data
           
           # Check if we have the right dependencies
           echo "Checking installed packages:"
@@ -55,17 +56,39 @@ jobs:
           echo "Listing data files:"
           find scraper/ -name "*.json" | xargs ls -la
           
-          # Copy combined events to public directory for deployment
+          # Prefer combined scrape output for the site build/deploy
           echo "Copying combined events to public directory..."
-          mkdir -p public/data
           if [ -f "scraper/data/combined_events.json" ]; then
             cp scraper/data/combined_events.json public/data/events.json
+            # Keep committed fallback in sync for local/manual builds
+            mkdir -p data/scrapers
+            cp scraper/data/combined_events.json data/scrapers/google_calendar_events.json
           elif [ -f "data/scrapers/google_calendar_events.json" ]; then
             cp data/scrapers/google_calendar_events.json public/data/events.json
           else
             echo "No events file found to copy"
             exit 1
           fi
+
+          echo "Events file ready for deploy:"
+          ls -la public/data/events.json
+          python -c "import json; d=json.load(open('public/data/events.json')); print(f\"event_count={len(d.get('events', []))}\")"
+
+          python - <<'PY'
+          import json
+          from datetime import datetime, timezone
+          from pathlib import Path
+          events_path = Path("public/data/events.json")
+          last_update_path = Path("public/data/last_update.json")
+          last_updated = datetime.now(timezone.utc).isoformat()
+          try:
+              data = json.loads(events_path.read_text())
+              last_updated = data.get("last_updated") or last_updated
+          except Exception as exc:
+              print(f"Could not read events.json for last_update: {exc}")
+          last_update_path.write_text(json.dumps({"lastUpdateISO": last_updated}))
+          print(f"Wrote {last_update_path} lastUpdateISO={last_updated}")
+          PY
           
           # Generate tweets (this will still run to post to Twitter if configured)
           echo "Generating tweets"
@@ -85,10 +108,12 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           
-          # Add relevant scraper data files (but not public/data/events.json which is gitignored)
+          # Persist scrape outputs that are tracked in git
           echo "Adding scraper data files..."
-          git add scraper/data/*.json || true
-          # Note: public/data/events.json is gitignored to prevent stale data commits
+          git add data/scrapers/google_calendar_events.json || true
+          git add data/scrapers/cache/**/*.json || true
+          git add scraper/data/cache/*.json 2>/dev/null || true
+          git add public/data/last_update.json || true
           
           # Specifically add cache files with force if they exist
           if ls scraper/data/cache/*.json 1> /dev/null 2>&1; then
@@ -100,7 +125,6 @@ jobs:
           echo "Checking for changes to commit..."
           if git diff --quiet && git diff --staged --quiet; then
             echo "No changes to commit"
-            exit 0  # Exit successfully
           else
             # Pull latest changes with rebase strategy to avoid merge commits
             echo "Pulling latest changes before committing..."
@@ -113,25 +137,35 @@ jobs:
               # If push fails, try force pushing since this is data-only
               git push --force && echo "Successfully force pushed changes" || echo "All push attempts failed"
             }
-            
-            # Always exit successfully to prevent workflow failure
-            exit 0
           fi
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           
-      # Deploy to Vercel if configured (always deploy with fresh data)
-      - name: Deploy to Vercel
+      # Deploy to Cloudflare Workers if configured (always deploy with fresh data)
+      - name: Set up Node.js
+        if: success()
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Deploy to Cloudflare
         if: success()
         run: |
-          if [ -z "$VERCEL_TOKEN" ]; then
-            echo "VERCEL_TOKEN is not set. Skipping Vercel deployment."
+          if [ -z "$CLOUDFLARE_API_TOKEN" ]; then
+            echo "CLOUDFLARE_API_TOKEN is not set. Skipping Cloudflare deployment."
             exit 0
           fi
-          
-          echo "Installing and deploying to Vercel with fresh events data..."
-          npx vercel --token="${VERCEL_TOKEN}" --prod --confirm
+
+          if [ ! -f public/data/events.json ]; then
+            echo "public/data/events.json missing before deploy"
+            exit 1
+          fi
+
+          echo "Installing dependencies and deploying to Cloudflare Workers..."
+          npm install --legacy-peer-deps
+          npm run deploy
         env:
-          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
-          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
-          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }} 
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          NEXT_PUBLIC_SITE_URL: https://tech.somethingtodo.nyc
+          NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN: ${{ secrets.NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN }} 

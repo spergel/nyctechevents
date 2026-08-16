@@ -69,6 +69,20 @@ export interface Event {
       email?: string;
       instagram?: string;
     };
+    /** Soft host for Luma calendars not in communities.json — display only, no formal page */
+    derived_community?: {
+      id: string;
+      name: string;
+      website?: string;
+      image?: string;
+      derived?: boolean;
+    };
+    luma_host?: {
+      name: string;
+      url?: string;
+      image?: string;
+      type?: string;
+    };
     featured: boolean;
     associated_communities?: string[];
     social_links?: string[];
@@ -114,6 +128,8 @@ export interface Community {
     founded?: string;
     location?: string;
   };
+  /** True when synthesized from Luma host / ICS calendar — not in communities.json */
+  derived?: boolean;
 }
 
 export interface PageProps {

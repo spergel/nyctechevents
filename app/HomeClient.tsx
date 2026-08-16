@@ -22,51 +22,107 @@ interface PageEvent {
   id: string;
   name: string;
   startDate: string;
+  endDate?: string;
   type: string;
   description?: string;
+  locationId?: string;
+  communityId?: string;
+  image?: string;
+  status?: string;
   venue?: {
     name: string;
     address: string;
   };
+  metadata?: {
+    source_url?: string;
+    venue?: {
+      name: string;
+      address: string;
+      type?: string;
+    };
+    featured?: boolean;
+    image_url?: string;
+    associated_communities?: string[];
+    [key: string]: unknown;
+  };
   categories?: string[];
+  category?: Event['category'];
+  price?: Event['price'];
+  capacity?: number | null;
+  registrationRequired?: boolean;
 }
+
+const DIRECTORY_LINKS = [
+  { href: 'https://somethingtodo.nyc', label: 'All Events' },
+  { href: '#', label: 'Workout Events (Coming Soon)' },
+  { href: 'https://legal.somethingtodo.nyc', label: 'Legal' },
+  { href: 'https://youth.somethingtodo.nyc', label: 'Tech for Kids' },
+];
 
 // Convert PageEvent to Event type for EventDetailDialog
 const convertToEvent = (pageEvent: PageEvent): Event => {
+  const venue = pageEvent.venue || pageEvent.metadata?.venue;
   return {
     id: pageEvent.id,
     name: pageEvent.name,
     type: pageEvent.type,
     startDate: pageEvent.startDate,
-    endDate: pageEvent.startDate, // Use same date for end if not provided
+    endDate: pageEvent.endDate || pageEvent.startDate,
     description: pageEvent.description || '',
-    locationId: '',
-    communityId: '',
-    price: {
+    locationId: pageEvent.locationId || '',
+    communityId: pageEvent.communityId || '',
+    price: pageEvent.price || {
       amount: 0,
       type: 'Free',
       currency: 'USD',
       details: ''
     },
-    capacity: null,
-    registrationRequired: false,
-    image: '',
-    status: 'upcoming',
+    capacity: pageEvent.capacity ?? null,
+    registrationRequired: pageEvent.registrationRequired ?? false,
+    image: pageEvent.image || pageEvent.metadata?.image_url || '',
+    status: pageEvent.status || 'upcoming',
     metadata: {
-      source_url: '',
-      venue: pageEvent.venue ? {
-        ...pageEvent.venue,
-        type: 'venue'
+      ...(pageEvent.metadata || {}),
+      source_url: pageEvent.metadata?.source_url || '',
+      venue: venue ? {
+        name: venue.name || '',
+        address: venue.address || '',
+        type: ('type' in venue && venue.type) ? String(venue.type) : 'venue'
       } : undefined,
-      featured: false
+      featured: pageEvent.metadata?.featured ?? false,
     },
-    category: pageEvent.categories ? {
+    category: pageEvent.category || (pageEvent.categories ? {
       id: pageEvent.type,
       name: pageEvent.type,
       confidence: 1.0
-    } : undefined,
+    } : undefined),
     event_type: pageEvent.type
   };
+};
+
+const getEventVenueName = (event: PageEvent): string | undefined => {
+  const name = event.venue?.name || event.metadata?.venue?.name;
+  return name?.trim() || undefined;
+};
+
+const dedupeEvents = (eventList: PageEvent[]): PageEvent[] => {
+  const seen = new Map<string, PageEvent>();
+  for (const event of eventList) {
+    const name = (event.name || '').trim().toLowerCase();
+    const day = event.startDate ? event.startDate.slice(0, 10) : event.id;
+    const key = `${name}|${day}`;
+    const existing = seen.get(key);
+    if (!existing) {
+      seen.set(key, event);
+      continue;
+    }
+    const existingScore = (existing.description ? 1 : 0) + (getEventVenueName(existing) ? 1 : 0) + (existing.metadata?.source_url ? 1 : 0);
+    const nextScore = (event.description ? 1 : 0) + (getEventVenueName(event) ? 1 : 0) + (event.metadata?.source_url ? 1 : 0);
+    if (nextScore > existingScore) {
+      seen.set(key, event);
+    }
+  }
+  return Array.from(seen.values());
 };
 
 // Helper function to safely create a Date object
@@ -89,7 +145,8 @@ export default function HomeClient() {
   const observerTarget = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    // Fetch last update time
+    const importedTimestamp = (events as { last_updated?: string }).last_updated;
+
     fetch('/data/last_update.json')
       .then(response => {
         if (!response.ok) {
@@ -100,11 +157,12 @@ export default function HomeClient() {
       .then(data => {
         if (data && data.lastUpdateISO) {
           setLastUpdateTime(data.lastUpdateISO);
+        } else if (importedTimestamp) {
+          setLastUpdateTime(importedTimestamp);
         }
       })
-      .catch(error => {
-        console.error('Error fetching or parsing last_update.json:', error);
-        setLastUpdateTime('Error'); // Indicate an error in the UI if needed
+      .catch(() => {
+        setLastUpdateTime(importedTimestamp || new Date().toISOString());
       });
 
     // Check if the document is already loaded
@@ -125,7 +183,7 @@ export default function HomeClient() {
   // Check if we're on mobile
   useEffect(() => {
     const checkMobile = () => {
-      setIsMobile(window.innerWidth <= 1024);
+      setIsMobile(window.innerWidth <= 1200);
     };
     
     checkMobile();
@@ -136,29 +194,43 @@ export default function HomeClient() {
     };
   }, []);
 
-  // Get all upcoming events
-  const upcomingEvents = useMemo(() => {
+  // All upcoming events, with same-day duplicate titles collapsed
+  const allUpcomingEvents = useMemo(() => {
     const today = new Date();
     today.setHours(0, 0, 0, 0);
 
+    const upcoming = (events.events as PageEvent[])
+      .filter((event) => {
+        if (!event.startDate) return false;
+        const eventDate = new Date(event.startDate);
+        return !isNaN(eventDate.getTime()) && eventDate >= today;
+      })
+      .sort((a, b) => new Date(a.startDate).getTime() - new Date(b.startDate).getTime());
+
+    return dedupeEvents(upcoming);
+  }, []);
+
+  // Desktop data feed stays compact (next two days)
+  const nearTermEvents = useMemo(() => {
+    const today = new Date();
+    today.setHours(0, 0, 0, 0);
     const dayAfterTomorrow = new Date(today);
     dayAfterTomorrow.setDate(dayAfterTomorrow.getDate() + 2);
 
-    return (events.events as any[])
-      .filter((event: any) => {
-        if (!event.startDate) return false;
-        const eventDate = new Date(event.startDate);
-        return eventDate >= today && eventDate < dayAfterTomorrow;
-      })
-      .sort((a: any, b: any) => new Date(a.startDate).getTime() - new Date(b.startDate).getTime());
-  }, []);
+    return allUpcomingEvents.filter((event) => {
+      const eventDate = new Date(event.startDate);
+      return eventDate >= today && eventDate < dayAfterTomorrow;
+    });
+  }, [allUpcomingEvents]);
+
+  const sourceEvents = isMobile ? allUpcomingEvents : nearTermEvents;
 
   // Filter events based on selected types
   const filteredEvents = useMemo(() => {
-    return upcomingEvents.filter(event => 
+    return sourceEvents.filter(event => 
       selectedTypes.length === 0 || selectedTypes.includes(event.type)
     );
-  }, [upcomingEvents, selectedTypes]);
+  }, [sourceEvents, selectedTypes]);
 
   // Infinite scroll observer (for desktop and mobile)
   useEffect(() => {
@@ -187,10 +259,10 @@ export default function HomeClient() {
     setIsLoadingMore(false);
   };
 
-  // Reset visible events when filters change
+  // Reset visible events when filters or layout change
   useEffect(() => {
     setVisibleEvents(10);
-  }, [selectedTypes]);
+  }, [selectedTypes, isMobile]);
 
   const handleEventClick = (event: PageEvent) => {
     setSelectedEvent(event);
@@ -287,14 +359,15 @@ export default function HomeClient() {
           variant="secondary"
         >
           <div className="event-cards">
-            {filteredEvents.slice(0, visibleEvents).map((event, index) => {
+            {filteredEvents.slice(0, visibleEvents).map((event) => {
               const eventDate = parseSafeDate(event.startDate);
+              const venueName = getEventVenueName(event);
               
-              if (!eventDate) return null; // Skip events with invalid dates
+              if (!eventDate) return null;
               
               return (
                 <div 
-                  key={`${event.id}-${index}`}
+                  key={event.id}
                   className="event-card" 
                   onClick={() => handleEventClick(event)}
                 >
@@ -310,10 +383,10 @@ export default function HomeClient() {
                     <div className="event-time">{eventDate.toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', hour12: true })}</div>
                     
                     <div className="event-details">
-                      {event.venue && (
+                      {venueName && (
                         <div className="detail-row">
                           <span className="detail-icon">◎</span>
-                          <span className="detail-text">{event.venue.name}</span>
+                          <span className="detail-text">{venueName}</span>
                         </div>
                       )}
                       
@@ -325,9 +398,6 @@ export default function HomeClient() {
                       )}
                     </div>
                   </div>
-                  
-                  {/* Featured Badge */}
-                  {/* Removed featured badge since PageEvent doesn't have metadata */}
                 </div>
               );
             })}
@@ -363,6 +433,8 @@ export default function HomeClient() {
           locations={(locations?.locations || []) as unknown as Location[]}
           onLocationClick={handleLocationClick}
           lastUpdateTime={lastUpdateTime}
+          eventCount={filteredEvents.length}
+          linkCount={DIRECTORY_LINKS.length}
         >
           <Panel 
             systemId="NYC-001" 
@@ -378,10 +450,11 @@ export default function HomeClient() {
             variant="primary"
           >
             <div className="directory-links">
-              <CyberLink href="https://somethingtodo.nyc" variant="directory">All Events</CyberLink>
-              <CyberLink href="#" variant="directory">Workout Events (Coming Soon)</CyberLink>
-              <CyberLink href="https://legal.somethingtodo.nyc" variant="directory">Legal</CyberLink>
-              <CyberLink href="https://youth.somethingtodo.nyc" variant="directory">Tech for Kids</CyberLink>
+              {DIRECTORY_LINKS.map(link => (
+                <CyberLink key={link.href + link.label} href={link.href} variant="directory">
+                  {link.label}
+                </CyberLink>
+              ))}
             </div>
           </Panel>
 
@@ -522,7 +595,7 @@ export default function HomeClient() {
           border-color: var(--nyc-orange);
         }
 
-        .event-date {
+        .event-card .event-date {
           display: flex;
           flex-direction: column;
           align-items: center;
@@ -554,11 +627,22 @@ export default function HomeClient() {
           flex-direction: column;
         }
 
-        .event-name {
+        .event-card .event-name {
           color: var(--nyc-white);
           margin: 0 0 0.5rem 0;
           font-size: 1rem;
           line-height: 1.3;
+        }
+
+        .data-event .event-date {
+          color: var(--terminal-color);
+          font-size: 0.8rem;
+          white-space: nowrap;
+        }
+
+        .data-event .event-name {
+          color: var(--nyc-white);
+          font-size: 0.9rem;
         }
 
         .event-time {
@@ -717,9 +801,23 @@ export default function HomeClient() {
           text-decoration: underline;
         }
 
+        @media (max-width: 1200px) {
+          .console-page {
+            height: auto;
+            min-height: 100%;
+            overflow: visible;
+            padding-bottom: 4.5rem;
+          }
+
+          .console-page :global(.panel) {
+            height: auto;
+            min-height: calc(100vh - 5rem);
+          }
+        }
+
         @media (max-width: 768px) {
           .console-page {
-            padding-bottom: 0;
+            padding-bottom: 4.5rem;
           }
 
           .page-header {
@@ -746,12 +844,12 @@ export default function HomeClient() {
             transition: all 0.2s ease;
           }
 
-          .event-date {
+          .data-event .event-date {
             color: var(--terminal-color);
             font-size: 0.8rem;
           }
 
-          .event-name {
+          .data-event .event-name {
             color: var(--nyc-white);
             font-size: 1rem;
             font-weight: bold;

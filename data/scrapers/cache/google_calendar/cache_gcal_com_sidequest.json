@@ -1,14 +1,14 @@
 {
   "events": [
     {
-      "id": "evt_gcal_com_sidequest_0fb712ea",
-      "name": "SideQuest #25: We're soooo back \ud83d\ude80",
+      "id": "evt_gcal_com_sidequest_e696a442",
+      "name": "SideQuest IRL #43",
       "type": "technology",
       "locationId": "",
       "communityId": "com_sidequest",
-      "description": "\u200b\u200b\u200bCome join us for a chill afternoon dedicated to your sidequests!Whether it's writing, painting, coding that new app, or literally any other \u201cSideQuest\u201d you\u2019ve been putting off, this is your space to create. This isn\u2019t about 'work' in the traditional sense\u2014it's about crafting something meaningful to you, free from pressure.\u200b\u200bWe'll have focused work sessions to help you make real progress, all set to the backdrop of some lo-fi, balanced with breaks to reset, unblock each other, and mingle with other creators.\u200b\u200bRough Agenda\u200b\u200b2:00 PM - 2:30 PM: Introductions and Intention Sharing\u200b\u200b2:30 PM - 3:45 PM: Deep Focus Session 1\u200b\u200b3:45 PM - 4:15 PM: Break\u200b\u200b4:15 PM - 5:30 PM: Deep Focus Session 2\u200b\u200b5:30 PM - 6:00 PM: if you wanna share your work, we\u2019d love to see it! If not, that\u2019s cool, too!\u200b\u200b6:00 PM: Optional hangout afterward :)*please plan on staying for the whole duration to avoid disrupting the quiet work periods\u200b\u200b**thank you tofractal techfor hosting us! and thank you to our friends atPurdueHackers,CozySundaysandSocraticafor seeding the idea!___________________AboutSideQuest:We host coworking sessions biweekly! Subscribe to our events calendar if you can\u2019t make this one :)",
-      "startDate": "2025-06-29T18:00:00Z",
-      "endDate": "2025-06-29T22:00:00Z",
+      "description": "Get up-to-date information at: https://luma.com/haqtk5ff\n\nAddress:\nCheck event page for more details.\n\nHosted by Tina He & Ellie Doyle",
+      "startDate": "2026-08-16T18:30:00Z",
+      "endDate": "2026-08-16T22:00:00Z",
       "category": [
         "technology",
         "science",
@@ -22,14 +22,14 @@
         "details": ""
       },
       "capacity": null,
-      "registrationRequired": false,
+      "registrationRequired": null,
       "tags": [],
-      "image": "events/luma-event-afbcf6ff.jpg",
+      "image": "",
       "status": "upcoming",
       "metadata": {
         "source": "Google Calendar",
-        "source_url": "https://lu.ma/um0ccf1q",
-        "original_event_id": "_clr78bbld953gkjg8p6jajqqetq76ea0clr6arjkecn6ot9edlgg",
+        "source_url": "https://luma.com/haqtk5ff",
+        "original_event_id": "_clr78ba469a44tqddkpjioqna9kn4m20clr6arjkecn6ot9edlgg",
         "organizer": {
           "name": "SideQuest",
           "instagram": "",
@@ -37,16 +37,439 @@
         },
         "venue": {
           "name": "",
-          "address": "https://lu.ma/e/evt-ujJ8RpFM5OZwts9",
+          "address": "https://luma.com/event/evt-D2TBwMm39cWRirX",
           "type": "Offline"
         },
         "speakers": [],
         "social_links": [],
         "featured": false,
         "luma_source": true,
-        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmJsZDk1M2dramc4cDZqYWpxcWV0cTc2ZWEwY2xyNmFyamtlY242b3Q5ZWRsZ2cgYWJsbjY2YWJsNzk5dmI0Z3BybGx1NDIyNWw3NDRsNzBAaQ"
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmE0NjlhNDR0cWRka3BqaW9xbmE5a240bTIwY2xyNmFyamtlY242b3Q5ZWRsZ2cgYWJsbjY2YWJsNzk5dmI0Z3BybGx1NDIyNWw3NDRsNzBAaQ"
+      }
+    },
+    {
+      "id": "evt_gcal_com_sidequest_8111143a",
+      "name": "SideQuest IRL #44",
+      "type": "technology",
+      "locationId": "",
+      "communityId": "com_sidequest",
+      "description": "Get up-to-date information at: https://luma.com/v52fg20a\n\nAddress:\nCheck event page for more details.\n\nHosted by Tina He",
+      "startDate": "2026-08-30T18:30:00Z",
+      "endDate": "2026-08-30T22:00:00Z",
+      "category": [
+        "technology",
+        "science",
+        "research",
+        "society"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": null,
+      "tags": [],
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://luma.com/v52fg20a",
+        "original_event_id": "_clr78baladh3ilq471iliiije97j4t20clr6arjkecn6ot9edlgg",
+        "organizer": {
+          "name": "SideQuest",
+          "instagram": "",
+          "email": "abln66abl799vb4gprllu4225l744l70@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "https://luma.com/event/evt-USb9WD8eYJSrO2t",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": true,
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmFsYWRoM2lscTQ3MWlsaWlpamU5N2o0dDIwY2xyNmFyamtlY242b3Q5ZWRsZ2cgYWJsbjY2YWJsNzk5dmI0Z3BybGx1NDIyNWw3NDRsNzBAaQ"
+      }
+    },
+    {
+      "id": "evt_gcal_com_sidequest_b49ada2b",
+      "name": "SideQuest IRL #45",
+      "type": "technology",
+      "locationId": "",
+      "communityId": "com_sidequest",
+      "description": "Get up-to-date information at: https://luma.com/zs3ch9v6\n\nAddress:\nCheck event page for more details.\n\nHosted by Tina He, Yiyi Zhang & Jyro Blade",
+      "startDate": "2026-09-13T18:30:00Z",
+      "endDate": "2026-09-13T22:00:00Z",
+      "category": [
+        "technology",
+        "science",
+        "research",
+        "society"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": null,
+      "tags": [],
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://luma.com/zs3ch9v6",
+        "original_event_id": "_clr78b9lal74uoid69hn2lrd6takcp20clr6arjkecn6ot9edlgg",
+        "organizer": {
+          "name": "SideQuest",
+          "instagram": "",
+          "email": "abln66abl799vb4gprllu4225l744l70@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "https://luma.com/event/evt-5UNObM2cqWm7UFd",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": true,
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YjlsYWw3NHVvaWQ2OWhuMmxyZDZ0YWtjcDIwY2xyNmFyamtlY242b3Q5ZWRsZ2cgYWJsbjY2YWJsNzk5dmI0Z3BybGx1NDIyNWw3NDRsNzBAaQ"
+      }
+    },
+    {
+      "id": "evt_gcal_com_sidequest_9c7a5657",
+      "name": "SideQuest IRL #46",
+      "type": "technology",
+      "locationId": "",
+      "communityId": "com_sidequest",
+      "description": "Get up-to-date information at: https://luma.com/30napr09\n\nAddress:\nCheck event page for more details.\n\nHosted by Tina He",
+      "startDate": "2026-09-27T18:30:00Z",
+      "endDate": "2026-09-27T22:00:00Z",
+      "category": [
+        "technology",
+        "science",
+        "research",
+        "society"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": null,
+      "tags": [],
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://luma.com/30napr09",
+        "original_event_id": "_clr78ba29d0jeu9n9gp66oama9amiu20clr6arjkecn6ot9edlgg",
+        "organizer": {
+          "name": "SideQuest",
+          "instagram": "",
+          "email": "abln66abl799vb4gprllu4225l744l70@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "https://luma.com/event/evt-BKA7y7L2caVRUix",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": true,
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmEyOWQwamV1OW45Z3A2Nm9hbWE5YW1pdTIwY2xyNmFyamtlY242b3Q5ZWRsZ2cgYWJsbjY2YWJsNzk5dmI0Z3BybGx1NDIyNWw3NDRsNzBAaQ"
+      }
+    },
+    {
+      "id": "evt_gcal_com_sidequest_83fae6af",
+      "name": "SideQuest IRL #47",
+      "type": "technology",
+      "locationId": "",
+      "communityId": "com_sidequest",
+      "description": "Get up-to-date information at: https://luma.com/jgs7sfx9\n\nAddress:\nCheck event page for more details.\n\nHosted by Tina He",
+      "startDate": "2026-10-11T18:30:00Z",
+      "endDate": "2026-10-11T22:00:00Z",
+      "category": [
+        "technology",
+        "science",
+        "research",
+        "society"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": null,
+      "tags": [],
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://luma.com/jgs7sfx9",
+        "original_event_id": "_clr78bbne5a3irjpal37chbbe9q7isq0clr6arjkecn6ot9edlgg",
+        "organizer": {
+          "name": "SideQuest",
+          "instagram": "",
+          "email": "abln66abl799vb4gprllu4225l744l70@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "https://luma.com/event/evt-wqT9nyUFvEkrtys",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": true,
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmJuZTVhM2lyanBhbDM3Y2hiYmU5cTdpc3EwY2xyNmFyamtlY242b3Q5ZWRsZ2cgYWJsbjY2YWJsNzk5dmI0Z3BybGx1NDIyNWw3NDRsNzBAaQ"
+      }
+    },
+    {
+      "id": "evt_gcal_com_sidequest_26f4f1f1",
+      "name": "SideQuest IRL #48",
+      "type": "technology",
+      "locationId": "",
+      "communityId": "com_sidequest",
+      "description": "Get up-to-date information at: https://luma.com/vkr5yr5m\n\nAddress:\nCheck event page for more details.\n\nHosted by Tina He",
+      "startDate": "2026-10-25T18:30:00Z",
+      "endDate": "2026-10-25T22:00:00Z",
+      "category": [
+        "technology",
+        "science",
+        "research",
+        "society"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": null,
+      "tags": [],
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://luma.com/vkr5yr5m",
+        "original_event_id": "_clr78bb1edbneihme9p54q1ka174kqi0clr6arjkecn6ot9edlgg",
+        "organizer": {
+          "name": "SideQuest",
+          "instagram": "",
+          "email": "abln66abl799vb4gprllu4225l744l70@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "https://luma.com/event/evt-asWwJ6rrRh4PNJj",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": true,
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmIxZWRibmVpaG1lOXA1NHExa2ExNzRrcWkwY2xyNmFyamtlY242b3Q5ZWRsZ2cgYWJsbjY2YWJsNzk5dmI0Z3BybGx1NDIyNWw3NDRsNzBAaQ"
+      }
+    },
+    {
+      "id": "evt_gcal_com_sidequest_cad1bee0",
+      "name": "SideQuest IRL #49",
+      "type": "technology",
+      "locationId": "",
+      "communityId": "com_sidequest",
+      "description": "Get up-to-date information at: https://luma.com/79njnyit\n\nAddress:\nCheck event page for more details.\n\nHosted by Tina He",
+      "startDate": "2026-11-08T19:30:00Z",
+      "endDate": "2026-11-08T23:00:00Z",
+      "category": [
+        "technology",
+        "science",
+        "research",
+        "society"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": null,
+      "tags": [],
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://luma.com/79njnyit",
+        "original_event_id": "_clr78bbnepmj4kr575l4kl1g896jgpi0clr6arjkecn6ot9edlgg",
+        "organizer": {
+          "name": "SideQuest",
+          "instagram": "",
+          "email": "abln66abl799vb4gprllu4225l744l70@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "https://luma.com/event/evt-wvm2Se9jJT0BM8f",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": true,
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmJuZXBtajRrcjU3NWw0a2wxZzg5NmpncGkwY2xyNmFyamtlY242b3Q5ZWRsZ2cgYWJsbjY2YWJsNzk5dmI0Z3BybGx1NDIyNWw3NDRsNzBAaQ"
+      }
+    },
+    {
+      "id": "evt_gcal_com_sidequest_fa899d68",
+      "name": "SideQuest IRL #50",
+      "type": "technology",
+      "locationId": "",
+      "communityId": "com_sidequest",
+      "description": "Get up-to-date information at: https://luma.com/olzhlvod\n\nAddress:\nCheck event page for more details.\n\nHosted by Tina He",
+      "startDate": "2026-11-22T19:30:00Z",
+      "endDate": "2026-11-22T23:00:00Z",
+      "category": [
+        "technology",
+        "science",
+        "research",
+        "society"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": null,
+      "tags": [],
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://luma.com/olzhlvod",
+        "original_event_id": "_clr78bbh9d9lagi3a917ega7elh44ka0clr6arjkecn6ot9edlgg",
+        "organizer": {
+          "name": "SideQuest",
+          "instagram": "",
+          "email": "abln66abl799vb4gprllu4225l744l70@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "https://luma.com/event/evt-qKSUBCRBwAGubBQ",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": true,
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmJoOWQ5bGFnaTNhOTE3ZWdhN2VsaDQ0a2EwY2xyNmFyamtlY242b3Q5ZWRsZ2cgYWJsbjY2YWJsNzk5dmI0Z3BybGx1NDIyNWw3NDRsNzBAaQ"
+      }
+    },
+    {
+      "id": "evt_gcal_com_sidequest_cda561a7",
+      "name": "SideQuest IRL #51",
+      "type": "technology",
+      "locationId": "",
+      "communityId": "com_sidequest",
+      "description": "Get up-to-date information at: https://luma.com/j9qfr43w\n\nAddress:\nCheck event page for more details.\n\nHosted by Tina He",
+      "startDate": "2026-12-06T19:30:00Z",
+      "endDate": "2026-12-06T23:00:00Z",
+      "category": [
+        "technology",
+        "science",
+        "research",
+        "society"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": null,
+      "tags": [],
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://luma.com/j9qfr43w",
+        "original_event_id": "_clr78bb8alnl6hj2c4rksqbf6p3k4pi0clr6arjkecn6ot9edlgg",
+        "organizer": {
+          "name": "SideQuest",
+          "instagram": "",
+          "email": "abln66abl799vb4gprllu4225l744l70@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "https://luma.com/event/evt-hUoSFba7Nio6GBf",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": true,
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmI4YWxubDZoajJjNHJrc3FiZjZwM2s0cGkwY2xyNmFyamtlY242b3Q5ZWRsZ2cgYWJsbjY2YWJsNzk5dmI0Z3BybGx1NDIyNWw3NDRsNzBAaQ"
+      }
+    },
+    {
+      "id": "evt_gcal_com_sidequest_52f29960",
+      "name": "SideQuest IRL #52",
+      "type": "technology",
+      "locationId": "",
+      "communityId": "com_sidequest",
+      "description": "Get up-to-date information at: https://luma.com/zqxcxzm7\n\nAddress:\nCheck event page for more details.\n\nHosted by Tina He",
+      "startDate": "2026-12-20T19:30:00Z",
+      "endDate": "2026-12-20T23:00:00Z",
+      "category": [
+        "technology",
+        "science",
+        "research",
+        "society"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": null,
+      "tags": [],
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://luma.com/zqxcxzm7",
+        "original_event_id": "_clr78baad59muohjaoqketac8tml6d20clr6arjkecn6ot9edlgg",
+        "organizer": {
+          "name": "SideQuest",
+          "instagram": "",
+          "email": "abln66abl799vb4gprllu4225l744l70@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "https://luma.com/event/evt-JiSob3V5GuLGmS4",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": true,
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmFhZDU5bXVvaGphb3FrZXRhYzh0bWw2ZDIwY2xyNmFyamtlY242b3Q5ZWRsZ2cgYWJsbjY2YWJsNzk5dmI0Z3BybGx1NDIyNWw3NDRsNzBAaQ"
       }
     }
   ],
-  "timestamp": "2025-06-22T15:01:05.399763"
+  "timestamp": "2026-08-16T15:29:54.546411"
 }

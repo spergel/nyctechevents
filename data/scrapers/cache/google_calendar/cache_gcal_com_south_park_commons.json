@@ -1,4 +1,52 @@
 {
-  "events": [],
-  "timestamp": "2025-06-22T15:01:01.498922"
+  "events": [
+    {
+      "id": "evt_gcal_com_south_park_commons_d77ec25b",
+      "name": "AI & The Wet Lab",
+      "type": "technology",
+      "locationId": "",
+      "communityId": "com_south_park_commons",
+      "description": "Get up-to-date information at: https://luma.com/aiandthewetlab_spc\n\nAddress:\nCheck event page for more details.\n\nHosted by South Park Commons & 3 others",
+      "startDate": "2026-08-20T00:30:00Z",
+      "endDate": "2026-08-20T02:00:00Z",
+      "category": [
+        "technology",
+        "innovation",
+        "learning",
+        "community"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": null,
+      "tags": [],
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://luma.com/aiandthewetlab_spc",
+        "original_event_id": "_clr78bane9jkcgj38d43asie8lp44oi0clr6arjkecn6ot9edlgg",
+        "organizer": {
+          "name": "South Park Commons",
+          "instagram": "",
+          "email": "bfptu3ajdae5cc2k16cvs1amenbft762@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "https://luma.com/event/evt-WrgFBcCH5rNErBb",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": true,
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmFuZTlqa2NnajM4ZDQzYXNpZThscDQ0b2kwY2xyNmFyamtlY242b3Q5ZWRsZ2cgYmZwdHUzYWpkYWU1Y2MyazE2Y3ZzMWFtZW5iZnQ3NjJAaQ"
+      }
+    }
+  ],
+  "timestamp": "2026-08-16T15:29:54.177767"
 }

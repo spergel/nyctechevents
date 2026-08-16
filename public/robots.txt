@@ -47,8 +47,8 @@ Allow: /api/rss
 Crawl-delay: 1
 
 # Sitemap locations
-Sitemap: https://nycevents.vercel.app/sitemap.xml
-Sitemap: https://nycevents.vercel.app/api/rss
+Sitemap: https://tech.somethingtodo.nyc/sitemap.xml
+Sitemap: https://tech.somethingtodo.nyc/api/rss
 
 # Host directive for canonical domain
-Host: nycevents.vercel.app 
+Host: tech.somethingtodo.nyc

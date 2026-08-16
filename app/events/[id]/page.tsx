@@ -1,3 +1,4 @@
+import { SITE_URL } from '@/lib/site';
 import { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import events from '@/public/data/events.json'
@@ -69,21 +70,21 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     openGraph: {
       title,
       description,
-      url: `https://nycevents.vercel.app/events/${event.id}`,
+      url: `${SITE_URL}/events/${event.id}`,
       type: 'article',
       publishedTime: event.startDate,
       modifiedTime: event.endDate || event.startDate,
-      images: event.image ? [`https://nycevents.vercel.app/${event.image}`] : ['/nyc_skyline.gif'],
+      images: event.image ? [`${SITE_URL}/${event.image}`] : ['/nyc_skyline.gif'],
       authors: community?.name ? [community.name] : undefined,
     },
     twitter: {
       card: 'summary_large_image',
       title,
       description,
-      images: event.image ? [`https://nycevents.vercel.app/${event.image}`] : ['/nyc_skyline.gif'],
+      images: event.image ? [`${SITE_URL}/${event.image}`] : ['/nyc_skyline.gif'],
     },
     alternates: {
-      canonical: `https://nycevents.vercel.app/events/${event.id}`,
+      canonical: `${SITE_URL}/events/${event.id}`,
     },
   }
 }

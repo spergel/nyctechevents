@@ -70,9 +70,11 @@ interface ConsoleLayoutProps {
   locations: Location[];
   onLocationClick?: (location: Location) => void;
   lastUpdateTime: string;
+  eventCount?: number;
+  linkCount?: number;
 }
 
-export function ConsoleLayout({ children, locations, onLocationClick, lastUpdateTime }: ConsoleLayoutProps) {
+export function ConsoleLayout({ children, locations, onLocationClick, lastUpdateTime, eventCount = 0, linkCount = 0 }: ConsoleLayoutProps) {
   const [selectedEvent, setSelectedEvent] = useState<ImportedEvent | null>(null);
 
   const formatDate = (dateString: string) => {
@@ -167,7 +169,7 @@ export function ConsoleLayout({ children, locations, onLocationClick, lastUpdate
             variant="monitor"
             footerStats={{
               left: "MONITORING: ACTIVE",
-              right: "ALL SYSTEMS GO"
+              right: lastUpdateTime === 'Error' ? "UPDATE FAILED" : "ALL SYSTEMS GO"
             }}
           >
             <div className="system-status">
@@ -209,7 +211,7 @@ export function ConsoleLayout({ children, locations, onLocationClick, lastUpdate
           <Panel 
             variant="primary"
             footerStats={{
-              left: "LINKS: 3",
+              left: `LINKS: ${linkCount}`,
               right: "STATUS: OK"
             }}
           >
@@ -224,7 +226,7 @@ export function ConsoleLayout({ children, locations, onLocationClick, lastUpdate
           <Panel 
             variant="primary"
             footerStats={{
-              left: "ENTRIES: 24",
+              left: `ENTRIES: ${eventCount}`,
               right: "UPDATED: LIVE"
             }}
           >

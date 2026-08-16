@@ -14,20 +14,38 @@ If you're seeing "Requests to this API calendar method calendar.v3.Events.List a
 - Try deactivating and reactivating the Calendar API
 """
 
-# ICS Calendar configurations 
+# Optional aliases: scraper community_id -> formal communities.json id
+COMMUNITY_ID_ALIASES = {
+    'com_desci_nyc': 'com_desci',
+    'com_raid_nyc': 'com_raid',
+}
+
+# Map Luma Organization host names -> formal community ids (for co-hosts / overlap)
+HOST_NAME_TO_COMMUNITY_ID = {
+    'all tech is human': 'com_all_tech_is_human',
+    'center for humane technology': 'com_cht',
+    'brainstation': 'com_brainstation',
+    'brooklyn product design': 'com_bk_product_design',
+    'index greenpoint': 'com_index',
+    'index space': 'com_index',
+    'fabrik': 'com_fabrik_ny',
+}
+
 ICS_CALENDARS = [
-    {'name': 'max_ny', 'url': 'https://api.lu.ma/ics/get?entity=calendar&id=cal-KGV5WJNQjhqXGj5', 'community_id': 'com_max_ny'},
-    {'name': 'otwc', 'url': 'https://api.lu.ma/ics/get?entity=calendar&id=cal-q37ZsEGpns4eio2', 'community_id': 'com_otwc'},
-    {'name': 'der_project', 'url': 'https://api.lu.ma/ics/get?entity=calendar&id=cal-jnmufRkbO6lEBQH', 'community_id': 'com_der_project'},
-    {'name': 'ny_hardware', 'url': 'https://api.lu.ma/ics/get?entity=calendar&id=cal-vR9KDer3a9iEfUd', 'community_id': 'com_ny_hardware'},
-    {'name': 'la_creme_stem', 'url': 'https://api.lu.ma/ics/get?entity=calendar&id=cal-4oDH9h513BBRk6y', 'community_id': 'com_la_creme_stem'},
-    {'name': 'genZtea', 'url': 'https://api.lu.ma/ics/get?entity=calendar&id=cal-6kEfZKtXphCXCQD', 'community_id': 'com_genZtea'},
-    {'name': 'acid_club', 'url': 'https://api.lu.ma/ics/get?entity=calendar&id=cal-uMDiLB3ckLaGfkl', 'community_id': 'com_acid_club'},
-    {'name': 'desci_nyc', 'url': 'https://api.lu.ma/ics/get?entity=calendar&id=cal-wZRB9D5dtAO9FXa', 'community_id': 'com_desci_nyc'},
-    {'name': 'raid_nyc', 'url': 'https://api.lu.ma/ics/get?entity=calendar&id=cal-tBOSmnsBzW0kTrf', 'community_id': 'com_raid_nyc'},
-    {'name': 'satori', 'url': 'https://api.lu.ma/ics/get?entity=calendar&id=cal-EYZA520VGEASXG2', 'community_id': 'com_satori'},
-    {'name': 'civic_techish_nyc', 'url': 'https://api.lu.ma/ics/get?entity=calendar&id=cal-IS0wmeg4we7wiPa', 'community_id': 'com_civic_techish_nyc'},
-    {'name': 'forum_ventures', 'url': 'https://api.lu.ma/ics/get?entity=calendar&id=cal-SbCHaOYXyeQHVgB', 'community_id': 'com_forum_ventures', 'filter_nyc': True},
+    {'name': 'max_ny', 'display_name': 'Maximum New York', 'website': 'https://luma.com/maximumnewyork', 'url': 'https://api.lu.ma/ics/get?entity=calendar&id=cal-KGV5WJNQjhqXGj5', 'community_id': 'com_max_ny'},
+    {'name': 'otwc', 'display_name': 'Olive Tree Writing Club', 'website': 'https://luma.com/otwc', 'url': 'https://api.lu.ma/ics/get?entity=calendar&id=cal-q37ZsEGpns4eio2', 'community_id': 'com_otwc'},
+    {'name': 'ny_hardware', 'display_name': 'NY Hardware Meetup', 'url': 'https://api.lu.ma/ics/get?entity=calendar&id=cal-vR9KDer3a9iEfUd', 'community_id': 'com_ny_hardware'},
+    {'name': 'la_creme_stem', 'display_name': 'La Crème STEM', 'url': 'https://api.lu.ma/ics/get?entity=calendar&id=cal-4oDH9h513BBRk6y', 'community_id': 'com_la_creme_stem'},
+    {'name': 'genZtea', 'display_name': 'GenZtea', 'url': 'https://api.lu.ma/ics/get?entity=calendar&id=cal-6kEfZKtXphCXCQD', 'community_id': 'com_genZtea'},
+    {'name': 'acid_club', 'display_name': 'Acid Club', 'url': 'https://api.lu.ma/ics/get?entity=calendar&id=cal-uMDiLB3ckLaGfkl', 'community_id': 'com_acid_club'},
+    {'name': 'desci_nyc', 'display_name': 'DeSci NYC', 'website': 'https://luma.com/desci', 'url': 'https://api.lu.ma/ics/get?entity=calendar&id=cal-wZRB9D5dtAO9FXa', 'community_id': 'com_desci_nyc'},
+    {'name': 'raid_nyc', 'display_name': 'RAID NYC', 'url': 'https://api.lu.ma/ics/get?entity=calendar&id=cal-tBOSmnsBzW0kTrf', 'community_id': 'com_raid_nyc'},
+    {'name': 'satori', 'display_name': 'Satori', 'url': 'https://api.lu.ma/ics/get?entity=calendar&id=cal-EYZA520VGEASXG2', 'community_id': 'com_satori'},
+    {'name': 'forum_ventures', 'display_name': 'Forum Ventures', 'url': 'https://api.lu.ma/ics/get?entity=calendar&id=cal-SbCHaOYXyeQHVgB', 'community_id': 'com_forum_ventures', 'filter_nyc': True},
+    {'name': 'bk_product_design', 'display_name': 'Brooklyn Product Design', 'website': 'https://luma.com/bkproductdesign', 'url': 'https://api.lu.ma/ics/get?entity=calendar&id=cal-sHWMt96AHAYzCyD', 'community_id': 'com_bk_product_design'},
+    # Main calendar only (skip ATIHx DC chapter calendar). NYC filter drops out-of-town listings.
+    {'name': 'all_tech_is_human', 'display_name': 'All Tech Is Human', 'website': 'https://luma.com/AllTechIsHuman', 'url': 'https://api.lu.ma/ics/get?entity=calendar&id=cal-tp9fJuQNa1rcyNN', 'community_id': 'com_all_tech_is_human', 'filter_nyc': True},
+    {'name': 'index_space', 'display_name': 'Index Space', 'website': 'https://www.index-space.org', 'url': 'https://api.lu.ma/ics/get?entity=calendar&id=cal-qdFtD4iSoH7Xj4m', 'community_id': 'com_index'},
 ]
 
 # Google Calendar configurations
@@ -97,11 +115,15 @@ GOOGLE_CALENDARS = {
 # List of available scrapers
 SCRAPERS = [
     'pioneer_works_scraper',
+    'fabrik_scraper',
+    'boshis_scraper',
+    'ny_bio_connect_scraper',
     'garys_guide_scraper',
     'google_calendar_scraper',
     'ics_calendar_scraper',
     'betaworks_scraper',
     
+    #'index_space_scraper',  # Index now scraped via Luma ICS (cal-qdFtD4iSoH7Xj4m)
     #'substack_scraper',
     #'nyc_parks_scraper'
 ] 

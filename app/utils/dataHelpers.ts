@@ -38,6 +38,71 @@ export function getCommunityData(communityId: string | undefined): Community | u
   };
 }
 
+/**
+ * Resolve the display host for an event.
+ * Formal communities.json entries win; otherwise use metadata.derived_community
+ * from Luma/ICS (soft host — no /communities/[id] page).
+ */
+export function getEventHost(event: Event | null | undefined): Community | undefined {
+  if (!event) return undefined;
+  const formal = getCommunityData(event.communityId);
+  if (formal) return formal;
+
+  const derived = event.metadata?.derived_community;
+  if (derived?.name) {
+    return {
+      id: derived.id || event.communityId,
+      name: derived.name,
+      type: 'Community',
+      description: '',
+      category: ['Community'],
+      website: derived.website,
+      image: derived.image,
+      derived: true,
+    };
+  }
+
+  const organizerName = event.metadata?.organizer?.name?.trim();
+  if (organizerName && !organizerName.toUpperCase().includes('ORGANIZER')) {
+    return {
+      id: event.communityId || 'com_derived_unknown',
+      name: organizerName,
+      type: 'Community',
+      description: '',
+      category: ['Community'],
+      website: event.metadata?.organizer?.website,
+      derived: true,
+    };
+  }
+
+  return undefined;
+}
+
+/**
+ * Prefer curated locationId; fall back to matching metadata.venue against locations.json.
+ */
+export function getEventLocation(event: Event | null | undefined): Location | undefined {
+  if (!event) return undefined;
+  const byId = getLocationData(event.locationId);
+  if (byId) return byId;
+
+  const venue = event.metadata?.venue;
+  const blob = `${venue?.name || ''} ${venue?.address || ''}`.toLowerCase();
+  if (!blob.trim() || blob.startsWith('http')) return undefined;
+
+  const match = locations.locations.find((loc) => {
+    const name = (loc.name || '').toLowerCase();
+    const address = (loc.address || '').toLowerCase();
+    const street = address.split(',')[0]?.trim();
+    return (name && blob.includes(name)) || (street && blob.includes(street));
+  });
+  return match ? ensureCompleteLocation(match) : undefined;
+}
+
+export function isFormalCommunity(community: Community | undefined): boolean {
+  return Boolean(community && !community.derived && getCommunityData(community.id));
+}
+
 export function getLocationData(locationId: string | undefined): Location | undefined {
   if (!locationId) return undefined;
   const location = locations.locations.find(l => l.id === locationId);
@@ -89,41 +154,34 @@ export function getEventsForLocation(locationId: string): Event[] {
 
 /**
  * Get communities that have events at this location,
- * excluding the main community
+ * excluding the main community. Includes soft (derived) hosts.
  */
 export function getCommunitiesForLocation(locationId: string): Community[] {
-  // Find all communities that have events at this location
-  const communitiesWithEventsHere = new Set<string>();
-  events.events.forEach(event => {
-    if (event.locationId === locationId) {
-      communitiesWithEventsHere.add(event.communityId);
-    }
-  });
-
-  // Get the unique list of community IDs
-  const communityIds = Array.from(communitiesWithEventsHere);
-  
-  // Get the location
   const location = getLocationData(locationId);
   let mainCommunityId: string | undefined;
-  
-  // If location exists, get its main community ID
   if (location) {
     if (location.mainCommunityId) {
       mainCommunityId = location.mainCommunityId;
     } else if (location.community_and_location) {
-      // For locations that are also communities, find the community with the same name
       const associatedCommunity = communities.communities.find(c => c.name === location.name);
       if (associatedCommunity) {
         mainCommunityId = associatedCommunity.id;
       }
     }
   }
-  
-  // Return the full community objects, excluding the main community
-  return communities.communities.filter(community => 
-    communityIds.includes(community.id) && community.id !== mainCommunityId
-  );
+
+  const byId = new Map<string, Community>();
+
+    events.events.forEach(event => {
+    if (event.locationId !== locationId) return;
+    const host = getEventHost(event as unknown as Event);
+    if (!host || host.id === mainCommunityId) return;
+    if (!byId.has(host.id)) {
+      byId.set(host.id, host);
+    }
+  });
+
+  return Array.from(byId.values());
 }
 
 /**
