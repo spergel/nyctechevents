@@ -47,6 +47,6 @@
 		}
 	],
 	"vars": {
-		"NEXT_PUBLIC_SITE_URL": "https://nycevents.spergel-joshua.workers.dev"
+		"NEXT_PUBLIC_SITE_URL": "https://tech.somethingtodo.nyc"
 	}
 }
