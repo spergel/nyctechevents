@@ -6,7 +6,7 @@
       "type": "technology",
       "locationId": "",
       "communityId": "com_verci",
-      "description": "Get up-to-date information at: https://luma.com/p8e7nveq\n\nAddress:\nVerci Flatiron\nNew York, NY\nUnited States\n\nHosted by Verci",
+      "description": "Join us for the fourth workshop in our Makerspace Series!\n\nWe're celebrating the opening of our new makerspace with a series of hands-on workshops exploring different creative practices.\nWorkshop 04: Janice will lead us through a beginner-friendly tutorial, walking step-by-step through the basics of navigating Blender and creating your first 3D render.\nPlease bring your own laptop and install Blender before the workshop",
       "startDate": "2026-08-17T22:00:00Z",
       "endDate": "2026-08-17T23:30:00Z",
       "category": [
@@ -16,15 +16,15 @@
         "community"
       ],
       "price": {
-        "amount": 0,
-        "type": "Free",
+        "amount": 10.0,
+        "type": "Paid",
         "currency": "USD",
-        "details": ""
+        "details": "General Admission"
       },
       "capacity": null,
-      "registrationRequired": null,
+      "registrationRequired": false,
       "tags": [],
-      "image": "",
+      "image": "events/luma-event-b8f882a7.jpg",
       "status": "upcoming",
       "metadata": {
         "source": "Google Calendar",
@@ -32,18 +32,25 @@
         "original_event_id": "_clr78bbg85bnid2od1clkq3a8krj8t20clr6arjkecn6ot9edlgg",
         "organizer": {
           "name": "Verci Events",
+          "website": "https://luma.com/verci",
           "instagram": "",
           "email": "pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com"
         },
         "venue": {
           "name": "",
-          "address": "Verci Flatiron, 45 E 20th St, New York, NY 10003, USA",
+          "address": "Verci Flatiron\nVerci Flatiron, New York, New York",
           "type": "Offline"
         },
         "speakers": [],
         "social_links": [],
         "featured": false,
         "luma_source": true,
+        "luma_host": {
+          "name": "Verci Events",
+          "url": "https://luma.com/verci",
+          "image": "https://images.lumacdn.com/calendars/kw/d2a68898-7b2c-40c0-b2b7-27a313e1f6d2",
+          "type": "Organization"
+        },
         "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmJnODVibmlkMm9kMWNsa3EzYThrcmo4dDIwY2xyNmFyamtlY242b3Q5ZWRsZ2cgcGY2bzdkcmxmcmJobXBxbG1sdDdwMjE1ZTcwaTljam5AaQ"
       }
     },
@@ -53,7 +60,7 @@
       "type": "technology",
       "locationId": "",
       "communityId": "com_verci",
-      "description": "Get up-to-date information at: https://luma.com/mkcaukh2\n\nAddress:\n45 E 20th St floor 12\nNew York, New York\nUnited States\n\nHosted by Verci",
+      "description": "Stop by the weekly Verci Cafe for drinks on the house!",
       "startDate": "2026-08-19T15:00:00Z",
       "endDate": "2026-08-19T20:00:00Z",
       "category": [
@@ -63,15 +70,15 @@
         "community"
       ],
       "price": {
-        "amount": 0,
+        "amount": 0.0,
         "type": "Free",
         "currency": "USD",
-        "details": ""
+        "details": "General Admission"
       },
       "capacity": null,
-      "registrationRequired": null,
+      "registrationRequired": false,
       "tags": [],
-      "image": "",
+      "image": "events/luma-event-5d013f69.jpg",
       "status": "upcoming",
       "metadata": {
         "source": "Google Calendar",
@@ -79,18 +86,25 @@
         "original_event_id": "_clr78bbd91p5itjdahglgthiclh50li0clr6arjkecn6ot9edlgg",
         "organizer": {
           "name": "Verci Events",
+          "website": "https://luma.com/verci",
           "instagram": "",
           "email": "pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com"
         },
         "venue": {
           "name": "",
-          "address": "45 E 20th St floor 12, New York, NY 10003, USA",
+          "address": "45 E 20th St floor 12\n45 E 20th St floor 12, New York, New York",
           "type": "Offline"
         },
         "speakers": [],
         "social_links": [],
         "featured": false,
         "luma_source": true,
+        "luma_host": {
+          "name": "Verci Events",
+          "url": "https://luma.com/verci",
+          "image": "https://images.lumacdn.com/calendars/kw/d2a68898-7b2c-40c0-b2b7-27a313e1f6d2",
+          "type": "Organization"
+        },
         "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmJkOTFwNWl0amRhaGdsZ3RoaWNsaDUwbGkwY2xyNmFyamtlY242b3Q5ZWRsZ2cgcGY2bzdkcmxmcmJobXBxbG1sdDdwMjE1ZTcwaTljam5AaQ"
       }
     },
@@ -100,7 +114,7 @@
       "type": "technology",
       "locationId": "",
       "communityId": "com_verci",
-      "description": "Get up-to-date information at: https://luma.com/8vj32h8v\n\nAddress:\n45 E 20th St floor 12\nNew York, New York\nUnited States\n\nHosted by Verci",
+      "description": "Our monthly community dinner!\nThis is a classic Verci experience, so if you haven't made it out to one yet, this is the perfect time to pull up.\nFor August, we've got something a little extra special rolling in. Show up with empty bellies, bring your appetite, and get ready to have a fire time.",
       "startDate": "2026-08-21T23:00:00Z",
       "endDate": "2026-08-22T00:30:00Z",
       "category": [
@@ -110,15 +124,15 @@
         "community"
       ],
       "price": {
-        "amount": 0,
+        "amount": 0.0,
         "type": "Free",
         "currency": "USD",
-        "details": ""
+        "details": "General Admission"
       },
       "capacity": null,
-      "registrationRequired": null,
+      "registrationRequired": false,
       "tags": [],
-      "image": "",
+      "image": "events/luma-event-25d2a789.jpg",
       "status": "upcoming",
       "metadata": {
         "source": "Google Calendar",
@@ -126,18 +140,25 @@
         "original_event_id": "_clr78b9pd12mqdb5650nika39l2n6ta0clr6arjkecn6ot9edlgg",
         "organizer": {
           "name": "Verci Events",
+          "website": "https://luma.com/verci",
           "instagram": "",
           "email": "pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com"
         },
         "venue": {
           "name": "",
-          "address": "45 E 20th St floor 12, New York, NY 10003, USA",
+          "address": "45 E 20th St floor 12\n45 E 20th St floor 12, New York, New York",
           "type": "Offline"
         },
         "speakers": [],
         "social_links": [],
         "featured": false,
         "luma_source": true,
+        "luma_host": {
+          "name": "Verci Events",
+          "url": "https://luma.com/verci",
+          "image": "https://images.lumacdn.com/calendars/kw/d2a68898-7b2c-40c0-b2b7-27a313e1f6d2",
+          "type": "Organization"
+        },
         "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YjlwZDEybXFkYjU2NTBuaWthMzlsMm42dGEwY2xyNmFyamtlY242b3Q5ZWRsZ2cgcGY2bzdkcmxmcmJobXBxbG1sdDdwMjE1ZTcwaTljam5AaQ"
       }
     },
@@ -147,7 +168,7 @@
       "type": "technology",
       "locationId": "",
       "communityId": "com_verci",
-      "description": "Get up-to-date information at: https://luma.com/k92tnhbr\n\nAddress:\nVerci Flatiron\nNew York, NY\nUnited States\n\nHosted by Verci",
+      "description": "Join us for the fifth workshop in our Makerspace Series!\n\nWe're celebrating the opening of our new makerspace with a series of hands-on workshops exploring different creative practices.\nWorkshop 05: We'll have a collection of \"flash\" embroidery designs to choose from, or you're welcome to create your own if you're feeling inspired. Anna will walk through the basics of embroidery.\nPlease bring a piece of clothing, tote bag, or other fabric item you'd like to embroider. We'll also have some fabric available.",
       "startDate": "2026-08-25T22:30:00Z",
       "endDate": "2026-08-26T00:00:00Z",
       "category": [
@@ -157,15 +178,15 @@
         "community"
       ],
       "price": {
-        "amount": 0,
-        "type": "Free",
+        "amount": 10.0,
+        "type": "Paid",
         "currency": "USD",
-        "details": ""
+        "details": "General Admission"
       },
       "capacity": null,
-      "registrationRequired": null,
+      "registrationRequired": false,
       "tags": [],
-      "image": "",
+      "image": "events/luma-event-dd1f2509.jpg",
       "status": "upcoming",
       "metadata": {
         "source": "Google Calendar",
@@ -173,18 +194,25 @@
         "original_event_id": "_clr78bbhesojgsanc57meci468p4cgq0clr6arjkecn6ot9edlgg",
         "organizer": {
           "name": "Verci Events",
+          "website": "https://luma.com/verci",
           "instagram": "",
           "email": "pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com"
         },
         "venue": {
           "name": "",
-          "address": "Verci Flatiron, 45 E 20th St, New York, NY 10003, USA",
+          "address": "Verci Flatiron\nVerci Flatiron, New York, New York",
           "type": "Offline"
         },
         "speakers": [],
         "social_links": [],
         "featured": false,
         "luma_source": true,
+        "luma_host": {
+          "name": "Verci Events",
+          "url": "https://luma.com/verci",
+          "image": "https://images.lumacdn.com/calendars/kw/d2a68898-7b2c-40c0-b2b7-27a313e1f6d2",
+          "type": "Organization"
+        },
         "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmJoZXNvamdzYW5jNTdtZWNpNDY4cDRjZ3EwY2xyNmFyamtlY242b3Q5ZWRsZ2cgcGY2bzdkcmxmcmJobXBxbG1sdDdwMjE1ZTcwaTljam5AaQ"
       }
     },
@@ -194,7 +222,7 @@
       "type": "technology",
       "locationId": "",
       "communityId": "com_verci",
-      "description": "Get up-to-date information at: https://luma.com/9eywt5fq\n\nAddress:\n45 E 20th St floor 12\nNew York, New York\nUnited States\n\nHosted by Verci",
+      "description": "Stop by the weekly Verci Cafe for drinks on the house!",
       "startDate": "2026-08-26T15:00:00Z",
       "endDate": "2026-08-26T20:00:00Z",
       "category": [
@@ -204,15 +232,15 @@
         "community"
       ],
       "price": {
-        "amount": 0,
+        "amount": 0.0,
         "type": "Free",
         "currency": "USD",
-        "details": ""
+        "details": "General Admission"
       },
       "capacity": null,
-      "registrationRequired": null,
+      "registrationRequired": false,
       "tags": [],
-      "image": "",
+      "image": "events/luma-event-5d013f69.jpg",
       "status": "upcoming",
       "metadata": {
         "source": "Google Calendar",
@@ -220,18 +248,25 @@
         "original_event_id": "_clr78bbf9lrm8iine9ak8k32chpnek20clr6arjkecn6ot9edlgg",
         "organizer": {
           "name": "Verci Events",
+          "website": "https://luma.com/verci",
           "instagram": "",
           "email": "pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com"
         },
         "venue": {
           "name": "",
-          "address": "45 E 20th St floor 12, New York, NY 10003, USA",
+          "address": "45 E 20th St floor 12\n45 E 20th St floor 12, New York, New York",
           "type": "Offline"
         },
         "speakers": [],
         "social_links": [],
         "featured": false,
         "luma_source": true,
+        "luma_host": {
+          "name": "Verci Events",
+          "url": "https://luma.com/verci",
+          "image": "https://images.lumacdn.com/calendars/kw/d2a68898-7b2c-40c0-b2b7-27a313e1f6d2",
+          "type": "Organization"
+        },
         "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmJmOWxybThpaW5lOWFrOGszMmNocG5lazIwY2xyNmFyamtlY242b3Q5ZWRsZ2cgcGY2bzdkcmxmcmJobXBxbG1sdDdwMjE1ZTcwaTljam5AaQ"
       }
     },
@@ -241,7 +276,7 @@
       "type": "technology",
       "locationId": "",
       "communityId": "com_verci",
-      "description": "Get up-to-date information at: https://luma.com/mlvvmavl\n\nAddress:\nRed Hook Pinball Museum\nBrooklyn, NY\nUnited States\n\nHosted by Verci",
+      "description": "GUYSSSSS COME TO VERCI'S BIRTHDAY PARTY!!!\nWe're celebrating Verci's fourth birthday the only way we know how: chartering a boat to Red Hook for a night at the Red Hook Pinball Museum.\n\nMeet at Verci at 6:45pm (or Stuyvesant Cove at 7:15pm) to catch the water taxi! Red Hook Pinball Museum at 8pm.\nExpect birthday cake, party hats, party favors, drinks, and unlimited pinball as we take over one of the coolest spots evah. Then we'll end the night exploring Red Hook with a little birthday bar crawl.\nWe'll have everything you need to celebrate Verci turning FOUR YEARS OLD!\nSee you there!!! \u2764\ufe0f",
       "startDate": "2026-08-28T22:45:00Z",
       "endDate": "2026-08-29T03:15:00Z",
       "category": [
@@ -251,15 +286,15 @@
         "community"
       ],
       "price": {
-        "amount": 0,
-        "type": "Free",
+        "amount": 15.0,
+        "type": "Paid",
         "currency": "USD",
-        "details": ""
+        "details": "General Admission"
       },
       "capacity": null,
-      "registrationRequired": null,
+      "registrationRequired": false,
       "tags": [],
-      "image": "",
+      "image": "events/luma-event-2a6ccaa5.jpg",
       "status": "upcoming",
       "metadata": {
         "source": "Google Calendar",
@@ -267,18 +302,25 @@
         "original_event_id": "_clr78bb791ilksad74qj0d32ed264j20clr6arjkecn6ot9edlgg",
         "organizer": {
           "name": "Verci Events",
+          "website": "https://luma.com/verci",
           "instagram": "",
           "email": "pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com"
         },
         "venue": {
           "name": "",
-          "address": "Red Hook Pinball Museum, 362 Van Brunt St, Brooklyn, NY 11231, USA",
+          "address": "Red Hook Pinball Museum\nRed Hook Pinball Museum, Brooklyn, New York",
           "type": "Offline"
         },
         "speakers": [],
         "social_links": [],
         "featured": false,
         "luma_source": true,
+        "luma_host": {
+          "name": "Verci Events",
+          "url": "https://luma.com/verci",
+          "image": "https://images.lumacdn.com/calendars/kw/d2a68898-7b2c-40c0-b2b7-27a313e1f6d2",
+          "type": "Organization"
+        },
         "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmI3OTFpbGtzYWQ3NHFqMGQzMmVkMjY0ajIwY2xyNmFyamtlY242b3Q5ZWRsZ2cgcGY2bzdkcmxmcmJobXBxbG1sdDdwMjE1ZTcwaTljam5AaQ"
       }
     },
@@ -288,7 +330,7 @@
       "type": "technology",
       "locationId": "",
       "communityId": "com_verci",
-      "description": "Get up-to-date information at: https://luma.com/dmyx24by\n\nAddress:\nCheck event page for more details.\n\nHosted by Verci",
+      "description": "About this event\nVerci, MongoDB Ventures, and JPMorgan are hosting a private, curated dinner for a select group of idea to series a founders building in nyc\nMore about the hosts\nMongoDB Ventures is the strategic corporate venture capital arm of MongoDB, Inc. Headquartered in New York City, it invests in early-stage and high-growth startups building developer tools, infrastructure software, and foundational data/AI technologies\nJPMorgan Chase & Co. is the largest bank in the United States and a leading global financial services firm. Headquartered in New York City, it operates in over 100 countries, offering investment banking, asset management, treasury services, and retail banking through the Chase brand.\nVerci is a workspace and social space in NYC (and soon LA/SF), meticulously curated for founders, artists, and creatives. Learn more at verci.com and read our manifesto at verci.com/manifesto.",
       "startDate": "2026-08-28T23:00:00Z",
       "endDate": "2026-08-29T01:00:00Z",
       "category": [
@@ -298,15 +340,15 @@
         "community"
       ],
       "price": {
-        "amount": 0,
+        "amount": 0.0,
         "type": "Free",
         "currency": "USD",
-        "details": ""
+        "details": "General Admission"
       },
       "capacity": null,
-      "registrationRequired": null,
+      "registrationRequired": false,
       "tags": [],
-      "image": "",
+      "image": "events/luma-event-3e2d921f.jpg",
       "status": "upcoming",
       "metadata": {
         "source": "Google Calendar",
@@ -314,18 +356,25 @@
         "original_event_id": "_clr78bb38p472kqje12mkib5dlrmmhq0clr6arjkecn6ot9edlgg",
         "organizer": {
           "name": "Verci Events",
+          "website": "https://luma.com/verci",
           "instagram": "",
           "email": "pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com"
         },
         "venue": {
           "name": "",
-          "address": "https://luma.com/event/evt-cFHqSSpEjIemwkG",
+          "address": "New York, NY\nNew York, New York",
           "type": "Offline"
         },
         "speakers": [],
         "social_links": [],
         "featured": false,
         "luma_source": true,
+        "luma_host": {
+          "name": "Verci Events",
+          "url": "https://luma.com/verci",
+          "image": "https://images.lumacdn.com/calendars/kw/d2a68898-7b2c-40c0-b2b7-27a313e1f6d2",
+          "type": "Organization"
+        },
         "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmIzOHA0NzJrcWplMTJta2liNWRscm1taHEwY2xyNmFyamtlY242b3Q5ZWRsZ2cgcGY2bzdkcmxmcmJobXBxbG1sdDdwMjE1ZTcwaTljam5AaQ"
       }
     },
@@ -335,7 +384,7 @@
       "type": "technology",
       "locationId": "",
       "communityId": "com_verci",
-      "description": "Get up-to-date information at: https://luma.com/dh20272x\n\nAddress:\nVerci Flatiron\nNew York, NY\nUnited States\n\nHosted by Verci",
+      "description": "Join us for the sixth workshop in our Makerspace Series!\nWe're celebrating the opening of our new makerspace with a series of hands-on workshops exploring different creative practices.\nWorkshop 06: In this workshop, you'll learn the fundamentals of stained glass and create your own one-of-a-kind piece to take home. We'll guide you through the process of cutting glass, shaping your design, foiling, and soldering your piece together. Whether you're drawn to bold geometric forms or something a little more organic, you'll have the freedom to make a design that's uniquely yours.",
       "startDate": "2026-08-29T18:00:00Z",
       "endDate": "2026-08-29T21:00:00Z",
       "category": [
@@ -345,15 +394,15 @@
         "community"
       ],
       "price": {
-        "amount": 0,
-        "type": "Free",
+        "amount": 15.0,
+        "type": "Paid",
         "currency": "USD",
-        "details": ""
+        "details": "General Admission"
       },
       "capacity": null,
-      "registrationRequired": null,
+      "registrationRequired": false,
       "tags": [],
-      "image": "",
+      "image": "events/luma-event-c15256b7.jpg",
       "status": "upcoming",
       "metadata": {
         "source": "Google Calendar",
@@ -361,18 +410,25 @@
         "original_event_id": "_clr78bb4adolekr269bnkkqq6dlnghq0clr6arjkecn6ot9edlgg",
         "organizer": {
           "name": "Verci Events",
+          "website": "https://luma.com/verci",
           "instagram": "",
           "email": "pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com"
         },
         "venue": {
           "name": "",
-          "address": "Verci Flatiron, 45 E 20th St, New York, NY 10003, USA",
+          "address": "Verci Flatiron\nVerci Flatiron, New York, New York",
           "type": "Offline"
         },
         "speakers": [],
         "social_links": [],
         "featured": false,
         "luma_source": true,
+        "luma_host": {
+          "name": "Verci Events",
+          "url": "https://luma.com/verci",
+          "image": "https://images.lumacdn.com/calendars/kw/d2a68898-7b2c-40c0-b2b7-27a313e1f6d2",
+          "type": "Organization"
+        },
         "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmI0YWRvbGVrcjI2OWJua2txcTZkbG5naHEwY2xyNmFyamtlY242b3Q5ZWRsZ2cgcGY2bzdkcmxmcmJobXBxbG1sdDdwMjE1ZTcwaTljam5AaQ"
       }
     },
@@ -398,7 +454,7 @@
         "details": ""
       },
       "capacity": null,
-      "registrationRequired": null,
+      "registrationRequired": false,
       "tags": [],
       "image": "",
       "status": "upcoming",
@@ -408,6 +464,7 @@
         "original_event_id": "_cdgmopbm5lm4kgpj8somot2c8d948p2h6906atj5dpq76bjcekn6qo8",
         "organizer": {
           "name": "Verci Events",
+          "website": "",
           "instagram": "",
           "email": "pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com"
         },
@@ -420,6 +477,7 @@
         "social_links": [],
         "featured": false,
         "luma_source": true,
+        "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=X2NkZ21vcGJtNWxtNGtncGo4c29tb3QyYzhkOTQ4cDJoNjkwNmF0ajVkcHE3NmJqY2VrbjZxbzggcGY2bzdkcmxmcmJobXBxbG1sdDdwMjE1ZTcwaTljam5AaQ"
       }
     },
@@ -429,7 +487,7 @@
       "type": "technology",
       "locationId": "",
       "communityId": "com_verci",
-      "description": "Get up-to-date information at: https://luma.com/65teqknb\n\nAddress:\nCheck event page for more details.\n\nHosted by Verci",
+      "description": "About this event\nVerci is hosting a private, curated investor happy hour in NYC.\nMore about the hosts\nMercury is the fintech ambitious companies use for banking* and all their financial workflows. With a powerful account at the center of their operations, companies can make better financial decisions and ensure that every dollar spent aligns with company priorities. Over 300K startups choose Mercury to confidently run all their financial operations with the precision, control, and focus they need to operate at their best.  *Mercury is a fintech company, not an FDIC-insured bank. Banking services provided through Choice Financial Group and Column N.A., Members FDIC.\nHarmonic is the complete startup database. Used by hundreds of leading investors like Khosla, Lightspeed, and Founders Fund and GTM teams like OpenAI, Anthropic, and Google to find the next generation of startups and founders.\nVerci is a workspace and social space in NYC (and soon LA/SF), meticulously curated for founders, artists, and creatives. Learn more at verci.com and read our manifesto at verci.com/manifesto.",
       "startDate": "2026-09-01T23:00:00Z",
       "endDate": "2026-09-02T01:00:00Z",
       "category": [
@@ -439,15 +497,15 @@
         "community"
       ],
       "price": {
-        "amount": 0,
+        "amount": 0.0,
         "type": "Free",
         "currency": "USD",
-        "details": ""
+        "details": "General Admission"
       },
       "capacity": null,
-      "registrationRequired": null,
+      "registrationRequired": false,
       "tags": [],
-      "image": "",
+      "image": "events/luma-event-7f1e1be8.jpg",
       "status": "upcoming",
       "metadata": {
         "source": "Google Calendar",
@@ -455,18 +513,25 @@
         "original_event_id": "_clr78bb48lolck1ieks6qd2map66gua0clr6arjkecn6ot9edlgg",
         "organizer": {
           "name": "Verci Events",
+          "website": "https://luma.com/verci",
           "instagram": "",
           "email": "pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com"
         },
         "venue": {
           "name": "",
-          "address": "https://luma.com/event/evt-dEqVP2u8m4VVLhy",
+          "address": "New York, NY\nNew York, New York",
           "type": "Offline"
         },
         "speakers": [],
         "social_links": [],
         "featured": false,
         "luma_source": true,
+        "luma_host": {
+          "name": "Verci Events",
+          "url": "https://luma.com/verci",
+          "image": "https://images.lumacdn.com/calendars/kw/d2a68898-7b2c-40c0-b2b7-27a313e1f6d2",
+          "type": "Organization"
+        },
         "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmI0OGxvbGNrMWlla3M2cWQybWFwNjZndWEwY2xyNmFyamtlY242b3Q5ZWRsZ2cgcGY2bzdkcmxmcmJobXBxbG1sdDdwMjE1ZTcwaTljam5AaQ"
       }
     },
@@ -476,7 +541,7 @@
       "type": "technology",
       "locationId": "",
       "communityId": "com_verci",
-      "description": "Get up-to-date information at: https://luma.com/21ej6v8q\n\nAddress:\n45 E 20th St floor 12\nNew York, New York\nUnited States\n\nHosted by Verci",
+      "description": "Stop by the weekly Verci Cafe for drinks on the house!",
       "startDate": "2026-09-02T15:00:00Z",
       "endDate": "2026-09-02T20:00:00Z",
       "category": [
@@ -486,15 +551,15 @@
         "community"
       ],
       "price": {
-        "amount": 0,
+        "amount": 0.0,
         "type": "Free",
         "currency": "USD",
-        "details": ""
+        "details": "General Admission"
       },
       "capacity": null,
-      "registrationRequired": null,
+      "registrationRequired": false,
       "tags": [],
-      "image": "",
+      "image": "events/luma-event-5d013f69.jpg",
       "status": "upcoming",
       "metadata": {
         "source": "Google Calendar",
@@ -502,18 +567,25 @@
         "original_event_id": "_clr78bbm89178cieahil0l2i6plmgp20clr6arjkecn6ot9edlgg",
         "organizer": {
           "name": "Verci Events",
+          "website": "https://luma.com/verci",
           "instagram": "",
           "email": "pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com"
         },
         "venue": {
           "name": "",
-          "address": "45 E 20th St floor 12, New York, NY 10003, USA",
+          "address": "45 E 20th St floor 12\n45 E 20th St floor 12, New York, New York",
           "type": "Offline"
         },
         "speakers": [],
         "social_links": [],
         "featured": false,
         "luma_source": true,
+        "luma_host": {
+          "name": "Verci Events",
+          "url": "https://luma.com/verci",
+          "image": "https://images.lumacdn.com/calendars/kw/d2a68898-7b2c-40c0-b2b7-27a313e1f6d2",
+          "type": "Organization"
+        },
         "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmJtODkxNzhjaWVhaGlsMGwyaTZwbG1ncDIwY2xyNmFyamtlY242b3Q5ZWRsZ2cgcGY2bzdkcmxmcmJobXBxbG1sdDdwMjE1ZTcwaTljam5AaQ"
       }
     },
@@ -523,7 +595,7 @@
       "type": "technology",
       "locationId": "",
       "communityId": "com_verci",
-      "description": "Get up-to-date information at: https://luma.com/ur2whgcc\n\nAddress:\nCheck event page for more details.\n\nHosted by Verci",
+      "description": "About this event\nVerci and Concord Visa are hosting a private, curated dinner for a select group of international founders building in NYC.\nMore about the hosts\nConcord Visa specializes in supporting high-growth startups and founders who need fast, accurate, practical support across the US, UK, Canada, New Zealand, and Australia - not the runaround from traditional law firms. Whether you're expanding into the globally or stacking your ANZ team with global talent, we handle the immigration so you don't have to. Having secured 3,250+ approvals, we know how to turn your achievements into a winning narrative and position you for long-term success. From strategy to case-building and challenge-proofing, we do the heavy lifting so you can focus on your goals.\nVerci is a workspace and social space in NYC (and soon LA/SF), meticulously curated for founders, artists, and creatives. Learn more at verci.com and read our manifesto at verci.com/manifesto.",
       "startDate": "2026-09-08T23:00:00Z",
       "endDate": "2026-09-09T01:00:00Z",
       "category": [
@@ -533,15 +605,15 @@
         "community"
       ],
       "price": {
-        "amount": 0,
+        "amount": 0.0,
         "type": "Free",
         "currency": "USD",
-        "details": ""
+        "details": "General Admission"
       },
       "capacity": null,
-      "registrationRequired": null,
+      "registrationRequired": false,
       "tags": [],
-      "image": "",
+      "image": "events/luma-event-708f0fe3.jpg",
       "status": "upcoming",
       "metadata": {
         "source": "Google Calendar",
@@ -549,18 +621,25 @@
         "original_event_id": "_clr78bb2f593ghr9etmmqir6dpbj0li0clr6arjkecn6ot9edlgg",
         "organizer": {
           "name": "Verci Events",
+          "website": "https://luma.com/verci",
           "instagram": "",
           "email": "pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com"
         },
         "venue": {
           "name": "",
-          "address": "https://luma.com/event/evt-byR8GiwmmKfnW0V",
+          "address": "New York, NY\nNew York, New York",
           "type": "Offline"
         },
         "speakers": [],
         "social_links": [],
         "featured": false,
         "luma_source": true,
+        "luma_host": {
+          "name": "Verci Events",
+          "url": "https://luma.com/verci",
+          "image": "https://images.lumacdn.com/calendars/kw/d2a68898-7b2c-40c0-b2b7-27a313e1f6d2",
+          "type": "Organization"
+        },
         "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmIyZjU5M2docjlldG1tcWlyNmRwYmowbGkwY2xyNmFyamtlY242b3Q5ZWRsZ2cgcGY2bzdkcmxmcmJobXBxbG1sdDdwMjE1ZTcwaTljam5AaQ"
       }
     },
@@ -570,7 +649,7 @@
       "type": "technology",
       "locationId": "",
       "communityId": "com_verci",
-      "description": "Get up-to-date information at: https://luma.com/iturq09e\n\nAddress:\n45 E 20th St floor 12\nNew York, New York\nUnited States\n\nHosted by Verci",
+      "description": "Stop by the weekly Verci Cafe for drinks on the house!",
       "startDate": "2026-09-09T15:00:00Z",
       "endDate": "2026-09-09T20:00:00Z",
       "category": [
@@ -580,15 +659,15 @@
         "community"
       ],
       "price": {
-        "amount": 0,
+        "amount": 0.0,
         "type": "Free",
         "currency": "USD",
-        "details": ""
+        "details": "General Admission"
       },
       "capacity": null,
-      "registrationRequired": null,
+      "registrationRequired": false,
       "tags": [],
-      "image": "",
+      "image": "events/luma-event-5d013f69.jpg",
       "status": "upcoming",
       "metadata": {
         "source": "Google Calendar",
@@ -596,18 +675,25 @@
         "original_event_id": "_clr78bbpali6uqil65144lahdgrmgmi0clr6arjkecn6ot9edlgg",
         "organizer": {
           "name": "Verci Events",
+          "website": "https://luma.com/verci",
           "instagram": "",
           "email": "pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com"
         },
         "venue": {
           "name": "",
-          "address": "45 E 20th St floor 12, New York, NY 10003, USA",
+          "address": "45 E 20th St floor 12\n45 E 20th St floor 12, New York, New York",
           "type": "Offline"
         },
         "speakers": [],
         "social_links": [],
         "featured": false,
         "luma_source": true,
+        "luma_host": {
+          "name": "Verci Events",
+          "url": "https://luma.com/verci",
+          "image": "https://images.lumacdn.com/calendars/kw/d2a68898-7b2c-40c0-b2b7-27a313e1f6d2",
+          "type": "Organization"
+        },
         "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmJwYWxpNnVxaWw2NTE0NGxhaGRncm1nbWkwY2xyNmFyamtlY242b3Q5ZWRsZ2cgcGY2bzdkcmxmcmJobXBxbG1sdDdwMjE1ZTcwaTljam5AaQ"
       }
     },
@@ -617,7 +703,7 @@
       "type": "technology",
       "locationId": "",
       "communityId": "com_verci",
-      "description": "Get up-to-date information at: https://luma.com/0vre1tnf\n\nAddress:\n45 E 20th St floor 12\nNew York, New York\nUnited States\n\nHosted by Verci",
+      "description": "Stop by the weekly Verci Cafe for drinks on the house!",
       "startDate": "2026-09-16T15:00:00Z",
       "endDate": "2026-09-16T20:00:00Z",
       "category": [
@@ -627,15 +713,15 @@
         "community"
       ],
       "price": {
-        "amount": 0,
+        "amount": 0.0,
         "type": "Free",
         "currency": "USD",
-        "details": ""
+        "details": "General Admission"
       },
       "capacity": null,
-      "registrationRequired": null,
+      "registrationRequired": false,
       "tags": [],
-      "image": "",
+      "image": "events/luma-event-5d013f69.jpg",
       "status": "upcoming",
       "metadata": {
         "source": "Google Calendar",
@@ -643,18 +729,25 @@
         "original_event_id": "_clr78b9lapb4ali6et0k6ha3cls4kji0clr6arjkecn6ot9edlgg",
         "organizer": {
           "name": "Verci Events",
+          "website": "https://luma.com/verci",
           "instagram": "",
           "email": "pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com"
         },
         "venue": {
           "name": "",
-          "address": "45 E 20th St floor 12, New York, NY 10003, USA",
+          "address": "45 E 20th St floor 12\n45 E 20th St floor 12, New York, New York",
           "type": "Offline"
         },
         "speakers": [],
         "social_links": [],
         "featured": false,
         "luma_source": true,
+        "luma_host": {
+          "name": "Verci Events",
+          "url": "https://luma.com/verci",
+          "image": "https://images.lumacdn.com/calendars/kw/d2a68898-7b2c-40c0-b2b7-27a313e1f6d2",
+          "type": "Organization"
+        },
         "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YjlsYXBiNGFsaTZldDBrNmhhM2NsczRramkwY2xyNmFyamtlY242b3Q5ZWRsZ2cgcGY2bzdkcmxmcmJobXBxbG1sdDdwMjE1ZTcwaTljam5AaQ"
       }
     },
@@ -664,7 +757,7 @@
       "type": "technology",
       "locationId": "",
       "communityId": "com_verci",
-      "description": "Get up-to-date information at: https://luma.com/w3vfka3o\n\nAddress:\n45 E 20th St floor 12\nNew York, New York\nUnited States\n\nHosted by Verci",
+      "description": "Stop by the weekly Verci Cafe for drinks on the house!",
       "startDate": "2026-09-23T15:00:00Z",
       "endDate": "2026-09-23T20:00:00Z",
       "category": [
@@ -674,15 +767,15 @@
         "community"
       ],
       "price": {
-        "amount": 0,
+        "amount": 0.0,
         "type": "Free",
         "currency": "USD",
-        "details": ""
+        "details": "General Admission"
       },
       "capacity": null,
-      "registrationRequired": null,
+      "registrationRequired": false,
       "tags": [],
-      "image": "",
+      "image": "events/luma-event-5d013f69.jpg",
       "status": "upcoming",
       "metadata": {
         "source": "Google Calendar",
@@ -690,18 +783,25 @@
         "original_event_id": "_clr78bbkep37ikqmb1rk6mi26orkaca0clr6arjkecn6ot9edlgg",
         "organizer": {
           "name": "Verci Events",
+          "website": "https://luma.com/verci",
           "instagram": "",
           "email": "pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com"
         },
         "venue": {
           "name": "",
-          "address": "45 E 20th St floor 12, New York, NY 10003, USA",
+          "address": "45 E 20th St floor 12\n45 E 20th St floor 12, New York, New York",
           "type": "Offline"
         },
         "speakers": [],
         "social_links": [],
         "featured": false,
         "luma_source": true,
+        "luma_host": {
+          "name": "Verci Events",
+          "url": "https://luma.com/verci",
+          "image": "https://images.lumacdn.com/calendars/kw/d2a68898-7b2c-40c0-b2b7-27a313e1f6d2",
+          "type": "Organization"
+        },
         "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmJrZXAzN2lrcW1iMXJrNm1pMjZvcmthY2EwY2xyNmFyamtlY242b3Q5ZWRsZ2cgcGY2bzdkcmxmcmJobXBxbG1sdDdwMjE1ZTcwaTljam5AaQ"
       }
     },
@@ -711,7 +811,7 @@
       "type": "technology",
       "locationId": "",
       "communityId": "com_verci",
-      "description": "Get up-to-date information at: https://luma.com/wxce9s4q\n\nAddress:\nCheck event page for more details.\n\nHosted by Verci",
+      "description": "About this event\nVerci, Imaginary Ventures, and Mercury are hosting a private, curated dinner for a select group of consumer founders building in NYC\nMore about the hosts\nImaginary Ventures is a leading venture capital firm dedicated to building and partnering with iconic, generationally-defining consumer businesses \u2013 and select enabling technology businesses.\nMercury is the fintech ambitious companies use for banking* and all their financial workflows. With a powerful account at the center of their operations, companies can make better financial decisions and ensure that every dollar spent aligns with company priorities. Over 300K startups choose Mercury to confidently run all their financial operations with the precision, control, and focus they need to operate at their best. *Mercury is a fintech company, not an FDIC-insured bank. Banking services provided through Choice Financial Group and Column N.A., Members FDIC.\nVerci is a workspace and social space in NYC (and soon LA/SF), meticulously curated for founders, artists, and creatives. Learn more at verci.com and read our manifesto at verci.com/manifesto.",
       "startDate": "2026-09-29T23:00:00Z",
       "endDate": "2026-09-30T01:00:00Z",
       "category": [
@@ -721,15 +821,15 @@
         "community"
       ],
       "price": {
-        "amount": 0,
+        "amount": 0.0,
         "type": "Free",
         "currency": "USD",
-        "details": ""
+        "details": "General Admission"
       },
       "capacity": null,
-      "registrationRequired": null,
+      "registrationRequired": false,
       "tags": [],
-      "image": "",
+      "image": "events/luma-event-7f1e1be8.jpg",
       "status": "upcoming",
       "metadata": {
         "source": "Google Calendar",
@@ -737,18 +837,25 @@
         "original_event_id": "_clr78bbhb917iribf4s58m9h8op50u20clr6arjkecn6ot9edlgg",
         "organizer": {
           "name": "Verci Events",
+          "website": "https://luma.com/verci",
           "instagram": "",
           "email": "pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com"
         },
         "venue": {
           "name": "",
-          "address": "https://luma.com/event/evt-qZBynKy8TY1F2Px",
+          "address": "New York, NY\nNew York, New York",
           "type": "Offline"
         },
         "speakers": [],
         "social_links": [],
         "featured": false,
         "luma_source": true,
+        "luma_host": {
+          "name": "Verci Events",
+          "url": "https://luma.com/verci",
+          "image": "https://images.lumacdn.com/calendars/kw/d2a68898-7b2c-40c0-b2b7-27a313e1f6d2",
+          "type": "Organization"
+        },
         "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmJoYjkxN2lyaWJmNHM1OG05aDhvcDUwdTIwY2xyNmFyamtlY242b3Q5ZWRsZ2cgcGY2bzdkcmxmcmJobXBxbG1sdDdwMjE1ZTcwaTljam5AaQ"
       }
     },
@@ -758,7 +865,7 @@
       "type": "technology",
       "locationId": "",
       "communityId": "com_verci",
-      "description": "Get up-to-date information at: https://luma.com/dw2ftfkd\n\nAddress:\n45 E 20th St floor 12\nNew York, New York\nUnited States\n\nHosted by Verci",
+      "description": "Stop by the weekly Verci Cafe for drinks on the house!",
       "startDate": "2026-09-30T15:00:00Z",
       "endDate": "2026-09-30T20:00:00Z",
       "category": [
@@ -768,15 +875,15 @@
         "community"
       ],
       "price": {
-        "amount": 0,
+        "amount": 0.0,
         "type": "Free",
         "currency": "USD",
-        "details": ""
+        "details": "General Admission"
       },
       "capacity": null,
-      "registrationRequired": null,
+      "registrationRequired": false,
       "tags": [],
-      "image": "",
+      "image": "events/luma-event-5d013f69.jpg",
       "status": "upcoming",
       "metadata": {
         "source": "Google Calendar",
@@ -784,18 +891,25 @@
         "original_event_id": "_clr78babaps5grpmedt3gs3169h7ic20clr6arjkecn6ot9edlgg",
         "organizer": {
           "name": "Verci Events",
+          "website": "https://luma.com/verci",
           "instagram": "",
           "email": "pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com"
         },
         "venue": {
           "name": "",
-          "address": "45 E 20th St floor 12, New York, NY 10003, USA",
+          "address": "45 E 20th St floor 12\n45 E 20th St floor 12, New York, New York",
           "type": "Offline"
         },
         "speakers": [],
         "social_links": [],
         "featured": false,
         "luma_source": true,
+        "luma_host": {
+          "name": "Verci Events",
+          "url": "https://luma.com/verci",
+          "image": "https://images.lumacdn.com/calendars/kw/d2a68898-7b2c-40c0-b2b7-27a313e1f6d2",
+          "type": "Organization"
+        },
         "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmFiYXBzNWdycG1lZHQzZ3MzMTY5aDdpYzIwY2xyNmFyamtlY242b3Q5ZWRsZ2cgcGY2bzdkcmxmcmJobXBxbG1sdDdwMjE1ZTcwaTljam5AaQ"
       }
     },
@@ -805,7 +919,7 @@
       "type": "technology",
       "locationId": "",
       "communityId": "com_verci",
-      "description": "Get up-to-date information at: https://luma.com/yufjrrdd\n\nAddress:\n45 E 20th St floor 12\nNew York, New York\nUnited States\n\nHosted by Verci",
+      "description": "Stop by the weekly Verci Cafe for drinks on the house!",
       "startDate": "2026-10-07T15:00:00Z",
       "endDate": "2026-10-07T20:00:00Z",
       "category": [
@@ -815,15 +929,15 @@
         "community"
       ],
       "price": {
-        "amount": 0,
+        "amount": 0.0,
         "type": "Free",
         "currency": "USD",
-        "details": ""
+        "details": "General Admission"
       },
       "capacity": null,
-      "registrationRequired": null,
+      "registrationRequired": false,
       "tags": [],
-      "image": "",
+      "image": "events/luma-event-5d013f69.jpg",
       "status": "upcoming",
       "metadata": {
         "source": "Google Calendar",
@@ -831,21 +945,28 @@
         "original_event_id": "_clr78b9pb5jk8e3hddd5ilrocts5ah20clr6arjkecn6ot9edlgg",
         "organizer": {
           "name": "Verci Events",
+          "website": "https://luma.com/verci",
           "instagram": "",
           "email": "pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com"
         },
         "venue": {
           "name": "",
-          "address": "45 E 20th St floor 12, New York, NY 10003, USA",
+          "address": "45 E 20th St floor 12\n45 E 20th St floor 12, New York, New York",
           "type": "Offline"
         },
         "speakers": [],
         "social_links": [],
         "featured": false,
         "luma_source": true,
+        "luma_host": {
+          "name": "Verci Events",
+          "url": "https://luma.com/verci",
+          "image": "https://images.lumacdn.com/calendars/kw/d2a68898-7b2c-40c0-b2b7-27a313e1f6d2",
+          "type": "Organization"
+        },
         "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YjlwYjVqazhlM2hkZGQ1aWxyb2N0czVhaDIwY2xyNmFyamtlY242b3Q5ZWRsZ2cgcGY2bzdkcmxmcmJobXBxbG1sdDdwMjE1ZTcwaTljam5AaQ"
       }
     }
   ],
-  "timestamp": "2026-08-16T15:29:54.359107"
+  "timestamp": "2026-08-17T08:34:11.463807"
 }

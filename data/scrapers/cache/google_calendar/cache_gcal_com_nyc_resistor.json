@@ -1,108 +1,6 @@
 {
   "events": [
     {
-      "id": "evt_gcal_com_nyc_resistor_0d88ffe5",
-      "name": "Unnamed Event",
-      "type": "hackerspace",
-      "locationId": "loc_nyc_resistor",
-      "communityId": "com_nyc_resistor",
-      "description": "",
-      "startDate": "2026-08-16T12:00:00-04:00",
-      "endDate": "2026-08-16T16:00:00-04:00",
-      "category": [
-        "hackerspace",
-        "maker",
-        "hardware",
-        "electronics",
-        "laser cutting",
-        "3d printing",
-        "microcontrollers",
-        "robotics"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": null,
-      "tags": [],
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source": "Google Calendar",
-        "source_url": "https://www.google.com/calendar/event?eid=XzY5MzQ0ZGExNnAxazhiOWg2MHEzMmI5azZncjQ0YjlwNmgzNDRiYTU3MTI0MmNwcDZnb2s0Y3BtOGcgcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw",
-        "original_event_id": "_69344da16p1k8b9h60q32b9k6gr44b9p6h344ba571242cpp6gok4cpm8g",
-        "organizer": {
-          "name": "NYC Resistor",
-          "instagram": "",
-          "email": ""
-        },
-        "venue": {
-          "name": "",
-          "address": "",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false,
-        "google_calendar_link": "https://www.google.com/calendar/event?eid=XzY5MzQ0ZGExNnAxazhiOWg2MHEzMmI5azZncjQ0YjlwNmgzNDRiYTU3MTI0MmNwcDZnb2s0Y3BtOGcgcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw"
-      }
-    },
-    {
-      "id": "evt_gcal_com_nyc_resistor_e1243d3c",
-      "name": "Learn to Use a Laser Cutter to Cut and Etch Your Own Designs",
-      "type": "hackerspace",
-      "locationId": "loc_nyc_resistor",
-      "communityId": "com_nyc_resistor",
-      "description": "RSVP https://www.eventbrite.com/e/learn-to-use-a-laser-cutter-to-cut-and-etch-your-own-designs-tickets-1994510846633\n\nHarness the power of an Epilog 60 Watt Laser! In this class you&#39;ll learn everything you need.Harness the power of an Epilog 60 Watt Laser! In this class you'll learn everything you need to know to make the ideas in your head become a reality with a laser.\nIn this three hour class, you will learn:\nHow to set up a file for cutting on the laser cutter in Inkscape or Adobe Illustrator.Laser cutter safety including materials testing.Laser cutter operation including configuration, cuts and raster etching in common materials like wood, acrylic, cardboard and others.At the end of class, you will go home with:\nOne laser cut project, either the class default or a simple one of your own design (see below for details)Resistor Laser Certification, enabling you to use our laser on Craft Nights.Please bring the following to class:\nA laptop with either Inkscape (free: download here: https://inkscape.org/release/inkscape-1.2.1/) or Adobe Illustrator installed.\nA USB jump drive\nThe following items are optional if you'd like to try cutting a simple custom design. If your file ends up being too complicated, we may have you do the class default project first, just to learn the laser in the time allotted - but we'll definitely help you with your more complex cut at a free Craft Night in future!\nAn SVG vector file of a simple shape you'd like to cut for your first cut.A piece of 1/8 inch or thinner wood, acrylic or cardboard you'd like to cut. If you can't bring your own material, small pieces will be made available, or larger pieces for purchase on site.Please be on time for the start of class! If you're late you will miss your slot.\nThis class will be taught by NYC Resistor member Woody. As with all NYC Resistor events, this class is 18+ and governed by our Code of Conduct. The Code of Conduct, as well as accessibility information, can be found at www.nycresistor.com/participate/.\nPlease note that refunds must be requested 72 hours in advance. If you have any questions, please email classes@nycresistor.com.\nThis program is supported, in part, by public funds from the New York City Department of Cultural Affairs in partnership with the City Council.\n",
-      "startDate": "2026-08-16T13:00:00-04:00",
-      "endDate": "2026-08-16T16:00:00-04:00",
-      "category": [
-        "hackerspace",
-        "maker",
-        "hardware",
-        "electronics",
-        "laser cutting",
-        "3d printing",
-        "microcontrollers",
-        "robotics"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": true,
-      "tags": [],
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source": "Google Calendar",
-        "source_url": "https://www.eventbrite.com/e/learn-to-use-a-laser-cutter-to-cut-and-etch-your-own-designs-tickets-1994510846633",
-        "original_event_id": "dscakudvkuq82bsklm5lie8sjc",
-        "organizer": {
-          "name": "NYCResistor",
-          "instagram": "",
-          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "NYC Resistor\n87 Third Avenue\nBrooklyn, NY 11217",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false,
-        "google_calendar_link": "https://www.google.com/calendar/event?eid=ZHNjYWt1ZHZrdXE4MmJza2xtNWxpZThzamMgcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw"
-      }
-    },
-    {
       "id": "evt_gcal_com_nyc_resistor_b1609c7c",
       "name": "Public Craft Night Mondays and Thursdays!",
       "type": "hackerspace",
@@ -138,6 +36,7 @@
         "original_event_id": "7sp8hjo428vlkj174338uequqh",
         "organizer": {
           "name": "NYCResistor",
+          "website": "",
           "instagram": "",
           "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
         },
@@ -150,6 +49,7 @@
         "social_links": [],
         "featured": false,
         "luma_source": false,
+        "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=N3NwOGhqbzQyOHZsa2oxNzQzMzh1ZXF1cWggcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw"
       }
     },
@@ -189,6 +89,7 @@
         "original_event_id": "5drvfddp7oauj5uk69ik5dv511_20260818",
         "organizer": {
           "name": "NYCResistor",
+          "website": "",
           "instagram": "",
           "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
         },
@@ -201,58 +102,8 @@
         "social_links": [],
         "featured": false,
         "luma_source": false,
+        "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=NWRydmZkZHA3b2F1ajV1azY5aWs1ZHY1MTFfMjAyNjA4MTggcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw"
-      }
-    },
-    {
-      "id": "evt_gcal_com_nyc_resistor_b0914f41",
-      "name": "Unnamed Event",
-      "type": "hackerspace",
-      "locationId": "loc_nyc_resistor",
-      "communityId": "com_nyc_resistor",
-      "description": "",
-      "startDate": "2026-08-18T20:00:00-04:00",
-      "endDate": "2026-08-18T21:00:00-04:00",
-      "category": [
-        "hackerspace",
-        "maker",
-        "hardware",
-        "electronics",
-        "laser cutting",
-        "3d printing",
-        "microcontrollers",
-        "robotics"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": null,
-      "tags": [],
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source": "Google Calendar",
-        "source_url": "https://www.google.com/calendar/event?eid=cDRmMTAwMWFucDFnaWlqazBpajJtNjM2djFfMjAyNjA4MTlUMDAwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn",
-        "original_event_id": "p4f1001anp1giijk0ij2m636v1_20260819T000000Z",
-        "organizer": {
-          "name": "NYC Resistor",
-          "instagram": "",
-          "email": ""
-        },
-        "venue": {
-          "name": "",
-          "address": "",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false,
-        "google_calendar_link": "https://www.google.com/calendar/event?eid=cDRmMTAwMWFucDFnaWlqazBpajJtNjM2djFfMjAyNjA4MTlUMDAwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn"
       }
     },
     {
@@ -291,6 +142,7 @@
         "original_event_id": "1g5dt0s2jb9qca1mcjmi6nci8e_20260819T223000Z",
         "organizer": {
           "name": "NYCResistor",
+          "website": "",
           "instagram": "",
           "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
         },
@@ -303,6 +155,7 @@
         "social_links": [],
         "featured": false,
         "luma_source": false,
+        "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=MWc1ZHQwczJqYjlxY2ExbWNqbWk2bmNpOGVfMjAyNjA4MTlUMjIzMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn"
       }
     },
@@ -342,6 +195,7 @@
         "original_event_id": "km6oh4240hnsc7pdiirld0t1j8",
         "organizer": {
           "name": "NYCResistor",
+          "website": "",
           "instagram": "",
           "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
         },
@@ -354,6 +208,7 @@
         "social_links": [],
         "featured": false,
         "luma_source": false,
+        "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=a202b2g0MjQwaG5zYzdwZGlpcmxkMHQxajggcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw"
       }
     },
@@ -393,6 +248,7 @@
         "original_event_id": "4j4l3mnari5thmc7d5oq856tec",
         "organizer": {
           "name": "NYCResistor",
+          "website": "",
           "instagram": "",
           "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
         },
@@ -405,6 +261,7 @@
         "social_links": [],
         "featured": false,
         "luma_source": false,
+        "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=NGo0bDNtbmFyaTV0aG1jN2Q1b3E4NTZ0ZWMgcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw"
       }
     },
@@ -444,6 +301,7 @@
         "original_event_id": "0d18do8hd55ecai395pa67nfa0",
         "organizer": {
           "name": "NYCResistor",
+          "website": "",
           "instagram": "",
           "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
         },
@@ -456,6 +314,7 @@
         "social_links": [],
         "featured": false,
         "luma_source": false,
+        "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=MGQxOGRvOGhkNTVlY2FpMzk1cGE2N25mYTAgcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw"
       }
     },
@@ -495,6 +354,7 @@
         "original_event_id": "07f0t995mb8i7eut3ivojkm3ps",
         "organizer": {
           "name": "NYCResistor",
+          "website": "",
           "instagram": "",
           "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
         },
@@ -507,6 +367,7 @@
         "social_links": [],
         "featured": false,
         "luma_source": false,
+        "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=MDdmMHQ5OTVtYjhpN2V1dDNpdm9qa20zcHMgcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw"
       }
     },
@@ -546,6 +407,7 @@
         "original_event_id": "v6l9ic5mp8m0u84jisldnmtt50",
         "organizer": {
           "name": "NYCResistor",
+          "website": "",
           "instagram": "",
           "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
         },
@@ -558,6 +420,7 @@
         "social_links": [],
         "featured": false,
         "luma_source": false,
+        "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=djZsOWljNW1wOG0wdTg0amlzbGRubXR0NTAgcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw"
       }
     },
@@ -597,6 +460,7 @@
         "original_event_id": "3ggbfujm5u678he9if6qm8o2bo",
         "organizer": {
           "name": "NYCResistor",
+          "website": "",
           "instagram": "",
           "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
         },
@@ -609,109 +473,8 @@
         "social_links": [],
         "featured": false,
         "luma_source": false,
+        "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=M2dnYmZ1am01dTY3OGhlOWlmNnFtOG8yYm8gcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw"
-      }
-    },
-    {
-      "id": "evt_gcal_com_nyc_resistor_15412f30",
-      "name": "Unnamed Event",
-      "type": "hackerspace",
-      "locationId": "loc_nyc_resistor",
-      "communityId": "com_nyc_resistor",
-      "description": "",
-      "startDate": "2026-08-25T11:00:00-04:00",
-      "endDate": "2026-08-25T15:00:00-04:00",
-      "category": [
-        "hackerspace",
-        "maker",
-        "hardware",
-        "electronics",
-        "laser cutting",
-        "3d printing",
-        "microcontrollers",
-        "robotics"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": null,
-      "tags": [],
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source": "Google Calendar",
-        "source_url": "https://www.google.com/calendar/event?eid=Xzg1Mms2ZDlnNmgzNDJiOWc4OHEzNGI5azZoMjMyYmEyOGQzMzhiYTY2NG8zZ2U5bDc0bzQ4Z3BnNm9fMjAyNjA4MjVUMTUwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn",
-        "original_event_id": "_852k6d9g6h342b9g88q34b9k6h232ba28d338ba664o3ge9l74o48gpg6o_20260825T150000Z",
-        "organizer": {
-          "name": "NYC Resistor",
-          "instagram": "",
-          "email": ""
-        },
-        "venue": {
-          "name": "",
-          "address": "",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false,
-        "google_calendar_link": "https://www.google.com/calendar/event?eid=Xzg1Mms2ZDlnNmgzNDJiOWc4OHEzNGI5azZoMjMyYmEyOGQzMzhiYTY2NG8zZ2U5bDc0bzQ4Z3BnNm9fMjAyNjA4MjVUMTUwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn"
-      }
-    },
-    {
-      "id": "evt_gcal_com_nyc_resistor_78e529f0",
-      "name": "Unnamed Event",
-      "type": "hackerspace",
-      "locationId": "loc_nyc_resistor",
-      "communityId": "com_nyc_resistor",
-      "description": "",
-      "startDate": "2026-08-25T20:00:00-04:00",
-      "endDate": "2026-08-25T21:00:00-04:00",
-      "category": [
-        "hackerspace",
-        "maker",
-        "hardware",
-        "electronics",
-        "laser cutting",
-        "3d printing",
-        "microcontrollers",
-        "robotics"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": null,
-      "tags": [],
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source": "Google Calendar",
-        "source_url": "https://www.google.com/calendar/event?eid=cDRmMTAwMWFucDFnaWlqazBpajJtNjM2djFfMjAyNjA4MjZUMDAwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn",
-        "original_event_id": "p4f1001anp1giijk0ij2m636v1_20260826T000000Z",
-        "organizer": {
-          "name": "NYC Resistor",
-          "instagram": "",
-          "email": ""
-        },
-        "venue": {
-          "name": "",
-          "address": "",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false,
-        "google_calendar_link": "https://www.google.com/calendar/event?eid=cDRmMTAwMWFucDFnaWlqazBpajJtNjM2djFfMjAyNjA4MjZUMDAwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn"
       }
     },
     {
@@ -750,6 +513,7 @@
         "original_event_id": "09ardtd3elv466b4iak92jk1ne_20260826T010000Z",
         "organizer": {
           "name": "NYC Resistor",
+          "website": "",
           "instagram": "",
           "email": "opn.address@gmail.com"
         },
@@ -762,6 +526,7 @@
         "social_links": [],
         "featured": false,
         "luma_source": false,
+        "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=MDlhcmR0ZDNlbHY0NjZiNGlhazkyamsxbmVfMjAyNjA4MjZUMDEwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn"
       }
     },
@@ -801,6 +566,7 @@
         "original_event_id": "ce4s7de8b5nspm9kf8mhp3rdqs",
         "organizer": {
           "name": "NYCResistor",
+          "website": "",
           "instagram": "",
           "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
         },
@@ -813,6 +579,7 @@
         "social_links": [],
         "featured": false,
         "luma_source": false,
+        "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=Y2U0czdkZThiNW5zcG05a2Y4bWhwM3JkcXMgcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw"
       }
     },
@@ -852,6 +619,7 @@
         "original_event_id": "9d3b4gat6lqo6e6da0qqsg6l38",
         "organizer": {
           "name": "NYCResistor",
+          "website": "",
           "instagram": "",
           "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
         },
@@ -864,6 +632,7 @@
         "social_links": [],
         "featured": false,
         "luma_source": false,
+        "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=OWQzYjRnYXQ2bHFvNmU2ZGEwcXFzZzZsMzggcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw"
       }
     },
@@ -903,6 +672,7 @@
         "original_event_id": "hnolg5ano1auiv5h2vvnpejd4k",
         "organizer": {
           "name": "NYCResistor",
+          "website": "",
           "instagram": "",
           "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
         },
@@ -915,6 +685,7 @@
         "social_links": [],
         "featured": false,
         "luma_source": false,
+        "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=aG5vbGc1YW5vMWF1aXY1aDJ2dm5wZWpkNGsgcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw"
       }
     },
@@ -954,6 +725,7 @@
         "original_event_id": "dp3tjtiv0s3rog95vt5ncvqh28",
         "organizer": {
           "name": "NYCResistor",
+          "website": "",
           "instagram": "",
           "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
         },
@@ -966,6 +738,7 @@
         "social_links": [],
         "featured": false,
         "luma_source": false,
+        "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=ZHAzdGp0aXYwczNyb2c5NXZ0NW5jdnFoMjggcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw"
       }
     },
@@ -1005,6 +778,7 @@
         "original_event_id": "3qig599db3loiqeb83841i2pbs",
         "organizer": {
           "name": "NYCResistor",
+          "website": "",
           "instagram": "",
           "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
         },
@@ -1017,6 +791,7 @@
         "social_links": [],
         "featured": false,
         "luma_source": false,
+        "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=M3FpZzU5OWRiM2xvaXFlYjgzODQxaTJwYnMgcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw"
       }
     },
@@ -1056,6 +831,7 @@
         "original_event_id": "pf3t6e7pc4cdr5k0bf8n9mm7v4",
         "organizer": {
           "name": "NYCResistor",
+          "website": "",
           "instagram": "",
           "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
         },
@@ -1068,58 +844,8 @@
         "social_links": [],
         "featured": false,
         "luma_source": false,
+        "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=cGYzdDZlN3BjNGNkcjVrMGJmOG45bW03djQgcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw"
-      }
-    },
-    {
-      "id": "evt_gcal_com_nyc_resistor_640d0cb3",
-      "name": "Unnamed Event",
-      "type": "hackerspace",
-      "locationId": "loc_nyc_resistor",
-      "communityId": "com_nyc_resistor",
-      "description": "",
-      "startDate": "2026-09-01T20:00:00-04:00",
-      "endDate": "2026-09-01T21:00:00-04:00",
-      "category": [
-        "hackerspace",
-        "maker",
-        "hardware",
-        "electronics",
-        "laser cutting",
-        "3d printing",
-        "microcontrollers",
-        "robotics"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": null,
-      "tags": [],
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source": "Google Calendar",
-        "source_url": "https://www.google.com/calendar/event?eid=cDRmMTAwMWFucDFnaWlqazBpajJtNjM2djFfMjAyNjA5MDJUMDAwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn",
-        "original_event_id": "p4f1001anp1giijk0ij2m636v1_20260902T000000Z",
-        "organizer": {
-          "name": "NYC Resistor",
-          "instagram": "",
-          "email": ""
-        },
-        "venue": {
-          "name": "",
-          "address": "",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false,
-        "google_calendar_link": "https://www.google.com/calendar/event?eid=cDRmMTAwMWFucDFnaWlqazBpajJtNjM2djFfMjAyNjA5MDJUMDAwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn"
       }
     },
     {
@@ -1158,6 +884,7 @@
         "original_event_id": "47nlnvpan8tict0ispmjtqce93",
         "organizer": {
           "name": "NYCResistor",
+          "website": "",
           "instagram": "",
           "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
         },
@@ -1170,6 +897,7 @@
         "social_links": [],
         "featured": false,
         "luma_source": false,
+        "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=NDdubG52cGFuOHRpY3QwaXNwbWp0cWNlOTMgcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw"
       }
     },
@@ -1209,6 +937,7 @@
         "original_event_id": "6jbotptmqf4j64aq5olod4n1as",
         "organizer": {
           "name": "NYCResistor",
+          "website": "",
           "instagram": "",
           "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
         },
@@ -1221,6 +950,7 @@
         "social_links": [],
         "featured": false,
         "luma_source": false,
+        "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=Nmpib3RwdG1xZjRqNjRhcTVvbG9kNG4xYXMgcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw"
       }
     },
@@ -1260,6 +990,7 @@
         "original_event_id": "0iqqft475g0rh2qe28btv8gne9_20260904T223000Z",
         "organizer": {
           "name": "NYCResistor",
+          "website": "",
           "instagram": "",
           "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
         },
@@ -1272,6 +1003,7 @@
         "social_links": [],
         "featured": false,
         "luma_source": false,
+        "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=MGlxcWZ0NDc1ZzByaDJxZTI4YnR2OGduZTlfMjAyNjA5MDRUMjIzMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn"
       }
     },
@@ -1311,6 +1043,7 @@
         "original_event_id": "7kf0ctadmc78bf25ch0cmv76qs_20260905T180000Z",
         "organizer": {
           "name": "NYCResistor",
+          "website": "",
           "instagram": "",
           "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
         },
@@ -1323,6 +1056,7 @@
         "social_links": [],
         "featured": false,
         "luma_source": false,
+        "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=N2tmMGN0YWRtYzc4YmYyNWNoMGNtdjc2cXNfMjAyNjA5MDVUMTgwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn"
       }
     },
@@ -1362,6 +1096,7 @@
         "original_event_id": "4lcrqb3tfkrsr7bbi84dvc9qu1",
         "organizer": {
           "name": "NYCResistor",
+          "website": "",
           "instagram": "",
           "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
         },
@@ -1374,6 +1109,7 @@
         "social_links": [],
         "featured": false,
         "luma_source": false,
+        "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=NGxjcnFiM3Rma3JzcjdiYmk4NGR2YzlxdTEgcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw"
       }
     },
@@ -1413,6 +1149,7 @@
         "original_event_id": "28fo4v1loq7kgedjdnnqa054qv",
         "organizer": {
           "name": "NYCResistor",
+          "website": "",
           "instagram": "",
           "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
         },
@@ -1425,6 +1162,7 @@
         "social_links": [],
         "featured": false,
         "luma_source": false,
+        "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=MjhmbzR2MWxvcTdrZ2VkamRubnFhMDU0cXYgcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw"
       }
     },
@@ -1464,6 +1202,7 @@
         "original_event_id": "7pavoopsokv5k1ej0d6fda8a83_20260906T170000Z",
         "organizer": {
           "name": "NYCResistor",
+          "website": "",
           "instagram": "",
           "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
         },
@@ -1476,6 +1215,7 @@
         "social_links": [],
         "featured": false,
         "luma_source": false,
+        "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=N3Bhdm9vcHNva3Y1azFlajBkNmZkYThhODNfMjAyNjA5MDZUMTcwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn"
       }
     },
@@ -1515,6 +1255,7 @@
         "original_event_id": "qpfkad1d0c30ru5qtu78ffpeu8",
         "organizer": {
           "name": "NYCResistor",
+          "website": "",
           "instagram": "",
           "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
         },
@@ -1527,109 +1268,8 @@
         "social_links": [],
         "featured": false,
         "luma_source": false,
+        "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=cXBma2FkMWQwYzMwcnU1cXR1NzhmZnBldTggcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw"
-      }
-    },
-    {
-      "id": "evt_gcal_com_nyc_resistor_e9a342e2",
-      "name": "Unnamed Event",
-      "type": "hackerspace",
-      "locationId": "loc_nyc_resistor",
-      "communityId": "com_nyc_resistor",
-      "description": "",
-      "startDate": "2026-09-08T11:00:00-04:00",
-      "endDate": "2026-09-08T15:00:00-04:00",
-      "category": [
-        "hackerspace",
-        "maker",
-        "hardware",
-        "electronics",
-        "laser cutting",
-        "3d printing",
-        "microcontrollers",
-        "robotics"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": null,
-      "tags": [],
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source": "Google Calendar",
-        "source_url": "https://www.google.com/calendar/event?eid=Xzg1Mms2ZDlnNmgzNDJiOWc4OHEzNGI5azZoMjMyYmEyOGQzMzhiYTY2NG8zZ2U5bDc0bzQ4Z3BnNm9fMjAyNjA5MDhUMTUwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn",
-        "original_event_id": "_852k6d9g6h342b9g88q34b9k6h232ba28d338ba664o3ge9l74o48gpg6o_20260908T150000Z",
-        "organizer": {
-          "name": "NYC Resistor",
-          "instagram": "",
-          "email": ""
-        },
-        "venue": {
-          "name": "",
-          "address": "",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false,
-        "google_calendar_link": "https://www.google.com/calendar/event?eid=Xzg1Mms2ZDlnNmgzNDJiOWc4OHEzNGI5azZoMjMyYmEyOGQzMzhiYTY2NG8zZ2U5bDc0bzQ4Z3BnNm9fMjAyNjA5MDhUMTUwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn"
-      }
-    },
-    {
-      "id": "evt_gcal_com_nyc_resistor_46b7bd4f",
-      "name": "Unnamed Event",
-      "type": "hackerspace",
-      "locationId": "loc_nyc_resistor",
-      "communityId": "com_nyc_resistor",
-      "description": "",
-      "startDate": "2026-09-08T20:00:00-04:00",
-      "endDate": "2026-09-08T21:00:00-04:00",
-      "category": [
-        "hackerspace",
-        "maker",
-        "hardware",
-        "electronics",
-        "laser cutting",
-        "3d printing",
-        "microcontrollers",
-        "robotics"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": null,
-      "tags": [],
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source": "Google Calendar",
-        "source_url": "https://www.google.com/calendar/event?eid=cDRmMTAwMWFucDFnaWlqazBpajJtNjM2djFfMjAyNjA5MDlUMDAwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn",
-        "original_event_id": "p4f1001anp1giijk0ij2m636v1_20260909T000000Z",
-        "organizer": {
-          "name": "NYC Resistor",
-          "instagram": "",
-          "email": ""
-        },
-        "venue": {
-          "name": "",
-          "address": "",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false,
-        "google_calendar_link": "https://www.google.com/calendar/event?eid=cDRmMTAwMWFucDFnaWlqazBpajJtNjM2djFfMjAyNjA5MDlUMDAwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn"
       }
     },
     {
@@ -1668,6 +1308,7 @@
         "original_event_id": "2qp97qpal3u1clcbjo88q3k9cm",
         "organizer": {
           "name": "NYCResistor",
+          "website": "",
           "instagram": "",
           "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
         },
@@ -1680,6 +1321,7 @@
         "social_links": [],
         "featured": false,
         "luma_source": false,
+        "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=MnFwOTdxcGFsM3UxY2xjYmpvODhxM2s5Y20gcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw"
       }
     },
@@ -1719,6 +1361,7 @@
         "original_event_id": "b0glii83ug5og6kocikkuj6gfk",
         "organizer": {
           "name": "NYCResistor",
+          "website": "",
           "instagram": "",
           "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
         },
@@ -1731,6 +1374,7 @@
         "social_links": [],
         "featured": false,
         "luma_source": false,
+        "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=YjBnbGlpODN1ZzVvZzZrb2Npa2t1ajZnZmsgcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw"
       }
     },
@@ -1770,6 +1414,7 @@
         "original_event_id": "0pavfl364ae7tb7799csteqp1a",
         "organizer": {
           "name": "NYCResistor",
+          "website": "",
           "instagram": "",
           "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
         },
@@ -1782,6 +1427,7 @@
         "social_links": [],
         "featured": false,
         "luma_source": false,
+        "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=MHBhdmZsMzY0YWU3dGI3Nzk5Y3N0ZXFwMWEgcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw"
       }
     },
@@ -1821,6 +1467,7 @@
         "original_event_id": "2ohmp21sapbmovc2jfefvra1ge",
         "organizer": {
           "name": "NYCResistor",
+          "website": "",
           "instagram": "",
           "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
         },
@@ -1833,6 +1480,7 @@
         "social_links": [],
         "featured": false,
         "luma_source": false,
+        "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=Mm9obXAyMXNhcGJtb3ZjMmpmZWZ2cmExZ2UgcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw"
       }
     },
@@ -1872,6 +1520,7 @@
         "original_event_id": "61hmae3165j38bb4clh66b9k70rmab9p6cr62bb4cdhmco9hcgq3adpj6k",
         "organizer": {
           "name": "NYCResistor",
+          "website": "",
           "instagram": "",
           "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
         },
@@ -1884,6 +1533,7 @@
         "social_links": [],
         "featured": false,
         "luma_source": false,
+        "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=NjFobWFlMzE2NWozOGJiNGNsaDY2YjlrNzBybWFiOXA2Y3I2MmJiNGNkaG1jbzloY2dxM2FkcGo2ayBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn"
       }
     },
@@ -1923,6 +1573,7 @@
         "original_event_id": "67adrnehbrjbst3o28v974i9ji",
         "organizer": {
           "name": "NYCResistor",
+          "website": "",
           "instagram": "",
           "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
         },
@@ -1935,6 +1586,7 @@
         "social_links": [],
         "featured": false,
         "luma_source": false,
+        "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=NjdhZHJuZWhicmpic3QzbzI4djk3NGk5amkgcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw"
       }
     },
@@ -1974,6 +1626,7 @@
         "original_event_id": "6d4ni62iao3vkbp1nb4vt9q40l",
         "organizer": {
           "name": "NYCResistor",
+          "website": "",
           "instagram": "",
           "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
         },
@@ -1986,58 +1639,8 @@
         "social_links": [],
         "featured": false,
         "luma_source": false,
+        "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=NmQ0bmk2MmlhbzN2a2JwMW5iNHZ0OXE0MGwgcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw"
-      }
-    },
-    {
-      "id": "evt_gcal_com_nyc_resistor_aaa5c59e",
-      "name": "Unnamed Event",
-      "type": "hackerspace",
-      "locationId": "loc_nyc_resistor",
-      "communityId": "com_nyc_resistor",
-      "description": "",
-      "startDate": "2026-09-15T20:00:00-04:00",
-      "endDate": "2026-09-15T21:00:00-04:00",
-      "category": [
-        "hackerspace",
-        "maker",
-        "hardware",
-        "electronics",
-        "laser cutting",
-        "3d printing",
-        "microcontrollers",
-        "robotics"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": null,
-      "tags": [],
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source": "Google Calendar",
-        "source_url": "https://www.google.com/calendar/event?eid=cDRmMTAwMWFucDFnaWlqazBpajJtNjM2djFfMjAyNjA5MTZUMDAwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn",
-        "original_event_id": "p4f1001anp1giijk0ij2m636v1_20260916T000000Z",
-        "organizer": {
-          "name": "NYC Resistor",
-          "instagram": "",
-          "email": ""
-        },
-        "venue": {
-          "name": "",
-          "address": "",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false,
-        "google_calendar_link": "https://www.google.com/calendar/event?eid=cDRmMTAwMWFucDFnaWlqazBpajJtNjM2djFfMjAyNjA5MTZUMDAwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn"
       }
     },
     {
@@ -2076,6 +1679,7 @@
         "original_event_id": "1g5dt0s2jb9qca1mcjmi6nci8e_20260916T223000Z",
         "organizer": {
           "name": "NYCResistor",
+          "website": "",
           "instagram": "",
           "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
         },
@@ -2088,6 +1692,7 @@
         "social_links": [],
         "featured": false,
         "luma_source": false,
+        "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=MWc1ZHQwczJqYjlxY2ExbWNqbWk2bmNpOGVfMjAyNjA5MTZUMjIzMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn"
       }
     },
@@ -2127,6 +1732,7 @@
         "original_event_id": "g9bp5nrup4hlt2k0fgrc95uo1c",
         "organizer": {
           "name": "NYCResistor",
+          "website": "",
           "instagram": "",
           "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
         },
@@ -2139,6 +1745,7 @@
         "social_links": [],
         "featured": false,
         "luma_source": false,
+        "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=ZzlicDVucnVwNGhsdDJrMGZncmM5NXVvMWMgcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw"
       }
     },
@@ -2178,6 +1785,7 @@
         "original_event_id": "3hou9c37vp8lk3r2vs6sa5jl2m_20260919T170000Z",
         "organizer": {
           "name": "NYCResistor",
+          "website": "",
           "instagram": "",
           "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
         },
@@ -2190,6 +1798,7 @@
         "social_links": [],
         "featured": false,
         "luma_source": false,
+        "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=M2hvdTljMzd2cDhsazNyMnZzNnNhNWpsMm1fMjAyNjA5MTlUMTcwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn"
       }
     },
@@ -2229,6 +1838,7 @@
         "original_event_id": "hk0tebgingmj0k72bmsesofmcm_20260920T170000Z",
         "organizer": {
           "name": "NYCResistor",
+          "website": "",
           "instagram": "",
           "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
         },
@@ -2241,109 +1851,8 @@
         "social_links": [],
         "featured": false,
         "luma_source": false,
+        "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=aGswdGViZ2luZ21qMGs3MmJtc2Vzb2ZtY21fMjAyNjA5MjBUMTcwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn"
-      }
-    },
-    {
-      "id": "evt_gcal_com_nyc_resistor_2fce9336",
-      "name": "Unnamed Event",
-      "type": "hackerspace",
-      "locationId": "loc_nyc_resistor",
-      "communityId": "com_nyc_resistor",
-      "description": "",
-      "startDate": "2026-09-22T11:00:00-04:00",
-      "endDate": "2026-09-22T15:00:00-04:00",
-      "category": [
-        "hackerspace",
-        "maker",
-        "hardware",
-        "electronics",
-        "laser cutting",
-        "3d printing",
-        "microcontrollers",
-        "robotics"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": null,
-      "tags": [],
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source": "Google Calendar",
-        "source_url": "https://www.google.com/calendar/event?eid=Xzg1Mms2ZDlnNmgzNDJiOWc4OHEzNGI5azZoMjMyYmEyOGQzMzhiYTY2NG8zZ2U5bDc0bzQ4Z3BnNm9fMjAyNjA5MjJUMTUwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn",
-        "original_event_id": "_852k6d9g6h342b9g88q34b9k6h232ba28d338ba664o3ge9l74o48gpg6o_20260922T150000Z",
-        "organizer": {
-          "name": "NYC Resistor",
-          "instagram": "",
-          "email": ""
-        },
-        "venue": {
-          "name": "",
-          "address": "",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false,
-        "google_calendar_link": "https://www.google.com/calendar/event?eid=Xzg1Mms2ZDlnNmgzNDJiOWc4OHEzNGI5azZoMjMyYmEyOGQzMzhiYTY2NG8zZ2U5bDc0bzQ4Z3BnNm9fMjAyNjA5MjJUMTUwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn"
-      }
-    },
-    {
-      "id": "evt_gcal_com_nyc_resistor_0e415019",
-      "name": "Unnamed Event",
-      "type": "hackerspace",
-      "locationId": "loc_nyc_resistor",
-      "communityId": "com_nyc_resistor",
-      "description": "",
-      "startDate": "2026-09-22T20:00:00-04:00",
-      "endDate": "2026-09-22T21:00:00-04:00",
-      "category": [
-        "hackerspace",
-        "maker",
-        "hardware",
-        "electronics",
-        "laser cutting",
-        "3d printing",
-        "microcontrollers",
-        "robotics"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": null,
-      "tags": [],
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source": "Google Calendar",
-        "source_url": "https://www.google.com/calendar/event?eid=cDRmMTAwMWFucDFnaWlqazBpajJtNjM2djFfMjAyNjA5MjNUMDAwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn",
-        "original_event_id": "p4f1001anp1giijk0ij2m636v1_20260923T000000Z",
-        "organizer": {
-          "name": "NYC Resistor",
-          "instagram": "",
-          "email": ""
-        },
-        "venue": {
-          "name": "",
-          "address": "",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false,
-        "google_calendar_link": "https://www.google.com/calendar/event?eid=cDRmMTAwMWFucDFnaWlqazBpajJtNjM2djFfMjAyNjA5MjNUMDAwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn"
       }
     },
     {
@@ -2382,6 +1891,7 @@
         "original_event_id": "95g01m8cknmgjgfrb8puc554qc",
         "organizer": {
           "name": "NYCResistor",
+          "website": "",
           "instagram": "",
           "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
         },
@@ -2394,6 +1904,7 @@
         "social_links": [],
         "featured": false,
         "luma_source": false,
+        "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=OTVnMDFtOGNrbm1namdmcmI4cHVjNTU0cWMgcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw"
       }
     },
@@ -2433,6 +1944,7 @@
         "original_event_id": "luuipgrpfu3spgjs4t80vupjqk",
         "organizer": {
           "name": "NYCResistor",
+          "website": "",
           "instagram": "",
           "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
         },
@@ -2445,6 +1957,7 @@
         "social_links": [],
         "featured": false,
         "luma_source": false,
+        "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=bHV1aXBncnBmdTNzcGdqczR0ODB2dXBqcWsgcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw"
       }
     },
@@ -2484,6 +1997,7 @@
         "original_event_id": "938070490d814d2282c66d9c0bf52361_20260925T233000Z",
         "organizer": {
           "name": "NYCResistor",
+          "website": "",
           "instagram": "",
           "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
         },
@@ -2496,6 +2010,7 @@
         "social_links": [],
         "featured": false,
         "luma_source": false,
+        "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=OTM4MDcwNDkwZDgxNGQyMjgyYzY2ZDljMGJmNTIzNjFfMjAyNjA5MjVUMjMzMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn"
       }
     },
@@ -2535,6 +2050,7 @@
         "original_event_id": "6omcuttffrk9k1jr8orjmtnqq8",
         "organizer": {
           "name": "NYCResistor",
+          "website": "",
           "instagram": "",
           "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
         },
@@ -2547,58 +2063,8 @@
         "social_links": [],
         "featured": false,
         "luma_source": false,
+        "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=Nm9tY3V0dGZmcms5azFqcjhvcmptdG5xcTggcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw"
-      }
-    },
-    {
-      "id": "evt_gcal_com_nyc_resistor_386153ee",
-      "name": "Unnamed Event",
-      "type": "hackerspace",
-      "locationId": "loc_nyc_resistor",
-      "communityId": "com_nyc_resistor",
-      "description": "",
-      "startDate": "2026-09-29T20:00:00-04:00",
-      "endDate": "2026-09-29T21:00:00-04:00",
-      "category": [
-        "hackerspace",
-        "maker",
-        "hardware",
-        "electronics",
-        "laser cutting",
-        "3d printing",
-        "microcontrollers",
-        "robotics"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": null,
-      "tags": [],
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source": "Google Calendar",
-        "source_url": "https://www.google.com/calendar/event?eid=cDRmMTAwMWFucDFnaWlqazBpajJtNjM2djFfMjAyNjA5MzBUMDAwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn",
-        "original_event_id": "p4f1001anp1giijk0ij2m636v1_20260930T000000Z",
-        "organizer": {
-          "name": "NYC Resistor",
-          "instagram": "",
-          "email": ""
-        },
-        "venue": {
-          "name": "",
-          "address": "",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false,
-        "google_calendar_link": "https://www.google.com/calendar/event?eid=cDRmMTAwMWFucDFnaWlqazBpajJtNjM2djFfMjAyNjA5MzBUMDAwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn"
       }
     },
     {
@@ -2637,6 +2103,7 @@
         "original_event_id": "09ardtd3elv466b4iak92jk1ne_20260930T010000Z",
         "organizer": {
           "name": "NYC Resistor",
+          "website": "",
           "instagram": "",
           "email": "opn.address@gmail.com"
         },
@@ -2649,6 +2116,7 @@
         "social_links": [],
         "featured": false,
         "luma_source": false,
+        "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=MDlhcmR0ZDNlbHY0NjZiNGlhazkyamsxbmVfMjAyNjA5MzBUMDEwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn"
       }
     },
@@ -2688,6 +2156,7 @@
         "original_event_id": "1i8vj2fe02qqqr7haajpl4ae5g",
         "organizer": {
           "name": "NYCResistor",
+          "website": "",
           "instagram": "",
           "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
         },
@@ -2700,6 +2169,7 @@
         "social_links": [],
         "featured": false,
         "luma_source": false,
+        "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=MWk4dmoyZmUwMnFxcXI3aGFhanBsNGFlNWcgcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw"
       }
     },
@@ -2739,6 +2209,7 @@
         "original_event_id": "0iqqft475g0rh2qe28btv8gne9_20261002T223000Z",
         "organizer": {
           "name": "NYCResistor",
+          "website": "",
           "instagram": "",
           "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
         },
@@ -2751,6 +2222,7 @@
         "social_links": [],
         "featured": false,
         "luma_source": false,
+        "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=MGlxcWZ0NDc1ZzByaDJxZTI4YnR2OGduZTlfMjAyNjEwMDJUMjIzMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn"
       }
     },
@@ -2790,6 +2262,7 @@
         "original_event_id": "7kf0ctadmc78bf25ch0cmv76qs_20261003T180000Z",
         "organizer": {
           "name": "NYCResistor",
+          "website": "",
           "instagram": "",
           "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
         },
@@ -2802,6 +2275,7 @@
         "social_links": [],
         "featured": false,
         "luma_source": false,
+        "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=N2tmMGN0YWRtYzc4YmYyNWNoMGNtdjc2cXNfMjAyNjEwMDNUMTgwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn"
       }
     },
@@ -2841,6 +2315,7 @@
         "original_event_id": "7pavoopsokv5k1ej0d6fda8a83_20261004T170000Z",
         "organizer": {
           "name": "NYCResistor",
+          "website": "",
           "instagram": "",
           "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
         },
@@ -2853,6 +2328,7 @@
         "social_links": [],
         "featured": false,
         "luma_source": false,
+        "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=N3Bhdm9vcHNva3Y1azFlajBkNmZkYThhODNfMjAyNjEwMDRUMTcwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn"
       }
     },
@@ -2892,6 +2368,7 @@
         "original_event_id": "4jsvjge9d2g398nsilhkpe3c98",
         "organizer": {
           "name": "NYCResistor",
+          "website": "",
           "instagram": "",
           "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
         },
@@ -2904,109 +2381,8 @@
         "social_links": [],
         "featured": false,
         "luma_source": false,
+        "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=NGpzdmpnZTlkMmczOThuc2lsaGtwZTNjOTggcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw"
-      }
-    },
-    {
-      "id": "evt_gcal_com_nyc_resistor_a2507608",
-      "name": "Unnamed Event",
-      "type": "hackerspace",
-      "locationId": "loc_nyc_resistor",
-      "communityId": "com_nyc_resistor",
-      "description": "",
-      "startDate": "2026-10-06T11:00:00-04:00",
-      "endDate": "2026-10-06T15:00:00-04:00",
-      "category": [
-        "hackerspace",
-        "maker",
-        "hardware",
-        "electronics",
-        "laser cutting",
-        "3d printing",
-        "microcontrollers",
-        "robotics"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": null,
-      "tags": [],
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source": "Google Calendar",
-        "source_url": "https://www.google.com/calendar/event?eid=Xzg1Mms2ZDlnNmgzNDJiOWc4OHEzNGI5azZoMjMyYmEyOGQzMzhiYTY2NG8zZ2U5bDc0bzQ4Z3BnNm9fMjAyNjEwMDZUMTUwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn",
-        "original_event_id": "_852k6d9g6h342b9g88q34b9k6h232ba28d338ba664o3ge9l74o48gpg6o_20261006T150000Z",
-        "organizer": {
-          "name": "NYC Resistor",
-          "instagram": "",
-          "email": ""
-        },
-        "venue": {
-          "name": "",
-          "address": "",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false,
-        "google_calendar_link": "https://www.google.com/calendar/event?eid=Xzg1Mms2ZDlnNmgzNDJiOWc4OHEzNGI5azZoMjMyYmEyOGQzMzhiYTY2NG8zZ2U5bDc0bzQ4Z3BnNm9fMjAyNjEwMDZUMTUwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn"
-      }
-    },
-    {
-      "id": "evt_gcal_com_nyc_resistor_1182498c",
-      "name": "Unnamed Event",
-      "type": "hackerspace",
-      "locationId": "loc_nyc_resistor",
-      "communityId": "com_nyc_resistor",
-      "description": "",
-      "startDate": "2026-10-06T20:00:00-04:00",
-      "endDate": "2026-10-06T21:00:00-04:00",
-      "category": [
-        "hackerspace",
-        "maker",
-        "hardware",
-        "electronics",
-        "laser cutting",
-        "3d printing",
-        "microcontrollers",
-        "robotics"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": null,
-      "tags": [],
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source": "Google Calendar",
-        "source_url": "https://www.google.com/calendar/event?eid=cDRmMTAwMWFucDFnaWlqazBpajJtNjM2djFfMjAyNjEwMDdUMDAwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn",
-        "original_event_id": "p4f1001anp1giijk0ij2m636v1_20261007T000000Z",
-        "organizer": {
-          "name": "NYC Resistor",
-          "instagram": "",
-          "email": ""
-        },
-        "venue": {
-          "name": "",
-          "address": "",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false,
-        "google_calendar_link": "https://www.google.com/calendar/event?eid=cDRmMTAwMWFucDFnaWlqazBpajJtNjM2djFfMjAyNjEwMDdUMDAwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn"
       }
     },
     {
@@ -3045,6 +2421,7 @@
         "original_event_id": "4qpeos859t75vh6l42e5mukh7g_20261007",
         "organizer": {
           "name": "NYCResistor",
+          "website": "",
           "instagram": "",
           "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
         },
@@ -3057,6 +2434,7 @@
         "social_links": [],
         "featured": false,
         "luma_source": false,
+        "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=NHFwZW9zODU5dDc1dmg2bDQyZTVtdWtoN2dfMjAyNjEwMDcgcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw"
       }
     },
@@ -3096,6 +2474,7 @@
         "original_event_id": "qt829ggka8025f3od93svihl98",
         "organizer": {
           "name": "NYCResistor",
+          "website": "",
           "instagram": "",
           "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
         },
@@ -3108,6 +2487,7 @@
         "social_links": [],
         "featured": false,
         "luma_source": false,
+        "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=cXQ4MjlnZ2thODAyNWYzb2Q5M3N2aWhsOTggcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw"
       }
     },
@@ -3147,6 +2527,7 @@
         "original_event_id": "7vvm63ed0d4innp2k9amm5ogem",
         "organizer": {
           "name": "NYCResistor",
+          "website": "",
           "instagram": "",
           "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
         },
@@ -3159,6 +2540,7 @@
         "social_links": [],
         "featured": false,
         "luma_source": false,
+        "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=N3Z2bTYzZWQwZDRpbm5wMms5YW1tNW9nZW0gcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw"
       }
     },
@@ -3198,6 +2580,7 @@
         "original_event_id": "c5hm6or4c8q3ab9g70rm4b9k6kq36bb26ks62b9hcdh34d1iccqj6c1j68_20261011T160000Z",
         "organizer": {
           "name": "NYCResistor",
+          "website": "",
           "instagram": "",
           "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
         },
@@ -3210,6 +2593,7 @@
         "social_links": [],
         "featured": false,
         "luma_source": false,
+        "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=YzVobTZvcjRjOHEzYWI5Zzcwcm00YjlrNmtxMzZiYjI2a3M2MmI5aGNkaDM0ZDFpY2NxajZjMWo2OF8yMDI2MTAxMVQxNjAwMDBaIHAybTJhdjlkaHJoNG4xdWI3amxzYzY4czdvQGc"
       }
     },
@@ -3249,6 +2633,7 @@
         "original_event_id": "ir5fokhsr5d4ucnrc4s454erp0",
         "organizer": {
           "name": "NYCResistor",
+          "website": "",
           "instagram": "",
           "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
         },
@@ -3261,58 +2646,8 @@
         "social_links": [],
         "featured": false,
         "luma_source": false,
+        "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=aXI1Zm9raHNyNWQ0dWNucmM0czQ1NGVycDAgcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw"
-      }
-    },
-    {
-      "id": "evt_gcal_com_nyc_resistor_0328a8f3",
-      "name": "Unnamed Event",
-      "type": "hackerspace",
-      "locationId": "loc_nyc_resistor",
-      "communityId": "com_nyc_resistor",
-      "description": "",
-      "startDate": "2026-10-13T20:00:00-04:00",
-      "endDate": "2026-10-13T21:00:00-04:00",
-      "category": [
-        "hackerspace",
-        "maker",
-        "hardware",
-        "electronics",
-        "laser cutting",
-        "3d printing",
-        "microcontrollers",
-        "robotics"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": null,
-      "tags": [],
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source": "Google Calendar",
-        "source_url": "https://www.google.com/calendar/event?eid=cDRmMTAwMWFucDFnaWlqazBpajJtNjM2djFfMjAyNjEwMTRUMDAwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn",
-        "original_event_id": "p4f1001anp1giijk0ij2m636v1_20261014T000000Z",
-        "organizer": {
-          "name": "NYC Resistor",
-          "instagram": "",
-          "email": ""
-        },
-        "venue": {
-          "name": "",
-          "address": "",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false,
-        "google_calendar_link": "https://www.google.com/calendar/event?eid=cDRmMTAwMWFucDFnaWlqazBpajJtNjM2djFfMjAyNjEwMTRUMDAwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn"
       }
     },
     {
@@ -3351,6 +2686,7 @@
         "original_event_id": "3a7v5b7k7b4lobgi2hskhk1llh",
         "organizer": {
           "name": "NYCResistor",
+          "website": "",
           "instagram": "",
           "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
         },
@@ -3363,6 +2699,7 @@
         "social_links": [],
         "featured": false,
         "luma_source": false,
+        "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=M2E3djViN2s3YjRsb2JnaTJoc2toazFsbGggcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw"
       }
     },
@@ -3402,6 +2739,7 @@
         "original_event_id": "km54684t0n7ckk6ce4bec79r0g",
         "organizer": {
           "name": "NYCResistor",
+          "website": "",
           "instagram": "",
           "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
         },
@@ -3414,6 +2752,7 @@
         "social_links": [],
         "featured": false,
         "luma_source": false,
+        "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=a201NDY4NHQwbjdja2s2Y2U0YmVjNzlyMGcgcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw"
       }
     },
@@ -3453,6 +2792,7 @@
         "original_event_id": "3hou9c37vp8lk3r2vs6sa5jl2m_20261017T170000Z",
         "organizer": {
           "name": "NYCResistor",
+          "website": "",
           "instagram": "",
           "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
         },
@@ -3465,6 +2805,7 @@
         "social_links": [],
         "featured": false,
         "luma_source": false,
+        "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=M2hvdTljMzd2cDhsazNyMnZzNnNhNWpsMm1fMjAyNjEwMTdUMTcwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn"
       }
     },
@@ -3504,6 +2845,7 @@
         "original_event_id": "hk0tebgingmj0k72bmsesofmcm_20261018T170000Z",
         "organizer": {
           "name": "NYCResistor",
+          "website": "",
           "instagram": "",
           "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
         },
@@ -3516,109 +2858,8 @@
         "social_links": [],
         "featured": false,
         "luma_source": false,
+        "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=aGswdGViZ2luZ21qMGs3MmJtc2Vzb2ZtY21fMjAyNjEwMThUMTcwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn"
-      }
-    },
-    {
-      "id": "evt_gcal_com_nyc_resistor_b871af08",
-      "name": "Unnamed Event",
-      "type": "hackerspace",
-      "locationId": "loc_nyc_resistor",
-      "communityId": "com_nyc_resistor",
-      "description": "",
-      "startDate": "2026-10-20T11:00:00-04:00",
-      "endDate": "2026-10-20T15:00:00-04:00",
-      "category": [
-        "hackerspace",
-        "maker",
-        "hardware",
-        "electronics",
-        "laser cutting",
-        "3d printing",
-        "microcontrollers",
-        "robotics"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": null,
-      "tags": [],
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source": "Google Calendar",
-        "source_url": "https://www.google.com/calendar/event?eid=Xzg1Mms2ZDlnNmgzNDJiOWc4OHEzNGI5azZoMjMyYmEyOGQzMzhiYTY2NG8zZ2U5bDc0bzQ4Z3BnNm9fMjAyNjEwMjBUMTUwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn",
-        "original_event_id": "_852k6d9g6h342b9g88q34b9k6h232ba28d338ba664o3ge9l74o48gpg6o_20261020T150000Z",
-        "organizer": {
-          "name": "NYC Resistor",
-          "instagram": "",
-          "email": ""
-        },
-        "venue": {
-          "name": "",
-          "address": "",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false,
-        "google_calendar_link": "https://www.google.com/calendar/event?eid=Xzg1Mms2ZDlnNmgzNDJiOWc4OHEzNGI5azZoMjMyYmEyOGQzMzhiYTY2NG8zZ2U5bDc0bzQ4Z3BnNm9fMjAyNjEwMjBUMTUwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn"
-      }
-    },
-    {
-      "id": "evt_gcal_com_nyc_resistor_e66323e3",
-      "name": "Unnamed Event",
-      "type": "hackerspace",
-      "locationId": "loc_nyc_resistor",
-      "communityId": "com_nyc_resistor",
-      "description": "",
-      "startDate": "2026-10-20T20:00:00-04:00",
-      "endDate": "2026-10-20T21:00:00-04:00",
-      "category": [
-        "hackerspace",
-        "maker",
-        "hardware",
-        "electronics",
-        "laser cutting",
-        "3d printing",
-        "microcontrollers",
-        "robotics"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": null,
-      "tags": [],
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source": "Google Calendar",
-        "source_url": "https://www.google.com/calendar/event?eid=cDRmMTAwMWFucDFnaWlqazBpajJtNjM2djFfMjAyNjEwMjFUMDAwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn",
-        "original_event_id": "p4f1001anp1giijk0ij2m636v1_20261021T000000Z",
-        "organizer": {
-          "name": "NYC Resistor",
-          "instagram": "",
-          "email": ""
-        },
-        "venue": {
-          "name": "",
-          "address": "",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false,
-        "google_calendar_link": "https://www.google.com/calendar/event?eid=cDRmMTAwMWFucDFnaWlqazBpajJtNjM2djFfMjAyNjEwMjFUMDAwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn"
       }
     },
     {
@@ -3657,6 +2898,7 @@
         "original_event_id": "1g5dt0s2jb9qca1mcjmi6nci8e_20261021T223000Z",
         "organizer": {
           "name": "NYCResistor",
+          "website": "",
           "instagram": "",
           "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
         },
@@ -3669,6 +2911,7 @@
         "social_links": [],
         "featured": false,
         "luma_source": false,
+        "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=MWc1ZHQwczJqYjlxY2ExbWNqbWk2bmNpOGVfMjAyNjEwMjFUMjIzMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn"
       }
     },
@@ -3708,6 +2951,7 @@
         "original_event_id": "pfokpg0sgb50695veq112r8bhs",
         "organizer": {
           "name": "NYCResistor",
+          "website": "",
           "instagram": "",
           "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
         },
@@ -3720,6 +2964,7 @@
         "social_links": [],
         "featured": false,
         "luma_source": false,
+        "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=cGZva3BnMHNnYjUwNjk1dmVxMTEycjhiaHMgcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw"
       }
     },
@@ -3759,6 +3004,7 @@
         "original_event_id": "938070490d814d2282c66d9c0bf52361_20261023T233000Z",
         "organizer": {
           "name": "NYCResistor",
+          "website": "",
           "instagram": "",
           "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
         },
@@ -3771,6 +3017,7 @@
         "social_links": [],
         "featured": false,
         "luma_source": false,
+        "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=OTM4MDcwNDkwZDgxNGQyMjgyYzY2ZDljMGJmNTIzNjFfMjAyNjEwMjNUMjMzMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn"
       }
     },
@@ -3810,6 +3057,7 @@
         "original_event_id": "1068jc9ts04qsnb6rm97p9p4lu",
         "organizer": {
           "name": "NYCResistor",
+          "website": "",
           "instagram": "",
           "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
         },
@@ -3822,6 +3070,7 @@
         "social_links": [],
         "featured": false,
         "luma_source": false,
+        "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=MTA2OGpjOXRzMDRxc25iNnJtOTdwOXA0bHUgcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw"
       }
     },
@@ -3861,6 +3110,7 @@
         "original_event_id": "3e546iosh40f58jrm6c538jap8",
         "organizer": {
           "name": "NYCResistor",
+          "website": "",
           "instagram": "",
           "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
         },
@@ -3873,58 +3123,8 @@
         "social_links": [],
         "featured": false,
         "luma_source": false,
+        "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=M2U1NDZpb3NoNDBmNThqcm02YzUzOGphcDggcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw"
-      }
-    },
-    {
-      "id": "evt_gcal_com_nyc_resistor_0a6c488a",
-      "name": "Unnamed Event",
-      "type": "hackerspace",
-      "locationId": "loc_nyc_resistor",
-      "communityId": "com_nyc_resistor",
-      "description": "",
-      "startDate": "2026-10-27T20:00:00-04:00",
-      "endDate": "2026-10-27T21:00:00-04:00",
-      "category": [
-        "hackerspace",
-        "maker",
-        "hardware",
-        "electronics",
-        "laser cutting",
-        "3d printing",
-        "microcontrollers",
-        "robotics"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": null,
-      "tags": [],
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source": "Google Calendar",
-        "source_url": "https://www.google.com/calendar/event?eid=cDRmMTAwMWFucDFnaWlqazBpajJtNjM2djFfMjAyNjEwMjhUMDAwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn",
-        "original_event_id": "p4f1001anp1giijk0ij2m636v1_20261028T000000Z",
-        "organizer": {
-          "name": "NYC Resistor",
-          "instagram": "",
-          "email": ""
-        },
-        "venue": {
-          "name": "",
-          "address": "",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false,
-        "google_calendar_link": "https://www.google.com/calendar/event?eid=cDRmMTAwMWFucDFnaWlqazBpajJtNjM2djFfMjAyNjEwMjhUMDAwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn"
       }
     },
     {
@@ -3963,6 +3163,7 @@
         "original_event_id": "09ardtd3elv466b4iak92jk1ne_20261028T010000Z",
         "organizer": {
           "name": "NYC Resistor",
+          "website": "",
           "instagram": "",
           "email": "opn.address@gmail.com"
         },
@@ -3975,6 +3176,7 @@
         "social_links": [],
         "featured": false,
         "luma_source": false,
+        "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=MDlhcmR0ZDNlbHY0NjZiNGlhazkyamsxbmVfMjAyNjEwMjhUMDEwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn"
       }
     },
@@ -4014,6 +3216,7 @@
         "original_event_id": "noih6h9taubm8955sn2v0p11i0",
         "organizer": {
           "name": "NYCResistor",
+          "website": "",
           "instagram": "",
           "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
         },
@@ -4026,6 +3229,7 @@
         "social_links": [],
         "featured": false,
         "luma_source": false,
+        "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=bm9paDZoOXRhdWJtODk1NXNuMnYwcDExaTAgcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw"
       }
     },
@@ -4065,6 +3269,7 @@
         "original_event_id": "4k667kcjr80ovnt35hacfb4onm",
         "organizer": {
           "name": "NYCResistor",
+          "website": "",
           "instagram": "",
           "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
         },
@@ -4077,6 +3282,7 @@
         "social_links": [],
         "featured": false,
         "luma_source": false,
+        "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=NGs2NjdrY2pyODBvdm50MzVoYWNmYjRvbm0gcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw"
       }
     },
@@ -4116,6 +3322,7 @@
         "original_event_id": "7pavoopsokv5k1ej0d6fda8a83_20261101T180000Z",
         "organizer": {
           "name": "NYCResistor",
+          "website": "",
           "instagram": "",
           "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
         },
@@ -4128,109 +3335,8 @@
         "social_links": [],
         "featured": false,
         "luma_source": false,
+        "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=N3Bhdm9vcHNva3Y1azFlajBkNmZkYThhODNfMjAyNjExMDFUMTgwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn"
-      }
-    },
-    {
-      "id": "evt_gcal_com_nyc_resistor_c34ac6e0",
-      "name": "Unnamed Event",
-      "type": "hackerspace",
-      "locationId": "loc_nyc_resistor",
-      "communityId": "com_nyc_resistor",
-      "description": "",
-      "startDate": "2026-11-03T11:00:00-05:00",
-      "endDate": "2026-11-03T15:00:00-05:00",
-      "category": [
-        "hackerspace",
-        "maker",
-        "hardware",
-        "electronics",
-        "laser cutting",
-        "3d printing",
-        "microcontrollers",
-        "robotics"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": null,
-      "tags": [],
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source": "Google Calendar",
-        "source_url": "https://www.google.com/calendar/event?eid=Xzg1Mms2ZDlnNmgzNDJiOWc4OHEzNGI5azZoMjMyYmEyOGQzMzhiYTY2NG8zZ2U5bDc0bzQ4Z3BnNm9fMjAyNjExMDNUMTYwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn",
-        "original_event_id": "_852k6d9g6h342b9g88q34b9k6h232ba28d338ba664o3ge9l74o48gpg6o_20261103T160000Z",
-        "organizer": {
-          "name": "NYC Resistor",
-          "instagram": "",
-          "email": ""
-        },
-        "venue": {
-          "name": "",
-          "address": "",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false,
-        "google_calendar_link": "https://www.google.com/calendar/event?eid=Xzg1Mms2ZDlnNmgzNDJiOWc4OHEzNGI5azZoMjMyYmEyOGQzMzhiYTY2NG8zZ2U5bDc0bzQ4Z3BnNm9fMjAyNjExMDNUMTYwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn"
-      }
-    },
-    {
-      "id": "evt_gcal_com_nyc_resistor_692b69d1",
-      "name": "Unnamed Event",
-      "type": "hackerspace",
-      "locationId": "loc_nyc_resistor",
-      "communityId": "com_nyc_resistor",
-      "description": "",
-      "startDate": "2026-11-03T20:00:00-05:00",
-      "endDate": "2026-11-03T21:00:00-05:00",
-      "category": [
-        "hackerspace",
-        "maker",
-        "hardware",
-        "electronics",
-        "laser cutting",
-        "3d printing",
-        "microcontrollers",
-        "robotics"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": null,
-      "tags": [],
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source": "Google Calendar",
-        "source_url": "https://www.google.com/calendar/event?eid=cDRmMTAwMWFucDFnaWlqazBpajJtNjM2djFfMjAyNjExMDRUMDEwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn",
-        "original_event_id": "p4f1001anp1giijk0ij2m636v1_20261104T010000Z",
-        "organizer": {
-          "name": "NYC Resistor",
-          "instagram": "",
-          "email": ""
-        },
-        "venue": {
-          "name": "",
-          "address": "",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false,
-        "google_calendar_link": "https://www.google.com/calendar/event?eid=cDRmMTAwMWFucDFnaWlqazBpajJtNjM2djFfMjAyNjExMDRUMDEwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn"
       }
     },
     {
@@ -4269,6 +3375,7 @@
         "original_event_id": "4qpeos859t75vh6l42e5mukh7g_20261104",
         "organizer": {
           "name": "NYCResistor",
+          "website": "",
           "instagram": "",
           "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
         },
@@ -4281,6 +3388,7 @@
         "social_links": [],
         "featured": false,
         "luma_source": false,
+        "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=NHFwZW9zODU5dDc1dmg2bDQyZTVtdWtoN2dfMjAyNjExMDQgcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw"
       }
     },
@@ -4320,6 +3428,7 @@
         "original_event_id": "0iqqft475g0rh2qe28btv8gne9_20261106T233000Z",
         "organizer": {
           "name": "NYCResistor",
+          "website": "",
           "instagram": "",
           "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
         },
@@ -4332,6 +3441,7 @@
         "social_links": [],
         "featured": false,
         "luma_source": false,
+        "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=MGlxcWZ0NDc1ZzByaDJxZTI4YnR2OGduZTlfMjAyNjExMDZUMjMzMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn"
       }
     },
@@ -4371,6 +3481,7 @@
         "original_event_id": "7kf0ctadmc78bf25ch0cmv76qs_20261107T190000Z",
         "organizer": {
           "name": "NYCResistor",
+          "website": "",
           "instagram": "",
           "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
         },
@@ -4383,6 +3494,7 @@
         "social_links": [],
         "featured": false,
         "luma_source": false,
+        "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=N2tmMGN0YWRtYzc4YmYyNWNoMGNtdjc2cXNfMjAyNjExMDdUMTkwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn"
       }
     },
@@ -4422,6 +3534,7 @@
         "original_event_id": "srio8ghj4lopf8nbgmbimvechg",
         "organizer": {
           "name": "NYCResistor",
+          "website": "",
           "instagram": "",
           "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
         },
@@ -4434,58 +3547,8 @@
         "social_links": [],
         "featured": false,
         "luma_source": false,
+        "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=c3JpbzhnaGo0bG9wZjhuYmdtYmltdmVjaGcgcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw"
-      }
-    },
-    {
-      "id": "evt_gcal_com_nyc_resistor_ac302345",
-      "name": "Unnamed Event",
-      "type": "hackerspace",
-      "locationId": "loc_nyc_resistor",
-      "communityId": "com_nyc_resistor",
-      "description": "",
-      "startDate": "2026-11-10T20:00:00-05:00",
-      "endDate": "2026-11-10T21:00:00-05:00",
-      "category": [
-        "hackerspace",
-        "maker",
-        "hardware",
-        "electronics",
-        "laser cutting",
-        "3d printing",
-        "microcontrollers",
-        "robotics"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": null,
-      "tags": [],
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source": "Google Calendar",
-        "source_url": "https://www.google.com/calendar/event?eid=cDRmMTAwMWFucDFnaWlqazBpajJtNjM2djFfMjAyNjExMTFUMDEwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn",
-        "original_event_id": "p4f1001anp1giijk0ij2m636v1_20261111T010000Z",
-        "organizer": {
-          "name": "NYC Resistor",
-          "instagram": "",
-          "email": ""
-        },
-        "venue": {
-          "name": "",
-          "address": "",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false,
-        "google_calendar_link": "https://www.google.com/calendar/event?eid=cDRmMTAwMWFucDFnaWlqazBpajJtNjM2djFfMjAyNjExMTFUMDEwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn"
       }
     },
     {
@@ -4524,6 +3587,7 @@
         "original_event_id": "hk0tebgingmj0k72bmsesofmcm_20261115T180000Z",
         "organizer": {
           "name": "NYCResistor",
+          "website": "",
           "instagram": "",
           "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
         },
@@ -4536,6 +3600,7 @@
         "social_links": [],
         "featured": false,
         "luma_source": false,
+        "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=aGswdGViZ2luZ21qMGs3MmJtc2Vzb2ZtY21fMjAyNjExMTVUMTgwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn"
       }
     },
@@ -4575,6 +3640,7 @@
         "original_event_id": "v3b4rgfgen22s9j920qmnkp3eg",
         "organizer": {
           "name": "NYCResistor",
+          "website": "",
           "instagram": "",
           "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
         },
@@ -4587,109 +3653,8 @@
         "social_links": [],
         "featured": false,
         "luma_source": false,
+        "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=djNiNHJnZmdlbjIyczlqOTIwcW1ua3AzZWcgcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw"
-      }
-    },
-    {
-      "id": "evt_gcal_com_nyc_resistor_1b7ecf53",
-      "name": "Unnamed Event",
-      "type": "hackerspace",
-      "locationId": "loc_nyc_resistor",
-      "communityId": "com_nyc_resistor",
-      "description": "",
-      "startDate": "2026-11-17T11:00:00-05:00",
-      "endDate": "2026-11-17T15:00:00-05:00",
-      "category": [
-        "hackerspace",
-        "maker",
-        "hardware",
-        "electronics",
-        "laser cutting",
-        "3d printing",
-        "microcontrollers",
-        "robotics"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": null,
-      "tags": [],
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source": "Google Calendar",
-        "source_url": "https://www.google.com/calendar/event?eid=Xzg1Mms2ZDlnNmgzNDJiOWc4OHEzNGI5azZoMjMyYmEyOGQzMzhiYTY2NG8zZ2U5bDc0bzQ4Z3BnNm9fMjAyNjExMTdUMTYwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn",
-        "original_event_id": "_852k6d9g6h342b9g88q34b9k6h232ba28d338ba664o3ge9l74o48gpg6o_20261117T160000Z",
-        "organizer": {
-          "name": "NYC Resistor",
-          "instagram": "",
-          "email": ""
-        },
-        "venue": {
-          "name": "",
-          "address": "",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false,
-        "google_calendar_link": "https://www.google.com/calendar/event?eid=Xzg1Mms2ZDlnNmgzNDJiOWc4OHEzNGI5azZoMjMyYmEyOGQzMzhiYTY2NG8zZ2U5bDc0bzQ4Z3BnNm9fMjAyNjExMTdUMTYwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn"
-      }
-    },
-    {
-      "id": "evt_gcal_com_nyc_resistor_b156d1dd",
-      "name": "Unnamed Event",
-      "type": "hackerspace",
-      "locationId": "loc_nyc_resistor",
-      "communityId": "com_nyc_resistor",
-      "description": "",
-      "startDate": "2026-11-17T20:00:00-05:00",
-      "endDate": "2026-11-17T21:00:00-05:00",
-      "category": [
-        "hackerspace",
-        "maker",
-        "hardware",
-        "electronics",
-        "laser cutting",
-        "3d printing",
-        "microcontrollers",
-        "robotics"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": null,
-      "tags": [],
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source": "Google Calendar",
-        "source_url": "https://www.google.com/calendar/event?eid=cDRmMTAwMWFucDFnaWlqazBpajJtNjM2djFfMjAyNjExMThUMDEwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn",
-        "original_event_id": "p4f1001anp1giijk0ij2m636v1_20261118T010000Z",
-        "organizer": {
-          "name": "NYC Resistor",
-          "instagram": "",
-          "email": ""
-        },
-        "venue": {
-          "name": "",
-          "address": "",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false,
-        "google_calendar_link": "https://www.google.com/calendar/event?eid=cDRmMTAwMWFucDFnaWlqazBpajJtNjM2djFfMjAyNjExMThUMDEwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn"
       }
     },
     {
@@ -4728,6 +3693,7 @@
         "original_event_id": "1g5dt0s2jb9qca1mcjmi6nci8e_20261118T233000Z",
         "organizer": {
           "name": "NYCResistor",
+          "website": "",
           "instagram": "",
           "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
         },
@@ -4740,6 +3706,7 @@
         "social_links": [],
         "featured": false,
         "luma_source": false,
+        "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=MWc1ZHQwczJqYjlxY2ExbWNqbWk2bmNpOGVfMjAyNjExMThUMjMzMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn"
       }
     },
@@ -4779,6 +3746,7 @@
         "original_event_id": "3hou9c37vp8lk3r2vs6sa5jl2m_20261121T180000Z",
         "organizer": {
           "name": "NYCResistor",
+          "website": "",
           "instagram": "",
           "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
         },
@@ -4791,6 +3759,7 @@
         "social_links": [],
         "featured": false,
         "luma_source": false,
+        "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=M2hvdTljMzd2cDhsazNyMnZzNnNhNWpsMm1fMjAyNjExMjFUMTgwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn"
       }
     },
@@ -4830,6 +3799,7 @@
         "original_event_id": "gcrf06sti0d7fqahccbse4i4bk",
         "organizer": {
           "name": "NYCResistor",
+          "website": "",
           "instagram": "",
           "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
         },
@@ -4842,58 +3812,8 @@
         "social_links": [],
         "featured": false,
         "luma_source": false,
+        "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=Z2NyZjA2c3RpMGQ3ZnFhaGNjYnNlNGk0YmsgcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw"
-      }
-    },
-    {
-      "id": "evt_gcal_com_nyc_resistor_a18f7178",
-      "name": "Unnamed Event",
-      "type": "hackerspace",
-      "locationId": "loc_nyc_resistor",
-      "communityId": "com_nyc_resistor",
-      "description": "",
-      "startDate": "2026-11-24T20:00:00-05:00",
-      "endDate": "2026-11-24T21:00:00-05:00",
-      "category": [
-        "hackerspace",
-        "maker",
-        "hardware",
-        "electronics",
-        "laser cutting",
-        "3d printing",
-        "microcontrollers",
-        "robotics"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": null,
-      "tags": [],
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source": "Google Calendar",
-        "source_url": "https://www.google.com/calendar/event?eid=cDRmMTAwMWFucDFnaWlqazBpajJtNjM2djFfMjAyNjExMjVUMDEwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn",
-        "original_event_id": "p4f1001anp1giijk0ij2m636v1_20261125T010000Z",
-        "organizer": {
-          "name": "NYC Resistor",
-          "instagram": "",
-          "email": ""
-        },
-        "venue": {
-          "name": "",
-          "address": "",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false,
-        "google_calendar_link": "https://www.google.com/calendar/event?eid=cDRmMTAwMWFucDFnaWlqazBpajJtNjM2djFfMjAyNjExMjVUMDEwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn"
       }
     },
     {
@@ -4932,6 +3852,7 @@
         "original_event_id": "09ardtd3elv466b4iak92jk1ne_20261125T020000Z",
         "organizer": {
           "name": "NYC Resistor",
+          "website": "",
           "instagram": "",
           "email": "opn.address@gmail.com"
         },
@@ -4944,6 +3865,7 @@
         "social_links": [],
         "featured": false,
         "luma_source": false,
+        "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=MDlhcmR0ZDNlbHY0NjZiNGlhazkyamsxbmVfMjAyNjExMjVUMDIwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn"
       }
     },
@@ -4983,6 +3905,7 @@
         "original_event_id": "q08tsuinrc7nalau4s09q3o4n8",
         "organizer": {
           "name": "NYCResistor",
+          "website": "",
           "instagram": "",
           "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
         },
@@ -4995,6 +3918,7 @@
         "social_links": [],
         "featured": false,
         "luma_source": false,
+        "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=cTA4dHN1aW5yYzduYWxhdTRzMDlxM280bjggcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw"
       }
     },
@@ -5034,6 +3958,7 @@
         "original_event_id": "lhdovoqhivkt00v96n4nbnb2ak",
         "organizer": {
           "name": "NYCResistor",
+          "website": "",
           "instagram": "",
           "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
         },
@@ -5046,6 +3971,7 @@
         "social_links": [],
         "featured": false,
         "luma_source": false,
+        "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=bGhkb3ZvcWhpdmt0MDB2OTZuNG5ibmIyYWsgcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw"
       }
     },
@@ -5085,6 +4011,7 @@
         "original_event_id": "938070490d814d2282c66d9c0bf52361_20261128T003000Z",
         "organizer": {
           "name": "NYCResistor",
+          "website": "",
           "instagram": "",
           "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
         },
@@ -5097,9 +4024,63 @@
         "social_links": [],
         "featured": false,
         "luma_source": false,
+        "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=OTM4MDcwNDkwZDgxNGQyMjgyYzY2ZDljMGJmNTIzNjFfMjAyNjExMjhUMDAzMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn"
+      }
+    },
+    {
+      "id": "evt_gcal_com_nyc_resistor_793bbe51",
+      "name": "Public Craft Night Mondays and Thursdays!",
+      "type": "hackerspace",
+      "locationId": "loc_nyc_resistor",
+      "communityId": "com_nyc_resistor",
+      "description": "RSVP https://www.eventbrite.com/e/public-craft-night-mondays-and-thursdays-tickets-1992098784089\n\nLearn, make and share at NYC Resistor (all events18+)Note this event is 18+\nWelcome to Craft Night! Masks are now OPTIONAL at all our Craft Nights, Mondays and Thursdays. Your RSVP here is much appreciated so we can notify you of any covid contact after the fact, but is not required. Come on out, bring your freinds, and stay safe out there! Looking for a masks-on version of Craft Night? Check out Masks-On Craft Night!\nNYC Resistor is open to the public for Craft Nights every Monday and Thursday from 6:30-9:30 PM! Come bring your current crafting project and work on it with other artists, crafters, and makers of all kinds. Resistors do everything from costumes to electronics to visual arts to woodworking; people and crafting projects of all sorts are enthusiastically welcome. We are a proactively inclusive space, and prioritize creating opportunities for the whole community to engage with our events, across all identities of race, creed, ethnicity, age, religion, gender, gender identity, sexual orientation, physical appearance, and ability; please read our Code of Conduct to familiarize yourself with our community's values before attending.\n",
+      "startDate": "2026-11-30T18:30:00-05:00",
+      "endDate": "2026-11-30T21:30:00-05:00",
+      "category": [
+        "hackerspace",
+        "maker",
+        "hardware",
+        "electronics",
+        "laser cutting",
+        "3d printing",
+        "microcontrollers",
+        "robotics"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://www.eventbrite.com/e/public-craft-night-mondays-and-thursdays-tickets-1992098784089",
+        "original_event_id": "2gaigibrov9i5di25o7sdan4c0",
+        "organizer": {
+          "name": "NYCResistor",
+          "website": "",
+          "instagram": "",
+          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "NYC Resistor\n87 Third Avenue\nBrooklyn, NY 11217",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false,
+        "luma_host": null,
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=MmdhaWdpYnJvdjlpNWRpMjVvN3NkYW40YzAgcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw"
       }
     }
   ],
-  "timestamp": "2026-08-16T15:29:54.007655"
+  "timestamp": "2026-08-17T08:34:01.152615"
 }

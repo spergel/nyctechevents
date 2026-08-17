@@ -1,59 +1,12 @@
 {
   "events": [
     {
-      "id": "evt_gcal_com_fractal_e696a442",
-      "name": "SideQuest IRL #43",
-      "type": "tech",
-      "locationId": "",
-      "communityId": "com_fractal",
-      "description": "Get up-to-date information at: https://luma.com/haqtk5ff\n\nAddress:\nCheck event page for more details.\n\nHosted by Tina He & Ellie Doyle",
-      "startDate": "2026-08-16T18:30:00Z",
-      "endDate": "2026-08-16T22:00:00Z",
-      "category": [
-        "tech",
-        "startup",
-        "innovation",
-        "education"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": null,
-      "tags": [],
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source": "Google Calendar",
-        "source_url": "https://luma.com/haqtk5ff",
-        "original_event_id": "_clr78ba469a44tqddkpjioqna9kn4m20clr6arjkecn6ot9edlgg",
-        "organizer": {
-          "name": "Fractal Campus NYC",
-          "instagram": "",
-          "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "https://luma.com/event/evt-D2TBwMm39cWRirX",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": true,
-        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmE0NjlhNDR0cWRka3BqaW9xbmE5a240bTIwY2xyNmFyamtlY242b3Q5ZWRsZ2cgdDN2MnJzb3VmZmZsMjA2amgxMDJ0dmEzamVla2ZnbWVAaQ"
-      }
-    },
-    {
       "id": "evt_gcal_com_fractal_47e96a91",
       "name": "WORLD\u2019S SECOND BRAIN PONG TOURNAMENT",
       "type": "tech",
-      "locationId": "loc_fractal",
+      "locationId": "",
       "communityId": "com_fractal",
-      "description": "Get up-to-date information at: https://luma.com/vh2gou7v\n\nAddress:\n111 Conselyea St\nFractal Tech, Second Floor, in the Lounge off to the side\nBrooklyn, NY\nUnited States\n\nHosted by John Hoeksema",
+      "description": "PLAY PONG WITH ONLY YOUR EYES\n\u2694\ufe0f vie for glory in front of an admiring crowd!\n\ud83c\udfc6 compete for the brain pong trophy!\n\ud83e\udd16 become one with the machine via EOG!\nCompetitors: please show up 30 minutes early and wear minimal makeup. I'll put electrodes on your face and let you practice playing the game. Read more about risks here. The tournament format will be a best-of-1 single-elimination bracket.\nSpectators: all are welcome! come, relax, and watch humans use their bodies as controllers to play Pong.\n\ud83d\udc41\ufe0f spherical \ud83d\udc41\ufe0f snacks will be provided",
       "startDate": "2026-08-17T22:00:00Z",
       "endDate": "2026-08-18T00:00:00Z",
       "category": [
@@ -63,34 +16,41 @@
         "education"
       ],
       "price": {
-        "amount": 0,
+        "amount": 0.0,
         "type": "Free",
         "currency": "USD",
-        "details": ""
+        "details": "General Admission"
       },
       "capacity": null,
-      "registrationRequired": null,
+      "registrationRequired": false,
       "tags": [],
-      "image": "",
+      "image": "events/luma-event-287a04ee.jpg",
       "status": "upcoming",
       "metadata": {
         "source": "Google Calendar",
         "source_url": "https://luma.com/vh2gou7v",
         "original_event_id": "_clr78bb2e0rkurjfapn4sqqgetmkut20clr6arjkecn6ot9edlgg",
         "organizer": {
-          "name": "Fractal Campus NYC",
+          "name": "John Hoeksema",
+          "website": "https://luma.com/user/usr-2GzgfZeT0UHewk3",
           "instagram": "",
           "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
         },
         "venue": {
-          "name": "Fractal Tech",
-          "address": "111 Conselyea St, Brooklyn, NY 11211",
-          "type": "Community Space"
+          "name": "",
+          "address": "111 Conselyea St\n111 Conselyea St, Brooklyn, New York",
+          "type": "Offline"
         },
         "speakers": [],
         "social_links": [],
         "featured": false,
         "luma_source": true,
+        "luma_host": {
+          "name": "John Hoeksema",
+          "url": "https://luma.com/user/usr-2GzgfZeT0UHewk3",
+          "image": "https://images.lumacdn.com/avatars/cs/698ea46f-e14f-4f60-b117-70dc34fa91e8",
+          "type": "Person"
+        },
         "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmIyZTBya3VyamZhcG40c3FxZ2V0bWt1dDIwY2xyNmFyamtlY242b3Q5ZWRsZ2cgdDN2MnJzb3VmZmZsMjA2amgxMDJ0dmEzamVla2ZnbWVAaQ"
       }
     },
@@ -100,7 +60,7 @@
       "type": "tech",
       "locationId": "loc_fractal",
       "communityId": "com_fractal",
-      "description": "Get up-to-date information at: https://luma.com/mrdj9e1e\n\nAddress:\nFractal Tech\nBrooklyn, NY\nUnited States\n\nHosted by Sarah",
+      "description": "This interdisciplinary seminar explores how fictional worlds operate as structured models of society, drawing on speculative fiction, history, anthropology, and political theory. Students analyze how environments, institutions, culture, memory, and technology shape social order, while building a single evolving fictional world across the semester. The course culminates in a cohesive \"world dossier\" integrating these elements into a fully realized speculative society that can be used as a platform for creative projects.\nApply for the semester here.",
       "startDate": "2026-08-19T22:30:00Z",
       "endDate": "2026-08-20T00:30:00Z",
       "category": [
@@ -110,34 +70,41 @@
         "education"
       ],
       "price": {
-        "amount": 0,
+        "amount": 0.0,
         "type": "Free",
         "currency": "USD",
-        "details": ""
+        "details": "General Admission"
       },
       "capacity": null,
-      "registrationRequired": null,
+      "registrationRequired": false,
       "tags": [],
-      "image": "",
+      "image": "events/luma-event-a45ab4d7.jpg",
       "status": "upcoming",
       "metadata": {
         "source": "Google Calendar",
         "source_url": "https://luma.com/mrdj9e1e",
         "original_event_id": "_clr78b9l6l15gghl75a4cmbbdop6soq0clr6arjkecn6ot9edlgg",
         "organizer": {
-          "name": "Fractal Campus NYC",
+          "name": "Sarah",
+          "website": "https://luma.com/user/usr-jImy8pXPdoV9Rs4",
           "instagram": "",
           "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
         },
         "venue": {
           "name": "Fractal Tech",
           "address": "111 Conselyea St, Brooklyn, NY 11211",
-          "type": "Community Space"
+          "type": "Offline"
         },
         "speakers": [],
         "social_links": [],
         "featured": false,
         "luma_source": true,
+        "luma_host": {
+          "name": "Sarah",
+          "url": "https://luma.com/user/usr-jImy8pXPdoV9Rs4",
+          "image": "https://images.lumacdn.com/uploads/r0/ec2a4233-729c-41b8-9dcf-0cf634c09153.jpg",
+          "type": "Person"
+        },
         "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YjlsNmwxNWdnaGw3NWE0Y21iYmRvcDZzb3EwY2xyNmFyamtlY242b3Q5ZWRsZ2cgdDN2MnJzb3VmZmZsMjA2amgxMDJ0dmEzamVla2ZnbWVAaQ"
       }
     },
@@ -147,7 +114,7 @@
       "type": "tech",
       "locationId": "loc_fractal",
       "communityId": "com_fractal",
-      "description": "Get up-to-date information at: https://luma.com/9eirex4d\n\nAddress:\nFractal Tech\nBrooklyn, NY\nUnited States\n\nHosted by Liam Duffy",
+      "description": "sunset pizza & drinks, & a showcase of strange and beautiful side projects, hobbies, + creations \ud83e\udeb4\u2728\u26a1\ud83c\udfa8\ndemos will be 3 min long, signup here - https://forms.gle/RzLKJdpeMwQ4uwKY9\ndemos of all kinds welcome, come share whatever you're most proud of\n~\n\n6:30 to 7:00pm - pizza & sunset \ud83c\udf05\ud83c\udf55\n7:00 to 7:30pm - \u26a1 demos \u26a1\n7:30pm onwards - hang out\n~\n+1s welcome",
       "startDate": "2026-08-19T22:30:00Z",
       "endDate": "2026-08-20T01:00:00Z",
       "category": [
@@ -157,15 +124,15 @@
         "education"
       ],
       "price": {
-        "amount": 0,
+        "amount": 0.0,
         "type": "Free",
         "currency": "USD",
-        "details": ""
+        "details": "General Admission"
       },
       "capacity": null,
-      "registrationRequired": null,
+      "registrationRequired": false,
       "tags": [],
-      "image": "",
+      "image": "events/luma-event-e0bfcd4c.jpg",
       "status": "upcoming",
       "metadata": {
         "source": "Google Calendar",
@@ -173,18 +140,25 @@
         "original_event_id": "_clr78bagc4s30k2k8hbl0irod5n6qla0clr6arjkecn6ot9edlgg",
         "organizer": {
           "name": "Fractal Campus NYC",
+          "website": "https://luma.com/nyc-tech",
           "instagram": "",
           "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
         },
         "venue": {
           "name": "Fractal Tech",
           "address": "111 Conselyea St, Brooklyn, NY 11211",
-          "type": "Community Space"
+          "type": "Offline"
         },
         "speakers": [],
         "social_links": [],
         "featured": false,
         "luma_source": true,
+        "luma_host": {
+          "name": "Fractal Campus NYC",
+          "url": "https://luma.com/nyc-tech",
+          "image": "https://images.lumacdn.com/calendars/pz/00560a39-25b0-42ee-8e67-a995419ca6e6",
+          "type": "Organization"
+        },
         "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmFnYzRzMzBrMms4aGJsMGlyb2Q1bjZxbGEwY2xyNmFyamtlY242b3Q5ZWRsZ2cgdDN2MnJzb3VmZmZsMjA2amgxMDJ0dmEzamVla2ZnbWVAaQ"
       }
     },
@@ -204,34 +178,41 @@
         "education"
       ],
       "price": {
-        "amount": 0,
+        "amount": 0.0,
         "type": "Free",
         "currency": "USD",
-        "details": ""
+        "details": "General Admission"
       },
       "capacity": null,
-      "registrationRequired": null,
+      "registrationRequired": false,
       "tags": [],
-      "image": "",
+      "image": "events/luma-event-c471f310.jpg",
       "status": "upcoming",
       "metadata": {
         "source": "Google Calendar",
         "source_url": "https://luma.com/ca0ai4jp",
         "original_event_id": "_clr78baeeln4upi18tp5kq9n71s64oa0clr6arjkecn6ot9edlgg",
         "organizer": {
-          "name": "Fractal Campus NYC",
+          "name": "Friends of the Fractal Garden",
+          "website": "https://luma.com/fractal-garden",
           "instagram": "",
           "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
         },
         "venue": {
           "name": "Fractal Tech",
           "address": "111 Conselyea St, Brooklyn, NY 11211",
-          "type": "Community Space"
+          "type": "Offline"
         },
         "speakers": [],
         "social_links": [],
         "featured": false,
         "luma_source": true,
+        "luma_host": {
+          "name": "Friends of the Fractal Garden",
+          "url": "https://luma.com/fractal-garden",
+          "image": "https://images.lumacdn.com/calendars/xw/d43b818f-b59a-4e6a-857b-72efcee06d17.jpg",
+          "type": "Organization"
+        },
         "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmFlZWxuNHVwaTE4dHA1a3E5bjcxczY0b2EwY2xyNmFyamtlY242b3Q5ZWRsZ2cgdDN2MnJzb3VmZmZsMjA2amgxMDJ0dmEzamVla2ZnbWVAaQ"
       }
     },
@@ -241,7 +222,7 @@
       "type": "tech",
       "locationId": "loc_fractal",
       "communityId": "com_fractal",
-      "description": "Get up-to-date information at: https://luma.com/yamcbejy\n\nAddress:\nFractal Tech\nBrooklyn, NY\nUnited States\n\nHosted by Joshua Rosenfeld",
+      "description": "Plan your partner's perfect day\nNeed a birthday or anniversary gift for your partner? Or maybe you just want to make them feel incredibly loved. In this hands-on workshop, you'll turn your memories and inside jokes into a one-of-a-kind surprise date.\n\ud83d\udcaa No prep needed\n\ud83c\udf81 All materials included\n\u2728 A guided creative process\n\u2764\ufe0f An unforgettable date, ready to go\n\nDesign a date like...\n\ud83e\udd6f The Bagel Bracket\n\n\ud83e\uded6 Grandma at Heart\n\n\ud83d\udecf\ufe0f A Night at The Johnson Inn\n\n\nJust 3 easy steps to design your date\n1\ufe0f\u20e3 Gather Inspiration. We'll help you gather memories and inside jokes to inspire a date only you could have imagined.\n2\ufe0f\u20e3 Choose a Concept. We'll share a few blueprints so you can make creative choices within a clear structure.\n3\ufe0f\u20e3 Design the Date. We'll help you weave in a few flourishes, create an invitation and itinerary, and leave with a date that's ready to go.\n\nAll materials included\n\u2713 A fully planned custom date\n\u2713 A printed invitation and itinerary\n\u2713 A set of wax-sealed notes\n\u2713 Personalized support and guidance\n\u2713 Love it or your money back\n\nTaught by a gift & game designer\n\ud83d\udc4b Hi, I'm Josh, founder of GiddyBox. I've designed hundreds of gifts, games, and gatherings based on folks' memories and inside jokes. This workshop distills everything I've learned about creating personalized experiences for people you love. Here are examples of some of the date night kits I've created through GiddyBox:\n\n\nCommon questions\nIs there anything I need to prep?\n\nIs there anything I need to bring?\n\nShould I attend with my partner?\n\nWould this work for a second or third date?\n\nHow long will the date I plan be?\n\nWhat if I'm \"bad\" at planning dates?\n\nWhat if we have kids or can't easily leave the house?\n\nHow does the satisfaction guarantee work?\n\nWhat's the cancellation policy?\n\nWhat if I have more questions?",
       "startDate": "2026-08-23T17:00:00Z",
       "endDate": "2026-08-23T19:15:00Z",
       "category": [
@@ -251,34 +232,41 @@
         "education"
       ],
       "price": {
-        "amount": 0,
-        "type": "Free",
+        "amount": 24.0,
+        "type": "Paid",
         "currency": "USD",
-        "details": ""
+        "details": "General Admission"
       },
       "capacity": null,
-      "registrationRequired": null,
+      "registrationRequired": false,
       "tags": [],
-      "image": "",
+      "image": "events/luma-event-bdea9d41.jpg",
       "status": "upcoming",
       "metadata": {
         "source": "Google Calendar",
         "source_url": "https://luma.com/yamcbejy",
         "original_event_id": "_clr78bacatd68u1i8pi6ukiidcpmuk20clr6arjkecn6ot9edlgg",
         "organizer": {
-          "name": "Fractal Campus NYC",
+          "name": "Joshua Rosenfeld",
+          "website": "https://luma.com/user/usr-Q3WQiGYnDFirL9w",
           "instagram": "",
           "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
         },
         "venue": {
           "name": "Fractal Tech",
           "address": "111 Conselyea St, Brooklyn, NY 11211",
-          "type": "Community Space"
+          "type": "Offline"
         },
         "speakers": [],
         "social_links": [],
         "featured": false,
         "luma_source": true,
+        "luma_host": {
+          "name": "Joshua Rosenfeld",
+          "url": "https://luma.com/user/usr-Q3WQiGYnDFirL9w",
+          "image": "https://images.lumacdn.com/uploads/rw/f78d91b4-9da2-4066-bf1d-3df76ccd85af.png",
+          "type": "Person"
+        },
         "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmFjYXRkNjh1MWk4cGk2dWtpaWRjcG11azIwY2xyNmFyamtlY242b3Q5ZWRsZ2cgdDN2MnJzb3VmZmZsMjA2amgxMDJ0dmEzamVla2ZnbWVAaQ"
       }
     },
@@ -288,7 +276,7 @@
       "type": "tech",
       "locationId": "",
       "communityId": "com_fractal",
-      "description": "Get up-to-date information at: https://luma.com/ai-august\n\nAddress:\nCheck event page for more details.\n\nHosted by Federico Ulfo & 3 others",
+      "description": "Socratic dialogs with top engineers, researchers, and founders from leading AI startups. We discuss new models, research papers, ethics and more.\nBy request of our audience, we will be piloting a new style of talk this month and prioritizing deep technical topics.  We are bringing in Ritiz Tambi from Veris AI to talk about RL Fine-tuning / open-model benchmarking.\nTopics:\n- Blog post https://aisocratic.org/blog/ai-socratic-aug-2026\nParticipation is highly selective, conversations are high-signal and low-noise.\n\nAgenda\n6:00 PM   Welcome\n7:00 PM   Socratic Dialogues\n8:00 PM   Presentations\n9:00 PM   Networking at a bar nearby\nSocratic Dialogues\nWe begin this session with a quick round of intro to get to know each other.\nThen we dive into the topics, reading the last article in aisocratic.org/blog \u2014\u00a0experts on the current topic are encouraged to share anything they know on it.\n\nSponsors\nVeris AI is hosting us this month in the awesome space in Soho.\n\n\n\nWe're an exclusive community of of top-tier engineers, researchers, and founders working frontier AI. We meet monthly to discuss new models, papers, frameworks, and more.\nSign up on aisocratic.org to receive updates on new events and blog posts.",
       "startDate": "2026-08-25T22:00:00Z",
       "endDate": "2026-08-26T01:00:00Z",
       "category": [
@@ -298,34 +286,41 @@
         "education"
       ],
       "price": {
-        "amount": 0,
-        "type": "Free",
+        "amount": 10.0,
+        "type": "Paid",
         "currency": "USD",
-        "details": ""
+        "details": "General Admission"
       },
       "capacity": null,
-      "registrationRequired": null,
+      "registrationRequired": false,
       "tags": [],
-      "image": "",
+      "image": "events/luma-event-729eb138.jpg",
       "status": "upcoming",
       "metadata": {
         "source": "Google Calendar",
         "source_url": "https://luma.com/ai-august",
         "original_event_id": "_clr78bb79dmk2tbq8l1mqga78d258r20clr6arjkecn6ot9edlgg",
         "organizer": {
-          "name": "Fractal Campus NYC",
+          "name": "AI Socratic NY",
+          "website": "https://luma.com/ainy",
           "instagram": "",
           "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
         },
         "venue": {
           "name": "",
-          "address": "https://luma.com/event/evt-gKmAuzECmAGCDTl",
+          "address": "New York, NY\nNew York, New York",
           "type": "Offline"
         },
         "speakers": [],
         "social_links": [],
         "featured": false,
         "luma_source": true,
+        "luma_host": {
+          "name": "AI Socratic NY",
+          "url": "https://luma.com/ainy",
+          "image": "https://images.lumacdn.com/calendars/2l/16d42384-b2d1-4b32-b51d-0efe6dac53ba.png",
+          "type": "Organization"
+        },
         "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmI3OWRtazJ0YnE4bDFtcWdhNzhkMjU4cjIwY2xyNmFyamtlY242b3Q5ZWRsZ2cgdDN2MnJzb3VmZmZsMjA2amgxMDJ0dmEzamVla2ZnbWVAaQ"
       }
     },
@@ -335,7 +330,7 @@
       "type": "tech",
       "locationId": "loc_fractal",
       "communityId": "com_fractal",
-      "description": "Get up-to-date information at: https://luma.com/yty46bn2\n\nAddress:\nFractal Tech\nBrooklyn, NY\nUnited States\n\nHosted by Sarah",
+      "description": "This interdisciplinary seminar explores how fictional worlds operate as structured models of society, drawing on speculative fiction, history, anthropology, and political theory. Students analyze how environments, institutions, culture, memory, and technology shape social order, while building a single evolving fictional world across the semester. The course culminates in a cohesive \"world dossier\" integrating these elements into a fully realized speculative society that can be used as a platform for creative projects.\nApply for the semester here.",
       "startDate": "2026-08-26T22:30:00Z",
       "endDate": "2026-08-27T00:30:00Z",
       "category": [
@@ -345,34 +340,41 @@
         "education"
       ],
       "price": {
-        "amount": 0,
+        "amount": 0.0,
         "type": "Free",
         "currency": "USD",
-        "details": ""
+        "details": "General Admission"
       },
       "capacity": null,
-      "registrationRequired": null,
+      "registrationRequired": false,
       "tags": [],
-      "image": "",
+      "image": "events/luma-event-a45ab4d7.jpg",
       "status": "upcoming",
       "metadata": {
         "source": "Google Calendar",
         "source_url": "https://luma.com/yty46bn2",
         "original_event_id": "_clr78bbc89p4gkr1c5kk2j9k85mjada0clr6arjkecn6ot9edlgg",
         "organizer": {
-          "name": "Fractal Campus NYC",
+          "name": "Sarah",
+          "website": "https://luma.com/user/usr-jImy8pXPdoV9Rs4",
           "instagram": "",
           "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
         },
         "venue": {
           "name": "Fractal Tech",
           "address": "111 Conselyea St, Brooklyn, NY 11211",
-          "type": "Community Space"
+          "type": "Offline"
         },
         "speakers": [],
         "social_links": [],
         "featured": false,
         "luma_source": true,
+        "luma_host": {
+          "name": "Sarah",
+          "url": "https://luma.com/user/usr-jImy8pXPdoV9Rs4",
+          "image": "https://images.lumacdn.com/uploads/r0/ec2a4233-729c-41b8-9dcf-0cf634c09153.jpg",
+          "type": "Person"
+        },
         "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmJjODlwNGdrcjFjNWtrMmo5azg1bWphZGEwY2xyNmFyamtlY242b3Q5ZWRsZ2cgdDN2MnJzb3VmZmZsMjA2amgxMDJ0dmEzamVla2ZnbWVAaQ"
       }
     },
@@ -382,7 +384,7 @@
       "type": "tech",
       "locationId": "",
       "communityId": "com_fractal",
-      "description": "Get up-to-date information at: https://luma.com/nyc-d0m3\n\nAddress:\nCheck event page for more details.\n\nHosted by Priya Rose \ud83c\udf39",
+      "description": "Lounge is closed (and possibly the entire office). If you are trying to schedule an event at the same time, check with Priya.",
       "startDate": "2026-08-28T22:00:00Z",
       "endDate": "2026-08-29T01:00:00Z",
       "category": [
@@ -392,15 +394,15 @@
         "education"
       ],
       "price": {
-        "amount": 0,
+        "amount": 0.0,
         "type": "Free",
         "currency": "USD",
-        "details": ""
+        "details": "General Admission"
       },
       "capacity": null,
-      "registrationRequired": null,
+      "registrationRequired": false,
       "tags": [],
-      "image": "",
+      "image": "events/luma-event-a5f56718.jpg",
       "status": "upcoming",
       "metadata": {
         "source": "Google Calendar",
@@ -408,6 +410,7 @@
         "original_event_id": "_clr78ba16pq42u3b89b6uoplf1ik8da0clr6arjkecn6ot9edlgg",
         "organizer": {
           "name": "Fractal Campus NYC",
+          "website": "https://luma.com/nyc-tech",
           "instagram": "",
           "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
         },
@@ -420,6 +423,12 @@
         "social_links": [],
         "featured": false,
         "luma_source": true,
+        "luma_host": {
+          "name": "Fractal Campus NYC",
+          "url": "https://luma.com/nyc-tech",
+          "image": "https://images.lumacdn.com/calendars/pz/00560a39-25b0-42ee-8e67-a995419ca6e6",
+          "type": "Organization"
+        },
         "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmExNnBxNDJ1M2I4OWI2dW9wbGYxaWs4ZGEwY2xyNmFyamtlY242b3Q5ZWRsZ2cgdDN2MnJzb3VmZmZsMjA2amgxMDJ0dmEzamVla2ZnbWVAaQ"
       }
     },
@@ -429,7 +438,7 @@
       "type": "tech",
       "locationId": "loc_fractal",
       "communityId": "com_fractal",
-      "description": "Get up-to-date information at: https://luma.com/09nr86jb\n\nAddress:\nFractal Tech\nBrooklyn, NY\nUnited States\n\nHosted by Sleepawake",
+      "description": "\u201cThe truth is we are One. The reality is we are not.\u201d\n- Leticia Nieto, Understanding Oppression\nTurning toward what is difficult and challenging in our relationships is a powerful way to meet the seemingly unaddressable challenges of our society. As we turn toward the places of fear and discomfort in ourselves and in our relationships, we build the capacity to turn toward the mirrors of those same issues in our culture and our world. This can include the ways we relate to our own identities like age, race, culture, education, economic status, gender, sexual orientation, disability, religion, and more.\nWe don't have to come from defeat, anger, misunderstanding, or powerlessness in order to do the social activism of acknowledging and loving these pieces of ourselves. In the midst of doing the real work of paying attention to the things we usually ignore, we can be supported by delight, laughter, joy, and lightheartedness. We'll weave together reverence for these \u201cinvisible selves\u201d and the delightful play that comes from not taking ourselves too seriously. We don't know exactly what will come up between us in this workshop \u2014 but we know we're up for the adventure of finding out.\n\u201cWe don\u2019t have to know the answers. We just have to choose to live into the truth\u201d\n- Reverend Angel Kyodo Williams\n\nAgenda\n9:30am - doors open, arrival\n10am - doors close\nMorning - a guided interactive small-group activity to bring awareness to the implicit dynamics between us and the ways that we often feel misunderstood or unseen\n12-1 - catered lunch\nAfternoon - a facilitated group process to clear some of the content that is ready to be cleared (up to you how deep you want to go). We\u2019ll then move into guided activities around creativity and play, and a guided meditation to help integrate the process we just moved through\nEvent details\nEverything will be taught from the basics \u2013 all you need is to be curious\nEverything is opt-in and your \u201cno\u201d will always be honored\nYou can come alone or with a friend\nAll you\u2019ll need is a journal, a pen, and a water bottle. Lunch is included, accommodating for dietary restrictions.\nSpots at this workshop are limited to maintain the size necessary for small group work, so we\u2019d recommend getting your ticket as soon as you know you\u2019d like to come\nIf you need a need-based scholarship to be able to attend, please reach out to info@sleepawake.camp.\nFacilitator: Sarah Cruse\n\nSarah has been with Sleepawake since 2023, leading both our emotional and relational curriculum and our creative expression curriculum at almost every retreat we\u2019ve ever run. As a young repressed and depressed adult, trying to find her way out of patterns of personal and familial trauma, she found poetry and discovered the healing power of embodied truth, authentic voice and creative expression. Through spoken word, theater, singing, and sound exploration, she discovered an internal river of emergence. It is a deep listening, a profound wellspring of self-expression, a pathway towards healing that changed her life forever. Sarah now supports people and communities in activating their own inner creative pathways. Outside of Sleepawake, she is currently a practitioner of energetic medicine, sound healing and trauma clearing, and the lead singer of her band Yaya's Kitchen. Sarah is up for the adventure of whatever this day together brings and delighted to be part of it with you.\nAbout SleepaWeek\nSleepawake is coming to NYC for a week! Check out our events calendar to see everything happening this week. If the ticket price is a blocker to your attendance, please reach out to info@sleepawake.camp for details on need-based scholarship discounts.",
       "startDate": "2026-08-29T13:30:00Z",
       "endDate": "2026-08-29T21:30:00Z",
       "category": [
@@ -439,34 +448,41 @@
         "education"
       ],
       "price": {
-        "amount": 0,
-        "type": "Free",
+        "amount": 99.0,
+        "type": "Paid",
         "currency": "USD",
-        "details": ""
+        "details": "General Admission"
       },
       "capacity": null,
-      "registrationRequired": null,
+      "registrationRequired": false,
       "tags": [],
-      "image": "",
+      "image": "events/luma-event-d7b7516d.jpg",
       "status": "upcoming",
       "metadata": {
         "source": "Google Calendar",
         "source_url": "https://luma.com/09nr86jb",
         "original_event_id": "_clr78badd8s6mkhkd9smgc1nahklgia0clr6arjkecn6ot9edlgg",
         "organizer": {
-          "name": "Fractal Campus NYC",
+          "name": "Sleepawake Events Calendar",
+          "website": "https://luma.com/sleepawake-events",
           "instagram": "",
           "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
         },
         "venue": {
           "name": "Fractal Tech",
           "address": "111 Conselyea St, Brooklyn, NY 11211",
-          "type": "Community Space"
+          "type": "Offline"
         },
         "speakers": [],
         "social_links": [],
         "featured": false,
         "luma_source": true,
+        "luma_host": {
+          "name": "Sleepawake Events Calendar",
+          "url": "https://luma.com/sleepawake-events",
+          "image": "https://images.lumacdn.com/calendars/ec/cf307a72-ca44-45b4-ae52-b182e0652f95",
+          "type": "Organization"
+        },
         "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmFkZDhzNm1raGtkOXNtZ2MxbmFoa2xnaWEwY2xyNmFyamtlY242b3Q5ZWRsZ2cgdDN2MnJzb3VmZmZsMjA2amgxMDJ0dmEzamVla2ZnbWVAaQ"
       }
     },
@@ -486,34 +502,41 @@
         "education"
       ],
       "price": {
-        "amount": 0,
+        "amount": 0.0,
         "type": "Free",
         "currency": "USD",
-        "details": ""
+        "details": "General Admission"
       },
       "capacity": null,
-      "registrationRequired": null,
+      "registrationRequired": false,
       "tags": [],
-      "image": "",
+      "image": "events/luma-event-c471f310.jpg",
       "status": "upcoming",
       "metadata": {
         "source": "Google Calendar",
         "source_url": "https://luma.com/0yp5gru5",
         "original_event_id": "_clr78bbkddk58tr8chc4iebn69j4arq0clr6arjkecn6ot9edlgg",
         "organizer": {
-          "name": "Fractal Campus NYC",
+          "name": "Friends of the Fractal Garden",
+          "website": "https://luma.com/fractal-garden",
           "instagram": "",
           "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
         },
         "venue": {
           "name": "Fractal Tech",
           "address": "111 Conselyea St, Brooklyn, NY 11211",
-          "type": "Community Space"
+          "type": "Offline"
         },
         "speakers": [],
         "social_links": [],
         "featured": false,
         "luma_source": true,
+        "luma_host": {
+          "name": "Friends of the Fractal Garden",
+          "url": "https://luma.com/fractal-garden",
+          "image": "https://images.lumacdn.com/calendars/xw/d43b818f-b59a-4e6a-857b-72efcee06d17.jpg",
+          "type": "Organization"
+        },
         "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmJrZGRrNTh0cjhjaGM0aWVibjY5ajRhcnEwY2xyNmFyamtlY242b3Q5ZWRsZ2cgdDN2MnJzb3VmZmZsMjA2amgxMDJ0dmEzamVla2ZnbWVAaQ"
       }
     },
@@ -523,7 +546,7 @@
       "type": "tech",
       "locationId": "loc_fractal",
       "communityId": "com_fractal",
-      "description": "Get up-to-date information at: https://luma.com/cj5p6zqn\n\nAddress:\nFractal Tech\nBrooklyn, NY\nUnited States\n\nHosted by Sleepawake",
+      "description": "Sleepawake is coming to NYC for a week!\nCome by brunch to hang out, and optionally participate in a sweet ~30 min activity facilitated by one of Sleepawake's lead facilitators.\nRSVP on Partiful to see who else is coming:\nhttps://partiful.com/e/ZtqCSgr1srWOiaGNyHtA?",
       "startDate": "2026-08-30T15:00:00Z",
       "endDate": "2026-08-30T17:00:00Z",
       "category": [
@@ -533,34 +556,41 @@
         "education"
       ],
       "price": {
-        "amount": 0,
+        "amount": 0.0,
         "type": "Free",
         "currency": "USD",
-        "details": ""
+        "details": "General Admission"
       },
       "capacity": null,
-      "registrationRequired": null,
+      "registrationRequired": false,
       "tags": [],
-      "image": "",
+      "image": "events/luma-event-499d2ae4.jpg",
       "status": "upcoming",
       "metadata": {
         "source": "Google Calendar",
         "source_url": "https://luma.com/cj5p6zqn",
         "original_event_id": "_clr78b9p9tbkehbndpkj8i9ld9a6ulq0clr6arjkecn6ot9edlgg",
         "organizer": {
-          "name": "Fractal Campus NYC",
+          "name": "Sleepawake Events Calendar",
+          "website": "https://luma.com/sleepawake-events",
           "instagram": "",
           "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
         },
         "venue": {
           "name": "Fractal Tech",
           "address": "111 Conselyea St, Brooklyn, NY 11211",
-          "type": "Community Space"
+          "type": "Offline"
         },
         "speakers": [],
         "social_links": [],
         "featured": false,
         "luma_source": true,
+        "luma_host": {
+          "name": "Sleepawake Events Calendar",
+          "url": "https://luma.com/sleepawake-events",
+          "image": "https://images.lumacdn.com/calendars/ec/cf307a72-ca44-45b4-ae52-b182e0652f95",
+          "type": "Organization"
+        },
         "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YjlwOXRia2VoYm5kcGtqOGk5bGQ5YTZ1bHEwY2xyNmFyamtlY242b3Q5ZWRsZ2cgdDN2MnJzb3VmZmZsMjA2amgxMDJ0dmEzamVla2ZnbWVAaQ"
       }
     },
@@ -568,9 +598,9 @@
       "id": "evt_gcal_com_fractal_f355064c",
       "name": "Jhourney Jhana Meditation",
       "type": "tech",
-      "locationId": "loc_fractal",
+      "locationId": "",
       "communityId": "com_fractal",
-      "description": "Get up-to-date information at: https://luma.com/plhxncfg\n\nAddress:\n111 Conselyea St\nThe Lounge\nBrooklyn, NY\nUnited States\n\nHosted by David Braun & Alex",
+      "description": "This is a social event hosted by NYC Jhourney for students of Jhourney meditation retreats, jhana meditators, and those who are curious about jhana meditation. During the meeting we will meditate but there will be no instruction; you're welcome to meditate however you like or to sit quietly for an hour.\n\nPlease bring food and drinks to share.  Paper cups, plates, bowls, utensils, and napkins will be provided.\nIf you're unable to bring any food or drink to share, we kindly recommend a $10 donation to contribute for food that we will provide.  You may send money via PayPal or Venmo to @gumballsforme or give cash to David.\nMeditation cushions will not be provided.  Please bring whatever you need to make yourself comfortable.  We will be meeting in The Lounge.\nDIRECTIONS\nThere are two entrances at the address. Enter the one on the RIGHT (to the right of Savino's Quality Pasta) and proceed up the stairs to the second floor.",
       "startDate": "2026-08-30T18:00:00Z",
       "endDate": "2026-08-30T22:00:00Z",
       "category": [
@@ -580,34 +610,41 @@
         "education"
       ],
       "price": {
-        "amount": 0,
+        "amount": 0.0,
         "type": "Free",
         "currency": "USD",
-        "details": ""
+        "details": "General Admission"
       },
       "capacity": null,
-      "registrationRequired": null,
+      "registrationRequired": false,
       "tags": [],
-      "image": "",
+      "image": "events/luma-event-39b7587a.jpg",
       "status": "upcoming",
       "metadata": {
         "source": "Google Calendar",
         "source_url": "https://luma.com/plhxncfg",
         "original_event_id": "_clr78b9n6t7j8s1pdtpnkuhp6tk4gqi0clr6arjkecn6ot9edlgg",
         "organizer": {
-          "name": "Fractal Campus NYC",
+          "name": "NYC Jhourney",
+          "website": "https://luma.com/calendar/cal-Hl2i5yr1fumfqWY",
           "instagram": "",
           "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
         },
         "venue": {
-          "name": "Fractal Tech",
-          "address": "111 Conselyea St, Brooklyn, NY 11211",
-          "type": "Community Space"
+          "name": "",
+          "address": "111 Conselyea St\n111 Conselyea St, Brooklyn, New York",
+          "type": "Offline"
         },
         "speakers": [],
         "social_links": [],
         "featured": false,
         "luma_source": true,
+        "luma_host": {
+          "name": "NYC Jhourney",
+          "url": "https://luma.com/calendar/cal-Hl2i5yr1fumfqWY",
+          "image": "https://images.lumacdn.com/uploads/6d/165fb0da-7792-4255-ab8b-e75bc6c1bf4d.jpg",
+          "type": "Organization"
+        },
         "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YjluNnQ3ajhzMXBkdHBua3VocDZ0azRncWkwY2xyNmFyamtlY242b3Q5ZWRsZ2cgdDN2MnJzb3VmZmZsMjA2amgxMDJ0dmEzamVla2ZnbWVAaQ"
       }
     },
@@ -617,7 +654,7 @@
       "type": "tech",
       "locationId": "",
       "communityId": "com_fractal",
-      "description": "Get up-to-date information at: https://luma.com/v52fg20a\n\nAddress:\nCheck event page for more details.\n\nHosted by Tina He",
+      "description": "Join us for an afternoon of pursuing your personal side quest! Whether you\u2019re writing, coding, or doing those taxes you\u2019ve been putting off, this is your space. It\u2019s intentional time for you to focus on what feels meaningful to you\u2014and meet people doing the same thing. We\u2019ll split our time between focused work sessions and breaks to reset and mingle with other creators.\nRough Agenda*\n2:30-3:00pm: Introductions and Intention Sharing\n3:00-4:30pm: Deep focus session 1\n4:30-4:50pm: Optional break\n4:50-5:30pm: Deep focus session 2\n5:30-6:00pm: SideQuest Shares\n*Popular opinion is that SideQuest is best when you\u2019re all in, showing up for the duration instead of splitting sessions. Try it\u2014we think you\u2019ll agree.\n___________________\n\nAbout SideQuest:\nWe host coworking sessions every other Sunday. Subscribe to our events calendar if you can\u2019t make this one :)\nIf you've got ideas for how to help build the community, or you'd like to host a future SideQuest (it's easier than you might think!), we'd love to hear from you.\nThank you to Fractal Campus for hosting us, our friends at PurdueHackers, CozySundays and Socratica for seeding the idea, and Chandiran for building the SideQuest community.",
       "startDate": "2026-08-30T18:30:00Z",
       "endDate": "2026-08-30T22:00:00Z",
       "category": [
@@ -627,34 +664,41 @@
         "education"
       ],
       "price": {
-        "amount": 0,
+        "amount": 0.0,
         "type": "Free",
         "currency": "USD",
-        "details": ""
+        "details": "General Admission"
       },
       "capacity": null,
-      "registrationRequired": null,
+      "registrationRequired": false,
       "tags": [],
-      "image": "",
+      "image": "events/luma-event-474c7a7c.jpg",
       "status": "upcoming",
       "metadata": {
         "source": "Google Calendar",
         "source_url": "https://luma.com/v52fg20a",
         "original_event_id": "_clr78baladh3ilq471iliiije97j4t20clr6arjkecn6ot9edlgg",
         "organizer": {
-          "name": "Fractal Campus NYC",
+          "name": "SideQuest",
+          "website": "https://luma.com/sidequest",
           "instagram": "",
           "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
         },
         "venue": {
           "name": "",
-          "address": "https://luma.com/event/evt-USb9WD8eYJSrO2t",
+          "address": "Kings County, New York",
           "type": "Offline"
         },
         "speakers": [],
         "social_links": [],
         "featured": false,
         "luma_source": true,
+        "luma_host": {
+          "name": "SideQuest",
+          "url": "https://luma.com/sidequest",
+          "image": "https://images.lumacdn.com/calendars/7l/768c5bdb-8fbb-4530-a326-f69af660c934",
+          "type": "Organization"
+        },
         "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmFsYWRoM2lscTQ3MWlsaWlpamU5N2o0dDIwY2xyNmFyamtlY242b3Q5ZWRsZ2cgdDN2MnJzb3VmZmZsMjA2amgxMDJ0dmEzamVla2ZnbWVAaQ"
       }
     },
@@ -664,7 +708,7 @@
       "type": "tech",
       "locationId": "loc_fractal",
       "communityId": "com_fractal",
-      "description": "Get up-to-date information at: https://luma.com/junuo8ii\n\nAddress:\nFractal Tech\nBrooklyn, NY\nUnited States\n\nHosted by Sleepawake",
+      "description": "Every single person has had some sad and kinda awful stuff happen to them. Also some funny stuff. Also some stuff they don't know how to feel about. Let's share in the totality of how varied and strange it is to be a human!\n\nAfter meeting one another and settling in, we\u2019ll spend most of our time on an activity where you get to see others and be seen one layer (or more?) deeper than you might normally. This one's sweet, and tender, and funny, and...I think it's easier for me to like you now.\nDoors open at 7 and close at 7:15 sharp; please be there before 7:15 to participate in this one.\n\nAbout your facilitator\n\nRaven is a facilitator and curriculum builder at Sleepawake. She brings almost a decade of somatic, relational, and emotional work to the room. Previously a medic, filmmaker, tech worker, and hardcore meditator (accumulating four months in silent meditation including a stint in a monastery in Myanmar), her work now draws from various meditation traditions: Vipassana (Goenka, Gaya House traditions) and Mahamudra (Rigdzin with Dustin DiPerna). It also incorporates teachings from Realization Process (where she's a certified teacher, trained with Judith Blackstone and Roma Hammel), the Conscious Leadership Group (she's a certified 15 Commitments Coach, trained with Jim Dethmer and Diana Chapman), and a body of work that treats emotions as energy to be welcomed rather than managed, with enjoyment as the accelerator of change. Having worked with hundreds of people, Raven knows the stuff we most want to skip is usually the stuff worth staying with, and she makes this difficult task feel like a bold and wild ride.\nFor anyone who wants to access more personal freedom, to be honest about what they want, and to turn the most \"bad\" and difficult aspects of themselves into allies and heroes - Raven's got you.\nAt home in Berkeley, you might find her hanging out with her beautiful besties, playing narrative-driven video games and getting absolutely shredded at the gym.\nAbout SleepaWeek\nSleepawake is coming to NYC for a week! Check out our events calendar to see everything happening this week. If the ticket price is a blocker to your attendance, please reach out to info@sleepawake.camp for details on need-based scholarship discounts.",
       "startDate": "2026-09-01T23:00:00Z",
       "endDate": "2026-09-02T01:00:00Z",
       "category": [
@@ -674,34 +718,41 @@
         "education"
       ],
       "price": {
-        "amount": 0,
-        "type": "Free",
+        "amount": 25.0,
+        "type": "Paid",
         "currency": "USD",
-        "details": ""
+        "details": "General Admission"
       },
       "capacity": null,
-      "registrationRequired": null,
+      "registrationRequired": false,
       "tags": [],
-      "image": "",
+      "image": "events/luma-event-4eb0d3b4.jpg",
       "status": "upcoming",
       "metadata": {
         "source": "Google Calendar",
         "source_url": "https://luma.com/junuo8ii",
         "original_event_id": "_clr78b9jdl5k4rild9j7aq9pe9gmari0clr6arjkecn6ot9edlgg",
         "organizer": {
-          "name": "Fractal Campus NYC",
+          "name": "Sleepawake Events Calendar",
+          "website": "https://luma.com/sleepawake-events",
           "instagram": "",
           "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
         },
         "venue": {
           "name": "Fractal Tech",
           "address": "111 Conselyea St, Brooklyn, NY 11211",
-          "type": "Community Space"
+          "type": "Offline"
         },
         "speakers": [],
         "social_links": [],
         "featured": false,
         "luma_source": true,
+        "luma_host": {
+          "name": "Sleepawake Events Calendar",
+          "url": "https://luma.com/sleepawake-events",
+          "image": "https://images.lumacdn.com/calendars/ec/cf307a72-ca44-45b4-ae52-b182e0652f95",
+          "type": "Organization"
+        },
         "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YjlqZGw1azRyaWxkOWo3YXE5cGU5Z21hcmkwY2xyNmFyamtlY242b3Q5ZWRsZ2cgdDN2MnJzb3VmZmZsMjA2amgxMDJ0dmEzamVla2ZnbWVAaQ"
       }
     },
@@ -711,7 +762,7 @@
       "type": "tech",
       "locationId": "loc_fractal",
       "communityId": "com_fractal",
-      "description": "Get up-to-date information at: https://luma.com/meekzsov\n\nAddress:\nFractal Tech\nBrooklyn, NY\nUnited States\n\nHosted by Sleepawake",
+      "description": "Bad is the new Good! Everything you think is bad about you has a beautiful purpose and design. Don't believe us? Let's let some badness out of the box and find out! Strap in, choke back the feeling you\u2019re gonna die, turn the fun dial all the way up, and let your BAD GIRL or BAD BOY out in a safe, 0-chance-of-hurting-anyone environment! You might just find some new superpowers \u2013 maybe even some new boundaries and desires \u2013 on the other side\u2026\nAbout your facilitator\n\nRaven is a facilitator and curriculum builder at Sleepawake. She brings almost a decade of somatic, relational, and emotional work to the room. Previously a medic, filmmaker, tech worker, and hardcore meditator (accumulating four months in silent meditation including a stint in a monastery in Myanmar), her work now draws from various meditation traditions: Vipassana (Goenka, Gaya House traditions) and Mahamudra (Rigdzin with Dustin DiPerna). It also incorporates teachings from Realization Process (where she's a certified teacher, trained with Judith Blackstone and Roma Hammel), the Conscious Leadership Group (she's a certified 15 Commitments Coach, trained with Jim Dethmer and Diana Chapman), and a body of work that treats emotions as energy to be welcomed rather than managed, with enjoyment as the accelerator of change. Having worked with hundreds of people, Raven knows the stuff we most want to skip is usually the stuff worth staying with, and she makes this difficult task feel like a bold and wild ride.\nFor anyone who wants to access more personal freedom, to be honest about what they want, and to turn the most \"bad\" and difficult aspects of themselves into allies and heroes - Raven's got you.\nAt home in Berkeley, you might find her hanging out with her beautiful besties, playing narrative-driven video games and getting absolutely shredded at the gym.\nAbout SleepaWeek\nSleepawake is coming to NYC for a week! Check out our events calendar to see everything happening this week. If the ticket price is a blocker to your attendance, please reach out to info@sleepawake.camp for details on need-based scholarship discounts.",
       "startDate": "2026-09-02T23:00:00Z",
       "endDate": "2026-09-03T01:00:00Z",
       "category": [
@@ -721,34 +772,41 @@
         "education"
       ],
       "price": {
-        "amount": 0,
-        "type": "Free",
+        "amount": 25.0,
+        "type": "Paid",
         "currency": "USD",
-        "details": ""
+        "details": "General Admission"
       },
       "capacity": null,
-      "registrationRequired": null,
+      "registrationRequired": false,
       "tags": [],
-      "image": "",
+      "image": "events/luma-event-260110ca.jpg",
       "status": "upcoming",
       "metadata": {
         "source": "Google Calendar",
         "source_url": "https://luma.com/meekzsov",
         "original_event_id": "_clr78ba6b4q74h32c52l2q388l4m4qa0clr6arjkecn6ot9edlgg",
         "organizer": {
-          "name": "Fractal Campus NYC",
+          "name": "Sleepawake Events Calendar",
+          "website": "https://luma.com/sleepawake-events",
           "instagram": "",
           "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
         },
         "venue": {
           "name": "Fractal Tech",
           "address": "111 Conselyea St, Brooklyn, NY 11211",
-          "type": "Community Space"
+          "type": "Offline"
         },
         "speakers": [],
         "social_links": [],
         "featured": false,
         "luma_source": true,
+        "luma_host": {
+          "name": "Sleepawake Events Calendar",
+          "url": "https://luma.com/sleepawake-events",
+          "image": "https://images.lumacdn.com/calendars/ec/cf307a72-ca44-45b4-ae52-b182e0652f95",
+          "type": "Organization"
+        },
         "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmE2YjRxNzRoMzJjNTJsMnEzODhsNG00cWEwY2xyNmFyamtlY242b3Q5ZWRsZ2cgdDN2MnJzb3VmZmZsMjA2amgxMDJ0dmEzamVla2ZnbWVAaQ"
       }
     },
@@ -758,7 +816,7 @@
       "type": "tech",
       "locationId": "loc_fractal",
       "communityId": "com_fractal",
-      "description": "Get up-to-date information at: https://luma.com/xc9ceakv\n\nAddress:\nFractal Tech\nBrooklyn, NY\nUnited States\n\nHosted by Sleepawake",
+      "description": "The strongest relationships aren't conflict avoidant; they're skilled and practiced at repair.\nEver find yourself flailing when a relationship is in conflict \u2014 robotically reciting Nonviolent Communication scripts, giving in and abandoning yourself, or walking away?\nConflict, when held a certain way, can be a clear signal of what we want for ourselves and the people we love. Its pain can be a motivating and energizing force, pointing us towards deeper, more honest relationships with ourselves and others. It's simple, but not always easy.\n\n\"Sleepawake challenged me to be more real than I ever have been, and guided me towards acting radically in alignment with my truth. It's not at all easy, but the more I do this, the more I feel like my life is ripe with possibility.\"\nYou'll leave this workshop with:\nA new framework for understanding what conflict is, why it comes up, and how it can improve (rather than destroy) relationships\nReal practice diving into building understanding and repair, in a real conflict that's present in your life (up to you how spicy you want to go)\nA set of tools you can bring to future difficult conversations without sounding like a robot trying to say the right thing to make the conflict go away\nWhether you're a Sleepawake alum or never attended one of our events, this workshop is for you if you're wanting to expand your relational toolbox to include real, authentic, vulnerable, unscripted conflict repair.\nThis workshop will be adapted directly from our Conflict module at Sleepawake Immersive, our weeklong intensive program. We'll spend just enough time on theory to understand the territory we're entering, and then we'll spend the majority of the time on interactive exercises including journaling, small group work, and full-group discussion.\n\n\nIf you'd like to do this workshop in person with friends, you'll have the option to do the small group work portion together. You're just as welcome to come on your own; this workshop is designed for you to build skills that will support all your relationships beyond this evening.\nIn order to maintain an intimate group for this event with enough space for facilitated group discussion, we will be capping admission.\nAbout your facilitator\n\nRaven is a facilitator and curriculum builder at Sleepawake. She brings almost a decade of somatic, relational, and emotional work to the room. Previously a medic, filmmaker, tech worker, and hardcore meditator (accumulating four months in silent meditation including a stint in a monastery in Myanmar), her work now draws from various meditation traditions: Vipassana (Goenka, Gaya House traditions) and Mahamudra (Rigdzin with Dustin DiPerna). It also incorporates teachings from Realization Process (where she's a certified teacher, trained with Judith Blackstone and Roma Hammel), the Conscious Leadership Group (she's a certified 15 Commitments Coach, trained with Jim Dethmer and Diana Chapman), and a body of work that treats emotions as energy to be welcomed rather than managed, with enjoyment as the accelerator of change. Having worked with hundreds of people, Raven knows the stuff we most want to skip is usually the stuff worth staying with, and she makes this difficult task feel like a bold and wild ride.\nFor anyone who wants to access more personal freedom, to be honest about what they want, and to turn the most \"bad\" and difficult aspects of themselves into allies and heroes - Raven's got you.\nAt home in Berkeley, you might find her hanging out with her beautiful besties, playing narrative-driven video games and getting absolutely shredded at the gym.\nAbout SleepaWeek\nSleepawake is coming to NYC for a week! Check out our events calendar to see everything happening this week. If the ticket price is a blocker to your attendance, please reach out to info@sleepawake.camp for details on need-based scholarship discounts.",
       "startDate": "2026-09-03T23:00:00Z",
       "endDate": "2026-09-04T01:00:00Z",
       "category": [
@@ -768,34 +826,41 @@
         "education"
       ],
       "price": {
-        "amount": 0,
-        "type": "Free",
+        "amount": 25.0,
+        "type": "Paid",
         "currency": "USD",
-        "details": ""
+        "details": "General Admission"
       },
       "capacity": null,
-      "registrationRequired": null,
+      "registrationRequired": false,
       "tags": [],
-      "image": "",
+      "image": "events/luma-event-1c4a5d86.jpg",
       "status": "upcoming",
       "metadata": {
         "source": "Google Calendar",
         "source_url": "https://luma.com/xc9ceakv",
         "original_event_id": "_clr78ba2eor4gl9gd8q4cd2971834ka0clr6arjkecn6ot9edlgg",
         "organizer": {
-          "name": "Fractal Campus NYC",
+          "name": "Sleepawake Events Calendar",
+          "website": "https://luma.com/sleepawake-events",
           "instagram": "",
           "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
         },
         "venue": {
           "name": "Fractal Tech",
           "address": "111 Conselyea St, Brooklyn, NY 11211",
-          "type": "Community Space"
+          "type": "Offline"
         },
         "speakers": [],
         "social_links": [],
         "featured": false,
         "luma_source": true,
+        "luma_host": {
+          "name": "Sleepawake Events Calendar",
+          "url": "https://luma.com/sleepawake-events",
+          "image": "https://images.lumacdn.com/calendars/ec/cf307a72-ca44-45b4-ae52-b182e0652f95",
+          "type": "Organization"
+        },
         "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmEyZW9yNGdsOWdkOHE0Y2QyOTcxODM0a2EwY2xyNmFyamtlY242b3Q5ZWRsZ2cgdDN2MnJzb3VmZmZsMjA2amgxMDJ0dmEzamVla2ZnbWVAaQ"
       }
     },
@@ -805,7 +870,7 @@
       "type": "tech",
       "locationId": "loc_fractal",
       "communityId": "com_fractal",
-      "description": "Get up-to-date information at: https://luma.com/4wvpj1lp\n\nAddress:\nFractal Tech\nBrooklyn, NY\nUnited States\n\nHosted by Sleepawake",
+      "description": "Creativity isn\u2019t limited to our abilities to paint a nice picture or dance in the coolest way \u2014 it\u2019s the skill underlying innovation. Fundamentally, it is the ability to build something out of nothing, whether that thing is a product or a business or a song you sing in the shower.\nYou\u2019ll leave this event with quicker and easier access to your creative prowess \u2014 which you can channel directly into any part of your life in need of creative problem solving.\nThis night is designed for laughter and curiosity, not performing or being \"good\" at art.\n\n\u201cEvery child is an artist. The problem is how to remain an artist once we grow up.\u201d - Picasso\nAs children, all of us knew how to sing and dance and draw without worrying about whether it was good enough. As we grow up, most of us learn to censor our own creative impulses, only building when we are confident we can create something good. In doing so, we block ourselves off from our own creative abilities, and lose out on our grandest ideas and innovations.\nTonight, we\u2019ll use the voice as our medium to train our long-unused creative muscles. We\u2019ll start gently. Although all of us knew as children how to sing and dance like no one\u2019s watching, most of us have now learned that we have to be good at creativity in order to be comfortable accessing it. Through wordplay, rhythm, and singing games, we\u2019ll slowly open to the possibility that we can create badly (and to the fun that ensues) \u2014 which, counterintuitively, unblocks more access to our creativity and our ability to create well.\nThis is not built for professional artists \u2014 this event is for people who are excited about the idea of having more access to creative thinking in their day-to-day lives, and who are open to (and probably also intimidated by) the idea of rapping or singing as part of structured games in a group of amateurs.\n\u201cRemember, before you can be great, you\u2019ve got to be good. Before you can be good, you\u2019ve got to be bad. But before you can even be bad, you\u2019ve got to try.\u201d - Art Williams\n\nEverything we offer at this event will be opt-in. We will never make you get up on stage in front of everyone \u2014 we\u2019ll never push you to doing any part of this that you don\u2019t want to do. This night is for you, and we are in full support of your choices about how you\u2019d like to participate.\nOur facilitation team has been running this event for over four years, and they are familiar with both the joy and the fear that people often feel around creative expression.\nAgenda\nSettling in & short introduction to creative access as a trainable skill\nIndividual freestyle word-play games \u2014 no one will be listening to you\nGroup-based low-stakes voice and rhythm games \u2014 focused on the joy of what\u2019s created, whether good or terrible\nGroup-based singing games \u2014 sweet, gentle, and facilitated by our team to support you in participating to exactly whatever extent you\u2019d like to\nOpen-ended time to hang out and join or listen to a jam session\nLogistics\nThere are limited spots at this event, and we will not take walk-ins if it sells out \u2014 we have a specific cap on attendance so that we can accommodate breakout groups with our facilitation team\nYou may want a water bottle; no need to bring anything else\nPlease arrive on time and plan to stay for the duration of the event; the evening is a full arc where each activity builds on the previous one\nCome solo or with friends\nIf the ticket price poses a financial strain for you, please reach out to info@sleepawake.camp for details on need-based scholarships\nAbout your facilitator\n\nRaven is a facilitator and curriculum builder at Sleepawake. She brings almost a decade of somatic, relational, and emotional work to the room. Previously a medic, filmmaker, tech worker, and hardcore meditator (accumulating four months in silent meditation including a stint in a monastery in Myanmar), her work now draws from various meditation traditions: Vipassana (Goenka, Gaya House traditions) and Mahamudra (Rigdzin with Dustin DiPerna). It also incorporates teachings from Realization Process (where she's a certified teacher, trained with Judith Blackstone and Roma Hammel), the Conscious Leadership Group (she's a certified 15 Commitments Coach, trained with Jim Dethmer and Diana Chapman), and a body of work that treats emotions as energy to be welcomed rather than managed, with enjoyment as the accelerator of change. Having worked with hundreds of people, Raven knows the stuff we most want to skip is usually the stuff worth staying with, and she makes this difficult task feel like a bold and wild ride.\nFor anyone who wants to access more personal freedom, to be honest about what they want, and to turn the most \"bad\" and difficult aspects of themselves into allies and heroes - Raven's got you.\nAt home in Berkeley, you might find her hanging out with her beautiful besties, playing narrative-driven video games and getting absolutely shredded at the gym.\nAbout SleepaWeek\nSleepawake is coming to NYC for a week! Check out our events calendar to see everything happening this week. If the ticket price is a blocker to your attendance, please reach out to info@sleepawake.camp for details on need-based scholarship discounts.",
       "startDate": "2026-09-04T23:00:00Z",
       "endDate": "2026-09-05T01:00:00Z",
       "category": [
@@ -815,34 +880,41 @@
         "education"
       ],
       "price": {
-        "amount": 0,
-        "type": "Free",
+        "amount": 25.0,
+        "type": "Paid",
         "currency": "USD",
-        "details": ""
+        "details": "General Admission"
       },
       "capacity": null,
-      "registrationRequired": null,
+      "registrationRequired": false,
       "tags": [],
-      "image": "",
+      "image": "events/luma-event-7e1ab032.jpg",
       "status": "upcoming",
       "metadata": {
         "source": "Google Calendar",
         "source_url": "https://luma.com/4wvpj1lp",
         "original_event_id": "_clr78ba784qjihapf5cmcljm8p75coa0clr6arjkecn6ot9edlgg",
         "organizer": {
-          "name": "Fractal Campus NYC",
+          "name": "Sleepawake Events Calendar",
+          "website": "https://luma.com/sleepawake-events",
           "instagram": "",
           "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
         },
         "venue": {
           "name": "Fractal Tech",
           "address": "111 Conselyea St, Brooklyn, NY 11211",
-          "type": "Community Space"
+          "type": "Offline"
         },
         "speakers": [],
         "social_links": [],
         "featured": false,
         "luma_source": true,
+        "luma_host": {
+          "name": "Sleepawake Events Calendar",
+          "url": "https://luma.com/sleepawake-events",
+          "image": "https://images.lumacdn.com/calendars/ec/cf307a72-ca44-45b4-ae52-b182e0652f95",
+          "type": "Organization"
+        },
         "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmE3ODRxamloYXBmNWNtY2xqbThwNzVjb2EwY2xyNmFyamtlY242b3Q5ZWRsZ2cgdDN2MnJzb3VmZmZsMjA2amgxMDJ0dmEzamVla2ZnbWVAaQ"
       }
     },
@@ -862,34 +934,41 @@
         "education"
       ],
       "price": {
-        "amount": 0,
+        "amount": 0.0,
         "type": "Free",
         "currency": "USD",
-        "details": ""
+        "details": "General Admission"
       },
       "capacity": null,
-      "registrationRequired": null,
+      "registrationRequired": false,
       "tags": [],
-      "image": "",
+      "image": "events/luma-event-c471f310.jpg",
       "status": "upcoming",
       "metadata": {
         "source": "Google Calendar",
         "source_url": "https://luma.com/llfyehpn",
         "original_event_id": "_clr78baq94q6ksqmdls4guj69d3lgua0clr6arjkecn6ot9edlgg",
         "organizer": {
-          "name": "Fractal Campus NYC",
+          "name": "Friends of the Fractal Garden",
+          "website": "https://luma.com/fractal-garden",
           "instagram": "",
           "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
         },
         "venue": {
           "name": "Fractal Tech",
           "address": "111 Conselyea St, Brooklyn, NY 11211",
-          "type": "Community Space"
+          "type": "Offline"
         },
         "speakers": [],
         "social_links": [],
         "featured": false,
         "luma_source": true,
+        "luma_host": {
+          "name": "Friends of the Fractal Garden",
+          "url": "https://luma.com/fractal-garden",
+          "image": "https://images.lumacdn.com/calendars/xw/d43b818f-b59a-4e6a-857b-72efcee06d17.jpg",
+          "type": "Organization"
+        },
         "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmFxOTRxNmtzcW1kbHM0Z3VqNjlkM2xndWEwY2xyNmFyamtlY242b3Q5ZWRsZ2cgdDN2MnJzb3VmZmZsMjA2amgxMDJ0dmEzamVla2ZnbWVAaQ"
       }
     },
@@ -899,7 +978,7 @@
       "type": "tech",
       "locationId": "loc_fractal",
       "communityId": "com_fractal",
-      "description": "Get up-to-date information at: https://luma.com/bnfw3gqf\n\nAddress:\nFractal Tech\nBrooklyn, NY\nUnited States\n\nHosted by Ian Howe",
+      "description": "https://a.co/d/0hjIeG31\n'You can just do things' is the sort of book that could have a great impact on our lives - but only if we make that change happen!\nLet's meetup to apply the practices in this book and hold each other accountable to making the dream happen \ud83d\udcaa\n\n(I'm still reading the book myself, so exact gameplan here is  TBD)",
       "startDate": "2026-09-08T23:00:00Z",
       "endDate": "2026-09-09T01:00:00Z",
       "category": [
@@ -909,34 +988,41 @@
         "education"
       ],
       "price": {
-        "amount": 0,
+        "amount": 0.0,
         "type": "Free",
         "currency": "USD",
-        "details": ""
+        "details": "General Admission"
       },
       "capacity": null,
-      "registrationRequired": null,
+      "registrationRequired": false,
       "tags": [],
-      "image": "",
+      "image": "events/luma-event-cfdbf857.jpg",
       "status": "upcoming",
       "metadata": {
         "source": "Google Calendar",
         "source_url": "https://luma.com/bnfw3gqf",
         "original_event_id": "_clr78bbqc9r52d3ja9ljar34epnmkii0clr6arjkecn6ot9edlgg",
         "organizer": {
-          "name": "Fractal Campus NYC",
+          "name": "Ian Howe",
+          "website": "https://luma.com/user/iwhowe77",
           "instagram": "",
           "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
         },
         "venue": {
           "name": "Fractal Tech",
           "address": "111 Conselyea St, Brooklyn, NY 11211",
-          "type": "Community Space"
+          "type": "Offline"
         },
         "speakers": [],
         "social_links": [],
         "featured": false,
         "luma_source": true,
+        "luma_host": {
+          "name": "Ian Howe",
+          "url": "https://luma.com/user/iwhowe77",
+          "image": "https://images.lumacdn.com/avatars/72/63b4ef0f-163d-47da-ba5a-00fcfa085ca3.jpg",
+          "type": "Person"
+        },
         "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmJxYzlyNTJkM2phOWxqYXIzNGVwbm1raWkwY2xyNmFyamtlY242b3Q5ZWRsZ2cgdDN2MnJzb3VmZmZsMjA2amgxMDJ0dmEzamVla2ZnbWVAaQ"
       }
     },
@@ -946,7 +1032,7 @@
       "type": "tech",
       "locationId": "loc_fractal",
       "communityId": "com_fractal",
-      "description": "Get up-to-date information at: https://luma.com/maximum-2986\n\nAddress:\nFractal Tech\nBrooklyn, NY\nUnited States\n\nHosted by Daniel Golliher & 3 others",
+      "description": "Welcome to the fall semester of Fractal Campus and Maximum New York! This fall will be anchored by cohort 16 of Foundations of New York, cohort 3 of Foundations of the Liberal Arts, and cohort 2 of the Fractal Accelerator!\nThe orientation will be a chance to meet other students, meet alumni, meet esteemed guests, see where your class will be held, and have a great time in a lovely space.\nThe approximate order of the evening:\n6:30-7:00pm: arrival (grab a name tag and some snacks)\n~7:00pm: a brief presentation by Daniel from Maximum New York and Andrew and Liam from Fractal Campus.\n~7:30pm onward: socializing, scheming, and having a great time\nDress code:\nSmart casual or business formal. If you think to yourself \"what does that mean,\" then wear what you think it means, and it'll probably be OK. Some people will be in suits, some people will be in jeans and a button down, some people will have great heels, others smart flats.\n+1s are welcome, just have them register",
       "startDate": "2026-09-09T22:30:00Z",
       "endDate": "2026-09-10T00:30:00Z",
       "category": [
@@ -956,34 +1042,41 @@
         "education"
       ],
       "price": {
-        "amount": 0,
+        "amount": 0.0,
         "type": "Free",
         "currency": "USD",
-        "details": ""
+        "details": "General Admission"
       },
       "capacity": null,
-      "registrationRequired": null,
+      "registrationRequired": false,
       "tags": [],
-      "image": "",
+      "image": "events/luma-event-1384d093.jpg",
       "status": "upcoming",
       "metadata": {
         "source": "Google Calendar",
         "source_url": "https://luma.com/maximum-2986",
         "original_event_id": "_clr78bbp8dpk6chp6584crj26l87kh20clr6arjkecn6ot9edlgg",
         "organizer": {
-          "name": "Fractal Campus NYC",
+          "name": "Maximum New York",
+          "website": "https://luma.com/maximumnewyork",
           "instagram": "",
           "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
         },
         "venue": {
           "name": "Fractal Tech",
           "address": "111 Conselyea St, Brooklyn, NY 11211",
-          "type": "Community Space"
+          "type": "Offline"
         },
         "speakers": [],
         "social_links": [],
         "featured": false,
         "luma_source": true,
+        "luma_host": {
+          "name": "Maximum New York",
+          "url": "https://luma.com/maximumnewyork",
+          "image": "https://images.lumacdn.com/calendars/o5/066f5816-f982-46c3-ba46-7ab6b849a05e",
+          "type": "Organization"
+        },
         "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmJwOGRwazZjaHA2NTg0Y3JqMjZsODdraDIwY2xyNmFyamtlY242b3Q5ZWRsZ2cgdDN2MnJzb3VmZmZsMjA2amgxMDJ0dmEzamVla2ZnbWVAaQ"
       }
     },
@@ -993,7 +1086,7 @@
       "type": "tech",
       "locationId": "",
       "communityId": "com_fractal",
-      "description": "Get up-to-date information at: https://luma.com/zs3ch9v6\n\nAddress:\nCheck event page for more details.\n\nHosted by Tina He, Yiyi Zhang & Jyro Blade",
+      "description": "Join us for an afternoon of pursuing your personal side quest! Whether you\u2019re writing, coding, or doing those taxes you\u2019ve been putting off, this is your space. It\u2019s intentional time for you to focus on what feels meaningful to you\u2014and meet people doing the same thing. We\u2019ll split our time between focused work sessions and breaks to reset and mingle with other creators.\nRough Agenda*\n2:30-3:00pm: Introductions and Intention Sharing\n3:00-4:30pm: Deep focus session 1\n4:30-4:50pm: Optional break\n4:50-5:30pm: Deep focus session 2\n5:30-6:00pm: SideQuest Shares\n*Popular opinion is that SideQuest is best when you\u2019re all in, showing up for the duration instead of splitting sessions. Try it\u2014we think you\u2019ll agree.\n___________________\n\nAbout SideQuest:\nWe host coworking sessions every other Sunday. Subscribe to our events calendar if you can\u2019t make this one :)\nIf you've got ideas for how to help build the community, or you'd like to host a future SideQuest (it's easier than you might think!), we'd love to hear from you.\nThank you to Fractal Campus for hosting us, our friends at PurdueHackers, CozySundays and Socratica for seeding the idea, and Chandiran for building the SideQuest community.",
       "startDate": "2026-09-13T18:30:00Z",
       "endDate": "2026-09-13T22:00:00Z",
       "category": [
@@ -1003,34 +1096,41 @@
         "education"
       ],
       "price": {
-        "amount": 0,
+        "amount": 0.0,
         "type": "Free",
         "currency": "USD",
-        "details": ""
+        "details": "General Admission"
       },
       "capacity": null,
-      "registrationRequired": null,
+      "registrationRequired": false,
       "tags": [],
-      "image": "",
+      "image": "events/luma-event-474c7a7c.jpg",
       "status": "upcoming",
       "metadata": {
         "source": "Google Calendar",
         "source_url": "https://luma.com/zs3ch9v6",
         "original_event_id": "_clr78b9lal74uoid69hn2lrd6takcp20clr6arjkecn6ot9edlgg",
         "organizer": {
-          "name": "Fractal Campus NYC",
+          "name": "SideQuest",
+          "website": "https://luma.com/sidequest",
           "instagram": "",
           "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
         },
         "venue": {
           "name": "",
-          "address": "https://luma.com/event/evt-5UNObM2cqWm7UFd",
+          "address": "Kings County, New York",
           "type": "Offline"
         },
         "speakers": [],
         "social_links": [],
         "featured": false,
         "luma_source": true,
+        "luma_host": {
+          "name": "SideQuest",
+          "url": "https://luma.com/sidequest",
+          "image": "https://images.lumacdn.com/calendars/7l/768c5bdb-8fbb-4530-a326-f69af660c934",
+          "type": "Organization"
+        },
         "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YjlsYWw3NHVvaWQ2OWhuMmxyZDZ0YWtjcDIwY2xyNmFyamtlY242b3Q5ZWRsZ2cgdDN2MnJzb3VmZmZsMjA2amgxMDJ0dmEzamVla2ZnbWVAaQ"
       }
     },
@@ -1040,7 +1140,7 @@
       "type": "tech",
       "locationId": "",
       "communityId": "com_fractal",
-      "description": "Get up-to-date information at: https://luma.com/154yef2s\n\nAddress:\nNew York\nNew York, NY\nUnited States\n\nHosted by RTM Nexus Team, Vanessa Jean Louis & Dominick Miserandino",
+      "description": "The Retail Leaders Reception \u2014 September Edition is an intimate evening gathering for senior leaders across retail, consumer brands, and the broader commerce ecosystem. Hosted by RTM Nexus in New York City, this curated reception brings together brand and retail executives for thoughtful conversation, meaningful introductions, and relationship-building with peers shaping the future of retail.\n\nDesigned to bring the right leaders into one room, the evening offers a relaxed, intentional setting to connect and engage\u2014bringing together executives across merchandising, ecommerce, digital, marketing, partnerships, and innovation. Expect candid conversations, strong networking, and a highly curated group of operators, decision-makers, and industry peers.\n\nAttendance is strictly curated and limited to ensure a high-impact environment.\nWho should attend: Senior leaders from retail and consumer brands. All registrations are reviewed and employment is verified to maintain a high-quality attendee experience.\nApproval required: All attendees must be approved to attend. Location details will be shared upon approval.\nInterested in sponsoring? Email hello@rtmnexus.com for more info",
       "startDate": "2026-09-16T22:00:00Z",
       "endDate": "2026-09-17T01:00:00Z",
       "category": [
@@ -1050,34 +1150,41 @@
         "education"
       ],
       "price": {
-        "amount": 0,
+        "amount": 0.0,
         "type": "Free",
         "currency": "USD",
-        "details": ""
+        "details": "General Admission"
       },
       "capacity": null,
-      "registrationRequired": null,
+      "registrationRequired": false,
       "tags": [],
-      "image": "",
+      "image": "events/luma-event-c7951537.jpg",
       "status": "upcoming",
       "metadata": {
         "source": "Google Calendar",
         "source_url": "https://luma.com/154yef2s",
         "original_event_id": "_clr78bbef5m6okiad4s4siio915meoi0clr6arjkecn6ot9edlgg",
         "organizer": {
-          "name": "Fractal Campus NYC",
+          "name": "RTM Nexus",
+          "website": "https://luma.com/rtmnexus",
           "instagram": "",
           "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
         },
         "venue": {
           "name": "",
-          "address": "New York, NY, USA",
+          "address": "New York\nNew York, New York, New York",
           "type": "Offline"
         },
         "speakers": [],
         "social_links": [],
         "featured": false,
         "luma_source": true,
+        "luma_host": {
+          "name": "RTM Nexus",
+          "url": "https://luma.com/rtmnexus",
+          "image": "https://images.lumacdn.com/calendars/x2/c0d9ae03-74ce-4ce1-8451-534a5313c786.png",
+          "type": "Organization"
+        },
         "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmJlZjVtNm9raWFkNHM0c2lpbzkxNW1lb2kwY2xyNmFyamtlY242b3Q5ZWRsZ2cgdDN2MnJzb3VmZmZsMjA2amgxMDJ0dmEzamVla2ZnbWVAaQ"
       }
     },
@@ -1087,7 +1194,7 @@
       "type": "tech",
       "locationId": "",
       "communityId": "com_fractal",
-      "description": "Get up-to-date information at: https://luma.com/y2c068nu\n\nAddress:\nCheck event page for more details.\n\nHosted by Samuel Michnik",
+      "description": "Builders NYC is hosting an 8-hour curated hackathon focused on AI in sports, fitness, wellness, and personal health.\nBuilders, developers, designers, students, founders, athletes, coaches, and health/fitness enthusiasts are invited to apply and spend the day building AI-powered tools that improve how people train, recover, learn, compete, track progress, and take care of themselves.\nProjects can explore areas like athlete performance, coaching tools, sports analytics, personal fitness, nutrition, recovery, mental wellness, accessibility, wearable data, and preventive health. Participants do not need to be athletes or healthcare experts to apply \u2014 the goal is to bring together people interested in building practical, creative, and human-centered technology.\nThis will be an application-based event with limited spots. Accepted participants will build throughout the day, form teams if needed, receive support from mentors/community members, and demo their projects at the end.\nWhether you want to build a sports analytics dashboard, an AI workout coach, a recovery tracker, a nutrition assistant, a wellness tool, or something completely unexpected, this hackathon is for people who want to build and show what they made.\nPotential tracks include:\nAthlete Performance\nCoaching & Sports Analysis\nPersonal Fitness & Habit Building\nNutrition & Recovery\nMental Wellness\nAccessibility & Inclusive Health\nHealth Data & Wearables\nPrizes and sponsor challenges to be announced.\nThis is a curated hackathon. Requesting a spot does not guarantee approval. Applicants may receive a follow-up form before final confirmation.",
       "startDate": "2026-09-19T14:00:00Z",
       "endDate": "2026-09-20T00:00:00Z",
       "category": [
@@ -1097,34 +1204,41 @@
         "education"
       ],
       "price": {
-        "amount": 0,
+        "amount": 0.0,
         "type": "Free",
         "currency": "USD",
-        "details": ""
+        "details": "General Admission"
       },
       "capacity": null,
-      "registrationRequired": null,
+      "registrationRequired": false,
       "tags": [],
-      "image": "",
+      "image": "events/luma-event-ef4ad137.jpg",
       "status": "upcoming",
       "metadata": {
         "source": "Google Calendar",
         "source_url": "https://luma.com/y2c068nu",
         "original_event_id": "_clr78ba66lbkgr3lch0kssi19t2mmi20clr6arjkecn6ot9edlgg",
         "organizer": {
-          "name": "Fractal Campus NYC",
+          "name": "Builders NYC",
+          "website": "https://luma.com/builders-nyc",
           "instagram": "",
           "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
         },
         "venue": {
           "name": "",
-          "address": "https://luma.com/event/evt-F5WHludANrAOEkH",
+          "address": "Brooklyn, NY\nBrooklyn, New York",
           "type": "Offline"
         },
         "speakers": [],
         "social_links": [],
         "featured": false,
         "luma_source": true,
+        "luma_host": {
+          "name": "Builders NYC",
+          "url": "https://luma.com/builders-nyc",
+          "image": "https://images.lumacdn.com/uploads/u5/f9f898b6-f70c-418c-99be-739654bcda7d.png",
+          "type": "Organization"
+        },
         "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmE2Nmxia2dyM2xjaDBrc3NpMTl0Mm1taTIwY2xyNmFyamtlY242b3Q5ZWRsZ2cgdDN2MnJzb3VmZmZsMjA2amgxMDJ0dmEzamVla2ZnbWVAaQ"
       }
     },
@@ -1150,7 +1264,7 @@
         "details": ""
       },
       "capacity": null,
-      "registrationRequired": null,
+      "registrationRequired": false,
       "tags": [],
       "image": "",
       "status": "upcoming",
@@ -1160,6 +1274,7 @@
         "original_event_id": "_cdgmopbm5ll4eq29a514gm1j8hsk8lb4f106atj5dpq76bjcekn6qo8",
         "organizer": {
           "name": "Fractal Campus NYC",
+          "website": "",
           "instagram": "",
           "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
         },
@@ -1172,6 +1287,7 @@
         "social_links": [],
         "featured": false,
         "luma_source": true,
+        "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=X2NkZ21vcGJtNWxsNGVxMjlhNTE0Z20xajhoc2s4bGI0ZjEwNmF0ajVkcHE3NmJqY2VrbjZxbzggdDN2MnJzb3VmZmZsMjA2amgxMDJ0dmEzamVla2ZnbWVAaQ"
       }
     },
@@ -1179,9 +1295,9 @@
       "id": "evt_gcal_com_fractal_2896f088",
       "name": "Context Engineering Guild: September Full Moon Edition",
       "type": "tech",
-      "locationId": "loc_fractal",
+      "locationId": "",
       "communityId": "com_fractal",
-      "description": "Get up-to-date information at: https://luma.com/3zek6pqo\n\nAddress:\n111 Conselyea St\nBrooklyn, NY\nUnited States\n\nHosted by Atin Woodard",
+      "description": "NYC IRL community for advanced practitioners of LLM coding techniques. Monthly Brooklyn meetups on the new moon.. \n\nThe CEG emphasizes advanced use of LLMs for the working engineer, and is not intended for first time coders.\n\nWe start with a lecture on whats happened in the last month, then have some guided or group discussions about current trends in tooling and capabilities. \n\n CEG posts at https://x.com/ContextGuildNYC\n\nBring your main coding laptop so we can share how we build together.",
       "startDate": "2026-09-26T18:00:00Z",
       "endDate": "2026-09-26T20:00:00Z",
       "category": [
@@ -1191,34 +1307,41 @@
         "education"
       ],
       "price": {
-        "amount": 0,
+        "amount": 0.0,
         "type": "Free",
         "currency": "USD",
-        "details": ""
+        "details": "General Admission"
       },
       "capacity": null,
-      "registrationRequired": null,
+      "registrationRequired": false,
       "tags": [],
-      "image": "",
+      "image": "events/luma-event-57b0a1e7.jpg",
       "status": "upcoming",
       "metadata": {
         "source": "Google Calendar",
         "source_url": "https://luma.com/3zek6pqo",
         "original_event_id": "_clr78bbfclj48hql8p5legi3alcmuca0clr6arjkecn6ot9edlgg",
         "organizer": {
-          "name": "Fractal Campus NYC",
+          "name": "Context Engineering Guild",
+          "website": "https://luma.com/CEG",
           "instagram": "",
           "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
         },
         "venue": {
-          "name": "Fractal Tech",
-          "address": "111 Conselyea St, Brooklyn, NY 11211",
-          "type": "Community Space"
+          "name": "",
+          "address": "111 Conselyea St\n111 Conselyea St, Brooklyn, New York",
+          "type": "Offline"
         },
         "speakers": [],
         "social_links": [],
         "featured": false,
         "luma_source": true,
+        "luma_host": {
+          "name": "Context Engineering Guild",
+          "url": "https://luma.com/CEG",
+          "image": "https://images.lumacdn.com/calendars/le/1a7d9984-4054-45cd-9505-c1c111cc0827.png",
+          "type": "Organization"
+        },
         "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmJmY2xqNDhocWw4cDVsZWdpM2FsY211Y2EwY2xyNmFyamtlY242b3Q5ZWRsZ2cgdDN2MnJzb3VmZmZsMjA2amgxMDJ0dmEzamVla2ZnbWVAaQ"
       }
     },
@@ -1226,9 +1349,9 @@
       "id": "evt_gcal_com_fractal_a11dfba6",
       "name": "Jhourney Jhana Meditation",
       "type": "tech",
-      "locationId": "loc_fractal",
+      "locationId": "",
       "communityId": "com_fractal",
-      "description": "Get up-to-date information at: https://luma.com/gntkytq0\n\nAddress:\n111 Conselyea St\nThe Lounge\nBrooklyn, NY\nUnited States\n\nHosted by David Braun & Alex",
+      "description": "This is a social event hosted by NYC Jhourney for students of Jhourney meditation retreats, jhana meditators, and those who are curious about jhana meditation. During the meeting we will meditate but there will be no instruction; you're welcome to meditate however you like or to sit quietly for an hour.\n\nPlease bring food and drinks to share. Paper cups, plates, bowls, utensils, and napkins will be provided.\nMeditation cushions will not be provided.  Please bring whatever you need to make yourself comfortable.  We will be meeting in The Lounge.\nDIRECTIONS\nThere are two grey doors at the address. Enter the one on the RIGHT (to the right of Savino's Quality Pasta) and proceed straight up the stairs to the second floor.",
       "startDate": "2026-09-27T18:00:00Z",
       "endDate": "2026-09-27T22:00:00Z",
       "category": [
@@ -1238,34 +1361,41 @@
         "education"
       ],
       "price": {
-        "amount": 0,
+        "amount": 0.0,
         "type": "Free",
         "currency": "USD",
-        "details": ""
+        "details": "General Admission"
       },
       "capacity": null,
-      "registrationRequired": null,
+      "registrationRequired": false,
       "tags": [],
-      "image": "",
+      "image": "events/luma-event-39b7587a.jpg",
       "status": "upcoming",
       "metadata": {
         "source": "Google Calendar",
         "source_url": "https://luma.com/gntkytq0",
         "original_event_id": "_clr78bbf71n4ejimdop6mkr785c7iea0clr6arjkecn6ot9edlgg",
         "organizer": {
-          "name": "Fractal Campus NYC",
+          "name": "NYC Jhourney",
+          "website": "https://luma.com/calendar/cal-Hl2i5yr1fumfqWY",
           "instagram": "",
           "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
         },
         "venue": {
-          "name": "Fractal Tech",
-          "address": "111 Conselyea St, Brooklyn, NY 11211",
-          "type": "Community Space"
+          "name": "",
+          "address": "111 Conselyea St\n111 Conselyea St, Brooklyn, New York",
+          "type": "Offline"
         },
         "speakers": [],
         "social_links": [],
         "featured": false,
         "luma_source": true,
+        "luma_host": {
+          "name": "NYC Jhourney",
+          "url": "https://luma.com/calendar/cal-Hl2i5yr1fumfqWY",
+          "image": "https://images.lumacdn.com/uploads/6d/165fb0da-7792-4255-ab8b-e75bc6c1bf4d.jpg",
+          "type": "Organization"
+        },
         "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmJmNzFuNGVqaW1kb3A2bWtyNzg1YzdpZWEwY2xyNmFyamtlY242b3Q5ZWRsZ2cgdDN2MnJzb3VmZmZsMjA2amgxMDJ0dmEzamVla2ZnbWVAaQ"
       }
     },
@@ -1275,7 +1405,7 @@
       "type": "tech",
       "locationId": "",
       "communityId": "com_fractal",
-      "description": "Get up-to-date information at: https://luma.com/30napr09\n\nAddress:\nCheck event page for more details.\n\nHosted by Tina He",
+      "description": "Join us for an afternoon of pursuing your personal side quest! Whether you\u2019re writing, coding, or doing those taxes you\u2019ve been putting off, this is your space. It\u2019s intentional time for you to focus on what feels meaningful to you\u2014and meet people doing the same thing. We\u2019ll split our time between focused work sessions and breaks to reset and mingle with other creators.\nRough Agenda*\n2:30-3:00pm: Introductions and Intention Sharing\n3:00-4:30pm: Deep focus session 1\n4:30-4:50pm: Optional break\n4:50-5:30pm: Deep focus session 2\n5:30-6:00pm: SideQuest Shares\n*Popular opinion is that SideQuest is best when you\u2019re all in, showing up for the duration instead of splitting sessions. Try it\u2014we think you\u2019ll agree.\n___________________\n\nAbout SideQuest:\nWe host coworking sessions every other Sunday. Subscribe to our events calendar if you can\u2019t make this one :)\nIf you've got ideas for how to help build the community, or you'd like to host a future SideQuest (it's easier than you might think!), we'd love to hear from you.\nThank you to Fractal Campus for hosting us, our friends at PurdueHackers, CozySundays and Socratica for seeding the idea, and Chandiran for building the SideQuest community.",
       "startDate": "2026-09-27T18:30:00Z",
       "endDate": "2026-09-27T22:00:00Z",
       "category": [
@@ -1285,34 +1415,41 @@
         "education"
       ],
       "price": {
-        "amount": 0,
+        "amount": 0.0,
         "type": "Free",
         "currency": "USD",
-        "details": ""
+        "details": "General Admission"
       },
       "capacity": null,
-      "registrationRequired": null,
+      "registrationRequired": false,
       "tags": [],
-      "image": "",
+      "image": "events/luma-event-474c7a7c.jpg",
       "status": "upcoming",
       "metadata": {
         "source": "Google Calendar",
         "source_url": "https://luma.com/30napr09",
         "original_event_id": "_clr78ba29d0jeu9n9gp66oama9amiu20clr6arjkecn6ot9edlgg",
         "organizer": {
-          "name": "Fractal Campus NYC",
+          "name": "SideQuest",
+          "website": "https://luma.com/sidequest",
           "instagram": "",
           "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
         },
         "venue": {
           "name": "",
-          "address": "https://luma.com/event/evt-BKA7y7L2caVRUix",
+          "address": "Kings County, New York",
           "type": "Offline"
         },
         "speakers": [],
         "social_links": [],
         "featured": false,
         "luma_source": true,
+        "luma_host": {
+          "name": "SideQuest",
+          "url": "https://luma.com/sidequest",
+          "image": "https://images.lumacdn.com/calendars/7l/768c5bdb-8fbb-4530-a326-f69af660c934",
+          "type": "Organization"
+        },
         "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmEyOWQwamV1OW45Z3A2Nm9hbWE5YW1pdTIwY2xyNmFyamtlY242b3Q5ZWRsZ2cgdDN2MnJzb3VmZmZsMjA2amgxMDJ0dmEzamVla2ZnbWVAaQ"
       }
     },
@@ -1320,9 +1457,9 @@
       "id": "evt_gcal_com_fractal_f79011e1",
       "name": "Context Engineering Guild: October Edition",
       "type": "tech",
-      "locationId": "loc_fractal",
+      "locationId": "",
       "communityId": "com_fractal",
-      "description": "Get up-to-date information at: https://luma.com/atva1h3x\n\nAddress:\n111 Conselyea St\nBrooklyn, NY\nUnited States\n\nHosted by Atin Woodard",
+      "description": "NYC IRL community for advanced practitioners of LLM coding techniques. Monthly Brooklyn meetups on the new moon.. \n\nThe CEG emphasizes advanced use of LLMs for the working engineer, and is not intended for first time coders.\n\nWe start with a lecture on whats happened in the last month, then have some guided or group discussions about current trends in tooling and capabilities. \n\n CEG posts at https://x.com/ContextGuildNYC\n\nBring your main coding laptop so we can share how we build together.",
       "startDate": "2026-10-10T18:00:00Z",
       "endDate": "2026-10-10T20:00:00Z",
       "category": [
@@ -1332,34 +1469,41 @@
         "education"
       ],
       "price": {
-        "amount": 0,
+        "amount": 0.0,
         "type": "Free",
         "currency": "USD",
-        "details": ""
+        "details": "General Admission"
       },
       "capacity": null,
-      "registrationRequired": null,
+      "registrationRequired": false,
       "tags": [],
-      "image": "",
+      "image": "events/luma-event-57b0a1e7.jpg",
       "status": "upcoming",
       "metadata": {
         "source": "Google Calendar",
         "source_url": "https://luma.com/atva1h3x",
         "original_event_id": "_clr78ba7ct7ncgrl8tl78sjj9l554m20clr6arjkecn6ot9edlgg",
         "organizer": {
-          "name": "Fractal Campus NYC",
+          "name": "Context Engineering Guild",
+          "website": "https://luma.com/CEG",
           "instagram": "",
           "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
         },
         "venue": {
-          "name": "Fractal Tech",
-          "address": "111 Conselyea St, Brooklyn, NY 11211",
-          "type": "Community Space"
+          "name": "",
+          "address": "111 Conselyea St\n111 Conselyea St, Brooklyn, New York",
+          "type": "Offline"
         },
         "speakers": [],
         "social_links": [],
         "featured": false,
         "luma_source": true,
+        "luma_host": {
+          "name": "Context Engineering Guild",
+          "url": "https://luma.com/CEG",
+          "image": "https://images.lumacdn.com/calendars/le/1a7d9984-4054-45cd-9505-c1c111cc0827.png",
+          "type": "Organization"
+        },
         "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmE3Y3Q3bmNncmw4dGw3OHNqajlsNTU0bTIwY2xyNmFyamtlY242b3Q5ZWRsZ2cgdDN2MnJzb3VmZmZsMjA2amgxMDJ0dmEzamVla2ZnbWVAaQ"
       }
     },
@@ -1369,7 +1513,7 @@
       "type": "tech",
       "locationId": "",
       "communityId": "com_fractal",
-      "description": "Get up-to-date information at: https://luma.com/jgs7sfx9\n\nAddress:\nCheck event page for more details.\n\nHosted by Tina He",
+      "description": "Join us for an afternoon of pursuing your personal side quest! Whether you\u2019re writing, coding, or doing those taxes you\u2019ve been putting off, this is your space. It\u2019s intentional time for you to focus on what feels meaningful to you\u2014and meet people doing the same thing. We\u2019ll split our time between focused work sessions and breaks to reset and mingle with other creators.\nRough Agenda*\n2:30-3:00pm: Introductions and Intention Sharing\n3:00-4:30pm: Deep focus session 1\n4:30-4:50pm: Optional break\n4:50-5:30pm: Deep focus session 2\n5:30-6:00pm: SideQuest Shares\n*Popular opinion is that SideQuest is best when you\u2019re all in, showing up for the duration instead of splitting sessions. Try it\u2014we think you\u2019ll agree.\n___________________\n\nAbout SideQuest:\nWe host coworking sessions every other Sunday. Subscribe to our events calendar if you can\u2019t make this one :)\nIf you've got ideas for how to help build the community, or you'd like to host a future SideQuest (it's easier than you might think!), we'd love to hear from you.\nThank you to Fractal Campus for hosting us, our friends at PurdueHackers, CozySundays and Socratica for seeding the idea, and Chandiran for building the SideQuest community.",
       "startDate": "2026-10-11T18:30:00Z",
       "endDate": "2026-10-11T22:00:00Z",
       "category": [
@@ -1379,34 +1523,41 @@
         "education"
       ],
       "price": {
-        "amount": 0,
+        "amount": 0.0,
         "type": "Free",
         "currency": "USD",
-        "details": ""
+        "details": "General Admission"
       },
       "capacity": null,
-      "registrationRequired": null,
+      "registrationRequired": false,
       "tags": [],
-      "image": "",
+      "image": "events/luma-event-474c7a7c.jpg",
       "status": "upcoming",
       "metadata": {
         "source": "Google Calendar",
         "source_url": "https://luma.com/jgs7sfx9",
         "original_event_id": "_clr78bbne5a3irjpal37chbbe9q7isq0clr6arjkecn6ot9edlgg",
         "organizer": {
-          "name": "Fractal Campus NYC",
+          "name": "SideQuest",
+          "website": "https://luma.com/sidequest",
           "instagram": "",
           "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
         },
         "venue": {
           "name": "",
-          "address": "https://luma.com/event/evt-wqT9nyUFvEkrtys",
+          "address": "Kings County, New York",
           "type": "Offline"
         },
         "speakers": [],
         "social_links": [],
         "featured": false,
         "luma_source": true,
+        "luma_host": {
+          "name": "SideQuest",
+          "url": "https://luma.com/sidequest",
+          "image": "https://images.lumacdn.com/calendars/7l/768c5bdb-8fbb-4530-a326-f69af660c934",
+          "type": "Organization"
+        },
         "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmJuZTVhM2lyanBhbDM3Y2hiYmU5cTdpc3EwY2xyNmFyamtlY242b3Q5ZWRsZ2cgdDN2MnJzb3VmZmZsMjA2amgxMDJ0dmEzamVla2ZnbWVAaQ"
       }
     },
@@ -1414,9 +1565,9 @@
       "id": "evt_gcal_com_fractal_a542befd",
       "name": "Jhourney Jhana Meditation",
       "type": "tech",
-      "locationId": "loc_fractal",
+      "locationId": "",
       "communityId": "com_fractal",
-      "description": "Get up-to-date information at: https://luma.com/1uh5pb6z\n\nAddress:\n111 Conselyea St\nThe Lounge\nBrooklyn, NY\nUnited States\n\nHosted by David Braun & Alex",
+      "description": "This is a social event hosted by NYC Jhourney for students of Jhourney meditation retreats, jhana meditators, and those who are curious about jhana meditation. During the meeting we will meditate but there will be no instruction; you're welcome to meditate however you like or to sit quietly for an hour.\n\nPlease bring food and drinks to share. Paper cups, plates, bowls, utensils, and napkins will be provided.\nMeditation cushions will not be provided.  Please bring whatever you need to make yourself comfortable.  We will be meeting in The Lounge.\nDIRECTIONS\nThere are two grey doors at the address. Enter the one on the RIGHT (to the right of Savino's Quality Pasta) and proceed straight up the stairs to the second floor.",
       "startDate": "2026-10-25T18:00:00Z",
       "endDate": "2026-10-25T22:00:00Z",
       "category": [
@@ -1426,34 +1577,41 @@
         "education"
       ],
       "price": {
-        "amount": 0,
+        "amount": 0.0,
         "type": "Free",
         "currency": "USD",
-        "details": ""
+        "details": "General Admission"
       },
       "capacity": null,
-      "registrationRequired": null,
+      "registrationRequired": false,
       "tags": [],
-      "image": "",
+      "image": "events/luma-event-39b7587a.jpg",
       "status": "upcoming",
       "metadata": {
         "source": "Google Calendar",
         "source_url": "https://luma.com/1uh5pb6z",
         "original_event_id": "_clr78bao9cp4osrjb14nci2k894ngia0clr6arjkecn6ot9edlgg",
         "organizer": {
-          "name": "Fractal Campus NYC",
+          "name": "NYC Jhourney",
+          "website": "https://luma.com/calendar/cal-Hl2i5yr1fumfqWY",
           "instagram": "",
           "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
         },
         "venue": {
-          "name": "Fractal Tech",
-          "address": "111 Conselyea St, Brooklyn, NY 11211",
-          "type": "Community Space"
+          "name": "",
+          "address": "111 Conselyea St\n111 Conselyea St, Brooklyn, New York",
+          "type": "Offline"
         },
         "speakers": [],
         "social_links": [],
         "featured": false,
         "luma_source": true,
+        "luma_host": {
+          "name": "NYC Jhourney",
+          "url": "https://luma.com/calendar/cal-Hl2i5yr1fumfqWY",
+          "image": "https://images.lumacdn.com/uploads/6d/165fb0da-7792-4255-ab8b-e75bc6c1bf4d.jpg",
+          "type": "Organization"
+        },
         "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmFvOWNwNG9zcmpiMTRuY2kyazg5NG5naWEwY2xyNmFyamtlY242b3Q5ZWRsZ2cgdDN2MnJzb3VmZmZsMjA2amgxMDJ0dmEzamVla2ZnbWVAaQ"
       }
     },
@@ -1463,7 +1621,7 @@
       "type": "tech",
       "locationId": "",
       "communityId": "com_fractal",
-      "description": "Get up-to-date information at: https://luma.com/vkr5yr5m\n\nAddress:\nCheck event page for more details.\n\nHosted by Tina He",
+      "description": "Join us for an afternoon of pursuing your personal side quest! Whether you\u2019re writing, coding, or doing those taxes you\u2019ve been putting off, this is your space. It\u2019s intentional time for you to focus on what feels meaningful to you\u2014and meet people doing the same thing. We\u2019ll split our time between focused work sessions and breaks to reset and mingle with other creators.\nRough Agenda*\n2:30-3:00pm: Introductions and Intention Sharing\n3:00-4:30pm: Deep focus session 1\n4:30-4:50pm: Optional break\n4:50-5:30pm: Deep focus session 2\n5:30-6:00pm: SideQuest Shares\n*Popular opinion is that SideQuest is best when you\u2019re all in, showing up for the duration instead of splitting sessions. Try it\u2014we think you\u2019ll agree.\n___________________\n\nAbout SideQuest:\nWe host coworking sessions every other Sunday. Subscribe to our events calendar if you can\u2019t make this one :)\nIf you've got ideas for how to help build the community, or you'd like to host a future SideQuest (it's easier than you might think!), we'd love to hear from you.\nThank you to Fractal Campus for hosting us, our friends at PurdueHackers, CozySundays and Socratica for seeding the idea, and Chandiran for building the SideQuest community.",
       "startDate": "2026-10-25T18:30:00Z",
       "endDate": "2026-10-25T22:00:00Z",
       "category": [
@@ -1473,34 +1631,41 @@
         "education"
       ],
       "price": {
-        "amount": 0,
+        "amount": 0.0,
         "type": "Free",
         "currency": "USD",
-        "details": ""
+        "details": "General Admission"
       },
       "capacity": null,
-      "registrationRequired": null,
+      "registrationRequired": false,
       "tags": [],
-      "image": "",
+      "image": "events/luma-event-474c7a7c.jpg",
       "status": "upcoming",
       "metadata": {
         "source": "Google Calendar",
         "source_url": "https://luma.com/vkr5yr5m",
         "original_event_id": "_clr78bb1edbneihme9p54q1ka174kqi0clr6arjkecn6ot9edlgg",
         "organizer": {
-          "name": "Fractal Campus NYC",
+          "name": "SideQuest",
+          "website": "https://luma.com/sidequest",
           "instagram": "",
           "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
         },
         "venue": {
           "name": "",
-          "address": "https://luma.com/event/evt-asWwJ6rrRh4PNJj",
+          "address": "Kings County, New York",
           "type": "Offline"
         },
         "speakers": [],
         "social_links": [],
         "featured": false,
         "luma_source": true,
+        "luma_host": {
+          "name": "SideQuest",
+          "url": "https://luma.com/sidequest",
+          "image": "https://images.lumacdn.com/calendars/7l/768c5bdb-8fbb-4530-a326-f69af660c934",
+          "type": "Organization"
+        },
         "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmIxZWRibmVpaG1lOXA1NHExa2ExNzRrcWkwY2xyNmFyamtlY242b3Q5ZWRsZ2cgdDN2MnJzb3VmZmZsMjA2amgxMDJ0dmEzamVla2ZnbWVAaQ"
       }
     },
@@ -1508,9 +1673,9 @@
       "id": "evt_gcal_com_fractal_d44d5d18",
       "name": "Context Engineering Guild: November Edition",
       "type": "tech",
-      "locationId": "loc_fractal",
+      "locationId": "",
       "communityId": "com_fractal",
-      "description": "Get up-to-date information at: https://luma.com/gl8rycz0\n\nAddress:\n111 Conselyea St\nBrooklyn, NY\nUnited States\n\nHosted by Atin Woodard",
+      "description": "NYC IRL community for advanced practitioners of LLM coding techniques. Monthly Brooklyn meetups on the new moon.. \n\nThe CEG emphasizes advanced use of LLMs for the working engineer, and is not intended for first time coders.\n\nWe start with a lecture on whats happened in the last month, then have some guided or group discussions about current trends in tooling and capabilities. \n\n CEG posts at https://x.com/ContextGuildNYC\n\nBring your main coding laptop so we can share how we build together.",
       "startDate": "2026-11-08T19:00:00Z",
       "endDate": "2026-11-08T21:00:00Z",
       "category": [
@@ -1520,34 +1685,41 @@
         "education"
       ],
       "price": {
-        "amount": 0,
+        "amount": 0.0,
         "type": "Free",
         "currency": "USD",
-        "details": ""
+        "details": "General Admission"
       },
       "capacity": null,
-      "registrationRequired": null,
+      "registrationRequired": false,
       "tags": [],
-      "image": "",
+      "image": "events/luma-event-57b0a1e7.jpg",
       "status": "upcoming",
       "metadata": {
         "source": "Google Calendar",
         "source_url": "https://luma.com/gl8rycz0",
         "original_event_id": "_clr78b9k718k8ppp693lgpj8d9t7el20clr6arjkecn6ot9edlgg",
         "organizer": {
-          "name": "Fractal Campus NYC",
+          "name": "Context Engineering Guild",
+          "website": "https://luma.com/CEG",
           "instagram": "",
           "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
         },
         "venue": {
-          "name": "Fractal Tech",
-          "address": "111 Conselyea St, Brooklyn, NY 11211",
-          "type": "Community Space"
+          "name": "",
+          "address": "111 Conselyea St\n111 Conselyea St, Brooklyn, New York",
+          "type": "Offline"
         },
         "speakers": [],
         "social_links": [],
         "featured": false,
         "luma_source": true,
+        "luma_host": {
+          "name": "Context Engineering Guild",
+          "url": "https://luma.com/CEG",
+          "image": "https://images.lumacdn.com/calendars/le/1a7d9984-4054-45cd-9505-c1c111cc0827.png",
+          "type": "Organization"
+        },
         "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YjlrNzE4azhwcHA2OTNsZ3BqOGQ5dDdlbDIwY2xyNmFyamtlY242b3Q5ZWRsZ2cgdDN2MnJzb3VmZmZsMjA2amgxMDJ0dmEzamVla2ZnbWVAaQ"
       }
     },
@@ -1557,7 +1729,7 @@
       "type": "tech",
       "locationId": "",
       "communityId": "com_fractal",
-      "description": "Get up-to-date information at: https://luma.com/79njnyit\n\nAddress:\nCheck event page for more details.\n\nHosted by Tina He",
+      "description": "Join us for an afternoon of pursuing your personal side quest! Whether you\u2019re writing, coding, or doing those taxes you\u2019ve been putting off, this is your space. It\u2019s intentional time for you to focus on what feels meaningful to you\u2014and meet people doing the same thing. We\u2019ll split our time between focused work sessions and breaks to reset and mingle with other creators.\nRough Agenda*\n2:30-3:00pm: Introductions and Intention Sharing\n3:00-4:30pm: Deep focus session 1\n4:30-4:50pm: Optional break\n4:50-5:30pm: Deep focus session 2\n5:30-6:00pm: SideQuest Shares\n*Popular opinion is that SideQuest is best when you\u2019re all in, showing up for the duration instead of splitting sessions. Try it\u2014we think you\u2019ll agree.\n___________________\n\nAbout SideQuest:\nWe host coworking sessions every other Sunday. Subscribe to our events calendar if you can\u2019t make this one :)\nIf you've got ideas for how to help build the community, or you'd like to host a future SideQuest (it's easier than you might think!), we'd love to hear from you.\nThank you to Fractal Campus for hosting us, our friends at PurdueHackers, CozySundays and Socratica for seeding the idea, and Chandiran for building the SideQuest community.",
       "startDate": "2026-11-08T19:30:00Z",
       "endDate": "2026-11-08T23:00:00Z",
       "category": [
@@ -1567,34 +1739,41 @@
         "education"
       ],
       "price": {
-        "amount": 0,
+        "amount": 0.0,
         "type": "Free",
         "currency": "USD",
-        "details": ""
+        "details": "General Admission"
       },
       "capacity": null,
-      "registrationRequired": null,
+      "registrationRequired": false,
       "tags": [],
-      "image": "",
+      "image": "events/luma-event-474c7a7c.jpg",
       "status": "upcoming",
       "metadata": {
         "source": "Google Calendar",
         "source_url": "https://luma.com/79njnyit",
         "original_event_id": "_clr78bbnepmj4kr575l4kl1g896jgpi0clr6arjkecn6ot9edlgg",
         "organizer": {
-          "name": "Fractal Campus NYC",
+          "name": "SideQuest",
+          "website": "https://luma.com/sidequest",
           "instagram": "",
           "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
         },
         "venue": {
           "name": "",
-          "address": "https://luma.com/event/evt-wvm2Se9jJT0BM8f",
+          "address": "Kings County, New York",
           "type": "Offline"
         },
         "speakers": [],
         "social_links": [],
         "featured": false,
         "luma_source": true,
+        "luma_host": {
+          "name": "SideQuest",
+          "url": "https://luma.com/sidequest",
+          "image": "https://images.lumacdn.com/calendars/7l/768c5bdb-8fbb-4530-a326-f69af660c934",
+          "type": "Organization"
+        },
         "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmJuZXBtajRrcjU3NWw0a2wxZzg5NmpncGkwY2xyNmFyamtlY242b3Q5ZWRsZ2cgdDN2MnJzb3VmZmZsMjA2amgxMDJ0dmEzamVla2ZnbWVAaQ"
       }
     },
@@ -1602,9 +1781,9 @@
       "id": "evt_gcal_com_fractal_796c5bff",
       "name": "Jhourney Jhana Meditation",
       "type": "tech",
-      "locationId": "loc_fractal",
+      "locationId": "",
       "communityId": "com_fractal",
-      "description": "Get up-to-date information at: https://luma.com/rp37jhn5\n\nAddress:\n111 Conselyea St\nThe Lounge\nBrooklyn, NY\nUnited States\n\nHosted by David Braun & Alex",
+      "description": "This is a social event hosted by NYC Jhourney for students of Jhourney meditation retreats, jhana meditators, and those who are curious about jhana meditation. During the meeting we will meditate but there will be no instruction; you're welcome to meditate however you like or to sit quietly for an hour.\n\nPlease bring food and drinks to share. Paper cups, plates, bowls, utensils, and napkins will be provided.\nMeditation cushions will not be provided.  Please bring whatever you need to make yourself comfortable.  We will be meeting in The Lounge.\nDIRECTIONS\nThere are two grey doors at the address. Enter the one on the RIGHT (to the right of Savino's Quality Pasta) and proceed straight up the stairs to the second floor.",
       "startDate": "2026-11-22T19:00:00Z",
       "endDate": "2026-11-22T23:00:00Z",
       "category": [
@@ -1614,34 +1793,41 @@
         "education"
       ],
       "price": {
-        "amount": 0,
+        "amount": 0.0,
         "type": "Free",
         "currency": "USD",
-        "details": ""
+        "details": "General Admission"
       },
       "capacity": null,
-      "registrationRequired": null,
+      "registrationRequired": false,
       "tags": [],
-      "image": "",
+      "image": "events/luma-event-39b7587a.jpg",
       "status": "upcoming",
       "metadata": {
         "source": "Google Calendar",
         "source_url": "https://luma.com/rp37jhn5",
         "original_event_id": "_clr78ba7b1nmqqq36554it3dc8o5kpa0clr6arjkecn6ot9edlgg",
         "organizer": {
-          "name": "Fractal Campus NYC",
+          "name": "NYC Jhourney",
+          "website": "https://luma.com/calendar/cal-Hl2i5yr1fumfqWY",
           "instagram": "",
           "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
         },
         "venue": {
-          "name": "Fractal Tech",
-          "address": "111 Conselyea St, Brooklyn, NY 11211",
-          "type": "Community Space"
+          "name": "",
+          "address": "111 Conselyea St\n111 Conselyea St, Brooklyn, New York",
+          "type": "Offline"
         },
         "speakers": [],
         "social_links": [],
         "featured": false,
         "luma_source": true,
+        "luma_host": {
+          "name": "NYC Jhourney",
+          "url": "https://luma.com/calendar/cal-Hl2i5yr1fumfqWY",
+          "image": "https://images.lumacdn.com/uploads/6d/165fb0da-7792-4255-ab8b-e75bc6c1bf4d.jpg",
+          "type": "Organization"
+        },
         "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmE3YjFubXFxcTM2NTU0aXQzZGM4bzVrcGEwY2xyNmFyamtlY242b3Q5ZWRsZ2cgdDN2MnJzb3VmZmZsMjA2amgxMDJ0dmEzamVla2ZnbWVAaQ"
       }
     },
@@ -1651,7 +1837,7 @@
       "type": "tech",
       "locationId": "",
       "communityId": "com_fractal",
-      "description": "Get up-to-date information at: https://luma.com/olzhlvod\n\nAddress:\nCheck event page for more details.\n\nHosted by Tina He",
+      "description": "Join us for an afternoon of pursuing your personal side quest! Whether you\u2019re writing, coding, or doing those taxes you\u2019ve been putting off, this is your space. It\u2019s intentional time for you to focus on what feels meaningful to you\u2014and meet people doing the same thing. We\u2019ll split our time between focused work sessions and breaks to reset and mingle with other creators.\nRough Agenda*\n2:30-3:00pm: Introductions and Intention Sharing\n3:00-4:30pm: Deep focus session 1\n4:30-4:50pm: Optional break\n4:50-5:30pm: Deep focus session 2\n5:30-6:00pm: SideQuest Shares\n*Popular opinion is that SideQuest is best when you\u2019re all in, showing up for the duration instead of splitting sessions. Try it\u2014we think you\u2019ll agree.\n___________________\n\nAbout SideQuest:\nWe host coworking sessions every other Sunday. Subscribe to our events calendar if you can\u2019t make this one :)\nIf you've got ideas for how to help build the community, or you'd like to host a future SideQuest (it's easier than you might think!), we'd love to hear from you.\nThank you to Fractal Campus for hosting us, our friends at PurdueHackers, CozySundays and Socratica for seeding the idea, and Chandiran for building the SideQuest community.",
       "startDate": "2026-11-22T19:30:00Z",
       "endDate": "2026-11-22T23:00:00Z",
       "category": [
@@ -1661,34 +1847,41 @@
         "education"
       ],
       "price": {
-        "amount": 0,
+        "amount": 0.0,
         "type": "Free",
         "currency": "USD",
-        "details": ""
+        "details": "General Admission"
       },
       "capacity": null,
-      "registrationRequired": null,
+      "registrationRequired": false,
       "tags": [],
-      "image": "",
+      "image": "events/luma-event-474c7a7c.jpg",
       "status": "upcoming",
       "metadata": {
         "source": "Google Calendar",
         "source_url": "https://luma.com/olzhlvod",
         "original_event_id": "_clr78bbh9d9lagi3a917ega7elh44ka0clr6arjkecn6ot9edlgg",
         "organizer": {
-          "name": "Fractal Campus NYC",
+          "name": "SideQuest",
+          "website": "https://luma.com/sidequest",
           "instagram": "",
           "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
         },
         "venue": {
           "name": "",
-          "address": "https://luma.com/event/evt-qKSUBCRBwAGubBQ",
+          "address": "Kings County, New York",
           "type": "Offline"
         },
         "speakers": [],
         "social_links": [],
         "featured": false,
         "luma_source": true,
+        "luma_host": {
+          "name": "SideQuest",
+          "url": "https://luma.com/sidequest",
+          "image": "https://images.lumacdn.com/calendars/7l/768c5bdb-8fbb-4530-a326-f69af660c934",
+          "type": "Organization"
+        },
         "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmJoOWQ5bGFnaTNhOTE3ZWdhN2VsaDQ0a2EwY2xyNmFyamtlY242b3Q5ZWRsZ2cgdDN2MnJzb3VmZmZsMjA2amgxMDJ0dmEzamVla2ZnbWVAaQ"
       }
     },
@@ -1698,7 +1891,7 @@
       "type": "tech",
       "locationId": "",
       "communityId": "com_fractal",
-      "description": "Get up-to-date information at: https://luma.com/j9qfr43w\n\nAddress:\nCheck event page for more details.\n\nHosted by Tina He",
+      "description": "Join us for an afternoon of pursuing your personal side quest! Whether you\u2019re writing, coding, or doing those taxes you\u2019ve been putting off, this is your space. It\u2019s intentional time for you to focus on what feels meaningful to you\u2014and meet people doing the same thing. We\u2019ll split our time between focused work sessions and breaks to reset and mingle with other creators.\nRough Agenda*\n2:30-3:00pm: Introductions and Intention Sharing\n3:00-4:30pm: Deep focus session 1\n4:30-4:50pm: Optional break\n4:50-5:30pm: Deep focus session 2\n5:30-6:00pm: SideQuest Shares\n*Popular opinion is that SideQuest is best when you\u2019re all in, showing up for the duration instead of splitting sessions. Try it\u2014we think you\u2019ll agree.\n___________________\n\nAbout SideQuest:\nWe host coworking sessions every other Sunday. Subscribe to our events calendar if you can\u2019t make this one :)\nIf you've got ideas for how to help build the community, or you'd like to host a future SideQuest (it's easier than you might think!), we'd love to hear from you.\nThank you to Fractal Campus for hosting us, our friends at PurdueHackers, CozySundays and Socratica for seeding the idea, and Chandiran for building the SideQuest community.",
       "startDate": "2026-12-06T19:30:00Z",
       "endDate": "2026-12-06T23:00:00Z",
       "category": [
@@ -1708,34 +1901,41 @@
         "education"
       ],
       "price": {
-        "amount": 0,
+        "amount": 0.0,
         "type": "Free",
         "currency": "USD",
-        "details": ""
+        "details": "General Admission"
       },
       "capacity": null,
-      "registrationRequired": null,
+      "registrationRequired": false,
       "tags": [],
-      "image": "",
+      "image": "events/luma-event-474c7a7c.jpg",
       "status": "upcoming",
       "metadata": {
         "source": "Google Calendar",
         "source_url": "https://luma.com/j9qfr43w",
         "original_event_id": "_clr78bb8alnl6hj2c4rksqbf6p3k4pi0clr6arjkecn6ot9edlgg",
         "organizer": {
-          "name": "Fractal Campus NYC",
+          "name": "SideQuest",
+          "website": "https://luma.com/sidequest",
           "instagram": "",
           "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
         },
         "venue": {
           "name": "",
-          "address": "https://luma.com/event/evt-hUoSFba7Nio6GBf",
+          "address": "Kings County, New York",
           "type": "Offline"
         },
         "speakers": [],
         "social_links": [],
         "featured": false,
         "luma_source": true,
+        "luma_host": {
+          "name": "SideQuest",
+          "url": "https://luma.com/sidequest",
+          "image": "https://images.lumacdn.com/calendars/7l/768c5bdb-8fbb-4530-a326-f69af660c934",
+          "type": "Organization"
+        },
         "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmI4YWxubDZoajJjNHJrc3FiZjZwM2s0cGkwY2xyNmFyamtlY242b3Q5ZWRsZ2cgdDN2MnJzb3VmZmZsMjA2amgxMDJ0dmEzamVla2ZnbWVAaQ"
       }
     },
@@ -1743,9 +1943,9 @@
       "id": "evt_gcal_com_fractal_6a94f56c",
       "name": "Jhourney Jhana Meditation",
       "type": "tech",
-      "locationId": "loc_fractal",
+      "locationId": "",
       "communityId": "com_fractal",
-      "description": "Get up-to-date information at: https://luma.com/bvped79n\n\nAddress:\n111 Conselyea St\nThe Lounge\nBrooklyn, NY\nUnited States\n\nHosted by David Braun & Alex",
+      "description": "This is a social event hosted by NYC Jhourney for students of Jhourney meditation retreats, jhana meditators, and those who are curious about jhana meditation. During the meeting we will meditate but there will be no instruction; you're welcome to meditate however you like or to sit quietly for an hour.\n\nPlease bring food and drinks to share. Paper cups, plates, bowls, utensils, and napkins will be provided.\nMeditation cushions will not be provided.  Please bring whatever you need to make yourself comfortable.  We will be meeting in The Lounge.\nDIRECTIONS\nThere are two grey doors at the address. Enter the one on the RIGHT (to the right of Savino's Quality Pasta) and proceed straight up the stairs to the second floor.",
       "startDate": "2026-12-20T19:00:00Z",
       "endDate": "2026-12-20T23:00:00Z",
       "category": [
@@ -1755,34 +1955,41 @@
         "education"
       ],
       "price": {
-        "amount": 0,
+        "amount": 0.0,
         "type": "Free",
         "currency": "USD",
-        "details": ""
+        "details": "General Admission"
       },
       "capacity": null,
-      "registrationRequired": null,
+      "registrationRequired": false,
       "tags": [],
-      "image": "",
+      "image": "events/luma-event-39b7587a.jpg",
       "status": "upcoming",
       "metadata": {
         "source": "Google Calendar",
         "source_url": "https://luma.com/bvped79n",
         "original_event_id": "_clr78bae71344da3cgrlcp1kad66sta0clr6arjkecn6ot9edlgg",
         "organizer": {
-          "name": "Fractal Campus NYC",
+          "name": "NYC Jhourney",
+          "website": "https://luma.com/calendar/cal-Hl2i5yr1fumfqWY",
           "instagram": "",
           "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
         },
         "venue": {
-          "name": "Fractal Tech",
-          "address": "111 Conselyea St, Brooklyn, NY 11211",
-          "type": "Community Space"
+          "name": "",
+          "address": "111 Conselyea St\n111 Conselyea St, Brooklyn, New York",
+          "type": "Offline"
         },
         "speakers": [],
         "social_links": [],
         "featured": false,
         "luma_source": true,
+        "luma_host": {
+          "name": "NYC Jhourney",
+          "url": "https://luma.com/calendar/cal-Hl2i5yr1fumfqWY",
+          "image": "https://images.lumacdn.com/uploads/6d/165fb0da-7792-4255-ab8b-e75bc6c1bf4d.jpg",
+          "type": "Organization"
+        },
         "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmFlNzEzNDRkYTNjZ3JsY3Axa2FkNjZzdGEwY2xyNmFyamtlY242b3Q5ZWRsZ2cgdDN2MnJzb3VmZmZsMjA2amgxMDJ0dmEzamVla2ZnbWVAaQ"
       }
     },
@@ -1792,7 +1999,7 @@
       "type": "tech",
       "locationId": "",
       "communityId": "com_fractal",
-      "description": "Get up-to-date information at: https://luma.com/zqxcxzm7\n\nAddress:\nCheck event page for more details.\n\nHosted by Tina He",
+      "description": "Join us for an afternoon of pursuing your personal side quest! Whether you\u2019re writing, coding, or doing those taxes you\u2019ve been putting off, this is your space. It\u2019s intentional time for you to focus on what feels meaningful to you\u2014and meet people doing the same thing. We\u2019ll split our time between focused work sessions and breaks to reset and mingle with other creators.\nRough Agenda*\n2:30-3:00pm: Introductions and Intention Sharing\n3:00-4:30pm: Deep focus session 1\n4:30-4:50pm: Optional break\n4:50-5:30pm: Deep focus session 2\n5:30-6:00pm: SideQuest Shares\n*Popular opinion is that SideQuest is best when you\u2019re all in, showing up for the duration instead of splitting sessions. Try it\u2014we think you\u2019ll agree.\n___________________\n\nAbout SideQuest:\nWe host coworking sessions every other Sunday. Subscribe to our events calendar if you can\u2019t make this one :)\nIf you've got ideas for how to help build the community, or you'd like to host a future SideQuest (it's easier than you might think!), we'd love to hear from you.\nThank you to Fractal Campus for hosting us, our friends at PurdueHackers, CozySundays and Socratica for seeding the idea, and Chandiran for building the SideQuest community.",
       "startDate": "2026-12-20T19:30:00Z",
       "endDate": "2026-12-20T23:00:00Z",
       "category": [
@@ -1802,37 +2009,44 @@
         "education"
       ],
       "price": {
-        "amount": 0,
+        "amount": 0.0,
         "type": "Free",
         "currency": "USD",
-        "details": ""
+        "details": "General Admission"
       },
       "capacity": null,
-      "registrationRequired": null,
+      "registrationRequired": false,
       "tags": [],
-      "image": "",
+      "image": "events/luma-event-474c7a7c.jpg",
       "status": "upcoming",
       "metadata": {
         "source": "Google Calendar",
         "source_url": "https://luma.com/zqxcxzm7",
         "original_event_id": "_clr78baad59muohjaoqketac8tml6d20clr6arjkecn6ot9edlgg",
         "organizer": {
-          "name": "Fractal Campus NYC",
+          "name": "SideQuest",
+          "website": "https://luma.com/sidequest",
           "instagram": "",
           "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
         },
         "venue": {
           "name": "",
-          "address": "https://luma.com/event/evt-JiSob3V5GuLGmS4",
+          "address": "Kings County, New York",
           "type": "Offline"
         },
         "speakers": [],
         "social_links": [],
         "featured": false,
         "luma_source": true,
+        "luma_host": {
+          "name": "SideQuest",
+          "url": "https://luma.com/sidequest",
+          "image": "https://images.lumacdn.com/calendars/7l/768c5bdb-8fbb-4530-a326-f69af660c934",
+          "type": "Organization"
+        },
         "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmFhZDU5bXVvaGphb3FrZXRhYzh0bWw2ZDIwY2xyNmFyamtlY242b3Q5ZWRsZ2cgdDN2MnJzb3VmZmZsMjA2amgxMDJ0dmEzamVla2ZnbWVAaQ"
       }
     }
   ],
-  "timestamp": "2026-08-16T15:29:53.448147"
+  "timestamp": "2026-08-17T08:34:00.540908"
 }

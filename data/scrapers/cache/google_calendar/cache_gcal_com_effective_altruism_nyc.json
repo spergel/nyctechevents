@@ -6,7 +6,7 @@
       "type": "effective altruism",
       "locationId": "",
       "communityId": "com_effective_altruism_nyc",
-      "description": "You are hosting this event. View the public page at <a href=\"https://www.google.com/url?q=https://luma.com/m2bztmdj&amp;sa=D&amp;source=calendar&amp;ust=1786204179764918&amp;usg=AOvVaw1FCpqcM2CN4EM7VqOEDelt\" target=\"_blank\">https://luma.com/m2bztmdj</a>\n\nManage the event at <a href=\"https://www.google.com/url?q=https://luma.com/event/manage/evt-C1NrrbxHWmuQkgQ&amp;sa=D&amp;source=calendar&amp;ust=1786204179764918&amp;usg=AOvVaw2lG53o5SdpeUFLJrrYrzB2\" target=\"_blank\">https://luma.com/event/manage/evt-C1NrrbxHWmuQkgQ</a>\n\nAddress:\n26 Broadway\nWe will meet in the conference room 385 at Collider on the third floor.\nNew York, NY\nUnited States\n\nJoin our Global Development subgroup for a focused discussion on high-impact opportunities in global health and development. Great for practitioners, funders, and those exploring this cause area.\n\nHosted by Jonathan Calenzani",
+      "description": "Where did health philanthropy come from? In the summer of 1897 a Baptist minister named Frederick Gates read a thousand-page medical textbook on vacation, concluded that medicine was not yet a science and would not become one without serious money behind it, and carried the book back to his office at 26 Broadway to write the memo that pointed John D. Rockefeller's fortune at disease. What followed was the Rockefeller Institute, the hookworm campaign across the American South, and eventually the International Health Board, the template most global health funders still work from.\nWe're meeting at the same address, a hundred and twenty-nine years later, to talk about what that origin story gets right and where it should make us uneasy. Come with opinions. A short primer to read beforehand: the Rockefeller Archive Center on how the hookworm campaign built a public health system.",
       "startDate": "2026-08-18T18:00:00-04:00",
       "endDate": "2026-08-18T20:00:00-04:00",
       "category": [
@@ -16,34 +16,41 @@
         "community"
       ],
       "price": {
-        "amount": 0,
+        "amount": 0.0,
         "type": "Free",
         "currency": "USD",
-        "details": ""
+        "details": "General Admission"
       },
       "capacity": null,
-      "registrationRequired": null,
+      "registrationRequired": false,
       "tags": [],
-      "image": "",
+      "image": "events/luma-event-9a1ac283.jpg",
       "status": "upcoming",
       "metadata": {
         "source": "Google Calendar",
         "source_url": "https://luma.com/m2bztmdj",
         "original_event_id": "3p6igtrt1j0su4mbf0f1a4tpud",
         "organizer": {
-          "name": "Effective Altruism NYC Events",
+          "name": "EA NYC",
+          "website": "https://luma.com/calendar/cal-vnPGs6DwV4F2m8X",
           "instagram": "",
           "email": "hbvetqf5h1pd0of0vn6uvphqts@group.calendar.google.com"
         },
         "venue": {
           "name": "",
-          "address": "26 Broadway, New York, NY 10004, USA",
+          "address": "26 Broadway\n26 Broadway, New York, New York",
           "type": "Offline"
         },
         "speakers": [],
         "social_links": [],
         "featured": false,
         "luma_source": true,
+        "luma_host": {
+          "name": "EA NYC",
+          "url": "https://luma.com/calendar/cal-vnPGs6DwV4F2m8X",
+          "image": "https://cdn.lu.ma/avatars-default/community_avatar_4.png",
+          "type": "Organization"
+        },
         "google_calendar_link": "https://www.google.com/calendar/event?eid=M3A2aWd0cnQxajBzdTRtYmYwZjFhNHRwdWQgaGJ2ZXRxZjVoMXBkMG9mMHZuNnV2cGhxdHNAZw"
       }
     },
@@ -53,7 +60,7 @@
       "type": "effective altruism",
       "locationId": "",
       "communityId": "com_effective_altruism_nyc",
-      "description": "You are hosting this event. View the public page at <a href=\"https://www.google.com/url?q=https://luma.com/i9ak92r5&amp;sa=D&amp;source=calendar&amp;ust=1786204179764918&amp;usg=AOvVaw198TnzbY5ihREmiG6js-y4\" target=\"_blank\">https://luma.com/i9ak92r5</a>\n\nManage the event at <a href=\"https://www.google.com/url?q=https://luma.com/event/manage/evt-nsH79d9HIYDiXxu&amp;sa=D&amp;source=calendar&amp;ust=1786204179764918&amp;usg=AOvVaw0qiVPIOVMnb_mzvWxZ8rK0\" target=\"_blank\">https://luma.com/event/manage/evt-nsH79d9HIYDiXxu</a>\n\nAddress:\n26 Broadway\n3rd Floor, Primary Coworking\nNew York, NY\nUnited States\n\nNote we&#39;re other 3rd floor in the Primary co working space\nThis session we&#39;re digging into whether today&#39;s AI models are already quietly misaligned. \n\nThe format of the event is more of a reading group discussion than an interactive workshop. Please read the recommended reading to get the most out of it.\n\nOur main read is Ryan Greenblatt&#39;s &quot;Current AIs seem pretty misaligned to me,&quot; an AI safety researcher&#39;s first-hand case that frontier models routinely oversell their work, bury problems, quit early while claiming success, and cheat on tasks without admitting it. We&#39;ll pair it with OpenAI&#39;s\u2026\n\nHosted by Jonathan Calenzani",
+      "description": "A special edition of our workshop. Everyone in this field carries around a number, or refuses to, and both of those are interesting. We'll spend the session actually interrogating where those probabilities come from: what the estimate is doing for you, which cruxes move it, what would change it, and whether the number is load-bearing for anything you do. Bring your laptop and your priors.\nOne note: the date may move. We're working on something that would make this a considerably better session, and if it comes together we'll shift to accommodate it. Register anyway and we'll keep you posted.",
       "startDate": "2026-08-19T18:00:00-04:00",
       "endDate": "2026-08-19T20:00:00-04:00",
       "category": [
@@ -63,34 +70,41 @@
         "community"
       ],
       "price": {
-        "amount": 0,
+        "amount": 0.0,
         "type": "Free",
         "currency": "USD",
-        "details": ""
+        "details": "General Admission"
       },
       "capacity": null,
-      "registrationRequired": null,
+      "registrationRequired": false,
       "tags": [],
-      "image": "",
+      "image": "events/luma-event-b6318eda.jpg",
       "status": "upcoming",
       "metadata": {
         "source": "Google Calendar",
         "source_url": "https://luma.com/i9ak92r5",
         "original_event_id": "7v1jh2c7c3apugrkrf54d7qma1",
         "organizer": {
-          "name": "Effective Altruism NYC Events",
+          "name": "EA NYC",
+          "website": "https://luma.com/calendar/cal-vnPGs6DwV4F2m8X",
           "instagram": "",
           "email": "hbvetqf5h1pd0of0vn6uvphqts@group.calendar.google.com"
         },
         "venue": {
           "name": "",
-          "address": "26 Broadway, New York, NY 10004, USA",
+          "address": "26 Broadway\n26 Broadway, New York, New York",
           "type": "Offline"
         },
         "speakers": [],
         "social_links": [],
         "featured": false,
         "luma_source": true,
+        "luma_host": {
+          "name": "EA NYC",
+          "url": "https://luma.com/calendar/cal-vnPGs6DwV4F2m8X",
+          "image": "https://cdn.lu.ma/avatars-default/community_avatar_4.png",
+          "type": "Organization"
+        },
         "google_calendar_link": "https://www.google.com/calendar/event?eid=N3YxamgyYzdjM2FwdWdya3JmNTRkN3FtYTEgaGJ2ZXRxZjVoMXBkMG9mMHZuNnV2cGhxdHNAZw"
       }
     },
@@ -100,7 +114,7 @@
       "type": "effective altruism",
       "locationId": "",
       "communityId": "com_effective_altruism_nyc",
-      "description": "You are hosting this event. View the public page at <a href=\"https://www.google.com/url?q=https://luma.com/p0zwptl4&amp;sa=D&amp;source=calendar&amp;ust=1786204179764918&amp;usg=AOvVaw24oBcxG2hjudG1ZLWDtzdp\" target=\"_blank\">https://luma.com/p0zwptl4</a>\n\nManage the event at <a href=\"https://www.google.com/url?q=https://luma.com/event/manage/evt-RAI4rqWO7Tp9fe6&amp;sa=D&amp;source=calendar&amp;ust=1786204179764918&amp;usg=AOvVaw2jpyb6iOYH_8M7HS8qnv1M\" target=\"_blank\">https://luma.com/event/manage/evt-RAI4rqWO7Tp9fe6</a>\n\nAddress:\nBodhi Kosher Vegetarian Restaurant\nNew York, New York\nUnited States\n\nPlease join EA NYC for our monthly vegan dim sum.\n- All are welcome! - Cost per meal: variable, likely $25-$30 - If you\u2019d like to attend but have any concerns, please get in touch with Megan\nJoin for an EA NYC community favorite: tasty and affordable vegan dim sum!\n\nHosted by Jonathan Calenzani",
+      "description": "Please join EA NYC for our monthly vegan dim sum.\n- All are welcome! - Cost per meal: variable, likely $25-$30 - If you\u2019d like to attend but have any concerns, please get in touch with Megan\nJoin for an EA NYC community favorite: tasty and affordable vegan dim sum!",
       "startDate": "2026-08-29T13:00:00-04:00",
       "endDate": "2026-08-29T15:00:00-04:00",
       "category": [
@@ -110,34 +124,41 @@
         "community"
       ],
       "price": {
-        "amount": 25.0,
-        "type": "Paid",
+        "amount": 0.0,
+        "type": "Free",
         "currency": "USD",
-        "details": "See event description for pricing details"
+        "details": "General Admission"
       },
       "capacity": null,
-      "registrationRequired": null,
+      "registrationRequired": false,
       "tags": [],
-      "image": "",
+      "image": "events/luma-event-97fb11c5.jpg",
       "status": "upcoming",
       "metadata": {
         "source": "Google Calendar",
         "source_url": "https://luma.com/p0zwptl4",
         "original_event_id": "2a3p1ajjh0gnqr7j7lfcd3bof3",
         "organizer": {
-          "name": "Effective Altruism NYC Events",
+          "name": "EA NYC",
+          "website": "https://luma.com/calendar/cal-vnPGs6DwV4F2m8X",
           "instagram": "",
           "email": "hbvetqf5h1pd0of0vn6uvphqts@group.calendar.google.com"
         },
         "venue": {
           "name": "",
-          "address": "Bodhi Kosher Vegetarian Restaurant, 77 Mulberry St, New York, NY 10013, USA",
+          "address": "Bodhi Kosher Vegetarian Restaurant\nBodhi Kosher Vegetarian Restaurant, New York, New York",
           "type": "Offline"
         },
         "speakers": [],
         "social_links": [],
         "featured": false,
         "luma_source": true,
+        "luma_host": {
+          "name": "EA NYC",
+          "url": "https://luma.com/calendar/cal-vnPGs6DwV4F2m8X",
+          "image": "https://cdn.lu.ma/avatars-default/community_avatar_4.png",
+          "type": "Organization"
+        },
         "google_calendar_link": "https://www.google.com/calendar/event?eid=MmEzcDFhampoMGducXI3ajdsZmNkM2JvZjMgaGJ2ZXRxZjVoMXBkMG9mMHZuNnV2cGhxdHNAZw"
       }
     },
@@ -173,6 +194,7 @@
         "original_event_id": "2b0kor50u84bptje6q56kjbq0n_20260926",
         "organizer": {
           "name": "Effective Altruism NYC Events",
+          "website": "",
           "instagram": "",
           "email": "hbvetqf5h1pd0of0vn6uvphqts@group.calendar.google.com"
         },
@@ -185,6 +207,7 @@
         "social_links": [],
         "featured": false,
         "luma_source": false,
+        "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=MmIwa29yNTB1ODRicHRqZTZxNTZramJxMG5fMjAyNjA5MjYgaGJ2ZXRxZjVoMXBkMG9mMHZuNnV2cGhxdHNAZw"
       }
     },
@@ -220,6 +243,7 @@
         "original_event_id": "31qc56hm9ejcff16mru5blj69c_20261001",
         "organizer": {
           "name": "Effective Altruism NYC Events",
+          "website": "",
           "instagram": "",
           "email": "hbvetqf5h1pd0of0vn6uvphqts@group.calendar.google.com"
         },
@@ -232,6 +256,7 @@
         "social_links": [],
         "featured": false,
         "luma_source": false,
+        "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=MzFxYzU2aG05ZWpjZmYxNm1ydTVibGo2OWNfMjAyNjEwMDEgaGJ2ZXRxZjVoMXBkMG9mMHZuNnV2cGhxdHNAZw"
       }
     },
@@ -267,6 +292,7 @@
         "original_event_id": "4d47au4rjg95qajfcggott1pfd_20261001",
         "organizer": {
           "name": "Effective Altruism NYC Events",
+          "website": "",
           "instagram": "",
           "email": "hbvetqf5h1pd0of0vn6uvphqts@group.calendar.google.com"
         },
@@ -279,6 +305,7 @@
         "social_links": [],
         "featured": false,
         "luma_source": false,
+        "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=NGQ0N2F1NHJqZzk1cWFqZmNnZ290dDFwZmRfMjAyNjEwMDEgaGJ2ZXRxZjVoMXBkMG9mMHZuNnV2cGhxdHNAZw"
       }
     },
@@ -314,6 +341,7 @@
         "original_event_id": "2taqe6e9cuove2hk039u08d7pf_20261010",
         "organizer": {
           "name": "Effective Altruism NYC Events",
+          "website": "",
           "instagram": "",
           "email": "hbvetqf5h1pd0of0vn6uvphqts@group.calendar.google.com"
         },
@@ -326,6 +354,7 @@
         "social_links": [],
         "featured": false,
         "luma_source": false,
+        "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=MnRhcWU2ZTljdW92ZTJoazAzOXUwOGQ3cGZfMjAyNjEwMTAgaGJ2ZXRxZjVoMXBkMG9mMHZuNnV2cGhxdHNAZw"
       }
     },
@@ -361,6 +390,7 @@
         "original_event_id": "3bpn97d3p5eqc6n37fukrbmsv0_20261101",
         "organizer": {
           "name": "Effective Altruism NYC Events",
+          "website": "",
           "instagram": "",
           "email": "hbvetqf5h1pd0of0vn6uvphqts@group.calendar.google.com"
         },
@@ -373,6 +403,7 @@
         "social_links": [],
         "featured": false,
         "luma_source": false,
+        "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=M2Jwbjk3ZDNwNWVxYzZuMzdmdWtyYm1zdjBfMjAyNjExMDEgaGJ2ZXRxZjVoMXBkMG9mMHZuNnV2cGhxdHNAZw"
       }
     },
@@ -408,6 +439,7 @@
         "original_event_id": "6m2res65ktr6dff77e6olpanc5_20261114",
         "organizer": {
           "name": "Effective Altruism NYC Events",
+          "website": "",
           "instagram": "",
           "email": "hbvetqf5h1pd0of0vn6uvphqts@group.calendar.google.com"
         },
@@ -420,6 +452,7 @@
         "social_links": [],
         "featured": false,
         "luma_source": false,
+        "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=Nm0ycmVzNjVrdHI2ZGZmNzdlNm9scGFuYzVfMjAyNjExMTQgaGJ2ZXRxZjVoMXBkMG9mMHZuNnV2cGhxdHNAZw"
       }
     },
@@ -455,6 +488,7 @@
         "original_event_id": "18nssiq2d5tomo24lmlh5c8a40_20261209",
         "organizer": {
           "name": "Effective Altruism NYC Events",
+          "website": "",
           "instagram": "",
           "email": "hbvetqf5h1pd0of0vn6uvphqts@group.calendar.google.com"
         },
@@ -467,6 +501,7 @@
         "social_links": [],
         "featured": false,
         "luma_source": false,
+        "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=MThuc3NpcTJkNXRvbW8yNGxtbGg1YzhhNDBfMjAyNjEyMDkgaGJ2ZXRxZjVoMXBkMG9mMHZuNnV2cGhxdHNAZw"
       }
     },
@@ -502,6 +537,7 @@
         "original_event_id": "2hp8lrqp66mrkko0bp7fh5nvg4_20261211",
         "organizer": {
           "name": "Effective Altruism NYC Events",
+          "website": "",
           "instagram": "",
           "email": "hbvetqf5h1pd0of0vn6uvphqts@group.calendar.google.com"
         },
@@ -514,6 +550,7 @@
         "social_links": [],
         "featured": false,
         "luma_source": false,
+        "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=MmhwOGxycXA2Nm1ya2tvMGJwN2ZoNW52ZzRfMjAyNjEyMTEgaGJ2ZXRxZjVoMXBkMG9mMHZuNnV2cGhxdHNAZw"
       }
     },
@@ -549,6 +586,7 @@
         "original_event_id": "7u3mqs3lojksi1r8615698atdm_20270315",
         "organizer": {
           "name": "Effective Altruism NYC Events",
+          "website": "",
           "instagram": "",
           "email": "hbvetqf5h1pd0of0vn6uvphqts@group.calendar.google.com"
         },
@@ -561,6 +599,7 @@
         "social_links": [],
         "featured": false,
         "luma_source": false,
+        "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=N3UzbXFzM2xvamtzaTFyODYxNTY5OGF0ZG1fMjAyNzAzMTUgaGJ2ZXRxZjVoMXBkMG9mMHZuNnV2cGhxdHNAZw"
       }
     },
@@ -596,6 +635,7 @@
         "original_event_id": "50guciaq9m283lfntm5qqpscs3_20270325",
         "organizer": {
           "name": "Effective Altruism NYC Events",
+          "website": "",
           "instagram": "",
           "email": "hbvetqf5h1pd0of0vn6uvphqts@group.calendar.google.com"
         },
@@ -608,6 +648,7 @@
         "social_links": [],
         "featured": false,
         "luma_source": false,
+        "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=NTBndWNpYXE5bTI4M2xmbnRtNXFxcHNjczNfMjAyNzAzMjUgaGJ2ZXRxZjVoMXBkMG9mMHZuNnV2cGhxdHNAZw"
       }
     },
@@ -643,6 +684,7 @@
         "original_event_id": "6vkt79sh0c6roqv8hkdkbei4h8_20270407",
         "organizer": {
           "name": "Effective Altruism NYC Events",
+          "website": "",
           "instagram": "",
           "email": "hbvetqf5h1pd0of0vn6uvphqts@group.calendar.google.com"
         },
@@ -655,6 +697,7 @@
         "social_links": [],
         "featured": false,
         "luma_source": false,
+        "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=NnZrdDc5c2gwYzZyb3F2OGhrZGtiZWk0aDhfMjAyNzA0MDcgaGJ2ZXRxZjVoMXBkMG9mMHZuNnV2cGhxdHNAZw"
       }
     },
@@ -690,6 +733,7 @@
         "original_event_id": "7pgd035d778oidrlf20o8ar25p_20270424",
         "organizer": {
           "name": "Effective Altruism NYC Events",
+          "website": "",
           "instagram": "",
           "email": "hbvetqf5h1pd0of0vn6uvphqts@group.calendar.google.com"
         },
@@ -702,6 +746,7 @@
         "social_links": [],
         "featured": false,
         "luma_source": false,
+        "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=N3BnZDAzNWQ3NzhvaWRybGYyMG84YXIyNXBfMjAyNzA0MjQgaGJ2ZXRxZjVoMXBkMG9mMHZuNnV2cGhxdHNAZw"
       }
     },
@@ -737,6 +782,7 @@
         "original_event_id": "3dgeao06q4v67dockgui4gomk0_20270425",
         "organizer": {
           "name": "Effective Altruism NYC Events",
+          "website": "",
           "instagram": "",
           "email": "hbvetqf5h1pd0of0vn6uvphqts@group.calendar.google.com"
         },
@@ -749,9 +795,10 @@
         "social_links": [],
         "featured": false,
         "luma_source": false,
+        "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=M2RnZWFvMDZxNHY2N2RvY2tndWk0Z29tazBfMjAyNzA0MjUgaGJ2ZXRxZjVoMXBkMG9mMHZuNnV2cGhxdHNAZw"
       }
     }
   ],
-  "timestamp": "2026-08-16T15:29:53.205313"
+  "timestamp": "2026-08-17T08:33:39.968308"
 }

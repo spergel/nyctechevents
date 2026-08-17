@@ -6,7 +6,7 @@
       "type": "technology",
       "locationId": "",
       "communityId": "com_south_park_commons",
-      "description": "Get up-to-date information at: https://luma.com/aiandthewetlab_spc\n\nAddress:\nCheck event page for more details.\n\nHosted by South Park Commons & 3 others",
+      "description": "Join South Park Commons and Tetherline for an SF biotech community forum on AI & the Wet Lab.\nEvent Details\n5:30pm: Doors Open\n6:00pm: Panel Discussion\n\nAI for science is bottlenecked on experiments, not compute. On August 19th, we're bringing together people working on the gap between AI model development and laboratory execution. This is an event for people who care about perturbation effects that fail to reproduce across independent experiments, batch and plate structure that models learn in place of biology, and model systems whose results do not extend to human biology. Come for an open discussion, anchored by a panel with world-leading experts.\nSpeakers include:\nKavita Kulkarni: AI Research @ Biohub\nWill Serber: Stealth founder; Former GM, Ginkgo Automation\nCi Chu: Co-Founder & CDO @ Xaira Therapeutics\n\nAbout South Park Commons (SPC)\nSPC is a technical community and venture fund dedicated to helping founders, researchers, and technologists figure out what to work on next\u2014what we call the -1 to 0 stage of your career. We believe this is best accomplished in the most talent-dense community possible.\nSPC events are open to members, alumni, and special guests of the community. The best way to join events at SPC is to apply for SPC membership.\n*Please note doors close at event start time and we are unable to accommodate pending, waitlist, or late arrivals.",
       "startDate": "2026-08-20T00:30:00Z",
       "endDate": "2026-08-20T02:00:00Z",
       "category": [
@@ -16,15 +16,15 @@
         "community"
       ],
       "price": {
-        "amount": 0,
+        "amount": 0.0,
         "type": "Free",
         "currency": "USD",
-        "details": ""
+        "details": "General Admission"
       },
       "capacity": null,
-      "registrationRequired": null,
+      "registrationRequired": false,
       "tags": [],
-      "image": "",
+      "image": "events/luma-event-11277470.jpg",
       "status": "upcoming",
       "metadata": {
         "source": "Google Calendar",
@@ -32,21 +32,28 @@
         "original_event_id": "_clr78bane9jkcgj38d43asie8lp44oi0clr6arjkecn6ot9edlgg",
         "organizer": {
           "name": "South Park Commons",
+          "website": "https://luma.com/southparkcommons-events",
           "instagram": "",
           "email": "bfptu3ajdae5cc2k16cvs1amenbft762@import.calendar.google.com"
         },
         "venue": {
           "name": "",
-          "address": "https://luma.com/event/evt-WrgFBcCH5rNErBb",
+          "address": "San Francisco, California",
           "type": "Offline"
         },
         "speakers": [],
         "social_links": [],
         "featured": false,
         "luma_source": true,
+        "luma_host": {
+          "name": "South Park Commons",
+          "url": "https://luma.com/southparkcommons-events",
+          "image": "https://images.lumacdn.com/calendars/zd/801eab25-f945-44b2-8d32-29a455bd485d",
+          "type": "Organization"
+        },
         "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmFuZTlqa2NnajM4ZDQzYXNpZThscDQ0b2kwY2xyNmFyamtlY242b3Q5ZWRsZ2cgYmZwdHUzYWpkYWU1Y2MyazE2Y3ZzMWFtZW5iZnQ3NjJAaQ"
       }
     }
   ],
-  "timestamp": "2026-08-16T15:29:54.177767"
+  "timestamp": "2026-08-17T08:34:01.916241"
 }

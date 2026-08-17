@@ -1,59 +1,12 @@
 {
   "events": [
     {
-      "id": "evt_gcal_com_sidequest_e696a442",
-      "name": "SideQuest IRL #43",
-      "type": "technology",
-      "locationId": "",
-      "communityId": "com_sidequest",
-      "description": "Get up-to-date information at: https://luma.com/haqtk5ff\n\nAddress:\nCheck event page for more details.\n\nHosted by Tina He & Ellie Doyle",
-      "startDate": "2026-08-16T18:30:00Z",
-      "endDate": "2026-08-16T22:00:00Z",
-      "category": [
-        "technology",
-        "science",
-        "research",
-        "society"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": null,
-      "tags": [],
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source": "Google Calendar",
-        "source_url": "https://luma.com/haqtk5ff",
-        "original_event_id": "_clr78ba469a44tqddkpjioqna9kn4m20clr6arjkecn6ot9edlgg",
-        "organizer": {
-          "name": "SideQuest",
-          "instagram": "",
-          "email": "abln66abl799vb4gprllu4225l744l70@import.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "https://luma.com/event/evt-D2TBwMm39cWRirX",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": true,
-        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmE0NjlhNDR0cWRka3BqaW9xbmE5a240bTIwY2xyNmFyamtlY242b3Q5ZWRsZ2cgYWJsbjY2YWJsNzk5dmI0Z3BybGx1NDIyNWw3NDRsNzBAaQ"
-      }
-    },
-    {
       "id": "evt_gcal_com_sidequest_8111143a",
       "name": "SideQuest IRL #44",
       "type": "technology",
       "locationId": "",
       "communityId": "com_sidequest",
-      "description": "Get up-to-date information at: https://luma.com/v52fg20a\n\nAddress:\nCheck event page for more details.\n\nHosted by Tina He",
+      "description": "Join us for an afternoon of pursuing your personal side quest! Whether you\u2019re writing, coding, or doing those taxes you\u2019ve been putting off, this is your space. It\u2019s intentional time for you to focus on what feels meaningful to you\u2014and meet people doing the same thing. We\u2019ll split our time between focused work sessions and breaks to reset and mingle with other creators.\nRough Agenda*\n2:30-3:00pm: Introductions and Intention Sharing\n3:00-4:30pm: Deep focus session 1\n4:30-4:50pm: Optional break\n4:50-5:30pm: Deep focus session 2\n5:30-6:00pm: SideQuest Shares\n*Popular opinion is that SideQuest is best when you\u2019re all in, showing up for the duration instead of splitting sessions. Try it\u2014we think you\u2019ll agree.\n___________________\n\nAbout SideQuest:\nWe host coworking sessions every other Sunday. Subscribe to our events calendar if you can\u2019t make this one :)\nIf you've got ideas for how to help build the community, or you'd like to host a future SideQuest (it's easier than you might think!), we'd love to hear from you.\nThank you to Fractal Campus for hosting us, our friends at PurdueHackers, CozySundays and Socratica for seeding the idea, and Chandiran for building the SideQuest community.",
       "startDate": "2026-08-30T18:30:00Z",
       "endDate": "2026-08-30T22:00:00Z",
       "category": [
@@ -63,15 +16,15 @@
         "society"
       ],
       "price": {
-        "amount": 0,
+        "amount": 0.0,
         "type": "Free",
         "currency": "USD",
-        "details": ""
+        "details": "General Admission"
       },
       "capacity": null,
-      "registrationRequired": null,
+      "registrationRequired": false,
       "tags": [],
-      "image": "",
+      "image": "events/luma-event-474c7a7c.jpg",
       "status": "upcoming",
       "metadata": {
         "source": "Google Calendar",
@@ -79,18 +32,25 @@
         "original_event_id": "_clr78baladh3ilq471iliiije97j4t20clr6arjkecn6ot9edlgg",
         "organizer": {
           "name": "SideQuest",
+          "website": "https://luma.com/sidequest",
           "instagram": "",
           "email": "abln66abl799vb4gprllu4225l744l70@import.calendar.google.com"
         },
         "venue": {
           "name": "",
-          "address": "https://luma.com/event/evt-USb9WD8eYJSrO2t",
+          "address": "Kings County, New York",
           "type": "Offline"
         },
         "speakers": [],
         "social_links": [],
         "featured": false,
         "luma_source": true,
+        "luma_host": {
+          "name": "SideQuest",
+          "url": "https://luma.com/sidequest",
+          "image": "https://images.lumacdn.com/calendars/7l/768c5bdb-8fbb-4530-a326-f69af660c934",
+          "type": "Organization"
+        },
         "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmFsYWRoM2lscTQ3MWlsaWlpamU5N2o0dDIwY2xyNmFyamtlY242b3Q5ZWRsZ2cgYWJsbjY2YWJsNzk5dmI0Z3BybGx1NDIyNWw3NDRsNzBAaQ"
       }
     },
@@ -100,7 +60,7 @@
       "type": "technology",
       "locationId": "",
       "communityId": "com_sidequest",
-      "description": "Get up-to-date information at: https://luma.com/zs3ch9v6\n\nAddress:\nCheck event page for more details.\n\nHosted by Tina He, Yiyi Zhang & Jyro Blade",
+      "description": "Join us for an afternoon of pursuing your personal side quest! Whether you\u2019re writing, coding, or doing those taxes you\u2019ve been putting off, this is your space. It\u2019s intentional time for you to focus on what feels meaningful to you\u2014and meet people doing the same thing. We\u2019ll split our time between focused work sessions and breaks to reset and mingle with other creators.\nRough Agenda*\n2:30-3:00pm: Introductions and Intention Sharing\n3:00-4:30pm: Deep focus session 1\n4:30-4:50pm: Optional break\n4:50-5:30pm: Deep focus session 2\n5:30-6:00pm: SideQuest Shares\n*Popular opinion is that SideQuest is best when you\u2019re all in, showing up for the duration instead of splitting sessions. Try it\u2014we think you\u2019ll agree.\n___________________\n\nAbout SideQuest:\nWe host coworking sessions every other Sunday. Subscribe to our events calendar if you can\u2019t make this one :)\nIf you've got ideas for how to help build the community, or you'd like to host a future SideQuest (it's easier than you might think!), we'd love to hear from you.\nThank you to Fractal Campus for hosting us, our friends at PurdueHackers, CozySundays and Socratica for seeding the idea, and Chandiran for building the SideQuest community.",
       "startDate": "2026-09-13T18:30:00Z",
       "endDate": "2026-09-13T22:00:00Z",
       "category": [
@@ -110,15 +70,15 @@
         "society"
       ],
       "price": {
-        "amount": 0,
+        "amount": 0.0,
         "type": "Free",
         "currency": "USD",
-        "details": ""
+        "details": "General Admission"
       },
       "capacity": null,
-      "registrationRequired": null,
+      "registrationRequired": false,
       "tags": [],
-      "image": "",
+      "image": "events/luma-event-474c7a7c.jpg",
       "status": "upcoming",
       "metadata": {
         "source": "Google Calendar",
@@ -126,18 +86,25 @@
         "original_event_id": "_clr78b9lal74uoid69hn2lrd6takcp20clr6arjkecn6ot9edlgg",
         "organizer": {
           "name": "SideQuest",
+          "website": "https://luma.com/sidequest",
           "instagram": "",
           "email": "abln66abl799vb4gprllu4225l744l70@import.calendar.google.com"
         },
         "venue": {
           "name": "",
-          "address": "https://luma.com/event/evt-5UNObM2cqWm7UFd",
+          "address": "Kings County, New York",
           "type": "Offline"
         },
         "speakers": [],
         "social_links": [],
         "featured": false,
         "luma_source": true,
+        "luma_host": {
+          "name": "SideQuest",
+          "url": "https://luma.com/sidequest",
+          "image": "https://images.lumacdn.com/calendars/7l/768c5bdb-8fbb-4530-a326-f69af660c934",
+          "type": "Organization"
+        },
         "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YjlsYWw3NHVvaWQ2OWhuMmxyZDZ0YWtjcDIwY2xyNmFyamtlY242b3Q5ZWRsZ2cgYWJsbjY2YWJsNzk5dmI0Z3BybGx1NDIyNWw3NDRsNzBAaQ"
       }
     },
@@ -147,7 +114,7 @@
       "type": "technology",
       "locationId": "",
       "communityId": "com_sidequest",
-      "description": "Get up-to-date information at: https://luma.com/30napr09\n\nAddress:\nCheck event page for more details.\n\nHosted by Tina He",
+      "description": "Join us for an afternoon of pursuing your personal side quest! Whether you\u2019re writing, coding, or doing those taxes you\u2019ve been putting off, this is your space. It\u2019s intentional time for you to focus on what feels meaningful to you\u2014and meet people doing the same thing. We\u2019ll split our time between focused work sessions and breaks to reset and mingle with other creators.\nRough Agenda*\n2:30-3:00pm: Introductions and Intention Sharing\n3:00-4:30pm: Deep focus session 1\n4:30-4:50pm: Optional break\n4:50-5:30pm: Deep focus session 2\n5:30-6:00pm: SideQuest Shares\n*Popular opinion is that SideQuest is best when you\u2019re all in, showing up for the duration instead of splitting sessions. Try it\u2014we think you\u2019ll agree.\n___________________\n\nAbout SideQuest:\nWe host coworking sessions every other Sunday. Subscribe to our events calendar if you can\u2019t make this one :)\nIf you've got ideas for how to help build the community, or you'd like to host a future SideQuest (it's easier than you might think!), we'd love to hear from you.\nThank you to Fractal Campus for hosting us, our friends at PurdueHackers, CozySundays and Socratica for seeding the idea, and Chandiran for building the SideQuest community.",
       "startDate": "2026-09-27T18:30:00Z",
       "endDate": "2026-09-27T22:00:00Z",
       "category": [
@@ -157,15 +124,15 @@
         "society"
       ],
       "price": {
-        "amount": 0,
+        "amount": 0.0,
         "type": "Free",
         "currency": "USD",
-        "details": ""
+        "details": "General Admission"
       },
       "capacity": null,
-      "registrationRequired": null,
+      "registrationRequired": false,
       "tags": [],
-      "image": "",
+      "image": "events/luma-event-474c7a7c.jpg",
       "status": "upcoming",
       "metadata": {
         "source": "Google Calendar",
@@ -173,18 +140,25 @@
         "original_event_id": "_clr78ba29d0jeu9n9gp66oama9amiu20clr6arjkecn6ot9edlgg",
         "organizer": {
           "name": "SideQuest",
+          "website": "https://luma.com/sidequest",
           "instagram": "",
           "email": "abln66abl799vb4gprllu4225l744l70@import.calendar.google.com"
         },
         "venue": {
           "name": "",
-          "address": "https://luma.com/event/evt-BKA7y7L2caVRUix",
+          "address": "Kings County, New York",
           "type": "Offline"
         },
         "speakers": [],
         "social_links": [],
         "featured": false,
         "luma_source": true,
+        "luma_host": {
+          "name": "SideQuest",
+          "url": "https://luma.com/sidequest",
+          "image": "https://images.lumacdn.com/calendars/7l/768c5bdb-8fbb-4530-a326-f69af660c934",
+          "type": "Organization"
+        },
         "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmEyOWQwamV1OW45Z3A2Nm9hbWE5YW1pdTIwY2xyNmFyamtlY242b3Q5ZWRsZ2cgYWJsbjY2YWJsNzk5dmI0Z3BybGx1NDIyNWw3NDRsNzBAaQ"
       }
     },
@@ -194,7 +168,7 @@
       "type": "technology",
       "locationId": "",
       "communityId": "com_sidequest",
-      "description": "Get up-to-date information at: https://luma.com/jgs7sfx9\n\nAddress:\nCheck event page for more details.\n\nHosted by Tina He",
+      "description": "Join us for an afternoon of pursuing your personal side quest! Whether you\u2019re writing, coding, or doing those taxes you\u2019ve been putting off, this is your space. It\u2019s intentional time for you to focus on what feels meaningful to you\u2014and meet people doing the same thing. We\u2019ll split our time between focused work sessions and breaks to reset and mingle with other creators.\nRough Agenda*\n2:30-3:00pm: Introductions and Intention Sharing\n3:00-4:30pm: Deep focus session 1\n4:30-4:50pm: Optional break\n4:50-5:30pm: Deep focus session 2\n5:30-6:00pm: SideQuest Shares\n*Popular opinion is that SideQuest is best when you\u2019re all in, showing up for the duration instead of splitting sessions. Try it\u2014we think you\u2019ll agree.\n___________________\n\nAbout SideQuest:\nWe host coworking sessions every other Sunday. Subscribe to our events calendar if you can\u2019t make this one :)\nIf you've got ideas for how to help build the community, or you'd like to host a future SideQuest (it's easier than you might think!), we'd love to hear from you.\nThank you to Fractal Campus for hosting us, our friends at PurdueHackers, CozySundays and Socratica for seeding the idea, and Chandiran for building the SideQuest community.",
       "startDate": "2026-10-11T18:30:00Z",
       "endDate": "2026-10-11T22:00:00Z",
       "category": [
@@ -204,15 +178,15 @@
         "society"
       ],
       "price": {
-        "amount": 0,
+        "amount": 0.0,
         "type": "Free",
         "currency": "USD",
-        "details": ""
+        "details": "General Admission"
       },
       "capacity": null,
-      "registrationRequired": null,
+      "registrationRequired": false,
       "tags": [],
-      "image": "",
+      "image": "events/luma-event-474c7a7c.jpg",
       "status": "upcoming",
       "metadata": {
         "source": "Google Calendar",
@@ -220,18 +194,25 @@
         "original_event_id": "_clr78bbne5a3irjpal37chbbe9q7isq0clr6arjkecn6ot9edlgg",
         "organizer": {
           "name": "SideQuest",
+          "website": "https://luma.com/sidequest",
           "instagram": "",
           "email": "abln66abl799vb4gprllu4225l744l70@import.calendar.google.com"
         },
         "venue": {
           "name": "",
-          "address": "https://luma.com/event/evt-wqT9nyUFvEkrtys",
+          "address": "Kings County, New York",
           "type": "Offline"
         },
         "speakers": [],
         "social_links": [],
         "featured": false,
         "luma_source": true,
+        "luma_host": {
+          "name": "SideQuest",
+          "url": "https://luma.com/sidequest",
+          "image": "https://images.lumacdn.com/calendars/7l/768c5bdb-8fbb-4530-a326-f69af660c934",
+          "type": "Organization"
+        },
         "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmJuZTVhM2lyanBhbDM3Y2hiYmU5cTdpc3EwY2xyNmFyamtlY242b3Q5ZWRsZ2cgYWJsbjY2YWJsNzk5dmI0Z3BybGx1NDIyNWw3NDRsNzBAaQ"
       }
     },
@@ -241,7 +222,7 @@
       "type": "technology",
       "locationId": "",
       "communityId": "com_sidequest",
-      "description": "Get up-to-date information at: https://luma.com/vkr5yr5m\n\nAddress:\nCheck event page for more details.\n\nHosted by Tina He",
+      "description": "Join us for an afternoon of pursuing your personal side quest! Whether you\u2019re writing, coding, or doing those taxes you\u2019ve been putting off, this is your space. It\u2019s intentional time for you to focus on what feels meaningful to you\u2014and meet people doing the same thing. We\u2019ll split our time between focused work sessions and breaks to reset and mingle with other creators.\nRough Agenda*\n2:30-3:00pm: Introductions and Intention Sharing\n3:00-4:30pm: Deep focus session 1\n4:30-4:50pm: Optional break\n4:50-5:30pm: Deep focus session 2\n5:30-6:00pm: SideQuest Shares\n*Popular opinion is that SideQuest is best when you\u2019re all in, showing up for the duration instead of splitting sessions. Try it\u2014we think you\u2019ll agree.\n___________________\n\nAbout SideQuest:\nWe host coworking sessions every other Sunday. Subscribe to our events calendar if you can\u2019t make this one :)\nIf you've got ideas for how to help build the community, or you'd like to host a future SideQuest (it's easier than you might think!), we'd love to hear from you.\nThank you to Fractal Campus for hosting us, our friends at PurdueHackers, CozySundays and Socratica for seeding the idea, and Chandiran for building the SideQuest community.",
       "startDate": "2026-10-25T18:30:00Z",
       "endDate": "2026-10-25T22:00:00Z",
       "category": [
@@ -251,15 +232,15 @@
         "society"
       ],
       "price": {
-        "amount": 0,
+        "amount": 0.0,
         "type": "Free",
         "currency": "USD",
-        "details": ""
+        "details": "General Admission"
       },
       "capacity": null,
-      "registrationRequired": null,
+      "registrationRequired": false,
       "tags": [],
-      "image": "",
+      "image": "events/luma-event-474c7a7c.jpg",
       "status": "upcoming",
       "metadata": {
         "source": "Google Calendar",
@@ -267,18 +248,25 @@
         "original_event_id": "_clr78bb1edbneihme9p54q1ka174kqi0clr6arjkecn6ot9edlgg",
         "organizer": {
           "name": "SideQuest",
+          "website": "https://luma.com/sidequest",
           "instagram": "",
           "email": "abln66abl799vb4gprllu4225l744l70@import.calendar.google.com"
         },
         "venue": {
           "name": "",
-          "address": "https://luma.com/event/evt-asWwJ6rrRh4PNJj",
+          "address": "Kings County, New York",
           "type": "Offline"
         },
         "speakers": [],
         "social_links": [],
         "featured": false,
         "luma_source": true,
+        "luma_host": {
+          "name": "SideQuest",
+          "url": "https://luma.com/sidequest",
+          "image": "https://images.lumacdn.com/calendars/7l/768c5bdb-8fbb-4530-a326-f69af660c934",
+          "type": "Organization"
+        },
         "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmIxZWRibmVpaG1lOXA1NHExa2ExNzRrcWkwY2xyNmFyamtlY242b3Q5ZWRsZ2cgYWJsbjY2YWJsNzk5dmI0Z3BybGx1NDIyNWw3NDRsNzBAaQ"
       }
     },
@@ -288,7 +276,7 @@
       "type": "technology",
       "locationId": "",
       "communityId": "com_sidequest",
-      "description": "Get up-to-date information at: https://luma.com/79njnyit\n\nAddress:\nCheck event page for more details.\n\nHosted by Tina He",
+      "description": "Join us for an afternoon of pursuing your personal side quest! Whether you\u2019re writing, coding, or doing those taxes you\u2019ve been putting off, this is your space. It\u2019s intentional time for you to focus on what feels meaningful to you\u2014and meet people doing the same thing. We\u2019ll split our time between focused work sessions and breaks to reset and mingle with other creators.\nRough Agenda*\n2:30-3:00pm: Introductions and Intention Sharing\n3:00-4:30pm: Deep focus session 1\n4:30-4:50pm: Optional break\n4:50-5:30pm: Deep focus session 2\n5:30-6:00pm: SideQuest Shares\n*Popular opinion is that SideQuest is best when you\u2019re all in, showing up for the duration instead of splitting sessions. Try it\u2014we think you\u2019ll agree.\n___________________\n\nAbout SideQuest:\nWe host coworking sessions every other Sunday. Subscribe to our events calendar if you can\u2019t make this one :)\nIf you've got ideas for how to help build the community, or you'd like to host a future SideQuest (it's easier than you might think!), we'd love to hear from you.\nThank you to Fractal Campus for hosting us, our friends at PurdueHackers, CozySundays and Socratica for seeding the idea, and Chandiran for building the SideQuest community.",
       "startDate": "2026-11-08T19:30:00Z",
       "endDate": "2026-11-08T23:00:00Z",
       "category": [
@@ -298,15 +286,15 @@
         "society"
       ],
       "price": {
-        "amount": 0,
+        "amount": 0.0,
         "type": "Free",
         "currency": "USD",
-        "details": ""
+        "details": "General Admission"
       },
       "capacity": null,
-      "registrationRequired": null,
+      "registrationRequired": false,
       "tags": [],
-      "image": "",
+      "image": "events/luma-event-474c7a7c.jpg",
       "status": "upcoming",
       "metadata": {
         "source": "Google Calendar",
@@ -314,18 +302,25 @@
         "original_event_id": "_clr78bbnepmj4kr575l4kl1g896jgpi0clr6arjkecn6ot9edlgg",
         "organizer": {
           "name": "SideQuest",
+          "website": "https://luma.com/sidequest",
           "instagram": "",
           "email": "abln66abl799vb4gprllu4225l744l70@import.calendar.google.com"
         },
         "venue": {
           "name": "",
-          "address": "https://luma.com/event/evt-wvm2Se9jJT0BM8f",
+          "address": "Kings County, New York",
           "type": "Offline"
         },
         "speakers": [],
         "social_links": [],
         "featured": false,
         "luma_source": true,
+        "luma_host": {
+          "name": "SideQuest",
+          "url": "https://luma.com/sidequest",
+          "image": "https://images.lumacdn.com/calendars/7l/768c5bdb-8fbb-4530-a326-f69af660c934",
+          "type": "Organization"
+        },
         "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmJuZXBtajRrcjU3NWw0a2wxZzg5NmpncGkwY2xyNmFyamtlY242b3Q5ZWRsZ2cgYWJsbjY2YWJsNzk5dmI0Z3BybGx1NDIyNWw3NDRsNzBAaQ"
       }
     },
@@ -335,7 +330,7 @@
       "type": "technology",
       "locationId": "",
       "communityId": "com_sidequest",
-      "description": "Get up-to-date information at: https://luma.com/olzhlvod\n\nAddress:\nCheck event page for more details.\n\nHosted by Tina He",
+      "description": "Join us for an afternoon of pursuing your personal side quest! Whether you\u2019re writing, coding, or doing those taxes you\u2019ve been putting off, this is your space. It\u2019s intentional time for you to focus on what feels meaningful to you\u2014and meet people doing the same thing. We\u2019ll split our time between focused work sessions and breaks to reset and mingle with other creators.\nRough Agenda*\n2:30-3:00pm: Introductions and Intention Sharing\n3:00-4:30pm: Deep focus session 1\n4:30-4:50pm: Optional break\n4:50-5:30pm: Deep focus session 2\n5:30-6:00pm: SideQuest Shares\n*Popular opinion is that SideQuest is best when you\u2019re all in, showing up for the duration instead of splitting sessions. Try it\u2014we think you\u2019ll agree.\n___________________\n\nAbout SideQuest:\nWe host coworking sessions every other Sunday. Subscribe to our events calendar if you can\u2019t make this one :)\nIf you've got ideas for how to help build the community, or you'd like to host a future SideQuest (it's easier than you might think!), we'd love to hear from you.\nThank you to Fractal Campus for hosting us, our friends at PurdueHackers, CozySundays and Socratica for seeding the idea, and Chandiran for building the SideQuest community.",
       "startDate": "2026-11-22T19:30:00Z",
       "endDate": "2026-11-22T23:00:00Z",
       "category": [
@@ -345,15 +340,15 @@
         "society"
       ],
       "price": {
-        "amount": 0,
+        "amount": 0.0,
         "type": "Free",
         "currency": "USD",
-        "details": ""
+        "details": "General Admission"
       },
       "capacity": null,
-      "registrationRequired": null,
+      "registrationRequired": false,
       "tags": [],
-      "image": "",
+      "image": "events/luma-event-474c7a7c.jpg",
       "status": "upcoming",
       "metadata": {
         "source": "Google Calendar",
@@ -361,18 +356,25 @@
         "original_event_id": "_clr78bbh9d9lagi3a917ega7elh44ka0clr6arjkecn6ot9edlgg",
         "organizer": {
           "name": "SideQuest",
+          "website": "https://luma.com/sidequest",
           "instagram": "",
           "email": "abln66abl799vb4gprllu4225l744l70@import.calendar.google.com"
         },
         "venue": {
           "name": "",
-          "address": "https://luma.com/event/evt-qKSUBCRBwAGubBQ",
+          "address": "Kings County, New York",
           "type": "Offline"
         },
         "speakers": [],
         "social_links": [],
         "featured": false,
         "luma_source": true,
+        "luma_host": {
+          "name": "SideQuest",
+          "url": "https://luma.com/sidequest",
+          "image": "https://images.lumacdn.com/calendars/7l/768c5bdb-8fbb-4530-a326-f69af660c934",
+          "type": "Organization"
+        },
         "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmJoOWQ5bGFnaTNhOTE3ZWdhN2VsaDQ0a2EwY2xyNmFyamtlY242b3Q5ZWRsZ2cgYWJsbjY2YWJsNzk5dmI0Z3BybGx1NDIyNWw3NDRsNzBAaQ"
       }
     },
@@ -382,7 +384,7 @@
       "type": "technology",
       "locationId": "",
       "communityId": "com_sidequest",
-      "description": "Get up-to-date information at: https://luma.com/j9qfr43w\n\nAddress:\nCheck event page for more details.\n\nHosted by Tina He",
+      "description": "Join us for an afternoon of pursuing your personal side quest! Whether you\u2019re writing, coding, or doing those taxes you\u2019ve been putting off, this is your space. It\u2019s intentional time for you to focus on what feels meaningful to you\u2014and meet people doing the same thing. We\u2019ll split our time between focused work sessions and breaks to reset and mingle with other creators.\nRough Agenda*\n2:30-3:00pm: Introductions and Intention Sharing\n3:00-4:30pm: Deep focus session 1\n4:30-4:50pm: Optional break\n4:50-5:30pm: Deep focus session 2\n5:30-6:00pm: SideQuest Shares\n*Popular opinion is that SideQuest is best when you\u2019re all in, showing up for the duration instead of splitting sessions. Try it\u2014we think you\u2019ll agree.\n___________________\n\nAbout SideQuest:\nWe host coworking sessions every other Sunday. Subscribe to our events calendar if you can\u2019t make this one :)\nIf you've got ideas for how to help build the community, or you'd like to host a future SideQuest (it's easier than you might think!), we'd love to hear from you.\nThank you to Fractal Campus for hosting us, our friends at PurdueHackers, CozySundays and Socratica for seeding the idea, and Chandiran for building the SideQuest community.",
       "startDate": "2026-12-06T19:30:00Z",
       "endDate": "2026-12-06T23:00:00Z",
       "category": [
@@ -392,15 +394,15 @@
         "society"
       ],
       "price": {
-        "amount": 0,
+        "amount": 0.0,
         "type": "Free",
         "currency": "USD",
-        "details": ""
+        "details": "General Admission"
       },
       "capacity": null,
-      "registrationRequired": null,
+      "registrationRequired": false,
       "tags": [],
-      "image": "",
+      "image": "events/luma-event-474c7a7c.jpg",
       "status": "upcoming",
       "metadata": {
         "source": "Google Calendar",
@@ -408,18 +410,25 @@
         "original_event_id": "_clr78bb8alnl6hj2c4rksqbf6p3k4pi0clr6arjkecn6ot9edlgg",
         "organizer": {
           "name": "SideQuest",
+          "website": "https://luma.com/sidequest",
           "instagram": "",
           "email": "abln66abl799vb4gprllu4225l744l70@import.calendar.google.com"
         },
         "venue": {
           "name": "",
-          "address": "https://luma.com/event/evt-hUoSFba7Nio6GBf",
+          "address": "Kings County, New York",
           "type": "Offline"
         },
         "speakers": [],
         "social_links": [],
         "featured": false,
         "luma_source": true,
+        "luma_host": {
+          "name": "SideQuest",
+          "url": "https://luma.com/sidequest",
+          "image": "https://images.lumacdn.com/calendars/7l/768c5bdb-8fbb-4530-a326-f69af660c934",
+          "type": "Organization"
+        },
         "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmI4YWxubDZoajJjNHJrc3FiZjZwM2s0cGkwY2xyNmFyamtlY242b3Q5ZWRsZ2cgYWJsbjY2YWJsNzk5dmI0Z3BybGx1NDIyNWw3NDRsNzBAaQ"
       }
     },
@@ -429,7 +438,7 @@
       "type": "technology",
       "locationId": "",
       "communityId": "com_sidequest",
-      "description": "Get up-to-date information at: https://luma.com/zqxcxzm7\n\nAddress:\nCheck event page for more details.\n\nHosted by Tina He",
+      "description": "Join us for an afternoon of pursuing your personal side quest! Whether you\u2019re writing, coding, or doing those taxes you\u2019ve been putting off, this is your space. It\u2019s intentional time for you to focus on what feels meaningful to you\u2014and meet people doing the same thing. We\u2019ll split our time between focused work sessions and breaks to reset and mingle with other creators.\nRough Agenda*\n2:30-3:00pm: Introductions and Intention Sharing\n3:00-4:30pm: Deep focus session 1\n4:30-4:50pm: Optional break\n4:50-5:30pm: Deep focus session 2\n5:30-6:00pm: SideQuest Shares\n*Popular opinion is that SideQuest is best when you\u2019re all in, showing up for the duration instead of splitting sessions. Try it\u2014we think you\u2019ll agree.\n___________________\n\nAbout SideQuest:\nWe host coworking sessions every other Sunday. Subscribe to our events calendar if you can\u2019t make this one :)\nIf you've got ideas for how to help build the community, or you'd like to host a future SideQuest (it's easier than you might think!), we'd love to hear from you.\nThank you to Fractal Campus for hosting us, our friends at PurdueHackers, CozySundays and Socratica for seeding the idea, and Chandiran for building the SideQuest community.",
       "startDate": "2026-12-20T19:30:00Z",
       "endDate": "2026-12-20T23:00:00Z",
       "category": [
@@ -439,15 +448,15 @@
         "society"
       ],
       "price": {
-        "amount": 0,
+        "amount": 0.0,
         "type": "Free",
         "currency": "USD",
-        "details": ""
+        "details": "General Admission"
       },
       "capacity": null,
-      "registrationRequired": null,
+      "registrationRequired": false,
       "tags": [],
-      "image": "",
+      "image": "events/luma-event-474c7a7c.jpg",
       "status": "upcoming",
       "metadata": {
         "source": "Google Calendar",
@@ -455,21 +464,28 @@
         "original_event_id": "_clr78baad59muohjaoqketac8tml6d20clr6arjkecn6ot9edlgg",
         "organizer": {
           "name": "SideQuest",
+          "website": "https://luma.com/sidequest",
           "instagram": "",
           "email": "abln66abl799vb4gprllu4225l744l70@import.calendar.google.com"
         },
         "venue": {
           "name": "",
-          "address": "https://luma.com/event/evt-JiSob3V5GuLGmS4",
+          "address": "Kings County, New York",
           "type": "Offline"
         },
         "speakers": [],
         "social_links": [],
         "featured": false,
         "luma_source": true,
+        "luma_host": {
+          "name": "SideQuest",
+          "url": "https://luma.com/sidequest",
+          "image": "https://images.lumacdn.com/calendars/7l/768c5bdb-8fbb-4530-a326-f69af660c934",
+          "type": "Organization"
+        },
         "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmFhZDU5bXVvaGphb3FrZXRhYzh0bWw2ZDIwY2xyNmFyamtlY242b3Q5ZWRsZ2cgYWJsbjY2YWJsNzk5dmI0Z3BybGx1NDIyNWw3NDRsNzBAaQ"
       }
     }
   ],
-  "timestamp": "2026-08-16T15:29:54.546411"
+  "timestamp": "2026-08-17T08:34:14.319577"
 }
