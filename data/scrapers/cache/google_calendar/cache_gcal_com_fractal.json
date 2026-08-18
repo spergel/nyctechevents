@@ -1,14 +1,14 @@
 {
   "events": [
     {
-      "id": "evt_gcal_com_fractal_47e96a91",
-      "name": "WORLD\u2019S SECOND BRAIN PONG TOURNAMENT",
+      "id": "evt_gcal_com_fractal_3d65c0d8",
+      "name": "The Founding Debate Reading Group #5 - The Federalist Reply",
       "type": "tech",
-      "locationId": "",
+      "locationId": "loc_fractal",
       "communityId": "com_fractal",
-      "description": "PLAY PONG WITH ONLY YOUR EYES\n\u2694\ufe0f vie for glory in front of an admiring crowd!\n\ud83c\udfc6 compete for the brain pong trophy!\n\ud83e\udd16 become one with the machine via EOG!\nCompetitors: please show up 30 minutes early and wear minimal makeup. I'll put electrodes on your face and let you practice playing the game. Read more about risks here. The tournament format will be a best-of-1 single-elimination bracket.\nSpectators: all are welcome! come, relax, and watch humans use their bodies as controllers to play Pong.\n\ud83d\udc41\ufe0f spherical \ud83d\udc41\ufe0f snacks will be provided",
-      "startDate": "2026-08-17T22:00:00Z",
-      "endDate": "2026-08-18T00:00:00Z",
+      "description": "The question: can liberty survive in a large republic?\nWhat we're reading \u2014 about 22 pages, three essays entire:\nFederalist 1 \u2014 Hamilton sets the terms, and warns about the motives of men on both sides, including his own. Read the warning about a zeal for the rights of the people as what it is: a shot at Brutus, nine days late.\nFederalist 10 \u2014 the answer to the objection Brutus rested everything on. Madison's claim is not that a large republic can survive faction but that only a large republic can. A genuine inversion, and worth slowing down for.\nFederalist 51 \u2014 ambition counteracting ambition; the auxiliary precautions; and the coldest sentence in the series, about angels.\nThe reader: masonmelead.com/foundingwk5.pdf\nBring Brutus with you if you have last week's reader.",
+      "startDate": "2026-08-18T22:30:00Z",
+      "endDate": "2026-08-19T00:00:00Z",
       "category": [
         "tech",
         "startup",
@@ -24,21 +24,21 @@
       "capacity": null,
       "registrationRequired": false,
       "tags": [],
-      "image": "events/luma-event-287a04ee.jpg",
+      "image": "events/luma-event-09871e7d.jpg",
       "status": "upcoming",
       "metadata": {
         "source": "Google Calendar",
-        "source_url": "https://luma.com/vh2gou7v",
-        "original_event_id": "_clr78bb2e0rkurjfapn4sqqgetmkut20clr6arjkecn6ot9edlgg",
+        "source_url": "https://luma.com/8wycd77k",
+        "original_event_id": "_clr78bbkd17nai3begom4sqp8os6uha0clr6arjkecn6ot9edlgg",
         "organizer": {
-          "name": "John Hoeksema",
-          "website": "https://luma.com/user/usr-2GzgfZeT0UHewk3",
+          "name": "Mason Melead",
+          "website": "https://luma.com/user/usr-4BqWT7Ft7quU7Tr",
           "instagram": "",
           "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
         },
         "venue": {
-          "name": "",
-          "address": "111 Conselyea St\n111 Conselyea St, Brooklyn, New York",
+          "name": "Fractal Tech",
+          "address": "111 Conselyea St, Brooklyn, NY 11211",
           "type": "Offline"
         },
         "speakers": [],
@@ -46,12 +46,12 @@
         "featured": false,
         "luma_source": true,
         "luma_host": {
-          "name": "John Hoeksema",
-          "url": "https://luma.com/user/usr-2GzgfZeT0UHewk3",
-          "image": "https://images.lumacdn.com/avatars/cs/698ea46f-e14f-4f60-b117-70dc34fa91e8",
+          "name": "Mason Melead",
+          "url": "https://luma.com/user/usr-4BqWT7Ft7quU7Tr",
+          "image": "https://cdn.lu.ma/avatars-default/avatar_15.png",
           "type": "Person"
         },
-        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmIyZTBya3VyamZhcG40c3FxZ2V0bWt1dDIwY2xyNmFyamtlY242b3Q5ZWRsZ2cgdDN2MnJzb3VmZmZsMjA2amgxMDJ0dmEzamVla2ZnbWVAaQ"
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmJrZDE3bmFpM2JlZ29tNHNxcDhvczZ1aGEwY2xyNmFyamtlY242b3Q5ZWRsZ2cgdDN2MnJzb3VmZmZsMjA2amgxMDJ0dmEzamVla2ZnbWVAaQ"
       }
     },
     {
@@ -268,6 +268,60 @@
           "type": "Person"
         },
         "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmFjYXRkNjh1MWk4cGk2dWtpaWRjcG11azIwY2xyNmFyamtlY242b3Q5ZWRsZ2cgdDN2MnJzb3VmZmZsMjA2amgxMDJ0dmEzamVla2ZnbWVAaQ"
+      }
+    },
+    {
+      "id": "evt_gcal_com_fractal_8ba870cd",
+      "name": "Structure and Interpretation of Classical Mechanics Reading Group",
+      "type": "tech",
+      "locationId": "",
+      "communityId": "com_fractal",
+      "description": "Get up-to-date information at: https://luma.com/wrfb1cic\n\nAddress:\n111 Conselyea St\nBrooklyn, NY\nUnited States\n\nHosted by David A. Lee",
+      "startDate": "2026-08-24T23:00:00Z",
+      "endDate": "2026-08-25T00:00:00Z",
+      "category": [
+        "tech",
+        "startup",
+        "innovation",
+        "education"
+      ],
+      "price": {
+        "amount": 0.0,
+        "type": "Free",
+        "currency": "USD",
+        "details": "General Admission"
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": [],
+      "image": "events/luma-event-cae31efd.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://luma.com/wrfb1cic",
+        "original_event_id": "_clr78bae6orlgt226l7l0tricdq4edq0clr6arjkecn6ot9edlgg",
+        "organizer": {
+          "name": "David A. Lee",
+          "website": "https://luma.com/user/usr-fD2Qm3mDOiT9FyP",
+          "instagram": "",
+          "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "111 Conselyea St\n111 Conselyea St, Brooklyn, New York",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": true,
+        "luma_host": {
+          "name": "David A. Lee",
+          "url": "https://luma.com/user/usr-fD2Qm3mDOiT9FyP",
+          "image": "https://images.lumacdn.com/avatars/8z/2cf2e4c3-a9d3-41b0-8ccd-a9cb51fa918c.jpg",
+          "type": "Person"
+        },
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmFlNm9ybGd0MjI2bDdsMHRyaWNkcTRlZHEwY2xyNmFyamtlY242b3Q5ZWRsZ2cgdDN2MnJzb3VmZmZsMjA2amgxMDJ0dmEzamVla2ZnbWVAaQ"
       }
     },
     {
@@ -703,6 +757,60 @@
       }
     },
     {
+      "id": "evt_gcal_com_fractal_7a193862",
+      "name": "[SleepaWeek NYC] What Fills My Cup?",
+      "type": "tech",
+      "locationId": "loc_fractal",
+      "communityId": "com_fractal",
+      "description": "Our ability to meet life's challenges is capped by our emotional capacity. It's much easier to handle an upset roommate or a friend cancelling on us when we're feeling well-rested and grounded than when we're already overwhelmed. By deepening our ability to ground and resource ourselves, we can expand our emotional capacity \u2014 and with it, meet more of life's challenges.\nJoin us for a sweet, gentle evening of building emotional capacity through guided activities. What fills my cup? What drains me? How can I find rhythms of resource in my relationships?\nYou'll leave with tools for resourcing yourself emotionally in the context of relationships \u2014 and maybe feeling like you just got a long professional massage, or lunch with an old friend.\n\n\nAgenda\nShort introduction\nA simple yet powerful tool for peer support when you're feeling overwhelmed\nAn activity on learning about your own desires, beliefs, and needs in relationships\nA guided meditation on resourcing and grounding\nEvent details\nPlease bring a yoga mat or anything else that will help you feel comfy and cozy for the lying down portion.\nYou are welcome to come alone or with friends.\nEverything we offer at this workshop will be an opt-in invitation, and your no will always be honored.\nAbout Your Facilitator: Sarah Cruse\n\nSarah has been with Sleepawake since 2023, leading both our emotional and relational curriculum and our creative expression curriculum at almost every retreat we\u2019ve ever run. As a young repressed and depressed adult, trying to find her way out of patterns of personal and familial trauma, she found poetry and discovered the healing power of embodied truth, authentic voice and creative expression. Sarah now supports people and communities in activating their own inner creative pathways. Outside of Sleepawake, she is currently a practitioner of energetic medicine, sound healing and trauma clearing, and the lead singer of her band Yaya's Kitchen. Sarah is up for the adventure of whatever this evening together brings and delighted to be part of it with you.\nAbout SleepaWeek\nSleepawake is coming to NYC for a week! Check out our events calendar to see everything happening this week. If the ticket price is a blocker to your attendance, please reach out to info@sleepawake.camp for details on need-based scholarship discounts.",
+      "startDate": "2026-08-31T23:00:00Z",
+      "endDate": "2026-09-01T01:00:00Z",
+      "category": [
+        "tech",
+        "startup",
+        "innovation",
+        "education"
+      ],
+      "price": {
+        "amount": 25.0,
+        "type": "Paid",
+        "currency": "USD",
+        "details": "General Admission"
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": [],
+      "image": "events/luma-event-0c525bd8.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://luma.com/koptj8tq",
+        "original_event_id": "_clr78b9leh36ahbce9h6erbk91r7es20clr6arjkecn6ot9edlgg",
+        "organizer": {
+          "name": "Sleepawake Events Calendar",
+          "website": "https://luma.com/sleepawake-events",
+          "instagram": "",
+          "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "Fractal Tech",
+          "address": "111 Conselyea St, Brooklyn, NY 11211",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": true,
+        "luma_host": {
+          "name": "Sleepawake Events Calendar",
+          "url": "https://luma.com/sleepawake-events",
+          "image": "https://images.lumacdn.com/calendars/ec/cf307a72-ca44-45b4-ae52-b182e0652f95",
+          "type": "Organization"
+        },
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YjlsZWgzNmFoYmNlOWg2ZXJiazkxcjdlczIwY2xyNmFyamtlY242b3Q5ZWRsZ2cgdDN2MnJzb3VmZmZsMjA2amgxMDJ0dmEzamVla2ZnbWVAaQ"
+      }
+    },
+    {
       "id": "evt_gcal_com_fractal_4fee0e17",
       "name": "[SleepaWeek NYC] Silly Sad Strange Humanity",
       "type": "tech",
@@ -834,7 +942,7 @@
       "capacity": null,
       "registrationRequired": false,
       "tags": [],
-      "image": "events/luma-event-1c4a5d86.jpg",
+      "image": "events/luma-event-ff630d83.jpg",
       "status": "upcoming",
       "metadata": {
         "source": "Google Calendar",
@@ -1189,6 +1297,60 @@
       }
     },
     {
+      "id": "evt_gcal_com_fractal_b5289ba6",
+      "name": "September Nexus Networking Meet Up",
+      "type": "tech",
+      "locationId": "",
+      "communityId": "com_fractal",
+      "description": "A casual, pay-your-own-way networking event designed for professionals to connect, share ideas, and build lasting relationships across the broader business and technology ecosystem.\nMeet fellow professionals, expand your network, and enjoy a relaxed evening together. Food and beverages are available for individual purchase.\nWho Attends:\nFounders & startups\nPR & Agency teams\nVenture Capitalists\nConsultants\nFinance professionals\nContent & social media marketers\nMarketing technology professionals\nAttendance is limited to help keep conversations meaningful, so please apply for a spot. We look forward to meeting you!\nAbout Our Meet Ups:\nOur Meet Ups are relaxed, industry-agnostic gatherings built for professionals who want to unplug from the standard corporate routine and connect on a human level. Whether you are looking to exchange fresh perspectives, brainstorm new concepts, or simply meet peers navigating similar spaces, this environment is designed for open-ended conversation and organic relationship-building.\nWhat It Is:\nAn open, welcoming community space to meet new connections.\nAn opportunity to exchange industry perspectives and uncover unexpected collaborations.\nA low-pressure, welcoming atmosphere with no formal agenda or mandatory pitches.\nWhat It Isn\u2019t:\nRTM Nexus Meet Up is not a curated buyer/seller event and is not structured around guaranteed access to a specific target audience, vertical, company type, or decision-maker profile (ICP).\nLooking for something more targeted? If you need to connect with a specific niche\u2014such as retail, fashion, beauty, CPG, or enterprise brand leaders\u2014check out our \"Retail Leaders Receptions\" and \"Nexus Mixers\" instead. Those events are intentionally curated and sponsored around targeted audiences to provide a more focused networking experience.",
+      "startDate": "2026-09-17T22:00:00Z",
+      "endDate": "2026-09-18T01:00:00Z",
+      "category": [
+        "tech",
+        "startup",
+        "innovation",
+        "education"
+      ],
+      "price": {
+        "amount": 15.0,
+        "type": "Paid",
+        "currency": "USD",
+        "details": "General Admission"
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": [],
+      "image": "events/luma-event-abab6ec1.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://luma.com/rtmnexus-ezuv",
+        "original_event_id": "_clr78bakadc5cebp8sr4kob5a9cnkhi0clr6arjkecn6ot9edlgg",
+        "organizer": {
+          "name": "RTM Nexus",
+          "website": "https://luma.com/rtmnexus",
+          "instagram": "",
+          "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "New York\nNew York, New York, New York",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": true,
+        "luma_host": {
+          "name": "RTM Nexus",
+          "url": "https://luma.com/rtmnexus",
+          "image": "https://images.lumacdn.com/calendars/x2/c0d9ae03-74ce-4ce1-8451-534a5313c786.png",
+          "type": "Organization"
+        },
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmFrYWRjNWNlYnA4c3I0a29iNWE5Y25raGkwY2xyNmFyamtlY242b3Q5ZWRsZ2cgdDN2MnJzb3VmZmZsMjA2amgxMDJ0dmEzamVla2ZnbWVAaQ"
+      }
+    },
+    {
       "id": "evt_gcal_com_fractal_be69bfdf",
       "name": "Builders NYC Hackathon: AI in Sports and Personal Health",
       "type": "tech",
@@ -1289,6 +1451,60 @@
         "luma_source": true,
         "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=X2NkZ21vcGJtNWxsNGVxMjlhNTE0Z20xajhoc2s4bGI0ZjEwNmF0ajVkcHE3NmJqY2VrbjZxbzggdDN2MnJzb3VmZmZsMjA2amgxMDJ0dmEzamVla2ZnbWVAaQ"
+      }
+    },
+    {
+      "id": "evt_gcal_com_fractal_a7e516ac",
+      "name": "Data Salon: AI and Labor",
+      "type": "tech",
+      "locationId": "loc_fractal",
+      "communityId": "com_fractal",
+      "description": "An event series for fostering thought leadership across data disciplines and those who work closely with data practitioners. This event will go beyond the hype and inspect the potential impact of AI on labor from well-informed business perspectives both on the ground and systemic.\nMC'd by Akpanoluo Etteh, Sr. Director of Data Engineering at Arcspan (fmr: Anthropic, Bandcamp) and founder of The Soundshop music salon series, and co-hosted by Michael Bartoli, Founder of Newtown Analytics (fmr: ob\u00e9 Fitness)\nDetails on our featured presenters forthcoming!",
+      "startDate": "2026-09-22T22:30:00Z",
+      "endDate": "2026-09-23T01:00:00Z",
+      "category": [
+        "tech",
+        "startup",
+        "innovation",
+        "education"
+      ],
+      "price": {
+        "amount": 0.0,
+        "type": "Free",
+        "currency": "USD",
+        "details": "General Admission"
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": [],
+      "image": "events/luma-event-ce8abf4e.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://luma.com/t0jdp8hv",
+        "original_event_id": "_clr78bbd8ts4elhpdhk6cij1at0n2lq0clr6arjkecn6ot9edlgg",
+        "organizer": {
+          "name": "Akpanoluo Etteh",
+          "website": "https://luma.com/user/usr-RSRxUQKSjK1jcR7",
+          "instagram": "",
+          "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "Fractal Tech",
+          "address": "111 Conselyea St, Brooklyn, NY 11211",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": true,
+        "luma_host": {
+          "name": "Akpanoluo Etteh",
+          "url": "https://luma.com/user/usr-RSRxUQKSjK1jcR7",
+          "image": "https://images.lumacdn.com/avatars/ge/7a2cd2ea-ee03-4613-bdf3-7959363cec26.jpg",
+          "type": "Person"
+        },
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmJkOHRzNGVsaHBkaGs2Y2lqMWF0MG4ybHEwY2xyNmFyamtlY242b3Q5ZWRsZ2cgdDN2MnJzb3VmZmZsMjA2amgxMDJ0dmEzamVla2ZnbWVAaQ"
       }
     },
     {
@@ -1562,6 +1778,60 @@
       }
     },
     {
+      "id": "evt_gcal_com_fractal_e6c3ae2d",
+      "name": "October Nexus Networking Meet Up",
+      "type": "tech",
+      "locationId": "",
+      "communityId": "com_fractal",
+      "description": "A casual, pay-your-own-way networking event designed for professionals to connect, share ideas, and build lasting relationships across the broader business and technology ecosystem.\nMeet fellow professionals, expand your network, and enjoy a relaxed evening together. Food and beverages are available for individual purchase.\nWho Attends:\nFounders & startups\nPR & Agency teams\nVenture Capitalists\nConsultants\nFinance professionals\nContent & social media marketers\nMarketing technology professionals\nAttendance is limited to help keep conversations meaningful, so please apply for a spot. We look forward to meeting you!\nAbout Our Meet Ups:\nOur Meet Ups are relaxed, industry-agnostic gatherings built for professionals who want to unplug from the standard corporate routine and connect on a human level. Whether you are looking to exchange fresh perspectives, brainstorm new concepts, or simply meet peers navigating similar spaces, this environment is designed for open-ended conversation and organic relationship-building.\nWhat It Is:\nAn open, welcoming community space to meet new connections.\nAn opportunity to exchange industry perspectives and uncover unexpected collaborations.\nA low-pressure, welcoming atmosphere with no formal agenda or mandatory pitches.\nWhat It Isn\u2019t:\nRTM Nexus Meet Up is not a curated buyer/seller event and is not structured around guaranteed access to a specific target audience, vertical, company type, or decision-maker profile (ICP).\nLooking for something more targeted? If you need to connect with a specific niche\u2014such as retail, fashion, beauty, CPG, or enterprise brand leaders\u2014check out our \"Retail Leaders Receptions\" and \"Nexus Mixers\" instead. Those events are intentionally curated and sponsored around targeted audiences to provide a more focused networking experience.",
+      "startDate": "2026-10-21T22:00:00Z",
+      "endDate": "2026-10-22T01:00:00Z",
+      "category": [
+        "tech",
+        "startup",
+        "innovation",
+        "education"
+      ],
+      "price": {
+        "amount": 15.0,
+        "type": "Paid",
+        "currency": "USD",
+        "details": "General Admission"
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": [],
+      "image": "events/luma-event-bcb25941.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://luma.com/rtmnexus-ti2z",
+        "original_event_id": "_clr78b9g8933gsqmb1jl8di7f4s7aq20clr6arjkecn6ot9edlgg",
+        "organizer": {
+          "name": "RTM Nexus",
+          "website": "https://luma.com/rtmnexus",
+          "instagram": "",
+          "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "New York\nNew York, New York, New York",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": true,
+        "luma_host": {
+          "name": "RTM Nexus",
+          "url": "https://luma.com/rtmnexus",
+          "image": "https://images.lumacdn.com/calendars/x2/c0d9ae03-74ce-4ce1-8451-534a5313c786.png",
+          "type": "Organization"
+        },
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YjlnODkzM2dzcW1iMWpsOGRpN2Y0czdhcTIwY2xyNmFyamtlY242b3Q5ZWRsZ2cgdDN2MnJzb3VmZmZsMjA2amgxMDJ0dmEzamVla2ZnbWVAaQ"
+      }
+    },
+    {
       "id": "evt_gcal_com_fractal_a542befd",
       "name": "Jhourney Jhana Meditation",
       "type": "tech",
@@ -1775,6 +2045,60 @@
           "type": "Organization"
         },
         "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmJuZXBtajRrcjU3NWw0a2wxZzg5NmpncGkwY2xyNmFyamtlY242b3Q5ZWRsZ2cgdDN2MnJzb3VmZmZsMjA2amgxMDJ0dmEzamVla2ZnbWVAaQ"
+      }
+    },
+    {
+      "id": "evt_gcal_com_fractal_a19bcd5c",
+      "name": "Nexus Networking Meet Up - Holiday Celebration",
+      "type": "tech",
+      "locationId": "",
+      "communityId": "com_fractal",
+      "description": "A casual, pay-your-own-way networking event designed for professionals to connect, share ideas, and build lasting relationships across the broader business and technology ecosystem.\nMeet fellow professionals, expand your network, and enjoy a relaxed evening together. Food and beverages are available for individual purchase.\nWho Attends:\nFounders & startups\nPR & Agency teams\nVenture Capitalists\nConsultants\nFinance professionals\nContent & social media marketers\nMarketing technology professionals\nAttendance is limited to help keep conversations meaningful, so please apply for a spot. We look forward to meeting you!\nAbout Our Meet Ups:\nOur Meet Ups are relaxed, industry-agnostic gatherings built for professionals who want to unplug from the standard corporate routine and connect on a human level. Whether you are looking to exchange fresh perspectives, brainstorm new concepts, or simply meet peers navigating similar spaces, this environment is designed for open-ended conversation and organic relationship-building.\nWhat It Is:\nAn open, welcoming community space to meet new connections.\nAn opportunity to exchange industry perspectives and uncover unexpected collaborations.\nA low-pressure, welcoming atmosphere with no formal agenda or mandatory pitches.\nWhat It Isn\u2019t:\nRTM Nexus Meet Up is not a curated buyer/seller event and is not structured around guaranteed access to a specific target audience, vertical, company type, or decision-maker profile (ICP).\nLooking for something more targeted? If you need to connect with a specific niche\u2014such as retail, fashion, beauty, CPG, or enterprise brand leaders\u2014check out our \"Retail Leaders Receptions\" and \"Nexus Mixers\" instead. Those events are intentionally curated and sponsored around targete",
+      "startDate": "2026-11-18T23:00:00Z",
+      "endDate": "2026-11-19T02:00:00Z",
+      "category": [
+        "tech",
+        "startup",
+        "innovation",
+        "education"
+      ],
+      "price": {
+        "amount": 15.0,
+        "type": "Paid",
+        "currency": "USD",
+        "details": "General Admission"
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": [],
+      "image": "events/luma-event-1396d437.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://luma.com/rtmnexus-pily",
+        "original_event_id": "_clr78b9ka55likb8ela66c2mdhlk8ui0clr6arjkecn6ot9edlgg",
+        "organizer": {
+          "name": "RTM Nexus",
+          "website": "https://luma.com/rtmnexus",
+          "instagram": "",
+          "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "New York\nNew York, New York, New York",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": true,
+        "luma_host": {
+          "name": "RTM Nexus",
+          "url": "https://luma.com/rtmnexus",
+          "image": "https://images.lumacdn.com/calendars/x2/c0d9ae03-74ce-4ce1-8451-534a5313c786.png",
+          "type": "Organization"
+        },
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YjlrYTU1bGlrYjhlbGE2NmMybWRobGs4dWkwY2xyNmFyamtlY242b3Q5ZWRsZ2cgdDN2MnJzb3VmZmZsMjA2amgxMDJ0dmEzamVla2ZnbWVAaQ"
       }
     },
     {
@@ -2048,5 +2372,5 @@
       }
     }
   ],
-  "timestamp": "2026-08-17T08:34:00.540908"
+  "timestamp": "2026-08-18T08:25:44.997530"
 }

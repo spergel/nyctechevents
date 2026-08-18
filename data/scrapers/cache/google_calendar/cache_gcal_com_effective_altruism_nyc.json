@@ -55,60 +55,6 @@
       }
     },
     {
-      "id": "evt_gcal_com_effective_altruism_nyc_a082a41c",
-      "name": "AI Safety workshop",
-      "type": "effective altruism",
-      "locationId": "",
-      "communityId": "com_effective_altruism_nyc",
-      "description": "A special edition of our workshop. Everyone in this field carries around a number, or refuses to, and both of those are interesting. We'll spend the session actually interrogating where those probabilities come from: what the estimate is doing for you, which cruxes move it, what would change it, and whether the number is load-bearing for anything you do. Bring your laptop and your priors.\nOne note: the date may move. We're working on something that would make this a considerably better session, and if it comes together we'll shift to accommodate it. Register anyway and we'll keep you posted.",
-      "startDate": "2026-08-19T18:00:00-04:00",
-      "endDate": "2026-08-19T20:00:00-04:00",
-      "category": [
-        "effective altruism",
-        "impact",
-        "philosophy",
-        "community"
-      ],
-      "price": {
-        "amount": 0.0,
-        "type": "Free",
-        "currency": "USD",
-        "details": "General Admission"
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": [],
-      "image": "events/luma-event-b6318eda.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source": "Google Calendar",
-        "source_url": "https://luma.com/i9ak92r5",
-        "original_event_id": "7v1jh2c7c3apugrkrf54d7qma1",
-        "organizer": {
-          "name": "EA NYC",
-          "website": "https://luma.com/calendar/cal-vnPGs6DwV4F2m8X",
-          "instagram": "",
-          "email": "hbvetqf5h1pd0of0vn6uvphqts@group.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "26 Broadway\n26 Broadway, New York, New York",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": true,
-        "luma_host": {
-          "name": "EA NYC",
-          "url": "https://luma.com/calendar/cal-vnPGs6DwV4F2m8X",
-          "image": "https://cdn.lu.ma/avatars-default/community_avatar_4.png",
-          "type": "Organization"
-        },
-        "google_calendar_link": "https://www.google.com/calendar/event?eid=N3YxamgyYzdjM2FwdWdya3JmNTRkN3FtYTEgaGJ2ZXRxZjVoMXBkMG9mMHZuNnV2cGhxdHNAZw"
-      }
-    },
-    {
       "id": "evt_gcal_com_effective_altruism_nyc_db090157",
       "name": "EA NYC Vegan Dim Sum",
       "type": "effective altruism",
@@ -160,6 +106,60 @@
           "type": "Organization"
         },
         "google_calendar_link": "https://www.google.com/calendar/event?eid=MmEzcDFhampoMGducXI3ajdsZmNkM2JvZjMgaGJ2ZXRxZjVoMXBkMG9mMHZuNnV2cGhxdHNAZw"
+      }
+    },
+    {
+      "id": "evt_gcal_com_effective_altruism_nyc_a082a41c",
+      "name": "AI Safety workshop",
+      "type": "effective altruism",
+      "locationId": "",
+      "communityId": "com_effective_altruism_nyc",
+      "description": "We're still intending to run our forecasting event, but we're bumping it to later in September. In its place we've got something related, and also changed the date from August 19 to September 1.\n\nThe AI Futures Project (the team behind AI 2027) has published its most ambitious work yet: AI 2040: Plan A, a scenario in which the US and China strike a deal in 2029 to avoid a reckless race to superintelligence. The world pauses AI capabilities at top-human-expert level in 2035, and scales to superintelligence only in 2040, under total research transparency and a regime the authors call Mutually Assured Compute Destruction. The authors are explicit that this is a recommendation rather than a prediction, and that they wrote it as an exercise in \"scenario scrutiny\": most AI policy proposals fall apart when you try to write down a detailed world in which they succeed. Our job for the evening is to apply that same scrutiny to Plan A itself.\n\nWe'll spend most of the evening in small-group discussion, working through the scenario's timelines, the deal mechanics, the rival plans (B, C, D, and S), and where Plan A is most likely to break. We'll finish with a forecast round in which each group registers probabilities on a handful of concrete questions about how the next few years actually unfold, and we compare the spread across the room.\n\nPlease read the whole scenario at ai-2040.com over the weekend before the event if you can; it's long but reads quickly, and the later chapters reward the effort. If you're pushed for time, about 30 minutes covers the essentials: the introductory front matter, the 2029 \"Choose a Path\" chapter, and a skim of 2027 and 2028. Here is a handout with the schedule and discussion questions in advance, and we'll have spare copies (and a cheat sheet for anyone who couldn't do the reading) on the night. Newcomers are very welcome.\n\nGetting here: We're on the 3rd floor of 26 Broadway, in the Primary coworking space (map). Enter the building, go down the stairs, turn right to the elevators, and take the set of elevators on your right. Someone will be at the door to meet you.\n\nSchedule: Doors at 6:30pm, discussion 7:00 to 8:40, then networking and socializing.",
+      "startDate": "2026-09-01T18:00:00-04:00",
+      "endDate": "2026-09-01T20:00:00-04:00",
+      "category": [
+        "effective altruism",
+        "impact",
+        "philosophy",
+        "community"
+      ],
+      "price": {
+        "amount": 0.0,
+        "type": "Free",
+        "currency": "USD",
+        "details": "General Admission"
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": [],
+      "image": "events/luma-event-b6318eda.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://luma.com/i9ak92r5",
+        "original_event_id": "7v1jh2c7c3apugrkrf54d7qma1",
+        "organizer": {
+          "name": "EA NYC",
+          "website": "https://luma.com/calendar/cal-vnPGs6DwV4F2m8X",
+          "instagram": "",
+          "email": "hbvetqf5h1pd0of0vn6uvphqts@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "26 Broadway\n26 Broadway, New York, New York",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": true,
+        "luma_host": {
+          "name": "EA NYC",
+          "url": "https://luma.com/calendar/cal-vnPGs6DwV4F2m8X",
+          "image": "https://cdn.lu.ma/avatars-default/community_avatar_4.png",
+          "type": "Organization"
+        },
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=N3YxamgyYzdjM2FwdWdya3JmNTRkN3FtYTEgaGJ2ZXRxZjVoMXBkMG9mMHZuNnV2cGhxdHNAZw"
       }
     },
     {
@@ -800,5 +800,5 @@
       }
     }
   ],
-  "timestamp": "2026-08-17T08:33:39.968308"
+  "timestamp": "2026-08-18T08:25:27.823991"
 }
