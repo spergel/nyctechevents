@@ -266,6 +266,60 @@
       }
     },
     {
+      "id": "evt_gcal_com_verci_8a24a61c",
+      "name": "Cookie Cafe",
+      "type": "technology",
+      "locationId": "",
+      "communityId": "com_verci",
+      "description": "12th Floor - Cookie pop up from Rising Rose!",
+      "startDate": "2026-08-26T15:00:00Z",
+      "endDate": "2026-08-26T19:00:00Z",
+      "category": [
+        "technology",
+        "innovation",
+        "society",
+        "community"
+      ],
+      "price": {
+        "amount": 0.0,
+        "type": "Free",
+        "currency": "USD",
+        "details": "General Admission"
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": [],
+      "image": "events/luma-event-f491096e.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://luma.com/verci-vmzj",
+        "original_event_id": "_clr78bah9p47gci68d6kaoa3ahn4khi0clr6arjkecn6ot9edlgg",
+        "organizer": {
+          "name": "Verci Events",
+          "website": "https://luma.com/verci",
+          "instagram": "",
+          "email": "pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "Verci Flatiron\nVerci Flatiron, New York, New York",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": true,
+        "luma_host": {
+          "name": "Verci Events",
+          "url": "https://luma.com/verci",
+          "image": "https://images.lumacdn.com/calendars/kw/d2a68898-7b2c-40c0-b2b7-27a313e1f6d2",
+          "type": "Organization"
+        },
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmFoOXA0N2djaTY4ZDZrYW9hM2FobjRraGkwY2xyNmFyamtlY242b3Q5ZWRsZ2cgcGY2bzdkcmxmcmJobXBxbG1sdDdwMjE1ZTcwaTljam5AaQ"
+      }
+    },
+    {
       "id": "evt_gcal_com_verci_9aa63910",
       "name": "Verci Cafe",
       "type": "technology",
@@ -693,6 +747,60 @@
       }
     },
     {
+      "id": "evt_gcal_com_verci_ed9354b4",
+      "name": "Cookie Cafe",
+      "type": "technology",
+      "locationId": "",
+      "communityId": "com_verci",
+      "description": "12th Floor - Cookie pop up from Rising Rose!",
+      "startDate": "2026-09-09T15:00:00Z",
+      "endDate": "2026-09-09T19:00:00Z",
+      "category": [
+        "technology",
+        "innovation",
+        "society",
+        "community"
+      ],
+      "price": {
+        "amount": 0.0,
+        "type": "Free",
+        "currency": "USD",
+        "details": "General Admission"
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": [],
+      "image": "events/luma-event-f491096e.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://luma.com/etjjxl2h",
+        "original_event_id": "_clr78bbga9j4ckb69h574uiha5ojggi0clr6arjkecn6ot9edlgg",
+        "organizer": {
+          "name": "Verci Events",
+          "website": "https://luma.com/verci",
+          "instagram": "",
+          "email": "pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "Verci Flatiron\nVerci Flatiron, New York, New York",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": true,
+        "luma_host": {
+          "name": "Verci Events",
+          "url": "https://luma.com/verci",
+          "image": "https://images.lumacdn.com/calendars/kw/d2a68898-7b2c-40c0-b2b7-27a313e1f6d2",
+          "type": "Organization"
+        },
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmJnYTlqNGNrYjY5aDU3NHVpaGE1b2pnZ2kwY2xyNmFyamtlY242b3Q5ZWRsZ2cgcGY2bzdkcmxmcmJobXBxbG1sdDdwMjE1ZTcwaTljam5AaQ"
+      }
+    },
+    {
       "id": "evt_gcal_com_verci_217a7950",
       "name": "Verci Cafe",
       "type": "technology",
@@ -1017,5 +1125,5 @@
       }
     }
   ],
-  "timestamp": "2026-08-18T08:25:54.150082"
+  "timestamp": "2026-08-19T08:27:09.748145"
 }

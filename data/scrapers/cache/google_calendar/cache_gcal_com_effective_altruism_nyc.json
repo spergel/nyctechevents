@@ -1,60 +1,6 @@
 {
   "events": [
     {
-      "id": "evt_gcal_com_effective_altruism_nyc_116a3d5b",
-      "name": "Global Health and Development Subgroup Meetup",
-      "type": "effective altruism",
-      "locationId": "",
-      "communityId": "com_effective_altruism_nyc",
-      "description": "Where did health philanthropy come from? In the summer of 1897 a Baptist minister named Frederick Gates read a thousand-page medical textbook on vacation, concluded that medicine was not yet a science and would not become one without serious money behind it, and carried the book back to his office at 26 Broadway to write the memo that pointed John D. Rockefeller's fortune at disease. What followed was the Rockefeller Institute, the hookworm campaign across the American South, and eventually the International Health Board, the template most global health funders still work from.\nWe're meeting at the same address, a hundred and twenty-nine years later, to talk about what that origin story gets right and where it should make us uneasy. Come with opinions. A short primer to read beforehand: the Rockefeller Archive Center on how the hookworm campaign built a public health system.",
-      "startDate": "2026-08-18T18:00:00-04:00",
-      "endDate": "2026-08-18T20:00:00-04:00",
-      "category": [
-        "effective altruism",
-        "impact",
-        "philosophy",
-        "community"
-      ],
-      "price": {
-        "amount": 0.0,
-        "type": "Free",
-        "currency": "USD",
-        "details": "General Admission"
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": [],
-      "image": "events/luma-event-9a1ac283.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source": "Google Calendar",
-        "source_url": "https://luma.com/m2bztmdj",
-        "original_event_id": "3p6igtrt1j0su4mbf0f1a4tpud",
-        "organizer": {
-          "name": "EA NYC",
-          "website": "https://luma.com/calendar/cal-vnPGs6DwV4F2m8X",
-          "instagram": "",
-          "email": "hbvetqf5h1pd0of0vn6uvphqts@group.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "26 Broadway\n26 Broadway, New York, New York",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": true,
-        "luma_host": {
-          "name": "EA NYC",
-          "url": "https://luma.com/calendar/cal-vnPGs6DwV4F2m8X",
-          "image": "https://cdn.lu.ma/avatars-default/community_avatar_4.png",
-          "type": "Organization"
-        },
-        "google_calendar_link": "https://www.google.com/calendar/event?eid=M3A2aWd0cnQxajBzdTRtYmYwZjFhNHRwdWQgaGJ2ZXRxZjVoMXBkMG9mMHZuNnV2cGhxdHNAZw"
-      }
-    },
-    {
       "id": "evt_gcal_com_effective_altruism_nyc_db090157",
       "name": "EA NYC Vegan Dim Sum",
       "type": "effective altruism",
@@ -800,5 +746,5 @@
       }
     }
   ],
-  "timestamp": "2026-08-18T08:25:27.823991"
+  "timestamp": "2026-08-19T08:26:35.832319"
 }

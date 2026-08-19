@@ -1,60 +1,6 @@
 {
   "events": [
     {
-      "id": "evt_gcal_com_fractal_3d65c0d8",
-      "name": "The Founding Debate Reading Group #5 - The Federalist Reply",
-      "type": "tech",
-      "locationId": "loc_fractal",
-      "communityId": "com_fractal",
-      "description": "The question: can liberty survive in a large republic?\nWhat we're reading \u2014 about 22 pages, three essays entire:\nFederalist 1 \u2014 Hamilton sets the terms, and warns about the motives of men on both sides, including his own. Read the warning about a zeal for the rights of the people as what it is: a shot at Brutus, nine days late.\nFederalist 10 \u2014 the answer to the objection Brutus rested everything on. Madison's claim is not that a large republic can survive faction but that only a large republic can. A genuine inversion, and worth slowing down for.\nFederalist 51 \u2014 ambition counteracting ambition; the auxiliary precautions; and the coldest sentence in the series, about angels.\nThe reader: masonmelead.com/foundingwk5.pdf\nBring Brutus with you if you have last week's reader.",
-      "startDate": "2026-08-18T22:30:00Z",
-      "endDate": "2026-08-19T00:00:00Z",
-      "category": [
-        "tech",
-        "startup",
-        "innovation",
-        "education"
-      ],
-      "price": {
-        "amount": 0.0,
-        "type": "Free",
-        "currency": "USD",
-        "details": "General Admission"
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": [],
-      "image": "events/luma-event-09871e7d.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source": "Google Calendar",
-        "source_url": "https://luma.com/8wycd77k",
-        "original_event_id": "_clr78bbkd17nai3begom4sqp8os6uha0clr6arjkecn6ot9edlgg",
-        "organizer": {
-          "name": "Mason Melead",
-          "website": "https://luma.com/user/usr-4BqWT7Ft7quU7Tr",
-          "instagram": "",
-          "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
-        },
-        "venue": {
-          "name": "Fractal Tech",
-          "address": "111 Conselyea St, Brooklyn, NY 11211",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": true,
-        "luma_host": {
-          "name": "Mason Melead",
-          "url": "https://luma.com/user/usr-4BqWT7Ft7quU7Tr",
-          "image": "https://cdn.lu.ma/avatars-default/avatar_15.png",
-          "type": "Person"
-        },
-        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmJrZDE3bmFpM2JlZ29tNHNxcDhvczZ1aGEwY2xyNmFyamtlY242b3Q5ZWRsZ2cgdDN2MnJzb3VmZmZsMjA2amgxMDJ0dmEzamVla2ZnbWVAaQ"
-      }
-    },
-    {
       "id": "evt_gcal_com_fractal_9c089d0d",
       "name": "Speculative Worldbuilding Seminar, Unit 5 (FractalU)",
       "type": "tech",
@@ -232,7 +178,7 @@
         "education"
       ],
       "price": {
-        "amount": 24.0,
+        "amount": 32.0,
         "type": "Paid",
         "currency": "USD",
         "details": "General Admission"
@@ -2372,5 +2318,5 @@
       }
     }
   ],
-  "timestamp": "2026-08-18T08:25:44.997530"
+  "timestamp": "2026-08-19T08:26:57.471357"
 }

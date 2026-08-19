@@ -1,59 +1,6 @@
 {
   "events": [
     {
-      "id": "evt_gcal_com_nyc_resistor_937d5cca",
-      "name": "Resistorversary",
-      "type": "hackerspace",
-      "locationId": "loc_nyc_resistor",
-      "communityId": "com_nyc_resistor",
-      "description": "Happy birthday, Resistor! Our semi-arbitrary founding date is August 18th, 2007.<br><a href=\"https://wiki.hackerspaces.org/NYC_Resistor\">https://wiki.hackerspaces.org/NYC_Resistor</a>",
-      "startDate": "2026-08-18",
-      "endDate": "2026-08-19",
-      "category": [
-        "hackerspace",
-        "maker",
-        "hardware",
-        "electronics",
-        "laser cutting",
-        "3d printing",
-        "microcontrollers",
-        "robotics"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": null,
-      "tags": [],
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source": "Google Calendar",
-        "source_url": "https://www.google.com/calendar/event?eid=NWRydmZkZHA3b2F1ajV1azY5aWs1ZHY1MTFfMjAyNjA4MTggcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw",
-        "original_event_id": "5drvfddp7oauj5uk69ik5dv511_20260818",
-        "organizer": {
-          "name": "NYCResistor",
-          "website": "",
-          "instagram": "",
-          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false,
-        "luma_host": null,
-        "google_calendar_link": "https://www.google.com/calendar/event?eid=NWRydmZkZHA3b2F1ajV1azY5aWs1ZHY1MTFfMjAyNjA4MTggcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw"
-      }
-    },
-    {
       "id": "evt_gcal_com_nyc_resistor_6a026726",
       "name": "Masks On Craft Night",
       "type": "hackerspace",
@@ -1005,6 +952,59 @@
         "luma_source": false,
         "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=NGxjcnFiM3Rma3JzcjdiYmk4NGR2YzlxdTEgcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw"
+      }
+    },
+    {
+      "id": "evt_gcal_com_nyc_resistor_7a1f4bcf",
+      "name": "Soft Circuits 101",
+      "type": "hackerspace",
+      "locationId": "loc_nyc_resistor",
+      "communityId": "com_nyc_resistor",
+      "description": "RSVP https://www.eventbrite.com/e/soft-circuits-101-tickets-1998259820916\n\nSew a very simple soft circuit with conductive thread to light an LEDFor everyone who\u2019s curious about where to start with soft circuits and wearables \u2013 Soft Circuits 101! In this workshop, we\u2019ll sew a very simple soft circuit with conductive thread to light an LED. The techniques we use in this class are great building blocks to use for your own projects in the future! This is designed as a beginner introduction to both electrical circuits and sewing \u2013 no experience with either necessary to join. Supplies will be provided and attendees will get to keep their project.This is designed for beginners! No experience needed, and all supplies will be provided.\nYour Instructor:\nKay is a multidisciplinary artist, educator, and creative technologist based in Brooklyn, NY. They are a graduate of NYU\u2019s Interactive Telecommunications graduate program, where they focused on wearable electronics. Kay has been working as a freelance costume designer, drag performer and event producer since 2018, and their costume work has been seen onstage at Bonnaroo, House of Yes, King of Drag, and on \u2018Whatcha Packin\u2019 for RuPaul\u2019s Drag Race S16.\nThis is a masks optional event.\nAs with all NYC Resistor events, this class is 18+ and governed by our Code of Conduct. The Code of Conduct, as well as accessibility information, can be found at www.nycresistor.com/participate/\n",
+      "startDate": "2026-09-05T18:00:00-04:00",
+      "endDate": "2026-09-05T20:00:00-04:00",
+      "category": [
+        "hackerspace",
+        "maker",
+        "hardware",
+        "electronics",
+        "laser cutting",
+        "3d printing",
+        "microcontrollers",
+        "robotics"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://www.eventbrite.com/e/soft-circuits-101-tickets-1998259820916",
+        "original_event_id": "im29np490ddkdignjefrjhqlfc",
+        "organizer": {
+          "name": "NYCResistor",
+          "website": "",
+          "instagram": "",
+          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "NYCResistor\n87 3rd Ave\nBrooklyn, NY 11217",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false,
+        "luma_host": null,
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=aW0yOW5wNDkwZGRrZGlnbmplZnJqaHFsZmMgcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw"
       }
     },
     {
@@ -4133,7 +4133,60 @@
         "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=OTM4MDcwNDkwZDgxNGQyMjgyYzY2ZDljMGJmNTIzNjFfMjAyNjExMjhUMDAzMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn"
       }
+    },
+    {
+      "id": "evt_gcal_com_nyc_resistor_b1455423",
+      "name": "Public Craft Night Mondays and Thursdays!",
+      "type": "hackerspace",
+      "locationId": "loc_nyc_resistor",
+      "communityId": "com_nyc_resistor",
+      "description": "RSVP https://www.eventbrite.com/e/public-craft-night-mondays-and-thursdays-tickets-1992098772053\n\nLearn, make and share at NYC Resistor (all events18+)Note this event is 18+\nWelcome to Craft Night! Masks are now OPTIONAL at all our Craft Nights, Mondays and Thursdays. Your RSVP here is much appreciated so we can notify you of any covid contact after the fact, but is not required. Come on out, bring your freinds, and stay safe out there! Looking for a masks-on version of Craft Night? Check out Masks-On Craft Night!\nNYC Resistor is open to the public for Craft Nights every Monday and Thursday from 6:30-9:30 PM! Come bring your current crafting project and work on it with other artists, crafters, and makers of all kinds. Resistors do everything from costumes to electronics to visual arts to woodworking; people and crafting projects of all sorts are enthusiastically welcome. We are a proactively inclusive space, and prioritize creating opportunities for the whole community to engage with our events, across all identities of race, creed, ethnicity, age, religion, gender, gender identity, sexual orientation, physical appearance, and ability; please read our Code of Conduct to familiarize yourself with our community's values before attending.\n",
+      "startDate": "2026-11-30T18:30:00-05:00",
+      "endDate": "2026-11-30T21:30:00-05:00",
+      "category": [
+        "hackerspace",
+        "maker",
+        "hardware",
+        "electronics",
+        "laser cutting",
+        "3d printing",
+        "microcontrollers",
+        "robotics"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://www.eventbrite.com/e/public-craft-night-mondays-and-thursdays-tickets-1992098772053",
+        "original_event_id": "0au2lakcl2vb7744hj4vkq52ap_20261130T233000Z",
+        "organizer": {
+          "name": "NYCResistor",
+          "website": "",
+          "instagram": "",
+          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "NYC Resistor\n87 Third Avenue\nBrooklyn, NY 11217",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false,
+        "luma_host": null,
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=MGF1Mmxha2NsMnZiNzc0NGhqNHZrcTUyYXBfMjAyNjExMzBUMjMzMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn"
+      }
     }
   ],
-  "timestamp": "2026-08-18T08:25:45.493366"
+  "timestamp": "2026-08-19T08:26:57.951332"
 }
