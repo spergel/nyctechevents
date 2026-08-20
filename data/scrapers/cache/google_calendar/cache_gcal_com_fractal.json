@@ -1,114 +1,6 @@
 {
   "events": [
     {
-      "id": "evt_gcal_com_fractal_9c089d0d",
-      "name": "Speculative Worldbuilding Seminar, Unit 5 (FractalU)",
-      "type": "tech",
-      "locationId": "loc_fractal",
-      "communityId": "com_fractal",
-      "description": "This interdisciplinary seminar explores how fictional worlds operate as structured models of society, drawing on speculative fiction, history, anthropology, and political theory. Students analyze how environments, institutions, culture, memory, and technology shape social order, while building a single evolving fictional world across the semester. The course culminates in a cohesive \"world dossier\" integrating these elements into a fully realized speculative society that can be used as a platform for creative projects.\nApply for the semester here.",
-      "startDate": "2026-08-19T22:30:00Z",
-      "endDate": "2026-08-20T00:30:00Z",
-      "category": [
-        "tech",
-        "startup",
-        "innovation",
-        "education"
-      ],
-      "price": {
-        "amount": 0.0,
-        "type": "Free",
-        "currency": "USD",
-        "details": "General Admission"
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": [],
-      "image": "events/luma-event-a45ab4d7.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source": "Google Calendar",
-        "source_url": "https://luma.com/mrdj9e1e",
-        "original_event_id": "_clr78b9l6l15gghl75a4cmbbdop6soq0clr6arjkecn6ot9edlgg",
-        "organizer": {
-          "name": "Sarah",
-          "website": "https://luma.com/user/usr-jImy8pXPdoV9Rs4",
-          "instagram": "",
-          "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
-        },
-        "venue": {
-          "name": "Fractal Tech",
-          "address": "111 Conselyea St, Brooklyn, NY 11211",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": true,
-        "luma_host": {
-          "name": "Sarah",
-          "url": "https://luma.com/user/usr-jImy8pXPdoV9Rs4",
-          "image": "https://images.lumacdn.com/uploads/r0/ec2a4233-729c-41b8-9dcf-0cf634c09153.jpg",
-          "type": "Person"
-        },
-        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YjlsNmwxNWdnaGw3NWE0Y21iYmRvcDZzb3EwY2xyNmFyamtlY242b3Q5ZWRsZ2cgdDN2MnJzb3VmZmZsMjA2amgxMDJ0dmEzamVla2ZnbWVAaQ"
-      }
-    },
-    {
-      "id": "evt_gcal_com_fractal_c4312c09",
-      "name": "\u26a1 Fractal Weekly Demo Party #5 \u26a1",
-      "type": "tech",
-      "locationId": "loc_fractal",
-      "communityId": "com_fractal",
-      "description": "sunset pizza & drinks, & a showcase of strange and beautiful side projects, hobbies, + creations \ud83e\udeb4\u2728\u26a1\ud83c\udfa8\ndemos will be 3 min long, signup here - https://forms.gle/RzLKJdpeMwQ4uwKY9\ndemos of all kinds welcome, come share whatever you're most proud of\n~\n\n6:30 to 7:00pm - pizza & sunset \ud83c\udf05\ud83c\udf55\n7:00 to 7:30pm - \u26a1 demos \u26a1\n7:30pm onwards - hang out\n~\n+1s welcome",
-      "startDate": "2026-08-19T22:30:00Z",
-      "endDate": "2026-08-20T01:00:00Z",
-      "category": [
-        "tech",
-        "startup",
-        "innovation",
-        "education"
-      ],
-      "price": {
-        "amount": 0.0,
-        "type": "Free",
-        "currency": "USD",
-        "details": "General Admission"
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": [],
-      "image": "events/luma-event-e0bfcd4c.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source": "Google Calendar",
-        "source_url": "https://luma.com/9eirex4d",
-        "original_event_id": "_clr78bagc4s30k2k8hbl0irod5n6qla0clr6arjkecn6ot9edlgg",
-        "organizer": {
-          "name": "Fractal Campus NYC",
-          "website": "https://luma.com/nyc-tech",
-          "instagram": "",
-          "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
-        },
-        "venue": {
-          "name": "Fractal Tech",
-          "address": "111 Conselyea St, Brooklyn, NY 11211",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": true,
-        "luma_host": {
-          "name": "Fractal Campus NYC",
-          "url": "https://luma.com/nyc-tech",
-          "image": "https://images.lumacdn.com/calendars/pz/00560a39-25b0-42ee-8e67-a995419ca6e6",
-          "type": "Organization"
-        },
-        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmFnYzRzMzBrMms4aGJsMGlyb2Q1bjZxbGEwY2xyNmFyamtlY242b3Q5ZWRsZ2cgdDN2MnJzb3VmZmZsMjA2amgxMDJ0dmEzamVla2ZnbWVAaQ"
-      }
-    },
-    {
       "id": "evt_gcal_com_fractal_47efc82e",
       "name": "Gardening on the Roof - Summer '26 Season",
       "type": "tech",
@@ -2318,5 +2210,5 @@
       }
     }
   ],
-  "timestamp": "2026-08-19T08:26:57.471357"
+  "timestamp": "2026-08-20T08:28:27.790323"
 }

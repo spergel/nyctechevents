@@ -1,109 +1,6 @@
 {
   "events": [
     {
-      "id": "evt_gcal_com_verci_8191868a",
-      "name": "Verci Runs Soft Launch!",
-      "type": "technology",
-      "locationId": "",
-      "communityId": "com_verci",
-      "description": "Find more information on https://luma.com/verci",
-      "startDate": "2026-08-19T13:30:00Z",
-      "endDate": "2026-08-19T14:30:00Z",
-      "category": [
-        "technology",
-        "innovation",
-        "society",
-        "community"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": [],
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source": "Google Calendar",
-        "source_url": "https://luma.com/verci",
-        "original_event_id": "_cdgmopbm5ln4ghq2f544edq9et17amai8906atj5dpq76bjcekn6qo8",
-        "organizer": {
-          "name": "Verci Events",
-          "website": "",
-          "instagram": "",
-          "email": "pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "https://www.strava.com/clubs/2302575/group_events/3524468000082909042",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": true,
-        "luma_host": null,
-        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2NkZ21vcGJtNWxuNGdocTJmNTQ0ZWRxOWV0MTdhbWFpODkwNmF0ajVkcHE3NmJqY2VrbjZxbzggcGY2bzdkcmxmcmJobXBxbG1sdDdwMjE1ZTcwaTljam5AaQ"
-      }
-    },
-    {
-      "id": "evt_gcal_com_verci_528172a1",
-      "name": "Verci Cafe",
-      "type": "technology",
-      "locationId": "",
-      "communityId": "com_verci",
-      "description": "Stop by the weekly Verci Cafe for drinks on the house!",
-      "startDate": "2026-08-19T15:00:00Z",
-      "endDate": "2026-08-19T20:00:00Z",
-      "category": [
-        "technology",
-        "innovation",
-        "society",
-        "community"
-      ],
-      "price": {
-        "amount": 0.0,
-        "type": "Free",
-        "currency": "USD",
-        "details": "General Admission"
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": [],
-      "image": "events/luma-event-5d013f69.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source": "Google Calendar",
-        "source_url": "https://luma.com/mkcaukh2",
-        "original_event_id": "_clr78bbd91p5itjdahglgthiclh50li0clr6arjkecn6ot9edlgg",
-        "organizer": {
-          "name": "Verci Events",
-          "website": "https://luma.com/verci",
-          "instagram": "",
-          "email": "pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "45 E 20th St floor 12\n45 E 20th St floor 12, New York, New York",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": true,
-        "luma_host": {
-          "name": "Verci Events",
-          "url": "https://luma.com/verci",
-          "image": "https://images.lumacdn.com/calendars/kw/d2a68898-7b2c-40c0-b2b7-27a313e1f6d2",
-          "type": "Organization"
-        },
-        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmJkOTFwNWl0amRhaGdsZ3RoaWNsaDUwbGkwY2xyNmFyamtlY242b3Q5ZWRsZ2cgcGY2bzdkcmxmcmJobXBxbG1sdDdwMjE1ZTcwaTljam5AaQ"
-      }
-    },
-    {
       "id": "evt_gcal_com_verci_650b9650",
       "name": "Verci Dining Hall",
       "type": "technology",
@@ -1125,5 +1022,5 @@
       }
     }
   ],
-  "timestamp": "2026-08-19T08:27:09.748145"
+  "timestamp": "2026-08-20T08:28:38.763802"
 }
