@@ -60,7 +60,7 @@
       "type": "tech",
       "locationId": "loc_fractal",
       "communityId": "com_fractal",
-      "description": "Plan your partner's perfect day\nNeed a birthday or anniversary gift for your partner? Or maybe you just want to make them feel incredibly loved. In this hands-on workshop, you'll turn your memories and inside jokes into a one-of-a-kind surprise date.\n\ud83d\udcaa No prep needed\n\ud83c\udf81 All materials included\n\u2728 A guided creative process\n\u2764\ufe0f An unforgettable date, ready to go\n\nDesign a date like...\n\ud83e\udd6f The Bagel Bracket\n\n\ud83e\uded6 Grandma at Heart\n\n\ud83d\udecf\ufe0f A Night at The Johnson Inn\n\n\nJust 3 easy steps to design your date\n1\ufe0f\u20e3 Gather Inspiration. We'll help you gather memories and inside jokes to inspire a date only you could have imagined.\n2\ufe0f\u20e3 Choose a Concept. We'll share a few blueprints so you can make creative choices within a clear structure.\n3\ufe0f\u20e3 Design the Date. We'll help you weave in a few flourishes, create an invitation and itinerary, and leave with a date that's ready to go.\n\nAll materials included\n\u2713 A fully planned custom date\n\u2713 A printed invitation and itinerary\n\u2713 A set of wax-sealed notes\n\u2713 Personalized support and guidance\n\u2713 Love it or your money back\n\nTaught by a gift & game designer\n\ud83d\udc4b Hi, I'm Josh, founder of GiddyBox. I've designed hundreds of gifts, games, and gatherings based on folks' memories and inside jokes. This workshop distills everything I've learned about creating personalized experiences for people you love. Here are examples of some of the date night kits I've created through GiddyBox:\n\n\nCommon questions\nIs there anything I need to prep?\n\nIs there anything I need to bring?\n\nShould I attend with my partner?\n\nWould this work for a second or third date?\n\nHow long will the date I plan be?\n\nWhat if I'm \"bad\" at planning dates?\n\nWhat if we have kids or can't easily leave the house?\n\nHow does the satisfaction guarantee work?\n\nWhat's the cancellation policy?\n\nWhat if I have more questions?",
+      "description": "Plan your partner's perfect day\nNeed a birthday or anniversary gift for your partner? Or maybe you just want to make them feel incredibly loved. In this hands-on workshop, you'll turn your memories and inside jokes into a one-of-a-kind surprise date.\nLimited to 12 guests\n\ud83d\udcaa No prep needed\n\ud83c\udf81 All materials included\n\u2728 A guided creative process\n\u2764\ufe0f An unforgettable date, ready to go\n\n\n\nDesign a date like...\n\ud83e\udd6f The Bagel Bracket\n\n\ud83e\uded6 Grandma at Heart\n\n\ud83d\udecf\ufe0f A Night at The Johnson Inn\n\n\nJust 3 easy steps to design your date\n1\ufe0f\u20e3 Gather Inspiration. We'll help you gather memories and inside jokes to inspire a date only you could have imagined.\n2\ufe0f\u20e3 Choose a Concept. We'll share a few blueprints so you can make creative choices within a clear structure.\n3\ufe0f\u20e3 Design the Date. We'll help you weave in a few flourishes, create an invitation and itinerary, and leave with a date that's ready to go.\n\nAll materials included\n\u2713 A fully planned custom date\n\u2713 A printed invitation and itinerary\n\u2713 A set of wax-sealed notes\n\u2713 Personalized support and guidance\n\u2713 Love it or your money back\n\nTaught by a gift & game designer\n\ud83d\udc4b Hi, I'm Josh, founder of GiddyBox. I've designed hundreds of gifts, games, and gatherings based on folks' memories and inside jokes. This workshop distills everything I've learned about creating personalized experiences for people you love. Here are examples of some of the date night kits I've created through GiddyBox:\n\n\nCommon questions\nIs there anything I need to prep?\n\nIs there anything I need to bring?\n\nShould I attend with my partner?\n\nWould this work for a second or third date?\n\nHow long will the date I plan be?\n\nWhat if I'm \"bad\" at planning dates?\n\nWhat if we have kids or can't easily leave the house?\n\nHow does the satisfaction guarantee work?\n\nWhat's the cancellation policy?\n\nWhat if I have more questions?",
       "startDate": "2026-08-23T17:00:00Z",
       "endDate": "2026-08-23T19:15:00Z",
       "category": [
@@ -1194,7 +1194,7 @@
       "type": "tech",
       "locationId": "",
       "communityId": "com_fractal",
-      "description": "Builders NYC is hosting an 8-hour curated hackathon focused on AI in sports, fitness, wellness, and personal health.\nBuilders, developers, designers, students, founders, athletes, coaches, and health/fitness enthusiasts are invited to apply and spend the day building AI-powered tools that improve how people train, recover, learn, compete, track progress, and take care of themselves.\nProjects can explore areas like athlete performance, coaching tools, sports analytics, personal fitness, nutrition, recovery, mental wellness, accessibility, wearable data, and preventive health. Participants do not need to be athletes or healthcare experts to apply \u2014 the goal is to bring together people interested in building practical, creative, and human-centered technology.\nThis will be an application-based event with limited spots. Accepted participants will build throughout the day, form teams if needed, receive support from mentors/community members, and demo their projects at the end.\nWhether you want to build a sports analytics dashboard, an AI workout coach, a recovery tracker, a nutrition assistant, a wellness tool, or something completely unexpected, this hackathon is for people who want to build and show what they made.\nPotential tracks include:\nAthlete Performance\nCoaching & Sports Analysis\nPersonal Fitness & Habit Building\nNutrition & Recovery\nMental Wellness\nAccessibility & Inclusive Health\nHealth Data & Wearables\nPrizes and sponsor challenges to be announced.\nThis is a curated hackathon. Requesting a spot does not guarantee approval. Applicants may receive a follow-up form before final confirmation.",
+      "description": "Get up-to-date information at: https://luma.com/y2c068nu\n\nAddress:\nCheck event page for more details.\n\nHosted by Samuel Michnik",
       "startDate": "2026-09-19T14:00:00Z",
       "endDate": "2026-09-20T00:00:00Z",
       "category": [
@@ -1204,41 +1204,36 @@
         "education"
       ],
       "price": {
-        "amount": 0.0,
+        "amount": 0,
         "type": "Free",
         "currency": "USD",
-        "details": "General Admission"
+        "details": ""
       },
       "capacity": null,
-      "registrationRequired": false,
+      "registrationRequired": null,
       "tags": [],
-      "image": "events/luma-event-ef4ad137.jpg",
+      "image": "",
       "status": "upcoming",
       "metadata": {
         "source": "Google Calendar",
         "source_url": "https://luma.com/y2c068nu",
         "original_event_id": "_clr78ba66lbkgr3lch0kssi19t2mmi20clr6arjkecn6ot9edlgg",
         "organizer": {
-          "name": "Builders NYC",
-          "website": "https://luma.com/builders-nyc",
+          "name": "Fractal Campus NYC",
+          "website": "",
           "instagram": "",
           "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
         },
         "venue": {
           "name": "",
-          "address": "Brooklyn, NY\nBrooklyn, New York",
+          "address": "https://luma.com/event/evt-F5WHludANrAOEkH",
           "type": "Offline"
         },
         "speakers": [],
         "social_links": [],
         "featured": false,
         "luma_source": true,
-        "luma_host": {
-          "name": "Builders NYC",
-          "url": "https://luma.com/builders-nyc",
-          "image": "https://images.lumacdn.com/uploads/u5/f9f898b6-f70c-418c-99be-739654bcda7d.png",
-          "type": "Organization"
-        },
+        "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmE2Nmxia2dyM2xjaDBrc3NpMTl0Mm1taTIwY2xyNmFyamtlY242b3Q5ZWRsZ2cgdDN2MnJzb3VmZmZsMjA2amgxMDJ0dmEzamVla2ZnbWVAaQ"
       }
     },
@@ -2210,5 +2205,5 @@
       }
     }
   ],
-  "timestamp": "2026-08-20T08:28:27.790323"
+  "timestamp": "2026-08-21T08:29:46.677696"
 }
