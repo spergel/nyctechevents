@@ -1,59 +1,6 @@
 {
   "events": [
     {
-      "id": "evt_gcal_com_nyc_resistor_1a7027f7",
-      "name": "Intro to Screen Printing",
-      "type": "hackerspace",
-      "locationId": "loc_nyc_resistor",
-      "communityId": "com_nyc_resistor",
-      "description": "RSVP https://www.eventbrite.com/e/intro-to-screen-printing-tickets-1994607951075\n\nJoin us for a hands-on introduction to screen printing! In this workshop, we\u2019ll cover the basics of the process and walk through each step!Join us for a hands-on introduction to screen printing! In this workshop, we\u2019ll cover the basics of the process and walk through each step of creating a screen. Using vinyl stencils, we\u2019ll quickly make screens and print custom designs onto t-shirts. You\u2019ll get a chance to practice setting up, inking, and pulling prints, and by the end, you\u2019ll have your own shirt to take home.\nIf you\u2019d like, you can bring a simple vector design (think bold shapes and clean lines) to use for your screen. Otherwise, we\u2019ll have some designs ready for you to choose from. No prior experience is necessary\u2014just bring your creativity and a t-shirt you\u2019d like to print on. New shirts can also be purchased during the workshop.\n\nThis workshop will be taught by two instructors:\nWoody Poulard is an artist/musician of Haitian descent who creates audio-reactive visual installations, generative art, and sculptural works alongside lifelong instrumental practice in saxophone and percussion. His visual practice spans digital and physical mediums including pen plotting, risograph printing, and poster design, creating tangible artifacts from algorithmic and generative processes.\n\nMean Gene is a member at NYC Resistor, an anti-surveillance advocate, an artist, designer, printmaker, and the head of product at a small cybersecurity startup\n\nThis is a masks optional event.\nAs with all NYC Resistor events, this class is 18+ and governed by our Code of Conduct. The Code of Conduct, as well as accessibility information, can be found at www.nycresistor.com/participate/\n\nThis program is supported, in part, by public funds from the New York City Department of Cultural Affairs in partnership with the City Council.\n",
-      "startDate": "2026-08-21T19:00:00-04:00",
-      "endDate": "2026-08-21T22:00:00-04:00",
-      "category": [
-        "hackerspace",
-        "maker",
-        "hardware",
-        "electronics",
-        "laser cutting",
-        "3d printing",
-        "microcontrollers",
-        "robotics"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": true,
-      "tags": [],
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source": "Google Calendar",
-        "source_url": "https://www.eventbrite.com/e/intro-to-screen-printing-tickets-1994607951075",
-        "original_event_id": "4j4l3mnari5thmc7d5oq856tec",
-        "organizer": {
-          "name": "NYCResistor",
-          "website": "",
-          "instagram": "",
-          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "NYCResistor\n87 3rd Ave\nBrooklyn, NY 11217",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false,
-        "luma_host": null,
-        "google_calendar_link": "https://www.google.com/calendar/event?eid=NGo0bDNtbmFyaTV0aG1jN2Q1b3E4NTZ0ZWMgcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw"
-      }
-    },
-    {
       "id": "evt_gcal_com_nyc_resistor_67d1956b",
       "name": "Make Along: Make a Pinhole Polaroid Camera from a Beer or Soda Can!",
       "type": "hackerspace",
@@ -4186,7 +4133,60 @@
         "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=MGF1Mmxha2NsMnZiNzc0NGhqNHZrcTUyYXBfMjAyNjExMjNUMjMzMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn"
       }
+    },
+    {
+      "id": "evt_gcal_com_nyc_resistor_cee604e1",
+      "name": "Fire Extinguisher Health Check",
+      "type": "hackerspace",
+      "locationId": "loc_nyc_resistor",
+      "communityId": "com_nyc_resistor",
+      "description": "https://blink.ucsd.edu/safety/fire/extinguisher/inspection.html",
+      "startDate": "2026-11-24T21:00:00-05:00",
+      "endDate": "2026-11-24T22:00:00-05:00",
+      "category": [
+        "hackerspace",
+        "maker",
+        "hardware",
+        "electronics",
+        "laser cutting",
+        "3d printing",
+        "microcontrollers",
+        "robotics"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": null,
+      "tags": [],
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://www.google.com/calendar/event?eid=MDlhcmR0ZDNlbHY0NjZiNGlhazkyamsxbmVfMjAyNjExMjVUMDIwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn",
+        "original_event_id": "09ardtd3elv466b4iak92jk1ne_20261125T020000Z",
+        "organizer": {
+          "name": "NYC Resistor",
+          "website": "",
+          "instagram": "",
+          "email": "opn.address@gmail.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "NYC Resistor, 87 3rd Ave, Brooklyn, NY 11217, USA",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false,
+        "luma_host": null,
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=MDlhcmR0ZDNlbHY0NjZiNGlhazkyamsxbmVfMjAyNjExMjVUMDIwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn"
+      }
     }
   ],
-  "timestamp": "2026-08-21T08:29:47.332428"
+  "timestamp": "2026-08-22T08:19:15.767664"
 }

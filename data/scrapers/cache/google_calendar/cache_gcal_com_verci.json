@@ -1,60 +1,6 @@
 {
   "events": [
     {
-      "id": "evt_gcal_com_verci_650b9650",
-      "name": "Verci Dining Hall",
-      "type": "technology",
-      "locationId": "",
-      "communityId": "com_verci",
-      "description": "Our monthly community dinner!\nThis is a classic Verci experience, so if you haven't made it out to one yet, this is the perfect time to pull up.\nFor August, we've got something a little extra special rolling in. Show up with empty bellies, bring your appetite, and get ready to have a fire time.",
-      "startDate": "2026-08-21T23:00:00Z",
-      "endDate": "2026-08-22T00:30:00Z",
-      "category": [
-        "technology",
-        "innovation",
-        "society",
-        "community"
-      ],
-      "price": {
-        "amount": 0.0,
-        "type": "Free",
-        "currency": "USD",
-        "details": "General Admission"
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": [],
-      "image": "events/luma-event-25d2a789.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source": "Google Calendar",
-        "source_url": "https://luma.com/8vj32h8v",
-        "original_event_id": "_clr78b9pd12mqdb5650nika39l2n6ta0clr6arjkecn6ot9edlgg",
-        "organizer": {
-          "name": "Verci Events",
-          "website": "https://luma.com/verci",
-          "instagram": "",
-          "email": "pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "45 E 20th St floor 12\n45 E 20th St floor 12, New York, New York",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": true,
-        "luma_host": {
-          "name": "Verci Events",
-          "url": "https://luma.com/verci",
-          "image": "https://images.lumacdn.com/calendars/kw/d2a68898-7b2c-40c0-b2b7-27a313e1f6d2",
-          "type": "Organization"
-        },
-        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YjlwZDEybXFkYjU2NTBuaWthMzlsMm42dGEwY2xyNmFyamtlY242b3Q5ZWRsZ2cgcGY2bzdkcmxmcmJobXBxbG1sdDdwMjE1ZTcwaTljam5AaQ"
-      }
-    },
-    {
       "id": "evt_gcal_com_verci_5b65e813",
       "name": "Makerspace Series / Workshop 04: 3D Rendering",
       "type": "technology",
@@ -591,11 +537,11 @@
     },
     {
       "id": "evt_gcal_com_verci_a2376b96",
-      "name": "International Founders Dinner with Verci & Concord Visa",
+      "name": "International Founders Dinner with Verci",
       "type": "technology",
       "locationId": "",
       "communityId": "com_verci",
-      "description": "About this event\nVerci and Concord Visa are hosting a private, curated dinner for a select group of international founders building in NYC.\nMore about the hosts\nConcord Visa specializes in supporting high-growth startups and founders who need fast, accurate, practical support across the US, UK, Canada, New Zealand, and Australia - not the runaround from traditional law firms. Whether you're expanding into the globally or stacking your ANZ team with global talent, we handle the immigration so you don't have to. Having secured 3,250+ approvals, we know how to turn your achievements into a winning narrative and position you for long-term success. From strategy to case-building and challenge-proofing, we do the heavy lifting so you can focus on your goals.\nVerci is a workspace and social space in NYC (and soon LA/SF), meticulously curated for founders, artists, and creatives. Learn more at verci.com and read our manifesto at verci.com/manifesto.",
+      "description": "About this event\nVerci is hosting a private, curated dinner for a select group of international founders building in NYC.\nMore about the hosts\nVerci is a workspace and social space in NYC (and soon LA/SF), meticulously curated for founders, artists, and creatives. Learn more at verci.com and read our manifesto at verci.com/manifesto.",
       "startDate": "2026-09-08T23:00:00Z",
       "endDate": "2026-09-09T01:00:00Z",
       "category": [
@@ -860,6 +806,55 @@
       }
     },
     {
+      "id": "evt_gcal_com_verci_8bc3f78d",
+      "name": "Open mic!",
+      "type": "technology",
+      "locationId": "",
+      "communityId": "com_verci",
+      "description": "Find more information on https://luma.com/verci",
+      "startDate": "2026-09-24T23:00:00Z",
+      "endDate": "2026-09-25T00:00:00Z",
+      "category": [
+        "technology",
+        "innovation",
+        "society",
+        "community"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": [],
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://luma.com/verci",
+        "original_event_id": "_cdgmopbm5lbkel36c9h74ra5ad446prif506atj5dpq76bjcekn6qo8",
+        "organizer": {
+          "name": "Verci Events",
+          "website": "",
+          "instagram": "",
+          "email": "pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "https://partiful.com/e/Qj9953eQy0m4ddJKossf?",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": true,
+        "luma_host": null,
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2NkZ21vcGJtNWxia2VsMzZjOWg3NHJhNWFkNDQ2cHJpZjUwNmF0ajVkcHE3NmJqY2VrbjZxbzggcGY2bzdkcmxmcmJobXBxbG1sdDdwMjE1ZTcwaTljam5AaQ"
+      }
+    },
+    {
       "id": "evt_gcal_com_verci_8ce6b882",
       "name": "Founders Dinner with Verci, Imaginary Ventures, Mercury",
       "type": "technology",
@@ -1022,5 +1017,5 @@
       }
     }
   ],
-  "timestamp": "2026-08-21T08:29:58.722054"
+  "timestamp": "2026-08-22T08:19:25.963062"
 }
