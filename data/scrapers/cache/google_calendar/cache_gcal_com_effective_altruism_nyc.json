@@ -56,7 +56,7 @@
     },
     {
       "id": "evt_gcal_com_effective_altruism_nyc_a082a41c",
-      "name": "AI Safety workshop",
+      "name": "AI 2040 discussion: AI safety planning workshop",
       "type": "effective altruism",
       "locationId": "",
       "communityId": "com_effective_altruism_nyc",
@@ -746,5 +746,5 @@
       }
     }
   ],
-  "timestamp": "2026-08-22T08:18:56.686936"
+  "timestamp": "2026-08-23T08:19:42.584535"
 }
