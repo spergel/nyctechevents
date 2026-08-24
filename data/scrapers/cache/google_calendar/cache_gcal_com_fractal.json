@@ -1,114 +1,6 @@
 {
   "events": [
     {
-      "id": "evt_gcal_com_fractal_47efc82e",
-      "name": "Gardening on the Roof - Summer '26 Season",
-      "type": "tech",
-      "locationId": "loc_fractal",
-      "communityId": "com_fractal",
-      "description": "Get up-to-date information at: https://luma.com/ca0ai4jp\n\nAddress:\nFractal Tech\nKings County, New York\nUnited States\n\nHosted by Anthony Castrio \ud83d\udcaf",
-      "startDate": "2026-08-23T14:00:00Z",
-      "endDate": "2026-08-23T16:00:00Z",
-      "category": [
-        "tech",
-        "startup",
-        "innovation",
-        "education"
-      ],
-      "price": {
-        "amount": 0.0,
-        "type": "Free",
-        "currency": "USD",
-        "details": "General Admission"
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": [],
-      "image": "events/luma-event-c471f310.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source": "Google Calendar",
-        "source_url": "https://luma.com/ca0ai4jp",
-        "original_event_id": "_clr78baeeln4upi18tp5kq9n71s64oa0clr6arjkecn6ot9edlgg",
-        "organizer": {
-          "name": "Friends of the Fractal Garden",
-          "website": "https://luma.com/fractal-garden",
-          "instagram": "",
-          "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
-        },
-        "venue": {
-          "name": "Fractal Tech",
-          "address": "111 Conselyea St, Brooklyn, NY 11211",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": true,
-        "luma_host": {
-          "name": "Friends of the Fractal Garden",
-          "url": "https://luma.com/fractal-garden",
-          "image": "https://images.lumacdn.com/calendars/xw/d43b818f-b59a-4e6a-857b-72efcee06d17.jpg",
-          "type": "Organization"
-        },
-        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmFlZWxuNHVwaTE4dHA1a3E5bjcxczY0b2EwY2xyNmFyamtlY242b3Q5ZWRsZ2cgdDN2MnJzb3VmZmZsMjA2amgxMDJ0dmEzamVla2ZnbWVAaQ"
-      }
-    },
-    {
-      "id": "evt_gcal_com_fractal_01e25379",
-      "name": "Plan Your Partner's Perfect Day",
-      "type": "tech",
-      "locationId": "loc_fractal",
-      "communityId": "com_fractal",
-      "description": "Plan your partner's perfect day\nNeed a birthday or anniversary gift for your partner? Or maybe you just want to make them feel incredibly loved. In this hands-on workshop, you'll turn your memories and inside jokes into a one-of-a-kind surprise date.\nLimited to 12 guests\n\ud83d\udcaa No prep needed\n\ud83c\udf81 All materials included\n\u2728 A guided creative process\n\u2764\ufe0f An unforgettable date, ready to go\n\n\n\nDesign a date like...\n\ud83e\udd6f The Bagel Bracket\n\n\ud83e\uded6 Grandma at Heart\n\n\ud83d\udecf\ufe0f A Night at The Johnson Inn\n\n\nJust 3 easy steps to design your date\n1\ufe0f\u20e3 Gather Inspiration. We'll help you gather memories and inside jokes to inspire a date only you could have imagined.\n2\ufe0f\u20e3 Choose a Concept. We'll share a few blueprints so you can make creative choices within a clear structure.\n3\ufe0f\u20e3 Design the Date. We'll help you weave in a few flourishes, create an invitation and itinerary, and leave with a date that's ready to go.\n\nAll materials included\n\u2713 A fully planned custom date\n\u2713 A printed invitation and itinerary\n\u2713 A set of wax-sealed notes\n\u2713 Personalized support and guidance\n\u2713 Love it or your money back\n\nTaught by a gift & game designer\n\ud83d\udc4b Hi, I'm Josh, founder of GiddyBox. I've designed hundreds of gifts, games, and gatherings based on folks' memories and inside jokes. This workshop distills everything I've learned about creating personalized experiences for people you love. Here are examples of some of the date night kits I've created through GiddyBox:\n\n\nCommon questions\nIs there anything I need to prep?\n\nIs there anything I need to bring?\n\nShould I attend with my partner?\n\nWould this work for a second or third date?\n\nHow long will the date I plan be?\n\nWhat if I'm \"bad\" at planning dates?\n\nWhat if we have kids or can't easily leave the house?\n\nHow does the satisfaction guarantee work?\n\nWhat's the cancellation policy?\n\nWhat if I have more questions?",
-      "startDate": "2026-08-23T17:00:00Z",
-      "endDate": "2026-08-23T19:15:00Z",
-      "category": [
-        "tech",
-        "startup",
-        "innovation",
-        "education"
-      ],
-      "price": {
-        "amount": 32.0,
-        "type": "Paid",
-        "currency": "USD",
-        "details": "General Admission"
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": [],
-      "image": "events/luma-event-bdea9d41.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source": "Google Calendar",
-        "source_url": "https://luma.com/yamcbejy",
-        "original_event_id": "_clr78bacatd68u1i8pi6ukiidcpmuk20clr6arjkecn6ot9edlgg",
-        "organizer": {
-          "name": "Joshua Rosenfeld",
-          "website": "https://luma.com/user/usr-Q3WQiGYnDFirL9w",
-          "instagram": "",
-          "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
-        },
-        "venue": {
-          "name": "Fractal Tech",
-          "address": "111 Conselyea St, Brooklyn, NY 11211",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": true,
-        "luma_host": {
-          "name": "Joshua Rosenfeld",
-          "url": "https://luma.com/user/usr-Q3WQiGYnDFirL9w",
-          "image": "https://images.lumacdn.com/uploads/rw/f78d91b4-9da2-4066-bf1d-3df76ccd85af.png",
-          "type": "Person"
-        },
-        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmFjYXRkNjh1MWk4cGk2dWtpaWRjcG11azIwY2xyNmFyamtlY242b3Q5ZWRsZ2cgdDN2MnJzb3VmZmZsMjA2amgxMDJ0dmEzamVla2ZnbWVAaQ"
-      }
-    },
-    {
       "id": "evt_gcal_com_fractal_8ba870cd",
       "name": "Structure and Interpretation of Classical Mechanics Reading Group",
       "type": "tech",
@@ -2205,5 +2097,5 @@
       }
     }
   ],
-  "timestamp": "2026-08-23T08:19:59.168697"
+  "timestamp": "2026-08-24T08:38:27.439500"
 }
