@@ -1,60 +1,6 @@
 {
   "events": [
     {
-      "id": "evt_gcal_com_verci_5b65e813",
-      "name": "Makerspace Series / Workshop 04: 3D Rendering",
-      "type": "technology",
-      "locationId": "",
-      "communityId": "com_verci",
-      "description": "Join us for the fourth workshop in our Makerspace Series!\n\nWe're celebrating the opening of our new makerspace with a series of hands-on workshops exploring different creative practices.\nWorkshop 04: Janice will lead us through a beginner-friendly tutorial, walking step-by-step through the basics of navigating Blender and creating your first 3D render.\nPlease bring your own laptop and install Blender before the workshop",
-      "startDate": "2026-08-24T22:00:00Z",
-      "endDate": "2026-08-24T23:30:00Z",
-      "category": [
-        "technology",
-        "innovation",
-        "society",
-        "community"
-      ],
-      "price": {
-        "amount": 10.0,
-        "type": "Paid",
-        "currency": "USD",
-        "details": "General Admission"
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": [],
-      "image": "events/luma-event-b8f882a7.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source": "Google Calendar",
-        "source_url": "https://luma.com/p8e7nveq",
-        "original_event_id": "_clr78bbg85bnid2od1clkq3a8krj8t20clr6arjkecn6ot9edlgg",
-        "organizer": {
-          "name": "Verci Events",
-          "website": "https://luma.com/verci",
-          "instagram": "",
-          "email": "pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "Verci Flatiron\nVerci Flatiron, New York, New York",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": true,
-        "luma_host": {
-          "name": "Verci Events",
-          "url": "https://luma.com/verci",
-          "image": "https://images.lumacdn.com/calendars/kw/d2a68898-7b2c-40c0-b2b7-27a313e1f6d2",
-          "type": "Organization"
-        },
-        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmJnODVibmlkMm9kMWNsa3EzYThrcmo4dDIwY2xyNmFyamtlY242b3Q5ZWRsZ2cgcGY2bzdkcmxmcmJobXBxbG1sdDdwMjE1ZTcwaTljam5AaQ"
-      }
-    },
-    {
       "id": "evt_gcal_com_verci_778fe12e",
       "name": "Makerspace Series / Workshop 05: Embroidery",
       "type": "technology",
@@ -330,7 +276,7 @@
       "type": "technology",
       "locationId": "",
       "communityId": "com_verci",
-      "description": "Join us for the sixth workshop in our Makerspace Series!\nWe're celebrating the opening of our new makerspace with a series of hands-on workshops exploring different creative practices.\nWorkshop 06: In this workshop, you'll learn the fundamentals of stained glass and create your own one-of-a-kind piece to take home. We'll guide you through the process of cutting glass, shaping your design, foiling, and soldering your piece together. Whether you're drawn to bold geometric forms or something a little more organic, you'll have the freedom to make a design that's uniquely yours.",
+      "description": "Join us for the sixth workshop in our Makerspace Series!\nWe're celebrating the opening of our new makerspace with a series of hands-on workshops exploring different creative practices.\nWorkshop 06: In this workshop, you'll learn the fundamentals of stained glass and create your own one-of-a-kind piece to take home. We'll guide you through the process of cutting glass, shaping your design, foiling, and soldering your piece together.\nWe will be making small picture frames!",
       "startDate": "2026-08-29T18:00:00Z",
       "endDate": "2026-08-29T21:00:00Z",
       "category": [
@@ -1017,5 +963,5 @@
       }
     }
   ],
-  "timestamp": "2026-08-24T08:38:36.875799"
+  "timestamp": "2026-08-25T08:32:45.134116"
 }
