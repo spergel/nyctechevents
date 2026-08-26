@@ -1,60 +1,6 @@
 {
   "events": [
     {
-      "id": "evt_gcal_com_verci_778fe12e",
-      "name": "Makerspace Series / Workshop 05: Embroidery",
-      "type": "technology",
-      "locationId": "",
-      "communityId": "com_verci",
-      "description": "Join us for the fifth workshop in our Makerspace Series!\n\nWe're celebrating the opening of our new makerspace with a series of hands-on workshops exploring different creative practices.\nWorkshop 05: We'll have a collection of \"flash\" embroidery designs to choose from, or you're welcome to create your own if you're feeling inspired. Anna will walk through the basics of embroidery.\nPlease bring a piece of clothing, tote bag, or other fabric item you'd like to embroider. We'll also have some fabric available.",
-      "startDate": "2026-08-25T22:30:00Z",
-      "endDate": "2026-08-26T00:00:00Z",
-      "category": [
-        "technology",
-        "innovation",
-        "society",
-        "community"
-      ],
-      "price": {
-        "amount": 10.0,
-        "type": "Paid",
-        "currency": "USD",
-        "details": "General Admission"
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": [],
-      "image": "events/luma-event-dd1f2509.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source": "Google Calendar",
-        "source_url": "https://luma.com/k92tnhbr",
-        "original_event_id": "_clr78bbhesojgsanc57meci468p4cgq0clr6arjkecn6ot9edlgg",
-        "organizer": {
-          "name": "Verci Events",
-          "website": "https://luma.com/verci",
-          "instagram": "",
-          "email": "pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "Verci Flatiron\nVerci Flatiron, New York, New York",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": true,
-        "luma_host": {
-          "name": "Verci Events",
-          "url": "https://luma.com/verci",
-          "image": "https://images.lumacdn.com/calendars/kw/d2a68898-7b2c-40c0-b2b7-27a313e1f6d2",
-          "type": "Organization"
-        },
-        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmJoZXNvamdzYW5jNTdtZWNpNDY4cDRjZ3EwY2xyNmFyamtlY242b3Q5ZWRsZ2cgcGY2bzdkcmxmcmJobXBxbG1sdDdwMjE1ZTcwaTljam5AaQ"
-      }
-    },
-    {
       "id": "evt_gcal_com_verci_8a24a61c",
       "name": "Cookie Cafe",
       "type": "technology",
@@ -963,5 +909,5 @@
       }
     }
   ],
-  "timestamp": "2026-08-25T08:32:45.134116"
+  "timestamp": "2026-08-26T08:33:25.639758"
 }

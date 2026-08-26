@@ -1,59 +1,6 @@
 {
   "events": [
     {
-      "id": "evt_gcal_com_nyc_resistor_83286406",
-      "name": "Fire Extinguisher Health Check",
-      "type": "hackerspace",
-      "locationId": "loc_nyc_resistor",
-      "communityId": "com_nyc_resistor",
-      "description": "https://blink.ucsd.edu/safety/fire/extinguisher/inspection.html",
-      "startDate": "2026-08-25T21:00:00-04:00",
-      "endDate": "2026-08-25T22:00:00-04:00",
-      "category": [
-        "hackerspace",
-        "maker",
-        "hardware",
-        "electronics",
-        "laser cutting",
-        "3d printing",
-        "microcontrollers",
-        "robotics"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": null,
-      "tags": [],
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source": "Google Calendar",
-        "source_url": "https://www.google.com/calendar/event?eid=MDlhcmR0ZDNlbHY0NjZiNGlhazkyamsxbmVfMjAyNjA4MjZUMDEwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn",
-        "original_event_id": "09ardtd3elv466b4iak92jk1ne_20260826T010000Z",
-        "organizer": {
-          "name": "NYC Resistor",
-          "website": "",
-          "instagram": "",
-          "email": "opn.address@gmail.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "NYC Resistor, 87 3rd Ave, Brooklyn, NY 11217, USA",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false,
-        "luma_host": null,
-        "google_calendar_link": "https://www.google.com/calendar/event?eid=MDlhcmR0ZDNlbHY0NjZiNGlhazkyamsxbmVfMjAyNjA4MjZUMDEwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn"
-      }
-    },
-    {
       "id": "evt_gcal_com_nyc_resistor_c01b53c0",
       "name": "NYCResistor Ham Radio Club",
       "type": "hackerspace",
@@ -581,6 +528,59 @@
         "luma_source": false,
         "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=N2tmMGN0YWRtYzc4YmYyNWNoMGNtdjc2cXNfMjAyNjA5MDVUMTgwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn"
+      }
+    },
+    {
+      "id": "evt_gcal_com_nyc_resistor_8f94c327",
+      "name": "Repair your broken items at Repair Cafe!",
+      "type": "hackerspace",
+      "locationId": "loc_nyc_resistor",
+      "communityId": "com_nyc_resistor",
+      "description": "RSVP https://www.eventbrite.com/e/repair-your-broken-items-at-repair-cafe-tickets-1998880840402\n\nRepair can be intimidating if you haven\u2019t done it before, and the hardest part often is getting started. It\u2019s easier with support!Do you hate to throw things out when they break? Are there any repair skills that you want to learn or teach others?\nJoin us to collectively diagnose and fix broken objects, share skills, and build intergenerational, community-based knowledge. We\u2019re interested in helping each other gain confidence in the act of repair to prevent our belongings from going to the landfill, and thinking critically about where our things come from.\nPeople bring a wide variety of items to events, including lamps, chairs, mugs/plates, clothes and more. Think small, portable items (no large appliances, bicycles or couches).\n\nWhen: Saturday, August 01, 2 PM - 5 PM. Doors will close at 2:30 pm\nWhere: NYC Resistor, 87 3rd Ave, Brooklyn, NY 11217\nWe invite every attendee to answer these questions:\nWhat\u2019s broken in your life that you want to repair? Describe it and how it is broken.Does your repair require specific tools or parts? Do you have them?Are you interested in helping others with their repairs? If so, what skills would you like to share (e.g. soldering electronics, sewing fabrics, woodworking skills, understanding mechanisms)?Please be sure to fill out the RSVP form completely. This helps us to prepare for the event. If you do not fill out the form, we will assume the RSVP was by mistake and cancel the ticket.\nQuestions? Email us at repurposefulancestry@gmail.com\nThis is a masks optional event.\nAs with all NYC Resistor events, this class is 18+ and governed by our Code of Conduct. The Code of Conduct, as well as accessibility information, can be found at www.nycresistor.com/participate/.\n",
+      "startDate": "2026-09-05T14:00:00-04:00",
+      "endDate": "2026-09-05T17:00:00-04:00",
+      "category": [
+        "hackerspace",
+        "maker",
+        "hardware",
+        "electronics",
+        "laser cutting",
+        "3d printing",
+        "microcontrollers",
+        "robotics"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://www.eventbrite.com/e/repair-your-broken-items-at-repair-cafe-tickets-1998880840402",
+        "original_event_id": "j66sb4pu06hcl1dce8q6ttavjk",
+        "organizer": {
+          "name": "NYCResistor",
+          "website": "",
+          "instagram": "",
+          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "NYCResistor\n87 3rd Ave\nBrooklyn, NY 11217",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false,
+        "luma_host": null,
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=ajY2c2I0cHUwNmhjbDFkY2U4cTZ0dGF2amsgcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw"
       }
     },
     {
@@ -1220,6 +1220,59 @@
       }
     },
     {
+      "id": "evt_gcal_com_nyc_resistor_25d2de3f",
+      "name": "Hold: Drum Leaf Book Binding class",
+      "type": "hackerspace",
+      "locationId": "loc_nyc_resistor",
+      "communityId": "com_nyc_resistor",
+      "description": "",
+      "startDate": "2026-09-18T19:00:00-04:00",
+      "endDate": "2026-09-18T22:00:00-04:00",
+      "category": [
+        "hackerspace",
+        "maker",
+        "hardware",
+        "electronics",
+        "laser cutting",
+        "3d printing",
+        "microcontrollers",
+        "robotics"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": null,
+      "tags": [],
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://www.google.com/calendar/event?eid=ZWVkZDBkNDI2Nzc5NDEzZjliZTZiZDMwN2E5OTE3NDggcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw",
+        "original_event_id": "eedd0d426779413f9be6bd307a991748",
+        "organizer": {
+          "name": "NYCResistor",
+          "website": "",
+          "instagram": "",
+          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false,
+        "luma_host": null,
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=ZWVkZDBkNDI2Nzc5NDEzZjliZTZiZDMwN2E5OTE3NDggcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw"
+      }
+    },
+    {
       "id": "evt_gcal_com_nyc_resistor_2067a89a",
       "name": "Intro to Soldering Workshop: Make an LED Tile",
       "type": "hackerspace",
@@ -1694,6 +1747,59 @@
         "luma_source": false,
         "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=M3V1OG1ybXBlaW45aDE3cDZxbzI0OGQ3dGggcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw"
+      }
+    },
+    {
+      "id": "evt_gcal_com_nyc_resistor_babafce6",
+      "name": "Hold: Laser Block printing class",
+      "type": "hackerspace",
+      "locationId": "loc_nyc_resistor",
+      "communityId": "com_nyc_resistor",
+      "description": "",
+      "startDate": "2026-09-27T14:00:00-04:00",
+      "endDate": "2026-09-27T23:00:00-04:00",
+      "category": [
+        "hackerspace",
+        "maker",
+        "hardware",
+        "electronics",
+        "laser cutting",
+        "3d printing",
+        "microcontrollers",
+        "robotics"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": null,
+      "tags": [],
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://www.google.com/calendar/event?eid=ZWZjODY2MDQwZGI3NDJhOGFmYWU5MTE3ZjIyZDU3ZTMgcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw",
+        "original_event_id": "efc866040db742a8afae9117f22d57e3",
+        "organizer": {
+          "name": "NYCResistor",
+          "website": "",
+          "instagram": "",
+          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false,
+        "luma_host": null,
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=ZWZjODY2MDQwZGI3NDJhOGFmYWU5MTE3ZjIyZDU3ZTMgcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw"
       }
     },
     {
@@ -4188,5 +4294,5 @@
       }
     }
   ],
-  "timestamp": "2026-08-25T08:32:38.302713"
+  "timestamp": "2026-08-26T08:33:15.219400"
 }
