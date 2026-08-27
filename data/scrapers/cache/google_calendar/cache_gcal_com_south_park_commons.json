@@ -1,60 +1,6 @@
 {
   "events": [
     {
-      "id": "evt_gcal_com_south_park_commons_3fa9c8dd",
-      "name": "Fireside with Hans Robertson, Verkada",
-      "type": "technology",
-      "locationId": "",
-      "communityId": "com_south_park_commons",
-      "description": "South Park Commons is delighted to host Hans Robertson, Executive Chairman and Co-Founder of Verkada for a fireside chat. \n\nHans Robertson is executive chairman and co-founder of Verkada, a leader in cloud-based physical security solutions. Founded in 2016 with just four employees, Hans has helped scale Verkada to more than 2,200 employees, 31,000 enterprise customers, and a valuation of $5.8 billion. Today, Hans leads Verkada\u2019s daily operations in partnership with Verkada\u2019s CEO, Filip Kaliszan.\nPrior to Verkada, Hans co-founded another Silicon Valley Unicorn, Meraki, where he served as chief operating officer for almost a decade. During this time, he helped design the first cloud-managed enterprise networking products \u2013 including Wi-Fi, firewall, and switching systems \u2013 and led the company to a $1.2 billion acquisition with Cisco in 2012.\nPrior to founding Meraki he was a product manager at EMC and was an early employee at VMware. Hans began his career as a business analyst at McKinsey & Co. Hans also serves as a Board member at Pilot and Tractian. Hans holds a bachelor\u2019s and master\u2019s degree in computer science from the Massachusetts Institute of Technology (MIT).\n\n*This event is OTR*\nAbout South Park Commons (SPC)\nSPC is a technical community and venture fund dedicated to helping founders, researchers, and technologists figure out what to work on next\u2014what we call the -1 to 0 stage of your career. We believe this is best accomplished in the most talent-dense community possible.\nSPC events are open to members, alumni, and special guests of the community. The best way to join events at SPC is to apply for SPC membership.\n*Please note doors close at event start time and we are unable to accommodate pending, waitlist, or late arrivals.",
-      "startDate": "2026-08-26T16:30:00Z",
-      "endDate": "2026-08-26T18:00:00Z",
-      "category": [
-        "technology",
-        "innovation",
-        "learning",
-        "community"
-      ],
-      "price": {
-        "amount": 0.0,
-        "type": "Free",
-        "currency": "USD",
-        "details": "General Admission"
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": [],
-      "image": "events/luma-event-f621f896.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source": "Google Calendar",
-        "source_url": "https://luma.com/hans-robertson-spc",
-        "original_event_id": "_clr78baj6l8mesrl75h5kebm8d7k6u20clr6arjkecn6ot9edlgg",
-        "organizer": {
-          "name": "South Park Commons",
-          "website": "https://luma.com/southparkcommons-events",
-          "instagram": "",
-          "email": "bfptu3ajdae5cc2k16cvs1amenbft762@import.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "380 Brannan St\n380 Brannan St, San Francisco, California",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": true,
-        "luma_host": {
-          "name": "South Park Commons",
-          "url": "https://luma.com/southparkcommons-events",
-          "image": "https://images.lumacdn.com/calendars/zd/801eab25-f945-44b2-8d32-29a455bd485d",
-          "type": "Organization"
-        },
-        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmFqNmw4bWVzcmw3NWg1a2VibThkN2s2dTIwY2xyNmFyamtlY242b3Q5ZWRsZ2cgYmZwdHUzYWpkYWU1Y2MyazE2Y3ZzMWFtZW5iZnQ3NjJAaQ"
-      }
-    },
-    {
       "id": "evt_gcal_com_south_park_commons_157a35a5",
       "name": "Enterprise Security in the Age of AI at SPC NYC",
       "type": "technology",
@@ -109,5 +55,5 @@
       }
     }
   ],
-  "timestamp": "2026-08-26T08:33:16.601391"
+  "timestamp": "2026-08-27T18:39:26.181388"
 }

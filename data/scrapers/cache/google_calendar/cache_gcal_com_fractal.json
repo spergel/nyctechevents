@@ -1,60 +1,6 @@
 {
   "events": [
     {
-      "id": "evt_gcal_com_fractal_26d03618",
-      "name": "Speculative Worldbuilding Seminar, Unit 6 (FractalU)",
-      "type": "tech",
-      "locationId": "loc_fractal",
-      "communityId": "com_fractal",
-      "description": "This interdisciplinary seminar explores how fictional worlds operate as structured models of society, drawing on speculative fiction, history, anthropology, and political theory. Students analyze how environments, institutions, culture, memory, and technology shape social order, while building a single evolving fictional world across the semester. The course culminates in a cohesive \"world dossier\" integrating these elements into a fully realized speculative society that can be used as a platform for creative projects.\nApply for the semester here.",
-      "startDate": "2026-08-26T22:30:00Z",
-      "endDate": "2026-08-27T00:30:00Z",
-      "category": [
-        "tech",
-        "startup",
-        "innovation",
-        "education"
-      ],
-      "price": {
-        "amount": 0.0,
-        "type": "Free",
-        "currency": "USD",
-        "details": "General Admission"
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": [],
-      "image": "events/luma-event-a45ab4d7.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source": "Google Calendar",
-        "source_url": "https://luma.com/yty46bn2",
-        "original_event_id": "_clr78bbc89p4gkr1c5kk2j9k85mjada0clr6arjkecn6ot9edlgg",
-        "organizer": {
-          "name": "Sarah",
-          "website": "https://luma.com/user/usr-jImy8pXPdoV9Rs4",
-          "instagram": "",
-          "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
-        },
-        "venue": {
-          "name": "Fractal Tech",
-          "address": "111 Conselyea St, Brooklyn, NY 11211",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": true,
-        "luma_host": {
-          "name": "Sarah",
-          "url": "https://luma.com/user/usr-jImy8pXPdoV9Rs4",
-          "image": "https://images.lumacdn.com/uploads/r0/ec2a4233-729c-41b8-9dcf-0cf634c09153.jpg",
-          "type": "Person"
-        },
-        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmJjODlwNGdrcjFjNWtrMmo5azg1bWphZGEwY2xyNmFyamtlY242b3Q5ZWRsZ2cgdDN2MnJzb3VmZmZsMjA2amgxMDJ0dmEzamVla2ZnbWVAaQ"
-      }
-    },
-    {
       "id": "evt_gcal_com_fractal_55608466",
       "name": "[Closed - Private Event]",
       "type": "tech",
@@ -1071,7 +1017,7 @@
       "type": "tech",
       "locationId": "loc_fractal",
       "communityId": "com_fractal",
-      "description": "An event series for fostering thought leadership across data disciplines and those who work closely with data practitioners. This event will go beyond the hype and inspect the potential impact of AI on labor from well-informed business perspectives both on the ground and systemic.\nMC'd by Akpanoluo Etteh, Sr. Director of Data Engineering at Arcspan (fmr: Anthropic, Bandcamp) and founder of The Soundshop music salon series, and co-hosted by Michael Bartoli, Founder of Newtown Analytics (fmr: ob\u00e9 Fitness)\nDetails on our featured presenters forthcoming!",
+      "description": "An event series for fostering thought leadership across data disciplines and those who work closely with data practitioners. This event will go beyond the hype and inspect the potential impact of AI on labor from well-informed business perspectives both on the ground and systemic.\nMC'd by Akpanoluo Etteh, Sr. Director of Data Engineering at Arcspan (fmr: Anthropic, Bandcamp) and founder of The Soundshop music salon series, and co-hosted by Michael Bartoli, Founder of Newtown Analytics (fmr: ob\u00e9 Fitness)\nDetails on our speakers below:\n\nEmil's Remarks:\nThe future of AI is not predetermined; systems engineers/ entrepreneurs have choices, eg, about how to design technical systems that put people at the center. I will share my opinions about best practices in human-AI hybrid systems designs, at scale. \n\nAbout Emil:\nChronologically: quantitative psychology -> computational sociology -> chemicals and grocery supply chain machine learning -> climate finance entrepreneur -> hybrid human-AI knowledge systems engineer. Whoa! I design complex systems that model complex system, with applications in corporate forecasting.\nBen's remarks:\n\u2022 My role at KUNGFU\n\u2022 Some speculation about the future of work (i.e., things like Baumol\u2019s cost disease, work becoming more relational, rate of change, etc)\n\u2022 But specifically, what are common challenges facing organizations today?\n\u2022 How human-machine teaming is one approach to solving these challenges\n\u2022 Some of the qualities that matter the most today and going forward (e.g., ethical judgement)  effective leadership\n\u2022 What does it mean to be a good data practitioner today?\n\nAbout Ben:\nBen Szuhaj is an AI strategist passionate about helping organizations navigate AI transformation. At KUNGFU.AI, Ben works with leaders to develop and implement practical AI strategies that deliver tangible business value. Ben holds a BA in English and human-centered design from Dartmouth College, where he won the Mecklin Prize for creative nonfiction, and is a competitive long-distance runner.",
       "startDate": "2026-09-22T22:30:00Z",
       "endDate": "2026-09-23T01:00:00Z",
       "category": [
@@ -1984,5 +1930,5 @@
       }
     }
   ],
-  "timestamp": "2026-08-26T08:33:14.695383"
+  "timestamp": "2026-08-27T18:39:24.989411"
 }

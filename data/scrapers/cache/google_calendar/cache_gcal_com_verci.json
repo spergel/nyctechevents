@@ -1,114 +1,6 @@
 {
   "events": [
     {
-      "id": "evt_gcal_com_verci_8a24a61c",
-      "name": "Cookie Cafe",
-      "type": "technology",
-      "locationId": "",
-      "communityId": "com_verci",
-      "description": "12th Floor - Cookie pop up from Rising Rose!",
-      "startDate": "2026-08-26T15:00:00Z",
-      "endDate": "2026-08-26T19:00:00Z",
-      "category": [
-        "technology",
-        "innovation",
-        "society",
-        "community"
-      ],
-      "price": {
-        "amount": 0.0,
-        "type": "Free",
-        "currency": "USD",
-        "details": "General Admission"
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": [],
-      "image": "events/luma-event-f491096e.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source": "Google Calendar",
-        "source_url": "https://luma.com/verci-vmzj",
-        "original_event_id": "_clr78bah9p47gci68d6kaoa3ahn4khi0clr6arjkecn6ot9edlgg",
-        "organizer": {
-          "name": "Verci Events",
-          "website": "https://luma.com/verci",
-          "instagram": "",
-          "email": "pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "Verci Flatiron\nVerci Flatiron, New York, New York",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": true,
-        "luma_host": {
-          "name": "Verci Events",
-          "url": "https://luma.com/verci",
-          "image": "https://images.lumacdn.com/calendars/kw/d2a68898-7b2c-40c0-b2b7-27a313e1f6d2",
-          "type": "Organization"
-        },
-        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmFoOXA0N2djaTY4ZDZrYW9hM2FobjRraGkwY2xyNmFyamtlY242b3Q5ZWRsZ2cgcGY2bzdkcmxmcmJobXBxbG1sdDdwMjE1ZTcwaTljam5AaQ"
-      }
-    },
-    {
-      "id": "evt_gcal_com_verci_9aa63910",
-      "name": "Verci Cafe",
-      "type": "technology",
-      "locationId": "",
-      "communityId": "com_verci",
-      "description": "Stop by the weekly Verci Cafe for drinks on the house!",
-      "startDate": "2026-08-26T15:00:00Z",
-      "endDate": "2026-08-26T20:00:00Z",
-      "category": [
-        "technology",
-        "innovation",
-        "society",
-        "community"
-      ],
-      "price": {
-        "amount": 0.0,
-        "type": "Free",
-        "currency": "USD",
-        "details": "General Admission"
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": [],
-      "image": "events/luma-event-5d013f69.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source": "Google Calendar",
-        "source_url": "https://luma.com/9eywt5fq",
-        "original_event_id": "_clr78bbf9lrm8iine9ak8k32chpnek20clr6arjkecn6ot9edlgg",
-        "organizer": {
-          "name": "Verci Events",
-          "website": "https://luma.com/verci",
-          "instagram": "",
-          "email": "pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "45 E 20th St floor 12\n45 E 20th St floor 12, New York, New York",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": true,
-        "luma_host": {
-          "name": "Verci Events",
-          "url": "https://luma.com/verci",
-          "image": "https://images.lumacdn.com/calendars/kw/d2a68898-7b2c-40c0-b2b7-27a313e1f6d2",
-          "type": "Organization"
-        },
-        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmJmOWxybThpaW5lOWFrOGszMmNocG5lazIwY2xyNmFyamtlY242b3Q5ZWRsZ2cgcGY2bzdkcmxmcmJobXBxbG1sdDdwMjE1ZTcwaTljam5AaQ"
-      }
-    },
-    {
       "id": "evt_gcal_com_verci_f769274d",
       "name": "Happy Birthday Verci!!",
       "type": "technology",
@@ -132,7 +24,7 @@
       "capacity": null,
       "registrationRequired": false,
       "tags": [],
-      "image": "events/luma-event-2a6ccaa5.jpg",
+      "image": "events/luma-event-ecf7a650.jpg",
       "status": "upcoming",
       "metadata": {
         "source": "Google Calendar",
@@ -160,60 +52,6 @@
           "type": "Organization"
         },
         "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmI3OTFpbGtzYWQ3NHFqMGQzMmVkMjY0ajIwY2xyNmFyamtlY242b3Q5ZWRsZ2cgcGY2bzdkcmxmcmJobXBxbG1sdDdwMjE1ZTcwaTljam5AaQ"
-      }
-    },
-    {
-      "id": "evt_gcal_com_verci_0c8276cf",
-      "name": "AI Agents Founders Dinner with Verci, MongoDB, JPMorgan",
-      "type": "technology",
-      "locationId": "",
-      "communityId": "com_verci",
-      "description": "About this event\nVerci, MongoDB Ventures, and JPMorgan are hosting a private, curated dinner for a select group of idea to series a founders building in nyc\nMore about the hosts\nMongoDB Ventures is the strategic corporate venture capital arm of MongoDB, Inc. Headquartered in New York City, it invests in early-stage and high-growth startups building developer tools, infrastructure software, and foundational data/AI technologies\nJPMorgan Chase & Co. is the largest bank in the United States and a leading global financial services firm. Headquartered in New York City, it operates in over 100 countries, offering investment banking, asset management, treasury services, and retail banking through the Chase brand.\nVerci is a workspace and social space in NYC (and soon LA/SF), meticulously curated for founders, artists, and creatives. Learn more at verci.com and read our manifesto at verci.com/manifesto.",
-      "startDate": "2026-08-28T23:00:00Z",
-      "endDate": "2026-08-29T01:00:00Z",
-      "category": [
-        "technology",
-        "innovation",
-        "society",
-        "community"
-      ],
-      "price": {
-        "amount": 0.0,
-        "type": "Free",
-        "currency": "USD",
-        "details": "General Admission"
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": [],
-      "image": "events/luma-event-3e2d921f.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source": "Google Calendar",
-        "source_url": "https://luma.com/dmyx24by",
-        "original_event_id": "_clr78bb38p472kqje12mkib5dlrmmhq0clr6arjkecn6ot9edlgg",
-        "organizer": {
-          "name": "Verci Events",
-          "website": "https://luma.com/verci",
-          "instagram": "",
-          "email": "pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "New York, NY\nNew York, New York",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": true,
-        "luma_host": {
-          "name": "Verci Events",
-          "url": "https://luma.com/verci",
-          "image": "https://images.lumacdn.com/calendars/kw/d2a68898-7b2c-40c0-b2b7-27a313e1f6d2",
-          "type": "Organization"
-        },
-        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmIzOHA0NzJrcWplMTJta2liNWRscm1taHEwY2xyNmFyamtlY242b3Q5ZWRsZ2cgcGY2bzdkcmxmcmJobXBxbG1sdDdwMjE1ZTcwaTljam5AaQ"
       }
     },
     {
@@ -428,6 +266,60 @@
       }
     },
     {
+      "id": "evt_gcal_com_verci_f350cd6b",
+      "name": "Consumer Founders Dinner w/ Verci and Photon",
+      "type": "technology",
+      "locationId": "",
+      "communityId": "com_verci",
+      "description": "Verci and Photon are hosting a private, curated dinner for a select group of consumer founders in NYC for ~12 founders.\nAbout the Partners:\nPhoton brings agents to the interfaces millions already use with an open-source framework that connects them to SMS/RCS, iMessage, WhatsApp, Discord, Slack, Telegram, and more.\nVerci is a workspace and social space in LA and NYC, meticulously curated for founders, artists, and creatives. Learn more at la.verci.com and verci.com. read our manifesto at verci.com/manifesto.",
+      "startDate": "2026-09-02T22:00:00Z",
+      "endDate": "2026-09-03T00:30:00Z",
+      "category": [
+        "technology",
+        "innovation",
+        "society",
+        "community"
+      ],
+      "price": {
+        "amount": 0.0,
+        "type": "Free",
+        "currency": "USD",
+        "details": "General Admission"
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": [],
+      "image": "events/luma-event-a5160db3.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://luma.com/s7fjq7b0",
+        "original_event_id": "_clr78b9gc545cs34dhnmirpn6di6cui0clr6arjkecn6ot9edlgg",
+        "organizer": {
+          "name": "Verci Events",
+          "website": "https://luma.com/verci",
+          "instagram": "",
+          "email": "pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "New York, NY\nNew York, New York",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": true,
+        "luma_host": {
+          "name": "Verci Events",
+          "url": "https://luma.com/verci",
+          "image": "https://images.lumacdn.com/calendars/kw/d2a68898-7b2c-40c0-b2b7-27a313e1f6d2",
+          "type": "Organization"
+        },
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YjlnYzU0NWNzMzRkaG5taXJwbjZkaTZjdWkwY2xyNmFyamtlY242b3Q5ZWRsZ2cgcGY2bzdkcmxmcmJobXBxbG1sdDdwMjE1ZTcwaTljam5AaQ"
+      }
+    },
+    {
       "id": "evt_gcal_com_verci_a2376b96",
       "name": "International Founders Dinner with Verci",
       "type": "technology",
@@ -479,6 +371,60 @@
           "type": "Organization"
         },
         "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmIyZjU5M2docjlldG1tcWlyNmRwYmowbGkwY2xyNmFyamtlY242b3Q5ZWRsZ2cgcGY2bzdkcmxmcmJobXBxbG1sdDdwMjE1ZTcwaTljam5AaQ"
+      }
+    },
+    {
+      "id": "evt_gcal_com_verci_74798851",
+      "name": "Private Screening: Tony",
+      "type": "technology",
+      "locationId": "",
+      "communityId": "com_verci",
+      "description": "we rented out a whole movie theater (!!) for a private screening of A24\u2019s new movie Tony.\ndoors at 6:45 PM\nmovie starts at 7:00 PM\nopen to verci members + friends...come hang, bring someone, get comfy in a real theater with popcorn + a drink, and watch one of A24\u2019s newest films with us <3",
+      "startDate": "2026-09-08T23:00:00Z",
+      "endDate": "2026-09-09T02:00:00Z",
+      "category": [
+        "technology",
+        "innovation",
+        "society",
+        "community"
+      ],
+      "price": {
+        "amount": 20.0,
+        "type": "Paid",
+        "currency": "USD",
+        "details": "General Admission"
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": [],
+      "image": "events/luma-event-a94cd9ee.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://luma.com/l9rcuof0",
+        "original_event_id": "_clr78bb7e956eljie9q6mk2ccl4k6la0clr6arjkecn6ot9edlgg",
+        "organizer": {
+          "name": "Verci Events",
+          "website": "https://luma.com/verci",
+          "instagram": "",
+          "email": "pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "Cinema Village\nCinema Village, New York, New York",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": true,
+        "luma_host": {
+          "name": "Verci Events",
+          "url": "https://luma.com/verci",
+          "image": "https://images.lumacdn.com/calendars/kw/d2a68898-7b2c-40c0-b2b7-27a313e1f6d2",
+          "type": "Organization"
+        },
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmI3ZTk1NmVsamllOXE2bWsyY2NsNGs2bGEwY2xyNmFyamtlY242b3Q5ZWRsZ2cgcGY2bzdkcmxmcmJobXBxbG1sdDdwMjE1ZTcwaTljam5AaQ"
       }
     },
     {
@@ -590,6 +536,60 @@
       }
     },
     {
+      "id": "evt_gcal_com_verci_f1a54e5d",
+      "name": "Onboarding Night",
+      "type": "technology",
+      "locationId": "",
+      "communityId": "com_verci",
+      "description": "VERCI ONBOARDING NIGHT!!\nCongrats, you\u2019re in. Now it\u2019s time to get properly initiated.\nWhat are we doing? It\u2019s a surprise. Just know it\u2019ll be super fun and you\u2019ll leave knowing some new faces around Verci.\nCome ready to participate, meet your fellow new members, and trust the process.\nAttendance is voluntary (mandatory). See you there!!!!",
+      "startDate": "2026-09-14T22:00:00Z",
+      "endDate": "2026-09-15T00:00:00Z",
+      "category": [
+        "technology",
+        "innovation",
+        "society",
+        "community"
+      ],
+      "price": {
+        "amount": 0.0,
+        "type": "Free",
+        "currency": "USD",
+        "details": "General Admission"
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": [],
+      "image": "events/luma-event-8c541798.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://luma.com/verci-xuwr",
+        "original_event_id": "_clr78ba38525gcikf1kkieaqa5i46ka0clr6arjkecn6ot9edlgg",
+        "organizer": {
+          "name": "Verci Events",
+          "website": "https://luma.com/verci",
+          "instagram": "",
+          "email": "pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "Verci Flatiron\nVerci Flatiron, New York, New York",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": true,
+        "luma_host": {
+          "name": "Verci Events",
+          "url": "https://luma.com/verci",
+          "image": "https://images.lumacdn.com/calendars/kw/d2a68898-7b2c-40c0-b2b7-27a313e1f6d2",
+          "type": "Organization"
+        },
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmEzODUyNWdjaWtmMWtraWVhcWE1aTQ2a2EwY2xyNmFyamtlY242b3Q5ZWRsZ2cgcGY2bzdkcmxmcmJobXBxbG1sdDdwMjE1ZTcwaTljam5AaQ"
+      }
+    },
+    {
       "id": "evt_gcal_com_verci_67d4bb7a",
       "name": "Verci Cafe",
       "type": "technology",
@@ -641,6 +641,60 @@
           "type": "Organization"
         },
         "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YjlsYXBiNGFsaTZldDBrNmhhM2NsczRramkwY2xyNmFyamtlY242b3Q5ZWRsZ2cgcGY2bzdkcmxmcmJobXBxbG1sdDdwMjE1ZTcwaTljam5AaQ"
+      }
+    },
+    {
+      "id": "evt_gcal_com_verci_0c8276cf",
+      "name": "AI Agents Founders Dinner",
+      "type": "technology",
+      "locationId": "",
+      "communityId": "com_verci",
+      "description": "About this event\nVerci, MongoDB Ventures, and JPMorgan are hosting a private, curated dinner for a select group of idea to series a founders building in nyc\nMore about the hosts\nMongoDB Ventures is the strategic corporate venture capital arm of MongoDB, Inc. Headquartered in New York City, it invests in early-stage and high-growth startups building developer tools, infrastructure software, and foundational data/AI technologies\nJPMorgan Chase & Co. is the largest bank in the United States and a leading global financial services firm. Headquartered in New York City, it operates in over 100 countries, offering investment banking, asset management, treasury services, and retail banking through the Chase brand.\nVerci is a workspace and social space in NYC (and soon LA/SF), meticulously curated for founders, artists, and creatives. Learn more at verci.com and read our manifesto at verci.com/manifesto.",
+      "startDate": "2026-09-22T23:00:00Z",
+      "endDate": "2026-09-23T01:00:00Z",
+      "category": [
+        "technology",
+        "innovation",
+        "society",
+        "community"
+      ],
+      "price": {
+        "amount": 0.0,
+        "type": "Free",
+        "currency": "USD",
+        "details": "General Admission"
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": [],
+      "image": "events/luma-event-3e2d921f.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://luma.com/dmyx24by",
+        "original_event_id": "_clr78bb38p472kqje12mkib5dlrmmhq0clr6arjkecn6ot9edlgg",
+        "organizer": {
+          "name": "Verci Events",
+          "website": "https://luma.com/verci",
+          "instagram": "",
+          "email": "pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "New York, NY\nNew York, New York",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": true,
+        "luma_host": {
+          "name": "Verci Events",
+          "url": "https://luma.com/verci",
+          "image": "https://images.lumacdn.com/calendars/kw/d2a68898-7b2c-40c0-b2b7-27a313e1f6d2",
+          "type": "Organization"
+        },
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmIzOHA0NzJrcWplMTJta2liNWRscm1taHEwY2xyNmFyamtlY242b3Q5ZWRsZ2cgcGY2bzdkcmxmcmJobXBxbG1sdDdwMjE1ZTcwaTljam5AaQ"
       }
     },
     {
@@ -909,5 +963,5 @@
       }
     }
   ],
-  "timestamp": "2026-08-26T08:33:25.639758"
+  "timestamp": "2026-08-27T18:39:35.895587"
 }
