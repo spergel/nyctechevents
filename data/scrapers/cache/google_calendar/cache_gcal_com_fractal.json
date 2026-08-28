@@ -1,14 +1,14 @@
 {
   "events": [
     {
-      "id": "evt_gcal_com_fractal_55608466",
-      "name": "[Closed - Private Event]",
+      "id": "evt_gcal_com_fractal_c7393b59",
+      "name": "Dreamlining",
       "type": "tech",
       "locationId": "",
       "communityId": "com_fractal",
-      "description": "Get up-to-date information at: https://luma.com/nyc-d0m3\n\nAddress:\nCheck event page for more details.\n\nHosted by Priya Rose \ud83c\udf39",
+      "description": "Find more information on https://luma.com/nyc-tech",
       "startDate": "2026-08-28T22:00:00Z",
-      "endDate": "2026-08-29T01:00:00Z",
+      "endDate": "2026-08-29T00:00:00Z",
       "category": [
         "tech",
         "startup",
@@ -22,14 +22,14 @@
         "details": ""
       },
       "capacity": null,
-      "registrationRequired": null,
+      "registrationRequired": false,
       "tags": [],
       "image": "",
       "status": "upcoming",
       "metadata": {
         "source": "Google Calendar",
-        "source_url": "https://luma.com/nyc-d0m3",
-        "original_event_id": "_clr78ba16pq42u3b89b6uoplf1ik8da0clr6arjkecn6ot9edlgg",
+        "source_url": "https://luma.com/nyc-tech",
+        "original_event_id": "_cdgmopbm5l1kkq37cpa3ejbndl2motbnet06atj5dpq76bjcekn6qo8",
         "organizer": {
           "name": "Fractal Campus NYC",
           "website": "",
@@ -38,7 +38,7 @@
         },
         "venue": {
           "name": "",
-          "address": "https://luma.com/event/evt-A6tAxkBVoc5xeD5",
+          "address": "https://partiful.com/e/NYdaHxgHPx04xt8mp5DC?c=25aA4lzA",
           "type": "Offline"
         },
         "speakers": [],
@@ -46,7 +46,7 @@
         "featured": false,
         "luma_source": true,
         "luma_host": null,
-        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmExNnBxNDJ1M2I4OWI2dW9wbGYxaWs4ZGEwY2xyNmFyamtlY242b3Q5ZWRsZ2cgdDN2MnJzb3VmZmZsMjA2amgxMDJ0dmEzamVla2ZnbWVAaQ"
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2NkZ21vcGJtNWwxa2txMzdjcGEzZWpibmRsMm1vdGJuZXQwNmF0ajVkcHE3NmJqY2VrbjZxbzggdDN2MnJzb3VmZmZsMjA2amgxMDJ0dmEzamVla2ZnbWVAaQ"
       }
     },
     {
@@ -321,7 +321,7 @@
     },
     {
       "id": "evt_gcal_com_fractal_7a193862",
-      "name": "[SleepaWeek NYC] What Fills My Cup?",
+      "name": "[SleepaWeek NYC] WOW, I feel good!",
       "type": "tech",
       "locationId": "loc_fractal",
       "communityId": "com_fractal",
@@ -644,6 +644,163 @@
       }
     },
     {
+      "id": "evt_gcal_com_fractal_be4b960a",
+      "name": "NYC Code and Coffee 88 at Fractal Tech Hub: Williamsburg",
+      "type": "tech",
+      "locationId": "",
+      "communityId": "com_fractal",
+      "description": "Find more information on https://luma.com/nyc-tech",
+      "startDate": "2026-09-06T18:00:00Z",
+      "endDate": "2026-09-06T21:00:00Z",
+      "category": [
+        "tech",
+        "startup",
+        "innovation",
+        "education"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": [],
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://luma.com/nyc-tech",
+        "original_event_id": "_cdgmopbm5lpkgdr7eoolaebk6t352ihgd506atj5dpq76bjcekn6qo8",
+        "organizer": {
+          "name": "Fractal Campus NYC",
+          "website": "",
+          "instagram": "",
+          "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "https://www.meetup.com/new-york-code-coffee/events/316046666/",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": true,
+        "luma_host": null,
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2NkZ21vcGJtNWxwa2dkcjdlb29sYWViazZ0MzUyaWhnZDUwNmF0ajVkcHE3NmJqY2VrbjZxbzggdDN2MnJzb3VmZmZsMjA2amgxMDJ0dmEzamVla2ZnbWVAaQ"
+      }
+    },
+    {
+      "id": "evt_gcal_com_fractal_8ba870cd",
+      "name": "Structure and Interpretation of Classical Mechanics Reading Group",
+      "type": "tech",
+      "locationId": "",
+      "communityId": "com_fractal",
+      "description": "Get up-to-date information at: https://luma.com/wrfb1cic\n\nAddress:\n111 Conselyea St\nBrooklyn, NY\nUnited States\n\nHosted by David A. Lee",
+      "startDate": "2026-09-07T23:00:00Z",
+      "endDate": "2026-09-08T00:00:00Z",
+      "category": [
+        "tech",
+        "startup",
+        "innovation",
+        "education"
+      ],
+      "price": {
+        "amount": 0.0,
+        "type": "Free",
+        "currency": "USD",
+        "details": "General Admission"
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": [],
+      "image": "events/luma-event-cae31efd.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://luma.com/wrfb1cic",
+        "original_event_id": "_clr78bae6orlgt226l7l0tricdq4edq0clr6arjkecn6ot9edlgg",
+        "organizer": {
+          "name": "David A. Lee",
+          "website": "https://luma.com/user/usr-fD2Qm3mDOiT9FyP",
+          "instagram": "",
+          "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "111 Conselyea St\n111 Conselyea St, Brooklyn, New York",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": true,
+        "luma_host": {
+          "name": "David A. Lee",
+          "url": "https://luma.com/user/usr-fD2Qm3mDOiT9FyP",
+          "image": "https://images.lumacdn.com/avatars/8z/2cf2e4c3-a9d3-41b0-8ccd-a9cb51fa918c.jpg",
+          "type": "Person"
+        },
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmFlNm9ybGd0MjI2bDdsMHRyaWNkcTRlZHEwY2xyNmFyamtlY242b3Q5ZWRsZ2cgdDN2MnJzb3VmZmZsMjA2amgxMDJ0dmEzamVla2ZnbWVAaQ"
+      }
+    },
+    {
+      "id": "evt_gcal_com_fractal_0cee66dd",
+      "name": "The Founding Debate Reading Group #8 - A Compact or a Nation?",
+      "type": "tech",
+      "locationId": "loc_fractal",
+      "communityId": "com_fractal",
+      "description": "A Compact or a Nation?\nIn 2026, the United States turns 250. Across eight weeks we're reading the founders in their own words \u2014 the arguments they had with each other about liberty, power, and the system of government they were building.\nThe question in our final week: what is the thing the Constitution made - a compact among sovereign states, or a nation? And did the experiment hold?\nWashington's Farewell Address (1796) \u2014 the first president declines a third term, which was the most consequential thing he ever did, and then warns against the two forces he thinks will break the Union: party spirit and sectional feeling.\nThe Kentucky and Virginia Resolutions (1798\u201399) \u2014 twenty-six months later, his own Secretary of State and the man who drafted his first inaugural answer him. The Constitution is a compact, the states are the parties, and each may judge for itself when it has been broken. Kentucky supplies the word: nullification. Written in a good cause \u2014 the Alien and Sedition Acts were a disgrace \u2014 and it becomes the constitutional argument for secession.\nThe Corner-Stone speech (1861) \u2014 three weeks before Fort Sumter, the Vice-President of the Confederacy explains what his government is founded on. He does not claim the founders. He says they believed slavery was wrong in principle, that they rested their government on the equality of men, and that in believing so they were mistaken.\nThe Gettysburg Address (1863) \u2014 272 words that date the nation to 1776 rather than 1787, and to the Declaration rather than the Constitution. Lincoln agrees with Stephens about what the founders believed and disagrees about whether they were right. Both men are claiming the same fathers.\nThe Second Inaugural (1865) \u2014 the same man, six weeks from death, with the war effectively won, declining to claim the vindication that was by then in his hands.\nDownload this week's reader here: masonmelead.com/foundingwk8.pdf",
+      "startDate": "2026-09-08T22:30:00Z",
+      "endDate": "2026-09-09T00:00:00Z",
+      "category": [
+        "tech",
+        "startup",
+        "innovation",
+        "education"
+      ],
+      "price": {
+        "amount": 0.0,
+        "type": "Free",
+        "currency": "USD",
+        "details": "General Admission"
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": [],
+      "image": "events/luma-event-09871e7d.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://luma.com/27h4c16o",
+        "original_event_id": "_clr78b9ia1rj4opkc9266ibk75p76t20clr6arjkecn6ot9edlgg",
+        "organizer": {
+          "name": "Mason Melead",
+          "website": "https://luma.com/user/usr-4BqWT7Ft7quU7Tr",
+          "instagram": "",
+          "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "Fractal Tech",
+          "address": "111 Conselyea St, Brooklyn, NY 11211",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": true,
+        "luma_host": {
+          "name": "Mason Melead",
+          "url": "https://luma.com/user/usr-4BqWT7Ft7quU7Tr",
+          "image": "https://cdn.lu.ma/avatars-default/avatar_15.png",
+          "type": "Person"
+        },
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YjlpYTFyajRvcGtjOTI2Nmliazc1cDc2dDIwY2xyNmFyamtlY242b3Q5ZWRsZ2cgdDN2MnJzb3VmZmZsMjA2amgxMDJ0dmEzamVla2ZnbWVAaQ"
+      }
+    },
+    {
       "id": "evt_gcal_com_fractal_d7958d81",
       "name": "We Can Just Do Things \ud83d\ude4c",
       "type": "tech",
@@ -749,6 +906,55 @@
           "type": "Organization"
         },
         "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmJwOGRwazZjaHA2NTg0Y3JqMjZsODdraDIwY2xyNmFyamtlY242b3Q5ZWRsZ2cgdDN2MnJzb3VmZmZsMjA2amgxMDJ0dmEzamVla2ZnbWVAaQ"
+      }
+    },
+    {
+      "id": "evt_gcal_com_fractal_e0b7cae4",
+      "name": "schizo open mic #02",
+      "type": "tech",
+      "locationId": "",
+      "communityId": "com_fractal",
+      "description": "Find more information on https://luma.com/nyc-tech",
+      "startDate": "2026-09-10T23:00:00Z",
+      "endDate": "2026-09-11T01:00:00Z",
+      "category": [
+        "tech",
+        "startup",
+        "innovation",
+        "education"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": [],
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://luma.com/nyc-tech",
+        "original_event_id": "_cdgmopbm5ll70khmddsn4ia695mj6gicch06atj5dpq76bjcekn6qo8",
+        "organizer": {
+          "name": "Fractal Campus NYC",
+          "website": "",
+          "instagram": "",
+          "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "https://partiful.com/e/gxDxXETMb09dSzeDJA4E",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": true,
+        "luma_host": null,
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2NkZ21vcGJtNWxsNzBraG1kZHNuNGlhNjk1bWo2Z2ljY2gwNmF0ajVkcHE3NmJqY2VrbjZxbzggdDN2MnJzb3VmZmZsMjA2amgxMDJ0dmEzamVla2ZnbWVAaQ"
       }
     },
     {
@@ -897,7 +1103,7 @@
         },
         "venue": {
           "name": "",
-          "address": "New York\nNew York, New York, New York",
+          "address": "New York, NY\nNew York, New York",
           "type": "Offline"
         },
         "speakers": [],
@@ -911,55 +1117,6 @@
           "type": "Organization"
         },
         "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmFrYWRjNWNlYnA4c3I0a29iNWE5Y25raGkwY2xyNmFyamtlY242b3Q5ZWRsZ2cgdDN2MnJzb3VmZmZsMjA2amgxMDJ0dmEzamVla2ZnbWVAaQ"
-      }
-    },
-    {
-      "id": "evt_gcal_com_fractal_be69bfdf",
-      "name": "Builders NYC Hackathon: AI in Sports and Personal Health",
-      "type": "tech",
-      "locationId": "",
-      "communityId": "com_fractal",
-      "description": "Get up-to-date information at: https://luma.com/y2c068nu\n\nAddress:\nCheck event page for more details.\n\nHosted by Samuel Michnik",
-      "startDate": "2026-09-19T14:00:00Z",
-      "endDate": "2026-09-20T00:00:00Z",
-      "category": [
-        "tech",
-        "startup",
-        "innovation",
-        "education"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": null,
-      "tags": [],
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source": "Google Calendar",
-        "source_url": "https://luma.com/y2c068nu",
-        "original_event_id": "_clr78ba66lbkgr3lch0kssi19t2mmi20clr6arjkecn6ot9edlgg",
-        "organizer": {
-          "name": "Fractal Campus NYC",
-          "website": "",
-          "instagram": "",
-          "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "https://luma.com/event/evt-F5WHludANrAOEkH",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": true,
-        "luma_host": null,
-        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmE2Nmxia2dyM2xjaDBrc3NpMTl0Mm1taTIwY2xyNmFyamtlY242b3Q5ZWRsZ2cgdDN2MnJzb3VmZmZsMjA2amgxMDJ0dmEzamVla2ZnbWVAaQ"
       }
     },
     {
@@ -1009,6 +1166,60 @@
         "luma_source": true,
         "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=X2NkZ21vcGJtNWxsNGVxMjlhNTE0Z20xajhoc2s4bGI0ZjEwNmF0ajVkcHE3NmJqY2VrbjZxbzggdDN2MnJzb3VmZmZsMjA2amgxMDJ0dmEzamVla2ZnbWVAaQ"
+      }
+    },
+    {
+      "id": "evt_gcal_com_fractal_ea3072b1",
+      "name": "Voice Agents in Production \u2014 NYC Builders Meetup",
+      "type": "tech",
+      "locationId": "",
+      "communityId": "com_fractal",
+      "description": "Voice AI has moved fast from impressive demos to real-world deployment - and that is where the interesting problems begin.\nVoice Agents in Production is a small, technical meetup for founders, engineers, AI builders, and operators working on or exploring real-time voice agents.\nThe focus is practical: what actually happens when voice agents start speaking with real customers.\nWe\u2019ll get into topics such as:\nReal-time latency and conversation quality\nInterruptions, turn-taking, and natural dialogue\nTool calling and connecting agents to real systems\nTelephony and production infrastructure\nReliability, monitoring, and evaluation\nMultilingual voice agents\nWhat works in demos but breaks in production\nWhere Voice AI is heading next\nThe evening will feature a few short live demos from builders, an open discussion around lessons from building Voice AI systems, and plenty of time to meet others working in the space.\nFormat\n5:00\u20135:25 PM \u2014 Arrivals & networking\n5:25\u20135:35 PM \u2014 Welcome & introductions\n5:35\u20136:05 PM \u2014 Voice Agents in Production: builder discussion\n6:05\u20136:30 PM \u2014 Live demos\n6:30\u20137:00 PM \u2014 Open discussion & networking\nNo long presentations and no sales pitches \u2014 just builders sharing what they are learning, showing what they are building, and meeting others working on the next generation of conversational AI.\nHosted by Kaleem Khan, Founder of heyfon.ai, while in NYC connecting with the Voice AI and broader AI builder community.\nFree to attend. Registration approval required due to limited capacity.",
+      "startDate": "2026-09-20T21:00:00Z",
+      "endDate": "2026-09-20T23:00:00Z",
+      "category": [
+        "tech",
+        "startup",
+        "innovation",
+        "education"
+      ],
+      "price": {
+        "amount": 0.0,
+        "type": "Free",
+        "currency": "USD",
+        "details": "General Admission"
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": [],
+      "image": "events/luma-event-0cb74165.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://luma.com/mb2tr97s",
+        "original_event_id": "_clr78bbke5172q29ehp3arim6pd62si0clr6arjkecn6ot9edlgg",
+        "organizer": {
+          "name": "Kaleem Khan",
+          "website": "https://luma.com/user/kaleemkhan",
+          "instagram": "",
+          "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "Venue pending \u2014 Fractal Campus NYC submitted for approval",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": true,
+        "luma_host": {
+          "name": "Kaleem Khan",
+          "url": "https://luma.com/user/kaleemkhan",
+          "image": "https://images.lumacdn.com/uploads/pn/20112af9-40ae-41b1-9694-3639b41602ca.png",
+          "type": "Person"
+        },
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmJrZTUxNzJxMjllaHAzYXJpbTZwZDYyc2kwY2xyNmFyamtlY242b3Q5ZWRsZ2cgdDN2MnJzb3VmZmZsMjA2amgxMDJ0dmEzamVla2ZnbWVAaQ"
       }
     },
     {
@@ -1225,6 +1436,114 @@
           "type": "Organization"
         },
         "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmEyOWQwamV1OW45Z3A2Nm9hbWE5YW1pdTIwY2xyNmFyamtlY242b3Q5ZWRsZ2cgdDN2MnJzb3VmZmZsMjA2amgxMDJ0dmEzamVla2ZnbWVAaQ"
+      }
+    },
+    {
+      "id": "evt_gcal_com_fractal_c71c8177",
+      "name": "Builders NYC: Dev Talk LIVE",
+      "type": "tech",
+      "locationId": "loc_fractal",
+      "communityId": "com_fractal",
+      "description": "Dev Talk LIVE\nCome hear what NYC builders are actually working on.\nDev Talk LIVE brings together a small lineup of developers, founders, and builders to showcase what they\u2019ve built, tell the story behind it, and break down the technical and product decisions that got them there.\nEach featured builder gets the floor to take us inside their project: what they set out to build, the problems they ran into, the technology behind it, what changed along the way, and what they learned from shipping it. Then we open things up for questions and conversation with the room.\nNo endless panels. No surface-level startup pitches. No pretending everything went perfectly.\nJust builders talking builds.\nWe\u2019ll have roughly 90\u201395 minutes of featured Dev Talks, with plenty of breathing room between sessions and time before and after to meet other developers, founders, creatives, and technologists from around NYC.\nSchedule\n6:30 PM \u2014 Doors Open + Meet the Community\n7:00 PM \u2014 Dev Talk LIVE Begins\n8:35 PM \u2014 Talks Wrap\n8:35\u20139:00 PM \u2014 Hang Out, Meet the Speakers + Networking\nWhether you\u2019re working on your own product, looking for inspiration, interested in how other people approach building, or just want to meet more people making cool things in NYC, come through.\nBring your questions. Meet some builders. Leave with something to think about.\nYou can connect with us here: https://linktr.ee/builders.nyc",
+      "startDate": "2026-10-02T22:30:00Z",
+      "endDate": "2026-10-03T01:00:00Z",
+      "category": [
+        "tech",
+        "startup",
+        "innovation",
+        "education"
+      ],
+      "price": {
+        "amount": 0.0,
+        "type": "Free",
+        "currency": "USD",
+        "details": "General Admission"
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": [],
+      "image": "events/luma-event-66ae7362.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://luma.com/houw3tqf",
+        "original_event_id": "_clr78ba99ph56tqaecpm8ua285r4sdq0clr6arjkecn6ot9edlgg",
+        "organizer": {
+          "name": "Builders NYC",
+          "website": "https://luma.com/builders-nyc",
+          "instagram": "",
+          "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "Fractal Tech",
+          "address": "111 Conselyea St, Brooklyn, NY 11211",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": true,
+        "luma_host": {
+          "name": "Builders NYC",
+          "url": "https://luma.com/builders-nyc",
+          "image": "https://images.lumacdn.com/uploads/u5/f9f898b6-f70c-418c-99be-739654bcda7d.png",
+          "type": "Organization"
+        },
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmE5OXBoNTZ0cWFlY3BtOHVhMjg1cjRzZHEwY2xyNmFyamtlY242b3Q5ZWRsZ2cgdDN2MnJzb3VmZmZsMjA2amgxMDJ0dmEzamVla2ZnbWVAaQ"
+      }
+    },
+    {
+      "id": "evt_gcal_com_fractal_e747bf19",
+      "name": "Brderless Buildathon: AI Agents",
+      "type": "tech",
+      "locationId": "",
+      "communityId": "com_fractal",
+      "description": "Brderless Buildathon: AI Agents - NYC\nMost hackathons end at the demo. We built this differently.\nThe Brderless Buildathon is a two-part format: a curated 24-hour build in New York, then two weeks to keep shipping, then a Demo Day where the selected winning teams show a real product.\nPart 1 - The Buildathon (October 4)\n100 vetted builders. One theme: AI agents that do real work - planning, tool use, multi-step execution, human-in-the-loop. Not chatbots.\nThe day:\n10:00am: Doors open, breakfast\n11:00am: Keynote from speakers & team formation\n12:00pm: Lunch & build\n3:00pm: Project check-ins\n4:00pm: Submissions close & final selections\n5:00pm: Judging round one, awards, and selection of the teams advancing to Part 2\nFood and caffeine for the full 24. Top teams advance to part 2.\nPart 2 - Demo Day (October 8)\nSelected teams get two weeks and mentor support + credits to turn the weekend into a product. Then they demo live to a curated room of investors, operators, and sponsors - 7-min demo, 5-min Q&A.\nWho should apply?\nEngineers, technical founders, AI/agents engineers, and product people who ship. Solo, with a team, or matched with one - all fine. If you come as a pair or group, please make sure that everyone registers.\nAbout the Hosts & Sponsors\nBrderless brings together the most extraordinary founders and builders through a carefully curated community.",
+      "startDate": "2026-10-04T14:00:00Z",
+      "endDate": "2026-10-04T23:00:00Z",
+      "category": [
+        "tech",
+        "startup",
+        "innovation",
+        "education"
+      ],
+      "price": {
+        "amount": 0.0,
+        "type": "Free",
+        "currency": "USD",
+        "details": "General Admission"
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": [],
+      "image": "events/luma-event-b66a8867.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://luma.com/12ftqloq",
+        "original_event_id": "_clr78bb9ad3l4hblatnkuoi88hgkoha0clr6arjkecn6ot9edlgg",
+        "organizer": {
+          "name": "Brderless",
+          "website": "https://luma.com/brderless",
+          "instagram": "",
+          "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "Brooklyn, NY\nBrooklyn, New York",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": true,
+        "luma_host": {
+          "name": "Brderless",
+          "url": "https://luma.com/brderless",
+          "image": "https://images.lumacdn.com/calendars/0l/0594dad1-774d-4989-a603-87361364741d.png",
+          "type": "Organization"
+        },
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmI5YWQzbDRoYmxhdG5rdW9pODhoZ2tvaGEwY2xyNmFyamtlY242b3Q5ZWRsZ2cgdDN2MnJzb3VmZmZsMjA2amgxMDJ0dmEzamVla2ZnbWVAaQ"
       }
     },
     {
@@ -1606,6 +1925,60 @@
       }
     },
     {
+      "id": "evt_gcal_com_fractal_59240598",
+      "name": "NYC Physical AI, ML, and Computer Vision Meetup",
+      "type": "tech",
+      "locationId": "loc_fractal",
+      "communityId": "com_fractal",
+      "description": "Join us in New York on November 13th for the NYC Physical AI, ML, and Computer Vision Meetup, co-presented by Nebius and Voxel51.\nThe evening features lightning talks from local speakers working across AI, machine learning, and computer vision, followed by networking, food, and drinks.\nTalks will include:\nClosing the human to robot gap for dexterous hands \u2014 Irmak Guzey at New York University\nBuilding Real-World Computer Vision Systems with Voxel51 \u2014 Dan Gural at Voxel51\nLocation: Fractal, 111 Conselyea St, Fl 2, Brooklyn, NY 11211 (Williamsburg - 3 min from the Lorimer St L/Metropolitan Ave G stop).",
+      "startDate": "2026-11-13T22:30:00Z",
+      "endDate": "2026-11-14T01:30:00Z",
+      "category": [
+        "tech",
+        "startup",
+        "innovation",
+        "education"
+      ],
+      "price": {
+        "amount": 0.0,
+        "type": "Free",
+        "currency": "USD",
+        "details": "General Admission"
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": [],
+      "image": "events/luma-event-e88537b0.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://luma.com/nyc-physical-ai-ml-and-computer-vision-meetup-nov",
+        "original_event_id": "_clr78ba8e1k4mq28b5s54uhkd566ooa0clr6arjkecn6ot9edlgg",
+        "organizer": {
+          "name": "Voxel51 Events",
+          "website": "https://luma.com/voxel51",
+          "instagram": "",
+          "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "Fractal Tech",
+          "address": "111 Conselyea St, Brooklyn, NY 11211",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": true,
+        "luma_host": {
+          "name": "Voxel51 Events",
+          "url": "https://luma.com/voxel51",
+          "image": "https://images.lumacdn.com/calendars/dx/70e8722e-d48b-4acc-a4a1-6e93a0977bef.png",
+          "type": "Organization"
+        },
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmE4ZTFrNG1xMjhiNXM1NHVoa2Q1NjZvb2EwY2xyNmFyamtlY242b3Q5ZWRsZ2cgdDN2MnJzb3VmZmZsMjA2amgxMDJ0dmEzamVla2ZnbWVAaQ"
+      }
+    },
+    {
       "id": "evt_gcal_com_fractal_a19bcd5c",
       "name": "Nexus Networking Meet Up - Holiday Celebration",
       "type": "tech",
@@ -1930,5 +2303,5 @@
       }
     }
   ],
-  "timestamp": "2026-08-27T18:39:24.989411"
+  "timestamp": "2026-08-28T19:50:36.948953"
 }
