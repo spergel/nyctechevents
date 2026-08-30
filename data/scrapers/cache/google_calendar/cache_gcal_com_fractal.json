@@ -1,60 +1,6 @@
 {
   "events": [
     {
-      "id": "evt_gcal_com_fractal_7c59b658",
-      "name": "[SleepaWeek NYC] Turning Towards Our Invisible Selves",
-      "type": "tech",
-      "locationId": "loc_fractal",
-      "communityId": "com_fractal",
-      "description": "Join us for a day of guided small-group work on the things that usually go unspoken between people. No experience needed \u2014 everything is taught from the basics, everything is opt-in, and your \"no\" will always be honored. Come alone or bring a friend (discounts available on two-for-one tickets). Lunch is catered and included.\n\nTurning toward what is difficult and challenging in our relationships is a powerful way to meet the seemingly unaddressable challenges of our society. As we turn toward the places of fear and discomfort in ourselves and in our relationships, we build the capacity to turn toward the mirrors of those same issues in our culture and our world. This can include the ways we relate to our own identities like age, race, culture, education, economic status, gender, sexual orientation, disability, religion, and more.\n\n\nWe don't have to come from defeat, anger, misunderstanding, or powerlessness in order to do the social activism of acknowledging and loving these pieces of ourselves. In the midst of doing the real work of paying attention to the things we usually ignore, we can be supported by delight, laughter, joy, and lightheartedness. We'll weave together reverence for these \u201cinvisible selves\u201d and the delightful play that comes from not taking ourselves too seriously. We don't know exactly what will come up between us in this workshop \u2014 but we know we're up for the adventure of finding out.\n\n\n\nAgenda\n9:30am - 9:45am arrival\n10:00am - we begin together (please arrive within the window; we can't admit latecomers once we start)\nMorning - a guided interactive small-group activity to bring awareness to the implicit dynamics between us and the ways that we often feel misunderstood or unseen\n12-1 - catered lunch\n1:00pm - 5:30pm - a facilitated group process to clear some of the content that is ready to be cleared (up to you how deep you want to go). We\u2019ll then move into guided activities around creativity and play, and a guided meditation to help integrate the process we just moved through\nEvent details\nEverything will be taught from the basics \u2013 all you need is to be curious\nEverything is opt-in and your \u201cno\u201d will always be honored\nYou can come alone or with a friend\nAll you\u2019ll need is a journal, a pen, and a water bottle. Lunch is included, accommodating for dietary restrictions.\nSpots at this workshop are limited to maintain the size necessary for small group work, so we\u2019d recommend getting your ticket as soon as you know you\u2019d like to come\nIf you need a need-based scholarship to be able to attend, please reach out to info@sleepawake.camp.\n\nFacilitator: Sarah Cruse\n\n\n\nSarah has been with Sleepawake since 2023, leading both our emotional and relational curriculum and our creative expression curriculum at almost every retreat we\u2019ve ever run. As a young repressed and depressed adult, trying to find her way out of patterns of personal and familial trauma, she found poetry and discovered the healing power of embodied truth, authentic voice and creative expression. Through spoken word, theater, singing, and sound exploration, she discovered an internal river of emergence. It is a deep listening, a profound wellspring of self-expression, a pathway towards healing that changed her life forever. Sarah now supports people and communities in activating their own inner creative pathways. Outside of Sleepawake, she is currently a practitioner of energetic medicine, sound healing and trauma clearing, and the lead singer of her band Yaya's Kitchen. Sarah is up for the adventure of whatever this day together brings and delighted to be part of it with you.\nAbout SleepaWeek\nSleepawake is coming to NYC for a week! Check out our events calendar to see everything happening this week. If the ticket price is a blocker to your attendance, please reach out to info@sleepawake.camp for details on need-based scholarship discounts.",
-      "startDate": "2026-08-29T13:30:00Z",
-      "endDate": "2026-08-29T21:30:00Z",
-      "category": [
-        "tech",
-        "startup",
-        "innovation",
-        "education"
-      ],
-      "price": {
-        "amount": 99.0,
-        "type": "Paid",
-        "currency": "USD",
-        "details": "General Admission"
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": [],
-      "image": "events/luma-event-d7b7516d.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source": "Google Calendar",
-        "source_url": "https://luma.com/09nr86jb",
-        "original_event_id": "_clr78badd8s6mkhkd9smgc1nahklgia0clr6arjkecn6ot9edlgg",
-        "organizer": {
-          "name": "Sleepawake Events Calendar",
-          "website": "https://luma.com/sleepawake-events",
-          "instagram": "",
-          "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
-        },
-        "venue": {
-          "name": "Fractal Tech",
-          "address": "111 Conselyea St, Brooklyn, NY 11211",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": true,
-        "luma_host": {
-          "name": "Sleepawake Events Calendar",
-          "url": "https://luma.com/sleepawake-events",
-          "image": "https://images.lumacdn.com/calendars/ec/cf307a72-ca44-45b4-ae52-b182e0652f95",
-          "type": "Organization"
-        },
-        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmFkZDhzNm1raGtkOXNtZ2MxbmFoa2xnaWEwY2xyNmFyamtlY242b3Q5ZWRsZ2cgdDN2MnJzb3VmZmZsMjA2amgxMDJ0dmEzamVla2ZnbWVAaQ"
-      }
-    },
-    {
       "id": "evt_gcal_com_fractal_94026ffc",
       "name": "Gardening on the Roof - Summer '26 Season",
       "type": "tech",
@@ -276,7 +222,7 @@
       "type": "tech",
       "locationId": "loc_fractal",
       "communityId": "com_fractal",
-      "description": "You are a PRO at running on fumes. Too little sleep, too much caffeine \u2014 and even while you feel bad, you can still be an absolute beast.\nThere's a cost, though. A subtle exhaustion undercurrent through everything you do. Trouble winding down at night. Every time you and your partner both feel bad, you give and give and give until they feel better first, even when you're too tired. A suspicion that if you cleared a full day with no plans, you might just sleep through the whole thing.\nIs it possible there's another way to feel?! One where you're gasp reliably well-regulated and still capable of doing everything you want to do?\nCome try a range of practices for filling your cup and take home whichever ones work best for you. You'll leave with a better sense of how resourcing yourself can be the most efficient path to doing more of what you love \u2014 and maybe feeling like you just got a long professional massage, or lunch with an old friend.\nPlease bring a yoga mat or anything else that will help you feel comfy and cozy for the lying down portion.\nAbout Your Facilitator: Sarah Cruse\n\nSarah has been with Sleepawake since 2023, leading both our emotional and relational curriculum and our creative expression curriculum at almost every retreat we\u2019ve ever run. As a young repressed and depressed adult, trying to find her way out of patterns of personal and familial trauma, she found poetry and discovered the healing power of embodied truth, authentic voice and creative expression. Sarah now supports people and communities in activating their own inner creative pathways. Outside of Sleepawake, she is currently a practitioner of energetic medicine, sound healing and trauma clearing, and the lead singer of her band Yaya's Kitchen. Sarah is up for the adventure of whatever this evening together brings and delighted to be part of it with you.\nAbout SleepaWeek\nSleepawake is coming to NYC for a week! Check out our events calendar to see everything happening this week. If the ticket price is a blocker to your attendance, please reach out to info@sleepawake.camp for details on need-based scholarship discounts.",
+      "description": "You are a PRO at running on fumes. Too little sleep, too much caffeine \u2014 and even while you feel bad, you can still be an absolute beast.\nThere's a cost, though. A subtle exhaustion undercurrent through everything you do. Trouble winding down at night. Every time you and your close friends both feel bad, you give and give and give until they feel better first, even when you're too tired. A suspicion that if you cleared a full day with no plans, you might just sleep through the whole thing.\nIs it possible there's another way to feel?! One where you're gasp reliably well-regulated and still capable of doing everything you want to do?\n\n\nCome try a range of practices for filling your cup and take home whichever ones work best for you. You'll leave with a better sense of how resourcing yourself can be the most efficient path to doing more of what you love \u2014 and maybe feeling like you just got a long professional massage, or lunch with an old friend.\nAgenda\nArrival, welcome, & settling in\nInteractive activity to learn about your own unique needs and wants, and what feels good and resourcing to you\nGentle and fun relational tool for grounding \u2014 up to you how deep you want to go, and your \"no\" will always be honored\nGuided meditation for deep rest\nPlease bring a yoga mat or anything else that will help you feel comfy and cozy for the lying down portion.\nAbout Your Facilitator: Sarah Cruse\n\n\n\nSarah has been with Sleepawake since 2023, leading both our emotional and relational curriculum and our creative expression curriculum at almost every retreat we\u2019ve ever run. As a young repressed and depressed adult, trying to find her way out of patterns of personal and familial trauma, she found poetry and discovered the healing power of embodied truth, authentic voice and creative expression. Sarah now supports people and communities in activating their own inner creative pathways. Outside of Sleepawake, she is currently a practitioner of energetic medicine, sound healing and trauma clearing, and the lead singer of her band Yaya's Kitchen. Sarah is up for the adventure of whatever this evening together brings and delighted to be part of it with you.\nAbout SleepaWeek\nSleepawake is coming to NYC for a week! Check out our events calendar to see everything happening this week. If the ticket price is a blocker to your attendance, please reach out to info@sleepawake.camp for details on need-based scholarship discounts.",
       "startDate": "2026-08-31T23:00:00Z",
       "endDate": "2026-09-01T01:00:00Z",
       "category": [
@@ -330,7 +276,7 @@
       "type": "tech",
       "locationId": "loc_fractal",
       "communityId": "com_fractal",
-      "description": "Every single person has had some sad and kinda awful stuff happen to them. Also some funny stuff. Also some stuff they don't know how to feel about. Let's share in the totality of how varied and strange it is to be a human!\n\nAfter meeting one another and settling in, we\u2019ll spend most of our time on an activity where you get to see others and be seen one layer (or more?) deeper than you might normally. This one's sweet, and tender, and funny, and...I think it's easier for me to like you now.\nDoors open at 7 and close at 7:15 sharp; please be there before 7:15 to participate in this one.\n\nAbout your facilitator\n\nRaven is a facilitator and curriculum builder at Sleepawake. She brings almost a decade of somatic, relational, and emotional work to the room. Previously a medic, filmmaker, tech worker, and hardcore meditator (accumulating four months in silent meditation including a stint in a monastery in Myanmar), her work now draws from various meditation traditions: Vipassana (Goenka, Gaya House traditions) and Mahamudra (Rigdzin with Dustin DiPerna). It also incorporates teachings from Realization Process (where she's a certified teacher, trained with Judith Blackstone and Roma Hammel), the Conscious Leadership Group (she's a certified 15 Commitments Coach, trained with Jim Dethmer and Diana Chapman), and a body of work that treats emotions as energy to be welcomed rather than managed, with enjoyment as the accelerator of change. Having worked with hundreds of people, Raven knows the stuff we most want to skip is usually the stuff worth staying with, and she makes this difficult task feel like a bold and wild ride.\nFor anyone who wants to access more personal freedom, to be honest about what they want, and to turn the most \"bad\" and difficult aspects of themselves into allies and heroes - Raven's got you.\nAt home in Berkeley, you might find her hanging out with her beautiful besties, playing narrative-driven video games and getting absolutely shredded at the gym.\nAbout SleepaWeek\nSleepawake is coming to NYC for a week! Check out our events calendar to see everything happening this week. If the ticket price is a blocker to your attendance, please reach out to info@sleepawake.camp for details on need-based scholarship discounts.",
+      "description": "Every single person has had some sad and kinda awful stuff happen to them. Also some funny stuff. Also some stuff they don't know how to feel about. Let's share in the totality of how varied and strange it is to be a human!\n\nAfter meeting one another and settling in, we\u2019ll spend most of our time on an activity where you get to see others and be seen one layer (or more?) deeper than you might normally. This one's sweet, and tender, and funny, and...I think it's easier for me to like you now.\n\nDoors open at 7 and close at 7:15 sharp; please be there before 7:15 to participate in this one.\nAbout your facilitator\n\nRaven is a facilitator and curriculum builder at Sleepawake. She brings almost a decade of somatic, relational, and emotional work to the room. Previously a medic, filmmaker, tech worker, and hardcore meditator (accumulating four months in silent meditation including a stint in a monastery in Myanmar), her work now draws from various meditation traditions: Vipassana (Goenka, Gaya House traditions) and Mahamudra (Rigdzin with Dustin DiPerna). It also incorporates teachings from Realization Process (where she's a certified teacher, trained with Judith Blackstone and Roma Hammel), the Conscious Leadership Group (she's a certified 15 Commitments Coach, trained with Jim Dethmer and Diana Chapman), and a body of work that treats emotions as energy to be welcomed rather than managed, with enjoyment as the accelerator of change. Having worked with hundreds of people, Raven knows the stuff we most want to skip is usually the stuff worth staying with, and she makes this difficult task feel like a bold and wild ride.\nFor anyone who wants to access more personal freedom, to be honest about what they want, and to turn the most \"bad\" and difficult aspects of themselves into allies and heroes - Raven's got you.\nAt home in Berkeley, you might find her hanging out with her beautiful besties, playing narrative-driven video games and getting absolutely shredded at the gym.\nAbout SleepaWeek\nSleepawake is coming to NYC for a week! Check out our events calendar to see everything happening this week. If the ticket price is a blocker to your attendance, please reach out to info@sleepawake.camp for details on need-based scholarship discounts.",
       "startDate": "2026-09-01T23:00:00Z",
       "endDate": "2026-09-02T01:00:00Z",
       "category": [
@@ -2254,5 +2200,5 @@
       }
     }
   ],
-  "timestamp": "2026-08-29T13:30:56.391031"
+  "timestamp": "2026-08-30T13:27:04.329332"
 }

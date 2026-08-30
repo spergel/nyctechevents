@@ -1,60 +1,6 @@
 {
   "events": [
     {
-      "id": "evt_gcal_com_effective_altruism_nyc_db090157",
-      "name": "EA NYC Vegan Dim Sum",
-      "type": "effective altruism",
-      "locationId": "",
-      "communityId": "com_effective_altruism_nyc",
-      "description": "Please join EA NYC for our monthly vegan dim sum.\n- All are welcome! - Cost per meal: variable, likely $25-$30 - If you\u2019d like to attend but have any concerns, please get in touch with Megan\nJoin for an EA NYC community favorite: tasty and affordable vegan dim sum!",
-      "startDate": "2026-08-29T13:00:00-04:00",
-      "endDate": "2026-08-29T15:00:00-04:00",
-      "category": [
-        "effective altruism",
-        "impact",
-        "philosophy",
-        "community"
-      ],
-      "price": {
-        "amount": 0.0,
-        "type": "Free",
-        "currency": "USD",
-        "details": "General Admission"
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": [],
-      "image": "events/luma-event-97fb11c5.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source": "Google Calendar",
-        "source_url": "https://luma.com/p0zwptl4",
-        "original_event_id": "2a3p1ajjh0gnqr7j7lfcd3bof3",
-        "organizer": {
-          "name": "EA NYC",
-          "website": "https://luma.com/calendar/cal-vnPGs6DwV4F2m8X",
-          "instagram": "",
-          "email": "hbvetqf5h1pd0of0vn6uvphqts@group.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "Bodhi Kosher Vegetarian Restaurant\nBodhi Kosher Vegetarian Restaurant, New York, New York",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": true,
-        "luma_host": {
-          "name": "EA NYC",
-          "url": "https://luma.com/calendar/cal-vnPGs6DwV4F2m8X",
-          "image": "https://cdn.lu.ma/avatars-default/community_avatar_4.png",
-          "type": "Organization"
-        },
-        "google_calendar_link": "https://www.google.com/calendar/event?eid=MmEzcDFhampoMGducXI3ajdsZmNkM2JvZjMgaGJ2ZXRxZjVoMXBkMG9mMHZuNnV2cGhxdHNAZw"
-      }
-    },
-    {
       "id": "evt_gcal_com_effective_altruism_nyc_a082a41c",
       "name": "AI 2040 discussion: AI safety planning workshop",
       "type": "effective altruism",
@@ -746,5 +692,5 @@
       }
     }
   ],
-  "timestamp": "2026-08-29T13:30:42.978390"
+  "timestamp": "2026-08-30T13:26:40.923334"
 }
