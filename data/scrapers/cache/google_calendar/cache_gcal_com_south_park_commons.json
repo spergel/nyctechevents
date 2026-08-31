@@ -53,7 +53,61 @@
         },
         "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmE1Y2xwa29qYTQ5bGNuNnRyZGRvcTM2a2EwY2xyNmFyamtlY242b3Q5ZWRsZ2cgYmZwdHUzYWpkYWU1Y2MyazE2Y3ZzMWFtZW5iZnQ3NjJAaQ"
       }
+    },
+    {
+      "id": "evt_gcal_com_south_park_commons_10bd68e9",
+      "name": "SPC Post-Training Forum: Mercor CEO, Brendan Foody",
+      "type": "technology",
+      "locationId": "",
+      "communityId": "com_south_park_commons",
+      "description": "New frontiers in modeling, architecture, algorithms, and infra are often the loudest advancements in AI. But beneath all of it is a fundamental layer without which no models would exist: data.\nJoin SPC's Post-Training forum for a technical and product-focused conversation with Mercor's CEO, Brendan Foody. We'll dig into what it takes to design data and environments at the frontier, and the unique challenges of sourcing the expert human intelligence required to power the post-training and RL recipes of tomorrow's models.\nWhen: Wednesday, September 9th, 1:30 - 2:30pm\nWhere: SPC SF\nModerated by Nick Mecklenburg (CTO, Whitney AI; prev post-training at Microsoft Superintelligence)\nAbout South Park Commons (SPC)\nSPC is a technical community and venture fund dedicated to helping founders, researchers, and technologists figure out what to work on next\u2014what we call the -1 to 0 stage of your career. We believe this is best accomplished in the most talent-dense community possible. Apply to SPC here.",
+      "startDate": "2026-09-09T20:30:00Z",
+      "endDate": "2026-09-09T21:30:00Z",
+      "category": [
+        "technology",
+        "innovation",
+        "learning",
+        "community"
+      ],
+      "price": {
+        "amount": 0.0,
+        "type": "Free",
+        "currency": "USD",
+        "details": "General Admission"
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": [],
+      "image": "events/luma-event-6995c335.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://luma.com/spcforummercor9-9",
+        "original_event_id": "_clr78bbk98qkel9iasqkccik95r6sii0clr6arjkecn6ot9edlgg",
+        "organizer": {
+          "name": "South Park Commons",
+          "website": "https://luma.com/southparkcommons-events",
+          "instagram": "",
+          "email": "bfptu3ajdae5cc2k16cvs1amenbft762@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "San Francisco, CA\nSan Francisco, California",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": true,
+        "luma_host": {
+          "name": "South Park Commons",
+          "url": "https://luma.com/southparkcommons-events",
+          "image": "https://images.lumacdn.com/calendars/zd/801eab25-f945-44b2-8d32-29a455bd485d",
+          "type": "Organization"
+        },
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmJrOThxa2VsOWlhc3FrY2Npazk1cjZzaWkwY2xyNmFyamtlY242b3Q5ZWRsZ2cgYmZwdHUzYWpkYWU1Y2MyazE2Y3ZzMWFtZW5iZnQ3NjJAaQ"
+      }
     }
   ],
-  "timestamp": "2026-08-30T13:27:05.528210"
+  "timestamp": "2026-08-31T15:42:44.647981"
 }

@@ -1,55 +1,6 @@
 {
   "events": [
     {
-      "id": "evt_gcal_com_verci_0658246e",
-      "name": "Willo x KittyKatChase presents Grief Cafe",
-      "type": "technology",
-      "locationId": "",
-      "communityId": "com_verci",
-      "description": "Find more information on https://luma.com/verci",
-      "startDate": "2026-08-30T19:00:00Z",
-      "endDate": "2026-08-30T21:00:00Z",
-      "category": [
-        "technology",
-        "innovation",
-        "society",
-        "community"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": [],
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source": "Google Calendar",
-        "source_url": "https://luma.com/verci",
-        "original_event_id": "_cdgmopbm5lm4kgpj8somot2c8d948p2h6906atj5dpq76bjcekn6qo8",
-        "organizer": {
-          "name": "Verci Events",
-          "website": "",
-          "instagram": "",
-          "email": "pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "https://partiful.com/e/Ql8frlf2zlSQS1outDzp?",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": true,
-        "luma_host": null,
-        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2NkZ21vcGJtNWxtNGtncGo4c29tb3QyYzhkOTQ4cDJoNjkwNmF0ajVkcHE3NmJqY2VrbjZxbzggcGY2bzdkcmxmcmJobXBxbG1sdDdwMjE1ZTcwaTljam5AaQ"
-      }
-    },
-    {
       "id": "evt_gcal_com_verci_ce5927bd",
       "name": "Investor Happy Hour with Verci, Mercury, Harmonic",
       "type": "technology",
@@ -855,5 +806,5 @@
       }
     }
   ],
-  "timestamp": "2026-08-30T13:27:14.933796"
+  "timestamp": "2026-08-31T15:42:54.554143"
 }

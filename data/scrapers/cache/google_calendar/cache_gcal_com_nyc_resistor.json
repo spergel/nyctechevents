@@ -1,59 +1,6 @@
 {
   "events": [
     {
-      "id": "evt_gcal_com_nyc_resistor_3e63e629",
-      "name": "Learn to Use a Fiber Laser Cutter to Etch Your Own Designs in Metal",
-      "type": "hackerspace",
-      "locationId": "loc_nyc_resistor",
-      "communityId": "com_nyc_resistor",
-      "description": "RSVP https://www.eventbrite.com/e/learn-to-use-a-fiber-laser-cutter-to-etch-your-own-designs-in-metal-tickets-1994965147459\n\nHarness the power of an Xtool Fiber Laser! In this class you&#39;ll learn everything you need.Learn to Use a Fiber Laser Cutter to Etch Your Own Designs in MetalIn this class you'll learn everything you need to know to make the ideas in your head become a reality with a fiber laser.In this three hour class, you will learn:- How to set up a file for fiber laser etching in Inkscape or Adobe Illustrator.- Fiber laser safety including materials testing.- Fiber laser operation including configuration, focus, and etching on common metals like stainless steel, aluminum, brass, and others.At the end of class, you will go home with:- One etched metal project, either the class default or a simple one of your own design (see below for details)- Resistor Laser Certification, enabling you to use our fiber laser on Craft Nights.Please bring the following to class:- A laptop with either Inkscape (free: download here: https://inkscape.org/release/inkscape-1.2.1/) or Adobe Illustrator installed.- A USB jump drivePrerequisite: You must have completed our CO2 Laser Safety class before taking this course. If you haven't taken it yet, you will be asked to do so before attending. Sign up early to secure your spot in both.The following items are optional if you'd like to try a custom design. If your file ends up being too complicated, we may have you do the class default project first, just to learn the laser in the time allotted \u2014 but we'll definitely help you with your more complex etch at a free Craft Night in future!\n- An SVG vector file of a simple design you'd like to etch.- A metal item you'd like to etch (tumbler, keychain, tag, etc.). If you can't bring your own material, small pieces will be made available, or larger pieces for purchase on site.\n",
-      "startDate": "2026-08-30T14:00:00-04:00",
-      "endDate": "2026-08-30T17:00:00-04:00",
-      "category": [
-        "hackerspace",
-        "maker",
-        "hardware",
-        "electronics",
-        "laser cutting",
-        "3d printing",
-        "microcontrollers",
-        "robotics"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": true,
-      "tags": [],
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source": "Google Calendar",
-        "source_url": "https://www.eventbrite.com/e/learn-to-use-a-fiber-laser-cutter-to-etch-your-own-designs-in-metal-tickets-1994965147459",
-        "original_event_id": "3qig599db3loiqeb83841i2pbs",
-        "organizer": {
-          "name": "NYCResistor",
-          "website": "",
-          "instagram": "",
-          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "NYC Resistor\n87 Third Avenue\nBrooklyn, NY 11217",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false,
-        "luma_host": null,
-        "google_calendar_link": "https://www.google.com/calendar/event?eid=M3FpZzU5OWRiM2xvaXFlYjgzODQxaTJwYnMgcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw"
-      }
-    },
-    {
       "id": "evt_gcal_com_nyc_resistor_823993c6",
       "name": "Public Craft Night Mondays and Thursdays!",
       "type": "hackerspace",
@@ -1482,6 +1429,59 @@
         "luma_source": false,
         "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=M3V1OG1ybXBlaW45aDE3cDZxbzI0OGQ3dGggcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw"
+      }
+    },
+    {
+      "id": "evt_gcal_com_nyc_resistor_33f80178",
+      "name": "HOLD: Leather Working Class",
+      "type": "hackerspace",
+      "locationId": "loc_nyc_resistor",
+      "communityId": "com_nyc_resistor",
+      "description": "",
+      "startDate": "2026-09-26T15:00:00-04:00",
+      "endDate": "2026-09-26T18:00:00-04:00",
+      "category": [
+        "hackerspace",
+        "maker",
+        "hardware",
+        "electronics",
+        "laser cutting",
+        "3d printing",
+        "microcontrollers",
+        "robotics"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": null,
+      "tags": [],
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://www.google.com/calendar/event?eid=MWd1aHA5YzJzZWdlNzZ0YmdvOTUzdmR0MjYgcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw",
+        "original_event_id": "1guhp9c2sege76tbgo953vdt26",
+        "organizer": {
+          "name": "NYCResistor",
+          "website": "",
+          "instagram": "",
+          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false,
+        "luma_host": null,
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=MWd1aHA5YzJzZWdlNzZ0YmdvOTUzdmR0MjYgcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw"
       }
     },
     {
@@ -4188,5 +4188,5 @@
       }
     }
   ],
-  "timestamp": "2026-08-30T13:27:04.801693"
+  "timestamp": "2026-08-31T15:42:43.083547"
 }

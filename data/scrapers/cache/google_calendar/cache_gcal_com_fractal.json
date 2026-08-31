@@ -1,228 +1,12 @@
 {
   "events": [
     {
-      "id": "evt_gcal_com_fractal_94026ffc",
-      "name": "Gardening on the Roof - Summer '26 Season",
-      "type": "tech",
-      "locationId": "loc_fractal",
-      "communityId": "com_fractal",
-      "description": "Get up-to-date information at: https://luma.com/0yp5gru5\n\nAddress:\nFractal Tech\nKings County, New York\nUnited States\n\nHosted by Anthony Castrio \ud83d\udcaf",
-      "startDate": "2026-08-30T14:00:00Z",
-      "endDate": "2026-08-30T16:00:00Z",
-      "category": [
-        "tech",
-        "startup",
-        "innovation",
-        "education"
-      ],
-      "price": {
-        "amount": 0.0,
-        "type": "Free",
-        "currency": "USD",
-        "details": "General Admission"
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": [],
-      "image": "events/luma-event-c471f310.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source": "Google Calendar",
-        "source_url": "https://luma.com/0yp5gru5",
-        "original_event_id": "_clr78bbkddk58tr8chc4iebn69j4arq0clr6arjkecn6ot9edlgg",
-        "organizer": {
-          "name": "Friends of the Fractal Garden",
-          "website": "https://luma.com/fractal-garden",
-          "instagram": "",
-          "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
-        },
-        "venue": {
-          "name": "Fractal Tech",
-          "address": "111 Conselyea St, Brooklyn, NY 11211",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": true,
-        "luma_host": {
-          "name": "Friends of the Fractal Garden",
-          "url": "https://luma.com/fractal-garden",
-          "image": "https://images.lumacdn.com/calendars/xw/d43b818f-b59a-4e6a-857b-72efcee06d17.jpg",
-          "type": "Organization"
-        },
-        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmJrZGRrNTh0cjhjaGM0aWVibjY5ajRhcnEwY2xyNmFyamtlY242b3Q5ZWRsZ2cgdDN2MnJzb3VmZmZsMjA2amgxMDJ0dmEzamVla2ZnbWVAaQ"
-      }
-    },
-    {
-      "id": "evt_gcal_com_fractal_b1d042df",
-      "name": "[SleepaWeek NYC] Fractal Brunch",
-      "type": "tech",
-      "locationId": "loc_fractal",
-      "communityId": "com_fractal",
-      "description": "Sleepawake is coming to NYC for a week!\nCome by brunch to hang out, and optionally participate in a sweet ~30 min activity facilitated by one of Sleepawake's lead facilitators.\nRSVP on Partiful to see who else is coming:\nhttps://partiful.com/e/ZtqCSgr1srWOiaGNyHtA?",
-      "startDate": "2026-08-30T15:00:00Z",
-      "endDate": "2026-08-30T17:00:00Z",
-      "category": [
-        "tech",
-        "startup",
-        "innovation",
-        "education"
-      ],
-      "price": {
-        "amount": 0.0,
-        "type": "Free",
-        "currency": "USD",
-        "details": "General Admission"
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": [],
-      "image": "events/luma-event-499d2ae4.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source": "Google Calendar",
-        "source_url": "https://luma.com/cj5p6zqn",
-        "original_event_id": "_clr78b9p9tbkehbndpkj8i9ld9a6ulq0clr6arjkecn6ot9edlgg",
-        "organizer": {
-          "name": "Sleepawake Events Calendar",
-          "website": "https://luma.com/sleepawake-events",
-          "instagram": "",
-          "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
-        },
-        "venue": {
-          "name": "Fractal Tech",
-          "address": "111 Conselyea St, Brooklyn, NY 11211",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": true,
-        "luma_host": {
-          "name": "Sleepawake Events Calendar",
-          "url": "https://luma.com/sleepawake-events",
-          "image": "https://images.lumacdn.com/calendars/ec/cf307a72-ca44-45b4-ae52-b182e0652f95",
-          "type": "Organization"
-        },
-        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YjlwOXRia2VoYm5kcGtqOGk5bGQ5YTZ1bHEwY2xyNmFyamtlY242b3Q5ZWRsZ2cgdDN2MnJzb3VmZmZsMjA2amgxMDJ0dmEzamVla2ZnbWVAaQ"
-      }
-    },
-    {
-      "id": "evt_gcal_com_fractal_f355064c",
-      "name": "Jhourney Jhana Meditation",
-      "type": "tech",
-      "locationId": "",
-      "communityId": "com_fractal",
-      "description": "This is a social event hosted by NYC Jhourney for students of Jhourney meditation retreats, jhana meditators, and those who are curious about jhana meditation. During the meeting we will meditate but there will be no instruction; you're welcome to meditate however you like or to sit quietly for an hour.\n\nPlease bring food and drinks to share.  Paper cups, plates, bowls, utensils, and napkins will be provided.\nIf you're unable to bring any food or drink to share, we kindly recommend a $10 donation to contribute for food that we will provide.  You may send money via PayPal or Venmo to @gumballsforme or give cash to David.\nMeditation cushions will not be provided.  Please bring whatever you need to make yourself comfortable.  We will be meeting in The Lounge.\nDIRECTIONS\nThere are two entrances at the address. Enter the one on the RIGHT (to the right of Savino's Quality Pasta) and proceed up the stairs to the second floor.",
-      "startDate": "2026-08-30T18:00:00Z",
-      "endDate": "2026-08-30T22:00:00Z",
-      "category": [
-        "tech",
-        "startup",
-        "innovation",
-        "education"
-      ],
-      "price": {
-        "amount": 0.0,
-        "type": "Free",
-        "currency": "USD",
-        "details": "General Admission"
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": [],
-      "image": "events/luma-event-39b7587a.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source": "Google Calendar",
-        "source_url": "https://luma.com/plhxncfg",
-        "original_event_id": "_clr78b9n6t7j8s1pdtpnkuhp6tk4gqi0clr6arjkecn6ot9edlgg",
-        "organizer": {
-          "name": "NYC Jhourney",
-          "website": "https://luma.com/calendar/cal-Hl2i5yr1fumfqWY",
-          "instagram": "",
-          "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "111 Conselyea St\n111 Conselyea St, Brooklyn, New York",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": true,
-        "luma_host": {
-          "name": "NYC Jhourney",
-          "url": "https://luma.com/calendar/cal-Hl2i5yr1fumfqWY",
-          "image": "https://images.lumacdn.com/uploads/6d/165fb0da-7792-4255-ab8b-e75bc6c1bf4d.jpg",
-          "type": "Organization"
-        },
-        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YjluNnQ3ajhzMXBkdHBua3VocDZ0azRncWkwY2xyNmFyamtlY242b3Q5ZWRsZ2cgdDN2MnJzb3VmZmZsMjA2amgxMDJ0dmEzamVla2ZnbWVAaQ"
-      }
-    },
-    {
-      "id": "evt_gcal_com_fractal_8111143a",
-      "name": "SideQuest IRL #44",
-      "type": "tech",
-      "locationId": "",
-      "communityId": "com_fractal",
-      "description": "Join us for an afternoon of pursuing your personal side quest! Whether you\u2019re writing, coding, or doing those taxes you\u2019ve been putting off, this is your space. It\u2019s intentional time for you to focus on what feels meaningful to you\u2014and meet people doing the same thing. We\u2019ll split our time between focused work sessions and breaks to reset and mingle with other creators.\nRough Agenda*\n2:30-3:00pm: Introductions and Intention Sharing\n3:00-4:30pm: Deep Focus Session 1\n4:30-4:50pm: Optional Break\n4:50-5:30pm: Deep Focus Session 2\n5:30-6:00pm: Optional Show and Tell\n*Popular opinion is that SideQuest is best when you\u2019re all in, showing up for the duration instead of splitting sessions. Try it\u2014we think you\u2019ll agree.\n___________________\n\nAbout SideQuest:\nWe host coworking sessions every other Sunday. Subscribe to our events calendar if you can\u2019t make this one :)\nIf you've got ideas for how to help build the community, or you'd like to host a future SideQuest (it's easier than you might think!), we'd love to hear from you.\nThank you to Fractal Campus for hosting us, our friends at PurdueHackers, CozySundays and Socratica for seeding the idea, and Chandiran for building the SideQuest community.",
-      "startDate": "2026-08-30T18:30:00Z",
-      "endDate": "2026-08-30T22:00:00Z",
-      "category": [
-        "tech",
-        "startup",
-        "innovation",
-        "education"
-      ],
-      "price": {
-        "amount": 0.0,
-        "type": "Free",
-        "currency": "USD",
-        "details": "General Admission"
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": [],
-      "image": "events/luma-event-474c7a7c.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source": "Google Calendar",
-        "source_url": "https://luma.com/v52fg20a",
-        "original_event_id": "_clr78baladh3ilq471iliiije97j4t20clr6arjkecn6ot9edlgg",
-        "organizer": {
-          "name": "SideQuest",
-          "website": "https://luma.com/sidequest",
-          "instagram": "",
-          "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "Kings County, New York",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": true,
-        "luma_host": {
-          "name": "SideQuest",
-          "url": "https://luma.com/sidequest",
-          "image": "https://images.lumacdn.com/calendars/7l/768c5bdb-8fbb-4530-a326-f69af660c934",
-          "type": "Organization"
-        },
-        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmFsYWRoM2lscTQ3MWlsaWlpamU5N2o0dDIwY2xyNmFyamtlY242b3Q5ZWRsZ2cgdDN2MnJzb3VmZmZsMjA2amgxMDJ0dmEzamVla2ZnbWVAaQ"
-      }
-    },
-    {
       "id": "evt_gcal_com_fractal_7a193862",
       "name": "[SleepaWeek NYC] WOW, I feel good!",
       "type": "tech",
       "locationId": "loc_fractal",
       "communityId": "com_fractal",
-      "description": "You are a PRO at running on fumes. Too little sleep, too much caffeine \u2014 and even while you feel bad, you can still be an absolute beast.\nThere's a cost, though. A subtle exhaustion undercurrent through everything you do. Trouble winding down at night. Every time you and your close friends both feel bad, you give and give and give until they feel better first, even when you're too tired. A suspicion that if you cleared a full day with no plans, you might just sleep through the whole thing.\nIs it possible there's another way to feel?! One where you're gasp reliably well-regulated and still capable of doing everything you want to do?\n\n\nCome try a range of practices for filling your cup and take home whichever ones work best for you. You'll leave with a better sense of how resourcing yourself can be the most efficient path to doing more of what you love \u2014 and maybe feeling like you just got a long professional massage, or lunch with an old friend.\nAgenda\nArrival, welcome, & settling in\nInteractive activity to learn about your own unique needs and wants, and what feels good and resourcing to you\nGentle and fun relational tool for grounding \u2014 up to you how deep you want to go, and your \"no\" will always be honored\nGuided meditation for deep rest\nPlease bring a yoga mat or anything else that will help you feel comfy and cozy for the lying down portion.\nAbout Your Facilitator: Sarah Cruse\n\n\n\nSarah has been with Sleepawake since 2023, leading both our emotional and relational curriculum and our creative expression curriculum at almost every retreat we\u2019ve ever run. As a young repressed and depressed adult, trying to find her way out of patterns of personal and familial trauma, she found poetry and discovered the healing power of embodied truth, authentic voice and creative expression. Sarah now supports people and communities in activating their own inner creative pathways. Outside of Sleepawake, she is currently a practitioner of energetic medicine, sound healing and trauma clearing, and the lead singer of her band Yaya's Kitchen. Sarah is up for the adventure of whatever this evening together brings and delighted to be part of it with you.\nAbout SleepaWeek\nSleepawake is coming to NYC for a week! Check out our events calendar to see everything happening this week. If the ticket price is a blocker to your attendance, please reach out to info@sleepawake.camp for details on need-based scholarship discounts.",
+      "description": "You are a PRO at running on fumes. Too little sleep, too much caffeine \u2014 and even while you feel bad, you can still be an absolute beast.\nThere's a cost, though. A subtle exhaustion undercurrent through everything you do. Trouble winding down at night. Every time you and your close friends both feel bad, you give and give and give until they feel better first, even when you're too tired. A suspicion that if you cleared a full day with no plans, you might just sleep through the whole thing.\nIs it possible there's another way to feel?! One where you're gasp reliably well-regulated and still capable of doing everything you want to do?\n\n\nCome try a range of practices for filling your cup and take home whichever ones work best for you. You'll leave with a better sense of how resourcing yourself can be the most efficient path to doing more of what you love \u2014 and maybe feeling like you just got a long professional massage, or lunch with an old friend.\nAgenda\nArrival, welcome, & settling in\nInteractive activity to learn about your own unique needs and wants, and what feels good and resourcing to you\nGentle and fun relational tool for grounding \u2014 up to you how deep you want to go, and your \"no\" will always be honored\nGuided meditation for deep rest\nPlease bring a yoga mat or anything else that will help you feel comfy and cozy for the lying down portion.\nAbout Your Facilitator: Sarah Cruse\n\n\nSarah has been with Sleepawake since 2023, leading both our emotional and relational curriculum and our creative expression curriculum at almost every retreat we\u2019ve ever run. As a young repressed and depressed adult, trying to find her way out of patterns of personal and familial trauma, she found poetry and discovered the healing power of embodied truth, authentic voice and creative expression. Sarah now supports people and communities in activating their own inner creative pathways. Outside of Sleepawake, she is currently a practitioner of energetic medicine, sound healing and trauma clearing, and the lead singer of her band Yaya's Kitchen. Sarah is up for the adventure of whatever this evening together brings and delighted to be part of it with you.\nAbout SleepaWeek\nSleepawake is coming to NYC for a week! Check out our events calendar to see everything happening this week. If the ticket price is a blocker to your attendance, please reach out to info@sleepawake.camp for details on need-based scholarship discounts.",
       "startDate": "2026-08-31T23:00:00Z",
       "endDate": "2026-09-01T01:00:00Z",
       "category": [
@@ -1229,11 +1013,11 @@
     },
     {
       "id": "evt_gcal_com_fractal_a11dfba6",
-      "name": "Jhourney Jhana Meditation",
+      "name": "Jhana NYC Meditation",
       "type": "tech",
       "locationId": "",
       "communityId": "com_fractal",
-      "description": "This is a social event hosted by NYC Jhourney for students of Jhourney meditation retreats, jhana meditators, and those who are curious about jhana meditation. During the meeting we will meditate but there will be no instruction; you're welcome to meditate however you like or to sit quietly for an hour.\n\nPlease bring food and drinks to share. Paper cups, plates, bowls, utensils, and napkins will be provided.\nMeditation cushions will not be provided.  Please bring whatever you need to make yourself comfortable.  We will be meeting in The Lounge.\nDIRECTIONS\nThere are two grey doors at the address. Enter the one on the RIGHT (to the right of Savino's Quality Pasta) and proceed straight up the stairs to the second floor.",
+      "description": "This is a social event hosted for jhana meditators and those who are curious about jhana meditation. During the meeting we will meditate but there will be no instruction; you're welcome to meditate however you like or to sit quietly for an hour.\n\nPlease bring food and drinks to share. Paper cups, plates, bowls, utensils, and napkins will be provided.\nIf you aren't able to bring food or drink to share, we ask for a $15 donation for the food we're providing.  Payment can be sent to @gumballsforme on PayPal or Venmo, or given in cash to David.\nMeditation cushions will not be provided.  Please bring whatever you need to make yourself comfortable.  We will be meeting in The Lounge.\nDIRECTIONS\nThere are two grey doors at the address. Enter the one on the RIGHT (to the right of Savino's Quality Pasta) and proceed straight up the stairs to the second floor.",
       "startDate": "2026-09-27T18:00:00Z",
       "endDate": "2026-09-27T22:00:00Z",
       "category": [
@@ -1258,7 +1042,7 @@
         "source_url": "https://luma.com/gntkytq0",
         "original_event_id": "_clr78bbf71n4ejimdop6mkr785c7iea0clr6arjkecn6ot9edlgg",
         "organizer": {
-          "name": "NYC Jhourney",
+          "name": "Jhana NYC",
           "website": "https://luma.com/calendar/cal-Hl2i5yr1fumfqWY",
           "instagram": "",
           "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
@@ -1273,7 +1057,7 @@
         "featured": false,
         "luma_source": true,
         "luma_host": {
-          "name": "NYC Jhourney",
+          "name": "Jhana NYC",
           "url": "https://luma.com/calendar/cal-Hl2i5yr1fumfqWY",
           "image": "https://images.lumacdn.com/uploads/6d/165fb0da-7792-4255-ab8b-e75bc6c1bf4d.jpg",
           "type": "Organization"
@@ -1417,7 +1201,7 @@
       "status": "upcoming",
       "metadata": {
         "source": "Google Calendar",
-        "source_url": "https://luma.com/12ftqloq",
+        "source_url": "https://luma.com/buildathonnyc",
         "original_event_id": "_clr78bb9ad3l4hblatnkuoi88hgkoha0clr6arjkecn6ot9edlgg",
         "organizer": {
           "name": "Brderless",
@@ -1607,11 +1391,11 @@
     },
     {
       "id": "evt_gcal_com_fractal_a542befd",
-      "name": "Jhourney Jhana Meditation",
+      "name": "Jhana NYC Meditation",
       "type": "tech",
       "locationId": "",
       "communityId": "com_fractal",
-      "description": "This is a social event hosted by NYC Jhourney for students of Jhourney meditation retreats, jhana meditators, and those who are curious about jhana meditation. During the meeting we will meditate but there will be no instruction; you're welcome to meditate however you like or to sit quietly for an hour.\n\nPlease bring food and drinks to share. Paper cups, plates, bowls, utensils, and napkins will be provided.\nMeditation cushions will not be provided.  Please bring whatever you need to make yourself comfortable.  We will be meeting in The Lounge.\nDIRECTIONS\nThere are two grey doors at the address. Enter the one on the RIGHT (to the right of Savino's Quality Pasta) and proceed straight up the stairs to the second floor.",
+      "description": "This is a social event hosted for jhana meditators and those who are curious about jhana meditation. During the meeting we will meditate but there will be no instruction; you're welcome to meditate however you like or to sit quietly for an hour.\n\nPlease bring food and drinks to share. Paper cups, plates, bowls, utensils, and napkins will be provided.\nMeditation cushions will not be provided.  Please bring whatever you need to make yourself comfortable.  We will be meeting in The Lounge.\nDIRECTIONS\nThere are two grey doors at the address. Enter the one on the RIGHT (to the right of Savino's Quality Pasta) and proceed straight up the stairs to the second floor.",
       "startDate": "2026-10-25T18:00:00Z",
       "endDate": "2026-10-25T22:00:00Z",
       "category": [
@@ -1636,7 +1420,7 @@
         "source_url": "https://luma.com/1uh5pb6z",
         "original_event_id": "_clr78bao9cp4osrjb14nci2k894ngia0clr6arjkecn6ot9edlgg",
         "organizer": {
-          "name": "NYC Jhourney",
+          "name": "Jhana NYC",
           "website": "https://luma.com/calendar/cal-Hl2i5yr1fumfqWY",
           "instagram": "",
           "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
@@ -1651,7 +1435,7 @@
         "featured": false,
         "luma_source": true,
         "luma_host": {
-          "name": "NYC Jhourney",
+          "name": "Jhana NYC",
           "url": "https://luma.com/calendar/cal-Hl2i5yr1fumfqWY",
           "image": "https://images.lumacdn.com/uploads/6d/165fb0da-7792-4255-ab8b-e75bc6c1bf4d.jpg",
           "type": "Organization"
@@ -1931,11 +1715,11 @@
     },
     {
       "id": "evt_gcal_com_fractal_796c5bff",
-      "name": "Jhourney Jhana Meditation",
+      "name": "Jhana NYC Meditation",
       "type": "tech",
       "locationId": "",
       "communityId": "com_fractal",
-      "description": "This is a social event hosted by NYC Jhourney for students of Jhourney meditation retreats, jhana meditators, and those who are curious about jhana meditation. During the meeting we will meditate but there will be no instruction; you're welcome to meditate however you like or to sit quietly for an hour.\n\nPlease bring food and drinks to share. Paper cups, plates, bowls, utensils, and napkins will be provided.\nMeditation cushions will not be provided.  Please bring whatever you need to make yourself comfortable.  We will be meeting in The Lounge.\nDIRECTIONS\nThere are two grey doors at the address. Enter the one on the RIGHT (to the right of Savino's Quality Pasta) and proceed straight up the stairs to the second floor.",
+      "description": "This is a social event hosted for jhana meditators and those who are curious about jhana meditation. During the meeting we will meditate but there will be no instruction; you're welcome to meditate however you like or to sit quietly for an hour.\n\nPlease bring food and drinks to share. Paper cups, plates, bowls, utensils, and napkins will be provided.\nMeditation cushions will not be provided.  Please bring whatever you need to make yourself comfortable.  We will be meeting in The Lounge.\nDIRECTIONS\nThere are two grey doors at the address. Enter the one on the RIGHT (to the right of Savino's Quality Pasta) and proceed straight up the stairs to the second floor.",
       "startDate": "2026-11-22T19:00:00Z",
       "endDate": "2026-11-22T23:00:00Z",
       "category": [
@@ -1960,7 +1744,7 @@
         "source_url": "https://luma.com/rp37jhn5",
         "original_event_id": "_clr78ba7b1nmqqq36554it3dc8o5kpa0clr6arjkecn6ot9edlgg",
         "organizer": {
-          "name": "NYC Jhourney",
+          "name": "Jhana NYC",
           "website": "https://luma.com/calendar/cal-Hl2i5yr1fumfqWY",
           "instagram": "",
           "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
@@ -1975,7 +1759,7 @@
         "featured": false,
         "luma_source": true,
         "luma_host": {
-          "name": "NYC Jhourney",
+          "name": "Jhana NYC",
           "url": "https://luma.com/calendar/cal-Hl2i5yr1fumfqWY",
           "image": "https://images.lumacdn.com/uploads/6d/165fb0da-7792-4255-ab8b-e75bc6c1bf4d.jpg",
           "type": "Organization"
@@ -2093,11 +1877,11 @@
     },
     {
       "id": "evt_gcal_com_fractal_6a94f56c",
-      "name": "Jhourney Jhana Meditation",
+      "name": "Jhana NYC Meditation",
       "type": "tech",
       "locationId": "",
       "communityId": "com_fractal",
-      "description": "This is a social event hosted by NYC Jhourney for students of Jhourney meditation retreats, jhana meditators, and those who are curious about jhana meditation. During the meeting we will meditate but there will be no instruction; you're welcome to meditate however you like or to sit quietly for an hour.\n\nPlease bring food and drinks to share. Paper cups, plates, bowls, utensils, and napkins will be provided.\nMeditation cushions will not be provided.  Please bring whatever you need to make yourself comfortable.  We will be meeting in The Lounge.\nDIRECTIONS\nThere are two grey doors at the address. Enter the one on the RIGHT (to the right of Savino's Quality Pasta) and proceed straight up the stairs to the second floor.",
+      "description": "This is a social event hosted for jhana meditators and those who are curious about jhana meditation. During the meeting we will meditate but there will be no instruction; you're welcome to meditate however you like or to sit quietly for an hour.\n\nPlease bring food and drinks to share. Paper cups, plates, bowls, utensils, and napkins will be provided.\nMeditation cushions will not be provided.  Please bring whatever you need to make yourself comfortable.  We will be meeting in The Lounge.\nDIRECTIONS\nThere are two grey doors at the address. Enter the one on the RIGHT (to the right of Savino's Quality Pasta) and proceed straight up the stairs to the second floor.",
       "startDate": "2026-12-20T19:00:00Z",
       "endDate": "2026-12-20T23:00:00Z",
       "category": [
@@ -2122,7 +1906,7 @@
         "source_url": "https://luma.com/bvped79n",
         "original_event_id": "_clr78bae71344da3cgrlcp1kad66sta0clr6arjkecn6ot9edlgg",
         "organizer": {
-          "name": "NYC Jhourney",
+          "name": "Jhana NYC",
           "website": "https://luma.com/calendar/cal-Hl2i5yr1fumfqWY",
           "instagram": "",
           "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
@@ -2137,7 +1921,7 @@
         "featured": false,
         "luma_source": true,
         "luma_host": {
-          "name": "NYC Jhourney",
+          "name": "Jhana NYC",
           "url": "https://luma.com/calendar/cal-Hl2i5yr1fumfqWY",
           "image": "https://images.lumacdn.com/uploads/6d/165fb0da-7792-4255-ab8b-e75bc6c1bf4d.jpg",
           "type": "Organization"
@@ -2200,5 +1984,5 @@
       }
     }
   ],
-  "timestamp": "2026-08-30T13:27:04.329332"
+  "timestamp": "2026-08-31T15:42:42.503865"
 }
