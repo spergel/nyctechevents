@@ -115,8 +115,8 @@
       "locationId": "",
       "communityId": "com_verci",
       "description": "Verci and Photon are hosting a private, curated dinner for a select group of consumer founders in NYC for ~12 founders.\nAbout the Partners:\nPhoton brings agents to the interfaces millions already use with an open-source framework that connects them to SMS/RCS, iMessage, WhatsApp, Discord, Slack, Telegram, and more.\nVerci is a workspace and social space in LA and NYC, meticulously curated for founders, artists, and creatives. Learn more at la.verci.com and verci.com. read our manifesto at verci.com/manifesto.",
-      "startDate": "2026-09-02T22:00:00Z",
-      "endDate": "2026-09-03T00:30:00Z",
+      "startDate": "2026-09-02T23:00:00Z",
+      "endDate": "2026-09-03T01:00:00Z",
       "category": [
         "technology",
         "innovation",
@@ -160,6 +160,55 @@
           "type": "Organization"
         },
         "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YjlnYzU0NWNzMzRkaG5taXJwbjZkaTZjdWkwY2xyNmFyamtlY242b3Q5ZWRsZ2cgcGY2bzdkcmxmcmJobXBxbG1sdDdwMjE1ZTcwaTljam5AaQ"
+      }
+    },
+    {
+      "id": "evt_gcal_com_verci_2a0ef24c",
+      "name": "Escape the Internet LIVE at Verci",
+      "type": "technology",
+      "locationId": "",
+      "communityId": "com_verci",
+      "description": "Find more information on https://luma.com/verci",
+      "startDate": "2026-09-03T23:30:00Z",
+      "endDate": "2026-09-04T00:30:00Z",
+      "category": [
+        "technology",
+        "innovation",
+        "society",
+        "community"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": [],
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://luma.com/verci",
+        "original_event_id": "_cdgmopbm5krkil2i8din0gac8hbmci2l8p06atj5dpq76bjcekn6qo8",
+        "organizer": {
+          "name": "Verci Events",
+          "website": "",
+          "instagram": "",
+          "email": "pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "https://escapetheinternet.live/shows/escapetheinternet-demo-night",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": true,
+        "luma_host": null,
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2NkZ21vcGJtNWtya2lsMmk4ZGluMGdhYzhoYm1jaTJsOHAwNmF0ajVkcHE3NmJqY2VrbjZxbzggcGY2bzdkcmxmcmJobXBxbG1sdDdwMjE1ZTcwaTljam5AaQ"
       }
     },
     {
@@ -379,14 +428,63 @@
       }
     },
     {
-      "id": "evt_gcal_com_verci_f1a54e5d",
-      "name": "Onboarding Night",
+      "id": "evt_gcal_com_verci_6ffd09f3",
+      "name": "Bonzo x Verci Workshop:  Making Videos",
       "type": "technology",
       "locationId": "",
       "communityId": "com_verci",
-      "description": "VERCI ONBOARDING NIGHT!!\nCongrats, you\u2019re in. Now it\u2019s time to get properly initiated.\nWhat are we doing? It\u2019s a surprise. Just know it\u2019ll be super fun and you\u2019ll leave knowing some new faces around Verci.\nCome ready to participate, meet your fellow new members, and trust the process.\nAttendance is voluntary (mandatory). See you there!!!!",
-      "startDate": "2026-09-14T22:00:00Z",
-      "endDate": "2026-09-15T00:00:00Z",
+      "description": "Find more information on https://luma.com/verci",
+      "startDate": "2026-09-10T23:00:00Z",
+      "endDate": "2026-09-11T00:00:00Z",
+      "category": [
+        "technology",
+        "innovation",
+        "society",
+        "community"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": [],
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://luma.com/verci",
+        "original_event_id": "_cdgmopbm5lij0rj7dhljikr164q7gd9jf106atj5dpq76bjcekn6qo8",
+        "organizer": {
+          "name": "Verci Events",
+          "website": "",
+          "instagram": "",
+          "email": "pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "https://partiful.com/e/DJzllAqkxFM0ypHs9NKI?",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": true,
+        "luma_host": null,
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2NkZ21vcGJtNWxpajByajdkaGxqaWtyMTY0cTdnZDlqZjEwNmF0ajVkcHE3NmJqY2VrbjZxbzggcGY2bzdkcmxmcmJobXBxbG1sdDdwMjE1ZTcwaTljam5AaQ"
+      }
+    },
+    {
+      "id": "evt_gcal_com_verci_370b1086",
+      "name": "Satellite Spa",
+      "type": "technology",
+      "locationId": "",
+      "communityId": "com_verci",
+      "description": "Come get your nails done!",
+      "startDate": "2026-09-11T16:00:00Z",
+      "endDate": "2026-09-11T19:00:00Z",
       "category": [
         "technology",
         "innovation",
@@ -402,12 +500,12 @@
       "capacity": null,
       "registrationRequired": false,
       "tags": [],
-      "image": "events/luma-event-8c541798.jpg",
+      "image": "events/luma-event-4f29f378.jpg",
       "status": "upcoming",
       "metadata": {
         "source": "Google Calendar",
-        "source_url": "https://luma.com/verci-xuwr",
-        "original_event_id": "_clr78ba38525gcikf1kkieaqa5i46ka0clr6arjkecn6ot9edlgg",
+        "source_url": "https://luma.com/nic4r62k",
+        "original_event_id": "_clr78bafb5jk8gpmd583gc3o6p27iea0clr6arjkecn6ot9edlgg",
         "organizer": {
           "name": "Verci Events",
           "website": "https://luma.com/verci",
@@ -429,7 +527,61 @@
           "image": "https://images.lumacdn.com/calendars/kw/d2a68898-7b2c-40c0-b2b7-27a313e1f6d2",
           "type": "Organization"
         },
-        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmEzODUyNWdjaWtmMWtraWVhcWE1aTQ2a2EwY2xyNmFyamtlY242b3Q5ZWRsZ2cgcGY2bzdkcmxmcmJobXBxbG1sdDdwMjE1ZTcwaTljam5AaQ"
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmFmYjVqazhncG1kNTgzZ2MzbzZwMjdpZWEwY2xyNmFyamtlY242b3Q5ZWRsZ2cgcGY2bzdkcmxmcmJobXBxbG1sdDdwMjE1ZTcwaTljam5AaQ"
+      }
+    },
+    {
+      "id": "evt_gcal_com_verci_944b476a",
+      "name": "new interfaces 006",
+      "type": "technology",
+      "locationId": "",
+      "communityId": "com_verci",
+      "description": "new interfaces is an intimate afternoon where we celebrate experiments in creative technology\n\nwelcoming designers, engineers, artists, and anyone in between!\n\nwanna demo? we're looking for:\n- radical remixes and reimaginations of technology\n- experiments with design, art, code, hardware, photography, video, and more\n- side projects that make you wonder and imagine\n\napply here to demo:\nhttps://forms.gle/8i15CRrq8BB8xkTXA\n\nfollow new interfaces for updates:\nhttps://x.com/newinterfaces\n\nsee our website to check out past demos:\nhttps://www.interfaces.new\n\nsee you there! good times guaranteed",
+      "startDate": "2026-09-12T18:00:00Z",
+      "endDate": "2026-09-12T21:00:00Z",
+      "category": [
+        "technology",
+        "innovation",
+        "society",
+        "community"
+      ],
+      "price": {
+        "amount": 0.0,
+        "type": "Free",
+        "currency": "USD",
+        "details": "General Admission"
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": [],
+      "image": "events/luma-event-9296d81a.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://luma.com/new-vpuo",
+        "original_event_id": "_clr78bbec9pjepblch430dq2e5k72sq0clr6arjkecn6ot9edlgg",
+        "organizer": {
+          "name": "new interfaces",
+          "website": "https://luma.com/newinterfaces",
+          "instagram": "",
+          "email": "pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "Verci Flatiron\nVerci Flatiron, New York, New York",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": true,
+        "luma_host": {
+          "name": "new interfaces",
+          "url": "https://luma.com/newinterfaces",
+          "image": "https://images.lumacdn.com/calendars/2e/76c3ecab-abde-423b-a4e5-f5366a45b391.png",
+          "type": "Organization"
+        },
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmJlYzlwamVwYmxjaDQzMGRxMmU1azcyc3EwY2xyNmFyamtlY242b3Q5ZWRsZ2cgcGY2bzdkcmxmcmJobXBxbG1sdDdwMjE1ZTcwaTljam5AaQ"
       }
     },
     {
@@ -484,6 +636,168 @@
           "type": "Organization"
         },
         "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YjlsYXBiNGFsaTZldDBrNmhhM2NsczRramkwY2xyNmFyamtlY242b3Q5ZWRsZ2cgcGY2bzdkcmxmcmJobXBxbG1sdDdwMjE1ZTcwaTljam5AaQ"
+      }
+    },
+    {
+      "id": "evt_gcal_com_verci_0217981d",
+      "name": "Ami's Dining Hall",
+      "type": "technology",
+      "locationId": "",
+      "communityId": "com_verci",
+      "description": "Our monthly community dinner!\nThis is a classic Verci experience, so if you haven't made it out to one yet, this is the perfect time to pull up.\n\nSeptember's is hosted by our own, Ami Yoshimura. So come HUNGRY! He will be cooking up a storm.",
+      "startDate": "2026-09-17T23:00:00Z",
+      "endDate": "2026-09-18T01:00:00Z",
+      "category": [
+        "technology",
+        "innovation",
+        "society",
+        "community"
+      ],
+      "price": {
+        "amount": 0.0,
+        "type": "Free",
+        "currency": "USD",
+        "details": "General Admission"
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": [],
+      "image": "events/luma-event-bde27cf6.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://luma.com/skrjqe6o",
+        "original_event_id": "_clr78baof1m4acj7dthn8s3675d6km20clr6arjkecn6ot9edlgg",
+        "organizer": {
+          "name": "Verci Events",
+          "website": "https://luma.com/verci",
+          "instagram": "",
+          "email": "pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "Ami's",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": true,
+        "luma_host": {
+          "name": "Verci Events",
+          "url": "https://luma.com/verci",
+          "image": "https://images.lumacdn.com/calendars/kw/d2a68898-7b2c-40c0-b2b7-27a313e1f6d2",
+          "type": "Organization"
+        },
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmFvZjFtNGFjajdkdGhuOHMzNjc1ZDZrbTIwY2xyNmFyamtlY242b3Q5ZWRsZ2cgcGY2bzdkcmxmcmJobXBxbG1sdDdwMjE1ZTcwaTljam5AaQ"
+      }
+    },
+    {
+      "id": "evt_gcal_com_verci_f1a54e5d",
+      "name": "Onboarding Night",
+      "type": "technology",
+      "locationId": "",
+      "communityId": "com_verci",
+      "description": "VERCI ONBOARDING NIGHT!!\nCongrats, you\u2019re in. Now it\u2019s time to get properly initiated.\nWhat are we doing? It\u2019s a surprise. Just know it\u2019ll be super fun and you\u2019ll leave knowing some new faces around Verci.\nCome ready to participate, meet your fellow new members, and trust the process.\nAttendance is voluntary (mandatory). See you there!!!!",
+      "startDate": "2026-09-21T22:00:00Z",
+      "endDate": "2026-09-22T00:00:00Z",
+      "category": [
+        "technology",
+        "innovation",
+        "society",
+        "community"
+      ],
+      "price": {
+        "amount": 0.0,
+        "type": "Free",
+        "currency": "USD",
+        "details": "General Admission"
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": [],
+      "image": "events/luma-event-4091d256.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://luma.com/verci-xuwr",
+        "original_event_id": "_clr78ba38525gcikf1kkieaqa5i46ka0clr6arjkecn6ot9edlgg",
+        "organizer": {
+          "name": "Verci Events",
+          "website": "https://luma.com/verci",
+          "instagram": "",
+          "email": "pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "Verci Flatiron\nVerci Flatiron, New York, New York",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": true,
+        "luma_host": {
+          "name": "Verci Events",
+          "url": "https://luma.com/verci",
+          "image": "https://images.lumacdn.com/calendars/kw/d2a68898-7b2c-40c0-b2b7-27a313e1f6d2",
+          "type": "Organization"
+        },
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmEzODUyNWdjaWtmMWtraWVhcWE1aTQ2a2EwY2xyNmFyamtlY242b3Q5ZWRsZ2cgcGY2bzdkcmxmcmJobXBxbG1sdDdwMjE1ZTcwaTljam5AaQ"
+      }
+    },
+    {
+      "id": "evt_gcal_com_verci_1bdfb86a",
+      "name": "Verci x Reunion Bathing Club",
+      "type": "technology",
+      "locationId": "",
+      "communityId": "com_verci",
+      "description": "Join us for an evening at the Russian-Turkish baths led by  Matt, founder of Reunion Bathing Club. We'll spend some time moving between the sauna and cold plunge. Come unwind, meet some new people, and ease into the rest of your week. Verci is subsidizing 50% of ticket cost.",
+      "startDate": "2026-09-22T23:00:00Z",
+      "endDate": "2026-09-23T01:00:00Z",
+      "category": [
+        "technology",
+        "innovation",
+        "society",
+        "community"
+      ],
+      "price": {
+        "amount": 20.0,
+        "type": "Paid",
+        "currency": "USD",
+        "details": "General Admission"
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": [],
+      "image": "events/luma-event-ebe8cda2.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://luma.com/3hhp8t3t",
+        "original_event_id": "_clr78b9n8hnk8cbhed6nccqb9p4n6hq0clr6arjkecn6ot9edlgg",
+        "organizer": {
+          "name": "Verci Events",
+          "website": "https://luma.com/verci",
+          "instagram": "",
+          "email": "pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "Russian & Turkish Baths\nRussian & Turkish Baths, New York, New York",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": true,
+        "luma_host": {
+          "name": "Verci Events",
+          "url": "https://luma.com/verci",
+          "image": "https://images.lumacdn.com/calendars/kw/d2a68898-7b2c-40c0-b2b7-27a313e1f6d2",
+          "type": "Organization"
+        },
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YjluOGhuazhjYmhlZDZuY2NxYjlwNG42aHEwY2xyNmFyamtlY242b3Q5ZWRsZ2cgcGY2bzdkcmxmcmJobXBxbG1sdDdwMjE1ZTcwaTljam5AaQ"
       }
     },
     {
@@ -595,6 +909,60 @@
       }
     },
     {
+      "id": "evt_gcal_com_verci_b3c95fe9",
+      "name": "Floral Arranging Workshop",
+      "type": "technology",
+      "locationId": "",
+      "communityId": "com_verci",
+      "description": "Get up-to-date information at: https://luma.com/verci-a4xh\n\nAddress:\nVerci Flatiron\nNew York, NY\nUnited States\n\nHosted by Verci",
+      "startDate": "2026-09-23T22:00:00Z",
+      "endDate": "2026-09-23T23:00:00Z",
+      "category": [
+        "technology",
+        "innovation",
+        "society",
+        "community"
+      ],
+      "price": {
+        "amount": 0.0,
+        "type": "Free",
+        "currency": "USD",
+        "details": "General Admission"
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": [],
+      "image": "events/luma-event-c90d8751.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://luma.com/verci-a4xh",
+        "original_event_id": "_clr78bb1a18k6r9k6t6kuo9hf5nmmhi0clr6arjkecn6ot9edlgg",
+        "organizer": {
+          "name": "Verci Events",
+          "website": "https://luma.com/verci",
+          "instagram": "",
+          "email": "pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "Verci Flatiron\nVerci Flatiron, New York, New York",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": true,
+        "luma_host": {
+          "name": "Verci Events",
+          "url": "https://luma.com/verci",
+          "image": "https://images.lumacdn.com/calendars/kw/d2a68898-7b2c-40c0-b2b7-27a313e1f6d2",
+          "type": "Organization"
+        },
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmIxYTE4azZyOWs2dDZrdW85aGY1bm1taGkwY2xyNmFyamtlY242b3Q5ZWRsZ2cgcGY2bzdkcmxmcmJobXBxbG1sdDdwMjE1ZTcwaTljam5AaQ"
+      }
+    },
+    {
       "id": "evt_gcal_com_verci_8bc3f78d",
       "name": "Open mic!",
       "type": "technology",
@@ -641,6 +1009,60 @@
         "luma_source": true,
         "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=X2NkZ21vcGJtNWxia2VsMzZjOWg3NHJhNWFkNDQ2cHJpZjUwNmF0ajVkcHE3NmJqY2VrbjZxbzggcGY2bzdkcmxmcmJobXBxbG1sdDdwMjE1ZTcwaTljam5AaQ"
+      }
+    },
+    {
+      "id": "evt_gcal_com_verci_52ca08b7",
+      "name": "Verci TED Talk Night",
+      "type": "technology",
+      "locationId": "",
+      "communityId": "com_verci",
+      "description": "Come listen to some of our amazing members give TED Talks about the things they're experts on and most passionate about. Each TED Talk followed by quick Q&A from the crowd!\n\nFill out this form and text Bobby at 440-221-8719 if you want to be a speaker.",
+      "startDate": "2026-09-29T22:00:00Z",
+      "endDate": "2026-09-30T00:00:00Z",
+      "category": [
+        "technology",
+        "innovation",
+        "society",
+        "community"
+      ],
+      "price": {
+        "amount": 0.0,
+        "type": "Free",
+        "currency": "USD",
+        "details": "General Admission"
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": [],
+      "image": "events/luma-event-c6833c2e.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://luma.com/rtvq5r6l",
+        "original_event_id": "_clr78bb6b1pmegap6haj0m9n8hc6ghi0clr6arjkecn6ot9edlgg",
+        "organizer": {
+          "name": "Verci Events",
+          "website": "https://luma.com/verci",
+          "instagram": "",
+          "email": "pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "Verci Flatiron\nVerci Flatiron, New York, New York",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": true,
+        "luma_host": {
+          "name": "Verci Events",
+          "url": "https://luma.com/verci",
+          "image": "https://images.lumacdn.com/calendars/kw/d2a68898-7b2c-40c0-b2b7-27a313e1f6d2",
+          "type": "Organization"
+        },
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmI2YjFwbWVnYXA2aGFqMG05bjhoYzZnaGkwY2xyNmFyamtlY242b3Q5ZWRsZ2cgcGY2bzdkcmxmcmJobXBxbG1sdDdwMjE1ZTcwaTljam5AaQ"
       }
     },
     {
@@ -806,5 +1228,5 @@
       }
     }
   ],
-  "timestamp": "2026-08-31T15:42:54.554143"
+  "timestamp": "2026-09-01T12:55:11.158115"
 }

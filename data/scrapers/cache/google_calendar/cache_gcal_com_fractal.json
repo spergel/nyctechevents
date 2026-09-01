@@ -1,60 +1,6 @@
 {
   "events": [
     {
-      "id": "evt_gcal_com_fractal_7a193862",
-      "name": "[SleepaWeek NYC] WOW, I feel good!",
-      "type": "tech",
-      "locationId": "loc_fractal",
-      "communityId": "com_fractal",
-      "description": "You are a PRO at running on fumes. Too little sleep, too much caffeine \u2014 and even while you feel bad, you can still be an absolute beast.\nThere's a cost, though. A subtle exhaustion undercurrent through everything you do. Trouble winding down at night. Every time you and your close friends both feel bad, you give and give and give until they feel better first, even when you're too tired. A suspicion that if you cleared a full day with no plans, you might just sleep through the whole thing.\nIs it possible there's another way to feel?! One where you're gasp reliably well-regulated and still capable of doing everything you want to do?\n\n\nCome try a range of practices for filling your cup and take home whichever ones work best for you. You'll leave with a better sense of how resourcing yourself can be the most efficient path to doing more of what you love \u2014 and maybe feeling like you just got a long professional massage, or lunch with an old friend.\nAgenda\nArrival, welcome, & settling in\nInteractive activity to learn about your own unique needs and wants, and what feels good and resourcing to you\nGentle and fun relational tool for grounding \u2014 up to you how deep you want to go, and your \"no\" will always be honored\nGuided meditation for deep rest\nPlease bring a yoga mat or anything else that will help you feel comfy and cozy for the lying down portion.\nAbout Your Facilitator: Sarah Cruse\n\n\nSarah has been with Sleepawake since 2023, leading both our emotional and relational curriculum and our creative expression curriculum at almost every retreat we\u2019ve ever run. As a young repressed and depressed adult, trying to find her way out of patterns of personal and familial trauma, she found poetry and discovered the healing power of embodied truth, authentic voice and creative expression. Sarah now supports people and communities in activating their own inner creative pathways. Outside of Sleepawake, she is currently a practitioner of energetic medicine, sound healing and trauma clearing, and the lead singer of her band Yaya's Kitchen. Sarah is up for the adventure of whatever this evening together brings and delighted to be part of it with you.\nAbout SleepaWeek\nSleepawake is coming to NYC for a week! Check out our events calendar to see everything happening this week. If the ticket price is a blocker to your attendance, please reach out to info@sleepawake.camp for details on need-based scholarship discounts.",
-      "startDate": "2026-08-31T23:00:00Z",
-      "endDate": "2026-09-01T01:00:00Z",
-      "category": [
-        "tech",
-        "startup",
-        "innovation",
-        "education"
-      ],
-      "price": {
-        "amount": 25.0,
-        "type": "Paid",
-        "currency": "USD",
-        "details": "General Admission"
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": [],
-      "image": "events/luma-event-79aafc94.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source": "Google Calendar",
-        "source_url": "https://luma.com/koptj8tq",
-        "original_event_id": "_clr78b9leh36ahbce9h6erbk91r7es20clr6arjkecn6ot9edlgg",
-        "organizer": {
-          "name": "Sleepawake Events Calendar",
-          "website": "https://luma.com/sleepawake-events",
-          "instagram": "",
-          "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
-        },
-        "venue": {
-          "name": "Fractal Tech",
-          "address": "111 Conselyea St, Brooklyn, NY 11211",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": true,
-        "luma_host": {
-          "name": "Sleepawake Events Calendar",
-          "url": "https://luma.com/sleepawake-events",
-          "image": "https://images.lumacdn.com/calendars/ec/cf307a72-ca44-45b4-ae52-b182e0652f95",
-          "type": "Organization"
-        },
-        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YjlsZWgzNmFoYmNlOWg2ZXJiazkxcjdlczIwY2xyNmFyamtlY242b3Q5ZWRsZ2cgdDN2MnJzb3VmZmZsMjA2amgxMDJ0dmEzamVla2ZnbWVAaQ"
-      }
-    },
-    {
       "id": "evt_gcal_com_fractal_4fee0e17",
       "name": "[SleepaWeek NYC] Silly Sad Strange Humanity",
       "type": "tech",
@@ -1984,5 +1930,5 @@
       }
     }
   ],
-  "timestamp": "2026-08-31T15:42:42.503865"
+  "timestamp": "2026-09-01T12:54:56.690776"
 }
