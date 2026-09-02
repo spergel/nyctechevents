@@ -1,60 +1,6 @@
 {
   "events": [
     {
-      "id": "evt_gcal_com_verci_ce5927bd",
-      "name": "Investor Happy Hour with Verci, Mercury, Harmonic",
-      "type": "technology",
-      "locationId": "",
-      "communityId": "com_verci",
-      "description": "About this event\nVerci is hosting a private, curated investor happy hour in NYC.\nMore about the hosts\nMercury is the fintech ambitious companies use for banking* and all their financial workflows. With a powerful account at the center of their operations, companies can make better financial decisions and ensure that every dollar spent aligns with company priorities. Over 300K startups choose Mercury to confidently run all their financial operations with the precision, control, and focus they need to operate at their best.  *Mercury is a fintech company, not an FDIC-insured bank. Banking services provided through Choice Financial Group and Column N.A., Members FDIC.\nHarmonic is the complete startup database. Used by hundreds of leading investors like Khosla, Lightspeed, and Founders Fund and GTM teams like OpenAI, Anthropic, and Google to find the next generation of startups and founders.\nVerci is a workspace and social space in NYC (and soon LA/SF), meticulously curated for founders, artists, and creatives. Learn more at verci.com and read our manifesto at verci.com/manifesto.",
-      "startDate": "2026-09-01T23:00:00Z",
-      "endDate": "2026-09-02T01:00:00Z",
-      "category": [
-        "technology",
-        "innovation",
-        "society",
-        "community"
-      ],
-      "price": {
-        "amount": 0.0,
-        "type": "Free",
-        "currency": "USD",
-        "details": "General Admission"
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": [],
-      "image": "events/luma-event-7f1e1be8.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source": "Google Calendar",
-        "source_url": "https://luma.com/65teqknb",
-        "original_event_id": "_clr78bb48lolck1ieks6qd2map66gua0clr6arjkecn6ot9edlgg",
-        "organizer": {
-          "name": "Verci Events",
-          "website": "https://luma.com/verci",
-          "instagram": "",
-          "email": "pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "New York, NY\nNew York, New York",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": true,
-        "luma_host": {
-          "name": "Verci Events",
-          "url": "https://luma.com/verci",
-          "image": "https://images.lumacdn.com/calendars/kw/d2a68898-7b2c-40c0-b2b7-27a313e1f6d2",
-          "type": "Organization"
-        },
-        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmI0OGxvbGNrMWlla3M2cWQybWFwNjZndWEwY2xyNmFyamtlY242b3Q5ZWRsZ2cgcGY2bzdkcmxmcmJobXBxbG1sdDdwMjE1ZTcwaTljam5AaQ"
-      }
-    },
-    {
       "id": "evt_gcal_com_verci_eb18d474",
       "name": "Verci Cafe",
       "type": "technology",
@@ -209,6 +155,55 @@
         "luma_source": true,
         "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=X2NkZ21vcGJtNWtya2lsMmk4ZGluMGdhYzhoYm1jaTJsOHAwNmF0ajVkcHE3NmJqY2VrbjZxbzggcGY2bzdkcmxmcmJobXBxbG1sdDdwMjE1ZTcwaTljam5AaQ"
+      }
+    },
+    {
+      "id": "evt_gcal_com_verci_709df947",
+      "name": "Verci Board Game Night",
+      "type": "technology",
+      "locationId": "",
+      "communityId": "com_verci",
+      "description": "Find more information on https://luma.com/verci",
+      "startDate": "2026-09-08T23:00:00Z",
+      "endDate": "2026-09-09T00:00:00Z",
+      "category": [
+        "technology",
+        "innovation",
+        "society",
+        "community"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": [],
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://luma.com/verci",
+        "original_event_id": "_cdgmopbm5lc74dj4dpql0oa7e1ikaoaee106atj5dpq76bjcekn6qo8",
+        "organizer": {
+          "name": "Verci Events",
+          "website": "",
+          "instagram": "",
+          "email": "pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "https://partiful.com/e/cwFDXVHt8pa2ENc9AAxk",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": true,
+        "luma_host": null,
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2NkZ21vcGJtNWxjNzRkajRkcHFsMG9hN2UxaWthb2FlZTEwNmF0ajVkcHE3NmJqY2VrbjZxbzggcGY2bzdkcmxmcmJobXBxbG1sdDdwMjE1ZTcwaTljam5AaQ"
       }
     },
     {
@@ -1012,6 +1007,60 @@
       }
     },
     {
+      "id": "evt_gcal_com_verci_3d0057f5",
+      "name": "Verci World Cup",
+      "type": "technology",
+      "locationId": "",
+      "communityId": "com_verci",
+      "description": "Get up-to-date information at: https://luma.com/cfuq9k1n\n\nAddress:\nthe Ground\nNew York, NY\nUnited States\n\nHosted by Verci",
+      "startDate": "2026-09-27T16:30:00Z",
+      "endDate": "2026-09-27T18:30:00Z",
+      "category": [
+        "technology",
+        "innovation",
+        "society",
+        "community"
+      ],
+      "price": {
+        "amount": 0.0,
+        "type": "Free",
+        "currency": "USD",
+        "details": "General Admission"
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": [],
+      "image": "events/luma-event-22d03bae.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://luma.com/cfuq9k1n",
+        "original_event_id": "_clr78bb78tkm4s1nd9t32j27e9c4crq0clr6arjkecn6ot9edlgg",
+        "organizer": {
+          "name": "Verci Events",
+          "website": "https://luma.com/verci",
+          "instagram": "",
+          "email": "pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "the Ground\nthe Ground, New York, New York",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": true,
+        "luma_host": {
+          "name": "Verci Events",
+          "url": "https://luma.com/verci",
+          "image": "https://images.lumacdn.com/calendars/kw/d2a68898-7b2c-40c0-b2b7-27a313e1f6d2",
+          "type": "Organization"
+        },
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmI3OHRrbTRzMW5kOXQzMmoyN2U5YzRjcnEwY2xyNmFyamtlY242b3Q5ZWRsZ2cgcGY2bzdkcmxmcmJobXBxbG1sdDdwMjE1ZTcwaTljam5AaQ"
+      }
+    },
+    {
       "id": "evt_gcal_com_verci_52ca08b7",
       "name": "Verci TED Talk Night",
       "type": "technology",
@@ -1226,7 +1275,61 @@
         },
         "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YjlwYjVqazhlM2hkZGQ1aWxyb2N0czVhaDIwY2xyNmFyamtlY242b3Q5ZWRsZ2cgcGY2bzdkcmxmcmJobXBxbG1sdDdwMjE1ZTcwaTljam5AaQ"
       }
+    },
+    {
+      "id": "evt_gcal_com_verci_8455b357",
+      "name": "Verci Tunisia",
+      "type": "technology",
+      "locationId": "",
+      "communityId": "com_verci",
+      "description": "APPLY TO THE RETREAT HERE!!\nMore info on Vercitunisia.com For more information on the hotel that may not be listed on the website, visit their home website. For more info on rooms, check this link.\nThis luma page is only for buying tickets. Your payment will not be processed until your ticket is accepted. You will be notified within 3 days if you are accepted into the experience after applying.\nAPPLY TO THE RETREAT HERE!!\nEmail us at club@verci.com for any inquiries!",
+      "startDate": "2026-10-19",
+      "endDate": "2026-10-27",
+      "category": [
+        "technology",
+        "innovation",
+        "society",
+        "community"
+      ],
+      "price": {
+        "amount": 2900.0,
+        "type": "Paid",
+        "currency": "USD",
+        "details": "General Admission"
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": [],
+      "image": "events/luma-event-f0f8a274.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://luma.com/z1bld6pu",
+        "original_event_id": "_clr78bb9ct47acib850j0cbd718jilq0clr6arjkecn6ot9edlgg",
+        "organizer": {
+          "name": "Verci Events",
+          "website": "https://luma.com/verci",
+          "instagram": "",
+          "email": "pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "Tunis\nTunis, Tunis, Tunis Governorate",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": true,
+        "luma_host": {
+          "name": "Verci Events",
+          "url": "https://luma.com/verci",
+          "image": "https://images.lumacdn.com/calendars/kw/d2a68898-7b2c-40c0-b2b7-27a313e1f6d2",
+          "type": "Organization"
+        },
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmI5Y3Q0N2FjaWI4NTBqMGNiZDcxOGppbHEwY2xyNmFyamtlY242b3Q5ZWRsZ2cgcGY2bzdkcmxmcmJobXBxbG1sdDdwMjE1ZTcwaTljam5AaQ"
+      }
     }
   ],
-  "timestamp": "2026-09-01T12:55:11.158115"
+  "timestamp": "2026-09-02T12:26:16.004479"
 }

@@ -531,6 +531,59 @@
       }
     },
     {
+      "id": "evt_gcal_com_nyc_resistor_f54bbece",
+      "name": "Soft Robotics: An Intro Talk for Curious Artists/Tinkerers",
+      "type": "hackerspace",
+      "locationId": "loc_nyc_resistor",
+      "communityId": "com_nyc_resistor",
+      "description": "RSVP https://www.eventbrite.com/e/soft-robotics-an-intro-talk-for-curious-artiststinkerers-tickets-1999421190604\n\nA lighthearted lecture with serious learning about the field of soft robotics, what softness is, and a playful approach to materiality.Precisely because the full potential of the emerging field of soft systems, particularly soft actuators, is unrealized, there are countless opportunities for curious innovators to discover or develop their own soft systems. This talk covers concepts from soft robotics such as:\nWhat is soft robotics?What is it good for?What is material softness?How can material play inspire us to explore novel creations?How can we look at familiar and new materials with fresh eyes?This talk is for anyone curious about soft robotics, and who is open to play. This lecture with have things to touch, and objects for play, but will not feature any hands-on fabrication.\nSuggested Donation $15\nSpeaker:\nKari Love has been teaching a popular soft robotics for artists course at NYU for nearly 10 years, and was the co-author of Make: Soft Robotics - A DIY Introduction to Squishy, Stretchable, and Flexible Robots. She has made functional space suits, costumes/wearables, puppets, robots from candy, and countless other soft things.\nAs with all NYC Resistor events, this class is 18+ and governed by our Code of Conduct. The Code of Conduct, as well as accessibility information, can be found at www.nycresistor.com/participate/. Please note that refunds must be requested 24 hours in advance. If you have any questions, please email classes@nycresistor.com.\nThis program is supported, in part, by public funds from the New York City Department of Cultural Affairs in partnership with the City Council.\n",
+      "startDate": "2026-09-11T19:00:00-04:00",
+      "endDate": "2026-09-11T21:00:00-04:00",
+      "category": [
+        "hackerspace",
+        "maker",
+        "hardware",
+        "electronics",
+        "laser cutting",
+        "3d printing",
+        "microcontrollers",
+        "robotics"
+      ],
+      "price": {
+        "amount": 15.0,
+        "type": "Paid",
+        "currency": "USD",
+        "details": "See event description for pricing details"
+      },
+      "capacity": null,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://www.eventbrite.com/e/soft-robotics-an-intro-talk-for-curious-artiststinkerers-tickets-1999421190604",
+        "original_event_id": "agsh1fo9mo3d62ug98746do0dk",
+        "organizer": {
+          "name": "NYCResistor",
+          "website": "",
+          "instagram": "",
+          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "NYCResistor\n87 3rd Ave\nBrooklyn, NY 11217",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false,
+        "luma_host": null,
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=YWdzaDFmbzltbzNkNjJ1Zzk4NzQ2ZG8wZGsgcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw"
+      }
+    },
+    {
       "id": "evt_gcal_com_nyc_resistor_9f305ca7",
       "name": "HOLD: Cyberdeck Class",
       "type": "hackerspace",
@@ -3022,6 +3075,59 @@
       }
     },
     {
+      "id": "evt_gcal_com_nyc_resistor_07d0a126",
+      "name": "Hold: lock picking class",
+      "type": "hackerspace",
+      "locationId": "loc_nyc_resistor",
+      "communityId": "com_nyc_resistor",
+      "description": "",
+      "startDate": "2026-10-30T19:00:00-04:00",
+      "endDate": "2026-10-30T20:00:00-04:00",
+      "category": [
+        "hackerspace",
+        "maker",
+        "hardware",
+        "electronics",
+        "laser cutting",
+        "3d printing",
+        "microcontrollers",
+        "robotics"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": null,
+      "tags": [],
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://www.google.com/calendar/event?eid=NjByM2NjMWxjaGlqNGJiMzZoaTNpYjlrNzFoMzBiOXA2NHI2NGI5cDY4czM0bzlrNmtvMzRjcGg2NCBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn",
+        "original_event_id": "60r3cc1lchij4bb36hi3ib9k71h30b9p64r64b9p68s34o9k6ko34cph64",
+        "organizer": {
+          "name": "NYCResistor",
+          "website": "",
+          "instagram": "",
+          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false,
+        "luma_host": null,
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=NjByM2NjMWxjaGlqNGJiMzZoaTNpYjlrNzFoMzBiOXA2NHI2NGI5cDY4czM0bzlrNmtvMzRjcGg2NCBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn"
+      }
+    },
+    {
       "id": "evt_gcal_com_nyc_resistor_bc97242b",
       "name": "HOLD: HALLOWEEN PARTY!!!",
       "type": "hackerspace",
@@ -4133,60 +4239,7 @@
         "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=MjFncWFwczJxam0zNHBtOGdsbTQwanNpczAgcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw"
       }
-    },
-    {
-      "id": "evt_gcal_com_nyc_resistor_5652f996",
-      "name": "Masks On Craft Night",
-      "type": "hackerspace",
-      "locationId": "loc_nyc_resistor",
-      "communityId": "com_nyc_resistor",
-      "description": "All the fun of a regular craft night with the added safety of a masks-required environment.<br><br>Free (and optional) tickets are available here:\u00a0<a href=\"https://www.google.com/url?q=https://www.eventbrite.com/e/public-craft-night-1st-fridays-and-3rd-wednesdays-of-the-month-masks-on-tickets-623419182557&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw30wJgCOHNVYdmKOTp_roao\" target=\"_blank\">https://www.eventbrite.com/e/public-craft-night-1st-fridays-and-3rd-wednesdays-of-the-month-masks-on-tickets-623419182557</a><br><br>This event, like all NYC Resistor events is 18 and over and governed by out code of conduct.\u00a0<br><br>More information:\u00a0<a href=\"https://www.google.com/url?q=http://www.nycresistor.com/participate/&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw1wUIUV1qFGFLwgIAX6dIkL\" target=\"_blank\"><u>http://www.nycresistor.com/participate/</u></a><br>NYC Resistor Code of Conduct:\u00a0<a href=\"https://www.google.com/url?q=http://www.nycresistor.com/2015/08/04/nyc-resistor-code-of-conduct/&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw0FxoSzn8w-pu237gKg6lmI\" target=\"_blank\"><u>http://www.nycresistor.com/2015/08/04/nyc-resistor-code-of-conduct/</u></a>",
-      "startDate": "2026-12-04T18:30:00-05:00",
-      "endDate": "2026-12-04T21:30:00-05:00",
-      "category": [
-        "hackerspace",
-        "maker",
-        "hardware",
-        "electronics",
-        "laser cutting",
-        "3d printing",
-        "microcontrollers",
-        "robotics"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": true,
-      "tags": [],
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source": "Google Calendar",
-        "source_url": "https://www.eventbrite.com/e/public-craft-night-1st-fridays-and-3rd-wednesdays-of-the-month-masks-on-tickets-623419182557",
-        "original_event_id": "0iqqft475g0rh2qe28btv8gne9_20261204T233000Z",
-        "organizer": {
-          "name": "NYCResistor",
-          "website": "",
-          "instagram": "",
-          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "87 3rd Ave, Brooklyn, NY 11217, USA",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false,
-        "luma_host": null,
-        "google_calendar_link": "https://www.google.com/calendar/event?eid=MGlxcWZ0NDc1ZzByaDJxZTI4YnR2OGduZTlfMjAyNjEyMDRUMjMzMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn"
-      }
     }
   ],
-  "timestamp": "2026-09-01T12:54:57.188264"
+  "timestamp": "2026-09-02T12:25:55.625665"
 }

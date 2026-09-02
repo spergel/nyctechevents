@@ -1,14 +1,14 @@
 {
   "events": [
     {
-      "id": "evt_gcal_com_effective_altruism_nyc_a082a41c",
-      "name": "AI 2040 discussion: AI safety planning workshop",
+      "id": "evt_gcal_com_effective_altruism_nyc_f0512475",
+      "name": "EA Data & Tech Meetup",
       "type": "effective altruism",
       "locationId": "",
       "communityId": "com_effective_altruism_nyc",
-      "description": "We're still intending to run our forecasting event, but we're bumping it to later in September. In its place we've got something related, and also changed the date from August 19 to September 1.\n\nThe AI Futures Project (the team behind AI 2027) has published its most ambitious work yet: AI 2040: Plan A, a scenario in which the US and China strike a deal in 2029 to avoid a reckless race to superintelligence. The world pauses AI capabilities at top-human-expert level in 2035, and scales to superintelligence only in 2040, under total research transparency and a regime the authors call Mutually Assured Compute Destruction. The authors are explicit that this is a recommendation rather than a prediction, and that they wrote it as an exercise in \"scenario scrutiny\": most AI policy proposals fall apart when you try to write down a detailed world in which they succeed. Our job for the evening is to apply that same scrutiny to Plan A itself.\n\nWe'll spend most of the evening in small-group discussion, working through the scenario's timelines, the deal mechanics, the rival plans (B, C, D, and S), and where Plan A is most likely to break. We'll finish with a forecast round in which each group registers probabilities on a handful of concrete questions about how the next few years actually unfold, and we compare the spread across the room.\n\nPlease read the whole scenario at ai-2040.com over the weekend before the event if you can; it's long but reads quickly, and the later chapters reward the effort. If you're pushed for time, about 30 minutes covers the essentials: the introductory front matter, the 2029 \"Choose a Path\" chapter, and a skim of 2027 and 2028. Here is a handout with the schedule and discussion questions in advance, and we'll have spare copies (and a cheat sheet for anyone who couldn't do the reading) on the night. Newcomers are very welcome.\n\nGetting here: We're on the 3rd floor of 26 Broadway, in the Primary coworking space (map). Enter the building, go down the stairs, turn right to the elevators, and take the set of elevators on your right. Someone will be at the door to meet you.\n\nSchedule: Doors at 6:30pm, discussion 7:00 to 8:40, then networking and socializing.",
-      "startDate": "2026-09-01T18:00:00-04:00",
-      "endDate": "2026-09-01T20:00:00-04:00",
+      "description": "Come join other effective altruists (EAs) working in data and tech for a casual meet up at Juke Bar. Hope to see you there!",
+      "startDate": "2026-09-10T18:30:00-04:00",
+      "endDate": "2026-09-10T20:30:00-04:00",
       "category": [
         "effective altruism",
         "impact",
@@ -24,12 +24,120 @@
       "capacity": null,
       "registrationRequired": false,
       "tags": [],
-      "image": "events/luma-event-b6318eda.jpg",
+      "image": "events/luma-event-73d44d97.jpg",
       "status": "upcoming",
       "metadata": {
         "source": "Google Calendar",
-        "source_url": "https://luma.com/i9ak92r5",
-        "original_event_id": "7v1jh2c7c3apugrkrf54d7qma1",
+        "source_url": "https://luma.com/y7eqdk4x",
+        "original_event_id": "37v4aibri0njk868bu3ukms2lb",
+        "organizer": {
+          "name": "EA NYC",
+          "website": "https://luma.com/calendar/cal-vnPGs6DwV4F2m8X",
+          "instagram": "",
+          "email": "hbvetqf5h1pd0of0vn6uvphqts@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "Juke Bar\nJuke Bar, New York, New York",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": true,
+        "luma_host": {
+          "name": "EA NYC",
+          "url": "https://luma.com/calendar/cal-vnPGs6DwV4F2m8X",
+          "image": "https://cdn.lu.ma/avatars-default/community_avatar_4.png",
+          "type": "Organization"
+        },
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=Mzd2NGFpYnJpMG5qazg2OGJ1M3VrbXMybGIgaGJ2ZXRxZjVoMXBkMG9mMHZuNnV2cGhxdHNAZw"
+      }
+    },
+    {
+      "id": "evt_gcal_com_effective_altruism_nyc_d9922e74",
+      "name": "EA NYC Beginner-Friendly Summer Hike!",
+      "type": "effective altruism",
+      "locationId": "",
+      "communityId": "com_effective_altruism_nyc",
+      "description": "This will be one of our easier hikes - a gentle walk through the woods, no grappling hooks required!  Key points follow, more details below.\nKey points - read this!\nMeet me (Jacob Eliosoff) at Port Authority at 8:25 am, gate 405 (upstairs).  We'll take Short Line bus 700 to Bear Mountain Inn (buy a ticket here, $20) which leaves at 8:45 am sharp - if you miss it you've missed the hike!I'll keep an eye on jacob.eliosoff@gmail.com/FB Messenger up to 9 am, but may be hard to reach during the hike.\nBring: water, a packed lunch (no restos on the trail)/snacks, comfy shoes + socks, ideally a hat.  I recommend long (light) pants rather than shorts, to avoid scratches & ticks.\nWe'll end our hike at Manitou, then take Metro North ($16) back to Grand Central, arriving by 5:15 pm.  (Note that we start from Port Authority, return to Grand Central.)\nOverall itinerary:\n8:25 am: Port Authority gate 405.\n8:45 am: bus 700 leaves.\n10:15 am: bus arrives at Bear Mountain Inn.\nHike through Bear Mountain State Park (see route here), to Doodletown (including a stop for packed lunch), then over the Bear Mountain Bridge, to Manitou Metro North station.Total mileage is ~6 flat miles, though we may skip bits if we're moving extra slow.\n3:37 pm: catch the Hudson Line train at Manitou.\n5:01 pm: train arrives at Grand Central.\nOther notes:\nAll are welcome!  We'll go pretty slowly, with breaks.  This route has no extended climbs/descents.\nNonprofit workers and students are eligible for a discount on the bus/train tickets - contact me.\nAnnoyingly the MTA TrainTime app doesn't seem to let you buy the ticket before the day of travel.  \ud83e\udd37\nTicks are always a risk in NY nature, as some of us learned a few hikes ago.  They're harmless if removed within a day: I suggest giving yourself a close body inspection once you get home after the hike.\nForecast looks great!  80\u00b0, a little warm (see hat above).",
+      "startDate": "2026-09-12T08:25:00-04:00",
+      "endDate": "2026-09-12T17:05:00-04:00",
+      "category": [
+        "effective altruism",
+        "impact",
+        "philosophy",
+        "community"
+      ],
+      "price": {
+        "amount": 0.0,
+        "type": "Free",
+        "currency": "USD",
+        "details": "General Admission"
+      },
+      "capacity": null,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "events/luma-event-32856a73.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://luma.com/bnqtcve6",
+        "original_event_id": "4m5rp6edismalgashfq7rmo2vk",
+        "organizer": {
+          "name": "EA NYC",
+          "website": "https://luma.com/calendar/cal-vnPGs6DwV4F2m8X",
+          "instagram": "",
+          "email": "hbvetqf5h1pd0of0vn6uvphqts@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "Port Authority Bus Terminal\nPort Authority Bus Terminal, New York, New York",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": true,
+        "luma_host": {
+          "name": "EA NYC",
+          "url": "https://luma.com/calendar/cal-vnPGs6DwV4F2m8X",
+          "image": "https://cdn.lu.ma/avatars-default/community_avatar_4.png",
+          "type": "Organization"
+        },
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=NG01cnA2ZWRpc21hbGdhc2hmcTdybW8ydmsgaGJ2ZXRxZjVoMXBkMG9mMHZuNnV2cGhxdHNAZw"
+      }
+    },
+    {
+      "id": "evt_gcal_com_effective_altruism_nyc_40535626",
+      "name": "Forecasting AI: A Workshop with Superforecaster Jonathan Mann",
+      "type": "effective altruism",
+      "locationId": "",
+      "communityId": "com_effective_altruism_nyc",
+      "description": "Join us for an introductory forecasting workshop lead by Jonathan Mann for people interested in AI safety. We\u2019ll learn how to make clear, testable predictions, assign probabilities, update our beliefs, and avoid common forecasting mistakes through practical exercises. No prior forecasting experience is required. We\u2019ll use our knowledge to try to make forecasts on pressing topics related to the advance of AI.\nJonathan Mann is a Good Judgment Superforecaster and a member of the forecasting group Samotsvety, which has published some of the most-cited probability estimates on AI risk and AGI timelines. He is a security architect in the financial sector and teaches computer science at NYU.",
+      "startDate": "2026-09-15T18:00:00-04:00",
+      "endDate": "2026-09-15T20:00:00-04:00",
+      "category": [
+        "effective altruism",
+        "impact",
+        "philosophy",
+        "community"
+      ],
+      "price": {
+        "amount": 0.0,
+        "type": "Free",
+        "currency": "USD",
+        "details": "General Admission"
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": [],
+      "image": "events/luma-event-2a73435e.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://luma.com/gndioj0i",
+        "original_event_id": "5hipv17hen1v28je38b9rdm0cd",
         "organizer": {
           "name": "EA NYC",
           "website": "https://luma.com/calendar/cal-vnPGs6DwV4F2m8X",
@@ -51,7 +159,61 @@
           "image": "https://cdn.lu.ma/avatars-default/community_avatar_4.png",
           "type": "Organization"
         },
-        "google_calendar_link": "https://www.google.com/calendar/event?eid=N3YxamgyYzdjM2FwdWdya3JmNTRkN3FtYTEgaGJ2ZXRxZjVoMXBkMG9mMHZuNnV2cGhxdHNAZw"
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=NWhpcHYxN2hlbjF2MjhqZTM4YjlyZG0wY2QgaGJ2ZXRxZjVoMXBkMG9mMHZuNnV2cGhxdHNAZw"
+      }
+    },
+    {
+      "id": "evt_gcal_com_effective_altruism_nyc_8e7ea720",
+      "name": "EA NYC Creatives & Communicators Meetup",
+      "type": "effective altruism",
+      "locationId": "",
+      "communityId": "com_effective_altruism_nyc",
+      "description": "Calling all writers, designers, filmmakers, marketers, podcasters, artists, and other creative-minded EAs!\nThis is an informal monthly meetup to connect and share ideas.   Whether you\u2019re working on a creative project, thinking about how to use storytelling for impact, or just curious what this group is about, come hang out!\nPlease note that this event is capped to 10 attendees due to reservation rules at the restaurant.",
+      "startDate": "2026-09-24T19:00:00-04:00",
+      "endDate": "2026-09-24T21:00:00-04:00",
+      "category": [
+        "effective altruism",
+        "impact",
+        "philosophy",
+        "community"
+      ],
+      "price": {
+        "amount": 0.0,
+        "type": "Free",
+        "currency": "USD",
+        "details": "General Admission"
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": [],
+      "image": "events/luma-event-0d524a64.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://luma.com/ivpzafdw",
+        "original_event_id": "37pmcofvu1m9jv5jobcuuqmv09",
+        "organizer": {
+          "name": "EA NYC",
+          "website": "https://luma.com/calendar/cal-vnPGs6DwV4F2m8X",
+          "instagram": "",
+          "email": "hbvetqf5h1pd0of0vn6uvphqts@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "Beyond Sushi - Vegan Restaurant\nBeyond Sushi - Vegan Restaurant, New York, New York",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": true,
+        "luma_host": {
+          "name": "EA NYC",
+          "url": "https://luma.com/calendar/cal-vnPGs6DwV4F2m8X",
+          "image": "https://cdn.lu.ma/avatars-default/community_avatar_4.png",
+          "type": "Organization"
+        },
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=MzdwbWNvZnZ1MW05anY1am9iY3V1cW12MDkgaGJ2ZXRxZjVoMXBkMG9mMHZuNnV2cGhxdHNAZw"
       }
     },
     {
@@ -101,6 +263,60 @@
         "luma_source": false,
         "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=MmIwa29yNTB1ODRicHRqZTZxNTZramJxMG5fMjAyNjA5MjYgaGJ2ZXRxZjVoMXBkMG9mMHZuNnV2cGhxdHNAZw"
+      }
+    },
+    {
+      "id": "evt_gcal_com_effective_altruism_nyc_3b0b877b",
+      "name": "EA NYC Vegan Dim Sum",
+      "type": "effective altruism",
+      "locationId": "",
+      "communityId": "com_effective_altruism_nyc",
+      "description": "Please join EA NYC for our monthly vegan dim sum.\n- All are welcome! - Cost per meal: variable, likely $25-$30 - If you\u2019d like to attend but have any concerns, please get in touch with Megan\nJoin for an EA NYC community favorite: tasty and affordable vegan dim sum!",
+      "startDate": "2026-09-26T13:00:00-04:00",
+      "endDate": "2026-09-26T15:00:00-04:00",
+      "category": [
+        "effective altruism",
+        "impact",
+        "philosophy",
+        "community"
+      ],
+      "price": {
+        "amount": 0.0,
+        "type": "Free",
+        "currency": "USD",
+        "details": "General Admission"
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": [],
+      "image": "events/luma-event-97fb11c5.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://luma.com/8w6h1sak",
+        "original_event_id": "35dlesiv20jvvrc563i0gudl4u",
+        "organizer": {
+          "name": "EA NYC",
+          "website": "https://luma.com/calendar/cal-vnPGs6DwV4F2m8X",
+          "instagram": "",
+          "email": "hbvetqf5h1pd0of0vn6uvphqts@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "Bodhi Kosher Vegetarian Restaurant\nBodhi Kosher Vegetarian Restaurant, New York, New York",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": true,
+        "luma_host": {
+          "name": "EA NYC",
+          "url": "https://luma.com/calendar/cal-vnPGs6DwV4F2m8X",
+          "image": "https://cdn.lu.ma/avatars-default/community_avatar_4.png",
+          "type": "Organization"
+        },
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=MzVkbGVzaXYyMGp2dnJjNTYzaTBndWRsNHUgaGJ2ZXRxZjVoMXBkMG9mMHZuNnV2cGhxdHNAZw"
       }
     },
     {
@@ -692,5 +908,5 @@
       }
     }
   ],
-  "timestamp": "2026-09-01T12:54:37.979710"
+  "timestamp": "2026-09-02T12:25:37.053608"
 }

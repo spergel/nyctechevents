@@ -1,60 +1,6 @@
 {
   "events": [
     {
-      "id": "evt_gcal_com_fractal_4fee0e17",
-      "name": "[SleepaWeek NYC] Silly Sad Strange Humanity",
-      "type": "tech",
-      "locationId": "loc_fractal",
-      "communityId": "com_fractal",
-      "description": "Every single person has had some sad and kinda awful stuff happen to them. Also some funny stuff. Also some stuff they don't know how to feel about. Let's share in the totality of how varied and strange it is to be a human!\n\nAfter meeting one another and settling in, we\u2019ll spend most of our time on an activity where you get to see others and be seen one layer (or more?) deeper than you might normally. This one's sweet, and tender, and funny, and...I think it's easier for me to like you now.\n\nDoors open at 7 and close at 7:15 sharp; please be there before 7:15 to participate in this one.\nAbout your facilitator\n\nRaven is a facilitator and curriculum builder at Sleepawake. She brings almost a decade of somatic, relational, and emotional work to the room. Previously a medic, filmmaker, tech worker, and hardcore meditator (accumulating four months in silent meditation including a stint in a monastery in Myanmar), her work now draws from various meditation traditions: Vipassana (Goenka, Gaya House traditions) and Mahamudra (Rigdzin with Dustin DiPerna). It also incorporates teachings from Realization Process (where she's a certified teacher, trained with Judith Blackstone and Roma Hammel), the Conscious Leadership Group (she's a certified 15 Commitments Coach, trained with Jim Dethmer and Diana Chapman), and a body of work that treats emotions as energy to be welcomed rather than managed, with enjoyment as the accelerator of change. Having worked with hundreds of people, Raven knows the stuff we most want to skip is usually the stuff worth staying with, and she makes this difficult task feel like a bold and wild ride.\nFor anyone who wants to access more personal freedom, to be honest about what they want, and to turn the most \"bad\" and difficult aspects of themselves into allies and heroes - Raven's got you.\nAt home in Berkeley, you might find her hanging out with her beautiful besties, playing narrative-driven video games and getting absolutely shredded at the gym.\nAbout SleepaWeek\nSleepawake is coming to NYC for a week! Check out our events calendar to see everything happening this week. If the ticket price is a blocker to your attendance, please reach out to info@sleepawake.camp for details on need-based scholarship discounts.",
-      "startDate": "2026-09-01T23:00:00Z",
-      "endDate": "2026-09-02T01:00:00Z",
-      "category": [
-        "tech",
-        "startup",
-        "innovation",
-        "education"
-      ],
-      "price": {
-        "amount": 25.0,
-        "type": "Paid",
-        "currency": "USD",
-        "details": "General Admission"
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": [],
-      "image": "events/luma-event-4eb0d3b4.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source": "Google Calendar",
-        "source_url": "https://luma.com/junuo8ii",
-        "original_event_id": "_clr78b9jdl5k4rild9j7aq9pe9gmari0clr6arjkecn6ot9edlgg",
-        "organizer": {
-          "name": "Sleepawake Events Calendar",
-          "website": "https://luma.com/sleepawake-events",
-          "instagram": "",
-          "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
-        },
-        "venue": {
-          "name": "Fractal Tech",
-          "address": "111 Conselyea St, Brooklyn, NY 11211",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": true,
-        "luma_host": {
-          "name": "Sleepawake Events Calendar",
-          "url": "https://luma.com/sleepawake-events",
-          "image": "https://images.lumacdn.com/calendars/ec/cf307a72-ca44-45b4-ae52-b182e0652f95",
-          "type": "Organization"
-        },
-        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YjlqZGw1azRyaWxkOWo3YXE5cGU5Z21hcmkwY2xyNmFyamtlY242b3Q5ZWRsZ2cgdDN2MnJzb3VmZmZsMjA2amgxMDJ0dmEzamVla2ZnbWVAaQ"
-      }
-    },
-    {
       "id": "evt_gcal_com_fractal_a70e338e",
       "name": "[SleepaWeek NYC] This Room Is Full of Baddies!",
       "type": "tech",
@@ -833,7 +779,7 @@
         },
         "venue": {
           "name": "",
-          "address": "Venue pending \u2014 Fractal Campus NYC submitted for approval",
+          "address": "https://luma.com/event/evt-tqBqhItr5nV6Zar",
           "type": "Offline"
         },
         "speakers": [],
@@ -1930,5 +1876,5 @@
       }
     }
   ],
-  "timestamp": "2026-09-01T12:54:56.690776"
+  "timestamp": "2026-09-02T12:25:55.106862"
 }
