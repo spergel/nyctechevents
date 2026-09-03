@@ -1,59 +1,6 @@
 {
   "events": [
     {
-      "id": "evt_gcal_com_nyc_resistor_27967bef",
-      "name": "Learn to Use a Laser Cutter to Cut and Etch Your Own Designs",
-      "type": "hackerspace",
-      "locationId": "loc_nyc_resistor",
-      "communityId": "com_nyc_resistor",
-      "description": "RSVP\u00a0<a href=\"https://www.eventbrite.com/e/1994510647036?aff=oddtdtcreator\">https://www.eventbrite.com/e/1994510647036</a><br>Harness the power of an Epilog 60 Watt Laser! In this class you'll learn everything you need.Harness the power of an Epilog 60 Watt Laser! In this class you'll learn everything you need to know to make the ideas in your head become a reality with a laser.<br>In this three hour class, you will learn:<br>How to set up a file for cutting on the laser cutter in Inkscape or Adobe Illustrator.Laser cutter safety including materials testing.Laser cutter operation including configuration, cuts and raster etching in common materials like wood, acrylic, cardboard and others.At the end of class, you will go home with:<br>One laser cut project, either the class default or a simple one of your own design (see below for details)Resistor Laser Certification, enabling you to use our laser on Craft Nights.Please bring the following to class:<br>A laptop with either Inkscape (free: download here: <a href=\"https://inkscape.org/release/inkscape-1.2.1/\" target=\"_blank\">https://inkscape.org/release/inkscape-1.2.1/</a>) or Adobe Illustrator installed.<br>A USB jump drive<br>The following items are optional if you'd like to try cutting a simple custom design. If your file ends up being too complicated, we may have you do the class default project first, just to learn the laser in the time allotted - but we'll definitely help you with your more complex cut at a free Craft Night in future!<br>An SVG vector file of a simple shape you'd like to cut for your first cut.A piece of 1/8 inch or thinner wood, acrylic or cardboard you'd like to cut. If you can't bring your own material, small pieces will be made available, or larger pieces for purchase on site.Please be on time for the start of class! If you're late you will miss your slot.<br>This class will be taught by NYC Resistor member Olivia. As with all NYC Resistor events, this class is 18+ and governed by our Code of Conduct. The Code of Conduct, as well as accessibility information, can be found at <a href=\"http://www.nycresistor.com/participate/\" target=\"_blank\">www.nycresistor.com/participate/</a>.<br>Please note that refunds must be requested 72 hours in advance. If you have any questions, please email <a href=\"mailto:classes@nycresistor.com\" target=\"_blank\">classes@nycresistor.com</a>.<br>This program is supported, in part, by public funds from the New York City Department of Cultural Affairs in partnership with the City Council.",
-      "startDate": "2026-09-02T18:00:00-04:00",
-      "endDate": "2026-09-02T21:00:00-04:00",
-      "category": [
-        "hackerspace",
-        "maker",
-        "hardware",
-        "electronics",
-        "laser cutting",
-        "3d printing",
-        "microcontrollers",
-        "robotics"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": true,
-      "tags": [],
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source": "Google Calendar",
-        "source_url": "https://www.eventbrite.com/e/1994510647036?aff=oddtdtcreator",
-        "original_event_id": "47nlnvpan8tict0ispmjtqce93",
-        "organizer": {
-          "name": "NYCResistor",
-          "website": "",
-          "instagram": "",
-          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "NYC Resistor\n87 Third Avenue\nBrooklyn, NY 11217",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false,
-        "luma_host": null,
-        "google_calendar_link": "https://www.google.com/calendar/event?eid=NDdubG52cGFuOHRpY3QwaXNwbWp0cWNlOTMgcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw"
-      }
-    },
-    {
       "id": "evt_gcal_com_nyc_resistor_f9b8a304",
       "name": "Public Craft Night Mondays and Thursdays!",
       "type": "hackerspace",
@@ -475,59 +422,6 @@
         "luma_source": false,
         "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=YjBnbGlpODN1ZzVvZzZrb2Npa2t1ajZnZmsgcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw"
-      }
-    },
-    {
-      "id": "evt_gcal_com_nyc_resistor_8eddd717",
-      "name": "HOLD: Kari Class",
-      "type": "hackerspace",
-      "locationId": "loc_nyc_resistor",
-      "communityId": "com_nyc_resistor",
-      "description": "",
-      "startDate": "2026-09-11",
-      "endDate": "2026-09-12",
-      "category": [
-        "hackerspace",
-        "maker",
-        "hardware",
-        "electronics",
-        "laser cutting",
-        "3d printing",
-        "microcontrollers",
-        "robotics"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": null,
-      "tags": [],
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source": "Google Calendar",
-        "source_url": "https://www.google.com/calendar/event?eid=MHBhdmZsMzY0YWU3dGI3Nzk5Y3N0ZXFwMWEgcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw",
-        "original_event_id": "0pavfl364ae7tb7799csteqp1a",
-        "organizer": {
-          "name": "NYCResistor",
-          "website": "",
-          "instagram": "",
-          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": false,
-        "luma_host": null,
-        "google_calendar_link": "https://www.google.com/calendar/event?eid=MHBhdmZsMzY0YWU3dGI3Nzk5Y3N0ZXFwMWEgcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw"
       }
     },
     {
@@ -4239,7 +4133,113 @@
         "luma_host": null,
         "google_calendar_link": "https://www.google.com/calendar/event?eid=MjFncWFwczJxam0zNHBtOGdsbTQwanNpczAgcDJtMmF2OWRocmg0bjF1YjdqbHNjNjhzN29AZw"
       }
+    },
+    {
+      "id": "evt_gcal_com_nyc_resistor_5652f996",
+      "name": "Masks On Craft Night",
+      "type": "hackerspace",
+      "locationId": "loc_nyc_resistor",
+      "communityId": "com_nyc_resistor",
+      "description": "All the fun of a regular craft night with the added safety of a masks-required environment.<br><br>Free (and optional) tickets are available here:\u00a0<a href=\"https://www.google.com/url?q=https://www.eventbrite.com/e/public-craft-night-1st-fridays-and-3rd-wednesdays-of-the-month-masks-on-tickets-623419182557&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw30wJgCOHNVYdmKOTp_roao\" target=\"_blank\">https://www.eventbrite.com/e/public-craft-night-1st-fridays-and-3rd-wednesdays-of-the-month-masks-on-tickets-623419182557</a><br><br>This event, like all NYC Resistor events is 18 and over and governed by out code of conduct.\u00a0<br><br>More information:\u00a0<a href=\"https://www.google.com/url?q=http://www.nycresistor.com/participate/&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw1wUIUV1qFGFLwgIAX6dIkL\" target=\"_blank\"><u>http://www.nycresistor.com/participate/</u></a><br>NYC Resistor Code of Conduct:\u00a0<a href=\"https://www.google.com/url?q=http://www.nycresistor.com/2015/08/04/nyc-resistor-code-of-conduct/&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw0FxoSzn8w-pu237gKg6lmI\" target=\"_blank\"><u>http://www.nycresistor.com/2015/08/04/nyc-resistor-code-of-conduct/</u></a>",
+      "startDate": "2026-12-04T18:30:00-05:00",
+      "endDate": "2026-12-04T21:30:00-05:00",
+      "category": [
+        "hackerspace",
+        "maker",
+        "hardware",
+        "electronics",
+        "laser cutting",
+        "3d printing",
+        "microcontrollers",
+        "robotics"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": true,
+      "tags": [],
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://www.eventbrite.com/e/public-craft-night-1st-fridays-and-3rd-wednesdays-of-the-month-masks-on-tickets-623419182557",
+        "original_event_id": "0iqqft475g0rh2qe28btv8gne9_20261204T233000Z",
+        "organizer": {
+          "name": "NYCResistor",
+          "website": "",
+          "instagram": "",
+          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "87 3rd Ave, Brooklyn, NY 11217, USA",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false,
+        "luma_host": null,
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=MGlxcWZ0NDc1ZzByaDJxZTI4YnR2OGduZTlfMjAyNjEyMDRUMjMzMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn"
+      }
+    },
+    {
+      "id": "evt_gcal_com_nyc_resistor_0217e561",
+      "name": "HOLD: Repair Event (Maurice)",
+      "type": "hackerspace",
+      "locationId": "loc_nyc_resistor",
+      "communityId": "com_nyc_resistor",
+      "description": "",
+      "startDate": "2026-12-05T14:00:00-05:00",
+      "endDate": "2026-12-05T17:00:00-05:00",
+      "category": [
+        "hackerspace",
+        "maker",
+        "hardware",
+        "electronics",
+        "laser cutting",
+        "3d printing",
+        "microcontrollers",
+        "robotics"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": null,
+      "tags": [],
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://www.google.com/calendar/event?eid=N2tmMGN0YWRtYzc4YmYyNWNoMGNtdjc2cXNfMjAyNjEyMDVUMTkwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn",
+        "original_event_id": "7kf0ctadmc78bf25ch0cmv76qs_20261205T190000Z",
+        "organizer": {
+          "name": "NYCResistor",
+          "website": "",
+          "instagram": "",
+          "email": "p2m2av9dhrh4n1ub7jlsc68s7o@group.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": false,
+        "luma_host": null,
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=N2tmMGN0YWRtYzc4YmYyNWNoMGNtdjc2cXNfMjAyNjEyMDVUMTkwMDAwWiBwMm0yYXY5ZGhyaDRuMXViN2psc2M2OHM3b0Bn"
+      }
     }
   ],
-  "timestamp": "2026-09-02T12:25:55.625665"
+  "timestamp": "2026-09-03T12:23:21.004940"
 }

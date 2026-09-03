@@ -1,14 +1,14 @@
 {
   "events": [
     {
-      "id": "evt_gcal_com_south_park_commons_157a35a5",
-      "name": "Enterprise Security in the Age of AI at SPC NYC",
+      "id": "evt_gcal_com_south_park_commons_a1f80486",
+      "name": "Fireside with Qasar Younis, Applied Intuition",
       "type": "technology",
       "locationId": "",
       "communityId": "com_south_park_commons",
-      "description": "In July an OpenAI model escaped its evaluation sandbox and compromised Hugging Face's production infrastructure in a weekend. The model responsible was not publicly available. \n\nFrontier cyber capability now sits inside a handful of labs, and a gap is opening between those with access and everyone defending without it. \n\nWhen attacks move at machine speed and the attacker might be an AI, what does real protection even look like? \n\nJoin us for a conversation with senior security and AI leaders who live these questions daily.\nNick Muy:\u00a0Nicholas Muy is the VP of Engineering, Platform & Security / CISO at Scrut Automation, where he leads platform engineering, security, AI governance, and agentic AI product strategy for a GRC platform serving 1,700+ customers. He's also a Venture Partner at Tidal Ventures and co-leads the Angel Syndicate at Venture in Security.\u00a0He started as a childhood hacker who couldn't leave well enough alone, which led to the Department of Homeland Security, securing billions in travel transactions at Expedia, contributing to the first NIST Cybersecurity Framework v1.0, and eventually building security and product programs at high-growth startups. He reads Hobbes and Anthropic model reports with equal enthusiasm, fights engineers on architecture and marketing teams on unit economics, and doesn't discriminate against interesting problems.\nMariya\u00a0Vasileva:\u00a0Mariya Vasileva is a Senior Research Scientist at Meta, where she studies multimodal model behavior, safety and alignment, and the scalable evaluation of frontier AI systems. Her research focuses on understanding how models behave under complex constraints and developing rigorous methods for evaluating the reliability and security of increasingly agentic systems. Previously, she developed auditing methodologies for high-impact machine-learning and computer-vision systems at AWS. She holds a PhD in Computer Science from the University of Illinois Urbana-Champaign.\nJohn Kitaoka: John Kitaoka is a research fellow at MATS Research working on dangerous capability evaluations and scalable oversight for multi-agent systems with UK AISI and US CAISI. Prior to MATS, John worked with scientists at Harvard and Lawrence Livermore National Labs on automated red-teaming and verification techniques for dangerous knowledge elicitation by frontier models. He spent four years at Amazon Web Services as an AI Architect, and led AI product development for government technology sectors. His work spans scalable LLM evaluation for enterprises, multi-agent systems for critical sectors, and advising AI adoption across the public sector, and John has a background in mathematics and computer science from the University of Wisconsin-Madison.\nModerated By:\nYash Tulsani: Yash is a serial cybersecurity and AI founder & operator. He is currently building a new company that is creating the Intelligence Layer for Enterprise Security. Previously, he built CalypsoAI, which pioneered AI Runtime Security and AI Redteaming and was acquired by F5 Networks. Prior to CalypsoAI, Yash got his start building technology companies at UiPath, where he was lucky to see all sides of business building from early stage to public company. He started his career researching public technology companies at Credit Suisse and trading High Yield Bonds at BlackRock. Yash is just as comfortable talking about product architectures as he is about breaking down merger models.\nThank you to Asymptote Labs for their partnership on this event!\n\nAbout South Park Commons (SPC)\nSPC is a technical community and venture fund dedicated to helping founders, researchers, and technologists figure out what to work on next\u2014what we call the -1 to 0 stage of your career. We believe this is best accomplished in the most talent-dense community possible. Apply to SPC here.",
-      "startDate": "2026-09-02T21:30:00Z",
-      "endDate": "2026-09-02T23:00:00Z",
+      "description": "South Park Commons is delighted to host Qasar Younis, Co-founder and CEO of Applied Intuition.\nEvent Details\n11:30am: Doors Open + Mingling\n12:00pm-1:00pm: Fireside Chat\nBefore founding Applied Intuition, Qasar was the COO of Y Combinator, a prominent venture accelerator in Silicon Valley. Prior to Y Combinator, Qasar founded a technology firm, which was later acquired by Google, and worked as an automotive engineer at General Motors and Bosch. Younis has a bachelor\u2019s degree in mechanical engineering from Kettering University (formerly known as General Motors Institute) and an MBA from Harvard Business School.\nAbout South Park Commons (SPC)\nSPC is a technical community and venture fund dedicated to helping founders, researchers, and technologists figure out what to work on next\u2014what we call the -1 to 0 stage of your career. We believe this is best accomplished in the most talent-dense community possible.\nSPC events are open to members, alumni, and special guests of the community. The best way to join events at SPC is to apply for SPC membership.\n*Please note doors close at event start time and we are unable to accommodate pending, waitlist, or late arrivals.",
+      "startDate": "2026-09-15T18:30:00Z",
+      "endDate": "2026-09-15T20:00:00Z",
       "category": [
         "technology",
         "innovation",
@@ -24,12 +24,12 @@
       "capacity": null,
       "registrationRequired": false,
       "tags": [],
-      "image": "events/luma-event-bb202341.jpg",
+      "image": "events/luma-event-f802f598.jpg",
       "status": "upcoming",
       "metadata": {
         "source": "Google Calendar",
-        "source_url": "https://luma.com/sec-panel-nyc",
-        "original_event_id": "_clr78ba5clpkoja49lcn6trddoq36ka0clr6arjkecn6ot9edlgg",
+        "source_url": "https://luma.com/qasar-younis-spc",
+        "original_event_id": "_clr78bab65rjeui9b11misrg91mlkdq0clr6arjkecn6ot9edlgg",
         "organizer": {
           "name": "South Park Commons",
           "website": "https://luma.com/southparkcommons-events",
@@ -38,7 +38,7 @@
         },
         "venue": {
           "name": "",
-          "address": "New York, New York",
+          "address": "380 Brannan St\n380 Brannan St, San Francisco, California",
           "type": "Offline"
         },
         "speakers": [],
@@ -51,7 +51,7 @@
           "image": "https://images.lumacdn.com/calendars/zd/801eab25-f945-44b2-8d32-29a455bd485d",
           "type": "Organization"
         },
-        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmE1Y2xwa29qYTQ5bGNuNnRyZGRvcTM2a2EwY2xyNmFyamtlY242b3Q5ZWRsZ2cgYmZwdHUzYWpkYWU1Y2MyazE2Y3ZzMWFtZW5iZnQ3NjJAaQ"
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmFiNjVyamV1aTliMTFtaXNyZzkxbWxrZHEwY2xyNmFyamtlY242b3Q5ZWRsZ2cgYmZwdHUzYWpkYWU1Y2MyazE2Y3ZzMWFtZW5iZnQ3NjJAaQ"
       }
     },
     {
@@ -109,5 +109,5 @@
       }
     }
   ],
-  "timestamp": "2026-09-02T12:25:56.948862"
+  "timestamp": "2026-09-03T12:23:22.339202"
 }
