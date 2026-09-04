@@ -1,55 +1,6 @@
 {
   "events": [
     {
-      "id": "evt_gcal_com_verci_2a0ef24c",
-      "name": "Escape the Internet LIVE at Verci",
-      "type": "technology",
-      "locationId": "",
-      "communityId": "com_verci",
-      "description": "Find more information on https://luma.com/verci",
-      "startDate": "2026-09-03T23:30:00Z",
-      "endDate": "2026-09-04T00:30:00Z",
-      "category": [
-        "technology",
-        "innovation",
-        "society",
-        "community"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": [],
-      "image": "",
-      "status": "upcoming",
-      "metadata": {
-        "source": "Google Calendar",
-        "source_url": "https://luma.com/verci",
-        "original_event_id": "_cdgmopbm5krkil2i8din0gac8hbmci2l8p06atj5dpq76bjcekn6qo8",
-        "organizer": {
-          "name": "Verci Events",
-          "website": "",
-          "instagram": "",
-          "email": "pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com"
-        },
-        "venue": {
-          "name": "",
-          "address": "https://escapetheinternet.live/shows/escapetheinternet-demo-night",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": true,
-        "luma_host": null,
-        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2NkZ21vcGJtNWtya2lsMmk4ZGluMGdhYzhoYm1jaTJsOHAwNmF0ajVkcHE3NmJqY2VrbjZxbzggcGY2bzdkcmxmcmJobXBxbG1sdDdwMjE1ZTcwaTljam5AaQ"
-      }
-    },
-    {
       "id": "evt_gcal_com_verci_709df947",
       "name": "Verci Board Game Night",
       "type": "technology",
@@ -312,6 +263,55 @@
           "type": "Organization"
         },
         "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmJwYWxpNnVxaWw2NTE0NGxhaGRncm1nbWkwY2xyNmFyamtlY242b3Q5ZWRsZ2cgcGY2bzdkcmxmcmJobXBxbG1sdDdwMjE1ZTcwaTljam5AaQ"
+      }
+    },
+    {
+      "id": "evt_gcal_com_verci_efd1713c",
+      "name": "Verci Board Game Night",
+      "type": "technology",
+      "locationId": "",
+      "communityId": "com_verci",
+      "description": "Find more information on https://luma.com/verci",
+      "startDate": "2026-09-09T23:00:00Z",
+      "endDate": "2026-09-10T00:00:00Z",
+      "category": [
+        "technology",
+        "innovation",
+        "society",
+        "community"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": [],
+      "image": "",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://luma.com/verci",
+        "original_event_id": "_cdgmopbm5l952dr4e90niiic9124krb2ed06atj5dpq76bjcekn6qo8",
+        "organizer": {
+          "name": "Verci Events",
+          "website": "",
+          "instagram": "",
+          "email": "pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "https://partiful.com/e/cwFDXVHt8pa2ENc9AAxk",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": true,
+        "luma_host": null,
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2NkZ21vcGJtNWw5NTJkcjRlOTBuaWlpYzkxMjRrcmIyZWQwNmF0ajVkcHE3NmJqY2VrbjZxbzggcGY2bzdkcmxmcmJobXBxbG1sdDdwMjE1ZTcwaTljam5AaQ"
       }
     },
     {
@@ -1233,7 +1233,7 @@
         "community"
       ],
       "price": {
-        "amount": 1890.0,
+        "amount": 1750.0,
         "type": "Paid",
         "currency": "USD",
         "details": "General Admission"
@@ -1272,5 +1272,5 @@
       }
     }
   ],
-  "timestamp": "2026-09-03T12:23:34.715578"
+  "timestamp": "2026-09-04T12:25:09.582064"
 }

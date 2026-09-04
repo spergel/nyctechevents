@@ -1,60 +1,6 @@
 {
   "events": [
     {
-      "id": "evt_gcal_com_fractal_30997bd8",
-      "name": "[SleepaWeek NYC] Conflict as a Compass",
-      "type": "tech",
-      "locationId": "loc_fractal",
-      "communityId": "com_fractal",
-      "description": "The strongest relationships aren't conflict avoidant; they're skilled and practiced at repair.\nEver find yourself flailing when a relationship is in conflict \u2014 robotically reciting Nonviolent Communication scripts, giving in and abandoning yourself, or walking away?\nConflict, when held a certain way, can be a clear signal of what we want for ourselves and the people we love. Its pain can be a motivating and energizing force, pointing us towards deeper, more honest relationships with ourselves and others. It's simple, but not always easy.\n\n\"Sleepawake challenged me to be more real than I ever have been, and guided me towards acting radically in alignment with my truth. It's not at all easy, but the more I do this, the more I feel like my life is ripe with possibility.\"\nYou'll leave this workshop with:\nA new framework for understanding what conflict is, why it comes up, and how it can improve (rather than destroy) relationships\nReal practice diving into building understanding and repair, in a real conflict that's present in your life (up to you how spicy you want to go)\nA set of tools you can bring to future difficult conversations without sounding like a robot trying to say the right thing to make the conflict go away\nWhether you're a Sleepawake alum or never attended one of our events, this workshop is for you if you're wanting to expand your relational toolbox to include real, authentic, vulnerable, unscripted conflict repair.\nThis workshop will be adapted directly from our Conflict module at Sleepawake Immersive, our weeklong intensive program. We'll spend just enough time on theory to understand the territory we're entering, and then we'll spend the majority of the time on interactive exercises including journaling, small group work, and full-group discussion.\n\n\nIf you'd like to do this workshop in person with friends, you'll have the option to do the small group work portion together. You're just as welcome to come on your own; this workshop is designed for you to build skills that will support all your relationships beyond this evening.\nIn order to maintain an intimate group for this event with enough space for facilitated group discussion, we will be capping admission.\nAbout your facilitator\n\nRaven is a facilitator and curriculum builder at Sleepawake. She brings almost a decade of somatic, relational, and emotional work to the room. Previously a medic, filmmaker, tech worker, and hardcore meditator (accumulating four months in silent meditation including a stint in a monastery in Myanmar), her work now draws from various meditation traditions: Vipassana (Goenka, Gaya House traditions) and Mahamudra (Rigdzin with Dustin DiPerna). It also incorporates teachings from Realization Process (where she's a certified teacher, trained with Judith Blackstone and Roma Hammel), the Conscious Leadership Group (she's a certified 15 Commitments Coach, trained with Jim Dethmer and Diana Chapman), and a body of work that treats emotions as energy to be welcomed rather than managed, with enjoyment as the accelerator of change. Having worked with hundreds of people, Raven knows the stuff we most want to skip is usually the stuff worth staying with, and she makes this difficult task feel like a bold and wild ride.\nFor anyone who wants to access more personal freedom, to be honest about what they want, and to turn the most \"bad\" and difficult aspects of themselves into allies and heroes - Raven's got you.\nAt home in Berkeley, you might find her hanging out with her beautiful besties, playing narrative-driven video games and getting absolutely shredded at the gym.\nAbout SleepaWeek\nSleepawake is coming to NYC for a week! Check out our events calendar to see everything happening this week. If the ticket price is a blocker to your attendance, please reach out to info@sleepawake.camp for details on need-based scholarship discounts.",
-      "startDate": "2026-09-03T23:00:00Z",
-      "endDate": "2026-09-04T01:00:00Z",
-      "category": [
-        "tech",
-        "startup",
-        "innovation",
-        "education"
-      ],
-      "price": {
-        "amount": 25.0,
-        "type": "Paid",
-        "currency": "USD",
-        "details": "General Admission"
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": [],
-      "image": "events/luma-event-ff630d83.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source": "Google Calendar",
-        "source_url": "https://luma.com/xc9ceakv",
-        "original_event_id": "_clr78ba2eor4gl9gd8q4cd2971834ka0clr6arjkecn6ot9edlgg",
-        "organizer": {
-          "name": "Sleepawake Events Calendar",
-          "website": "https://luma.com/sleepawake-events",
-          "instagram": "",
-          "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
-        },
-        "venue": {
-          "name": "Fractal Tech",
-          "address": "111 Conselyea St, Brooklyn, NY 11211",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": true,
-        "luma_host": {
-          "name": "Sleepawake Events Calendar",
-          "url": "https://luma.com/sleepawake-events",
-          "image": "https://images.lumacdn.com/calendars/ec/cf307a72-ca44-45b4-ae52-b182e0652f95",
-          "type": "Organization"
-        },
-        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmEyZW9yNGdsOWdkOHE0Y2QyOTcxODM0a2EwY2xyNmFyamtlY242b3Q5ZWRsZ2cgdDN2MnJzb3VmZmZsMjA2amgxMDJ0dmEzamVla2ZnbWVAaQ"
-      }
-    },
-    {
       "id": "evt_gcal_com_fractal_bdce6db8",
       "name": "[SleepaWeek NYC] Freezestylin'",
       "type": "tech",
@@ -1768,5 +1714,5 @@
       }
     }
   ],
-  "timestamp": "2026-09-03T12:23:20.411712"
+  "timestamp": "2026-09-04T12:24:54.268536"
 }

@@ -107,7 +107,169 @@
         },
         "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmJrOThxa2VsOWlhc3FrY2Npazk1cjZzaWkwY2xyNmFyamtlY242b3Q5ZWRsZ2cgYmZwdHUzYWpkYWU1Y2MyazE2Y3ZzMWFtZW5iZnQ3NjJAaQ"
       }
+    },
+    {
+      "id": "evt_gcal_com_south_park_commons_245d7b38",
+      "name": "-1 to Waymo with Dmitri Dolgov",
+      "type": "technology",
+      "locationId": "",
+      "communityId": "com_south_park_commons",
+      "description": "South Park Commons is delighted to host Dmitri Dolgov, co-CEO of Waymo as part of our -1 to Now series.\nEvent Details\n2:30pm: Doors Open\n3:00-4:00pm: Fireside Chat\n\nDmitri Dolgov is the co-CEO of Waymo, an autonomous driving technology company with a mission to be the world\u2019s most trusted driver.\nDmitri is one of the founders of the Google self-driving car project, which began in 2009 and became Waymo in 2016. As co-CEO, Dmitri is responsible for overall company strategy, with his primary focus on the development and deployment of the Waymo Driver, based on a custom, in-house designed, fully autonomous technology stack.\n\nDmitri previously served as Waymo\u2019s CTO. Prior to Waymo, Dmitri worked on autonomous driving efforts at Toyota and at Stanford as part of Stanford's DARPA Urban Challenge team.\nDmitri received his B.S. and M.S. in Physics and Math from the Moscow Institute of Physics and Technology, and a Ph.D. in Computer Science from the University of Michigan.\n\nAbout South Park Commons (SPC)\nSPC is a technical community and venture fund dedicated to helping founders, researchers, and technologists figure out what to work on next\u2014what we call the -1 to 0 stage of your career. We believe this is best accomplished in the most talent-dense community possible.\nSPC events are open to members, alumni, and special guests of the community. The best way to join events at SPC is to apply for SPC membership.\n*Please note doors close at event start time and we are unable to accommodate pending, waitlist, or late arrivals.",
+      "startDate": "2026-09-21T21:30:00Z",
+      "endDate": "2026-09-21T23:00:00Z",
+      "category": [
+        "technology",
+        "innovation",
+        "learning",
+        "community"
+      ],
+      "price": {
+        "amount": 0.0,
+        "type": "Free",
+        "currency": "USD",
+        "details": "General Admission"
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": [],
+      "image": "events/luma-event-46dc53df.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://luma.com/dmitri-waymo-spc",
+        "original_event_id": "_clr78bb4b1s5ad37chd36pic8ti5kqa0clr6arjkecn6ot9edlgg",
+        "organizer": {
+          "name": "South Park Commons",
+          "website": "https://luma.com/southparkcommons-events",
+          "instagram": "",
+          "email": "bfptu3ajdae5cc2k16cvs1amenbft762@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "San Francisco, California",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": true,
+        "luma_host": {
+          "name": "South Park Commons",
+          "url": "https://luma.com/southparkcommons-events",
+          "image": "https://images.lumacdn.com/calendars/zd/801eab25-f945-44b2-8d32-29a455bd485d",
+          "type": "Organization"
+        },
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmI0YjFzNWFkMzdjaGQzNnBpYzh0aTVrcWEwY2xyNmFyamtlY242b3Q5ZWRsZ2cgYmZwdHUzYWpkYWU1Y2MyazE2Y3ZzMWFtZW5iZnQ3NjJAaQ"
+      }
+    },
+    {
+      "id": "evt_gcal_com_south_park_commons_6ad5497a",
+      "name": "-1 to Physical Intelligence with Sergey Levine",
+      "type": "technology",
+      "locationId": "",
+      "communityId": "com_south_park_commons",
+      "description": "South Park Commons is delighted to host Sergey Levine, co-founder at Physical Intelligence and UC Berkeley professor.\nEvent Details\n10:30am: Doors Open + Mingling\n11:00am-12:00pm: Fireside Chat\nSergey Levine is one of the world's top robotics researchers and co-founder at Physical Intelligence. He joined the faculty of the Department of Electrical Engineering and Computer Sciences at UC Berkeley in fall 2016. His work focuses on machine learning for decision making and control, with an emphasis on deep learning and reinforcement learning algorithms. Applications of his work include autonomous robots and vehicles, as well as applications in other decision-making domains. His research includes developing algorithms for end-to-end training of deep neural network policies that combine perception and control, scalable algorithms for inverse reinforcement learning, deep reinforcement learning algorithms, and more. He received a BS and MS in Computer Science from Stanford University in 2009, and a Ph.D. in Computer Science from Stanford University in 2014.\n\nAbout South Park Commons (SPC)\nSPC is a technical community and venture fund dedicated to helping founders, researchers, and technologists figure out what to work on next\u2014what we call the -1 to 0 stage of your career. We believe this is best accomplished in the most talent-dense community possible.\nSPC events are open to members, alumni, and special guests of the community. The best way to join events at SPC is to apply for SPC membership.\n*Please note doors close at event start time and we are unable to accommodate pending, waitlist, or late arrivals.",
+      "startDate": "2026-10-06T17:30:00Z",
+      "endDate": "2026-10-06T19:00:00Z",
+      "category": [
+        "technology",
+        "innovation",
+        "learning",
+        "community"
+      ],
+      "price": {
+        "amount": 0.0,
+        "type": "Free",
+        "currency": "USD",
+        "details": "General Admission"
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": [],
+      "image": "events/luma-event-d80c5ff3.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://luma.com/sergey-spc",
+        "original_event_id": "_clr78ba7dlt62jb789kjcdbhb8qleda0clr6arjkecn6ot9edlgg",
+        "organizer": {
+          "name": "South Park Commons",
+          "website": "https://luma.com/southparkcommons-events",
+          "instagram": "",
+          "email": "bfptu3ajdae5cc2k16cvs1amenbft762@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "San Francisco, California",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": true,
+        "luma_host": {
+          "name": "South Park Commons",
+          "url": "https://luma.com/southparkcommons-events",
+          "image": "https://images.lumacdn.com/calendars/zd/801eab25-f945-44b2-8d32-29a455bd485d",
+          "type": "Organization"
+        },
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmE3ZGx0NjJqYjc4OWtqY2RiaGI4cWxlZGEwY2xyNmFyamtlY242b3Q5ZWRsZ2cgYmZwdHUzYWpkYWU1Y2MyazE2Y3ZzMWFtZW5iZnQ3NjJAaQ"
+      }
+    },
+    {
+      "id": "evt_gcal_com_south_park_commons_1ebf3432",
+      "name": "-1 to Anduril with Trae Stephens",
+      "type": "technology",
+      "locationId": "",
+      "communityId": "com_south_park_commons",
+      "description": "South Park Commons is delighted to host Trae Stephens as part of our -1 to Now series.\nEvent Details\n3:00pm: Doors Open + Mingling\n3:30-4:30pm: Fireside Chat\n\nTrae is a General Partner at Founders Fund. He is also Co-founder and Executive Chairman of Anduril Industries, a defense technology company focused on autonomous systems.\nPreviously, Trae was an early employee at Palantir Technologies, where he led teams focused on growth in the intelligence/defense space as well as international expansion, helping large organizations solve their hardest data analysis problems. He was also an integral part of the product team, leading the design and strategy for new product offerings. While at Palantir, Trae also served as an adjunct faculty member at Georgetown University.\nPrior to Palantir, Trae worked as a computational linguist building enterprise solutions to Arabic/Persian name matching and data enrichment within the United States Intelligence community. He began his career working in the office of then Congressman Rob Portman and in the Political Affairs Office at the Embassy of Afghanistan in Washington, D.C. immediately following the installation of Hamid Karzai\u2019s transitional government. Trae graduated from the School of Foreign Service at Georgetown University.\n\nAbout South Park Commons (SPC)\nSPC is a technical community and venture fund dedicated to helping founders, researchers, and technologists figure out what to work on next\u2014what we call the -1 to 0 stage of your career. We believe this is best accomplished in the most talent-dense community possible.\nSPC events are open to members, alumni, and special guests of the community. The best way to join events at SPC is to apply for SPC membership.\n*Please note doors close at event start time and we are unable to accommodate pending, waitlist, or late arrivals.",
+      "startDate": "2026-10-21T22:00:00Z",
+      "endDate": "2026-10-21T23:30:00Z",
+      "category": [
+        "technology",
+        "innovation",
+        "learning",
+        "community"
+      ],
+      "price": {
+        "amount": 0.0,
+        "type": "Free",
+        "currency": "USD",
+        "details": "General Admission"
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": [],
+      "image": "events/luma-event-7ba81d3e.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://luma.com/trae-stephens-spc",
+        "original_event_id": "_clr78bbecl9m8lpgd4pk8shmcl1k4ri0clr6arjkecn6ot9edlgg",
+        "organizer": {
+          "name": "South Park Commons",
+          "website": "https://luma.com/southparkcommons-events",
+          "instagram": "",
+          "email": "bfptu3ajdae5cc2k16cvs1amenbft762@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "San Francisco, California",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": true,
+        "luma_host": {
+          "name": "South Park Commons",
+          "url": "https://luma.com/southparkcommons-events",
+          "image": "https://images.lumacdn.com/calendars/zd/801eab25-f945-44b2-8d32-29a455bd485d",
+          "type": "Organization"
+        },
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmJlY2w5bThscGdkNHBrOHNobWNsMWs0cmkwY2xyNmFyamtlY242b3Q5ZWRsZ2cgYmZwdHUzYWpkYWU1Y2MyazE2Y3ZzMWFtZW5iZnQ3NjJAaQ"
+      }
     }
   ],
-  "timestamp": "2026-09-03T12:23:22.339202"
+  "timestamp": "2026-09-04T12:24:56.826698"
 }
