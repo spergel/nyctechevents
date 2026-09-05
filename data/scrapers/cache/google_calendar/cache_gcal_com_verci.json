@@ -1057,11 +1057,11 @@
     },
     {
       "id": "evt_gcal_com_verci_8ce6b882",
-      "name": "Founders Dinner with Verci, Imaginary Ventures, Mercury",
+      "name": "Consumer Founders Dinner with Imaginary Ventures, Verci, and JPM",
       "type": "technology",
       "locationId": "",
       "communityId": "com_verci",
-      "description": "About this event\nVerci, Imaginary Ventures, and Mercury are hosting a private, curated dinner for a select group of consumer founders building in NYC\nMore about the hosts\nImaginary Ventures is a leading venture capital firm dedicated to building and partnering with iconic, generationally-defining consumer businesses \u2013 and select enabling technology businesses.\nMercury is the fintech ambitious companies use for banking* and all their financial workflows. With a powerful account at the center of their operations, companies can make better financial decisions and ensure that every dollar spent aligns with company priorities. Over 300K startups choose Mercury to confidently run all their financial operations with the precision, control, and focus they need to operate at their best. *Mercury is a fintech company, not an FDIC-insured bank. Banking services provided through Choice Financial Group and Column N.A., Members FDIC.\nVerci is a workspace and social space in NYC (and soon LA/SF), meticulously curated for founders, artists, and creatives. Learn more at verci.com and read our manifesto at verci.com/manifesto.",
+      "description": "We're bringing together ~20 cpg and consumer founders for a private, curated dinner in NYC, co-hosted by Imaginary Ventures, Verci, and JPM.\nJoin us for an evening of great food, unhurried conversation, and a table full of the people shaping what consumer becomes next.\nMore about the hosts\nImaginary Ventures is a leading venture capital firm dedicated to building and partnering with iconic, generationally-defining consumer businesses \u2013 and select enabling technology businesses.\nJPM Blurb\nWe started Verci with one goal: support unconventional people through community. That instinct became Verci - a event and co-working space in NYC & LA, home to 350+ nights of dinners, salons, and gatherings built on the idea that proximity creates the conditions for great things to happen. Hopefully we'll have the privilege of hosting you soon. read our manifesto at verci.com/manifesto.",
       "startDate": "2026-09-29T23:00:00Z",
       "endDate": "2026-09-30T01:00:00Z",
       "category": [
@@ -1079,7 +1079,7 @@
       "capacity": null,
       "registrationRequired": false,
       "tags": [],
-      "image": "events/luma-event-7f1e1be8.jpg",
+      "image": "events/luma-event-57a34053.jpg",
       "status": "upcoming",
       "metadata": {
         "source": "Google Calendar",
@@ -1161,6 +1161,60 @@
           "type": "Organization"
         },
         "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmFiYXBzNWdycG1lZHQzZ3MzMTY5aDdpYzIwY2xyNmFyamtlY242b3Q5ZWRsZ2cgcGY2bzdkcmxmcmJobXBxbG1sdDdwMjE1ZTcwaTljam5AaQ"
+      }
+    },
+    {
+      "id": "evt_gcal_com_verci_0a2ed1bc",
+      "name": "Community Builders Dinner w/ Harmonic and Verci",
+      "type": "technology",
+      "locationId": "",
+      "communityId": "com_verci",
+      "description": "We're bringing together the heads of startup partnerships, venture partnerships, and GTM leaders for an evening of incredible dinner by a renowned private chef on a rooftop in flatiron.\nThere's lots to talk about and we'd love to see you there.\nThe hosts:\nHarmonic is the startup discovery platform trusted by teams such as Brex and Notion, as well as thousands of investors from firms including Google Ventures, Founders Fund, and Antler.\nVerci is a workspace and social space in NYC, meticulously curated for founders, artists, and creatives. Learn more at verci.com and read our manifesto at verci.com/manifesto.",
+      "startDate": "2026-10-01T23:00:00Z",
+      "endDate": "2026-10-02T02:00:00Z",
+      "category": [
+        "technology",
+        "innovation",
+        "society",
+        "community"
+      ],
+      "price": {
+        "amount": 0.0,
+        "type": "Free",
+        "currency": "USD",
+        "details": "General Admission"
+      },
+      "capacity": null,
+      "registrationRequired": false,
+      "tags": [],
+      "image": "events/luma-event-90785bae.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source": "Google Calendar",
+        "source_url": "https://luma.com/verci-zabv",
+        "original_event_id": "_clr78ba6eld6gpro88p6qjhje1s3aki0clr6arjkecn6ot9edlgg",
+        "organizer": {
+          "name": "Verci Events",
+          "website": "https://luma.com/verci",
+          "instagram": "",
+          "email": "pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com"
+        },
+        "venue": {
+          "name": "",
+          "address": "Verci Flatiron\nVerci Flatiron, New York, New York",
+          "type": "Offline"
+        },
+        "speakers": [],
+        "social_links": [],
+        "featured": false,
+        "luma_source": true,
+        "luma_host": {
+          "name": "Verci Events",
+          "url": "https://luma.com/verci",
+          "image": "https://images.lumacdn.com/calendars/kw/d2a68898-7b2c-40c0-b2b7-27a313e1f6d2",
+          "type": "Organization"
+        },
+        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmE2ZWxkNmdwcm84OHA2cWpoamUxczNha2kwY2xyNmFyamtlY242b3Q5ZWRsZ2cgcGY2bzdkcmxmcmJobXBxbG1sdDdwMjE1ZTcwaTljam5AaQ"
       }
     },
     {
@@ -1272,5 +1326,5 @@
       }
     }
   ],
-  "timestamp": "2026-09-04T12:25:09.582064"
+  "timestamp": "2026-09-05T11:31:55.729725"
 }

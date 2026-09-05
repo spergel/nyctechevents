@@ -1,60 +1,6 @@
 {
   "events": [
     {
-      "id": "evt_gcal_com_fractal_bdce6db8",
-      "name": "[SleepaWeek NYC] Freezestylin'",
-      "type": "tech",
-      "locationId": "loc_fractal",
-      "communityId": "com_fractal",
-      "description": "Creativity isn\u2019t limited to our abilities to paint a nice picture or dance in the coolest way \u2014 it\u2019s the skill underlying innovation. Fundamentally, it is the ability to build something out of nothing, whether that thing is a product or a business or a song you sing in the shower.\nYou\u2019ll leave this event with quicker and easier access to your creative prowess \u2014 which you can channel directly into any part of your life in need of creative problem solving.\nThis night is designed for laughter and curiosity, not performing or being \"good\" at art.\n\n\u201cEvery child is an artist. The problem is how to remain an artist once we grow up.\u201d - Picasso\nAs children, all of us knew how to sing and dance and draw without worrying about whether it was good enough. As we grow up, most of us learn to censor our own creative impulses, only building when we are confident we can create something good. In doing so, we block ourselves off from our own creative abilities, and lose out on our grandest ideas and innovations.\nTonight, we\u2019ll use the voice as our medium to train our long-unused creative muscles. We\u2019ll start gently. Although all of us knew as children how to sing and dance like no one\u2019s watching, most of us have now learned that we have to be good at creativity in order to be comfortable accessing it. Through wordplay, rhythm, and singing games, we\u2019ll slowly open to the possibility that we can create badly (and to the fun that ensues) \u2014 which, counterintuitively, unblocks more access to our creativity and our ability to create well.\nThis is not built for professional artists \u2014 this event is for people who are excited about the idea of having more access to creative thinking in their day-to-day lives, and who are open to (and probably also intimidated by) the idea of rapping or singing as part of structured games in a group of amateurs.\n\u201cRemember, before you can be great, you\u2019ve got to be good. Before you can be good, you\u2019ve got to be bad. But before you can even be bad, you\u2019ve got to try.\u201d - Art Williams\nEverything we offer at this event will be opt-in. We will never make you get up on stage in front of everyone \u2014 we\u2019ll never push you to doing any part of this that you don\u2019t want to do. This night is for you, and we are in full support of your choices about how you\u2019d like to participate.\nOur facilitation team has been running this event for over four years, and they are familiar with both the joy and the fear that people often feel around creative expression.\nAgenda\nSettling in & short introduction to creative access as a trainable skill\nIndividual freestyle word-play games \u2014 no one will be listening to you\nGroup-based low-stakes voice and rhythm games \u2014 focused on the joy of what\u2019s created, whether good or terrible\nGroup-based singing games \u2014 sweet, gentle, and facilitated by our team to support you in participating to exactly whatever extent you\u2019d like to\nOpen-ended time to hang out and join or listen to a jam session\nLogistics\nThere are limited spots at this event, and we will not take walk-ins if it sells out \u2014 we have a specific cap on attendance so that we can accommodate breakout groups with our facilitation team\nYou may want a water bottle; no need to bring anything else\nPlease arrive on time and plan to stay for the duration of the event; the evening is a full arc where each activity builds on the previous one\nCome solo or with friends\nIf the ticket price poses a financial strain for you, please reach out to info@sleepawake.camp for details on need-based scholarships\nAbout your facilitator\n\nRaven is a facilitator and curriculum builder at Sleepawake. She brings almost a decade of somatic, relational, and emotional work to the room. Previously a medic, filmmaker, tech worker, and hardcore meditator (accumulating four months in silent meditation including a stint in a monastery in Myanmar), her work now draws from various meditation traditions: Vipassana (Goenka, Gaya House traditions) and Mahamudra (Rigdzin with Dustin DiPerna). It also incorporates teachings from Realization Process (where she's a certified teacher, trained with Judith Blackstone and Roma Hammel), the Conscious Leadership Group (she's a certified 15 Commitments Coach, trained with Jim Dethmer and Diana Chapman), and a body of work that treats emotions as energy to be welcomed rather than managed, with enjoyment as the accelerator of change. Having worked with hundreds of people, Raven knows the stuff we most want to skip is usually the stuff worth staying with, and she makes this difficult task feel like a bold and wild ride.\nFor anyone who wants to access more personal freedom, to be honest about what they want, and to turn the most \"bad\" and difficult aspects of themselves into allies and heroes - Raven's got you.\nAt home in Berkeley, you might find her hanging out with her beautiful besties, playing narrative-driven video games and getting absolutely shredded at the gym.\nAbout SleepaWeek\nSleepawake is coming to NYC for a week! Check out our events calendar to see everything happening this week. If the ticket price is a blocker to your attendance, please reach out to info@sleepawake.camp for details on need-based scholarship discounts.",
-      "startDate": "2026-09-04T23:00:00Z",
-      "endDate": "2026-09-05T01:00:00Z",
-      "category": [
-        "tech",
-        "startup",
-        "innovation",
-        "education"
-      ],
-      "price": {
-        "amount": 25.0,
-        "type": "Paid",
-        "currency": "USD",
-        "details": "General Admission"
-      },
-      "capacity": null,
-      "registrationRequired": false,
-      "tags": [],
-      "image": "events/luma-event-7e1ab032.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source": "Google Calendar",
-        "source_url": "https://luma.com/4wvpj1lp",
-        "original_event_id": "_clr78ba784qjihapf5cmcljm8p75coa0clr6arjkecn6ot9edlgg",
-        "organizer": {
-          "name": "Sleepawake Events Calendar",
-          "website": "https://luma.com/sleepawake-events",
-          "instagram": "",
-          "email": "t3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com"
-        },
-        "venue": {
-          "name": "Fractal Tech",
-          "address": "111 Conselyea St, Brooklyn, NY 11211",
-          "type": "Offline"
-        },
-        "speakers": [],
-        "social_links": [],
-        "featured": false,
-        "luma_source": true,
-        "luma_host": {
-          "name": "Sleepawake Events Calendar",
-          "url": "https://luma.com/sleepawake-events",
-          "image": "https://images.lumacdn.com/calendars/ec/cf307a72-ca44-45b4-ae52-b182e0652f95",
-          "type": "Organization"
-        },
-        "google_calendar_link": "https://www.google.com/calendar/event?eid=X2Nscjc4YmE3ODRxamloYXBmNWNtY2xqbThwNzVjb2EwY2xyNmFyamtlY242b3Q5ZWRsZ2cgdDN2MnJzb3VmZmZsMjA2amgxMDJ0dmEzamVla2ZnbWVAaQ"
-      }
-    },
-    {
       "id": "evt_gcal_com_fractal_86de1804",
       "name": "Gardening on the Roof - Summer '26 Season",
       "type": "tech",
@@ -1714,5 +1660,5 @@
       }
     }
   ],
-  "timestamp": "2026-09-04T12:24:54.268536"
+  "timestamp": "2026-09-05T11:31:43.012934"
 }
